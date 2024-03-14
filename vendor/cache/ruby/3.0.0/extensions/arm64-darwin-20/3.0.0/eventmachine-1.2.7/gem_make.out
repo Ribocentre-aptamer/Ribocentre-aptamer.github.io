@@ -1,0 +1,16 @@
+current directory: /Users/aoying/Downloads/Ribocentre-switch.github.io-main/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/aoying/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/aoying/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240118-82539-id1zwl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/aoying/Downloads/Ribocentre-switch.github.io-main/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/aoying/Downloads/Ribocentre-switch.github.io-main/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/aoying/Downloads/Ribocentre-switch.github.io-main/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20240118-82539-2ouy1i
