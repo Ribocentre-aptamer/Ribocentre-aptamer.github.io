@@ -1,0 +1,204 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-12, .cls-2, .cls-6, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-6, .cls-7, .cls-8 {
+        font-size: 26.66px;
+      }
+
+      .cls-1, .cls-14, .cls-8 {
+        fill: #f69;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-17, .cls-19, .cls-2, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-2 {
+        fill: #66f;
+      }
+
+      .cls-2, .cls-7, .cls-8 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+        stroke-miterlimit: 1.11;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-width: 0.14px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.25px;
+      }
+
+      .cls-13, .cls-6, .cls-7 {
+        fill: #bc00df;
+      }
+
+      .cls-17, .cls-9 {
+        font-size: 18px;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-15 {
+        font-size: 20px;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.07em;
+      }
+
+      .cls-19 {
+        font-size: 16px;
+      }
+    </style>
+  </defs>
+  <g id="ID000002">
+    <text class="cls-1" transform="translate(166.99 383.12)">G</text>
+  </g>
+  <g id="ID000003">
+    <text class="cls-1" transform="translate(166.99 356.39)">G</text>
+  </g>
+  <g id="ID000004">
+    <text class="cls-1" transform="translate(166.99 329.67)">G</text>
+  </g>
+  <g id="ID000005">
+    <text class="cls-2" transform="translate(143.97 300.71)">A</text>
+  </g>
+  <g id="ID000006">
+    <text class="cls-2" transform="translate(123.93 273.99)">A</text>
+  </g>
+  <g id="ID000007">
+    <text class="cls-2" transform="translate(221.92 262.85)">A</text>
+  </g>
+  <g id="ID000008">
+    <text class="cls-1" transform="translate(221.19 329.67)">fC</text>
+  </g>
+  <g id="ID000009">
+    <text class="cls-1" transform="translate(221.19 356.39)">fC</text>
+  </g>
+  <g id="ID000010">
+    <text class="cls-1" transform="translate(221.19 383.12)">fC</text>
+  </g>
+  <g id="ID000011">
+    <line class="cls-3" x1="188.05" y1="371.09" x2="220.13" y2="371.09"/>
+  </g>
+  <g id="ID000012">
+    <line class="cls-3" x1="188.05" y1="344.37" x2="220.13" y2="344.37"/>
+  </g>
+  <g id="ID000013">
+    <line class="cls-3" x1="188.05" y1="317.64" x2="220.13" y2="317.64"/>
+  </g>
+  <g id="ID000014">
+    <line class="cls-4" x1="230.82" y1="201.38" x2="230.82" y2="240.13"/>
+  </g>
+  <g id="ID000015">
+    <path class="cls-5" d="M236.27,213.18l-1.12,1.25a10.73,10.73,0,0,0-2.3,4.08h0a12.79,12.79,0,0,0-.33,1.49l-.28,1.89c0,.26-.09.51-.15.76l-1.27,5.69-1.28-5.69c-.06-.25-.11-.5-.15-.76l-.28-1.89a12.35,12.35,0,0,0-.33-1.49h0a10.73,10.73,0,0,0-2.3-4.08l-1.12-1.25Z"/>
+  </g>
+  <g id="ID000016">
+    <text class="cls-6" transform="translate(120.96 249.49)">fC</text>
+  </g>
+  <g id="ID000017">
+    <text class="cls-7" transform="translate(141.75 222.76)">A</text>
+  </g>
+  <g id="ID000018">
+    <text class="cls-8" transform="translate(168.47 202.72)">A</text>
+  </g>
+  <g id="ID000019">
+    <text class="cls-8" transform="translate(168.47 175.99)">A</text>
+  </g>
+  <g id="ID000020">
+    <text class="cls-1" transform="translate(166.99 149.26)">G</text>
+  </g>
+  <g id="ID000021">
+    <line class="cls-3" x1="159.55" y1="137.24" x2="141.73" y2="137.24"/>
+  </g>
+  <g id="ID000022">
+    <text class="cls-9" transform="translate(114.02 142.56)">10</text>
+  </g>
+  <g id="ID000023">
+    <text class="cls-6" transform="translate(147.69 122.54)">fC</text>
+  </g>
+  <g id="ID000024">
+    <g>
+      <text class="cls-10" transform="translate(134.33 89.13)">U</text>
+      <text class="cls-11" transform="translate(153.58 98.01) scale(0.58)">se</text>
+    </g>
+  </g>
+  <g id="ID000025">
+    <text class="cls-6" transform="translate(146.95 55.73)">G</text>
+  </g>
+  <g id="ID000026">
+    <text class="cls-12" transform="translate(181.83 35.68)">A</text>
+  </g>
+  <g id="ID000027">
+    <text class="cls-7" transform="translate(208.56 35.68)">A</text>
+  </g>
+  <g id="ID000028">
+    <text class="cls-6" transform="translate(233.81 55.73)">G</text>
+  </g>
+  <g id="ID000029">
+    <g>
+      <text class="cls-6" transform="translate(247.91 89.13)">U</text>
+      <text class="cls-13" transform="translate(267.16 98.01) scale(0.58)">Fs2</text>
+    </g>
+  </g>
+  <g id="ID000030">
+    <text class="cls-2" transform="translate(235.28 122.54)">A</text>
+  </g>
+  <g id="ID000031">
+    <text class="cls-1" transform="translate(221.19 149.26)">fC</text>
+  </g>
+  <g id="ID000032">
+    <text class="cls-1" transform="translate(221.19 175.99)">fU</text>
+  </g>
+  <g id="ID000033">
+    <line class="cls-3" x1="248.63" y1="163.97" x2="266.45" y2="163.97"/>
+  </g>
+  <g id="ID000034">
+    <text class="cls-9" transform="translate(275.32 169.39)">20</text>
+  </g>
+  <g id="ID000035">
+    <g>
+      <text class="cls-1" transform="translate(221.19 202.72)">U</text>
+      <text class="cls-14" transform="translate(240.44 211.59) scale(0.58)">se</text>
+    </g>
+  </g>
+  <g id="ID000036">
+    <line class="cls-3" x1="188.05" y1="190.69" x2="220.13" y2="190.69"/>
+  </g>
+  <g id="ID000037">
+    <line class="cls-3" x1="188.05" y1="163.97" x2="220.13" y2="163.97"/>
+  </g>
+  <g id="ID000038">
+    <line class="cls-3" x1="188.05" y1="137.24" x2="220.13" y2="137.24"/>
+  </g>
+  <g id="ID000039">
+    <line class="cls-4" x1="230.82" y1="261.52" x2="230.82" y2="306.95"/>
+  </g>
+  <g id="ID000040">
+    <path class="cls-5" d="M236.32,275.32l-1.13,1.26a10.8,10.8,0,0,0-2.32,4.12h0a9.55,9.55,0,0,0-.33,1.5l-.29,1.91c0,.26-.09.51-.14.77l-1.29,5.73-1.29-5.73c-.06-.26-.11-.51-.15-.77l-.29-1.91a9.55,9.55,0,0,0-.33-1.5h0a10.8,10.8,0,0,0-2.32-4.12l-1.13-1.26Z"/>
+  </g>
+  <text class="cls-15" transform="translate(140.44 394.26)">5<tspan class="cls-16" x="11.12" y="0">’</tspan></text>
+  <text class="cls-15" transform="translate(250.02 394.26)">3<tspan class="cls-16" x="11.12" y="0">’</tspan></text>
+  <text class="cls-17" transform="translate(9.2 20.75)">AF<tspan class="cls-18" x="23" y="0">1</tspan><tspan x="31.68" y="0">13-18 aptamer</tspan></text>
+  <text class="cls-19" transform="translate(281.3 328.56) scale(0.58)">fC/fU: 2′-F substituents<tspan x="0" y="32.93">se: 2′-SeMe substituents</tspan><tspan x="0" y="65.87" xml:space="preserve">Fs2: 3′-phosphate  replaced </tspan><tspan x="0" y="98.8" xml:space="preserve">          by a PS2 moiety</tspan></text>
+</svg>
