@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://aptamer.ribocentre.org/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aptamer.ribocentre.org/Ribocentre-aptamer/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aptamer.ribocentre.org/SELEX/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aptamer.ribocentre.org/structures/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aptamer.ribocentre.org/docs/ATP-aptamer/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aptamer.ribocentre.org/docs/B4-25-aptamer/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aptamer.ribocentre.org/docs/Pepper-aptamer/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aptamer.ribocentre.org/docs/FMN-aptamer/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+</urlset>
