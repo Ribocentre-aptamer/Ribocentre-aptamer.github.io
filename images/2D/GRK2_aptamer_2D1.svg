@@ -1,0 +1,186 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1, .cls-11, .cls-12, .cls-2, .cls-3, .cls-6, .cls-7, .cls-8 {
+        isolation: isolate;
+        font-size: 33.88px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #f93;
+      }
+
+      .cls-1, .cls-11, .cls-12, .cls-2, .cls-3, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-12, .cls-2, .cls-3 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #0c6;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #000;
+        stroke-miterlimit: 1.11;
+        stroke-width: 0.14px;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #96c;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-9 {
+        font-size: 20px;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-11, .cls-12 {
+        fill: #999;
+      }
+    </style>
+  </defs>
+  <g id="ID000002">
+    <text class="cls-1" transform="translate(200.36 364.83)">G</text>
+  </g>
+  <g id="ID000003">
+    <text class="cls-1" transform="translate(200.36 330.91)">G</text>
+  </g>
+  <g id="ID000004">
+    <text class="cls-1" transform="translate(201.3 297)">C</text>
+  </g>
+  <g id="ID000005">
+    <text class="cls-2" transform="translate(202.24 263.09)">A</text>
+  </g>
+  <g id="ID000006">
+    <text class="cls-1" transform="translate(200.36 229.17)">G</text>
+  </g>
+  <g id="ID000007">
+    <text class="cls-3" transform="translate(202.24 195.26)">A</text>
+  </g>
+  <g id="ID000008">
+    <text class="cls-1" transform="translate(269.13 229.17)">U</text>
+  </g>
+  <g id="ID000009">
+    <text class="cls-1" transform="translate(269.13 263.09)">U</text>
+  </g>
+  <g id="ID000010">
+    <text class="cls-1" transform="translate(268.19 297)">G</text>
+  </g>
+  <g id="ID000011">
+    <text class="cls-1" transform="translate(269.13 330.91)">C</text>
+  </g>
+  <g id="ID000012">
+    <text class="cls-1" transform="translate(269.13 364.83)">C</text>
+  </g>
+  <g id="ID000013">
+    <line class="cls-4" x1="227.1" y1="349.57" x2="267.8" y2="349.57"/>
+  </g>
+  <g id="ID000014">
+    <line class="cls-4" x1="227.1" y1="315.65" x2="267.8" y2="315.65"/>
+  </g>
+  <g id="ID000015">
+    <line class="cls-4" x1="227.1" y1="281.74" x2="267.8" y2="281.74"/>
+  </g>
+  <g id="ID000016">
+    <line class="cls-4" x1="227.1" y1="247.83" x2="267.8" y2="247.83"/>
+  </g>
+  <g id="ID000017">
+    <polygon class="cls-5" points="254.24 213.91 254.22 213.48 254.18 213.05 254.11 212.63 254.02 212.21 253.9 211.8 253.75 211.39 253.58 211 253.38 210.62 253.16 210.25 252.91 209.89 252.65 209.55 252.36 209.23 252.06 208.93 251.73 208.65 251.39 208.39 251.03 208.15 250.66 207.93 250.27 207.74 249.87 207.58 249.47 207.44 249.05 207.32 248.63 207.23 248.2 207.17 247.78 207.14 247.34 207.13 246.91 207.15 246.49 207.2 246.06 207.27 245.65 207.38 245.23 207.5 244.83 207.66 244.44 207.84 244.06 208.04 243.69 208.27 243.34 208.51 243.01 208.79 242.69 209.08 242.4 209.39 242.12 209.72 241.87 210.07 241.63 210.43 241.42 210.81 241.24 211.19 241.08 211.59 240.94 212 240.84 212.42 240.75 212.84 240.7 213.27 240.67 213.7 240.67 214.13 240.7 214.56 240.75 214.98 240.84 215.41 240.94 215.82 241.08 216.23 241.24 216.63 241.42 217.02 241.63 217.4 241.87 217.76 242.12 218.11 242.4 218.44 242.69 218.75 243.01 219.04 243.34 219.31 243.69 219.56 244.06 219.79 244.44 219.99 244.83 220.17 245.23 220.32 245.65 220.45 246.06 220.55 246.49 220.63 246.91 220.67 247.34 220.69 247.78 220.69 248.2 220.65 248.63 220.59 249.05 220.5 249.47 220.39 249.87 220.25 250.27 220.08 250.66 219.89 251.03 219.68 251.39 219.44 251.73 219.18 252.06 218.9 252.36 218.59 252.65 218.27 252.91 217.93 253.16 217.58 253.38 217.21 253.58 216.83 253.75 216.43 253.9 216.03 254.02 215.62 254.11 215.2 254.18 214.77 254.22 214.34 254.24 213.91"/>
+  </g>
+  <g id="ID000019">
+    <text class="cls-6" transform="translate(167.39 178.3)">C</text>
+  </g>
+  <g id="ID000020">
+    <text class="cls-6" transform="translate(133.48 178.3)">C</text>
+  </g>
+  <g id="ID000021">
+    <text class="cls-7" transform="translate(100.5 178.3)">A</text>
+  </g>
+  <g id="ID000022">
+    <text class="cls-8" transform="translate(65.65 178.3)">U</text>
+  </g>
+  <g id="ID000023">
+    <line class="cls-4" x1="77.88" y1="185.65" x2="77.88" y2="208.26"/>
+  </g>
+  <g id="ID000025">
+    <text class="cls-7" transform="translate(41.15 144.39)">A</text>
+  </g>
+  <g id="ID000026">
+    <text class="cls-8" transform="translate(65.65 110.48)">C</text>
+  </g>
+  <g id="ID000027">
+    <text class="cls-8" transform="translate(98.62 110.48)">G</text>
+  </g>
+  <g id="ID000028">
+    <text class="cls-6" transform="translate(132.54 110.48)">G</text>
+  </g>
+  <g id="ID000029">
+    <text class="cls-6" transform="translate(166.45 110.48)">G</text>
+  </g>
+  <g id="ID000030">
+    <line class="cls-4" x1="179.62" y1="149.48" x2="179.62" y2="108.78"/>
+  </g>
+  <g id="ID000031">
+    <line class="cls-4" x1="145.71" y1="149.48" x2="145.71" y2="108.78"/>
+  </g>
+  <g id="ID000032">
+    <line class="cls-4" x1="83.95" y1="150.91" x2="105.73" y2="107.35"/>
+  </g>
+  <g id="ID000033">
+    <polygon class="cls-5" points="97.88 123.06 97.48 122.88 97.08 122.73 96.67 122.6 96.25 122.5 95.83 122.42 95.4 122.37 94.97 122.35 94.54 122.35 94.11 122.39 93.69 122.45 93.27 122.53 92.85 122.64 92.44 122.78 92.05 122.95 91.66 123.14 91.28 123.35 90.93 123.59 90.58 123.85 90.26 124.13 89.95 124.43 89.66 124.75 89.39 125.09 89.15 125.44 88.93 125.81 88.73 126.19 88.55 126.59 88.4 126.99 88.28 127.4 88.19 127.82 88.12 128.25 88.07 128.68 88.06 129.1 88.07 129.54 88.11 129.96 88.18 130.39 88.27 130.81 88.39 131.22 88.54 131.63 88.71 132.02 88.9 132.41 89.12 132.78 89.36 133.13 89.63 133.47 89.92 133.79 90.22 134.09 90.55 134.38 90.89 134.64 91.25 134.88 91.62 135.1 92 135.29 92.4 135.46 92.8 135.6 93.22 135.72 93.64 135.81 94.07 135.87 94.49 135.9 94.92 135.91 95.36 135.89 95.78 135.85 96.21 135.77 96.63 135.67 97.04 135.55 97.44 135.4 97.83 135.22 98.21 135.02 98.58 134.79 98.93 134.54 99.27 134.27 99.58 133.98 99.88 133.67 100.16 133.34 100.41 133 100.65 132.63 100.86 132.26 101.05 131.87 101.21 131.47 101.34 131.06 101.45 130.65 101.53 130.22 101.59 129.8 101.62 129.37 101.62 128.94 101.6 128.51 101.54 128.08 101.46 127.66 101.36 127.24 101.22 126.83 101.06 126.43 100.88 126.04 100.67 125.67 100.44 125.3 100.19 124.95 99.91 124.62 99.62 124.31 99.3 124.02 98.97 123.75 98.62 123.5 98.25 123.27 97.88 123.06"/>
+  </g>
+  <text class="cls-9" transform="translate(179.62 382.01)">5<tspan class="cls-10" x="11.12" y="0">’</tspan></text>
+  <text class="cls-9" transform="translate(299.19 382.25)">3<tspan class="cls-10" x="11.12" y="0">’</tspan></text>
+  <g id="ID000023-2" data-name="ID000023">
+    <line class="cls-4" x1="200" y1="217.38" x2="177.39" y2="217.38"/>
+  </g>
+  <text class="cls-9" transform="translate(156.58 223.73)">5</text>
+  <text class="cls-9" transform="translate(63.81 229.17)">10</text>
+  <g id="ID000002-2" data-name="ID000002">
+    <text class="cls-11" transform="translate(216.53 61.11)">G</text>
+  </g>
+  <g id="ID000007-2" data-name="ID000007">
+    <text class="cls-12" transform="translate(193.87 81.5)">A</text>
+  </g>
+  <g id="ID000007-3" data-name="ID000007">
+    <text class="cls-12" transform="translate(257.24 51.34)">A</text>
+  </g>
+  <g id="ID000007-4" data-name="ID000007">
+    <text class="cls-12" transform="translate(313.43 95.1)">A</text>
+  </g>
+  <g id="ID000007-5" data-name="ID000007">
+    <text class="cls-12" transform="translate(319.15 166.11)">A</text>
+  </g>
+  <g id="ID000007-6" data-name="ID000007">
+    <text class="cls-12" transform="translate(330.49 129.13)">A</text>
+  </g>
+  <g id="ID000012-2" data-name="ID000012">
+    <text class="cls-11" transform="translate(285.8 195.26)">C</text>
+  </g>
+  <g id="ID000002-3" data-name="ID000002">
+    <text class="cls-11" transform="translate(292.41 66.7)">G</text>
+  </g>
+  <g id="ID000023-3" data-name="ID000023">
+    <line class="cls-4" x1="363.39" y1="81.5" x2="340.78" y2="81.5"/>
+  </g>
+  <text class="cls-9" transform="translate(371.73 90.74)">20</text>
+  <g id="ID000023-4" data-name="ID000023">
+    <line class="cls-4" x1="323.77" y1="250.86" x2="301.16" y2="250.86"/>
+  </g>
+  <text class="cls-9" transform="translate(332.11 260.1)">25</text>
+  <text class="cls-9" transform="translate(19.57 32.1)">C13.28 aptamer</text>
+</svg>
