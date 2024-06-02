@@ -1,0 +1,227 @@
+---
+---
+    
+@import "bootstrap";
+
+img { margin-bottom: 24px; 
+     margin-top: 17px; 
+    border-radius:2%;
+}
+
+
+body {
+	padding-top: 0px;
+}
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #000000;
+  background-color: #fff;
+}
+figcaption {
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.well {
+  /* border: 1px solid #e7e7e7; */
+  /* -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05); */
+  box-shadow: inset 0 0px 0 rgba(0, 0, 0, 0.05);
+}
+.well {
+  min-height: 20px;
+  padding: 19px;
+  /* margin-bottom: 20px; */
+  /* background-color: #fafafa; */
+  /* border: 1px solid #e8e8e8; */
+  border-radius: 1px;
+  /* -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); */
+  /* box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); */
+}
+/* Top navigation bar */
+
+
+p.byline {
+	text-align: center;
+	font-size: 18px;
+	line-height: 36px;
+	margin-top: -24px;
+	margin-bottom: 48px;
+}
+
+
+pubtit {
+	font-weight: bold;
+}
+
+firstp {
+}
+/* the all layout*/
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%; /* or 950px 1320px*/
+}
+
+.container-fluid2 {
+	margin-right: auto;
+	margin-left: auto;
+	max-width:100%; /* 72% (original)or 950px 1320px*/
+  }
+  
+/* Home, News */
+#newsid p {
+	text-align: center;
+}
+
+#homeidtmp h1 {
+	text-align: center;
+}
+
+#newsid img {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+/* Team & Publications */
+#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
+#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
+#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
+#gridid .row { margin-bottom: 24px; }
+
+
+/* Grid overrides */
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
+.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+/* Grid overrides */
+.col-sm-4 {
+	padding-left: 26px;
+	padding-right: 26px;
+}
+
+
+
+/*********************************************************************/
+
+/* Add this CSS to override Bootstrap's default link styles */
+.nav-link-0 {
+  color: white; /* Set default font color to white */
+  margin: 15px 10px;
+}
+
+/* Add this CSS to change link color on hover */
+.nav-link-0:hover {
+  color: black; /* Change font color to black on hover */
+} 
+
+/* Add this CSS to change SVG color on hover */
+.nav-link-0:hover > img{
+  filter: brightness(90%) invert(1); /* Invert SVG color to black on hover */
+}
+
+/* Add this CSS to override Bootstrap's default link styles */
+.nav-link-1 {
+  color: white; /* Set default font color to white */
+  font-size: 23px;
+}
+
+/* Carusel */
+/* timeline*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+    font-family: georgia;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+.timeline {
+  width:100%;
+  max-width:800px;
+  background:#fff;
+  padding: 100px 50px;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left:calc(33% + 15px); //$gutter/2
+    bottom: 100px;
+    width: 4px;
+    background: #ddd;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+}
+
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid transparent;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+  .title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border: 10px solid salmon;
+      background-color:#fff;
+      border-radius:100%;
+      top: 15%;
+      right: -8px;
+      z-index: 99;
+    }
+    h3 {
+      margin: 0;
+      font-size: 150%;
+    }
+    p {
+      margin: 0;
+      font-size: 130%;
+    }
+  }
+  .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 30px;
+    p {
+      line-height: 1.4em;
+      &:first-child {
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 120%
+      }
+    }
+  }
+}
+  
