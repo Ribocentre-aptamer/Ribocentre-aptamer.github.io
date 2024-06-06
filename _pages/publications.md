@@ -18,6 +18,9 @@ permalink: /publications/
   <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
   <!--set sort order in table header finish-->
   <style>
+body {
+    padding-top: 0px;
+}
     .box_style {
     background: #fff;
 }
