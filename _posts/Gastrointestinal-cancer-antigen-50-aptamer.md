@@ -68,7 +68,7 @@ categories: Aptamer
       border: 1px solid #ffffff;
       border-radius: 1px;
       width:170px;
-	    height:40px;
+     height:40px;
   }
   .box_style{
     background: #ffffff;
@@ -76,6 +76,14 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .ellipsis-btn {
+      color: purple;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .hidden-content {
+      display: none;
+    }
 </style>
 </head>
 <br>
@@ -143,7 +151,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td5"><a href="https://www.rcsb.org/structure/4MZV" target="_blank" style="color:#520049"><b>4MZV</b></a></td>
         <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/gene/4072" target="_blank" style="color:#520049"><b>4072</b></a></td>
       </tr>
-	  </tbody>
+   </tbody>
   </table>
 
 <font>Some isolated sequences bind to the affinity of the protein.</font>
@@ -170,7 +178,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td2">Homo sapien - CA50</td>
         <td name="td3">30.7 nM</td>
       </tr>
-	  </tbody>
+   </tbody>
   </table>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/CA50_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -269,7 +277,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                 
 <a id="ref1"></a><font><strong>[1] Novel RNA aptamers targeting gastrointestinal cancer biomarkers CEA, CA50 and CA72-4 with superior affinity and specificity.</strong></font><br />
 Pan, Q., Law, C. O., Yung, M. M., Han, K. C., Pon, Y. L., & Lau, T. C. K.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30303958/" target="_blank" style="color:#520049">PLoS One, 13(10), e0198980. (2018)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30303958/" target="_blank" style="color:#520049">PLoS One, 13(10), e0198980. (2018)</a>
 <br/>
 
 
@@ -333,4 +341,35 @@ Pan, Q., Law, C. O., Yung, M. M., Han, K. C., Pon, Y. L., & Lau, T. C. K.<br />
     colorSelectionButton1.click();
   });
     </script>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">...</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = 'Collapse'; // 更新按钮文字为“Collapse”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>
