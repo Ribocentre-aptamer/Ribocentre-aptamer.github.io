@@ -105,7 +105,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>5'-ACCCUGAUGGUAGACGCCGGGGUG-3'</p></font>
-<img src="/images/2D/24A_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/24A_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
@@ -158,31 +158,31 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tr>
       <td name="td0">NX-213</td>
       <td name="td1">5'-ACCCUGAUGGUAGACGCCGGGGUG-3'</td>
-      <td name="td2">nan</td>
+      <td name="td2">NA</td>
       <td name="td3">0.14 ± 0.01 nM</td>
     </tr>
      <tr>
       <td name="td0">NX-178</td>
       <td name="td1">5'-ACCCUGAUGGUAGACGCCGGGGUG-3'</td>
-      <td name="td2">nan</td>
+      <td name="td2">NA</td>
       <td name="td3">2.4 ± 0.5 nM</td>
     </tr>
      <tr>
       <td name="td0">NX-191</td>
       <td name="td1">5'-ACCCUGAUGGUAGACGCCGGGGUG-3'</td>
-      <td name="td2">nan</td>
+      <td name="td2">NA</td>
       <td name="td3">250 ± 130 nM</td>
     </tr>
      <tr>
       <td name="td0">NX-223</td>
       <td name="td1">5'-ACCCUGAUGGUAGACGCCGGGGUG-3'</td>
-      <td name="td2">nan</td>
+      <td name="td2">NA</td>
       <td name="td3">250 ± 100 nM</td>
     </tr>
      <tr>
       <td name="td0">NX-224</td>
       <td name="td1">5'-ACCCUGAUGGUAGACGCCGGGGUG-3'</td>
-      <td name="td2">nan</td>
+      <td name="td2">NA</td>
       <td name="td3">320 ±70 nM</td>
     </tr>
 	  </tbody>
