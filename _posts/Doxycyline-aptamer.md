@@ -150,7 +150,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/Doxycyline_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;"></div>
+<!--div style="display: flex; justify-content: center;"></div>
 <br>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -169,7 +169,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td3">20 ± 5 nM</td>
       </tr>
 	  </tbody>
-  </table>
+  </table-->
 <br>
 
 
