@@ -108,7 +108,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/2D/ps11-20_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
-<br>
 
 
 
