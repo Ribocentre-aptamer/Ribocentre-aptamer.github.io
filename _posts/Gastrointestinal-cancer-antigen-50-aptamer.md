@@ -77,7 +77,7 @@ categories: Aptamer
   margin: 0 0 0px;
   }
   .ellipsis-btn {
-      color: purple;
+      color: #520049;
       cursor: pointer;
       text-decoration: underline;
     }
@@ -349,7 +349,7 @@ Pan, Q., Law, C. O., Yung, M. M., Han, K. C., Pon, Y. L., & Lau, T. C. K.<br />
       var displayedText = originalText.substring(0, maxLength);
       
       if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">...</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
         displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
         td.innerHTML = displayedText;
         
@@ -365,7 +365,7 @@ Pan, Q., Law, C. O., Yung, M. M., Han, K. C., Pon, Y. L., & Lau, T. C. K.<br />
             td.appendChild(ellipsisBtn); // 将按钮移到内容后面
           } else {
             hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为省略号
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
             td.appendChild(ellipsisBtn); // 将按钮移到内容后面
           }
         });
