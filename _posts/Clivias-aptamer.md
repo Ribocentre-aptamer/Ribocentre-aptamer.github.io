@@ -366,12 +366,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <font>To determine the dissociation constants of Clivia with different fluorophores, 20 nM Clivia RNA was incubated with increasing concentrations of the fluorophore (0–5 μM) and the fluorescence intensity at the corresponding spectra was measured using a Neo2 multi-mode microplate reader(BioTek). The resulting data were fitted to a curve based on the Hill equation: Y = Bmax · Xh/(Kd + Xh), where Bmax represents the maximum specific binding parameter in the same units as Y, h represents the Hill slope and Kd represents the concentration needed to achieve a half-maximum binding at equilibrium<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
 <br><br>
-<img src="/images/SELEX_ligand/NBSI_aptamer_SELEX_ligand.svg" alt="drawing" style="width:600px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/SELEX_ligand/NBSI_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-
+<br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>NBSI is a typical chromophore structure consisting of an electron donor and an electron acceptor linked by π conjugation. NBSI exhibit a large Stokes shift of 80 nm when it was constrained in glycerol.-----From 2023_nature methods_Large Stokes shift fluorescent RNAs for dual-emission fluorescence and bioluminescence imaging in live cells</p></font>
+<font><p>NBSI is a typical chromophore structure consisting of an electron donor and an electron acceptor linked by π conjugation. NBSI exhibit a large Stokes shift of 80 nm when it was constrained in glycerol.-----From 2023_nature methods_Large Stokes shift fluorescent RNAs for dual-emission fluorescence and bioluminescence imaging in live cells.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
