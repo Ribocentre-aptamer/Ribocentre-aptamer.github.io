@@ -107,8 +107,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font><p>5'-CCCGGUGGUUGCUGUAAUUAAGAAAGAACGGAACCAUGGUCAACUAUAUUUAUCACGGGU-3'</p></font>
 <img src="/images/2D/77_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
+
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
