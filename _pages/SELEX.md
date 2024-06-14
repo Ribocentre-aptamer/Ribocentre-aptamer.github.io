@@ -140,14 +140,32 @@ permalink: /SELEX/
     background-color: #999;
 }
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0; /* 无间隙 */
-}
-.image-grid img {
-    width: 100%;
-    height: auto;
-}
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0; /* 无间隙 */
+        }
+        
+        .image-grid a {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* 初始阴影效果 */
+            transition: box-shadow 0.3s ease; /* 添加过渡效果 */
+        }
+        
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease; /* 添加过渡效果 */
+        }
+        
+        .image-grid a:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 鼠标悬停时添加阴影效果 */
+        }
+        
+        .image-grid a:hover img {
+            transform: scale(1.1); /* 鼠标悬停时放大图片 */
+        }
   </style>
 </head>
 
@@ -165,14 +183,30 @@ permalink: /SELEX/
 </head>
 <body>
     <div class="image-grid">
-            <img src="/images/SELEX/Conventional-SELEX.svg" alt="Image 1">
-            <img src="/images/SELEX/CE-SELEX.svg" alt="Image 2">
-            <img src="/images/SELEX/MB-SELEX.svg" alt="Image 3">
-            <img src="/images/SELEX/Capture-SELEX.svg" alt="Image 4">
-            <img src="/images/SELEX/Cell-SELEX.svg" alt="Image 5">
-            <img src="/images/SELEX/In-vivo-SELEX-1.svg" alt="Image 6">
-            <img src="/images/SELEX/In-vivo-SELEX-2.svg" alt="Image 7">
-            <img src="/images/SELEX/One-round-SELEX.svg" alt="Image 8">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/Conventional-SELEX">
+              <img src="/images/SELEX/Conventional-SELEX.svg" alt="Image 1">
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/CE-SELEX">
+              <img src="/images/SELEX/CE-SELEX.svg" alt="Image 2">
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/MB-SELEX">
+              <img src="/images/SELEX/MB-SELEX.svg" alt="Image 3">
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/MB-SELEX">
+              <img src="/images/SELEX/Capture-SELEX.svg" alt="Image 4">
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/Cell-SELEX">
+              <img src="/images/SELEX/Cell-SELEX.svg" alt="Image 5">
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/In-vivo-SELEX">
+              <img src="/images/SELEX/In-vivo-SELEX-1.svg" alt="Image 6">
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/In-vivo-SELEX">
+              <img src="/images/SELEX/In-vivo-SELEX-2.svg" alt="Image 7">
+            </a>
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/One-round-SELEX">
+              <img src="/images/SELEX/One-round-SELEX.svg" alt="Image 8">
+            </a>
     </div>
 
 <br>
@@ -187,10 +221,7 @@ permalink: /SELEX/
 <br>
 
   
-<p class="header_box" >SELEX Methods</p>
-
-
-      
+<p class="header_box" >SELEX Methods</p>  
 <div id="sheet1" class="sheet">
     <table id="cfttable" class="table-style1">
       <thead>
