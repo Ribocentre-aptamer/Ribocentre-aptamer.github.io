@@ -140,10 +140,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">2D representation</p>
 <font><p>FXa aptamer, 11F7t, mFold predicted structure, 36 nts in length.Here we used ribodraw to complete the figure, through the 3D structure information. 11F7t was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>]</sup>.</p></font>
 <font><p>5'-GAGAGCCCCAGCGAGAUAAUACUUGGCCCCGCUCUU-3'</p></font>
-<img src="/images/2D/Xa-aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;">   
-</div>
-<br>
+<img src="/images/2D/Xa-aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
