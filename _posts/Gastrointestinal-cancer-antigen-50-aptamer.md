@@ -361,7 +361,7 @@ Pan, Q., Law, C. O., Yung, M. M., Han, K. C., Pon, Y. L., & Lau, T. C. K.<br />
         ellipsisBtn.addEventListener('click', function() {
           if (hiddenContent.style.display === 'none') {
             hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = 'Collapse'; // 更新按钮文字为“Collapse”
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
             td.appendChild(ellipsisBtn); // 将按钮移到内容后面
           } else {
             hiddenContent.style.display = 'none'; // 收起内容
