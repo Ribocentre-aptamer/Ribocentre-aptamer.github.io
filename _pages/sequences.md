@@ -169,7 +169,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
     <table id="cfttable" class="table-style1">
       <thead>   
       <tr>
-        <th onclick="sortTable(0)">Aptamer name</th>
+        <th onclick="sortTable(0)">Name</th>
         <th onclick="sortTable(1)">Target</th>
         <th onclick="sortTable(2)">Sequence</th>
         <th onclick="sortTable(3)">Length</th>
