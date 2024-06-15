@@ -1648,7 +1648,7 @@ function downloadExcel() {
     var td3Elements = document.getElementsByName('td3'); // 获取所有 name="td3" 的元素
 
     td3Elements.forEach(function(td) {
-      var maxLength = 50; // 设置最大长度
+      var maxLength = 100; // 设置最大长度
       var originalText = td.innerHTML.trim(); // 获取原始内容并去除首尾空白
 
       // 如果内容长度超过最大长度，才进行处理
