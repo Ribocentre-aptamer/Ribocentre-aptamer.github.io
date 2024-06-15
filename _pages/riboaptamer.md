@@ -1643,7 +1643,7 @@ function downloadExcel() {
   </script>
 
 
-  <script>
+ <script>
   window.addEventListener('DOMContentLoaded', function() {
     var td3Elements = document.getElementsByName('td3'); // 获取所有 name="td3" 的元素
 
@@ -1654,10 +1654,10 @@ function downloadExcel() {
       // 如果内容长度超过最大长度，才进行处理
       if (originalText.length > maxLength) {
         var displayedText = originalText.substring(0, maxLength);
-        var hiddenContent = '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>';
-        var toggleBtn = ' <span class="ellipsis-btn" onclick="toggleHiddenContent(this)">......</span>'; // 初始的展开按钮
+        var hiddenContent = '<span class="hidden-content" style="display:none;">' + originalText.substring(maxLength) + '</span>';
+        var toggleBtn = ' <span class="ellipsis-btn" onclick="toggleHiddenContent(this)">......</span>'; // 初始的收起按钮
 
-        // 将截断的内容、空格、隐藏内容和展开按钮组合到 td 内部
+        // 将截断的内容、空格、隐藏内容和收起按钮组合到 td 内部
         td.innerHTML = displayedText + ' ' + hiddenContent + toggleBtn;
       }
     });
@@ -1676,6 +1676,7 @@ function downloadExcel() {
     }
   }
 </script>
+
 
 
  </body>
