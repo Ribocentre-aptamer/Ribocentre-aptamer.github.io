@@ -41,7 +41,7 @@ permalink: /fluorescences/
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:420px;
+      width:400px;
         height:40px;
   }
 
@@ -223,7 +223,7 @@ permalink: /fluorescences/
       <thead>
       <tr>
         <th onclick="sortTable(0)">Fluorescent molecule</th>
-        <th onclick="sortTable(1)">UPAC</th>
+        <th onclick="sortTable(1)">IUPAC</th>
         <th onclick="sortTable(2)">Molecular Formula</th>
         <th onclick="sortTable(3)">Molar mass</th>
         <th onclick="sortTable(4)">CAS</th>
@@ -237,7 +237,7 @@ permalink: /fluorescences/
        <tr>
         <td name="td0" rowspan = "1">DFHBI</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2,3-dimethylimidazol-4-one</td>
-        <td name="td2">C12H10F2N2O2</td>
+        <td name="td2">C<sub>12</sub>H<sub>10</sub>F<sub>2</sub>N<sub>2</sub>O<sub>2</sub></td>
         <td name="td3">252.22 g/mol</td>
         <td name="td4">1241390-29-3</td>
         <td name="td5">469</td>
@@ -248,7 +248,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">MG</td>
         <td name="td1">[4-[[4-(dimethylamino)phenyl]-phenylmethylidene]cyclohexa-2,5-dien-1-ylidene]-dimethylazanium;chloride</td>
-        <td name="td2">C23H25ClN2</td>
+        <td name="td2">C<sub>23</sub>H<sub>25</sub>ClN<sub>2</sub></td>
         <td name="td3">364.9 g/mol</td>
         <td name="td4">569-64-2</td>
         <td name="td5">630</td>
@@ -259,7 +259,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">HBC 530</td>
         <td name="td1">4-[(E)-1-cyano-2-[4-[2-hydroxyethyl(methyl)amino]phenyl]ethenyl]benzonitrile</td>
-        <td name="td2">C19H17N3O</td>
+        <td name="td2">C<sub>19</sub>H<sub>17</sub>N<sub>3</sub>O</td>
         <td name="td3">303.4 g/mol</td>
         <td name="td4">156840-13-0</td>
         <td name="td5">485</td>
@@ -270,7 +270,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">TO1</td>
         <td name="td1">4-methylbenzenesulfonate;(2Z)-3-methyl-2-[(1-methylquinolin-1-ium-4-yl)methylidene]-1,3-benzothiazole</td>
-        <td name="td2">C26H24N2O3S2</td>
+        <td name="td2">C<sub>26</sub>H<sub>24</sub>N<sub>2</sub>O<sub>3</sub>S<sub>2</sub></td>
         <td name="td3">476.6 g/mol</td>
         <td name="td4">107091-89-4</td>
         <td name="td5">510</td>
@@ -281,7 +281,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">DFHO</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-3-methyl-2-(nitrosomethylidene)imidazolidin-4-one</td>
-        <td name="td2">C12H9F2N3O3</td>
+        <td name="td2">C<sub>12</sub>H<sub>9</sub>F<sub>2</sub>N<sub>3</sub>O<sub>3</sub></td>
         <td name="td3">281.21 g/mol</td>
         <td name="td4">1420815-34-4</td>
         <td name="td5">505</td>
@@ -292,7 +292,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">DMHBI</td>
         <td name="td1">5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2,3-dimethylimidazol-4-one</td>
-        <td name="td2">C14H16N2O4</td>
+        <td name="td2">C<sub>14</sub>H<sub>16</sub>N<sub>2</sub>O<sub>4</sub></td>
         <td name="td3">276.29 g/mol</td>
         <td name="td4">1629243-34-0</td>
         <td name="td5">400</td>
@@ -303,7 +303,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">YO3</td>
         <td name="td1">(2Z)-3-methyl-2-[(E)-3-(1-methylquinolin-1-ium-4-yl)prop-2-enylidene]-1,3-benzoxazole</td>
-        <td name="td2">C21H19N2O+</td>
+        <td name="td2">C<sub>21</sub>H<sub>19</sub>N<sub>2</sub>O<sup>+</sup></td>
         <td name="td3">315.4 g/mol</td>
         <td name="td4">NA</td>
         <td name="td5">595</td>
@@ -314,7 +314,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">ThT</td>
         <td name="td1">4-(3,6-dimethyl-1,3-benzothiazol-3-ium-2-yl)-N,N-dimethylaniline</td>
-        <td name="td2">C17H19ClN2S</td>
+        <td name="td2">C<sub>17</sub>H<sub>19</sub>ClN<sub>2</sub>S</td>
         <td name="td3">318.9 g/mol</td>
         <td name="td4">2390-54-7</td>
         <td name="td5">455</td>
@@ -325,7 +325,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">TMR</td>
         <td name="td1">2-[3-(dimethylamino)-6-dimethylazaniumylidenexanthen-9-yl]benzoate</td>
-        <td name="td2">C24H22N2O3</td>
+        <td name="td2">C<sub>24</sub>H<sub>22</sub>N<sub>2</sub>O<sub>3</sub></td>
         <td name="td3">386.4 g/mol</td>
         <td name="td4">120718-52-7</td>
         <td name="td5">564</td>
@@ -336,7 +336,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">DFAME</td>
         <td name="td1">methyl 3-[4-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-1-methyl-5-oxoimidazol-2-yl]prop-2-enoate</td>
-        <td name="td2">C15H12F2N2O4</td>
+        <td name="td2">C<sub>15</sub>H<sub>12</sub>F<sub>2</sub>N<sub>2</sub>O<sub>4</sub></td>
         <td name="td3">322.26 g/mol</td>
         <td name="td4">1420815-55-9</td>
         <td name="td5">514</td>
@@ -347,7 +347,7 @@ permalink: /fluorescences/
       <tr>
         <td name="td0" rowspan = "1">OTB</td>
         <td name="td1">3-methyl-2-[(3-methyl-1,3-benzothiazol-3-ium-2-yl)methylidene]-1,3-benzoxazole</td>
-        <td name="td2">C17H15N2OS+</td>
+        <td name="td2">C<sub>17</sub>H<sub>15</sub>N<sub>2</sub>OS<sup>+</sup></td>
         <td name="td3">295.4 g/mol</td>
         <td name="td4">NA</td>
         <td name="td5">380</td>
