@@ -1385,6 +1385,38 @@ This section lists all the experimentally validated Aptamers.
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12490703/" target="_blank" style="color:#520049"><b>2002</b></a></td>
         <td name="td5">NA</td>
       </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/AB9-aptamer" target="_blank" style="color:#520049"><b>AB9 aptamer</b></a></td>
+        <td name="td2">AMPA and kainate receptors</td>
+        <td name="td3">Compared with NMDA receptors, AMPA and kainate receptors are more alike in both sequence and structure. AMPA receptors are expressed post-syn- aptically and are involved in fast excitatory neurotransmission Kainate receptors are expressed both pre- and post-synap- tically, and contribute to excitatory neurotransmission and modulate network excitability by regulating neurotransmitter release.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/28872832/" target="_blank" style="color:#520049"><b>2017</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Aβ42-aptamer" target="_blank" style="color:#520049"><b>Aβ42 aptamer</b></a></td>
+        <td name="td2">β-amyloid 42 (Aβ42)</td>
+        <td name="td3">Oligomers of β-amyloid 42 (Aβ42), rather than fibrils, drive the pathogenesis of Alzheimer’s disease (AD). In particular, toxic oligomeric species called protofibrils (PFs) have attracted significant attention.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32127399/" target="_blank" style="color:#520049"><b>2020</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/IL2-CD25-aptermer" target="_blank" style="color:#520049"><b>IL2-CD25 aptermer</b></a></td>
+        <td name="td2">IL2–CD25 complexes</td>
+        <td name="td3">The regulation of the immune response by the interaction between IL2 with its alpha receptor subunit, IL2Rα (CD25), which leads to recruitment of additional receptor subunits (IL2Rβ and γ) to mediate activation signals in lymphocytes . Numerous studies have illustrated the importance of IL2–CD25 complexes on the immune response in a variety of diseases, including cancer.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/31383650/" target="_blank" style="color:#520049"><b>2019</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer" target="_blank" style="color:#520049"><b>Mixed lineage leukemia proteins (MLL) aptermer</b></a></td>
+        <td name="td2">Mixed lineage leukemia proteins (MLL)</td>
+        <td name="td3">Mixed lineage leukemia proteins (MLL) are the key histone lysine methyltransferases that regulate expression of diverse genes. Aberrant activation of MLL promotes leukemia as well as solid tumors in humans.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/30419633/" target="_blank" style="color:#520049"><b>2019</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
 	  </tbody>
   </table>
 </div>
@@ -1608,7 +1640,44 @@ function downloadExcel() {
       }
     }
   }  
-  </script> 
+  </script>
+
+
+  <script>
+  window.addEventListener('DOMContentLoaded', function() {
+    var td3Elements = document.getElementsByName('td3'); // 获取所有 name="td3" 的元素
+
+    td3Elements.forEach(function(td) {
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML.trim(); // 获取原始内容并去除首尾空白
+
+      // 如果内容长度超过最大长度，才进行处理
+      if (originalText.length > maxLength) {
+        var displayedText = originalText.substring(0, maxLength);
+        var hiddenContent = '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>';
+        var toggleBtn = ' <span class="ellipsis-btn" onclick="toggleHiddenContent(this)">......</span>'; // 初始的展开按钮
+
+        // 将截断的内容、空格、隐藏内容和展开按钮组合到 td 内部
+        td.innerHTML = displayedText + ' ' + hiddenContent + toggleBtn;
+      }
+    });
+  });
+
+  // 点击展开按钮时触发的函数
+  function toggleHiddenContent(btn) {
+    var hiddenContent = btn.parentElement.querySelector('.hidden-content');
+    
+    if (hiddenContent.style.display === 'none') {
+      hiddenContent.style.display = 'inline'; // 展开内容
+      btn.innerHTML = '...'; // 更新按钮文字为“... (less)”
+    } else {
+      hiddenContent.style.display = 'none'; // 收起内容
+      btn.innerHTML = '......'; // 更新按钮文字为“... (more)”
+    }
+  }
+</script>
+
+
  </body>
 </html>
 <br>
