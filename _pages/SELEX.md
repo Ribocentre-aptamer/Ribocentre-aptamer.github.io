@@ -183,28 +183,28 @@ permalink: /SELEX/
 </head>
 <body>
     <div class="image-grid">
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/Conventional-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/Conventional-SELEX" target="_blank">
               <img src="/images/SELEX/Conventional-SELEX.svg" alt="Image 1">
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/CE-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/CE-SELEX" target="_blank">
               <img src="/images/SELEX/CE-SELEX.svg" alt="Image 2">
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/MB-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/MB-SELEX" target="_blank">
               <img src="/images/SELEX/MB-SELEX.svg" alt="Image 3">
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/MB-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/MB-SELEX" target="_blank">
               <img src="/images/SELEX/Capture-SELEX.svg" alt="Image 4">
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/Cell-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/Cell-SELEX" target="_blank">
               <img src="/images/SELEX/Cell-SELEX.svg" alt="Image 5">
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/In-vivo-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/In-vivo-SELEX" target="_blank">
               <img src="/images/SELEX/In-vivo-SELEX-1.svg" alt="Image 6">
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/In-vivo-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/In-vivo-SELEX" target="_blank">
               <img src="/images/SELEX/In-vivo-SELEX-2.svg" alt="Image 7">
             </a>
-            <a href="{{ site.url }}{{ site.baseurl }}/_posts/One-round-SELEX">
+            <a href="{{ site.url }}{{ site.baseurl }}/_posts/One-round-SELEX" target="_blank">
               <img src="/images/SELEX/One-round-SELEX.svg" alt="Image 8">
             </a>
     </div>
@@ -531,6 +531,7 @@ function downloadExcel() {
       }
     }
   }  
-  </script>   
+  </script> 
+  
 </body>
 <br>

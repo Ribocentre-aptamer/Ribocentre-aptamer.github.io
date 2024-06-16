@@ -70,6 +70,34 @@ permalink: /
    img{
     margin: 0 0 0 0; 
     border-radius: 0%; }
+/*****/
+.button-container {
+    display: flex;
+    justify-content: flex-start; /* 左对齐 */
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 35px;
+    width:140px;
+    height:40px;
+    background-color: #996699; /* 深紫色按钮背景 */
+    color: #fff; /* 白色按钮文字 */
+    border: 1px solid #fff; /* 白色边框 */
+    border-radius: 1px; /* 角 */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #efefef; /* 悬停时浅紫色背景 */
+}
+
+.button:last-child {
+    margin-left: 0px; /* 增加按钮之间的间距 */
+}
 </style>
 </head>
 
@@ -155,39 +183,26 @@ Zhichao Miao, Lin Huang <br>
 <br>
 
 
-<div class="sectiontitle" style="border: 2px solid #ffffff; background-color: #fff; border-radius:9px;">
-<!--p class="header_box" style="color:#444444">Feedback</p-->
-<div class="left-aligned" style="width: 82%;">
-<a href="https://aptamer.ribocentre.org/helps/" target="_blank"><img src="/images/Feedback.png" alt="drawing" style="width:130px;height: 40px;margin:0 auto;"></a>
+<!--div class="button-container">
+    <a href="help.html" class="button">Help</a>
+    <a href="https://docs.google.com/document/d/your-document-id/edit" class="button">Provide Suggestions</a>
+</div-->
+
+
+
+<p class="header_box" style="color:#444444">Feedback</p>
+<font>How to use the database? Please click here:<font>
+<div class="button-container">
+    <a href="{{ site.url }}{{ site.baseurl }}/helps/" class="button">Help</a>
 </div>
+<p></p>
+<font>How to provide feedback? Please click here:<font>
+<div class="button-container">
+    <a href="https://docs.google.com/spreadsheets/d/1YYWEy1PL9YyzxqsPtWUqqh5G2gbl4D9n7SeV7cqaSK8/edit?gid=0#gid=0" class="button" target="_blank">Feedback</a>
 </div>
+<!--a href="https://aptamer.ribocentre.org/helps/" target="_blank"><img src="/images/Feedback.png" alt="drawing" style="width:130px;height: 40px;margin:0 auto;"></a-->
 
 
-
-<script>
-        // 打开弹窗
-        function openPopup() {
-            var popup = document.getElementById('myPopup');
-            popup.style.display = 'block';
-        }
-
-        // 关闭弹窗
-        function closePopup() {
-            var popup = document.getElementById('myPopup');
-            popup.style.display = 'none';
-        }
-
-        // 页面加载完成后自动打开弹窗
-        window.onload = function() {
-            openPopup();
-        };
-        function openLink(linkId) {
-        // 根据 linkId 参数获取链接元素
-        const linkElement = document.getElementById(linkId);
-        // 点击链接
-        linkElement.click();
-    }
-    </script>
 
 
 
