@@ -171,21 +171,11 @@ permalink: /fluorescences/
 <h1 class="post-title" itemprop="name headline">Fluorescences and Light-up RNA aptamers</h1>
 <p>Light-up RNA aptamers are fluorescent RNA molecules that become fluorescent upon binding to specific fluorophores. This concept emerged from the need for non-invasive, real-time imaging tools to study RNA molecules and their interactions within living cells. Traditional fluorescent tags like GFP (green fluorescent protein) are not suitable for RNA because they are protein-based. Thus, the development of RNA-based fluorescent tags (light-up RNA aptamers) became crucial for expanding the toolkit available for RNA visualization and functional studies.</p>
 <p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer’s performance for better performance in cellular environments.</p>
-<p>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells.</p>
+<font>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells.</font>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/fluorescences/Light-up-aptamer.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-
-
-<p class="header_box">Detailed information</p>    
-<p>This section lists some common fluorescent molecule-light-up RNA aptamer pairs.</p>
-<div class="form-container">
-  <!-- 搜索框 -->
-  <input type="text" id="searchBox" placeholder="Search by keyword..." onfocus="showAllSheets()" oninput="searchTables()"><br><br>
-</div>
+<img src="/images/fluorescences/Light-up-aptamer.svg" alt="drawing" style="width:600px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <br>
 <br>
-
-
 
 <p class="header_box">Fluorogenic mechanisms</p>
 <p>Light-up RNA aptamers contain specific binding sites that interact with small-molecule fluorophores. These fluorophores are non-fluorescent or weakly fluorescent in the absence of the aptamer. Upon binding to the aptamer, the fluorophore undergoes a conformational change that enhances its fluorescence properties. This binding typically occurs through a combination of hydrogen bonding, Van der Waals interactions, and stacking interactions within the RNA’s three-dimensional structure.</p>
@@ -193,23 +183,25 @@ permalink: /fluorescences/
 
 <p class="blowheader_box1">Twisted Intramolecular Charge Transfer (TICT)</p>
 <p>TICT refers to a mechanism where the binding of a target induces a conformational change in the RNA aptamer, leading to the activation or enhancement of fluorescence through a twisted charge-transfer state. This state involves the separation of charge within the molecule, resulting in a geometry that promotes fluorescence.</p>
-<p>In the unbound state, the RNA aptamer and its fluorophore may be in a non-planar or less twisted conformation with limited charge separation, leading to weak or no fluorescence. Upon binding to a specific target, the aptamer undergoes a conformational change that facilitates a twist between the donor and acceptor moieties within the fluorophore. This twist maximizes the charge separation, creating an intramolecular charge transfer state with a large dipole moment. The TICT state stabilizes the fluorophore in a way that enhances its fluorescence emission, often resulting in a red-shifted and intensified fluorescence signal compared to the non-twisted state.</p>
+<font>In the unbound state, the RNA aptamer and its fluorophore may be in a non-planar or less twisted conformation with limited charge separation, leading to weak or no fluorescence. Upon binding to a specific target, the aptamer undergoes a conformational change that facilitates a twist between the donor and acceptor moieties within the fluorophore. This twist maximizes the charge separation, creating an intramolecular charge transfer state with a large dipole moment. The TICT state stabilizes the fluorophore in a way that enhances its fluorescence emission, often resulting in a red-shifted and intensified fluorescence signal compared to the non-twisted state.</font>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/fluorescences/Twisted-intramolecular charge-transfer(TICT)-01.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/fluorescences/Twisted-intramolecular charge-transfer(TICT)-01.svg" alt="drawing" style="width:600px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<br>
 
 <p class="blowheader_box1">Contact Quenching (CQ)</p>
 <p>Contact quenching in light-up RNA aptamers involves the reduction or elimination of fluorescence due to the close physical proximity of a quencher molecule to the fluorophore. This process is highly dependent on the spatial arrangement and interaction between the RNA aptamer and its target.</p>
 <p>In the absence of the target, the fluorophore may be in close proximity to a quencher moiety within the RNA aptamer, resulting in minimal fluorescence. Binding of the target induces a conformational change in the RNA aptamer that separates the fluorophore from the quencher. The increased distance between the fluorophore and quencher reduces the efficiency of non-radiative energy transfer, allowing the fluorophore to emit fluorescence. The efficiency of contact quenching and subsequent fluorescence recovery can be modulated by the nature of the target-aptamer interaction and the specific design of the aptamer.</p>
-<p>Light-up RNA aptamers exploiting contact quenching are used in biosensors to detect various biomolecules by monitoring changes in fluorescence.These aptamers facilitate the detection and quantification of analytes in complex mixtures.</p>
+<font>Light-up RNA aptamers exploiting contact quenching are used in biosensors to detect various biomolecules by monitoring changes in fluorescence.These aptamers facilitate the detection and quantification of analytes in complex mixtures.</font>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/fluorescences/Contact-quenchingCQ).svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/fluorescences/Contact-quenchingCQ).svg" alt="drawing" style="width:600px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<br>
 
 <p class="blowheader_box1">Spirolactonization (SP)</p>
 <p>Spirolactonization in light-up RNA aptamers involves the formation of a spirolactone ring structure upon binding to a target. This structural change enhances the fluorescence of the aptamer, providing a clear signal upon target recognition.</p>
 <p>In the absence of the target, the RNA aptamer remains in a conformation that does not support spirolactone formation, leading to weak or no fluorescence. Binding of the target induces a conformational rearrangement in the aptamer, promoting the formation of a spirolactone ring. The formation of the spirolactone ring stabilizes the fluorophore in a fluorescent state, significantly enhancing its emission properties. The structural rigidity and planarity introduced by the spirolactone ring reduce non-radiative decay pathways, leading to a bright fluorescence signal.</p>
-<p>Spirolactonization-based light-up RNA aptamers are used to detect specific targets with high sensitivity and specificity. These aptamers can serve dual functions in theranostics, providing both diagnostic imaging and therapeutic action.</p>
+<font>Spirolactonization-based light-up RNA aptamers are used to detect specific targets with high sensitivity and specificity. These aptamers can serve dual functions in theranostics, providing both diagnostic imaging and therapeutic action.</font>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/fluorescences/Spirolactonization(SP).svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/fluorescences/Spirolactonization(SP).svg" alt="drawing" style="width:600px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <br>
 <br>
 <br>
