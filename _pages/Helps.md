@@ -93,7 +93,7 @@ permalink: /helps/
 <p class="header_box">Group Members</p>
 <div class="row">
     <div class="col-sm-6 clearfix">
-      <p><img src="/images/groupmember/Chichau_photo.jpg" class="img-responsive" width="25%" style="float: left;margin-right: 10px;box-shadow: 2px 2px 5px #888;height:135px;" /></p>
+      <p><img src="/images/groupmember/Chichau_photo.jpg" class="img-responsive" width="23%" style="float: left;margin-right: 10px;box-shadow: 2px 2px 5px #888;" /></p>
       <h4 ><a href="Email:miao_zhichao@gzlab.ac.cn">Zhichao (Chichau) Miao</a></h4>
       <p><i>Principal Investigator of Guangzhou Lab</i></p>
       <ul style="overflow: hidden; margin-top: 10px;padding-left: 20px;">
@@ -105,7 +105,7 @@ permalink: /helps/
       </ul>
     </div>
     <div class="col-sm-6 clearfix">
-      <p><img src="/images/groupmember/Lin_Huang.jpg" class="img-responsive" width="25%" style="float: left;margin-right:10px;box-shadow: 2px 2px 5px #888;height:135px;"></p>
+      <p><img src="/images/groupmember/Lin_Huang.jpg" class="img-responsive" width="25%" style="float: left;margin-right:10px;box-shadow: 2px 2px 5px #888;"></p>
       <h4><a href="Email:huanglin36@mail.sysu.edu.cn">Lin Huang</a></h4>
       <p><i>Principal Investigator of Sun Yat-sen University</i></p>
       <ul style="overflow: hidden; margin-top: 10px;padding-left: 20px;">
