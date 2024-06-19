@@ -194,6 +194,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'R', 
+  start_residue_number:101, 
+  end_residue_number:101, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'R', 
   start_residue_number:11, 
   end_residue_number:20, 
   color:{r:9,g:254,b:254}
@@ -377,63 +383,63 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td1">ZINC2509998</td>
-        <td name="td2">NA</td>
+        <td name="td2">3-methyl-2-[(3-methyl-1,3-benzothiazol-3-ium-2-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">17729</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC20070324</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2Z)-5-chloro-3-methyl-2-[(3-methyl-1,3-benzothiazol-3-ium-2-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">22332836</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC844804</td>
-        <td name="td2">NA</td>
+        <td name="td2">2-[(Z)-2-methoxy-3-phenylprop-1-enyl]-3-methyl-1,3-benzothiazol-3-ium</td>
         <td name="td3">NA</td>
         <td name="td4">1110831</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC107280752</td>
-        <td name="td2">NA</td>
+        <td name="td2">3-methyl-N-(3-methyl-1,3-benzothiazol-3-ium-2-yl)-1,3-benzothiazol-2-imine</td>
         <td name="td3">NA</td>
         <td name="td4">54298998</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC32105922</td>
-        <td name="td2">NA</td>
+        <td name="td2">2-[(3-methyl-1,3-benzothiazol-3-ium-2-yl)methyl]-1,3-benzoxazole</td>
         <td name="td3">NA</td>
         <td name="td4">12690696</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC272646</td>
-        <td name="td2">NA</td>
+        <td name="td2">3-methyl-2-[2-(3-methyl-1,3-benzothiazol-3-ium-2-yl)ethyl]-1,3-benzothiazol-3-ium</td>
         <td name="td3">NA</td>
         <td name="td4">779797</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC100399021</td>
-        <td name="td2">NA</td>
+        <td name="td2">(E)-3-methyl-N-[(E)-(3-methyl-1,3-benzoxazol-2-ylidene)amino]-1,3-benzoxazol-2-imine</td>
         <td name="td3">NA</td>
         <td name="td4">5816761</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC100141140</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2E)-3-methyl-2-(3-methyl-1,3-benzothiazol-2-ylidene)-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">6432295</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC169438545</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2E)-2-(1,3-benzothiazol-2-ylmethylidene)-3-methyl-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">154540469</td>
         <td name="td5"><img src="/images/Similar_compound/OTB_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
