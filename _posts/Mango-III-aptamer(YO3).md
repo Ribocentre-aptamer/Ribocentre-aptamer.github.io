@@ -209,6 +209,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'C', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'C', 
   start_residue_number:15, 
   end_residue_number:15, 
   color:{r:9,g:254,b:254}
@@ -291,7 +297,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:30, 
   color:{r:255,g:135,b:10}
 }
-              ]
+             ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -422,7 +428,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td1">ZINC114784389</td>
-        <td name="td2">NA</td>
+        <td name="td2">2-[(2Z)-2-[(E)-3-(1-methylquinolin-1-ium-4-yl)prop-2-enylidene]-1,3-benzothiazol-3-yl]acetic acid</td>
         <td name="td3">NA</td>
         <td name="td4">59274362</td>
         <td name="td5"><img src="/images/Similar_compound/YO3_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>

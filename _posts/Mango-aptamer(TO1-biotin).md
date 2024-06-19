@@ -347,8 +347,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:27, 
   end_residue_number:27, 
   color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:35, 
+  end_residue_number:35, 
+  color:{r:255,g:255,b:0}
 }
-              ]
+             ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -478,56 +484,56 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td1">ZINC1081175</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2E)-3-methyl-2-[(1-methylquinolin-1-ium-4-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">107091-89-4</td>
         <td name="td4">1268073</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC253615069</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2Z)-5-fluoro-3-methyl-2-[(1-methylquinolin-1-ium-4-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">134093721</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC138776193</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2E)-6-chloro-3-methyl-2-[(1-methylquinolin-1-ium-4-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">11532835</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC202369662</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2E)-2-[(1-ethylquinolin-1-ium-4-yl)methylidene]-3-methyl-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">58436249</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC263621892</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2Z)-3-methyl-2-[(4-methylquinolin-1-ium-1-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
         <td name="td4">122174062</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC2040469426</td>
-        <td name="td2">NA</td>
+        <td name="td2">2-(naphthalen-1-ylmethylidene)-1-benzothiophen-3-one</td>
         <td name="td3">NA</td>
         <td name="td4">3330972</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC1465938</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2Z)-2-(naphthalen-1-ylmethylidene)-1-benzothiophen-3-one</td>
         <td name="td3">NA</td>
         <td name="td4">1537162</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC6441438</td>
-        <td name="td2">NA</td>
+        <td name="td2">(2Z)-2-[(4-methoxynaphthalen-1-yl)methylidene]-1-benzothiophen-3-one</td>
         <td name="td3">NA</td>
         <td name="td4">124312875</td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
