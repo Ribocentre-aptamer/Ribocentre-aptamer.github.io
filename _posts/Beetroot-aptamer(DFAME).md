@@ -194,6 +194,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:17, 
   end_residue_number:18, 
   color:{r:9,g:254,b:254}
@@ -300,7 +306,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:36, 
   color:{r:255,g:135,b:10}
 }
-              ]
+             ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -434,14 +440,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td1">ZINC218483872</td>
-        <td name="td2">NA</td>
+        <td name="td2">(5E)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-3-methyl-2-(nitrosomethylidene)imidazolidin-4-one</td>
         <td name="td3">1420815-34-4</td>
         <td name="td4">71492924</td>
         <td name="td5"><img src="/images/Similar_compound/DFAME_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC811701546</td>
-        <td name="td2">NA</td>
+        <td name="td2">(3E)-3-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-1H-indol-2-one</td>
         <td name="td3">NA</td>
         <td name="td4">NA</td>
         <td name="td5"><img src="/images/Similar_compound/DFAME_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
