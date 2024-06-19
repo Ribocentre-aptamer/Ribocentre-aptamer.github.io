@@ -203,6 +203,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
+  start_residue_number:101, 
+  end_residue_number:101, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:26, 
   end_residue_number:31, 
   color:{r:9,g:254,b:254}
@@ -255,7 +261,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:32, 
   color:{r:255,g:135,b:10}
 }
-              ]
+             ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -397,28 +403,28 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
       <tr>
         <td name="td1">ZINC3873937</td>
-        <td name="td2">NA</td>
+        <td name="td2">[9-(4-Amino-2-carboxyphenyl)-6-(dimethylamino)xanthen-3-ylidene]-dimethylazanium</td>
         <td name="td3">167095-10-5</td>
         <td name="td4">5421</td>
         <td name="td5"><img src="/images/Similar_compound/TMR_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC71789489</td>
-        <td name="td2">NA</td>
+        <td name="td2">[9-(5-Amino-2-carboxyphenyl)-6-(dimethylamino)xanthen-3-ylidene]-dimethylazanium</td>
         <td name="td3">80724-18-1</td>
         <td name="td4">10895427</td>
         <td name="td5"><img src="/images/Similar_compound/TMR_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC35952357</td>
-        <td name="td2">NA</td>
+        <td name="td2">[6-(Dimethylamino)-9-(2-methoxycarbonylphenyl)thioxanthen-3-ylidene]-dimethylazanium</td>
         <td name="td3">NA</td>
         <td name="td4">11621055</td>
         <td name="td5"><img src="/images/Similar_compound/TMR_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC34630916</td>
-        <td name="td2">NA</td>
+        <td name="td2">[9-(2-Carboxyphenyl)-6-(dimethylamino)thioxanthen-3-ylidene]-dimethylazanium</td>
         <td name="td3">NA</td>
         <td name="td4">11512296</td>
         <td name="td5"><img src="/images/Similar_compound/TMR_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
@@ -432,14 +438,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
       <tr>
         <td name="td1">ZINC38346243</td>
-        <td name="td2">NA</td>
+        <td name="td2">N-(6-(dimethylamino)-9-phenyl-3H-thioxanthen-3-ylidene)-N-methylmethanaminium bromide</td>
         <td name="td3">NA</td>
         <td name="td4">11188604</td>
         <td name="td5"><img src="/images/Similar_compound/TMR_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC504537834</td>
-        <td name="td2">NA</td>
+        <td name="td2">6-[3,6-bis(dimethylamino)xanthen-9-ylidene]-3-iminocyclohexa-1,4-diene-1-carboxylic acid</td>
         <td name="td3">NA</td>
         <td name="td4">92043312</td>
         <td name="td5"><img src="/images/Similar_compound/TMR_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
