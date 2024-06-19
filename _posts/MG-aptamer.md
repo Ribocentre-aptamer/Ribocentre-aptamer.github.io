@@ -322,6 +322,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
+  start_residue_number:39, 
+  end_residue_number:39, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:9, 
   color:{r:9,g:254,b:254}
@@ -350,7 +356,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:25, 
   color:{r:194,g:194,b:255}
 }
-              ]
+             ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -521,21 +527,21 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
       <tr>
         <td name="td1">ZINC59301830</td>
-        <td name="td2">NA</td>
+        <td name="td2">[4-[[4-(diethylamino)phenyl]-phenylmethylidene]cyclohexa-2,5-dien-1-ylidene]-dimethylazanium</td>
         <td name="td3">NA</td>
         <td name="td4">10504023</td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC504413298</td>
-        <td name="td2">NA</td>
+        <td name="td2">[4-[[4-(dimethylamino)phenyl]-phenylmethylidene]cyclohexylidene]-dimethylazanium</td>
         <td name="td3">NA</td>
         <td name="td4">125339933</td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC4558687</td>
-        <td name="td2">NA</td>
+        <td name="td2">[4-[(2-chlorophenyl)-[4-(dimethylamino)phenyl]methylidene]cyclohexa-2,5-dien-1-ylidene]-dimethylazanium</td>
         <td name="td3">NA</td>
         <td name="td4">107405</td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>

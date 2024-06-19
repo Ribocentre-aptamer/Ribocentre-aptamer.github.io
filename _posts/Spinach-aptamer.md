@@ -357,6 +357,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'X', 
+  start_residue_number:206, 
+  end_residue_number:206, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'X', 
   start_residue_number:27, 
   end_residue_number:28, 
   color:{r:9,g:254,b:254}
@@ -499,7 +505,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:61, 
   color:{r:255,g:135,b:10}
 }
-              ]
+             ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
