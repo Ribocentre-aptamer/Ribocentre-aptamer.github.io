@@ -218,6 +218,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'D', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'D', 
   start_residue_number:14, 
   end_residue_number:14, 
   color:{r:9,g:254,b:254}
@@ -318,7 +324,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:42, 
   color:{r:10,g:11,b:255}
 }
-              ]
+             ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -447,7 +453,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
       <tr>
         <td name="td1">ZINC145340396</td>
-        <td name="td2">NA</td>
+        <td name="td2">(5E)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2,3-dimethylimidazol-4-one</td>
         <td name="td3">NA</td>
         <td name="td4">46898418</td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
@@ -461,28 +467,28 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
       <tr>
         <td name="td1">ZINC34107441</td>
-        <td name="td2">NA</td>
+        <td name="td2">(5E)-3-methyl-2-sulfanylidene-5-[(3,4,5-trimethoxyphenyl)methylidene]imidazolidin-4-one</td>
         <td name="td3">NA</td>
         <td name="td4">6527199</td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC8091545</td>
-        <td name="td2">NA</td>
+        <td name="td2">(5E)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-3-methylimidazolidine-2,4-dione</td>
         <td name="td3">NA</td>
         <td name="td4">19374977</td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC409030759</td>
-        <td name="td2">NA</td>
+        <td name="td2">(5Z)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,3-dimethyl-2-sulfanylideneimidazolidin-4-one</td>
         <td name="td3">NA</td>
         <td name="td4">126037191</td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC408815341</td>
-        <td name="td2">NA</td>
+        <td name="td2">(5Z)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-3-methyl-1,3-thiazolidine-2,4-dione</td>
         <td name="td3">NA</td>
         <td name="td4">125823074</td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
