@@ -202,6 +202,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
+  start_residue_number:103, 
+  end_residue_number:103, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:17, 
   end_residue_number:17, 
   color:{r:9,g:254,b:254}
@@ -320,7 +326,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:36, 
   color:{r:255,g:135,b:10}
 }
-              ]
+            ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -452,49 +458,49 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td1">ZINC38539054</td>
-        <td name="td2">NA</td>
+        <td name="td2">2-[4-(Dimethylamino)phenyl]-6-Hydroxy-3-Methyl-1,3-Benzothiazol-3-Ium</td>
         <td name="td3">NA</td>
         <td name="td4">24832019</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC56936</td>
-        <td name="td2">NA</td>
+        <td name="td2">N,N-dimethyl-4-(6-methyl-1,3-benzothiazol-2-yl)aniline</td>
         <td name="td3">10205-62-6</td>
         <td name="td4">82450</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC584593350</td>
-        <td name="td2">NA</td>
+        <td name="td2">N,N-dimethyl-4-(5-methyl-1,3-benzothiazol-2-yl)aniline</td>
         <td name="td3">NA</td>
         <td name="td4">125465487</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC167917029</td>
-        <td name="td2">NA</td>
+        <td name="td2">4-(1,5-dimethylbenzimidazol-2-yl)-N,N-dimethylaniline</td>
         <td name="td3">NA</td>
         <td name="td4">20625541</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC553312</td>
-        <td name="td2">NA</td>
+        <td name="td2">N,N-dimethyl-4-(6-methyl-1H-benzimidazol-2-yl)aniline</td>
         <td name="td3">69570-95-2</td>
         <td name="td4">950737</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC4127888</td>
-        <td name="td2">NA</td>
+        <td name="td2">N,N-dimethyl-4-(6-methyl-1,3-benzoxazol-2-yl)aniline</td>
         <td name="td3">NA</td>
         <td name="td4">6486758</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">ZINC1659652</td>
-        <td name="td2">NA</td>
+        <td name="td2">N,N-dimethyl-4-(5-methyl-1,3-benzoxazol-2-yl)aniline</td>
         <td name="td3">127753-24-6</td>
         <td name="td4">401586</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
@@ -508,7 +514,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
       <tr>
         <td name="td1">ZINC1857599770</td>
-        <td name="td2">NA</td>
+        <td name="td2">2-[4-(dimethylamino)phenyl]-1,3-benzothiazol-5-ol</td>
         <td name="td3">NA</td>
         <td name="td4">155555168</td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
