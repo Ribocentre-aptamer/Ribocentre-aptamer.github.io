@@ -355,39 +355,39 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'B', 
   start_residue_number:13, 
   end_residue_number:23, 
-  color:{R:0,G:128,B:128}
+  color:{r:0,g:128,b:128}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:24, 
   end_residue_number:27, 
-  color:{R:10,G:11,B:255}
+  color:{r:10,g:11,b:255}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:28, 
   end_residue_number:53, 
-  color:{R:9,G:254,B:254}
+  color:{r:9,g:254,b:254}
 },{
    struct_asym_id: 'B', 
   start_residue_number:54, 
   end_residue_number:59, 
-  color:{R:34,G:139,B:34}
+  color:{r:34,g:139,b:34}
 },{
   struct_asym_id: 'B', 
   start_residue_number:60, 
   end_residue_number:60, 
-  color:{R:255,G:0,B:255}
-}{
+  color:{r:255,g:0,b:255}
+},{
   struct_asym_id: 'B', 
   start_residue_number:61, 
   end_residue_number:65, 
-  color:{R:255,G:135,B:10}
-}{
+  color:{r:255,g:135,b:10}
+},{
   struct_asym_id: 'C', 
   start_residue_number:601, 
   end_residue_number:601, 
-  color:{R:255,G:255,B:0}
+  color:{r:255,g:255,b:0}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
