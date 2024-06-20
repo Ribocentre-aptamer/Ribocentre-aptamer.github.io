@@ -251,22 +251,22 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A',    
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{R:9,G:254,B:254}
+  color:{r:9,g:254,b:254}
 },{
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:7, 
-  color:{R:255,G:0,B:255}
+  color:{r:255,g:0,b:255}
 },{
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:8, 
-  color:{R:9,G:254,B:254}
+  color:{r:9,g:254,b:254}
 },{
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:9, 
-  color:{R:255,G:0,B:255}
+  color:{r:255,g:0,b:255}
 },{
   struct_asym_id: 'A', 
   start_residue_number:10, 
@@ -276,7 +276,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:11, 
   end_residue_number:11, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },{
   struct_asym_id: 'A', 
   start_residue_number:12, 
@@ -286,7 +286,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:14, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },{
   struct_asym_id: 'A', 
   start_residue_number:15, 
@@ -296,7 +296,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:16, 
   end_residue_number:17, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },{
   struct_asym_id: 'A', 
   start_residue_number:18, 
@@ -306,7 +306,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:19, 
   end_residue_number:19, 
-  color:{R:34,G:139,B:34}
+  color:{r:34,g:139,b:34}
 },{
   struct_asym_id: 'A', 
   start_residue_number:20, 
@@ -314,9 +314,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:9,g:254,b:254}
 },{
   struct_asym_id: 'C', 
-  start_residue_number:28, 
-  end_residue_number:30, 
-  color:{R:255,G:255,B:0}
+  start_residue_number:1, 
+  end_residue_number:3, 
+  color:{r:255,g:255,b:0}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -406,12 +406,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <div class="controlsSection2">
             <button onclick="
               var selectSections2 = [
-                {
+               {
   struct_asym_id: 'A',    
   start_residue_number:4, 
   end_residue_number:6, 
-  color:{r:9,g:254,b:254},
-{
+  color:{r:9,g:254,b:254}
+},{
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:9, 
@@ -430,7 +430,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:15, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },{
   struct_asym_id: 'A', 
   start_residue_number:16, 
