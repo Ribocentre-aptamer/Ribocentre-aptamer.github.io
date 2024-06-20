@@ -311,28 +311,27 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+             {
   struct_asym_id: 'A',    
   start_residue_number:1, 
   end_residue_number:1, 
   color:{r:10,g:11,b:255}
-},
-{
+},{
   struct_asym_id: 'A', 
   start_residue_number:2, 
   end_residue_number:4, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },{
   struct_asym_id: 'A', 
   start_residue_number:5, 
   end_residue_number:7, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:9, 
-  color:{R:9,G:254,B:254}
+  color:{r:9,g:254,b:254}
 },
 {
   struct_asym_id: 'A', 
@@ -344,47 +343,47 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:10, 
   end_residue_number:19, 
-  color:{R:194,G:194,B:255}
+  color:{r:194,g:194,b:255}
 },{
    struct_asym_id: 'A', 
   start_residue_number:20, 
   end_residue_number:21, 
-  color:{R:9,G:254,B:254}
-}{
+  color:{r:9,g:254,b:254}
+},{
   struct_asym_id: 'A', 
   start_residue_number:22, 
   end_residue_number:22, 
-  color:{R:255,G:0,B:255}
+  color:{r:255,g:0,b:255}
 },{
    struct_asym_id: 'A', 
   start_residue_number:23, 
   end_residue_number:23, 
-  color:{R:9,G:254,B:254}
+  color:{r:9,g:254,b:254}
 },{
   struct_asym_id: 'A',    
   start_residue_number:24, 
   end_residue_number:24, 
-  color:{R:255,G:0,B:255}
+  color:{r:255,g:0,b:255}
 },{
   struct_asym_id: 'A',    
   start_residue_number:25, 
   end_residue_number:26, 
-  color:{R:9,G:254,B:254}
+  color:{r:9,g:254,b:254}
 },{
   struct_asym_id: 'A',    
   start_residue_number:27, 
   end_residue_number:29, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },{
   struct_asym_id: 'A',    
   start_residue_number:30, 
   end_residue_number:32, 
-  color:{R:50,G:205,B:50}
+  color:{r:50,g:205,b:50}
 },{
   struct_asym_id: 'A',    
   start_residue_number:33, 
   end_residue_number:33, 
-  color:R:10,G:11,B:255}
+  color:{r:10,g:11,b:255}
 },{
   struct_asym_id: 'C',    
   start_residue_number:34, 
@@ -403,7 +402,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/1NEM.pdb',
+        url:'/pdbfiles/1THE.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
