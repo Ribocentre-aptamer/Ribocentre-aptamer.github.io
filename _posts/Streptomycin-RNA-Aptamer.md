@@ -286,13 +286,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:17, 
   end_residue_number:18, 
   color:{r:50,g:205,b:50}
-}{
+},{
   struct_asym_id: 'A', 
   start_residue_number:19, 
   end_residue_number:22, 
   color:{r:194,g:194,b:255}
 },{
-   struct_asym_id: 'C', 
+   struct_asym_id: 'A', 
   start_residue_number:26, 
   end_residue_number:26, 
   color:{r:255,g:255,b:0}
