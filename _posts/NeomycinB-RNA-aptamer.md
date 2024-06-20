@@ -285,7 +285,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:18, 
   end_residue_number:18, 
   color:{r:255,g:0,b:255}
-}{
+},{
   struct_asym_id: 'A', 
   start_residue_number:19, 
   end_residue_number:19, 
@@ -295,6 +295,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:20, 
   end_residue_number:21, 
   color:{r:255,g:0,b:255}
+},{
+  struct_asym_id: 'A',    
+  start_residue_number:22, 
+  end_residue_number:26, 
+  color:{r:194,g:194,b:255}
 },{
   struct_asym_id: 'A',    
   start_residue_number:22, 
@@ -311,7 +316,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:28, 
   color:{r:255,g:255,b:0}
 }
-              ]
+       ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
