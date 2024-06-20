@@ -263,14 +263,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:11, 
   end_residue_number:11, 
   color:{r:255,g:0,b:255}
-},
-{
+},{
   struct_asym_id: 'A', 
   start_residue_number:12, 
   end_residue_number:12, 
   color:{r:255,g:192,b:203}
-},
-{
+},{
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:15, 
@@ -292,7 +290,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:22, 
   color:{r:194,g:194,b:255}
 },{
-   struct_asym_id: 'A', 
+   struct_asym_id: 'C', 
   start_residue_number:26, 
   end_residue_number:26, 
   color:{r:255,g:255,b:0}
