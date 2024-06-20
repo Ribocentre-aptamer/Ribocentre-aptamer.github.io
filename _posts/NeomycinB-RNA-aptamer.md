@@ -308,7 +308,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 },{
   struct_asym_id: 'B',    
   start_residue_number:1, 
-  end_residue_number:1, 
+  end_residue_number:2, 
   color:{r:255,g:255,b:0}
 },{
   struct_asym_id: 'B',    
