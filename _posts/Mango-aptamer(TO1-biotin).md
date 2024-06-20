@@ -266,6 +266,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:11, 
   end_residue_number:12, 
   color:{r:9,g:254,b:254}
@@ -347,12 +353,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:27, 
   end_residue_number:27, 
   color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:35, 
-  end_residue_number:35, 
-  color:{r:255,g:255,b:0}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
