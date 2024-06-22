@@ -121,8 +121,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2009, Buddai, Sai K et al. present the characterization of an RNA aptamer (RNA11f7t) developed by cyclical screening of a combinatorial library against factor Xa. They show that potent inhibition of thrombin formation catalyzed by prothrombinase unexpectedly results from the ability of RNA11f7t to bind factor Xa with high affinity and inhibit its interaction with factor Va on the membrane surface. In 2018, Gunaratne, Ruwan et al. solved X-ray crystal structures of the aptamer bound to factor Xa (FXa). They demonstrate that combinations of 11F7t and catalytic-site FXa inhibitors enhance anticoagulation in purified reaction mixtures and plasma<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 2009, Buddai, Sai K et al. present the characterization of an RNA aptamer (RNA11f7t) developed by cyclical screening of a combinatorial library against factor Xa. They show that potent inhibition of thrombin formation catalyzed by prothrombinase unexpectedly results from the ability of RNA11f7t to bind factor Xa with high affinity and inhibit its interaction with factor Va on the membrane surface. In 2018, Gunaratne, Ruwan et al. solved X-ray crystal structures of the aptamer bound to factor Xa (FXa). They demonstrate that combinations of 11F7t and catalytic-site FXa inhibitors enhance anticoagulation in purified reaction mixtures and plasma<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
@@ -204,61 +204,73 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A',    
   start_residue_number:1, 
   end_residue_number:7, 
-  color:{r:0,g:201,b:22}
+  color:{r:255,g:192,b:203}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:8, 
-  color:{r:255,g:192,b:203}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:9, 
-  color:{r:0,g:201,b:22}
+  color:{r:255,g:192,b:203}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:10, 
   end_residue_number:10, 
-  color:{r:255,g:192,b:203}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:11, 
   end_residue_number:27, 
-  color:{r:0,g:201,b:22}
+  color:{r:255,g:192,b:203}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:28, 
   end_residue_number:28, 
-  color:{r:255,g:192,b:203}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:29, 
-  end_residue_number:29 
-  color:{r:0,g:201,b:22}
+  end_residue_number:29,
+  color:{r:255,g:192,b:203}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:30, 
-  end_residue_number:30 
+  end_residue_number:30,
+  color:{r:255,g:0,b:255}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:31, 
+  end_residue_number:36,
   color:{r:255,g:192,b:203}
 },
 {
   struct_asym_id: 'H', 
   start_residue_number:16, 
-  end_residue_number:301 
+  end_residue_number:243, 
   color:{r:9,g:254,b:254}
+},
+{
+  struct_asym_id: 'H', 
+  start_residue_number:301, 
+  end_residue_number:301, 
+  color:{r:255,g:255,b:0}
 },
 {
   struct_asym_id: 'L', 
   start_residue_number:88, 
-  end_residue_number:136 
-  color:{r:50,g:205,b:50}
+  end_residue_number:138, 
+  color:{r:9,g:254,b:254}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -326,10 +338,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td0">Factor Xa-aptamer</td>
+        <td name="td0">117Ft aptamer</td>
         <!--td name="td1">UGGGGUAUCGCCAAGCGGUAAGGCACCGGAUUCUGAUUCCGGCAUUCCGAGGUUCGAAUCCUCGUACCCCAGCCA</td-->
         <td name="td3">DesGla-XaS195A</td>
-        <td name="td4">1.1 ± 0.2nM</td>
+        <td name="td4">1.1 ± 0.2 nM</td>
       </tr>
 	  </tbody>
   </table>
