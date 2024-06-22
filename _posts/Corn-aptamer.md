@@ -175,7 +175,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">3D visualisation</p>             
 <font>In 2017, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection. The PDB ID of this structure is 5BJP and 5BJO<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFHO_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -229,7 +229,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                      {
+                {
   struct_asym_id: 'Y', 
   start_residue_number:104, 
   end_residue_number:104, 
@@ -412,7 +412,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:14, 
   color:{r:211,g:211,b:211}
 }
-          ]
+              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
@@ -424,7 +424,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/pdb',
+        url:'/pdbfiles/5bjp.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
@@ -436,13 +436,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
     colorSelectionButton1.click();
   });
-    </script>
-    </body>
-    </html>
-    </td>
-  </tr>
-  </table>
-  </div>
+</script>
+</body>
+</html>
+</td>
+</tr>
+</table>
+</div>
+<br>
 
 
 
@@ -636,65 +637,3 @@ Passalacqua, L. F. M., Starich, M. R., Link, K. A., Wu, J., Knutson, J. R., Tjan
 <a href="https://pubmed.ncbi.nlm.nih.gov/37221204/" target="_blank" style="color:#520049">Nature communications, 14(1), 2969. (2023)</a>
 <br />
 
-
-<html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1RAW-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    </html>
