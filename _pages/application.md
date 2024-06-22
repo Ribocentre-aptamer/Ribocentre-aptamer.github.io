@@ -7,7 +7,7 @@ permalink: /applications/
 ---
 
 <h1 class="post-title" itemprop="name headline">Applications</h1>
-<p>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
+<font>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</font>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/main.svg" alt="drawing" style="width:800px;height:600px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <p>RNA aptamers offer several advantages over traditional antibodies and other molecular recognition elements<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>:</p>
@@ -159,28 +159,6 @@ permalink: /applications/
 </head>
 
 
-<!--div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Versatility</th>
-        <th>High Affinity and Specificity</th>
-        <th>Stability</th>
-        <th>Renewability</th>
-        <th>Low Immunogenicity</th>
-        <th>Ease of Modification</th>
-        <th>Multivalency</th>
-      </tr>     
-     <tr>
-      <td>Aptamers can be engineered to target a wide range of molecules, including proteins, small molecules, ions, and even whole cells.</td>
-      <td>They can exhibit binding affinities and specificities comparable to monoclonal antibodies.</td>
-      <td>RNA aptamers can be chemically modified to enhance their stability, allowing them to resist degradation and maintain their function in various biological environments.</td>
-      <td>Unlike antibodies, which are produced by living organisms and can be challenging to produce in large quantities, aptamers can be synthesized in vitro in large quantities and with high purity.</td>
-      <td>They generally elicit a lower immune response compared to antibodies, which is advantageous for in vivo applications.</td>
-      <td>RNA aptamers can be chemically modified to improve their properties, such as stability, solubility, and resistance to nucleases.</td>
-      <td>They can be designed to bind multiple targets or to carry multiple functionalities, such as drug delivery or imaging agents.</td>
-    </tr> 
-</table>
-</div-->
 
 
 
@@ -190,7 +168,6 @@ permalink: /applications/
     <div class="side-nav-item"><a href="#Disease-treatment-drugs" style="color: #000000;">Disease treatment&drugs</a></div>
     <div class="side-nav-item"><a href="#Biosensing-monitoring" style="color: #000000;">Biosensing&monitoring</a></div>
     <div class="side-nav-item"><a href="#Research-Tools " style="color: #000000;">Research Tools</a></div>
-    <div class="side-nav-item"><a href="#references" style="color: #000000;">References</a></div>
     </ul>
 </div>
 
