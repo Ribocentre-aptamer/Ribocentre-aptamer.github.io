@@ -160,8 +160,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2017, Wenjiao Song et al. developed Corn aptamer, which enables monitoring of Pol III transcript levels by forming a light-stable RNA-fluorophore complex with fluorophores. In the same year, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 2017, Wenjiao Song et al. developed Corn aptamer, which enables monitoring of Pol III transcript levels by forming a light-stable RNA-fluorophore complex with fluorophores. In the same year, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
 <br>
 <br>
 
@@ -173,24 +173,288 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-CGAGGAAGGAGGUCUGAGGAGGUCACUG-3'</p></font>
-<img src="/images/2D/DFHO_aptamer_2D.svg" alt="drawing" style="width:700px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;"></div>
-<br>
-
 <p class="blowheader_box">3D visualisation</p>             
-<font >In 2017, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection. The PDB ID of this aptamer is 5BJP and 5BJO<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>. Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<br>
-<br>
+<font>In 2017, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection. The PDB ID of this structure is 5BJP and 5BJO<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFHO_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>PDBe Molstar</title>
+      <!-- Molstar CSS & JS -->
+      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection1 {
+            padding-top: 0px;
+          }
+          .controlsSection1 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox1 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer1{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
+    <body onload="customize()">
+        <div class="controlsSection1">
+            <button onclick="
+              var selectSections1 = [
+                      {
+  struct_asym_id: 'Y', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:9,g:254,b:254}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:9,g:254,b:254}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:9,g:254,b:254}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:9,g:254,b:254}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:238,g:130,b:238}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:238,g:130,b:238}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:238,g:130,b:238}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:238,g:130,b:238}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:17, 
+  end_residue_number:18, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:17, 
+  end_residue_number:18, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:34,g:139,b:34}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:255,g:0,b:255}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:255,g:0,b:255}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:255,g:0,b:255}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:211,g:211,b:211}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:211,g:211,b:211}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:211,g:211,b:211}
+}
+          ]
+            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+      </div>
+    <div class="viewerSection1">
+    <!-- Molstar container -->
+      <div id="myViewer1"></div>
+    </div>
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        url:'/pdbfiles/pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+    </script>
+    </body>
+    </html>
+    </td>
+  </tr>
+  </table>
+  </div>
+
+
+
+<p class="blowheader_box">Binding pocket</p>             
+<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5BJP by X-ray crystallography. DFHO(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHO or other nucleotides surround small molecules.</font>
+<br>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/Binding_pocket/DFHO_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/DFHO_aptamer_3D2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/DFHO_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -199,11 +463,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >The Kd was determined by both ITC and measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration (50 nM) of RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
+<font >The K<sub>d</sub> was determined by both ITC and measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration (50 nM) of RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
 <div style="display: flex; justify-content: center;">
 <br>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
