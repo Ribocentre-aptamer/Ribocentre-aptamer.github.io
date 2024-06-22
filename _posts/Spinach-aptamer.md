@@ -356,7 +356,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
             <button onclick="
               var selectSections1 = [
                 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:206, 
   end_residue_number:206, 
   color:{r:255,g:255,b:0}
@@ -374,31 +374,31 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:9,g:254,b:254}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:62, 
   end_residue_number:63, 
   color:{r:9,g:254,b:254}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:66, 
   end_residue_number:67, 
   color:{r:9,g:254,b:254}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:71, 
   end_residue_number:71, 
   color:{r:9,g:254,b:254}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:69, 
   end_residue_number:69, 
   color:{r:9,g:254,b:254}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:85, 
   end_residue_number:94, 
   color:{r:128,g:219,b:158}
@@ -410,7 +410,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:128,g:219,b:158}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:101, 
   end_residue_number:101, 
   color:{r:128,g:219,b:158}
@@ -422,7 +422,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:194,g:194,b:255}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:49, 
   end_residue_number:57, 
   color:{r:194,g:194,b:255}
@@ -440,7 +440,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:255,g:0,b:255}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:64, 
   end_residue_number:64, 
   color:{r:255,g:0,b:255}
@@ -458,25 +458,25 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:10,g:11,b:255}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:65, 
   end_residue_number:65, 
   color:{r:10,g:11,b:255}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:68, 
   end_residue_number:68, 
   color:{r:10,g:11,b:255}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:70, 
   end_residue_number:70, 
   color:{r:10,g:11,b:255}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:72, 
   end_residue_number:72, 
   color:{r:10,g:11,b:255}
@@ -488,7 +488,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:0,g:128,b:128}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:73, 
   end_residue_number:84, 
   color:{r:0,g:128,b:128}
@@ -500,7 +500,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:255,g:135,b:10}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:58, 
   end_residue_number:61, 
   color:{r:255,g:135,b:10}
