@@ -147,8 +147,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
     <rnacentral-sequence-search
             databases='["ribocentre"]'
             examples='[
-              {"description": "Thrombin aptamer", "urs": "", "sequence": "GGGAACAAAGCUGAAGUACUUACCC"},
-              {"description": "Spinach aptamer", "urs": "", "sequence": "GACGCGACCGAAAUGGUGAAGGACGGGUCCAGUGCGAAACACGCACUGUUGAGUAGAGUGUGAGCUCCGUAACUGGUCGCGUC"}
+              {"description": "GlnRs aptamer", "urs": "", "sequence": "UGGGGUAUCGCCAAGCGGUAAGGCACCGGAUUCUGAUUCCGGAGGUCGAGGUUCGAAUCCUCGUACCCCAGCCA"}
             ]'
             rfam="true"
     />
