@@ -120,23 +120,23 @@ permalink: /
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
          <div class="item active">
-            <img src="/images/home_page/home_page1.svg" alt="Slide 1" style=" width:700px; object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
+            <img src="/images/home_page/home1.svg" alt="Slide 1" style=" width:700px; height:500px;object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
         </div>
         <div class="item ">
-            <img src="/images/home_page/home_page2.svg" alt="Slide 1" style=" width:700px; object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
+            <img src="/images/home_page/home2.svg" alt="Slide 2" style=" width:700px; height:500px;object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
         </div>
         <div class="item">
-            <img src="/images/home_page/home_page3.svg" alt="Slide 2" style=" width:700px; object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
-        </div>
-        <!--div class="item">
-            <img src="/images/home_page/home_page_picture4.svg" alt="Slide 3" style="width:1000px; object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
+            <img src="/images/home_page/home3.svg" alt="Slide 3" style=" width:700px; height:500px;object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
         </div>
         <div class="item">
-            <img src="/images/home_page/home_page_picture5.svg" alt="Slide 4" style=" width:1000px; object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
+            <img src="/images/home_page/home4.svg" alt="Slide 4" style="width:600px; height:500px;object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
         </div>
         <div class="item">
-            <img src="/images/home_page/home_page_picture6.svg" alt="Slide 4" style=" width:1000px; object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
-        </div-->
+            <img src="/images/home_page/home5.svg" alt="Slide 5" style=" width:600px; height:500px;object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
+        </div>
+        <div class="item">
+            <img src="/images/home_page/home6.svg" alt="Slide 6" style=" width:600px;height:500px; object-fit: cover;border-radius:0%;display: block; margin: 0 auto;"/>
+        </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -148,7 +148,7 @@ permalink: /
   </a>
 </div>
 <br>
-<strong style="color:#520049;font-weight: bold">Ribocentre-aptamer</strong>  is a publicly accessible aptamer dataset and searchable database containing comprehensive information on all APtamers. RNA aptamers are oligonucleotides with high binding affinity and specificity to target molecules, which are expected to become a new generation of therapeutic molecules and targeted delivery materials.
+<strong style="color:#520049;font-weight: bold">Ribocentre-aptamer</strong>  is a comprehensive resource that catalogues various RNA aptamers capable of binding specific target molecules with high affinity and specificity. Aptamers are short, single-stranded RNA molecules selected for their ability to bind a wide range of targets, including small organic compounds, proteins, and even entire cells. This database provides detailed information on the binding characteristics, structural features, and experimental conditions for each aptamer, facilitating research and development in fields such as drug discovery, diagnostics, and synthetic biology. The RNA aptamer Database significantly broadens our understanding of RNA functionality, showcasing its versatility not only in genetic coding and catalysis but also in precise molecular recognition and binding.
 <br><br>
 
 <strong style="color:#0874c4;font-weight: bold">Ribocentre</strong>  is designed to contain comprehensive information of all natural ribozymes. Ribozymes are good systems for understanding the ‘sequence - structure - function’ relationship of RNA molecules, since ribozymes are found in the genomes of species from all kingdoms of life and play a role in important reactions such as peptide-bond formation, RNA splicing, transfer RNA biosynthesis, and viral replication. This is therefore an excellent time to summarise these properties, and our new web-based database will make this generally accessible<a href="https://www.ribocentre.org/" target="_blank" style="color:#0874c4" > (Accessing the Ribocentre)</a>.
