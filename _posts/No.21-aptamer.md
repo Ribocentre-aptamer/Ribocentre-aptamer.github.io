@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A30 aptamer"
+title:  "No.21 aptamer"
 date:   2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
@@ -98,19 +98,19 @@ categories: Aptamer
 <div class="timeline">
   <div class="entry">
   <div class="title">
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12874383/" target="_blank" style="color:#520049">2003</a></h3>
+    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12649492/" target="_blank" style="color:#520049">2003</a></h3>
   </div>
   <div class="body">
-    <p>An aptamer called A30, which binds specifically to the HER3, was selected for the first time by the SELEX methodology<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+    <p>Oguro A et al.generated RNA aptamers with high affinity for eIF4A<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
   </div>
  </div>
             
  <div class="entry">
   <div class="title">
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29499944/" target="_blank" style="color:#520049">2017</a></h3>
+    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16940549/" target="_blank" style="color:#520049">2006</a></h3>
   </div>
   <div class="body">
-    <p>Yu X et al. developed a three-in-one nucleic acid aptamer-small interfering RNA (siRNA) chimera<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+    <p>Miyakawa S et al. isolated eight different RNA aptamers with high affinity to mammalian eIF4G<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
   </div>
  </div>
 </div>
@@ -118,22 +118,22 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 2003, Chen C.H and Chernis G.A had used the SELEX  methodology to select RNA aptamers against the oligomeric state of the extracellular domains of HER3. One of the aptamers, A30, binds with high affinity to a limited number of binding sites in the oligomeric state of the extracellular domains of HER3<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 2003, Akihiro Oguro and Takashi Ohtsu had used the SELEX  methodology to select RNA aptamers with high affinity for eIF4A by in vitro RNA selection-amplification<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2003, Chen C.H et al. chose to make a filter binding assay was used for the first eight rounds of selection.A gel-shift assay was used in the last seven rounds of selection. Then, the cDNA was PCR-amplified for the next round of selection. Finally,  Individual clones were obtained by ligation of the PCR product into either pGEM4 or pGEM3Z vectors after digestion with EcoRI and BamHI<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2003, Akihiro Oguro and colleagues used SELEX. Four RNA selection experiments were performed using fulllength eIF4A and RNA pools of either 30 or 40 random nucleotide positions. Then, from each selection, 48 RNA sequences were cloned, aptamers that bind specifically to eIF4A were selected with high affinity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGAAUUCCGCGUGUGCCAGCGAAAGUUGCGUAUGGGUCACAUCGCAGGCACAUGUCAUCUGGGCGGUCCGUUCGGGAUCCUC-3'</p></font>
-<img src="/images/2D/A30_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font><p>5'-GGGAGACAAGAAUAAACGCUCAAGGGGACCGCGCCCCACAUGUGAGUGAGGCCGAAACAUAGAUUCGACAGGAGGCUCACAACAGGC-3'</p></font>
+<img src="/images/2D/no.21_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 <br>
@@ -143,7 +143,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>HER3 binds the neuregulin ligands, NRG1 and NRG2, and it relies on its heterodimerization partners for activity following ligand binding. The HER2-HER3 heterodimer constitutes a high affinity co-receptor capable of potent mitogenic signaling. HER3 participates in a signaling pathway involved in the proliferation, survival, adhesion, and motility of tumor cells.-----from Pfam</p>
+<p>The DEAD-box helicase domain found in eIF4A and related proteins are DEAD-box helicases, a diverse family of proteins involved in ATP-dependent RNA unwinding, needed in a variety of cellular processes including splicing, ribosome biogenesis and RNA degradation. Eukaryotic initiation factor 4A-I (DDX2A) is involved in cap recognition and is required for mRNA binding to ribosome. This domain contains the ATP-binding region.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -158,18 +158,18 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td0">HER3ECD(the extracellular domains of HER3)</td>
-        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P21860/entry" target="_blank" style="color:#520049"><b>P21860</b></a></td>
-        <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/cdd/CD05111/" target="_blank" style="color:#520049"><b>CD05111</b></a></td>
-        <td name="td3">82 kDa</td>
-        <td name="td4">SEVGNSQAVCPGTLNGLSVTGDAENQYQTLYKLYERCEVVMGNLEIVLTGHNADLSFLQWVREVTGYVLVAMNEFSTLPLPNLRVVRGTQVYDGKFAIFVMLNYNTNSSHALRQLRLTQLTEILSGGVYIEKNDKLCHMDTIDWRDIVRDRDAEIVVKDNGRSCPPCHEVCKGRCWGPGSEDCQTLTKTICAPQCNGHCFGPNPNQCCHDECAGGCSGPQDTDCFACRHFNDSGACVPRCPQPLVYNKLTFQLEPNPHTKYQYGGVCVASCPHNFVVDQTSCVRACPPDKMEVDKNGLKMCEPCGGLCPKACEGTGSGSRFQTVDSSNIDGFVNCTKILGNLDFLITGLNGDPWHKIPALDPEKLNVFRTVREITGYLNIQSWPPHMHNFSVFSNLTTIGGRSLYNRGFSLLIMKNLNVTSLGFRSLKEISAGRIYISANRQLCYHHSLNWTKVLRGPTEERLDIKHNRPRRDCVAEGKVCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVLGAKGPIYKYPDVQNECRPCHENCTQGCKGPELQDCLGQTLVLIGKT</td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/1M6B" target="_blank" style="color:#520049"><b>1M6B</b></a></td>
-        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/protein/AAQ24492.1" target="_blank" style="color:#520049"><b>AAQ24492.1</b></a></td>
+        <td name="td0">eIF4A</td>
+        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P60842/entry" target="_blank" style="color:#520049"><b>P60842</b></a></td>
+        <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR044728/" target="_blank" style="color:#520049"><b>IPR044728</b></a></td>
+        <td name="td3">46.154 kDA</td>
+        <td name="td4">MSASQDSRSRDNGPDGMEPEGVIESNWNEIVDSFDDMNLSESLLRGIYAYGFEKPSAIQQRAILPCIKGYDVIAQAQSGTGKTATFAISILQQIELDLKATQALVLAPTRELAQQIQKVVMALGDYMGASCHACIGGTNVRAEVQKLQMEAPHIIVGTPGRVFDMLNRRYLSPKYIKMFVLDEADEMLSRGFKDQIYDIFQKLNSNTQVVLLSATMPSDVLEVTKKFMRDPIRILVKKEELTLEGIRQFYINVEREEWKLDTLCDLYETLTITQAVIFINTRRKVDWLTEKMHARDFTVSAMHGDMDQKERDVIMREFRSGSSRVLITTDLLARGIDVQQVSLVINYDLPTNRENYIHRIGRGGRFGRKGVAINMVTEEDKRTLRDIETFYNTSIEEMPLNVADLI</td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/2G9N" target="_blank" style="color:#520049"><b>2G9N</b></a></td>
+        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/gene/1973" target="_blank" style="color:#520049"><b>1973</b></a></td>
       </tr>
 	  </tbody>
   </table>
 
-  <p>The aptamer bind to the affinity of the protein.</p>
+  <p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -181,15 +181,43 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td0">A30 aptamer</td>
-        <td name="td1">5'-GGGAAUUCCGCGUGUGCCAGCGAAAGUUGCGUAUGGGUCACAUCGCAGGCACAUGUCAUCUGGGCGGUCCGUUCGGGAUCCUC-3'</td>
-        <td name="td2">HER3ECD(the extracellular domains of HER3)</td>
-        <td name="td3">45 nM</td>
-      </tr>
+      <td name="td0">no.21 aptamer</td>
+      <td name="td1">5'-GGGAGACAAGAAUAAACGCUCAAGGGGACCGCGCCCCACAUGUGAGUGAGGCCGAAACAUAGAUUCGACAGGAGGCUCACAACAGGC-3'</td>
+      <td name="td2">eIF4A</td>
+      <td name="td3">27nM</td>
+    </tr>
+            
+     <tr>
+      <td name="td0">#11 aptamer</td>
+      <td name="td1">5'-GGGAGACAAGAAUAAAACGCUCAAACAUUGCAUCGACAGCUGCAAGGCUCCCGCCGUACAAACCUUCGACAGGAGGCUCACAACAGGC-3'</td>
+      <td name="td2">eIF4A</td>
+      <td name="td3">8 μM</td>
+    </tr>
+            
+     <tr>
+      <td name="td0">#1 aptamer</td>
+      <td name="td1">5'-GGGAGACAAGAAUAAACGCUCAACAGGCGUUUAGCCUCUAAGUAACAGGGGCCUCCCAUGAGCUUCGACAGGAGGCUCACAACAGGC-3'</td>
+      <td name="td2">eIF4A</td>
+      <td name="td3">3 μM</td>
+    </tr>
+            
+     <tr>
+      <td name="td0">#20 aptamer</td>
+      <td name="td1">5'-GGGAGACAAGAAUAAACGCUCAAGGGGACCGCGCCCCACAUGUGAGUGAGGCCGAAACGUAGAUUCGACAGGAGGCUCACAACAGGC-3'</td>
+      <td name="td2">eIF4A</td>
+      <td name="td3">44 nM</td>
+    </tr>
+            
+     <tr>
+      <td name="td0">#30 aptamer</td>
+      <td name="td1">5'-GGGAGACAAGAAUAAACGCUCAAUGUGGAUGAUUUGUAUGAUCGCGCAUACAAUUCGACAGGAGGCUCACAACAGGC-3'</td>
+      <td name="td2">eIF4A</td>
+      <td name="td3">1 μM</td>
+    </tr>
 	  </tbody>
   </table>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/SELEX_ligand/A30_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/SELEX_ligand/no.21_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
@@ -207,73 +235,73 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </thead>
     <tbody>
       <tr>
-      <td name="td0">4KRP-A</td>
-      <td name="td1">37.3</td>
-      <td name="td2">5.3</td>
-      <td name="td3">Epidermal Growth Factor Receptor</td>
+      <td name="td0">8RC0-D</td>
+      <td name="td1">27.8</td>
+      <td name="td2">1.9</td>
+      <td name="td3">Cd2 Antigen Cytoplasmic Tail-Binding Protein 2</td>
     </tr>
             
      <tr>
-      <td name="td0">8PWH-E</td>
-      <td name="td1">26.0</td>
-      <td name="td2">22.0</td>
-      <td name="td3">Trastuzumab Fab Light Chain</td>
+      <td name="td0">3I5X-A</td>
+      <td name="td1">25.0</td>
+      <td name="td2">2.3</td>
+      <td name="td3">Atp-Dependent Rna Helicase Mss116</td>
     </tr>
             
      <tr>
-      <td name="td0">7S8V-B</td>
-      <td name="td1">20.0</td>
-      <td name="td2">8.2</td>
-      <td name="td3">Insulin-Like Growth Factor 1 Receptor</td>
+      <td name="td0">7NAD-X</td>
+      <td name="td1">23.3</td>
+      <td name="td2">1.9</td>
+      <td name="td3">25S Rrna</td>
     </tr>
             
      <tr>
-      <td name="td0">8CLS-B</td>
-      <td name="td1">18.9</td>
-      <td name="td2">13.9</td>
-      <td name="td3">Insulin-Like Receptor</td>
+      <td name="td0">6ZNP-A</td>
+      <td name="td1">19.1</td>
+      <td name="td2">2.7</td>
+      <td name="td3">Uncharacterized Atp-Dependent Helicase Ypra</td>
     </tr>
             
      <tr>
-      <td name="td0">1M9S-A</td>
-      <td name="td1">6.0</td>
-      <td name="td2">5.0</td>
-      <td name="td3">Internalin B</td>
+      <td name="td0">5V9X-A</td>
+      <td name="td1">18.8</td>
+      <td name="td2">2.7</td>
+      <td name="td3">Atp-Dependent Dna Helicase</td>
     </tr>
             
      <tr>
-      <td name="td0">7B8B-B</td>
-      <td name="td1">5.7</td>
-      <td name="td2">5.5</td>
-      <td name="td3">Polygalacturonase Adpg2</td>
+      <td name="td0">8VX9-B</td>
+      <td name="td1">18.5</td>
+      <td name="td2">2.9</td>
+      <td name="td3">Hama</td>
     </tr>
             
      <tr>
-      <td name="td0">1HG8-A</td>
-      <td name="td1">5.6</td>
-      <td name="td2">5.3</td>
-      <td name="td3">Endopolygalacturonase</td>
+      <td name="td0">4CGZ-A</td>
+      <td name="td1">18.0</td>
+      <td name="td2">2.8</td>
+      <td name="td3">Bloom'S Syndrome Helicase</td>
     </tr>
             
      <tr>
-      <td name="td0">7YA8-B</td>
-      <td name="td1">5.3</td>
-      <td name="td2">4.5</td>
-      <td name="td3">Ring-Type E3 Ubiquitin Transferase</td>
+      <td name="td0">1WP9-A</td>
+      <td name="td1">17.9</td>
+      <td name="td2">2.6</td>
+      <td name="td3">Atp-Dependent Rna Helicase, Putative</td>
     </tr>
             
      <tr>
-      <td name="td0">8TH8-C</td>
-      <td name="td1">5.1</td>
-      <td name="td2">5.9</td>
-      <td name="td3">Dynein Regulatory Complex Protein 1/2 N-Terminal</td>
+      <td name="td0">5DCA-A</td>
+      <td name="td1">17.2</td>
+      <td name="td2">2.6</td>
+      <td name="td3">Pre-Mrna-Splicing Helicase Brr2</td>
     </tr>
             
      <tr>
-      <td name="td0">7O17-A</td>
-      <td name="td1">5.0</td>
-      <td name="td2">3.4</td>
-      <td name="td3">Probable Abc Transporter Binding Protein Nosd</td>
+      <td name="td0">2OCA-A</td>
+      <td name="td1">16.7</td>
+      <td name="td2">3.3</td>
+      <td name="td3">Atp-Dependent Dna Helicase Uvsw</td>
     </tr>
     </tbody>
   </table>
@@ -284,14 +312,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Inhibition of heregulin signaling by an aptamer that preferentially binds to the oligomeric form of human epidermal growth factor receptor-3.</strong></font><br />
-Chen CH, Chernis GA, Hoang VQ, Landgraf R.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/12874383/" target="_blank" style="color:#520049">Proc Natl Acad Sci U S A, 100(16):9226-31. (2003)</a>
+<a id="ref1"></a><font><strong>[1] RNA aptamers to initiation factor 4A helicase hinder cap-dependent translation by blocking ATP hydrolysis.</strong></font><br />
+Oguro A, Ohtsu T, Svitkin YV, Sonenberg N, Nakamura Y.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/12649492/" target="_blank" style="color:#520049">RNA. 9(4):394-407. (2003)</a>
 <br/>
             
-<a id="ref2"></a><font><strong>[2] Targeting EGFR/HER2/HER3 with a Three-in-One Aptamer-siRNA Chimera Confers Superior Activity against HER2+ Breast Cancer.</strong></font><br />
-Yu X, Ghamande S, Liu H, Xue L, Zhao S, Tan W, Zhao L, Tang SC, Wu D, Korkaya H, Maihle NJ, Liu HY.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/29499944/" target="_blank" style="color:#520049">Mol Ther Nucleic Acids, 10:317-330. (2017)</a>
+<a id="ref2"></a><font><strong>[2] RNA aptamers to mammalian initiation factor 4G inhibit cap-dependent translation by blocking the formation of initiation factor complexes.</strong></font><br />
+Miyakawa S, Oguro A, Ohtsu T, Imataka H, Sonenberg N, Nakamura Y.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/16940549/" target="_blank" style="color:#520049">RNA. 12(10):1825-34. (2006)</a>
 <br/>
 
 
