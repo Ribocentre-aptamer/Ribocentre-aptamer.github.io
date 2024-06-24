@@ -114,6 +114,13 @@ permalink: /helps/
 <br>
 
 
+<p class="header_box">How to contact us</p>
+<p>For any inquiries or concerns regarding the database, please reach out to <a style="color:#520049"><b><i>2112240208@gdpu.edu.cn</i></b></a>.</p>
+<br>
+<br>
+
+
+
 <p class="header_box">Group Members</p>
 <div class="row">
     <div class="col-sm-6 clearfix">
