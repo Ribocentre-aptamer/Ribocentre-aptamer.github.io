@@ -101,8 +101,10 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2017, Robert T Batey et al. developed a novel approach: when secondary and tertiary structural scaffolds derived from biologically active riboswitches and small nuclease enzymes are applied to the neurotransmitter precursor 5-hydroxytryptophan, this approach yields easily recognizable and characterizable aptamers that can be coupled to readout structural domains, leading to the design of nucleic acid sensing devices that function in vitro and in cellular environments. And 2 Å of a 5-hydroxytryptophan aptamer was obtained by crystal diffraction<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
+
+
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 2017, Robert T Batey et al. developed a novel approach: when secondary and tertiary structural scaffolds derived from biologically active riboswitches and small nuclease enzymes are applied to the neurotransmitter precursor 5-hydroxytryptophan, this approach yields easily recognizable and characterizable aptamers that can be coupled to readout structural domains, leading to the design of nucleic acid sensing devices that function in vitro and in cellular environments. And 2 Å of a 5-hydroxytryptophan aptamer was obtained by crystal diffraction<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
 <br>
 <br>
 <br>
