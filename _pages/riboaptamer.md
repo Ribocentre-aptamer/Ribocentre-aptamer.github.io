@@ -698,11 +698,11 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/1ULL" target="_blank" style="color:#520049"><b>1ULL</b></a></td>
       </tr>  
       <tr>
-        <td name="td0" rowspan = "1">Others</td>
+        <td name="td0" rowspan = "1">Prion</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Bovine-prion-protein(bPrP)-aptamer" target="_blank" style="color:#520049"><b>Bovine prion protein(bPrP) aptamer</b></a></td>
         <td name="td2">Bovine prion protein</td>
         <td name="td3">Normal cellular form of prion protein (PrP<sub>C</sub>) change into abnormal form (PrP<sub>Sc</sub>) and causes anti-prion, prevent prion and Alzheimer's disease. There are the similar structures between 2RSK and 2RU7, so only the 2RU7 with last literature is chosen.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9343239/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/19098441/" target="_blank" style="color:#520049"><b>2008</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2RU7" target="_blank" style="color:#520049"><b>2RU7</b></a><br><a href="https://www.rcsb.org/structure/2RSK" target="_blank" style="color:#520049"><b>2RSK</b></a></td>
       </tr> 
       <tr>
@@ -786,11 +786,11 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/6SY4" target="_blank" style="color:#520049"><b>6SY4</b></a><br><a href="https://www.rcsb.org/structure/6SY6" target="_blank" style="color:#520049"><b>6SY6</b></a></td>
       </tr> 
       <tr>
-        <td name="td0" rowspan = "1">Others</td>
+        <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/REX16-aptamer" target="_blank" style="color:#520049"><b>REX16 aptamer</b></a></td>
         <td name="td2">HTLV-1 arginine-rich Rex peptide</td>
         <td name="td3">Rex is a post-transcriptional regulator that induces the emergence of unspliced and single-spliced viral mRNA in the cytoplasm.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10647177/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10647177/" target="_blank" style="color:#520049"><b>1999</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1EXY" target="_blank" style="color:#520049"><b>1EXY</b></a></td>
       </tr> 
       <tr>
@@ -834,7 +834,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/4R8I" target="_blank" style="color:#520049"><b>4R8I</b></a></td>
       </tr> 
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FC-RNA-aptamer" target="_blank" style="color:#520049"><b>FC RNA aptamer</b></a></td>
         <td name="td2">RNA polymerase (Pol) II (S. cerevisiae)</td>
         <td name="td3">RNA polymerase II (RNAP II and Pol II) is a multiprotein complex that transcribes DNA into precursors of messenger RNA (mRNA) and most small nuclear RNA (snRNA) and microRNA. It is one of the three RNAP enzymes found in the nucleus of eukaryotic cells. A 550 kDa complex of 12 subunits, RNAP II is the most studied type of RNA polymerase. A wide range of transcription factors are required for it to bind to upstream gene promoters and begin transcription.</td>
@@ -1186,11 +1186,11 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Others</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Elongation-factor-SelB-aptamer" target="_blank" style="color:#520049"><b>Elongation factor SelB aptamer</b></a></td>
         <td name="td2">Elongation factor SelB</td>
         <td name="td3">RNA aptamers bound to the SelB C-terminal domain responsible for mRNA hairpin binding.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10496219/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9192624/" target="_blank" style="color:#520049"><b>1997</b> </a><br><a href="https://pubmed.ncbi.nlm.nih.gov/10496219/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
