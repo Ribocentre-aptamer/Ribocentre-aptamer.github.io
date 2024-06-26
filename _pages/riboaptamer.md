@@ -823,7 +823,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td2">DesGla-XaS195A</td>
         <td name="td3">GD-FXaS195A is a FXa variant that lacks the membrane binding γ-carboxyglutamic acid (Gla) domain and contains an alanine substitution at the catalytic serine.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29863725/" target="_blank" style="color:#520049"><b>2018</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/5VOF" target="_blank" style="color:#520049"><b>5VOF</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/5VOF" target="_blank" style="color:#520049"><b>5VOF</b></a><br><a href="https://www.rcsb.org/structure/5VOE" target="_blank" style="color:#520049"><b>5VOE</b></a></td>
       </tr>   
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
@@ -1415,6 +1415,206 @@ This section lists all the experimentally validated Aptamers.
         <td name="td2">Mixed lineage leukemia proteins (MLL)</td>
         <td name="td3">Mixed lineage leukemia proteins (MLL) are the key histone lysine methyltransferases that regulate expression of diverse genes. Aberrant activation of MLL promotes leukemia as well as solid tumors in humans.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/30419633/" target="_blank" style="color:#520049"><b>2019</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TCF-1-aptamer" target="_blank" style="color:#520049"><b>TCF-1 aptamer</b></a></td>
+        <td name="td2">TCF-1</td>
+        <td name="td3">T cytokine 1 (TCF-1) is a transcription factor (TF) of the classical Wnt signaling pathway, encoded by Tcf7.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15055546/" target="_blank" style="color:#520049"><b>2004</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/A30-aptamer" target="_blank" style="color:#520049"><b>A30 aptamer</b></a></td>
+        <td name="td2">Extracellular domains of HER3</td>
+        <td name="td3">HER3 (ErbB3) is a member of the EGFR (HER, ErbB) subfamily of proteins, which are receptor PTKs (RTKs) containing an extracellular EGF-related ligand-binding region, a transmembrane helix, and a cytoplasmic region with a tyr kinase domain and a regulatory C-terminal tail. HER3ECD is the extracellular domains of HER3.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12874383/" target="_blank" style="color:#520049"><b>2003</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/RANK-aptamer" target="_blank" style="color:#520049"><b>RANK aptamer</b></a></td>
+        <td name="td2">RANK(TNFRSF11A )</td>
+        <td name="td3">The receptor activatorof NF-kB (RANK)is a memberof the tumor necrosis factor (TNF) receptor family and acts to cause osteoclastgenesis through the interaction  with its ligand, RANKL.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15562003/" target="_blank" style="color:#520049"><b>2004</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Cytohesin-2-aptamer" target="_blank" style="color:#520049"><b>Cytohesin-2 aptamer</b></a></td>
+        <td name="td2">Cytohesin-2</td>
+        <td name="td3">Cytohesins are a family of highly homologous guanine nucleotide exchange factors (GEFs) that act on ADP-ribosylation factors (ARFs). The small ARF-GEFs are involved in integrin signaling, actin cytoskeleton remodeling, and vesicle transport. The N-terminal coiled-coil and parts of the Sec7 domain of cytohesin-2 are required for serum-mediated transcriptional activation in nonimmune cells, whereas cytohesin-1 is not.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15277685/" target="_blank" style="color:#520049"><b>2004</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/No.21-aptamer" target="_blank" style="color:#520049"><b>No.21 aptamer</b></a></td>
+        <td name="td2">eIF4A</td>
+        <td name="td3">Eukaryotic initiation factor 4A eukaryotic translation Initiation Factor 4A (eIF4A) is an ATP-dependent RNA binding protein, an RNA-dependent ATPase, and an RNA helicase that plays an important role in the initiation of eukaryotic translation.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12649492/" target="_blank" style="color:#520049"><b>2003</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NFAT-aptamer" target="_blank" style="color:#520049"><b>NFAT aptamer</b></a></td>
+        <td name="td2">NFAT DNA binding domain</td>
+        <td name="td3">Nuclear factor of activated T-cells (NFAT) is a family of transcription factors shown to be important in immune response. One or more members of the NFAT family is expressed in most cells of the immune system.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15359119/" target="_blank" style="color:#520049"><b>2004</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/tFKBP*3R-2G-aptamer" target="_blank" style="color:#520049"><b>tFKBP*3R-2G aptamer</b></a></td>
+        <td name="td2">tFKBP*3R-2G</td>
+        <td name="td3">The FK506-binding protein designated as FKBP*, engineering retrofit FKBP* got tFKBP*3R-2G.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16199752/" target="_blank" style="color:#520049"><b>2005</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/hTNF-α-aptamer" target="_blank" style="color:#520049"><b>hTNF α aptamer</b></a></td>
+        <td name="td2">hTNF α</td>
+        <td name="td3">Human tumor necrosis factor α (hTNFα), a pleiotropic cytokine with activities ranging from host defense mechanisms in infection and injury to severe toxicity in septic shock or other related diseases, is a promising target for drug screening.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15629041/" target="_blank" style="color:#520049"><b>2004</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Bovine-thrombin-aptamer" target="_blank" style="color:#520049"><b>Bovine thrombin aptamer</b></a></td>
+        <td name="td2">Bovine thrombin</td>
+        <td name="td3">Bovine thrombin is a topical thrombin indicated to aid hemostasis whenever oozing blood and minor bleeding from capillaries and small venules is accessible and control of bleeding by standard surgical techniques (like suture, ligature, or cautery) is ineffective or impractical Label.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12557236/" target="_blank" style="color:#520049"><b>2003</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/tMG-RNA-aptamer" target="_blank" style="color:#520049"><b>tMG RNA aptamer</b></a></td>
+        <td name="td2">mAb198(rat monoclonal antibody)</td>
+        <td name="td3">Clinical symptoms of EAMG in rats engendered by passive transfer of mAb198.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12885412/" target="_blank" style="color:#520049"><b>2003</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CD133-aptamer" target="_blank" style="color:#520049"><b>CD133 aptamer</b></a></td>
+        <td name="td2">CD133 on cell line Hep3B</td>
+        <td name="td3">CD<sub>133</sub>, also known as Prominin-1, is a pentaspan, highly glycosylated, membrane glycoprotein that is associated with cholesterol in the plasma membrane.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/23196060/" target="_blank" style="color:#520049"><b>2013</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Parasite</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CED-9-aptamer" target="_blank" style="color:#520049"><b>CED-9 aptamer</b></a></td>
+        <td name="td2">CED-9</td>
+        <td name="td3">Cell death abnormality gene 9 (CED-9), also known as apoptosis regulator CED-9, is a gene found in Caenorhabditis elegans that inhibits/represses programmed cell death (apoptosis).</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16467303/" target="_blank" style="color:#520049"><b>2006</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/PKC-aptamer" target="_blank" style="color:#520049"><b>PKC aptamer</b></a></td>
+        <td name="td2">Protein kinase C beta II</td>
+        <td name="td3">In cell biology, Protein kinase C, commonly abbreviated to PKC (EC 2.7.11.13), is a family of protein kinase enzymes that are involved in controlling the function of other proteins through the phosphorylation of hydroxyl groups of serine and threonine amino acid residues on these proteins, or a member of this family. PKC enzymes in turn are activated by signals such as increases in the concentration of diacylglycerol (DAG) or calcium ions (Ca2+). Hence PKC enzymes play important roles in several signal transduction cascades.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7528207/" target="_blank" style="color:#520049"><b>1994</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/E3-aptamer" target="_blank" style="color:#520049"><b>E3 aptamer</b></a></td>
+        <td name="td2">prostate cancer cell</td>
+        <td name="td3">Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29666232/" target="_blank" style="color:#520049"><b>2018</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HER2-aptamer" target="_blank" style="color:#520049"><b>HER2 aptamer</b></a></td>
+        <td name="td2">HER2-positive breast cancer cells</td>
+        <td name="td3">Human epidermal growth factor receptor-2 (HER2/erbB-2) belongs to a family of four transmembrane receptors involved in signal transduction pathways that regulate cell growth and differentiation.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/26221481/" target="_blank" style="color:#520049"><b>2015</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/GL56-aptamer" target="_blank" style="color:#520049"><b>GL56 aptamer</b></a></td>
+        <td name="td2">insulin receptor (glioma cells)</td>
+        <td name="td3">IR belongs to a family of receptor tyrosine kinases (RTKs) that also includes the insulin-like growth factor 1 receptor (IGF-1R).Activation of both receptors plays a key role in normal tissues physiology and has been implicated in cancer development and progression.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/27648925/" target="_blank" style="color:#520049"><b>2016</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Insect</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mbl-aptamer" target="_blank" style="color:#520049"><b>Mbl-aptamer</b></a></td>
+        <td name="td2">Drosophila muscleblind protein Mbl</td>
+        <td name="td3">Drosophila muscleblind (Mbl) is an RNA-binding protein critical for cellular differentiation and development. Mbl plays significant roles in the differentiation of photoreceptors and the terminal differentiation of muscles. The human orthologues of Mbl, known as muscleblind-like proteins (MBNL1-3), similarly regulate the alternative splicing of transcripts essential for development.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18557632/" target="_blank" style="color:#520049"><b>2008</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mitochondrion-aptamer" target="_blank" style="color:#520049"><b>Mitochondrion aptamer</b></a></td>
+        <td name="td2">Mitochondrion</td>
+        <td name="td3">Mitochondrion is a kind of organelle which exists in most eukaryotic cells and is covered by two membranes. It is the structure that produces energy in cells and the main place for cells to carry out aerobic respiration, so it is called "power house". Its diameter is about 0.5 to 1.0 microns.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12024047/" target="_blank" style="color:#520049"><b>2002</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Toxin</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Pepocin-aptamer" target="_blank" style="color:#520049"><b>Pepocin aptamer</b></a></td>
+        <td name="td2">Pepocin</td>
+        <td name="td3">Pepocin is a ribosome-inactivating protein (RIP). RIPs site-specifically recognize and depurinate an adenosine at position 4324 in rat 28 S rRNA, rendering the ribosome incapable of interacting with essential elongation factors.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10671532/" target="_blank" style="color:#520049"><b>2000</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Other</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/R5-helix-peptide-aptamer" target="_blank" style="color:#520049"><b>R5 helix peptide-aptamer</b></a></td>
+        <td name="td2">R5 helix peptide</td>
+        <td name="td3">A simple R5 helix peptide as a model of N peptide from bacteriophade λ.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12903331/" target="_blank" style="color:#520049"><b>2000</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Insect</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/B52-aptamer" target="_blank" style="color:#520049"><b>B52-aptamer</b></a></td>
+        <td name="td2">SR Protein B52 (SRp55)</td>
+        <td name="td3">Serine/arginine-rich (SR) proteins comprise a family of proteins that is predominantly found in eukaryotes and plays a prominent role in RNA splicing. A characteristic feature of SR proteins is the presence of an S/R-rich low-complexity domain (RS domain).</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9111335/" target="_blank" style="color:#520049"><b>1997</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Gp43-aptamer" target="_blank" style="color:#520049"><b>Gp43 aptamer</b></a></td>
+        <td name="td2">T4 DNA polymerase (gp43)</td>
+        <td name="td3">A DNA polymerase is a member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates, the molecular precursors of DNA. These enzymes are essential for DNA replication and usually work in groups to create two identical DNA duplexes from a single original DNA duplex.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049"><b>1990</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TNBC-aptamer" target="_blank" style="color:#520049"><b>TNBC aptamer</b></a></td>
+        <td name="td2">Triple-negative breast cancer (TNBC)</td>
+        <td name="td3">Triple-negative breast cancer refers to the breast cancer whose immunohistochemical results show that estrogen receptor (ER), progesterone receptor (PR) and proto-oncogene Her-2 are all negative.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32222697/" target="_blank" style="color:#520049"><b>2020</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Parasite</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Trypanosome-VSG-aptamer" target="_blank" style="color:#520049"><b>Trypanosome VSG aptamer</b></a></td>
+        <td name="td2">Trypanosome variant surface glycoprotein (VSG)</td>
+        <td name="td3">Variant surface glycoprotein (VSG) is a ~60kDa protein which densely packs the cell surface of protozoan parasites belonging to the genus Trypanosoma. This genus is notable for their cell surface proteins. They were first isolated from Trypanosoma brucei in 1975 by George Cross.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10198434/" target="_blank" style="color:#520049"><b>1999</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/VEGF-aptamer" target="_blank" style="color:#520049"><b>VEGF-aptamer</b></a></td>
+        <td name="td2">Vascular Endothelial Growth Factor (VEGF)</td>
+        <td name="td3">Vascular endothelial growth factor (VEGF or VEGF-A), also known as vascular permeability factor (VPF), is an effective mediator of angiogenesis in fetus and adults. It is a member of PDGF family, characterized by eight conserved cysteine residues and a cystine knot structure.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7520755/" target="_blank" style="color:#520049"><b>1994</b></a></td>
         <td name="td5">NA</td>
       </tr>
 	  </tbody>
