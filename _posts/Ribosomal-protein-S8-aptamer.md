@@ -121,8 +121,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1997, Moine Herve et al. performed in vitro iterative selection of RNA aptamers that bind S8. In 2014, Milya Davlieva et al. examined the structural accommodation of an RNA aptamer that binds bacterial r-protein S8<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 1997, Moine Herve et al. performed in vitro iterative selection of RNA aptamers that bind S8. In 2014, Milya Davlieva et al. examined the structural accommodation of an RNA aptamer that binds bacterial r-protein S8<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
@@ -144,7 +144,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Milya Davlieva et al. sovled the crystal structure, at 2.69 A resolution, of an RNA aptamer bound to Bacillus ribosomal S8 protein has been determined. The PDB ID of this structure is 4PDB<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>Milya Davlieva et al. sovled the crystal structure, at 2.69 A resolution, of an RNA aptamer bound to Bacillus ribosomal S8 protein has been determined. The PDB ID of this structure is 4PDB<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -269,7 +269,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4PDB at 2.69 Å resolution. ribosomal S8 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with ribosomal S8 protein.</font>
+<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4PDB at 2.69 Å resolution. ribosomal S8 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with ribosomal S8 protein.</font>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -285,9 +285,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
-<font >Milya Davlieva et al. investigated the affinity of the RNA aptamer via EMSA and ITC experiments<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</font >
+<font>Milya Davlieva et al. investigated the affinity of the RNA aptamer via EMSA and ITC experiments<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</font >
 <br><br>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -301,7 +301,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td0">ribosomal protein S8-aptamer</td>
+        <td name="td0">RNA-2 aptamer</td>
         <td name="td1">5'-GGGAUGCUCAGUGAUCCUUCGGGAUAUCAGGGCAUCCC-3'</td>
         <td name="td3">Bacillus ribosomal protein S8</td>
         <td name="td4">110 ± 30 nM</td>
