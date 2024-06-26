@@ -144,7 +144,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
+<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. AGr aptamer is the truncated sequence from the full-length sequence m49f aptamer<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
 <font><p>5'-AGAGAGA-3'</p></font>
 <img src="/images/2D/Hfq_aptamer_2D.svg" alt="drawing" style="width:800px;height:375px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
