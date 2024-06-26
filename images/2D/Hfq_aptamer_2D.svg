@@ -10,10 +10,9 @@
 	.st4{fill:#CC00FF;}
 	.st5{font-size:25px;}
 	.st6{font-size:24px;}
-	.st7{letter-spacing:-1;}
-	.st8{font-size:23px;}
-	.st9{fill:none;}
-	.st10{fill:none;stroke:#231815;stroke-width:0.5;stroke-miterlimit:10;}
+	.st7{font-size:23px;}
+	.st8{fill:none;}
+	.st9{fill:none;stroke:#231815;stroke-width:0.5;stroke-miterlimit:10;}
 </style>
 <g id="ID000004">
 	<text transform="matrix(1 0 0 1 307.11 200)" class="st0 st1 st2 st3">A</text>
@@ -33,14 +32,14 @@
 <g id="ID000020">
 	<text transform="matrix(1 0 0 1 327.18 159.7)" class="st0 st1 st2">G</text>
 </g>
-<text transform="matrix(1 0 0 1 253.48 73.31)" class="st1 st5">Hfq-aptamer</text>
+<text transform="matrix(1 0 0 1 30.5689 40.5566)" class="st1 st5">AGr aptamer</text>
 <g>
 	<text transform="matrix(1 0 0 1 323.33 291.82)" class="st1 st6">5</text>
-	<text transform="matrix(1 0 0 1 336.68 291.82)" class="st1 st6 st7">’</text>
+	<text transform="matrix(1 0 0 1 336.68 291.82)" class="st1 st6">’</text>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 468.53 291.82)" class="st1 st8">3</text>
-	<text transform="matrix(1 0 0 1 481.32 291.82)" class="st1 st8 st7">’</text>
+	<text transform="matrix(1 0 0 1 468.53 291.82)" class="st1 st7">3</text>
+	<text transform="matrix(1 0 0 1 481.32 291.82)" class="st1 st7">’</text>
 </g>
 <g id="ID000004-2">
 	<text transform="matrix(1 0 0 1 387.3 132.39)" class="st0 st1 st2 st3">A</text>
@@ -51,14 +50,14 @@
 <g id="ID000013-2">
 	<text transform="matrix(1 0 0 1 457.16 247.46)" class="st4 st1 st2">U</text>
 </g>
-<line class="st9" x1="466.4" y1="267.3" x2="476.2" y2="253.6"/>
-<line class="st10" x1="451.9" y1="268.5" x2="461.7" y2="254.8"/>
-<line class="st10" x1="352.7" y1="266.1" x2="342.9" y2="252.4"/>
-<line class="st10" x1="327.2" y1="222.2" x2="319.3" y2="207.4"/>
-<line class="st10" x1="477.4" y1="174.8" x2="467.6" y2="161.1"/>
-<line class="st10" x1="320.5" y1="176" x2="330.3" y2="162.2"/>
-<line class="st10" x1="413" y1="125.1" x2="446.5" y2="137.9"/>
-<line class="st10" x1="385.7" y1="125.8" x2="352.2" y2="138.6"/>
-<line class="st10" x1="472.5" y1="220.6" x2="480.6" y2="206.3"/>
-<line class="st10" x1="373.9" y1="286.2" x2="437" y2="285.5"/>
+<line class="st8" x1="466.4" y1="267.3" x2="476.2" y2="253.6"/>
+<line class="st9" x1="451.9" y1="268.5" x2="461.7" y2="254.8"/>
+<line class="st9" x1="352.7" y1="266.1" x2="342.9" y2="252.4"/>
+<line class="st9" x1="327.2" y1="222.2" x2="319.3" y2="207.4"/>
+<line class="st9" x1="477.4" y1="174.8" x2="467.6" y2="161.1"/>
+<line class="st9" x1="320.5" y1="176" x2="330.3" y2="162.2"/>
+<line class="st9" x1="413" y1="125.1" x2="446.5" y2="137.9"/>
+<line class="st9" x1="385.7" y1="125.8" x2="352.2" y2="138.6"/>
+<line class="st9" x1="472.5" y1="220.6" x2="480.6" y2="206.3"/>
+<line class="st9" x1="373.9" y1="286.2" x2="437" y2="285.5"/>
 </svg>
