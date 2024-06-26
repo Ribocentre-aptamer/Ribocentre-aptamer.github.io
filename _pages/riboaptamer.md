@@ -313,7 +313,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Riboflavin-aptamer" target="_blank" style="color:#520049"><b>Riboflavin aptamer</b></a></td>
         <td name="td2">Flavin mononucleotide(FMN)<br>Riboflavin(Rb)<br>flavin adenine dinucleotide(FAD)</td>
-        <td name="td3">Riboflavin is d-Ribitol in which the hydroxy group at position 5 is substituted by a 7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl moiety. It is a nutritional factor found in milk, eggs, malted barley, liver, kidney, heart, and leafy vegetables, but the richest natural source is yeast. The free form occurs only in the retina of the eye, in whey, and in urine; its principal forms in tissues and cells are as flavin mononucleotide and flavin-adenine dinucleotide. It has a role as a photosensitizing agent, a food colouring, an Escherichia coli metabolite, a mouse metabolite, a cofactor, a plant metabolite, a human urinary metabolite, an anti-inflammatory agent, a fundamental metabolite and an antioxidant. It is a vitamin B2 and a flavin. It is a conjugate acid of a riboflavin(1-).from-ChEBI</td>
+        <td name="td3">Riboflavin is d-Ribitol in which the hydroxy group at position 5 is substituted by a 7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl moiety. It is a nutritional factor found in milk, eggs, malted barley, liver, kidney, heart, and leafy vegetables, but the richest natural source is yeast. The free form occurs only in the retina of the eye, in whey, and in urine; its principal forms in tissues and cells are as flavin mononucleotide and flavin-adenine dinucleotide. It has a role as a photosensitizing agent, a food colouring, an Escherichia coli metabolite, a mouse metabolite, a cofactor, a plant metabolite, a human urinary metabolite, an anti-inflammatory agent, a fundamental metabolite and an antioxidant. It is a vitamin B2 and a flavin. It is a conjugate acid of a riboflavin(1-).-----from ChEBI</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/36097297/" target="_blank" style="color:#520049"><b>2022</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/7RWR" target="_blank" style="color:#520049"><b>7RWR</b></a></td>
       </tr> 
@@ -329,7 +329,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td0" rowspan = "1">Amino Acids & Peptides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Citrulline-aptamer" target="_blank" style="color:#520049"><b>Arginine aptamer</b></a></td>
         <td name="td2">Arginine</td>
-        <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H. The molecule features a guanidino group appended to a standard amino acid framework. At physiological pH, the carboxylic acid is deprotonated (−CO2−) and both the amino and guanidino groups are protonated, resulting in a cation. Only the l-arginine (symbol Arg or R) enantiomer is found naturally. Arg residues are common components of proteins. It is encoded by the codons CGU, CGC, CGA, CGG, AGA, and AGG. The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide. Like all amino acids, it is a white, water-soluble solid.--from wikipedia.</td>
+        <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H. The molecule features a guanidino group appended to a standard amino acid framework. At physiological pH, the carboxylic acid is deprotonated (−CO2−) and both the amino and guanidino groups are protonated, resulting in a cation. Only the l-arginine (symbol Arg or R) enantiomer is found naturally. Arg residues are common components of proteins. It is encoded by the codons CGU, CGC, CGA, CGG, AGA, and AGG. The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide. Like all amino acids, it is a white, water-soluble solid.-----from wikipedia</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9631062/" target="_blank" style="color:#520049"><b>1996</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1KOC" target="_blank" style="color:#520049"><b>1KOC</b></a></td>
       </tr>  
@@ -680,15 +680,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td3">It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/24570482/" target="_blank" style="color:#520049"><b>2013</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/4M4O" target="_blank" style="color:#520049"><b>4M4O</b></a></td>
-      </tr>   
-      <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer" target="_blank" style="color:#520049"><b>Lys1.2minE apatmer</b></a></td>
-        <td name="td2">HEWL(lysozyme)</td>
-        <td name="td3">It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/24570482/" target="_blank" style="color:#520049"><b>2013</b> </a></td>
-        <td name="td5"><a href="https://www. rcsb. org/structure/4M4O" target="_blank" style="color:#520049"><b>4M4O</b></a></td>
-      </tr>    
+      </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-REV-peptide-aptamer" target="_blank" style="color:#520049"><b>HIV-1 REV peptide-aptamer</b></a></td>
@@ -922,7 +914,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Others</td>
+        <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HSV-1-US11-aptamer" target="_blank" style="color:#520049"><b>HSV-1 US11-aptamer</b></a></td>
         <td name="td2">Herpes simplex virus-1 (HSV-1) US11</td>
         <td name="td3">Herpes simplex virus-1 US11 is a RNA-binding protein with a novel RNA-binding domain. US11 has also been described as a double-stranded RNA (dsRNA)-binding protein.</td>
@@ -1090,7 +1082,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Escherichia-coli-aptamer" target="_blank" style="color:#520049"><b>Escherichia coli-aptamer</b></a></td>
         <td name="td2">Escherichia coli O157:H7</td>
         <td name="td3">Escherichia coli (E. coli) O157:H7 is a major foodborne pathogen that causes life-threatening symptoms in humans worldwide.</td>
@@ -1122,7 +1114,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/RF-1-aptamer" target="_blank" style="color:#520049"><b>RF-1-aptamer</b></a></td>
         <td name="td2">Escherichia coli release factor 1</td>
         <td name="td3">Release factor 1 (RF-1) is an essential cofactor which is responsible for translation termination at stop codons UAA and UAG.</td>
@@ -1154,7 +1146,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Pathogen</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Colicin-E3-aptamer" target="_blank" style="color:#520049"><b>Colicin E3 aptamer</b></a></td>
         <td name="td2">Colicin E3</td>
         <td name="td3">The aptamers specifically bound to the protein and prevented the 16S rRNA cleavage by the C-terminal ribonuclease domain.</td>
@@ -1162,7 +1154,7 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Pathogen</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Type-IVB-Pili-aptamer" target="_blank" style="color:#520049"><b>Type IVB Pili aptamer</b></a></td>
         <td name="td2">Type IVB Pili</td>
         <td name="td3">Type IVB pili, composed largely of polymerized PilS protein, also mediate bacterial self-association. The structural protein PilS of the type IVB pili might play important roles in the pathogenesis of S. enterica serovar Typhi in humans.</td>
@@ -1178,10 +1170,10 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Others</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Subtilisin-aptamer" target="_blank" style="color:#520049"><b>Subtilisin aptamer</b></a></td>
         <td name="td2">Subtilisin</td>
-        <td name="td3">RNA aptamers were directly bound to subtilin and showed specific inhibition toward the subtilisin activity and almost no inhibitory activity toward trypsin and chymotrypsin.</td>
+        <td name="td3">Subtilisin is a protease (a protein-digesting enzyme) initially obtained from Bacillus subtilis.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10348914/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
         <td name="td5">NA</td>
       </tr>
@@ -1190,19 +1182,19 @@ This section lists all the experimentally validated Aptamers.
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Elongation-factor-SelB-aptamer" target="_blank" style="color:#520049"><b>Elongation factor SelB aptamer</b></a></td>
         <td name="td2">Elongation factor SelB</td>
         <td name="td3">RNA aptamers bound to the SelB C-terminal domain responsible for mRNA hairpin binding.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9192624/" target="_blank" style="color:#520049"><b>1997</b> </a><br><a href="https://pubmed.ncbi.nlm.nih.gov/10496219/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9192624/" target="_blank" style="color:#520049"><b>1997</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/10496219/" target="_blank" style="color:#520049"><b>1999</b></a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Others</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Protein-tyrosine-phosphatases-aptamer" target="_blank" style="color:#520049"><b>Protein tyrosine phosphatases aptamer</b></a></td>
         <td name="td2">Protein tyrosine phosphatases</td>
-        <td name="td3">The RNA aptamers localize to the protein active site and inhibit enzymatic activity.</td>
+        <td name="td3">Protein tyrosine phosphatases (EC 3.1.3.48, systematic name protein-tyrosine-phosphate phosphohydrolase) are a group of enzymes that remove phosphate groups from phosphorylated tyrosine residues on proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9603938/" target="_blank" style="color:#520049"><b>1998</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Pathogen</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CsrA-aptamer" target="_blank" style="color:#520049"><b>CsrA-aptamer</b></a></td>
         <td name="td2">CsrA</td>
         <td name="td3">CsrA of Escherichia coli is an RNA binding protein that plays a central role in repressing several stationary phase processes and activating certain exponential phase functions.</td>
@@ -1210,10 +1202,10 @@ This section lists all the experimentally validated Aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Others</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Peptide-release-factor-1-aptamer" target="_blank" style="color:#520049"><b>Peptide release factor 1-aptamer</b></a></td>
         <td name="td2">Peptide release factor 1</td>
-        <td name="td3">The mechanism of RF1 inhibition by RF1 aptamers consists in mimicking the interaction site of 23S rRNA by RF1 aptamers. Formation of a RF1 aptamer complex then abolishes binding of the factor to the ribosome.</td>
+        <td name="td3">A release factor is a protein that allows for the termination of translation by recognizing the termination codon or stop codon in an mRNA sequence. They are named so because they release new peptides from the ribosome.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11904188/" target="_blank" style="color:#520049"><b>2002</b> </a></td>
         <td name="td5">NA</td>
       </tr>
