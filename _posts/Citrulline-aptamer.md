@@ -472,7 +472,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
-<font>The determination of the dissociation constants Kd for L-citrulline RNA aptamers and L-arginine RNA aptamers in solution was performed by Michael Famulok. The methods employed for this purpose were isocratic elution chromatography and equilibrium gel filtration, which allowed for a comprehensive assessment of the interaction stability and affinity under various experimental conditions. These methods enabled a robust evaluation of the binding affinity dynamics of RNA with L-citrulline and L-arginine across different environments<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
+<font>Michael Famulok determined the dissociation constants Kd for L-citrulline RNA conjugates and L-arginine RNA conjugates in solution.The methods used for this purpose are isocratic elution chromatography and equilibrium gel filtration, which allow for a comprehensive assessment of the stability and affinity of the interactions under a variety of experimental conditions. These methods allow a robust assessment of the binding affinity dynamics of RNA with L-citrulline and L-arginine in different environments. The affinity of Citrulline RNA aptamer for L-Citrulline is 68 μM, and the rest demonstrates the affinity of Arginine RNA aptamer<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
 <br><br>
 <div style="display: flex; justify-content: center;">
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
