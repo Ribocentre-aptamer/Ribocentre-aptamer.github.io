@@ -90,8 +90,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >Through an in vitro screening method, John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques. The binding pocket of the aptamer with FMN demonstrates in detail the potential role of RNA in redox reactions<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>Through an in vitro screening method, John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques. The binding pocket of the aptamer with FMN demonstrates in detail the potential role of RNA in redox reactions<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
@@ -114,7 +114,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques.The NMR structure showed that the aptamer bound to FMN through π-π stacking and donor-π interactions, forming a specific binding pocket (binding pocket) and significantly affecting the redox potential of FMN.The FMN binding site is located in a platform structure of the aptamer X2B2-C14U and is stabilized by a base triad. Specific bases within the binding pocket form π-π stacking with the isoflavone ring of FMN as well as donor-π interactions, leading to significant changes in the redox potential of FMN. the interactions between the aptamers and the cofactors were concentrated on the isoalloxazine ring, the combination pockets of FMN and Riboflavin are consistent. The PDB ID of this structure is 7RWR<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques.The NMR structure showed that the aptamer bound to FMN through π-π stacking and donor-π interactions, forming a specific binding pocket (binding pocket) and significantly affecting the redox potential of FMN.The FMN binding site is located in a platform structure of the aptamer X2B2-C14U and is stabilized by a base triad. Specific bases within the binding pocket form π-π stacking with the isoflavone ring of FMN as well as donor-π interactions, leading to significant changes in the redox potential of FMN. the interactions between the aptamers and the cofactors were concentrated on the isoalloxazine ring, the combination pockets of FMN and Riboflavin are consistent. The PDB ID of this structure is 7RWR<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -243,7 +243,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
+<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -262,7 +262,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >John S. Samuelian et al. use isothermal titration calorimetry (ITC) to determine the binding affinity and specificity between Riboflavin and Riboflavin RNA Aptamers. This method accurately measures the amount of heat absorbed or released during the binding process to derive dissociation constants. The specificity of this RNA was quantified by elution with Flavin adenine dinucleotide (FAD),Flavin mononucleotide (FMN)and Riboflavin(Rb)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
+<font>John S. Samuelian et al. use isothermal titration calorimetry (ITC) to determine the binding affinity and specificity between Riboflavin and Riboflavin RNA Aptamers. This method accurately measures the amount of heat absorbed or released during the binding process to derive dissociation constants. The specificity of this RNA was quantified by elution with Flavin adenine dinucleotide (FAD),Flavin mononucleotide (FMN)and Riboflavin(Rb)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
 <br><br>
 <!--div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
