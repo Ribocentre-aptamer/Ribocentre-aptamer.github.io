@@ -10,7 +10,6 @@ permalink: /Ribocentre-aptamer/
 <!--set sort order in table header begin-->
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-  <title>Aptamer applications</title>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css">
 
@@ -1607,6 +1606,70 @@ This section lists all the experimentally validated Aptamers.
         <td name="td2">Vascular Endothelial Growth Factor (VEGF)</td>
         <td name="td3">Vascular endothelial growth factor (VEGF or VEGF-A), also known as vascular permeability factor (VPF), is an effective mediator of angiogenesis in fetus and adults. It is a member of PDGF family, characterized by eight conserved cysteine residues and a cystine knot structure.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7520755/" target="_blank" style="color:#520049"><b>1994</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/The-protein-calsenilin-aptamer" target="_blank" style="color:#520049"><b>The protein calsenilin aptamer</b></a></td>
+        <td name="td2">The protein calsenilin</td>
+        <td name="td3">The aptamer binds in a conformationally selective manner to calsenilin, which involved in Ca2+ -mediated apoptotic signaling. The binding of aptamer-2 does noy discriminate between Ca2+ bound and unbound protein.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/17904852/" target="_blank" style="color:#520049"><b>2007</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/WL-2-aptamer" target="_blank" style="color:#520049"><b>WL-2 aptamer</b></a></td>
+        <td name="td2">beta(2)m fibrils</td>
+        <td name="td3">One of the most fascinating features of amyloid fibrils is their generic cross-beta architecture that can be formed from many different and completely unrelated proteins.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/17878167/" target="_blank" style="color:#520049"><b>2007</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/AN58-aptamer" target="_blank" style="color:#520049"><b>AN58 aptamer</b></a></td>
+        <td name="td2">GluR2 AMPA receptors</td>
+        <td name="td3">AN58 has a high selectivity for the GluR4 AMPA receptor subunit. Furthermore, this RNA molecule possesses stable physical properties. Therefore, AN58 serves as a unique lead compound for developing water-soluble inhibitors with a nanomolar affinity for GluR2 AMPA receptors.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/17929944/" target="_blank" style="color:#520049"><b>2007</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TfR-ECD-aptamer" target="_blank" style="color:#520049"><b>TfR-ECD aptamer</b></a></td>
+        <td name="td2">Mouse transferrin receptor (TfR-ECD)</td>
+        <td name="td3">Transferrin receptor protein 1 (TfR1), also known as Cluster of Differentiation 71 (CD71), is a protein that in humans is encoded by the TFRC gene.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18838694/" target="_blank" style="color:#520049"><b>2008</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/E2-aptamer" target="_blank" style="color:#520049"><b>E2 aptamer</b></a></td>
+        <td name="td2">Amyloid beta-peptide (Aβ)</td>
+        <td name="td3">Amyloid beta is a protein associated with Alzheimer's disease (AD) that builds up in the brains of patients with amyloid plaques.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/19668864/" target="_blank" style="color:#520049"><b>2009</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/PAI-1-aptamer" target="_blank" style="color:#520049"><b>PAI-1 aptamer</b></a></td>
+        <td name="td2">Serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1)</td>
+        <td name="td3">Plasminogen activator inhibitor-1 (PAI-1) is a serine protease inhibitor (serpin) that regulates fibrinolysis, cell adhesion and cell motility via its interactions with plasminogen activators and vitronectin.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/19284310/" target="_blank" style="color:#520049"><b>2009</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/J18-aptamer" target="_blank" style="color:#520049"><b>J18 aptamer</b></a></td>
+        <td name="td2">Epithelial Growth Factor Receptor (EGFR)</td>
+        <td name="td3">The epidermal growth factor receptor (EGFR) belongs to the ERBB family of tyrosine kinase receptors. EGFR signaling cascade is a key regulator in cell proliferation, differentiation, division, survival, and cancer development.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/19271740/" target="_blank" style="color:#520049"><b>2009</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/PTP1B-aptamer" target="_blank" style="color:#520049"><b>PTP1B aptamer</b></a></td>
+        <td name="td2">Protein tyrosine phosphatase 1B (PTP1B)</td>
+        <td name="td3">PTP-1B belongs to the protein tyrosine phosphatase family and maintains the balance of tyrosine protein phosphorylation together with protein tyrosine kinases (PTK).</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20572251/" target="_blank" style="color:#520049"><b>2010</b></a></td>
         <td name="td5">NA</td>
       </tr>
 	  </tbody>
