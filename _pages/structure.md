@@ -13,9 +13,14 @@ permalink: /structures/
   <title>Aptamer applications</title>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css">
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript"  src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript"  src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript"  src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+    <script type="text/javascript"  src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
   <!--set sort order in table header finish-->
   <style>
    .header_box {
@@ -136,6 +141,7 @@ permalink: /structures/
     .button.clicked {
     background-color: #999;
 }
+
   </style>
 </head>
 
@@ -182,9 +188,10 @@ This section displays
 </div>
 <br>
         
+
 <div id="sheet1" class="sheet">
 <h2>Small molecules</h2>
-    <table id="cfttable" class="table-style1">
+  <table id="cfttable" class="table-style1">
       <thead>   
       <tr>
         <th onclick="sortTable(0)">Category</th>
@@ -1642,9 +1649,6 @@ This section displays
         'copy', 'csv', 'excel', 'pdf', 'print'
       ]
     }));
-
-
-    
     tables.push($('#amintable').DataTable({
       dom: 'Bfrtip',
       buttons: [
@@ -1669,8 +1673,6 @@ This section displays
         'copy', 'csv', 'excel', 'pdf', 'print'
       ]
     }));
-    
-    
     // Hide the search box for DataTables
       $('#cfttable_filter').css('display', 'none');
       $('#rnadetable_filter').css('display', 'none');
@@ -1680,13 +1682,11 @@ This section displays
       $('#amintable_filter').css('display', 'none');
       $('#sugtable_filter').css('display', 'none');
       $('#tboxtable_filter').css('display', 'none');
-      $('#othtable_filter').css('display', 'none');
-      
+      $('#othtable_filter').css('display', 'none');   
       // Show the initial sheet (sheet1) and hide others
     showSheet('sheet1');
     hideAllSheetsExcept('sheet1');
   });
-
   function sortTable(columnIndex) {
     // TODO: Add sorting logic based on the columnIndex
   }
@@ -1795,7 +1795,7 @@ function downloadExcel() {
       }
     }
   }  
-  </script>
-        
-    </body>
-</html><br>
+  </script>   
+ </body>
+</html>
+<br>
