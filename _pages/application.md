@@ -162,14 +162,14 @@ permalink: /applications/
 
 
 
-<div class="side-nav">
+<!--div class="side-nav">
 <ul>
     <div class="side-nav-item"><a href="#Diagnosis-detection" style="color: #000000;">Diagnosis&detection</a></div>
     <div class="side-nav-item"><a href="#Disease-treatment-drugs" style="color: #000000;">Disease treatment&drugs</a></div>
     <div class="side-nav-item"><a href="#Biosensing-monitoring" style="color: #000000;">Biosensing&monitoring</a></div>
     <div class="side-nav-item"><a href="#Research-Tools " style="color: #000000;">Research Tools</a></div>
     </ul>
-</div>
+</div-->
 
 
 
