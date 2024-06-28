@@ -1708,7 +1708,7 @@ This section lists all the experimentally validated Aptamers.
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/LR06-aptamer" target="_blank" style="color:#520049"><b>LR06(GA) aptamer</b></a></td>
-        <td name="td2">TAR RNA</td>
+        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) trans-activating responsive (TAR) RNA</td>
         <td name="td3">The trans-activating responsive (TAR) RNA element located in the 5′ untranslated region of the HIV-1 genome is a 59-nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7521014/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2OOM" target="_blank" style="color:#520049"><b>2OOM</b> </a></td>
