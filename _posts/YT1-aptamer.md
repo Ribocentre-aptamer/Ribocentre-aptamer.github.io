@@ -100,7 +100,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1995, Yu Tian et al. started from a pool of greater than 1013 different RNAs with a core of 120 random sequence positions. After five cycles of selection and amplification, a single nucleic acid species remained. This aptamer was found to bind Tax with high affinity and specificity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 1995, Yu Tian et al. started from a pool of greater than 10<sup>13</sup> different RNAs with a core of 120 random sequence positions. After five cycles of selection and amplification, a single nucleic acid species remained. This aptamer was found to bind Tax with high affinity and specificity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -121,8 +121,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Tax is a transcriptional activator. Its ability to modulate the expression and function of many cellular genes has been reasoned to be a major contributory mechanism explaining HTLV-I-mediated transformation of cells. In activating cellular gene expression, Tax impinges upon several cellular signal-transduction pathways, including those for CREB/ATF and NF-kappaB.-----from Pfam</font>
-<br>
+<p>Tax is a transcriptional activator. Its ability to modulate the expression and function of many cellular genes has been reasoned to be a major contributory mechanism explaining HTLV-I-mediated transformation of cells. In activating cellular gene expression, Tax impinges upon several cellular signal-transduction pathways, including those for CREB/ATF and NF-kappaB.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -147,8 +146,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -168,10 +166,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/SELEX_ligand/YT1_aptamer_SELEX_ligand.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/SELEX_ligand/YT1_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef!important;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-
-
+<br>
+<br>
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>Due to the lack of complete or large fragments of the protein structure, no similar compounds have been listed in this part.</p></font>
