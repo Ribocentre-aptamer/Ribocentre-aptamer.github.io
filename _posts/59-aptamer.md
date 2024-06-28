@@ -101,7 +101,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1993, Lori Giver et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, PCR amplification, in vitro T7 transcription, and allowed to again compete for binding to Rev. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 1993, Lori Giver et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, polymerase chain reaction (PCR) amplification, in vitro T7 transcription, and allowed to again compete for binding to Rev. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -120,8 +120,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-information">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----from Pfam</font>
-<br>
+<p>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -146,8 +145,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -291,4 +289,36 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
     colorSelectionButton1.click();
   });
     </script>
+
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>
