@@ -1677,6 +1677,14 @@ This section lists all the experimentally validated Aptamers.
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20572251/" target="_blank" style="color:#520049"><b>2010</b></a></td>
         <td name="td5">NA</td>
       </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/bFGF-aptamer" target="_blank" style="color:#520049"><b>bFGF aptamer</b></a></td>
+        <td name="td2">Basic fibroblast growth factor (bFGF)</td>
+        <td name="td3">Basic fibroblast growth factor (bFGF) serves as a pleiotropic modulator for numerous cells of mesenchymal and neuroectodermal lineages. In an in vitro environment, bFGF exhibits stimulatory effects on cell proliferation, migration, as well as the induction of plasminogen activator and collagenase activities.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7504300/" target="_blank" style="color:#520049"><b>1993</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
 	  </tbody>
   </table>
 </div>
@@ -1704,6 +1712,30 @@ This section lists all the experimentally validated Aptamers.
         <td name="td3">The trans-activating responsive (TAR) RNA element located in the 5′ untranslated region of the HIV-1 genome is a 59-nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7521014/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2OOM" target="_blank" style="color:#520049"><b>2OOM</b> </a></td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">RNA</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/109.2-3-aptamer" target="_blank" style="color:#520049"><b>109.2-3 aptamer</b></a></td>
+        <td name="td2">16S rRNA decoding region</td>
+        <td name="td3">The decoding region of prokaryotic 16S ribosomal RNA (rRNA) is a region of RNA which is thought to interact withmRNA and tRNA. It has long been known that the interaction of the codon and anticodon occurs on the A-site of the decoding region of prokaryotic 16S rRNA, which is itself part of the 30S ribosomal subunit.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank" style="color:#520049"><b>2000</b> </a></td>
+        <td name="td5">NA</td>
+      </tr>
+        <tr>
+        <td name="td0" rowspan = "1">RNA</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/tRNA-aptamer" target="_blank" style="color:#520049"><b>tRNA aptamer</b></a></td>
+        <td name="td2">Yeast phenylalanine tRNA</td>
+        <td name="td3">Transfer RNA (tRNA), often referred to simply as tRNA, is a 76-90 nucleotide RNA whose 3' end can be catalyzed by aminoacyl-TRNA synthetase to attach a specific amino acid. In the process of translation, tRNA can recognize the codon on mRNA by its own anti-codon, and transport the amino acid corresponding to the codon to the polypeptide chain in ribosome synthesis.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10449422/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
+        <td name="td5">NA</td>
+      </tr>
+       <tr>
+        <td name="td0" rowspan = "1">RNA</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/RNA-loop-aptamer" target="_blank" style="color:#520049"><b>RNA loop aptamer</b></a></td>
+        <td name="td2">RNA stem-loop</td>
+        <td name="td3">The reverse repeat sequence present in single-stranded RNA can form a secondary structure due to hydrogen bond pairing between complementary bases. The double-stranded region between the paired bases forms a "stem", while the unpaired single-stranded region protrudes into a "loop".</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9222504/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
+        <td name="td5">NA</td>
       </tr>
 	  </tbody>
   </table>
