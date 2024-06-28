@@ -136,20 +136,24 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1992, Stubenrauch, M. used standard in vitro selection techniques to randomly select tRNAGln molecular pools in D, T, and variable loops based on the binding to GlnRS. Afterwards, in 2000, Bullock T L et al. analyzed the complex structure of a tight binding transfer RNA aptamer with GlnRs by X-ray crystallographic methods<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
-<p><br /></p> <br>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 1992, Stubenrauch, M. used standard in vitro selection techniques to randomly select tRNAGln molecular pools in D, T, and variable loops based on the binding to GlnRS. Afterwards, in 2000, Bullock T L et al. analyzed the complex structure of a tight binding transfer RNA aptamer with GlnRs by X-ray crystallographic methods<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font><p>
+<br>
+<br>
+
+
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Bullock TL, Sherlin LD, Perona JJ. used Stubenrauch's tRNAGln library. The library comprised randomization of nucleotides at positions 15–21, 47–48 and 53–61, and RNAs capable of binding GlnRS were isolated by filtration through nitrocellulose. They obtained 46 possessed a four-nucleotide replacement of the wild type five-nucleotide variable loop (5'-CAUUC-3') through 6 rounds of screening, of which 33 of these were of the sequence 5'-AGGU-3'<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br> <br>    
+<br>
+<br>    
 
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. GlnRs-aptamer was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p></font>
+<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. var-AGGU aptamer was made by modifying tRNA<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p></font>
 <font><p>5'-UGGGGUAUCGCCAAGCGGUAAGGCACCGGAUUCUGAUUCCGGAGGUCGAGGUUCGAAUCCUCGUACCCCAGCCA-3'</p></font>
 <img src="/images/2D/GlnRs_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   
@@ -158,7 +162,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Bullock TL, Sherlin LD, Perona JJ. sovled the crystal structure, at 2.7 A resolution, of an RNA aptamer bound to glutaminyl-tRNA synthetase has been determined. The structure does not clearly indicate the relationship between the interacting bases and amino acids. The PDB ID of this structure is 1EXD. Sherlin LD, Bullock TL, Newberry KJ, et al. reported the interaction between G10-C16 of tRNA and 6 amino acids of GlnRs<sup>[<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>Bullock TL, Sherlin LD, Perona JJ. sovled the crystal structure, at 2.7 A resolution, of an RNA aptamer bound to glutaminyl-tRNA synthetase has been determined. The structure does not clearly indicate the relationship between the interacting bases and amino acids. The PDB ID of this structure is 1EXD. Sherlin LD, Bullock TL, Newberry KJ, et al. reported the interaction between G10-C16 of tRNA and 6 amino acids of GlnRs<sup>[<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
