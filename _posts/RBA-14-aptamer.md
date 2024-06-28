@@ -161,7 +161,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1993, Lori Giver et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, PCR amplification, in vitro T7 transcription, and allowed to again compete for binding to Rev. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 1993, Lori Giver et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, polymerase chain reaction (PCR) amplification, in vitro T7 transcription, and allowed to again compete for binding to Rev. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>   
@@ -357,7 +357,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
-<font >Altaira D. Dearborn et al. determined the affinity of RBA-14 and Rev by SPR (Surface Plasmon Resonance) method, and also compared the affinity of Rev with hairpins with Stem IIB sequences. SPR was performed on a Biacore ×100 (GE Healthcare), in 30 μL/minute HBS-EP+ buffer (10 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, pH 7.4, 150 mM sodium chloride, 3 mM ethylenediaminetetraacetic acid, 0.05% polysorbate 20) (GE Healthcare) at 25°C<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</font >
+<font >Altaira D. Dearborn et al. determined the affinity of RBA-14 and Rev by surface plasmon resonance (SPR) method, and also compared the affinity of Rev with hairpins with Stem IIB sequences. SPR was performed on a Biacore ×100 (GE Healthcare), in 30 μL/minute HBS-EP+ buffer (10 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, pH 7.4, 150 mM sodium chloride, 3 mM ethylenediaminetetraacetic acid, 0.05% polysorbate 20) (GE Healthcare) at 25°C<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</font >
 <br><br>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
