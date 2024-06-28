@@ -113,7 +113,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10954609/" target="_blank" style="color:#520049">2000</a></h3>
     </div>
     <div class="body">
-      <p>NMR characterization of a kissing complex formed between the TAR RNA element and DNA aptamer<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
+      <p>Nuclear magnetic resonance (NMR) characterization of a kissing complex formed between the trans-activating responsive (TAR) RNA element and DNA aptamer<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
   </div>
     <div class="entry">
@@ -169,7 +169,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/17768146/" target="_blank" style="color:#520049">2007</a></h3>
     </div>
     <div class="body">
-      <p>Nuclear magnetic resonance structure of complexes formed between TAR RNA and RNA modified aptamers<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup></p>
+      <p>NMR structure of complexes formed between TAR RNA and RNA modified aptamers<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -177,7 +177,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9257650/" target="_blank" style="color:#520049">2008</a></h3>
     </div>
     <div class="body">
-      <p>Exploring TAR–RNA aptamer loop–loop interaction by X-ray crystallography, UV spectroscopy and SPR<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
+      <p>Exploring TAR–RNA aptamer loop–loop interaction by X-ray crystallography, ultraviolet (UV) spectroscopy spectroscopy and surface plasmon resonance (SPR)<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -215,7 +215,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Lebars I and colleagues present the solution structure of  TAR/LR06(GA) complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (crystallography and nuclear magnetic resonance systems) twist Angle molecular dynamics (TAMD) scheme, and NOE and dihedral Angle constraints were also used. In the figure, the TAR RNA sequence is labeled in forest, the LR06(GA) sequence is labeled in cyan, and the interacting bases in the two sequences are labeled in magenta. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font >Lebars I and colleagues present the solution structure of  TAR/LR06(GA) complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA sequence is labeled in forest, the LR06(GA) sequence is labeled in cyan, and the interacting bases in the two sequences are labeled in magenta. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -340,7 +340,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. Trans-activating responsive (TAR) RNA (shown in surface) is labeled in gray. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA.</font>
+<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in surface) is labeled in gray. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA.</font>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -361,8 +361,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Lebars I and colleagues characterized the loop-loop complexes using thermal denaturation experiments monitored by ultraviolet absorption spectroscopy. Subsequently, they determined the affinity between R06(GA) and TAR RNA by SPR(Surface Plasmon Resonance) method. At the same time, the affinity between the LNA-modified aptamer and TAR RNA was also determined. These methods were employed to comprehensively assess the stability and affinity of different aptamers interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA aptamer and TAR RNA in varied environments<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</font >
-<br><br>
+<p>Lebars I and colleagues characterized the loop-loop complexes using thermal denaturation experiments monitored by UV spectroscopy. Subsequently, they determined the affinity between R06(GA) and TAR RNA by SPR method. At the same time, the affinity between the LNA-modified aptamer and TAR RNA was also determined. These methods were employed to comprehensively assess the stability and affinity of different aptamers interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA aptamer and TAR RNA in varied environments<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
