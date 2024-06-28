@@ -119,7 +119,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/11132628/" target="_blank" style="color:#520049">2000</a></h3>
   </div>
   <div class="body">
-    <p>Junji Kawakami et al. used Zn2+ for in vitro selecting to isolate novel RNA molecules that bind to the HIV-1 Tat protein, known as zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
+    <p>Junji Kawakami et al. used Zn<sup>2+</sup> for in vitro selecting to isolate novel RNA molecules that bind to the HIV-1 Tat protein, known as zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
   </div>
  </div>
             
@@ -165,13 +165,13 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn2+ to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
+<font>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn<sup>2+</sup> to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn2+. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn2+ and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn2+ existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
+<p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn<sup>2+</sup>. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn<sup>2+</sup> and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn<sup>2+</sup> existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -341,7 +341,7 @@ Yamamoto, R., Katahira, M., Nishikawa, S., Baba, T., Taira, K., & Kumar, P. K.<b
 <a href="https://pubmed.ncbi.nlm.nih.gov/10886365/" target="_blank" style="color:#520049">Genes to cells : devoted to molecular & cellular mechanisms, 5(5), 371–388. (2000)</a>
 <br/>
             
-<a id="ref3"></a><font><strong>[3]  In vitro selection of aptamers that act with Zn2+.</strong></font><br />
+<a id="ref3"></a><font><strong>[3]  In vitro selection of aptamers that act with Zn<sup>2+</sup>.</strong></font><br />
 Kawakami, J., Imanaka, H., Yokota, Y., & Sugimoto, N.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/11132628/" target="_blank" style="color:#520049">Journal of inorganic biochemistry, 82(1-4), 197–206. (2000)</a>
 <br/>
