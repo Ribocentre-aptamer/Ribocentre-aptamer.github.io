@@ -5,10 +5,6 @@ date:   2024-05-08 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -101,7 +97,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/1379730/" target="_blank" style="color:#520049">1992</a></h3>
   </div>
   <div class="body">
-    <p>High-affinity ligands of the reverse transcriptase of human immunodeficiency virus type 1 (HIV-1) were isolated by the SELEX procedure (systematic evolution of ligands by exponential enrichment) from RNA populations randomized at 32 positions<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+    <p>High-affinity ligands of the reverse transcriptase of human immunodeficiency virus type 1 (HIV-1) were isolated by the SELEX procedure from RNA populations randomized at 32 positions<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
   </div>
  </div>
             
@@ -179,8 +175,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>A reverse transcriptase (RT) is an enzyme used to generate complementary DNA (cDNA) from an RNA template, a process termed reverse transcription. Reverse transcriptases are used by viruses such as HIV to replicate their genomes, by retrotransposon mobile genetic elements to proliferate within the host genome, and by eukaryotic cells to extend the telomeres at the ends of their linear chromosomes.-----from Pfam</font>
-<br>
+<p>A reverse transcriptase (RT) is an enzyme used to generate complementary DNA (cDNA) from an RNA template, a process termed reverse transcription. Reverse transcriptases are used by viruses such as HIV to replicate their genomes, by retrotransposon mobile genetic elements to proliferate within the host genome, and by eukaryotic cells to extend the telomeres at the ends of their linear chromosomes.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -205,8 +200,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -226,7 +220,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
      <tbody>
       <tr>
-        <td name="td0">ligand1.3a</td>
+        <td name="td0">ligand 1.3a</td>
         <td name="td1">5'-GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUAUCUUCCGAAGCCGAACGGGAAAACCGGCAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC-3'</td>
         <td name="td2">HIV-1 RT</td>
         <td name="td3">NA</td>
@@ -422,4 +416,36 @@ Gruenke, P. R., Alam, K. K., Singh, K., & Burke, D. H.<br />
     colorSelectionButton1.click();
   });
     </script>
+
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>
