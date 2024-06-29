@@ -332,8 +332,8 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Amino Acids & Peptides</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Citrulline-aptamer" target="_blank" style="color:#520049"><b>L-Arginine aptamer</b></a></td>
-        <td name="td2">L-Arginine</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Arginine-aptamer" target="_blank" style="color:#520049"><b>Arginine aptamer</b></a></td>
+        <td name="td2">Arginine</td>
         <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H. The molecule features a guanidino group appended to a standard amino acid framework. At physiological pH, the carboxylic acid is deprotonated (−CO2−) and both the amino and guanidino groups are protonated, resulting in a cation. Only the l-arginine (symbol Arg or R) enantiomer is found naturally. Arg residues are common components of proteins. It is encoded by the codons CGU, CGC, CGA, CGG, AGA, and AGG. The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide. Like all amino acids, it is a white, water-soluble solid.-----from wikipedia</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9631062/" target="_blank" style="color:#520049"><b>1996</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1KOC" target="_blank" style="color:#520049"><b>1KOC</b></a></td>
@@ -540,14 +540,6 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/XBA-RNA-aptamer" target="_blank" style="color:#520049"><b>XBA RNA aptamer</b></a></td>
-        <td name="td2">Guanine</td>
-        <td name="td3">Guanine is one of the four main nucleobases found in the nucleic acids DNA and RNA, the others being adenine, cytosine, and thymine (uracil in RNA). In DNA, guanine is paired with cytosine. The guanine nucleoside is called guanosine.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9512549/" target="_blank" style="color:#520049"><b>1998</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/rafl7s-aptamer" target="_blank" style="color:#520049"><b>rafl7s aptamer</b></a></td>
         <td name="td2">Adenosine triphosphate (ATP)</td>
         <td name="td3">ATP (Adenosine 5'-triphosphate) is an important substance for energy storage and metabolism in the body, which provides energy for metabolism and plays a role as a coenzyme in cells. ATP is an important endogenous signal molecule in immunity and inflammation.</td>
@@ -576,14 +568,6 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td2">Dopamine</td>
         <td name="td3">Dopamine is catechol in which the hydrogen at position 4 is substituted by a 2-aminoethyl group. It has a role as a cardiotonic drug, a beta-adrenergic agonist, a dopaminergic agent, a sympathomimetic agent, a human metabolite, an Escherichia coli metabolite and a mouse metabolite. It is a conjugate base of a dopaminium(1+).-----From ChEBI</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9245404/" target="_blank" style="color:#520049"><b>1997</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/D-Arginine-aptamer" target="_blank" style="color:#520049"><b>D-Arginine aptamer</b></a></td>
-        <td name="td2">D-Arginine</td>
-        <td name="td3">D-arginine is a D-alpha-amino acid that is the D-isomer of arginine. It has a role as an EC 4.1.1.19 (arginine decarboxylase) inhibitor and a mouse metabolite. It is a D-alpha-amino acid and an arginine. It is a conjugate base of a D-argininium(1+). It is a conjugate acid of a D-argininate. It is an enantiomer of a L-arginine.-----From ChEBI</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9631062/" target="_blank" style="color:#520049"><b>1996</b></a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
