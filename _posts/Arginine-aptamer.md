@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Citrulline aptamer"
+title:  "Arginine aptamer"
 date:   2024-04-09 00:00:00
 author: Yuhang Luo, LinFei Li
 categories: Aptamer
@@ -156,7 +156,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The SELEX began with an initial RNA pool consisting of approximately 10^15different RNA molecules.This pool was subjected to in vitro selection targeting specific binding to L-citrulline.RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled. After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection.The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets.This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed.Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049"·>1</a>]</sup>.<br>
+<p>The SELEX began with an initial RNA pool consisting of approximately 10^15different RNA molecules.This pool was subjected to in vitro selection targeting specific binding to L-citrulline.RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled. After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection.The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets.This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed.Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -165,20 +165,26 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
-<font><p>A:5'-AGAAGGAGUGU-3'<br>B:5'-ACGGUUAGGUCGCU-3'</p></font>
+<font><p>Here we used ribodraw to complete the figure, through the 3D structure information. Here's another aptamer: ag.06 aptamer that was isolated in 1996<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref5" style="color:#520049">5</a>]</sup>.</p></font>
+<font><p>A:5'-AGAAGGAGCGU-3'<br>B:5'-ACAGGUAGGUCGCU-3'</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<img src="/images/2D/Citrulline_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;"></div>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/Arginine_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/Arginine_aptamer_2D2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  </tr>
+  </table>
 
 
 
  <p class="blowheader_box">3D visualisation</p>             
-<font>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Michael Famulok et al. through multidimensional nuclear magnetic resonance (NMR) spectroscopy. The PDB ID of this structure is 1KOD<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Michael Famulok et al. through multidimensional nuclear magnetic resonance (NMR) spectroscopy. The PDB ID of this structure is 1KOC<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/docs/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/Citrulline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/3D/Arginine_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
@@ -202,22 +208,22 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
           .msp-plugin .msp-layout-standard {
               border: 1px solid #efefef;
           }
-          .viewerSection1 {
+          .viewerSection2 {
             padding-top: 0px;
           }
-          .controlsSection1 {
+          .controlsSection2 {
             width: 300px;
               display: flex;
               float:left;
               padding: 0px 0 0 0;
               height:25px;
             }
-            .controlBox1 {
+            .controlBox2 {
               border: 0px solid lightgray;
               padding: 0px;
               margin-bottom: 0px;
             }
-          #myViewer1{
+          #myViewer2{
             float:left;
             width:500px;
             height: 500px;
@@ -226,9 +232,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         </style>
     </head>
     <body onload="customize()">
-        <div class="controlsSection1">
+        <div class="controlsSection2">
             <button onclick="
-              var selectSections1 = [
+              var selectSections2 = [
                 {
   struct_asym_id: 'A', 
   start_residue_number:5, 
@@ -250,7 +256,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'B', 
   start_residue_number:27, 
   end_residue_number:30, 
-  color:{r:9,g:254,b:254}
+  color:{r:128,g:219,b:158}
 },
 {
   struct_asym_id: 'B', 
@@ -262,7 +268,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'B', 
   start_residue_number:32, 
   end_residue_number:40, 
-  color:{r:9,g:254,b:254}
+  color:{r:128,g:219,b:158}
 },{
   struct_asym_id: 'B', 
   start_residue_number:1, 
@@ -270,28 +276,28 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:255,g:255,b:0}
 }
               ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+            viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
-    <div class="viewerSection1">
+    <div class="viewerSection2">
     <!-- Molstar container -->
-      <div id="myViewer1"></div>
+      <div id="myViewer2"></div>
     </div>
     <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
+      var viewerInstance2 = new PDBeMolstarPlugin();
+      var options2 = {
         customData:{
-        url:'/pdbfiles/1KOD-3D-CIR.pdb',
+        url:'/pdbfiles/1KOC-3D-ARG.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
         bgColor: {r:255, g:255, b:255},
         }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
+      var viewerContainer2 = document.getElementById('myViewer2');
+      viewerInstance2.render(viewerContainer2, options2);
   window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
+    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
+    colorSelectionButton2.click();
   });
 </script>
 </body>
@@ -300,19 +306,20 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </tr>
 </table>
 </div>
-<br>
+<br>                    
+
   
 
 
-<p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOD by NMR. Citrulline (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with Citrulline<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.</font>
+<p class="blowheader_box">Binding pocket</p>              
+<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOC by NMR. Arginine (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with Arginine<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.</font>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/Citrulline_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/Arginine_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/Citrulline_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/Arginine_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -323,7 +330,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
-<font>The determination of the dissociation constants Kd for L-citrulline RNA aptamers in solution was performed by Michael Famulok. The methods employed for this purpose were isocratic elution chromatography and equilibrium gel filtration, which allowed for a comprehensive assessment of the interaction stability and affinity under various experimental conditions. These methods enabled a robust evaluation of the binding affinity dynamics of RNA with L-citrulline across different environments<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
+<font>Michael Famulok determined the dissociation constants Kd for L-citrulline RNA conjugates and L-arginine RNA conjugates in solution.The methods used for this purpose are isocratic elution chromatography and equilibrium gel filtration, which allow for a comprehensive assessment of the stability and affinity of the interactions under a variety of experimental conditions. These methods allow a robust assessment of the binding affinity dynamics of RNA with L-citrulline and L-arginine in different environments. The affinity of Citrulline RNA aptamer for L-Citrulline is 68 μM, and the rest demonstrates the affinity of Arginine RNA aptamer<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
 <br><br>
 <div style="display: flex; justify-content: center;">
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -379,7 +386,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>L-citrulline is the L-enantiomer of citrulline. It has a role as an EC 1.14.13.39 (nitric oxide synthase) inhibitor, a protective agent, a nutraceutical, a micronutrient, a human metabolite, an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a mouse metabolite. It is an enantiomer of a D-citrulline. It is a tautomer of a L-citrulline zwitterion.-----from ChEBI</p></font>
+<font><p>L-arginine is an L-alpha-amino acid that is the L-isomer of arginine. It has a role as a nutraceutical, a biomarker, a micronutrient, an Escherichia coli metabolite and a mouse metabolite. It is a glutamine family amino acid, a proteinogenic amino acid, an arginine and a L-alpha-amino acid. It is a conjugate base of a L-argininium(1+). It is a conjugate acid of a L-argininate. It is an enantiomer of a D-arginine.-----from ChEBI</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -393,21 +400,22 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/9750" target="_blank" style="color:#520049"><b>9750</b> </a></td>
-        <td name="td1">C<sub>6</sub>H<sub>13</sub>N<sub>3</sub>O<sub>3</sub></td>
-        <td name="td2">175.19 g/mol</td>
-        <td name="td3">372-75-8</td>
-        <td name="td4">≥ 50 mg/mL</td>
-        <td name="td5"><a href="https://go.drugbank.com/drugs/DB00155" target="_blank" style="color:#520049"><b>DB00155</b> </a></td>
+        <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6322" target="_blank" style="color:#520049"><b>6322</b> </a></td>
+        <td name="td1">C<sub>6</sub>H<sub>14</sub>N<sub>4</sub>O<sub>2</sub></td>
+        <td name="td2">174.20 g/mol</td>
+        <td name="td3">74-79-3</td>
+        <td name="td4">50 mg/mL</td>
+        <td name="td5"><a href="https://go.drugbank.com/drugs/DB00125" target="_blank" style="color:#520049"><b>DB00125</b> </a></td>
       </tr>
 	  </tbody>
   </table>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Citrulline_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Citrulline_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Arginine_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Arginine_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
 </table>
-<div style="display: flex; justify-content: center;"></div>
+<div style="display: flex; justify-content: center;">
+</div>
 <br>
 
 
@@ -425,32 +433,32 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC000001532749</td>
-        <td name="td2">D-Arginine</td>
-        <td name="td3">157-06-2</td>
-        <td name="td4">71070</td>
-        <td name="td5"><img src="/images/Similar_compound/Citrulline_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td1">ZINC000003873047</td>
+        <td name="td2">L-Thiocitrulline</td>
+        <td name="td3">156719-37-8</td>
+        <td name="td4">2733514</td>
+        <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000004556609</td>
-        <td name="td2">N5-Iminoethyl-L-Ornithine</td>
-        <td name="td3">NA</td>
-        <td name="td4">40489058</td>
-        <td name="td5"><img src="/images/Similar_compound/Citrulline_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td1">ZINC000001886324</td>
+        <td name="td2">n5-Iminoethyl-l-ornithine</td>
+        <td name="td3">36889-13-1</td>
+        <td name="td4">107984</td>
+        <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000001532525</td>
-        <td name="td2">Arginine</td>
-        <td name="td3">74-79-3</td>
-        <td name="td4">6322</td>
-        <td name="td5"><img src="/images/Similar_compound/Citrulline_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td1">ZINC000003869452</td>
+        <td name="td2">Canavanin</td>
+        <td name="td3">543-38-4</td>
+        <td name="td4">439202</td>
+        <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000002166829</td>
-        <td name="td2">D-Citrulline</td>
-        <td name="td3">13594-51-9</td>
-        <td name="td4">637599</td>
-        <td name="td5"><img src="/images/Similar_compound/Citrulline_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td1">ZINC000035881877</td>
+        <td name="td2">5-Azidonorvaline</td>
+        <td name="td3">156463-09-1</td>
+        <td name="td4">53662155</td>
+        <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
   </table>
