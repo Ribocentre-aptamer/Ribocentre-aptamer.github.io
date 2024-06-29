@@ -172,7 +172,7 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
 
 
 <p class="header_box" >Detail information</p>    
-This section lists all the experimentally validated aptamers.
+This section lists all the experimentally validated aptamers. <a style="color:salmon">You can download the tables by clicking the five buttons above the tables</a>.
 <br><br>
 <div class="form-container">
   <!-- 搜索框 -->
