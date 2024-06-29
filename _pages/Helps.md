@@ -88,26 +88,36 @@ permalink: /helps/
 
 <p class="header_box">How to use the database</p>
 <p class="blowheader_box">Search channels</p>
-<p>On home page, we start the brief introduction, hoping you could get some basic concepts of RNA aptamers. There are two search channels available in the home page, as shown below, you can switch to the Aptamers, SELEX, Applications, or Fluorescences page by using the navigation bar. You can switch to a specific page by searching for keywords or sequences.</p>
-<img src="/images/help/help1.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>On the home page, we start with a brief introduction, hoping that you will understand some basic concepts of RNA aptamers. There are three available search channels on the home page: (1) You can use the navigation bar to switch to the Aptamers, SELEX, Applications, or Fluorescence pages. (2) You can search by keyword in the search box in the header. (3) Above the table, you can search by keyword or switch to a specific page.</p>
+<img src="/images/help/search1.png" alt="drawing" style="width:1000px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/help/search2.png" alt="drawing" style="width:1000px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
+<br>
+
+
+<p class="blowheader_box">Download channels</p>
+<p>In each page, we mainly display the information of different RNA aptamers in table form. You can click the title to sort the column information. You can click the download button to download the information in different formats. When you want to download the information of a specific aptamer, you can filter it by search first and then download it.</p>
+<img src="/images/help/download.png" alt="drawing" style="width:1000px;height:600px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
+<br>
 
 <p class="blowheader_box">Interactive visualization</p>
 <p>Clink the aptamer name in aptamer page, and it would send you to a new page which shows the timeline, structure, binding pockets information and so on of the riboswitch you choosed. For 3d structures you can use the interactive window to colour the structure or click on the zoom button on the right to go to a new page with more detailed information. In addition, we provide information about similar ligands to help you transform aptamers. We hope you can find all the information available in this database.</p>
-<img src="/images/help/help2.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<img src="/images/help/help3.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/help/content1.png" alt="drawing" style="width:1000px;height:550px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/help/content2.png" alt="drawing" style="width:1000px;height:600px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<p class="blowheader_box">Download channels</p>
-<p>On sequences and structures pages, we use table-format to show the information of different RNA aptamers. You can click the header to rank the column information. You can use the Search to search for the aptamer name, ligand, and other information.</p>
-<img src="/images/help/help4.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p class="blowheader_box">SELEX channel</p>
+<p>On the SELEX page, you can go to the SELEX content page by clicking on the image or the name of the SELEX method in the table.</p>
+<img src="/images/help/SELEX.png" alt="drawing" style="width:1000px;height:600px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<p class="blowheader_box">Feedback and others channels</p>
+
+<p class="blowheader_box">Feedback channel</p>
 <p>To keep pace with the latest developments in RNA aptamers research, the database will undergo regular updates.  In home page, We provide a link to the feedback button. In addition, Click the top button to return to a series of database collections.</p>
-<img src="/images/help/help5.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/help/feedback.png" alt="drawing" style="width:1000px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 <br>
