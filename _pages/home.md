@@ -164,7 +164,7 @@ permalink: /
 <div class="left-aligned" style="width: 82%;">
 Zhichao Miao, Lin Huang <br>
 <strong style="color:#520049;font-weight: bold">Ribocentre-aptamer: a database of aptamers.</strong><br>
-<a href="https://pubmed.ncbi.nlm.nih.gov/37855663/" target="_blank" style="color:#520049" >Article link</a>
+<a href="https:" target="_blank" style="color:#520049">Article link</a>
 </div>
 </div>
 <br>
