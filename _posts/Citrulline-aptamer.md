@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Citrulline aptamer, Arginine aptamer"
+title:  "Citrulline aptamer, L-Arginine aptamer"
 date:   2024-04-09 00:00:00
 author: Yuhang Luo, LinFei Li
 categories: Aptamer
