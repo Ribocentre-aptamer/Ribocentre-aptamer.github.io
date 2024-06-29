@@ -451,7 +451,7 @@ This section lists all the experimentally validated Aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/DFHBI-1T-aptamer" target="_blank" style="color:#520049"><b>DFHBI-1T aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Squash-aptamer" target="_blank" style="color:#520049"><b>Squash aptamer</b></a></td>
         <td name="td2">DFHBI-1T</td>
         <td name="td3">DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe. DFHBI-1T binds to RNA aptamers (Spinach, Spinach2, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25337688/" target="_blank" style="color:#520049"><b>2014</b></a></td>
@@ -848,7 +848,7 @@ This section lists all the experimentally validated Aptamers.
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/59-aptamer" target="_blank" style="color:#520049"><b>59 aptamer</b></a></td>
-        <td name="td2">HIV-1 Rev protein</td>
+        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) Rev protein</td>
         <td name="td3">HIV-1 Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7505429/" target="_blank" style="color:#520049"><b>1993</b> </a></td>
         <td name="td5">NA</td>
