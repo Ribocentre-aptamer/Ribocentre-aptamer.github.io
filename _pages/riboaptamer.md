@@ -332,8 +332,8 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Amino Acids & Peptides</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Citrulline-aptamer" target="_blank" style="color:#520049"><b>Arginine aptamer</b></a></td>
-        <td name="td2">Arginine</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Citrulline-aptamer" target="_blank" style="color:#520049"><b>L-Arginine aptamer</b></a></td>
+        <td name="td2">L-Arginine</td>
         <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H. The molecule features a guanidino group appended to a standard amino acid framework. At physiological pH, the carboxylic acid is deprotonated (−CO2−) and both the amino and guanidino groups are protonated, resulting in a cation. Only the l-arginine (symbol Arg or R) enantiomer is found naturally. Arg residues are common components of proteins. It is encoded by the codons CGU, CGC, CGA, CGG, AGA, and AGG. The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide. Like all amino acids, it is a white, water-soluble solid.-----from wikipedia</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9631062/" target="_blank" style="color:#520049"><b>1996</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1KOC" target="_blank" style="color:#520049"><b>1KOC</b></a></td>
@@ -563,9 +563,9 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Amino Acids & Peptides</td>
+        <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/bG40min-aptamer" target="_blank" style="color:#520049"><b>bG40min aptamer</b></a></td>
-        <td name="td2">ATP (Adenosine 5'-triphosphate)</td>
+        <td name="td2">Adenosine triphosphate (ATP)</td>
         <td name="td3">ATP is an adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways. It has a role as a nutraceutical, a micronutrient, a fundamental metabolite and a cofactor. It is an adenosine 5'-phosphate and a purine ribonucleoside 5'-triphosphate. It is a conjugate acid of an ATP(3-).</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11884639/" target="_blank" style="color:#520049"><b>2002</b></a></td>
         <td name="td5">NA</td>
@@ -580,18 +580,10 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/D-R16c-aptamer" target="_blank" style="color:#520049"><b>D-R16c aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/D-Arginine-aptamer" target="_blank" style="color:#520049"><b>D-Arginine aptamer</b></a></td>
         <td name="td2">D-Arginine</td>
         <td name="td3">D-arginine is a D-alpha-amino acid that is the D-isomer of arginine. It has a role as an EC 4.1.1.19 (arginine decarboxylase) inhibitor and a mouse metabolite. It is a D-alpha-amino acid and an arginine. It is a conjugate base of a D-argininium(1+). It is a conjugate acid of a D-argininate. It is an enantiomer of a L-arginine.-----From ChEBI</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9631062/" target="_blank" style="color:#520049"><b>1996</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/D-R16c-aptamer" target="_blank" style="color:#520049"><b>L-Arginine aptamer</b></a></td>
-        <td name="td2">L-Arginine</td>
-        <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H. The molecule features a guanidino group appended to a standard amino acid framework. At physiological pH, the carboxylic acid is deprotonated (−CO2−) and both the amino and guanidino groups are protonated, resulting in a cation. Only the l-arginine (symbol Arg or R) enantiomer is found naturally. Arg residues are common components of proteins. It is encoded by the codons CGU, CGC, CGA, CGG, AGA, and AGG. The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide. Like all amino acids, it is a white, water-soluble solid.-----from wikipedia</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/8604334/" target="_blank" style="color:#520049"><b>1996</b></a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
