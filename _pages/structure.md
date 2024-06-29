@@ -243,7 +243,7 @@ This section displays
       <td name="td4"><a href="https://www.rcsb.org/structure/1ET4" target="_blank" style="color:#520049"><b>1ET4</b></a><br><a href="https://www.rcsb.org/structure/1DDY" target="_blank" style="color:#520049"><b>1DDY</b></a></td>
       <td name="td5">molecular replacement(MR),<br>Co(MAD)</td>
       <td name="td6">2.3<br>>3.0</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/10903943/" target="_blank" style="color:#520049"><b>2000</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/10625428/" target="_blank" style="color:#520049"><b>2000</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/10903943/" target="_blank" style="color:#520049"><b>2000a</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/10625428/" target="_blank" style="color:#520049"><b>2000b</b></a></td>
     </tr>
      <tr>
       <td name="td0">Biologics & Signaling Molecules</td>
@@ -313,7 +313,7 @@ This section displays
       <a href="https://www.rcsb.org/structure/4Q9Q" target="_blank" style="color:#520049"><b>4Q9Q</b></a></td>
       <td name="td5">Ba (SAD),<br>molecular replacement(MR)</td>
       <td name="td6">2.8<br>2.88<br>2.0<br>3.12<br>2.19<br>2.45</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/25026079/" target="_blank" style="color:#520049"><b>2014</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/28939697/" target="_blank" style="color:#520049"><b>2017</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/24952597/" target="_blank" style="color:#520049"><b>2014</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/25026079/" target="_blank" style="color:#520049"><b>2014a</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/24952597/" target="_blank" style="color:#520049"><b>2014b</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/28939697/" target="_blank" style="color:#520049"><b>2017</b></a></td>
     </tr>
      <tr>
       <td name="td0">Fluorophores</td>
@@ -323,7 +323,7 @@ This section displays
       <td name="td4"><a href="https://www.rcsb.org/structure/5LWJ" target="_blank" style="color:#520049"><b>5LWJ</b></a><br><a href="https://www.rcsb.org/structure/2AU4" target="_blank" style="color:#520049"><b>2AU4</b></a></td>
       <td name="td5">NA</td>
       <td name="td6">NA</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/27885761/" target="_blank" style="color:#520049"><b>2017</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/16510427/" target="_blank" style="color:#520049"><b>2006</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/16510427/" target="_blank" style="color:#520049"><b>2006</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/27885761/" target="_blank" style="color:#520049"><b>2017</b></a></td>
     </tr>
      <tr>
       <td name="td0">Fluorophores</td>
@@ -378,7 +378,7 @@ This section displays
       <a href="https://www.rcsb.org/structure/7L0Z" target="_blank" style="color:#520049"><b>7L0Z</b></a></td>
       <td name="td5">Ir(SAD),<br>molecular replacement(MR)</td>
       <td name="td6">2.35<br>2.9<br>1.55<br>3.0<br>2.8<br>2.1</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/30992561/" target="_blank" style="color:#520049"><b>2019</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/31397326/" target="_blank" style="color:#520049"><b>2019</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/33376189/" target="_blank" style="color:#520049"><b>2021</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/30992561/" target="_blank" style="color:#520049"><b>2019a</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/31397326/" target="_blank" style="color:#520049"><b>2019b</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/33376189/" target="_blank" style="color:#520049"><b>2021</b></a></td>
     </tr>
      <tr>
       <td name="td0">Fluorophores</td>
@@ -457,7 +457,7 @@ This section displays
       <td name="td4"><a href="https://www.rcsb.org/structure/1AM0" target="_blank" style="color:#520049"><b>1AM0</b></a><br><a href="https://www.rcsb.org/structure/1RAW" target="_blank" style="color:#520049"><b>1RAW</b></a></td>
       <td name="td5">NA</td>
       <td name="td6">NA</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/8700212/" target="_blank" style="color:#520049"><b>1996</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/8756406/" target="_blank" style="color:#520049"><b>1996</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/8700212/" target="_blank" style="color:#520049"><b>1996a</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/8756406/" target="_blank" style="color:#520049"><b>1996b</b></a></td>
     </tr>
      <tr>
       <td name="td0">Nucleosides & Nucleotides</td>
@@ -487,7 +487,7 @@ This section displays
       <td name="td4"><a href="https://www.rcsb.org/structure/1EHT" target="_blank" style="color:#520049"><b>1EHT</b></a><br><a href="https://www.rcsb.org/structure/1O15" target="_blank" style="color:#520049"><b>1O15</b></a></td>
       <td name="td5">NA</td>
       <td name="td6">NA</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/9253414/" target="_blank" style="color:#520049"><b>1997</b></a><a href="https://pubmed.ncbi.nlm.nih.gov/12568611/" target="_blank" style="color:#520049"><b>2003</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/9253414/" target="_blank" style="color:#520049"><b>1997</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/12568611/" target="_blank" style="color:#520049"><b>2003</b></a></td>
     </tr>
      <tr>
       <td name="td0">Pharmaceuticals</td>
@@ -559,7 +559,7 @@ This section displays
       <td name="td4"><a href="https://www.rcsb.org/structure/4PDB" target="_blank" style="color:#520049"><b>4PDB</b></a><br><a href="https://www.rcsb.org/structure/2LUN" target="_blank" style="color:#520049"><b>2LUN</b></a></td>
       <td name="td5">molecular replacement(MR),<br>NA</td>
       <td name="td6">2.6<br>NA</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/25140011/" target="_blank" style="color:#520049"><b>2014</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/25114049/" target="_blank" style="color:#520049"><b>2014</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/25140011/" target="_blank" style="color:#520049"><b>2014a</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/25114049/" target="_blank" style="color:#520049"><b>2014b</b></a></td>
     </tr>
      <tr>
       <td name="td0">Bacteria</td>
@@ -709,7 +709,7 @@ This section displays
       <td name="td4"><a href="https://www.rcsb.org/structure/6MSF" target="_blank" style="color:#520049"><b>6MSF</b></a><br><a href="https://www.rcsb.org/structure/5MSF" target="_blank" style="color:#520049"><b>5MSF</b></a>,<a href="https://www.rcsb.org/structure/7MSF" target="_blank" style="color:#520049"><b>7MSF</b></a><br><a href="https://www.rcsb.org/structure/1U1Y" target="_blank" style="color:#520049"><b>1U1Y</b></a></td>
       <td name="td5">molecular replacement(MR)</td>
       <td name="td6">2.8<br>2.8<br>2.85</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/9461079/" target="_blank" style="color:#520049"><b>1998</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/9808042/" target="_blank" style="color:#520049"><b>1998</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/15496523/" target="_blank" style="color:#520049"><b>2004</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/9461079/" target="_blank" style="color:#520049"><b>1998a</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/9808042/" target="_blank" style="color:#520049"><b>1998b</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/15496523/" target="_blank" style="color:#520049"><b>2004</b></a></td>
     </tr>
      <tr>
       <td name="td0">Others</td>
@@ -807,7 +807,7 @@ This section displays
       <td name="td4"><a href="https://www.rcsb.org/structure/2OOM" target="_blank" style="color:#520049"><b>2OOM</b></a>,<a href="https://www.rcsb.org/structure/2PN9" target="_blank" style="color:#520049"><b>2PN9</b></a><br><a href="https://www.rcsb.org/structure/2RN1" target="_blank" style="color:#520049"><b>2RN1</b></a><br><a href="https://www.rcsb.org/structure/2JLT" target="_blank" style="color:#520049"><b>2JLT</b></a></td>
       <td name="td5">NA<br>NA<br>Br(SAD)</td>
       <td name="td6">NA<br>NA<br>2.9</td>
-      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/17768146/" target="_blank" style="color:#520049"><b>2007</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/18607001/" target="_blank" style="color:#520049"><b>2008</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/18996893/" target="_blank" style="color:#520049"><b>2008</b></a></td>
+      <td name="td7"><a href="https://pubmed.ncbi.nlm.nih.gov/17768146/" target="_blank" style="color:#520049"><b>2007</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/18607001/" target="_blank" style="color:#520049"><b>2008a</b></a><br><a href="https://pubmed.ncbi.nlm.nih.gov/18996893/" target="_blank" style="color:#520049"><b>2008b</b></a></td>
     </tr>
      <tr>
       <td name="td0">Viral</td>
