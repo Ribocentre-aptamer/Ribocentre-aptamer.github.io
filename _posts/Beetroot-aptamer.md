@@ -215,6 +215,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
+  start_residue_number:103, 
+  end_residue_number:103, 
+  color:{r:255,g:255,b:0}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:17, 
   end_residue_number:17, 
   color:{r:9,g:254,b:254}
@@ -422,6 +428,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
             <button onclick="
               var selectSections2 = [
                 {
+  struct_asym_id: 'A', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:255,b:0}
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:17, 
   end_residue_number:18, 
