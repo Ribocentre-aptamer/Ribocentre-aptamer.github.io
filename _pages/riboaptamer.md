@@ -373,7 +373,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Chili-aptamer" target="_blank" style="color:#520049"><b>Chili aptamer</b></a></td>
-        <td name="td2">DMHBI (4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one)<br>DMHBO+</td>
+        <td name="td2">DMHBI<br>DMHBO+</td>
         <td name="td3">DMHBI (4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one) is predominantly found in the phenolic form, the brighter DMFBI mimics EGFP and is anionic under standard conditions. The DMFBI-RNA complex has been called Spinach, it is the first fluorescent RNA tag that is both selective and non-toxic. It only fluoresces when bound to RNA, is resistant to photobleaching and has been used to follow RNA tagged molecules as they move through cells.----From Green Fluorescent Protein<br>DMHBO+ ([4-[(2Z,4Z)-4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2-(nitrosomethylidene)-5-oxoimidazolidin-1-yl]phenyl]-trimethylazanium) is a cationic chromophore that binds to the Chili aptamer with a Kd of 12 nM. The Chili-DMHBO+ complex is an ideal fluorescence donor for FRET to the rhodamine dye Atto 590, suitable for imaging RNA in cells. Ex/Em=456/592 nm.----MedChemExpress</td>
         <td name="td4"><a href="https:" target="_blank" style="color:#520049"><b>2018</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/7OAW" target="_blank" style="color:#520049"><b>7OAW (DMHBI+)</b></a><br><br><a href="https://www.rcsb.org/structure/7OAX" target="_blank" style="color:#520049"><b>7OAX</b></a><br><br><a href="https://www.rcsb.org/structure/7OA3" target="_blank" style="color:#520049"><b>7OA3</b></a><br><br><a href="https://www.rcsb.org/structure/7OAV" target="_blank" style="color:#520049"><b>7OAV (DMHBO+)</b></a></td>
@@ -397,7 +397,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mango-III-aptamer(YO3)" target="_blank" style="color:#520049"><b>Mango-III aptamer(YO3)</b></a></td>
-        <td name="td2">YO3 (Oxazole yellow 3)</td>
+        <td name="td2">Oxazole yellow 3 (YO3)</td>
         <td name="td3">YO3 (Oxazole yellow 3) is a synthetic fluorescent small molecule whose spectral properties are very similar to Texas Red. YO3-biotin fluoresces with comparable intensities when bound in either the Mango or the Spinach construct, similarly to TO1-biotin. DFHBI-1T outcompetes YO3-biotin bound in Spinach, whereas YO3-biotin is unable to outcompete DFHBI-1T bound in Spinach.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25101481/" target="_blank" style="color:#520049"><b>2014</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6UP0" target="_blank" style="color:#520049"><b>6UP0</b></a></td>
@@ -405,7 +405,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Spinach-aptamer" target="_blank" style="color:#520049"><b>Spinach aptamer</b></a></td>
-        <td name="td2">DFHBI ((Z)-4-(3,5-difluoro- 4-hydroxybenzylidene)-1,2-dimethyl-1H-imidazol-5(4H)-one)</td>
+        <td name="td2">DFHBI</td>
         <td name="td3">DFHBI ((Z)-4-(3,5-difluoro- 4-hydroxybenzylidene)-1,2-dimethyl-1H-imidazol-5(4H)-one) is a small molecule that resembles the chromophore of green fluorescent protein (GFP). Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.----From MedChemExpress</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/21798953/" target="_blank" style="color:#520049"><b>2011</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/4TS0" target="_blank" style="color:#520049"><b>4TS0</b></a><br><a href="https://www.rcsb.org/structure/4TS2" target="_blank" style="color:#520049"><b>4TS2</b></a></td>
@@ -413,7 +413,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/MG-aptamer" target="_blank" style="color:#520049"><b>MG aptamer</b></a></td>
-        <td name="td2">MG (Malachite green)</td>
+        <td name="td2">Malachite green (MG)</td>
         <td name="td3">MG (Malachite green) is an organic compound that is used as a dyestuff and controversially as an antimicrobial in aquaculture. Malachite green is traditionally used as a dye for materials such as silk, leather, and paper. Despite its name the dye is not prepared from the mineral malachite; the name just comes from the similarity of color.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10339553/" target="_blank" style="color:#520049"><b>1999</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1Q8N" target="_blank" style="color:#520049"><b>1Q8N</b></a></td>
@@ -469,7 +469,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Okra-aptamer" target="_blank" style="color:#520049"><b>Okra aptamer</b></a></td>
-        <td name="td2">3-(2,3,6,7-tetrahydro-1H,5H-pyrido(3,2,1-ij)quinolin-9-yl)acrylamide- 2-cyano-N-(2-(2-aminoethoxy) ethyl) (ACE)</td>
+        <td name="td2">ACE</td>
         <td name="td3">3-(2,3,6,7-tetrahydro-1H,5H-pyrido(3,2,1-ij)quinolin-9-yl)acrylamide- 2-cyano-N-(2-(2-aminoethoxy) ethyl) (ACE) was a non-GFP-like fluorophore, a hydrophilic derivative of 9-(2-carboxy-2-cyanovinyl) julolidine molecule rotor that has low fluorescence in solution.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/38783134/" target="_blank" style="color:#520049"><b>2024</b></a></td>
         <td name="td5">NA</td>
@@ -477,7 +477,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Clivias-aptamer" target="_blank" style="color:#520049"><b>Clivias aptamer</b></a></td>
-        <td name="td2">4-(N-(2-hydroxyethyl)(methyl))benzylidene-3-methyl-2-styryl-3, 5-dihydro-4H-imidazol-4-one (NBSI)</td>
+        <td name="td2">NBSI</td>
         <td name="td3">NBSI is a typical chromophore structure consisting of an electron donor and an electron acceptor linked by π conjugation. NBSI exhibit a large Stokes shift of 80 nm when it was constrained in glycerol.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/37723244/" target="_blank" style="color:#520049"><b>2023</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/8HZE" target="_blank" style="color:#520049"><b>8HZE</b></a></td>
@@ -533,7 +533,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/XBA-RNA-aptamer" target="_blank" style="color:#520049"><b>XBA RNA aptamer</b></a></td>
-        <td name="td2">Xanthine (2,6-dioxypurine)</td>
+        <td name="td2">Tetramethylrhodamine (TMR)</td>
         <td name="td3">Xanthine oxidase (XO, sometimes 'XAO') is a form of xanthine oxidoreductase, a type of enzyme that generates reactive oxygen species. These enzymes catalyze the oxidation of hypoxanthine to xanthine and can further catalyze the oxidation of xanthine to uric acid.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9512549/" target="_blank" style="color:#520049"><b>1998</b></a></td>
         <td name="td5">NA</td>
@@ -673,7 +673,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Prion</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Bovine-prion-protein(bPrP)-aptamer" target="_blank" style="color:#520049"><b>Bovine prion protein(bPrP) aptamer</b></a></td>
-        <td name="td2">Bovine prion protein</td>
+        <td name="td2">Bovine prion protein (bPrP)</td>
         <td name="td3">Normal cellular form of prion protein (PrP<sub>C</sub>) change into abnormal form (PrP<sub>Sc</sub>) and causes anti-prion, prevent prion and Alzheimer's disease. There are the similar structures between 2RSK and 2RU7, so only the 2RU7 with last literature is chosen.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/19098441/" target="_blank" style="color:#520049"><b>2008</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2RU7" target="_blank" style="color:#520049"><b>2RU7</b></a><br><a href="https://www.rcsb.org/structure/2RSK" target="_blank" style="color:#520049"><b>2RSK</b></a></td>
@@ -833,7 +833,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/B.2-aptamer" target="_blank" style="color:#520049"><b>B.2 aptamer</b></a></td>
-        <td name="td2">Hepatitis C virus (HCV) NS5B polymerase (HCV NS5BΔC55 protein)</td>
+        <td name="td2">Hepatitis C virus NS5B polymerase (HCV NS5BΔC55 protein)</td>
         <td name="td3">HCV NS5B is a 66-kDa membrane-associated viral nonstructural protein, derived from the C-terminal end of the polyprotein. NS5B was initially identified as an RNA-dependent RNA polymerase (RdRp) by the presence of the hallmark GDD sequence, a motif involved in binding the Mg2+ ions essential for all polymerase functions.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11907208/" target="_blank" style="color:#520049"><b>2002</b> </a></td>
         <td name="td5">NA</td>
@@ -1121,7 +1121,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Prion</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Prion-protein1-aptamer" target="_blank" style="color:#520049"><b>Prion protein 1 aptamer</b></a></td>
-        <td name="td2">Prion protein</td>
+        <td name="td2">Prion protein (PrP-c)</td>
         <td name="td3">The RNA aptamers may fold into G-quartet-containing structural elements and replacement of the G residues in the G quartet scaffold with uridine residues destroyed binding to PrP completely.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9343239/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
         <td name="td5">NA</td>
@@ -1145,7 +1145,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Prion</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Prion-protein2-aptamer" target="_blank" style="color:#520049"><b>Prion protein 2 aptamer</b></a></td>
-        <td name="td2">Prion protein</td>
+        <td name="td2">Prion protein (PrP-c)</td>
         <td name="td3">PrP binds nucleic acids with high affinity, causing the formation of nucleoprotein complexes in which PrP has become partially resistant to proteinase K.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16799875/" target="_blank" style="color:#520049"><b>2006</b> </a></td>
         <td name="td5">NA</td>
@@ -1225,7 +1225,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/eIF4E-aptamer" target="_blank" style="color:#520049"><b>eIF4E-aptamer</b></a></td>
-        <td name="td2">eIF4E(Mammalian eukaryotic translation initiation factor 4F)</td>
+        <td name="td2">Mammalian eukaryotic translation initiation factor 4F (eIF4E)</td>
         <td name="td3">eIF4E recognizes the mRNA 5′-cap structure (m7GpppN) and plays a pivotal role in control of translation initiation, which is the rate-limiting step in translation. Overexpression of eIF4E has a dramatic effect on cell growth and leads to oncogenic transformation.</td>
         <td name="td4"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1370693/" target="_blank" style="color:#520049"><b>2005</b> </a></td>
         <td name="td5">NA</td>
@@ -1353,7 +1353,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/W2-aptamer" target="_blank" style="color:#520049"><b>W2 aptamer</b></a></td>
-        <td name="td2">C5 (Complement component 5) protein</td>
+        <td name="td2">Complement component 5 (C5) protein</td>
         <td name="td3">Activation of C5 by a C5 convertase initiates the spontaneous assembly of the late complement components, C5-C9, into the membrane attack complex. C5b has a transient binding site for C6. The C5b-C6 complex is the foundation upon which the lytic complex is assembled.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12490703/" target="_blank" style="color:#520049"><b>2002</b></a></td>
         <td name="td5">NA</td>
@@ -1425,7 +1425,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/No.21-aptamer" target="_blank" style="color:#520049"><b>No.21 aptamer</b></a></td>
-        <td name="td2">eIF4A</td>
+        <td name="td2">Eukaryotic translation initiation factor 4F (eIF4E)</td>
         <td name="td3">Eukaryotic initiation factor 4A eukaryotic translation Initiation Factor 4A (eIF4A) is an ATP-dependent RNA binding protein, an RNA-dependent ATPase, and an RNA helicase that plays an important role in the initiation of eukaryotic translation.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12649492/" target="_blank" style="color:#520049"><b>2003</b></a></td>
         <td name="td5">NA</td>
@@ -1465,7 +1465,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/tMG-RNA-aptamer" target="_blank" style="color:#520049"><b>tMG RNA aptamer</b></a></td>
-        <td name="td2">mAb198(rat monoclonal antibody)</td>
+        <td name="td2">rat monoclonal antibody (mAb198)</td>
         <td name="td3">Clinical symptoms of EAMG in rats engendered by passive transfer of mAb198.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12885412/" target="_blank" style="color:#520049"><b>2003</b></a></td>
         <td name="td5">NA</td>
@@ -1481,7 +1481,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Parasite</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CED-9-aptamer" target="_blank" style="color:#520049"><b>CED-9 aptamer</b></a></td>
-        <td name="td2">CED-9</td>
+        <td name="td2">Cell death abnormality gene 9 (CED-9)</td>
         <td name="td3">Cell death abnormality gene 9 (CED-9), also known as apoptosis regulator CED-9, is a gene found in Caenorhabditis elegans that inhibits/represses programmed cell death (apoptosis).</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16467303/" target="_blank" style="color:#520049"><b>2006</b></a></td>
         <td name="td5">NA</td>
@@ -1685,7 +1685,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/LR06-aptamer" target="_blank" style="color:#520049"><b>LR06(GA) aptamer</b></a></td>
-        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) trans-activating responsive (TAR) RNA</td>
+        <td name="td2">Human immunodeficiency virus type 1 trans-activating responsive (HIV-1 TAR) RNA</td>
         <td name="td3">The trans-activating responsive (TAR) RNA element located in the 5′ untranslated region of the HIV-1 genome is a 59-nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7521014/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2OOM" target="_blank" style="color:#520049"><b>2OOM</b></a></td>
