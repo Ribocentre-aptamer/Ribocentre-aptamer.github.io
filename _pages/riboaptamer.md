@@ -20,6 +20,7 @@ permalink: /Ribocentre-aptamer/
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
     <script type="text/javascript"  src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <style>
     .header_box {
     display: block;
@@ -157,15 +158,15 @@ permalink: /Ribocentre-aptamer/
     white-space: normal; /* 换行处理 */
   }
   /* 每个单元格的背景颜色 */
-  .row1 td:nth-child(1) { background-color: #6ed9cd; }
-  .row1 td:nth-child(2) { background-color: #6ed9cd; }
-  .row1 td:nth-child(3) { background-color: #f3720f; }
-  .row1 td:nth-child(4) { background-color: #f3720f; }
-  .row1 td:nth-child(5) { background-color: #f3720f; }
-  .row1 td:nth-child(6) { background-color: #f3720f; }
-  .row1 td:nth-child(7) { background-color: #f0a570; }
-  .row1 td:nth-child(8) { background-color: #f0a570; }
-  .row1 td:nth-child(9) { background-color: #f0a570; }
+  .row1 td:nth-child(1) { background-color: #FFA07A; }
+  .row1 td:nth-child(2) { background-color: #FFA07A; }
+  .row1 td:nth-child(3) { background-color: #f0a570; }
+  .row1 td:nth-child(4) { background-color: #f0a570; }
+  .row1 td:nth-child(5) { background-color: #f0a570; }
+  .row1 td:nth-child(6) { background-color: #f0a570; }
+  .row1 td:nth-child(7) { background-color: #385dbf; }
+  .row1 td:nth-child(8) { background-color: #385dbf; }
+  .row1 td:nth-child(9) { background-color: #385dbf; }
   /* 在:hover伪类下，将transform属性添加到td元素上 */
   .table td:hover {
     transform: scale(1.05); /* 缩放到105% */
@@ -182,42 +183,45 @@ permalink: /Ribocentre-aptamer/
   text-decoration: none !important;
 }
   /* 其他行的背景颜色 */
-  .row2 td:nth-child(1) { background-color: #f0a570; }
-  .row2 td:nth-child(2) { background-color: #f0a570; }
-  .row2 td:nth-child(3) { background-color: #f0a570; }
-  .row2 td:nth-child(4) { background-color: #f0a570; }
-  .row2 td:nth-child(5) { background-color: #f0a570; }
-  .row2 td:nth-child(6) { background-color: #f0a570; }
-  .row2 td:nth-child(7) { background-color: #f0a570; }
-  .row2 td:nth-child(8) { background-color: #f0a570; }
-  .row2 td:nth-child(9) { background-color: #f0a570; }
-  .row3 td:nth-child(1) { background-color: #e97e8d; }
-  .row3 td:nth-child(2) { background-color: #e97e8d; }
-  .row3 td:nth-child(3) { background-color: #233f90; }
-  .row3 td:nth-child(4) { background-color: #233f90; }
-  .row3 td:nth-child(5) { background-color: #233f90; }
-  .row3 td:nth-child(6) { background-color: #233f90; }
-  .row3 td:nth-child(7) { background-color: #233f90; }
-  .row3 td:nth-child(8) { background-color: #dc344b; }
-  .row3 td:nth-child(9) { background-color: #dc344b; }
-  .row4 td:nth-child(1) { background-color: #dc344b; }
-  .row4 td:nth-child(2) { background-color: #dc344b; }
-  .row4 td:nth-child(3) { background-color: #dc344b; }
-  .row4 td:nth-child(4) { background-color: #dc344b; }
-  .row4 td:nth-child(5) { background-color: #dc344b; }
-  .row4 td:nth-child(6) { background-color: #dc344b; }
-  .row4 td:nth-child(7) { background-color: #dc344b; }
-  .row4 td:nth-child(8) { background-color: #dc344b; }
-  .row4 td:nth-child(9) { background-color: #385dbf; }
-  .row5 td:nth-child(1) { background-color: #385dbf; }
-  .row5 td:nth-child(2) { background-color: #385dbf; }
-  .row5 td:nth-child(3) { background-color: #385dbf; }
-  .row5 td:nth-child(4) { background-color: #9dd17c; }
-  .row5 td:nth-child(5) { background-color: #9dd17c; }
-  .row5 td:nth-child(6) { background-color: #9dd17c; }
-  .row5 td:nth-child(7) { background-color: #9dd17c; }
-  .row5 td:nth-child(8) { background-color: #5c198f; }
-  .row5 td:nth-child(9) { background-color: #1a6159; }
+  .row2 td:nth-child(1) { background-color: #385dbf; }
+  .row2 td:nth-child(2) { background-color: #385dbf; }
+  .row2 td:nth-child(3) { background-color: #385dbf; }
+  .row2 td:nth-child(4) { background-color: #385dbf; }
+  .row2 td:nth-child(5) { background-color: #385dbf; }
+  .row2 td:nth-child(6) { background-color: #385dbf; }
+  .row2 td:nth-child(7) { background-color: #385dbf; }
+  .row2 td:nth-child(8) { background-color: #385dbf; }
+  .row2 td:nth-child(9) { background-color: #385dbf; }
+  .row3 td:nth-child(1) { background-color: #3c58a5; }
+  .row3 td:nth-child(2) { background-color: #3c58a5; }
+  .row3 td:nth-child(3) { background-color: #14a0ec; }
+  .row3 td:nth-child(4) { background-color: #14a0ec; }
+  .row3 td:nth-child(5) { background-color: #14a0ec; }
+  .row3 td:nth-child(6) { background-color: #14a0ec; }
+  .row3 td:nth-child(7) { background-color: #14a0ec; }
+  .row3 td:nth-child(8) { background-color: #d75369; }
+  .row3 td:nth-child(9) { background-color: #d75369; }
+  .row4 td:nth-child(1) { background-color: #d75369; }
+  .row4 td:nth-child(2) { background-color: #d75369; }
+  .row4 td:nth-child(3) { background-color: #d75369; }
+  .row4 td:nth-child(4) { background-color: #d75369; }
+  .row4 td:nth-child(5) { background-color: #d75369; }
+  .row4 td:nth-child(6) { background-color: #d75369; }
+  .row4 td:nth-child(7) { background-color: #d75369; }
+  .row4 td:nth-child(8) { background-color: #d75369; }
+  .row4 td:nth-child(9) { background-color: #e97e8d; }
+  .row5 td:nth-child(1) { background-color: #e97e8d; }
+  .row5 td:nth-child(2) { background-color: #e97e8d; }
+  .row5 td:nth-child(3) { background-color: #e97e8d; }
+  .row5 td:nth-child(4) { background-color: #ade48b; }
+  .row5 td:nth-child(5) { background-color: #ade48b; }
+  .row5 td:nth-child(6) { background-color: #ade48b; }
+  .row5 td:nth-child(7) { background-color: #ade48b; }
+  .row5 td:nth-child(8) { background-color: #9841da; }
+  .row5 td:nth-child(9) { background-color: #77c670; }
+  #pie-chart {
+      margin: 0 auto; /* 居中 */
+    }
 </style>
 </head>
 
@@ -231,7 +235,22 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
 <br>
         
 <p class="header_box" >Statistical information </p>
-<iframe src="../plotly_pie.html" class="rounded-iframe" width="100%" height="600" frameborder="0"></iframe>
+<!--iframe src="../plotly_pie.html" class="rounded-iframe" width="100%" height="600" frameborder="0"></iframe-->
+<div id="pie-chart" style="width: 800px; height: 600px;"></div>
+<script>
+    var data = [{
+      values: [12, 7, 73, 3, 2, 3, 3, 28, 4, 6, 8, 16, 7, 11, 3],
+      labels: ['Bacteria', 'Cell', 'Mammalian', 'Other', 'Parasite', 'Prion','Toxin','Viral','RNA','Amino Acids & Peptides','Biologics & Signaling Molecules','Fluorophores','Nucleosides & Nucleotides','Pharmaceuticals','Synthetic'],
+      type: 'pie',
+      marker: {
+        colors: ['#e97e8d', '#bf97d1', '#d75369', '#9841da', '#396120', '#77c670', '#ab233a', '#ade48b', '#6ed9cd', '#FFA07A', '#f0a570', '#385dbf', '#3c58a5', '#14a0ec','#2a5c76']
+      }
+    }];
+    var layout = {
+    };
+    Plotly.newPlot('pie-chart', data, layout);
+  </script>
+
 
 <p>The aptamer database includes structured aptamers and unstructured aptamers. The table below lists the ligands of structured aptamers. The colors of the table correspond to the colors of the pie chart above, representing different types of aptamers. You can click on the ligand of interest to view the detailed information of the corresponding aptamer.</p>
   <table class="table" border="1">
