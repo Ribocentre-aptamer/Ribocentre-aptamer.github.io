@@ -546,7 +546,7 @@ This section lists all the experimentally validated aptamers.<font style="color:
         <td name="td5"><a href="https://www.rcsb.org/structure/1Q8N" target="_blank" style="color:#520049"><b>1Q8N</b></a></td>
       </tr>   
       <tr>
-        <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
+        <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Biotin-aptamer" target="_blank" style="color:#520049"><b>Biotin aptamer</b></a></td>
         <td name="td2">Biotin</td>
         <td name="td3">Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.</td>
@@ -758,7 +758,7 @@ This section lists all the experimentally validated aptamers.<font style="color:
       </thead>
     <tbody>
       <tr>
-        <td name="td0" rowspan = "1">Viral</td>
+        <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/bacteriophage-MS2-coat-protein-aptamer" target="_blank" style="color:#520049"><b>Bacteriophage MS2 coat protein-aptamer</b></a></td>
         <td name="td2">Bacteriophage MS2 coat protein</td>
         <td name="td3">The coat protein of the RNA bacteriophage MS2 binds a specific stem-loop structure in viral RNA to accomplish encapsidation of the genome and translational repression of replicase synthesis.</td>
@@ -1638,7 +1638,7 @@ This section lists all the experimentally validated aptamers.<font style="color:
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Insect</td>
+        <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mbl-aptamer" target="_blank" style="color:#520049"><b>Mbl-aptamer</b></a></td>
         <td name="td2">Drosophila muscleblind protein Mbl</td>
         <td name="td3">Drosophila muscleblind (Mbl) is an RNA-binding protein critical for cellular differentiation and development. Mbl plays significant roles in the differentiation of photoreceptors and the terminal differentiation of muscles. The human orthologues of Mbl, known as muscleblind-like proteins (MBNL1-3), similarly regulate the alternative splicing of transcripts essential for development.</td>
