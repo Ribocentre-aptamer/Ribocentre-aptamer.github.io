@@ -245,7 +245,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FMN-aptamer" target="_blank" style="color:#520049"><b>FMN aptamer</b></a></td>
-        <td name="td2">FMN</td>
+        <td name="td2">Flavin mononucleotide (FMN)</td>
         <td name="td3">Flavin mononucleotide (FMN)  is a cofactor that mediates oxidation–reduction reactions when bound as a prosthetic group in flavoproteins.The chromophore (isoalloxazine ring) of FMN serves as a transient carrier of a pair of hydrogen atoms removed from the substrate molecule in redox reactions catalyzed by these enzymes.</td>
         <td name="td4"><a href="https://onlinelibrary.wiley.com/doi/10.1002/anie.199410841" target="_blank" style="color:#520049"><b>1994</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1FMN" target="_blank" style="color:#520049"><b>1FMN</b></a></td>
