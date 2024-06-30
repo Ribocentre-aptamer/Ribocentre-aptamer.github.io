@@ -490,19 +490,11 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Beetroot-aptamer(ThT)" target="_blank" style="color:#520049"><b>Beetroot aptamer(ThT)</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Beetroot-aptamer" target="_blank" style="color:#520049"><b>Beetroot aptamer</b></a></td>
         <td name="td2">ThT<br>DFHO<br>DFAME</td>
         <td name="td3">ThT (Thioflavin T) are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.<br>DFHO (3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.<br>DFAME is a red fluorophore. Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind to DFAME to form Beetroot-DFAME (Kd=460 nM) and Corn-DFAME (Kd= 3600 nM). Beetroot-DFAME (Kd=460 nM) and Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy (CGT) research.----From MedChemExpress</td>
         <td name="td4"><a href="https:" target="_blank" style="color:#520049"><b>2022</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/8EYW" target="_blank" style="color:#520049"><b>8EYW</b></a><br><a href="https://www.rcsb.org/structure/8EYV" target="_blank" style="color:#520049"><b>8EYV</b></a><br><a href="https://www.rcsb.org/structure/8EYU" target="_blank" style="color:#520049"><b>8EYU</b></a></td>
-      </tr> 
-      <tr>
-        <td name="td0" rowspan = "1">Fluorophores</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Beetroot-aptamer(DFAME)" target="_blank" style="color:#520049"><b>Beetroot aptamer(DFAME)</b></a></td>
-        <td name="td2">DFAME<br>DFHO<br>ThT</td>
-        <td name="td3">DFAME is a red fluorophore. Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind to DFAME to form Beetroot-DFAME (Kd=460 nM) and Corn-DFAME (Kd= 3600 nM). Beetroot-DFAME (Kd=460 nM) and Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy (CGT) research.----From MedChemExpress<br>DFHO (3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.<br>ThT (Thioflavin T) are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.----From Wikipedia</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/35294188/" target="_blank" style="color:#520049"><b>2022</b></a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/8EYU" target="_blank" style="color:#520049"><b>8EYU</b></a><br><a href="https://www.rcsb.org/structure/8EYV" target="_blank" style="color:#520049"><b>8EYV</b></a><br><a href="https://www.rcsb.org/structure/8F0N" target="_blank" style="color:#520049"><b>8F0N</b></a><br><a href="https://www.rcsb.org/structure/8EYW" target="_blank" style="color:#520049"><b>8EYW</b></a></td>
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
@@ -553,20 +545,12 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5"><a href="https://www.rcsb.org/structure/1Q8N" target="_blank" style="color:#520049"><b>1Q8N</b></a></td>
       </tr>   
       <tr>
-        <td name="td0" rowspan = "1">Fluorophores</td>
+        <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Biotin-aptamer" target="_blank" style="color:#520049"><b>Biotin aptamer</b></a></td>
         <td name="td2">Biotin</td>
         <td name="td3">Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9772167/" target="_blank" style="color:#520049"><b>1998</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1F27" target="_blank" style="color:#520049"><b>1F27</b></a></td>
-      </tr>    
-      <tr>
-        <td name="td0" rowspan = "1">Fluorophores</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Spinach-RNA-aptamer" target="_blank" style="color:#520049"><b>Aptamer 24-2-min(Spinach)</b></a></td>
-        <td name="td2">DFHBI and Fab</td>
-        <td name="td3">DFHBI (3,5-difluoro-4-hydroxybenzylidene imidazolinone) is a small molecule that resembles the chromophore of green fluorescent protein (GFP) for imaging RNA in living cells.. Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.DFHBI fluorescence is activated by binding to Spinach2 or Broccoli aptamers. Exhibits peak excitation maxima of 447 nm and peak fluorescence emission of 501 nm when bound to Spinach2.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/24952597/" target="_blank" style="color:#520049"><b>2014</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/4KZD" target="_blank" style="color:#520049"><b>4KZD</b></a><br><a href="https://www.rcsb.org/structure/4Q9Q" target="_blank" style="color:#520049"><b>4Q9Q</b></a><br><a href="https://www.rcsb.org/structure/4KZD" target="_blank" style="color:#520049"><b>4KZD</b></a><br><a href="https://www.rcsb.org/structure/4Q9R" target="_blank" style="color:#520049"><b>4Q9R</b></a></td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
@@ -744,6 +728,14 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15745995/" target="_blank" style="color:#520049"><b>2005</b></a></td>
         <td name="td5">NA</td>
       </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/SPC-aptamer" target="_blank" style="color:#520049"><b>SPC-aptamer</b></a></td>
+        <td name="td2">Sphingosylphosphorylcholine (SPC)</td>
+        <td name="td3">Sphingosylphosphorylcholine (SPC) is a lysosphingolipid that exerts multiple functions, including acting as a spasmogen, as a mitogenic factor for various types of cells, and sometimes as an inflammatory mediator.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20729797/" target="_blank" style="color:#520049"><b>2010</b> </a></td>
+        <td name="td5">NA</td>
+      </tr>
 	  </tbody>
   </table>
 </div>        
@@ -765,7 +757,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       </thead>
     <tbody>
       <tr>
-        <td name="td0" rowspan = "1">Other</td>
+        <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/bacteriophage-MS2-coat-protein-aptamer" target="_blank" style="color:#520049"><b>Bacteriophage MS2 coat protein-aptamer</b></a></td>
         <td name="td2">Bacteriophage MS2 coat protein</td>
         <td name="td3">The coat protein of the RNA bacteriophage MS2 binds a specific stem-loop structure in viral RNA to accomplish encapsidation of the genome and translational repression of replicase synthesis.</td>
@@ -781,7 +773,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5"><a href="https://www.rcsb.org/structure/3HSB" target="_blank" style="color:#520049"><b>3HSB</b></a><br><a href="https://www.rcsb.org/structure/3AHU" target="_blank" style="color:#520049"><b>3AHU</b></a></td>
       </tr>    
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer" target="_blank" style="color:#520049"><b>Lys1.2minF aptamer</b></a></td>
         <td name="td2">HEWL(lysozyme)</td>
         <td name="td3">It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.</td>
@@ -789,7 +781,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5"><a href="https://www.rcsb.org/structure/4M6D" target="_blank" style="color:#520049"><b>4M6D</b></a></td>
       </tr>    
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer" target="_blank" style="color:#520049"><b>Lys1.2minE apatmer</b></a></td>
         <td name="td2">HEWL(lysozyme)</td>
         <td name="td3">It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.</td>
@@ -941,7 +933,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5"><a href="https://www.rcsb.org/structure/4R8I" target="_blank" style="color:#520049"><b>4R8I</b></a></td>
       </tr> 
       <tr>
-        <td name="td0" rowspan = "1">Bacteria</td>
+        <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FC-RNA-aptamer" target="_blank" style="color:#520049"><b>FC RNA aptamer</b></a></td>
         <td name="td2">RNA polymerase (Pol) II (S. cerevisiae)</td>
         <td name="td3">RNA polymerase II (RNAP II and Pol II) is a multiprotein complex that transcribes DNA into precursors of messenger RNA (mRNA) and most small nuclear RNA (snRNA) and microRNA. It is one of the three RNAP enzymes found in the nucleus of eukaryotic cells. A 550 kDa complex of 12 subunits, RNAP II is the most studied type of RNA polymerase. A wide range of transcription factors are required for it to bind to upstream gene promoters and begin transcription.</td>
@@ -1149,7 +1141,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Hemagglutinin-(HA)-protein-aptamer" target="_blank" style="color:#520049"><b>Hemagglutinin (HA) protein-aptamer</b></a></td>
         <td name="td2">Hemagglutinin (HA) protein</td>
         <td name="td3">Hemagglutinin (HA) protein is a homotrimeric glycoprotein found on the surface of influenza viruses and is integral to its infectivity.</td>
@@ -1205,7 +1197,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HPAI-H5N1-aptamer" target="_blank" style="color:#520049"><b>HPAI H5N1-aptamer</b></a></td>
         <td name="td2">Hemagglutinin (HA) of H5N1 and H7N7</td>
         <td name="td3">Hemagglutinin (HA) of H5N1 and H7N7 is responsible for both receptor (glycan) binding and membrane fusion during cell entry.</td>
@@ -1242,14 +1234,6 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td2">Zinc-finger antiviral protein</td>
         <td name="td3">The zinc-finger antiviral protein (ZAP) is a host factor that specifically inhibits the replication of certain viruses, including murine leukemia virus, Sindbis virus and Ebola virus, by targeting the viral mRNAs for degradation.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/21203916/" target="_blank" style="color:#520049"><b>2010</b> </a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/SPC-aptamer" target="_blank" style="color:#520049"><b>SPC-aptamer</b></a></td>
-        <td name="td2">Sphingosylphosphorylcholine (SPC)</td>
-        <td name="td3">Sphingosylphosphorylcholine (SPC) is a lysosphingolipid that exerts multiple functions, including acting as a spasmogen, as a mitogenic factor for various types of cells, and sometimes as an inflammatory mediator.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20729797/" target="_blank" style="color:#520049"><b>2010</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
@@ -1381,7 +1365,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/pUC19-aptamer" target="_blank" style="color:#520049"><b>pUC19-aptamer</b></a></td>
         <td name="td2">β-catenin</td>
         <td name="td3">β-Catenin is a multifunctional protein that plays critical roles in cell adhesion and signaling. Although it was first identified as a component of a cell adhesion complex, it is now recognized as a central component of the developmentally important Wnt pathway. The scaffolding proteins adenomatous polyposis coli (APC) and Axin/Axin2 interact with β-catenin, and glycogen synthase kinase-3β (GSK-3β) subsequently phosphorylates β-catenin, leading to its proteasomal degradation.</td>
@@ -1573,7 +1557,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/tFKBP*3R-2G-aptamer" target="_blank" style="color:#520049"><b>tFKBP*3R-2G aptamer</b></a></td>
         <td name="td2">tFKBP*3R-2G</td>
         <td name="td3">The FK506-binding protein designated as FKBP*, engineering retrofit FKBP* got tFKBP*3R-2G.</td>
@@ -1605,7 +1589,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CD133-aptamer" target="_blank" style="color:#520049"><b>CD133 aptamer</b></a></td>
         <td name="td2">CD133 on cell line Hep3B</td>
         <td name="td3">CD<sub>133</sub>, also known as Prominin-1, is a pentaspan, highly glycosylated, membrane glycoprotein that is associated with cholesterol in the plasma membrane.</td>
@@ -1637,7 +1621,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HER2-aptamer" target="_blank" style="color:#520049"><b>HER2 aptamer</b></a></td>
         <td name="td2">HER2-positive breast cancer cells</td>
         <td name="td3">Human epidermal growth factor receptor-2 (HER2/erbB-2) belongs to a family of four transmembrane receptors involved in signal transduction pathways that regulate cell growth and differentiation.</td>
@@ -1677,7 +1661,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Other</td>
+        <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/R5-helix-peptide-aptamer" target="_blank" style="color:#520049"><b>R5 helix peptide-aptamer</b></a></td>
         <td name="td2">R5 helix peptide</td>
         <td name="td3">A simple R5 helix peptide as a model of N peptide from bacteriophade λ.</td>
@@ -1685,7 +1669,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Insect</td>
+        <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/B52-aptamer" target="_blank" style="color:#520049"><b>B52-aptamer</b></a></td>
         <td name="td2">SR Protein B52 (SRp55)</td>
         <td name="td3">Serine/arginine-rich (SR) proteins comprise a family of proteins that is predominantly found in eukaryotes and plays a prominent role in RNA splicing. A characteristic feature of SR proteins is the presence of an S/R-rich low-complexity domain (RS domain).</td>
@@ -1701,7 +1685,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TNBC-aptamer" target="_blank" style="color:#520049"><b>TNBC aptamer</b></a></td>
         <td name="td2">Triple-negative breast cancer (TNBC)</td>
         <td name="td3">Triple-negative breast cancer refers to the breast cancer whose immunohistochemical results show that estrogen receptor (ER), progesterone receptor (PR) and proto-oncogene Her-2 are all negative.</td>
@@ -1795,6 +1779,14 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td3">Basic fibroblast growth factor (bFGF) serves as a pleiotropic modulator for numerous cells of mesenchymal and neuroectodermal lineages. In an in vitro environment, bFGF exhibits stimulatory effects on cell proliferation, migration, as well as the induction of plasminogen activator and collagenase activities.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7504300/" target="_blank" style="color:#520049"><b>1993</b></a></td>
         <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Spinach-RNA-aptamer" target="_blank" style="color:#520049"><b>Aptamer 24-2-min(Spinach)</b></a></td>
+        <td name="td2">DFHBI and Fab</td>
+        <td name="td3">DFHBI (3,5-difluoro-4-hydroxybenzylidene imidazolinone) is a small molecule that resembles the chromophore of green fluorescent protein (GFP) for imaging RNA in living cells.. Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.DFHBI fluorescence is activated by binding to Spinach2 or Broccoli aptamers. Exhibits peak excitation maxima of 447 nm and peak fluorescence emission of 501 nm when bound to Spinach2.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/24952597/" target="_blank" style="color:#520049"><b>2014</b> </a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/4KZD" target="_blank" style="color:#520049"><b>4KZD</b></a><br><a href="https://www.rcsb.org/structure/4Q9Q" target="_blank" style="color:#520049"><b>4Q9Q</b></a><br><a href="https://www.rcsb.org/structure/4KZD" target="_blank" style="color:#520049"><b>4KZD</b></a><br><a href="https://www.rcsb.org/structure/4Q9R" target="_blank" style="color:#520049"><b>4Q9R</b></a></td>
       </tr>
 	  </tbody>
   </table>
