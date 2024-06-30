@@ -109,10 +109,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font><p>5'-AGAUUGUAAACACGCCGAAGGCGGACACU-3'</p></font>
 <img src="/images/2D/Clivia_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>  
+
 
 <p class="blowheader_box">3D visualisation</p>             
-<font><b>The corresponding structures are being held for release.</b></font>
+<font>Kaiyi Huang and Qianqian Song  et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivias-NBSI complex. The PDB ID of these structures are 8HZE<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<b>The corresponding structures are being held for release.</b><br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <!--div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -345,7 +345,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</font>
+<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.<b>The corresponding structures are being held for release.</b></font>
 <br>
 <br>
   <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
