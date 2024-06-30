@@ -270,7 +270,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   end_residue_number:40, 
   color:{r:128,g:219,b:158}
 },{
-  struct_asym_id: 'B', 
+  struct_asym_id: 'C', 
   start_residue_number:1, 
   end_residue_number:1, 
   color:{r:255,g:255,b:0}
@@ -287,7 +287,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance2 = new PDBeMolstarPlugin();
       var options2 = {
         customData:{
-        url:'/pdbfiles/1KOC-3D-ARG.pdb',
+        url:'/pdbfiles/1KOC-arg.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
