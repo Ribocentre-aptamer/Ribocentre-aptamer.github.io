@@ -1646,7 +1646,7 @@ This section lists all the experimentally validated aptamers.<font style="color:
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Other </td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mitochondrion-aptamer" target="_blank" style="color:#520049"><b>Mitochondrion aptamer</b></a></td>
         <td name="td2">Mitochondrion</td>
         <td name="td3">Mitochondrion is a kind of organelle which exists in most eukaryotic cells and is covered by two membranes. It is the structure that produces energy in cells and the main place for cells to carry out aerobic respiration, so it is called "power house". Its diameter is about 0.5 to 1.0 microns.</td>
