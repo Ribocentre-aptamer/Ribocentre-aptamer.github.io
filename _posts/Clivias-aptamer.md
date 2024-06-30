@@ -107,12 +107,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we used Ribodraw to complete the figure, through the 3D structure information. Spinach aptamer was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
 <font><p>5'-AGAUUGUAAACACGCCGAAGGCGGACACU-3'</p></font>
-<img src="/images/2D/Clivia_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/Clivia_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-
+<br>  
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Kaiyi Huang and Qianqian Song  et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivias-NBSI complex. The PDB ID of these structures are 8HZE<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font><b>The corresponding structures are being held for release.</b></font>
 <!--div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
