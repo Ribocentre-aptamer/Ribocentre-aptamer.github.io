@@ -233,7 +233,7 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
 <p class="header_box" >Statistical information </p>
 <iframe src="../plotly_pie.html" class="rounded-iframe" width="100%" height="600" frameborder="0"></iframe>
 
-<p>The aptamer database include structured and structureless aptamers. The table below shows the ligands of structured aptamers. You can click on the ligand you are interested in to view the detailed information of the corresponding aptamer.</p>
+<p>The aptamer database includes structured aptamers and unstructured aptamers. The table below lists the ligands of structured aptamers. The colors of the table correspond to the colors of the pie chart above, representing different types of aptamers. You can click on the ligand of interest to view the detailed information of the corresponding aptamer.</p>
   <table class="table" border="1">
     <tr class="row1">
       <td><a href="https://aptamer.ribocentre.org/_posts/Citrulline-aptamer" target="_blank" onclick="handleCellClick(event)">Citrulline</a></td>
