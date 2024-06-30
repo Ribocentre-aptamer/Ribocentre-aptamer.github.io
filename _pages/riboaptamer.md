@@ -252,7 +252,7 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
   </script>
 
 
-<p>The aptamer database includes structured aptamers and unstructured aptamers. The table below lists the ligands of structured aptamers. The colors of the table correspond to the colors of the pie chart above, representing different types of aptamers. You can click on the ligand of interest to view the detailed information of the corresponding aptamer.</p>
+<p>The aptamer database encompasses both aptamers with known 3D structures and those without. The table provided below enumerates the ligands of the aptamers that have identified 3D structures. The color coding of the table matches the hues of the pie chart displayed above, which symbolizes the various categories of aptamers. By clicking on a ligand of interest, you can access detailed information pertaining to the respective aptamer.</p>
   <table class="table" border="1">
     <tr class="row1">
       <td><a href="https://aptamer.ribocentre.org/_posts/Citrulline-aptamer" target="_blank" onclick="handleCellClick(event)"><b>Citrulline</b></a></td>
@@ -352,7 +352,7 @@ This section lists all the experimentally validated aptamers.
         
 <div id="sheet1" class="sheet">
     <h2>Small molecules</h2>
-    <p style="color:salmon;"> You can download the tables by clicking the five buttons above the tables.</p>
+    <p style="color:#FF4136;">You can download the forms by clicking on the five buttons below.</p>
     <table id="cfttable" class="table-style1">
       <thead>
       <tr>
@@ -765,6 +765,7 @@ This section lists all the experimentally validated aptamers.
 
 <div id="sheet5" class="sheet">
     <h2>Proteins</h2>
+    <p style="color:#FF4136;">You can download the forms by clicking on the five buttons below.</p>
     <table id="eletable" class="table-style1">
       <thead>
       <tr>
@@ -1817,6 +1818,7 @@ This section lists all the experimentally validated aptamers.
 
 <div id="sheet6" class="sheet" class="table-style1">
     <h2>Nucleic acid</h2>
+    <p style="color:#FF4136;">You can download the forms by clicking on the five buttons below.</p>
     <table id="amintable">
      <thead>
       <tr>
