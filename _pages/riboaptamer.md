@@ -20,7 +20,6 @@ permalink: /Ribocentre-aptamer/
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
     <script type="text/javascript"  src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
-  <!--set sort order in table header finish-->
   <style>
     .header_box {
     display: block;
@@ -140,8 +139,86 @@ permalink: /Ribocentre-aptamer/
     .button.clicked {
     background-color: #999;
 }
-
-  </style>
+    .table {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    table-layout: fixed; /* 使用固定布局 */
+  }
+  .table td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    word-wrap: break-word; /* 单词换行 */
+    white-space: normal; /* 换行处理 */
+  }
+  /* 每个单元格的背景颜色 */
+  .row1 td:nth-child(1) { background-color: #6ed9cd; }
+  .row1 td:nth-child(2) { background-color: #6ed9cd; }
+  .row1 td:nth-child(3) { background-color: #f3720f; }
+  .row1 td:nth-child(4) { background-color: #f3720f; }
+  .row1 td:nth-child(5) { background-color: #f3720f; }
+  .row1 td:nth-child(6) { background-color: #f3720f; }
+  .row1 td:nth-child(7) { background-color: #f0a570; }
+  .row1 td:nth-child(8) { background-color: #f0a570; }
+  .row1 td:nth-child(9) { background-color: #f0a570; }
+  /* 在:hover伪类下，将transform属性添加到td元素上 */
+  .table td:hover {
+    transform: scale(1.05); /* 缩放到105% */
+    cursor: pointer;
+  }
+  /* 覆盖链接样式，确保链接文字颜色为白色 */
+.table a {
+  color: white !important;
+  text-decoration: none !important; /* 去除链接下划线 */
+}
+/* 鼠标悬停链接时，保持白色 */
+.table a:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+  /* 其他行的背景颜色 */
+  .row2 td:nth-child(1) { background-color: #f0a570; }
+  .row2 td:nth-child(2) { background-color: #f0a570; }
+  .row2 td:nth-child(3) { background-color: #f0a570; }
+  .row2 td:nth-child(4) { background-color: #f0a570; }
+  .row2 td:nth-child(5) { background-color: #f0a570; }
+  .row2 td:nth-child(6) { background-color: #f0a570; }
+  .row2 td:nth-child(7) { background-color: #f0a570; }
+  .row2 td:nth-child(8) { background-color: #f0a570; }
+  .row2 td:nth-child(9) { background-color: #f0a570; }
+  .row3 td:nth-child(1) { background-color: #e97e8d; }
+  .row3 td:nth-child(2) { background-color: #e97e8d; }
+  .row3 td:nth-child(3) { background-color: #233f90; }
+  .row3 td:nth-child(4) { background-color: #233f90; }
+  .row3 td:nth-child(5) { background-color: #233f90; }
+  .row3 td:nth-child(6) { background-color: #233f90; }
+  .row3 td:nth-child(7) { background-color: #233f90; }
+  .row3 td:nth-child(8) { background-color: #dc344b; }
+  .row3 td:nth-child(9) { background-color: #dc344b; }
+  .row4 td:nth-child(1) { background-color: #dc344b; }
+  .row4 td:nth-child(2) { background-color: #dc344b; }
+  .row4 td:nth-child(3) { background-color: #dc344b; }
+  .row4 td:nth-child(4) { background-color: #dc344b; }
+  .row4 td:nth-child(5) { background-color: #dc344b; }
+  .row4 td:nth-child(6) { background-color: #dc344b; }
+  .row4 td:nth-child(7) { background-color: #dc344b; }
+  .row4 td:nth-child(8) { background-color: #dc344b; }
+  .row4 td:nth-child(9) { background-color: #385dbf; }
+  .row5 td:nth-child(1) { background-color: #385dbf; }
+  .row5 td:nth-child(2) { background-color: #385dbf; }
+  .row5 td:nth-child(3) { background-color: #385dbf; }
+  .row5 td:nth-child(4) { background-color: #9dd17c; }
+  .row5 td:nth-child(5) { background-color: #9dd17c; }
+  .row5 td:nth-child(6) { background-color: #9dd17c; }
+  .row5 td:nth-child(7) { background-color: #9dd17c; }
+  .row5 td:nth-child(8) { background-color: #5c198f; }
+  .row5 td:nth-child(9) { background-color: #1a6159; }
+</style>
 </head>
 
 
@@ -156,8 +233,65 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
 <p class="header_box" >Statistical information </p>
 <iframe src="../plotly_pie.html" class="rounded-iframe" width="100%" height="600" frameborder="0"></iframe>
 
-
-
+<p>The aptamer database include structured and structureless aptamers. The table below shows the ligands of structured aptamers. You can click on the ligand you are interested in to view the detailed information of the corresponding aptamer.</p>
+  <table class="table" border="1">
+    <tr class="row1">
+      <td><a href="https://aptamer.ribocentre.org/_posts/Citrulline-aptamer" target="_blank" onclick="handleCellClick(event)">Citrulline</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Arginine-aptamer" target="_blank" onclick="handleCellClick(event)">Arginine</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/FMN-aptamer" target="_blank" onclick="handleCellClick(event)">FMN</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Vitamin-B12-aptamer" target="_blank" onclick="handleCellClick(event)">VITAMIN B12</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/5HTP-aptamer" target="_blank" onclick="handleCellClick(event)">5HTP</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Riboflavin-aptamer" target="_blank" onclick="handleCellClick(event)">Riboflavin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Pepper-aptamer" target="_blank" onclick="handleCellClick(event)">Pepper</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Corn-aptamer" target="_blank" onclick="handleCellClick(event)">Corn</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/DIR2s-apt-aptamer" target="_blank" onclick="handleCellClick(event)">DIR2s</a></td>
+    </tr>
+    <tr class="row2">
+    <td><a href="https://aptamer.ribocentre.org/_posts/Chili-aptamer" target="_blank" onclick="handleCellClick(event)">Chili</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/TMR-aptamer" target="_blank" onclick="handleCellClick(event)">TMR</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Mango-aptamer(TO1-biotin)" target="_blank" onclick="handleCellClick(event)">Mango</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Mango-III-aptamer(YO3)" target="_blank" onclick="handleCellClick(event)">Mango III</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Spinach-aptamer" target="_blank" onclick="handleCellClick(event)">Spinach</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Biotin-aptamer" target="_blank" onclick="handleCellClick(event)">Biotin</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/MG-aptamer" target="_blank" onclick="handleCellClick(event)">MG</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Clivias-aptamer" target="_blank" onclick="handleCellClick(event)">Clivias</a></td>
+    <td><a target="_blank" onclick="handleCellClick(event)">Beetroot</a></td>
+    </tr>
+    <tr class="row3">
+    <td><a href="https://aptamer.ribocentre.org/_posts/ATP-aptamer" target="_blank" onclick="handleCellClick(event)">ATP</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/GTP-aptamer" target="_blank" onclick="handleCellClick(event)">GTP</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Tetracycline-aptamer" target="_blank" onclick="handleCellClick(event)">Tetracycline</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/NeomycinB-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">Neomycin B</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Streptomycin-RNA-Aptamer" target="_blank" onclick="handleCellClick(event)">Streptomycin</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Theophylline-aptamer" target="_blank" onclick="handleCellClick(event)">Theophylline</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Tobramycin-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">Tobramycin</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Lysozyme-aptamer" target="_blank" onclick="handleCellClick(event)">lysozyme</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/GlnRs-aptamer" target="_blank" onclick="handleCellClick(event)">GlnRs</a></td>
+    </tr>
+    <tr class="row4">
+    <td><a href="https://aptamer.ribocentre.org/_posts/eIF4A-aptamer" target="_blank" onclick="handleCellClick(event)">eIF4A</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/GRK2-aptamer" target="_blank" onclick="handleCellClick(event)">GRK2</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/IgG-aptamer" target="_blank" onclick="handleCellClick(event)">Human IgG</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/NF-kappaB-aptamer" target="_blank" onclick="handleCellClick(event)">NF-kappaB</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Thrombin-aptamer" target="_blank" onclick="handleCellClick(event)">Thrombin</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/AML1(RUNX1)-aptamer" target="_blank" onclick="handleCellClick(event)">AML1</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/A9g-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">GCPII</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Factor-Xa-aptamer" target="_blank" onclick="handleCellClick(event)">Factor Xa</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Hfq-aptamer" target="_blank" onclick="handleCellClick(event)">Hfq</a></td>
+    </tr>
+    <tr class="row5">
+    <td><a href="https://aptamer.ribocentre.org/_posts/Ribosomal-protein-S8-aptamer" target="_blank" onclick="handleCellClick(event)">ribosomal protein S8</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/TetR-aptamer" target="_blank" onclick="handleCellClick(event)">TetR</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">RNA polymerase (Pol) II</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/HIV-1-REV-peptide-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 REV peptide</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Tat-aptamer" target="_blank" onclick="handleCellClick(event)">Tat peptides</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/REX16-aptamer" target="_blank" onclick="handleCellClick(event)">HTLV-1 arginine-rich Rex peptide</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/LR06-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 TAR RNA</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/bacteriophage-MS2-coat-protein-aptamer" target="_blank" onclick="handleCellClick(event)">Bacteriophage MS2 coat protein</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Bovine-prion-protein(bPrP)-aptamer" target="_blank" onclick="handleCellClick(event)">Bovine prion</a></td>
+    </tr>
+  </table>
+  
 
 
 <!--img src="/images/aptamers/Aptamers_classification.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive"-->
@@ -168,8 +302,8 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
 
 <!--p>For more detailed information about each Aptamer, please browse the table below.</p-->
 <br>
-
-
+<br>
+<br>
 
 <p class="header_box" >Detail information</p>    
 This section lists all the experimentally validated aptamers. <a style="color:salmon">You can download the tables by clicking the five buttons above the tables</a>.
@@ -323,7 +457,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5"><a href="https://www.rcsb.org/structure/7RWR" target="_blank" style="color:#520049"><b>7RWR</b></a></td>
       </tr> 
       <tr>
-        <td name="td0" rowspan = "1">Amino Acids & Peptides</td>
+        <td name="td0" rowspan = "1">Amino Acids &amp; Peptides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Citrulline-aptamer" target="_blank" style="color:#520049"><b>Citrulline aptamer</b></a></td>
         <td name="td2">Citrulline</td>
         <td name="td3">Citrulline is a metabolic intermediate within the urea cycle, which is the pathway by which mammals excrete ammonia by converting it into urea. Citrulline is also produced as a byproduct of the enzymatic production of nitric oxide from the amino acid arginine, catalyzed by nitric oxide synthase. In the yeast species Saccharomyces cerevisiae, citrulline is a metabolic intermediate in the latter, cytosolic half of the arginine biosynthesis pathway.</td>
@@ -331,7 +465,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
         <td name="td5"><a href="https://www.rcsb.org/structure/1KOD" target="_blank" style="color:#520049"><b>1KOD</b></a></td>
       </tr>  
       <tr>
-        <td name="td0" rowspan = "1">Amino Acids & Peptides</td>
+        <td name="td0" rowspan = "1">Amino Acids &amp; Peptides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Arginine-aptamer" target="_blank" style="color:#520049"><b>Arginine aptamer</b></a></td>
         <td name="td2">Arginine</td>
         <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H. The molecule features a guanidino group appended to a standard amino acid framework. At physiological pH, the carboxylic acid is deprotonated (−CO2−) and both the amino and guanidino groups are protonated, resulting in a cation. Only the l-arginine (symbol Arg or R) enantiomer is found naturally. Arg residues are common components of proteins. It is encoded by the codons CGU, CGC, CGA, CGG, AGA, and AGG. The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide. Like all amino acids, it is a white, water-soluble solid.-----from wikipedia</td>
@@ -1121,7 +1255,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Prion</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Prion-protein1-aptamer" target="_blank" style="color:#520049"><b>Prion protein 1 aptamer</b></a></td>
-        <td name="td2">Prion protein (PrP-c)</td>
+        <td name="td2">Hamster  prion protein</td>
         <td name="td3">The RNA aptamers may fold into G-quartet-containing structural elements and replacement of the G residues in the G quartet scaffold with uridine residues destroyed binding to PrP completely.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9343239/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
         <td name="td5">NA</td>
@@ -1145,7 +1279,7 @@ This section lists all the experimentally validated aptamers. <a style="color:sa
       <tr>
         <td name="td0" rowspan = "1">Prion</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Prion-protein2-aptamer" target="_blank" style="color:#520049"><b>Prion protein 2 aptamer</b></a></td>
-        <td name="td2">Prion protein (PrP-c)</td>
+        <td name="td2">Sheep prion protein</td>
         <td name="td3">PrP binds nucleic acids with high affinity, causing the formation of nucleoprotein complexes in which PrP has become partially resistant to proteinase K.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16799875/" target="_blank" style="color:#520049"><b>2006</b> </a></td>
         <td name="td5">NA</td>
