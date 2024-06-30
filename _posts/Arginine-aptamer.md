@@ -208,22 +208,22 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
           .msp-plugin .msp-layout-standard {
               border: 1px solid #efefef;
           }
-          .viewerSection2 {
+          .viewerSection1 {
             padding-top: 0px;
           }
-          .controlsSection2 {
+          .controlsSection1 {
             width: 300px;
               display: flex;
               float:left;
               padding: 0px 0 0 0;
               height:25px;
             }
-            .controlBox2 {
+            .controlBox1 {
               border: 0px solid lightgray;
               padding: 0px;
               margin-bottom: 0px;
             }
-          #myViewer2{
+          #myViewer1{
             float:left;
             width:500px;
             height: 500px;
@@ -232,9 +232,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         </style>
     </head>
     <body onload="customize()">
-        <div class="controlsSection2">
+        <div class="controlsSection1">
             <button onclick="
-              var selectSections2 = [
+              var selectSections1 = [
                 {
   struct_asym_id: 'A', 
   start_residue_number:5, 
@@ -276,16 +276,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   color:{r:255,g:255,b:0}
 }
               ]
-            viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
+            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
-    <div class="viewerSection2">
+    <div class="viewerSection1">
     <!-- Molstar container -->
-      <div id="myViewer2"></div>
+      <div id="myViewer1"></div>
     </div>
     <script>
-      var viewerInstance2 = new PDBeMolstarPlugin();
-      var options2 = {
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
         customData:{
         url:'/pdbfiles/1KOC-arg.pdb',
         format: 'pdb'},
@@ -293,11 +293,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         hideControls: true,
         bgColor: {r:255, g:255, b:255},
         }
-      var viewerContainer2 = document.getElementById('myViewer2');
-      viewerInstance2.render(viewerContainer2, options2);
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
   window.addEventListener('load', function() {
-    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
-    colorSelectionButton2.click();
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
   });
 </script>
 </body>
