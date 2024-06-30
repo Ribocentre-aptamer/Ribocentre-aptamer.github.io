@@ -274,7 +274,7 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
     <td><a href="https://aptamer.ribocentre.org/_posts/Biotin-aptamer" target="_blank" onclick="handleCellClick(event)">Biotin</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/MG-aptamer" target="_blank" onclick="handleCellClick(event)">MG</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Clivias-aptamer" target="_blank" onclick="handleCellClick(event)">Clivias</a></td>
-    <td><a target="_blank" onclick="handleCellClick(event)">Beetroot</a></td>
+    <td><a href="{{ site.url }}{{ site.baseurl }}/_posts/Beetroot-aptamer" target="_blank" onclick="handleCellClick(event)">Beetroot</a></td>
     </tr>
     <tr class="row3">
     <td><a href="https://aptamer.ribocentre.org/_posts/ATP-aptamer" target="_blank" onclick="handleCellClick(event)">ATP</a></td>
