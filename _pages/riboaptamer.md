@@ -352,7 +352,7 @@ This section lists all the experimentally validated aptamers.
         
 <div id="sheet1" class="sheet">
     <h2>Small molecules</h2>
-    <p style="color:#FF4136;">You can download the forms by clicking on the five buttons below.</p>
+    <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
     <table id="cfttable" class="table-style1">
       <thead>
       <tr>
@@ -765,7 +765,7 @@ This section lists all the experimentally validated aptamers.
 
 <div id="sheet5" class="sheet">
     <h2>Proteins</h2>
-    <p style="color:#FF4136;">You can download the forms by clicking on the five buttons below.</p>
+    <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
     <table id="eletable" class="table-style1">
       <thead>
       <tr>
@@ -955,7 +955,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/4R8I" target="_blank" style="color:#520049"><b>4R8I</b></a></td>
       </tr> 
       <tr>
-        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FC-RNA-aptamer" target="_blank" style="color:#520049"><b>FC RNA aptamer</b></a></td>
         <td name="td2">RNA polymerase (Pol) II (S. cerevisiae)</td>
         <td name="td3">RNA polymerase II (RNAP II and Pol II) is a multiprotein complex that transcribes DNA into precursors of messenger RNA (mRNA) and most small nuclear RNA (snRNA) and microRNA. It is one of the three RNAP enzymes found in the nucleus of eukaryotic cells. A 550 kDa complex of 12 subunits, RNAP II is the most studied type of RNA polymerase. A wide range of transcription factors are required for it to bind to upstream gene promoters and begin transcription.</td>
@@ -1818,7 +1818,7 @@ This section lists all the experimentally validated aptamers.
 
 <div id="sheet6" class="sheet" class="table-style1">
     <h2>Nucleic acid</h2>
-    <p style="color:#FF4136;">You can download the forms by clicking on the five buttons below.</p>
+    <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
     <table id="amintable">
      <thead>
       <tr>
