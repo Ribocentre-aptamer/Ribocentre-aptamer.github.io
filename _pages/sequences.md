@@ -22,7 +22,7 @@ permalink: /sequences/
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
     <script type="text/javascript"  src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
     <script type="text/javascript" src="https://rnacentral.github.io/rnacentral-sequence-search-embed/dist/RNAcentral-sequence-search.js"></script>
-  <!--set sort order in table header finish-->
+  
   <style>
    .header_box {
     display: block;
@@ -150,7 +150,6 @@ permalink: /sequences/
 Shows the sequence of RNA aptamers. We keep the U in the partial sequence because it is consistent with the sequence information in the fasta file. ( We provide the script could change T into U on the page). <a href="https://www.ribocentre.org/downloads/sequence-T2U.ipynb" target="_blank" download="sequence-T2U.ipynb"><button class="btn btn-secondary"><span class="glyphicon glyphicon-download-alt"></span>&nbsp;&nbsp;Download Script</button></a><br><br>
 
 <!--div class="sectiontitle" style="border: 1px solid #C9C9C9; background-color: #fff;">
-
 <head>
     <title>Sequence search</title>
   </head>
@@ -167,8 +166,12 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 <br>
 <br>
 <br-->
-
-
+<br>
+<br>
+<p class="header_box" >Detailed information</p>    
+This section displays
+<br>
+<br>
 <!--p class="header_box" >Detailed information</p-->    
 <div class="form-container">
   <!-- 搜索框 -->
@@ -190,7 +193,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
       </thead>
     <tbody>
       <tr>
-  <td name="td0">CB-42 aptamer</td>
+  <td name="td0">CB3GA_Szostak_1</td>
   <td name="td1">Cibacron Blue 3GA</td>
   <td name="td2">5'GGGAGAAUUCCCGCGGCAGAAGCCCACCUGGCUUUGAACUCUAUGUUAUUGGGUGGGGGAAACUUAAGAAAACUACCACCCUUCAACAUUACCGCCCUUCAGCCUGCCAGCGCCCUGCAGCCCGGGAAGCUU3'</td>
   <td name="td3">132</td>
@@ -200,7 +203,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">B4-25 aptamer</td>
+  <td name="td0">RB4_Szostak_1</td>
   <td name="td1">Reactive Blue 4</td>
   <td name="td2">5'GGGAGAAUUCCCGCGGCGUUGGCCCAGGAUAAUAGGACGAAAUCCGAAAAAUCCGUACCCAACAUAGAACCCCCCCAGCGCUCACACGGACGCCCCAUUACGGCUAACCGAACGCCUGCAGCCCGGGAAGCUU3'</td>
   <td name="td3">133</td>
@@ -210,7 +213,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">wild type aptamer</td>
+  <td name="td0">T4 DNA pol_Gold_1</td>
   <td name="td1">T4 DNA polymerase (gp43)</td>
   <td name="td2">5'GAAUUGUGGUGUUGGCUCCCUAUAGUGAGUCGUAUUAAUAUUCCUUAGUUUUAUAGCCCAAUAACUCAGGCUCUUGAUUGGUUUUCAAUAGAGAUAUAAAAUUCUUUUCAUAG3'</td>
   <td name="td3">113</td>
@@ -220,7 +223,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">major variant aptamer</td>
+  <td name="td0">T4 DNA pol_Gold_2</td>
   <td name="td1">T4 DNA polymerase (gp43)</td>
   <td name="td2">5'GAAUUGUGGUGUUGGCUCCCUAUAGUGAGUCGUAUUAAUAUUCCUUAGUUUUAUAGCCCAGCAACCUAGGCUCUUGAUUGGUUUUCAAUAGAGAUAUAAAAUUCUUUUCAUAG3'</td>
   <td name="td3">113</td>
@@ -230,7 +233,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">ligand 1.1 aptamer</td>
+  <td name="td0">HIV-1-RT_Gold_1</td>
   <td name="td1">Human imunnodeficiency virus type 1 reverse transcriptase (HIV-1-RT)</td>
   <td name="td2">5'GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUUCCGUUUUCAGUCGGGAAAAACUGAACAAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC3'</td>
   <td name="td3">96</td>
@@ -240,7 +243,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">ligand 1.3a aptamer</td>
+  <td name="td0">HIV-1-RT_Gold_2</td>
   <td name="td1">Human imunnodeficiency virus type 1 reverse transcriptase (HIV-1-RT)</td>
   <td name="td2">5'GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUAUCUUCCGAAGCCGAACGGGAAAACCGGCAUCUAUGAAAGAAUUUUAUCUCUAUUGAAAC3'</td>
   <td name="td3">95</td>
@@ -250,7 +253,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">5A aptamer</td>
+  <td name="td0">bFGF_Janjić_1</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAAUCUCCUCCCGUCGAAGCUAACCUGGCCACUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -260,7 +263,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">7A aptamer</td>
+  <td name="td0">bFGF_Janjić_2</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -270,7 +273,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">13A aptamer</td>
+  <td name="td0">bFGF_Janjić_3</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAACCCGCGGCCUCCGAAGCUAACCAGGACACUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -280,7 +283,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">14A aptamer</td>
+  <td name="td0">bFGF_Janjić_4</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAUGGGUGCUAACCAGGACACACCCACGCUGUUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -290,7 +293,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">21A aptamer</td>
+  <td name="td0">bFGF_Janjić_5</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAUGGGUGCUUAACCAGGCCACACCCUGCUGUUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -300,7 +303,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">12A aptamer</td>
+  <td name="td0">bFGF_Janjić_6</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGAUGCCUGUCGAGCAUGCUGGGGGCAACGCUACAGACAAGUGCACCCAACGUAGCUAAACAGCUUUGUCGACGGG3'</td>
   <td name="td3">79</td>
@@ -310,7 +313,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">26At aptamer</td>
+  <td name="td0">bFGF_Janjić_7</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGUGAAGGCAACGUAUAGGCAAGCACACUUCACC3'</td>
   <td name="td3">34</td>
@@ -320,7 +323,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">26A aptamer</td>
+  <td name="td0">bFGF_Janjić_8</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGAUGCCUGUCGAGCAUGCUGCGUCAGAAGGCAACGUAUAGGCAAGCACACGUAGCUAAACAGCUUUGUCGACGGG3'</td>
   <td name="td3">79</td>
@@ -330,7 +333,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">22B aptamer</td>
+  <td name="td0">bFGF_Janjić_9</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGAUGCCUGUCGAGCAUGCUGAGGGUAACGUACUGGCAAGCUCACCUCAGCGUAGCUAAACAGCUUUGUCGACGGG3'</td>
   <td name="td3">79</td>
@@ -340,7 +343,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">28B aptamer</td>
+  <td name="td0">bFGF_Janjić_10</td>
   <td name="td1">Basic fibroblast growth factor (bFGF)</td>
   <td name="td2">5'GGGAGAUGCCUGUCGAGCAUGCUGAGGGUAACGUAUAGUCAAGACACCUCAAGUGUAGCUAAACAGCUUUGUCGACGGG3'</td>
   <td name="td3">79</td>
@@ -350,7 +353,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">9 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_1</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'GCUCUUGGGCGCAGCCUCAAUGAGGCUGGUGGUGCAAG3'</td>
   <td name="td3">38</td>
@@ -360,7 +363,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">18 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_2</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'GCUCUUGGGCGCAGCCUCAAUGAGGCUGGAGGUACAAG3'</td>
   <td name="td3">38</td>
@@ -370,7 +373,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">19 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_3</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'GCUCUUGGGCACAGCCUCAAUGAGGCUGGUGGUACAAG3'</td>
   <td name="td3">38</td>
@@ -380,7 +383,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">6 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_4</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'GCUCUUGGACACAGCCUCAAUGAGGCUGCAGAUACAAG3'</td>
   <td name="td3">38</td>
@@ -390,7 +393,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">116 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_5</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'GCUCUUGGACACAGCUGCUGCAGAUACAAG3'</td>
   <td name="td3">30</td>
@@ -400,7 +403,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">126 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_6</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'GCUCUUGGACACAGCCUCAAUGAGGCUGCAGAAACAAG3'</td>
   <td name="td3">38</td>
@@ -410,7 +413,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">15 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_7</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'GCUCUUGGCCGCAGCCUCAAUGAGGCUGAUGAUACAAG3'</td>
   <td name="td3">38</td>
@@ -420,7 +423,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">1 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_8</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUACUCCGUACGCAAGUACGGUCGAGAAACAG3'</td>
   <td name="td3">37</td>
@@ -430,7 +433,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">2 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_9</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUUUAGGACUCGUACGCAAGUACUGAGAUACUACAG3'</td>
   <td name="td3">41</td>
@@ -440,7 +443,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">13 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_10</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUCCUGGCUCGUACGCAAGUACUAGAGACACAG3'</td>
   <td name="td3">38</td>
@@ -450,7 +453,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">14 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_11</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGACUCGUACGCAAGUACUGGAGAAACAG3'</td>
   <td name="td3">34</td>
@@ -460,7 +463,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">23 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_12</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUGGACUCGUACGCAAGUACUUGAGAUACACG3'</td>
   <td name="td3">37</td>
@@ -470,7 +473,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">50 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_13</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGUCUCGUACGCAAGUACUGAGAAACGACAG3'</td>
   <td name="td3">36</td>
@@ -480,7 +483,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">63 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_14</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGACUCCGUAUGCAAGUACGUUGAGCAACAG3'</td>
   <td name="td3">36</td>
@@ -490,7 +493,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">74 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_15</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUAGACUCGUACGCAAGUACUCGAGAUAUACAG3'</td>
   <td name="td3">38</td>
@@ -500,7 +503,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">75 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_16</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUUGGACUCCGUACGCAAGUACGUCGAGAUACAG3'</td>
   <td name="td3">39</td>
@@ -510,7 +513,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">83 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_17</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUGGACUCGUACGCAAGUACUGAGAAACACCG3'</td>
   <td name="td3">37</td>
@@ -520,7 +523,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">88 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_18</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUGACUCUUUGUACGCAAGUACAGAGUGAUACAG3'</td>
   <td name="td3">39</td>
@@ -530,7 +533,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">15 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_19</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGACGCGUACGCAAGUACUGUGAUACAG3'</td>
   <td name="td3">33</td>
@@ -540,7 +543,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">17 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_20</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGACGCGCUGGUACGCAAGUACGGCUGUGAUACAG3'</td>
   <td name="td3">40</td>
@@ -550,7 +553,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">4 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_21</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUAGGUUGAGGUACGCAGACGGCUCUCUACAG3'</td>
   <td name="td3">37</td>
@@ -560,7 +563,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">20 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_22</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUACUCUCGUACGCAAGUACGAUCGAGACACAG3'</td>
   <td name="td3">38</td>
@@ -570,7 +573,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">51 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_23</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUGAGCUCGUACGCAAGUACUCGAGGUACAG3'</td>
   <td name="td3">36</td>
@@ -580,7 +583,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">53 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_24</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUUUGGAGGUACGCAAGUACGCGCUCACAG3'</td>
   <td name="td3">35</td>
@@ -590,7 +593,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">58 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_25</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUACUCCUGUACGCAAGUACGGUUGAGACACAG3'</td>
   <td name="td3">38</td>
@@ -600,7 +603,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">72 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_26</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUAUGAGAGUAGCAAGUACCGGACUCUACAG3'</td>
   <td name="td3">36</td>
@@ -610,7 +613,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">73 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_27</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUGCUCGUGUACGCAAGUACGCUUGAGGAACAG3'</td>
   <td name="td3">38</td>
@@ -620,7 +623,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">86 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_28</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUGUAGAGGUACGCAAGUACGCGCUCCACAG3'</td>
   <td name="td3">36</td>
@@ -630,7 +633,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">87 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_29</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUUUUUGAGGUACGCAAGUACGCGGCUCGACAG3'</td>
   <td name="td3">38</td>
@@ -640,7 +643,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">92 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_30</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGUGUAGAGGUACGCAAGUAAGCGGCUCCACAG3'</td>
   <td name="td3">37</td>
@@ -650,7 +653,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">22 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_31</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGUACGUUGUACGCAAGUACACGGGUUACAG3'</td>
   <td name="td3">36</td>
@@ -660,7 +663,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">59 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_32</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGCUUCGUACGCAAGUAUGAUGAUACAG3'</td>
   <td name="td3">33</td>
@@ -670,7 +673,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">61 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_33</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGACAUCGUACGCAAGUACCUUGAAACAG3'</td>
   <td name="td3">34</td>
@@ -680,7 +683,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">76 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_34</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGACUUCGGUACGCAAUUACCGACUGACACAG3'</td>
   <td name="td3">37</td>
@@ -690,7 +693,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">79 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_35</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCUGGACAUUUGUACGCAAGUACGUUUGAUACAG3'</td>
   <td name="td3">36</td>
@@ -700,7 +703,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">18 aptamer</td>
+  <td name="td0">Rev-binding element_Ellington_36</td>
   <td name="td1">Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE))</td>
   <td name="td2">5'AUUCGGUAGCAUCUUGUACGCAAGUACGAGAGAGCAACAG3'</td>
   <td name="td3">40</td>
@@ -710,7 +713,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">16 aptamer</td>
+  <td name="td0">Thrombin_Tasset_1</td>
   <td name="td1">α-Thrombin, Human</td>
   <td name="td2">5'GGGAGAUGCCUGUCGAGCAUGCUGCAUCCGGAUCGAAGUUAGUAGGCGGAGUGGUAGCUAAACAGCUUUGUCGACGGG3'</td>
   <td name="td3">78</td>
@@ -720,7 +723,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">27 aptamer</td>
+  <td name="td0">Thrombin_Tasset_2</td>
   <td name="td1">α-Thrombin, Human</td>
   <td name="td2">5'GGGAGAUGCCUGUCGAGCAUGCUGGUGCGGCUUUGGGCGCCGUGCUUGACGUAGCUAAACAGCUUUGUCGACGGG3'</td>
   <td name="td3">75</td>
@@ -730,7 +733,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">16.24 aptamer</td>
+  <td name="td0">Thrombin_Tasset_3</td>
   <td name="td1">α-Thrombin, Human</td>
   <td name="td2">5'UCCGGAUCGAAGUUAGUAGGCGGA3'</td>
   <td name="td3">24</td>
@@ -740,7 +743,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">27.33 aptamer</td>
+  <td name="td0">Thrombin_Tasset_4</td>
   <td name="td1">α-Thrombin, Human</td>
   <td name="td2">5'GAGCAUGCUGGUGCGGCUUUGGGCGCCGUGCUU3'</td>
   <td name="td3">33</td>
@@ -750,7 +753,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">DOPE. 40 aptamer</td>
+  <td name="td0">VB12_Szostak_1</td>
   <td name="td1">Cyanocobalamin (vitamin B12)</td>
   <td name="td2">5'GUCGGCCUAUCCGACAGGCACCGCGAGAGGACCAUUAUAGUGCGCAUAACCACUUCAGUGCGAGCAAAAAUUUGG3'</td>
   <td name="td3">75</td>
@@ -760,7 +763,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">DOPE. 40 aptamer</td>
+  <td name="td0">Co(III)(CN)6_Szostak_1</td>
   <td name="td1">Cobinamide dicyanide</td>
   <td name="td2">5'GUCGGCCUAUCCGACAGGCACCGCGAGAGGACCAUUAUAGUGCGCAUAACCACUUCAGUGCGAGCAAAAAUUUGG3'</td>
   <td name="td3">75</td>
@@ -770,7 +773,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">B12.9 aptamer</td>
+  <td name="td0">Co(III)(CN)6_Szostak_2</td>
   <td name="td1">Cobinamide dicyanide</td>
   <td name="td2">5'AACACUAUCCGACUGGCACCGCCAGCGGACAAAUCCGGUGCGCAUAACCACCUCAGUGCGAGCAACGAUGGCCUUUCUACCCAAAGAUUUUCCUUGGUCAUUAGGAUCC3'</td>
   <td name="td3">109</td>
@@ -780,7 +783,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">B12.9 aptamer</td>
+  <td name="td0">VB12_Szostak_2</td>
   <td name="td1">Cyanocobalamin (vitamin B12)</td>
   <td name="td2">5'AACACUAUCCGACUGGCACCGCCAGCGGACAAAUCCGGUGCGCAUAACCACCUCAGUGCGAGCAACGAUGGCCUUUCUACCCAAAGAUUUUCCUUGGUCAUUAGGAUCC3'</td>
   <td name="td3">109</td>
@@ -790,7 +793,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">35-mer aptamer aptamer</td>
+  <td name="td0">VB12_Szostak_3</td>
   <td name="td1">Cyanocobalamin (vitamin B12)</td>
   <td name="td2">5'GGAACCGGUGCGCAUAACCACCUCAGUGCGAGCAA3'</td>
   <td name="td3">35</td>
@@ -800,7 +803,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">35-mer aptamer aptamer</td>
+  <td name="td0">Co(III)(CN)6_Szostak_3</td>
   <td name="td1">Cobinamide dicyanide</td>
   <td name="td2">5'GGAACCGGUGCGCAUAACCACCUCAGUGCGAGCAA3'</td>
   <td name="td3">35</td>
@@ -810,7 +813,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">mTCT8-4 aptamer</td>
+  <td name="td0">Theophylline_Polisky_1</td>
   <td name="td1">Bronchodilator theophylline</td>
   <td name="td2">5'AGUGAUACCAGCAUCGUCUUGAUGCCCUUGGCAGCACU3'</td>
   <td name="td3">38</td>
@@ -820,7 +823,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">TCT8-4 aptamer</td>
+  <td name="td0">Theophylline_Polisky_2</td>
   <td name="td1">Bronchodilator theophylline</td>
   <td name="td2">5'AAGUGAUACCAGCAUCGUCUUGAUGCCCUUGGCAGCACUUCA3'</td>
   <td name="td3">42</td>
@@ -830,7 +833,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">44.Cit11 aptamer</td>
+  <td name="td0">Citrulline_Tocchini-Valentini_1</td>
   <td name="td1">L-citrulline [L-(+)-2-amino-5-ureidovaleric acid]</td>
   <td name="td2">5'GACGAGAAGGAGUGCUGGUUAUACUAGCGGUUAGGUCACUCGUC3'
    </td>
@@ -841,7 +844,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">44.Arg11 aptamer</td>
+  <td name="td0">Arginine_Tocchini-Valentini_1</td>
   <td name="td1">L-arginine</td>
   <td name="td2">5'GACGAGAAGGAGCGCUGGUUCUACUAGCAGGUAGGUCACUCGUC3'</td>
   <td name="td3">44</td>
@@ -851,7 +854,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">Clone 6 aptamer</td>
+  <td name="td0">PKC βII_Newton_1</td>
   <td name="td1">Protein kinase C beta II (protein kinase C βII)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAGGCUUACAGAGUGUGCGUAAUGGCGUUCCCAAAUUCGGGCUGGGAACCGUUCGUUCGUGUUAUGCCCGUAGAUAUGGCAAGUCGCGGAUGCUCAGUACUACACUCUUGUGGUCAGUCACAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">162</td>
@@ -861,7 +864,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">Clone 10 aptamer</td>
+  <td name="td0">PKC βII_Newton_2</td>
   <td name="td1">Protein kinase C beta II (protein kinase C βII)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAGGUUGUUAAGUGCGAGUUGUUUUACUCCGAUGAUACGGGGAGCGUUAGAGUCUUAUGACCUUGUUCUCCACGUCACUGUCCAAGUCACUCCGCGUCAUAGCAGUCGGAUCCUGUACAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">159</td>
@@ -871,17 +874,18 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 </tr>
     
  <tr>
-  <td name="td0">100 aptamer</td>
+  <td name="td0">VEGF_Janjić_1</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAACCGGUAGUCGCAUGGCCCAUCGCGCCCGGUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">76</td>
   <td name="td4">64.47%</td>
-  <td name="td5">Kd1: 0.20 ± 0.02 nM<br>Kd2: 42 ± 30 nM</td>
+  <td name="td5">Kd1: 0.20 ± 0.02 nM
+Kd2: 42 ± 30 nM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/7520755/" target="_blank" style="color:#520049"><b>1994</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">100t aptamer</td>
+  <td name="td0">VEGF_Janjić_2</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGCCGGUAGUCGCAUGGCCCAUCGCGCCCGG3'</td>
   <td name="td3">31</td>
@@ -892,7 +896,7 @@ Kd2: 182 ±94 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">44t aptamer</td>
+  <td name="td0">VEGF_Janjić_3</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGAAGCUUGAUGGGUGACACACGUCAUGCCGAGCU3'</td>
   <td name="td3">35</td>
@@ -903,7 +907,7 @@ Kd2: 82 ± 23 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">12t aptamer</td>
+  <td name="td0">VEGF_Janjić_4</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGAAGGGAACCUGCGUCUCGGCACCUUCG3'</td>
   <td name="td3">29</td>
@@ -914,7 +918,7 @@ Kd2: 180 ± 160 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">40t aptamer</td>
+  <td name="td0">VEGF_Janjić_5</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGUCAACGGUUGAGUCUGUCCCGUUCGAC3'</td>
   <td name="td3">29</td>
@@ -924,7 +928,7 @@ Kd2: 180 ± 160 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">84t aptamer</td>
+  <td name="td0">VEGF_Janjić_6</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGCUCAAUAGUUGGAGGCCUGUCCUCGCCGUAGAGC3'</td>
   <td name="td3">36</td>
@@ -935,7 +939,7 @@ Kd2: 31 ± 10 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">126t aptamer</td>
+  <td name="td0">VEGF_Janjić_7</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGAACGGUUCUGUGUGUGGACUAGCCGCGGCCGUU3'</td>
   <td name="td3">35</td>
@@ -946,7 +950,7 @@ Kd2: 181 ± 57 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">44 aptamer</td>
+  <td name="td0">VEGF_Janjić_8</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAAGCUUGAUGGGUGACACACGUCAUGCCGAGCUUUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">80</td>
@@ -957,7 +961,7 @@ Kd2: 38 ±32 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">12 aptamer</td>
+  <td name="td0">VEGF_Janjić_9</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAGCAGACGAAGGGAACCUGCGUCUCGGCACCUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -968,7 +972,7 @@ Kd2: 21 ±5 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">40 aptamer</td>
+  <td name="td0">VEGF_Janjić_10</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAGCUUGAUGGGUGACACACGUCAUGCCGAGCUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -979,7 +983,7 @@ Kd2: 10 ± 1 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">84 aptamer</td>
+  <td name="td0">VEGF_Janjić_11</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAGCUCAAUAGUUGGAGGCCUGUCCUCGCCGUAGAGCGUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">83</td>
@@ -990,7 +994,7 @@ Kd2: 21 ± 5 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">126 aptamer</td>
+  <td name="td0">VEGF_Janjić_12</td>
   <td name="td1">Vascular Endothelial Growth Factor (VEGF)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAAACGGUUCUGUGUGUGGACUAGCCGCGGCCGUUUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">80</td>
@@ -1001,7 +1005,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">YT1 aptamer</td>
+  <td name="td0">HTLV-1_Ellington_1</td>
   <td name="td1">Tax protein of the human T-cell lymphomatic virus (HTLV-1)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUGGACUUAUUCUCGAGCCUGCAUGUGCUAGUCGACGUUGUUUCUGCAUCUUGAAAGAUGGGGCUGUGGGUGUGGUUACUUCUACGCGGUAUGCACUGUACGCCCCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">152</td>
@@ -1011,7 +1015,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">W13 (clone 8) aptamer</td>
+  <td name="td0">Tobramycin_Rando_1</td>
   <td name="td1">Tobramycin</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUCGUUUGGGGUCCCACAACACAGGUCUUUGCUGGUCAUAUAUGCGUGUCCUCUAGGAAGUGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">109</td>
@@ -1021,7 +1025,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">X1 aptamer</td>
+  <td name="td0">Tobramycin_Rando_2</td>
   <td name="td1">Tobramycin</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUCUGGUUAGUUUUGCACAGUGGUCGAUGCUAGACUUGGUUUAGGUAAUGAGUCCAAUAGUCCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">109</td>
@@ -1031,7 +1035,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">J6 aptamer</td>
+  <td name="td0">Tobramycin_Rando_3</td>
   <td name="td1">Tobramycin</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUAGUAUAGCGAGGUUUAGCUACACUCGUGCUGAUCGUUUGGUACGGGACCUGCGUGUAGCCCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">109</td>
@@ -1041,7 +1045,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">24A aptamer</td>
+  <td name="td0">VPF/VEGF_Janjić_1</td>
   <td name="td1">Vascular pemeability factor/vascular endothelial growth factor (VPF/VEGF)</td>
   <td name="td2">5'GGGAGACAAGAAUAACGCUCAAACCCUGAUGGUAGACGCCGGGGUGCCGGAAUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">76</td>
@@ -1051,7 +1055,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">P5 aptamer</td>
+  <td name="td0">HIV-1 integrase_Gold_1</td>
   <td name="td1">Human immunodeficiency virus (HIV-1) integrase</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAACCAGUCUUGUGGCUUUGAAAGAGAGGAGUGUUCGACAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">77</td>
@@ -1061,7 +1065,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">SLB10-1 aptamer</td>
+  <td name="td0">Lividomycin_Ellington_1</td>
   <td name="td1">Aminoglycoside lividomycin</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCAACGAGUGCAGUGGGAAACAGGUCUUUGGCUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -1071,7 +1075,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">SLB10-34 aptamer</td>
+  <td name="td0">Lividomycin_Ellington_2</td>
   <td name="td1">Aminoglycoside lividomycin</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCCCGUCAAGUCCGGUAAGGUGCCUGACGUCUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">79</td>
@@ -1081,7 +1085,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ag.06 aptamer</td>
+  <td name="td0">Arginine_Famulok_1</td>
   <td name="td1">L-arginine</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG3'</td>
   <td name="td3">97</td>
@@ -1091,7 +1095,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C8 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_1</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUGCUAGGCAAUGUUUCGGUUGGAGUAAUCCGGUGGCUUGCCAUGAUUUACGUGAGUGCUGAUCCGUGAUGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">110</td>
@@ -1101,7 +1105,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C18 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_2</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUGCUAGGCAAUGUUUCGGUUGGAGUAAUCCGGUGGCUUGCCAUGAUUUACGUGAGUGCUGAUCCGUGAUGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">110</td>
@@ -1111,7 +1115,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C17 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_3</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUGUAUUCUCGGUGGUUUAAUCUGUGUAGAGGAGCUGACUCCUUUGGUUGGACUACGUGGAGGUUCUCUUAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">109</td>
@@ -1121,7 +1125,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C5 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_4</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUCAAGAAGUGGAAAUGCGCAGCGACCAUGAAACCUCGCAUGGUUCAUCGAUUGUUUGGAUAGUGUCUGUGUGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">112</td>
@@ -1131,7 +1135,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C1 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_5</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUGCAGUUAACCAAGCCUGCAUACUGGAUAGACGGCUUAUCCGACUGAAUGCCUCCCGAAAGGUGCAGUUAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">109</td>
@@ -1141,7 +1145,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C9 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_6</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUGCGCAAACCCGAAGAAUGCCCAAAUUGAUCCAGAGCAAGUGGGAAUGAUAUAAAGUACCUGGUCCUGGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">109</td>
@@ -1151,7 +1155,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C15 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_7</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUUCCAAACCCCGUUGAGAGUUGAUCCGGUCUAGGGAAUGGGAAAGAAGUAGGUAUCGAAGAGAAUGUACCCUAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">112</td>
@@ -1161,7 +1165,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C24 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_8</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUAGGACUCAAAUAUUCACGUUGACGUUGUCUUGGAGUGCUGAUCGGAAAACCAAUAUGAUUAAUGGGUCCUGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">112</td>
@@ -1171,7 +1175,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C33 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_9</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUACGCAGCGACUGUGGUGGUGAGCGGUUGCGUAACUUGAUUUAAGCAAGUACUGCCAUGGCCGAACCUCUAAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">111</td>
@@ -1181,7 +1185,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C34 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_10</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUUCUAGUCAAGUUGCAAUCUCCGGUGGGGUGGUAACCGAGGAACACGUUUCGGGUGUAUAGGCUAGCGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">108</td>
@@ -1191,7 +1195,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C37 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_11</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUUCUACCAGAGCGAGUGUGCUGAACGUUCUAAGGACGGGAUUGAAUCGAGAUGCGUAUACUAGGACCUUACGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">112</td>
@@ -1201,7 +1205,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C52 aptamer</td>
+  <td name="td0">HIV-1 Rev_Ellington_12</td>
   <td name="td1">Human immunodeficiency virus type 1 Rev (HIV-1 Rev)</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">107</td>
@@ -1211,7 +1215,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">14.12 aptamer</td>
+  <td name="td0">LS-Rg_Varki_1</td>
   <td name="td1">L-selectin receptor globulin (LS-Rg)</td>
   <td name="td2">5'UCGGGCGAGUCGUCUGUAACAACAAUCAAGGCGGGUUCACCGCCCCAGUAUGAGUACCGCAUCGUCCUCCC3'</td>
   <td name="td3">71</td>
@@ -1221,7 +1225,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">13.32 aptamer</td>
+  <td name="td0">LS-Rg_Varki_2</td>
   <td name="td1">L-selectin receptor globulin (LS-Rg)</td>
   <td name="td2">5'UCGGGCGAGUCGUCUGCGCGUAUGUGUGAAAGCGUGUGCACGGAGGCGUCUACAAUCCGCAUCGUCCUCCC3'</td>
   <td name="td3">71</td>
@@ -1231,7 +1235,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D-R16c aptamer</td>
+  <td name="td0">D-arginine_Ellington_1</td>
   <td name="td1">D-arginine</td>
   <td name="td2">5'CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG3'</td>
   <td name="td3">38</td>
@@ -1241,7 +1245,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">L-R16c aptamer</td>
+  <td name="td0">Arginine_Ellington_1</td>
   <td name="td1">L-arginine</td>
   <td name="td2">5'CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG3'</td>
   <td name="td3">38</td>
@@ -1251,7 +1255,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">V2 trans Hammerhead Ribozyme aptamer</td>
+  <td name="td0">ATP_Breaker_1</td>
   <td name="td1">Adenosine triphosphate (ATP)</td>
   <td name="td2">5'GGGCGACCCCAGUGCAUUGCGAAGAAACUGUGCGACUUCGGUCGCAGCAAACGUCGGC3"
 5'GCCGUAGGUUGCCC3'</td>
@@ -1262,7 +1266,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">V2 Hammerhead Ribozyme aptamer</td>
+  <td name="td0">ATP_Breaker_2</td>
   <td name="td1">Adenosine triphosphate (ATP)</td>
   <td name="td2">5'UUUGUAGGCGACCUACCACUCUCGUGGCCCAGUGCAUUGCUGCGACCGAAGUCGCCAGUUUCUUCCCAAAUGUCGUCGCCAUCUCUUCC3'</td>
   <td name="td3">89</td>
@@ -1272,7 +1276,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">10G-1 aptamer</td>
+  <td name="td0">HCV_Nishikawa_1</td>
   <td name="td1">NS3 protease of hepatitis C virus (HCV)</td>
   <td name="td2">5'GGGAACUCGAUGAAGCGAAUUCUGUUGGCGAACUGUACGCAAGUACACUGGAUGACAGGCCUAUCUAUCGGAUCCACG3'</td>
   <td name="td3">78</td>
@@ -1282,7 +1286,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">dopa2 aptamer</td>
+  <td name="td0">Dopamine_Tocchini-Valentini_1</td>
   <td name="td1">Dopamine</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCGCCGCGGAAGACGUUGGAAGGAUAGAUACCUACAACGGGGAAUAUAGAGGCCAGCACAUAGUGAGGCCCUCCUCCCAGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">111</td>
@@ -1292,37 +1296,37 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Apt1 aptamer</td>
+  <td name="td0">Prion protein_Winnacker_1</td>
   <td name="td1">Prion protein rPrP23-231 (rPrPc) fused to glutathione S-transferase (GST), RecombiNAt Syrian golden hamster</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCACGAAUUCGUUGUGCGGGAAUUUGAGGGACGAUGGGGAAGUGGGACGAAUGACUCAUUGCCGCGGUAGGGUUAGGCACCACGGUCGGAUCC3'</td>
   <td name="td3">110</td>
   <td name="td4">58.18%</td>
-  <td name="td5">N/A </td>
+  <td name="td5">NA</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/9343239/" target="_blank" style="color:#520049"><b>1997</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">Apt2 aptamer</td>
+  <td name="td0">Prion protein_Winnacker_2</td>
   <td name="td1">Prion protein rPrP23-231 (rPrPc) fused to glutathione S-transferase (GST), RecombiNAt Syrian golden hamster</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCAGCAAUGCGUUGUGUGGGAAUUUGAGGGACGAUGGGGAAGUGGGGACGAAUGACUCAUUGCCGCGGUAGGGUUGGCACCACGGUCGGAUCC3'</td>
   <td name="td3">110</td>
   <td name="td4">59.09%</td>
-  <td name="td5">N/A </td>
+  <td name="td5">NA </td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/9343239/" target="_blank" style="color:#520049"><b>1997</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">Apt3 aptamer</td>
+  <td name="td0">Prion protein_Winnacker_3</td>
   <td name="td1">Prion protein rPrP23-231 (rPrPc) fused to glutathione S-transferase (GST), RecombiNAt Syrian golden hamster</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCUACCUUAGAGUAGGAGCGGGACGAGGGGUUGUUGGGACGUGGGUAUGAUCCAUACAUUAGGAAGCUGGUGAGCUGGCACCACGGUCGGAUCC3'</td>
   <td name="td3">111</td>
   <td name="td4">57.66%</td>
-  <td name="td5">N/A </td>
+  <td name="td5">NA </td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/9343239/" target="_blank" style="color:#520049"><b>1997</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">70cam6 aptamer</td>
+  <td name="td0">Cam_Gold_1</td>
   <td name="td1">Chloramphenicol (Cam)</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAAUGAAAAGGGCUGGCGAGACAUAUCCGCUGGGCAAUCAGAUUCGGAGCCGCACCACCCUCGAAGUAGACAGGGCAUAAGGUAUUUAAUUCCAUA3'</td>
   <td name="td3">118</td>
@@ -1332,7 +1336,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">70cam9 aptamer</td>
+  <td name="td0">Cam_Gold_2</td>
   <td name="td1">Chloramphenicol (Cam)</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAAGAGCUUGACGGUCCCGAGAGUCGAGCCCAAGCUGACACUGGACCUUUGCGGACCACGUGUUGAUCGUCGGGGCAUAAGGUAUUUAAUUCCAUA3'</td>
   <td name="td3">118</td>
@@ -1342,7 +1346,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">70cam53 aptamer</td>
+  <td name="td0">Cam_Gold_3</td>
   <td name="td1">Chloramphenicol (Cam)</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAGGCACCAAAGCUGAAGUAGCGGGAUAACUCAAAUUACUUUAGGUGUAUGAAGGUGAAACUAGCAAUGAAGGGCAUAAGGUAUUUAAUUCCAUA3'</td>
   <td name="td3">117</td>
@@ -1352,7 +1356,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">80Cm50* aptamer</td>
+  <td name="td0">Cam_Gold_4</td>
   <td name="td1">Chloramphenicol (Cam)</td>
   <td name="td2">5'GGGCAUAAGGUAUUUAAUUCCAUACGGCAGACGAGCCUUGACGAGCCAAUCUACACUUGGCGAUGACCGAUGGGCCCCAGCUACUUCUGGCAGUUUCGAUUCGUUUGAUUCGGAUGCUCGGUAGCUCAACUCG3'</td>
   <td name="td3">133</td>
@@ -1362,7 +1366,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">BBS #4,14,15 aptamer</td>
+  <td name="td0">B52_Lis_1</td>
   <td name="td1">B52 protein</td>
   <td name="td2">5'GGGAGAAUUCAACUGCCAUCUAGGCAGGGUAACGAUCAACCUGGCGACAGCUGCCCUGCCGUCCAAGUACUACAAGCUUCUGGACUCGGU3'</td>
   <td name="td3">90</td>
@@ -1372,7 +1376,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">BBS #8 aptamer</td>
+  <td name="td0">B52_Lis_2</td>
   <td name="td1">B52 protein</td>
   <td name="td2">5'GGGAGAAUUCAACUGCCAUCUAGGCUGGUCAACCAGGCGACCGCCACCCGCGCGCGCAAUACCUAGUACUACAAGCUUCUGGACUCGGU3'</td>
   <td name="td3">89</td>
@@ -1382,7 +1386,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">BBS #11 aptamer</td>
+  <td name="td0">B52_Lis_3</td>
   <td name="td1">B52 protein</td>
   <td name="td2">5'GGGAGAAUUCAACUGCCAUCUAGGCUGCUCACGAGUCCAUGACCAGUACGAUCAACCAGGCGACAGUACUACAAGCUUCUGGACUCGGU3'</td>
   <td name="td3">89</td>
@@ -1392,7 +1396,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">BBS #23 aptamer</td>
+  <td name="td0">B52_Lis_4</td>
   <td name="td1">B52 protein</td>
   <td name="td2">5'GGGAGAAUUCAACUGCCAUCUAGGCCCAACUGCUAAGAAGCAUCCUGUACGAUCAACCCGGCGACAGUACUACAAGCUUCUGGACUCGGU3'</td>
   <td name="td3">90</td>
@@ -1402,7 +1406,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">g18_4.seq aptamer</td>
+  <td name="td0">RNA loop_Schmidt_1</td>
   <td name="td1">RNA stem-loop target (5'GCACGGTGCTGCTGAGATGCCCGT3')</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACCAUCGGCCCUGGUGCCUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">99</td>
@@ -1412,7 +1416,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">FC aptamer</td>
+  <td name="td0">PNA pol II_Sentenac_1</td>
   <td name="td1">RNA polymerase II (Pol II), Saccharomyces cerevisiae (S. cerevisiae)</td>
   <td name="td2">5'GGGCCGCUAAGUCCUCGCUCACGAUACAGCACUGAUUGCGGUCGAGGUAGCUUGAUGGGCCACGCGCGACUCGGAUCCAC3'</td>
   <td name="td3">80</td>
@@ -1422,7 +1426,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G4 aptamer</td>
+  <td name="td0">K ras_Rando_1</td>
   <td name="td1">Farnesylated peptide modeled after the carboxyl terminus of K ras</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCCUGCUCAGGGGUGGGUCGUAUAAUUAGCGUAGGGAGGUAGUGGAUGAGUAAGCCUGGGAUGUCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">109</td>
@@ -1432,7 +1436,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G26 aptamer</td>
+  <td name="td0">K ras_Rando_2</td>
   <td name="td1">Farnesylated peptide modeled after the carboxyl terminus of K ras</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCCUGAGAUGUAUCGUUGCCGGGGAUGGGUGGGUGGUGUGAAGGCGAUCGUCAUCAGUUCGAGCCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">109</td>
@@ -1442,7 +1446,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G6–16 aptamer</td>
+  <td name="td0">HCV_Nishikawa_2</td>
   <td name="td1">NS3 Protein of Hepatitis C Virus (HCV)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGGUCGGACCAAUCAGUUCUUAUGGGAGAUGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">167</td>
@@ -1452,17 +1456,17 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G6–19 aptamer</td>
+  <td name="td0">HCV_Nishikawa_3</td>
   <td name="td1">NS3 Protein of Hepatitis C Virus (HCV)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUAUACUGAAUUAAUCGCUACCGUGUCAUUGUACUUGGUAGUGUUGAUGGUUUGGGUCGCAUUUGGCUUGGCUUAUGGUUUUUUCACCCUACCUCUCAUUGACGCACUAGGCUCUCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">162</td>
   <td name="td4">45.68%</td>
-  <td name="td5">N/A </td>
+  <td name="td5">NA </td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/9356339/" target="_blank" style="color:#520049"><b>1997</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">945 aptamer</td>
+  <td name="td0">SelB_Famulok_1</td>
   <td name="td1">Special elongation factor SelB of Escherichia coli</td>
   <td name="td2">5'GUCAGGAUGACUGCUGCGCUCGUGUCGUCACUGACCAUCUGUCGCAGGUCUGCGCACAUCGGUCGUUCACGGCCCAUCGGUUGCAGGUCUGCACCAAUCGGUCGGUAAUGGCGCAAUGAGCAUUACGGAUUCAAGC3'</td>
   <td name="td3">136</td>
@@ -1472,7 +1476,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">XBA RNA aptamer</td>
+  <td name="td0">Xanthine_Yokoyama_1</td>
   <td name="td1">Xanthine (2,6-dioxypurine)</td>
   <td name="td2">5'GGCACGUGUAUUACCCUAGUGGUCGACGUGCC3'</td>
   <td name="td3">32</td>
@@ -1482,7 +1486,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">XBA RNA aptamer</td>
+  <td name="td0">Guanine_Yokoyama_1</td>
   <td name="td1">Guanine</td>
   <td name="td2">5'GGCACGUGUAUUACCCUAGUGGUCGACGUGCC3'</td>
   <td name="td3">32</td>
@@ -1492,7 +1496,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">APC-167 aptamer</td>
+  <td name="td0">APC_Nishikawa_1</td>
   <td name="td1">Activated protein C (APC), Human</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUGUGAGACCAGCCGAGUGGUGUCUGGCUAUUCACUGGAGCGUGGGUGGAACCCCUGCGCACUCGUUUGGCUGUCCGGGCCUUCGGGCCGGGAUUAUCUCUUUGGGUUUUGUGAUUUGGUCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">167</td>
@@ -1502,7 +1506,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">APC-99 aptamer</td>
+  <td name="td0">APC_Nishikawa_2</td>
   <td name="td1">Activated protein C (APC), Human</td>
   <td name="td2">5'GUGAGACCAGCCGAGUGGUGUCUGGCUAUUCACUGGAGCGUGGGUGGAACCCCUGCGCACUCGUUUGGCUGUCCGGGCCUUCGGGCCGGGAUUAUCUCU3'</td>
   <td name="td3">99</td>
@@ -1512,7 +1516,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">SRB-2 aptamer</td>
+  <td name="td0">Sulforhodamine B_Wilson_1</td>
   <td name="td1">Fluorophore sulforhodamine B</td>
   <td name="td2">5'GGAACACUAUCCGACUGGCACCUGUGCUCUAUAGCAGAAUGCUAACAUUAGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGUACAUCGGUGCCUUGGUCAUUAGGAUCCCG3'</td>
   <td name="td3">113</td>
@@ -1522,7 +1526,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">FB-1 aptamer</td>
+  <td name="td0">Fluorescein_Wilson_1</td>
   <td name="td1">Fluorescein</td>
   <td name="td2">5'GGACGGCACCACGGUCGGAUCCGUGAGUUGUGACAAUUUAGCGGGUGGUAUUAGAGCCUACUGCCACAGCAAUAGGAUCGAUACAGAUCU3'</td>
   <td name="td3">90</td>
@@ -1532,7 +1536,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">N30yc5 aptamer</td>
+  <td name="td0">PTPase_Ellington_1</td>
   <td name="td1">Protein tyrosine phosphatases (PTPase) ( Yop51*Δ162 ), Yersinia</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGUAUUACUGCUGGUGACGAGGGCUAGACGACGUACCUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -1542,7 +1546,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">N71yc16 aptamer</td>
+  <td name="td0">PTPase_Ellington_2</td>
   <td name="td1">Protein tyrosine phosphatases (PTPase) ( Yop51*Δ162 ), Yersinia</td>
   <td name="td2">5'GGGAGAUACCAGCUUAUUCAAUUCUGGCAAUGGGCUAUCCCAAGUGCUAGGCUUCAGGGAGCGAGGACCAGACGACGUACCUAACCCUAAGGUGAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">112</td>
@@ -1552,7 +1556,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">21.01 aptamer</td>
+  <td name="td0">Raf-1 RBD_Yokoyama_1</td>
   <td name="td1">Glutathione S-transferase-fused RBD (GST-RBD) Ras-binding domain (Raf-1 RBD)</td>
   <td name="td2">5'GGGAGAUCAGAAUAAACGCUCAACUGAUCAAUGGCGUACAAUGGAUUCGUUCUCAUAACCAAAACCCUUACCCCUUGGACUGAUUCGACAUGAGGCCCCUGCAGGGCG3'</td>
   <td name="td3">108</td>
@@ -1562,7 +1566,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">21.07 aptamer</td>
+  <td name="td0">Raf-1 RBD_Yokoyama_2</td>
   <td name="td1">Glutathione S-transferase-fused RBD (GST-RBD) Ras-binding domain (Raf-1 RBD)</td>
   <td name="td2">5'GGGAGAUCAGAAUAAACGCUCAAUUGACUCAAUGGCGUACAAUGGAUUCGUUCUCAUAACCAAAACCCUUACCCCUUGGACUGUUCGACAUGAGGCCCCUGCAGGGCG3'</td>
   <td name="td3">108</td>
@@ -1572,7 +1576,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">J6f1 aptamer</td>
+  <td name="td0">Tobramycin_Rando_4</td>
   <td name="td1">Tobramycin</td>
   <td name="td2">5'GGCUUAGUAUAGCGAGGUUUAGCUACACUCGUGCUGAGCC3'</td>
   <td name="td3">40</td>
@@ -1582,7 +1586,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ps11-20 aptamer</td>
+  <td name="td0">bFGF_Ellington_1</td>
   <td name="td1">RecombiNAt basic fibroblast growth factor (bFGF), Human</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCAAUCCCAAUGGCUUGAACUGCCAACGAACGUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -1592,7 +1596,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C #128 aptamer</td>
+  <td name="td0">Streptomycin_Schroeder_1</td>
   <td name="td1">Streptomycin</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCACCCCUUUGUGGGAACGCAAAACUAAAGGAAGAUCUCAAGAAAGGUGGAUCGCAUUUGGACUUCUGCCCAGGGUGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">113</td>
@@ -1602,7 +1606,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C #128 (46 mer) aptamer</td>
+  <td name="td0">Streptomycin_Schroeder_2</td>
   <td name="td1">Streptomycin</td>
   <td name="td2">5'GGAUCGCAUUUGGACUUCUGCCCAGGGUGGCACCACGGUCGGAUCC3'</td>
   <td name="td3">46</td>
@@ -1612,7 +1616,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B # 84 aptamer</td>
+  <td name="td0">Streptomycin_Schroeder_3</td>
   <td name="td1">Streptomycin</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCCAGACAGUAGAGGGAAGUGUGAGCUAUCACCUCAAGGAAAACGCUUCAGAAAGGGACUUAGGUGAUGAUAGUGUGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">113</td>
@@ -1622,7 +1626,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B #84 (41 mer) aptamer</td>
+  <td name="td0">Streptomycin_Schroeder_4</td>
   <td name="td1">Streptomycin</td>
   <td name="td2">5'AUCACCUCAAGGAAAACGCUUCAGAAAGGGACUUAGGUGAU3'</td>
   <td name="td3">41</td>
@@ -1632,7 +1636,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">clone 488 aptamer</td>
+  <td name="td0">SelB_Famulok_2</td>
   <td name="td1">SelB protein, Escherichia coli</td>
   <td name="td2">5'GCGCUAAGUCCUCGCUCAGCCCAUAAGUUGUCCCAAGUCUUGGGCGCAAAUACAUCCCACGCGCGACUCGGAUCCG3'</td>
   <td name="td3">76</td>
@@ -1642,7 +1646,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B2 aptamer</td>
+  <td name="td0">tRNA_Tocchini-Valentini_1</td>
   <td name="td1">Phenylalanine tRNA, Yeast</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCUACGUAUCUUCAGGCGGUAACUAACUGUGCUGAGUCUAAUCUUUGUGAGGGACGGUAACAUAUGGUUCCCGCGUGGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">109</td>
@@ -1652,7 +1656,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B3 aptamer</td>
+  <td name="td0">tRNA_Tocchini-Valentini_2</td>
   <td name="td1">Phenylalanine tRNA, Yeast</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCAAGCCUGUCGUGUGAACCUUGGUAGUCUUCAGAUACCAUUCUAGCCACGAGAGACUACGACACUGCUCCGUCGCCCGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">110</td>
@@ -1662,7 +1666,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B4 aptamer</td>
+  <td name="td0">tRNA_Tocchini-Valentini_3</td>
   <td name="td1">Phenylalanine tRNA, Yeast</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCUCGGUCACGCAUCUUCACGUCGAAAGCUACAUCGGUCUGCUGACGGUGAUGGCAUUUGCGCGGCUUACGCCGGUCGUGGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">112</td>
@@ -1672,7 +1676,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B6 aptamer</td>
+  <td name="td0">tRNA_Tocchini-Valentini_4</td>
   <td name="td1">Phenylalanine tRNA, Yeast</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCAGAGUGGCCGGGCCUCCAUUCGGGGGUUAUCUUCACCUACGGGCCCCACGCGUUAUUUAGUGUUGUACCGUAGGGCUGUGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">113</td>
@@ -1682,7 +1686,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B7 aptamer</td>
+  <td name="td0">tRNA_Tocchini-Valentini_5</td>
   <td name="td1">Phenylalanine tRNA, Yeast</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCGGGUCUUCACAGACUUGGCAAUUACCAGAACAUGUGCCUGGUAUACGUCAAUACGUCUGGUGGUUAAUACCGCCGUGGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">111</td>
@@ -1692,7 +1696,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B1 aptamer</td>
+  <td name="td0">tRNA_Tocchini-Valentini_6</td>
   <td name="td1">Phenylalanine tRNA, Yeast</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCAUCACGGGUGUAUGCAAGACUCAGCAGUGGGCCAUAUGGUCGGAUCGAGGCUAGCUAAGUCUCCCAAUUGCACCUUCGUGGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">114</td>
@@ -1702,7 +1706,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D20 aptamer</td>
+  <td name="td0">CD18_Famulok_1</td>
   <td name="td1">Cytoplasmic domain of CD18</td>
   <td name="td2">5'GGGCGCUAAGUCCUCGCUCAUGCGCGUCCCAUGGGGUAUAGAGGGGUCGAAGUGGACGCGCGACUCGGAUCCUAC3'</td>
   <td name="td3">75</td>
@@ -1712,7 +1716,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D28 aptamer</td>
+  <td name="td0">CD18_Famulok_2</td>
   <td name="td1">Cytoplasmic domain of CD18</td>
   <td name="td2">5'GGGCGCUAAGUCCUCGCUCAUACAACGAGGGGUCGUGUAGGGAUGUAUGGGCUUGGACACACGCGCGACUCGGAUCCUAC3'</td>
   <td name="td3">80</td>
@@ -1722,7 +1726,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D31 aptamer</td>
+  <td name="td0">CD18_Famulok_3</td>
   <td name="td1">Cytoplasmic domain of CD18</td>
   <td name="td2">5'GGGCGCUAAGUCCUCGCUCACAAGGUGCAAUGCAAUAUGUGAGUGCGCCGCCCUUUCUCUCGCGCGACUCGGAUCCUAC3'</td>
   <td name="td3">79</td>
@@ -1732,7 +1736,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA-1 aptamer</td>
+  <td name="td0">BPN_Kikuchi_1</td>
   <td name="td1">Subtilisin BPN</td>
   <td name="td2">5'GGGCGAAUUCGAGCUCGGGCCACUCGCUCAACACGGUAAGUAGAGACCUAGUGGUACAUAAAGGACUGCAGGCAUGCAAGCU3'</td>
   <td name="td3">82</td>
@@ -1742,7 +1746,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">85 aptamer</td>
+  <td name="td0">Upstream of N-Ras_Jacquemin-Sablon_1</td>
   <td name="td1">Unr (Upstream of N-Ras) protein, Human</td>
   <td name="td2">5'GGGCCACCAACGACAUUGAAUGAGAGAGAAGUAAAAGGUUGAUAUAAAUAGUGCCCA3'</td>
   <td name="td3">57</td>
@@ -1752,7 +1756,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">88 aptamer</td>
+  <td name="td0">Upstream of N-Ras_Jacquemin-Sablon_2</td>
   <td name="td1">Unr (Upstream of N-Ras) protein, Human</td>
   <td name="td2">5'GGGCCACCAACGACAUUUCGAAAGAAAAGAGUAACUGGUUGAUAUAAAUAGUGCCCA3'</td>
   <td name="td3">57</td>
@@ -1762,7 +1766,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">76 aptamer</td>
+  <td name="td0">Upstream of N-Ras_Jacquemin-Sablon_3</td>
   <td name="td1">Unr (Upstream of N-Ras) protein, Human</td>
   <td name="td2">5'GGGCCACCAACGACAUUAAGAGAAGAAGUACCCGAGCGUUGAUAUAAAUAGUGCCCA3'</td>
   <td name="td3">57</td>
@@ -1772,7 +1776,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">98 aptamer</td>
+  <td name="td0">Upstream of N-Ras_Jacquemin-Sablon_4</td>
   <td name="td1">Unr (Upstream of N-Ras) protein, Human</td>
   <td name="td2">5'GGGCCACCAACGACAUUGAUGAAGUAAAAAGCGAUGAGUUGAUAUAAAUAGUGCCCA3'</td>
   <td name="td3">57</td>
@@ -1782,7 +1786,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">58 aptamer</td>
+  <td name="td0">Upstream of N-Ras_Jacquemin-Sablon_5</td>
   <td name="td1">Unr (Upstream of N-Ras) protein, Human</td>
   <td name="td2">5'GGGCCACCAACGACAUUGGGAGGCAGAAAGGAAAAAGUGUUGAUAUAAAUAGUGCCCA3'</td>
   <td name="td3">58</td>
@@ -1792,7 +1796,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">77 aptamer</td>
+  <td name="td0">Upstream of N-Ras_Jacquemin-Sablon_6</td>
   <td name="td1">Unr (Upstream of N-Ras) protein, Human</td>
   <td name="td2">5'GGGCCACCAACGACAUUAAGAAAGAACGGAACCAUGGUUGAUAUAAAUAGUGCCCA3'</td>
   <td name="td3">56</td>
@@ -1802,7 +1806,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">78 aptamer</td>
+  <td name="td0">Upstream of N-Ras_Jacquemin-Sablon_7</td>
   <td name="td1">Unr (Upstream of N-Ras) protein, Human</td>
   <td name="td2">5'GGGCCACCAACGACAUUGAAAAAAAAACAAGAAGAAGGUUGAUAUAAAUAGUGCCCA3'</td>
   <td name="td3">57</td>
@@ -1812,7 +1816,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">2-16 aptamer</td>
+  <td name="td0">VSG_Göringer_1</td>
   <td name="td1">Trypanosome variant surface glycoprotein (VSG)</td>
   <td name="td2">5'CGUCCAUCGGGUGGCCCGUGUCUGAGCGGGGACGGGGACUUGAGCGCCGCUGUCCGACUGAAUU3'</td>
   <td name="td3">80</td>
@@ -1822,7 +1826,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R-06 aptamer</td>
+  <td name="td0">HIV-1 TAR_Toulmé_1</td>
   <td name="td1">Trans-activation responsive (TAR) RNA element of HIV-1</td>
   <td name="td2">5'GGUUACCAGCCUUCACUGCGGGCCACGAUUGUCGAGUCCAUCAACAGGUCCCAGACGUGUUGAACUGGAGAUCCCCCCGCACCACGGUCGGUCACAC3'</td>
   <td name="td3">97</td>
@@ -1832,27 +1836,27 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R-39 aptamer</td>
+  <td name="td0">HIV-1 TAR_Toulmé_2</td>
   <td name="td1">Trans-activation responsive (TAR) RNA element of HIV-1</td>
   <td name="td2">5'GGUUACCAGCCUUCACUGCACAGCCUCACUCCGGUCCCAGACGAAGUGACGGCACCAUGUGAGAAGCCCUACUGUGCCCGCACCACGGUCGGUCACAC3'</td>
   <td name="td3">98</td>
   <td name="td4">62.24%</td>
-  <td name="td5">N/A </td>
+  <td name="td5">NA </td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10606271/" target="_blank" style="color:#520049"><b>1999</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">R-42 aptamer</td>
+  <td name="td0">HIV-1 TAR_Toulmé_3</td>
   <td name="td1">Trans-activation responsive (TAR) RNA element of HIV-1</td>
   <td name="td2">5'GGUUACCAGCCUUCACUGCCCAGCGCAAUGACGACCCCCAGUCCCAGAUGGGAGGUCAUAGUCAUAGUCGGACUCACCGCGGCACCACGGUCGGUCACAC3'</td>
   <td name="td3">100</td>
   <td name="td4">62.00%</td>
-  <td name="td5">N/A </td>
+  <td name="td5">NA </td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10606271/" target="_blank" style="color:#520049"><b>1999</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">R-06 24 aptamer</td>
+  <td name="td0">HIV-1 TAR_Toulmé_4</td>
   <td name="td1">Trans-activation responsive (TAR) RNA element of HIV-1</td>
   <td name="td2">5'UCAACACGGUCCCAGACGUGUUGA3'</td>
   <td name="td3">24</td>
@@ -1862,7 +1866,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA aptamer 3 aptamer</td>
+  <td name="td0">NF-kB_Maher_1</td>
   <td name="td1">Human transcription factor NF-kB as a p50 homodimer (p502)</td>
   <td name="td2">5'GGGAUAUCCUCGAGACAUAAGAAACAAGAUAGAUCCUGAAACUGUUUUAAGGUUGGCCGAUCUUCUGCUCGAGAAUGCAUGAAGCGUUCCAUAUUUUU3'</td>
   <td name="td3">98</td>
@@ -1872,7 +1876,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">109.2-3 aptamer</td>
+  <td name="td0">16s-rRNA region_Rando_1</td>
   <td name="td1">Prokaryotic 16s-rRNA region</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCCUUCUCCUGCCGCGCGAUUUUACGCCGACAAGGGUGGCAUGAUGAUGUGUCUNUAUAUAGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">106</td>
@@ -1882,7 +1886,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">109.1-7 aptamer</td>
+  <td name="td0">16s-rRNA region_Rando_2</td>
   <td name="td1">Prokaryotic 16s-rRNA region</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUUUAGGGCGGGACUUUUGGCCGCAAAGGUUGGUGUGAGGGUUCUCAAUAAUGGCCCAAGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">107</td>
@@ -1892,7 +1896,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">109.2-15 aptamer</td>
+  <td name="td0">16s-rRNA region_Rando_3</td>
   <td name="td1">Prokaryotic 16s-rRNA region</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCGGCGUUCCGCAUCGGCAACUGGCGAGGAGUUGUAUUCGGCGGAAACGGGUUGAGGUCCGACAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">107</td>
@@ -1902,7 +1906,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">69.1-4 aptamer</td>
+  <td name="td0">16s-rRNA region_Rando_4</td>
   <td name="td1">Prokaryotic 16s-rRNA region</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCAGUGGAAGAGCCGGGUUGGGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">67</td>
@@ -1912,7 +1916,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">69.1-11 aptamer</td>
+  <td name="td0">16s-rRNA region_Rando_5</td>
   <td name="td1">Prokaryotic 16s-rRNA region</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCAGCGGAACGGCCGACUUCAACAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">67</td>
@@ -1922,7 +1926,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">1D13-01 aptamer</td>
+  <td name="td0">Doxycyline_Famulok_1</td>
   <td name="td1">Doxycyline</td>
   <td name="td2">5'GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUGUAUAUGACACCGAUGGGUAUUUGCUAGUAUCCUGCGUUCACGAAACUACCUCGAGACGU3'</td>
   <td name="td3">102</td>
@@ -1932,7 +1936,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">1D16-05 aptamer</td>
+  <td name="td0">Doxycyline_Famulok_2</td>
   <td name="td1">Doxycyline</td>
   <td name="td2">5'GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUGGUACAGUCCAGGGUGAAGUUCCAAUUUUGAACACCUCCACGAAACUACCUCGAGACGU3'</td>
   <td name="td3">101</td>
@@ -1942,7 +1946,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">1D16-06 aptamer</td>
+  <td name="td0">Doxycyline_Famulok_3</td>
   <td name="td1">Doxycyline</td>
   <td name="td2">5'GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUGGUUUGACCCUUGAUUCGAUGUAUUCGAAAGUGCUUGUUGACGAAACUACCUCGAGACGU3'</td>
   <td name="td3">102</td>
@@ -1952,7 +1956,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">rafl7 aptamer</td>
+  <td name="td0">ATP_Ellington_1</td>
   <td name="td1">Adenosine triphosphate (ATP)</td>
   <td name="td2">5'GGAAGGCACGACGAAGCAAGCAGGCAACGAACACAGAAGACCGGGGGAACUACCGCGCGUGCCAGACCCAACCAGCCAGAGACC3'</td>
   <td name="td3">84</td>
@@ -1962,7 +1966,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">rafl7-U61C aptamer</td>
+  <td name="td0">ATP_Ellington_2</td>
   <td name="td1">Adenosine triphosphate (ATP)</td>
   <td name="td2">5'GGAAGGCACGACGAAGCAAGCAGGCAACGAACACAGAAGACCGGGGGAACUACCGCGCGCGCCAGACCCAACCAGCCAGAGACC3'</td>
   <td name="td3">84</td>
@@ -1972,7 +1976,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">rafl7s aptamer</td>
+  <td name="td0">ATP_Ellington_3</td>
   <td name="td1">Adenosine triphosphate (ATP)</td>
   <td name="td2">5'GGGCGCGACGAAGCAAGCAGGCAACGAACACAGAAGACCGGGGGAACUACCGCGCGCGCCC3'</td>
   <td name="td3">61</td>
@@ -1982,17 +1986,17 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">rafl28 aptamer</td>
+  <td name="td0">ATP_Ellington_4</td>
   <td name="td1">Adenosine triphosphate (ATP)</td>
   <td name="td2">5'GGAAGGCACGACCGCGCAAGAUACCGCCCGACAGCGGAAGGAGGGGCAUGCGGUCCAGGGCUGAGACCCAACCAGCCAGAGACC3'</td>
   <td name="td3">84</td>
   <td name="td4">67.86%</td>
-  <td name="td5">N/A </td>
+  <td name="td5">NA </td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/11101810/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">1D16-13 aptamer</td>
+  <td name="td0">Doxycyline_Famulok_4</td>
   <td name="td1">Doxycyline</td>
   <td name="td2">5'GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUCCUCGGUAAUCGCCGUAUCAAAAGUCGGAAUGGAGGGUCGACGAAACUACCUCGAGACGU3'</td>
   <td name="td3">102</td>
@@ -2002,7 +2006,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">9-41U22 aptamer</td>
+  <td name="td0">Pepocin_Ellington_1</td>
   <td name="td1">Pepocin</td>
   <td name="td2">5'GGGAGUCUGAAGUCGGACUCGAUAUCAAUUCACUUCAGACU3'</td>
   <td name="td3">41</td>
@@ -2012,7 +2016,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">08-09 aptamer</td>
+  <td name="td0">Pepocin_Ellington_2</td>
   <td name="td1">Pepocin</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGUAUUCAACCAAGUCUAAUGUCGGACUCGAUAUCAAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -2022,7 +2026,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">8-14 aptamer</td>
+  <td name="td0">Pepocin_Ellington_3</td>
   <td name="td1">Pepocin</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGUAUUCAGUCUAGGAAGCAGUCGGACUUGUUAUCAAUUCACUGCAGACUGUACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -2032,7 +2036,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">cAMP - b (parent) aptamer</td>
+  <td name="td0">cAMP_Breaker_1</td>
   <td name="td1">Second messenger adenosine 3',5'-cyclic monophosphate (cAMP; 1)</td>
   <td name="td2">5'GGAAGAGAUGGCGACUAAAACGACUUGUCGCGUGCUGCCCGCCUGUUCGCUUCUGCACCCCGGCGGUAAGCUUGGCAC3'</td>
   <td name="td3">78</td>
@@ -2042,7 +2046,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">cAMP - b aptamer</td>
+  <td name="td0">cAMP_Breaker_2</td>
   <td name="td1">Second messenger adenosine 3',5'-cyclic monophosphate (cAMP; 1)</td>
   <td name="td2">5'GGAAGAGAUGGCGACUAAAACGACUUGUCGC3'</td>
   <td name="td3">31</td>
@@ -2052,7 +2056,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B-2 aptamer</td>
+  <td name="td0">R5 helix peptide_Okahata_1</td>
   <td name="td1">R5 helix peptide</td>
   <td name="td2">5'GGGAAACUGGAUGGAAUGGGCUCGAUGAAAAUCGACCGUGCGCUGAAAAGCACGCGAGGUCCUGCUGUAAGUGUGCCA3'</td>
   <td name="td3">78</td>
@@ -2062,7 +2066,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B-6 aptamer</td>
+  <td name="td0">R5 helix peptide_Okahata_2</td>
   <td name="td1">R5 helix peptide</td>
   <td name="td2">5'GGGAAACUGGAUGGAAUGGGCUCGCAAGGCCCCCUGAGCUGCACAAGUUCAUGGCGAGGUCCUGCUGUAAGUGUGCCA3'</td>
   <td name="td3">78</td>
@@ -2072,7 +2076,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Tyr 1 aptamer</td>
+  <td name="td0">L-tyrosine_Tocchini-Valentini_1</td>
   <td name="td1">L-tyrosine</td>
   <td name="td2">5'GGGAAGCUUGUACAGGGGGCAGUCAACUCGUGCGAUCGUGAAAACGGGGCAAGAUGGCCUUACAGCGGUCAAUACGGGGGUCAUCAGAUAGGGAGGCCCUCCUGGUGGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">124</td>
@@ -2082,7 +2086,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G9-I aptamer</td>
+  <td name="td0">HCV NS3_Nishikawa_1</td>
   <td name="td1">Nonstructural protein 3 (NS3) protease active site in the truncated polypeptide ΔNS3, Hepatitis C virus (HCV)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUCGGGAUUUGAGGGUAGAAUGGGACUACCUUUCCUCUCUCCUUCCUCUUCU3'</td>
   <td name="td3">73</td>
@@ -2092,7 +2096,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G9-II aptamer</td>
+  <td name="td0">HCV NS3_Nishikawa_2</td>
   <td name="td1">Nonstructural protein 3 (NS3) protease active site in the truncated polypeptide ΔNS3, Hepatitis C virus (HCV)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGUGCUCUUAGAAUGGGACUAAGACACGGGACCCUUUCCUCUCUCCUUCCUCUUCU3'</td>
   <td name="td3">74</td>
@@ -2102,7 +2106,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G9-III aptamer</td>
+  <td name="td0">HCV NS3_Nishikawa_3</td>
   <td name="td1">Nonstructural protein 3 (NS3) protease active site in the truncated polypeptide ΔNS3, Hepatitis C virus (HCV)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGUACGACACGAUUGGGACGUGUCUAUGGGACCCUUUCCUCUCUCCUUCCUCUUCU3'</td>
   <td name="td3">74</td>
@@ -2112,7 +2116,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">clone 31 aptamer</td>
+  <td name="td0">HIV-1 Tat protein_Sugimoto_1</td>
   <td name="td1">Tat protein from HIV-1 in the presence of Zn2+ ion</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">78</td>
@@ -2122,7 +2126,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA20 aptamer</td>
+  <td name="td0">WT1-ZFP_Romaniuk_1</td>
   <td name="td1">WT1-ZFP & WT1[+KTS]-ZFP (two zinc finger isoforms of the WT1 DNA binding domain)</td>
   <td name="td2">5'GGGGCCACCAACGACAUUGACGAAUGCGUAAAUUGCUAGGUUGAUAUAAAUAGUGCCCAUGGAUCCGCGGGUGUCGGG3'</td>
   <td name="td3">78</td>
@@ -2132,7 +2136,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA22 aptamer</td>
+  <td name="td0">WT1-ZFP_Romaniuk_2</td>
   <td name="td1">WT1-ZFP & WT1[+KTS]-ZFP (two zinc finger isoforms of the WT1 DNA binding domain)</td>
   <td name="td2">5'GGGGCCACCAACGACAUUGAUAUGGUGACCACCCCGGCGUUGAUAUAAAUAGUGCCCAUGGAUCCGCGGGUGUCGGG3'</td>
   <td name="td3">77</td>
@@ -2142,7 +2146,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA38 aptamer</td>
+  <td name="td0">WT1-ZFP_Romaniuk_3</td>
   <td name="td1">WT1-ZFP & WT1[+KTS]-ZFP (two zinc finger isoforms of the WT1 DNA binding domain)</td>
   <td name="td2">5'GGGGCCACCAACGACAUUAUCACCCACCCCGAGCUGGCGUUGAUAUAAAUAGUGCCCAUGGAUCCGCGGGUGUCGGG3'</td>
   <td name="td3">77</td>
@@ -2152,7 +2156,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Clone 5 aptamer</td>
+  <td name="td0">sLeX_Yu_1</td>
   <td name="td1">Sialyl Lewis X (sLeX)-expressing HL60 cells</td>
   <td name="td2">5'CCGUAAUACGACUCACUAUAGGGGAGCUCGGUACCGAAUUCAAGGYACUCUGUGCUUGUCGAUGUGYAUUGAUGGCACUUUCGAGUCAACGAGUUGACAGRACAAGUAGUCAAGCUUUGCAGAGAGGAUCCUU3'</td>
   <td name="td3">130</td>
@@ -2162,7 +2166,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">cb28 aptamer aptamer</td>
+  <td name="td0">tetracyclins_Schroeder_1</td>
   <td name="td1">Class I typical tetracyclins</td>
   <td name="td2">5'GCAUGCUAAUACGACUCACUAUAGGAGCUCAGCCUUCACUGCUGCUUAAAGCCUAAAACAUACCAGAUCGCCACCCGCGCUUUAAUCUGGAGAGGUGAAGAAUUCGACCACCUAGGCUGCACCACAAGCUU3'</td>
   <td name="td3">131</td>
@@ -2172,7 +2176,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">cb28 minimer aptamer</td>
+  <td name="td0">tetracyclins_Schroeder_2</td>
   <td name="td1">Class I typical tetracyclins</td>
   <td name="td2">5'GGCCUAAAACAUACCAGAUUUCGAUCUGGAGAGGUGAAGAAUUCGACCACCUAGGCCGGU3'</td>
   <td name="td3">60</td>
@@ -2182,7 +2186,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D8 aptamer</td>
+  <td name="td0">Sephadex G-100_Engelke_1</td>
   <td name="td1">Sephadex G-100</td>
   <td name="td2">5'GGGAGUCGACCGACCAGAAGUCCGAGUAAUUUACGUUUUGAUACGGUUGCGGAACUUGCUAUGUGCGUCUACAUCUAGACUCAU3'</td>
   <td name="td3">84</td>
@@ -2192,7 +2196,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Toggle-25 aptamer</td>
+  <td name="td0">Thrombin_Sullenger_1</td>
   <td name="td1">Thrombin, Human and porcine</td>
   <td name="td2">5'GGGAGAGAGGAAGAGGGAUGGGGAACAAAGCUGAAGUACUUACCCAAGAUCAUCCCGAACGACAUAACCCAGAGGUCGAU3‘</td>
   <td name="td3">80</td>
@@ -2202,7 +2206,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA 12 E4 aptamer</td>
+  <td name="td0">Adenine_Maurel_1</td>
   <td name="td1">Adenine</td>
   <td name="td2">5'GGGAGAGGAUACUACACGUGAUAGGACGAUUAUCGAAAAUCACCAGAUUGGACCCUGGUUAACGAUCCAUUGCAUGUAGCAGAAGCUUCCG3'</td>
   <td name="td3">91</td>
@@ -2212,7 +2216,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">12 E4 aptamer</td>
+  <td name="td0">N6-adenine_Maurel_1</td>
   <td name="td1">N6-adenine</td>
   <td name="td2">5'GCGAAUUCGGAGAGGAUACUACACGUGAUAGGACGAUUAUCGAAAAUCACCAGAUUGGACCCUGGUUAACGAUCGGAAGCUUCUGCUACAUGCAAUGG3'</td>
   <td name="td3">98</td>
@@ -2222,7 +2226,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer A.2 aptamer</td>
+  <td name="td0">HCV NS5B_Tomei_1</td>
   <td name="td1">Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein</td>
   <td name="td2">5'GGGAUGCUUCGGCAUCCCAGUCGAUGCGUAUCGCAGACUAUGUGGCUUCGGCCGUUGGAGUUGGUACCGCUUCGGCGGUACGUAAGCUUGGG3'</td>
   <td name="td3">92</td>
@@ -2232,7 +2236,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer B.2 aptamer</td>
+  <td name="td0">HCV NS5B_Tomei_2</td>
   <td name="td1">Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein</td>
   <td name="td2">5'GGGAUGCUUCGGCAUCCCCGAAGCCGCUAUGGACCAGUGGCGCGGCUUCGGCCCGACGGAGUGGUACCGCUUCGGCGGUACGUAAGCUUGGG3'</td>
   <td name="td3">92</td>
@@ -2242,7 +2246,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer B.3 aptamer</td>
+  <td name="td0">HCV NS5B_Tomei_3</td>
   <td name="td1">Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein</td>
   <td name="td2">5'GGGAUGCUUCGGCAUCCCGCUCUGGGCCGAAUAUGGACCACGUGGCUUCGGCCGCCAGCUCGUGUACCGCUUCGGCGGUACGUAAGCUUGGG3'</td>
   <td name="td3">92</td>
@@ -2252,7 +2256,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer B.2 SLII aptamer</td>
+  <td name="td0">HCV NS5B_Tomei_4</td>
   <td name="td1">Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein</td>
   <td name="td2">5'CGAAGCCGCGCUAUGGACCAGUGGCGCGGCUUCG3'</td>
   <td name="td3">34</td>
@@ -2262,7 +2266,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">SA19 Aptamer aptamer</td>
+  <td name="td0">Streptavidin_James_1</td>
   <td name="td1">Streptavidin (SA)</td>
   <td name="td2">5'AAUUAACCCUCACUAAAGGGAACUGUUGUGAGUCUCAUGUCGAACUUUCCUAGCGCACAUGCGACCUCUAUGCGUAAUACGAACGUUGACGGUUUGAGCGUCUAGUCUUGUCU3'</td>
   <td name="td3">113</td>
@@ -2272,7 +2276,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">DP3 aptamer</td>
+  <td name="td0">Neuropeptide Y_Famulok_1</td>
   <td name="td1">Neuropeptide Y (NPY)</td>
   <td name="td2">5'UCGGAGAAAGGGAAGCUUGAGCAGCAGGAGGGCCGGCGUUAGGGUUAGCGAGCCGAUUGAAAGAAGAAGGAACGAGCGUACGGAUCCGAUC3'</td>
   <td name="td3">91</td>
@@ -2282,7 +2286,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">W2 aptamer</td>
+  <td name="td0">C5 protein_Lee_1</td>
   <td name="td1">Complement 5 protein (C5 protein)</td>
   <td name="td2">5'CGUCCCUUCGCAACCCUUUAAGACUUGGGACCCUGCUCUU3'</td>
   <td name="td3">40</td>
@@ -2292,7 +2296,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA5 aptamer</td>
+  <td name="td0">T. thermophilus RF1_Sprinzl_1</td>
   <td name="td1">Release factor 1 (RF1), Thermus thermophilus (T. thermophilus)</td>
   <td name="td2">5'GGGAGAGGAUACUACACGUGGUGUGUCAAGCCAGCCCUAGCUUGCUACCUGGGGGCCACUGACCUAUCCAUUGCAUGUAGCAGAAGCUUCCG3'</td>
   <td name="td3">92</td>
@@ -2302,7 +2306,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA7 aptamer</td>
+  <td name="td0">T. thermophilus RF1_Sprinzl_2</td>
   <td name="td1">Release factor 1 (RF1), Thermus thermophilus (T. thermophilus)</td>
   <td name="td2">5'GGGAGAGGAUACUACACGUGGAAAGCUGAAAGUGAACGGAGUAUCACAGAGAACCCGGAAAAGUGGAGCCAUUGCAUGUAGCAGAAGCUUCCG3'</td>
   <td name="td3">93</td>
@@ -2312,7 +2316,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">SE RNA #1 aptamer</td>
+  <td name="td0">NFATc DBD_Lee_1</td>
   <td name="td1">Nuclear factor of activated T cells NFATc DNA binding domain (DBD)</td>
   <td name="td2">5'GGGAGAGCGGAAGCGUGCUGGGCCUCUGUUCCCAAGGGAAUACYGGUCGUGUUGGAUCAGGUUGGCAUAACCCAGAGGUCGAUGGAUCCCCCC3'</td>
   <td name="td3">92</td>
@@ -2322,7 +2326,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">bU118 aptamer</td>
+  <td name="td0">ATP_Burke_1</td>
   <td name="td1">ATP</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGACUUAGGAGGAAGAAACUGCACAAUACACAGAUCACGCGAAAGGAUAAUGCGUUCUGCGGAUUGUGGGCCUGGGCAUAAGGUAUUUAAUUCCAUA3'</td>
   <td name="td3">118</td>
@@ -2332,7 +2336,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">bU320 aptamer</td>
+  <td name="td0">ATP_Burke_2</td>
   <td name="td1">ATP</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAGCAAUCUUGUUAACGGUGGAGGACGUAUGAAGGAAACUUAGGAAUCCCUGGUCCACGAAUCUGACCGUGUGGGCAUAAGGUAUUUAAUUCCAUA3'</td>
   <td name="td3">118</td>
@@ -2342,7 +2346,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">bU321 aptamer</td>
+  <td name="td0">ATP_Burke_3</td>
   <td name="td1">ATP</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAAAGAACGUGAUGAAACGGUAACCAUAUCGCGUGCUCAAACUACAACGGAAAAUGAGGAGGAACGUGCUCAUGGGCAUAAGGUAUUUAAUUCCAUA3'</td>
   <td name="td3">119</td>
@@ -2352,7 +2356,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">bU40min aptamer</td>
+  <td name="td0">ATP_Burke_4</td>
   <td name="td1">ATP</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAUUCACUCUACACCCAUGUCCCUAGGACUACAGGUUAACUACAAACCUCGAUCCGGUGCUUAGGGUGUGCUGG3'</td>
   <td name="td3">100</td>
@@ -2362,7 +2366,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">E2F-E1 aptamer</td>
+  <td name="td0">E2F_Sullenger_1</td>
   <td name="td1">E2F transcription factor</td>
   <td name="td2">5'GUCGAUGUGAUAAGUAGGACGGAGGUGGUCGAU3'</td>
   <td name="td3">33</td>
@@ -2372,7 +2376,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">beta 55 aptamer</td>
+  <td name="td0">Beta amyloid peptide_Fürste_1</td>
   <td name="td1">Beta amyloid peptide (βA4(1–40))</td>
   <td name="td2">5'UUACCGUAAGGCCUGUCUUCGUUUGACAGCGGCUUGUUGACCCUCACACUUUGUACCUGCUGCCAA3'</td>
   <td name="td3">66</td>
@@ -2382,7 +2386,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 10-10 aptamer</td>
+  <td name="td0">GTP_Szostak_1</td>
   <td name="td1">Guanosine triphosphate (GTP)</td>
   <td name="td2">5'GUGACGCGACUAGUUACGGAUGCUCAACAGUAGCCAACACGAGUACUGCUUCGGCAGUGGAACCAACGUAGUAUGUUUAGCAUUCAUUCAGUUGGCGCCUCCUAUAGUGAGUCGUAUUACAU3'</td>
   <td name="td3">122</td>
@@ -2392,7 +2396,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Class I aptamer</td>
+  <td name="td0">GTP_Szostak_2</td>
   <td name="td1">Guanosine triphosphate (GTP)</td>
   <td name="td2">5'GUGACGCGACUAGUUACGGACUUUCCGaAGuGGUUGGGCUGCUUCGGCAGuGuGAAAaCGGAGAGUUCAUUCAGUUGGCGCCUCCUAUAGUGAGUCGUAUUACAU3'</td>
   <td name="td3">105</td>
@@ -2402,7 +2406,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 10-59 aptamer</td>
+  <td name="td0">GTP_Szostak_3</td>
   <td name="td1">Guanosine triphosphate (GTP)</td>
   <td name="td2">5'GUGACGCGACUAGUUACGGAGAUAAGUUCCCAAGGCGGGUUGGAAGAGAUAUCAUAGGAGCUUGUCUUCAUUCAGUUGGCGCCUCCUAUAGUGAGUCGUAUUACAU3'</td>
   <td name="td3">106</td>
@@ -2412,7 +2416,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 9-12 aptamer</td>
+  <td name="td0">GTP_Szostak_4</td>
   <td name="td1">Guanosine triphosphate (GTP)</td>
   <td name="td2">5'GUGACGCGACUAGUUACGGAUCUAGCAGUUCAGGUAACCACGUAAGAUACGGGUCUAGAUUCAUUCAGUUGGCGCCUCCUAUAGUGAGUCGUAUUACAU3'</td>
   <td name="td3">99</td>
@@ -2422,7 +2426,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 10-24 aptamer</td>
+  <td name="td0">GTP_Szostak_5</td>
   <td name="td1">Guanosine triphosphate (GTP)</td>
   <td name="td2">5'GUGACGCGACUAGUUACGGAGGCAUCUAUAUACUGCUUCGGCAGGGAACUCUACUAAGCACCGAUGUCUUCAUUCAGUUGGCGCCUCCUAUAGUGAGUCGUAUUACAU3'</td>
   <td name="td3">108</td>
@@ -2432,7 +2436,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 10-6 aptamer</td>
+  <td name="td0">GTP_Szostak_6</td>
   <td name="td1">Guanosine triphosphate (GTP)</td>
   <td name="td2">5'GUGACGCGACUAGUUACGGAAAUGAAGAUAGUCGGGACCACUUCCCUGAGUCUGCUUCGGCAGUAACUCCAAGGAGAAAGGUCGUCAUUUUCAUUCAGUUGGCGCCUCCUAUAGUGAGUCGUAUUACAU3'</td>
   <td name="td3">129</td>
@@ -2442,7 +2446,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C1 aptamer</td>
+  <td name="td0">Mitochondria_Adhya_1</td>
   <td name="td1">Mitochondria</td>
   <td name="td2">5'GGAAUUCUAAUACGACUCACUAUAGGGACGCAGGGACUGUACCUUCUAGGCUGGGUCAUGUGACUGUAGCGG3'</td>
   <td name="td3">72</td>
@@ -2452,7 +2456,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C16 aptamer</td>
+  <td name="td0">Mitochondria_Adhya_2</td>
   <td name="td1">Mitochondria</td>
   <td name="td2">5'GGAAUUCUAAUACGACUCACUAUAGGGACGCAGGGACUGUACGGUAAGUCCCCGGGCAUGUGACUGUAGCGG3'</td>
   <td name="td3">72</td>
@@ -2462,7 +2466,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C20 aptamer</td>
+  <td name="td0">Mitochondria_Adhya_3</td>
   <td name="td1">Mitochondria</td>
   <td name="td2">5'GGAAUUCUAAUACGACUCACUAUAGGGACGCAGGGACUGUAUGGUUUUCUGGGGUUUAUGUGACUGUAGCGG3'</td>
   <td name="td3">72</td>
@@ -2472,7 +2476,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C32 aptamer</td>
+  <td name="td0">Mitochondria_Adhya_4</td>
   <td name="td1">Mitochondria</td>
   <td name="td2">5'GGAAUUCUAAUACGACUCACUAUAGGGACGCAGGGACUGUACGGAUCAGAGUCUCCUAUGUGACUGUAGCGG3'</td>
   <td name="td3">72</td>
@@ -2482,7 +2486,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">P19 aptamer</td>
+  <td name="td0">NTS-1_Grisshammer_1</td>
   <td name="td1">Rat neurotensin receptor NTS-1</td>
   <td name="td2">5'UAAUACGACUACUAUAGGGAGGACGAUGCGGACAGAUACGGAACUACAGAGGUCAAUUACGGUGGCCACGCCAGACGACUCGCCCGA3'</td>
   <td name="td3">87</td>
@@ -2492,7 +2496,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R1-1 aptamer</td>
+  <td name="td0">HCV NS5B_Lai_1</td>
   <td name="td1">Hepatitis C virus NS5B protein (HCV NS5B protein)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAACUCCUAACCUCUCCGCAUGNGCUGUUACCUACACAGCUCAGCAUGCAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">86</td>
@@ -2502,7 +2506,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R20-43 aptamer</td>
+  <td name="td0">HCV NS5B_Lai_2</td>
   <td name="td1">Hepatitis C virus NS5B protein (HCV NS5B protein)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAUGUAGAGACUUUUCGAAAAGCGUGUUCCCAAUGAGUCUAUGCAUGCAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">87</td>
@@ -2512,7 +2516,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R20-15 aptamer</td>
+  <td name="td0">HCV NS5B_Lai_3</td>
   <td name="td1">Hepatitis C virus NS5B protein (HCV NS5B protein)</td>
   <td name="td2">5'GGGAGCUCAGAAUAAACGCUCAAUGUAGGCUAGUACCGACCUGCGUGCCUCGCUCCUUUUCAUGCAUGCAUGAGGCCCGGAUCCGGC3'</td>
   <td name="td3">87</td>
@@ -2522,7 +2526,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">11-1 aptamer</td>
+  <td name="td0">Angiopoietin-2_Sullenger_1</td>
   <td name="td1">Angiopoietin-2 (Ang2)</td>
   <td name="td2">5'GGGAGGACGAUGCGGACUAGCCUCAUCAGCUCAUGUGCCCCUCCGCCUGGAUCACCAGACGACUCGCUGAGGAUCCGAGA3'</td>
   <td name="td3">80</td>
@@ -2532,7 +2536,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">11-1.41 aptamer</td>
+  <td name="td0">Angiopoietin-2_Sullenger_2</td>
   <td name="td1">Angiopoietin-2 (Ang2)</td>
   <td name="td2">5'GAGGACGAUGCGGACUAGCCUCAUCAGCUCAUGUGCCCCUC3'</td>
   <td name="td3">41</td>
@@ -2542,7 +2546,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">T705 aptamer</td>
+  <td name="td0">Thrombin_Shao_1</td>
   <td name="td1">Thrombin, Bovine</td>
   <td name="td2">5'GCAAUGGUACGGUACUUCCUUUGGAAGAUAGCUGGAGAACUAACCAAAAGUGCACGCUACUUUGCUAA3'</td>
   <td name="td3">68</td>
@@ -2552,7 +2556,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">T710 aptamer</td>
+  <td name="td0">Thrombin_Shao_2</td>
   <td name="td1">Thrombin, Bovine</td>
   <td name="td2">5'GCAAUGGUACGGUACUUCCAAGUGCGGGGGGGAGGUGGUGGUUCCAAAAGUGCACGCUACUUUGCUAA3'</td>
   <td name="td3">68</td>
@@ -2562,7 +2566,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">A30 aptamer</td>
+  <td name="td0">HER3ECD_Landgraf_1</td>
   <td name="td1">Oligomeric state of the extracellular domains of human epidermal growth factor receptor-3 (HER3ECD)</td>
   <td name="td2">5'GGGAAUUCCGCGUGUGCCAGCGAAAGUUGCGUAUGGGUCACAUCGCAGGCACAUGUCAUCUGGGCGGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">83</td>
@@ -2572,7 +2576,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">#11 aptamer</td>
+  <td name="td0">eIF4A_Nakamura_1</td>
   <td name="td1">Mammalian translation initiation factor 4A (eIF4A)</td>
   <td name="td2">5'GGGAGACAAGAAUAAAACGCUCAAACAUUGCAUCGACAGCUGCAAGGCUCCCGCCGUACAAACCUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">88</td>
@@ -2582,7 +2586,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">#1 aptamer</td>
+  <td name="td0">eIF4A_Nakamura_2</td>
   <td name="td1">Mammalian translation initiation factor 4A (eIF4A)</td>
   <td name="td2">5'GGGAGACAAGAAUAAAACGCUCAACAGGCGUUUAGCCUCUAAGUAACAGGGGCCUCCCAUGAGCUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">88</td>
@@ -2592,7 +2596,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">#20 aptamer</td>
+  <td name="td0">eIF4A_Nakamura_3</td>
   <td name="td1">Mammalian translation initiation factor 4A (eIF4A)</td>
   <td name="td2">5'GGGAGACAAGAAUAAAACGCUCAAGGGGACCGCGCCCCACAUGUGAGUGAGGCCGAAACGUAGAUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">88</td>
@@ -2602,7 +2606,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">#30 aptamer</td>
+  <td name="td0">eIF4A_Nakamura_4</td>
   <td name="td1">Mammalian translation initiation factor 4A (eIF4A)</td>
   <td name="td2">5'GGGAGACAAGAAUAAAACGCUCAAUGUGGAUGAUUUGUAUGAUCGCGCAUACAAUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">78</td>
@@ -2612,7 +2616,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">no.21 aptamer</td>
+  <td name="td0">eIF4A_Nakamura_5</td>
   <td name="td1">Mammalian translation initiation factor 4A (eIF4A)</td>
   <td name="td2">5'GGGAGACAAGAAUAAAACGCUCAAGGGGACCGCGCCCCACAUGUGAGUGAGGCCGAAACAUAGAUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">88</td>
@@ -2622,7 +2626,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">pRNAwt aptamer</td>
+  <td name="td0">ATP_Guo_1</td>
   <td name="td1">ATP (Adenosine triphosphate)</td>
   <td name="td2">5'UCAAUGGUACGGUACUUCCAUUGUCAUGUGUAUGUUGGGGAUUAAACCCUGAUUGAGUUCAGconCCCACAUACUUUGUUGAUUGGUUGUCAAUCAUGGCAAAAGUGCACGCUACUUUGA3'</td>
   <td name="td3">118</td>
@@ -2632,7 +2636,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptRNA1 aptamer</td>
+  <td name="td0">ATP_Guo_2</td>
   <td name="td1">ATP (Adenosine triphosphate)</td>
   <td name="td2">5'UCAAUGGUACGGUACUUCCAUUGUCAUGUGUAGGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGconCAACCCUACUUUGUUGAUUGGUUGUCAAUCAUGGCAAAAGUGCACGCUACUUUGA3'</td>
   <td name="td3">122</td>
@@ -2642,7 +2646,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">tMG RNA aptamer</td>
+  <td name="td0">MAb198 antibody_Lee_1</td>
   <td name="td1">MAb198 antibody, Rat</td>
   <td name="td2">5'GGGCCGGAGGUUAGCUUGCCCAUGGCAAGCAGGGCGCCACGGACCC3'</td>
   <td name="td3">46</td>
@@ -2652,7 +2656,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">M1 aptamer</td>
+  <td name="td0">4,4′-methylenedianiline_Labuda_1</td>
   <td name="td1">4,4′-methylenedianiline (MDA)</td>
   <td name="td2">5'GCCUGUUGUGAGCCUCCUGUCGAACUGCGAUCAGCGGUAAAUUUCCGCGCAGCCUCCACGCCGCUUGAGCGUUUAUUCUUGUCUCCC3'</td>
   <td name="td3">87</td>
@@ -2662,7 +2666,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">M3 aptamer</td>
+  <td name="td0">4,4′-methylenedianiline_Labuda_2</td>
   <td name="td1">4,4′-methylenedianiline (MDA)</td>
   <td name="td2">5'GCCUGUUGUGAGCCUCCUGUCGAACAGAGGCAGUACUCAUCAACCCGAGCCUUCCGUCCCUGAGUUGAGCGUUUAUUCUUGUCUCCC3'</td>
   <td name="td3">87</td>
@@ -2672,7 +2676,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">M22 aptamer</td>
+  <td name="td0">4,4′-methylenedianiline_Labuda_3</td>
   <td name="td1">4,4′-methylenedianiline (MDA)</td>
   <td name="td2">5'GCCUGUUGUGAGCCUCCUGUCGAAUGGGAGGAGUGCUGCUCUCCAGGCACUCUUGUUGCUCGGAUUGAGCGUUUAUUCUUGUCUCCC3'</td>
   <td name="td3">87</td>
@@ -2682,7 +2686,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA aptamer #1 aptamer</td>
+  <td name="td0">NFAT DBD_Lee_1</td>
   <td name="td1">Nuclear factor of activated T cells DNA binding domain (NFAT DBD)</td>
   <td name="td2">5'GGGAGAGCGGAAGCGUGCUGGGCCGAUAUGAAGGAGUGGAGAGGGUGGCAGCAUGGUCCGGAUCCAUAACCCAGAGGUCGAUGGAUCCCCCC3'</td>
   <td name="td3">92</td>
@@ -2692,7 +2696,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA aptamer #2 aptamer</td>
+  <td name="td0">NFAT DBD_Lee_2</td>
   <td name="td1">Nuclear factor of activated T cells DNA binding domain (NFAT DBD)</td>
   <td name="td2">5'GGGAGAGCGGAAGCGUGCUGGGCCGAGGGAGGCGAUAUGAAGGUGUAGAGAGGCCUCCUGGACACAUAACCCAGAGGUCGAUGGAUCCCCCC3'</td>
   <td name="td3">92</td>
@@ -2702,7 +2706,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F1-1 aptamer</td>
+  <td name="td0">CRD of colicin E3_Yokoyama_1</td>
   <td name="td1">C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUACUGUCCUCCCUUCAGAGAGCGCGGGACCCUUAACUUGGGGCCCACGAACAGCUUCAGUUCCGUCUCGGCGUCAUAUGUGCGUCUACAUGGAUCCUCA3‘</td>
   <td name="td3">121</td>
@@ -2712,7 +2716,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F2-1 aptamer</td>
+  <td name="td0">CRD of colicin E3_Yokoyama_2</td>
   <td name="td1">C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUUCCCUGGCCCAAGAUCCUAAUAAAGUUUUUUCGGACCGGAGCGAAACCACUAUCCUCUUAAGCAAUCUGUCAUAUGUGCGUCUACAUGGAUCCUCA3‘</td>
   <td name="td3">119</td>
@@ -2722,7 +2726,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F3-1 aptamer</td>
+  <td name="td0">CRD of colicin E3_Yokoyama_3</td>
   <td name="td1">C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUGUACAACACAUCAUUACGGCUGCUAUUGGCUCCAAGCGUCUUUCUCCCUGGUCAAUAGUCCAGCCACCACGCAUAUGUGCGUCUACAUGGAUCCUCA3‘</td>
   <td name="td3">120</td>
@@ -2732,7 +2736,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F4-1 aptamer</td>
+  <td name="td0">CRD of colicin E3_Yokoyama_4</td>
   <td name="td1">C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUGACAUCUGUAAGUAAGAUUCUAUCUGCAAAGCGGUUAGGAGGGCUCGGACUCUGAUUGCCUCCCCGCACCCAUAUGUGCGUCUACAUGGAUCCUCA3‘</td>
   <td name="td3">119</td>
@@ -2742,7 +2746,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F4-2 aptamer</td>
+  <td name="td0">CRD of colicin E3_Yokoyama_5</td>
   <td name="td1">C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUGACAUCUGUAAGUAAGAUUCUAUCUGCAAAGCGGUUAGGGGGGCUCGGACUCUGAUUGCCUCCCCGCACCCAUAUGUGCGUCUACAUGGAUCCUCA3‘</td>
   <td name="td3">119</td>
@@ -2752,7 +2756,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F5-1 aptamer</td>
+  <td name="td0">CRD of colicin E3_Yokoyama_6</td>
   <td name="td1">C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUGUCAGCUGCUCGCGGGAUCGAUCCAUUCGGUGGCCAUGCUCCGGAAGACGGGCCGGCUUCGCAAGACUCAGGCAUAUGUGCGUCUACAUGGAUCCUCA3‘</td>
   <td name="td3">121</td>
@@ -2762,7 +2766,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">apt1 aptamer</td>
+  <td name="td0">RANK_Nakamura_1</td>
   <td name="td1">Receptor activator of NF-kappaB (RANK), Human</td>
   <td name="td2">5'ACACAAUGGACGGAUUCGUAUGGGUGGGAUCGGGAAGGGCUACGAACACCGUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">69</td>
@@ -2772,7 +2776,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">apt2 aptamer</td>
+  <td name="td0">RANK_Nakamura_2</td>
   <td name="td1">Receptor activator of NF-kappaB (RANK), Human</td>
   <td name="td2">5'ACACAAUGGACGAUAUGGUAUUGAGGUGGGAAGGGGAUUGGGAUAAUUGCCAUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">70</td>
@@ -2782,7 +2786,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">apt3 aptamer</td>
+  <td name="td0">RANK_Nakamura_3</td>
   <td name="td1">Receptor activator of NF-kappaB (RANK), Human</td>
   <td name="td2">5'ACACAAUGGACGAUAGUGGUUGGGAUUGGGUGGGCGCACAAGUUGUUCCGUUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">69</td>
@@ -2792,7 +2796,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">3.1 aptamer</td>
+  <td name="td0">hTNFα_Zhang_1</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACCCCGGGUUCUGUAUGAUCCGACCGGUCAGAUAAGACCACAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2802,7 +2806,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">7.5 aptamer</td>
+  <td name="td0">hTNFα_Zhang_2</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACGCAUCGUUUGCGUGGCGUGUCCGGGCGCCGAUUCGUAAAAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2812,7 +2816,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">12 aptamer</td>
+  <td name="td0">hTNFα_Zhang_3</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACUAGGCGGAUUGUUUCGAUUCUUUGCCUUGUCCCUAGUGCAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2822,7 +2826,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">14.8 aptamer</td>
+  <td name="td0">hTNFα_Zhang_4</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACGUAUAUACGGAUUAGGUUGUAGCUCAGACCAGUAAUGUCAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2832,7 +2836,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">16.3 aptamer</td>
+  <td name="td0">hTNFα_Zhang_5</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACGUGCUAGAUGCUACGAGUGGUCUCCUCACGUAGAAGGGGAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2842,7 +2846,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">18.1 aptamer</td>
+  <td name="td0">hTNFα_Zhang_6</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAGGUCCCACAUAGGUUGGUCUUGUUGUAUGGGCUGUUUGCAAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2852,7 +2856,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">1 aptamer</td>
+  <td name="td0">hTNFα_Zhang_7</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAGUGUUUUGGGAGAGAAAAGGGGGAGCCUUUACUUUGUUGGAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2862,7 +2866,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">2 aptamer</td>
+  <td name="td0">hTNFα_Zhang_8</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAGACGAUGUUAUCAGGGAGUUGGGAUCAUAUAGUCUUACAUAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2872,7 +2876,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">4 aptamer</td>
+  <td name="td0">hTNFα_Zhang_9</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACGCAAGAGCCGCCCUAAUGGUUCAAUGGUAACUGUAUAUGAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2882,7 +2886,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">6 aptamer</td>
+  <td name="td0">hTNFα_Zhang_10</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAGACUUCUUGUGCCAUUAUGAAUUAUUGCUAAUCCUCUUGAAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2892,7 +2896,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">8.6 aptamer</td>
+  <td name="td0">hTNFα_Zhang_11</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAAGGACGUACUUGGAAAAGAGGCGCGAAGAACCUGGUAUGUAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2902,7 +2906,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">9 aptamer</td>
+  <td name="td0">hTNFα_Zhang_12</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAUAGGACGUACUUGGAAAAGAGGCGCGAAGAACCUGGUAUGAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2912,7 +2916,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">10 aptamer</td>
+  <td name="td0">hTNFα_Zhang_13</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAUGGCCACCUUGCCACUCUUCCUUGCAUAUUUUACUCCCGCAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2922,7 +2926,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">11.7 aptamer</td>
+  <td name="td0">hTNFα_Zhang_14</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACAAGCCGAGGGGGAGUAUCUGAUGACAAUUCGGAGCUCCAAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2932,7 +2936,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">13.2 aptamer</td>
+  <td name="td0">hTNFα_Zhang_15</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAUCAUGGUGUGUGAGUUAGCUCACGUGCCGUUUCGAAGGCGAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2942,7 +2946,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">17.9 aptamer</td>
+  <td name="td0">hTNFα_Zhang_16</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACAUGGGCUAGACCGGCAUAAAACUGCUGUAGUUGCACGCCAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2952,7 +2956,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">20.4 aptamer</td>
+  <td name="td0">hTNFα_Zhang_17</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACGUUGUAGUAGUGGCUUGGGCAUAACUCAGUUAAACACUAAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2962,7 +2966,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">15 aptamer</td>
+  <td name="td0">hTNFα_Zhang_18</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUAGACCGCGGAAAAGGAAGGAAUUAGAUACAACGGAGAAGUGAAGAAGACUCGCAAGA3'</td>
   <td name="td3">71</td>
@@ -2972,7 +2976,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">T1.7.5 aptamer</td>
+  <td name="td0">hTNFα_Zhang_19</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACGCAUCGUUUGCGUGGCGUGUCCGGGCGCAAGAAGACUCGCAAGA3'</td>
   <td name="td3">60</td>
@@ -2982,7 +2986,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">T4.14.8 aptamer</td>
+  <td name="td0">hTNFα_Zhang_20</td>
   <td name="td1">Tumor necrosis factor alpha (hTNFα), Human</td>
   <td name="td2">5'GGGAGGACGAUGUUACGUAUAUACGGAUUAGGUUGUAGCUCAGACCAAGAAGACUCGCAAGA3'</td>
   <td name="td3">62</td>
@@ -2992,7 +2996,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">K61 aptamer</td>
+  <td name="td0">ARNO/cytohesin-2_Famulok_1</td>
   <td name="td1">ADP-ribosylation factors (ARF) nucleotide-binding site opener (ARNO)/cytohesin-2</td>
   <td name="td2">5'GGGAGAGACAAGCUUGGGUCGCGUUUUGCUAUUGAUUUCUUUUAACCUGGCCUGUUUGGGCCUCUUGCUCUUCCUAGGAGU3'</td>
   <td name="td3">81</td>
@@ -3002,7 +3006,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">#10 aptamer</td>
+  <td name="td0">TCF-1_Jeong_1</td>
   <td name="td1">T-Cell Factor-1 (TCF-1) protein</td>
   <td name="td2">5'GGGGAGCUCGGUACCGGUGCGAUCCCCUGUUUACAUUGCAUGCUAGGACGACGCGCCCGAGCGGGUACCCAUUGUGUCGUCGGAAGCUUUGCAGAGGAUC3'</td>
   <td name="td3">100</td>
@@ -3012,7 +3016,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">A11 aptamer</td>
+  <td name="td0">RPKPQQFFGLM-NH2_Klussmann_1</td>
   <td name="td1">RPKPQQFFGLM-NH2 (peptide, Substance P )</td>
   <td name="td2">5'GGAGCUUAGACAACAGCAGCGUGCAGGUGGGUAAAGGGGUGUGAUCGAGGGUCGAGAGGCACGCUCAGGUGAGUCGGUUCCAC'3</td>
   <td name="td3">83</td>
@@ -3022,7 +3026,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">SUP-A-004 aptamer</td>
+  <td name="td0">RPKPQQFFGLM-NH2_Klussmann_2</td>
   <td name="td1">RPKPQQFFGLM-NH2 (peptide, Substance P )</td>
   <td name="td2">5'GGCGCAGGUGGGUAAAGGGGUGUGAUCGAGGGUCGAGAGGCGCC3'</td>
   <td name="td3">44</td>
@@ -3032,7 +3036,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">s23 aptamer</td>
+  <td name="td0">TFKBP*3R-2G_Verdine_1</td>
   <td name="td1">TFKBP*3R-2G (cell surface protein)</td>
   <td name="td2">5'GGGUUCGAAUGCAAGUCUGGUGAGUGUUGGGAGGGCAGUGACUUGCUUCGUAGUGUAAACUGACGUGGCGGUGUUACUUUACUGUUACGCUAGGUUACGGG3'</td>
   <td name="td3">101</td>
@@ -3042,7 +3046,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">T1 s23 aptamer</td>
+  <td name="td0">TFKBP*3R-2G_Verdine_2</td>
   <td name="td1">TFKBP*3R-2G (cell surface protein)</td>
   <td name="td2">5'CGAAUGCAAGUCUGGUGAGUGUUGGGAGGGCAGUGACUUGCUUCG3'</td>
   <td name="td3">45</td>
@@ -3052,7 +3056,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">T2 s23 aptamer</td>
+  <td name="td0">TFKBP*3R-2G_Verdine_3</td>
   <td name="td1">TFKBP*3R-2G (cell surface protein)</td>
   <td name="td2">5'GCAAGUCUGGUGAGUGUUGGGAGGGCAGUGACUUGC3'</td>
   <td name="td3">36</td>
@@ -3062,7 +3066,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C44 aptamer</td>
+  <td name="td0">mCXCL10_Gearing_1</td>
   <td name="td1">IFN-gamma-inducible (IFN-γ-Inducible) mCXCL10 Chemokine (also known as IP-10 in humans and CRG-2 in mice)</td>
   <td name="td2">5'UAAUACGACUCACUAUAGGGAGGACGAUGCGGCAUGCGUCUGACCUACGUGCCAAGCAUUUGUGUAACCCGUCAGACGACUCGCCCGA3'</td>
   <td name="td3">88</td>
@@ -3072,7 +3076,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C44-38 aptamer</td>
+  <td name="td0">mCXCL10_Gearing_2</td>
   <td name="td1">IFN-gamma-inducible (IFN-γ-Inducible) mCXCL10 Chemokine (also known as IP-10 in humans and CRG-2 in mice)</td>
   <td name="td2">5'UCUGACCUACGUGCCAAGCAUUUGUGUAACCCGUCAGA3'</td>
   <td name="td3">38</td>
@@ -3082,7 +3086,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">P31 aptamer</td>
+  <td name="td0">mCXCL10_Gearing_3</td>
   <td name="td1">IFN-gamma-inducible (IFN-γ-Inducible) mCXCL10 Chemokine (also known as IP-10 in humans and CRG-2 in mice)</td>
   <td name="td2">5'UAAUACGACUCACUAUAGGGAGGACGAUGCGGAGUUUCUUCUGAGGUCUGAACCUUUCGAAAGCUGGCGCUCAGACGACUCGCCCGA3'</td>
   <td name="td3">87</td>
@@ -3092,7 +3096,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">P12 aptamer</td>
+  <td name="td0">mCXCL10_Gearing_4</td>
   <td name="td1">IFN-gamma-inducible (IFN-γ-Inducible) mCXCL10 Chemokine (also known as IP-10 in humans and CRG-2 in mice)</td>
   <td name="td2">5'UAAUACGACUCACUAUAGGGAGGACGAUGCGGACUGAACCUAAUUUGAAAUUGGCUGGCGCGCAUAUUCCGUCAGACGACUCGCCCGA3'</td>
   <td name="td3">88</td>
@@ -3102,7 +3106,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C17 aptamer</td>
+  <td name="td0">HSV-1 US11_Coen_1</td>
   <td name="td1">Herpes simplex virus-1 (HSV-1) US11</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3112,7 +3116,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R9-43 aptamer</td>
+  <td name="td0">CsrA_Babitzke_1</td>
   <td name="td1">Carbon storage regulation protein A, Escherichia coli (CsrA of E. coli)</td>
   <td name="td2">5'ACCGAGUCCAGAAGCUUGUAGUACACAAGGAUGUGCCAUGCCUAGAUGGAGUUGAAUUCUCCCUAUAGUGAGUCGUAUUAC3'</td>
   <td name="td3">81</td>
@@ -3122,7 +3126,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 1 aptamer</td>
+  <td name="td0">eIF4E_Nakamura_1</td>
   <td name="td1">Mammalian eukaryotic translation initiation factor 4F (eIF4E)</td>
   <td name="td2">5'GGGAGACAAGAAUAAACGCUCAAUGUUCAACCAGAGUGAAACCACUAACGGGUCAGAGCCCCUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">86</td>
@@ -3132,7 +3136,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 2 aptamer</td>
+  <td name="td0">eIF4E_Nakamura_2</td>
   <td name="td1">Mammalian eukaryotic translation initiation factor 4F (eIF4E)</td>
   <td name="td2">5'GGGAGACAAGAAUAAACGCUCAAGCCAGAGCAACAACCUUCCGAGCCGCGGGAUAAAACCGAGUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">87</td>
@@ -3142,7 +3146,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">S-PS8.4 aptamer</td>
+  <td name="td0">pre-PilS_Wu_1</td>
   <td name="td1">Type IVB pili of Salmonella enterica (S. enterica) serovar Typhi (pre-PilS)</td>
   <td name="td2">5'GCGGAAUUCUAAUACGACUCACUAUAGGGAACAGUCCGAGCCUCACUGUUAUCCGAUAGCAGCGCGGGAUGAGGGUCAAUGCGUCAUA3'</td>
   <td name="td3">88</td>
@@ -3152,7 +3156,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">clone A (wild type) aptamer</td>
+  <td name="td0">HA influenza virus_Kumar_1</td>
   <td name="td1">Hemagglutinin influenza virus (HA influenza virus)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGGGUUAGCAGUCGGCAUGCGGUACAGACAGACCUUUCCUCUCUCCUUCCUCUUCU3'</td>
   <td name="td3">74</td>
@@ -3162,7 +3166,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">clone B aptamer</td>
+  <td name="td0">HA influenza virus_Kumar_2</td>
   <td name="td1">Hemagglutinin influenza virus (HA influenza virus)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGGGUUAGCGGUCGUCUUAAGUAGUUUUUGGUCCUUUCCUCUCUCCUUCCUCUUCU3'</td>
   <td name="td3">74</td>
@@ -3172,7 +3176,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F38 aptamer</td>
+  <td name="td0">3Dpol_Stonehouse_1</td>
   <td name="td1">RNA-dependent RNA polymerase (3Dpol)</td>
   <td name="td2">5'GGGAAGGGAUCCACAUCUACAAAUUCCUUCAUAAUAAACCCGUCCACGCCCUUCGAAGCAGUUCAGACGUCACUU3'</td>
   <td name="td3">75</td>
@@ -3182,7 +3186,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F47 aptamer</td>
+  <td name="td0">3Dpol_Stonehouse_2</td>
   <td name="td1">RNA-dependent RNA polymerase (3Dpol)</td>
   <td name="td2">5'GGGAAGGGAUCCAAUCUACAAAUUCGUUAACAGAAAACCUCAGUUGCUGGGUUGUUUUCACUGCAAACUUGACAAAGCUA3'</td>
   <td name="td3">80</td>
@@ -3192,7 +3196,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F52 aptamer</td>
+  <td name="td0">3Dpol_Stonehouse_3</td>
   <td name="td1">RNA-dependent RNA polymerase (3Dpol)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCCUUACCCGUGAACCGCAGUUGCUGAGUUGUUCGAAGCAGUUCAGACGUCACUU3'</td>
   <td name="td3">79</td>
@@ -3202,7 +3206,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F47tr aptamer</td>
+  <td name="td0">3Dpol_Stonehouse_4</td>
   <td name="td1">RNA-dependent RNA polymerase (3Dpol)</td>
   <td name="td2">5'GGGUUAACAGAAAACCUCAGUUGCUGGGUUGU3'</td>
   <td name="td3">32</td>
@@ -3212,7 +3216,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 32 aptamer</td>
+  <td name="td0">polβ_Miller_1</td>
   <td name="td1">DNA polymerase beta (polβ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCGGUUGGGUUGUCGUAGAUAGAGCGCUUCAAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3222,7 +3226,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 32 aptamer</td>
+  <td name="td0">polκ_Miller_2</td>
   <td name="td1">DNA polymerase kappa (polκ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCGGUUGGGUUGUCGUAGAUAGAGCGCUUCAAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3232,7 +3236,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 25 aptamer</td>
+  <td name="td0">polβ_Miller_3</td>
   <td name="td1">DNA polymerase beta (polβ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCGGUUGGGUUGUCGUAGAUAUAGCUUAGCCAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3242,7 +3246,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 25 aptamer</td>
+  <td name="td0">polκ_Miller_4</td>
   <td name="td1">DNA polymerase kappa (polκ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCGGUUGGGUUGUCGUAGAUAUAGCUUAGCCAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3252,7 +3256,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 53 aptamer</td>
+  <td name="td0">polβ_Miller_5</td>
   <td name="td1">DNA polymerase beta (polβ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCGGGUGGGUUGUCGUGGAUGACGAUUAUCAGUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3262,7 +3266,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 45 aptamer</td>
+  <td name="td0">polβ_Miller_6</td>
   <td name="td1">DNA polymerase beta (polβ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUUCGGGGGGGUUGUUCGUGGAAAAUGCUUGCGUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3272,7 +3276,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 45 aptamer</td>
+  <td name="td0">polκ_Miller_7</td>
   <td name="td1">DNA polymerase kappa (polκ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUUCGGGGGGGUUGUUCGUGGAAAAUGCUUGCGUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3282,7 +3286,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer 31 aptamer</td>
+  <td name="td0">polβ_Miller_8</td>
   <td name="td1">DNA polymerase beta (polβ)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCGUUAACUGACCCAGGGAAGUGCCACCCCCCUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3292,7 +3296,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RM312 aptamer</td>
+  <td name="td0">ovine Prion protein_Marc_1</td>
   <td name="td1">RecombiNAt ovine PrP (Prion protein) of the susceptible-specific (V136R154Q171) or resistant-specific (A136R154R171) alleles</td>
   <td name="td2">5'GAGGAUCCGCCGAGUAACAGACGUCGGGGAUUGGCAAACCCCGUUUCCUUGAGCGACCCCCUUGAGGCUCGAAUUCGCCC3'</td>
   <td name="td3">80</td>
@@ -3302,7 +3306,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RM312c (truncated RM312) aptamer</td>
+  <td name="td0">ovine Prion protein_Marc_2</td>
   <td name="td1">RecombiNAt ovine PrP (Prion protein) of the susceptible-specific (V136R154Q171) or resistant-specific (A136R154R171) alleles</td>
   <td name="td2">5'GAGGAUCCGCCGAGUAACAGACGUCGGGGAUUGGCAAACCCCGUUUCCUUGAG3'</td>
   <td name="td3">53</td>
@@ -3312,7 +3316,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RM312e (truncated RM312) aptamer</td>
+  <td name="td0">ovine Prion protein_Marc_3</td>
   <td name="td1">RecombiNAt ovine PrP (Prion protein) of the susceptible-specific (V136R154Q171) or resistant-specific (A136R154R171) alleles</td>
   <td name="td2">5'GGCAAACCCCGUUUCCUUGAGCGACCCCCUUGAGGCUCGAAUUCGCCC3'</td>
   <td name="td3">48</td>
@@ -3322,7 +3326,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RM120 aptamer</td>
+  <td name="td0">ovine Prion protein_Marc_4</td>
   <td name="td1">RecombiNAt ovine PrP (Prion protein) of the susceptible-specific (V136R154Q171) or resistant-specific (A136R154R171) alleles</td>
   <td name="td2">5'GAGGAUCCGCCGAGUAACAGAGUAGCAACAGAAUUGGAUCCCGACCACUAAGAACCCGGCCUUGAGGCUCGAAUUCGCCC3'</td>
   <td name="td3">80</td>
@@ -3332,7 +3336,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RM207 aptamer</td>
+  <td name="td0">ovine Prion protein_Marc_5</td>
   <td name="td1">RecombiNAt ovine PrP (Prion protein) of the susceptible-specific (V136R154Q171)</td>
   <td name="td2">5'GAGGAUCCGCCGAGUAACAGUGCCAUGAGUGAAAUAAAACCAUCCGGAACUAAGACUGCGCUUGAGGCUCGAAUUCGCCC3'</td>
   <td name="td3">80</td>
@@ -3342,7 +3346,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RM14 aptamer</td>
+  <td name="td0">ovine Prion protein_Marc_6</td>
   <td name="td1">RecombiNAt ovine PrP (prion protein) of the susceptible-specific (V136R154Q171) or resistant-specific (A136R154R171) alleles</td>
   <td name="td2">5'GAGGAUCCGCCGAGUAACAGCGUGCAGGUACUAGCUCCACCCCGAGGGGGCACAUCAUUUCUUGAGGCUCGAAUUCGCCC3'</td>
   <td name="td3">80</td>
@@ -3352,7 +3356,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R9-2 aptamer</td>
+  <td name="td0">CED-9_Xue_1</td>
   <td name="td1">Caenorhabditis elegans Bcl-2 homolog CED-9</td>
   <td name="td2">5'AGGGAGGACGAUGCGGGGUGCUUCGAGCGUAGGAAGAAAGCCGGGGGCUGCAGAUAAUGUAUAGCCAGACGACGGA3'</td>
   <td name="td3">76</td>
@@ -3362,7 +3366,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R9-7 aptamer</td>
+  <td name="td0">CED-9_Xue_2</td>
   <td name="td1">Caenorhabditis elegans Bcl-2 homolog CED-9</td>
   <td name="td2">5'AGGGAGGACGAUGCGGGAUGGACGCUUAUCCGCAUAGAGGUUUACUACUUCGGAGACUGCCGAUACAGACGACGGA3'</td>
   <td name="td3">76</td>
@@ -3372,7 +3376,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">clone 5 aptamer</td>
+  <td name="td0">Bovine factor IX_Mizuno_1</td>
   <td name="td1">Bovine factor IX</td>
   <td name="td2">5'GGGAGCUCAGCCUUCACUGC-CUACGCGGGCGUUUACGUAACGGCUUAUGGGGAGCUGAGCGCUUGACCGUGGUAGUGCUAAGCAGUAAACGAG-GGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">113</td>
@@ -3382,7 +3386,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Class A-20 aptamer</td>
+  <td name="td0">Hemagglutinin_Kumar_1</td>
   <td name="td1">Influenza B virus hemagglutinin (HA) (B/Johannesburg/05/1999), Human</td>
   <td name="td2">5'GGGAGCUCAGCCUUCACUGCACUCCGGCUGGUGGACGCGGUACGAGCAAUUUGUACCGGAUGGAUGUUCGGGCAGCGGUGUGGCAGGGAUGAGCGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">114</td>
@@ -3392,7 +3396,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TH14 aptamer</td>
+  <td name="td0">B1-CT_Famulok_1</td>
   <td name="td1">Cytoplasmic tail of BACE (B1-CT)</td>
   <td name="td2">5'GGGAUAGGAUCCACAUCUACGUAUUACGCAACGCCGGGCCACUACGCGAAUGGCAAGCCCGUCGACUUCACUGCAGACUUGACGAAGCUU3' </td>
   <td name="td3">90</td>
@@ -3402,7 +3406,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">S10 aptamer</td>
+  <td name="td0">B1-CT_Famulok_2</td>
   <td name="td1">Cytoplasmic tail of BACE (B1-CT)</td>
   <td name="td2">5'GGGAUAGGAUCCACAUCUACGUAUUAGUACACGUCGGCCACCUACGCGAAGUGGAAGCCUCAUUUGUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">90</td>
@@ -3412,7 +3416,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">P30-10-16 aptamer</td>
+  <td name="td0">Haemagglutinin_Kumar_1</td>
   <td name="td1">Haemagglutinin (HA) region of the target strain A/Panama/2007/1999(H3N2)</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGGGUUAAGCAGUCGGCAUGCGGUACAGACAGACCUUUCCUCUCUCCUUCCUCUUCU3'</td>
   <td name="td3">75</td>
@@ -3422,7 +3426,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">A07 aptamer</td>
+  <td name="td0">rTGF_Nakamura_1</td>
   <td name="td1">RecombiNAt transforming growth factor-beta type III receptor displayed on cell surface</td>
   <td name="td2">5'GGGCCAGGCAGCGAGAGAUAAGCAGAAGAAGUAUGUGACCAUGCUCCAGAGAGCAACUUCACAUGCGUAGCCAAACCGACCACACGCGUCCGAGA3'</td>
   <td name="td3">95</td>
@@ -3432,7 +3436,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">FC5 aptamer</td>
+  <td name="td0">Coedine_Smolke_1</td>
   <td name="td1">Coedine</td>
   <td name="td2">5'GGGACAGGGCUAGCAGUAGGAUUGGGUGAGGGGAUGUGCUGUGGAGGCAAAGCUUCCG3'</td>
   <td name="td3">58</td>
@@ -3442,7 +3446,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">FC45 aptamer</td>
+  <td name="td0">Coedine_Smolke_2</td>
   <td name="td1">Coedine</td>
   <td name="td2">5'GGGACAGGGCUAGCUUAGUGCUAUGUGAGAAAAGGGUGUGGGGGGAGGCAAAGCUUCCG3'</td>
   <td name="td3">59</td>
@@ -3452,7 +3456,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">pUC19 aptamer</td>
+  <td name="td0">S37A-β-catenin_Jeong_1</td>
   <td name="td1">S37A-β-catenin, Human</td>
   <td name="td2">5'GGACGCGUGGUACCAGGCCGAUCUAUGGACGCUAUAGGCACACCGGAUACUUUAACGAUUGGCUAAGCUUCCGCGGGGAUC3'</td>
   <td name="td3">81</td>
@@ -3462,7 +3466,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Aptamer #25 aptamer</td>
+  <td name="td0">AMPA receptor_Jayaraman_1</td>
   <td name="td1">Alpha-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) (α-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid) receptors</td>
   <td name="td2">5'ACCGAGUCCAGAAGCUUGUAGUACUCGGCGAACUACCUAACCCCCCACAAUUGUAUUAUCGCCCGCCUAGAUGGCAGUUGAAUUCUCCCUAUAGUGAGUCGUAUUAC3'</td>
   <td name="td3">107</td>
@@ -3472,7 +3476,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ApT4-A aptamer</td>
+  <td name="td0">Thyroxine_Perreault_1</td>
   <td name="td1">Thyroxine (T4)</td>
   <td name="td2">5'GAAUUCGUCGACGGAUCCGCAGUGCGUCUUGGGUUGUGAGCUCCCGGCUCGCAUUGUGAGGUGGAGGGGGACGUGCUGCAGGUCGACGCAUGCGCCG3'</td>
   <td name="td3">97</td>
@@ -3482,7 +3486,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer-2 aptamer</td>
+  <td name="td0">Calsenilin_Yu_1</td>
   <td name="td1">Biased conformation(s) of calsenilin</td>
   <td name="td2">5'GGGACGCGUGGUACCGACGGAGGCUUGUUUAUGUAGGGAUGUAAGGGGAUGGGCAAUGUGGCGACAGCUUCCGCGGGGAUC3'</td>
   <td name="td3">81</td>
@@ -3492,7 +3496,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer-12 aptamer</td>
+  <td name="td0">Calsenilin_Yu_2</td>
   <td name="td1">Biased conformation(s) of calsenilin</td>
   <td name="td2">5'GGGACGCGUGGUACCAAAGAGGCUGCGCGGAAGUGAGGGUGUUGGUUACGAAGGUUGGUGUGUGAAGCUUCCGCGGGGAUC3'</td>
   <td name="td3">81</td>
@@ -3502,7 +3506,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">II-1 aptamer</td>
+  <td name="td0">RF-1_Aoyama_1</td>
   <td name="td1">Release factor 1, Escherichia coli (E. Coli)</td>
   <td name="td2">5'GGACCGAGAAGYYACCCAGGAUUGCGUGUUAAGGCGCUCGGCUCGAUAUUUAUGCUGGUCAUGGUGGACGCACAUCGCAGCAAC3'</td>
   <td name="td3">82</td>
@@ -3512,7 +3516,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">M-2 aptamer</td>
+  <td name="td0">beta(2)m fibrils_Stockley_1</td>
   <td name="td1">Amyloid-like fibrils formed in vitro from monomeric beta-2-microglobulin (β2m)</td>
   <td name="td2">5'GGGCCAAGCUUGCAUGCCUGCAGUUGGUUACGCGUACAGUGAAACUCGGAAAGUUGAAGGGCCAAAUGGGAACGGUACCGAGCUCAGGUUCCC3'</td>
   <td name="td3">93</td>
@@ -3522,7 +3526,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">WL-2 aptamer</td>
+  <td name="td0">beta(2)m fibrils_Stockley_2</td>
   <td name="td1">Amyloid-like fibrils formed in vitro from monomeric beta-2-microglobulin (β2m)</td>
   <td name="td2">5'GGGCCAAGCUUGCAUGCCUGCAGAAAAAUAAAGUGUGUACACUAAAUUGCUAGCCCCCGGAAAGAAGGUCAACAAAAGUCAGUGGUACCGAGCUCAGGUUCCC3'</td>
   <td name="td3">103</td>
@@ -3532,7 +3536,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">LS-5 aptamer</td>
+  <td name="td0">beta(2)m fibrils_Stockley_3</td>
   <td name="td1">Amyloid-like fibrils formed in vitro from monomeric beta-2-microglobulin (β2m)</td>
   <td name="td2">5'GGGCCAAGCUUGCAUGCCUGCAGGCAAACGGGGGCGUUUCGGCGGAGGAGUGGGAAGAAAAACGAGAGAAGAGUUGGAACGGGUACCGAGCUCAGGUUCCC3'</td>
   <td name="td3">101</td>
@@ -3542,7 +3546,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">AN58 aptamer</td>
+  <td name="td0">GluR2 glutamate receptor_Niu_1</td>
   <td name="td1">RecombiNAt GluR2Qflip AMPA receptor transiently expressed in HEK-293 (human embryonic kidney) cells</td>
   <td name="td2">5'GGGCGAAUUCAACUGCCAUCUAGGCAGUAACCAGGAGUUAGUAGGACAAGUUUCGUCC3'</td>
   <td name="td3">58</td>
@@ -3552,7 +3556,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C13 aptamer</td>
+  <td name="td0">GRK2_Blind_1</td>
   <td name="td1">G-protein-coupled receptor kinase 2 (GRK2)</td>
   <td name="td2">5'CUGCAGUUCGGGUAGCACAGACCAUACGGGAGAGAAACUUGUGCAACCCGGGGCUAC3'</td>
   <td name="td3">57</td>
@@ -3562,7 +3566,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C13.51 aptamer</td>
+  <td name="td0">GRK2_Blind_2</td>
   <td name="td1">G-protein-coupled receptor kinase 2 (GRK2)</td>
   <td name="td2">5'GGUUCGGGUAGCACAGACCAUACGGGAGAGAAACUUGUGCAACCCGGGGCU3'</td>
   <td name="td3">51</td>
@@ -3572,7 +3576,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RNA 20 aptamer</td>
+  <td name="td0">Mbl_Berglund_1</td>
   <td name="td1">Drosophila muscleblind protein (Mbl)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCACCGUAGAUGAUGGAUGUGCGGUAGAGUCUUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3582,7 +3586,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Apt #1 aptamer</td>
+  <td name="td0">bPrP_Nishikawa_1</td>
   <td name="td1">Bovine Prion Protein (bPrP)</td>
   <td name="td2">5'GGGAGGUGGAACUGAAGGAGACAAUCCAUUCAUCUCUCGAAUGAGGAAGUAGCCCAAGAGGAGGAGGAGGAUGAGCACUUCGCAAUCGCUCUACGCA3'</td>
   <td name="td3">97</td>
@@ -3592,17 +3596,17 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">FB4 aptamer</td>
+  <td name="td0">TfR-ECD_Neufeld_1</td>
   <td name="td1">Mouse transferrin receptor (TfR-ECD)</td>
   <td name="td2">5'GGGCGAAUUCCGCGUGUGCUGAGGGCGGAAGAACUAAUUUGGGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCGGG3'</td>
   <td name="td3">79</td>
   <td name="td4">62.03%</td>
   <td name="td5">NA</td>
-  <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/18838694/#:~:text=Endocytosed%20enzyme%2Daptamer%20conjugate%20corrected,aptamer%20in%20receptor%2Dmediated%20endocytosis." target="_blank" style="color:#520049"><b>2008</b></a></td>
+  <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/18838694/" target="_blank" style="color:#520049"><b>2008</b></a></td>
 </tr>
     
  <tr>
-  <td name="td0">FB4 (truncated version) aptamer</td>
+  <td name="td0">TfR-ECD_Neufeld_2</td>
   <td name="td1">Mouse transferrin receptor (TfR-ECD)</td>
   <td name="td2">5'GGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCG3'</td>
   <td name="td3">36</td>
@@ -3612,7 +3616,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">N2 aptamer</td>
+  <td name="td0">Abeta_Mihara_1</td>
   <td name="td1">Amyloid beta-peptide (Aβ)</td>
   <td name="td2">5'GGGAUGUUCUAGGCGGUUGAUGAUAGCGUAUGCCACUCUCCUGGGACCCCCCGCCGGAUGGCCACAUCCAGAGUAGCAUAAUUGAUCCGA3'</td>
   <td name="td3">90</td>
@@ -3622,7 +3626,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">E2 aptamer</td>
+  <td name="td0">Abeta_Mihara_2</td>
   <td name="td1">Amyloid beta-peptide (Aβ)</td>
   <td name="td2">5'GGGAUGUUCUAGGCGGUUGAUGAUUUGGGGUGUCGGGCGAUUUUUAGGGUUGGGCCAGGCCGUCAUCCAGAGUAGCAUAAUUGAUCCGA3'</td>
   <td name="td3">89</td>
@@ -3632,7 +3636,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">WT-15 aptamer</td>
+  <td name="td0">PAI-1_Fortenberry_1</td>
   <td name="td1">Serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1)</td>
   <td name="td2">5'GGGAGGACGAUGCGGAUCAACUCACCGUAGGUCUAGUGAGAACUUCAAGUCUACUCAGACGACUCGCUGAGGAUCC3'</td>
   <td name="td3">76</td>
@@ -3642,7 +3646,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">SM-20 aptamer</td>
+  <td name="td0">PAI-1_Fortenberry_2</td>
   <td name="td1">Serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1)</td>
   <td name="td2">5'GGGAGGACGAUGCGGAGCGACUGACGAUCUUGAGUAAACCGCUCAUCCACGUAGUCAGACGACUCGCUGAGGAUCC3'</td>
   <td name="td3">76</td>
@@ -3652,7 +3656,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer 1 aptamer</td>
+  <td name="td0">SARS-CoV N protein_Oh_1</td>
   <td name="td1">SARS-CoV nucleocapsid (N) protein</td>
   <td name="td2">5'GGGAGAGCGGAAGCGUGCUGGGCCUGUCGUUCGCUGUCUUGCUACGUUACGUUACACGGUUGGCAUAACCCAGAGGUCGAUGG3'</td>
   <td name="td3">83</td>
@@ -3662,7 +3666,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">J18 aptamer</td>
+  <td name="td0">EGFR_Ellington_1</td>
   <td name="td1">Epithelial Growth Factor Receptor (EGFR)</td>
   <td name="td2">5'GGCGCUCCGACCUUAGUCUCUGCAAGAUAAACCGUGCUAUUGACCACCCUCAACACACUUAUUUAAUGUAUUGAACGGACCUACGAACCGUGUAGCACAGCAGA3'</td>
   <td name="td3">104</td>
@@ -3672,7 +3676,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Apt10L aptamer</td>
+  <td name="td0">ASR_Rao_1</td>
   <td name="td1">Sulforhodamine analogue (ASR) fluorogen</td>
   <td name="td2">5'GAAGCUUGGGAAUUCGAGCUCCUGACAGCAGGACCCUCACCUCGGUGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGGGUCCUCGAUUCGAAGACGUCCAGCUGAUCUAGAUUCUAUAGUGUCACCUAAAU3'</td>
   <td name="td3">133</td>
@@ -3682,7 +3686,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Apt10T3 (88mer) aptamer</td>
+  <td name="td0">ASR_Rao_2</td>
   <td name="td1">Sulforhodamine analogue (ASR) fluorogen</td>
   <td name="td2">5'GGACAGCAGGACCCUCACCUCGGUGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGGGUCCUCGACUCGAAGACGUCCAGCUGAUCC3'</td>
   <td name="td3">88</td>
@@ -3692,7 +3696,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C13 aptamer</td>
+  <td name="td0">PTP1B_Tremblay_1</td>
   <td name="td1">Protein tyrosine phosphatase 1B (PTP1B)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACUGUGAUCAAUUUGGCAAUCCGCCACACGAGACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">71</td>
@@ -3702,7 +3706,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C13M21 aptamer</td>
+  <td name="td0">PTP1B_Tremblay_2</td>
   <td name="td1">Protein tyrosine phosphatase 1B (PTP1B)</td>
   <td name="td2">5'm(GA)AUUCUGUGAUCAAUUUGGCAAUCCGCCACACGAGUm(UsC)3'</td>
   <td name="td3">39</td>
@@ -3712,7 +3716,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C9 aptamer</td>
+  <td name="td0">PTP1B_Tremblay_3</td>
   <td name="td1">Protein tyrosine phosphatase 1B (PTP1B)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACUGUGAUUAAUUUGGCAAUCCGCCACACUAGACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">71</td>
@@ -3722,7 +3726,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C1 aptamer</td>
+  <td name="td0">SPC_Waga_1</td>
   <td name="td1">Sphingosylphosphorylcholine (SPC)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCUACCGUUAUUGGUGUCACCGAAGAUGUUAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">79</td>
@@ -3732,7 +3736,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C2 aptamer</td>
+  <td name="td0">SPC_Waga_2</td>
   <td name="td1">Sphingosylphosphorylcholine (SPC)</td>
   <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCUUCCGUUAUUGGAGCCAAGUCGUAUCCCGAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">80</td>
@@ -3742,7 +3746,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">C8 aptamer</td>
+  <td name="td0">SPC_Waga_3</td>
   <td name="td1">Sphingosylphosphorylcholine (SPC)</td>
   <td name="td2">5'GGAAUGGAUCCACAUCUACGAAUUCGCAUUGUCCGCACGCAAAGCAUUAUUGUGAUUCACUGCAGACUUGACGAAGCUU3'</td>
   <td name="td3">79</td>
@@ -3752,7 +3756,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">m009 aptamer</td>
+  <td name="td0">SPC_Waga_4</td>
   <td name="td1">Sphingosylphosphorylcholine (SPC)</td>
   <td name="td2">5'GGGAUCCACAUCUACGAAUUCUACCGUUAUUGGUGUCACCGAAGAUGUUAUUCC3'</td>
   <td name="td3">54</td>
@@ -3762,7 +3766,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">m010 aptamer</td>
+  <td name="td0">SPC_Waga_5</td>
   <td name="td1">Sphingosylphosphorylcholine (SPC)</td>
   <td name="td2">5'GGAUCUACGAAUUCUACCGUUAUUGGUGUCACCGAAGAUCC3'</td>
   <td name="td3">41</td>
@@ -3772,7 +3776,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">m011 aptamer</td>
+  <td name="td0">SPC_Waga_6</td>
   <td name="td1">Sphingosylphosphorylcholine (SPC)</td>
   <td name="td2">5'GGGAUCCACAUCUACGAAUUCUUCCGUUAUUGGAGCCAAGUCGUAUCCCGAUUCC3'</td>
   <td name="td3">55</td>
@@ -3782,7 +3786,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">m012 aptamer</td>
+  <td name="td0">SPC_Waga_7</td>
   <td name="td1">Sphingosylphosphorylcholine (SPC)</td>
   <td name="td2">5'GGCGAAUUCUUCCGUUAUUGGAGCCAAGUCGCC3'</td>
   <td name="td3">33</td>
@@ -3792,7 +3796,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">21-E aptamer</td>
+  <td name="td0">ZAP_Gao_1</td>
   <td name="td1">Zinc-finger antiviral protein (ZAP)</td>
   <td name="td2">5'GGGAACAGUCCGAGCCUGCGUGCGAGGAGGUGGAGAGGGUGGGUGUGCGUGGCGUGGGGUGAAUUCGUCAUA3'</td>
   <td name="td3">72</td>
@@ -3802,7 +3806,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">21-K aptamer</td>
+  <td name="td0">ZAP_Gao_2</td>
   <td name="td1">Zinc-finger antiviral protein (ZAP)</td>
   <td name="td2">5'GGGAACAGUCCGAGCCAAGCGGUAGCGUCAGGGGGUGGAGGGAGGAGGCCGCGUGGUGUGGGUGAAUUCGUCAUA3'</td>
   <td name="td3">75</td>
@@ -3812,7 +3816,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Apt21‐2 aptamer</td>
+  <td name="td0">IL-17A_Nakamura_1</td>
   <td name="td1">Interleukin-17A (IL‐17A)</td>
   <td name="td2">5'UAAUACGACUCACUAUAGGGAGCAGGAGAGAGGUCAGAUGGGUCUAGCCGGAGGAGUCAGUAAUCGGUAGACCCAUCUGACCUCUCUCCUGCUCCC3'</td>
   <td name="td3">96</td>
@@ -3822,7 +3826,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Two Arm aptamer</td>
+  <td name="td0">E.coli_O157:H7_Lee_1</td>
   <td name="td1">Escherichia coli (E. coli) O157:H7</td>
   <td name="td2">5'GGGAUACCAGCUUAUUCAAUUUGAUUCCAUCUUCCUGGACUGUCGAAAAUUCAGUAUCGGGAGGUUACGUAUUUGGUUUAUAGAUAGUAAGUGCAAUCU3'</td>
   <td name="td3">99</td>
@@ -3832,7 +3836,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">G5α3N.4 aptamer</td>
+  <td name="td0">HPV-16 E7_Salas_1</td>
   <td name="td1">Human papillomavirus type 16 (HPV-16) E7 oncoprotein</td>
   <td name="td2">5'UAAUACGACUCACUAUAGGGAGACCCAAGCCGAUUUAUUUUGUGCAGCUUUUGUUCCCUUUAGUGAGGGUUAAUU3'</td>
   <td name="td3">75</td>
@@ -3842,7 +3846,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">S9 aptamer</td>
+  <td name="td0">HBV P protein_Hu_1</td>
   <td name="td1">RecombiNAt truncated human hepatitis B virus (HBV) P protein (miniP)</td>
   <td name="td2">5'UGUUCAUGUCCUACUGUUCAAACAAAAAAACUGUGCACAAAAAUAAAUUGGGGCAUGGACA3'</td>
   <td name="td3">61</td>
@@ -3852,7 +3856,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">S6 aptamer</td>
+  <td name="td0">HBV P protein_Hu_2</td>
   <td name="td1">RecombiNAt truncated human hepatitis B virus (HBV) P protein (miniP)</td>
   <td name="td2">5'UGUUCAUGUCCUACUGUUCACAGAAAAUAGCUGUGCAAAAAAAAAAGAUGGGGCAUGGACA3'</td>
   <td name="td3">61</td>
@@ -3862,7 +3866,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">24-2 (Spinach) aptamer</td>
+  <td name="td0">Ser-Tyr-Gly(in GFP)_Jaffrey_1</td>
   <td name="td1">The fluorophore in Green fluorescent protein (GFP) (Ser65-Tyr66-Gly67)</td>
   <td name="td2">5'GACGCAACUGAAUGAAAUGGUGAAGGACGGGUCCAGGUGUGGCUGCUUCGGCAGUGCAGCUUGUUGAGUAGAGUGUGAGCUCCGUAACUAGUCGCGUC3'</td>
   <td name="td3">98</td>
@@ -3872,7 +3876,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">13-2 aptamer</td>
+  <td name="td0">Ser-Tyr-Gly(in GFP)_Jaffrey_2</td>
   <td name="td1">The fluorophore in Green fluorescent protein (GFP) (Ser65-Tyr66-Gly67)</td>
   <td name="td2">5'UCUAGAAUUCAAUUUGCGUAUUGAGACAGGGCCGCGCUAUUUCUGGAGGGGCGGUACAUGAAAGUGGUGGUUGGGUGCGGUCGGAGAUAGCUCGAGCAAUGC3'</td>
   <td name="td3">102</td>
@@ -3882,7 +3886,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">44626 aptamer</td>
+  <td name="td0">Ser-Tyr-Gly(in GFP)_Jaffrey_3</td>
   <td name="td1">The fluorophore in Green fluorescent protein (GFP) (Ser65-Tyr66-Gly67)</td>
   <td name="td2">5'GGGAGAUACGCUCUAGAAUUCAAUUGCAUGGUGGUCUGGGACAGACGUGUGGACGGCACACAGCGUGAGGCUUUGGUGGGUUAUGGCUGUCAUGCGAGAUAGCUCGAGCAAUGC3'</td>
   <td name="td3">114</td>
@@ -3892,7 +3896,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">9C7 aptamer</td>
+  <td name="td0">OX40_Nair_1</td>
   <td name="td1">OX40, T cell costimulatory receptor</td>
   <td name="td2">5'UCGGGCGAGUCGUCUGGGGAGGACGAUGCGGAAAAAAGAACACUUCCGAUUAGGGCCCACCCUAACGGCCGCAGGGGAGGACGAUGCGGCCGCAUCGUCCUCCCUA3'</td>
   <td name="td3">106</td>
@@ -3902,7 +3906,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">11F11 aptamer</td>
+  <td name="td0">OX40_Nair_2</td>
   <td name="td1">OX40, T cell costimulatory receptor</td>
   <td name="td2">5'UCGGGCGAGUCGUCUGGGGAGGACGAUGCGGAACGGGACCACCCAUGCCAGGGGACCACCUCAGGCAGCGCCAGACGACGGGAGGACGAUGCGGCCGCAUCGUCCUCCCUA3'</td>
   <td name="td3">111</td>
@@ -3912,7 +3916,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">H1 aptamer</td>
+  <td name="td0">HIRRV-Aoki_1</td>
   <td name="td1">Hirame rhabdovirus (HIRRV)</td>
   <td name="td2">5'GGUGUAUAGGUAUUGAAUCAAUUGUUUUAGCGUUGUCUUA3'</td>
   <td name="td3">40</td>
@@ -3922,7 +3926,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">H2 aptamer</td>
+  <td name="td0">HIRRV-Aoki_2</td>
   <td name="td1">Hirame rhabdovirus (HIRRV)</td>
   <td name="td2">5'GGAACGCGAGCUUAGAUUUCGGAGAACAGUUUGUAAUUGUU3'</td>
   <td name="td3">41</td>
@@ -3932,7 +3936,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">H3 aptamer</td>
+  <td name="td0">HIRRV-Aoki_3</td>
   <td name="td1">Hirame rhabdovirus (HIRRV)</td>
   <td name="td2">5'GUCCUAUACAGUGUGACCGGUUGAAAGUGGGUUCGUUG3'</td>
   <td name="td3">38</td>
@@ -3942,7 +3946,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">H4 aptamer</td>
+  <td name="td0">HIRRV-Aoki_4</td>
   <td name="td1">Hirame rhabdovirus (HIRRV)</td>
   <td name="td2">5'GGGUUAAGCCGGAUUGUAGACUGUAACAGGUAGAGCUGGC3'</td>
   <td name="td3">40</td>
@@ -3952,7 +3956,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">M9-5 aptamer</td>
+  <td name="td0">CypB_White_1</td>
   <td name="td1">Cyclophilin B (CypB)</td>
   <td name="td2">5'GGGAGGACGAUGCGGGGACCUAUGCAGUAGCCAGUGUGGACUGGGCUGCCCCCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">71</td>
@@ -3962,7 +3966,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F3 aptamer</td>
+  <td name="td0">hMMP-9_Toulmé_1</td>
   <td name="td1">human matrix metalloprotease 9 (hMMP-9)</td>
   <td name="td2">GGUUACCAGCCUUCACUGCCCUGCCCUCACCCGUUAGCCUGAGCGCCCCGCACCACGGUCGGUCACAC</td>
   <td name="td3">68</td>
@@ -3972,7 +3976,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F2 aptamer</td>
+  <td name="td0">hMMP-9_Toulmé_2</td>
   <td name="td1">human matrix metalloprotease 9 (hMMP-10)</td>
   <td name="td2">GGUUACCAGCCUUCACUGCUCCCGGACGCGUCUGUAUCCGCUACCCGCCGCACCACGGUCGGUCACAC</td>
   <td name="td3">68</td>
@@ -3982,7 +3986,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F1 aptamer</td>
+  <td name="td0">hMMP-9_Toulmé_3</td>
   <td name="td1">human matrix metalloprotease 9 (hMMP-11)</td>
   <td name="td2">GGUUACCAGCCUUCACUGCCCUGCGCCAACCCGUUAGCCUUGUCGCCCCGCACCACGGUCGGUCACAC</td>
   <td name="td3">68</td>
@@ -3992,7 +3996,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F3Bomf aptamer</td>
+  <td name="td0">hMMP-9_Toulmé_4</td>
   <td name="td1">human matrix metalloprotease 9 (hMMP-12)</td>
   <td name="td2">UGCCCUGCCCUCACCCGUUAGCCUGAGCGCCCCGCA</td>
   <td name="td3">36</td>
@@ -4002,7 +4006,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F3B aptamer</td>
+  <td name="td0">hMMP-9_Toulmé_5</td>
   <td name="td1">human matrix metalloprotease 9 (hMMP-13)</td>
   <td name="td2">UGCCCUGCCCUCACCCGUUAGCCUGAGCGCCCCGCA</td>
   <td name="td3">36</td>
@@ -4012,7 +4016,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">MDA231 aptamer aptamer</td>
+  <td name="td0">HER2 expressing cell_Dassie_1</td>
   <td name="td1">MDA-231/LUC and MDA-MB-231 cell lines</td>
   <td name="td2">GGGAGGACGAUGCGUCCUUGUCGUCUUGCGUCCCCAGACGACUCGCCCGA</td>
   <td name="td3">50</td>
@@ -4022,7 +4026,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CD133-A15 aptamer</td>
+  <td name="td0">CD133_Duan_1</td>
   <td name="td1">CD133-positive on cell line HT-29</td>
   <td name="td2">5'CCCUCCUACAUAGGG'3</td>
   <td name="td3">15</td>
@@ -4032,7 +4036,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CD133-A15 aptamer</td>
+  <td name="td0">CD133_Duan_2</td>
   <td name="td1">CD133-positive on cell line Hep3B</td>
   <td name="td2">5'CCCUCCUACAUAGGG'3</td>
   <td name="td3">15</td>
@@ -4042,7 +4046,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CD133-B19 aptamer</td>
+  <td name="td0">CD133_Duan_3</td>
   <td name="td1">CD133-positive on cell line HT-29</td>
   <td name="td2">5'CAGAACGUAUACUAUUCUG3'</td>
   <td name="td3">19</td>
@@ -4052,7 +4056,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CD133-B19 aptamer</td>
+  <td name="td0">CD133_Duan_4</td>
   <td name="td1">CD133-positive on cell line Hep3B</td>
   <td name="td2">5'CAGAACGUAUACUAUUCUG3'</td>
   <td name="td3">19</td>
@@ -4062,7 +4066,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Apt1 aptamer</td>
+  <td name="td0">CD44_Ismail_1</td>
   <td name="td1">Cell-surface Glycoprotein CD44</td>
   <td name="td2">5'GGGAUGGAUCCAAGCUUACUGGCAUCUGGAUUUGCGCGUGCCAGAAUAAAGAGUAUAACGUGUGAAUGGGAAGCUUCGAUAGGAAUUCGG3'</td>
   <td name="td3">90</td>
@@ -4072,7 +4076,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">AptER-1 aptamer</td>
+  <td name="td0">ERα_Shi_1</td>
   <td name="td1">Estrogen receptor alpha (ERα)</td>
   <td name="td2">5'GGGCAGAGGCACCGCGAACAAAACGCAAGACAGAGUGCCGACAAGAGCACUACAAGCUUCUGCCC3</td>
   <td name="td3">65</td>
@@ -4082,7 +4086,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">AptER-2 aptamer</td>
+  <td name="td0">ERα_Shi_2</td>
   <td name="td1">Estrogen receptor alpha (ERα)</td>
   <td name="td2">5'GGGAGAAUUCAACUGCCAUCUAGGCACACGCGAGAUAGAGCGAGGCCUCCAAAAAUGGCCACGCCAGGAAGCAGUACUACAAGCUUCUGGACUCGGU3'</td>
   <td name="td3">97</td>
@@ -4092,7 +4096,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">AptER-3 aptamer</td>
+  <td name="td0">ERα_Shi_3</td>
   <td name="td1">Estrogen receptor alpha (ERα)</td>
   <td name="td2">5'GGGAGAAUUCAACUGCCAUCUAGGCGACCCAGGGCCGGGACGCAAAGCAGCCAAAACAGACGGCCCCAGUCAGGGAGUUACUACAAGCUUCUGGACUCGGU3'</td>
   <td name="td3">101</td>
@@ -4102,7 +4106,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">8-1 aptamer</td>
+  <td name="td0">HA_Kumar_1</td>
   <td name="td1">Hemagglutinin (HA) of highly pathogenic avian influenza (HPAI H5N1)</td>
   <td name="td2">5'UCUAAUACGACUCACUAUAGGAGCUCAGCCUUCACUGCCUGUUAGAGUUUCCUAAAAGCGAACUGGCGCCCUCGUCAGCAUCUGGCAGACGAGUGGAGACGGACUAACCACAGGCACCACGGUCGGAUCCUG3'</td>
   <td name="td3">132</td>
@@ -4112,7 +4116,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">8-3 aptamer</td>
+  <td name="td0">HA_Kumar_2</td>
   <td name="td1">Hemagglutinin (HA) of highly pathogenic avian influenza (HPAI H5N1)</td>
   <td name="td2">5'UCUAAUACGACUCACUAUAGGAGCUCAGCCUUCACUGCGAGAUUGUUCUGACCGAGUUGCCUAGCAGGGCAACCGCUGGAACUUGAAGUCGGUAAUGCGAGCGGAAAGCCUUGGCACCACGGUCGGAUCCUG3'</td>
   <td name="td3">132</td>
@@ -4122,7 +4126,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">8-10 aptamer</td>
+  <td name="td0">HA_Kumar_3</td>
   <td name="td1">Hemagglutinin (HA) of highly pathogenic avian influenza (HPAI H5N1)</td>
   <td name="td2">5'UCUAAUACGACUCACUAUAGGAGCUCAGCCUUCACUGCGGUGACCGGAGGAAUACGCGGACGGAGAAAGGGUUGGCCUCGUGGAUGGCGGAUACCCGUCCAGGGAUCUUCUAGGCACCACGGUCGGAUCCUG3'</td>
   <td name="td3">132</td>
@@ -4132,7 +4136,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Apt1 aptamer</td>
+  <td name="td0">GP2_Ohno_1</td>
   <td name="td1">Glygoprotein 2 (GP2), Mouse</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCAAGUAGUUGGCGCCUACUAUAGAAAUACGCCUUUCCUCUCUCCUUCCUCUUCU3'</td>
   <td name="td3">74</td>
@@ -4142,7 +4146,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">HA12-16 aptamer</td>
+  <td name="td0">gHA1_Kim_1</td>
   <td name="td1">Glycosylated receptor-binding domain of the HA protein (gHA1)</td>
   <td name="td2">5'GGGUUCACUGCAGACUUGACGAAGCUUGCUUGACGGAGAUCAAGGGCGAGUCGCAUACCAAGUUGAUGGGGAAUGGAUCCACAUCUACGAAUUC3'</td>
   <td name="td3">94</td>
@@ -4152,7 +4156,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">29-1 aptamer</td>
+  <td name="td0">DFHBI_Jaffrey_1</td>
   <td name="td1">RNA Mimic of Green Fluorescent Protein (Fluorophores, coupled with fluorescence-activated cell sorting (FACS); Escherichia coli</td>
   <td name="td2">5'GAGACGCAACUGAAUGAAAUGGUGAAGGAGACGGUCGGGUCCAGGCACAAAAAUGUUGCCUGUUGAGUAGAGUGUGGGCUCCGUAACUAGUCGCGUCAC3'</td>
   <td name="td3">99</td>
@@ -4162,8 +4166,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Broccoli–DFHBI-1T(29-1-3-1)
- aptamer</td>
+  <td name="td0">DFHBI_Jaffrey_2</td>
   <td name="td1">RNA Mimic of Green Fluorescent Protein (Fluorophores, coupled with fluorescence-activated cell sorting (FACS); Escherichia coli</td>
   <td name="td2">5'GAGACGGUCGGGUCCAGAUAUUCGUAUCUGUCGAGUAGAGUGUGGGCUC3'</td>
   <td name="td3">49</td>
@@ -4173,7 +4176,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">tBroccoli aptamer</td>
+  <td name="td0">DFHBI_Jaffrey_3</td>
   <td name="td1">RNA Mimic of Green Fluorescent Protein (Fluorophores, coupled with fluorescence-activated cell sorting (FACS); Escherichia coli</td>
   <td name="td2">5'GCCCGGAUAGCUCAGUCGGUAGAGCAGCGGAGACGGUCGGGUCCAGAUAUUCGUAUCUGUCGAGUAGAGUGUGGGCUCCGCGGGUCCAGGGUUCAAGUCCCUGUUCGGGCGCCA3'</td>
   <td name="td3">114</td>
@@ -4183,7 +4186,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">tRNA-Broccoli-c-diGMP sensor aptamer</td>
+  <td name="td0">DFHBI_Jaffrey_4</td>
   <td name="td1">RNA Mimic of Green Fluorescent Protein (Fluorophores, coupled with fluorescence-activated cell sorting (FACS); Escherichia coli</td>
   <td name="td2">5'GCCCGGAUAGCUCAGUCGGUAGAGCAGCGGAGACGGUCGGGUACGCACAGGGCAAACCAUUCGAAAGAGUGGGACGCAAAGCCUCCGGCCUAAACCAGAAGACAUGGUAGGUAGCGGGGUUACCGAUAGUAGAGUGUGGGCUCCGCGGGUCCAGGGUUCAAGUCCCUGUUCGGGCGCCA3'</td>
   <td name="td3">179</td>
@@ -4193,7 +4196,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">tdBroccoli aptamer</td>
+  <td name="td0">DFHBI_Jaffrey_5</td>
   <td name="td1">RNA Mimic of Green Fluorescent Protein (Fluorophores, coupled with fluorescence-activated cell sorting (FACS); Escherichia coli</td>
   <td name="td2">5'GCCCGGAUAGCUCAGUCGGUAGAGCAGCGGAGACGGUCGGGUCCAUCUGAGACGGUCGGGUCCAGAUAUUCGUAUCUGUCGAGUAGAGUGUGGGCUCAGAUGUCGAGUAGAGUGUGGGCUCCGCGGGUCCAGGGUUCAAGUCCCUGUUCGGGCGCCA3'</td>
   <td name="td3">157</td>
@@ -4203,7 +4206,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TSA14 aptamer</td>
+  <td name="td0">HER2 overexpressing cell line_Abnous_1</td>
   <td name="td1">RHER2/neu protein via TUBO cell line</td>
   <td name="td2">5'ACCGAGUCCAGAAGCUUGUAGUACUGCUGGAGCAUUUAUGGAUGAACCUUGGACGGAAGCCUAGAUGGAGUUGAAUUCUCCCUAUAGUGAGUCGUAUUAC3'</td>
   <td name="td3">100</td>
@@ -4213,7 +4216,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PR10.1 aptamer</td>
+  <td name="td0">HIV-1 PR_Prasad_1</td>
   <td name="td1">HIV-1 aspartyl protease (PR)</td>
   <td name="td2">5'GGGUUACCUAGGUGUAGAUGCUCUUCAUUGUAACUUCUCAUAAUUUCCCGAGGCUUUUACUUUCGGGGUCCUAAGUGACGUCUGAACUGCUUCGAA3' </td>
   <td name="td3">96</td>
@@ -4223,7 +4226,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PR10.9 aptamer</td>
+  <td name="td0">HIV-1 PR_Prasad_2</td>
   <td name="td1">HIV-1 aspartyl protease (PR)</td>
   <td name="td2">5'GGGUUACCUAGGAGGAGAUGCUACAUUACCUAAGUAAGAUUACGGCUUCGAGUUUAGAGACCUCUCCCUGGUAAGUGACGUCUGAACUGCUUCGAA3'</td>
   <td name="td3">96</td>
@@ -4233,7 +4236,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PR10.1-8E aptamer</td>
+  <td name="td0">HIV-1 PR_Prasad_3</td>
   <td name="td1">HIV-1 aspartyl protease (PR)</td>
   <td name="td2">5'GGGUUACCUAGGAGGAGAUGCUCUUAAGUGUAACUUCUCAUAACAUCCGGAGGCUUUUACUUCCGGGGACCUAAGUGACGUCUGAACUGCUUCGAA3'</td>
   <td name="td3">96</td>
@@ -4243,7 +4246,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PR10.1-8A aptamer</td>
+  <td name="td0">HIV-1 PR_Prasad_4</td>
   <td name="td1">HIV-1 aspartyl protease (PR)</td>
   <td name="td2">5'GGGUUACCUAGGAGGAGAUGCUCUUAAGUGUAACUUCUCGUAAUUCCCAAGGCUUUUACCUCGGGGUCCUAAGUGACGUCUGAACUGCUUCGAA3'</td>
   <td name="td3">94</td>
@@ -4253,7 +4256,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PR10.9-8N aptamer</td>
+  <td name="td0">HIV-1 PR_Prasad_5</td>
   <td name="td1">HIV-1 aspartyl protease (PR)</td>
   <td name="td2">5'GGGUUACCUAGGAGGAGAUGCUUUGACCUAAGGUAAGAUAACGGCUUCGAGUUCAGAGACCUCGCCCUGGUAAGUGACGUCUGAACUGCUUCGAA3'</td>
   <td name="td3">95</td>
@@ -4263,7 +4266,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CA72-4 A01 aptamer</td>
+  <td name="td0">CA72-4_Lau_1</td>
   <td name="td1">Gastrointestinal cancer antigen 72–4</td>
   <td name="td2">5'GGGUCGUGUCGGAUCCUGCGAAGGGGGGCAGAGGUUUGACGCGAGAAAGCUUCUAAGGUAACGAU3'</td>
   <td name="td3">65</td>
@@ -4273,7 +4276,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">anti-KpnI RNA Aptamer 20 aptamer</td>
+  <td name="td0">REase_Maher_1</td>
   <td name="td1">KpnI isoschizomer Acc65I</td>
   <td name="td2">5'GGGAUAUCCUUCAUGAUUCGGAAAAGCGUAACCGCGGCCAAUCAUGCAUGAAGCGUUCCAUAUUUUU3'</td>
   <td name="td3">67</td>
@@ -4283,7 +4286,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">anti-KpnI RNA Aptamer 24 aptamer</td>
+  <td name="td0">REase_Maher_2</td>
   <td name="td1">KpnI isoschizomer Acc65I</td>
   <td name="td2">5'GGGAUAUCCUUCAUGGUGUGAUUAAACGUAAUCUCAAUCGAUCAUGCAUGAAGCGUUCCAUAUUUUU3'</td>
   <td name="td3">67</td>
@@ -4293,7 +4296,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">anti-KpnI RNA Aptamer 29 aptamer</td>
+  <td name="td0">REase_Maher_3</td>
   <td name="td1">KpnI isoschizomer Acc65I</td>
   <td name="td2">5'GGGAUAUCCCUACAUGAUAAUCGGGUGAGUAAGGCCUAAACAUCAUGCAUGAAGCGUUCCAUAUUUUU3'</td>
   <td name="td3">68</td>
@@ -4303,7 +4306,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">anti-KpnI RNA Aptamer 30 aptamer</td>
+  <td name="td0">REase_Maher_4</td>
   <td name="td1">KpnI isoschizomer Acc65I</td>
   <td name="td2">5'GGGAUAUCCUUCAUGAUUCGGAAAAGCGUAACCGCGGCCGAUCAUGCAUGAAGCGUUCCAUAUUUUU3'</td>
   <td name="td3">67</td>
@@ -4313,7 +4316,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F2 aptamer</td>
+  <td name="td0">IL-6R_Hahn_1</td>
   <td name="td1">Soluble pleiotropic cytokine interleukin-6 receptor (sIL-6R) and interleukin-6 receptor domain 3 (IL-6R D3)</td>
   <td name="td2">5'AAUGCGAAGAAAGAGGUCUGAGACAUUCUCAACGAACUAUGAGGAAAGGGACCGUGCGAGGGUUGGGUUAGGGUUUGGAGCCACGGUCCUUCUGGAGUUGACGUUGCUU3'</td>
   <td name="td3">109</td>
@@ -4323,7 +4326,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F3 aptamer</td>
+  <td name="td0">IL-6R_Hahn_2</td>
   <td name="td1">Soluble pleiotropic cytokine interleukin-6 receptor (sIL-6R) and interleukin-6 receptor domain 3 (IL-6R D3)</td>
   <td name="td2">5'AAUGCGAAGAAAGAGGUCUGAGACAUUCUGAAGAGAGAAAGCCAGUAGAGGGAAGAGGGAUGAGGGACGUGGGAAUCUUGGUAAUCAGUCUUCUGGAGUUGACGUUGCUU3'</td>
   <td name="td3">110</td>
@@ -4333,7 +4336,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F4 aptamer</td>
+  <td name="td0">IL-6R_Hahn_3</td>
   <td name="td1">Soluble pleiotropic cytokine interleukin-6 receptor (sIL-6R) and interleukin-6 receptor domain 3 (IL-6R D3)</td>
   <td name="td2">5'AAUGCGAAGAAAGAGGUCUGAGACAUUCUUAAAAACGGCCCAUCGUUUGGCRCUGUGGGAGUGGAGGGUGGAUGGUGUUAAGCGAUUCUUCUGGAGUUGACGUUGCUU3'</td>
   <td name="td3">107</td>
@@ -4343,7 +4346,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">UCH37‐1 aptamer</td>
+  <td name="td0">UCH37_Lee_1</td>
   <td name="td1">Proteasome‐associated deubiquitylating enzyme UCH37</td>
   <td name="td2">5'GGGUUCACUGCAGACUUGACGAAGCUUGGAGGGCAUGCUUCGGGCAAACCUGUAGGGGUGCGGCUCUAAUGGAUCCACAUCUACGAAUUC3'</td>
   <td name="td3">90</td>
@@ -4353,7 +4356,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">GL56 aptamer</td>
+  <td name="td0">IR_Esposito_1</td>
   <td name="td1">Glioblastoma cell line U87MG</td>
   <td name="td2">5'GGAGACAAGAAUAAACGCUCAAUGAUUUUGCAGCACUUCUUGUUAUCUUAACGAACUGUUGAUGAUUCGACAGGAGGCUCACAACAGGC3'</td>
   <td name="td3">89</td>
@@ -4363,7 +4366,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">MF11 aptamer</td>
+  <td name="td0">CCL17_Förster_1</td>
   <td name="td1">Chemokine CCL17</td>
   <td name="td2">5'AAUAGAGUCGUCGCGGGUUGGCUCGUAGAUCGGGCCGGUACAGACGACUCGCUGAGGAUCCGAGA3'</td>
   <td name="td3">65</td>
@@ -4373,7 +4376,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">MF35 aptamer</td>
+  <td name="td0">CCL17_Förster_2</td>
   <td name="td1">Chemokine CCL17</td>
   <td name="td2">5'GAGCAGCAUUUGUGGUUUCCCGAUCGCUUCCCCUAAACAGCAGACGACUCGCUGAGGAUCCGAGA3'</td>
   <td name="td3">65</td>
@@ -4383,7 +4386,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">MF11.46 aptamer</td>
+  <td name="td0">CCL17_Förster_3</td>
   <td name="td1">Chemokine CCL17</td>
   <td name="td2">5'GGGUCGUCGCGGGUUGGCUCGUAGAUCGGGCCGGUACAGACGACCCAGACGACUCGCUGAGGAUCCGAGA3'</td>
   <td name="td3">70</td>
@@ -4393,7 +4396,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">MF35.47 aptamer</td>
+  <td name="td0">CCL17_Förster_4</td>
   <td name="td1">Chemokine CCL17</td>
   <td name="td2">5'GAGCAGCAUUUGUGGUUUCCCGAUCGCUUCCC3'</td>
   <td name="td3">32</td>
@@ -4403,7 +4406,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">E3 aptamer aptamer</td>
+  <td name="td0">Prostate cancer_Sullenger_1</td>
   <td name="td1">Prostate cancer cell line PC-3</td>
   <td name="td2">5'GGGAGGACGAUGCGGGGCUUUCGGGCUUUCGGCAACAUCAGCCCCUCAGCCAUUUCUCCUACUGGGAUAGGUGGAUUAU3'</td>
   <td name="td3">79</td>
@@ -4413,7 +4416,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CA50 A01 aptamer</td>
+  <td name="td0">CA50_Lau_1</td>
   <td name="td1">Homo sapien - CA50</td>
   <td name="td2">5'GGGUCGUGUCGGAUCCGUGAGUUUUUCGCGGCGAAGACAAGGCUCGAAGCUUCUAAGGUAACGAU3'</td>
   <td name="td3">69</td>
@@ -4423,7 +4426,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CEA A01 aptamer</td>
+  <td name="td0">CEA_Lau_1</td>
   <td name="td1">Homo sapien - CEA</td>
   <td name="td2">5'AUCGUUACCUUAGAAGCUUAGGCACGACGCAUAGCCUUGGGAGCGAGGAGGAUCCGACACGACCCUAUAGUGAGUCGUAUUA3'</td>
   <td name="td3">82</td>
@@ -4433,7 +4436,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CA72-4 A01 aptamer</td>
+  <td name="td0">CA72-4_Lau_1</td>
   <td name="td1">Homo sapien - CA72-4</td>
   <td name="td2">5'GGGUCGUGUCGGAUCCUGCGAAGGGGGGCAGAGGUUUGACGCGAGAAAGCUUCUAAGGUAACGAU3'</td>
   <td name="td3">69</td>
@@ -4443,7 +4446,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CEA A02 aptamer</td>
+  <td name="td0">CEA_Lau_2</td>
   <td name="td1">Homo sapien - CEA</td>
   <td name="td2">5'AUCGUUACCUUAGAAGCUUAACGGCAUGACCUAACCUGGAGGCGCAUCAGGAUCCGACACGACCCUAUAGUGAGUCGUAUUA3'</td>
   <td name="td3">82</td>
@@ -4453,7 +4456,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CA72-4 A02 aptamer</td>
+  <td name="td0">CA72-4_Lau_2</td>
   <td name="td1">Homo sapien - CA72-4</td>
   <td name="td2">5'AUCGUUACCUUAGAAGCUUCCCAAAAAGGAUUGGGGCGUCUGCAUGACCGGAUCCGACACGACCCUAUAGUGAGUCGUAUUA3'</td>
   <td name="td3">82</td>
@@ -4463,7 +4466,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CA50 A02 aptamer</td>
+  <td name="td0">CA50_Lau_2</td>
   <td name="td1">Homo sapien - CA50</td>
   <td name="td2">5'AUCGUUACCUUAGAAGCUUAGCUCGAAAGUGGGCUGGCGAUGUGUCCCGGGAUCCGACACGACCCUAUAGUGAGUCGUAUUA3'</td>
   <td name="td3">82</td>
@@ -4473,7 +4476,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">APT 1 aptamer</td>
+  <td name="td0">MLL1_Chun_1</td>
   <td name="td1">Mixed lineage leukemia protein 1 (MLL1)</td>
   <td name="td2">5'GGCUCGAGGAACGUACAGAGGGUGGAGAGUGGGUGGAAGCUUACGGUACCUAGC3'</td>
   <td name="td3">54</td>
@@ -4483,7 +4486,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">APT 2 aptamer</td>
+  <td name="td0">MLL1_Chun_2</td>
   <td name="td1">Mixed lineage leukemia protein 1 (MLL1)</td>
   <td name="td2">5'GGCUCGAGGACGUAACAGAGGGAGGCGAGUGGGUGGAAGCUUACGGUACCUAGC3'</td>
   <td name="td3">54</td>
@@ -4493,7 +4496,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Tr-1 aptamer</td>
+  <td name="td0">CD25_Weiner_1</td>
   <td name="td1">Soluble Interleukin 2 Receptor α (CD25)</td>
   <td name="td2">5'GGGAGGACGAUGCGGUCCUGUCGUCUGUUCGUCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">51</td>
@@ -4503,7 +4506,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Tr-6 aptamer</td>
+  <td name="td0">CD25_Weiner_2</td>
   <td name="td1">Soluble Interleukin 2 Receptor α (CD25)</td>
   <td name="td2">5'GGGAGGACGAUGCGGCGUUUCCUCUGGUUCGUCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">51</td>
@@ -4513,7 +4516,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Tr-7 aptamer</td>
+  <td name="td0">CD25_Weiner_3</td>
   <td name="td1">Soluble Interleukin 2 Receptor α (CD25)</td>
   <td name="td2">5'GGGAGGACGAUGCGGUGAGUCGUUCCCUUCGUCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">51</td>
@@ -4523,7 +4526,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Tr-8 aptamer</td>
+  <td name="td0">CD25_Weiner_4</td>
   <td name="td1">Soluble Interleukin 2 Receptor α (CD25)</td>
   <td name="td2">5'GGGAGGACGAUGCGGGCCGUUGUUGUGUGCCGCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">51</td>
@@ -4533,7 +4536,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Tr-11 aptamer</td>
+  <td name="td0">CD25_Weiner_5</td>
   <td name="td1">Soluble Interleukin 2 Receptor α (CD25)</td>
   <td name="td2">5'GGGAGGACGAUGCGGAUUCUGGUUACUGGCCGCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">51</td>
@@ -4543,7 +4546,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Ca-apt-1 aptamer</td>
+  <td name="td0">C. albicans_Bachtiar_1</td>
   <td name="td1">C. albicans</td>
   <td name="td2">CGAAAGACCAACGCAGCCAAACUGAAGCCCCAGUCGCCCCG</td>
   <td name="td3">41</td>
@@ -4553,7 +4556,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Ca-apt-12 aptamer</td>
+  <td name="td0">C. albicans_Bachtiar_2</td>
   <td name="td1">C. albicans</td>
   <td name="td2">AGCCCUCAACCCAGACACCCCCAACCUUCCUCGCCCCCCC</td>
   <td name="td3">40</td>
@@ -4563,7 +4566,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TN2 aptamer</td>
+  <td name="td0">MDA-MB-231_Cerchia_1</td>
   <td name="td1">Triple-negative breast cancer (TNBC) cell line MDA-MB-231</td>
   <td name="td2">5'UAGGGAAGAGAAGGACAUAUGAUAAGGCCGACGUAAUGUGUCGGUCGUUACGCGUCGUGCACGUUGACUAGUACAUGACCACUUGA3'</td>
   <td name="td3">86</td>
@@ -4573,7 +4576,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TN3 aptamer</td>
+  <td name="td0">MDA-MB-231_Cerchia_2</td>
   <td name="td1">Triple-negative breast cancer (TNBC) cell line MDA-MB-232</td>
   <td name="td2">5'UAGGGAAGAGAAGGACAUAUGAUCCGAUCUCACGCGCACCUUCUCUUCAGCGCGCGACUGGCAUUGACUAGUACAUGACCACUUGA3'</td>
   <td name="td3">86</td>
@@ -4583,7 +4586,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TN20 aptamer</td>
+  <td name="td0">MDA-MB-231_Cerchia_3</td>
   <td name="td1">Triple-negative breast cancer (TNBC) cell line MDA-MB-233</td>
   <td name="td2">5'UAGGGAAGAGAAGGACAUAUGAUCGAUGCGCACCGAUCUCUCUUCUGCACGUCCUUCGGCACAUUGACUAGUACAUGACCACUUGA3'</td>
   <td name="td3">86</td>
@@ -4593,7 +4596,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TN29 aptamer</td>
+  <td name="td0">MDA-MB-231_Cerchia_4</td>
   <td name="td1">Triple-negative breast cancer (TNBC) cell line MDA-MB-234</td>
   <td name="td2">5'UAGGGAAGAGAAGGACAUAUGAUCCUGCCCCAACCAUCGCUUCCUCGACGCGCGUUGUCGGCAUUGACUAGUACAUGACCACUUGA3'</td>
   <td name="td3">86</td>
@@ -4603,7 +4606,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TN58 aptamer</td>
+  <td name="td0">MDA-MB-231_Cerchia_5</td>
   <td name="td1">Triple-negative breast cancer (TNBC) cell line MDA-MB-235</td>
   <td name="td2">5'UAGGGAAGAGAAGGACAUAUGAUGCAACGUUGUGGUCCCGUUUGCACUUUGUUUACGCGCGCAUUGACUAGUACAUGACCACUUGA3'</td>
   <td name="td3">86</td>
@@ -4613,7 +4616,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">TN145 aptamer</td>
+  <td name="td0">MDA-MB-231_Cerchia_6</td>
   <td name="td1">Triple-negative breast cancer (TNBC) cell line MDA-MB-236</td>
   <td name="td2">5'UAGGGAAGAGAAGGACAUAUGAUCCUCAGCGCGCAACUUCCCUCCGUUCCCUGCCACGCGUCA3'</td>
   <td name="td3">63</td>
@@ -4623,7 +4626,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">DUX4 aptamer aptamer</td>
+  <td name="td0">DUX4_Kinter_1</td>
   <td name="td1">Double homeobox protein 4 (DUX4)</td>
   <td name="td2">5'AUCCAGAGUGACGCAGCUAACUUAAUCAACCGCAGGUUGAUUAGCCCAUUAGCUGGACACGGUGGCUUAGU3'</td>
   <td name="td3">71</td>
@@ -4633,7 +4636,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">E22P–AbD43 aptamer</td>
+  <td name="td0">Oligomers of Aβ42_Irie_1</td>
   <td name="td1">Toxic beta-amyloid 42 dimer (Aβ42)</td>
   <td name="td2">5'GGGACGAAGACCAACUGAACUUUGUGGUGGCGGCUACUCGUGUUCUUUUGACUUUGUCCGUGCUGCCACCUUACUUC3'</td>
   <td name="td3">77</td>
@@ -4643,7 +4646,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">RBD-PB6 aptamer</td>
+  <td name="td0">SARS-CoV-2_Kjems_1</td>
   <td name="td1">SARS-CoV-2 spike protein</td>
   <td name="td2">5'GGGGCCACCAACGACAUUUGUAAUUCCUGGACCGAUACUUCCGUCAGGACAGAGGUUGAUAUAAAUAGUGCCCAUGGAUCC3'</td>
   <td name="td3">81</td>
@@ -4653,7 +4656,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B85.T2 aptamer</td>
+  <td name="td0">CD19_Catuogno_1</td>
   <td name="td1">CD19</td>
   <td name="td2">UGAGCCCUGUUCGACAGGAGGCUCA</td>
   <td name="td3">25</td>
@@ -4663,7 +4666,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B88.T2 aptamer</td>
+  <td name="td0">CD19_Catuogno_2</td>
   <td name="td1">CD19</td>
   <td name="td2">CCUGUUGUUCGACAGGAGGCUCACAACAGG</td>
   <td name="td3">30</td>
@@ -4673,7 +4676,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Clone 1 aptamer</td>
+  <td name="td0">HER3_Kawakami_1</td>
   <td name="td1">human epidermal growth factor receptor 3 (HER3)</td>
   <td name="td2">GGAUUAAGGAGGUGAUAUUUAUG-CAUUUGUAUGCUCAGUUGUUUAUCACUCUUCUU-UGCGGUGGAGGAGGAGGUAGCUA</td>
   <td name="td3">81</td>
@@ -4683,7 +4686,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">IBR aptamer</td>
+  <td name="td0">IL-6R_Kawakami_1</td>
   <td name="td1">IL-6 receptor (IL-6R)</td>
   <td name="td2">GGAUUAAGGAGGUGAUAUUUAUGUAGAUGUAGUAUUCCUACGAAGUAUUAUUCUUCUUGCGGUGGAGGAGGAGGUAGCUA</td>
   <td name="td3">80</td>
@@ -4693,7 +4696,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ex-50.T aptamer</td>
+  <td name="td0">Exosomes_Condorelli_1</td>
   <td name="td1">breast cancer exosomes</td>
   <td name="td2">UGUGGCAGUUAAGAAUAGAUCUUCGCUGCGAUU</td>
   <td name="td3">33</td>
@@ -4703,7 +4706,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">R1SR13 aptamer</td>
+  <td name="td0">RCAN1_Sun_1</td>
   <td name="td1">Regulator of calcineurin 1 (RCAN1)</td>
   <td name="td2">AUACAACAAAAACAAAAACAAGAAA</td>
   <td name="td3">25</td>
@@ -4713,7 +4716,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F5f1 aptamer</td>
+  <td name="td0">FGF5_Sakamoto_1</td>
   <td name="td1">Fibroblast growth factor 5 (FGF5)</td>
   <td name="td2">GGGCUAGCUGAUCGUACCUCUCCGUACUGACCUACAGAGCGACAUACUAGUGUAUCCAGAUACUAACAGCUAACACCC</td>
   <td name="td3">78</td>
@@ -4723,7 +4726,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F5f3 aptamer</td>
+  <td name="td0">FGF5_Sakamoto_2</td>
   <td name="td1">Fibroblast growth factor 5 (FGF5)</td>
   <td name="td2">GGGCUAGCUGAUCGUACCUAGCGUGAAUCCAACACGCUUGACAUGCAAACUGCAUCCAGAUACUAACAGCUAACACCC</td>
   <td name="td3">78</td>
@@ -4733,7 +4736,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F5f1_56 aptamer</td>
+  <td name="td0">FGF5_Sakamoto_3</td>
   <td name="td1">Fibroblast growth factor 5 (FGF5)</td>
   <td name="td2">GGGCGACCUCUCCGUACUGACCUACAGAGCGACAUACUAGUGUAUCCAGAUCGCCC</td>
   <td name="td3">56</td>
@@ -4743,7 +4746,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">F5f3_56 aptamer</td>
+  <td name="td0">FGF5_Sakamoto_4</td>
   <td name="td1">Fibroblast growth factor 5 (FGF5)</td>
   <td name="td2">GGGCGACCUAGCGUGAAUCCAACACGCUUGACAUGCAAACUGCAUCCAGAUCGCCC</td>
   <td name="td3">56</td>
@@ -4753,7 +4756,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">CA15-2 aptamer</td>
+  <td name="td0">HIV-1 CA lattice_Lange_1</td>
   <td name="td1">HIV-1 Capsid (CA) lattice tubes</td>
   <td name="td2">5'GGAAGAAGAGAAUCAUACACAAGAUCGACGUACCUCAGGGUGGUGUAUGACUGAGGUGAAGACUGUGAACCAUGGCAUGCGGGCAUAAGGUAGGUAAGUCCAUA3'</td>
   <td name="td3">104</td>
@@ -4763,7 +4766,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">L-Apt.8f aptamer</td>
+  <td name="td0">APP_Kwok_1</td>
   <td name="td1">Amyloid precursor protein (APP) 3'UTR D-rG4</td>
   <td name="td2">5'L-GCGGCAAGAGUGGGGGAGGGGGGUCGACGCC3'</td>
   <td name="td3">33</td>
@@ -4773,7 +4776,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D-Apt.8f aptamer</td>
+  <td name="td0">APP_Kwok_2</td>
   <td name="td1">Amyloid precursor protein (APP) 3'UTR D-rG5</td>
   <td name="td2">5'GCGGCAAGAGUGGGGGAGGGGGGUCGACGCC3'</td>
   <td name="td3">33</td>
@@ -4783,7 +4786,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D-Apt.8 aptamer</td>
+  <td name="td0">APP_Kwok_3</td>
   <td name="td1">Amyloid precursor protein (APP) 3'UTR D-rG6</td>
   <td name="td2">5'GCGGCGCCGAAGGGAGUGUGGGGGGGGGUCGACGCCG3'</td>
   <td name="td3">39</td>
@@ -4793,7 +4796,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">D-Apt.21 aptamer</td>
+  <td name="td0">APP_Kwok_4</td>
   <td name="td1">Amyloid precursor protein (APP) 3'UTR D-rG7</td>
   <td name="td2">5'GUGGCCCGAGGUGGGCGGGAGGGACGUAGCGGCCAC3'</td>
   <td name="td3">36</td>
@@ -4803,7 +4806,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Clone 1 aptamer</td>
+  <td name="td0">IL-23_Kawakami_1</td>
   <td name="td1">IL-23</td>
   <td name="td2">5'GGAUUAAGGAGGUGAUAUUUAUGCGUUCGACGAUGUGCAGAAUGGUUGUUUGUGCGGUGGAGGAGGAGGUAGCUA3'</td>
   <td name="td3">75</td>
@@ -4813,7 +4816,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">MA 39/76 aptamer</td>
+  <td name="td0">Hypoxic cells_Catuogno_1</td>
   <td name="td1">hypoxic phenotype in breast cancer (BC) cells</td>
   <td name="td2">5'CGCUGUGUGGAUAACAUGUAGCUACACAAUUCGAACCGC3'</td>
   <td name="td3">39</td>
@@ -4823,7 +4826,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B-ALL1 aptamer</td>
+  <td name="td0">CD22_Thiel_1</td>
   <td name="td1">B cell surface protein CD22</td>
   <td name="td2">5'GGGAGGACGAUGCGGGCCAUUCGUCUUUUCGUCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">51</td>
@@ -4833,7 +4836,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">B-ALL2 aptamer</td>
+  <td name="td0">CD22_Thiel_2</td>
   <td name="td1">B cell surface protein CD22</td>
   <td name="td2">5'GGGAGGACGAUGCGGUGACUCGUCUGUUUCGUCCCCAGACGACUCGCCCGA3'</td>
   <td name="td3">51</td>
@@ -4843,7 +4846,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">LepRapt-11 aptamer</td>
+  <td name="td0">LipL32_Citartan_1</td>
   <td name="td1">LipL32</td>
   <td name="td2">5'GGGAGGACGAUGCGGAUCCGAAGAUCGUCCUGGAGGGAAGGGAGGGUAGGCGCAGCAGACGACUCGCUGAGGAUCCGAGA3'</td>
   <td name="td3">80</td>
@@ -4853,7 +4856,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">LepRapt-3 aptamer</td>
+  <td name="td0">LipL32_Citartan_2</td>
   <td name="td1">LipL32</td>
   <td name="td2">5'GGGAGGACGAUGCGGUAUGGGACCGCGUAAGAGUGGGAGGGGGCGGCAGGUUCAUCAGACGACUCGCUGAGGAUCCGAGA3'</td>
   <td name="td3">80</td>
@@ -4863,7 +4866,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ChOmpUapta-1 aptamer</td>
+  <td name="td0">Vibrio cholerae_Arab_1</td>
   <td name="td1">V. cholerae</td>
   <td name="td2">5'UCCUCGCAUCGGGGGUGAAGUACCGUGCGAAAGUCGACGG3'</td>
   <td name="td3">40</td>
@@ -4873,7 +4876,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ChOmpUapta-2 aptamer</td>
+  <td name="td0">Vibrio cholerae_Arab_2</td>
   <td name="td1">V. cholerae</td>
   <td name="td2">5'CGGUUUUAAGUGGCAAGGCGAUUUGCCUGGGUAGAAUCCG3'</td>
   <td name="td3">40</td>
@@ -4883,7 +4886,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ChOmpUapta-3 aptamer</td>
+  <td name="td0">Vibrio cholerae_Arab_3</td>
   <td name="td1">V. cholerae</td>
   <td name="td2">5'GCCUUGGGUAGAGGCCGGUGGGUAUCUCCAUGAGAUGCUC3'</td>
   <td name="td3">40</td>
@@ -4893,7 +4896,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">K1(S4) aptamer</td>
+  <td name="td0">AML1 RD_Sakamoto_1</td>
   <td name="td1">cute myeloid leukaemia 1 (AML1) Runt domain (RD)</td>
   <td name="td2">5'GGGACACAAUGGACGGCCCUGCCACGAUAGCGGCGCGGGAAGUAAAGUAUACACCUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">73</td>
@@ -4903,7 +4906,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">K2(S2) aptamer</td>
+  <td name="td0">AML1 RD_Sakamoto_2</td>
   <td name="td1">cute myeloid leukaemia 1 (AML2) Runt domain (RD)</td>
   <td name="td2">5'GGGACACAAUGGACGGCCCAGCCACCUAGAGCGAGCGCGCAAUGGAGACCCAUUGUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">73</td>
@@ -4913,7 +4916,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">K3(S7) aptamer</td>
+  <td name="td0">AML1 RD_Sakamoto_3</td>
   <td name="td1">cute myeloid leukaemia 1 (AML3) Runt domain (RD)</td>
   <td name="td2">5'GGGACACAAUGGACGGCCCUGCCACCUAGAGCGAGCGCGCAAUGGAGACCCAUUGUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">73</td>
@@ -4923,7 +4926,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">10478 aptamer</td>
+  <td name="td0">Cardiomyocyte_Phylactou_1</td>
   <td name="td1">cardiomyocyte</td>
   <td name="td2">5'UGCAGGUGCAUGUGGGAUCACGCGCGGUUAGGUCGCCGCG3'</td>
   <td name="td3">40</td>
@@ -4933,7 +4936,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">DENV-3 aptamer</td>
+  <td name="td0">NS1 Protein_Citartan_1</td>
   <td name="td1">dengue NS1</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCUUUGAUCUCGUGGGGGUGUGUCGCGGGAGACACCAUGGAAUAUAUGGCUGAUUUCAUGUGGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">99</td>
@@ -4943,7 +4946,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">DENV-6 aptamer</td>
+  <td name="td0">NS1 Protein_Citartan_2</td>
   <td name="td1">dengue NS1</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCCGUAGUCGUAUCUCCAUUACCCAGAAUGGUGAUGCGCCGUGAAGAGCGGUUUAGGGAAUUGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">99</td>
@@ -4953,7 +4956,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PRapt-1 aptamer</td>
+  <td name="td0">Progesterone receptor_Citartan_1</td>
   <td name="td1">Progesterone Receptor</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCUACUUGGGAGGGGAGCGAACCUUCCAGUUCGUCUCUCUUGGGAAAGGGUUUGUAGCUAAUCAGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">101</td>
@@ -4963,7 +4966,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PRapt-2 aptamer</td>
+  <td name="td0">Progesterone receptor_Citartan_2</td>
   <td name="td1">Progesterone Receptor</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCCUGGGGGCGGGUUGGGUUGUAUCAUUUGCCGUUAGCCUGGUACAAAAGGGAGGCACUGGAGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">99</td>
@@ -4973,7 +4976,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">PRapt-3 aptamer</td>
+  <td name="td0">Progesterone receptor_Citartan_3</td>
   <td name="td1">Progesterone Receptor</td>
   <td name="td2">5'GGAGCUCAGCCUUCACUGCUUGCUUUUGGGGGUGCCGUACGCAUUGCGGCAGGGGGAAGAGGAGGGUAGCGACCAGUCGAAGGCACCACGGUCGGAUCCAC3'</td>
   <td name="td3">101</td>
@@ -4983,7 +4986,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">LxC aptamer</td>
+  <td name="td0">Levofloxacin_Suess_1</td>
   <td name="td1">levofloxacin</td>
   <td name="td2">5'GGGCACUCCAAGCUAGAUCUACCGGUUUGGGUAGUGCGAUUCGCACUGAAUGCCGCGUAGGCUUCGCUACUGGCUUCUACUACGUACCCAAAAUGGCUAGCAAAGGAGAAGAACUUUUCACU3'</td>
   <td name="td3">122</td>
@@ -4993,7 +4996,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">LxCsh aptamer</td>
+  <td name="td0">Levofloxacin_Suess_2</td>
   <td name="td1">levofloxacin</td>
   <td name="td2">5'GGGUUUGGGUAGUGCGAUUCGCACUGAAUGCCGCGUAGGCUUCGCUACUGGCUUCUACUACGUACCCAAACCC3'</td>
   <td name="td3">73</td>
@@ -5003,7 +5006,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">Clone 1 aptamer</td>
+  <td name="td0">IL-17RA_Kawakami_1</td>
   <td name="td1">human interleukin-17 receptor A (IL-17RA)</td>
   <td name="td2">5'GGAUUAAGGAGGUGAUAUUUAUGAUGAUUGUGUUUUAUCUGCAUCAUAAUGAGUGCGGUGGAGGAGGAGGUAGCUA3'</td>
   <td name="td3">76</td>
@@ -5013,7 +5016,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">VF1 aptamer</td>
+  <td name="td0">VβBCC_Sakamoto_1</td>
   <td name="td1">VβBCC complex</td>
   <td name="td2">5'gggagacaagaauaaacgcucaaUUGGAUCGAAACCAUGUAGACAUGGCCAUCCAAAGGGAGAuucgacaggaggcucacaacaggc3'</td>
   <td name="td3">87</td>
@@ -5023,7 +5026,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">VN49 aptamer</td>
+  <td name="td0">VβBCC_Sakamoto_2</td>
   <td name="td1">VβBCC complex</td>
   <td name="td2">5'gggagacaagaauaaacgcucaaAAGUGGCCUAGUACUCGACUCOAACCUAGUAGUCUAGGGUuucgacaggaggcucacaacaggc3'</td>
   <td name="td3">87</td>
@@ -5033,7 +5036,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">VF1-29 aptamer</td>
+  <td name="td0">VβBCC_Sakamoto_3</td>
   <td name="td1">VβBCC complex</td>
   <td name="td2">5'GGAGCGAAACCAUGUAGACAUGGCCCUCC3'</td>
   <td name="td3">29</td>
@@ -5043,7 +5046,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer 15 aptamer</td>
+  <td name="td0">tRip_Frugier_1</td>
   <td name="td1">Plasmodium tRip200-402WT</td>
   <td name="td2">5'gggagacaagaauaaacgcucaaAUGAACACCUAGUCAAGACCGUUUAuucgacaggaggcucacaacaggc3'</td>
   <td name="td3">72</td>
@@ -5053,7 +5056,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer 17 aptamer</td>
+  <td name="td0">tRip_Frugier_2</td>
   <td name="td1">Plasmodium tRip200-402WT</td>
   <td name="td2">5'gggagacaagaauaaacgcucaaGGUGAGAUAACCUGUCAGCACCUAGuucgacaggaggcucacaacaggc3'</td>
   <td name="td3">72</td>
@@ -5063,7 +5066,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer 37 aptamer</td>
+  <td name="td0">tRip_Frugier_3</td>
   <td name="td1">Plasmodium tRip200-402WT</td>
   <td name="td2">5'gggagacaagaauaaacgcucaaACCUGACCUACAGGUAACGCUAACAuucgacaggaggcucacaacaggc3'</td>
   <td name="td3">72</td>
@@ -5073,7 +5076,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">aptamer 24 aptamer</td>
+  <td name="td0">tRip_Frugier_4</td>
   <td name="td1">Plasmodium tRip200-402WT</td>
   <td name="td2">5'gggagacaagaauaaacgcucaaGAGAAGUCAGAUCGAAACACCUAGAuucgacaggaggcucacaacaggc3'</td>
   <td name="td3">72</td>
@@ -5083,7 +5086,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ApBC1 aptamer</td>
+  <td name="td0">MGSO-3 cells_Goes_1</td>
   <td name="td1">MGSO-3 cells</td>
   <td name="td2">5'GGGUUGUGUAGAUGAGGUAACUGAUGAAAAUGAUACU8uUAUACAGAAAUUAUCACUCCAGUGACGUCUGAACUGCUUCGAA3'</td>
   <td name="td3">82</td>
@@ -5093,7 +5096,7 @@ Kd2: 11 ± 3 nM</td>
 </tr>
     
  <tr>
-  <td name="td0">ApBC2 aptamer</td>
+  <td name="td0">MGSO-3 cells_Goes_2</td>
   <td name="td1">MGSO-3 cells</td>
   <td name="td2">5'GGGUUGUGUAGAUGCGUCAGUAUCAUUUGGAAAUGUUUUCGUCAUGGAGGUUCCGUGACGUCUGAACUGCUUCGAA3'</td>
   <td name="td3">76</td>
