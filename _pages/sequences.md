@@ -2360,7 +2360,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td1">ATP</td>
   <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAUUCACUCUACACCCAUGUCCCUAGGACUACAGGUUAACUACAAACCUCGAUCCGGUGCUUAGGGUGUGCUGG3'</td>
   <td name="td3">100</td>
-  <td name="td4">NA%</td>
+  <td name="td4">0</td>
   <td name="td5">NA</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/11884639/" target="_blank" style="color:#520049"><b>2002</b></a></td>
 </tr>
