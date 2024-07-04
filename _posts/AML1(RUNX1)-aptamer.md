@@ -217,7 +217,7 @@ categories: Aptamer
 
          
 <font ><p class="header_box" id="description">Description</p></font>
-<font >In 2000, J. Warren et al reported the 2.6 AÊ resolution crystal structure of the complex between the AML1 Runt domain and CBF. In 2003, Asou et al infered that pathways in AML1-associated leukemias that could be an important target for the development of new therapeutic agents. In 2009, L. Barton et al Isolated high-affinity aptamers that alter the affinity of RUNX1 for DNA and investigated their effects on DNA binding and CBF complex formation. In 2013,  Nomura et al., used nuclear magnetic resonance To understand the structural basis of recognition of the Runt domain by the aptamer motif; Fukunaga et al., Performed SELEX to obtain RNA aptamers that bind specifically to the AML1 protein to use as tools for better understanding AML1 and its potential utility for the diagnosis and treatment of AML1-related diseases.In 2016, Amano et al., Obtained high-affinity RNA aptamers against RD under highly stringent conditions. In 2019, Yang et al., modified approach can rapidly screen reliable, stable and high binding affinity aptamers for precise cancer treatment and successfully obtained the CD33-targeting aptamer S30, which could highly recognize the C2 domain of the CD33 antigen in vitro and in vivo<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>]</sup>.<br></font>
+<font>In 2000, J. Warren et al reported the 2.6 AÊ resolution crystal structure of the complex between the AML1 Runt domain and CBF. In 2003, Asou et al infered that pathways in AML1-associated leukemias that could be an important target for the development of new therapeutic agents. In 2009, L. Barton et al Isolated high-affinity aptamers that alter the affinity of RUNX1 for DNA and investigated their effects on DNA binding and CBF complex formation. In 2013,  Nomura et al., used nuclear magnetic resonance To understand the structural basis of recognition of the Runt domain by the aptamer motif; Fukunaga et al., Performed SELEX to obtain RNA aptamers that bind specifically to the AML1 protein to use as tools for better understanding AML1 and its potential utility for the diagnosis and treatment of AML1-related diseases.In 2016, Amano et al., Obtained high-affinity RNA aptamers against RD under highly stringent conditions. In 2019, Yang et al., modified approach can rapidly screen reliable, stable and high binding affinity aptamers for precise cancer treatment and successfully obtained the CD33-targeting aptamer S30, which could highly recognize the C2 domain of the CD33 antigen in vitro and in vivo<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
@@ -391,9 +391,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. TetR (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with TetR.</font>
-<br>
-<br>
+<p>AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. TetR (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with TetR.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/AML1_aptamer_binding_pockets1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -407,11 +405,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <br>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
-<font >Fukunaga and his colleagues performed SELEX to obtain RNA aptamers against the Runt domain of AML1<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</font >
-<br>
-<br>
+<p>Fukunaga and his colleagues performed SELEX to obtain RNA aptamers against the Runt domain of AML1<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>

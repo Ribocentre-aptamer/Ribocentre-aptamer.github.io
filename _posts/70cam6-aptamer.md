@@ -115,8 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Chloramphenicol is a broad spectrum antibiotic that is effective against a variety of susceptible and serious bacterial infections but is not frequently used because of its high risk of bone marrow toxicity.</font>
-<br>
+<p>Chloramphenicol is a broad spectrum antibiotic that is effective against a variety of susceptible and serious bacterial infections but is not frequently used because of its high risk of bone marrow toxicity.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -143,24 +142,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/Chloramphenicol_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<!--div style="display: flex; justify-content: center;"></div>
-<br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(1)">Ligand</th>
-        <th onclick="sortTable(2)">Sequence</th>
-        <th onclick="sortTable(3)">Affinity</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td1">Chloramphenicol</td>
-        <td name="td2">5'GGGAAAAGCGAAUCAUACACAAGAAUGAAAAGGGCUGGCGAGACAUAUCCGCUGGGCAAUCAGAUUCGGAGCCGCACCACCCUCGAAGUAGACAGGGCAUAAGGUAUUUAAUUCCAUA3'</td>
-        <td name="td3">2.1 ±  0.3 µM</td>
-      </tr>
-	  </tbody>
-  </table-->
 <br>
 
 

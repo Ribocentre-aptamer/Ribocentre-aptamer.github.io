@@ -127,8 +127,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>RNA-dependent RNA polymerase (RdRp) or RNA replicase is an enzyme that catalyzes the replication of RNA from an RNA template. Specifically, it catalyzes synthesis of the RNA strand complementary to a given RNA template. This is in contrast to typical DNA-dependent RNA polymerases, which all organisms use to catalyze the transcription of RNA from a DNA template.-----from Wikipedia</font>
-<br>
+<p>RNA-dependent RNA polymerase (RdRp) or RNA replicase is an enzyme that catalyzes the replication of RNA from an RNA template. Specifically, it catalyzes synthesis of the RNA strand complementary to a given RNA template. This is in contrast to typical DNA-dependent RNA polymerases, which all organisms use to catalyze the transcription of RNA from a DNA template.-----from Wikipedia</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -154,8 +153,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

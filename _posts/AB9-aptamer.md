@@ -215,8 +215,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 
-  <font>J. Jaremko and his colleague prepared 32P-labeled AB9s and ran a homologous binding assay with the GluA1/2R lipid membrane. Because AB9s exhibited full inhibitory activity against GluA1/2R to determine the binding affinity of AB9s, the shorter aptamer.Using the same homologous binding assay, they carried out the binding experiment with 32P-labeled AB9 and GluA1/2R lipid membrane<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.</font>
-<br>
+  <p>J. Jaremko and his colleague prepared 32P-labeled AB9s and ran a homologous binding assay with the GluA1/2R lipid membrane. Because AB9s exhibited full inhibitory activity against GluA1/2R to determine the binding affinity of AB9s, the shorter aptamer.Using the same homologous binding assay, they carried out the binding experiment with 32P-labeled AB9 and GluA1/2R lipid membrane<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
