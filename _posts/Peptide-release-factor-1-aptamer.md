@@ -5,10 +5,6 @@ date:   2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -119,8 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Peptide chain release factors (RFs) are required for the termination of protein biosynthesis. At present two classes of RFs can be distinguished. Class I RFs bind to ribosomes that have encountered a stop codon at their decoding site and induce release of the nascent polypeptide. Class II RFs are GTP-binding proteins that interact with class I RFs and enhance class I RF activity. In prokaryotes there are two class I RFs that act in a codon specific manner: RF-1(gene prfA) mediates UAA and UAG-dependent termination while RF-2 (gene prfB) mediates UAA and UGA-dependent termination. RF-1 and RF-2 are structurally and evolutionary related proteins which have been shown to be part of a larger family.-----From Pfam</font>
-<br>
+<p>Peptide chain release factors (RFs) are required for the termination of protein biosynthesis. At present two classes of RFs can be distinguished. Class I RFs bind to ribosomes that have encountered a stop codon at their decoding site and induce release of the nascent polypeptide. Class II RFs are GTP-binding proteins that interact with class I RFs and enhance class I RF activity. In prokaryotes there are two class I RFs that act in a codon specific manner: RF-1(gene prfA) mediates UAA and UAG-dependent termination while RF-2 (gene prfB) mediates UAA and UGA-dependent termination. RF-1 and RF-2 are structurally and evolutionary related proteins which have been shown to be part of a larger family.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -146,8 +141,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 
-<font>Analysis of complexes formed by aptamers and RF1 by electrophoretic shift assay.</font>
-<br>
+<p>Analysis of complexes formed by aptamers and RF1 by electrophoretic shift assay.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -169,6 +163,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/RNA5_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
+<br>
 <br>
 
 
@@ -327,4 +322,35 @@ Szkaradkiewicz, K., Nanninga, M., Nesper-Brock, M., Gerrits, M., Erdmann, V. A.,
     colorSelectionButton1.click();
   });
     </script>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>

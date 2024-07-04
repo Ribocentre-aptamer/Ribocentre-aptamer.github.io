@@ -5,10 +5,6 @@ date:   2024-05-14 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -267,8 +263,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 <br>
 <br>
-
-
 
 
 

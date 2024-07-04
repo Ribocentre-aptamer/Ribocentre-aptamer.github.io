@@ -115,8 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>This compound belongs to the class of organic compounds known as 4,5-disubstituted 2-deoxystreptamines. These are 2-deoxystreptamine aminoglycosides that a glycosidically linked to a pyranose of furanose unit at the C4- and C5-positions.-----from drugbank</font>
-<br>
+<p>This compound belongs to the class of organic compounds known as 4,5-disubstituted 2-deoxystreptamines. These are 2-deoxystreptamine aminoglycosides that a glycosidically linked to a pyranose of furanose unit at the C4- and C5-positions.-----from drugbank</p>p
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -144,23 +143,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/Lividomycin_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(1)">Ligand</th>
-        <th onclick="sortTable(2)">Sequence</th>
-        <th onclick="sortTable(3)">Affinity</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td1">Lividomycin</td>
-        <td name="td2">5'GGGAAUGGAUCCACAUCUACGAAUUCAACGAGUGCAGUGGGAAACAGGUCUUUGGCUUCACUGCAGACUUGACGAAGCUU3'</td>
-        <td name="td3">NA</td>
-      </tr>
-	  </tbody>
-  </table-->
+<br>p
 <br>
 
 

@@ -5,10 +5,6 @@ date:   2024-05-09 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -119,8 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Integrase mediates integration of a DNA copy of the viral genome into the host chromosome. Integrase is composed of three domains. The amino-terminal domain is a zinc binding domain. This domain is the central catalytic domain. The carboxyl terminal domain that is a non-specific DNA binding domain. The catalytic domain acts as an endonuclease when two nucleotides are removed from the 3' ends of the blunt-ended viral DNA made by reverse transcription. This domain also catalyses the DNA strand transfer reaction of the 3' ends of the viral DNA to the 5' ends of the integration site.-----from Pfam</font>
-<br>
+<p>Integrase mediates integration of a DNA copy of the viral genome into the host chromosome. Integrase is composed of three domains. The amino-terminal domain is a zinc binding domain. This domain is the central catalytic domain. The carboxyl terminal domain that is a non-specific DNA binding domain. The catalytic domain acts as an endonuclease when two nucleotides are removed from the 3' ends of the blunt-ended viral DNA made by reverse transcription. This domain also catalyses the DNA strand transfer reaction of the 3' ends of the viral DNA to the 5' ends of the integration site.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -145,8 +140,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -328,4 +322,35 @@ Allen, P., Worland, S., & Gold, L.<br />
     colorSelectionButton1.click();
   });
     </script>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>
