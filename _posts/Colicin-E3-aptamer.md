@@ -118,8 +118,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Colicins are classified according to the cell-surface receptor they bind to, colicin E3 binding to the BtuB receptor involved in vitamin B12 uptake. The lethal action of colicin E3 arises from its ability to inactivate the ribosome by site-specific RNase cleavage of the 16S ribosomal RNA, which is carried out by the catalytic, or ribonuclease domain. Colicin E3 is comprised of three domains, each domain being involved in a different stage of infection: receptor binding, translocation and cytotoxicity. Colicin E3 is a Y-shaped molecule with the receptor-binding middle domain forming the stalk, the N-terminal translocation domain forming the two globular heads, and the C-terminal catalytic domain forming the two globular arms. To neutralise the toxic effects of colicin E3, the host cell produces an immunity protein, which binds to the C-terminal end of the ribonuclease domain and effectively suppresses its activity.-----from Pfam</font>
-<br>
+<p>Colicins are classified according to the cell-surface receptor they bind to, colicin E3 binding to the BtuB receptor involved in vitamin B12 uptake. The lethal action of colicin E3 arises from its ability to inactivate the ribosome by site-specific RNase cleavage of the 16S ribosomal RNA, which is carried out by the catalytic, or ribonuclease domain. Colicin E3 is comprised of three domains, each domain being involved in a different stage of infection: receptor binding, translocation and cytotoxicity. Colicin E3 is a Y-shaped molecule with the receptor-binding middle domain forming the stalk, the N-terminal translocation domain forming the two globular heads, and the C-terminal catalytic domain forming the two globular arms. To neutralise the toxic effects of colicin E3, the host cell produces an immunity protein, which binds to the C-terminal end of the ribonuclease domain and effectively suppresses its activity.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -145,8 +144,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 
-<font>Affinity of selected the aptamer for colicin E3 CRD was determined by nitrocellulose filter-binding assays.</font>
-<br>
+<p>Affinity of selected the aptamer for colicin E3 CRD was determined by nitrocellulose filter-binding assays.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -169,7 +167,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/SELEX_ligand/E3_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
-
+<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -326,4 +324,35 @@ Hirao, I., Harada, Y., Nojima, T., Osawa, Y., Masaki, H., & Yokoyama, S.<br />
     colorSelectionButton1.click();
   });
     </script>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>
