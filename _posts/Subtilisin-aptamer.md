@@ -5,10 +5,6 @@ date:   2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -119,8 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Subtilisin is a serine endopeptidase in peptidase family S8, subfamily S8A. Characterized peptidases in this entry include subtilisin Carlsberg (S08.001), TK-subtilisin (S08.129), subtilisin PB92 (S08.003) and subtilisin BPN' (S08.034). TK-subtilisin is secreted from the hyperthermophilic archaeon Thermococcus kodakaraensis as an inactive precursor. TK-subtilisin is matured from pro-TK-subtilisin upon autoprocessing and degradation of the propeptide. Unlike other subtilisins, the folding of the unprocessed form of pro-TK-subtilisin is induced by Ca2+binding which is almost completed prior to autoprocessing. Ca2+is required for activity, unlike the bacterial subtilisins. The propeptide is not required for folding of the mature domain, unlike the bacterial subtilases, because of the stability produced from Ca2+binding. Subtilisin BPN'/Novo is extremely similar in structure to subtilisin Carlsberg though it has a 30% difference in amino acid sequence. The substrate binding regions are also similar and two possible Ca2+binding sites have been identified.-----from Pfam</font>
-<br>
+<p>Subtilisin is a serine endopeptidase in peptidase family S8, subfamily S8A. Characterized peptidases in this entry include subtilisin Carlsberg (S08.001), TK-subtilisin (S08.129), subtilisin PB92 (S08.003) and subtilisin BPN' (S08.034). TK-subtilisin is secreted from the hyperthermophilic archaeon Thermococcus kodakaraensis as an inactive precursor. TK-subtilisin is matured from pro-TK-subtilisin upon autoprocessing and degradation of the propeptide. Unlike other subtilisins, the folding of the unprocessed form of pro-TK-subtilisin is induced by Ca2+binding which is almost completed prior to autoprocessing. Ca2+is required for activity, unlike the bacterial subtilisins. The propeptide is not required for folding of the mature domain, unlike the bacterial subtilases, because of the stability produced from Ca2+binding. Subtilisin BPN'/Novo is extremely similar in structure to subtilisin Carlsberg though it has a 30% difference in amino acid sequence. The substrate binding regions are also similar and two possible Ca2+binding sites have been identified.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -146,8 +141,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 
-<font>To analyze subtilisin inhibition by RNA-1, subtilisin reaction using the chromogenic substrate was measured in the presence or absence of RNA-1.</font>
-<br>
+<p>To analyze subtilisin inhibition by RNA-1, subtilisin reaction using the chromogenic substrate was measured in the presence or absence of RNA-1.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -170,7 +164,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/SELEX_ligand/Subtilisin_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
-
+<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -328,4 +322,36 @@ Takeno, H., Yamamoto, S., Tanaka, T., Sakano, Y., & Kikuchi, Y.<br />
     colorSelectionButton1.click();
   });
     </script>
+
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>

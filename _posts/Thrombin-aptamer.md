@@ -543,4 +543,36 @@ Long, S. B., Long, M. B., White, R. R., & Sullenger, B. A.<br />
 <a id="ref7"></a><font><strong>[7] Evoking picomolar binding in RNA by a single phosphorodithioate linkage.</strong></font><br />
 Abeydeera, N. D., Egli, M., Cox, N., Mercier, K., Conde, J. N., Pallan, P. S., Mizurini, D. M., Sierant, M., Hibti, F. E., Hassell, T., Wang, T., Liu, F. W., Liu, H. M., Martinez, C., Sood, A. K., Lybrand, T. P., Frydman, C., Monteiro, R. Q., Gomer, R. H., Nawrot, B., … Yang, X<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/27566147/" target="_blank" style="color:#520049">Nucleic acids research, 44(17), 8052–8064. (2016)</a>
-<br /> 
+<br />
+
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
+</html>

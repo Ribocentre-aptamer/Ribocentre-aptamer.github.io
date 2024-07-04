@@ -5,10 +5,6 @@ date:   2024-04-30 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -110,17 +106,15 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <font>A unique stem-loop conformation was conserved in the m012 aptamer, suggesting that this region is critical for binding to SPC. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>5'-GGCGAAUUCUUCCGUUAUUGGAGCCAAGUCGCC-3'</p></font>
-<img src="/images/2D/SPC_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/SPC_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
+
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Sphingosylphosphocholine acid is a cationic phosphosphingolipid consisting of sphingosine having a phosphocholine moiety attached to its primary hydroxyl group. It is a phosphosphingolipid, a quaternary ammonium ion and a member of phosphocholines. It is functionally related to a sphingosine. It is a conjugate acid of a sphingosine-1-phosphocholine. It is a tautomer of a sphingosine-1-phosphocholine(1+).-----From WiKi</font>
-<br>
+<p>Sphingosylphosphocholine acid is a cationic phosphosphingolipid consisting of sphingosine having a phosphocholine moiety attached to its primary hydroxyl group. It is a phosphosphingolipid, a quaternary ammonium ion and a member of phosphocholines. It is functionally related to a sphingosine. It is a conjugate acid of a sphingosine-1-phosphocholine. It is a tautomer of a sphingosine-1-phosphocholine(1+).-----From WiKi</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
