@@ -593,9 +593,9 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Squash-aptamer" target="_blank" style="color:#520049"><b>Squash aptamer</b></a></td>
         <td name="td2">DFHBI-1T</td>
-        <td name="td3">DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe. DFHBI-1T binds to RNA aptamers (Spinach, Spinach2, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25337688/" target="_blank" style="color:#520049"><b>2014</b></a></td>
-        <td name="td5">NA</td>
+        <td name="td3">DFHBI-1T is a fluorescent probe that can be activated via a membrane RNA aptamer (ex/em=472 nm/507 nm).</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/34937909/" target="_blank" style="color:#520049"><b>2022</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/7KVU" target="_blank" style="color:#520049"><b>7KVU</b></a><br><a href="https://www.rcsb.org/structure/7KVT" target="_blank" style="color:#520049"><b>7KVT</b></a></td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
@@ -755,6 +755,14 @@ This section lists all the experimentally validated aptamers.
         <td name="td2">Sphingosylphosphorylcholine (SPC)</td>
         <td name="td3">Sphingosylphosphorylcholine (SPC) is a lysosphingolipid that exerts multiple functions, including acting as a spasmogen, as a mitogenic factor for various types of cells, and sometimes as an inflammatory mediator.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20729797/" target="_blank" style="color:#520049"><b>2010</b> </a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Pharmaceuticals</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Codeine-aptamer" target="_blank" style="color:#520049"><b>Codeine aptamer</b></a></td>
+        <td name="td2">Codeine</td>
+        <td name="td3">Codeine, chemical formula C18H21NO3, is an opioid used to treat mild to moderate pain.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/17038331/" target="_blank" style="color:#520049"><b>2006</b></a></td>
         <td name="td5">NA</td>
       </tr>
 	  </tbody>
