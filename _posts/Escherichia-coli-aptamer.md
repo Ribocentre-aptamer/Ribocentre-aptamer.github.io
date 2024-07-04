@@ -5,10 +5,6 @@ date:   2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -119,8 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Escherichia coli O157:H7 is a serotype of the bacterial species Escherichia coli and is one of the Shiga-like toxin–producing types of E. coli. It is a cause of disease, typically foodborne illness, through consumption of contaminated and raw food, including raw milk and undercooked ground beef. Infection with this type of pathogenic bacteria may lead to hemorrhagic diarrhea, and to kidney failure; these have been reported to cause the deaths of children younger than five years of age, of elderly patients, and of patients whose immune systems are otherwise compromised.-----From Wiki</font>
-<br>
+<p>Escherichia coli O157:H7 is a serotype of the bacterial species Escherichia coli and is one of the Shiga-like toxin–producing types of E. coli. It is a cause of disease, typically foodborne illness, through consumption of contaminated and raw food, including raw milk and undercooked ground beef. Infection with this type of pathogenic bacteria may lead to hemorrhagic diarrhea, and to kidney failure; these have been reported to cause the deaths of children younger than five years of age, of elderly patients, and of patients whose immune systems are otherwise compromised.-----From Wiki</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -140,8 +135,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -164,7 +158,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/SELEX_ligand/Ecoil_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
-
+<br>
 
                  
 <p class="header_box" id="references">References</p>

@@ -5,10 +5,6 @@ date:   2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -119,8 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>The oestrogen receptors (ERs) are steroid or nuclear hormone receptors that act as transcription regulators involved in diverse physiological functions. Oestrogen receptors function as dimeric molecules in nuclei to regulate the transcription of target genes in a ligand-responsive manner.-----from Pfam</font>
-<br>
+<p>The oestrogen receptors (ERs) are steroid or nuclear hormone receptors that act as transcription regulators involved in diverse physiological functions. Oestrogen receptors function as dimeric molecules in nuclei to regulate the transcription of target genes in a ligand-responsive manner.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -146,8 +141,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -181,6 +175,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/ER_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
+<br>
 <br>
 
 
@@ -339,4 +334,35 @@ Xu, D., Chatakonda, VK., Kourtidis, A., Conklin, DS., & Shi, H.<br />
     colorSelectionButton1.click();
   });
     </script>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>

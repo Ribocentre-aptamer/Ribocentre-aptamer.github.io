@@ -155,12 +155,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. DP3 aptamer binding to Neuropeptide Y<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>5'-UCGGAGAAAGGGAAGCUUGAGCAGCAGGAGGGCCGGCGUUAGGGUUAGCGAGCCGAUUGAAAGAAGAAGGAACGAGCGUACGGAUCCGAUC-3'</p></font>
-<img src="/images/2D/NPY_aptamer_2D.svg" alt="drawing" style="width:800px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/NPY_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Neuropeptide Y is a 36-amino acid peptide found in many organs and in many sympathetic noradrenergic neurons. It has vasoconstrictor and diuretic activity and regulates local blood flow, glandular secretion, and smooth muscle activity. The peptide also stimulates feeding and drinking behavior and influences pituitary hormone secretion.-----From ChEBI</font>
