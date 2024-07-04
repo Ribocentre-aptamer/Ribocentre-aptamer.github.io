@@ -180,7 +180,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
  <p class="blowheader_box">3D visualisation</p>             
-<font>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Michael Famulok et al. through multidimensional nuclear magnetic resonance (NMR) spectroscopy. The PDB ID of this structure is 1KOC<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/docs/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Michael Famulok et al. through multidimensional nuclear magnetic resonance (NMR) spectroscopy. The PDB ID of this structure is 1KOC<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -414,8 +414,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Arginine_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
 </table>
-<div style="display: flex; justify-content: center;">
-</div>
+<div style="display: flex; justify-content: center;"></div>
 <br>
 
 
