@@ -5,10 +5,6 @@ date:   2024-05-01 00:00:00
 author: Jiali Wang, Chen Ke
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -118,8 +114,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Haemagglutinin (HA) is one of two main surface fusion glycoproteins embedded in the envelope of influenza viruses, the other being neuraminidase (NA). There are sixteen known HA subtypes (H1-H16) and nine NA subtypes (N1-N9), which together are used to classify influenza viruses (e.g. H5N1). The antigenic variations in HA and NA enable the virus to evade host antibodies made to previous influenza strains, accounting for recurrent influenza epidemics. The HA glycoprotein is present in the viral membrane as a single polypeptide (HA0), which must be cleaved by the host's trypsin-like proteases to produce two peptides (HA1 and HA2) in order for the virus to be infectious. Once HA0 is cleaved, the newly exposed N-terminal of the HA2 peptide then acts to fuse the viral envelope to the cellular membrane of the host cell, which allows the viral negative-stranded RNA to infect the host cell. The type of host protease can influence the infectivity and pathogenicity of the virus.-----from Pfam</font>
-<br>
+<p>Haemagglutinin (HA) is one of two main surface fusion glycoproteins embedded in the envelope of influenza viruses, the other being neuraminidase (NA). There are sixteen known HA subtypes (H1-H16) and nine NA subtypes (N1-N9), which together are used to classify influenza viruses (e.g. H5N1). The antigenic variations in HA and NA enable the virus to evade host antibodies made to previous influenza strains, accounting for recurrent influenza epidemics. The HA glycoprotein is present in the viral membrane as a single polypeptide (HA0), which must be cleaved by the host's trypsin-like proteases to produce two peptides (HA1 and HA2) in order for the virus to be infectious. Once HA0 is cleaved, the newly exposed N-terminal of the HA2 peptide then acts to fuse the viral envelope to the cellular membrane of the host cell, which allows the viral negative-stranded RNA to infect the host cell. The type of host protease can influence the infectivity and pathogenicity of the virus.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -144,8 +139,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -244,4 +238,35 @@ Misono, T. S., & Kumar, P. K.<br />
     colorSelectionButton1.click();
   });
     </script>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
     </html>

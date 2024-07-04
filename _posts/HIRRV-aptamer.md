@@ -5,10 +5,6 @@ date:   2024-05-06 00:00:00
 author: Jiali Wang, Chen Ke
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -124,8 +120,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>   
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>(Biology) any of the viruses belonging to the Rhabdoviradae family, which are composed of rod-shaped particles that can infect living organisms, and which include the viruses that cause rabies.-----from Wiki</font>
-<br>
+<p>(Biology) any of the viruses belonging to the Rhabdoviradae family, which are composed of rod-shaped particles that can infect living organisms, and which include the viruses that cause rabies.-----from Wiki</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -144,8 +139,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
