@@ -1619,14 +1619,6 @@ This section lists all the experimentally validated aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CD133-aptamer" target="_blank" style="color:#520049"><b>CD133 aptamer</b></a></td>
-        <td name="td2">CD133 on cell line Hep3B</td>
-        <td name="td3">CD<sub>133</sub>, also known as Prominin-1, is a pentaspan, highly glycosylated, membrane glycoprotein that is associated with cholesterol in the plasma membrane.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/23196060/" target="_blank" style="color:#520049"><b>2013</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
         <td name="td0" rowspan = "1">Parasite</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CED-9-aptamer" target="_blank" style="color:#520049"><b>CED-9 aptamer</b></a></td>
         <td name="td2">Cell death abnormality gene 9 (CED-9)</td>
@@ -1643,43 +1635,11 @@ This section lists all the experimentally validated aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Cell</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/E3-aptamer" target="_blank" style="color:#520049"><b>E3 aptamer</b></a></td>
-        <td name="td2">prostate cancer cell</td>
-        <td name="td3">Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29666232/" target="_blank" style="color:#520049"><b>2018</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HER2-aptamer" target="_blank" style="color:#520049"><b>HER2 aptamer</b></a></td>
-        <td name="td2">HER2-positive breast cancer cells</td>
-        <td name="td3">Human epidermal growth factor receptor-2 (HER2/erbB-2) belongs to a family of four transmembrane receptors involved in signal transduction pathways that regulate cell growth and differentiation.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/26221481/" target="_blank" style="color:#520049"><b>2015</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Cell</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/GL56-aptamer" target="_blank" style="color:#520049"><b>GL56 aptamer</b></a></td>
-        <td name="td2">insulin receptor (glioma cells)</td>
-        <td name="td3">IR belongs to a family of receptor tyrosine kinases (RTKs) that also includes the insulin-like growth factor 1 receptor (IGF-1R).Activation of both receptors plays a key role in normal tissues physiology and has been implicated in cancer development and progression.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/27648925/" target="_blank" style="color:#520049"><b>2016</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
         <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mbl-aptamer" target="_blank" style="color:#520049"><b>Mbl-aptamer</b></a></td>
         <td name="td2">Drosophila muscleblind protein Mbl</td>
         <td name="td3">Drosophila muscleblind (Mbl) is an RNA-binding protein critical for cellular differentiation and development. Mbl plays significant roles in the differentiation of photoreceptors and the terminal differentiation of muscles. The human orthologues of Mbl, known as muscleblind-like proteins (MBNL1-3), similarly regulate the alternative splicing of transcripts essential for development.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18557632/" target="_blank" style="color:#520049"><b>2008</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Other </td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mitochondrion-aptamer" target="_blank" style="color:#520049"><b>Mitochondrion aptamer</b></a></td>
-        <td name="td2">Mitochondrion</td>
-        <td name="td3">Mitochondrion is a kind of organelle which exists in most eukaryotic cells and is covered by two membranes. It is the structure that produces energy in cells and the main place for cells to carry out aerobic respiration, so it is called "power house". Its diameter is about 0.5 to 1.0 microns.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12024047/" target="_blank" style="color:#520049"><b>2002</b></a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
@@ -1699,7 +1659,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td5">NA</td>
       </tr>
       <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
+        <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/B52-aptamer" target="_blank" style="color:#520049"><b>B52-aptamer</b></a></td>
         <td name="td2">SR Protein B52 (SRp55)</td>
         <td name="td3">Serine/arginine-rich (SR) proteins comprise a family of proteins that is predominantly found in eukaryotes and plays a prominent role in RNA splicing. A characteristic feature of SR proteins is the presence of an S/R-rich low-complexity domain (RS domain).</td>
@@ -1712,14 +1672,6 @@ This section lists all the experimentally validated aptamers.
         <td name="td2">T4 DNA polymerase (gp43)</td>
         <td name="td3">A DNA polymerase is a member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates, the molecular precursors of DNA. These enzymes are essential for DNA replication and usually work in groups to create two identical DNA duplexes from a single original DNA duplex.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049"><b>1990</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Other</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TNBC-aptamer" target="_blank" style="color:#520049"><b>TNBC aptamer</b></a></td>
-        <td name="td2">Triple-negative breast cancer (TNBC)</td>
-        <td name="td3">Triple-negative breast cancer refers to the breast cancer whose immunohistochemical results show that estrogen receptor (ER), progesterone receptor (PR) and proto-oncogene Her-2 are all negative.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32222697/" target="_blank" style="color:#520049"><b>2020</b></a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
@@ -1874,6 +1826,75 @@ This section lists all the experimentally validated aptamers.
 	  </tbody>
   </table>
 </div>
+
+
+<div id="sheet3" class="sheet" class="table-style1">
+    <h2>Cell</h2>
+    <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
+    <table id="amintable">
+     <thead>
+      <tr>
+        <th onclick="sortTable(0)">Category</th>
+        <th onclick="sortTable(1)">Name</th>
+        <th onclick="sortTable(2)">Ligand</th>
+        <th onclick="sortTable(3)">Description</th>
+        <th onclick="sortTable(4)">Discovery</th>
+        <th onclick="sortTable(5)">PDB</th>
+      </tr>
+      </thead>
+    <tbody> 
+      <tr>
+        <td name="td0" rowspan = "1">Other </td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mitochondrion-aptamer" target="_blank" style="color:#520049"><b>Mitochondrion aptamer</b></a></td>
+        <td name="td2">Mitochondrion</td>
+        <td name="td3">Mitochondrion is a kind of organelle which exists in most eukaryotic cells and is covered by two membranes. It is the structure that produces energy in cells and the main place for cells to carry out aerobic respiration, so it is called "power house". Its diameter is about 0.5 to 1.0 microns.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12024047/" target="_blank" style="color:#520049"><b>2002</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HER2-aptamer" target="_blank" style="color:#520049"><b>HER2 aptamer</b></a></td>
+        <td name="td2">HER2-positive breast cancer cells</td>
+        <td name="td3">Human epidermal growth factor receptor-2 (HER2/erbB-2) belongs to a family of four transmembrane receptors involved in signal transduction pathways that regulate cell growth and differentiation.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/26221481/" target="_blank" style="color:#520049"><b>2015</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/E3-aptamer" target="_blank" style="color:#520049"><b>E3 aptamer</b></a></td>
+        <td name="td2">prostate cancer cell</td>
+        <td name="td3">Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29666232/" target="_blank" style="color:#520049"><b>2018</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TNBC-aptamer" target="_blank" style="color:#520049"><b>TNBC aptamer</b></a></td>
+        <td name="td2">Triple-negative breast cancer (TNBC)</td>
+        <td name="td3">Triple-negative breast cancer refers to the breast cancer whose immunohistochemical results show that estrogen receptor (ER), progesterone receptor (PR) and proto-oncogene Her-2 are all negative.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32222697/" target="_blank" style="color:#520049"><b>2020</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CD133-aptamer" target="_blank" style="color:#520049"><b>CD133 aptamer</b></a></td>
+        <td name="td2">CD133 on cell line Hep3B</td>
+        <td name="td3">CD<sub>133</sub>, also known as Prominin-1, is a pentaspan, highly glycosylated, membrane glycoprotein that is associated with cholesterol in the plasma membrane.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/23196060/" target="_blank" style="color:#520049"><b>2013</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Cell</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/GL56-aptamer" target="_blank" style="color:#520049"><b>GL56 aptamer</b></a></td>
+        <td name="td2">insulin receptor (glioma cells)</td>
+        <td name="td3">IR belongs to a family of receptor tyrosine kinases (RTKs) that also includes the insulin-like growth factor 1 receptor (IGF-1R).Activation of both receptors plays a key role in normal tissues physiology and has been implicated in cancer development and progression.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/27648925/" target="_blank" style="color:#520049"><b>2016</b></a></td>
+        <td name="td5">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
      
                 
 <script>
@@ -2069,7 +2090,7 @@ function downloadExcel() {
   </script>
 
 
- <script>
+ <!--script>
   window.addEventListener('DOMContentLoaded', function() {
     var td3Elements = document.getElementsByName('td3'); // 获取所有 name="td3" 的元素
 
@@ -2101,7 +2122,7 @@ function downloadExcel() {
       btn.innerHTML = '......'; // 更新按钮文字为“... (more)”
     }
   }
-</script>
+</script-->
 
 
 
