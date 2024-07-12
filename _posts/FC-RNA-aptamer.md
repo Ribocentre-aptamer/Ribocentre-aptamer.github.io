@@ -371,7 +371,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td0">FC RNA aptamer</sup></td>
+        <td name="td0">FC RNA aptamer</td>
         <td name="td1">5'-ACAGCACUGAUUGCGGUCGAGGUAGCUUGAUGG-3'</td>
         <td name="td3">Pol II</td>
         <td name="td4">33±2 nM</td>
