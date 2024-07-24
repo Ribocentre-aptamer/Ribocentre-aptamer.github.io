@@ -143,10 +143,10 @@ permalink: /Ribocentre-aptamer/
     .table {
     width: 100%;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 5 auto;
     border-collapse: collapse;
     background-color: #ffffff;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     table-layout: fixed; /* 使用固定布局 */
   }
   .table td {
@@ -187,14 +187,14 @@ permalink: /Ribocentre-aptamer/
   .row2 td:nth-child(2) { background-color: #385dbf; }
   .row2 td:nth-child(3) { background-color: #385dbf; }
   .row2 td:nth-child(4) { background-color: #385dbf; }
-  .row2 td:nth-child(5) { background-color: #f0a570; }
-  .row2 td:nth-child(6) { background-color: #f0a570; }
-  .row2 td:nth-child(7) { background-color: #f0a570; }
+  .row2 td:nth-child(5) { background-color: #385dbf; }
+  .row2 td:nth-child(6) { background-color: #385dbf; }
+  .row2 td:nth-child(7) { background-color: #385dbf; }
   .row2 td:nth-child(8) { background-color: #f0a570; }
   .row2 td:nth-child(9) { background-color: #f0a570; }
-  .row3 td:nth-child(1) { background-color: #d75369; }
-  .row3 td:nth-child(2) { background-color: #d75369; }
-  .row3 td:nth-child(3) { background-color: #d75369; }
+  .row3 td:nth-child(1) { background-color: #f0a570; }
+  .row3 td:nth-child(2) { background-color: #f0a570; }
+  .row3 td:nth-child(3) { background-color: #f0a570; }
   .row3 td:nth-child(4) { background-color: #d75369; }
   .row3 td:nth-child(5) { background-color: #d75369; }
   .row3 td:nth-child(6) { background-color: #d75369; }
@@ -202,26 +202,190 @@ permalink: /Ribocentre-aptamer/
   .row3 td:nth-child(8) { background-color: #d75369; }
   .row3 td:nth-child(9) { background-color: #d75369; }
   .row4 td:nth-child(1) { background-color: #d75369; }
-  .row4 td:nth-child(2) { background-color: #3c58a5; }
-  .row4 td:nth-child(3) { background-color: #3c58a5; }
-  .row4 td:nth-child(4) { background-color: #14a0ec; }
-  .row4 td:nth-child(5) { background-color: #14a0ec; }
-  .row4 td:nth-child(6) { background-color: #14a0ec; }
+  .row4 td:nth-child(2) { background-color: #d75369; }
+  .row4 td:nth-child(3) { background-color: #d75369; }
+  .row4 td:nth-child(4) { background-color: #d75369; }
+  .row4 td:nth-child(5) { background-color: #3c58a5; }
+  .row4 td:nth-child(6) { background-color: #3c58a5; }
   .row4 td:nth-child(7) { background-color: #14a0ec; }
   .row4 td:nth-child(8) { background-color: #14a0ec; }
-  .row4 td:nth-child(9) { background-color: #e97e8d; }
-  .row5 td:nth-child(1) { background-color: #e97e8d; }
-  .row5 td:nth-child(2) { background-color: #e97e8d; }
+  .row4 td:nth-child(9) { background-color: #14a0ec; }
+  .row5 td:nth-child(1) { background-color: #14a0ec; }
+  .row5 td:nth-child(2) { background-color: #14a0ec; }
   .row5 td:nth-child(3) { background-color: #e97e8d; }
-  .row5 td:nth-child(4) { background-color: #ade48b; }
-  .row5 td:nth-child(5) { background-color: #ade48b; }
-  .row5 td:nth-child(6) { background-color: #ade48b; }
+  .row5 td:nth-child(4) { background-color: #e97e8d; }
+  .row5 td:nth-child(5) { background-color: #e97e8d; }
+  .row5 td:nth-child(6) { background-color: #e97e8d; }
   .row5 td:nth-child(7) { background-color: #ade48b; }
-  .row5 td:nth-child(8) { background-color: #9841da; }
-  .row5 td:nth-child(9) { background-color: #77c670; }
+  .row5 td:nth-child(8) { background-color: #ade48b; }
+  .row5 td:nth-child(9) { background-color: #ade48b; }
+  .row6 td:nth-child(1) { background-color: #ade48b; }
+  .row6 td:nth-child(2) { background-color: #9841da; }
+  .row6 td:nth-child(3) { background-color: #77c670; }
   #pie-chart {
       margin: 0 auto; /* 居中 */
     }
+.table2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 5px auto; /* 适当的间距 */
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    table-layout: fixed; /* 使用固定布局 */
+  }
+  .table2 td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    word-wrap: break-word; /* 单词换行 */
+    white-space: normal; /* 换行处理 */
+  }
+  /* 每个单元格的背景颜色设置 */
+  .table2 .row1 td:nth-child(1) { background-color: #FFA07A; }
+  .table2 .row1 td:nth-child(2) { background-color: #FFA07A; }
+  .table2 .row1 td:nth-child(3) { background-color: #FFA07A; }
+  .table2 .row1 td:nth-child(4) { background-color: #FFA07A; }
+  .table2 .row1 td:nth-child(5) { background-color: #385dbf; }
+  .table2 .row1 td:nth-child(6) { background-color: #385dbf; }
+  .table2 .row1 td:nth-child(7) { background-color: #385dbf; }
+  .table2 .row1 td:nth-child(8) { background-color: #f0a570; }
+  .table2 .row1 td:nth-child(9) { background-color: #f0a570; }
+  .table2 .row2 td:nth-child(1) { background-color: #f0a570; }
+  .table2 .row2 td:nth-child(2) { background-color: #d75369; }
+  .table2 .row2 td:nth-child(3) { background-color: #d75369; }
+  .table2 .row2 td:nth-child(4) { background-color: #d75369; }
+  .table2 .row2 td:nth-child(5) { background-color: #d75369; }
+  .table2 .row2 td:nth-child(6) { background-color: #d75369; }
+  .table2 .row2 td:nth-child(7) { background-color: #d75369; }
+  .table2 .row2 td:nth-child(8) { background-color: #d75369; }
+  .table2 .row2 td:nth-child(9) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(1) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(2) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(3) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(4) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(5) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(6) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(7) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(8) { background-color: #d75369; }
+  .table2 .row3 td:nth-child(9) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(1) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(2) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(3) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(4) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(5) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(6) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(7) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(8) { background-color: #d75369; }
+  .table2 .row4 td:nth-child(9) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(1) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(2) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(3) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(4) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(5) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(6) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(7) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(8) { background-color: #d75369; }
+  .table2 .row5 td:nth-child(9) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(1) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(2) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(3) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(4) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(5) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(6) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(7) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(8) { background-color: #d75369; }
+  .table2 .row6 td:nth-child(9) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(1) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(2) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(3) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(4) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(5) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(6) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(7) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(8) { background-color: #d75369; }
+  .table2 .row7 td:nth-child(9) { background-color: #d75369; }
+  .table2 .row8 td:nth-child(1) { background-color: #d75369; }
+  .table2 .row8 td:nth-child(2) { background-color: #3c58a5; }
+  .table2 .row8 td:nth-child(3) { background-color: #3c58a5; }
+  .table2 .row8 td:nth-child(4) { background-color: #3c58a5; }
+  .table2 .row8 td:nth-child(5) { background-color: #3c58a5; }
+  .table2 .row8 td:nth-child(6) { background-color: #3c58a5; }
+  .table2 .row8 td:nth-child(7) { background-color: #14a0ec; }
+  .table2 .row8 td:nth-child(8) { background-color: #14a0ec; }
+  .table2 .row8 td:nth-child(9) { background-color: #14a0ec; }
+  .table2 .row9 td:nth-child(1) { background-color: #14a0ec; }
+  .table2 .row9 td:nth-child(2) { background-color: #14a0ec; }
+  .table2 .row9 td:nth-child(3) { background-color: #14a0ec; }
+  .table2 .row9 td:nth-child(4) { background-color: #e97e8d; }
+  .table2 .row9 td:nth-child(5) { background-color: #e97e8d; }
+  .table2 .row9 td:nth-child(6) { background-color: #e97e8d; }
+  .table2 .row9 td:nth-child(7) { background-color: #e97e8d; }
+  .table2 .row9 td:nth-child(8) { background-color: #e97e8d; }
+  .table2 .row9 td:nth-child(9) { background-color: #e97e8d; }
+  .table2 .row10 td:nth-child(1) { background-color: #e97e8d; }
+  .table2 .row10 td:nth-child(2) { background-color: #e97e8d; }
+  .table2 .row10 td:nth-child(3) { background-color: #e97e8d; }
+  .table2 .row10 td:nth-child(4) { background-color: #ade48b; }
+  .table2 .row10 td:nth-child(5) { background-color: #ade48b; }
+  .table2 .row10 td:nth-child(6) { background-color: #ade48b; }
+  .table2 .row10 td:nth-child(7) { background-color: #ade48b; }
+  .table2 .row10 td:nth-child(8) { background-color: #ade48b; }
+  .table2 .row10 td:nth-child(9) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(1) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(2) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(3) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(4) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(5) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(6) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(7) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(8) { background-color: #ade48b; }
+  .table2 .row11 td:nth-child(9) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(1) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(2) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(3) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(4) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(5) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(6) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(7) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(8) { background-color: #ade48b; }
+  .table2 .row12 td:nth-child(9) { background-color: #9841da; }
+  .table2 .row13 td:nth-child(1) { background-color: #9841da; }
+  .table2 .row13 td:nth-child(2) { background-color: #9841da; }
+  .table2 .row13 td:nth-child(3) { background-color: #ab233a; }
+  .table2 .row13 td:nth-child(4) { background-color: #2a5c76; }
+  .table2 .row13 td:nth-child(5) { background-color: #2a5c76; }
+  .table2 .row13 td:nth-child(6) { background-color: #2a5c76; }
+  .table2 .row13 td:nth-child(7) { background-color: #6ed9cd; }
+  .table2 .row13 td:nth-child(8) { background-color: #6ed9cd; }
+  .table2 .row13 td:nth-child(9) { background-color: #6ed9cd; }
+  .table2 .row14 td:nth-child(1) { background-color: #396120; }
+  .table2 .row14 td:nth-child(2) { background-color: #396120; }
+  .table2 .row14 td:nth-child(3) { background-color: #77c670; }
+  .table2 .row14 td:nth-child(4) { background-color: #77c670; }
+  .table2 .row14 td:nth-child(5) { background-color: #bf97d1; }
+  .table2 .row14 td:nth-child(6) { background-color: #bf97d1; }
+  .table2 .row14 td:nth-child(7) { background-color: #bf97d1; }
+  .table2 .row14 td:nth-child(8) { background-color: #bf97d1; }
+  .table2 .row14 td:nth-child(9) { background-color: #bf97d1; }
+  .table2 .row15 td:nth-child(1) { background-color: #bf97d1; }
+  /* 悬停效果 */
+  .table2 td:hover {
+    transform: scale(1.05); /* 缩放到105% */
+    cursor: pointer;
+  }
+  /* 链接样式 */
+  .table2 a {
+    color: white !important;
+    text-decoration: none !important; /* 去除链接下划线 */
+  }
+  /* 链接悬停样式 */
+  .table2 a:hover {
+    color: white !important;
+    text-decoration: none !important;
+  }
+
 </style>
 </head>
 
@@ -252,7 +416,8 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
   </script>
 
 
-<p>The aptamer database encompasses both aptamers with known 3D structures and those without. The table provided below enumerates the ligands of the aptamers that have identified 3D structures. The color coding of the table matches the hues of the pie chart displayed above, which symbolizes the various categories of aptamers. By clicking on a ligand of interest, you can access detailed information pertaining to the respective aptamer.</p>
+<p>The aptamer database encompasses both aptamers with known 3D structures and those without. The following table lists the ligands of all aptamers in this database. The color coding of the table matches the hues of the pie chart displayed above, which symbolizes the various categories of aptamers. By clicking on a ligand of interest, you can access detailed information pertaining to the respective aptamer.</p>
+<font>This table lists the ligands of aptamers with identified 3D structures:</font>
   <table class="table" border="1">
     <tr class="row1">
       <td><a href="https://aptamer.ribocentre.org/_posts/Citrulline-aptamer" target="_blank" onclick="handleCellClick(event)">Citrulline</a></td>
@@ -260,58 +425,222 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
        <td><a href="https://aptamer.ribocentre.org/_posts/Chili-aptamer" target="_blank" onclick="handleCellClick(event)">Chili</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/TMR-aptamer" target="_blank" onclick="handleCellClick(event)">TMR</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Mango-aptamer(TO1-biotin)" target="_blank" onclick="handleCellClick(event)">Mango</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Mango-aptamer(TO1-biotin)" target="_blank" onclick="handleCellClick(event)">Mango II</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Mango-III-aptamer(YO3)" target="_blank" onclick="handleCellClick(event)">Mango III</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Mango-III-aptamer(YO3)" target="_blank" onclick="handleCellClick(event)">Mango IV</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Spinach-aptamer" target="_blank" onclick="handleCellClick(event)">Spinach</a></td>
-      <td><a href="https://aptamer.ribocentre.org/_posts/Corn-aptamer" target="_blank" onclick="handleCellClick(event)">Corn</a></td>
-      <td><a href="https://aptamer.ribocentre.org/_posts/DIR2s-apt-aptamer" target="_blank" onclick="handleCellClick(event)">DIR2s</a></td>
     </tr>
     <tr class="row2">
+    <td><a href="https://aptamer.ribocentre.org/_posts/Squash-aptamer" target="_blank" onclick="handleCellClick(event)">Squash</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/Corn-aptamer" target="_blank" onclick="handleCellClick(event)">Corn</a></td>
+    <td><a href="https://aptamer.ribocentre.org/_posts/DIR2s-apt-aptamer" target="_blank" onclick="handleCellClick(event)">DIR2s</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Pepper-aptamer" target="_blank" onclick="handleCellClick(event)">Pepper</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/MG-aptamer" target="_blank" onclick="handleCellClick(event)">MG</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Clivias-aptamer" target="_blank" onclick="handleCellClick(event)">Clivias</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Beetroot-aptamer" target="_blank" onclick="handleCellClick(event)">Beetroot</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/FMN-aptamer" target="_blank" onclick="handleCellClick(event)">FMN</a></td>
       <td><a href="https://aptamer.ribocentre.org/_posts/Vitamin-B12-aptamer" target="_blank" onclick="handleCellClick(event)">VITAMIN B12</a></td>
-      <td><a href="https://aptamer.ribocentre.org/_posts/5HTP-aptamer" target="_blank" onclick="handleCellClick(event)">5HTP</a></td>
-      <td><a href="https://aptamer.ribocentre.org/_posts/Riboflavin-aptamer" target="_blank" onclick="handleCellClick(event)">Riboflavin</a></td>
-      <td><a href="https://aptamer.ribocentre.org/_posts/Biotin-aptamer" target="_blank" onclick="handleCellClick(event)">Biotin</a></td>
     </tr>
     <tr class="row3">
+    <td><a href="https://aptamer.ribocentre.org/_posts/5HTP-aptamer" target="_blank" onclick="handleCellClick(event)">5HTP</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Riboflavin-aptamer" target="_blank" onclick="handleCellClick(event)">Riboflavin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Biotin-aptamer" target="_blank" onclick="handleCellClick(event)">Biotin</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/AML1(RUNX1)-aptamer" target="_blank" onclick="handleCellClick(event)">AML1</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/A9g-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">GCPII</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/eIF4A-aptamer" target="_blank" onclick="handleCellClick(event)">eIF4A</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/GRK2-aptamer" target="_blank" onclick="handleCellClick(event)">GRK2</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/IgG-aptamer" target="_blank" onclick="handleCellClick(event)">Human IgG</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/NF-kappaB-aptamer" target="_blank" onclick="handleCellClick(event)">NF-kappaB</a></td>
+    </tr>
+    <tr class="row4">
     <td><a href="https://aptamer.ribocentre.org/_posts/Thrombin-aptamer" target="_blank" onclick="handleCellClick(event)">Thrombin</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Lysozyme-aptamer" target="_blank" onclick="handleCellClick(event)">lysozyme</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/GlnRs-aptamer" target="_blank" onclick="handleCellClick(event)">GlnRs</a></td>
-    </tr>
-    <tr class="row4">
     <td><a href="https://aptamer.ribocentre.org/_posts/Factor-Xa-aptamer" target="_blank" onclick="handleCellClick(event)">Factor Xa</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/ATP-aptamer" target="_blank" onclick="handleCellClick(event)">ATP</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/GTP-aptamer" target="_blank" onclick="handleCellClick(event)">GTP</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Tetracycline-aptamer" target="_blank" onclick="handleCellClick(event)">Tetracycline</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/NeomycinB-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">Neomycin B</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Streptomycin-RNA-Aptamer" target="_blank" onclick="handleCellClick(event)">Streptomycin</a></td>
+    </tr>
+    <tr class="row5">
     <td><a href="https://aptamer.ribocentre.org/_posts/Theophylline-aptamer" target="_blank" onclick="handleCellClick(event)">Theophylline</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Tobramycin-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">Tobramycin</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Hfq-aptamer" target="_blank" onclick="handleCellClick(event)">Hfq</a></td>
-    </tr>
-    <tr class="row5">
     <td><a href="https://aptamer.ribocentre.org/_posts/Ribosomal-protein-S8-aptamer" target="_blank" onclick="handleCellClick(event)">ribosomal protein S8</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/TetR-aptamer" target="_blank" onclick="handleCellClick(event)">TetR</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">RNA polymerase (Pol) II</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/HIV-1-REV-peptide-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 REV peptide</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Tat-aptamer" target="_blank" onclick="handleCellClick(event)">Tat peptides</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/REX16-aptamer" target="_blank" onclick="handleCellClick(event)">HTLV-1 arginine-rich Rex peptide</a></td>
+    </tr>
+    <tr class="row6">
     <td><a href="https://aptamer.ribocentre.org/_posts/LR06-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 TAR RNA</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/bacteriophage-MS2-coat-protein-aptamer" target="_blank" onclick="handleCellClick(event)">Bacteriophage MS2 coat protein</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Bovine-prion-protein(bPrP)-aptamer" target="_blank" onclick="handleCellClick(event)">Bovine prion</a></td>
     </tr>
   </table>
-  
-
+  <br>
+<font>This table lists the ligands of aptamers with unknown 3D structures:</font>
+<table class="table2" border="1">
+    <tr class="row1">
+      <td><a href="https://aptamer.ribocentre.org/_posts/DP3-aptamer" target="_blank" onclick="handleCellClick(event)">Neuropeptide Y</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Tyr-1-aptamer" target="_blank" onclick="handleCellClick(event)">L-tyrosine</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/%CE%B255-aptamer" target="_blank" onclick="handleCellClick(event)">Amyloid beta-peptide</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/L-SUP-A-004-aptamer" target="_blank" onclick="handleCellClick(event)">Substance P</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/FB-1-aptamer" target="_blank" onclick="handleCellClick(event)">Fluorescein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/II-mini3-4-aptamer" target="_blank" onclick="handleCellClick(event)">Hoechst</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Okra-aptamer" target="_blank" onclick="handleCellClick(event)">Okra</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Dopamine-aptamer" target="_blank" onclick="handleCellClick(event)">Dopamine</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Clone-5-aptamer" target="_blank" onclick="handleCellClick(event)">Sialyl Lewis X</a></td>
+    </tr>
+    <tr class="row2">
+      <td><a href="https://aptamer.ribocentre.org/_posts/SPC-aptamer" target="_blank" onclick="handleCellClick(event)">Sphingosylphosphorylcholine</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Gp43-aptamer" target="_blank" onclick="handleCellClick(event)">T4 DNA polymerase</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/bFGF-aptamer" target="_blank" onclick="handleCellClick(event)">Basic fibroblast growth factor</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/PKC-aptamer" target="_blank" onclick="handleCellClick(event)">Protein kinase C</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/VEGF-aptamer" target="_blank" onclick="handleCellClick(event)">Vascular Endothelial Growth Factor</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/14.12-aptamer" target="_blank" onclick="handleCellClick(event)">L-selectin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/E2F-E1-aptamer" target="_blank" onclick="handleCellClick(event)">E2F</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/21.01-aptamer" target="_blank" onclick="handleCellClick(event)">RAF1</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/APC-99-aptamer" target="_blank" onclick="handleCellClick(event)">Human activated protein C</a></td>
+    </tr>
+    <tr class="row3">
+      <td><a href="https://aptamer.ribocentre.org/_posts/77-aptamer" target="_blank" onclick="handleCellClick(event)">CSDE1</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/TR-D28-aptamer" target="_blank" onclick="handleCellClick(event)">CD18</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/P19-aptamer" target="_blank" onclick="handleCellClick(event)">Neurotensin receptor</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/11-1.41-aptamer" target="_blank" onclick="handleCellClick(event)">Angiopoietin-2</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/A30-aptamer" target="_blank" onclick="handleCellClick(event)">HER3</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/No.21-aptamer" target="_blank" onclick="handleCellClick(event)">Eukaryotic initiation factor 4A</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Bovine-thrombin-aptamer" target="_blank" onclick="handleCellClick(event)">Bovine thrombin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/tMG-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">Rat monoclonal antibody</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/TCF-1-aptamer" target="_blank" onclick="handleCellClick(event)">T cytokine 1</a></td>
+    </tr>
+    <tr class="row4">
+      <td><a href="https://aptamer.ribocentre.org/_posts/RANK-aptamer" target="_blank" onclick="handleCellClick(event)">RANK</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Cytohesin-2-aptamer" target="_blank" onclick="handleCellClick(event)">Cytohesin-2</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/NFAT-aptamer" target="_blank" onclick="handleCellClick(event)">Nuclear factor of activated T-cells</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/hTNF-α-aptamer" target="_blank" onclick="handleCellClick(event)">hTNF α</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/tFKBP*3R-2G-aptamer" target="_blank" onclick="handleCellClick(event)">Engineered FKBP protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/eIF4E-aptamer" target="_blank" onclick="handleCellClick(event)">eIF4E</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/3Dpol-aptamer" target="_blank" onclick="handleCellClick(event)">RNA-dependent RNA polymerase</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/B1-CT-aptamer" target="_blank" onclick="handleCellClick(event)">BACE1</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Bovine-factor-IX-aptamer" target="_blank" onclick="handleCellClick(event)">Bovine factor IX</a></td>
+    </tr>
+    <tr class="row5">
+      <td><a href="https://aptamer.ribocentre.org/_posts/polβ-aptamer" target="_blank" onclick="handleCellClick(event)">DNA polymerase β</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/TbRIII-aptamer" target="_blank" onclick="handleCellClick(event)">Transforming growth factor-β type III</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/AMPA-receptors-Aptamer" target="_blank" onclick="handleCellClick(event)">AMPA receptors</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/The-protein-calsenilin-aptamer" target="_blank" onclick="handleCellClick(event)">Ca<sup>2+</sup>-binding protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/WL-2-aptamer" target="_blank" onclick="handleCellClick(event)">β2-microglobulin fibrils</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/AN58-aptamer" target="_blank" onclick="handleCellClick(event)">GluR2 AMPA receptors</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/TfR-ECD-aptamer" target="_blank" onclick="handleCellClick(event)">Transferrin receptor protein 1</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/E2-aptamer" target="_blank" onclick="handleCellClick(event)">Amyloid beta-peptide</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/PAI-1-aptamer" target="_blank" onclick="handleCellClick(event)">Plasminogen activator inhibitor-1</a></td>
+    </tr>
+    <tr class="row6">
+      <td><a href="https://aptamer.ribocentre.org/_posts/J18-aptamer" target="_blank" onclick="handleCellClick(event)">Epithelial Growth Factor Receptor</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/ZAP-aptamer" target="_blank" onclick="handleCellClick(event)">Zinc-finger antiviral protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/PTP1B-aptamer" target="_blank" onclick="handleCellClick(event)">Protein tyrosine phosphatase 1B</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/IL-17A-aptamer" target="_blank" onclick="handleCellClick(event)">IL-17A</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/CypB-aptamer" target="_blank" onclick="handleCellClick(event)">Cyclophilin B</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/OX40-aptamer" target="_blank" onclick="handleCellClick(event)">OX40</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Glycoprotein-2-(GP2)-protein-aptamer" target="_blank" onclick="handleCellClick(event)">Glycoprotein 2</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/ERα-aptamer" target="_blank" onclick="handleCellClick(event)">Estrogen receptor α</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer" target="_blank" onclick="handleCellClick(event)">Carcinoembryonic antigen</a></td>
+    </tr>
+    <tr class="row7">
+      <td><a href="https://aptamer.ribocentre.org/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer" target="_blank" onclick="handleCellClick(event)">IL-6R</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Restriction-endonucleases-(REases)-KpnI-aptamer" target="_blank" onclick="handleCellClick(event)">REases KpnI</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-(UCH37)-aptamer" target="_blank" onclick="handleCellClick(event)">Ubiquitin carboxyl-terminal hydrolase37</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/AB9-aptamer" target="_blank" onclick="handleCellClick(event)">AMPA and kainate receptors</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Gastrointestinal-cancer-antigen-50-aptamer" target="_blank" onclick="handleCellClick(event)">Gastrointestinal cancer antigen 50</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Cancer-antigen-72-4(CA72-4)-aptamer" target="_blank" onclick="handleCellClick(event)">Cancer antigen 72–4</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Chemokine-CCL17-aptamer" target="_blank" onclick="handleCellClick(event)">Chemokine CCL17</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/IL2-CD25-aptermer" target="_blank" onclick="handleCellClick(event)">IL2–CD25</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer" target="_blank" onclick="handleCellClick(event)">Mixed lineage leukemia proteins</a></td>
+    </tr>
+    <tr class="row8">
+      <td><a href="https://aptamer.ribocentre.org/_posts/Aβ42-aptamer" target="_blank" onclick="handleCellClick(event)">Aβ42</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/XBA-RNA-aptamer" target="_blank" onclick="handleCellClick(event)">Xanthine</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/cAMP-aptamer" target="_blank" onclick="handleCellClick(event)">cAMP</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/rafl7s-aptamer" target="_blank" onclick="handleCellClick(event)">ATP(2)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/bG40min-aptamer" target="_blank" onclick="handleCellClick(event)">ATP(3)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Adenine-aptamer" target="_blank" onclick="handleCellClick(event)">Adenine</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/70cam6-aptamer" target="_blank" onclick="handleCellClick(event)">Chloramphenicol</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Lividomycin-aptamer" target="_blank" onclick="handleCellClick(event)">Lividomycin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/SRB-2-aptamer" target="_blank" onclick="handleCellClick(event)">Sulforhodamine B</a></td>
+    </tr>
+    <tr class="row9">
+      <td><a href="https://aptamer.ribocentre.org/_posts/J6f1-aptamer" target="_blank" onclick="handleCellClick(event)">Tobramycin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Doxycyline-aptamer" target="_blank" onclick="handleCellClick(event)">Doxycyline</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Codeine-aptamer" target="_blank" onclick="handleCellClick(event)">Codeine</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Escherichia-coli-aptamer" target="_blank" onclick="handleCellClick(event)">E.Coil</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Protein-tyrosine-phosphatases-aptamer" target="_blank" onclick="handleCellClick(event)">Protein tyrosine phosphatases</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Subtilisin-aptamer" target="_blank" onclick="handleCellClick(event)">Subtilisin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Peptide-release-factor-1-aptamer" target="_blank" onclick="handleCellClick(event)">Peptide release factor 1</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Colicin-E3-aptamer" target="_blank" onclick="handleCellClick(event)">Colicin E3</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Type-IVB-Pili-aptamer" target="_blank" onclick="handleCellClick(event)">Type IVB Pili</a></td>
+    </tr>
+    <tr class="row10">
+      <td><a href="https://aptamer.ribocentre.org/_posts/CsrA-aptamer" target="_blank" onclick="handleCellClick(event)">CsrA</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/RF-1-aptamer" target="_blank" onclick="handleCellClick(event)">Escherichia coli release factor 1</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Elongation-factor-SelB-aptamer" target="_blank" onclick="handleCellClick(event)">Elongation factor SelB</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/ligand-1.1-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 RT</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/59-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 Rev protein (1)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/C52-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 Rev protein (2)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/P5-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 integrase</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/YT1-aptamer" target="_blank" onclick="handleCellClick(event)">HTLV-1 Tax protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Clone-31-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 Tat protein</a></td>
+    </tr>
+    <tr class="row11">
+      <td><a href="https://aptamer.ribocentre.org/_posts/10G-1-aptamer" target="_blank" onclick="handleCellClick(event)">HCV NS3 protease (1)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/G9-II-aptamer" target="_blank" onclick="handleCellClick(event)">HCV NS3 protease (2)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/R5-helix-peptide-aptamer" target="_blank" onclick="handleCellClick(event)">R5 helix peptide</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/RNA22-aptamer" target="_blank" onclick="handleCellClick(event)">Wilms tumor protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/B.2-aptamer" target="_blank" onclick="handleCellClick(event)">HCV NS5B (1)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HCV-aptamer" target="_blank" onclick="handleCellClick(event)">HCV NS5B (2)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HSV-1-US11-aptamer" target="_blank" onclick="handleCellClick(event)">HSV-1 US11</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Hemagglutinin-aptamer" target="_blank" onclick="handleCellClick(event)">Hemagglutinin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/H3N2-aptamer" target="_blank" onclick="handleCellClick(event)">H3N2 Haemagglutinin</a></td>
+    </tr>
+    <tr class="row12">
+      <td><a href="https://aptamer.ribocentre.org/_posts/SARS-CoV-N-protein-aptamer" target="_blank" onclick="handleCellClick(event)">SARS-CoV N protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HPV-16-E7-oncoprotein-aptamer" target="_blank" onclick="handleCellClick(event)">HPV-16 E7 protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HBV-aptamer" target="_blank" onclick="handleCellClick(event)">HBV P protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HIRRV-aptamer" target="_blank" onclick="handleCellClick(event)">Hirame rhabdovirus</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HPAI-H5N1-aptamer" target="_blank" onclick="handleCellClick(event)">H5N1/H7N7 Hemagglutinin (HA)</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Hemagglutinin-(HA)-protein-aptamer" target="_blank" onclick="handleCellClick(event)">gHA1</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HIV-1-PR-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 protease</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HIV-1-CA-aptamer" target="_blank" onclick="handleCellClick(event)">HIV-1 capsid</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/B52-aptamer" target="_blank" onclick="handleCellClick(event)">Serine/arginine-rich (SR) proteins</a></td>
+    </tr>
+    <tr class="row13">
+      <td><a href="https://aptamer.ribocentre.org/_posts/Mitochondrion-aptamer" target="_blank" onclick="handleCellClick(event)">Mitochondrion</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Mbl-aptamer" target="_blank" onclick="handleCellClick(event)">Drosophila muscleblind protein Mbl</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Pepocin-aptamer" target="_blank" onclick="handleCellClick(event)">Pepocin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/B4-25-aptamer" target="_blank" onclick="handleCellClick(event)">Reactive Blue 4</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/B4-25-aptamer" target="_blank" onclick="handleCellClick(event)">Cibacron Blue 3GA</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/D8-aptamer" target="_blank" onclick="handleCellClick(event)">Sephadex G-100</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/109.2-3-aptamer" target="_blank" onclick="handleCellClick(event)">16S rRNA decoding region</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/tRNA-aptamer" target="_blank" onclick="handleCellClick(event)">Yeast tRNA</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/RNA-loop-aptamer" target="_blank" onclick="handleCellClick(event)">RNA stem-loop</a></td>
+      </tr>
+<tr class="row14">
+      <td><a href="https://aptamer.ribocentre.org/_posts/CED-9-aptamer" target="_blank" onclick="handleCellClick(event)">Cell death abnormality gene 9</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Trypanosome-VSG-aptamer" target="_blank" onclick="handleCellClick(event)">Variant surface glycoprotein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Prion-protein1-aptamer" target="_blank" onclick="handleCellClick(event)">Hamster prion protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Prion-protein2-aptamer" target="_blank" onclick="handleCellClick(event)">Sheep prion protein</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/pUC19-aptamer" target="_blank" onclick="handleCellClick(event)">β-catenin</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/HER2-aptamer" target="_blank" onclick="handleCellClick(event)">Breast cancer cells</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/E3-aptamer" target="_blank" onclick="handleCellClick(event)">Prostate cancer cell</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/TNBC-aptamer" target="_blank" onclick="handleCellClick(event)">Triple-negative breast cancer</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/CD133-aptamer" target="_blank" onclick="handleCellClick(event)">Cell line Hep3B CD133</a></td>
+    </tr>
+   <tr class="row15">
+      <td><a href="https://aptamer.ribocentre.org/_posts/GL56-aptamer" target="_blank" onclick="handleCellClick(event)">Glioma cells</a></td>
+    </tr>
+</table>
 
 <!--img src="/images/aptamers/Aptamers_classification.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive"-->
 <div style="display: flex; justify-content: center;">   
