@@ -1183,7 +1183,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/RBA-14-aptamer" target="_blank" style="color:#520049"><b>RBA-14 aptamer</b></a></td>
         <td name="td2">Rev<sup>93</sup></td>
-        <td name="td3">HIV-1 Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
+        <td name="td3">Human immunodeficiency virus type 1 (HIV-1) Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7505429/" target="_blank" style="color:#520049"><b>1993</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6CF2" target="_blank" style="color:#520049"><b>6CF2</b></a></td>
       </tr>
@@ -1302,7 +1302,7 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/10G-1-aptamer" target="_blank" style="color:#520049"><b>10G-1 aptamer</b></a></td>
-        <td name="td2">Hepatitis C virus (HCV) NS3 protease</td>
+        <td name="td2">HCV NS3 protease</td>
         <td name="td3">The RNA genome of human hepatitis C virus (HCV) is translated into a large precursor polyprotein. NS3 protein has a trypsin-like serine-protease motif in its N-terminal region, the NS3 protease of HCV has a crucial role in the processing of the polyprotein into functional viral proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9310370/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
         <td name="td5">NA</td>
@@ -1310,39 +1310,39 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/59-aptamer" target="_blank" style="color:#520049"><b>59 aptamer</b></a></td>
-        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) Rev protein</td>
-        <td name="td3">HIV-1 Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
+        <td name="td2">HIV-1 Rev protein</td>
+        <td name="td3">Human immunodeficiency virus type 1 (HIV-1) Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7505429/" target="_blank" style="color:#520049"><b>1993</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/B.2-aptamer" target="_blank" style="color:#520049"><b>B.2 aptamer</b></a></td>
-        <td name="td2">Hepatitis C virus NS5B polymerase (HCV NS5BΔC55 protein)</td>
-        <td name="td3">HCV NS5B is a 66-kDa membrane-associated viral nonstructural protein, derived from the C-terminal end of the polyprotein. NS5B was initially identified as an RNA-dependent RNA polymerase (RdRp) by the presence of the hallmark GDD sequence, a motif involved in binding the Mg2+ ions essential for all polymerase functions.</td>
+        <td name="td2">HCV NS5B polymerase (HCV NS5BΔC55 protein)</td>
+        <td name="td3">Hepatitis C virus NS5B is a 66-kDa membrane-associated viral nonstructural protein, derived from the C-terminal end of the polyprotein. NS5B was initially identified as an RNA-dependent RNA polymerase (RdRp) by the presence of the hallmark GDD sequence, a motif involved in binding the Mg<sup>2+</sup> ions essential for all polymerase functions.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11907208/" target="_blank" style="color:#520049"><b>2002</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/C52-aptamer" target="_blank" style="color:#520049"><b>C52 aptamer</b></a></td>
-        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) Rev protein</td>
-        <td name="td3">HIV-1 Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
+        <td name="td2">HIV-1 Rev protein</td>
+        <td name="td3">Human immunodeficiency virus type 1 (HIV-1) Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/8523524/" target="_blank" style="color:#520049"><b>1996</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Clone-31-aptamer" target="_blank" style="color:#520049"><b>Clone 31 aptamer</b></a></td>
-        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) Tat protein</td>
-        <td name="td3">Tat proteins (trans-activating proteins) are present in all known lentiviruses and are early RNA binding proteins that regulate transcription. Tat from the human immunodeficiency virus type-1 (HIV-1) is a protein comprising 86 amino acids and encoded by 2 exons. The first 72 amino acids are encoded by exon 1 and exhibit full trans-activating activity. The second exon encodes a 14-amino-acid C-terminal sequence that is not required for transactivation but does contain an RGD motif, which is important in binding to alphavbeta3 and alpha5beta1 integrins.</td>
+        <td name="td2">HIV-1 Tat protein</td>
+        <td name="td3">Tat proteins are present in all known lentiviruses and are early RNA binding proteins that regulate transcription. Tat from the human immunodeficiency virus type-1 (HIV-1) is a protein comprising 86 amino acids and encoded by 2 exons. The first 72 amino acids are encoded by exon 1 and exhibit full trans-activating activity.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10886365/" target="_blank" style="color:#520049"><b>2000</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/G6-16-aptamer" target="_blank" style="color:#520049"><b>G6-16 aptamer</b></a></td>
-        <td name="td2">Hepatitis C virus (HCV) NS3 protein</td>
+        <td name="td2">HCV NS3 protein</td>
         <td name="td3">Hepatitis C virus (HCV) is a single-stranded RNA virus and its genome is translated into a single large polyprotein. The viral-encoded NS3 protein possesses protease, nucleoside triphosphatase, and helicase activities, which are considered essential for viral proliferation.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9310370/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
         <td name="td5">NA</td>
@@ -1350,7 +1350,7 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/G9-II-aptamer" target="_blank" style="color:#520049"><b>G9-II aptamer</b></a></td>
-        <td name="td2">Hepatitis C virus (HCV) NS3 protease (ΔNS3)</td>
+        <td name="td2">HCV NS3 protease (ΔNS3)</td>
         <td name="td3">The RNA genome of human hepatitis C virus (HCV) is translated into a large precursor polyprotein. NS3 protein has a trypsin-like serine-protease motif in its N-terminal region, the NS3 protease of HCV has a crucial role in the processing of the polyprotein into functional viral proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10848986/" target="_blank" style="color:#520049"><b>2000</b> </a></td>
         <td name="td5">NA</td>
@@ -1358,24 +1358,24 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/ligand-1.1-aptamer" target="_blank" style="color:#520049"><b>ligand 1.1 aptamer</b></a></td>
-        <td name="td2">Human imunnodeficiency virus type 1 reverse transcriptase (HIV-1 RT)</td>
-        <td name="td3">HIV-1 RT is an heterodimeric and multifunctional enzyme possessing DNA polymerase activity, on both RNA and DNA templates, and ribonuclease H activity (RNase H) which degrades the RNA strand of RNA/DNA and RNA/RNA hybrids.</td>
+        <td name="td2">HIV-1 RT</td>
+        <td name="td3">Human imunnodeficiency virus type 1 reverse transcriptase (HIV-1 RT) is an heterodimeric and multifunctional enzyme possessing DNA polymerase activity, on both RNA and DNA templates, and ribonuclease H activity (RNase H) which degrades the RNA strand of RNA/DNA and RNA/RNA hybrids.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/1379730/" target="_blank" style="color:#520049"><b>1992</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/P5-aptamer" target="_blank" style="color:#520049"><b>P5 aptamer</b></a></td>
-        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) integrase</td>
-        <td name="td3">In vitro, integrase has been shown to be necessary for processing double-stranded viral DNA, cleaving recipient DNA, and integrating the processed DNA into the host genome. It is usually carried by the virus itself and is not present in the host cell.</td>
+        <td name="td2">HIV-1 integrase</td>
+        <td name="td3">In vitro, human imunnodeficiency virus type 1 (HIV-1) integrase has been shown to be necessary for processing double-stranded viral DNA, cleaving recipient DNA, and integrating the processed DNA into the host genome. It is usually carried by the virus itself and is not present in the host cell.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7778267/" target="_blank" style="color:#520049"><b>1995</b> </a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/YT1-aptamer" target="_blank" style="color:#520049"><b>YT1 aptamer</b></a></td>
-        <td name="td2">Human T-cell lymphotropic virus (HTLV-1) Tax protein</td>
-        <td name="td3">Tax protein is a transactivating protein, it does not normally bind to nucleic acids, but instead stimulates transcription by interacting with a variety of cellular transcription factors, including the cyclic AMP-response element binding protein (CREB), NF-kappa B, and the serum response factor (SRF).</td>
+        <td name="td2">HTLV-1 Tax protein</td>
+        <td name="td3">Human T-cell lymphotropic virus type 1 (HTLV-1) Tax protein is a transactivating protein, it does not normally bind to nucleic acids, but instead stimulates transcription by interacting with a variety of cellular transcription factors, including the cyclic AMP-response element binding protein (CREB), NF-kappa B, and the serum response factor (SRF).</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7489503/" target="_blank" style="color:#520049"><b>1995</b> </a></td>
         <td name="td5">NA</td>
       </tr>
@@ -2123,8 +2123,8 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">RNA</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/LR06-aptamer" target="_blank" style="color:#520049"><b>LR06(GA) aptamer</b></a></td>
-        <td name="td2">Human immunodeficiency virus type 1 trans-activating responsive (HIV-1 TAR) RNA</td>
-        <td name="td3">The trans-activating responsive (TAR) RNA element located in the 5′ untranslated region of the HIV-1 genome is a 59-nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.</td>
+        <td name="td2">HIV-1 TAR RNA</td>
+        <td name="td3">The trans-activating responsive (TAR) RNA element located in the 5′ untranslated region of the human immunodeficiency virus type 1 (HIV-1) genome is a 59-nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7521014/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2OOM" target="_blank" style="color:#520049"><b>2OOM</b></a></td>
       </tr>
@@ -2132,7 +2132,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">RNA</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/109.2-3-aptamer" target="_blank" style="color:#520049"><b>109.2-3 aptamer</b></a></td>
         <td name="td2">16S rRNA decoding region</td>
-        <td name="td3">The decoding region of prokaryotic 16S ribosomal RNA (rRNA) is a region of RNA which is thought to interact withmRNA and tRNA. It has long been known that the interaction of the codon and anticodon occurs on the A-site of the decoding region of prokaryotic 16S rRNA, which is itself part of the 30S ribosomal subunit.</td>
+        <td name="td3">The decoding region of prokaryotic 16S ribosomal RNA (rRNA) is a region of RNA which is thought to interact with mRNA and tRNA. It has long been known that the interaction of the codon and anticodon occurs on the A-site of the decoding region of prokaryotic 16S rRNA, which is itself part of the 30S ribosomal subunit.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank" style="color:#520049"><b>2000</b> </a></td>
         <td name="td5">NA</td>
       </tr>
@@ -2157,10 +2157,11 @@ This section lists all the experimentally validated aptamers.
 </div>
 
 
-<div id="sheet3" class="sheet" class="table-style1">
+
+<div id="sheet7" class="sheet">
     <h2>Cell</h2>
     <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
-    <table id="amintable">
+    <table id="sugtable" class="table-style1">
      <thead>
       <tr>
         <th onclick="sortTable(0)">Category</th>
