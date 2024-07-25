@@ -174,7 +174,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>HCV NS5B polymerase (HCV NS5B protein) performs primer-template recognition and RNA synthesis during viral replication. Initiates RNA transcription/replication at a flavin adenine dinucleotide (FAD), resulting in a 5'- FAD cap on viral RNAs. In this way, recognition of viral 5' RNA by host pattern recognition receptors can be bypassed, thereby evading activation of antiviral pathways.-----from Uniprot</p>
+<p>HCV NS5B polymerase (HCV NS5B protein) performs primer-template recognition and RNA synthesis during viral replication. Initiates RNA transcription/replication at a flavin adenine dinucleotide (FAD), resulting in a 5'- FAD cap on viral RNAs. In this way, recognition of viral 5' RNA by host pattern recognition receptors can be bypassed, thereby evading activation of antiviral pathways.-----From Uniprot</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -212,7 +212,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">B.2</td>
-        <td name="td1">5'-GGGAUGCUUCGGCAUCCCCGAAGCCGCUAUGGACCAGUGGCGCGGCUUCGGCCCGACGGAGUGGUACCGCUUCGGCGGUACGUAAGCUUGGG-3'</td>
+        <td name="td1">GGGAUGCUUCGGCAUCCCCGAAGCCGCUAUGGACCAGUGGCGCGGCUUCGGCCCGACGGAGUGGUACCGCUUCGGCGGUACGUAAGCUUGGG</td>
         <td name="td2">HCV NS5BΔC55 protein</td>
         <td name="td3">1.5 ± 0.2 nM</td>
       </tr>
@@ -220,7 +220,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">A.2</td>
-        <td name="td1">5'-GGGAUGCUUCGGCAUCCCAGUCGAUGCGUAUCGCAGACUAUGUGGCUUCGGCCGUUGGAGUUGGUACCGCUUCGGCGGUACGUAAGCUUGGG-3'</td>
+        <td name="td1">GGGAUGCUUCGGCAUCCCAGUCGAUGCGUAUCGCAGACUAUGUGGCUUCGGCCGUUGGAGUUGGUACCGCUUCGGCGGUACGUAAGCUUGGG</td>
         <td name="td2">HCV NS5BΔC55 protein</td>
         <td name="td3">16 ± 1.6 nM</td>
       </tr>
@@ -228,7 +228,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tbody>
       <tr>
         <td name="td0">B.3</td>
-        <td name="td1">5'-GGGAUGCUUCGGCAUCCCGCUCUGGGCCGAAUAUGGACCACGUGGCUUCGGCCGCCAGCUCGUGUACCGCUUCGGCGGUACGUAAGCUUGGG-3'</td>
+        <td name="td1">GGGAUGCUUCGGCAUCCCGCUCUGGGCCGAAUAUGGACCACGUGGCUUCGGCCGCCAGCUCGUGUACCGCUUCGGCGGUACGUAAGCUUGGG</td>
         <td name="td2">HCV NS5BΔC55 protein</td>
         <td name="td3">10 ± 1.6 nM</td>
       </tr>

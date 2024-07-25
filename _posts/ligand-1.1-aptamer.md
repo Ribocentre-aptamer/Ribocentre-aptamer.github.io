@@ -175,7 +175,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>A reverse transcriptase (RT) is an enzyme used to generate complementary DNA (cDNA) from an RNA template, a process termed reverse transcription. Reverse transcriptases are used by viruses such as HIV to replicate their genomes, by retrotransposon mobile genetic elements to proliferate within the host genome, and by eukaryotic cells to extend the telomeres at the ends of their linear chromosomes.-----from Pfam</p>
+<p>A reverse transcriptase (RT) is an enzyme used to generate complementary DNA (cDNA) from an RNA template, a process termed reverse transcription. Reverse transcriptases are used by viruses such as HIV to replicate their genomes, by retrotransposon mobile genetic elements to proliferate within the host genome, and by eukaryotic cells to extend the telomeres at the ends of their linear chromosomes.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -213,7 +213,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">ligand 1.1</td>
-        <td name="td1">5'-GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUUCCGUUUUCAGUCGGGAAAAACUGAACAAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC-3'</td>
+        <td name="td1">GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUUCCGUUUUCAGUCGGGAAAAACUGAACAAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC</td>
         <td name="td2">HIV-1 RT</td>
         <td name="td3">5.0 nM</td>
       </tr>
@@ -221,7 +221,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">ligand 1.3a</td>
-        <td name="td1">5'-GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUAUCUUCCGAAGCCGAACGGGAAAACCGGCAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC-3'</td>
+        <td name="td1">GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUAUCUUCCGAAGCCGAACGGGAAAACCGGCAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC</td>
         <td name="td2">HIV-1 RT</td>
         <td name="td3">NA</td>
       </tr>
@@ -229,7 +229,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tbody>
       <tr>
         <td name="td0">ligand 1.3b</td>
-        <td name="td1">5'-GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUAUCUUCCGAGGCCGAACGGGAAAACCGACAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC-3'</td>
+        <td name="td1">GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUAUCUUCCGAGGCCGAACGGGAAAACCGACAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC</td>
         <td name="td2">HIV-1 RT</td>
         <td name="td3">NA</td>
       </tr>

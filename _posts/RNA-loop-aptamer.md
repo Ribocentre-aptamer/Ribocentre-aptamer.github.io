@@ -137,13 +137,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td1">NA</td>
         <td name="td2"><a href="https://rfam.org/family/RF00011" target="_blank" style="color:#520049"><b>RF00011</b></a></td>
         <td name="td3">105.48 kDa</td>
-        <td name="td4">5'-GCGAGCCUAGCGAAGUCAUAAGCUAGGGCAGUCUUUAGAGGCUGACGGCAGGAAAAAAGCCUACGUCUUCGGAUAUGGCUGAGUAUCCUUGAAAGUGCCACAGUGACGAAGUCUCACUAGAAAUGGUGAGAGUGGAACGCGGUAAACCCCUCGCA-3'</td>
+        <td name="td4">GCGAGCCUAGCGAAGUCAUAAGCUAGGGCAGUCUUUAGAGGCUGACGGCAGGAAAAAAGCCUACGUCUUCGGAUAUGGCUGAGUAUCCUUGAAAGUGCCACAGUGACGAAGUCUCACUAGAAAUGGUGAGAGUGGAACGCGGUAAACCCCUCGCA</td>
         <td name="td5">NA</td>
       </tr>
 	  </tbody>
   </table>
 
-  <p>Some isolated sequences bind to the affinity of the protein.</p>
+  <p>Some isolated sequences bind to the affinity of the nucleic acid.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -156,56 +156,56 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
       <td name="td0">g18_04</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACCAUCGGCCCUGGUGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACCAUCGGCCCUGGUGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">70 nM</td>
     </tr>
             
      <tr>
       <td name="td0">g18_01</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACCAUCGUCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACCAUCGUCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">g18_06</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUUUCCUUAGGGGUUCAGUUGUUUCGCGCAUGAACGGCAUCAGUGCACCGUGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUUUCCUUAGGGGUUCAGUUGUUUCGCGCAUGAACGGCAUCAGUGCACCGUGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">g18_09</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUAGUUGAUCGAGCGUGUUAGUUCUCCAAUCUCUGUGUAGCGUGGAGCUGGGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUAGUUGAUCGAGCGUGUUAGUUCUCCAAUCUCUGUGUAGCGUGGAGCUGGGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">g18_10</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGUGUCUGUGCGCAAAACCAUCGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGUGUCUGUGCGCAAAACCAUCGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">g18_11</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACCAUCGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACCAUCGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">g18_12</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGUGUCUGUGCGCAAAACCAUAGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGUGUCUGUGCGCAAAACCAUAGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">g12_03</td>
-      <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACUAUCGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+      <td name="td1">GGGAGAAUUCCGACCAGAAGCUUCCGAAGCAUUCCGGCGUAGGGGUCUGUGCGCAAAACUAUCGGCCCGGGUGCCUAUGUGCGUCUACAUGGAUCCUCA</td>
       <td name="td2">RNA stem-loop</td>
       <td name="td3">NA</td>
     </tr>

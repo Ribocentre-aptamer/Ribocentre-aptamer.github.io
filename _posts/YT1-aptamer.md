@@ -121,7 +121,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Tax is a transcriptional activator. Its ability to modulate the expression and function of many cellular genes has been reasoned to be a major contributory mechanism explaining HTLV-I-mediated transformation of cells. In activating cellular gene expression, Tax impinges upon several cellular signal-transduction pathways, including those for CREB/ATF and NF-kappaB.-----from Pfam</p>
+<p>Tax is a transcriptional activator. Its ability to modulate the expression and function of many cellular genes has been reasoned to be a major contributory mechanism explaining HTLV-I-mediated transformation of cells. In activating cellular gene expression, Tax impinges upon several cellular signal-transduction pathways, including those for CREB/ATF and NF-kappaB.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -159,7 +159,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">YT1</td>
-        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUGGACUUAUUCUCGAGCCUGCAUGUGCUAGUCGACGUUGUUUCUGCAUCUUGAAAGAUGGGGCUGUGGGUGUGGUUACUUCUACGCGGUAUGCACUGUACGCCAUCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+        <td name="td1">GGGAGAAUUCCGACCAGAAGCUUGGACUUAUUCUCGAGCCUGCAUGUGCUAGUCGACGUUGUUUCUGCAUCUUGAAAGAUGGGGCUGUGGGUGUGGUUACUUCUACGCGGUAUGCACUGUACGCCAUCCAUAUGUGCGUCUACAUGGAUCCUCA</td>
         <td name="td2">HTLV-1 Tax protein</td>
         <td name="td3">70 nM</td>
       </tr>

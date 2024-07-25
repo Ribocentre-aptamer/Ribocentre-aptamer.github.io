@@ -115,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Integrase mediates integration of a DNA copy of the viral genome into the host chromosome. Integrase is composed of three domains. The amino-terminal domain is a zinc binding domain. This domain is the central catalytic domain. The carboxyl terminal domain that is a non-specific DNA binding domain. The catalytic domain acts as an endonuclease when two nucleotides are removed from the 3' ends of the blunt-ended viral DNA made by reverse transcription. This domain also catalyses the DNA strand transfer reaction of the 3' ends of the viral DNA to the 5' ends of the integration site.-----from Pfam</p>
+<p>Integrase mediates integration of a DNA copy of the viral genome into the host chromosome. Integrase is composed of three domains. The amino-terminal domain is a zinc binding domain. This domain is the central catalytic domain. The carboxyl terminal domain that is a non-specific DNA binding domain. The catalytic domain acts as an endonuclease when two nucleotides are removed from the 3' ends of the blunt-ended viral DNA made by reverse transcription. This domain also catalyses the DNA strand transfer reaction of the 3' ends of the viral DNA to the 5' ends of the integration site.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -153,7 +153,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">P5</td>
-        <td name="td1">5'-GGGAGCUCAGAAUAAACGCUCAACCAGUCUUGUGGCUUUGAAAGAGAGGAGUGUUCGACAUGAGGCCCGGAUCCGGC-3'</td>
+        <td name="td1">GGGAGCUCAGAAUAAACGCUCAACCAGUCUUGUGGCUUUGAAAGAGAGGAGUGUUCGACAUGAGGCCCGGAUCCGGC</td>
         <td name="td2">HIV-1 integrase</td>
         <td name="td3">2-12 nM</td>
       </tr>
@@ -161,7 +161,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">A54</td>
-        <td name="td1">5'-GGGAGCUCAGAAUAAACGCUCAACGGCACAGGGGUUGUAUCCUCCGGGACGAAUUCGACAUGAGGCCCGGAUCCGGC-3'</td>
+        <td name="td1">GGGAGCUCAGAAUAAACGCUCAACGGCACAGGGGUUGUAUCCUCCGGGACGAAUUCGACAUGAGGCCCGGAUCCGGC</td>
         <td name="td2">HIV-1 integrase</td>
         <td name="td3">~80.0 nM</td>
       </tr>

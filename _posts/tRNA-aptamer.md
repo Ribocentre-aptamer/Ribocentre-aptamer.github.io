@@ -119,7 +119,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Transfer RNA (abbreviated tRNA and formerly referred to as sRNA, for soluble RNA) is an adaptor molecule composed of RNA, typically 76 to 90 nucleotides in length (in eukaryotes), that serves as the physical link between the mRNA and the amino acid sequence of proteins. Transfer RNA (tRNA) does this by carrying an amino acid to the protein-synthesizing machinery of a cell called the ribosome. Complementation of a 3-nucleotide codon in a messenger RNA (mRNA) by a 3-nucleotide anticodon of the tRNA results in protein synthesis based on the mRNA code. As such, tRNAs are a necessary component of translation, the biological synthesis of new proteins in accordance with the genetic code.-----from Rfam</p>
+<p>Transfer RNA (abbreviated tRNA and formerly referred to as sRNA, for soluble RNA) is an adaptor molecule composed of RNA, typically 76 to 90 nucleotides in length (in eukaryotes), that serves as the physical link between the mRNA and the amino acid sequence of proteins. Transfer RNA (tRNA) does this by carrying an amino acid to the protein-synthesizing machinery of a cell called the ribosome. Complementation of a 3-nucleotide codon in a messenger RNA (mRNA) by a 3-nucleotide anticodon of the tRNA results in protein synthesis based on the mRNA code. As such, tRNAs are a necessary component of translation, the biological synthesis of new proteins in accordance with the genetic code.-----From Rfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -137,13 +137,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td1"><a href="https://www.ncbi.nlm.nih.gov/gene/55752253" target="_blank" style="color:#520049"><b>55752253</b></a></td>
         <td name="td2"><a href="https://rfam.org/family/RF00005#tabview=tab8" target="_blank" style="color:#520049"><b>RF00005</b></a></td>
         <td name="td3">25.2 kDa</td>
-        <td name="td4">5'-GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA-3'</td>
+        <td name="td4">GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA</td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1EHZ" target="_blank" style="color:#520049"><b>1EHZ</b></a></td>
       </tr>
 	  </tbody>
   </table>
 
-  <p>Some isolated sequences bind to the affinity of the protein.</p>
+  <p>Some isolated sequences bind to the affinity of the nucleic acid.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -156,35 +156,35 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
       <td name="td0">B2</td>
-      <td name="td1">5'-GGGAAUUCCGCGUGUGCUACGUAUCUUCAGGCGGUAACUAACUGUGCUGAGUCUAAUCUUUGUGAGGGACGGUAACAUAUGGUUCCCGCGUGGUCCGUUCGGGAUCCUC-3'</td>
+      <td name="td1">GGGAAUUCCGCGUGUGCUACGUAUCUUCAGGCGGUAACUAACUGUGCUGAGUCUAAUCUUUGUGAGGGACGGUAACAUAUGGUUCCCGCGUGGUCCGUUCGGGAUCCUC</td>
       <td name="td2">Yeast phenylalanine tRNA</td>
       <td name="td3">12 nM</td>
     </tr>
             
      <tr>
       <td name="td0">B3</td>
-      <td name="td1">5'-GGGAAUUCCGCGUGUGCAAGCCUGUCGUGUGAACCUUGGUAGUCUUCAGAUACCAUUCUAGCCACGAGAGACUACGACACUGCUCCGUCGCCCGUCCGUUCGGGAUCCUC-3'</td>
+      <td name="td1">GGGAAUUCCGCGUGUGCAAGCCUGUCGUGUGAACCUUGGUAGUCUUCAGAUACCAUUCUAGCCACGAGAGACUACGACACUGCUCCGUCGCCCGUCCGUUCGGGAUCCUC</td>
       <td name="td2">Yeast phenylalanine tRNA</td>
       <td name="td3">26 nM</td>
     </tr>
             
      <tr>
       <td name="td0">B4</td>
-      <td name="td1">5'-GGGAAUUCCGCGUGUGCUCGGUCACGCAUCUUCACGUCGAAAGCUACAUCGGUCUGCUGACGGUGAUGGCAUUUGCGCGGCUUACGCCGGUCGUGGUCCGUUCGGGAUCCUC-3'</td>
+      <td name="td1">GGGAAUUCCGCGUGUGCUCGGUCACGCAUCUUCACGUCGAAAGCUACAUCGGUCUGCUGACGGUGAUGGCAUUUGCGCGGCUUACGCCGGUCGUGGUCCGUUCGGGAUCCUC</td>
       <td name="td2">Yeast phenylalanine tRNA</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">B6</td>
-      <td name="td1">5'-GGGAAUUCCGCGUGUGCAGAGUGGCCGGGCCUCCAUUCGGGGGUUAUCUUCACCUACGGGCCCCACGCGUUAUUUAGUGUUGUACCGUAGGGCUGUGUCCGUUCGGGAUCCUC-3'</td>
+      <td name="td1">GGGAAUUCCGCGUGUGCAGAGUGGCCGGGCCUCCAUUCGGGGGUUAUCUUCACCUACGGGCCCCACGCGUUAUUUAGUGUUGUACCGUAGGGCUGUGUCCGUUCGGGAUCCUC</td>
       <td name="td2">Yeast phenylalanine tRNA</td>
       <td name="td3">NA</td>
     </tr>
             
      <tr>
       <td name="td0">B7</td>
-      <td name="td1">5'-GGGAAUUCCGCGUGUGCGGGUCUUCACAGACUUGGCAAUUACCAGAACAUGUGCCUGGUAUACGUCAAUACGUCUGGUGGUUAAUACCGCCGUGGUCCGUUCGGGAUCCUC-3'</td>
+      <td name="td1">GGGAAUUCCGCGUGUGCGGGUCUUCACAGACUUGGCAAUUACCAGAACAUGUGCCUGGUAUACGUCAAUACGUCUGGUGGUUAAUACCGCCGUGGUCCGUUCGGGAUCCUC</td>
       <td name="td2">Yeast phenylalanine tRNA</td>
       <td name="td3">NA</td>
     </tr>

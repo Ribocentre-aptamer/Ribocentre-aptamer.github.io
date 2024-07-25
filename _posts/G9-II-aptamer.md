@@ -189,7 +189,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
  
 <p class="blowheader_box">SELEX ligand</p>
-<p>Hepatitis C virus NS3 protein is a serine protease which has a trypsin-like fold. The non-structural (NS) protein NS3 is one of the NS proteins involved in replication of the HCV genome. The action of NS3 protease (NS3P), which resides in the N-terminal one-third of the NS3 protein, then yields all remaining non-structural proteins.-----from Pfam</p>
+<p>Hepatitis C virus NS3 protein is a serine protease which has a trypsin-like fold. The non-structural (NS) protein NS3 is one of the NS proteins involved in replication of the HCV genome. The action of NS3 protease (NS3P), which resides in the N-terminal one-third of the NS3 protein, then yields all remaining non-structural proteins.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -227,7 +227,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">G9-II</td>
-        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGUGCUCUUAGAAUGGGACUAAGACACGGGACCCUUUCCUCUCUCCUUCCUCUUCU-3'</td>
+        <td name="td1">GGGAGAAUUCCGACCAGAAGUGCUCUUAGAAUGGGACUAAGACACGGGACCCUUUCCUCUCUCCUUCCUCUUCU</td>
         <td name="td2">HCV NS3 protease (ΔNS3)</td>
         <td name="td3">6.3 nM</td>
       </tr>
@@ -235,7 +235,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">G9-I</td>
-        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUCGGGAUUUGAGGGUAGAAUGGGACUACCUUUCCUCUCUCCUUCCUCUUCU-3'</td>
+        <td name="td1">GGGAGAAUUCCGACCAGAAGCUUCGGGAUUUGAGGGUAGAAUGGGACUACCUUUCCUCUCUCCUUCCUCUUCU</td>
         <td name="td2">HCV NS3 protease (ΔNS3)</td>
         <td name="td3">11.6 nM</td>
       </tr>
@@ -243,7 +243,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tbody>
       <tr>
         <td name="td0">G9-III</td>
-        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGUACGACACGAUUGGGACGUGUCUAUGGGACCCUUUCCUCUCUCCUUCCUCUUCU-3'</td>
+        <td name="td1">GGGAGAAUUCCGACCAGAAGUACGACACGAUUGGGACGUGUCUAUGGGACCCUUUCCUCUCUCCUUCCUCUUCU</td>
         <td name="td2">HCV NS3 protease (ΔNS3)</td>
         <td name="td3">8.9 nM</td>
       </tr>

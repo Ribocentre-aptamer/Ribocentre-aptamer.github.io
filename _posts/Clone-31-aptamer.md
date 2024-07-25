@@ -194,9 +194,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-information">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-information">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
-<font>The retroviral Tat protein binds to the TAR RNA. This activates transcriptional initiation and elongation from the LTR promoter. Binding is mediated by an arginine rich region.-----from Pfam</font>
+<font>The retroviral Tat protein binds to the TAR RNA. This activates transcriptional initiation and elongation from the LTR promoter. Binding is mediated by an arginine rich region.-----From Pfam</font>
 <br>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -236,9 +236,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">clone 31</td>
-        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
+        <td name="td1">GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA</td>
         <td name="td2">HIV-1 Tat protein</td>
-        <td name="td3">0.31 uM</td>
+        <td name="td3">0.31 μM</td>
       </tr>
 	  </tbody>
   </table>

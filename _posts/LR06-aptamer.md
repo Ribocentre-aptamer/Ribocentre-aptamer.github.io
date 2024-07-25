@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LR06 aptamer"
+title:  "LR06(GA) aptamer"
 date:   2024-04-5 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
@@ -177,7 +177,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9257650/" target="_blank" style="color:#520049">2008</a></h3>
     </div>
     <div class="body">
-      <p>Exploring TAR–RNA aptamer loop–loop interaction by X-ray crystallography, ultraviolet (UV) spectroscopy spectroscopy and surface plasmon resonance (SPR)<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
+      <p>Exploring TAR–RNA aptamer loop–loop interaction by X-ray crystallography, ultraviolet (UV) spectroscopy and surface plasmon resonance (SPR)<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -375,21 +375,21 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">TAR*(UA)</td>
-        <td name="td1">5‘-GCUGUUCCCAGACAGC-3’</td>
-        <td name="td2">trans-activating responsive (TAR) RNA</td>
-        <td name="td3">92.5 ± 5.2nM</td>
+        <td name="td1">GCUGUUCCCAGACAGC</td>
+        <td name="td2">TAR RNA</td>
+        <td name="td3">92.5 ± 5.2 nM</td>
       </tr>
       <tr>
         <td name="td0">R06(GA)</td>
-        <td name="td1">5'-GGUCGGUCCCAGACGACC-3'</td>
-        <td name="td2">trans-activating responsive (TAR) RNA</td>
-        <td name="td3">355.0 ± 18.0nM</td>
+        <td name="td1">GGUCGGUCCCAGACGACC</td>
+        <td name="td2">TAR RNA</td>
+        <td name="td3">355.0 ± 18.0 nM</td>
       </tr>
       <tr>
         <td name="td0">LR06(GA)</td>
-        <td name="td1">5'-CACGGUCCCAGACGUG-3'</td>
-        <td name="td2">trans-activating responsive (TAR) RNA</td>
-        <td name="td3">27.8 ± 3.4nM</td>
+        <td name="td1">CACGGUCCCAGACGUG</td>
+        <td name="td2">TAR RNA</td>
+        <td name="td3">27.8 ± 3.4 nM</td>
       </tr>
 	  </tbody>
   </table>
@@ -397,7 +397,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.------from Rfam</p></font>
+<font><p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.-----From Rfam</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -413,7 +413,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td0"><a href="https://mirbase.org/hairpin/MI0007073?acc=MI0007073" target="_blank" style="color:#520049"><b>MI0007073</b></a></td>
         <td name="td1"><a href="https://rfam.org/family/RF00250" target="_blank" style="color:#520049"><b>RF00250</b></a></td>
         <td name="td2">9.31 kDa</td>
-        <td name="td3">5'-GGCAGAUCUGAGCCUGGGAGCUCUCUGCC-3′</td>
+        <td name="td3">GGCAGAUCUGAGCCUGGGAGCUCUCUGCC</td>
         <td name="td4"><a href="https://www.rcsb.org/structure/1ANR" target="_blank" style="color:#520049"><b>1ANR</b></a></td>
       </tr>
 	  </tbody>

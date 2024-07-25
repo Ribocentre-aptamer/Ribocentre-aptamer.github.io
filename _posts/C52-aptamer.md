@@ -180,7 +180,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----from Pfam</font>
+<font>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----From Pfam</font>
 <br>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -220,7 +220,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">C52</td>
-        <td name="td1">5'-GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU-3'</td>
+        <td name="td1">GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">19-36 nM</td>
       </tr>
@@ -228,7 +228,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">C17</td>
-        <td name="td1">5'-GGGAGAUACCAGCUUAUUCAAUUGUAUUCUCCGUGGUUUAAUCAGAGUAGAGGAGCUGACUCCUUUGGUUGGACUACGUGGAGGUGCUCUUAGAUAGUAAGUGCAAUCU-3'</td>
+        <td name="td1">GGGAGAUACCAGCUUAUUCAAUUGUAUUCUCCGUGGUUUAAUCAGAGUAGAGGAGCUGACUCCUUUGGUUGGACUACGUGGAGGUGCUCUUAGAUAGUAAGUGCAAUCU</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">19-36 nM</td>
       </tr>
@@ -236,7 +236,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tbody>
       <tr>
         <td name="td0">C8</td>
-        <td name="td1">5'-GGGAGAUACCAGCUUAUUCAAUUGAGCCAGUAAGUGACCCGUACUAAUACUGUUGAGUAGUAUGUAGAGGAGUGGUGAUCCUCCAAACUGCUGAGAUAGUAAGUGCAAUCU-3'</td>
+        <td name="td1">GGGAGAUACCAGCUUAUUCAAUUGAGCCAGUAAGUGACCCGUACUAAUACUGUUGAGUAGUAUGUAGAGGAGUGGUGAUCCUCCAAACUGCUGAGAUAGUAAGUGCAAUCU</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">19-36 nM</td>
       </tr>

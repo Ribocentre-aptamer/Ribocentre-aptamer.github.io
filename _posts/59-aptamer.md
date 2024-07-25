@@ -120,7 +120,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-information">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<p>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----from Pfam</p>
+<p>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -158,7 +158,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">sequence 59</td>
-        <td name="td1">5'-AUUCUGGCUUCGUACGCAAGUAUGAUGAUACAG-3'</td>
+        <td name="td1">AUUCUGGCUUCGUACGCAAGUAUGAUGAUACAG</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">0.2*</td>
       </tr>
@@ -166,7 +166,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">sequence 72</td>
-        <td name="td1">5'-AUUCUGUAUGAGAGUAGCAAGUACCGGACUCUACAG-3'</td>
+        <td name="td1">AUUCUGUAUGAGAGUAGCAAGUACCGGACUCUACAG</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">0.3*</td>
       </tr>
@@ -174,7 +174,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tbody>
       <tr>
         <td name="td0">sequence 50</td>
-        <td name="td1">5'-AUUCUGGUCUCGUACGCAAGUACUGAGAAACGACAG-3'</td>
+        <td name="td1">AUUCUGGUCUCGUACGCAAGUACUGAGAAACGACAG</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">0.4*</td>
       </tr>

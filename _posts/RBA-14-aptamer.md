@@ -372,13 +372,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">RBA-14</td>
-        <td name="td1">5'-GGCUGGACUCGUACUUCGGUACUGGAGAAACAGCC-3'</td>
+        <td name="td1">GGCUGGACUCGUACUUCGGUACUGGAGAAACAGCC</td>
         <td name="td3">Rev<sup>93</sup></td>
         <td name="td4">5.9 nM</td>
       </tr>
       <tr>
         <td name="td0">Stem IIB</td>
-        <td name="td1">5'-CCUGGGCGCAGUGUCAUUGACGCUGACGGUACAGG-3'</td>
+        <td name="td1">CCUGGGCGCAGUGUCAUUGACGCUGACGGUACAGG</td>
         <td name="td3">Rev<sup>93</sup></td>
         <td name="td4">12.9 nM</td>
       </tr>
@@ -387,7 +387,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </div>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Rev is a transactivating protein that is essential to the regulation of HIV-1 protein expression. A nuclear localization signal is encoded in the rev gene, which allows the Rev protein to be localized to the nucleus, where it is involved in the export of unspliced and incompletely spliced mRNAs. In the absence of Rev, mRNAs of the HIV-1 late (structural) genes are retained in the nucleus, preventing their translation.-----from Pfam</p></font>
+<font><p>Rev is a transactivating protein that is essential to the regulation of HIV-1 protein expression. A nuclear localization signal is encoded in the rev gene, which allows the Rev protein to be localized to the nucleus, where it is involved in the export of unspliced and incompletely spliced mRNAs. In the absence of Rev, mRNAs of the HIV-1 late (structural) genes are retained in the nucleus, preventing their translation.-----From Pfam</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -418,7 +418,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the RCSB PDB website's similar structure search to find the top 10 structures similar to HIV-1 REV PROTEIN (RESIDUES 34-50), and calculated TM-socre values and RMSD values used the TM-align website.</p></font>
+<font><p>We used the RCSB PDB website's similar structure search to find the top 10 structures similar to HIV-1 Rev protein (residues T34-R50), and calculated TM-socre values and RMSD values used the TM-align website.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
