@@ -1367,7 +1367,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/P5-aptamer" target="_blank" style="color:#520049"><b>P5 aptamer</b></a></td>
         <td name="td2">HIV-1 integrase</td>
-        <td name="td3">In vitro, human imunnodeficiency virus type 1 (HIV-1) integrase has been shown to be necessary for processing double-stranded viral DNA, cleaving recipient DNA, and integrating the processed DNA into the host genome. It is usually carried by the virus itself and is not present in the host cell.</td>
+        <td name="td3">In vitro, human immunodeficiency virus type 1 (HIV-1) integrase has been shown to be necessary for processing double-stranded viral DNA, cleaving recipient DNA, and integrating the processed DNA into the host genome. It is usually carried by the virus itself and is not present in the host cell.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7778267/" target="_blank" style="color:#520049"><b>1995</b> </a></td>
         <td name="td5">NA</td>
       </tr>
