@@ -105,7 +105,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <font>21E was the aptamer sequence mainly studied in the article, which had a high affinity with ZAP. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-UGCGUGCGAGGAGGUGGAGAGGGUGGGUGUGCGUGGCGUG-3'</p></font>
+<font><p>5'-GGGAACAGUCCGAGCCUGCGUGCGAGGAGGUGGAGAGGGUGGGUGUGCGUGGCGUGGGGUGAAUUCGUCAUA-3'</p></font>
 <img src="/images/2D/ZAP_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
