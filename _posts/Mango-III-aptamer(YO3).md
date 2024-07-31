@@ -145,7 +145,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
-<font><p>5'-UACGAAGGGACGGUGCGGAGAGGAGAGUA-3'</p></font>
+<font><p>5'-GCUACGAAGGAAGGAUUGGUAUGUGGUAUAUUCGUAGC-3'</p></font>
 <img src="/images/2D/YO3-biotin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
