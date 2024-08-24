@@ -8,29 +8,29 @@
         stroke-width: 0.14px;
       }
 
-      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
         isolation: isolate;
       }
 
-      .cls-2, .cls-8, .cls-9 {
+      .cls-2, .cls-7 {
         font-size: 20px;
       }
 
-      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-9 {
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
         font-family: ArialMT, Arial;
       }
 
       .cls-3, .cls-4, .cls-5, .cls-6 {
-        font-size: 27.19px;
-        fill: #f93;
+        font-size: 32.99px;
+        fill: #093;
       }
 
-      .cls-3 {
-        letter-spacing: -0.06em;
+      .cls-4 {
+        letter-spacing: -0.11em;
       }
 
       .cls-5 {
-        letter-spacing: -0.11em;
+        letter-spacing: -0.06em;
       }
 
       .cls-6 {
@@ -38,95 +38,74 @@
       }
 
       .cls-8 {
-        letter-spacing: -0.08em;
+        letter-spacing: -0.04em;
       }
     </style>
   </defs>
   <g id="ID000012">
-    <line class="cls-1" x1="321.85" y1="199.6" x2="339.68" y2="199.81"/>
+    <line class="cls-1" x1="288.85" y1="263.49" x2="288.85" y2="285.13"/>
   </g>
   <g id="ID000013">
-    <text class="cls-2" transform="translate(345.21 210.58)">10</text>
+    <text class="cls-2" transform="translate(277.74 319.49)">10</text>
   </g>
   <g id="ID000093">
-    <text class="cls-3" transform="translate(109.06 179.49)">A</text>
+    <text class="cls-3" transform="translate(112.58 174.67)">C</text>
   </g>
   <g id="ID000094">
-    <text class="cls-4" transform="translate(136.56 179.49)">G</text>
+    <text class="cls-3" transform="translate(145.95 174.67)">C</text>
   </g>
   <g id="ID000095">
-    <text class="cls-3" transform="translate(163.32 179.49)">A</text>
+    <text class="cls-3" transform="translate(178.43 174.67)">C</text>
   </g>
   <g id="ID000096">
-    <text class="cls-3" transform="translate(190.07 179.49)">A</text>
+    <text class="cls-3" transform="translate(210.89 174.67)">U</text>
   </g>
   <g id="ID000097">
-    <text class="cls-4" transform="translate(212.54 162.5)">C</text>
+    <text class="cls-3" transform="translate(243.35 158.44)">C</text>
   </g>
   <g id="ID000098">
-    <text class="cls-4" transform="translate(240.37 153.9)">G</text>
+    <text class="cls-3" transform="translate(276.14 150.31)">C</text>
   </g>
   <g id="ID000099">
-    <text class="cls-4" transform="translate(273.87 159.69)">U</text>
+    <text class="cls-3" transform="translate(305.71 169.5)">U</text>
   </g>
   <g id="ID000100">
-    <text class="cls-5" transform="translate(289.73 177.69)">A</text>
+    <text class="cls-4" transform="translate(320.19 204.47)">A</text>
   </g>
   <g id="ID000103">
-    <text class="cls-4" transform="translate(259.88 250.51)">C</text>
+    <text class="cls-3" transform="translate(308.31 244.79)">C</text>
   </g>
   <g id="ID000104">
-    <text class="cls-4" transform="translate(233.89 254.48)">U</text>
+    <text class="cls-3" transform="translate(245 251.4)">U</text>
   </g>
   <g id="ID000105">
-    <text class="cls-3" transform="translate(210.71 241.03)">A</text>
+    <text class="cls-5" transform="translate(277.79 261.37)">A</text>
   </g>
   <g id="ID000107">
-    <text class="cls-6" transform="translate(190.82 233)">U</text>
+    <text class="cls-4" transform="translate(211.8 239.6)">A</text>
   </g>
   <g id="ID000108">
-    <text class="cls-4" transform="translate(162.55 233)">U</text>
+    <text class="cls-3" transform="translate(177.5 239.6)">G</text>
   </g>
   <g id="ID000109">
-    <text class="cls-6" transform="translate(137.31 233)">C</text>
+    <text class="cls-6" transform="translate(146.86 239.6)">G</text>
   </g>
   <g id="ID000110">
-    <text class="cls-4" transform="translate(109.81 233)">U</text>
+    <text class="cls-3" transform="translate(113.49 239.6)">G</text>
   </g>
   <g id="ID000118">
-    <line class="cls-1" x1="119.62" y1="182.66" x2="119.62" y2="210.26"/>
+    <line class="cls-1" x1="125.39" y1="178.52" x2="125.39" y2="212"/>
   </g>
   <g id="ID000119">
-    <line class="cls-1" x1="146.38" y1="182.66" x2="146.38" y2="210.26"/>
+    <line class="cls-1" x1="157.87" y1="178.52" x2="157.87" y2="212"/>
   </g>
   <g id="ID000120">
-    <line class="cls-1" x1="173.13" y1="182.66" x2="173.13" y2="210.26"/>
+    <line class="cls-1" x1="190.33" y1="178.52" x2="190.33" y2="212"/>
   </g>
   <g id="ID000121">
-    <line class="cls-1" x1="199.88" y1="182.66" x2="199.88" y2="210.26"/>
+    <line class="cls-1" x1="222.79" y1="178.52" x2="222.79" y2="212"/>
   </g>
-  <g class="cls-7">
-    <text class="cls-2" transform="translate(58.34 160.02)">5</text>
-    <text class="cls-8" transform="translate(75.84 160.02)">’</text>
-  </g>
-  <g class="cls-7">
-    <text class="cls-2" transform="translate(59.66 262.26)">3</text>
-    <text class="cls-8" transform="translate(77.16 262.26)">’</text>
-  </g>
-  <g id="ID000110-2" data-name="ID000110">
-    <text class="cls-4" transform="translate(82.61 179.49)">C</text>
-  </g>
-  <g id="ID000110-3" data-name="ID000110">
-    <text class="cls-4" transform="translate(84.05 233)">G</text>
-  </g>
-  <g id="ID000118-2" data-name="ID000118">
-    <line class="cls-1" x1="94.24" y1="182.98" x2="94.24" y2="210.58"/>
-  </g>
-  <g id="ID000099-2" data-name="ID000099">
-    <text class="cls-4" transform="translate(296.37 210.26)">U</text>
-  </g>
-  <g id="ID000100-2" data-name="ID000100">
-    <text class="cls-5" transform="translate(288.13 235.01)">A</text>
-  </g>
-  <text class="cls-9" transform="translate(12.66 29.59)">CD133-B19 aptamer</text>
+  <text class="cls-2" transform="translate(9.49 29.73)">CD133-A15 aptamer</text>
+  <text class="cls-7" transform="translate(92.18 263.71)">3<tspan class="cls-8" x="11.12" y="0">’</tspan></text>
+  <text class="cls-7" transform="translate(92.18 158.44)">5<tspan class="cls-8" x="11.12" y="0">’</tspan></text>
 </svg>
