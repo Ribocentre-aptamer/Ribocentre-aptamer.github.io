@@ -7,7 +7,6 @@
 	.st1{font-size:23.91px;}
 	.st2{font-size:14.71px;}
 	.st3{font-size:25px;}
-	.st4{font-family:'AdobeSongStd-Light-GBpc-EUC-H';}
 </style>
 <polygon points="287.6,95 247.9,59.8 252.2,57.3 256.2,54.9 289.2,93.4 288.8,94.5 "/>
 <polygon points="289.6,95.6 278.3,146.8 277.2,147.3 276.2,147.1 287.6,95 288.8,94.5 "/>
@@ -125,5 +124,6 @@
 	</g>
 </g>
 <text transform="matrix(1 0 0 1 350.795 288.9824)" class="st0 st3">cAMP</text>
-<text transform="matrix(1 0 0 1 243.5501 346.4453)"><tspan x="0" y="0" class="st0 st3">cAMP-b aptamer</tspan><tspan x="187.6" y="0" class="st4 st3">：</tspan><tspan x="212.6" y="0" class="st0 st3">10μM</tspan></text>
+<text transform="matrix(1 0 0 1 456.1501 346.4453)" class="st0 st3">  </text>
+<text transform="matrix(1 0 0 1 250.7501 346.4453)" class="st0 st3">cAMP-b aptamer:  10μM </text>
 </svg>
