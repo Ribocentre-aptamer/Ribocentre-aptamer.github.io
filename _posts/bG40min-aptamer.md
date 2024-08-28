@@ -96,7 +96,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Burke DH et al. constructed an RNA library containing 70 random nucleotides by an in vitro transcription method and performed 7 to 10 rounds of screening using the SELEX technique for RNA aptamers capable of specifically binding ATP.During the screening process, some of the RNAs were synthesized with boron-containing nucleotide analogs, bG or bU, instead of normal GTP or UTP. Ultimately, the investigators identified aptamers containing the ζ-structure from the bU and control pools, while this structure was not found in the bG pool. In particular, the ATP-binding specificity of the bG40min aptamer was verified by affinity chromatography experiments, which involved the use of different concentrations of ATP and its analogs to assess its binding and elution properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>Burke DH et al. constructed an RNA library containing 70 random nucleotides by an in vitro transcription method and performed 7 to 10 rounds of screening using the SELEX technique for RNA aptamers capable of specifically binding ATP. During the screening process, some of the RNAs were synthesized with boron-containing nucleotide analogs, bG or bU, instead of normal GTP or UTP. Ultimately, the investigators identified aptamers containing the ζ-structure from the bU and control pools, while this structure was not found in the bG pool. In particular, the ATP-binding specificity of the bG40min aptamer was verified by affinity chromatography experiments, which involved the use of different concentrations of ATP and its analogs to assess its binding and elution properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -148,7 +148,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to ATP,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<font><p>We used the PubChem database to screen compounds that were more similar to ATP, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

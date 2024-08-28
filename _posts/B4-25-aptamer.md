@@ -130,38 +130,38 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font>Reactive Blue 4 (CAS# 13324-20-4) is an organic dye used in textiles. Reactive Blue 4 is water-soluble and a pollutant, and has been decolourized in water using microbial fuel cells, Dyes and metabolites.-----From MedChemExpress<br>Cibacron Blue 3G-A is an anthraquinone dye, inhibits the R46 β-lactamase with a Ki value of 1.2 uM.-----From MedChemExpress</font>
 <br>
 <br>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
-        <th onclick="sortTable(1)">Affinity</th>
         <th onclick="sortTable(2)">Molecular Formula</th>
         <th onclick="sortTable(3)">MW</th>
         <th onclick="sortTable(4)">CAS</th>
         <th onclick="sortTable(5)">Solubility</th>
+        <th onclick="sortTable(6)">MedChemExpress</th>
       </tr>
   </thead>
     <tbody>
       <tr>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/25863" target="_blank" style="color:#520049"><b>Reactive Blue 4</b> </a></td>
-        <td name="td1">~600uM</td>
         <td name="td2">C<sub>23</sub>H<sub>14</sub>Cl<sub>2</sub>N<sub>6</sub>O<sub>8</sub>S<sub>2</sub></td>
         <td name="td3">637.4 g/mol</td>
         <td name="td4">13324-20-4</td>
         <td name="td5">80g/L(at 20°C, water)</td>
+        <td name="td6">HY-125815</td>
       </tr>
 	  </tbody>
      <tbody>
       <tr>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/172469" target="_blank" style="color:#520049"><b>Cibacron Blue 3GA</b> </a></td>
-        <td name="td1"><100 μM</td>
         <td name="td2">C<sub>29</sub>H<sub>20</sub>ClN<sub>7</sub>O<sub>11</sub>S<sub>3</sub></td>
         <td name="td3">774.16 g/mol</td>
         <td name="td4">84166-13-2</td>
         <td name="td5">62.5g/L(in DMSO)</td>
+        <td name="td6">HY-129042</td>
       </tr>
 	  </tbody>
-  </table-->
+  </table>
 <div style="display: flex; justify-content: center;">
   </div>
 <img src="/images/SELEX_ligand/dye_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">

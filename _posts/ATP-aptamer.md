@@ -122,7 +122,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/8756406/" target="_blank" style="color:#520049">1996</a></h3>
     </div>
     <div class="body">
-      <p>Another article，NMR structural of this aptamer in an AMP-RNA aptamer complex<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
+      <p>Another article, NMR structural of this aptamer in an AMP-RNA aptamer complex<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -199,7 +199,7 @@ categories: Aptamer
 <br>
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In vitro selection experiments involve the construction of alarge pool of random polynucleotide sequences,followed byrepeated cycles of enrichment for species with the desired proper-ties and amplification of the enriched pool.We started with apool of RNAs 169 nucleotides long,with a complexity of ~1014 different sequences.RNA molecules able to bind ATP wereselected by affinity chromatography on ATP-agarose columns,with the ATP linked to the agarose at its C8 position.RNA molecules that were retained by the ATP-agarose matrixwere affinity-eluted with ATP.Theeluted RNA was amplified by reverse transcription and polymer-ase chain reaction (PCR).In vitro transcription of the double-stranded DNA templates obtained in this manner yielded anenriched pool of RNAs for a new cycle of selection.After sixrounds of selection and amplification,a population of RNAsthat eluted specifically with ATP.sequenced 39 clones from the eighth cycle RNA popula-tion and found 17 different sequences. The aptamer adopts Capture-SELEX method<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In vitro selection experiments entail the generation of a vast pool of random poly nucleotide sequences, followed by iterative cycles of enrichment for species possessing the desired properties and amplification of the enriched pool. They initiated the process with a pool of 169-nucleotide-long RNAs, comprised approximately 10<sup>14</sup> distinct sequences. RNA molecules capable of binding ATP were isolated through affinity chromatography on ATP-agarose columns, where the ATP was linked to the agarose at its C8 position. Subsequently, RNA molecules retained by the ATP-agarose matrix were eluted using ATP. The eluted RNA was then amplified through reverse transcription and polymerase chain reaction (PCR). In vitro transcription of double-stranded DNA templates obtained in this manner yielded an enriched pool of RNAs for a new cycle of selection. Following six rounds of selection and amplification, a population of RNAs specifically eluted with ATP emerged. We sequenced 39 clones from the eighth cycle RNA population and identified 17 different sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -208,9 +208,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Szostak et al. obtained 17 different sequences through SELEX, and designed a 40nt sequence after comparing the information of 17 sequences. The aptamer of the 40nt is a sequence of analytic structures, and the following diagram shows its secondary structure. Here we use ribodraw to complete the figure, through the 3D structure information.
-Through SELEX, 17 different sequences were obtained, and after comparing 17 sequence information, a 40nt sequence was designed
- <sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
+<font><p>Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The aptamer of the 40nt is a sequence of analytic structures, and the following diagram shows its secondary structure. Here we use ribodraw to complete the figure, through the 3D structure information. Through SELEX, 17 different sequences were obtained, and after comparing 17 sequence information, a 40 nt sequence was designed. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
 <font><p>5'GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC3'</p></font>
 <img src="/images/2D/ATP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -218,7 +216,7 @@ Through SELEX, 17 different sequences were obtained, and after comparing 17 sequ
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Roger A.Jones & Dinshaw J. Patel et al. present the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP. The PDB ID of this structure is 1AM0. Then,T Dieckmann & J Feigon et al.present the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, determined from NMR-derived distance and dihedral angle restraints. The PDB ID of this structure is 1RAW. Here only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>Roger A. Jones & Dinshaw J. Patel et al. present the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP. The PDB ID of this structure is 1AM0. Then, T Dieckmann & J Feigon et al. present the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, determined from NMR-derived distance and dihedral angle restraints. The PDB ID of this structure is 1RAW. Here only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -293,7 +291,7 @@ Through SELEX, 17 different sequences were obtained, and after comparing 17 sequ
 {
   struct_asym_id: 'A', 
   start_residue_number:9, 
-  end_residue_number:1, 
+  end_residue_number:11, 
   color:{r:194,g:194,b:255}
 },
 {
@@ -408,10 +406,11 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----from drugbank</p></font>
+<font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From Drugbank</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
         <th onclick="sortTable(2)">MW</th>
@@ -422,11 +421,12 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
   </thead>
     <tbody>
       <tr>
+        <td name="td6">AMP</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6083" target="_blank" style="color:#520049"><b>6083</b> </a></td>
         <td name="td1">CH<sub>14</sub>N<sub>5</sub>O<sub>7</sub>P</td>
         <td name="td2">347.22 g/mol</td>
         <td name="td3">61-19-8</td>
-        <td name="td4">10000mg/L (at 20 °C)</td>
+        <td name="td4">10000 mg/L (at 20 °C)</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00131" target="_blank" style="color:#520049"><b>DB00131</b> </a></td>
       </tr>
 	  </tbody>
@@ -439,7 +439,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <div style="display: flex; justify-content: center;"></div>
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to AMP by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<font><p>We screened the compounds with great similarity to AMP by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

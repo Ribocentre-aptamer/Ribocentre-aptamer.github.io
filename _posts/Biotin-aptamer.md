@@ -131,13 +131,13 @@ categories: Aptamer
 
          
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 1998, Szostak, J employed in vitro selection techniques to isolate aptamers with affinity binding sites for biotin. In 2000, Nix, J. C. determined the 1.3 A crystal structure of the aptamer complexed with biotin<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></font>
+<font>In 1998, Szostak, J employed in vitro selection techniques to isolate aptamers with affinity binding sites for biotin. In 2000, Nix, J. C. determined the 1.3 Å crystal structure of the aptamer complexed with biotin. Biotin is bound at the interface between the pseudoknot's stacked helices in a pocket defined almost entirely by base-paired nucleotides. The structure provides general insight into the mechanisms by which RNA function is mediated by divalent metals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>A randomized RNA library, consisting of approximately \(5 \times 10^{14}\) molecules, was synthesized via in vitro transcription from a DNA template and resuspended in a selection buffer comprising 0.1 M KCl, 5 mM MgCl2, and 10 mM Na-HEPES at pH 7.4. Following equilibration at ambient temperature, the RNA pool was applied to a 500 μL biotin-agarose affinity column to selectively bind biotin-interacting RNAs. Non-specific binders were eliminated through a series of 15 washes with 500 μL of the selection buffer. The biotinylated RNAs were eluted using 5 volumes of 500 μL elution buffer, which was the selection buffer supplemented with 5 mM D-biotin at pH 7.4. The affinity-purified RNAs were then pooled, concentrated, and subjected to enzymatic amplification. The resulting enriched RNA pool underwent gel purification and was cycled through additional rounds of selection and amplification. Notably, biotin-binding RNA species were first identified in the fourth selection round, and by the seventh round, these RNAs constituted over 50% of the total sequences present in the pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>A randomized RNA library, consisting of approximately 10<sup>14</sup> molecules, was synthesized via in vitro transcription from a DNA template and resuspended in a selection buffer comprising 0.1 M KCl, 5 mM MgCl2, and 10 mM Na-HEPES at pH 7.4. Following equilibration at ambient temperature, the RNA pool was applied to a 500 μL biotin-agarose affinity column to selectively bind biotin-interacting RNAs. Non-specific binders were eliminated through a series of 15 washes with 500 μL of the selection buffer. The biotinylated RNAs were eluted using 5 volumes of 500 μL elution buffer, which was the selection buffer supplemented with 5 mM D-biotin at pH 7.4. The affinity-purified RNAs were then pooled, concentrated, and subjected to enzymatic amplification. The resulting enriched RNA pool underwent gel purification and was cycled through additional rounds of selection and amplification. Notably, biotin-binding RNA species were first identified in the fourth selection round, and by the seventh round, these RNAs constituted over 50% of the total sequences present in the pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br><br>
 
@@ -322,10 +322,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.-----from Wiki</p></font>
+<font><p>Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.-----From Wiki</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
         <th onclick="sortTable(2)">MW</th>
@@ -336,11 +337,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">Biotin</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/171548" target="_blank" style="color:#520049"><b>171548</b> </a></td>
         <td name="td1">C<sub>10</sub>H<sub>16</sub>N<sub>2</sub>O<sub>3</sub>S</td>
         <td name="td2">244.31 g/mol</td>
         <td name="td3">58-85-5</td>
-        <td name="td4">220mg/L (at 25 °C)</td>
+        <td name="td4">220 mg/L (at 25 °C)</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00121" target="_blank" style="color:#520049"><b>DB00121</b> </a></td>
       </tr>
 	  </tbody>
