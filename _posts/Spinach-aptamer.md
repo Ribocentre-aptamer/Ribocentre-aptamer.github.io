@@ -98,7 +98,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/21798953/" target="_blank" style="color:#520049">2011</a></h3>
   </div>
   <div class="body">
-    <p>An RNA-fluorophore complex resembling enhanced GFP(EGFP), termed Spinach, was generated<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+    <p>An RNA-fluorophore complex resembling enhanced GFP (EGFP), termed Spinach, was generated<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
   </div>
  </div>
             

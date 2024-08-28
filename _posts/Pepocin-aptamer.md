@@ -100,7 +100,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Selection experiments were initiated with an RNA pool containing 2 × 10^13 different sequences. The RNA pool that contained a region of 30 randomized nucleotides flanked by constant regions. After eight rounds of selection, the fraction of the pool which bound pepocin had increased from 0.03 to 24%. Twenty-six clones were isolated from the eighth round of selection. Twenty-three of these aptamers had a similar sequence and bound specifically to pepocin<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
+<p>Selection experiments were initiated with an RNA pool containing 2 × 10<sup>13</sup> different sequences. The RNA pool that contained a region of 30 randomized nucleotides flanked by constant regions. After eight rounds of selection, the fraction of the pool which bound pepocin had increased from 0.03 to 24%. Twenty-six clones were isolated from the eighth round of selection. Twenty-three of these aptamers had a similar sequence and bound specifically to pepocin<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>

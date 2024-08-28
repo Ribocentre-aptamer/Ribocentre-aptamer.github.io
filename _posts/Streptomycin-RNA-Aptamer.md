@@ -106,7 +106,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12618190/" target="_blank" style="color:#520049">2003</a></h3>
     </div>
     <div class="body">
-      <p>First discovery of streptomycin aptamer structure<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+      <p>The first discovery of the streptomycin aptamer structure was made<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -114,7 +114,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16621675/" target="_blank" style="color:#520049">2006</a></h3>
     </div>
     <div class="body">
-      <p>Streptomycin aptamer found to have clinical applications as well as drug trials<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
+      <p>Streptomycin aptamer was found to have clinical applications and also underwent drug trials<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
   </div>
     <div class="entry">
@@ -186,7 +186,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-GGAUCGCAUUUGGACUUCUGCCCGGCACCACGGUCGGAUC-3'</p></font>
+<font><p>5'-GGAUCGCAUUUGGACUUCUGCC……CGGCACCACGGUCGGAUC-3'</p></font>
 <img src="/images/2D/Streptomycin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -401,7 +401,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Streptomycin is an aminoglycoside antibiotic indicated to treat multi-drug resistant mycobacterium tuberculosis and various non-tuberculosis infections.-----from drugbank</p></font>
+<font><p>Streptomycin is an aminoglycoside antibiotic indicated to treat multi-drug resistant mycobacterium tuberculosis and various non-tuberculosis infections.-----From drugbank</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "REX16 aptamer"
+title:  "HTLV-1 Rex aptamer"
 date:   2024-04-17 00:00:00
 author: Ziyu Guo, Zhizhong Lu
 categories: Aptamer
@@ -97,7 +97,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10233958/" target="_blank" style="color:#520049">1999</a></h3>
     </div>
     <div class="body">
-      <p>In this paper, we study the function of a protein called Rex and the mimics of its RNA binding elements. The researchers did this by screening RNA molecules that are tightly bound to the REX-fusion protein from a pool of randomly sequenced RNA with conformational constraints, and these RNA molecules are called anti-Rex aptamers<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>In this paper, they study the function of a protein called Rex and the mimics of its RNA binding elements. The researchers did this by screening RNA molecules that are tightly bound to the REX-fusion protein from a pool of randomly sequenced RNA with conformational constraints, and these RNA molecules are called anti-Rex aptamers<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -136,14 +136,14 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1999, Baskerville, S., and Zapp, M used RNA selection techniques to screen RNA molecules that can bind tightly to REX-fusion proteins, namely anti-Rex aptamers, from a pool of randomly sequenced RNA with conformational constraints. The study suggests that anti-Rex aptamers may serve as RNA decoys for Rex proteins and have potential antiviral applications. In 1999, Jiang, F., Gorin, A. determined the solution of binding site of Rex peptide RNA aptamer complex by using combined NMR molecular dynamics method<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 1999, Baskerville, S., and Zapp, M used RNA selection techniques to screen RNA molecules that can bind tightly to REX-fusion proteins, namely anti-Rex aptamers, from a pool of randomly sequenced RNA with conformational constraints. The study suggests that anti-Rex aptamers may serve as RNA decoys for Rex proteins and have potential antiviral applications. In 1999, Jiang, F., Gorin, A. determined the solution structure of binding site of Rex peptide RNA aptamer complex by using combined NMR molecular dynamics method<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1999, Baskerville, S., and Zapp, M used RNA selection techniques to screen RNA molecules that can bind tightly to REX-fusion proteins, namely anti-Rex aptamers, from a pool of randomly sequenced RNA with conformational constraints. The study suggests that anti-Rex aptamers may serve as RNA decoys for Rex proteins and have potential antiviral applications<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
+<p>In 1999, Baskerville, S., and Zapp, M used a similarly compact pool (79.9) as a starting point for in vitro selection experiments. The 79.9 pool contained two random sequence tracts of 12 to 18 residues pinioned between constant sequence stems. Since the 79.9 pool could have contained only around 1011 possible species and since 10<sup>13</sup> molecules were introduced into the first round of selection, all possible sequences and stem-like structures were likely included within the pool. Complexes between Rex and members of the RNA pool were isolated by coimmobilization on nitrocellulose filters. The captured RNAs were eluted and amplified by reverse transcription, PCR, and in vitro transcription. tRNA was included in the binding reaction as a nonspecific competitor, and its concentration was increased through the course of selection. Stem IID of the XRE (containing the XBE) was introduced as a specific competitor in the third round, and its concentration was also progressively increased. The selected population was assayed for the ability to bind Rex after four and eight rounds of selection and amplification. In the presence of nonspecific (tRNA) and specific (XBE) competitors, only 1.3% of the native RNA population could bind to Rex, while 7% of the population from the fourth round of selection could bind Rex, as could 13% from the eighth round of selection. The RNA populations from rounds 0, 4, and 8 were also assayed in direct competition with the wild-type binding element<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>   
@@ -151,7 +151,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. 16-mer Rex peptide-aptamer was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
+<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. 33-mer RNA aptamer is modified by aptamer mutation in the SELEX article, but the core region has not changed，It may be an extension of 8-20 aptamer<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
 <font><p>5'-GGGCGCCGGUACGCAAGUACGACGGUACGCUCC-3'</p></font>
 <img src="/images/2D/Rex16_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -159,7 +159,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Jiang, F., Gorin, A. determined the solution of binding site of Rex peptide RNA aptamer complex by using combined NMR molecular dynamics method<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>Jiang, F., Gorin, A. determined the solution of binding site of Rex peptide RNA aptamer complex by using combined NMR molecular dynamics method. The complex contains a pair of two-base bulges on opposite strands separated by three base pairs (2 G•C and 1 A•U). This stem-loop IID sequence has features that are distinct from the RNA aptamer, with the latter containing a pair of two-base bulges on the same strand separated by three base pairs (all G•C). The stem-loop IID RxRE site, which apparently binds two Rex ARM peptides, gave very poor quality imino proton nuclear magnetic resonance (NMR) spectra following addition of either one or two equivalents of bound peptide, making this system unsuitable for further study. The PDB ID of this structure is 1EXY<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -302,7 +302,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
-<font >In vitro selection of anti-Rex aptamers.  Anti-Rex aptamers were isolated from the 79.9 pool by iterative selection for binding followed by amplification of bound species.  In each round of selection, tRNA and Rex protein (see Table 1 for amounts) were incubated for 10 min at ambient temperature in 30 pl of 1x binding buffer (50 mM Tris-HCI [pH 8.0), 50 mM KCI).  The RNA pool in 20 μl of 1× binding buffer was heated to 90C for 2 min, was cooled to ambient temperature over 10 min to equilibrate conformers, and in some rounds was passed over HAWP 25 modified cellulose filters (Millipore, New Bedford, Mass.) to remove filter-binding sequences.  The solutions containing the Rex protein and the RNA pool were mixed;  in some rounds a specific competitor RNA, the XRE.  was also thermally equilibrated and added to the mixture (see Table 1). The final reaction mix (60 μl) was incubated at ambient temperature for 60 min. The amounts and final concentrations of tRNA, Rex, pool RNA, and XRE were varied during the course of selection as detailed in Table 1.  RNA-protein com-l plexes were separated from free RNA by vacuum filtration (5 mm Hg) over HAWP 25 modified cellulose filters (Millipore).  Following application of the RNA-protein mixtures, filters were washed twice with 500 μl of 1x binding buffer.  The final two rounds of selection included a dilution step following the binding reaction;  the dilution step would have favored the retention of RNA.  protein complexes with low off-rates.  RNAs that were coretained with Rex were eluted from the filters with 400 μl of 2× PK buffer (0.2 M Tris-Cl [pH 7.6], 2.5 mM EDTA, 0.3 M NaCl, 2% SDS) for 30 min at 75°C.  The eluate was extracted with phenol-chloroform and precipitated with ethanol, and the pellet was resuspended in 25 μl of water.<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
+<font >In vitro selection of anti-Rex aptamers. Anti-Rex aptamers were isolated from the 79.9 pool by iterative selection for binding followed by amplification of bound species. In each round of selection, tRNA and Rex protein (see Table 1 for amounts) were incubated for 10 min at ambient temperature in 30 pl of 1x binding buffer (50 mM Tris-HCI (pH 8.0), 50 mM KCI). The RNA pool in 20 μl of 1× binding buffer was heated to 90C for 2 min, was cooled to ambient temperature over 10 min to equilibrate conformers, and in some rounds was passed over HAWP 25 modified cellulose filters (Millipore, New Bedford, Mass.) to remove filter-binding sequences. The solutions containing the Rex protein and the RNA pool were mixed; In some rounds a specific competitor RNA, the XRE, was also thermally equilibrated and added to the mixture (see Table 1). The final reaction mix (60 μl) was incubated at ambient temperature for 60 min. The amounts and final concentrations of tRNA, Rex, pool RNA, and XRE were varied during the course of selection as detailed in Table 1. RNA-protein com-l plexes were separated from free RNA by vacuum filtration (5 mm Hg) over HAWP 25 modified cellulose filters (Millipore). Following application of the RNA-protein mixtures, filters were washed twice with 500 μl of 1x binding buffer. The final two rounds of selection included a dilution step following the binding reaction;  the dilution step would have favored the retention of RNA. Protein complexes with low off-rates. RNAs that were coretained with Rex were eluted from the filters with 400 μl of 2× PK buffer (0.2 M Tris-Cl [pH 7.6], 2.5 mM EDTA, 0.3 M NaCl, 2% SDS) for 30 min at 75°C. The eluate was extracted with phenol-chloroform and precipitated with ethanol, and the pellet was resuspended in 25 μl of water<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
 <br><br>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -316,22 +316,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td0">39B</td>
-        <td name="td1">5'-CTGTAGCCTGCCGGTACGCAAGTACGACGGTACAGGCC-3'</td>
+        <td name="td0">8-5 aptame</td>
+        <td name="td1">5’-CUGUAGGCGACGUCUUGCGCCGGCC-3’</td>
         <td name="td3">HTLV-1 arginine-rich Rex peptide</td>
-        <td name="td4">11.1nM</td>
+        <td name="td4">25 nM</td>
       </tr>
       <tr>
-        <td name="td0">15A</td>
-        <td name="td1">5'-CTGTCCGGGTGTACGCAAGTACCAACGGTGAACAGGCC-3'</td>
+        <td name="td0">8-20 aptamer</td>
+        <td name="td1">5’-CGUAGCCGGACGGUACUACAGGCC-3’</td>
         <td name="td3">HTLV-1 arginine-rich Rex peptide</td>
-        <td name="td4">9.4nM</td>
-      </tr>
-      <tr>
-        <td name="td0">5A</td>
-        <td name="td1">5'-CTGTAGGCCTCCGGTACGCAAGTACGACGGTGCACAGGCC-3'</td>
-        <td name="td3">HTLV-1 arginine-rich Rex peptide</td>
-        <td name="td4">8nM</td>
+        <td name="td4">NA</td>
       </tr>
 	  </tbody>
   </table>
@@ -339,10 +333,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Rex escorts unspliced gag-pro-pol and singly spliced env mRNAs out of the nucleus of infected cells. These mRNAs carry a recognition sequence called Rex responsive element (RxRE or XRE) located at the 3' region of the long terminal repeat (LTR). This function is essential since most HTLV proteins are translated from unspliced or partially spliced pre-mRNAs that cannot exit the nucleus by the pathway used by fully processed cellular mRNAs. Rex itself is translated from a fully spliced mRNA that probably readily exits the nucleus. Rex's nuclear localization signal (NLS) binds directly to KPNB1/importin beta-1 without previous binding to KPNA1/importin alpha-1. KPNB1 binds to the GDP bound form of RAN (Ran-GDP) and targets Rex to the nucleus. In the nucleus, the conversion from Ran-GDP to Ran-GTP dissociates Rex from KPNB1 and allows Rex's binding to the RRE in viral pre-mRNAs. Rex multimerizes on the RRE via cooperative assembly. This multimerization is critical for its full biological activity, since it may shield the viral RNA from being spliced or down-regulated, and probably exposes Rex's nuclear export signal (NES) to the surface. Rex can then form a complex with XPO1/CRM1, RANBP3 and Ran-GTP, leading to nuclear export of the complex. Conversion from Ran-GTP to Ran-GDP mediates dissociation of the Rex/RRE/XPO1/RANBP3/RAN complex, so that Rex can return to the nucleus for a subsequent round of export (By similarity).</p></font>
+<font><p>Human T-cell lymphotropic virus type 1 or human T-lymphotropic virus (HTLV-1), also called the adult T-cell lymphoma virus type 1, is a retrovirus of the human T-lymphotropic virus (HTLV) family. As with human immunodeficiency virus type 1 (HIV-1), HTLV-1 is a complex retrovirus, with a genome that encodes regulatory proteins that modulate the expression of the viral proteins.-----From WiKi</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
         <th onclick="sortTable(2)">MW</th>
@@ -353,6 +348,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">HTLV-1</td>
         <td name="td0"><a href="https://www.uniprot.org/uniprotkb/P0C206/entry" target="_blank" style="color:#520049"><b>P0C206</b></a></td>
         <td name="td1"><a href="https://www.ebi.ac.uk/interpro/protein/reviewed/P0C206/" target="_blank" style="color:#520049"><b>P0C206</b></a></td>
         <td name="td2">20.56 kDa</td>
@@ -375,7 +371,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
-        <th onclick="sortTable(2)">Z-score</th>
+        <th onclick="sortTable(2)">TM-score</th>
         <th onclick="sortTable(3)">RMSD</th>
         <th onclick="sortTable(4)">Description</th>
       </tr>

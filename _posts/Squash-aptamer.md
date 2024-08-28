@@ -122,13 +122,13 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 2022, Dey, S. K. et al. evolved a naturally occurring well-folded adenine riboswitch into a fluorogenic aptamer——Squash，Squash exhibits markedly improved in-cell folding and highly efficient metabolite-dependent folding when fused to a S-adenosylmethionine (SAM)-binding aptamer. The same year, Truong, L. et al. reported the 2.7 Å-resolution co-crystal structure of fluorophore-bound Squash. Squash does not harbor a G-quadruplex, sandwiching its fluorophore between a base triple and a non-canonical base quadruple in a largely apolar pocket<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<font>In 2022, Dey, S. K. et al. evolved a naturally occurring well-folded adenine riboswitch into a fluorogenic aptamer-Squash，Squash exhibits markedly improved in-cell folding and highly efficient metabolite-dependent folding when fused to a S-adenosylmethionine (SAM)-binding aptamer. The same year, Truong, L. et al. reported the 2.7 Å-resolution co-crystal structure of fluorophore-bound Squash. Squash did not harbor a G-quadruplex, sandwiching its fluorophore between a base triple and a non-canonical base quadruple in a largely apolar pocket<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>To evolve the adenine aptamer into a fluorogenic aptamer, we selected for aptamers that bind to agarose-immobilized DFHBI.  By the seventh round of SELEX, the pool exhibited fluorescence upon incubation with DFHBI-1T. At this point, the library was cloned into a bacterial expression vector, transformed into E. coli, and fluorescent aptamers were identified by sorting cells based on DFHBI-1T-induced fluorescence. After recovery of plasmids from the brightest cells, we found three library members which induced fluorescence activation of DFHBI-1T. For directed evolution, we synthesized a DNA library of 9–1 aptamer mutants such that each nucleotide in the ligand-binding pocket has a controlled probability of being converted into one of the other three nucleotides<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>To evolve the adenine aptamer into a fluorogenic aptamer, and selected for aptamers that bind to agarose-immobilized DFHBI. By the seventh round of SELEX, the pool exhibited fluorescence upon incubation with DFHBI-1T. At this point, the library was cloned into a bacterial expression vector, transformed into E. coli, and fluorescent aptamers were identified by sorting cells based on DFHBI-1T-induced fluorescence. After recovery of plasmids from the brightest cells, they found three library members which induced fluorescence activation of DFHBI-1T. For directed evolution, they synthesized a DNA library of 9–1 aptamer mutants such that each nucleotide in the ligand-binding pocket has a controlled probability of being converted into one of the other three nucleotides<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -140,11 +140,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font><p>5'-GGGAAGAUACAAGGUGAGCCCAAUAAUAUGGUUUGGGUUAGGAUAGGAAGUAGAGCCUUAAACUCUCUAAGCGGUAUCUUCCC-3'</p></font>
 <img src="/images/2D/squash_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-
+<br>
 
 <p class="blowheader_box">3D visualisation</p>             
 <font>Determined the co-crystal structures of Squash bound to DFHBI-1T and DFHO. Our structures reveal that the fluorescence turn-on aptamer retains the overall fold of the adenine riboswitch, and that the fluorophores are recognized in a binding site lacking a G-quadruplex.This shows Squash-DFHBI-1T co-crystal structure in here. The PDB ID is 7KVU<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/squash_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -277,12 +277,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </tr>
 </table>
 </div>
-<br>
 
 
 <p class="blowheader_box">Binding pocket</p>              
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7KVU by X-ray crystallography. DFHBI-1T(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI-1T<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7KVU by X-ray crystallography. DFHBI-1T(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI-1T<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/squash_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -325,10 +323,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>                    
-<font><p>DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe (ex/em=472 nm/507 nm). DFHBI-1T binds to RNA aptamers (Spinach, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells</p></font>
+<font><p>DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe (ex/em=472 nm/507 nm). DFHBI-1T binds to RNA aptamers (Spinach, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells.-----From MedChemExpress</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
         <th onclick="sortTable(2)">MW</th>
@@ -339,6 +338,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">DFHBI-1T</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/101889712" target="_blank" style="color:#520049"><b>101889712</b> </a></td>
         <td name="td1">C<sub>13</sub>H<sub>9</sub>F<sub>5</sub>N<sub>2</sub>O<sub>2</sub></td>
         <td name="td2">320.21 g/mol</td>

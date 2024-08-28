@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>Jhaveri and Ellington used in vitro selection of fluorescently labelled aptamers to screen for the ATP-binding RNA aptamers rafl7, rafl7-U61C and rafl7s<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 2000, Jhaveri, S., Rajendran, M., & Ellington, A. D screened aptamers capable of binding to ATP and emitting fluorescent signals from a pool of RNA molecules enriched in fluorescein-labelled uridine by in vitro selection (in vitro selection). Through a series of screening and amplification steps, the aptamer that specifically binds to ATP and produces fluorescence changes is finally selected<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
@@ -115,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>An adenine nucleotide containing three phosphate groups esterified to the sugar moiety. In addition to its crucial roles in metabolism adenosine triphosphate is a neurotransmitter.-----from drugbank.</p>
+<p>An adenine nucleotide containing three phosphate groups esterified to the sugar moiety. In addition to its crucial roles in metabolism adenosine triphosphate is a neurotransmitter.-----From drugbank.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

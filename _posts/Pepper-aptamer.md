@@ -129,7 +129,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35921263/" target="_blank" style="color:#520049">2022</a></h3>
     </div>
     <div class="body">
-      <p>A new optogenetic tool in mammalian cells(mOptoT7) can induce Pepper RNA aptamer for RNA visualization<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
+      <p>A new optogenetic tool in mammalian cells (mOptoT7) can induce Pepper RNA aptamer for RNA visualization<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -583,7 +583,7 @@ struct_asym_id: 'R',
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>HBC is a synthetic dye of green fluorescent protein (GFP) fluorescent groups, with structurally rigid electron acceptors and strong electron donors. HBC is used to detect RNA localization.-----from MedChemExpress</p></font>
+<font><p>HBC is a synthetic dye of green fluorescent protein (GFP) fluorescent groups, with structurally rigid electron acceptors and strong electron donors. HBC is used to detect RNA localization.-----From MedChemExpress</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
