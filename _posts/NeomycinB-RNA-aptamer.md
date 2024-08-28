@@ -168,8 +168,8 @@ categories: Aptamer
 </div>
 
   
-<font ><p class="header_box" id="description">Description</p></font>
-<font > In 1995, Wallis et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for NeomycinB,  in 1999, Jiang et al. discovered the neomycin-B–RNA aptamer in complex structure by NMR<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 1995, Wallis et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for NeomycinB. The majority of the RNA molecules selected to specifically bind neomycin share a region of nucleotide sequence homology.  From chemical probing and covariations among different clones we show that in all sequences this region folds into a hairpin structure, which from footprinting and partial alkaline hydrolysis experiments is shown to be the neomycin-binding site. In 1999, Patel, D. J. used chemical, biochemical, spectroscopy, NMR and computational methods to study the specific characteristics of aminoglycoside antibiotic RNA recognition of natural RNA targets and RNA aptamers identified in vitro<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
@@ -251,8 +251,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:4, 
   end_residue_number:8, 
   color:{r:194,g:194,b:255}
-},
-{
+},{
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:10, 
@@ -262,20 +261,17 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:11, 
   end_residue_number:12, 
   color:{r:194,g:194,b:255}
-},
-{
+},{
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:15, 
   color:{r:50,g:205,b:50}
-},
-{
+},{
   struct_asym_id: 'A', 
   start_residue_number:16, 
   end_residue_number:16, 
   color:{r:255,g:0,b:255}
-},
-{
+},{
   struct_asym_id: 'A', 
   start_residue_number:17, 
   end_residue_number:17, 
@@ -308,7 +304,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 },{
   struct_asym_id: 'B',    
   start_residue_number:1, 
-  end_residue_number:2, 
+  end_residue_number:1, 
   color:{r:255,g:255,b:0}
 },{
   struct_asym_id: 'B',    
@@ -397,7 +393,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Neomycin is a broad-spectrum aminoglycoside antibiotic drug that is derived from the metabolic products of Streptomyces fradiae.5 Neomycin is a complex comprised of three components, neomycin A, B, and C.2 Neomycin B, also known as framycetin, is the most active component of the complex and neomycin C is the isomer of neomycin B, making these two stereoisomers the active components of neomycin.1,2 Neomycin A, or neamine, is a moiety that conjoins two molecules of neomycin B and C together.-----from drugbank</p></font>
+<font><p>Neomycin is a broad-spectrum aminoglycoside antibiotic drug that is derived from the metabolic products of Streptomyces fradiae.5 Neomycin is a complex comprised of three components, neomycin A, B, and C.2 Neomycin B, also known as framycetin, is the most active component of the complex and neomycin C is the isomer of neomycin B, making these two stereoisomers the active components of neomycin.1,2 Neomycin A, or neamine, is a moiety that conjoins two molecules of neomycin B and C together.-----From drugbank</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

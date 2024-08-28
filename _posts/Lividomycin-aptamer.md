@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 1996, Lato, S. M., & Ellington, A. D.isolated RNA molecules capable of binding to rifamycin led to the discovery of the SLB10-1 aptamer in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 1996, Lato, S. M., & Ellington, A. D prepared levidomycin affinity columns and screened RNA molecules by an in vitro selection process. By increasing the stringency of the selection, the concentration of Levidomycin on the affinity column was reduced and the wash volume was increased. RNA molecules capable of binding Levidomycin were successfully screened by in vitro selection. After several rounds of selection and amplification, the screened SLB10-1 showed high affinity and specificity for levidomycin with an affinity of approximately 300 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
@@ -115,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>This compound belongs to the class of organic compounds known as 4,5-disubstituted 2-deoxystreptamines. These are 2-deoxystreptamine aminoglycosides that a glycosidically linked to a pyranose of furanose unit at the C4- and C5-positions.-----from drugbank</p>p
+<p>This compound belongs to the class of organic compounds known as 4,5-disubstituted 2-deoxystreptamines. These are 2-deoxystreptamine aminoglycosides that a glycosidically linked to a pyranose of furanose unit at the C4- and C5-positions.-----From drugbank</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -143,7 +143,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/Lividomycin_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>p
+<br>
 <br>
 
 
@@ -220,7 +220,10 @@ Lato, S. M., & Ellington, A. D.<br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/9238640/" target="_blank" style="color:#520049">Molecular diversity, 2(1-2), 103–110. (1996)</a>
 <br/>
 
-
+<a id="ref2"></a><font><strong>[2] Thermodynamics of aminoglycoside-rRNA recognition.</strong></font><br/>
+Pilch, D. S., Kaul, M., Barbieri, C. M., & Kerrigan, J. E.<br/>
+<a href="https://pubmed.ncbi.nlm.nih.gov/12925993/" target="_blank" style="color:#520049">Biopolymers,70(1), 58–79. (2003)</a>
+<br/>
 
 
 

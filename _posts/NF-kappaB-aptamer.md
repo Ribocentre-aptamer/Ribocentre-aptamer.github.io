@@ -2,7 +2,7 @@
 layout: post
 title:  "NF-kappaB aptamer"
 date:   2024-03-01 00:00:00
-author: Zhizhong Lu
+author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
 <html>
@@ -97,7 +97,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10074372/" target="_blank" style="color:#520049">1999</a></h3>
     </div>
     <div class="body">
-      <p>L J Maher 3rd isolate a small RNA aptamer that binds with nanomolar affinity to human transcription factor NF-kappa B in vitro selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>L J Maher 3rd isolated a small RNA aptamer that binds with nanomolar affinity to human transcription factor NF-kappa B in vitro selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -160,8 +160,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1999, L J Maher 3rd isolated an aptamer that binds NF-kappaB p50, and its crystal structure was cracked in 2003. In 2008, He selected the RNA aptamer of anti-NF-kappaB p65<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 1999, L J Maher 3rd isolated an aptamer that binds NF-kappaB p50, and its crystal structure was cracked in 2003. The results of competition experiments demonstrate that binding of the RNA aptamer blocks the ability of NF-kappa B to bind duplex DNA. Expression of this aptamer structure within heterologous nuclear RNA transcripts may provide a new strategy to inhibit NF-kappa B function in vivo. In 2008, He selected the RNA aptamer of anti-NF-kappaB p65. And reported the characterization of these aptamers with respect to NF-kappaB target specificity, affinity, minimal sequence requirements, secondary structure, and competition with DNA kappaB sites<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
@@ -381,10 +381,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </div>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>This entry represents the N-terminal sub-domain of the Rel homology domain (RHD) of NF-kappaB subunit precursor p105, which can undergo cotranslational processing by the 26S proteasome to produce a 50kDa protein (p50). p50 is a DNA binding subunit of the NF-kappaB protein complex.-----from Pfam</p></font>
+<font><p>This entry represents the N-terminal sub-domain of the Rel homology domain (RHD) of NF-kappaB subunit precursor p105, which can undergo cotranslational processing by the 26S proteasome to produce a 50kDa protein (p50). p50 is a DNA binding subunit of the NF-kappaB protein complex.-----From Pfam</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
         <th onclick="sortTable(2)">MW</th>
@@ -395,6 +396,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">NF-kappaB p50 protein</td>
         <td name="td0"><a href="https://www.uniprot.org/uniprotkb/P25799/entry" target="_blank" style="color:#520049"><b>P25799</b></a></td>
         <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR030503/" target="_blank" style="color:#520049"><b>IPR030503</b></a></td>
         <td name="td2">36.61 kDa</td>

@@ -219,7 +219,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31187804/" target="_blank" style="color:#520049">2019</a></h3>
     </div>
     <div class="body">
-      <p>An innovative levo(L)-malachite green aptamer with excellent stability is designed for effective monitoring of the content of malachite green in aquaculture<sup>[<a href="#ref16" style="color:#520049">16</a>]</sup></p>
+      <p>An innovative levo (L)-malachite green aptamer with excellent stability is designed for effective monitoring of the content of malachite green in aquaculture<sup>[<a href="#ref16" style="color:#520049">16</a>]</sup></p>
     </div>
   </div>
   <div class="entry">

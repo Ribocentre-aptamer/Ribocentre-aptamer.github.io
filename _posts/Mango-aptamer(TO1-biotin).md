@@ -123,7 +123,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29768001/" target="_blank" style="color:#520049">2018</a></h3>
     </div>
     <div class="body">
-      <p>The crystal structures of Mango-II in complex with two fluorophores, TO1-Biotin and TO3-Biotin was determined<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
+      <p>The crystal structures of Mango-II in complex with two fluorophores, TO1-Biotin and TO3-Biotin were determined<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -131,7 +131,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30992561/" target="_blank" style="color:#520049">2019</a></h3>
     </div>
     <div class="body">
-      <p>Crystal structures of TO1-Biotin complexes of Mango-III and its mutants was reported<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
+      <p>Crystal structures of TO1-Biotin complexes of Mango-III and its mutants were reported<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -438,7 +438,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Thiazole Orange is an asymmetric anthocyanin dye that can be coupled with oligonucleotides (ONs) to prepare fluorescent hybridization probes.-----from MedChemExpress</p></font>
+<font><p>Thiazole Orange is an asymmetric anthocyanin dye that can be coupled with oligonucleotides (ONs) to prepare fluorescent hybridization probes.-----From MedChemExpress</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

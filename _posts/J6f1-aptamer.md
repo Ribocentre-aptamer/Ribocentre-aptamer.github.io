@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 1998, Hamasaki and Rando were reported here which are designed to reveal the nature of the tobramycin binding domain of J6<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 1995, Wang & Rando reported on the selection of RNA aptamers which were directed against the aminoglycoside tobramycin. In 1998, Hamasaki and Rando were reported here which are designed to reveal the nature of the tobramycin binding domain of J6. Experiments are reported here which are designed to reveal the nature of the tobramycin binding domain of J6. A small (40 nts) stem-loop derivative of J6, containing a 3 nt and a 1 nt bulge, stoichiometrically binds tobramycin with a dissociation constant of approximately 5 nM. These studies demonstrate that simplified RNA molecules can be generated which bind aminoglycosides specifically and with high affinities. J6f1 is a truncated mutant of J6 aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
@@ -104,9 +104,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition, an analytical affinity column was run under isocratic conditions to determine an approximate dissociation constant (Kd) for the RNA-ligand interaction. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></font>
-<font><p>5'-GGCUUAGUAUAGCGAGGUUUAGCUACACUCGUGCUGAGCC-3'</p></font>
-<img src="/images/2D/Tobramycin_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;"></div>
+<font><p>J6: 5'-GGGAGAAUUCCGACCAGAAGCUUAGUAUAGCGAGGUUUAGCUACACUCGUGCUGAUCGUUUGGUACGGGACCUGCGUGUAGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'<br>J6f1: 5'-GGCUUAGUAUAGCGAGGUUUAGCUACACUCGUGCUGAGCC-3'</p></font>
+<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/Tobramycin_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/Tobramycin_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  </tr>
+  </table>
 <br>
 <br>
 
@@ -115,8 +122,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----from drugbank</font>
-<br>
+<p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From Drugbank</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
