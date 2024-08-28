@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "70cam6 aptamer"
+title:  "Chloramphenicol aptamer"
 date:   2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
@@ -90,20 +90,20 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 1997,Burke et al.  Cam-specific RNA aptamers had been isolated mainly to study RNA–antibiotic interactions. In 2011, Mehtaet al.identified Cam aptamers by in vitro SELEX<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<font>In 1997,Burke, Gold. L.et al. Cam-specific RNA aptamers had been isolated mainly to study RNA–antibiotic interactions. In 2011, Mehtaet al.identified Cam aptamers by in vitro screening. Burke, Gold. L. et al. identified Cam-binding RNA aptamers from two independent initial random RNA populations. Boundary determinations, ribonuclease S1 sensitivity analyses and the activity of truncated minimal RNAs identified a structural motif that is shared by sequences from both selections. Reselection from a pool of mutated variants of the minimal aptamer further refined the sequence requirements for binding.  They used proton nuclear magnetic resonance (NMR) to establish a 1:1 RNA: Cam stoichiometry of the complex. Both the protection and NMR data both show that Cam stabilizes the active fold of this aptamer<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Burke, D. H., Hoffman, D. C., Brown, A., Hansen, M., Pardi, A., & Gold, L used SELEEX to isolate 80 random positions from a random starting pool containing 10<sup>14</sup>-10<sup>15</sup> sequences, and, after 8 cycles, 12 were found in the same or nearly the same isolate sequences, 2 in 3 different isolates, and 2 in 4 different isolates. All other sequences were found only once<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>Pardi, A., & Gold, L used two independent Cam-binding RNA populations with 70 or 80 random positions(70Cm and 80Cm,respectively) isolated using the SELEX protocol  from random starting pools containing 10<sup>14</sup>-10<sup>15</sup> sequences. Cam-binding RNA transcripts were affinity eluted from a Cam-derivatized agarose resin, amplified, and re-tran- scribed for additional partitions over the resin. The elutions included long incubations in order to encourage selection of high-affinity aptamers with long off rates(sce the Materials and methods section). Specific elution from the resin with free Cam was low in the first seven cycles of selection/amplification. This number climbed to2-6% in the eighth cycle and around 20% in the ninth. After thrce more selection cycles at elevated wash strin- gency, 40-50% of the RNA cluted with Cam. RNA recov- ered from the 12th cycle was converted to double-stranded DNA for cloning and sequencing.  There were 74 distinct sequences among the 96 isolates sequenced. Twelve sequences were found in pairs of identical or nearly identical isolates, two in three different isolates, and two in four different isolates. All other sequences were found only once<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></font>
+<font>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. Here, we chose the sequence with the best affinity for 2D drawing.<br></font>
 <font><p>5'-GGGAAAAGCGAAUCAUACACAAGAAUGAAAAGGGCUGGCGAGACAUAUCCGCUGGGCAAUCAGAUUCGGAGCCGCACCACCCUCGAAGUAGACAGGGCAUAAGGUAUUUAAUUCCAUA-3'</p></font>
 <img src="/images/2D/Chloramphenicol_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -115,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Chloramphenicol is a broad spectrum antibiotic that is effective against a variety of susceptible and serious bacterial infections but is not frequently used because of its high risk of bone marrow toxicity.</p>
+<p>Chloramphenicol is a broad spectrum antibiotic that is effective against a variety of susceptible and serious bacterial infections but is not frequently used because of its high risk of bone marrow toxicity.-----From WiKi</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -147,7 +147,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
+<font><p>We screened the compounds with great similarity to by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

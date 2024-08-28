@@ -359,7 +359,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </div>
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to 5-Hydroxytryptophan (5HTP) by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<font><p>We screened the compounds with great similarity to 5-Hydroxytryptophan (5HTP) by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
