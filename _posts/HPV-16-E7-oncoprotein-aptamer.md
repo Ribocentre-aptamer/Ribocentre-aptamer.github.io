@@ -2,7 +2,7 @@
 layout: post
 title:  "HPV-16 E7 oncoprotein aptamer"
 date:   2024-05-09 00:00:00
-author: Jiali Wang, Chen Ke
+author: Jiali Wang, Bo Fu
 categories: Aptamer
 ---
 <!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
@@ -100,7 +100,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2011, Toscano-Garibay JD, Benítez-Hess ML, Alvarez-Salas LM used a synthetic single stranded DNA (ssDNA) library called APTLIB, which contains 15 randomized nucleotide positions (approximately 10<sub>9</sub> variants). The APTLIB RNA library is first subjected to three rounds of counter selection to remove aptamers that may bind to purified GST proteins. Then, the library was mixed with glutathione agarose beads coupled with the GST-E7 fusion protein and subjected to ten rounds of SELEX selection. After 10 rounds of selection, sequence analysis revealed the presence of a major motif in the selected library, namely 50-TSTTGTGTK-3, which mainly binds specifically to GST proteins. After removing the sequence binding to GST, an additional four rounds of SELEX were performed, including reverse selection rounds, to generate a G5α3N library, ultimately resulting in the RNA aptamer G5α3N.4 that specifically binds to HPV-16 E7 protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2011, Toscano-Garibay JD, Benítez-Hess ML, Alvarez-Salas LM used a synthetic single stranded DNA (ssDNA) library called APTLIB, which contains 15 randomized nucleotide positions (approximately 10<sup>9</sup> variants). The APTLIB RNA library is first subjected to three rounds of counter selection to remove aptamers that may bind to purified GST proteins. Then, the library was mixed with glutathione agarose beads coupled with the GST-E7 fusion protein and subjected to ten rounds of SELEX selection. After 10 rounds of selection, sequence analysis revealed the presence of a major motif in the selected library, namely 50-TSTTGTGTK-3, which mainly binds specifically to GST proteins. After removing the sequence binding to GST, an additional four rounds of SELEX were performed, including reverse selection rounds, to generate a G5α3N library, ultimately resulting in the RNA aptamer G5α3N.4 that specifically binds to HPV-16 E7 protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -120,7 +120,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>   
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Plays a role in viral genome replication by driving entry of quiescent cells into the cell cycle. Stimulation of progression from G1 to S phase allows the virus to efficiently use the cellular DNA replicating machinery to achieve viral genome replication. E7 protein has both transforming and trans-activating activities. Induces the disassembly of the E2F1 transcription factor from RB1, with subsequent transcriptional activation of E2F1-regulated S-phase genes. Interferes with host histone deacetylation mediated by HDAC1 and HDAC2, leading to transcription activation. Also plays a role in the inhibition of both antiviral and antiproliferative functions of host interferon alpha. Interaction with host TMEM173/STING impairs the ability of TMEM173/STING to sense cytosolic DNA and promote the production of type I interferon (IFN-alpha and IFN-beta).-----from Uniprot</font>
+<font>Plays a role in viral genome replication by driving entry of quiescent cells into the cell cycle. Stimulation of progression from G1 to S phase allows the virus to efficiently use the cellular DNA replicating machinery to achieve viral genome replication. E7 protein has both transforming and trans-activating activities. Induces the disassembly of the E2F1 transcription factor from RB1, with subsequent transcriptional activation of E2F1-regulated S-phase genes. Interferes with host histone deacetylation mediated by HDAC1 and HDAC2, leading to transcription activation. Also plays a role in the inhibition of both antiviral and antiproliferative functions of host interferon alpha. Interaction with host TMEM173/STING impairs the ability of TMEM173/STING to sense cytosolic DNA and promote the production of type I interferon (IFN-alpha and IFN-beta).-----From Uniprot</font>
 <br>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>

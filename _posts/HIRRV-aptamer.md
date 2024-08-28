@@ -2,7 +2,7 @@
 layout: post
 title:  "HIRRV aptamer"
 date:   2024-05-06 00:00:00
-author: Jiali Wang, Chen Ke
+author: Jiali Wang, Bo Fu
 categories: Aptamer
 ---
 <html>
@@ -96,7 +96,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2012, Hwang SD, Midorikawa N, Punnarak P, et al. used an ssDNA library containing approximately 5 × 10<sup>16</sup> different sequences, and after nine rounds of SELEX, they sequenced 45 RNA adapters and identified four RNA adapters (H1, H2, H3, and H4) that could specifically bind to HIRRV<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2012, Hwang SD, Midorikawa N, Punnarak P, et al. used an ssDNA library containing approximately 5 × 10<sup>16</sup> different sequences, and after nine rounds of SELEX, they sequenced 45 RNA aptamers and identified four RNA aptamers (H1, H2, H3, and H4) that could specifically bind to HIRRV<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -120,7 +120,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>   
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>(Biology) any of the viruses belonging to the Rhabdoviradae family, which are composed of rod-shaped particles that can infect living organisms, and which include the viruses that cause rabies.-----from Wiki</p>
+<p>(Biology) any of the viruses belonging to the Rhabdoviradae family, which are composed of rod-shaped particles that can infect living organisms, and which include the viruses that cause rabies.-----From Wiki</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

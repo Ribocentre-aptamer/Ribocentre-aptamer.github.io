@@ -2,7 +2,7 @@
 layout: post
 title:  "FMN aptamer"
 date:   2024-03-28 00:00:00
-author: Yuhang Luo
+author: Yuhang Luo, Zhizhong Lu
 categories: Aptamer
 ---
 <html>
@@ -98,7 +98,7 @@ categories: Aptamer
       <h3><a href="https://onlinelibrary.wiley.com/doi/10.1002/anie.199410841" target="_blank" style="color:#520049">1994</a></h3>
     </div>
     <div class="body">
-      <p>The aptamer was filtrated for the first time<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>The aptamer was isolated for the first time<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -178,7 +178,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25173759/" target="_blank" style="color:#520049">2014</a></h3>
     </div>
     <div class="body">
-      <p>Role of Mg2+ ions in flavin recognition by FMN RNA aptamer<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
+      <p>Role of Mg<sup>2+</sup> ions in flavin recognition by FMN RNA aptamer<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
     </div>
   </div>
 </div>
@@ -193,7 +193,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Dr. Michael Famulok et al. performed the screening using an RNA 113-mer library containing 10¹⁵ different sequences, each consisting of 14 random nucleotides surrounded by two specific primer binding sites. Specifically bound RNAs (aptamers) were selected from the RNA pool by affinity chromatography with a given cofactor (FMN)-derivatized agarose. RNA sequences bound to agarose were subsequently eluted with a solution containing the appropriate ligand. After six rounds of screening, a large number of RNAs bound to FMN and NAD+ columns. From the pool of FMN-selected RNAs, the researchers cloned and sequenced 17 different clones that demonstrated the ability to specifically bind FMN. These FMN-binding RNAs contained two conserved regions with the sequences AGGNUAU and AGAAGG. 13 FMN-binding RNAs contained the two conserved regions described above, and these sequences were surrounded by variable nucleotides that were capable of pairing to form defined secondary structures. The dissociation constants of the FMN-2 aptamer/FMN complexes were determined by analytical affinity chromatography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>Dr. Michael Famulok et al. performed the screening using an RNA 113-mer library containing 10<sup>15</sup> different sequences, each consisting of 14 random nucleotides surrounded by two specific primer binding sites. Specifically bound RNAs (aptamers) were selected from the RNA pool by affinity chromatography with a given cofactor (FMN)-derivatized agarose. RNA sequences bound to agarose were subsequently eluted with a solution containing the appropriate ligand. After six rounds of screening, a large number of RNAs bound to FMN and NAD<sup>+</sup> columns. From the pool of FMN-selected RNAs, the researchers cloned and sequenced 17 different clones that demonstrated the ability to specifically bind FMN. These FMN-binding RNAs contained two conserved regions with the sequences AGGNUAU and AGAAGG. 13 FMN-binding RNAs contained the two conserved regions described above, and these sequences were surrounded by variable nucleotides that were capable of pairing to form defined secondary structures. The dissociation constants of the FMN-2 aptamer/FMN complexes were determined by analytical affinity chromatography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -208,7 +208,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Dinshaw J. Patel present the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of the complex of flavin mononucleotide (FMN) bound to the conserved internal loop segment of a 35 nucleotide RNA aptamer identified through in vitro selection. Their comprehensive study reveals the detailed interactions between FMN and the RNA aptamer, including base-pair mismatches, a base-triple formation, and the specific intercalation of FMN's isoalloxazine ring into the RNA helix, contributing to our understanding of RNA folding and molecular recognition principles.The PDB ID of this structure is 1FMN<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font >Dinshaw J. Patel present the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of the complex of flavin mononucleotide (FMN) bound to the conserved internal loop segment of a 35 nucleotide RNA aptamer identified through in vitro selection. Their comprehensive study reveals the detailed interactions between FMN and the RNA aptamer, including base-pair mismatches, a base-triple formation, and the specific intercalation of FMN's isoalloxazine ring into the RNA helix, contributing to our understanding of RNA folding and molecular recognition principles. The PDB ID of this structure is 1FMN<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -392,7 +392,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Flavin mononucleotide is a form of vitamin B2 used to restore riboflavin in anemia, migraine, alcoholism, and hyperhomocysteinemia.-----from drugbank</p></font>
+<font><p>Flavin mononucleotide is a form of vitamin B2 used to restore riboflavin in anemia, migraine, alcoholism, and hyperhomocysteinemia.-----From Drugbank</p></font>
 
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>

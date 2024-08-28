@@ -96,7 +96,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2011, Feng H, Beck J, Nassal M, Hu KH used an in vitro reconstruction system based on recombinant truncated HBV P protein (miniP) to screen potential e-structure aptamers from two large, randomized upper stem e-RNA pools. These RNA pools are enriched with RNAs strongly bound to miniPs through three rounds of screening. Through RT-PCR product cloning, 45 individual clones were randomly selected from approximately 500 clones for sequencing. Most (43 of 45) carry upper stem sequences highly enriched in adenosine (A). The selected adaptors S6 and S9 showed high affinity and specificity for miniPs in vitro. S9 RNA strongly inhibits the packaging and DNA synthesis of pgRNA, indicating that S9 RNA can act as a decoy for the e structure by competitively inhibiting the binding of P protein to the real e signal on pgRNA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2011, Feng H, Beck J, Nassal M, Hu KH used an in vitro reconstruction system based on recombinant truncated HBV P protein (miniP) to screen potential e-structure aptamers from two large, randomized upper stem e-RNA pools. These RNA pools are enriched with RNAs strongly bound to miniPs through three rounds of screening. Through RT-PCR product cloning, 45 individual clones were randomly selected from approximately 500 clones for sequencing. Most (43 of 45) carry upper stem sequences highly enriched in adenosine (A). The selected aptamers S6 and S9 showed high affinity and specificity for miniPs in vitro. S9 RNA strongly inhibits the packaging and DNA synthesis of pgRNA, indicating that S9 RNA can act as a decoy for the e structure by competitively inhibiting the binding of P protein to the real e signal on pgRNA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -114,7 +114,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>This entry represents protein P from hepatitis B virus. Protein P is a multifunctional enzyme that converts the viral RNA genome into dsDNA in viral cytoplasmic capsids.-----from Pfam</p>
+<p>This entry represents protein P from hepatitis B virus. Protein P is a multifunctional enzyme that converts the viral RNA genome into dsDNA in viral cytoplasmic capsids.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

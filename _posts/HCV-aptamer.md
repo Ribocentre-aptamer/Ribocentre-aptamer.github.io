@@ -96,14 +96,14 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2003,  Vo NV, Oh JW, Lai MM  utilized an RNA library estimated to contain 10<sub>12</sub> (one hundred trillion) distinct RNA species. Following 20 rounds of screening, the highest affinity RNA enrichment was achieved between rounds 18 and 20. Through the SELEX process, a total of 37 selected ligands were obtained, categorized into eight groups (A-H) based on sequence homology<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2003,  Vo NV, Oh JW, Lai MM  utilized an RNA library estimated to contain 10<sup>12</sup> (one hundred trillion) distinct RNA species. Following 20 rounds of screening, the highest affinity RNA enrichment was achieved between rounds 18 and 20. Through the SELEX process, a total of 37 selected ligands were obtained, categorized into eight groups (A-H) based on sequence homology<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures are based on the article by ribodraw tool to draw. R20-43 apatamer and R20-15 aptamer bind to hepatitis C virus NS5B protein (HCV NS5B protein)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>The 2D structure of the figures are based on the article by ribodraw tool to draw. R20-43 aptamer and R20-15 aptamer bind to hepatitis C virus NS5B protein (HCV NS5B protein)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>R20-43 aptamer: 5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGAGACUUUUCGAAAAGCGUGUUCCCAAUGAGUCUAUGCAUGCAUGAGGCCCGGAUCCGGC-3'<br>R20-15 aptamer: 5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGGCUAGUACCGACCUGCGUGCCUCGCUCCUUUUCAUGCAUGCAUGAGGCCCGGAUCCGGC-3'</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -120,7 +120,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>This family includes viral RNA dependent RNA polymerase enzymes from hepatitis C virus and various plant viruses.-----from Pfam</p>
+<p>This family includes viral RNA dependent RNA polymerase enzymes from hepatitis C virus and various plant viruses.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -184,7 +184,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

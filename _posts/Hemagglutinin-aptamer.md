@@ -2,7 +2,7 @@
 layout: post
 title:  "Hemagglutinin aptamer"
 date:   2024-05-01 00:00:00
-author: Jiali Wang, Chen Ke
+author: Jiali Wang, Bo Fu
 categories: Aptamer
 ---
 <html>
@@ -96,7 +96,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2005,  Misono TS and Kumar PK started with an RNA library containing approximately 10<sub>13</sub> sequences, and after five rounds of screening, multiple high-affinity RNA aptamers clone sequences were ultimately obtained. Approximately 50% of these sequences exhibit high affinity binding to the target protein. Among these sequences, approximately 35% are wild-type sequences and 16% are newly discovered sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2005,  Misono TS and Kumar PK started with an RNA library containing approximately 10<sup>13</sup> sequences, and after five rounds of screening, multiple high-affinity RNA aptamers clone sequences were ultimately obtained. Approximately 50% of these sequences exhibit high affinity binding to the target protein. Among these sequences, approximately 35% are wild-type sequences and 16% are newly discovered sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -114,7 +114,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Haemagglutinin (HA) is one of two main surface fusion glycoproteins embedded in the envelope of influenza viruses, the other being neuraminidase (NA). There are sixteen known HA subtypes (H1-H16) and nine NA subtypes (N1-N9), which together are used to classify influenza viruses (e.g. H5N1). The antigenic variations in HA and NA enable the virus to evade host antibodies made to previous influenza strains, accounting for recurrent influenza epidemics. The HA glycoprotein is present in the viral membrane as a single polypeptide (HA0), which must be cleaved by the host's trypsin-like proteases to produce two peptides (HA1 and HA2) in order for the virus to be infectious. Once HA0 is cleaved, the newly exposed N-terminal of the HA2 peptide then acts to fuse the viral envelope to the cellular membrane of the host cell, which allows the viral negative-stranded RNA to infect the host cell. The type of host protease can influence the infectivity and pathogenicity of the virus.-----from Pfam</p>
+<p>Haemagglutinin (HA) is one of two main surface fusion glycoproteins embedded in the envelope of influenza viruses, the other being neuraminidase (NA). There are sixteen known HA subtypes (H1-H16) and nine NA subtypes (N1-N9), which together are used to classify influenza viruses (e.g. H5N1). The antigenic variations in HA and NA enable the virus to evade host antibodies made to previous influenza strains, accounting for recurrent influenza epidemics. The HA glycoprotein is present in the viral membrane as a single polypeptide (HA0), which must be cleaved by the host's trypsin-like proteases to produce two peptides (HA1 and HA2) in order for the virus to be infectious. Once HA0 is cleaved, the newly exposed N-terminal of the HA2 peptide then acts to fuse the viral envelope to the cellular membrane of the host cell, which allows the viral negative-stranded RNA to infect the host cell. The type of host protease can influence the infectivity and pathogenicity of the virus.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

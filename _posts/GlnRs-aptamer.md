@@ -419,7 +419,7 @@ struct_asym_id: 'B',
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Glutaminyl-tRNA synthetase (GlnRS) cataytic core domain. These enzymes attach Gln to the appropriate tRNA. Like other class I tRNA synthetases, they aminoacylate the 2'-OH of the nucleotide at the 3' end of the tRNA. The core domain is based on the Rossman fold and is responsible for the ATP-dependent formation of the enzyme bound aminoacyl-adenylate. GlnRS contains the characteristic class I HIGH and KMSKS motifs, which are involved in ATP binding. These enzymes function as monomers. Archaea and most bacteria lack GlnRS. In these organisms, the "non-discriminating" form of GluRS aminoacylates both tRNA(Glu) and tRNA(Gln) with Glu, which is converted to Gln when appropriate by a transamidation enzyme.-----from Pfam</p></font>
+<font><p>Glutaminyl-tRNA synthetase (GlnRS) cataytic core domain. These enzymes attach Gln to the appropriate tRNA. Like other class I tRNA synthetases, they aminoacylate the 2'-OH of the nucleotide at the 3' end of the tRNA. The core domain is based on the Rossman fold and is responsible for the ATP-dependent formation of the enzyme bound aminoacyl-adenylate. GlnRS contains the characteristic class I HIGH and KMSKS motifs, which are involved in ATP binding. These enzymes function as monomers. Archaea and most bacteria lack GlnRS. In these organisms, the "non-discriminating" form of GluRS aminoacylates both tRNA(Glu) and tRNA(Gln) with Glu, which is converted to Gln when appropriate by a transamidation enzyme.-----From Pfam</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -450,7 +450,7 @@ struct_asym_id: 'B',
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;height:400px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

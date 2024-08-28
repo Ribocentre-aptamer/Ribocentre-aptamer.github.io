@@ -126,7 +126,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Receptor tyrosine-protein kinase erbB-2 is a protein that normally resides in the membranes of cells and is encoded by the ERBB2 gene. ERBB is abbreviated from erythroblastic oncogene B, a gene originally isolated from the avian genome. The human protein is also frequently referred to as HER2 (human epidermal growth factor receptor 2) or CD340 (cluster of differentiation 340).-----from Wiki</p>
+<p>Receptor tyrosine-protein kinase erbB-2 is a protein that normally resides in the membranes of cells and is encoded by the ERBB2 gene. ERBB is abbreviated from erythroblastic oncogene B, a gene originally isolated from the avian genome. The human protein is also frequently referred to as HER2 (human epidermal growth factor receptor 2) or CD340 (cluster of differentiation 340).-----From Wiki</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

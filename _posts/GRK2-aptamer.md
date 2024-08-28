@@ -97,7 +97,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2008, Mayer, G.et al. used a structurally constrained RNA library in vitro selection. After 12 selection cycles the enriched RNA library was analyzed for GRK2 binding, The enriched RNA library was cloned and the sequences of 18 monoclones were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2008, Mayer, G.et al. used a structurally constrained RNA library in vitro selection. After 12 selection cycles the enriched RNA library was analyzed for GRK2 binding. The enriched RNA library was cloned and the sequences of 18 monoclones were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
@@ -110,17 +110,17 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font><p>C13.18 aptamer: 5'-GGCAGACCAUACGGGAGAGAAACUUGCC-3'<br>C13.28 aptamer: 5‘-CCAUACGGGAGAGAAACU-3’</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/GRK2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/GRK2_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/GRK2_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/GRK2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Mayer, G., & Tesmer, J. J. determined the crystal structure of C13.18 aptamer bound to the GRK2 protein at 3.51 Å resolution and C13.28 aptamer bound to the GRK2 protein at 4.52 Å resolution. The PDB ID of the two aptamers is 3UZT and 3UZS<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>. Only the structure of 3ZUS is shown here.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>Mayer, G., & Tesmer, J. J. determined the crystal structure of C13.18 aptamer bound to the GRK2 protein at 3.51 Å resolution and C13.28 aptamer bound to the GRK2 protein at 4.52 Å resolution. The PDB ID of the two aptamers are 3UZT and 3UZS<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>. Only the structure of 3ZUS is shown here.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">

@@ -94,7 +94,7 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 1990, Tuerk C and Gold L. have developed a novel method for rapidly selecting preferred binding sequences from a population of random sequences. And call this method systematic evolution of ligands by exponential enrichment (SELEX). Then, RNA aptamers that bind T4 DNA polymerase were isolated by this method<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 1990, Tuerk C and Gold L. have developed a novel method for rapidly selecting preferred binding sequences from a population of random sequences. And call this method systematic evolution of ligands by exponential enrichment (SELEX). Then, RNA aptamers that bind T4 DNA polymerase were isolated by this method. Two different sequences were selected by this procedure from the calculated pool of 65,536 species. One is the wild-type sequence found in the bacteriophage mRNA; one is varied from wild type at four positions. The binding constants of these two RNA's to T4 DNA polymerase are equivalent. They are the pioneers of SELEX technology and began to use this technology to isolate aptamers early<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 

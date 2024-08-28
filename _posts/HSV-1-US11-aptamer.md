@@ -95,7 +95,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2005, Bryant KF, Cox JC et al. performed in vitro selection of RNA aptamers that bind US11 from a RNA library consisting of > 10<sub>14</sub> 80 base sequences which differ in a 30 base randomized region. They performed 12 rounds of automated selection for aptamers that bound MBP-US11. A total of 23 selected aptamers were cloned and sequenced, and from this pool there emerged a consensus (UUCGCAAUYCUGCAYUG, where Y is a pyrimidine base) within the selected sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2005, Bryant KF, Cox JC et al. performed in vitro selection of RNA aptamers that bind US11 from a RNA library consisting of > 10<sup>14</sup> 80 base sequences which differ in a 30 base randomized region. They performed 12 rounds of automated selection for aptamers that bound MBP-US11. A total of 23 selected aptamers were cloned and sequenced, and from this pool there emerged a consensus (UUCGCAAUYCUGCAYUG, where Y is a pyrimidine base) within the selected sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -154,13 +154,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <td name="td0">C17</td>
       <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU-3'</td>
       <td name="td2">US11</td>
-      <td name="td3">70nM</td>
+      <td name="td3">70 nM</td>
     </tr>
      <tr>
       <td name="td0">C17</td>
       <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU-3'</td>
       <td name="td2">US11-RBD</td>
-      <td name="td3">220±60nM</td>
+      <td name="td3">220 ± 60 nM</td>
     </tr>
      <tr>
       <td name="td0">Lyso</td>
@@ -173,14 +173,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU-3'
 3'-CCCUUACCUAGGUGUAGAUGCUUAAGCGUUAGGACAUAACUUGAAGAGUGAUUUUGAAGUGACGUCUGAACUGCUUCGAA-5'</td>
       <td name="td2">US13-RBD</td>
-      <td name="td3">1400±170nM</td>
+      <td name="td3">1400 ± 170 nM</td>
     </tr>
      <tr>
       <td name="td0">dsLyso</td>
       <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAAGCUU-3'
 5'-CCCUUACCUAGGUGUAGAUGCUUAAGUAGUCCCGAUUUCUCACGUCUCAAUGAAUCAAGUGACGUCUGAACUGCUUCGAA-3'</td>
       <td name="td2">US14-RBD</td>
-      <td name="td3">1200±200nM</td>
+      <td name="td3">1200 ± 200 nM</td>
     </tr>
 	</tbody>
   </table>

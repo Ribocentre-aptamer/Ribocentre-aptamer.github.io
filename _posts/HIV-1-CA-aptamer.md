@@ -2,7 +2,7 @@
 layout: post
 title:  "HIV-1 CA-aptamer"
 date:   2024-05-22 00:00:00
-author: Jiali Wang, Chen Ke
+author: Jiali Wang, Bo Fu
 categories: Aptamer
 ---
 <html>
@@ -96,14 +96,14 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2022, the RNA library Gruenke PR, Aneja R, Welbourn S, et al. used started with a random region containing 56N (56 nucleotides, where N represents any nucleotide), estimated to contain approximately 10<sub>15</sub> unique sequences. Through screening, the RNA adapter CA15-2 that can specifically bind to the CA lattice was ultimately obtained from the 15th round of screening. Multiple cloned sequences were identified using Sanger sequencing technology, including CA15-2<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 2022, the RNA library Gruenke PR, Aneja R, Welbourn S, et al. used started with a random region containing 56N (56 nucleotides, where N represents any nucleotide), estimated to contain approximately 10<sup>15</sup> unique sequences. Through screening, the RNA aptamer CA15-2 that can specifically bind to the CA lattice was ultimately obtained from the 15th round of screening. Multiple cloned sequences were identified using Sanger sequencing technology, including CA15-2<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw. PR10.1-8A aptamer binds to HIV-1 aspartyl protease(PR)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>The 2D structure of the figure is based on the article by ribodraw tool to draw. CA15-2 aptamer binds to HIV-1 capsid (CA) protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>5'-GGAAGAAGAGAAUCAUACACAAGAUCGACGUACCUCAGGGUGGUGUAUGACUGAGGUGAAGACUGUGAACCAUGGCAUGCGGGCAUAAGGUAGGUAAGUCCAUA-3'</p></font>
 <img src="/images/2D/CA15_2_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   
@@ -114,7 +114,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Coronavirus (CoV) nucleocapsid (N) proteins have 3 highly conserved domains. The N-terminal domain (NTD) (N1b), the C-terminal domain (CTD)(N2b) and the N3 region. The N1b and N2b domains from SARS CoV, infectious bronchitis virus (IBV), human CoV 229E and mouse hepatic virus (MHV) display similar topological organisations. N proteins form dimers, which are asymmetrically arranged into octamers via their N2b domains. Domains N1b and N2b are linked by another domain N2a that contains an SR-rich region in which phosphorylation of specific serine residues allows the N protein to associate with the RNA helicase DDX1 permitting template read-through, and enabling the transition from discontinuous transcription of subgenomic mRNAs (sgmRNAs) to continuous synthesis of longer sgmRNAs and genomic RNA (gRNA). It has been shown that N proteins interact with nonstructural protein 3 (NSP3) and thus are recruited to the replication-transcription complexes (RTCs).-----from Pfam</p>
+<p>Coronavirus (CoV) nucleocapsid (N) proteins have 3 highly conserved domains. The N-terminal domain (NTD) (N1b), the C-terminal domain (CTD)(N2b) and the N3 region. The N1b and N2b domains from SARS CoV, infectious bronchitis virus (IBV), human CoV 229E and mouse hepatic virus (MHV) display similar topological organisations. N proteins form dimers, which are asymmetrically arranged into octamers via their N2b domains. Domains N1b and N2b are linked by another domain N2a that contains an SR-rich region in which phosphorylation of specific serine residues allows the N protein to associate with the RNA helicase DDX1 permitting template read-through, and enabling the transition from discontinuous transcription of subgenomic mRNAs (sgmRNAs) to continuous synthesis of longer sgmRNAs and genomic RNA (gRNA). It has been shown that N proteins interact with nonstructural protein 3 (NSP3) and thus are recruited to the replication-transcription complexes (RTCs).-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -165,7 +165,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
