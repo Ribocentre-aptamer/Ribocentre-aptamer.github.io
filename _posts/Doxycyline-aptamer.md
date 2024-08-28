@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 2000, Piganeau and Jenne isolated RNA binding to some dyes through in vitro selection experiments<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 2000, Piganeau and Jenne isolated RNA binding to some dyes through in vitro selection experiments. And they applied a novel in vitro selection strategy based on allosteric inhibition of a hammerhead ribozyme fused to a randomized RNA library by low concentrations of the antibiotic doxycycline. Selection for allosteric inhibition led to 10–50-fold responses, at nanomolar concentrations of a nontoxic, cell-permeable molecule of low molecular weight. When inserted into the mRNA of a certain target gene, allosteric molecular switches of this type may serve as a valuable tool for the development of tailored conditional gene expression systems that can be controlled by the presence or absence of any kind of small molecule<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
@@ -119,11 +119,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Doxycycline is a tetracycline antibiotic used to treat a wide variety of bacterial infections.----From Drugbank.</font>
-<br>
+<p>Doxycycline is a tetracycline antibiotic used to treat a wide variety of bacterial infections.-----From Drugbank</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -143,7 +142,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td2">444.4 g/mol</td>
         <td name="td3">564-25-0</td>
         <td name="td4">50 mg/ml</td>
-        <td name="td5">Doxycycline hydrochloride hemiethanolate hemihydrate;WC2031 | C22H24N2O8 | CID 54713166 - PubChem (nih.gov)</td>
+        <td name="td5"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54671203" target="_blank" style="color:#520049"><b>54671203</b></a></td>
         <td name="td6"><a href="https://go.drugbank.com/drugs/DB00254" target="_blank" style="color:#520049"><b>DB00254</b></a></td>
       </tr>
 	  </tbody>

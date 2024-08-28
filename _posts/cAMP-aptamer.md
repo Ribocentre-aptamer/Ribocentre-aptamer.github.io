@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "cAMP-aptamer"
+title:  "cAMP aptamer"
 date:   2024-05-31 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 2000, Koizumi and Breaker isolated RNA binding to some cAMPs through in vitro selection experiment<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br></font>
+<font>In 2000, Koizumi and Breaker isolated RNA binding to some cAMPs through in vitro selection experiment. Two classes of aptamers were isolated, class I and class II. Class II aptamers, which dominate the final selected RNA population, require divalent cations for complex formation and display a dissociation constant (K(D)) for cAMP of approximately 10 microM. The aptamer recognizes 8,5'-O-cycloadenosine but not N 3’, 5'-cycloadenosine, indicating that this RNA might selectively recognize the anti conformation of the N-glycosidic bond of cAMP<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
@@ -111,11 +111,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Cyclic AMP (Cyclic adenosine monophosphate) is a derivative of adenosine triphosphate, an intracellular signalling molecule responsible for directing cellular responses to extracellular signals,.-----From MedChemExpress</font>
-<br>
+<p>Cyclic AMP (Cyclic adenosine monophosphate) is a derivative of adenosine triphosphate, an intracellular signalling molecule responsible for directing cellular responses to extracellular signals.-----From MedChemExpress</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

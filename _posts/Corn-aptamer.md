@@ -2,7 +2,7 @@
 layout: post
 title:  "Corn aptamer"
 date:   2024-03-29 00:00:00
-author: Bo Fu
+author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
 <html>
@@ -166,7 +166,7 @@ categories: Aptamer
 <br>
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 1014 random RNA libraries that served as ligand systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 10<sup>14</sup> random RNA libraries that served as ligand systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
@@ -454,7 +454,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5BJP by X-ray crystallography. DFHO(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHO or other nucleotides surround small molecules.</font>
+<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5BJP by X-ray crystallography. DFHO (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHO or other nucleotides surround small molecules.</font>
 <br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">

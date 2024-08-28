@@ -158,13 +158,13 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 1997, G P Tocchini-Valentini et al. screened dopa2/c.1 aptamer that specifically bind dopamine, revealed structural features of their binding sites, and found that ligand binding may cause RNA conformational changes.In 2011, Insook Rhee Paeng et al. Development of a Direct Competitive Enzyme-Linked Aptamer Assay for the Determination of Dopamine Levels in Serum.In 2015,Elena E Ferapontova et al. investigated the specific analysis of dopamine by electrochemical aptasensor via electrostatic adsorption of RNA aptamers onto cystamine-modified electrodes, found that the aptamer surface density affects dopamine binding in a bell-shaped curve, and achieved robust monitoring in the range of 0.01-1 μM dopamine fluctuations through optimization of the conditions, which improved the sensitivity and specificity of dopamine detection in biological systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 1997, G P Tocchini-Valentini et al. screened dopa2/c.1 aptamer that specifically bind dopamine, revealed structural features of their binding sites, and found that ligand binding may cause RNA conformational changes. In 2011, Insook Rhee Paeng et al. development of a Direct Competitive Enzyme-Linked Aptamer Assay for the Determination of Dopamine Levels in Serum. In 2015, Elena E Ferapontova et al. investigated the specific analysis of dopamine by electrochemical aptasensor via electrostatic adsorption of RNA aptamers onto cystamine-modified electrodes, found that the aptamer surface density affects dopamine binding in a bell-shaped curve, and achieved robust monitoring in the range of 0.01-1 μM dopamine fluctuations through optimization of the conditions, which improved the sensitivity and specificity of dopamine detection in biological systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Tocchini-Valentini GP et al. successfully selected RNA aptamers specifically binding to dopamine using in vitro selection (SELEX) from an initial pool containing 3.4 × 10^14 different RNA molecules. After nine rounds of affinity chromatography, the most abundant sequence, dopa2, was selected for primary study. The binding affinity (Kd) of dopa2 for dopamine was determined to be 2.8 µM using equilibrium dialysis and iso-concentration elution methods. Further secondary screening and structural analysis revealed a consensus structural motif among the aptamers, consisting of two stem-loop structures that form a stable framework through tertiary interactions. Finally, through mutational analysis and the design of small functional aptamers, the minimal active sequence and key nucleotides for constructing the dopamine-binding pocket were identified. The refined aptamer, dopa2/c.1, exhibited an improved binding affinity of 1.6 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>Tocchini-Valentini GP et al. successfully selected RNA aptamers specifically binding to dopamine using in vitro selection (SELEX) from an initial pool containing 3.4 × 10<sup>14</sup> different RNA molecules. After nine rounds of affinity chromatography, the most abundant sequence, dopa2, was selected for primary study. The binding affinity (Kd) of dopa2 for dopamine was determined to be 2.8 µM using equilibrium dialysis and iso-concentration elution methods. Further secondary screening and structural analysis revealed a consensus structural motif among the aptamers, consisting of two stem-loop structures that form a stable framework through tertiary interactions. Finally, through mutational analysis and the design of small functional aptamers, the minimal active sequence and key nucleotides for constructing the dopamine-binding pocket were identified. The refined aptamer, dopa2/c.1, exhibited an improved binding affinity of 1.6 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -203,7 +203,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td1">C<sub>8</sub>H<sub>11</sub>NO<sub>2</sub></td>
         <td name="td2">153.18 g/mol</td>
         <td name="td3">51-61-6</td>
-        <td name="td4">100 mg/mL（in DMSO</td>
+        <td name="td4">100 mg/mL (in DMSO)</td>
         <td name="td5"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/681" target="_blank" style="color:#520049"><b>681</b></a></td>
         <td name="td6"><a href="https://go.drugbank.com/drugs/DB00988" target="_blank" style="color:#520049"><b>DB00988</b></a></td>
       </tr>
@@ -216,7 +216,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Dopamine,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<font><p>We used the PubChem database to screen compounds that were more similar to Dopamine, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
@@ -243,7 +243,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td1">m-Tyramine</td>
         <td name="td2">588-05-6</td>
         <td name="td3">11492</td>
-        <td name="td4"><img src="/images/Similar_compound/Dopamine_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td4"><img src="/images/Similar_compound/Dopamine_Simi_compound3.svg" alt="drawing" style="width:400px"  px="" /></td>
       </tr>
       <tr>
         <td name="td1">dl-Norepinephrine</td>

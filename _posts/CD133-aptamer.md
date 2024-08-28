@@ -111,10 +111,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font><p>CD133-A15 aptamer: 5'-CCCUCCUACAUAGGG-3'<br>CD133-B19 aptamer: 5'-CAGAACGUAUACUAUUCUG-3'</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/CD133_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/CD133_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/CD133_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/CD133_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -126,7 +126,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>CD133 antigen, also known as prominin-1, is a glycoprotein that in humans is encoded by the PROM1 gene. It is a member of pentaspan transmembrane glycoproteins, which specifically localize to cellular protrusions. When embedded in the cell membrane, the membrane topology of prominin-1 is such that the N-terminus extends into the extracellular space and the C-terminus resides in the intracellular compartment. The protein consists of five transmembrane segments, with the first and second segments and the third and fourth segments connected by intracellular loops while the second and third as well as fourth and fifth transmembrane segments are connected by extracellular loops.While the precise function of CD133 remains unknown, it has been proposed that it acts as an organizer of cell membrane topology.-----from Wiki</p>
+<p>CD133 antigen, also known as prominin-1, is a glycoprotein that in humans is encoded by the PROM1 gene. It is a member of pentaspan transmembrane glycoproteins, which specifically localize to cellular protrusions. When embedded in the cell membrane, the membrane topology of prominin-1 is such that the N-terminus extends into the extracellular space and the C-terminus resides in the intracellular compartment. The protein consists of five transmembrane segments, with the first and second segments and the third and fourth segments connected by intracellular loops while the second and third as well as fourth and fifth transmembrane segments are connected by extracellular loops.While the precise function of CD133 remains unknown, it has been proposed that it acts as an organizer of cell membrane topology.-----From Wiki</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

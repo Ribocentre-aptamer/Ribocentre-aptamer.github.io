@@ -112,8 +112,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Kaiyi Huang and Qianqian Song  et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivias-NBSI complex. The PDB ID of these structures are 8HZE<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<b>The corresponding structures are being held for release.</b><br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<!--div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<font>Kaiyi Huang and Qianqian Song et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivias-NBSI complex. The PDB ID of these structures are 8HZE<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<b>The corresponding structures are being held for release.</b><br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/NBSI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -167,148 +167,46 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
             <button onclick="
               var selectSections1 = [
                 {
-  struct_asym_id: 'X', 
-  start_residue_number:27, 
-  end_residue_number:28, 
-  color:{r:9,g:254,b:254}
+  struct_asym_id: 'A', 
+  start_residue_number:2, 
+  end_residue_number:5, 
+  color:{r:255,g:135,b:10}
 },
 {
-  struct_asym_id: 'X', 
+  struct_asym_id: 'A', 
   start_residue_number:32, 
-  end_residue_number:33, 
-  color:{r:9,g:254,b:254}
+  end_residue_number:36, 
+  color:{r:255,g:135,b:10}
 },
 {
-  struct_asym_id: 'X', 
-  start_residue_number:62, 
-  end_residue_number:63, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:66, 
-  end_residue_number:67, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:71, 
-  end_residue_number:71, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:69, 
-  end_residue_number:69, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:85, 
-  end_residue_number:94, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:1, 
-  end_residue_number:13, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'X', 
+  struct_asym_id: 'A', 
   start_residue_number:101, 
   end_residue_number:101, 
+  color:{r:255,g:135,b:10}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:16, 
+  end_residue_number:27, 
   color:{r:128,g:219,b:158}
 },
 {
-  struct_asym_id: 'X', 
-  start_residue_number:36, 
-  end_residue_number:44, 
-  color:{r:194,g:194,b:255}
+  struct_asym_id: 'A', 
+  start_residue_number:6, 
+  end_residue_number:15, 
+  color:{r:0,g:128,b:128}
 },
 {
-  struct_asym_id: 'X', 
-  start_residue_number:49, 
-  end_residue_number:57, 
-  color:{r:194,g:194,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:26, 
-  end_residue_number:26, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:31, 
+  struct_asym_id: 'A', 
+  start_residue_number:28, 
   end_residue_number:31, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:64, 
-  end_residue_number:64, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:25, 
-  end_residue_number:25, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:29, 
-  end_residue_number:30, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:65, 
-  end_residue_number:65, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:68, 
-  end_residue_number:68, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:70, 
-  end_residue_number:70, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:72, 
-  end_residue_number:72, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:14, 
-  end_residue_number:24, 
   color:{r:0,g:128,b:128}
 },
 {
-  struct_asym_id: 'X', 
-  start_residue_number:73, 
-  end_residue_number:84, 
-  color:{r:0,g:128,b:128}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:34, 
-  end_residue_number:35, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:58, 
-  end_residue_number:61, 
-  color:{r:255,g:135,b:10}
+  struct_asym_id: 'A', 
+  start_residue_number:109, 
+  end_residue_number:109, 
+  color:{r:255,g:255,b:0}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -345,10 +243,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.<b>The corresponding structures are being held for release.</b></font>
-<br>
-<br>
-  <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/NBSI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -356,7 +252,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <img src="/images/Binding_pocket/NBSI_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
-  </table-->
+  </table>
   <br>
   <br>
 
