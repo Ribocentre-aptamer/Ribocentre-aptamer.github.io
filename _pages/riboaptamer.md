@@ -439,7 +439,7 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
     <td><a href="https://aptamer.ribocentre.org/_posts/Clivias-aptamer" target="_blank" onclick="handleCellClick(event)">Clivias</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/Beetroot-aptamer" target="_blank" onclick="handleCellClick(event)">Beetroot</a></td>
     <td><a href="https://aptamer.ribocentre.org/_posts/FMN-aptamer" target="_blank" onclick="handleCellClick(event)">FMN</a></td>
-      <td><a href="https://aptamer.ribocentre.org/_posts/Vitamin-B12-aptamer" target="_blank" onclick="handleCellClick(event)">VITAMIN B12</a></td>
+      <td><a href="https://aptamer.ribocentre.org/_posts/Vitamin-B12-aptamer" target="_blank" onclick="handleCellClick(event)">Vitamin B<sub>12</sub></a></td>
     </tr>
     <tr class="row3">
     <td><a href="https://aptamer.ribocentre.org/_posts/5HTP-aptamer" target="_blank" onclick="handleCellClick(event)">5HTP</a></td>
@@ -697,7 +697,7 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/ATP-aptamer" target="_blank" style="color:#520049"><b>ATP aptamer</b></a></td>
-        <td name="td2">ATP,<br>adenosine</td>
+        <td name="td2">ATP,<br>Adenosine</td>
         <td name="td3">ATP (Adenosine 5'-triphosphate) is an important substance for energy storage and metabolism in the body, which provides energy for metabolism and plays a role as a coenzyme in cells. ATP is an important endogenous signal molecule in immunity and inflammation.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7687750/" target="_blank" style="color:#520049"><b>1993</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1AM0" target="_blank" style="color:#520049"><b>1AM0</b> </a>(AMP)<br><a href="https://www.rcsb.org/structure/1RAW" target="_blank" style="color:#520049"><b>1RAW</b> </a>(AMP)</td>
@@ -754,7 +754,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Corn-aptamer" target="_blank" style="color:#520049"><b>Corn aptamer</b></a></td>
         <td name="td2">DFHO</td>
-        <td name="td3">DFHO(3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.</td>
+        <td name="td3">DFHO (3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/28945233/" target="_blank" style="color:#520049"><b>2017</b> </a></td>
         <td name="td5"><a href="https://doi.org/10.2210/pdb5BJP/pdb" target="_blank" style="color:#520049"><b>5BJP</b></a><br><a href="https://www.rcsb.org/structure/5BJO" target="_blank" style="color:#520049"><b>5BJO</b></a></td>
       </tr>
@@ -776,7 +776,7 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Theophylline-aptamer" target="_blank" style="color:#520049"><b>Theophylline-aptamer(TCT8-40)</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Theophylline-aptamer" target="_blank" style="color:#520049"><b>Theophylline aptamer</b></a></td>
         <td name="td2">Theophylline</td>
         <td name="td3">Theophylline, also known as 1,3-dimethylxanthine, is a drug that inhibits phosphodiesterase and blocks adenosine receptors. It is used to treat chronic obstructive pulmonary disease (COPD) and asthma. It is pharmacology is similar to other methylxanthine drugs (e.g., theobromine and caffeine).</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7510417/" target="_blank" style="color:#520049"><b>1994</b> </a></td>
@@ -825,8 +825,8 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Vitamin-B12-aptamer" target="_blank" style="color:#520049"><b>Vitamin B12-aptamer</b></a></td>
-        <td name="td2">Cyanocobalamin (vitamin B12)</td>
-        <td name="td3">Cyanocobalamin (commonly known as Vitamin B12) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B12 has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.</td>
+        <td name="td2">Cyanocobalamin (vitamin B<sub>12</sub>)</td>
+        <td name="td3">Cyanocobalamin (commonly known as Vitamin B<sub>12</sub>) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B<sub>12</sub> has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7508262/" target="_blank" style="color:#520049"><b>1994</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1ET4" target="_blank" style="color:#520049"><b>1ET4</b></a></td>
       </tr> 
@@ -842,7 +842,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Beetroot-aptamer" target="_blank" style="color:#520049"><b>Beetroot aptamer</b></a></td>
         <td name="td2">ThT<br>DFHO<br>DFAME</td>
-        <td name="td3">ThT (Thioflavin T) are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.<br>DFHO (3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.<br>DFAME is a red fluorophore. Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind to DFAME to form Beetroot-DFAME (Kd=460 nM) and Corn-DFAME (Kd= 3600 nM). Beetroot-DFAME (Kd=460 nM) and Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy (CGT) research.----From MedChemExpress</td>
+        <td name="td3">ThT (Thioflavin T) are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.<br>DFHO (3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.<br>DFAME is a red fluorophore. Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind to DFAME to form Beetroot-DFAME (Kd=460 nM) and Corn-DFAME (Kd= 3600 nM). Beetroot-DFAME (Kd=460 nM) and Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy (CGT) research.</td>
         <td name="td4"><a href="https:" target="_blank" style="color:#520049"><b>2022</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/8EYW" target="_blank" style="color:#520049"><b>8EYW</b></a><br><a href="https://www.rcsb.org/structure/8EYV" target="_blank" style="color:#520049"><b>8EYV</b></a><br><a href="https://www.rcsb.org/structure/8EYU" target="_blank" style="color:#520049"><b>8EYU</b></a></td>
       </tr> 
@@ -850,7 +850,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Chili-aptamer" target="_blank" style="color:#520049"><b>Chili aptamer</b></a></td>
         <td name="td2">DMHBI<br>DMHBO+</td>
-        <td name="td3">DMHBI (4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one) is predominantly found in the phenolic form, the brighter DMFBI mimics EGFP and is anionic under standard conditions. The DMFBI-RNA complex has been called Spinach, it is the first fluorescent RNA tag that is both selective and non-toxic. It only fluoresces when bound to RNA, is resistant to photobleaching and has been used to follow RNA tagged molecules as they move through cells.----From Green Fluorescent Protein<br>DMHBO+ ([4-[(2Z,4Z)-4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2-(nitrosomethylidene)-5-oxoimidazolidin-1-yl]phenyl]-trimethylazanium) is a cationic chromophore that binds to the Chili aptamer with a Kd of 12 nM. The Chili-DMHBO+ complex is an ideal fluorescence donor for FRET to the rhodamine dye Atto 590, suitable for imaging RNA in cells. Ex/Em=456/592 nm.----MedChemExpress</td>
+        <td name="td3">DMHBI (4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one) is predominantly found in the phenolic form, the brighter DMFBI mimics EGFP and is anionic under standard conditions. The DMFBI-RNA complex has been called Spinach, it is the first fluorescent RNA tag that is both selective and non-toxic. It only fluoresces when bound to RNA, is resistant to photobleaching and has been used to follow RNA tagged molecules as they move through cells.----From Green Fluorescent Protein<br>DMHBO+ ([4-[(2Z,4Z)-4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2-(nitrosomethylidene)-5-oxoimidazolidin-1-yl]phenyl]-trimethylazanium) is a cationic chromophore that binds to the Chili aptamer with a Kd of 12 nM. The Chili-DMHBO+ complex is an ideal fluorescence donor for FRET to the rhodamine dye Atto 590, suitable for imaging RNA in cells. Ex/Em=456/592 nm.</td>
         <td name="td4"><a href="https:" target="_blank" style="color:#520049"><b>2018</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/7OAW" target="_blank" style="color:#520049"><b>7OAW (DMHBI+)</b></a><br><br><a href="https://www.rcsb.org/structure/7OAX" target="_blank" style="color:#520049"><b>7OAX</b></a><br><br><a href="https://www.rcsb.org/structure/7OA3" target="_blank" style="color:#520049"><b>7OA3</b></a><br><br><a href="https://www.rcsb.org/structure/7OAV" target="_blank" style="color:#520049"><b>7OAV (DMHBO+)</b></a></td>
       </tr>  
@@ -858,7 +858,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TMR-aptamer" target="_blank" style="color:#520049"><b>TMR aptamer</b></a></td>
         <td name="td2">TMR (Tetramethylrhodamine)</td>
-        <td name="td3">TMR (tetramethylrhodamine) is a rhodamine in which four hydrogens have been replaced by methyl groups. Forms such as tetramethylrhodamine dextran are often used as fluorescent tracer dyes in cell research.----From Wiktionary</td>
+        <td name="td3">TMR (tetramethylrhodamine) is a rhodamine in which four hydrogens have been replaced by methyl groups. Forms such as tetramethylrhodamine dextran are often used as fluorescent tracer dyes in cell research.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20159999/" target="_blank" style="color:#520049"><b>2010</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6GZK" target="_blank" style="color:#520049"><b>6GZK</b></a><br><a href="https://www.rcsb.org/structure/6GZR" target="_blank" style="color:#520049"><b>6GZR</b></a></td>
       </tr>  
@@ -882,7 +882,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Spinach-aptamer" target="_blank" style="color:#520049"><b>Spinach aptamer</b></a></td>
         <td name="td2">DFHBI</td>
-        <td name="td3">DFHBI ((Z)-4-(3,5-difluoro- 4-hydroxybenzylidene)-1,2-dimethyl-1H-imidazol-5(4H)-one) is a small molecule that resembles the chromophore of green fluorescent protein (GFP). Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.----From MedChemExpress</td>
+        <td name="td3">DFHBI ((Z)-4-(3,5-difluoro- 4-hydroxybenzylidene)-1,2-dimethyl-1H-imidazol-5(4H)-one) is a small molecule that resembles the chromophore of green fluorescent protein (GFP). Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/21798953/" target="_blank" style="color:#520049"><b>2011</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/4TS0" target="_blank" style="color:#520049"><b>4TS0</b></a><br><a href="https://www.rcsb.org/structure/4TS2" target="_blank" style="color:#520049"><b>4TS2</b></a></td>
       </tr>  
@@ -968,7 +968,7 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/70cam6-aptamer" target="_blank" style="color:#520049"><b>70cam6 aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/70cam6-aptamer" target="_blank" style="color:#520049"><b>Chloramphenicol aptamer</b></a></td>
         <td name="td2">Chloramphenicol (Cam)</td>
         <td name="td3">Chloramphenicol is an antibiotic useful for the treatment of a number of bacterial infections,Chloramphenicol was discovered after being isolated from Streptomyces venezuelae in 1947. Its chemical structure was identified and it was first synthesized in 1949.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9384530/" target="_blank" style="color:#520049"><b>1997</b></a></td>
@@ -976,8 +976,8 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/cAMP-aptamer" target="_blank" style="color:#520049"><b>cAMP-aptamer</b></a></td>
-        <td name="td2">Second messenger adenosine 3',5'-cyclic monophosphate (cAMP; 1)</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/cAMP-aptamer" target="_blank" style="color:#520049"><b>cAMP aptamer</b></a></td>
+        <td name="td2">3',5'-cyclic adenosine monophosphate (cAMP)</td>
         <td name="td3">Cyclic adenosine monophosphate (cAMP, cyclic AMP, or 3',5'-cyclic adenosine monophosphate) is a second messenger, or cellular signal occurring within cells, that is important in many biological processes. cAMP is a derivative of adenosine triphosphate (ATP) and used for intracellular signal transduction in many different organisms, conveying the cAMP-dependent pathway.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10913311/" target="_blank" style="color:#520049"><b>2000</b></a></td>
         <td name="td5">NA</td>
@@ -1001,7 +1001,7 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/XBA-RNA-aptamer" target="_blank" style="color:#520049"><b>XBA RNA aptamer</b></a></td>
-        <td name="td2">Tetramethylrhodamine (TMR)</td>
+        <td name="td2">Xanthine (2,6-dioxypurine)<br>Guanine</td>
         <td name="td3">Xanthine oxidase (XO, sometimes 'XAO') is a form of xanthine oxidoreductase, a type of enzyme that generates reactive oxygen species. These enzymes catalyze the oxidation of hypoxanthine to xanthine and can further catalyze the oxidation of xanthine to uric acid.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9512549/" target="_blank" style="color:#520049"><b>1998</b></a></td>
         <td name="td5">NA</td>
@@ -1245,7 +1245,7 @@ This section lists all the experimentally validated aptamers.
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/REX16-aptamer" target="_blank" style="color:#520049"><b>REX16 aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/REX16-aptamer" target="_blank" style="color:#520049"><b>HTLV-1 Rex aptamer</b></a></td>
         <td name="td2">HTLV-1 arginine-rich Rex peptide</td>
         <td name="td3">Rex is a post-transcriptional regulator that induces the emergence of unspliced and single-spliced viral mRNA in the cytoplasm.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10647177/" target="_blank" style="color:#520049"><b>1999</b></a></td>
@@ -1295,7 +1295,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FC-RNA-aptamer" target="_blank" style="color:#520049"><b>FC RNA aptamer</b></a></td>
         <td name="td2">RNA polymerase (Pol) II (S. cerevisiae)</td>
-        <td name="td3">RNA polymerase II (RNAP II and Pol II) is a multiprotein complex that transcribes DNA into precursors of messenger RNA (mRNA) and most small nuclear RNA (snRNA) and microRNA. It is one of the three RNAP enzymes found in the nucleus of eukaryotic cells. A 550 kDa complex of 12 subunits, RNAP II is the most studied type of RNA polymerase. A wide range of transcription factors are required for it to bind to upstream gene promoters and begin transcription.</td>
+        <td name="td3">RNA polymerase II (RNAP II and Pol II) is a 550 kDa multiprotein complex of 12 subunits that transcribes DNA into precursors of messenger RNA (mRNA) and most small nuclear RNA (snRNA) and microRNA. A wide range of transcription factors are required for it to bind to upstream gene promoters and begin transcription.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9346949/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2B63" target="_blank" style="color:#520049"><b>2B63</b></a></td>
       </tr> 
@@ -1966,7 +1966,7 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mbl-aptamer" target="_blank" style="color:#520049"><b>Mbl-aptamer</b></a></td>
-        <td name="td2">Drosophila muscleblind protein Mbl</td>
+        <td name="td2">Drosophila muscleblind protein (Mbl)</td>
         <td name="td3">Drosophila muscleblind (Mbl) is an RNA-binding protein critical for cellular differentiation and development. Mbl plays significant roles in the differentiation of photoreceptors and the terminal differentiation of muscles. The human orthologues of Mbl, known as muscleblind-like proteins (MBNL1-3), similarly regulate the alternative splicing of transcripts essential for development.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18557632/" target="_blank" style="color:#520049"><b>2008</b></a></td>
         <td name="td5">NA</td>
@@ -1999,7 +1999,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Gp43-aptamer" target="_blank" style="color:#520049"><b>Gp43 aptamer</b></a></td>
         <td name="td2">T4 DNA polymerase (gp43)</td>
-        <td name="td3">A DNA polymerase is a member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates, the molecular precursors of DNA. These enzymes are essential for DNA replication and usually work in groups to create two identical DNA duplexes from a single original DNA duplex.</td>
+        <td name="td3">A DNA polymerase is a member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates, the molecular precursors of DNA. These enzymes are essential for DNA replication and usually work in groups to create two identical DNA duplexes from a single original DNA duplex. T4 DNA polymerase is a DNA polymerase with 3´ -deoxyribonuclease activity but no 5´a3´ deoxyribonuclease activity.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049"><b>1990</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -2193,7 +2193,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/E3-aptamer" target="_blank" style="color:#520049"><b>E3 aptamer</b></a></td>
         <td name="td2">prostate cancer cell</td>
-        <td name="td3">Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men.</td>
+        <td name="td3">Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men. Common human prostate cancer cell lines include DU145, LNCaP clone FGC, PC3, NCI-H660, 22RV1, etc. E3 aptamr was obtained by selected different prostate cancer cell lines(LNCaP, PC-3, DU 145, and 22Rv1 cell lines).</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29666232/" target="_blank" style="color:#520049"><b>2018</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -2209,14 +2209,14 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/CD133-aptamer" target="_blank" style="color:#520049"><b>CD133 aptamer</b></a></td>
         <td name="td2">CD133 on cell line Hep3B</td>
-        <td name="td3">CD<sub>133</sub>, also known as Prominin-1, is a pentaspan, highly glycosylated, membrane glycoprotein that is associated with cholesterol in the plasma membrane.</td>
+        <td name="td3">CD133, also known as Prominin-1, is a pentaspan, highly glycosylated, membrane glycoprotein that is associated with cholesterol in the plasma membrane.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/23196060/" target="_blank" style="color:#520049"><b>2013</b></a></td>
         <td name="td5">NA</td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Cell</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/GL56-aptamer" target="_blank" style="color:#520049"><b>GL56 aptamer</b></a></td>
-        <td name="td2">insulin receptor (glioma cells)</td>
+        <td name="td2">Insulin receptor (glioma cells)</td>
         <td name="td3">IR belongs to a family of receptor tyrosine kinases (RTKs) that also includes the insulin-like growth factor 1 receptor (IGF-1R).Activation of both receptors plays a key role in normal tissues physiology and has been implicated in cancer development and progression.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/27648925/" target="_blank" style="color:#520049"><b>2016</b></a></td>
         <td name="td5">NA</td>

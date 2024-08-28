@@ -140,7 +140,6 @@ permalink: /sequences/
   white-space: normal; /* 让文本自动换行 */
   max-width: 300px; /* 设置最大宽度，防止单元格过宽 */
 }
-
   </style>
 </head>
 
@@ -148,6 +147,10 @@ permalink: /sequences/
 <body onload="showSheet('sheet1')">
 <h1 class="post-title" itemprop="name headline">Sequences</h1>
 Shows the sequence of RNA aptamers. We keep the U in the partial sequence because it is consistent with the sequence information in the fasta file. ( We provide the script could change T into U on the page). <a href="https://www.ribocentre.org/downloads/sequence-T2U.ipynb" target="_blank" download="sequence-T2U.ipynb"><button class="btn btn-secondary"><span class="glyphicon glyphicon-download-alt"></span>&nbsp;&nbsp;Download Script</button></a><br><br>
+
+
+
+
 
 <!--div class="sectiontitle" style="border: 1px solid #C9C9C9; background-color: #fff;">
 <head>
@@ -168,6 +171,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 <br-->
 <br>
 <br>
+
 <p class="header_box" >Detailed information</p>    
 This section displays
 <br>
@@ -195,7 +199,7 @@ This section displays
       <tr>
   <td name="td0">CB3GA_Szostak_1</td>
   <td name="td1">Cibacron Blue 3GA</td>
-  <td name="td2">5'GGGAGAAUUCCCGCGGCAGAAGCCCACCUGGCUUUGAACUCUAUGUUAUUGGGUGGGGGAAACUUAAGAAAACUACCACCCUUCAACAUUACCGCCCUUCAGCCUGCCAGCGCCCUGCAGCCCGGGAAGCUU3'</td>
+  <td name="td2" id="CB3GA_Szostak_1" >5'GGGAGAAUUCCCGCGGCAGAAGCCCACCUGGCUUUGAACUCUAUGUUAUUGGGUGGGGGAAACUUAAGAAAACUACCACCCUUCAACAUUACCGCCCUUCAGCCUGCCAGCGCCCUGCAGCCCGGGAAGCUU3'</td>
   <td name="td3">132</td>
   <td name="td4">56.06%</td>
   <td name="td5">Kd~600µM</td>
@@ -205,7 +209,7 @@ This section displays
  <tr>
   <td name="td0">RB4_Szostak_1</td>
   <td name="td1">Reactive Blue 4</td>
-  <td name="td2">5'GGGAGAAUUCCCGCGGCGUUGGCCCAGGAUAAUAGGACGAAAUCCGAAAAAUCCGUACCCAACAUAGAACCCCCCCAGCGCUCACACGGACGCCCCAUUACGGCUAACCGAACGCCUGCAGCCCGGGAAGCUU3'</td>
+  <td name="td2" id="RB4_Szostak_1">5'GGGAGAAUUCCCGCGGCGUUGGCCCAGGAUAAUAGGACGAAAUCCGAAAAAUCCGUACCCAACAUAGAACCCCCCCAGCGCUCACACGGACGCCCCAUUACGGCUAACCGAACGCCUGCAGCCCGGGAAGCUU3'</td>
   <td name="td3">133</td>
   <td name="td4">59.40%</td>
   <td name="td5">Kd<100µM</td>
@@ -215,7 +219,7 @@ This section displays
  <tr>
   <td name="td0">T4 DNA pol_Gold_1</td>
   <td name="td1">T4 DNA polymerase (gp43)</td>
-  <td name="td2">5'GAAUUGUGGUGUUGGCUCCCUAUAGUGAGUCGUAUUAAUAUUCCUUAGUUUUAUAGCCCAAUAACUCAGGCUCUUGAUUGGUUUUCAAUAGAGAUAUAAAAUUCUUUUCAUAG3'</td>
+  <td name="td2" id="T4 DNA pol_Gold_1">5'GAAUUGUGGUGUUGGCUCCCUAUAGUGAGUCGUAUUAAUAUUCCUUAGUUUUAUAGCCCAAUAACUCAGGCUCUUGAUUGGUUUUCAAUAGAGAUAUAAAAUUCUUUUCAUAG3'</td>
   <td name="td3">113</td>
   <td name="td4">33.63%</td>
   <td name="td5">Kd: 4.8 nM</td>
@@ -225,7 +229,7 @@ This section displays
  <tr>
   <td name="td0">T4 DNA pol_Gold_2</td>
   <td name="td1">T4 DNA polymerase (gp43)</td>
-  <td name="td2">5'GAAUUGUGGUGUUGGCUCCCUAUAGUGAGUCGUAUUAAUAUUCCUUAGUUUUAUAGCCCAGCAACCUAGGCUCUUGAUUGGUUUUCAAUAGAGAUAUAAAAUUCUUUUCAUAG3'</td>
+  <td name="td2" id="T4 DNA pol_Gold_2">5'GAAUUGUGGUGUUGGCUCCCUAUAGUGAGUCGUAUUAAUAUUCCUUAGUUUUAUAGCCCAGCAACCUAGGCUCUUGAUUGGUUUUCAAUAGAGAUAUAAAAUUCUUUUCAUAG3'</td>
   <td name="td3">113</td>
   <td name="td4">35.40%</td>
   <td name="td5">Kd: 4.8 nM</td>
@@ -768,7 +772,7 @@ This section displays
   <td name="td2">5'GUCGGCCUAUCCGACAGGCACCGCGAGAGGACCAUUAUAGUGCGCAUAACCACUUCAGUGCGAGCAAAAAUUUGG3'</td>
   <td name="td3">75</td>
   <td name="td4">53.33%</td>
-  <td name="td5">Kd: 20 ± 9 uM</td>
+  <td name="td5">Kd: 20 ± 9 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/7508262/" target="_blank" style="color:#520049"><b>1994</b></a></td>
 </tr>
     
@@ -778,7 +782,7 @@ This section displays
   <td name="td2">5'AACACUAUCCGACUGGCACCGCCAGCGGACAAAUCCGGUGCGCAUAACCACCUCAGUGCGAGCAACGAUGGCCUUUCUACCCAAAGAUUUUCCUUGGUCAUUAGGAUCC3'</td>
   <td name="td3">109</td>
   <td name="td4">53.21%</td>
-  <td name="td5">Kd: 8.8 ± 0.5 uM</td>
+  <td name="td5">Kd: 8.8 ± 0.5 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/7508262/" target="_blank" style="color:#520049"><b>1994</b></a></td>
 </tr>
     
@@ -808,7 +812,7 @@ This section displays
   <td name="td2">5'GGAACCGGUGCGCAUAACCACCUCAGUGCGAGCAA3'</td>
   <td name="td3">35</td>
   <td name="td4">60.00%</td>
-  <td name="td5">Kd: 19.7 ± 8.7 uM</td>
+  <td name="td5">Kd: 19.7 ± 8.7 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/7508262/" target="_blank" style="color:#520049"><b>1994</b></a></td>
 </tr>
     
@@ -1441,7 +1445,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCCUGAGAUGUAUCGUUGCCGGGGAUGGGUGGGUGGUGUGAAGGCGAUCGUCAUCAGUUCGAGCCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">109</td>
   <td name="td4">55.05%</td>
-  <td name="td5">Kd: 0.93 ± 0.05 uM</td>
+  <td name="td5">Kd: 0.93 ± 0.05 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov./9222505/" target="_blank" style="color:#520049"><b>1997</b></a></td>
 </tr>
     
@@ -1881,7 +1885,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCCUUCUCCUGCCGCGCGAUUUUACGCCGACAAGGGUGGCAUGAUGAUGUGUCUNUAUAUAGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">106</td>
   <td name="td4">50.94%</td>
-  <td name="td5">Kd: 1.236 ± 0.051 uM</td>
+  <td name="td5">Kd: 1.236 ± 0.051 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -1891,7 +1895,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUUUAGGGCGGGACUUUUGGCCGCAAAGGUUGGUGUGAGGGUUCUCAAUAAUGGCCCAAGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">107</td>
   <td name="td4">51.40%</td>
-  <td name="td5">Kd: 1.446 ± 0.088 uM</td>
+  <td name="td5">Kd: 1.446 ± 0.088 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -1901,7 +1905,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCGGCGUUCCGCAUCGGCAACUGGCGAGGAGUUGUAUUCGGCGGAAACGGGUUGAGGUCCGACAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">107</td>
   <td name="td4">57.01%</td>
-  <td name="td5">Kd: 1.665 ± 0.101 uM</td>
+  <td name="td5">Kd: 1.665 ± 0.101 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -1911,7 +1915,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCAGUGGAAGAGCCGGGUUGGGCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">67</td>
   <td name="td4">55.22%</td>
-  <td name="td5">Kd: 2.946 ± 0.149 uM</td>
+  <td name="td5">Kd: 2.946 ± 0.149 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -1921,7 +1925,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCAGCGGAACGGCCGACUUCAACAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">67</td>
   <td name="td4">53.73%</td>
-  <td name="td5">Kd: 2.786 ± 0.188 uM</td>
+  <td name="td5">Kd: 2.786 ± 0.188 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -2051,7 +2055,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGAAGAGAUGGCGACUAAAACGACUUGUCGC3'</td>
   <td name="td3">31</td>
   <td name="td4">51.61%</td>
-  <td name="td5">Kd: 10 uM</td>
+  <td name="td5">Kd: 10 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10913311/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -2081,7 +2085,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAAGCUUGUACAGGGGGCAGUCAACUCGUGCGAUCGUGAAAACGGGGCAAGAUGGCCUUACAGCGGUCAAUACGGGGGUCAUCAGAUAGGGAGGCCCUCCUGGUGGUCCGUUCGGGAUCCUC3'</td>
   <td name="td3">124</td>
   <td name="td4">59.68%</td>
-  <td name="td5">Kd: 35 uM</td>
+  <td name="td5">Kd: 35 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/10786843/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -2121,7 +2125,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA3'</td>
   <td name="td3">78</td>
   <td name="td4">50.00%</td>
-  <td name="td5">Kd: 0.31 uM</td>
+  <td name="td5">Kd: 0.31 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/11132628/" target="_blank" style="color:#520049"><b>2000</b></a></td>
 </tr>
     
@@ -2211,7 +2215,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGGAGAGGAUACUACACGUGAUAGGACGAUUAUCGAAAAUCACCAGAUUGGACCCUGGUUAACGAUCCAUUGCAUGUAGCAGAAGCUUCCG3'</td>
   <td name="td3">91</td>
   <td name="td4">47.25%</td>
-  <td name="td5">Kd: 10 uM</td>
+  <td name="td5">Kd: 10 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/11705996/" target="_blank" style="color:#520049"><b>2001</b></a></td>
 </tr>
     
@@ -2771,7 +2775,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'ACACAAUGGACGGAUUCGUAUGGGUGGGAUCGGGAAGGGCUACGAACACCGUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">69</td>
   <td name="td4">56.52%</td>
-  <td name="td5">Kd: 0.33 uM</td>
+  <td name="td5">Kd: 0.33 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/15562003/" target="_blank" style="color:#520049"><b>2004</b></a></td>
 </tr>
     
@@ -2781,7 +2785,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'ACACAAUGGACGAUAUGGUAUUGAGGUGGGAAGGGGAUUGGGAUAAUUGCCAUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">70</td>
   <td name="td4">48.57%</td>
-  <td name="td5">Kd: 1.8 uM</td>
+  <td name="td5">Kd: 1.8 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/15562003/" target="_blank" style="color:#520049"><b>2004</b></a></td>
 </tr>
     
@@ -2791,7 +2795,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'ACACAAUGGACGAUAGUGGUUGGGAUUGGGUGGGCGCACAAGUUGUUCCGUUAACGGCCGACAUGAGAG3'</td>
   <td name="td3">69</td>
   <td name="td4">53.62%</td>
-  <td name="td5">Kd: 5.8 uM</td>
+  <td name="td5">Kd: 5.8 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/15562003/" target="_blank" style="color:#520049"><b>2004</b></a></td>
 </tr>
     
@@ -3691,7 +3695,7 @@ Kd2: 11 ± 3 nM</td>
   <td name="td2">5'GGACAGCAGGACCCUCACCUCGGUGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGGGUCCUCGACUCGAAGACGUCCAGCUGAUCC3'</td>
   <td name="td3">88</td>
   <td name="td4">62.50%</td>
-  <td name="td5">Kd: 26.9 ± 2.2 uM</td>
+  <td name="td5">Kd: 26.9 ± 2.2 μM</td>
   <td name="td6"><a href="https://pubmed.ncbi.nlm.nih.gov/20809562/" target="_blank" style="color:#520049"><b>2010</b></a></td>
 </tr>
     

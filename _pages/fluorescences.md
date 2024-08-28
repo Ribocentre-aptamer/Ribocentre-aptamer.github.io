@@ -173,9 +173,9 @@ permalink: /fluorescences/
 <meta name="google-site-verification" content="uLZVKfay17Zcx_rzSlECNKhxf9gpvF4jLw3Zsa4agTs" />
 <body onload="showSheet('sheet1')">
 <h1 class="post-title" itemprop="name headline">Fluorescences and Light-up RNA aptamers</h1>
-<p>Light-up RNA aptamers are fluorescent RNA molecules that become fluorescent upon binding to specific fluorophores. This concept emerged from the need for non-invasive, real-time imaging tools to study RNA molecules and their interactions within living cells. Traditional fluorescent tags like GFP (green fluorescent protein) are not suitable for RNA because they are protein-based. Thus, the development of RNA-based fluorescent tags (light-up RNA aptamers) became crucial for expanding the toolkit available for RNA visualization and functional studies.</p>
-<p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer’s performance for better performance in cellular environments.</p>
-<font>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells.</font>
+<p>Light-up RNA aptamers are fluorescent RNA molecules that become fluorescent upon binding to specific fluorophores. This concept emerged from the need for non-invasive, real-time imaging tools to study RNA molecules and their interactions within living cells. Traditional fluorescent tags like GFP (green fluorescent protein) are not suitable for RNA because they are protein-based<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>. Thus, the development of RNA-based fluorescent tags (light-up RNA aptamers) became crucial for expanding the toolkit available for RNA visualization and functional studies.</p>
+<p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties<sup>[<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>,<a href="#ref5" style="color:#520049">5</a>]</sup>. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer’s performance for better performance in cellular environments<sup>[<a href="#ref6" style="color:#520049">6</a>,<a href="#ref7" style="color:#520049">7</a>,<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
+<font>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup>.</font>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/fluorescences/Light-up-aptamer.svg" alt="drawing" style="width:600px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <br>
@@ -183,7 +183,7 @@ permalink: /fluorescences/
 
 <p class="header_box">Fluorogenic mechanisms</p>
 <p>Light-up RNA aptamers contain specific binding sites that interact with small-molecule fluorophores. These fluorophores are non-fluorescent or weakly fluorescent in the absence of the aptamer. Upon binding to the aptamer, the fluorophore undergoes a conformational change that enhances its fluorescence properties. This binding typically occurs through a combination of hydrogen bonding, Van der Waals interactions, and stacking interactions within the RNA’s three-dimensional structure.</p>
-<p>Understanding their mechanism of action involves exploring how these aptamers interact with their fluorophores to produce fluorescence, the structural basis of their function, and the principles guiding their design and optimization.</p>
+<p>Understanding their mechanism of action involves exploring how these aptamers interact with their fluorophores to produce fluorescence, the structural basis of their function, and the principles guiding their design and optimization<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
 <p class="blowheader_box1">Twisted Intramolecular Charge Transfer (TICT)</p>
 <p>TICT refers to a mechanism where the binding of a target induces a conformational change in the RNA aptamer, leading to the activation or enhancement of fluorescence through a twisted charge-transfer state. This state involves the separation of charge within the molecule, resulting in a geometry that promotes fluorescence.</p>
@@ -213,6 +213,7 @@ permalink: /fluorescences/
 <p class="header_box">Properties of Fluorophore-Aptamer pairs</p>
 <p>Each light-up RNA aptamer is usually specific to a particular fluorophore. The specificity arises from the precise shape and chemical environment of the binding pocket within the RNA. The sequence and structure of the aptamer dictate the compatibility with the fluorophore, ensuring selective binding and fluorescence activation. Researchers focused on optimizing these aptamers for improved brightness, stability, and minimal background fluorescence. This included engineering the aptamers and fluorophores for better performance in cellular environments.</p>
 <p>The table below lists several fluorescent small molecular-RNA pairings for which interaction patterns have been known through crystallographic studies or NMR. (The table only shows the representative individuals of each type of fluorescent small molecule. For more details, click on small molecule to jump to the corresponding view).</p>
+
 
 <div id="sheet1" class="sheet">
     <table id="cfttable" class="table-style1">
@@ -354,9 +355,61 @@ permalink: /fluorescences/
 	  </tbody>
   </table>
 </div>        
-    
-     
+
+
+
+ <p class="header_box" id="references">References</p>
                 
+<a id="ref1"></a><font><strong>[1] Engineering and characterization of a superfolder green fluorescent protein.</strong></font><br />
+Pédelacq, J. D., Cabantous, S., Tran, T., Terwilliger, T. C., & Waldo, G. S.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/16369541/" target="_blank" style="color:#520049">Nature biotechnology, 24(1), 79–88. (2006)</a>
+<br/>
+            
+<a id="ref2"></a><font><strong>[2] RNA mimics of green fluorescent protein.</strong></font><br />
+Paige, J. S., Wu, K. Y., & Jaffrey, S. R.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/21798953/" target="_blank" style="color:#520049">Science (New York, N.Y.), 333(6042), 642–646. (2011)</a>
+<br/>
+            
+<a id="ref3"></a><font><strong>[3] RNA mango aptamer-fluorophore: a bright, high-affinity complex for RNA labeling and tracking.</strong></font><br />
+Dolgosheina, E. V., Jeng, S. C., Panchapakesan, S. S., Cojocaru, R., Chen, P. S., Wilson, P. D., Hawkins, N., Wiggins, P. A., & Unrau, P. J.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/25101481/" target="_blank" style="color:#520049">ACS chemical biology, 9(10), 2412–2420. (2014)</a>
+<br/>
+
+<a id="ref4"></a><font><strong>[4] Imaging RNA polymerase III transcription using a photostable RNA-fluorophore complex.</strong></font><br />
+Song, W., Filonov, G. S., Kim, H., Hirsch, M., Li, X., Moon, J. D., & Jaffrey, S. R.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/28945233/" target="_blank" style="color:#520049">Nature chemical biology, 13(11), 1187–1194. (2017)</a>
+<br/>
+
+<a id="ref5"></a><font><strong>[5] Broccoli: rapid selection of an RNA mimic of green fluorescent protein by fluorescence-based selection and directed evolution.</strong></font><br />
+Filonov, G. S., Moon, J. D., Svensen, N., & Jaffrey, S. R.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/25337688/" target="_blank" style="color:#520049">Journal of the American Chemical Society, 136(46), 16299–16308. (2014)</a>
+<br/>
+
+<a id="ref6"></a><font><strong>[6] Plug-and-play fluorophores extend the spectral properties of Spinach.</strong></font><br />
+Song, W., Strack, R. L., Svensen, N., & Jaffrey, S. R.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/24393009/" target="_blank" style="color:#520049">Journal of the American Chemical Society, 136(4), 1198–1201. (2014)</a>
+<br/>
+
+<a id="ref7"></a><font><strong>[7] Fluorogenic RNA Mango aptamers for imaging small non-coding RNAs in mammalian cells.</strong></font><br />
+Autour, A., C Y Jeng, S., D Cawte, A., Abdolahzadeh, A., Galli, A., Panchapakesan, S. S. S., Rueda, D., Ryckelynck, M., & Unrau, P. J.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/29440634/" target="_blank" style="color:#520049">Nature communications, 9(1), 656. (2018)</a>
+<br/>
+     
+<a id="ref8"></a><font><strong>[8] Corn-Based Fluorescent Light-Up Biosensors with Improved Signal-to-Background Ratio for Label-Free Detection of Long Noncoding RNAs.</strong></font><br />
+Zhang, Q., Su, C., Tian, X., & Zhang, C. Y.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/37171156/" target="_blank" style="color:#520049">Analytical chemistry, 95(20), 8097–8104. (2023)</a>
+<br/>
+
+<a id="ref9"></a><font><strong>[9] RNA Structure and Cellular Applications of Fluorescent Light-Up Aptamers.</strong></font><br />
+Neubacher, S., & Hennig, S.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/30102012/" target="_blank" style="color:#520049">Angewandte Chemie (International ed. in English), 58(5), 1266–1279. (2019)</a>
+<br/>
+
+<a id="ref10"></a><font><strong>[10] Harmonizing the growing fluorogenic RNA aptamer toolbox for RNA detection and imaging.</strong></font><br />
+Lu, X., Kong, K. Y. S., & Unrau, P. J.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/37278064/" target="_blank" style="color:#520049">Chemical Society reviews, 52(12), 4071–4098. (2023)</a>
+<br/>
+
 <script>
   var tables = [];
     var currentSheet = 'sheet1';
