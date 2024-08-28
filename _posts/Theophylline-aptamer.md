@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Theophylline-aptamer(TCT8-40)"
+title:  "Theophylline aptamer"
 date:   2024-04-24 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
@@ -232,8 +232,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1994, Zimmermann et al. used SELEX to screen the solution structures of high-affinity RNA aptamers with theophylline. in1997 the interaction of RNA structures in the ligand-binding site was visualised using NMR techniques. in1998 it was found that U27 and G27 RNAs bound theophylline with low affinity (Kd values > 4 μM). the NMR spectra of U27 RNA showed the presence of an A7-U27 base pair in the free RNA that prevented the formation of a key base platform motif. NMR spectroscopy of U27 RNA revealed the presence of the A7-U27 base pair in free RNA, which prevented the formation of structural motifs in the critical base platform, and these interactions inhibited theophylline binding<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></font>
+<font><p class="header_box" id="description">Description</p></font>
+<font>In 1994, Zimmermann et al. used SELEX to screen the solution structures of high-affinity RNA aptamers with theophylline. in1997 the interaction of RNA structures in the ligand-binding site was visualised using NMR techniques. in1998 it was found that U27 and G27 RNAs bound theophylline with low affinity (Kd values > 4 μM). the NMR spectra of U27 RNA showed the presence of an A7-U27 base pair in the free RNA that prevented the formation of a key base platform motif. NMR spectroscopy of U27 RNA revealed the presence of the A7-U27 base pair in free RNA, which prevented the formation of structural motifs in the critical base platform, and these interactions inhibited theophylline binding<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
@@ -443,7 +443,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Zimmermann et al. The binding properties of specific RNAs obtained from the theophylline SELEX experiments were determined by using SELEX, PCR, counter-SELEX. by equilibrium filtration analyses using Equilibrium filtration analysis was performed on theophylline, a 38-nucleotide truncated version of TCT8-4 RNA and theophylline, TCT8-4 RNA (mTCT8-4) to determine the minimum requirement for high-affinity binding to theophylline. Minimum requirement for high affinity binding to theophylline. This RNA interacts with theophylline with a Kd of 0.1uM, confirming that all structural determinants required for theophylline binding are contained in this truncated RNA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
+<font >Zimmermann et al. The binding properties of specific RNAs obtained from the theophylline SELEX experiments were determined by using SELEX, PCR, counter-SELEX. by equilibrium filtration analyses using Equilibrium filtration analysis was performed on theophylline, a 38-nucleotide truncated version of TCT8-4 RNA and theophylline, TCT8-4 RNA (mTCT8-4) to determine the minimum requirement for high-affinity binding to theophylline. Minimum requirement for high affinity binding to theophylline. This RNA interacts with theophylline with a Kd of 0.1uM, confirming that all structural determinants required for theophylline binding are contained in this truncated RNA<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</font >
 <br><br>
 <!--div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -465,7 +465,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>A methylxanthine derivative from tea with diuretic, smooth muscle relaxant, bronchial dilation, cardiac and central nervous system stimulant activities. Mechanistically, theophylline acts as a phosphodiesterase inhibitor, adenosine receptor blocker, and histone deacetylase activator. Theophylline is marketed under several brand names such as Uniphyl and Theochron, and it is indicated mainly for asthma, bronchospasm, and COPD.-----From drugBank</p></font>
+<font><p>A methylxanthine derivative from tea with diuretic, smooth muscle relaxant, bronchial dilation, cardiac and central nervous system stimulant activities. Mechanistically, theophylline acts as a phosphodiesterase inhibitor, adenosine receptor blocker, and histone deacetylase activator. Theophylline is marketed under several brand names such as Uniphyl and Theochron, and it is indicated mainly for asthma, bronchospasm, and COPD.-----From DrugBank</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

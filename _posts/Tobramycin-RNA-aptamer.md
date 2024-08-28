@@ -565,7 +565,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----from drugbank</p></font>
+<font><p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From Drugbank</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

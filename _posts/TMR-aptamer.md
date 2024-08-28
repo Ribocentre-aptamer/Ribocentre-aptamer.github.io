@@ -130,7 +130,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>This work generated aptamers that bind TMR using SELEX. An RNA library containing ~10<sup>14</sup> random library members was used and 5-carboxy TMR was conjugated to NovaBiochem Amino PEGA resin as positive target. After 10 rounds of SELEX, four of the TMR aptamers (TMR1, TMR2, TMR3 and TMR4)that exhibited substantial activity in the column-binding assays.The crystal structure of the TMR3-TMR complex was reported in subsequent work<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br>
+<p>This work generated aptamers that bind TMR using SELEX. An RNA library containing ~10<sup>14</sup> random library members was used and 5-carboxy TMR was conjugated to NovaBiochem Amino PEGA resin as positive target. After 10 rounds of SELEX, four of the TMR aptamers (TMR1, TMR2, TMR3 and TMR4) that exhibited substantial activity in the column-binding assays. The crystal structure of the TMR3-TMR complex was reported in subsequent work<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>

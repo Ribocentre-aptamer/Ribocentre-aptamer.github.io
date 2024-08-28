@@ -106,7 +106,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10089440/" target="_blank" style="color:#520049">1999</a></h3>
     </div>
     <div class="body">
-      <p>Preliminary characterization of crystals of an in vitro evolved cyanocobalamin (vitamin B12) binding RNA<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+      <p>Preliminary characterization of crystals of an in vitro evolved cyanocobalamin (vitamin B<sub>12</sub>) binding RNA<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -114,7 +114,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10625428/" target="_blank" style="color:#520049">2000</a></h3>
     </div>
     <div class="body">
-      <p>The structural basis for molecular recognition by the vitamin B 12 RNA aptamer<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
+      <p>The structural basis for molecular recognition by the vitamin B<sub>12</sub> RNA aptamer<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
   </div>
     <div class="entry">
@@ -122,7 +122,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10903943/" target="_blank" style="color:#520049">2000</a></h3>
     </div>
     <div class="body">
-      <p>The structure of the vitamin B(12) RNA aptamer in complex with its ligand has been determined at 2.3 A resolution by X-ray crystallography<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
+      <p>The structure of the vitamin B<sub>12</sub> RNA aptamer in complex with its ligand has been determined at 2.3 A resolution by X-ray crystallography<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -130,7 +130,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/18672888/" target="_blank" style="color:#520049">2008</a></h3>
     </div>
     <div class="body">
-      <p>Evanescent-field-coupled (EFC) waveguide-mode sensors can be used to detect interactions between RNA and a small ligand, cyanocobalamin(vitamin B 12)<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
+      <p>Evanescent-field-coupled (EFC) waveguide-mode sensors can be used to detect interactions between RNA and a small ligand, cyanocobalamin(vitamin B<sub>12</sub>)<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -146,14 +146,14 @@ categories: Aptamer
 
          
 <font ><p class="header_box" id="description">Description</p></font>
-<font >In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B12 RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font >In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B<sub>12</sub> RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jack W. Szostak isolated RNA chimeras specific for cyanocobalamin (vitamin B12) by in vitro screening using affinity chromatography. They first created a random sequence RNA library consisting of approximately 5*10^14 molecules. After eight rounds of screening and enzyme amplification, the library contained two main RNA sequences, with the primary sequence comprising 60% of the library.To determine the binding affinity, the dissociation constants (Kd) for the interaction between cyanocobalamin and the RNA aptamers were measured using equilibrium dialysis. The primary aptamer sequence had a Kd of approximately 320 nM with cyanocobalamin, while a smaller synthesized aptamer showed a Kd of 88 nM. Several RNA aptamers were identified, noted for their strong specificity and affinity to cyanocobalamin<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>Jack W. Szostak isolated RNA chimeras specific for cyanocobalamin (vitamin B<sub>12</sub>) by in vitro screening using affinity chromatography. They first created a random sequence RNA library consisting of approximately 5*10<sup>14</sup> molecules. After eight rounds of screening and enzyme amplification, the library contained two main RNA sequences, with the primary sequence comprising 60% of the library. To determine the binding affinity, the dissociation constants (Kd) for the interaction between cyanocobalamin and the RNA aptamers were measured using equilibrium dialysis. The primary aptamer sequence had a Kd of approximately 320 nM with cyanocobalamin, while a smaller synthesized aptamer showed a Kd of 88 nM. Several RNA aptamers were identified, noted for their strong specificity and affinity to cyanocobalamin<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -169,7 +169,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Charles Wilson et al. determined the structure of the vitamin B12 RNA aptamer using X-ray crystallography. The structure was resolved at a high resolution of 2.3 Å.The vitamin B12 RNA aptamer is characterized by a unique tertiary structure that includes a water-filled channel through the core of an RNA triplex. This triplex structure is notably stabilized by water molecules which form bridging hydrogen bonds across planar base triples that lack significant direct base-base contacts. This structural arrangement is critical for the aptamer’s stability and specificity in binding vitamin B12.The PDB ID of this structure is 1ET4<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font >Charles Wilson et al. determined the structure of the vitamin B12 RNA aptamer using X-ray crystallography. The structure was resolved at a high resolution of 2.3 Å.The vitamin B<sub>12</sub> RNA aptamer is characterized by a unique tertiary structure that includes a water-filled channel through the core of an RNA triplex. This triplex structure is notably stabilized by water molecules which form bridging hydrogen bonds across planar base triples that lack significant direct base-base contacts. This structural arrangement is critical for the aptamer’s stability and specificity in binding vitamin B12. The PDB ID of this structure is 1ET4<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -314,7 +314,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </div>
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ET4 by X-ray crystallography. Cyanocobalamin (vitamin B12) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with vitamin B12.</font>
+<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ET4 by X-ray crystallography. Cyanocobalamin (vitamin B<sub>12</sub>) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with vitamin B<sub>12</sub>.</font>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -363,7 +363,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Cyanocobalamin (commonly known as Vitamin B12) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B12 has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.-----from drugbank</p></font>
+<font><p>Cyanocobalamin (commonly known as Vitamin B<sub>12</sub>) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B<sub>12</sub> has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.-----From Drugbank</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -395,7 +395,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the PubChem database to screen compounds that were more similar to Cyanocobalamin (vitamin B12),  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<font><p>We used the PubChem database to screen compounds that were more similar to Cyanocobalamin (vitamin B<sub>12</sub>), and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

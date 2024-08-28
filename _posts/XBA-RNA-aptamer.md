@@ -96,7 +96,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Kiga, D., Futamura, Y., Sakamoto, K., & Yokoyama, S. In vitro screening of xanthine-binding RNAs by in vitro screening started with an RNA library of 60 nt random sequences flanked by two primer-binding regions, and sequence homologues of 36 clones were identified, with only the shortest aptamers having concordant sequence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>Kiga, D.& Yokoyama, S. In vitro screening of xanthine-binding RNAs by in vitro screening started with an RNA library of 60 nt random sequences flanked by two primer-binding regions, and sequence homologues of 36 clones were identified, with only the shortest aptamers having concordant sequence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>

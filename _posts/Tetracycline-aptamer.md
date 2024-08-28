@@ -126,30 +126,6 @@ categories: Aptamer
   </div>
   <div class="entry">
     <div class="title">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/15723047/" target="_blank" style="color:#520049">2005</a></h3>
-    </div>
-    <div class="body">
-      <p>Tetracycline aptamers are used in trans-action modulation devices<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
-    </div>
-  </div>
-  <div class="entry">
-    <div class="title">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16707663/" target="_blank" style="color:#520049">2006</a></h3>
-    </div>
-    <div class="body">
-      <p>Tetracycline aptamer structure was characterized by thermodynamics<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
-    </div>
-  </div>
-  <div class="entry">
-    <div class="title">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/17567606/" target="_blank" style="color:#520049">2007</a></h3>
-    </div>
-    <div class="body">
-      <p>The tetracycline aptamer to be used for the control of pre-mRNA splicing<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
-    </div>
-  </div>
-  <div class="entry">
-    <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/18940672/" target="_blank" style="color:#520049">2008</a></h3>
     </div>
     <div class="body">
@@ -182,14 +158,6 @@ categories: Aptamer
   </div>
    <div class="entry">
     <div class="title">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25517161/" target="_blank" style="color:#520049">2014</a></h3>
-    </div>
-    <div class="body">
-      <p>Tetracycline binds to the aptamer as a magnesium chelate<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup></p>
-    </div>
-  </div>
-   <div class="entry">
-    <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/27595406/" target="_blank" style="color:#520049">2016</a></h3>
     </div>
     <div class="body">
@@ -202,22 +170,6 @@ categories: Aptamer
     </div>
     <div class="body">
       <p>Demonstrated by predicting the secondary structure methodAddition of tetracycline induced the formation of the tetracycline aptamer, opening the terminator structure and allowing transcription <sup>[<a href="#ref16" style="color:#520049">16</a>]</sup></p>
-    </div>
-  </div>
-   <div class="entry">
-    <div class="title">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29420816/" target="_blank" style="color:#520049">2018</a></h3>
-    </div>
-    <div class="body">
-      <p>A cassette exon was designed that could be either retained or skipped by addition of tetracycline via the insertion of the aptamer near the 3’ splice site of the cassette exon<sup>[<a href="#ref17" style="color:#520049">17</a>]</sup></p>
-    </div>
-  </div>
-   <div class="entry">
-    <div class="title">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30337459/" target="_blank" style="color:#520049">2019</a></h3>
-    </div>
-    <div class="body">
-      <p>Magnesium ion concentrations were found to alter the conformation of tetracycline aptamers<sup>[<a href="#ref18" style="color:#520049">18</a>]</sup></p>
     </div>
   </div>
    <div class="entry">
@@ -263,7 +215,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>RNA pool selection was performed using 74 random nucleotide sequences in vitro, after which tetracycline was conjugated to an epoxy-activated sepharose column under alkaline conditions and exposed to 5′-radiolabeled RNA eluted from 100 μM tetracycline for 15 rounds, and the sequences were found to be significantly enriched. And from the 13th and 14th rounds of cloning sequencing, the highest affinity of CB28 was found.The aptamer adopts XXX-SELEX method<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>RNA pool selection was performed using 74 random nucleotide sequences in vitro, after which tetracycline was conjugated to an epoxy-activated sepharose column under alkaline conditions and exposed to 5′-radiolabeled RNA eluted from 100 μM tetracycline for 15 rounds, and the sequences were found to be significantly enriched. And from the 13th and 14th rounds of cloning sequencing, the highest affinity of CB28 was found<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>   
@@ -469,6 +421,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
         <th onclick="sortTable(2)">MW</th>
@@ -479,6 +432,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">Tetracycline</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/tetracycline" target="_blank" style="color:#520049"><b>54675776</b></a></td>
         <td name="td1">C<sub>22</sub>H<sub>24</sub>N<sub>2</sub>O<sub>8</sub></td>
         <td name="td2">444.4 g/mol</td>
@@ -489,8 +443,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tetracycline_stru_ligand1.svg" alt="drawing" style="width:400px;height:400px;"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tetracycline_stru_ligand2.svg" alt="drawing" style="width:400px;height:400px;"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tetracycline_stru_ligand1.svg" alt="drawing" style="width:400px;height:400px;"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>

@@ -178,7 +178,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Matsugami, A., Kobayashi, S. et al. determined the Aptamer-Argininamide Complex structure by NMR. Unique structural features responsible for the high affinity have been found: the formation of two adjacent U:A:U base triples, the resultant widening of the major groove, the formation of hydrogen bonds between a G base and argininamide, and the stabilization of the binding through stacking interaction of a guanidinium group with bases. Structural characterization of the aptamer complexed with the RG peptide has also been carried out. Simultaneous interactions of the aptamer with two arginine residues of the RG peptide at two binding sites are strongly suggested. A combination of structural studies on the aptamer-argininamide and aptamer-RG peptide complexes provides a comprehensive explanation of the extremely high affinity of the aptamer to Tat<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font >Matsugami, A., Kobayashi, S. et al. determined the Aptamer-Argininamide Complex structure by NMR. Unique structural features responsible for the high affinity have been found: the formation of two adjacent U:A:U base triples, the resultant widening of the major groove, the formation of hydrogen bonds between a G base and argininamide, and the stabilization of the binding through stacking interaction of a guanidinium group with bases. Structural characterization of the aptamer complexed with the RG peptide has also been carried out. Simultaneous interactions of the aptamer with two arginine residues of the RG peptide at two binding sites are strongly suggested. A combination of structural studies on the aptamer-argininamide and aptamer-RG peptide complexes provides a comprehensive explanation of the extremely high affinity of the aptamer to Tat. The PDB ID of the NMR structure is 1NBK<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -391,10 +391,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The retroviral Tat protein binds to the Tar RNA. This activates transcriptional initiation and elongation from the LTR promoter. Binding is mediated by an arginine rich region.-----Pfam</p></font>
+<font><p>The retroviral Tat protein binds to the Tar RNA. This activates transcriptional initiation and elongation from the LTR promoter. Binding is mediated by an arginine rich region.-----From Pfam</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
         <th onclick="sortTable(2)">MW</th>
@@ -405,6 +406,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">HIV Tat Protein arginine rich region</td>
         <td name="td0"><a href="https://www.uniprot.org/uniprotkb/P04608/" target="_blank" style="color:#520049"><b>P04608</b></a></td>
         <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00539/" target="_blank" style="color:#520049"><b>PF00539</b></a></td>
         <td name="td2">9.8 KDa</td>
