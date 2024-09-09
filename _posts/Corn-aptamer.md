@@ -166,21 +166,21 @@ categories: Aptamer
 <br>
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 10<sup>14</sup> random RNA libraries that served as ligand systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 10<sup>14</sup> random RNA libraries that served as ligand systems. DFHO with aminohexyl linkers was synthesized for attachment to solid support. Boc-protected DFHO linker was synthesized followed by the removal of the Boc protecting group to generate DFHO linker. DFHO-binding aptamers were recovered on DFHO-derivatized agarose beads. After 8 rounds of SELEX, we identified a single 119 nt-long aptamer (Aptamer 6-1) that induced the fluorescence of DFHO, with an excitation maximum (ExMax) of 505 nm and an emission maximum (EmMax) of 545 nm. This aptamer was truncated to a 76 nt-long aptamer (T1) that retained the ability to induce DFHO fluorescence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-CGAGGAAGGAGGUCUGAGGAGGUCACUG-3'</p></font>
+<font><p>Then T1 performed further truncation analysis, resulting in the generation of T2, a 28-nt long aptamer that retained the ability to induce DFHO fluorescence. Because of the yellow fluorescence of this RNA-fluorophore complex, this aptamer was designated Corn. Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
+<font><p>5'-GGCGCGAGGAAGGAGGUCUGAGGAGGUCACUGCGCC-3'</p></font>
 <img src="/images/2D/DFHO_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>In 2017, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection. The PDB ID of this structure is 5BJP and 5BJO<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<font>In 2007, Warner, K. D. et al. determined the crystal structure of the Corn-DFHO complex at 2.35 Å resolution, discovering that the functional species is a quasisymmetric homodimer. The homodimer encapsulates one DFHO at its inter-protomer interface, sandwiching it with a G-quadruplex from each protomer. The PDB ID of this structure is 5BJP<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -236,187 +236,180 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
             <button onclick="
               var selectSections1 = [
                 {
+  struct_asym_id: 'E', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:123,g:104,b:238}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:255,g:94,b:0}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:211,g:211,b:211}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:72,g:209,b:204}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:0,g:255,b:0}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:255,g:0,b:255}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:0,g:255,b:0}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:17, 
+  end_residue_number:18, 
+  color:{r:255,g:94,b:0}
+},
+{
+  struct_asym_id: 'E', 
+  start_residue_number:19, 
+  end_residue_number:19, 
+  color:{r:211,g:211,b:211}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:255,g:94,b:0}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:0,g:255,b:0}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:211,g:211,b:211}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:0,g:255,b:0}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:255,g:94,b:0}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:123,g:104,b:238}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:72,g:209,b:204}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:123,g:104,b:238}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:255,g:94,b:0}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:255,g:0,b:255}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:72,g:209,b:204}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:0,g:255,b:0}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:211,g:211,b:211}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:0,g:255,b:0}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:17, 
+  end_residue_number:18, 
+  color:{r:255,g:94,b:0}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:19, 
+  end_residue_number:19, 
+  color:{r:211,g:211,b:211}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:255,g:94,b:0}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:0,g:255,b:0}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:255,g:0,b:255}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:0,g:255,b:0}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:255,g:94,b:0}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:123,g:104,b:238}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:72,g:209,b:204}
+},{
   struct_asym_id: 'Y', 
   start_residue_number:104, 
   end_residue_number:104, 
   color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:1, 
-  end_residue_number:5, 
-  color:{r:9,g:254,b:254}
-},{
-  struct_asym_id: 'Y', 
-  start_residue_number:1, 
-  end_residue_number:5, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:32, 
-  end_residue_number:36, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:32, 
-  end_residue_number:36, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:6, 
-  end_residue_number:8, 
-  color:{r:238,g:130,b:238}
-},{
-  struct_asym_id: 'Y', 
-  start_residue_number:6, 
-  end_residue_number:8, 
-  color:{r:238,g:130,b:238}
-},{
-  struct_asym_id: 'E', 
-  start_residue_number:29, 
-  end_residue_number:31, 
-  color:{r:238,g:130,b:238}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:29, 
-  end_residue_number:31, 
-  color:{r:238,g:130,b:238}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:9, 
-  end_residue_number:10, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:9, 
-  end_residue_number:10, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:17, 
-  end_residue_number:18, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:17, 
-  end_residue_number:18, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:20, 
-  end_residue_number:21, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:20, 
-  end_residue_number:21, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:27, 
-  end_residue_number:28, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:27, 
-  end_residue_number:28, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:12, 
-  end_residue_number:13, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:12, 
-  end_residue_number:13, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:15, 
-  end_residue_number:16, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:15, 
-  end_residue_number:16, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:22, 
-  end_residue_number:23, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:22, 
-  end_residue_number:23, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:25, 
-  end_residue_number:26, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:25, 
-  end_residue_number:26, 
-  color:{r:34,g:139,b:34}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:14, 
-  end_residue_number:14, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:11, 
-  end_residue_number:11, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:24, 
-  end_residue_number:24, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:11, 
-  end_residue_number:11, 
-  color:{r:211,g:211,b:211}
-},
-{
-  struct_asym_id: 'E', 
-  start_residue_number:24, 
-  end_residue_number:24, 
-  color:{r:211,g:211,b:211}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:14, 
-  end_residue_number:14, 
-  color:{r:211,g:211,b:211}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -508,6 +501,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
         <th onclick="sortTable(2)">MW</th>
@@ -518,6 +512,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">DFHO</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/71492924" target="_blank" style="color:#520049"><b>71492924</b></a></td>
         <td name="td1">C<sub>12</sub>H<sub>9</sub>F<sub>2</sub>N<sub>3</sub>O<sub>3</sub></td>
         <td name="td2">281.21 g/mol</td>

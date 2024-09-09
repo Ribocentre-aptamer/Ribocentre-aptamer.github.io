@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bacteriophage-MS2-coat-protein-aptamer"
+title:  "Bacteriophage MS2 coat protein-aptamer"
 date:   2024-03-01 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
@@ -240,19 +240,19 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'R', 
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{r:255,g:192,b:203}
+  color:{r:0,g:255,b:0}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:7, 
   end_residue_number:8, 
-  color:{r:128,g:219,b:158}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:9, 
   end_residue_number:14, 
-  color:{r:255,g:192,b:203}
+  color:{r:0,g:255,b:0}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -307,7 +307,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>Craig Tuerk and Larry Gold determined the binding constant of the aptamer by nitrocellulose filtration. Nitrocellulose filter binding assay, in 100 μl reactions containing 50mM Tris-OAc (pH 7.7), 5 to 10 nCi(10 to 20 fmol) of internally labeled, gel-purified RNA preheated for 3 min at 70℃ was allowed to equilibrate with variable (excess) concentrations of protein for 3 min at 37°℃. Samples were filtered through a tnitrocellulosee disk pre-wet with 50 mM-Tris-OAc (pH 7.7) and immediately rinsed with 5 ml of the same solution. The filters were dried and counted with fluor in a scintillation counter. A least squares algorithm was used to plot the percent of total RNA bound versus the log of the protein concentration and determine the dissociation constant of the generated curve. F6 aptamer had not been tested for affinity<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</font >
+<font>Craig Tuerk and Larry Gold determined the binding constant of the aptamer by nitrocellulose filtration. Nitrocellulose filter binding assay, in 100 μl reactions containing 50mM Tris-OAc (pH 7.7), 5 to 10 nCi(10 to 20 fmol) of internally labeled, gel-purified RNA preheated for 3 min at 70℃ was allowed to equilibrate with variable (excess) concentrations of protein for 3 min at 37℃. Samples were filtered through a tnitrocellulosee disk pre-wet with 50 mM-Tris-OAc (pH 7.7) and immediately rinsed with 5 ml of the same solution. The filters were dried and counted with fluor in a scintillation counter. A least squares algorithm was used to plot the percent of total RNA bound versus the log of the protein concentration and determine the dissociation constant of the generated curve. F6 aptamer had not been tested for affinity<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</font >
 <br><br>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -323,13 +323,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tr>
         <td name="td0">Sequence 7</td>
         <td name="td1">5’-CAGAGAUAUCACUUCUGUUCACCAUCGGGGGA-3’</td>
-        <td name="td2">MS2 coat protein</td>
+        <td name="td2">R17 coat protein</td>
         <td name="td3">5.9nM</td>
       </tr>
       <tr>
         <td name="td0">Sequence 12</td>
         <td name="td1">5’-AUAUAAGUAAUGGAUGCGCACCAUCGGGGCGU-3’</td>
-        <td name="td2">MS2 coat protein</td>
+        <td name="td2">R17 coat protein</td>
         <td name="td3">5.0nM</td>
       </tr>
       <tr>
@@ -349,7 +349,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </div>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.------From Pfam</p></font>
+<font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.-----From Pfam</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

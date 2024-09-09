@@ -209,7 +209,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <font><p>Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The aptamer of the 40nt is a sequence of analytic structures, and the following diagram shows its secondary structure. Here we use ribodraw to complete the figure, through the 3D structure information. Through SELEX, 17 different sequences were obtained, and after comparing 17 sequence information, a 40 nt sequence was designed. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC3'</p></font>
+<font><p>5'-GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC-3'</p></font>
 <img src="/images/2D/ATP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -275,13 +275,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A',    
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{r:9,g:254,b:254}
+  color:{r:72,g:209,b:204}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:7, 
-  color:{r:194,g:194,b:255}
+  color:{r:0,g:255,b:0}
 },{
   struct_asym_id: 'A', 
   start_residue_number:8, 
@@ -292,7 +292,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:11, 
-  color:{r:194,g:194,b:255}
+  color:{r:0,g:255,b:0}
 },
 {
   struct_asym_id: 'A', 
@@ -304,17 +304,22 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:17, 
-  color:{r:194,g:194,b:255}
+  color:{r:0,g:255,b:0}
 },{
    struct_asym_id: 'A', 
   start_residue_number:18, 
+  end_residue_number:29, 
+  color:{r:255,g:94,b:0}
+},{
+   struct_asym_id: 'A', 
+  start_residue_number:30, 
   end_residue_number:30, 
-  color:{r:128,g:219,b:158}
+  color:{r:0,g:255,b:0}
 },{
    struct_asym_id: 'A', 
   start_residue_number:31, 
   end_residue_number:36, 
-  color:{r:9,g:254,b:254}
+  color:{r:72,g:209,b:204}
 },{
   struct_asym_id: 'B', 
   start_residue_number:37, 

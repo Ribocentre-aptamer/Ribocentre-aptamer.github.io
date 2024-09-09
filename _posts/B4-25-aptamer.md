@@ -95,13 +95,13 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 1990, Andrew D. Ellington & Jack W. Szostak isolated RNA binding to some dyes through in vitro selection experiments, and named these RNA specifically binding as aptamers. Started the first example of aptamer selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 1990, Andrew D. Ellington & Jack W. Szostak isolated RNA binding to some dyes through in vitro selection experiments, and named these RNA specifically binding as aptamers. Subpopulations of RNA molecules that bind specifically to a variety of organic dyes have been isolated from a population of random sequence RNA molecules. Started the earliest example of aptamer selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Andrew D. Ellington & Jack W. Szostak used the in vitro selection system to isolate RNAs that bind to several dyes that appear to mimic metabolic cofactors.After the sixth round of selection, sequenced 17 clones from the CB(Cibacron Blue 3GA) pool, three of which were identical, and 14 clones from the B4(Reactive Blue 4) pool, all of which were different<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>Andrew D. Ellington & Jack W. Szostak used the in vitro selection system to isolate RNAs that bind to several dyes that appear to mimic metabolic cofactors. After the sixth round of selection, sequenced 17 clones from the CB(Cibacron Blue 3GA) pool, three of which were identical, and 14 clones from the B4(Reactive Blue 4) pool, all of which were different<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
