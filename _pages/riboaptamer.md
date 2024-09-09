@@ -1997,7 +1997,7 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Gp43-aptamer" target="_blank" style="color:#520049"><b>Gp43 aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Gp43-aptamer" target="_blank" style="color:#520049"><b>T4 gp43-aptamer</b></a></td>
         <td name="td2">T4 DNA polymerase (gp43)</td>
         <td name="td3">A DNA polymerase is a member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates, the molecular precursors of DNA. These enzymes are essential for DNA replication and usually work in groups to create two identical DNA duplexes from a single original DNA duplex. T4 DNA polymerase is a DNA polymerase with 3´ -deoxyribonuclease activity but no 5´a3´ deoxyribonuclease activity.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049"><b>1990</b></a></td>
