@@ -193,13 +193,13 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1993, Szostak et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for ATP. Subsequently, they used this motif to design ribozymes displaying polynucleotide kinase activity. In 1996, Dinshaw J. Patel et al. elucidated the structure of the aptamer complexed with AMP using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1993, Szostak et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for ATP. Subsequently, they used this motif to design ribozymes displaying polynucleotide kinase activity. In 1996, Dinshaw J. Patel et al. elucidated the structure of the aptamer complexed with AMP using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <br>
 <br>
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In vitro selection experiments entail the generation of a vast pool of random poly nucleotide sequences, followed by iterative cycles of enrichment for species possessing the desired properties and amplification of the enriched pool. They initiated the process with a pool of 169-nucleotide-long RNAs, comprised approximately 10<sup>14</sup> distinct sequences. RNA molecules capable of binding ATP were isolated through affinity chromatography on ATP-agarose columns, where the ATP was linked to the agarose at its C8 position. Subsequently, RNA molecules retained by the ATP-agarose matrix were eluted using ATP. The eluted RNA was then amplified through reverse transcription and polymerase chain reaction (PCR). In vitro transcription of double-stranded DNA templates obtained in this manner yielded an enriched pool of RNAs for a new cycle of selection. Following six rounds of selection and amplification, a population of RNAs specifically eluted with ATP emerged. We sequenced 39 clones from the eighth cycle RNA population and identified 17 different sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
+<p>In 1993, Szostak et al. used the SELEX method to isolate a small RNA motif that bound ATP. They initiated the in vitro selection experiments by creating a large pool of random polynucleotide sequences, which were then subjected to repeated cycles of enrichment for those species that exhibited the desired characteristics, followed by amplification of the selected pool. The process began with a pool of 169-nucleotide-long RNAs, which consisted of approximately 10<sup>14</sup> distinct sequences. They isolated RNA molecules capable of binding ATP using affinity chromatography on ATP-agarose columns, where the ATP was attached to the agarose at its C8 position. The RNA molecules that were retained by the ATP-agarose matrix were then eluted with ATP. Following this, the eluted RNA was amplified through reverse transcription and polymerase chain reaction (PCR). They produced an enriched pool of RNAs for the next cycle of selection by in vitro transcription of the double-stranded DNA templates generated in this manner. After six rounds of selection and amplification, a population of RNAs that were specifically eluted with ATP was obtained. From the eighth cycle RNA population, 39 clones were sequenced, revealing 17 distinct sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -208,16 +208,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The aptamer of the 40nt is a sequence of analytic structures, and the following diagram shows its secondary structure. Here we use ribodraw to complete the figure, through the 3D structure information. Through SELEX, 17 different sequences were obtained, and after comparing 17 sequence information, a 40 nt sequence was designed. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC-3'</p></font>
+<p>In 1993, Szostak et al. obtained 17 distinct sequences via SELEX and, upon comparing these sequences, designed a 40 nt sequence. The aptamer of the 40 nt sequence is an analytical structure, and its secondary structure is depicted in the following diagram. We used RiboDraw to complete the figure, leveraging the 3D structural information. Through SELEX, 17 diverse sequences were acquired, and a 40 nt sequence was engineered after an analysis of these sequences. Here, we employed RiboDraw to render the figure, drawing on the 3D structural data<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>5'-GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC-3'</p>
 <img src="/images/2D/ATP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Roger A. Jones & Dinshaw J. Patel et al. present the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP. The PDB ID of this structure is 1AM0. Then, T Dieckmann & J Feigon et al. present the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, determined from NMR-derived distance and dihedral angle restraints. The PDB ID of this structure is 1RAW. Here only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 1996, Roger A. Jones & Dinshaw J. Patel et al. presented the solution structure of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations. The PDB ID is 1AM0. Subsequently, T Dieckmann & J Feigon et al. presented the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, which was determined from NMR-derived distance and dihedral angle restraints. The PDB ID is 1RAW. Here, only the structural diagram of 1RAW was shown. There was no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ATP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -281,40 +281,40 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:7, 
-  color:{r:0,g:255,b:0}
+  color:{r:118,g:160,b:49}
 },{
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:8, 
-  color:{r:255,g:0,b:255}
+  color:{r:251,g:231,b:63}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:11, 
-  color:{r:0,g:255,b:0}
+  color:{r:118,g:160,b:49}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:12, 
   end_residue_number:12, 
-  color:{r:255,g:0,b:255}
+  color:{r:251,g:231,b:63}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:17, 
-  color:{r:0,g:255,b:0}
+  color:{r:118,g:160,b:49}
 },{
    struct_asym_id: 'A', 
   start_residue_number:18, 
   end_residue_number:29, 
-  color:{r:255,g:94,b:0}
+  color:{r:237,g:145,b:155}
 },{
    struct_asym_id: 'A', 
   start_residue_number:30, 
   end_residue_number:30, 
-  color:{r:0,g:255,b:0}
+  color:{r:118,g:160,b:49}
 },{
    struct_asym_id: 'A', 
   start_residue_number:31, 
@@ -324,7 +324,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'B', 
   start_residue_number:37, 
   end_residue_number:37, 
-  color:{r:255,g:255,b:0}
+  color:{r:160,g:0,b:181}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -361,8 +361,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1RAW by NMR. Adenosine monophosphate (AMP)(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with AMP<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1RAW by NMR. Adenosine monophosphate (AMP) shown in sticks. Right: The hydrogen bonds of binding sites of the aptamer bound with AMP<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ATP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -377,13 +376,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution.  These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
-Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</font >
+<p>Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution.  These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
+Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<br>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -411,7 +409,9 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From Drugbank</p></font>
+<font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From Drugbank<br>
+The PubChem CID is a designation established by the PubChem database, a subsidiary of the NCBI: National Center for Biotechnology Information, for metabolites. The CAS registration number is a unique and unambiguous identifier for a particular substance that can be used for clear communication and, with the help of CAS scientists, to tie together all available data and research on that substance.
+</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -430,7 +430,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6083" target="_blank" style="color:#520049"><b>6083</b> </a></td>
         <td name="td1">CH<sub>14</sub>N<sub>5</sub>O<sub>7</sub>P</td>
         <td name="td2">347.22 g/mol</td>
-        <td name="td3">61-19-8</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=61-19-8" target="_blank" style="color:#520049"><b>61-19-8</b></a></td>
         <td name="td4">10000 mg/L (at 20 °C)</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00131" target="_blank" style="color:#520049"><b>DB00131</b> </a></td>
       </tr>
@@ -444,7 +444,8 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <div style="display: flex; justify-content: center;"></div>
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to AMP by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<font><p>We screened compounds with a significant resemblance to AMP utilizing the ZINC database and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.<br>
+The Zinc_id is the compound identifier used by the ZINC database, which is one of the largest repositories of organic small molecules. Many pre-virtual screenings of drug-like molecules are based on this database. The PubChem CID is a designation established by the PubChem database, a subsidiary of the NCBI: National Center for Biotechnology Information, for metabolites. The CAS registration number is a unique and unambiguous identifier for a particular substance that can be used for clear communication and, with the help of CAS scientists, to tie together all available data and research on that substance.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -457,59 +458,59 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC000002126310</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000002126310/" target="_blank" style="color:#520049"><b>ZINC000002126310</b></a></td>
         <td name="td2">Vidarabine Phosphate</td>
-        <td name="td3">29984-33-6</td>
-        <td name="td4">34768</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=29984-33-6" target="_blank" style="color:#520049"><b>29984-33-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/34768" target="_blank" style="color:#520049"><b>34768</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000053684016</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000053684016/" target="_blank" style="color:#520049"><b>ZINC000053684016</b></a></td>
         <td name="td2">Alpha-Methylene Adenosine Monophosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">46936495</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/46936495" target="_blank" style="color:#520049"><b>46936495</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000053684213</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000053684213/" target="_blank" style="color:#520049"><b>ZINC000053684213</b></a></td>
         <td name="td2">6-Chloropurine Riboside, 5'-Monophosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">70789235</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/70789235" target="_blank" style="color:#520049"><b>70789235</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000004096488</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000004096488/" target="_blank" style="color:#520049"><b>ZINC000004096488</b></a></td>
         <td name="td2">6-Thioinosine-5'-Monophosphate</td>
-        <td name="td3">53-83-8</td>
-        <td name="td4">3034391</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=53-83-8" target="_blank" style="color:#520049"><b>53-83-8</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/3034391" target="_blank" style="color:#520049"><b>3034391</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000013543089</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000013543089/" target="_blank" style="color:#520049"><b>ZINC000013543089</b></a></td>
         <td name="td2">6-Methylthiopurine 5'-Monophosphate Ribonucleotide</td>
-        <td name="td3">7021-52-5</td>
-        <td name="td4">3037883</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=7021-52-5" target="_blank" style="color:#520049"><b>7021-52-5</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/3037883" target="_blank" style="color:#520049"><b>3037883</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000003927870</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000003927870/" target="_blank" style="color:#520049"><b>ZINC000003927870</b></a></td>
         <td name="td2">Fludarabine</td>
-        <td name="td3">21679-14-1</td>
-        <td name="td4">657237</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=21679-14-1" target="_blank" style="color:#520049"><b>21679-14-1</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/657237" target="_blank" style="color:#520049"><b>657237</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000013543718</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000013543718/" target="_blank" style="color:#520049"><b>ZINC000013543718</b></a></td>
         <td name="td2">Vidarabine Phosphoric Acid</td>
         <td name="td3">NA</td>
-        <td name="td4">22840996</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/22840996" target="_blank" style="color:#520049"><b>22840996</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000001631259</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000001631259/" target="_blank" style="color:#520049"><b>ZINC000001631259</b></a></td>
         <td name="td2">3'-Adenylic acid</td>
-        <td name="td3">84-21-9</td>
-        <td name="td4">41211</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=84-21-9" target="_blank" style="color:#520049"><b>84-21-9</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/41211" target="_blank" style="color:#520049"><b>41211</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ATP_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
