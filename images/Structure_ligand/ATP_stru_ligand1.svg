@@ -1,7 +1,7 @@
 <svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <defs>
     <style>
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+      .cls-1, .cls-2, .cls-3, .cls-4 {
         isolation: isolate;
       }
 
@@ -13,7 +13,7 @@
         fill: #304ff7;
       }
 
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6 {
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
         font-family: ArialMT, Arial;
       }
 
@@ -23,23 +23,15 @@
 
       .cls-3 {
         fill: #ff8000;
-        letter-spacing: -0.04em;
+        letter-spacing: -0.06em;
       }
 
       .cls-4 {
         font-size: 10.78px;
       }
 
-      .cls-6, .cls-7 {
+      .cls-5 {
         font-size: 20px;
-      }
-
-      .cls-7 {
-        font-family: AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std;
-      }
-
-      .cls-8 {
-        letter-spacing: -0.02em;
       }
     </style>
   </defs>
@@ -114,10 +106,5 @@
     <text class="cls-4" transform="translate(21.59 273.78)">2</text>
     <text class="cls-1" transform="translate(27.58 271.08)">N</text>
   </g>
-  <g class="cls-5">
-    <text class="cls-6" transform="translate(29.01 90.06)">Adenosine 5&apos;-monophosphate </text>
-    <text class="cls-7" transform="translate(299.69 90.5)">（</text>
-    <text class="cls-6" transform="translate(319.69 90.06)">AM<tspan class="cls-8" x="30" y="0">P</tspan></text>
-    <text class="cls-7" transform="translate(363.03 90.5)">）</text>
-  </g>
+  <text class="cls-5" transform="translate(33.03 87.84)">Adenosine 5&apos;-monophosphate (AMP)</text>
 </svg>
