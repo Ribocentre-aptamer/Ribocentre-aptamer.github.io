@@ -410,7 +410,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 
 <p class="blowheader_box">Structure ligand</p>
 <font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From Drugbank<br>
-The PubChem CID is a designation established by the PubChem database, a subsidiary of the NCBI: National Center for Biotechnology Information, for metabolites. The CAS registration number is a unique and unambiguous identifier for a particular substance that can be used for clear communication and, with the help of CAS scientists, to tie together all available data and research on that substance.
+The PubChem CID is a designation established by the PubChem database, a subsidiary of the NCBI: National Center for Biotechnology Information, for metabolites. The CAS registration number is a unique and unambiguous identifier for a particular substance that can be used for clear communication and, with the help of CAS scientists, to tie together all available data and research on that substance. DrugBank is a comprehensive online database that provides detailed information on drugs and drug targets, including their chemical, pharmacological, and pharmaceutical data.
 </p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
