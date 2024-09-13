@@ -152,14 +152,14 @@ categories: Aptamer
 </div>
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high compatibility for the Bacteriophage R17 Coat Protein. Sequences 1-38 were isolated from the sequence pool, where sequences 7, 12, and 22 detected affinity and Bacteriophage R17 coat proteins. Afterwards, In 1998, S E Phillips, P G Stockley et al. They obtained F6 aptamer by analyzing natural wild-type RNA and truncating the mutation, and determined the complex structure of this aptamer with wild type MS2 coat protein by X-ray crystallographic methods<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high compatibility for the Bacteriophage R17 Coat Protein. Sequences 1-38 were isolated from the sequence pool, where sequences 7, 12, and 22 detected affinity and Bacteriophage R17 coat proteins. Afterwards, In 1998, S E Phillips, P G Stockley et al. They obtained F6 aptamer by analyzing natural wild-type RNA and truncating the mutation, and determined the complex structure of this aptamer with wild type MS2 coat protein by X-ray crystallographic methods<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1992, Craig Tuerk and Larry Gold et al. isolated 47 specific sequences for targeting R17 coat proteins in a 32nt sequence pool through 11 rounds of selection. Its affinity is much higher than before. Unlabeled RNA was denatured at 70°C for 3 min and renatured at 4°C for 5 min before each selection. In a 100 μl reaction containing 100mM KOAc,10 mM DTT, and 50 mM Tris (pH 7.5), R17 coat protein was allowed to equilibrate with an excess of RNA for 3 min at 37℃. Selections 1 to 4 were done at a protein concentration of125 nm, and selections 5 to ll at 40 nM. All selections were done at an RNA concentration of 30 μm. Because the first selection had 3x 10<sup>14</sup> different RNA molecules, on average 6 copies of eachsequence were sampled. Protein-bound RNA was separated from unbound RNA by filtration through a nitrocellulose disk prewet with 50 mM Tris-OAc(pH 7.7), followed immediately by a5 ml rinse with the same solution. RNA molecules were retrieved from the filter. A background control containing no protein was also done each round<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
+<p>In 1992, Craig Tuerk and Larry Gold et al. isolated 47 specific sequences targeting R17 coat proteins from a 32nt sequence pool after 11 rounds of selection. The affinity had increased significantly. Unlabeled RNA was denatured at 70°C for 3 minutes and then renatured at 4°C for 5 minutes prior to each selection. Within a 100 μl reaction that contained 100mM KOAc, 10 mM DTT, and 50 mM Tris at pH 7.5, R17 coat protein was permitted to equilibrate with an excess of RNA for 3 minutes at 37°C. Selections 1 to 4 were conducted at a protein concentration of 125 nm, while selections 5 to 11 were at 40 nM. All selections took place at an RNA concentration of 30 μm. As the initial selection involved 3x10<sup>14</sup> different RNA molecules, an average of 6 copies of each sequence were sampled. Protein-bound RNA was separated from unbound RNA by filtration through a nitrocellulose disk that had been pre-wetted with 50 mM Tris-OAc at pH 7.7, followed by an immediate 5 ml rinse with the same solution. The RNA molecules were recovered from the filter. A background control, devoid of protein, was also implemented in each round<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br> 
@@ -175,8 +175,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Convery MA, Rowsell S, Stonehouse NJ, et al. sovled the crystal structure, at 2.8 Å resolution, of an RNA aptamer bound to bacteriophage MS2 coat protein has been determined. The PDB ID of this structure is 6MSF<sup>[<a href="#ref5" style="color:#520049" >5</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 1998, Convery MA, Rowsell S, Stonehouse NJ, et al. determined the crystal structure, resolved to 2.8 Å, of an RNA aptamer bound to bacteriophage MS2 coat protein. It provided an opportunity to compare the interactions of MS2 coat protein and wild type operator with those of an aptamer, whose secondary structure differed from the wild type RNA by having a three-base loop (as opposed to a tetraloop) and an additional base pair between this loop and the sequence-specific recognition element in the stem<sup>[<a href="#ref5" style="color:#520049" >5</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p
+<div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MS2_coat_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -240,19 +240,19 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'R', 
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{r:0,g:255,b:0}
+  color:{r:255,g:192,b:203}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:7, 
-  end_residue_number:8, 
-  color:{r:255,g:0,b:255}
+  end_residue_number:9, 
+  color:{r:251,g:231,b:63}
 },
 {
   struct_asym_id: 'R', 
-  start_residue_number:9, 
+  start_residue_number:10, 
   end_residue_number:14, 
-  color:{r:0,g:255,b:0}
+  color:{r:255,g:192,b:203}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -288,8 +288,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6MSF at 2.8 Å resolution. MS2 cota protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with MS2 cota protein.</font>
-<br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6MSF at 2.8 Å resolution. MS2 cota protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with MS2 cota protein.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/MS2_coat_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -304,11 +303,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>Craig Tuerk and Larry Gold determined the binding constant of the aptamer by nitrocellulose filtration. Nitrocellulose filter binding assay, in 100 μl reactions containing 50mM Tris-OAc (pH 7.7), 5 to 10 nCi(10 to 20 fmol) of internally labeled, gel-purified RNA preheated for 3 min at 70℃ was allowed to equilibrate with variable (excess) concentrations of protein for 3 min at 37℃. Samples were filtered through a tnitrocellulosee disk pre-wet with 50 mM-Tris-OAc (pH 7.7) and immediately rinsed with 5 ml of the same solution. The filters were dried and counted with fluor in a scintillation counter. A least squares algorithm was used to plot the percent of total RNA bound versus the log of the protein concentration and determine the dissociation constant of the generated curve. F6 aptamer had not been tested for affinity<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</font >
-<br><br>
+<p>Craig Tuerk and Larry Gold determined the binding constant of the aptamer using nitrocellulose filtration. In the nitrocellulose filter binding assay, 100 μl reactions containing 50mM Tris-OAc at pH 7.7 were used, where 5 to 10 nCi (10 to 20 fmol) of internally labeled, gel-purified RNA, preheated for 3 minutes at 70°C, was allowed to equilibrate with variable (excess) concentrations of protein for 3 minutes at 37°C. Samples were filtered through a nitrocellulose disk that had been pre-wetted with 50 mM Tris-OAc at pH 7.7 and were immediately rinsed with 5 ml of the same solution. The filters were dried and counted with fluor in a scintillation counter. A least squares algorithm was employed to plot the percent of total RNA bound against the log of the protein concentration and to determine the dissociation constant from the generated curve. The F6 aptamer had not been tested for affinity<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -349,7 +347,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </div>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.-----From Pfam</p></font>
+<font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.-----From Pfam<br>
+The UniProt ID is the unique identifier for protein sequences in the UniProt database. UniProt, which stands for Universal Protein Resource, is a database that encompasses protein sequences and their functional information.
+Pfam is a widely recognized database of protein families and domains. GenBank is a comprehensive database of nucleotide sequences, maintained by the National Center for Biotechnology Information (NCBI). It contains DNA sequences from a wide variety of organisms and is an essential resource for researchers in genetics and molecular biology.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -382,73 +382,73 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position. PDB: PDB ID+ chain name.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
         <th onclick="sortTable(2)">Z-score</th>
-        <th onclick="sortTable(3)">RMSD</th>
+        <th onclick="sortTable(3)">RMSD (Å)</th>
         <th onclick="sortTable(4)">Description</th>
       </tr>
   </thead>
     <tbody>
       <tr>
-        <td name="td1">1AQ3-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1AQ3" target="_blank" style="color:#520049"><b>1AQ3</b></a>-A</td>
         <td name="td2">21.3</td>
         <td name="td3">0</td>
         <td name="td4">Original chain</td>
       </tr>
       <tr>
-        <td name="td1">2VF9-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2VF9" target="_blank" style="color:#520049"><b>2VF9</b></a>-A</td>
         <td name="td2">14.2</td>
         <td name="td3">2.3</td>
         <td name="td4">Coat protein</td>
       </tr>
       <tr>
-        <td name="td1">1DWN-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1DWN" target="_blank" style="color:#520049"><b>1DWN</b></a>-A</td>
         <td name="td2">12.6</td>
         <td name="td3">2.7</td>
         <td name="td4">Phage coat protein</td>
       </tr>
       <tr>
-        <td name="td1">6YFI-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/6YFI" target="_blank" style="color:#520049"><b>6YFI</b></a>-A</td>
         <td name="td2">12</td>
         <td name="td3">2.7</td>
         <td name="td4">Coat protein</td>
       </tr>
       <tr>
-        <td name="td1">2W4Y-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2W4Y" target="_blank" style="color:#520049"><b>2W4Y</b></a>-A</td>
         <td name="td2">10.8</td>
         <td name="td3">3</td>
         <td name="td4">Caulobacter 5 virus-Like particle</td>
       </tr>
       <tr>
-        <td name="td1">8FEH-D</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/8FEH" target="_blank" style="color:#520049"><b>8FEH</b></a>-D</td>
         <td name="td2">8.8</td>
         <td name="td3">2.2</td>
         <td name="td4">Minor capsid protein A1 fusion</td>
       </tr>
       <tr>
-        <td name="td1">5JZR-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/5JZR" target="_blank" style="color:#520049"><b>5JZR</b></a>-A</td>
         <td name="td2">6.2</td>
         <td name="td3">3.8</td>
         <td name="td4">Coat protein</td>
       </tr>
       <tr>
-        <td name="td1">4QL0-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/4QL0" target="_blank" style="color:#520049"><b>4QL0</b></a>-A</td>
         <td name="td2">4.3</td>
         <td name="td3">5.1</td>
         <td name="td4">Filamentous hemagglutinin transporter protein fha</td>
       </tr>
       <tr>
-        <td name="td1">1WZN-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1WZN" target="_blank" style="color:#520049"><b>1WZN</b></a>-A</td>
         <td name="td2">3.9</td>
         <td name="td3">5.3</td>
         <td name="td4">Sam-Dependent methyltransferase</td>
       </tr>
       <tr>
-        <td name="td1">2FWZ-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2FWZ" target="_blank" style="color:#520049"><b>2FWZ</b></a>-A</td>
         <td name="td2">3.8</td>
         <td name="td3">4.3</td>
         <td name="td4">Hypothetical protein mtubf_01000852</td>
