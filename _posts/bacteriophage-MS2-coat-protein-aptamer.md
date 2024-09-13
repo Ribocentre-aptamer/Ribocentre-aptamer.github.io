@@ -122,7 +122,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9461079/" target="_blank" style="color:#520049">1998</a></h3>
     </div>
     <div class="body">
-      <p>Crystal structure of an RNA aptamer-protein complex at 2.8 A resolution<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
+      <p>Crystal structure of an RNA aptamer-protein complex at 2.8 Å resolution<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
