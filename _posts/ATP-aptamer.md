@@ -208,7 +208,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<p>In 1993, Szostak et al. obtained 17 distinct sequences via SELEX and, upon comparing these sequences, designed a 40 nt sequence. The aptamer of the 40 nt sequence is an analytical structure, and its secondary structure is depicted in the following diagram. We used RiboDraw to complete the figure, leveraging the 3D structural information. Through SELEX, 17 diverse sequences were acquired, and a 40 nt sequence was engineered after an analysis of these sequences. Here, we employed RiboDraw to render the figure, drawing on the 3D structural data<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>In 1993, Szostak et al. obtained 17 distinct sequences via SELEX and, upon comparing these sequences, designed a 40 nt sequence. The aptamer of the 40 nt sequence is an analytical structure, and its secondary structure is depicted in the following diagram. Through SELEX, 17 diverse sequences were acquired, and a 40 nt sequence was engineered after an analysis of these sequences. Here, we employed RiboDraw to render the figure, drawing on the 3D structural data<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>5'-GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC-3'</p>
 <img src="/images/2D/ATP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
