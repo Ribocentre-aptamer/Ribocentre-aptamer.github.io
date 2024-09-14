@@ -11,11 +11,11 @@
       }
 
       .cls-1, .cls-2 {
-        fill: #ed919b;
+        fill: #76a031;
       }
 
-      .cls-2, .cls-5 {
-        letter-spacing: -0.18em;
+      .cls-2 {
+        letter-spacing: -0.06em;
       }
 
       .cls-3 {
@@ -26,7 +26,11 @@
       }
 
       .cls-4, .cls-5 {
-        fill: #fbe73f;
+        fill: #ff870a;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.24em;
       }
 
       .cls-6, .cls-8 {
@@ -34,7 +38,7 @@
       }
 
       .cls-8 {
-        letter-spacing: -0.12em;
+        letter-spacing: -0.16em;
       }
     </style>
   </defs>
