@@ -309,7 +309,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
    struct_asym_id: 'A', 
   start_residue_number:18, 
   end_residue_number:29, 
-  color:{r:123,g:104,b:238}
+  color:{r:233,g:150,b:122}
 },{
    struct_asym_id: 'A', 
   start_residue_number:30, 
