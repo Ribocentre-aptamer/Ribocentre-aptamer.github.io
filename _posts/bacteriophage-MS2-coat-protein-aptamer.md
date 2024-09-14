@@ -122,7 +122,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9461079/" target="_blank" style="color:#520049">1998</a></h3>
     </div>
     <div class="body">
-      <p>Crystal structure of an RNA aptamer-protein complex at 2.8 Å resolution<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
+      <p>Crystal structure of an RNA aptamer-protein complex at 2.8 Å resolution<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -234,25 +234,25 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:1, 
   end_residue_number:129, 
-  color:{r:9,g:254,b:254}
+  color:{r:72,g:209,b:204}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{r:255,g:192,b:203}
+  color:{r:118,g:160,b:49}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:7, 
   end_residue_number:9, 
-  color:{r:251,g:231,b:63}
+  color:{r:255,g:135,b:10}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:10, 
   end_residue_number:14, 
-  color:{r:255,g:192,b:203}
+  color:{r:118,g:160,b:49}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -349,7 +349,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Structure ligand</p>
 <font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.-----From Pfam<br>
 The UniProt ID is the unique identifier for protein sequences in the UniProt database. UniProt, which stands for Universal Protein Resource, is a database that encompasses protein sequences and their functional information.
-Pfam is a widely recognized database of protein families and domains. GenBank is a comprehensive database of nucleotide sequences, maintained by the National Center for Biotechnology Information (NCBI). It contains DNA sequences from a wide variety of organisms and is an essential resource for researchers in genetics and molecular biology.</p></font>
+Pfam is a widely recognised database of protein families and domains. GenBank is a comprehensive database of nucleotide sequences, maintained by the National Center for Biotechnology Information (NCBI). It contains DNA sequences from a wide variety of organisms and is an essential resource for researchers in genetics and molecular biology.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
