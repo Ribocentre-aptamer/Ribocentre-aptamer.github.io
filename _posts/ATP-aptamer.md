@@ -286,7 +286,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:8, 
-  color:{r:251,g:231,b:63}
+  color:{r:255,g:135,b:10}
 },
 {
   struct_asym_id: 'A', 
@@ -298,7 +298,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:12, 
   end_residue_number:12, 
-  color:{r:251,g:231,b:63}
+  color:{r:255,g:135,b:10}
 },
 {
   struct_asym_id: 'A', 
@@ -309,7 +309,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
    struct_asym_id: 'A', 
   start_residue_number:18, 
   end_residue_number:29, 
-  color:{r:237,g:145,b:155}
+  color:{r:123,g:104,b:238}
 },{
    struct_asym_id: 'A', 
   start_residue_number:30, 
