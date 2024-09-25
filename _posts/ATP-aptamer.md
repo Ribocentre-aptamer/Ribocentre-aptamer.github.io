@@ -275,56 +275,56 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A',    
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{r:72,g:209,b:204}
+  color:{r:184,g:50,b:51}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:7, 
-  color:{r:118,g:160,b:49}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:8, 
-  color:{r:255,g:135,b:10}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:11, 
-  color:{r:118,g:160,b:49}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:12, 
   end_residue_number:12, 
-  color:{r:255,g:135,b:10}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:17, 
-  color:{r:118,g:160,b:49}
+  color:{r:46,g:161,b:3}
 },{
    struct_asym_id: 'A', 
   start_residue_number:18, 
   end_residue_number:29, 
-  color:{r:233,g:150,b:122}
+  color:{r:8,g:69,b:149}
 },{
    struct_asym_id: 'A', 
   start_residue_number:30, 
   end_residue_number:30, 
-  color:{r:118,g:160,b:49}
+  color:{r:46,g:161,b:3}
 },{
    struct_asym_id: 'A', 
   start_residue_number:31, 
   end_residue_number:36, 
-  color:{r:72,g:209,b:204}
+  color:{r:184,g:50,b:51}
 },{
   struct_asym_id: 'B', 
   start_residue_number:37, 
   end_residue_number:37, 
-  color:{r:160,g:0,b:181}
+  color:{r:255,g:255,b:0}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
