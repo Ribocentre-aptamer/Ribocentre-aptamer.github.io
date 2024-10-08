@@ -73,6 +73,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -347,9 +356,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </div>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.-----From Pfam<br>
-The UniProt ID is the unique identifier for protein sequences in the UniProt database. UniProt, which stands for Universal Protein Resource, is a database that encompasses protein sequences and their functional information.
-Pfam is a widely recognised database of protein families and domains. GenBank is a comprehensive database of nucleotide sequences, maintained by the National Center for Biotechnology Information (NCBI). It contains DNA sequences from a wide variety of organisms and is an essential resource for researchers in genetics and molecular biology.</p></font>
+<font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.-----From Pfam</p></font>
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the UniProt database, a resource for protein information.</p>
+<p class="dot-paragraph"><b>Pfam:</b> It is a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b>GenBank:</b> maintained by NCBI(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -382,7 +392,11 @@ Pfam is a widely recognised database of protein families and domains. GenBank is
   
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position. PDB: PDB ID+ chain name.</p></font>
+<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p></font>
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049"><b>Dail server website</b></a>: It is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p>
+<p class="dot-paragraph"><b>Z-score:</b> It is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b>RMSD:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

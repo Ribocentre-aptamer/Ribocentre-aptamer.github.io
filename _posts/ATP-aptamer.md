@@ -73,6 +73,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -379,7 +388,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<p>Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution.  These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
+<p>Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution. These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
 Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -409,9 +418,9 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From Drugbank<br>
-The PubChem CID is a designation established by the PubChem database, a subsidiary of the NCBI: National Center for Biotechnology Information, for metabolites. The CAS registration number is a unique and unambiguous identifier for a particular substance that can be used for clear communication and, with the help of CAS scientists, to tie together all available data and research on that substance. DrugBank is a comprehensive online database that provides detailed information on drugs and drug targets, including their chemical, pharmacological, and pharmaceutical data.
-</p></font>
+<font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From Drugbank</p></font>
+<p class="dot-paragraph"><b>PubChem CID:</b> It is a unique identifier for substances in the PubChem database.</p>
+<p class="dot-paragraph"><b>CAS number:</b> It is a global registry number for chemical substances. </p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -444,13 +453,15 @@ The PubChem CID is a designation established by the PubChem database, a subsidia
 <div style="display: flex; justify-content: center;"></div>
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We screened compounds with a significant resemblance to AMP utilizing the ZINC database and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.<br>
-The Zinc_id is the compound identifier used by the ZINC database, which is one of the largest repositories of organic small molecules. Many pre-virtual screenings of drug-like molecules are based on this database. The PubChem CID is a designation established by the PubChem database, a subsidiary of the NCBI: National Center for Biotechnology Information, for metabolites. The CAS registration number is a unique and unambiguous identifier for a particular substance that can be used for clear communication and, with the help of CAS scientists, to tie together all available data and research on that substance.</p></font>
+<font><p>We screened compounds with a significant resemblance to AMP utilizing the ZINC database and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p></font>
+<p class="dot-paragraph"><b>Zinc_id:</b> It is a compound identifier used by the ZINC database, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> It is a unique identifier for substances in the PubChem database.</p>
+<p class="dot-paragraph"><b>CAS number:</b> It is a global registry number for chemical substances. </p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
