@@ -243,25 +243,25 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:1, 
   end_residue_number:129, 
-  color:{r:72,g:209,b:204}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{r:118,g:160,b:49}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:7, 
   end_residue_number:9, 
-  color:{r:255,g:135,b:10}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'R', 
-  start_residue_number:10, 
+  start_residue_number:9, 
   end_residue_number:14, 
-  color:{r:118,g:160,b:49}
+  color:{r:46,g:161,b:3}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
