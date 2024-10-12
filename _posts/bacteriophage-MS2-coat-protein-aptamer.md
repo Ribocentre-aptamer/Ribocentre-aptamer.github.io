@@ -178,10 +178,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we use ribodraw to complete the figure, through the 3D structure information. F6 aptamer was the aptamer sequence mainly studied in Structure article<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p></font>
 <font><p>5'-CCACAGUCACUGGG-3'</p></font>
-<img src="/images/2D/MS2_coat_aptamer_2D.svg" alt="drawing" style="width:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/MS2_coat_aptamer_2D.svg" alt="drawing" style="width:600px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   
 </div>
-<br>
 
 <p class="blowheader_box">3D visualisation</p>             
 <p>In 1998, Convery MA, Rowsell S, Stonehouse NJ, et al. determined the crystal structure, resolved to 2.8 Å, of an RNA aptamer bound to bacteriophage MS2 coat protein. It provided an opportunity to compare the interactions of MS2 coat protein and wild type operator with those of an aptamer, whose secondary structure differed from the wild type RNA by having a three-base loop (as opposed to a tetraloop) and an additional base pair between this loop and the sequence-specific recognition element in the stem<sup>[<a href="#ref5" style="color:#520049" >5</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
