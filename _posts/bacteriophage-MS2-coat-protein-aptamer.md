@@ -254,12 +254,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 {
   struct_asym_id: 'R', 
   start_residue_number:7, 
-  end_residue_number:8, 
+  end_residue_number:9, 
   color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'R', 
-  start_residue_number:9, 
+  start_residue_number:10, 
   end_residue_number:14, 
   color:{r:46,g:161,b:3}
 }
