@@ -333,7 +333,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'B', 
   start_residue_number:37, 
   end_residue_number:37, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
