@@ -254,7 +254,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 {
   struct_asym_id: 'R', 
   start_residue_number:7, 
-  end_residue_number:9, 
+  end_residue_number:8, 
   color:{r:241,g:125,b:7}
 },
 {
