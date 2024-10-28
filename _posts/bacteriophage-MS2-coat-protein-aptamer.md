@@ -392,7 +392,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                     
 <p class="blowheader_box">Similar compound</p>
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p></font>
-<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049"><b>Dail server website</b></a>: It is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p>
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#000000; text-decoration: underline;"><b>Dail server website</b></a>: It is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p>
 <p class="dot-paragraph"><b>Z-score:</b> It is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
 <p class="dot-paragraph"><b>RMSD:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
