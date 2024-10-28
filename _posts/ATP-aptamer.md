@@ -217,8 +217,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<p>In 1993, Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The 40-nt aptamer is characterized by a sequence that forms a distinct secondary structure, as illustrated in the subsequent diagram. Here we utilized RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>5'-GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC-3'</p>
+<p>In 1993, Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The 40-nt aptamer is characterized by a sequence that forms a distinct secondary structure, as illustrated in the subsequent diagram. Here we utilized RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
+<p>5'-GGGAAGGGAAGAAACUGCGGCUUCGGCCGGCUUCCC-3'</p>
 <img src="/images/2D/ATP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -389,7 +389,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution. These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
-Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
