@@ -458,13 +458,13 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
                     
 <p class="blowheader_box">Similar compound(s)</p>
 <font><p>We screened compounds with a significant resemblance to AMP utilizing the ZINC database and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p></font>
-<p class="dot-paragraph"><b>Zinc_id:</b> It is a compound identifier used by the ZINC database, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>ZINC ID:</b> It is a compound identifier used by the ZINC database, one of the largest repositories for virtual screening of drug-like molecules.</p>
 <p class="dot-paragraph"><b>PubChem CID:</b> It is a unique identifier for substances in the PubChem database.</p>
 <p class="dot-paragraph"><b>CAS number:</b> It is a global registry number for chemical substances. </p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
         <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
