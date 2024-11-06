@@ -179,8 +179,8 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. F6 aptamer was the aptamer sequence mainly studied in Structure article<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p></font>
-<font><p>5'-CCACAGUCACUGGG-3'</p></font>
+<p>Here we use ribodraw to complete the figure, through the 3D structure information. F6 aptamer was the aptamer sequence mainly studied in Structure article<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
+<p>5'-CCACAGUCACUGGG-3'</p>
 <img src="/images/2D/MS2_coat_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   
 </div>
