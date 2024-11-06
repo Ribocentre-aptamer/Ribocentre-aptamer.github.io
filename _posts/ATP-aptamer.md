@@ -458,7 +458,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <div style="display: flex; justify-content: center;"></div>
                     
 <p class="blowheader_box">Similar compound(s)</p>
-<font><p>We screened compounds with a significant resemblance to AMP utilizing the ZINC database and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p></font>
+<font><p>We screened compounds with a significant resemblance to AMP utilizing the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p></font>
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
