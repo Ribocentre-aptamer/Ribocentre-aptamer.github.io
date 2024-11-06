@@ -369,7 +369,7 @@ categories: Aptamer
         <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Mass</th>
         <th onclick="sortTable(3)">Protein sequence</th>
         <th onclick="sortTable(4)">PDB ID</th>
         <th onclick="sortTable(5)">GenBank</th>
