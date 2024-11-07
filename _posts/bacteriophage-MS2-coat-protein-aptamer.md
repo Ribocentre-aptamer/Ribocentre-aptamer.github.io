@@ -165,7 +165,7 @@ categories: Aptamer
 
          
 <p class="header_box" id="description">Description</p>
-<p>In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high compatibility for the Bacteriophage R17 Coat Protein. Sequences 1-38 were isolated from the sequence pool, where sequences 7, 12, and 22 detected affinity and Bacteriophage R17 coat proteins. Afterwards, In 1998, S E Phillips and P G Stockley et al. They obtained F6 aptamer by analyzing natural wild-type RNA and truncating the mutation, and determined the complex structure of this aptamer with wild type MS2 coat protein by X-ray crystallographic methods<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
+<p>In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high compatibility for the Bacteriophage R17 Coat Protein. Sequences 1-38 were isolated from the sequence pool, where sequences 7, 12, and 22 detected affinity and Bacteriophage R17 coat proteins. Afterwards, In 1998, S E Phillips and P G Stockley et al. They obtained F6 aptamer by analyzing natural wild-type RNA and truncating the mutation, and determined the complex structure of this aptamer with wild type MS2 coat protein by X-ray crystallographic methods<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a>]</sup>. The F6 aptamer was named by Liljas et al. in the article<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br></p>
 <br>
 <br>
 
