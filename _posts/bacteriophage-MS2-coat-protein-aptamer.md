@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bacteriophage MS2 coat protein-aptamer"
+title:  "Bacteriophage MS2 coat protein aptamer"
 date:   2024-03-01 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
