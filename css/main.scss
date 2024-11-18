@@ -137,15 +137,20 @@ firstp {
   border-radius: 0 0 0 0;
   padding: 0px;
   z-index: 1000;
+  border: 1px solid #efefef
 }
 .side-nav-item {
   text-align: center;
-  color: #efefef;
+  /*color: #efefef;*/
+  color: #ffffff;
   font-size: 20px; 
-  padding: 10px;
-  margin: 5px 0;
+  font-weight: bold;
+  padding: 7px;
+  margin: 0px 0;
   cursor: pointer;
-  background: #efefef;
+  border: 1px solid #efefef;
+  /*background: #efefef;*/
+  background: #ffffff;
   border-radius: 1px;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -202,7 +207,7 @@ img {
   width: 100%;
   max-width: 800px;
   background: #fff;
-  padding: 50px 20px; /* 调整上下间距 */
+  padding: 40px 20px; /* 调整上下间距 */
   position: relative;
 }
 .timeline:before {
@@ -246,7 +251,7 @@ img {
   position: absolute;
   width: 8px;
   height: 8px;
-  border: 10px solid salmon;
+  border: 8px solid salmon;
   background-color: #fff;
   border-radius: 100%;
   top: 15%;
@@ -255,14 +260,15 @@ img {
 }
 .entry .title h3 {
   margin: 0;
-  font-size: 120%;
+  font-size: 16px;
 }
 .entry .title p {
   margin: 0;
   font-size: 120%;
 }
 .entry .body {
-  margin: 0 0 2em; /* 调整条目底部间距 */
+  /*margin: 0 0 2em;  调整条目底部间距 */
+  margin: 0 0 0.5em;
   float: right;
   width: 66%;
   padding-left: 30px;
@@ -273,7 +279,7 @@ img {
 .entry .body p:first-child {
   margin-top: 0;
   font-weight: 400;
-  font-size: 120%;
+  font-size: 16px;
 }
 /******/
 .ellipsis-btn {
