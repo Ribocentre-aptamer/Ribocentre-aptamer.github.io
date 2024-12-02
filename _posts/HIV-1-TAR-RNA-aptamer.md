@@ -215,7 +215,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>Here we utilized RiboDraw to complete the figure, based the 3D structure information. The LR06(GA) aptamer was named by Toulmé, J. J. et al. in the article<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <p>5'-CACGGUCCCAGACGUG-3'</p>
-<img src="/images/2D/LR06_aptamer_2D.svg" alt="drawing" style="width:800px;height:375px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/LR06_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
