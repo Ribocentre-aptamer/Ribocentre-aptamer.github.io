@@ -721,8 +721,8 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Pepper-aptamer" target="_blank" style="color:#520049"><b>Pepper aptamer</b></a></td>
-        <td name="td2">(4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenylacetonitrile (HBC)</td>
-        <td name="td3">HBC ((4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile) is a synthetic dye similar to GFP fluorophores, with a structurally rigid electron acceptor and a strong electron donor.</td>
+        <td name="td2">HBC</td>
+        <td name="td3">HBC ((4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile) is a synthetic dye similar to GFP fluorophores, featuring a structurally rigid electron acceptor and a strong electron donor.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/31548726/" target="_blank" style="color:#520049"><b>2019</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/7EOH" target="_blank" style="color:#520049"><b>7EOH</b></a><br><a href="https://www.rcsb.org/structure/7SZU" target="_blank" style="color:#520049"><b>7SZU</b></a><br><a href="https://www.rcsb.org/structure/7U0Y" target="_blank" style="color:#520049"><b>7U0Y</b></a></td>
       </tr>
@@ -800,11 +800,11 @@ This section lists all the experimentally validated aptamers.
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Riboflavin-aptamer" target="_blank" style="color:#520049"><b>Riboflavin aptamer</b></a></td>
-        <td name="td2">Flavin mononucleotide(FMN)<br>Riboflavin(Rb)<br>flavin adenine dinucleotide(FAD)</td>
-        <td name="td3">Riboflavin is d-Ribitol in which the hydroxy group at position 5 is substituted by a 7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl moiety. It is a nutritional factor found in milk, eggs, malted barley, liver, kidney, heart, and leafy vegetables, but the richest natural source is yeast. The free form occurs only in the retina of the eye, in whey, and in urine; its principal forms in tissues and cells are as flavin mononucleotide and flavin-adenine dinucleotide. It has a role as a photosensitizing agent, a food colouring, an Escherichia coli metabolite, a mouse metabolite, a cofactor, a plant metabolite, a human urinary metabolite, an anti-inflammatory agent, a fundamental metabolite and an antioxidant. It is a vitamin B2 and a flavin. It is a conjugate acid of a riboflavin(1-).-----from ChEBI</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FAD-aptamer" target="_blank" style="color:#520049"><b>FAD aptamer</b></a></td>
+        <td name="td2">Flavin adenine dinucleotide(FAD)<br>Flavin mononucleotide(FMN)<br>Riboflavin(Rb)</td>
+        <td name="td3">Flavin adenine dinucleotide (FAD) is a redox-active coenzyme associated with various proteins, which is involved with several enzymatic reactions in metabolism. A flavoprotein is a protein that contains a flavin group, which may be in the form of FAD or flavin mononucleotide (FMN).</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/36097297/" target="_blank" style="color:#520049"><b>2022</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/7RWR" target="_blank" style="color:#520049"><b>7RWR</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/7RWR" target="_blank" style="color:#520049"><b>7RWR</b></a> (FMN)</td>
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Amino Acids &amp; Peptides</td>
