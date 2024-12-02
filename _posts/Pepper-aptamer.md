@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
 .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -192,34 +204,35 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2019, Chen, X. et al. selected for aptamers bound with HBC using a systematic evolution of ligands by exponential enrichment (SELEX) approach, and identified one aptamer, D11. They termed this RNA aptamer “Pepper” and its complex with HBC “Pepper530”, indicative of its emission maximum. In 2021, Huang, K. et al. determined the structures of complexes of Pepper aptamer bound with its cognate HBC or HBC-like fluorophores at high resolution by X-ray crystallography. In 2022, to investigate how Pepper RNA folds to create a binding site for HBC, Rees, H. C. et al. used antibody-assisted crystallography to determine the structures of Pepper bound to HBC530 and HBC599 to 2.3 and 2.7 Å resolutions, respectively. The overall structure reported by Rees, H. C. et al. and Huang et al. is highly similar, despite different space groups and lattice packing interactions. The structures analyzed by Rees, H. C. et al. support the functional relevance of the observed 3D architecture<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2019, Yang, Y et al. used the SELEX method to select aptamers that bind to HBC, identifying an RNA aptamer named 'Pepper' with its HBC complex dubbed 'Pepper530'. In 2021, Ren, A et al. determined the high-resolution X-ray crystal structures of Pepper-HBC and Pepper-HBC-like fluorophore complexes. In 2022, Piccirilli, J. A et al. employed antibody-assisted crystallography to reveal the structures of Pepper bound to HBC530 and HBC599 at 2.3 Å and 2.7 Å resolutions, respectively. Despite variations in space groups and lattice packing, the overall structures reported by both Piccirilli, J. A et al. and Yang, Y et al. show strong similarity. The analysed structures by Piccirilli, J. A et al. underscore the functional significance of the observed 3D architecture. HBC530 and HBC599 are analogues of the fluorescent molecule HBC<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In vitro selection experiments involve the construction of a single-stranded (ssDNA) library containing two 26-base random stretches separated by a 12-base fixed sequence and flanked from 5’ and 3’ ends with constant regions for PCR amplification and in vitro transcription. The ssDNA library was then used in a PCR reaction to amplify the library gently and to create double-stranded DNA (dsDNA) templates for RNA in vitro synthesis. Phenol chloroform extraction and ethanol precipitation of RNA transcripts was used to purify the transcript. Binding RNA to HBC through affinity chromatography. After eight rounds, the complementary DNA was cloned into pGEM-T Easy vector (Promega) and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In vitro selection experiments involve constructing a single-stranded (ssDNA) library that contains two 26-base random stretches, separated by a 12-base fixed sequence and flanked by constant regions at the 5' and 3' ends for PCR amplification and in vitro transcription. This ssDNA library was then used in a PCR reaction to gently amplify the library and create double-stranded DNA (dsDNA) templates for in vitro RNA synthesis. Phenol-chloroform extraction and ethanol precipitation were used to purify the RNA transcripts. RNA binding to HBC was achieved through affinity chromatography. After eight rounds, the complementary DNA was cloned into the pGEM-T Easy vector (Promega) and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-GGCGCACUGGCGCUGCGCCUUCGGGCGCCAAUCGUAGCGUGUCGGCGCC-3'</p></font>
-<img src="/images/2D/Pepper_aptamer_2D.svg" alt="drawing" style="width:500px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>In 2021, Ren, A et al. obtained multiple different sequences through SELEX and designed a 43 nt sequence after comparing the information of these sequences. The 43 nt aptamer is characterized by a sequence that forms a distinct secondary structure, as illustrated in the subsequent diagrams. Here we utilized RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>5'-GGCGCACUGGCGCUGCGCCUUCGGGCGCCAAUCGUAGCGUGUCGGCGCC-3'</p>
+<img src="/images/2D/HBC_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Huang K, Chen X, Li C, et al. determined the structures of complexes of Pepper aptamer bound with its cognate HBC or HBC-like fluorophores at high resolution by X-ray crystallography. The structure of the Pepper-HBC complex was refined at a high resolution of 1.64 Å. The PDB ID of this structure is 7EOH<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Ren, A. et al. determined the structures of complexes formed by the Pepper aptamer bound with its cognate HBC or HBC-like fluorophores at high resolution using X-ray crystallography. The structure of the Pepper-HBC complex was refined to a high resolution of 1.64 Å. The PDB ID for this structure is 7EOH<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/Pepper_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/3D/HBC_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
@@ -274,51 +287,56 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A',    
   start_residue_number:1, 
   end_residue_number:5, 
-  color:{r:225,g:135,b:10}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:6, 
   end_residue_number:9, 
-  color:{r:194,g:194,b:255}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:10, 
   end_residue_number:14, 
-  color:{r:255,g:192,b:203}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:15, 
   end_residue_number:28, 
-  color:{r:128,g:219,b:158}
+  color:{r:207,g:62, b:125}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:29, 
   end_residue_number:35, 
-  color:{r:9,g:254,b:254}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:36, 
   end_residue_number:40, 
-  color:{r:255,g:192,b:203}
+  color:{r:8,g:69,b:149}
 },{
   struct_asym_id: 'A', 
   start_residue_number:41, 
+  end_residue_number:41, 
+  color:{r:241,g:125,b:7}
+},{
+struct_asym_id: 'A', 
+  start_residue_number:42, 
   end_residue_number:44, 
-  color:{r:194,g:194,b:255}
+  color:{r:46,g:161,b:3}
 },{
 struct_asym_id: 'A', 
   start_residue_number:45, 
   end_residue_number:49, 
-  color:{r:255,g:135,b:10}
+  color:{r:184,g:51,b:50}
 },{
   struct_asym_id: 'B', 
   start_residue_number:101, 
   end_residue_number:101, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -354,8 +372,9 @@ struct_asym_id: 'A',
 <br>
 
 
-<font >Rees HC, Gogacz W, Li NS, et al. determined the structures of complexes of Pepper aptamer bound with its cognate HBC530 or HBC599 at high resolution by X-ray crystallography. The structure of Pepper binding to HBC530 and HBC599 is the same, but the binding ligands are different. The structure of the Pepper-HBC599 complex was refined at a high resolution of 2.7 Å. The PDB ID of this structure is 7U0Y<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Piccirilli, J.A. et al. determined the structures of complexes formed by the Pepper aptamer bound with its cognate HBC530 or HBC599 at high resolution using X-ray crystallography. The structure of the Pepper aptamer binding to both HBC530 and HBC599 is identical, yet the binding ligands differ. BL3-6 Fab serves as a molecular chaperone protein for assisting in crystallization. The structure of the Pepper-HBC599 complex was refined to a high resolution of 2.7 Å. The PDB ID for this structure is 7U0Y<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/HBC599_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -419,72 +438,102 @@ struct_asym_id: 'A',
   struct_asym_id: 'R', 
   start_residue_number:1, 
   end_residue_number:9, 
-  color:{r:34,g:139,b:34}
+  color:{r:184,g:51,b:50}
 },{
   struct_asym_id: 'R', 
   start_residue_number:10, 
+  end_residue_number:13, 
+  color:{r:194,g:182,b:23}
+},
+{
+struct_asym_id: 'R', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:46,g:161,b:3}
+},
+{
+struct_asym_id: 'R', 
+  start_residue_number:15, 
   end_residue_number:16, 
-  color:{r:0,g:128,b:128}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:17, 
+  end_residue_number:20, 
+  color:{r:8,g:69,b:149}
+},
+{
+struct_asym_id: 'R', 
+  start_residue_number:21, 
   end_residue_number:21, 
-  color:{r:255,g:135,b:10}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:22, 
   end_residue_number:22, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:23, 
+  end_residue_number:24, 
+  color:{r:46,g:161,b:3}
+},
+{
+struct_asym_id: 'R', 
+  start_residue_number:25, 
   end_residue_number:26, 
-  color:{r:255,g:192,b:203}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'R', 
   start_residue_number:27, 
   end_residue_number:34, 
-  color:{r:9,g:254,b:254}
+  color:{r:207,g:62, b:125}
 },
 {
 struct_asym_id: 'R', 
    start_residue_number:35, 
    end_residue_number:41, 
-   color:{r:255,g:192,b:203}
+   color:{r:24,g:152,b:140}
 },
 {
 struct_asym_id: 'R', 
   start_residue_number:42, 
   end_residue_number:49, 
- color:{r:9,g:254,b:254}
+ color:{r:207,g:62, b:125}
 },
 {
 struct_asym_id: 'R', 
   start_residue_number:50, 
-  end_residue_number:54, 
-  color:{r:255,g:192,b:203}
+  end_residue_number:52, 
+  color:{r:24,g:152,b:140}
 },
 {
 struct_asym_id: 'R', 
-  start_residue_number:55, 
+  start_residue_number:53, 
+  end_residue_number:55, 
+  color:{r:46,g:161,b:3}
+},
+{
+struct_asym_id: 'R', 
+  start_residue_number:56, 
   end_residue_number:59, 
-  color:{r:255,g:135,b:10}
+  color:{r:8,g:69,b:149}
 },
 {
 struct_asym_id: 'R', 
   start_residue_number:60, 
   end_residue_number:67, 
-  color:{r:34,g:139,b:34}
+  color:{ r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:101, 
   end_residue_number:101, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -520,27 +569,25 @@ struct_asym_id: 'R',
 <br>
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7EOH by NMR. (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile (HBC) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7EOH by NMR. (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile (HBC) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/Pepper_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/HBC_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/Pepper_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/HBC_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
   <br>
             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7U0Y by NMR. 4-[(Z)-1-cyano-2-{6-[(2-hydroxyethyl)(methyl)amino]-1-benzothiophen-2-yl}ethenyl]benzonitrile (HBC599) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC599.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7U0Y by NMR. HBC599 (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC599.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HBC599_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/HBC599_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/HBC599_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -550,12 +597,11 @@ struct_asym_id: 'R',
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p> 
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >To determine the Kd (dissociation rate constant) of Pepper-HBC complex, Pepper RNA labeled with biotin at the 3' end was synthesized and coupled to sepharose beads coated by streptavidin (GE Healthcare). Two-photon fluorescence images were taken immediately after the beads were transferred from (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenylacetonitrile (HBC) containing buffer to HBC-free buffer. The quantitative fluorescence data were fitted to the formula of exponential decay (y = y0 + ae−bx)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
+<p>To determine the dissociation rate constant (Kd) of the Pepper-HBC complex, Pepper RNA was synthesised with biotin labelling at the 3' end and coupled to streptavidin-coated sepharose beads (GE Healthcare). Two-photon fluorescence images were captured immediately after the beads were transferred from a buffer containing HBC to a HBC-free buffer. The quantitative fluorescence data were fitted to the exponential decay formula (y = y0 + ae^(-bx)). (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenylacetonitrile (HBC). All other compounds are analogues of HBC<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<br>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -583,13 +629,17 @@ struct_asym_id: 'R',
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>HBC is a synthetic dye of green fluorescent protein (GFP) fluorescent groups, with structurally rigid electron acceptors and strong electron donors. HBC is used to detect RNA localization.-----From MedChemExpress</p></font>
+<p>HBC is a synthetic dye of green fluorescent protein (GFP) fluorescent groups, with structurally rigid electron acceptors and strong electron donors. HBC is used to detect RNA localization.-----From <a href="https://www.medchemexpress.cn/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a></p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://www.medchemexpress.cn/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a>:</b> a leading global compound supplier, offering over 200 compound libraries with approximately 26 million compounds for drug discovery and research.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">MedChemExpress ID</th>
@@ -597,12 +647,13 @@ struct_asym_id: 'R',
   </thead>
     <tbody>
       <tr>
+        <td name="td6">HBC</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/145712177" target="_blank" style="color:#520049"><b>145712177</b></a></td>
         <td name="td1">C<sub>19</sub>H<sub>17</sub>N<sub>3</sub>O</td>
         <td name="td2">303.4g/mol</td>
-        <td name="td3">156840-13-0</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=156840-13-0" target="_blank" style="color:#520049"><b>156840-13-0</b></a></td>
         <td name="td4">125 mg/mL (in DMSO)</td>
-        <td name="td5"><a href="https://www.medchemexpress.cn/hbc.html" target="_blank" style="color:#520049"><b>HBC</b> </a></td>
+        <td name="td5"><a href="https://www.medchemexpress.cn/hbc.html" target="_blank" style="color:#520049"><b>HBC</b></a></td>
       </tr>
 	  </tbody>
   </table>
@@ -611,16 +662,18 @@ struct_asym_id: 'R',
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/HBC_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
 </table>
-<div style="display: flex; justify-content: center;">
-  </div>
+<div style="display: flex; justify-content: center;"></div>
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to HBC by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to HBC by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -628,66 +681,66 @@ struct_asym_id: 'R',
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC1857624275</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1857624275/" target="_blank" style="color:#520049"><b>ZINC1857624275</b></a></td>
         <td name="td2">3-[4-[2-Cyanoethyl(methyl)amino]phenyl]-2-(4-methoxyphenyl)prop-2-enenitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">305296</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/305296" target="_blank" style="color:#520049"><b>305296</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1735964</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1735964/" target="_blank" style="color:#520049"><b>ZINC1735964</b></a></td>
         <td name="td2">(E)-3-[4-[2-cyanoethyl(methyl)amino]phenyl]-2-(4-methoxyphenyl)prop-2-enenitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">20835609</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20835609" target="_blank" style="color:#520049"><b>20835609</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1735963</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1735963/" target="_blank" style="color:#520049"><b>ZINC1735963</b></a></td>
         <td name="td2">(Z)-3-[4-[2-cyanoethyl(methyl)amino]phenyl]-2-(4-methoxyphenyl)prop-2-enenitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">6285076</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6285076" target="_blank" style="color:#520049"><b>6285076</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC5011924</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC5011924/" target="_blank" style="color:#520049"><b>ZINC5011924</b></a></td>
         <td name="td2">(E)-3-[4-[2-cyanoethyl(methyl)amino]phenyl]-2-(4-ethylphenyl)prop-2-enenitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">20835258</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20835258" target="_blank" style="color:#520049"><b>20835258</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1735967</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1735967/" target="_blank" style="color:#520049"><b>ZINC1735967</b></a></td>
         <td name="td2">(Z)-3-[4-[2-cyanoethyl(methyl)amino]phenyl]-2-(4-ethylphenyl)prop-2-enenitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">5921549</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5921549" target="_blank" style="color:#520049"><b>5921549</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC408583021</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC408583021/" target="_blank" style="color:#520049"><b>ZINC408583021</b></a></td>
         <td name="td2">(Z)-2-(4-methoxyphenyl)-3-(4-pyrrolidin-1-ylphenyl)prop-2-enenitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">125594441</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/125594441" target="_blank" style="color:#520049"><b>125594441</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1733626</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1733626/" target="_blank" style="color:#520049"><b>ZINC1733626</b></a></td>
         <td name="td2">(E)-3-[4-(dimethylamino)phenyl]-2-(4-methoxyphenyl)prop-2-enenitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">20835477</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20835477" target="_blank" style="color:#520049"><b>20835477</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1733625</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1733625/" target="_blank" style="color:#520049"><b>ZINC1733625</b></a></td>
         <td name="td2">3-(4-(Dimethylamino)phenyl)-2-(4-methoxyphenyl)acrylonitrile</td>
         <td name="td3">NA</td>
-        <td name="td4">6089169</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6089169" target="_blank" style="color:#520049"><b>6089169</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC305827293</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC305827293/" target="_blank" style="color:#520049"><b>ZINC305827293</b></a></td>
         <td name="td2">5-cyano-N-[4-[2-hydroxyethyl(methyl)amino]phenyl]pyridine-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">109989812</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/109989812" target="_blank" style="color:#520049"><b>109989812</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/HBC_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
