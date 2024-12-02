@@ -531,8 +531,8 @@ struct_asym_id: 'R',
 },
 {
   struct_asym_id: 'B', 
-  start_residue_number:101, 
-  end_residue_number:101, 
+  start_residue_number:301, 
+  end_residue_number:301, 
   color:{r:255,g:0,b:255}
 }
               ]
