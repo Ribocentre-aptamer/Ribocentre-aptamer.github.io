@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NF-kappaB aptamer"
+title:  "NF-kappaB P50 aptamer"
 date:   2024-03-01 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -72,6 +75,54 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .full-sequence {
+      display: none;
+    }
+
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
 </style>
 </head>
 <br>
@@ -160,15 +211,15 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1999, L J Maher 3rd isolated an aptamer that binds NF-kappaB p50, and its crystal structure was cracked in 2003. The results of competition experiments demonstrate that binding of the RNA aptamer blocks the ability of NF-kappa B to bind duplex DNA. Expression of this aptamer structure within heterologous nuclear RNA transcripts may provide a new strategy to inhibit NF-kappa B function in vivo. In 2008, He selected the RNA aptamer of anti-NF-kappaB p65. And reported the characterization of these aptamers with respect to NF-kappaB target specificity, affinity, minimal sequence requirements, secondary structure, and competition with DNA kappaB sites<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1999, L.J.Maher 3rd isolated an aptamer that binds to NF-kappaB p50, and its crystal structure was determined in 2003. The results of competition experiments demonstrated that the binding of the RNA aptamer blocked the ability of NF-kappa B to bind to duplex DNA. Expression of this aptamer structure within heterologous nuclear RNA transcripts may provide a novel strategy to inhibit NF-kappa B function in vivo. In 2008, He selected an RNA aptamer against NF-kappaB p65 and reported the characterisation of these aptamers with respect to NF-kappaB target specificity, affinity, minimal sequence requirements, secondary structure, and competition with DNA kappaB sites<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1999, L J Maher 3rd identified RNA aptamers capable of tightly binding p50<sub>2</sub> using cycles of in vitro affinity selection and amplification. The initial RNA pool represented ∼10<sup>14</sup> different sequences consisting of a core of 60 random nucleotides flanked. Fourteen cycles of selection and amplification were performed,a dominant RNA was detected as 21 of 26 cloned and sequenced cDNAs<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 1999, L.J.Maher 3rd identified RNA aptamers capable of tightly binding p50<sub>2</sub> using cycles of in vitro affinity selection and amplification. The initial RNA pool comprised approximately 10<sup>14</sup> different sequences, consisting of a core of 60 random nucleotides flanked by conserved sequences. Fourteen cycles of selection and amplification were performed, and a dominant RNA was detected as 21 of 26 cloned and sequenced cDNAs<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
 
@@ -176,16 +227,17 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</p></font>
-<img src="/images/2D/NF-kB_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The α-p50 RNA aptamer, which is an enhanced variant of the initial 31-nt aptamer, was selected in yeast. This selection was carried out within a yeast three-hybrid selection system to enhance its interactions with (p50)<sub>2</sub>. It has been demonstrated that this optimized RNA aptamer can impede the binding of (p50)<sub>2</sub> to DNA in vivo in a yeast one-hybrid system. Here we used RiboDraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>. The α-p50 RNA aptamer was named by L.J.Maher 3rd et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</p>
+<img src="/images/2D/NF-kB_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br> 
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >L. J., 3rd, & Ghosh, G. et al. sovled the 2.45-Å resolution x-ray crystal structure of the p50 RHR/RNA aptamer complex. The structural analysis indicates that two RNA molecules bind autonomously to the N-terminal Ig-like domains of p50. The RNA secondary structure comprises a stem and a stem-loop motif, with an internal loop adopting a kinked helical conformation due to the stacking interactions between three guanine residues within the loop. The PDB ID of this structure is 1OOA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>L. J. Maher 3rd and G. Ghosh et al. resolved the 2.45 Å resolution X-ray crystal structure of the p50 RHR/RNA aptamer complex. The structural analysis indicated that two RNA molecules bound autonomously to the N-terminal Ig-like domains of p50. The RNA secondary structure comprised a stem and a stem-loop motif, with an internal loop adopting a kinked helical conformation due to the stacking interactions between three guanine residues within the loop. The PDB ID of this structure is 1OOA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div>
+<p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/NF-kB_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -243,37 +295,43 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:38, 
   end_residue_number:350, 
-  color:{r:0,g:255,b:0}
+  color:{r:133,g:39,b:181}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:1, 
+  end_residue_number:6, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:7, 
   end_residue_number:10, 
-  color:{r:233,g:150,b:122}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:15, 
   end_residue_number:17, 
-  color:{r:233,g:150,b:122}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:24, 
-  end_residue_number:29, 
-  color:{r:233,g:150,b:122}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:11, 
   end_residue_number:14, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:18, 
   end_residue_number:23, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:24, 
+  end_residue_number:29, 
+  color:{r:184,g:51,b:50}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -287,7 +345,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/1ooa-3D.pdb',
+        url:'/pdbfiles/1OOA-3D.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
@@ -309,14 +367,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1OOA at 2.45 Å resolution. NF-kB(p50)  protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with NF-kB(p50) protein.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1OOA at 2.45 Å resolution. NF-kB(p50)  protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with NF-kB(p50) protein.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/NF-kB_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/NF-kB_aptamer_bingding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/NF-kB_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/NF-kB_aptamer_bingding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -325,10 +382,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<font >Nitrocellulose filter binding experiments were employed to estimate the equilibrium dissociation constants of different RNA aptamer/NF-κB complexes. Binding reactions containing variable concentrations of NF-κB protein were assembled in binding buffer with a known concentration (typically 0.85 nM) of end-labeled RNA aptamer. Binding reactions were incubated for 10 min at room temperature and then filtered over 0.45 µm nitrocellulose filters ( Millipore catalog no. HAWP02500).  Filters were washed with binding buffer, and radioactivity was determined by scintillation counting. p50dd: p50 dimerization domain. p65dd: p65 dimerization domain<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</font >
-<br><br>
+<p>Nitrocellulose filter binding experiments were employed to estimate the equilibrium dissociation constants of different RNA aptamer/NF-κB complexes. Binding reactions containing variable concentrations of NF-κB protein were assembled in binding buffer with a known concentration (typically 0.85 nM) of end-labeled RNA aptamer. Binding reactions were incubated for 10 min at room temperature and then filtered over 0.45 µm nitrocellulose filters ( Millipore catalog no. HAWP02500).  Filters were washed with binding buffer, and radioactivity was determined by scintillation counting. p50dd: p50 dimerization domain. p65dd: p65 dimerization domain<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -381,109 +437,127 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </div>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>This entry represents the N-terminal sub-domain of the Rel homology domain (RHD) of NF-kappaB subunit precursor p105, which can undergo cotranslational processing by the 26S proteasome to produce a 50kDa protein (p50). p50 is a DNA binding subunit of the NF-kappaB protein complex.-----From Pfam</p></font>
+<p>This entry represents the N-terminal sub-domain of the Rel homology domain (RHD) of NF-kappaB subunit precursor p105, which can undergo cotranslational processing by the 26S proteasome to produce a 50kDa protein (p50). p50 is a DNA binding subunit of the NF-kappaB protein complex.-----From <a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR030503/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
-        <th onclick="sortTable(2)">MW</th>
-        <th onclick="sortTable(3)">Amino acids sequences</th>
+        <th onclick="sortTable(2)">Mass</th>
+        <th onclick="sortTable(3)">Protein sequence</th>
         <th onclick="sortTable(4)">PDB ID</th>
         <th onclick="sortTable(5)">GenBank</th>
       </tr>
   </thead>
     <tbody>
       <tr>
-        <td name="td6">NF-kappaB p50 protein</td>
+        <td name="td6">NF-kappaB p50 protein (39-363)</td>
         <td name="td0"><a href="https://www.uniprot.org/uniprotkb/P25799/entry" target="_blank" style="color:#520049"><b>P25799</b></a></td>
         <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR030503/" target="_blank" style="color:#520049"><b>IPR030503</b></a></td>
         <td name="td2">36.61 kDa</td>
-        <td name="td3">GGPYLQILEQPKQRGFRFRYVCEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVTNGKNIHLHAHSLVGKHCEDGVCTVTAGPKDMVVGFANLGILHVTKKKVFETLEARMTEACIRGYNPGLLVHSDLAYLQAEGGGDRQLTDREKEIIRQAAVQQTKEMDLSVVRLMFTAFLPDSTGSFTRRLEPVVSDAIYDSKAPNASNLKIVRMDRTAGCVTGGEEIYLLCDKVQKDDIQIRFYEEEENGGVWEGFGDFSPTDVHRQFAIVFKTPKYKDVNITKPASVFVQLRRKSDLETSEPKPFLYYPEIKDKEEVQRKRQK</td>
+        <td name="td3">
+        <div class="sequence-container">
+          <span class="sequence-text">GGPYLQ</span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">GGPYLQILEQPKQRGFRFRYVCEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVTNGKNIHLHAHSLVGKHCEDGVCTVTAGPKDMVVGFANLGILHVTKKKVFETLEARMTEACIRGYNPGLLVHSDLAYLQAEGGGDRQLTDREKEIIRQAAVQQTKEMDLSVVRLMFTAFLPDSTGSFTRRLEPVVSDAIYDSKAPNASNLKIVRMDRTAGCVTGGEEIYLLCDKVQKDDIQIRFYEEEENGGVWEGFGDFSPTDVHRQFAIVFKTPKYKDVNITKPASVFVQLRRKSDLETSEPKPFLYYPEIKDKEEVQRKRQK</span>
+        </div>
+      </td>
         <td name="td4"><a href="https://www.rcsb.org/structure/1OOA" target="_blank" style="color:#520049"><b>1OOA</b></a></td>
         <td name="td5"><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lvl=0&id=10090" target="_blank" style="color:#520049"><b>10090</b> </a></td>
       </tr>
 	  </tbody>
   </table>
  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/NF-kB_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/NF-kB_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
+
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
         <th onclick="sortTable(2)">Z-score</th>
-        <th onclick="sortTable(3)">RMSD</th>
+        <th onclick="sortTable(3)">RMSD (Å)</th>
         <th onclick="sortTable(4)">Description</th>
       </tr>
   </thead>
     <tbody>
       <tr>
-        <td name="td1">1OY3-C</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1OOA" target="_blank" style="color:#520049"><b>1OOA</b></a>-A</td>
+        <td name="td2">44.3</td>
+        <td name="td3">0</td>
+        <td name="td4">Original chain</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1OY3" target="_blank" style="color:#520049"><b>1OY3</b></a>-C</td>
         <td name="td2">20.2</td>
         <td name="td3">1.0 </td>
         <td name="td4">Transcription factor p65</td>
       </tr>
       <tr>
-        <td name="td1">2O61-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2O61" target="_blank" style="color:#520049"><b>2O61</b></a>-A</td>
         <td name="td2">20</td>
         <td name="td3">6.1 </td>
         <td name="td4">36-mer</td>
       </tr>
       <tr>
-        <td name="td1">8OW4-B</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/8OW4" target="_blank" style="color:#520049"><b>8OW4</b></a>-B</td>
         <td name="td2">16</td>
         <td name="td3">2.7 </td>
         <td name="td4">Nuclear factor of activated t-cells,cytoplasmic</td>
       </tr>
       <tr>
-        <td name="td1">2CXK-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2CXK" target="_blank" style="color:#520049"><b>2CXK</b></a>-A</td>
         <td name="td2">10.7</td>
         <td name="td3">1.9 </td>
         <td name="td4">Calmodulin binding transcription activator 1</td>
       </tr>
       <tr>
-        <td name="td1">5L56-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/5L56" target="_blank" style="color:#520049"><b>5L56</b></a>-A</td>
         <td name="td2">10.5</td>
         <td name="td3">25.0 </td>
         <td name="td4">Plexin-a1</td>
       </tr>
       <tr>
-        <td name="td1">6VXK-B</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/6VXK" target="_blank" style="color:#520049"><b>6VXK</b></a>-B</td>
         <td name="td2">10.4</td>
         <td name="td3">22.2 </td>
         <td name="td4">Semaphorin-like protein 139</td>
       </tr>
       <tr>
-        <td name="td1">3HRP-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/3HRP" target="_blank" style="color:#520049"><b>3HRP</b></a>-A</td>
         <td name="td2">10.2</td>
         <td name="td3">2.6 </td>
         <td name="td4">Uncharacterized protein</td>
       </tr>
       <tr>
-        <td name="td1">3MLP-A</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/3MLP" target="_blank" style="color:#520049"><b>3MLP</b></a>-A</td>
         <td name="td2">10</td>
         <td name="td3">10.3 </td>
         <td name="td4">Transcription factor coe1</td>
       </tr>
       <tr>
-        <td name="td1">6STX-C</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/6STX" target="_blank" style="color:#520049"><b>6STX</b></a>-C</td>
         <td name="td2">9.9</td>
         <td name="td3">8.3 </td>
         <td name="td4">Kelch domain-containing protein</td>
-      </tr>
-      <tr>
-        <td name="td1">7MO7-B</td>
-        <td name="td2">9.6</td>
-        <td name="td3">11.3 </td>
-        <td name="td4">Hepatocyte growth factor</td>
       </tr>
 	  </tbody>
   </table>
@@ -534,3 +608,31 @@ Wurster, S. E., & Maher, L. J., 3rd.<br />
 Wurster, S. E., Bida, J. P., Her, Y. F., & Maher, L. J., 3rd.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/19696077/" target="_blank" style="color:#520049">Nucleic acids research, 37(18), 6214–6224. (2009)</a>
 <br /> 
+
+
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>
+
+  
