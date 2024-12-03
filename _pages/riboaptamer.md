@@ -1213,7 +1213,7 @@ This section lists all the experimentally validated aptamers.
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NF-kappaB-aptamer" target="_blank" style="color:#520049"><b>NF-kappaB aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NF-kappaB-aptamer" target="_blank" style="color:#520049"><b>NF-kappaB P50 aptamer</b></a></td>
         <td name="td2">NF-kappaB P50</td>
         <td name="td3">Nuclear factor kappa-B (NF-κB) protein was first discovered by David Baltimore. This protein family can selectively bind to the κ-light chain enhancer of B cells to regulate the expression of many genes. Members of NF-κB family have structural homology with retrovirus cancer protein v-Rel, so they are classified as NF-κB/Rel proteins. In mammals, there are five proteins in this family, which are RelA(p65), RelB, c-Rel, NF-κB1(p50) and NF-κB2(p52).</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10074372/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
