@@ -66,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -156,7 +156,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12886018/" target="_blank" style="color:#520049">2003</a></h3>
     </div>
     <div class="body">
-      <p>Described here the 2.45-A resolution x-ray crystal structure of the p50 RHR/RNA aptamer complex<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+      <p>Described here the 2.45-Å resolution x-ray crystal structure of the p50 RHR/RNA aptamer complex<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -481,7 +481,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<p class="blowheader_box">Similar compound</p>
+<p class="blowheader_box">Similar compound(s)</p>
 <p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
 
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
