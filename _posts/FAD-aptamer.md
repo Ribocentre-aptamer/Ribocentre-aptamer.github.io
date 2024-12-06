@@ -253,7 +253,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/FAD_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
