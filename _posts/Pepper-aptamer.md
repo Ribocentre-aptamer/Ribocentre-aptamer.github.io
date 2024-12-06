@@ -569,7 +569,7 @@ struct_asym_id: 'R',
 <br>
 
 <p class="blowheader_box">Binding pocket</p>             
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7EOH by NMR. (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile (HBC) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7EOH with 1.64 Å resolution, as determined by X-ray crystallography. (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile (HBC) (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HBC_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -581,7 +581,7 @@ struct_asym_id: 'R',
   </table>
   <br>
             
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7U0Y by NMR. HBC599 (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC599.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7U0Y with 2.7 Å resolution, as determined by X-ray crystallography. HBC599 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC599.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HBC599_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
