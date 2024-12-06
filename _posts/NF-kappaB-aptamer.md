@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/4336a3f3-04d7-4245-a76d-0abe05cad2e1)---
 layout: post
 title:  "NF-kappaB P50 aptamer"
 date:   2024-03-01 00:00:00
@@ -398,37 +398,37 @@ categories: Aptamer
     <tbody>
       <tr>
         <td name="td0">α-p50 RNA aptamer</td>
-        <td name="td1">CAUACUUGAAACUGUAAGGUUGGCGUAUG</td>
+        <td name="td1">5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</td>
         <td name="td3">NF-κB (p50)<sub>2</sub></td>
         <td name="td4">5.4±2.2 nM</td>
       </tr>
       <tr>
         <td name="td0">α-p50 RNA aptamer</td>
-        <td name="td1">CAUACUUGAAACUGUAAGGUUGGCGUAUG</td>
+        <td name="td1">5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</td>
         <td name="td3">p50/p65</td>
         <td name="td4">22±7 nM</td>
       </tr>
       <tr>
         <td name="td0">α-p50 RNA aptamer</td>
-        <td name="td1">CAUACUUGAAACUGUAAGGUUGGCGUAUG</td>
+        <td name="td1">5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</td>
         <td name="td3">(p65)<sub>2</sub></td>
         <td name="td4">3500±2300 nM</td>
       </tr>
       <tr>
         <td name="td0">α-p50 RNA aptamer</td>
-        <td name="td1">CAUACUUGAAACUGUAAGGUUGGCGUAUG</td>
+        <td name="td1">5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</td>
         <td name="td3">p50dd/p65</td>
         <td name="td4">187±155 nM</td>
       </tr>
       <tr>
         <td name="td0">α-p50 RNA aptamer</td>
-        <td name="td1">CAUACUUGAAACUGUAAGGUUGGCGUAUG</td>
+        <td name="td1">5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</td>
         <td name="td3">p50/p65dd</td>
         <td name="td4">10±4 nM</td>
       </tr>
       <tr>
         <td name="td0">α-p50 RNA aptamer</td>
-        <td name="td1">CAUACUUGAAACUGUAAGGUUGGCGUAUG</td>
+        <td name="td1">5'-CAUACUUGAAACUGUAAGGUUGGCGUAUG-3'</td>
         <td name="td3">p50dd/p65dd</td>
         <td name="td4">No binding</td>
       </tr>
