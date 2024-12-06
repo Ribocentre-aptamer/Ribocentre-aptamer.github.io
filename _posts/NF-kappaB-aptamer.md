@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4336a3f3-04d7-4245-a76d-0abe05cad2e1)---
+---
 layout: post
 title:  "NF-kappaB P50 aptamer"
 date:   2024-03-01 00:00:00
