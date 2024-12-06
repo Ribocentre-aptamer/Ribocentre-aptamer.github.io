@@ -221,7 +221,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">3D visualisation</p>           
-<p>Toulmé, J. J. and colleagues present the solution structure of the TAR/HIV-1 TAR RNA aptamer complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA is labeled in green, the HIV-1 TAR RNA aptamer is labeled in brownish red, and the interacting bases in the two sequences are labeled in magenta and orange, respectively. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.</p><p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<p>Toulmé, J. J. and colleagues present the solution structure of the TAR/HIV-1 TAR RNA aptamer complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA is labeled in goldnord  yellow, the HIV-1 TAR RNA aptamer is labeled in green, and the interacting bases in the two sequences are labeled in magenta and orange, respectively. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.</p><p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -346,7 +346,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Binding pocket</p>           
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in sticks) is labeled in green and magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA. C25 and A26 are LNA residues in the HIV-1 TAR RNA aptamer.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in sticks) is labeled in goldnord  yellow and magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA. C25 and A26 are LNA residues in the HIV-1 TAR RNA aptamer.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/LR06_binding_pocker1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
