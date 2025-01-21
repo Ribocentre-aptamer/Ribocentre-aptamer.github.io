@@ -208,7 +208,8 @@ categories: Aptamer
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<p>Florian C. Grau1 et al. sovled the crystal structure, at 2.7 Å resolution, of an RNA aptamer bound to the transcription repressor TetR has been determined. The PDB ID of this structure is 6SY4<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<p>Florian C. Grau1 et al. sovled the crystal structure, at 2.7 Å resolution, of an RNA aptamer bound to the transcription repressor TetR has been determined. The PDB ID of this structure is 6SY4<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
