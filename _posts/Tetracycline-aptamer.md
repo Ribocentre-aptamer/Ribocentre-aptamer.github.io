@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,48 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
 </style>
 </head>
 <br>
@@ -208,34 +253,35 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2001, Berens et al.employed in vitro selection techniques to isolate aptamers with high-affinity binding sites forTetracycline，They were found that cb28 has a high affinity. In 2003, Suess et al. present a conditional gene expression system in Saccharomyces cerevisiae which exploits direct RNA-metabolite interactions as a mechanism of genetic control. In 2003, Hanson et al. described post-transcriptional gene regulation in yeast based on direct RNA-ligand interaction. In 2008, Hong et al. discovered the cocrystal structure of the aptamer at a resolution of 2.2 A. In 2011, wittmann et al. described the tetracycline aptamer has been used in a wide variety of ribozyme designs<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>,<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2001, Berens and colleagues utilised in vitro selection techniques to isolate aptamers with high-affinity binding sites for tetracycline. They identified that cb28 exhibited a notably high affinity. In 2003, Suess and team introduced a conditional gene expression system in Saccharomyces cerevisiae, which capitalises on direct RNA-metabolite interactions as a means of genetic regulation. Concurrently, Hanson and colleagues elucidated post-transcriptional gene regulation in yeast, predicated on direct RNA-ligand interactions. Advancing to 2008, Hong and associates unveiled the co-crystal structure of the aptamer at a resolution of 2.2 Å. In 2011, Wittmann and colleagues detailed the extensive application of the tetracycline aptamer in a diverse array of ribozyme designs<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>,<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>RNA pool selection was performed using 74 random nucleotide sequences in vitro, after which tetracycline was conjugated to an epoxy-activated sepharose column under alkaline conditions and exposed to 5′-radiolabeled RNA eluted from 100 μM tetracycline for 15 rounds, and the sequences were found to be significantly enriched. And from the 13th and 14th rounds of cloning sequencing, the highest affinity of CB28 was found<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 2001, Berens C and colleagues utilised an in vitro selection strategy to selex RNA aptamers with a high affinity for tetracycline. They constructed an RNA library consisting of a 113-nucleotide sequence that included a 74-nucleotide random region, employing tetracycline-agarose as an affinity column to filter RNA molecules capable of binding tetracycline, with tetracycline attached to the agarose via the cb28 site. By increasing the number of column washes (from 5 to 8, 12, and ultimately to 20 column volumes) and reducing the concentration of tetracycline in the affinity buffer to 10 mM from the ninth round onwards, they intensified the selective pressure. After 15 rounds of selection and amplification, the RNA pool that demonstrated high-affinity binding to tetracycline was able to interact specifically with the tetracycline affinity column and could be eluted with tetracycline. They amplified the eluted RNA through PCR and reverse transcription, subjected cb28 to phosphorylation treatment, utilised Pb2+-induced cutting of RNA to observe changes in RNA cleavage patterns in the presence of tetracycline, determined the binding sites of tetracycline on RNA using UV, and employed DMA modification to probe the RNA secondary structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>   
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p></font>
-<font><p>5'-GAGGGAGAGGUGAAGAAUACGACCACCUAGGUACCAUUGCACUCCGGUACCUAAAACAUACCCUC-3'</p></font>
-<img src="/images/2D/tetracycline_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>In 2008, Xiao et al. elucidated the structure of the tetracycline aptamer using methods such as MAD, which primarily comprises three helices, P1, P2, and P3, along with loop L3 that links these helices in the secondary structure, as shown in the figure below. Here, we utilised RiboDraw software to complete this illustration, based on the 3D structural information<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
+<p>5'-GAGGGAGAGGUGAAGAAUACGACCACCUAGGUACCAUUGCACUCCGGUACCUAAAACAUACCCUC-3'</p>
+<img src="/images/2D/tetracycline_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >The 2.2 A˚ resolution cocrystal structure of the aptamer reveals a pseudoknot-like fold formed by tertiary interactions between an 11 nucleotide loop and the minor groove of an irregular helix. The PDB ID of this structure is 3EGZ<sup>[<a href="#ref8" style="color:#520049" >8</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 2008, Xiao and colleagues determined the tertiary structure of the tetracycline aptamer using X-ray crystallography at 2.2 Å resolution. This structure is characterised by a pseudoknot-like fold formed through tertiary interactions between an 11-nucleotide loop (L3) and the minor groove of an irregular helix, comprising three helices (P1, P2, and P3) that form an H-shaped architecture. The tetracycline binding site is located at the junction of two helical stacks, formed by the minor grooves of L3 and helices J1/2 and J2/3. The PDB ID of this structure is 3EGZ<sup>[<a href="#ref8" style="color:#520049" >8</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/Tetracycline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/3D/tetracycline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
@@ -290,56 +336,66 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'B',    
   start_residue_number:1, 
   end_residue_number:5, 
-  color:{r:255,g:135,b:10}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:6, 
   end_residue_number:8, 
-  color:{r:128,g:219,b:158}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'B', 
   start_residue_number:9, 
   end_residue_number:12, 
-  color:{r:10,g:11,b:255}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:13, 
   end_residue_number:23, 
-  color:{r:0,g:128,b:128}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:24, 
   end_residue_number:27, 
-  color:{r:10,g:11,b:255}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:28, 
-  end_residue_number:53, 
-  color:{r:9,g:254,b:254}
+  end_residue_number:36, 
+  color:{r:207,g:62, b:125}
 },{
    struct_asym_id: 'B', 
+  start_residue_number:37, 
+  end_residue_number:45, 
+  color:{r:194,g:182,b:23}
+},{
+  struct_asym_id: 'B', 
+  start_residue_number:46, 
+  end_residue_number:53, 
+  color:{r:207,g:62, b:125}
+}{
+  struct_asym_id: 'B', 
   start_residue_number:54, 
   end_residue_number:59, 
-  color:{r:34,g:139,b:34}
-},{
+  color:{r:46,g:161,b:3}
+}{
   struct_asym_id: 'B', 
   start_residue_number:60, 
   end_residue_number:60, 
-  color:{r:255,g:0,b:255}
-},{
+  color:{r:241,g:125,b:7}
+}{
   struct_asym_id: 'B', 
   start_residue_number:61, 
   end_residue_number:65, 
-  color:{r:255,g:135,b:10}
-},{
+  color:{r:184,g:51,b:50}
+}{
   struct_asym_id: 'C', 
   start_residue_number:601, 
   end_residue_number:601, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -375,8 +431,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3EGZ by X-ray. Tetracycline(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with tetracycline.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3EGZ by X-ray. Tetracycline(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Tetracycline.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/tetracycline_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -392,11 +447,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
-  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<font >The target molecule tetracycline was coupled to an epoxy-activated sepharose column under alkaline conditions and brought into contact with the 5’-radiolabeled RNA. The column was then washed several times, with the number of column wash steps increasing every few rounds to increase stringency. Elution was initially performed with 100 µM tetracycline, which was reduced to 10 µM after round 8 to further increase stringency. A significant enrichment of sequences eluted specifically with tetracycline was observed after 15 rounds. 44 candidates from rounds 13 and 14 were cloned and sequenced. This led to the discovery of sequence cb28, which binds to tetracycline with high affinity and was used to generate a truncated 60 nt minimer version of the aptamer<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</font >
-<br><br>
+<p>Xiao and colleagues employed several methods, including isocratic elution from tetracycline-agarose and RNA elution, to determine the dissociation constant of the tetracycline-aptamer complex both on the column and in solution. These approaches were utilised to thoroughly assess the affinity and stability of the tetracycline-aptamer interaction under various experimental conditions, thereby providing a robust evaluation of the binding affinity and dynamics between RNA molecules and tetracycline in diverse environments<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
+<div style="display: flex; justify-content: center;"></div>
 <!--div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -413,18 +467,23 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
   </div-->
-  <img src="/images/SELEX_ligand/tetracycline_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
+  <img src="/images/SELEX_ligand/tetracycline_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Tetracycline is a broad spectrum polyketide antibiotic produced by the Streptomyces genus of Actinobacteria. It exerts a bacteriostatic effect on bacteria by binding reversible to the bacterial 30S ribosomal subunit and blocking incoming aminoacyl tRNA from binding to the ribosome acceptor site. It also binds to some extent to the bacterial 50S ribosomal subunit and may alter the cytoplasmic membrane causing intracellular components to leak from bacterial cells. The FDA withdrew its approval for the use of all liquid oral drug products formulated for pediatric use containing tetracycline in a concentration greater than 25 mg/ml.2 Other formulations of tetracycline continue to be used.-----From drugBank</p></font>
+<p>Tetracycline is a broad-spectrum polyketide antibiotic produced by the Streptomyces genus of Actinobacteria. It exerts a bacteriostatic effect on bacteria by reversibly binding to the bacterial 30S ribosomal subunit and blocking incoming aminoacyl tRNA from binding to the ribosome acceptor site. It also binds to some extent to the bacterial 50S ribosomal subunit and may alter the cytoplasmic membrane, causing intracellular components to leak from bacterial cells.-----From <a href="https://go.drugbank.com/drugs/DB00131" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -451,12 +510,15 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to tetracycline by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<p>We screened compounds with a high degree of similarity to tetracycline using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and presented some of the compounds' structural diagrams. For certain CAS numbers that were not available, we will augment them with PubChem CIDs.</p>
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
