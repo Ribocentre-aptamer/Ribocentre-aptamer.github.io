@@ -206,7 +206,7 @@ categories: Aptamer
 <br>
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The in vitro selection experiment designed by Toulmé, J. J. and colleagues in 1999 mainly consisted of RNA pool ampplification and subsequent selection processes. RNAs were obtained by in vitro transcription of the polymerase chain reaction (PCR)-amplified library with T7 RNA polymerase. The aptamer with high affinity was selected by eight rounds and the washing times were increased in the sixth to eighth rounds<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>The in vitro selection experiment designed by Toulmé, J. J. and colleagues in 1999 mainly consisted of RNA pool ampplification and subsequent selection processes. RNAs were obtained by in vitro transcription of the polymerase chain reaction (PCR)-amplified library with T7 RNA polymerase. The aptamer with high affinity was selected by eight rounds and the washing times were increased in the sixth to eighth rounds<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
@@ -215,13 +215,14 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>Here we utilized RiboDraw to complete the figure, based the 3D structure information. The LR06(GA) aptamer was named by Toulmé, J. J. et al. in the article<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <p>5'-CACGGUCCCAGACGUG-3'</p>
-<img src="/images/2D/LR06_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/LR06_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
 <p class="blowheader_box">3D visualisation</p>           
-<p>Toulmé, J. J. and colleagues present the solution structure of the TAR/HIV-1 TAR RNA aptamer complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA is labeled in goldnord  yellow, the HIV-1 TAR RNA aptamer is labeled in green, and the interacting bases in the two sequences are labeled in magenta and orange, respectively. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.</p><p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<p>Toulmé, J. J. and colleagues present the solution structure of the TAR/HIV-1 TAR RNA aptamer complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA is labeled in green, the HIV-1 TAR RNA aptamer is labeled in brownish red, and the interacting bases in the two sequences are labeled in magenta and orange, respectively. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -346,7 +347,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Binding pocket</p>           
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in sticks) is labeled in goldnord  yellow and magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA. C25 and A26 are LNA residues in the HIV-1 TAR RNA aptamer.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in sticks) is labeled in green and magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA. C25 and A26 are LNA residues in the HIV-1 TAR RNA aptamer.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/LR06_binding_pocker1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -397,8 +398,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Structure ligand</p>
 <p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.-----From <a href="https://rfam.org/family/RF00250" target="_blank" style="color:#520049; text-decoration: underline;"><b>Rfam</b></a></p>
-<p class="dot-paragraph"><b><a href="https://mirbase.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>miRBase ID</b></a>:</b> a database mainly focused on the annotation and naming of microRNAs.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p class="dot-paragraph"><b><a href="https://mirbase.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>mirBase</b></a>:</b> a comprehensive database dedicated to storing and providing microRNA (miRNA) sequence data, annotation, prediction of gene targets, and other information.</p>
 <p class="dot-paragraph"><b><a href="https://rfam.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Rfam</b></a>:</b> a database that specializes in non-coding RNA families and their alignments and consensus secondary structures.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass
 " target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
