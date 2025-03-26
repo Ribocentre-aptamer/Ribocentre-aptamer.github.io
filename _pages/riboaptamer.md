@@ -746,7 +746,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Tetracycline-aptamer" target="_blank" style="color:#520049"><b>Tetracycline aptamer</b></a></td>
         <td name="td2">Tetracycline</td>
-        <td name="td3">Tetracyclines are a group of broad-spectrum antibiotic compounds that have a common basic structure and are either isolated directly from several species of Streptomyces bacteria or produced semi-synthetically from those isolated compounds.</td>
+        <td name="td3">Tetracycline antibiotics constitute a broad-spectrum class of compounds that share a common fundamental structure. They are either directly extracted from several species of Streptomyces bacteria or derived semi-synthetically from the compounds initially isolated from these bacteria.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11557342/" target="_blank" style="color:#520049"><b>2001</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/3EGZ" target="_blank" style="color:#520049"><b>3EGZ</b></a></td>
       </tr>
@@ -754,7 +754,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Corn-aptamer" target="_blank" style="color:#520049"><b>Corn aptamer</b></a></td>
         <td name="td2">DFHO</td>
-        <td name="td3">DFHO (3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.</td>
+        <td name="td3">3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime (DFHO) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells. It features a benzylidene imidazolinone core with fluorine and hydroxy functional groups, contributing to its unique chemical reactivity and properties. DFHO is known for its role in fluorescent imaging or as a molecular probe, taking advantage of its fluorescence characteristics and stability. The compound's structural modifications allow for tunable optical and electronic properties, making it valuable in areas such as bioimaging, photonics, and sensor development.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/28945233/" target="_blank" style="color:#520049"><b>2017</b> </a></td>
         <td name="td5"><a href="https://doi.org/10.2210/pdb5BJP/pdb" target="_blank" style="color:#520049"><b>5BJP</b></a><br><a href="https://www.rcsb.org/structure/5BJO" target="_blank" style="color:#520049"><b>5BJO</b></a></td>
       </tr>
@@ -1127,7 +1127,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Hfq-aptamer" target="_blank" style="color:#520049"><b>Hfq aptamer</b></a></td>
         <td name="td2">Hfq</td>
-        <td name="td3">Hfq binds to the loop structure formed by the AG repeat sequence, which regulates gene expression.</td>
+        <td name="td3">Hfq（host factor required for phage Qβ RNA replication） binds to the loop structure formed by the AG repeat sequence, which regulates gene expression.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/22053080/" target="_blank" style="color:#520049"><b>2012</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/3HSB" target="_blank" style="color:#520049"><b>3HSB</b></a><br><a href="https://www.rcsb.org/structure/3AHU" target="_blank" style="color:#520049"><b>3AHU</b></a></td>
       </tr>    
@@ -1167,14 +1167,14 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/GlnRs-aptamer" target="_blank" style="color:#520049"><b>GlnRs aptamer</b></a></td>
         <td name="td2">Glutaminyl-tRNA synthetase (GlnRs)</td>
-        <td name="td3">GlnRs (Glutaminyl-tRNA synthetase) is one of the members of aminoacyl tRNA synthetase. It forms a sub complex with arginine tRNA synthetase (RRS) and P43 (a cofactor of the aminoacyl tRNA synthetase complex ) in the complex, and has a close interaction with RRS and P43, with weaker interaction with other aminoacyl tRNA synthetases.</td>
+        <td name="td3">GlnRs (Glutaminyl-tRNA synthetase) is a member of the aminoacyl tRNA synthetase family. It forms a subcomplex with arginine tRNA synthetase (RRS) and P43 (a cofactor of the aminoacyl tRNA synthetase complex), interacting closely with RRS and P43, and more weakly with other aminoacyl tRNA synthetases.</td>
         <td name="td4"><a href="https://www.proquest.com/openview/6857e35043f04e11f53714d80cdc4dcf/1?pq-origsite=gscholar&cbl=18750&diss=y" target="_blank" style="color:#520049"><b>1996</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1EXD" target="_blank" style="color:#520049"><b>1EXD</b></a></td>
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/eIF4A-aptamer" target="_blank" style="color:#520049"><b>(eIF4A)-aptamer</b></a></td>
-        <td name="td2">mammalian translation initiation factor 4A (eIF4A)</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/eIF4A-aptamer" target="_blank" style="color:#520049"><b>eIF4A aptamer</b></a></td>
+        <td name="td2">Mammalian translation initiation factor 4A (eIF4A)</td>
         <td name="td3">The apparent role of mammalian translation initiation factor 4A (eIF4A) is to facilitate the "melting" of secondary structure present in the 5′ untranslated region of mRNAs that impedes translation initiation, finally controlling the translation initiation. RNA aptamers to initiation factor 4A helicase hinder cap-dependent translation by blocking ATP hydrolysis.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12649492/" target="_blank" style="color:#520049"><b>2003</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1XWP" target="_blank" style="color:#520049"><b>1XWP</b></a><br><a href="https://www.rcsb.org/structure/1XWU" target="_blank" style="color:#520049"><b>1XWU</b></a></td>
@@ -1239,7 +1239,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TetR-aptamer" target="_blank" style="color:#520049"><b>TetR aptamer</b></a></td>
         <td name="td2">Transcription repressor TetR</td>
-        <td name="td3">Tet Repressor proteins (otherwise known as TetR) are proteins playing an important role in conferring antibiotic resistance to large categories of bacterial species. Tetracycline (Tc) is a broad family of antibiotics to which bacteria have evolved resistance.</td>
+        <td name="td3">Tet Repressor proteins (termed TetR) are crucial in conferring antibiotic resistance to numerous bacterial species. Tetracycline (Tc) represents a broad class of antibiotics against which bacteria have developed resistance.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32052019/" target="_blank" style="color:#520049"><b>2020</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6SY4" target="_blank" style="color:#520049"><b>6SY4</b></a><br><a href="https://www.rcsb.org/structure/6SY6" target="_blank" style="color:#520049"><b>6SY6</b></a></td>
       </tr> 
@@ -1309,11 +1309,11 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/59-aptamer" target="_blank" style="color:#520049"><b>59 aptamer</b></a></td>
-        <td name="td2">HIV-1 Rev protein</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-Rev-aptamer" target="_blank" style="color:#520049"><b>HIV-1 Rev aptamer</b></a></td>
+        <td name="td2">Human immunodeficiency virus type 1 (HIV-1) Rev93 protein</td>
         <td name="td3">Human immunodeficiency virus type 1 (HIV-1) Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7505429/" target="_blank" style="color:#520049"><b>1993</b> </a></td>
-        <td name="td5">NA</td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/6CF2" target="_blank" style="color:#520049"><b>6CF2</b></a></td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
