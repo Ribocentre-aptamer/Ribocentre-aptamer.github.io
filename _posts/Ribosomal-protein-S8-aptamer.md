@@ -2,7 +2,7 @@
 layout: post
 title:  "Ribosomal protein S8-aptamer"
 date:   2024-04-10 00:00:00
-author: Qiaozhen Liu, Zhijie Tan
+author: Qiaozhen Liu, Zhaoji Qiu
 categories: Aptamer
 ---
 <html>
@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,48 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
 </style>
 </head>
 <br>
@@ -98,7 +143,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9056763/" target="_blank" style="color:#520049">1997</a></h3>
     </div>
     <div class="body">
-      <p>An RNA aptamer identified by in vitro screening for TetR binding and in vivo screening for TetR inducible binding induces ter controlled gene expression in E. coli<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>Performed in vitro iterative selection of RNA aptamers that bind S8<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -106,30 +151,30 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25140011/" target="_blank" style="color:#520049">2014</a></h3>
     </div>
     <div class="body">
-      <p>RNA aptamers adopt completely different secondary structures in the free and protein-bound states<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+      <p>Structure analysis of an RNA aptamer against ribosomal protein S8 from Bacillus anthracis<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
     <div class="title">
-      <h3><a href="https://www.sciencedirect.com/science/article/pii/S030441651830028X" target="_blank" style="color:#520049">2018</a></h3>
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29413905/" target="_blank" style="color:#520049">2018</a></h3>
     </div>
     <div class="body">
-      <p>S8 recognizes the aptamer through an induced-fit rather than a population-shift mechanism<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
+      <p>Present data indicate that S8 recognizes the aptamer through an induced-fit rather than a population-shift mechanism<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
   </div>
 </div>
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1997, Moine Herve et al. performed in vitro iterative selection of RNA aptamers that bind S8. In 2014, Milya Davlieva et al. examined the structural accommodation of an RNA aptamer that binds bacterial r-protein S8<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1997, Moine Herve et al. conducted in vitro iterative selection of RNA aptamers capable of binding to S8. These aptamers revealed features in the S8 binding site that had been concealed during previous characterizations by the high base conservation throughout evolution. In 2014, Milya Davlieva et al. investigated the structural adaptation of an RNA aptamer binding to bacterial ribosomal protein S8<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2014, Milya Davlieva et al. isolated 40 sequences that do not maintain the conserved features of helix 21 but retain the ability to bind the S8 protein with high affinity and specificity through 10 rounds of selection<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 2014, Milya Davlieva et al. identified RNA sequences that lacked the conserved features of helix 21 but could bind the S8 protein with high affinity and specificity. The starting library had molecules with 16 randomized nucleotides in an RNA hairpin stem. After 10 rounds of selection, the RNA pool was cloned and 40 inserts sequenced. Alignment showed native-like and non-natural binding sites<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>   
 
@@ -137,15 +182,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p></font>
-<font><p>5'-GGGAUGCUCAGUGAUCCUUCGGGAUAUCAGGGCAUCCC-3'</p></font>
-<img src="/images/2D/ribosomal_protein_S8_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The structure of aptamer RNA-2 is clearly defined, having a global fold of a hairpin that is terminated on one end by the UUCG tetraloop. The RNA-2 aptamer was named by Milya Davlieva et al. in the article. The RNA-2 aptamer was the main aptamer sequence studied in the Structure article. Here, we utilized Ribodraw to complete the figure based on the 3D structure information<<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
+<p>5'-GGGAUGCUCAGUGAUCCUUCGGGAUAUCAGGGCAUCCC-3'</p>
+<img src="/images/2D/ribosomal_protein_S8_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Milya Davlieva et al. sovled the crystal structure, at 2.69 A resolution, of an RNA aptamer bound to Bacillus ribosomal S8 protein has been determined. The PDB ID of this structure is 4PDB<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Milya Davlieva et al. sovled the crystal structure, at 2.69 Å resolution, of an RNA aptamer bound to Bacillus ribosomal S8 protein has been determined. In the free state, the internal loop of the ribosomal protein S8 aptamer hairpin stem encompasses G-A, U-U and A-A mismatches, adopting an overall helical A-form geometry. For the purpose of binding Ribosomal protein S8, the internal loop undergoes a significant rearrangement of its secondary structure, giving rise to the formation of a base triple and a base quartet. The PDB ID of this structure is 4PDB<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ribosomal_protein_S8_aptamer_3D1.svg" alt="drawing" style="width:500px;height:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -201,39 +247,54 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
-  start_residue_number:1, 
+  start_residue_number:27, 
   end_residue_number:155, 
-  color:{r:0,g:128,b:128}
+  color:{r:133,g:39,b:181}
 },
 {
   struct_asym_id: 'I', 
   start_residue_number:1, 
+  end_residue_number:9, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'I', 
+  start_residue_number:10, 
+  end_residue_number:14, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'I', 
+  start_residue_number:15, 
   end_residue_number:15, 
-  color:{r:34,g:139,b:34}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'I', 
   start_residue_number:16, 
   end_residue_number:17, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'I', 
   start_residue_number:18, 
   end_residue_number:23, 
-  color:{r:34,g:139,b:34}
-},
-{
+  color:{r:8,g:69,b:149}
+}，{
   struct_asym_id: 'I', 
   start_residue_number:24, 
-  end_residue_number:26, 
-  color:{r:255,g:0,b:255}
-},
-{
+  end_residue_number:27, 
+  color:{r:241,g:125,b:7}
+},{
   struct_asym_id: 'I', 
-  start_residue_number:27, 
-  end_residue_number:38, 
-  color:{r:34,g:139,b:34}
+  start_residue_number:28, 
+  end_residue_number:29, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'I', 
+  start_residue_number:38, 
+  end_residue_number:9, 
+  color:{r:184,g:51,b:50}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -269,8 +330,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4PDB at 2.69 Å resolution. ribosomal S8 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with ribosomal S8 protein.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4PDB at 2.69 Å resolution. ribosomal S8 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with ribosomal S8 protein.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ribosomal_protein_S8_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -285,10 +345,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<font>Milya Davlieva et al. investigated the affinity of the RNA aptamer via EMSA and ITC experiments<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</font >
-<br><br>
+<p>Milya Davlieva et al. investigated the affinity of the RNA aptamer via EMSA (electrophoretic mobility shift assay) and ITC (isothermal titration calorimetry) experiments<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -312,38 +371,56 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>This entry includes small ribosomal subunit protein uS8 from bacteria, archaea and eukaryotes (in yeast, these proteins are also known as S22 and in vertebrates S15A). In Escherichia coli, uS8 is known to bind directly to 16S ribosomal RNA. Ribosomes are the particles that catalyse mRNA-directed protein synthesis in all organisms. Many ribosomal proteins, particularly those of the large subunit, are composed of a globular, surfaced-exposed domain with long finger-like projections that extend into the rRNA core to stabilise its structure. Most of the proteins interact with multiple RNA elements, often from different domains. In the large subunit, about 1/3 of the 23S rRNA nucleotides are at least in van der Waal's contact with protein, and L22 interacts with all six domains of the 23S rRNA. Proteins S4 and S7, which initiate assembly of the 16S rRNA, are located at junctions of five and four RNA helices, respectively. In this way proteins serve to organise and stabilise the rRNA tertiary structure. While the crucial activities of decoding and peptide transfer are RNA based, proteins play an active role in functions that may have evolved to streamline the process of protein synthesis. In addition to their function in the ribosome, many ribosomal proteins have some function 'outside' the ribosome.-----from Pfam</p></font>
+<p>40S ribosomal protein S8 is a protein that in humans is encoded by the RPS8 gene. Ribosomes, the organelles that catalyze protein synthesis, consist of a small 40S subunit and a large 60S subunit. Together these subunits are composed of 4 RNA species and approximately 80 structurally distinct proteins. This gene encodes a ribosomal protein that is a component of the 40S subunit. The protein belongs to the S8E family of ribosomal proteins.-----<a href="https://en.wikipedia.org/wiki/40S_ribosomal_protein_S8" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
-        <th onclick="sortTable(2)">MW</th>
-        <th onclick="sortTable(3)">Amino acids sequences</th>
+        <th onclick="sortTable(2)">Mass</th>
+        <th onclick="sortTable(3)">Protein sequence</th>
         <th onclick="sortTable(4)">PDB ID</th>
         <th onclick="sortTable(5)">GenBank</th>
       </tr>
   </thead>
     <tbody>
       <tr>
-        <td name="td0"><a href="https://www.uniprot.org/uniprotkb/P56209/entry" target="_blank" style="color:#520049"><b>P56209</b></a></td>
+        <td name="td0"><a href="https://www.uniprot.org/uniprotkb/Q81VR6/entry" target="_blank" style="color:#520049"><b>Q81VR6</b></a></td>
         <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR035987/" target="_blank" style="color:#520049"><b>IPR035987</b></a></td>
         <td name="td2">29.24 kDa</td>
-        <td name="td3">VMTDPIADMLTAIRNANMVRHEKLEVPASKIKREIAEILKREGFIRDYEYIEDNKQGILRIFLKYGPNERVITGLKRISKPGLRVYVKAHEVPRVLNGLGIAILSTSQGVLTDKEARQKGTGGEIIAYVIVMTDPIADMLTAIRNANMVRHEKLEVPASKIKREIAEILKREGFIRDYEYIEDNKQGILRIFLKYGPNERVITGLKRISKPGLRVYVKAHEVPRVLNGLGIAILSTSQGVLTDKEARQKGTGGEIIAYVI</td>
+        <td name="td3">
+         <div class="sequence-container">
+          <span class="sequence-text">GGPYLQ</span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">VMTDPIADMLTAIRNANMVRHEKLEVPASKIKREIAEILKREGFIRDYEYIEDNKQGILRIFLKYGPNERVITGLKRISKPGLRVYVKAHEVPRVLNGLGIAILSTSQGVLTDKEARQKGTGGEIIAYVIVMTDPIADMLTAIRNANMVRHEKLEVPASKIKREIAEILKREGFIRDYEYIEDNKQGILRIFLKYGPNERVITGLKRISKPGLRVYVKAHEVPRVLNGLGIAILSTSQGVLTDKEARQKGTGGEIIAYVI</span>
+        </div>
+      </td>
         <td name="td4"><a href="https://www.rcsb.org/structure/1SEI" target="_blank" style="color:#520049"><b>1SEI</b></a></td>
         <td name="td5"><a href="https://www.ncbi.nlm.nih.gov/gene/947802" target="_blank" style="color:#520049"><b>947802</b> </a></td>
       </tr>
 	  </tbody>
   </table>
  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/ribosomal_protein_S8_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/ribosomal_protein_S8_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and selected the previous information with high similarity for presentation.The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p></font>
+<p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and selected the previous information with high similarity for presentation.</p>
+
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -354,6 +431,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
   </thead>
     <tbody>
+      <tr>
+        <td name="td1">1SEI-A</td>
+        <td name="td2">28</td>
+        <td name="td3">0</td>
+        <td name="td4">Original chain</td>
+      </tr>
       <tr>
         <td name="td1">3RF2-A</td>
         <td name="td2">18.5</td>
@@ -408,12 +491,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td3">2.4</td>
         <td name="td4">endonuclease muts2</td>
       </tr>
-      <tr>
-        <td name="td1">2A1S-C</td>
-        <td name="td2">6.3</td>
-        <td name="td3">2.8</td>
-        <td name="td4">poly(A)-specific ribonnuclease</td>
-      </tr>
 	  </tbody>
   </table>
 <br>
@@ -436,7 +513,7 @@ Davlieva, M., Donarski, J., Wang, J., Shamoo, Y., & Nikonowicz, E. P.<br />
                 
 <a id="ref3"></a><font><strong>[3] The intrinsic flexibility of the aptamer targeting the ribosomal protein S8 is a key factor for the molecular recognition.</strong></font><br />
 Autiero, I., Ruvo, M., Improta, R., & Vitagliano, L.<br />
-<a href="https://www.sciencedirect.com/science/article/pii/S030441651830028X" target="_blank" style="color:#520049"> Biochimica et Biophysica Acta (BBA)-General Subjects, 1862(4), 1006-1016. (2018)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/29413905/" target="_blank" style="color:#520049"> Biochimica et Biophysica Acta (BBA)-General Subjects, 1862(4), 1006-1016. (2018)</a>
 <br />
                 
 <a id="ref4"></a><font><strong>[4] Modelling aptamers with nucleic acid mimics (NAM): From sequence to three-dimensional docking.</strong></font><br />
@@ -448,3 +525,31 @@ Oliveira, R., Pinho, E., Sousa, A. L., Dias, Ó., Azevedo, N. F., & Almeida, C.<
 Pavan, M., Bassani, D., Sturlese, M., & Moro, S.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/36458023/" target="_blank" style="color:#520049">NAR genomics and bioinformatics, 4(4), lqac088. (2022)</a>
 <br />     
+
+
+
+
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>
