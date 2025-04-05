@@ -1285,10 +1285,10 @@ This section lists all the experimentally validated aptamers.
       </tr>   
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NOX-E36-L-aptamer" target="_blank" style="color:#520049"><b>NOX-E36 L-aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/L-CCL2-aptamer" target="_blank" style="color:#520049"><b>L-CCL2 aptamer</b></a></td>
         <td name="td2">L-CCL2</td>
-        <td name="td3">L-CCL2(Chemokine C-C Motif Ligand 2), also known as monocyte chemoattractant protein 1 (MCP1) or small inducible cytokine A2 (SCYA2), is a protein classified as a chemotactic cytokine or chemokine. MCP1 binds to the chemokine receptors CCR2 and CCR5. CCL2 belongs to the CC chemokine family, small soluble proteins whose main function is to regulate cell trafficking and that act as molecular signals to induce cellular migration during inflammation.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25970072/" target="_blank" style="color:#520049"><b>2015</b> </a></td>
+        <td name="td3">C-C motif chemokine 2 (L-CCL2), also referred to as monocyte chemoattractant protein 1 (MCP1) or small inducible cytokine A2 (SCYA2), is a protein categorized as a chemotactic cytokine or chemokine. CCL2, a member of the CC chemokine family, is composed of small soluble proteins that primarily function to regulate cell trafficking.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18776253/" target="_blank" style="color:#520049"><b>2008</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/4R8I" target="_blank" style="color:#520049"><b>4R8I</b></a></td>
       </tr> 
       <tr>
