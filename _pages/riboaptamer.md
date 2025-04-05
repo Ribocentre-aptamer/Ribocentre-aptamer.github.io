@@ -1261,10 +1261,10 @@ This section lists all the experimentally validated aptamers.
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/A9g-RNA-aptamer" target="_blank" style="color:#520049"><b>A9g RNA aptamer</b></a></td>
-        <td name="td2">human glutamate carboxypeptidase II (GCPII)</td>
-        <td name="td3">A9g is a 43-bp PSMA-specific RNA aptamer, that was determined to the 2.2 Å resolution limit. The analysis of the PSMA/aptamer interface allows for identification of key interactions critical for nanomolar binding affinity and high selectivity of A9g for human PSMA. Combined with in silico modeling, site-directed mutagenesis, inhibition experiments and cell-based assays, the structure also provides an insight into structural changes of the aptamer and PSMA upon complex formation, mechanistic explanation for inhibition of the PSMA enzymatic activity by A9g as well as its ligand-selective competition with small molecules targeting the internal pocket of the enzyme.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32525981/" target="_blank" style="color:#520049"><b>2020</b> </a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/PSMA-aptamer" target="_blank" style="color:#520049"><b>PSMA aptamer</b></a></td>
+        <td name="td2">Prostate-specific membrane antigen (PSMA)</td>
+        <td name="td3">Prostate-specific membrane antigen (PSMA) is a membrane-tethered glycoprotein naturally expressed in various tissues, including the central nervous system, kidney, small intestine and liver. PSMA is overexpressed on the surface of prostate cancer (PCa) cells compared to the limited expression levels observed in healthy prostate tissue, and this overexpression is significantly correlated to poor disease prognosis.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12124337/" target="_blank" style="color:#520049"><b>2002</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6RTI" target="_blank" style="color:#520049"><b>6RTI</b> </a></td>
       </tr>  
       <tr>
