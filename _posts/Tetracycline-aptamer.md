@@ -142,7 +142,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/11557342/" target="_blank" style="color:#520049">2001</a></h3>
     </div>
     <div class="body">
-      <p>Aptamers are isolated out for the first time<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>Aptamers are isolated for the first time<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -150,7 +150,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12655001/" target="_blank" style="color:#520049">2003</a></h3>
     </div>
     <div class="body">
-      <p>Tetracycline aptamers have been found to play an important role in regulating gene expression at the yeast translation initiation level<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+      <p>Tetracycline aptamers have been found to play a significant role in regulating gene expression at the level of yeast translation initiation<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -167,6 +167,30 @@ categories: Aptamer
     </div>
     <div class="body">
       <p>Preliminary exploration of the structure of tetracycline aptamers<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/15723047/" target="_blank" style="color:#520049">2005</a></h3>
+    </div>
+    <div class="body">
+      <p>Tetracycline aptamers are utilised in trans-acting modulation devices<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16707663/" target="_blank" style="color:#520049">2006</a></h3>
+    </div>
+    <div class="body">
+      <p>Tetracycline aptamer structure was characterized by thermodynamics<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/17567606/" target="_blank" style="color:#520049">2007</a></h3>
+    </div>
+    <div class="body">
+      <p>The tetracycline aptamer to be used for the control of pre-mRNA splicing<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -201,6 +225,14 @@ categories: Aptamer
       <p>The tetracycline aptamer control of translation initiation was demonstrated in the methanogenic archaeon Methanosarcina acetivorans<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
     </div>
   </div>
+  <div class="entry">
+    <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25517161/" target="_blank" style="color:#520049">2014</a></h3>
+    </div>
+    <div class="body">
+      <p>Tetracycline binds to the aptamer as a magnesium chelate<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup></p>
+    </div>
+  </div>
    <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/27595406/" target="_blank" style="color:#520049">2016</a></h3>
@@ -214,7 +246,23 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/27994029/" target="_blank" style="color:#520049">2017</a></h3>
     </div>
     <div class="body">
-      <p>Demonstrated by predicting the secondary structure methodAddition of tetracycline induced the formation of the tetracycline aptamer, opening the terminator structure and allowing transcription <sup>[<a href="#ref16" style="color:#520049">16</a>]</sup></p>
+      <p>Demonstrated by predicting the secondary structure method addition of tetracycline induced the formation of the tetracycline aptamer, opening the terminator structure and allowing transcription<sup>[<a href="#ref16" style="color:#520049">16</a>]</sup></p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29420816/" target="_blank" style="color:#520049">2018</a></h3>
+    </div>
+    <div class="body">
+      <p>A cassette exon was designed that could be either retained or skipped by addition of tetracycline via the insertion of the aptamer near the 3’ splice site of the cassette exon<sup>[<a href="#ref17" style="color:#520049">17</a>]</sup></p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30337459/" target="_blank" style="color:#520049">2019</a></h3>
+    </div>
+    <div class="body">
+      <p>Magnesium ion concentrations were found to alter the conformation of tetracycline aptamers<sup>[<a href="#ref18" style="color:#520049">18</a>]</sup></p>
     </div>
   </div>
    <div class="entry">
@@ -230,7 +278,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/32024835/" target="_blank" style="color:#520049">2020</a></h3>
     </div>
     <div class="body">
-      <p> Use high-throughputapproach found tetracycline aptamer was also attached to the twister ribozyme<sup>[<a href="#ref20" style="color:#520049">20</a>]</sup></p>
+      <p>Used high-throughputapproach found tetracycline aptamer was also attached to the twister ribozyme<sup>[<a href="#ref20" style="color:#520049">20</a>]</sup></p>
     </div>
   </div>
    <div class="entry">
@@ -238,7 +286,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37459466/" target="_blank" style="color:#520049">2023</a></h3>
     </div>
     <div class="body">
-      <p>The  aptamer has proven to be well suited for riboswitch engineering<sup>[<a href="#ref21" style="color:#520049">21</a>]</sup></p>
+      <p>The aptamer has proven to be well suited for riboswitch engineering<sup>[<a href="#ref21" style="color:#520049">21</a>]</sup></p>
     </div>
   </div>
    <div class="entry">
@@ -431,7 +479,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3EGZ by X-ray. Tetracycline(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Tetracycline.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3EGZ by X-ray. Tetracycline(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with tetracycline.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/tetracycline_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -467,7 +515,7 @@ categories: Aptamer
 	  </tbody>
   </table>
   </div-->
-  <img src="/images/SELEX_ligand/tetracycline_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
+  <img src="/images/SELEX_ligand/Tetracycline_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
@@ -495,25 +543,27 @@ categories: Aptamer
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/tetracycline" target="_blank" style="color:#520049"><b>54675776</b></a></td>
         <td name="td1">C<sub>22</sub>H<sub>24</sub>N<sub>2</sub>O<sub>8</sub></td>
         <td name="td2">444.4 g/mol</td>
-        <td name="td3">60-54-8</td>
-        <td name="td4">700 mg/L(H2O, at 20℃)</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=60-54-8" target="_blank" style="color:#520049"><b>60-54-8</b></a></td>
+        <td name="td4">700 mg/L(H2O, at 20 °C)</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00759" target="_blank" style="color:#520049"><b>DB00759</b> </a></td>
       </tr>
 	  </tbody>
   </table>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tetracycline_stru_ligand2.svg" alt="drawing" style="width:400px;height:400px;"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tetracycline_stru_ligand1.svg" alt="drawing" style="width:400px;height:400px;"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tetracycline_stru_ligand2.svg" alt="drawing" style="width:400px;height:400px;"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
                     
-<p class="blowheader_box">Similar compound</p>
+<p class="blowheader_box">Similar compound(s)</p>
 <p>We screened compounds with a high degree of similarity to tetracycline using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and presented some of the compounds' structural diagrams. For certain CAS numbers that were not available, we will augment them with PubChem CIDs.</p>
+
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
-<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -526,87 +576,87 @@ categories: Aptamer
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC100303073</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100303073/" target="_blank" style="color:#520049"><b>ZINC100303073</b></a></td>
         <td name="td2">Tetracycline ,(S)</td>
-        <td name="td3">65517-29-5</td>
-        <td name="td4">54685515</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=65517-29-5" target="_blank" style="color:#520049"><b>65517-29-5</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54685515" target="_blank" style="color:#520049"><b>54685515</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100303062</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100303062/" target="_blank" style="color:#520049"><b>ZINC100303062</b></a></td>
         <td name="td2">(4S,4aR,5aR,6S,12aR)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">54741712</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54741712" target="_blank" style="color:#520049"><b>54741712</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100303069</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100303069/" target="_blank" style="color:#520049"><b>ZINC100303069</b></a></td>
         <td name="td2">Tetracycline zwitterion</td>
         <td name="td3">NA</td>
-        <td name="td4">51580080</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/51580080" target="_blank" style="color:#520049"><b>51580080</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100303060</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100303060/" target="_blank" style="color:#520049"><b>ZINC100303060</b></a></td>
         <td name="td2">(4S,4aR,5aS,6S,12aR)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">54685767</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54685767" target="_blank" style="color:#520049"><b>54685767</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC199039904</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC199039904/" target="_blank" style="color:#520049"><b>ZINC199039904</b></a></td>
         <td name="td2">(4S,4aS,5aS,6R,12aR)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">54676644</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54676644" target="_blank" style="color:#520049"><b>54676644</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC199362416</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC199362416/" target="_blank" style="color:#520049"><b>ZINC199362416</b></a></td>
         <td name="td2">(4S,4aS,5aR,6R,12aS)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">124349182</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/124349182" target="_blank" style="color:#520049"><b>124349182</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC198562314</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC198562314/" target="_blank" style="color:#520049"><b>ZINC198562314</b></a></td>
         <td name="td2">(4S,4aR,5aR,6R,12aS)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">99866033</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/99866033" target="_blank" style="color:#520049"><b>99866033</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC199057634</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC199057634/" target="_blank" style="color:#520049"><b>ZINC199057634</b></a></td>
         <td name="td2">(4S,4aS,5aS,6R,12aS)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">54677780</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54677780" target="_blank" style="color:#520049"><b>54677780</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC198562282</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC198562282/" target="_blank" style="color:#520049"><b>ZINC198562282</b></a></td>
         <td name="td2">(4S,4aR,5aS,6R,12aS)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">54717006</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54717006" target="_blank" style="color:#520049"><b>54717006</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC198633879</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC198633879/" target="_blank" style="color:#520049"><b>ZINC198633879</b></a></td>
         <td name="td2">Epitetracycline</td>
         <td name="td3">NA</td>
-        <td name="td4">54682506</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54682506" target="_blank" style="color:#520049"><b>54682506</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound10.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100026355</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100026355/" target="_blank" style="color:#520049"><b>ZINC100026355</b></a></td>
         <td name="td2">Oxytetracycline</td>
         <td name="td3">NA</td>
-        <td name="td4">54675779</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/54675779" target="_blank" style="color:#520049"><b>54675779</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound11.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC199082002</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC199082002/" target="_blank" style="color:#520049"><b>ZINC199082002</b></a></td>
         <td name="td2">(4R,4aR,5aR,6R,12aS)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide</td>
         <td name="td3">NA</td>
-        <td name="td4">122172551</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/122172551" target="_blank" style="color:#520049"><b>122172551</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tetracycline_Simi_compound12.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
