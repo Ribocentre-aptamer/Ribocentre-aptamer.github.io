@@ -768,9 +768,9 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Streptomycin-RNA-Aptamer" target="_blank" style="color:#520049"><b>Streptomycin-RNA Aptamer</b></a></td>
-        <td name="td2">Streptomycin</td>
-        <td name="td3">Streptomycin is an antibiotic medication used to treat a number of bacterial infections, including tuberculosis, Mycobacterium avium complex, endocarditis, brucellosis, Burkholderia infection, plague, tularemia, and rat bite fever. For active tuberculosis it is often given together with isoniazid, rifampicin, and pyrazinamide. It is administered by injection into a vein or muscle.</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Streptomycin-aptamer" target="_blank" style="color:#520049"><b>Streptomycin aptamer</b></a></td>
+        <td name="td2">Streptomycin (STR)</td>
+        <td name="td3">Streptomycin (STR) is an antibiotic medication used to treat a number of bacterial infections, including tuberculosis, Mycobacterium avium complex, endocarditis, brucellosis, burkholderia infection, plague, tularemia, and rat bite fever. For active tuberculosis it is often given together with isoniazid, rifampicin, and pyrazinamide. It is administered by injection into a vein or muscle.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9436913/" target="_blank" style="color:#520049"><b>1998</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1NTA" target="_blank" style="color:#520049"><b>1NTA</b></a></td>
       </tr>
@@ -778,9 +778,9 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Theophylline-aptamer" target="_blank" style="color:#520049"><b>Theophylline aptamer</b></a></td>
         <td name="td2">Theophylline</td>
-        <td name="td3">Theophylline, also known as 1,3-dimethylxanthine, is a drug that inhibits phosphodiesterase and blocks adenosine receptors. It is used to treat chronic obstructive pulmonary disease (COPD) and asthma. It is pharmacology is similar to other methylxanthine drugs (e.g., theobromine and caffeine).</td>
+        <td name="td3">Theophylline, also known as 1,3-dimethylxanthine, is a drug that inhibits phosphodiesterase and blocks adenosine receptors. It is used to treat chronic obstructive pulmonary disease (COPD) and asthma. It is pharmacology is similar to other methylxanthine drugs (e.g., theobromine and caffeine)</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7510417/" target="_blank" style="color:#520049"><b>1994</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/1EHT" target="_blank" style="color:#520049"><b>1EHT</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/1EHT" target="_blank" style="color:#520049"><b>1EHT</b></a><br><a href="https://www.rcsb.org/structure/8D28" target="_blank" style="color:#520049"><b>8D28</b></a></td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
