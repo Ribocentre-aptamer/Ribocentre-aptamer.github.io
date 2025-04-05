@@ -502,7 +502,7 @@ categories: Aptamer
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2153" target="_blank" style="color:#520049"><b>2153</b></a></td>
         <td name="td1">C<sub>7</sub>H<sub>8</sub>N<sub>4</sub>O<sub>2</sub></td>
         <td name="td2">180.16 g/mol</td>
-        <td name="td3">58-55-9</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=58-55-9" target="_blank" style="color:#520049"><b>58-55-9</b></a></td>
         <td name="td4">7360mg/L (at 25 °C)</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00277" target="_blank" style="color:#520049"><b>DB00277</b> </a></td>
       </tr>
