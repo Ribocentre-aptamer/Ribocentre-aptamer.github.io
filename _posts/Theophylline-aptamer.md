@@ -2,7 +2,7 @@
 layout: post
 title:  "Theophylline aptamer"
 date:   2024-04-24 00:00:00
-author: Linfei Li, Yuhang Luo
+author: Linfei Li, Jiali Wang
 categories: Aptamer
 ---
 <html>
@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -228,20 +240,28 @@ categories: Aptamer
       <p>New theophylline-reactive aptamers are screened from a synthetic library in Escherichia coli<sup>[<a href="#ref17" style="color:#520049">17</a>]</sup></p>
     </div>
   </div>
+  <div class="entry">
+    <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/36413497/" target="_blank" style="color:#520049">2022</a></h3>
+    </div>
+    <div class="body">
+      <p>The structure of the aptamer, both in isolation and in complex with theophylline and the four best hits, was determined by X-ray crystallography<sup>[<a href="#ref30" style="color:#520049">30</a>]</sup></p>
+    </div>
+  </div>
 </div>
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1994, Zimmermann et al. used SELEX to screen the solution structures of high-affinity RNA aptamers with theophylline. in1997 the interaction of RNA structures in the ligand-binding site was visualised using NMR techniques. in1998 it was found that U27 and G27 RNAs bound theophylline with low affinity (Kd values > 4 μM). the NMR spectra of U27 RNA showed the presence of an A7-U27 base pair in the free RNA that prevented the formation of a key base platform motif. NMR spectroscopy of U27 RNA revealed the presence of the A7-U27 base pair in free RNA, which prevented the formation of structural motifs in the critical base platform, and these interactions inhibited theophylline binding<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1994, Polisky, B. et al. used SELEX to screen for high-affinity RNA aptamers with theophylline-binding solution structures. In 1997, NMR techniques visualised the interaction of RNA structures in the ligand-binding site. In 1998, it was found that U27 and G27 RNAs bound theophylline with low-affinity (Kd values > 4 μM). NMR spectroscopy of U27 RNA revealed an A7-U27 base pair in the free RNA, which prevented the formation of a key structural motif in the critical base platform and thus inhibited theophylline binding. In 2022, the crystal structure of the theophylline aptamer was resolved<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref30" style="color:#520049">30</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Robert D. Jenison et al. used SELEX to screen for RNA molecules with affinity for theophylline, generated a pool of 1014 RNA molecules that contain a 40-nucleotide region of random sequence. The RNA pool was added to a Sepharose column to which 1-carboxypropyl theophylline was covalently cross-linked. Bound RNA was eluted by the addition of 0.1 M theophylline. The eluted RNA was converted to DNA and amplified by polymerase chain reaction (PCR) as described<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 1994, Polisky, B et al. used SELEX to identify RNA molecules with an affinity for theophylline. They created a pool of 10<sup>14</sup> RNA molecules, each comprising a 40-nucleotide region of random sequence. The RNA pool was then introduced to a Sepharose column that had 1-carboxypropyl theophylline covalently cross-linked to it. The bound RNA was subsequently eluted by adding 0.1 M theophylline. The eluted RNA was then converted to DNA and amplified via polymerase chain reaction (PCR), following the described procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>  
 
@@ -249,15 +269,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. TCT8-4 was the aptamer sequence mainly studied in SELEX article.<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p></font>
-<font><p>5'-GGCAUACCAGCCGAAAGGCCCUUGGCAGCGUC-3'</p></font>
-<img src="/images/2D/Theophylline_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>In 1997, Pardi.A. et al. obtained multiple different RNA sequences through in vitro selection procedures, including the SELEX technique, and designed a high-affinity RNA aptamer after comparing the information of these sequences. The RNA aptamer is characterised by a sequence that forms a distinct secondary structure, as illustrated in the subsequent diagrams. Here we used RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>5'-GGCAUACCAGCCGAAAGGCCCUUGGCAGCGUC-3'</p>
+<img src="/images/2D/Theophylline_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Zimmermann et al, by using NMR and X-PLOR 3.113 calculations, demonstrated the solution structure of the high-affinity RNA theophylline complex, with the C27 nucleotide being the key residue that recognizes theophylline and distinguishes it from caffeine, which has a PDB ID of 1EHT<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 1997, Pardi.A. et al. used NMR and X-PLOR 3.113 calculations to demonstrate the solution structure of a high-affinity RNA-theophylline complex, where the C27 nucleotide was identified as the key residue for recognising theophylline and discriminating it from caffeine. The PDB ID for the NMR structure of the RNA-theophylline complex is 1EHT. In 2022, Rogers.J. et al. determined the crystal structure of an RNA aptamer-theophylline complex. Owing to the high similarity between the solved NMR 3D structure and the following crystal 3D structure, only the crystal 3D structure is presented here. The PDB ID for the crystal structure of the theophylline aptamer is 8D28<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref30" style="color:#520049">30</a></sup><sup>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Theophylline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -314,81 +335,74 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
              {
   struct_asym_id: 'A',    
   start_residue_number:1, 
-  end_residue_number:1, 
-  color:{r:10,g:11,b:255}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:2, 
-  end_residue_number:4, 
-  color:{r:50,g:205,b:50}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:5, 
-  end_residue_number:7, 
-  color:{r:50,g:205,b:50}
+  end_residue_number:5, 
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:8, 
-  end_residue_number:9, 
-  color:{r:9,g:254,b:254}
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:13, 
-  end_residue_number:15, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:10, 
-  end_residue_number:19, 
-  color:{r:194,g:194,b:255}
-},{
-   struct_asym_id: 'A', 
-  start_residue_number:20, 
+  start_residue_number:9, 
   end_residue_number:21, 
-  color:{r:9,g:254,b:254}
-},{
+  color:{r:184,g:51,b:50}
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:22, 
   end_residue_number:22, 
-  color:{r:255,g:0,b:255}
-},{
-   struct_asym_id: 'A', 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:23, 
   end_residue_number:23, 
-  color:{r:9,g:254,b:254}
-},{
-  struct_asym_id: 'A',    
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:24, 
   end_residue_number:24, 
-  color:{r:255,g:0,b:255}
-},{
-  struct_asym_id: 'A',    
+  color:{r:241,g:125,b:7}
+},
+{
+   struct_asym_id: 'A', 
   start_residue_number:25, 
+  end_residue_number:25, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:26, 
   end_residue_number:26, 
-  color:{r:9,g:254,b:254}
-},{
-  struct_asym_id: 'A',    
+  color:{r:46,g:161,b:3}
+},
+{
+   struct_asym_id: 'A', 
   start_residue_number:27, 
-  end_residue_number:29, 
-  color:{r:50,g:205,b:50}
-},{
+  end_residue_number:27, 
+  color:{r:194,g:182,b:23}
+},
+{
   struct_asym_id: 'A',    
-  start_residue_number:30, 
-  end_residue_number:32, 
-  color:{r:50,g:205,b:50}
-},{
+  start_residue_number:28, 
+  end_residue_number:28, 
+  color:{r:46,g:161,b:3}
+},
+{
   struct_asym_id: 'A',    
-  start_residue_number:33, 
+  start_residue_number:29, 
   end_residue_number:33, 
-  color:{r:10,g:11,b:255}
-},{
-  struct_asym_id: 'C',    
-  start_residue_number:34, 
-  end_residue_number:34, 
-  color:{r:255,g:255,b:0}
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'B',    
+  start_residue_number:101, 
+  end_residue_number:101, 
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -402,7 +416,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/1THE.pdb',
+        url:'/pdbfiles/WJL-8d28.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
@@ -424,8 +438,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1EHT by NMR. Theophylline (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with theophylline.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8D28 by X-ray Crystallography. Theophylline (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Theophylline.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Theophylline_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -440,11 +453,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p> 
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Zimmermann et al. The binding properties of specific RNAs obtained from the theophylline SELEX experiments were determined by using SELEX, PCR, counter-SELEX. by equilibrium filtration analyses using Equilibrium filtration analysis was performed on theophylline, a 38-nucleotide truncated version of TCT8-4 RNA and theophylline, TCT8-4 RNA (mTCT8-4) to determine the minimum requirement for high-affinity binding to theophylline. Minimum requirement for high affinity binding to theophylline. This RNA interacts with theophylline with a Kd of 0.1uM, confirming that all structural determinants required for theophylline binding are contained in this truncated RNA<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</font >
-<br><br>
+<p>To determine the dissociation constants (Kd) of the theophylline aptamer and its ligands, the RNA was synthesised with a Cy5 fluorophore at the 3' end. Strand invasion assays were conducted by incubating the labelled aptamer with a complementary oligonucleotide carrying a fluorescence quencher. The fluorescence changes were measured upon the addition of various compounds, and the data were fitted to determine the IC50 values, which served as an estimate of Kd. Surface plasmon resonance (SPR) was used for precise Kd determination, where the RNA aptamer was immobilised on a CM5 sensor chip via biotin and NeutrAvidin. The ligands were injected at varying concentrations, and the binding data were analysed to obtain Kd values. The compounds TAL1, TAL2, TAL3, and TAL4 were found to have Kd values of 0.0020, 0.0091, 0.023, and 0.28 µM, respectively, demonstrating higher affinity than theophylline (0.67 µM). Theophylline aptamer ligand 1 (TAL1), is an aminomethyl-substituted pteridinone that has a similar molecular weight as that of theophylline. The other three (TAL2, TAL3, and TAL4) have higher molecular weights, with differing substitutions of a common quinazolinone ring system<sup>[<a href="#ref30" style="color:#520049">30</a>]</sup>.</p>
 <!--div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -461,17 +473,24 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
   </div-->
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/Theophylline_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>A methylxanthine derivative from tea with diuretic, smooth muscle relaxant, bronchial dilation, cardiac and central nervous system stimulant activities. Mechanistically, theophylline acts as a phosphodiesterase inhibitor, adenosine receptor blocker, and histone deacetylase activator. Theophylline is marketed under several brand names such as Uniphyl and Theochron, and it is indicated mainly for asthma, bronchospasm, and COPD.-----From DrugBank</p></font>
+<p>A methylxanthine derivative from tea with diuretic, smooth muscle relaxant, bronchial dilation, cardiac and central nervous system stimulant activities. Mechanistically, theophylline acts as a phosphodiesterase inhibitor, adenosine receptor blocker, and histone deacetylase activator. Theophylline is marketed under several brand names such as Uniphyl and Theochron, and it is indicated mainly for asthma, bronchospasm, and COPD.-----From<a href="https://go.drugbank.com/drugs/DB00277" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -479,6 +498,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">Theophylline</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2153" target="_blank" style="color:#520049"><b>2153</b></a></td>
         <td name="td1">C<sub>7</sub>H<sub>8</sub>N<sub>4</sub>O<sub>2</sub></td>
         <td name="td2">180.16 g/mol</td>
@@ -496,13 +516,18 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 
 
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity totheophylline by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity totheophylline by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -510,66 +535,66 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC18043251</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC18043251/" target="_blank" style="color:#520049"><b>ZINC18043251</b></a></td>
         <td name="td2">Theophylline</td>
-        <td name="td3">58-55-9</td>
-        <td name="td4">2153</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=58-55-9" target="_blank" style="color:#520049"><b>58-55-9</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2153" target="_blank" style="color:#520049"><b>2153</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC13517144</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC13517144/" target="_blank" style="color:#520049"><b>ZINC13517144</b></a></td>
         <td name="td2">1-Methylxanthine</td>
-        <td name="td3">6136-37-4</td>
-        <td name="td4">80220</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=6136-37-4" target="_blank" style="color:#520049"><b>6136-37-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/80220" target="_blank" style="color:#520049"><b>80220</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4685854</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4685854/" target="_blank" style="color:#520049"><b>ZINC4685854</b></a></td>
         <td name="td2">3-Methylxanthine</td>
-        <td name="td3">1076-22-8</td>
-        <td name="td4">70639</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=1076-22-8" target="_blank" style="color:#520049"><b>1076-22-8</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/70639" target="_blank" style="color:#520049"><b>70639</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100018165</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100018165/" target="_blank" style="color:#520049"><b>ZINC100018165</b></a></td>
         <td name="td2">8-Chlorotheophylline</td>
-        <td name="td3">85-18-7</td>
-        <td name="td4">10661</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=85-18-7" target="_blank" style="color:#520049"><b>85-18-7</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/10661" target="_blank" style="color:#520049"><b>10661</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100005670</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100005670/" target="_blank" style="color:#520049"><b>ZINC100005670</b></a></td>
         <td name="td2">8-Bromotheophylline</td>
-        <td name="td3">10381-75-6</td>
-        <td name="td4">11808</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=10381-75-6" target="_blank" style="color:#520049"><b>10381-75-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11808" target="_blank" style="color:#520049"><b>11808</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1084</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1084/" target="_blank" style="color:#520049"><b>ZINC1084</b></a></td>
         <td name="td2">caffeine</td>
-        <td name="td3">21399</td>
-        <td name="td4">2519</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=21399" target="_blank" style="color:#520049"><b>21399</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2519" target="_blank" style="color:#520049"><b>2519</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8616085</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8616085/" target="_blank" style="color:#520049"><b>ZINC8616085</b></a></td>
         <td name="td2">3-Methylguanine</td>
-        <td name="td3">2958-98-7</td>
-        <td name="td4">76292</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=2958-98-7" target="_blank" style="color:#520049"><b>2958-98-7</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/76292" target="_blank" style="color:#520049"><b>76292</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100043983</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100043983/" target="_blank" style="color:#520049"><b>ZINC100043983</b></a></td>
         <td name="td2">1,3-Dimethyluric acid</td>
-        <td name="td3">944-73-0</td>
-        <td name="td4">70346</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=944-73-0" target="_blank" style="color:#520049"><b>944-73-0</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/70346" target="_blank" style="color:#520049"><b>70346</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC403604</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC403604/" target="_blank" style="color:#520049"><b>ZINC403604</b></a></td>
         <td name="td2">Isocaffeine</td>
-        <td name="td3">519-32-4</td>
-        <td name="td4">1326</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=519-32-4" target="_blank" style="color:#520049"><b>519-32-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1326" target="_blank" style="color:#520049"><b>1326</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Theophylline_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
@@ -724,4 +749,9 @@ Tamiev, D., Lantz, A., Vezeau, G., Salis, H., & Reuel, N. F.<br />
 <a id="ref29"></a><font><strong>[29] The Theophylline Aptamer: 25 Years as an Important Tool in Cellular Engineering Research.</strong></font><br />
 Wrist, A., Sun, W., & Summers, R. M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/32142605/" target="_blank" style="color:#520049" >ACS synthetic biology, 9(4), 682–697. (2020)</a>
+<br />
+
+<a id="ref30"></a><font><strong>[30] Discovery of small molecules that target a tertiary-structured RNA.</strong></font><br />
+Menichelli, E., Lam, B. J., Wang, Y., Wang, V. S., Shaffer, J., Tjhung, K. F., Bursulaya, B., Nguyen, T. N., Vo, T., Alper, P. B., McAllister, C. S., Jones, D. H., Spraggon, G., Michellys, P. Y., Joslin, J., Joyce, G. F., & Rogers, J.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/36413497/" target="_blank" style="color:#520049" >Proceedings of the National Academy of Sciences of the United States of America, 119(48), e2213117119. (2022)</a>
 <br />
