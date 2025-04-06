@@ -371,7 +371,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Structure ligand</p>
-<p>40S ribosomal protein S8 is a protein that in humans is encoded by the RPS8 gene. Ribosomes, the organelles that catalyze protein synthesis, consist of a small 40S subunit and a large 60S subunit. Together these subunits are composed of 4 RNA species and approximately 80 structurally distinct proteins. This gene encodes a ribosomal protein that is a component of the 40S subunit. The protein belongs to the S8E family of ribosomal proteins.-----<a href="https://en.wikipedia.org/wiki/40S_ribosomal_protein_S8" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
+<p>40S ribosomal protein S8 is a protein that in humans is encoded by the RPS8 gene. Ribosomes, the organelles that catalyze protein synthesis, consist of a small 40S subunit and a large 60S subunit. Together these subunits are composed of 4 RNA species and approximately 80 structurally distinct proteins. This gene encodes a ribosomal protein that is a component of the 40S subunit. The protein belongs to the S8E family of ribosomal proteins.-----From <a href="https://en.wikipedia.org/wiki/40S_ribosomal_protein_S8" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
 <p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
