@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "AML1 (RUNX1)-aptamer"
+title:  "AML1 (RUNX1) aptamer"
 date:   2024-04-03 00:00:00
-author: Baowei Huang，Yuxun Sun
+author: Baowei Huang, Yuxun Sun
 categories: Aptamer
 ---
 <html>
@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
 	    height:40px;
   }
   .box_style{
@@ -72,6 +75,48 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
 </style>
 </head>
 <br>
@@ -216,31 +261,31 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font>In 2000, J. Warren et al reported the 2.6 AÊ resolution crystal structure of the complex between the AML1 Runt domain and CBF. In 2003, Asou et al infered that pathways in AML1-associated leukemias that could be an important target for the development of new therapeutic agents. In 2009, L. Barton et al Isolated high-affinity aptamers that alter the affinity of RUNX1 for DNA and investigated their effects on DNA binding and CBF complex formation. In 2013,  Nomura et al., used nuclear magnetic resonance To understand the structural basis of recognition of the Runt domain by the aptamer motif; Fukunaga et al., Performed SELEX to obtain RNA aptamers that bind specifically to the AML1 protein to use as tools for better understanding AML1 and its potential utility for the diagnosis and treatment of AML1-related diseases.In 2016, Amano et al., Obtained high-affinity RNA aptamers against RD under highly stringent conditions. In 2019, Yang et al., modified approach can rapidly screen reliable, stable and high binding affinity aptamers for precise cancer treatment and successfully obtained the CD33-targeting aptamer S30, which could highly recognize the C2 domain of the CD33 antigen in vitro and in vivo<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2000, J. Warren et al. reported the crystal structure of the complex between the AML1 Runt domain and CBF at a resolution of 2.6 Å. In 2003, Asou et al. inferred that pathways associated with AML1 could be significant targets for the development of new therapeutic agents. In 2009, L. Barton et al. isolated high-affinity aptamers that modulate the affinity of RUNX1 for DNA and examined their effects on DNA binding and CBF complex formation. In 2013, Nomura et al. used nuclear magnetic resonance to elucidate the structural basis of Runt domain recognition by the aptamer motif, while Fukunaga et al. conducted SELEX to obtain RNA aptamers that bind specifically to the AML1 protein, thereby enhancing understanding of AML1 and its potential applications in the diagnosis and treatment of AML1-related diseases. In 2016, Amano et al. obtained high-affinity RNA aptamers against the Runt domain under highly stringent conditions. In 2019, Yang et al. developed a modified approach to rapidly screen for reliable, stable, and high-binding-affinity aptamers for precise cancer treatment, successfully obtaining the CD33-targeting aptamer S30, which demonstrated high recognition of the C2 domain of the CD33 antigen both in vitro and in vivo<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2013，Junichi Fukunaga and his teammates obtained RNA aptamers that bind specifically to the AML1 protein to use as tools for better understanding AML1 and its potential utility for the diagnosis and treatment of AML1-related diseases performing SELEX.Following nine rounds of selection, the 30N and 40N random RNA pools converged into eight and four independent sequences, respectively. SPR assays was used to test the aptamer–Runt–CBFβ ternary complex formation<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 2013, Junichi Fukunaga and his colleagues performed SELEX to obtain RNA aptamers that bind specifically to the AML1 protein. These aptamers were used as tools to enhance understanding of AML1 and its potential applications in the diagnosis and treatment of AML1-related diseases. After nine rounds of selection, the 30N and 40N random RNA pools converged into eight and four independent sequences, respectively. Surface plasmon resonance (SPR) assays were employed to test the formation of the aptamer–Runt–CBFβ ternary complex<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
 
 
-
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p></font>
-<font><p>5'-GGACCCACCACGGCGAGGUCCA-3'</p></font>
+<p>The name "Apt1-S2" appears in the article where Nomura, Y. has analyzed the structure. Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
+<p>5'-GGACCCACCACGGCGAGGUCCA-3'</p>
 <img src="/images/2D/AML1_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
+
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1)-aptamer) using nuclear magnetic resonance. Although structure of the Runt domain-aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. Therefore, we chose the complex structure of double-stranded DNA element(RDE) and AML1 to show it. His structural ID is 1HJC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1)-aptamer) using nuclear magnetic resonance(NMR). Although structure of the Runt domain-aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. The PDB ID of this structure is 2RRC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/AML1_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -297,65 +342,59 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                 {
   struct_asym_id: 'A', 
   start_residue_number:1, 
-  end_residue_number:5, 
-  color:{r:238,g:130,b:238}
+  end_residue_number:4, 
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:17, 
-  end_residue_number:21, 
-  color:{r:238,g:130,b:238}
+  start_residue_number:18, 
+  end_residue_number:22, 
+  color:{r:184,g:51,b:50}
 },{
   struct_asym_id: 'A', 
   start_residue_number:6, 
-  end_residue_number:6, 
-  color:{r:255,g:255,b:224}
+  end_residue_number:7, 
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:15, 
   end_residue_number:15, 
-  color:{r:255,g:255,b:224}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:8, 
-  end_residue_number:9, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:12, 
+  start_residue_number:13, 
   end_residue_number:13, 
-  color:{r:10,g:11,b:255}
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:17, 
+  end_residue_number:17, 
+  color:{r:241,g:125,b:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:7, 
-  end_residue_number:7, 
-  color:{r:211,g:211,b:211}
+  end_residue_number:8, 
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
-  start_residue_number:10, 
-  end_residue_number:11, 
-  color:{r:211,g:211,b:211}
+  start_residue_number:9, 
+  end_residue_number:12, 
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:14, 
   end_residue_number:14, 
-  color:{r:211,g:211,b:211}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:16, 
   end_residue_number:16, 
-  color:{r:211,g:211,b:211}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:22, 
-  end_residue_number:22, 
-  color:{r:211,g:211,b:211}
+  color:{r:46,g:161,b:3}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -391,7 +430,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<p>AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. TetR (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with TetR.</p>
+<p>This aptamer lacks a three-dimensional structure of its complex with the protein, but its binding site is similar to that of the RDE element-binding protein. We chose the complex structure of double-stranded DNA element(RDE) and AML1 to show it. The structural PDB ID is 1HJC. AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. AML1/RUNX1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with AML1/RUNX1.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/AML1_aptamer_binding_pockets1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -405,9 +444,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <br>
 
 
-<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<p>Fukunaga and his colleagues performed SELEX to obtain RNA aptamers against the Runt domain of AML1<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</p>
+<p>Fukunaga and his colleagues performed SELEX to obtain RNA aptamers against the Runt domain of AML1. Fukunaga, J. employed the surface plasmon resonance (SPR) method to calculate the dissociation constant Kd, which is determined as the ratio of the dissociation rate constant Kd_off to the association rate constant K_on, expressed as K_off/Kd_on. The Apt1-S2 aptamer is a truncated sequence of Apt1-S<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -423,33 +462,46 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td0">APt1</td>
         <td name="td1">5'-GGGACGCAAUGGACGACCCACCACGGCGAGGUAUCCCAUUGCCCCUAACGGCCGACAUGAGAG-3'</td>
         <td name="td3">AML1–Runt</td>
-        <td name="td4">3.6nM</td>
+        <td name="td4">3.6 nM</td>
       </tr>
       <tr>
         <td name="td0">Apt1-S</td>
         <td name="td1">5'-GGGAUGGACGACCCACCACGGCGAGGUAUCCCAUCCCA-3'</td>
         <td name="td3">AML1–Runt</td>
-        <td name="td4">0.99nM</td>
+        <td name="td4">0.99 nM</td>
+      </tr>
+      <tr>
+        <td name="td0">Apt1-S2</td>
+        <td name="td1">5'-GGACCCACCACGGCGAGGUCCA-3'</td>
+        <td name="td3">AML1–Runt</td>
+        <td name="td4">NA</td>
       </tr>
       <tr>
         <td name="td0">RDE</td>
         <td name="td1">5'-TCCCCAAACCGCAAACGAC-3'<br>3'-GTCGTTTGCGGTTTGGGGA-5'</td>
         <td name="td3">AML1–Runt</td>
-        <td name="td4">9.6nM</td>
+        <td name="td4">9.6 nM</td>
       </tr>
 	  </tbody>
   </table>
   </div>
 
+
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Runx1 is required for definitive hematopoiesis and is well-known for its frequent chromosomal translocations and point mutations in leukemia. Runx1 regulates a variety of genes via Ets1 activation on an Ets1•Runx1 composite DNA sequence.</p></font>
+<p>The Runt domain is an evolutionary conserved protein domain. The AML1/RUNX1 gene is rearranged by the t(8;21) translocation in acute myeloid leukemia.[2] The gene is highly similar to the Drosophila melanogaster segmentation gene runt and to the mouse transcription factor PEBP2 alpha subunit gene. The region of shared similarity, known as the Runt domain, is responsible for DNA-binding and protein-protein interaction.-----From <a href="https://en.wikipedia.org/wiki/Runt_domain" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
-        <th onclick="sortTable(2)">MW</th>
-        <th onclick="sortTable(3)">Amino acids sequences</th>
+        <th onclick="sortTable(2)">Mass</th>
+        <th onclick="sortTable(3)">Protein sequence</th>
         <th onclick="sortTable(4)">PDB ID</th>
         <th onclick="sortTable(5)">GenBank</th>
       </tr>
@@ -458,22 +510,34 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tr>
         <td name="td0"><a href="https://www.uniprot.org/uniprotkb/Q03347/entry" target="_blank" style="color:#520049"><b>Q03347</b></a></td>
         <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR013524/" target="_blank" style="color:#520049"><b>IPR013524</b></a></td>
-        <td name="td2">53.26 kDa</td>
-        <td name="td3">MRIPVDASTSRRFTPPSTALSPGKMSEALPLGAPDAGAALAGKLRSGDRSMVEVLADHPGELVRTDSPNFLCSVLPTHWRCNKTLPIAFKVVALGDVPDGTLVTVMAGNDENYSAELRNATAAMKNQVARFNDLRFVGRSGRGKSFTLTITVFTNPPQVATYHRAIKITVDGPREPRRHRQKLDDQTKPGSLSFSERLSELEQLRRTAMRVSPHHPAPTPNPRASLNHSTAFNPQPQSQMQDPNHKPKGTFKDYVRDRADLNKDKPVIPAAALAGYTGSGPIQLWQFLLELLTDKSCQSFISWTGDGWEFKLSDPDEVARRWGKRKNKPKMNYEKLSRGLRYYYDKNIIHKTAGKRYVYRFVCDLQSLLGYTPEELHAMLDVKPDADE</td>
+        <td name="td2">48.61 kDa</td>
+        <td name="td3">
+        <div class="sequence-container">
+          <span class="sequence-text">GGPYLQ</span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">MRIPVDASTSRRFTPPSTALSPGKMSEALPLGAPDGGPALASKLRSGDRSMVEVLADHPGELVRTDSPNFLCSVLPTHWRCNKTLPIAFKVVALGDVPDGTLVTVMAGNDENYSAELRNATAAMKNQVARFNDLRFVGRSGRGKSFTLTITVFTNPPQVATYHRAIKITVDGPREPRRHRQKLDDQTKPGSLSFSERLSELEQLRRTAMRVSPHHPAPTPNPRASLNHSTAFNPQPQSQMQDARQIQPSPPWSYDQSYQYLGSITSSSVHPATPISPGRASGMTSLSAELSSRLSTAPDLTAFGDPRQFPTLPSISDPRMHYPGAFTYSPPVTSGIGIGMSAMSSASRYHTYLPPPYPGSSQAQAGPFQTGSPSYHLYYGASAGSYQFSMVGGERSPPRILPPCTNASTGAALLNPSLPSQSDVVETEGSHSNSPTNMPPARLEEAVWRPY</span>
+        </div>
+      </td>
         <td name="td4"><a href="https://www.rcsb.org/structure/4L0Y" target="_blank" style="color:#520049"><b>4L0Y</b></a></td>
         <td name="td5"><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lvl=0&id=10090" target="_blank" style="color:#520049"><b>10090</b> </a></td>
       </tr>
 	  </tbody>
   </table>
  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/AML1_aptamer_stru_ligand.svg" alt="drawing" style="width:800px;height:300px;"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/AML1_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px;height:300px;"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
+
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -484,6 +548,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
   </thead>
     <tbody>
+      <tr>
+        <td name="td1">4L0Y-A</td>
+        <td name="td2">28</td>
+        <td name="td3">0</td>
+        <td name="td4">Runt-related transcription factor 1</td>
+      </tr>
       <tr>
         <td name="td1">4L0Z-A</td>
         <td name="td2">24.7</td>
@@ -537,12 +607,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td2">7</td>
         <td name="td3">3.4</td>
         <td name="td4">Putative n-acetylmuramoyl-l-alanine amidase,autol</td>
-      </tr>
-      <tr>
-        <td name="td1">3TP4-B</td>
-        <td name="td2">7</td>
-        <td name="td3">3.3</td>
-        <td name="td4">Computational design of enzyme</td>
       </tr>
 	  </tbody>
   </table>
@@ -626,3 +690,29 @@ Yang, C., , Wang, Y., , Ge, M. H., , Fu, Y. J., , Hao, R., , Islam, K., , Huang,
 Tan, Y., Li, Y., & Tang, F<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/31824168/" target="_blank" style="color:#520049">OncoTargets and therapy, 12, 10597–10613 (2019)</a>
 <br />
+
+
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>

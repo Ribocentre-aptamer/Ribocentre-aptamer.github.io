@@ -5,7 +5,6 @@ date:   2024-01-02 00:00:00
 author: Zhizhong Lu, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <title>横向排列的点击按钮</title>
@@ -35,7 +34,7 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
-   h1, .h1 {
+    h1, .h1 {
     font-size: 30px;
 }
   </style>
@@ -221,8 +220,8 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<p>In 1993, Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The 40-nt aptamer is characterized by a sequence that forms a distinct secondary structure, as illustrated in the subsequent diagram. Here we utilized RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
-<p>5'-GGGAAGGGAAGAAACUGCGGCUUCGGCCGGCUUCCC-3'</p>
+<p>In 1993, Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The 40-nt aptamer is characterized by a sequence that forms a distinct secondary structure, as illustrated in the subsequent diagram. Here we utilized RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>5'-GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC-3'</p>
 <img src="/images/2D/ATP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -231,7 +230,7 @@ categories: Aptamer
 <p class="blowheader_box">3D visualisation</p>             
 <p>In 1996, Roger A. Jones & Dinshaw J. Patel et al. presented the solution structure of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations. The PDB ID is 1AM0. Subsequently, T Dieckmann & J Feigon et al. presented the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, which was determined from NMR-derived distance and dihedral angle restraints. The PDB ID is 1RAW. Here, only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ATP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -390,12 +389,11 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution. These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
-Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<div style="display: flex; justify-content: center;">
+Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -418,15 +416,17 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
       </tr>
 	  </tbody>
   </table-->
-  </div>
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/ATP_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From <a href="https://go.drugbank.com/drugs/DB00131" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p></font>
+<p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From <a href="https://go.drugbank.com/drugs/DB00131" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
+
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -459,10 +459,12 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <div style="display: flex; justify-content: center;"></div>
                     
 <p class="blowheader_box">Similar compound(s)</p>
-<font><p>We screened compounds with a significant resemblance to AMP utilizing the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p></font>
+<p>We screened compounds with a significant resemblance to AMP utilizing the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p>
+
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
-<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
