@@ -253,7 +253,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/FAD_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -301,9 +301,11 @@ categories: Aptamer
 
 <p class="blowheader_box">Structure ligand</p>
 <p>FMN is a flavin mononucleotide that is riboflavin (vitamin B2) in which the primary hydroxy group has been converted to its dihydrogen phosphate ester. It has a role as a coenzyme, a bacterial metabolite, a human metabolite, a mouse metabolite and a cofactor. It is a vitamin B2 and a flavin mononucleotide. It is a conjugate acid of a FMN(3-).-----From <a href="https://pubchem.ncbi.nlm.nih.gov/compound/643976" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem</b></a></p>
+
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -338,9 +340,11 @@ categories: Aptamer
                     
 <p class="blowheader_box">Similar compound</p>
 <p>We screened the compounds with great similarity to Flavin adenine dinucleotide(FAD) by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p>
+
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
-<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
