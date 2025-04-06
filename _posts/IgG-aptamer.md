@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,48 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+.dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
 </style>
 </head>
 <br>
@@ -136,33 +181,32 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2008, Yamazaki, S., & Nakamura, Y. RNA aptamers against the Fc portion of human IgG1 subclass (hIgG1-Fc) were selected from a library of RNA sequences by modified SELEX with 2′-fluoro pyrimidines. In 2008, Nakamura, Y., & Matsumura, H. solved a crystal structure of an RNA aptamer bound to hIgG1-Fc，diffracted X-rays to 2.2 Å resolution. moreover, In 2012, they determined the 2.15 Å crystal structure of the Fc fragment of human IgG1 (hFc1) complexed with an anti-Fc RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In June 2008, Matsumura, H. et al selected RNA aptamers targeting the Fc portion of the human IgG1 subclass (hIgG1 - Fc) from an RNA sequence library. This selection process employed a modified Systematic Evolution of Ligands by EXponential enrichment (SELEX) method, incorporating 2′-fluoro pyrimidines. Subsequently, in October 2008, Nakamura, Y., and Matsumura, H. successfully resolved the crystal structure of an RNA aptamer bound to hIgG1-Fc. The X-rays diffracted to a resolution of 2.2 Å. Moreover, in 2010, they determined the 2.15 Å crystal structure of the Fc fragment of human IgG1 (hFc1) in complex with an anti-Fc RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2008, Yamazaki, S., & Nakamura, Y. RNA aptamers against the Fc portion of human IgG1 subclass (hIgG1-Fc) were selected from a library of 5 × 10<sup>14</sup> different RNA molecules randomized over 40 nucleotides (40N RNA pool) by modified SELEX with 2′-fluoro pyrimidines. After 10 rounds of selection, we obtained six sets of RNA sequences of 71–74 nucleotides (nt) long, Apt1 through Apt6<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 2008, Matsumura, H. et al used a modified SELEX method and RNA aptamers against the Fc portion of human IgG1 subclass (hIgG1-Fc) were selected from a library of 5 × 10<sup>14</sup> different RNA molecules randomized over 40 nucleotides (40N RNA pool) with 2′-fluoro pyrimidines. After 10 rounds of selection, we obtained six sets of RNA sequences of 71–74 nucleotides (nt) long, Apt1 through Apt6<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. Apt8 aptamer was the aptamer sequence studied in SELEX article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p></font>
-<font><p>5'-GGGAACAAAGCUGAAGUACUUACCC-3'</p></font>
-<img src="/images/2D/IgG_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;">   
-</div>
-<br>
+<p>Here we use ribodraw to complete the figure, through the 3D structure information. Apt8 aptamer was the aptamer sequence studied in SELEX article. And it was named by Matsumura, H<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
+<p>5'-GGGAACAAAGCUGAAGUACUUACCC-3'</p>
+<img src="/images/2D/IgG_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Nakamura, Y., & Matsumura, H. determined the crystal structure of Apt8-2 aptamer bound to the Fc fragment of human IgG1 at 2.15 Å resolution. The PDB ID of this structure is 3AGV. The final model, an asymmetric unit including homodimeric hFc1 residues 241–262, 272–296, 302–321 and 334–443 for chain A and 237–444 for chain B, two RNA aptamer molecules (G1-C11 and G16-C23 and G1-A24), two carbohydrate chains , two Ca2+ ions, and 254 water molecules<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Nakamura, Y., and Matsumura, H. determined the crystal structure of the Apt8-2 aptamer bound to the Fc fragment of human IgG1 at a resolution of 2.15 Å. The Protein Data Bank (PDB) ID for this structure is 3AGV. The final model within an asymmetric unit consists of homodimeric hFc1 residues: for chain A, residues 241–262, 272–296, 302–321, and 334–443; for chain B, residues 237–444. Additionally, it includes two RNA aptamer molecules (with sequences G1-C11, G16-C23, and G1-A24), two carbohydrate chains, two Ca²⁺ ions, and 254 water molecules<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/IgG_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -220,93 +264,123 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:241, 
   end_residue_number:443, 
-  color:{r:255,g:192,b:203}
+  color:{r:207,g:62, b:125}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:237, 
   end_residue_number:444, 
-  color:{r:255,g:192,b:203}
+  color:{r:207,g:62, b:125}
 },{
   struct_asym_id: 'C', 
   start_residue_number:1, 
   end_residue_number:4, 
-  color:{r:255,g:192,b:203}
+  color:{r:207,g:62, b:125}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:1, 
   end_residue_number:8, 
-  color:{r:255,g:192,b:203}
+  color:{r:207,g:62, b:125}
 },
 {
   struct_asym_id: 'S', 
   start_residue_number:1, 
   end_residue_number:3, 
-  color:{r:255,g:255,b:0}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'S', 
   start_residue_number:5, 
   end_residue_number:6, 
-  color:{r:255,g:255,b:0}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'S', 
   start_residue_number:8, 
+  end_residue_number:18, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'U', 
+  start_residue_number:1, 
+  end_residue_number:3, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'U', 
+  start_residue_number:5, 
+  end_residue_number:6, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'U', 
+  start_residue_number:8, 
+  end_residue_number:18, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'U', 
+  start_residue_number:4, 
+  end_residue_number:4, 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'U', 
+  start_residue_number:7, 
+  end_residue_number:7, 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'S', 
+  start_residue_number:7, 
+  end_residue_number:7, 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'S', 
+  start_residue_number:4, 
+  end_residue_number:4, 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'U', 
+  start_residue_number:9, 
+  end_residue_number:9, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'U', 
+  start_residue_number:19, 
+  end_residue_number:19, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'S', 
+  start_residue_number:9, 
+  end_residue_number:9, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'S', 
+  start_residue_number:19, 
+  end_residue_number:19, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'U', 
+  start_residue_number:20, 
   end_residue_number:23, 
-  color:{r:255,g:255,b:0}
-},{
-  struct_asym_id: 'U', 
-  start_residue_number:1, 
-  end_residue_number:3, 
-  color:{r:255,g:255,b:0}
-},{
-  struct_asym_id: 'U', 
-  start_residue_number:5, 
-  end_residue_number:6, 
-  color:{r:255,g:255,b:0}
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'S', 
+  start_residue_number:20, 
+  end_residue_number:23, 
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'U', 
-  start_residue_number:8, 
+  start_residue_number:24, 
   end_residue_number:24, 
-  color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'U', 
-  start_residue_number:4, 
-  end_residue_number:4, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'U', 
-  start_residue_number:7, 
-  end_residue_number:7, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'S', 
-  start_residue_number:7, 
-  end_residue_number:7, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'S', 
-  start_residue_number:4, 
-  end_residue_number:4, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'U', 
-  start_residue_number:25, 
-  end_residue_number:25, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'S', 
-  start_residue_number:25, 
-  end_residue_number:25, 
-  color:{r:10,g:11,b:255}
+  color:{r:192,g:192,b:192}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -342,8 +416,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3AGV at 2.15 Å resolution. the Fc fragment of human IgG1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with the Fc fragment of human IgG1.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3AGV at 2.15 Å resolution. the Fc fragment of human IgG1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with the Fc fragment of human IgG1.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/IgG_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -358,10 +431,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<font >The affinity of the selected aptamers to hIgG1-Fc was examined by surface plasmon resonance (SPR) using BIAcore 2000. We chose association rate constants 1(Ka1) and dissociation rate constants1(Kd1) to Calculate affinity constant (KD) in the document<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>. This result is for reference only.</font>
-<br><br>
+<p> Yamazaki, S., & Nakamura, Y. used the BIAcore 2000 to conduct surface plasmon resonance (SPR) detection for the affinity of the selected aptamers to hIgG1-Fc. The direct affinity constant (KD) value was not recorded in this article. Therefore, we selected the association rate constant 1 (Ka1) and dissociation rate constant 1 (Kd1) from the article to calculate the affinity constant (KD)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>. This result is for reference only.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -375,31 +447,31 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">apt2</td>
-        <td name="td1">AGUUACAGGUGCUCCAUCAACAAAAUGUUACAUGGAACUG</td>
+        <td name="td1">5'-AGUUACAGGUGCUCCAUCAACAAAAUGUUACAUGGAACUG-3'</td>
         <td name="td3">Human IgG1 Fc portion</td>
         <td name="td4">5.6 nM</td>
       </tr>
       <tr>
         <td name="td0">apt7</td>
-        <td name="td1">GGAGGUGCUCUGCGAGCCACGCGGAACUCC</td>
+        <td name="td1">5'-GGAGGUGCUCUGCGAGCCACGCGGAACUCC-3'</td>
         <td name="td3">Human IgG2 Fc portion</td>
         <td name="td4">7.5 nM</td>
       </tr>
       <tr>
         <td name="td0">apt8</td>
-        <td name="td1">GGAGGUGCUCCGAAAGGAACUCC(U and C are modified with fluorine)</td>
+        <td name="td1">5'-GGAGGUGCUCCGAAAGGAACUCC-3' (U and C are modified with fluorine)</td>
         <td name="td3">Human IgG3 Fc portion</td>
         <td name="td4">75 nM</td>
       </tr>
       <tr>
         <td name="td0">apt8-1</td>
-        <td name="td1">GGAGGUGCUCCGAAAGGAACUCC(U and C are modified with fluorine, some bases used deoxynucleotide)</td>
+        <td name="td1">5'-GGAGGUGCUCCGAAAGGAACUCC-3' (U and C are modified with fluorine, some bases used deoxynucleotide)</td>
         <td name="td3">Human IgG4 Fc portion</td>
         <td name="td4">25.5 nM</td>
       </tr>
       <tr>
         <td name="td0">apt8-2</td>
-        <td name="td1">GGAGGUGCUCCGAAAGGAACUCC(some U and C was modified with fluorine, some bases used deoxynucleotide)</td>
+        <td name="td1">5'-GGAGGUGCUCCGAAAGGAACUCC-3' (some U and C was modified with fluorine, some bases used deoxynucleotide)</td>
         <td name="td3">Human IgG5 Fc portion</td>
         <td name="td4">110 nM</td>
       </tr>
@@ -409,14 +481,20 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The basic structure of immunoglobulin (Ig) molecules is a tetramer of two light chains and two heavy chains linked by disulphide bonds. There are two types of light chains: kappa and lambda, each composed of a constant domain (CL) and a variable domain (VL). There are five types of heavy chains: alpha, delta, epsilon, gamma and mu, all consisting of a variable domain (VH) and three (in alpha, delta and gamma) or four (in epsilon and mu) constant domains (CH1 to CH4). Ig molecules are highly modular proteins, in which the variable and constant domains have clear, conserved sequence patterns. The domains in Ig and Ig-like molecules are grouped into four types: V-set, C1-set, C2-set and I-set. Structural studies have shown that these domains share a common core Greek-key β-sandwich structure, with the types differing in the number of strands in the β-sheets as well as in their sequence patterns.-----from Pfam(Interpro)</p></font>
+<p>The basic structure of immunoglobulin (Ig) molecules is a tetramer of two light chains and two heavy chains linked by disulphide bonds. There are two types of light chains: kappa and lambda, each composed of a constant domain (CL) and a variable domain (VL). There are five types of heavy chains: alpha, delta, epsilon, gamma and mu, all consisting of a variable domain (VH) and three (in alpha, delta and gamma) or four (in epsilon and mu) constant domains (CH1 to CH4). Ig molecules are highly modular proteins, in which the variable and constant domains have clear, conserved sequence patterns. The domains in Ig and Ig-like molecules are grouped into four types: V-set, C1-set, C2-set and I-set. Structural studies have shown that these domains share a common core Greek-key β-sandwich structure, with the types differing in the number of strands in the β-sheets as well as in their sequence patterns.-----From <a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF07654/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
-        <th onclick="sortTable(2)">MW</th>
-        <th onclick="sortTable(3)">Amino acids sequences</th>
+        <th onclick="sortTable(2)">Mass</th>
+        <th onclick="sortTable(3)">Protein sequence</th>
         <th onclick="sortTable(4)">PDB ID</th>
         <th onclick="sortTable(5)">GenBank</th>
       </tr>
@@ -424,23 +502,35 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0"><a href="https://www.uniprot.org/uniprotkb/P01857/entry#structure" target="_blank" style="color:#520049"><b>P01857</b></a></td>
-        <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR003597/" target="_blank" style="color:#520049"><b>IPR003597</b></a></td>
+        <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF07654/" target="_blank" style="color:#520049"><b>PF07654</b></a></td>
         <td name="td2">23.89 KDa</td>
-        <td name="td3">GPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK</td>
+        <td name="td3">
+        <div class="sequence-container">
+          <span class="sequence-text">GGPYLQ</span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">GPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK</span>
+        </div>
+      </td>
         <td name="td4"><a href="https://www.rcsb.org/structure/1FC1" target="_blank" style="color:#520049"><b>1FC1</b></a></td>
-        <td name="td5"><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lvl=0&id=9606" target="_blank" style="color:#520049"><b>9606</b> </a></td>
+        <td name="td5"><a href="https://www.ncbi.nlm.nih.gov/protein/AAC82527.1" target="_blank" style="color:#520049"><b>AAC82527.1</b></a></td>
       </tr>
 	  </tbody>
   </table>
  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/IgG_aptamer_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/IgG_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
+
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -545,3 +635,30 @@ Ma, J., Wang, M. G., Mao, A. H., Zeng, J. Y., Liu, Y. Q., Wang, X. Q., Ma, J., T
 <a href="https://pubmed.ncbi.nlm.nih.gov/23661463/" target="_blank" style="color:#520049">Genetics and molecular research : GMR, 12(2), 1399–1410. (2013)</a>
 <br />
 
+
+
+
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>
