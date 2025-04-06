@@ -2,7 +2,7 @@
 layout: post
 title:  "Thrombin aptamer"
 date:   2024-04-03 00:00:00
-author: Bichun Wu, Zhizhong Lu
+author: Zhizhong Lu
 categories: Aptamer
 ---
 <html>
@@ -34,6 +34,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +47,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,48 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
 </style>
 </head>
 <br>
@@ -153,16 +198,16 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1994, Kubik, M F et al. ystematic Evolution of Ligands by Exponential enrichment (SELEX) was used to isolate from a population of 10<sup>13</sup> RNA molecules two classes of high affinity RNAs that bind specifically to human α-thrombin. In 2001, Rebekah R White and Bruce A Sullenger obtained human and porcine thrombin RNA aptamers by alternating rounds of selection. In 2008, Long, Stephen B et al.present a crystal structure of an RNA aptamer bound to human thrombin, a protein that does not naturally bind nucleic acid, diffracted X-rays to 1.9 Å resolution<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1994, Tasset, D. et al. used the Systematic Evolution of Ligands by Exponential Enrichment (SELEX) method to isolate two classes of high-affinity RNAs from a population of 10<sup>13</sup> RNA molecules. These RNAs specifically bound to human α-thrombin. In 2001, Sullenger, B. obtained human and porcine thrombin RNA aptamers through alternating rounds of selection. In 2008, Sullenger, B. A. et al. presented the crystal structure of an RNA aptamer bound to human thrombin, a protein that does not naturally bind nucleic acids. The X-rays of this complex were diffracted to a resolution of 1.9 Å<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2001，In this study, Rebekah R White and Bruce A Sullenger conducted a rigorous screening process on a library comprising approximately 10<sup>14</sup> distinct RNA sequences to identify molecules exhibiting binding affinity towards both human and porcine thrombin. The initial round of in vitro selection involved incubating the RNA library with both human and porcine thrombin (FIIa). Subsequently, in the second round of selection, the enriched RNA library was exposed solely to human FIIa, and RNA molecules bound to this protein were recovered. In the third round, the human-centric RNA library was subjected to incubation with porcine FIIa, and the subset of RNAs demonstrating binding affinity towards the porcine protein was isolated. This iterative process led to the development of a refined library enriched with RNA sequences exhibiting conserved binding motifs between the FIIa homologues. This "toggle" selection strategy was replicated in rounds 4–13 of SELEX, alternating between human and porcine proteins in even and odd rounds, respectively. Simultaneously, 13 rounds of standard SELEX were conducted individually against human and porcine proteins for comparative analysis<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 2001, Sullenger, B. conducted a rigorous screening process on a library comprising approximately 10<sup>13</sup> distinct RNA sequences to identify molecules exhibiting binding affinity towards both human and porcine thrombin. The initial round of in vitro selection involved incubating the RNA library with both human and porcine thrombin (FIIa). Subsequently, in the second round of selection, the enriched RNA library was exposed solely to human FIIa, and RNA molecules bound to this protein were recovered. In the third round, the human-centric RNA library was subjected to incubation with porcine FIIa, and the subset of RNAs demonstrating binding affinity towards the porcine protein was isolated. This iterative process led to the development of a refined library enriched with RNA sequences exhibiting conserved binding motifs between the FIIa homologues. This "toggle" selection strategy was replicated in rounds 4–13 of SELEX, alternating between human and porcine proteins in even and odd rounds, respectively. Simultaneously, 13 rounds of standard SELEX were conducted individually against human and porcine proteins for comparative analysis<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>  
 
@@ -170,8 +215,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. Toggle-25t aptamer was the aptamer sequence mainly studied in SELEX article. fC/fU: 2′-F substituents. se: 2′-SeMe substituents. Fs2: 3′-phosphate replaced by a PS2 moiety<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p></font>
-<font><p>5'-GGGAACAAAGCUGAAGUACUUACCC-3'</p></font>
+<p>Here we use ribodraw to complete the figure, through the 3D structure information. Toggle-25t aptamer was named by Sullenger, B. AF113-18 aptamer was named by Xianbin Yang. Toggle-25t aptamer and AF113-18 aptamer are the same sequences. fC/fU: 2′-F substituents. se: 2′-SeMe substituents. Fs2: 3′-phosphate replaced by a PS2 moiety<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
+<p>5'-GGGAACAAAGCUGAAGUACUUACCC-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/thrombin_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -185,8 +230,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Long, Stephen B et al. determined the crystal structure of Toggle-25t aptamer bound to α-thrombin at 1.9 Å resolution. The PDB ID of this structure is 3DO2. Abeydeera, N Dinuka et al. determined the crystal structure of Toggle-25t aptamer bound to α-thrombin at 1.86 Å resolution. The PDB ID of this structure is 5DO4. Here only the structural diagram of 3DD2 is shown. There is no obvious difference between the structures of 5DO4 and 3DD2<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 2008，Sullenger, B. A. et al. determined the crystal structure of Toggle-25t aptamer bound to α-thrombin at 1.9 Å resolution. The PDB ID of this structure is 3DD2. In 2016，Xianbin Yang et al. determined the crystal structure of AF113-18 aptamer (phosphorodithioate (PS2) substitution) bound to α-thrombin at 1.86 Å resolution. The PDB ID of this structure is 5DO4. Here only the structural diagram of 3DD2 is shown. There is no obvious difference between the structures of 5DO4 and 3DD2<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/thrombin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -243,65 +289,86 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                 {
   struct_asym_id: 'B', 
   start_residue_number:1, 
+  end_residue_number:3, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:4, 
   end_residue_number:5, 
-  color:{r:9,g:254,b:254}
+  color:{r:46,g:161,b:3}
 },
 {
-  struct_asym_id: 'B', 
-  start_residue_number:8, 
-  end_residue_number:10, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'B', 
-  start_residue_number:12, 
-  end_residue_number:12, 
-  color:{r:9,g:254,b:254}
-},{
-  struct_asym_id: 'B', 
-  start_residue_number:14, 
-  end_residue_number:14, 
-  color:{r:9,g:254,b:254}
-},{
-  struct_asym_id: 'B', 
-  start_residue_number:18, 
-  end_residue_number:26, 
-  color:{r:9,g:254,b:254}
-},{
   struct_asym_id: 'B', 
   start_residue_number:6, 
   end_residue_number:7, 
-  color:{r:255,g:0,b:255}
-},
-{
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'B', 
+  start_residue_number:8, 
+  end_residue_number:10, 
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'B', 
   start_residue_number:11, 
   end_residue_number:11, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'B', 
+  start_residue_number:12, 
+  end_residue_number:12, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:13, 
   end_residue_number:13, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:15, 
   end_residue_number:17, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:18, 
+  end_residue_number:18, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'B', 
+  start_residue_number:19, 
+  end_residue_number:21, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'B', 
+  start_residue_number:22, 
+  end_residue_number:22, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'B', 
+  start_residue_number:23, 
+  end_residue_number:25, 
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'H', 
   start_residue_number:16, 
   end_residue_number:246, 
-  color:{r:255,g:255,b:0}
+  color:{r:207,g:62, b:125}
 },
 {
   struct_asym_id: 'L', 
-  start_residue_number:1, 
-  end_residue_number:14, 
-  color:{r:255,g:255,b:0}
+  start_residue_number:1D, 
+  end_residue_number:14L, 
+  color:{r:207,g:62, b:125}
 },
 {
   struct_asym_id: 'B', 
@@ -349,8 +416,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3DD2 at 1.90 Å resolution. Human thrombin protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with human thrombin protein.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3DD2 at 1.90 Å resolution. Human thrombin protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with human thrombin protein.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/thrombin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -365,10 +431,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p> 
 <p class="blowheader_box">SELEX ligand</p>
-<font >Rebekah R White and Bruce A Sullenger determined Toggle-25t RNA aptamer–protein equilibrium dissociation constants (Kd‘s) by the double-filter, nitrocellulose-filter binding method as described. Abeydeera ND and Egli M et al. The binding affinities of select AF113-18 aptamer and their library variants were determined by biolayer interferometry (BLI) on a fortéBIO Octet Red96 instrument (Pall fortéBIO) at 30 °C<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</font >
-<br><br>
+<p>Sullenger, B. A. et al. determined the equilibrium dissociation constants (Kd) of the Toggle-25t RNA aptamer-protein complex using the double-filter, nitrocellulose-filter binding method as previously described. Xianbin Yang et al. measured the binding affinities of the selected AF113-18 aptamer and its library variants via biolayer interferometry (BLI) on a fortéBIO Octet Red96 instrument (Pall fortéBIO) at 30 °C<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -382,13 +447,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">Toggle-25t RNA aptamer</td>
-        <td name="td1">GGGAACAAAGCUGAAGUACUUACCC</td>
+        <td name="td1">5'-GGGAACAAAGCUGAAGUACUUACCC-3'</td>
         <td name="td3">Huamn Thrombin</td>
         <td name="td4">0.54 ± 0.1 nM</td>
       </tr>
       <tr>
         <td name="td0">AF113-18 aptamer</td>
-        <td name="td1">GGGAACAAAGCUGAAGU(PS2 substitution)ACUUACCC</td>
+        <td name="td1">5'-GGGAACAAAGCUGAAGU(PS2 substitution)ACUUACCC-3'</td>
         <td name="td3">Huamn Thrombin</td>
         <td name="td4">1.8 ± 0.2 pM</td>
       </tr>
@@ -398,15 +463,20 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Thrombin is a serine peptidase belonging to MEROPS peptidase family S1 (chymotrypsin family, clan PA(S)), subfamily S1A. Thrombin, which has also been called fibrinogenase and factor IIa, is the final proteinase in the vertebrate blood coagulation cascade. Thrombin triggers clotting by releasing fibrinopeptides A and B from the amino ends of fibrinogen a and b chains. Thrombin has been identified in hagfish as well as in vertebrates.
-Following the signal sequence, thrombin contains one vitamin K-dependent carboxylation/gamma-carboxyglutamic (GLA) domain, two kringle domains, and a trypsin domain.-----from Pfam</p></font>
+<p>Thrombin is a serine peptidase belonging to MEROPS peptidase family S1 (chymotrypsin family, clan PA(S)), subfamily S1A.Thrombin, which has also been called fibrinogenase and factor IIa, is the final proteinase in the vertebrate blood coagulation cascade. Thrombin triggers clotting by releasing fibrinopeptides A and B from the amino ends of fibrinogen a and b chains. Thrombin has been identified in hagfish as well as in vertebrates.Following the signal sequence, thrombin contains one vitamin K-dependent carboxylation/gamma-carboxyglutamic (GLA) domain, two kringle domains, and a trypsin domain.-----From <a href="https://www.ebi.ac.uk/interpro/entry/pirsf/PIRSF001149/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
         <th onclick="sortTable(1)">Pfam</th>
-        <th onclick="sortTable(2)">MW</th>
-        <th onclick="sortTable(3)">Amino acids sequences</th>
+        <th onclick="sortTable(2)">Mass</th>
+        <th onclick="sortTable(3)">Protein sequence</th>
         <th onclick="sortTable(4)">PDB ID</th>
         <th onclick="sortTable(5)">GenBank</th>
       </tr>
@@ -415,22 +485,34 @@ Following the signal sequence, thrombin contains one vitamin K-dependent carboxy
       <tr>
         <td name="td0"><a href="https://www.uniprot.org/uniprotkb/P00734/entry#names_and_taxonomy" target="_blank" style="color:#520049"><b>P00734</b></a></td>
         <td name="td1"><a href="https://www.ebi.ac.uk/interpro/entry/pirsf/PIRSF001149/" target="_blank" style="color:#520049"><b>PIRSF001149</b></a></td>
-        <td name="td2">43.28 kDa</td>
-        <td name="td3">MAHVRGLQLPGCLALAALCSLVHSQHVFLAPQQARSLLQRVRRANTFLEEVRKGNLERECVEETCSYEEAFEALESSTATDVFWAKYTACETARTPRDKLAACLEGNCAEGLGTNYRGHVNITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRRQECSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVTTHGLPCLAWASAQAKALSKHQDFNSAVQLVENFCRNPDGDEEGVWCYVAGKPGDFGYCDLNYCEEAVEEETGDGLDEDSDRAIEGRTATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYIDGRIVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTENDLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHPVCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDSTRIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDQFGE</td>
+        <td name="td2">70.03 kDa</td>
+        <td name="td3">
+        <div class="sequence-container">
+          <span class="sequence-text">GGPYLQ</span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">MAHVRGLQLPGCLALAALCSLVHSQHVFLAPQQARSLLQRVRRANTFLEEVRKGNLERECVEETCSYEEAFEALESSTATDVFWAKYTACETARTPRDKLAACLEGNCAEGLGTNYRGHVNITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRRQECSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVTTHGLPCLAWASAQAKALSKHQDFNSAVQLVENFCRNPDGDEEGVWCYVAGKPGDFGYCDLNYCEEAVEEETGDGLDEDSDRAIEGRTATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYIDGRIVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTENDLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHPVCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDSTRIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDQFGE</span>
+        </div>
+      </td>
         <td name="td4"><a href="https://www.rcsb.org/structure/1PPB" target="_blank" style="color:#520049"><b>1PPB</b></a></td>
         <td name="td5"><a href="https://www.ncbi.nlm.nih.gov/nuccore/M17262.1" target="_blank" style="color:#520049"><b>M17262.1</b> </a></td>
       </tr>
 	  </tbody>
   </table>
  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/thrombin_aptamer_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/thrombin_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
+
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -545,34 +627,29 @@ Abeydeera, N. D., Egli, M., Cox, N., Mercier, K., Conde, J. N., Pallan, P. S., M
 <a href="https://pubmed.ncbi.nlm.nih.gov/27566147/" target="_blank" style="color:#520049">Nucleic acids research, 44(17), 8052–8064. (2016)</a>
 <br />
 
+
+
 <script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
       }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
     });
   </script>
-</html>
