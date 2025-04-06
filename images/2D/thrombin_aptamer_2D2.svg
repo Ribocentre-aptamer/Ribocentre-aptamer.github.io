@@ -1,204 +1,164 @@
-<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <defs>
-    <style>
-      .cls-1, .cls-10, .cls-12, .cls-2, .cls-6, .cls-7, .cls-8, .cls-9 {
-        isolation: isolate;
-      }
-
-      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-6, .cls-7, .cls-8 {
-        font-size: 26.66px;
-      }
-
-      .cls-1, .cls-14, .cls-8 {
-        fill: #f69;
-      }
-
-      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-17, .cls-19, .cls-2, .cls-6, .cls-7, .cls-8, .cls-9 {
-        font-family: ArialMT, Arial;
-      }
-
-      .cls-10, .cls-11, .cls-12, .cls-2 {
-        fill: #66f;
-      }
-
-      .cls-2, .cls-7, .cls-8 {
-        letter-spacing: -0.06em;
-      }
-
-      .cls-3, .cls-4 {
-        fill: none;
-      }
-
-      .cls-3, .cls-4, .cls-5 {
-        stroke: #000;
-        stroke-miterlimit: 1.11;
-      }
-
-      .cls-3, .cls-5 {
-        stroke-width: 0.14px;
-      }
-
-      .cls-4 {
-        stroke-width: 1.25px;
-      }
-
-      .cls-13, .cls-6, .cls-7 {
-        fill: #bc00df;
-      }
-
-      .cls-17, .cls-9 {
-        font-size: 18px;
-      }
-
-      .cls-12 {
-        letter-spacing: -0.06em;
-      }
-
-      .cls-15 {
-        font-size: 20px;
-      }
-
-      .cls-16 {
-        letter-spacing: -0.04em;
-      }
-
-      .cls-18 {
-        letter-spacing: -0.07em;
-      }
-
-      .cls-19 {
-        font-size: 16px;
-      }
-    </style>
-  </defs>
-  <g id="ID000002">
-    <text class="cls-1" transform="translate(166.99 383.12)">G</text>
-  </g>
-  <g id="ID000003">
-    <text class="cls-1" transform="translate(166.99 356.39)">G</text>
-  </g>
-  <g id="ID000004">
-    <text class="cls-1" transform="translate(166.99 329.67)">G</text>
-  </g>
-  <g id="ID000005">
-    <text class="cls-2" transform="translate(143.97 300.71)">A</text>
-  </g>
-  <g id="ID000006">
-    <text class="cls-2" transform="translate(123.93 273.99)">A</text>
-  </g>
-  <g id="ID000007">
-    <text class="cls-2" transform="translate(221.92 262.85)">A</text>
-  </g>
-  <g id="ID000008">
-    <text class="cls-1" transform="translate(221.19 329.67)">fC</text>
-  </g>
-  <g id="ID000009">
-    <text class="cls-1" transform="translate(221.19 356.39)">fC</text>
-  </g>
-  <g id="ID000010">
-    <text class="cls-1" transform="translate(221.19 383.12)">fC</text>
-  </g>
-  <g id="ID000011">
-    <line class="cls-3" x1="188.05" y1="371.09" x2="220.13" y2="371.09"/>
-  </g>
-  <g id="ID000012">
-    <line class="cls-3" x1="188.05" y1="344.37" x2="220.13" y2="344.37"/>
-  </g>
-  <g id="ID000013">
-    <line class="cls-3" x1="188.05" y1="317.64" x2="220.13" y2="317.64"/>
-  </g>
-  <g id="ID000014">
-    <line class="cls-4" x1="230.82" y1="201.38" x2="230.82" y2="240.13"/>
-  </g>
-  <g id="ID000015">
-    <path class="cls-5" d="M236.27,213.18l-1.12,1.25a10.73,10.73,0,0,0-2.3,4.08h0a12.79,12.79,0,0,0-.33,1.49l-.28,1.89c0,.26-.09.51-.15.76l-1.27,5.69-1.28-5.69c-.06-.25-.11-.5-.15-.76l-.28-1.89a12.35,12.35,0,0,0-.33-1.49h0a10.73,10.73,0,0,0-2.3-4.08l-1.12-1.25Z"/>
-  </g>
-  <g id="ID000016">
-    <text class="cls-6" transform="translate(120.96 249.49)">fC</text>
-  </g>
-  <g id="ID000017">
-    <text class="cls-7" transform="translate(141.75 222.76)">A</text>
-  </g>
-  <g id="ID000018">
-    <text class="cls-8" transform="translate(168.47 202.72)">A</text>
-  </g>
-  <g id="ID000019">
-    <text class="cls-8" transform="translate(168.47 175.99)">A</text>
-  </g>
-  <g id="ID000020">
-    <text class="cls-1" transform="translate(166.99 149.26)">G</text>
-  </g>
-  <g id="ID000021">
-    <line class="cls-3" x1="159.55" y1="137.24" x2="141.73" y2="137.24"/>
-  </g>
-  <g id="ID000022">
-    <text class="cls-9" transform="translate(114.02 142.56)">10</text>
-  </g>
-  <g id="ID000023">
-    <text class="cls-6" transform="translate(147.69 122.54)">fC</text>
-  </g>
-  <g id="ID000024">
-    <g>
-      <text class="cls-10" transform="translate(134.33 89.13)">U</text>
-      <text class="cls-11" transform="translate(153.58 98.01) scale(0.58)">se</text>
-    </g>
-  </g>
-  <g id="ID000025">
-    <text class="cls-6" transform="translate(146.95 55.73)">G</text>
-  </g>
-  <g id="ID000026">
-    <text class="cls-12" transform="translate(181.83 35.68)">A</text>
-  </g>
-  <g id="ID000027">
-    <text class="cls-7" transform="translate(208.56 35.68)">A</text>
-  </g>
-  <g id="ID000028">
-    <text class="cls-6" transform="translate(233.81 55.73)">G</text>
-  </g>
-  <g id="ID000029">
-    <g>
-      <text class="cls-6" transform="translate(247.91 89.13)">U</text>
-      <text class="cls-13" transform="translate(267.16 98.01) scale(0.58)">Fs2</text>
-    </g>
-  </g>
-  <g id="ID000030">
-    <text class="cls-2" transform="translate(235.28 122.54)">A</text>
-  </g>
-  <g id="ID000031">
-    <text class="cls-1" transform="translate(221.19 149.26)">fC</text>
-  </g>
-  <g id="ID000032">
-    <text class="cls-1" transform="translate(221.19 175.99)">fU</text>
-  </g>
-  <g id="ID000033">
-    <line class="cls-3" x1="248.63" y1="163.97" x2="266.45" y2="163.97"/>
-  </g>
-  <g id="ID000034">
-    <text class="cls-9" transform="translate(275.32 169.39)">20</text>
-  </g>
-  <g id="ID000035">
-    <g>
-      <text class="cls-1" transform="translate(221.19 202.72)">U</text>
-      <text class="cls-14" transform="translate(240.44 211.59) scale(0.58)">se</text>
-    </g>
-  </g>
-  <g id="ID000036">
-    <line class="cls-3" x1="188.05" y1="190.69" x2="220.13" y2="190.69"/>
-  </g>
-  <g id="ID000037">
-    <line class="cls-3" x1="188.05" y1="163.97" x2="220.13" y2="163.97"/>
-  </g>
-  <g id="ID000038">
-    <line class="cls-3" x1="188.05" y1="137.24" x2="220.13" y2="137.24"/>
-  </g>
-  <g id="ID000039">
-    <line class="cls-4" x1="230.82" y1="261.52" x2="230.82" y2="306.95"/>
-  </g>
-  <g id="ID000040">
-    <path class="cls-5" d="M236.32,275.32l-1.13,1.26a10.8,10.8,0,0,0-2.32,4.12h0a9.55,9.55,0,0,0-.33,1.5l-.29,1.91c0,.26-.09.51-.14.77l-1.29,5.73-1.29-5.73c-.06-.26-.11-.51-.15-.77l-.29-1.91a9.55,9.55,0,0,0-.33-1.5h0a10.8,10.8,0,0,0-2.32-4.12l-1.13-1.26Z"/>
-  </g>
-  <text class="cls-15" transform="translate(140.44 394.26)">5<tspan class="cls-16" x="11.12" y="0">’</tspan></text>
-  <text class="cls-15" transform="translate(250.02 394.26)">3<tspan class="cls-16" x="11.12" y="0">’</tspan></text>
-  <text class="cls-17" transform="translate(9.2 20.75)">AF<tspan class="cls-18" x="23" y="0">1</tspan><tspan x="31.68" y="0">13-18 aptamer</tspan></text>
-  <text class="cls-19" transform="translate(281.3 328.56) scale(0.58)">fC/fU: 2′-F substituents<tspan x="0" y="32.93">se: 2′-SeMe substituents</tspan><tspan x="0" y="65.87" xml:space="preserve">Fs2: 3′-phosphate  replaced </tspan><tspan x="0" y="98.8" xml:space="preserve">          by a PS2 moiety</tspan></text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B83233;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:24.5291px;}
+	.st3{fill:#2EA103;}
+	.st4{letter-spacing:-1;}
+	.st5{fill:none;stroke:#000000;stroke-miterlimit:1.11;}
+	.st6{fill:none;stroke:#000000;stroke-width:1.25;stroke-miterlimit:1.11;}
+	.st7{stroke:#000000;stroke-width:0.14;stroke-miterlimit:1.11;}
+	.st8{fill:#F17D07;}
+	.st9{fill:#084595;}
+	.st10{font-size:16px;}
+	.st11{font-size:14.2269px;}
+</style>
+<g id="ID000002">
+	<text transform="matrix(1 0 0 1 37.0027 176.12)" class="st0 st1 st2">G</text>
+</g>
+<g id="ID000003">
+	<text transform="matrix(1 0 0 1 61.5954 176.12)" class="st0 st1 st2">G</text>
+</g>
+<g id="ID000004">
+	<text transform="matrix(1 0 0 1 86.1804 176.12)" class="st0 st1 st2">G</text>
+</g>
+<g id="ID000005">
+	<text transform="matrix(1 0 0 1 114.1806 153.5848)" class="st3 st1 st2 st4">A</text>
+</g>
+<g id="ID000006">
+	<text transform="matrix(1 0 0 1 138.7637 135.1473)" class="st3 st1 st2 st4">A</text>
+</g>
+<g id="ID000007">
+	<text transform="matrix(1 0 0 1 154.0592 225.7635)" class="st3 st1 st2 st4">A</text>
+</g>
+<g id="ID000008">
+	<g>
+		<text transform="matrix(1 0 0 1 83.4556 228.7128)" class="st0 st1 st2">fC</text>
+	</g>
+</g>
+<g id="ID000009">
+	<g>
+		<text transform="matrix(1 0 0 1 58.8706 228.7128)" class="st0 st1 st2">fC</text>
+	</g>
+</g>
+<g id="ID000010">
+	<g>
+		<text transform="matrix(1 0 0 1 34.2778 228.7128)" class="st0 st1 st2">fC</text>
+	</g>
+</g>
+<g id="ID000011">
+	<line class="st5" x1="45.2" y1="179.4" x2="45.2" y2="208.9"/>
+</g>
+<g id="ID000012">
+	<line class="st5" x1="69.8" y1="179.4" x2="69.8" y2="208.9"/>
+</g>
+<g id="ID000013">
+	<line class="st5" x1="94.3" y1="179.4" x2="94.3" y2="208.9"/>
+</g>
+<g id="ID000014">
+	<line class="st6" x1="207.2" y1="218.8" x2="171.6" y2="218.8"/>
+</g>
+<g id="ID000015">
+	<path class="st7" d="M196.4,223.8l-1.2-1c-1.1-1-2.4-1.7-3.8-2.1l0,0c-0.5-0.1-0.9-0.2-1.4-0.3l-1.7-0.3c-0.2,0-0.5-0.1-0.7-0.1
+		l-5.2-1.2l5.2-1.2c0.2-0.1,0.5-0.1,0.7-0.1l1.7-0.3c0.5-0.1,0.9-0.2,1.4-0.3l0,0c1.4-0.4,2.7-1.1,3.8-2.1l1.2-1V223.8z"/>
+</g>
+<g id="ID000016">
+	<text transform="matrix(1 0 0 1 157.2261 136.494)" class="st8 st1 st2">fC</text>
+</g>
+<g id="ID000017">
+	<text transform="matrix(1 0 0 1 185.8994 151.5428)" class="st8 st1 st2 st4">A</text>
+</g>
+<g id="ID000018">
+	<text transform="matrix(1 0 0 1 204.3369 176.1268)" class="st9 st1 st2 st4">A</text>
+</g>
+<g id="ID000019">
+	<text transform="matrix(1 0 0 1 228.9316 176.1273)" class="st9 st1 st2 st4">A</text>
+</g>
+<g id="ID000020">
+	<text transform="matrix(1 0 0 1 252.1706 176.1205)" class="st9 st1 st2">G</text>
+</g>
+<g id="ID000021">
+	<line class="st5" x1="261.4" y1="153.2" x2="261.4" y2="136.8"/>
+</g>
+<g id="ID000022">
+	<text transform="matrix(1 0 0 1 252.2295 132.6966)" class="st1 st10">10</text>
+</g>
+<g id="ID000023">
+	<text transform="matrix(1 0 0 1 274.0317 161.0873)" class="st8 st1 st2">fC</text>
+</g>
+<g id="ID000024">
+	<g>
+		<text transform="matrix(1 0 0 1 302.3803 150.4896)" class="st3 st1 st2">U</text>
+		<text transform="matrix(1 0 0 1 320.0917 158.6576)" class="st3 st1 st11">se</text>
+	</g>
+</g>
+<g id="ID000025">
+	<text transform="matrix(1 0 0 1 338.2253 157.683)" class="st8 st1 st2">G</text>
+</g>
+<g id="ID000026">
+	<text transform="matrix(1 0 0 1 358.0273 188.4193)" class="st3 st1 st2 st4">A</text>
+</g>
+<g id="ID000027">
+	<text transform="matrix(1 0 0 1 358.0273 213.013)" class="st8 st1 st2 st4">A</text>
+</g>
+<g id="ID000028">
+	<text transform="matrix(1 0 0 1 338.2256 237.599)" class="st8 st1 st2">G</text>
+</g>
+<g id="ID000029">
+	<g>
+		<text transform="matrix(1 0 0 1 310.4177 254.7494)" class="st8 st1 st2">U</text>
+		<text transform="matrix(1 0 0 1 328.1287 262.9174)" class="st8 st1 st11">Fs2</text>
+	</g>
+</g>
+<g id="ID000030">
+	<text transform="matrix(1 0 0 1 280.9576 237.7943)" class="st3 st1 st2 st4">A</text>
+</g>
+<g id="ID000031">
+	<text transform="matrix(1 0 0 1 249.4458 228.7123)" class="st9 st1 st2">fC</text>
+</g>
+<g id="ID000032">
+	<text transform="matrix(1 0 0 1 224.852 228.7123)" class="st9 st1 st2">fU</text>
+</g>
+<g id="ID000033">
+	<line class="st5" x1="241.6" y1="235.2" x2="241.6" y2="251.5"/>
+</g>
+<g id="ID000034">
+	<text transform="matrix(1 0 0 1 232.605 269.3334)" class="st1 st10">20</text>
+</g>
+<g id="ID000035">
+	<g>
+		<text transform="matrix(1 0 0 1 205.332 227.6776)" class="st9 st1 st2">U</text>
+		<text transform="matrix(1 0 0 1 223.0439 235.8373)" class="st9 st1 st11">se</text>
+	</g>
+</g>
+<g id="ID000036">
+	<line class="st5" x1="211.1" y1="179.4" x2="211.1" y2="208.9"/>
+</g>
+<g id="ID000037">
+	<line class="st5" x1="235.7" y1="179.4" x2="235.7" y2="208.9"/>
+</g>
+<g id="ID000038">
+	<line class="st5" x1="260.3" y1="179.4" x2="260.3" y2="208.9"/>
+</g>
+<g id="ID000039">
+	<line class="st6" x1="151.9" y1="218.8" x2="110.1" y2="218.8"/>
+</g>
+<g id="ID000040">
+	<path class="st7" d="M139.2,223.8l-1.2-1c-1.1-1-2.4-1.7-3.8-2.1l0,0c-0.5-0.1-0.9-0.2-1.4-0.3l-1.8-0.3c-0.2,0-0.5-0.1-0.7-0.1
+		l-5.3-1.2l5.3-1.2c0.2-0.1,0.5-0.1,0.7-0.1l1.8-0.3c0.5-0.1,0.9-0.2,1.4-0.3l0,0c1.4-0.4,2.7-1.2,3.8-2.1l1.2-1V223.8z"/>
+</g>
+<text transform="matrix(1 0 0 1 26.1292 153.7547)" class="st1 st10">5</text>
+<text transform="matrix(1 0 0 1 36.3602 153.7547)" class="st1 st10">’</text>
+<text transform="matrix(1 0 0 1 26.7957 255.4608)" class="st1 st10">3</text>
+<text transform="matrix(1 0 0 1 37.0261 255.4608)" class="st1 st10">’</text>
+<text transform="matrix(1 0 0 1 132.0292 73.7654)" class="st1 st10">AF</text>
+<text transform="matrix(1 0 0 1 155.0292 73.7654)" class="st1 st10 st4">1</text>
+<text transform="matrix(1 0 0 1 163.7092 73.7654)" class="st1 st10">13-18 aptamer</text>
+<text transform="matrix(1 0 0 1 10.7507 349.0336)" class="st1 st10">fC/fU: 2′-F substituents</text>
+<text transform="matrix(1 0 0 1 10.7507 368.1332)" class="st1 st10">se: 2′-SeMe substituents</text>
+<text transform="matrix(1 0 0 1 10.7507 387.2386)" class="st1 st10">Fs2: 3′-phosphate  replaced by a PS2 moiety </text>
+<text transform="matrix(1 0 0 1 10.7507 406.3378)" class="st1 st10">          </text>
 </svg>
