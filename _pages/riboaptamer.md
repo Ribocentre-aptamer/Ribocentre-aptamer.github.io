@@ -760,9 +760,9 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NeomycinB-RNA-aptamer" target="_blank" style="color:#520049"><b>NeomycinB RNA aptamer</b></a></td>
-        <td name="td2">Aminoglycoside antibiotic</td>
-        <td name="td3">Neomycin is an aminoglycoside antibiotic that displays bactericidal activity against gram-negative aerobic bacilli and some anaerobic bacilli where resistance has not yet arisen. It is generally not effective against gram-positive bacilli and anaerobic gram-negative bacilli. Neomycin comes in oral and topical formulations, including creams, ointments, and eyedrops. Neomycin belongs to the aminoglycoside class of antibiotics that contain two or more amino sugars connected by glycosidic bonds.</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NeomycinB-aptamer" target="_blank" style="color:#520049"><b>NeomycinB aptamer</b></a></td>
+        <td name="td2">NeomycinB</td>
+        <td name="td3">Neomycin is an aminoglycoside antibiotic and a potent inhibitor of RNase P cleavage activity. Neomycin has excellent killing effect on gram-negative and Gram-positive bacteria. Neomycin includes neomycin A, B, C three components.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9383458/" target="_blank" style="color:#520049"><b>1995</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1NEM" target="_blank" style="color:#520049"><b>1NEM</b></a></td>
       </tr>
@@ -792,7 +792,7 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/5HTP-aptamer" target="_blank" style="color:#520049"><b>5HTP-aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/5HTP-aptamer" target="_blank" style="color:#520049"><b>5HTP aptamer</b></a></td>
         <td name="td2">5-Hydroxytryptophan (5HTP)</td>
         <td name="td3">5-Hydroxytryptophan (5HTP), also known as oxitriptan, is a naturally occurring amino acid and chemical precursor as well as a metabolic intermediate in the biosynthesis of the neurotransmitter serotonin.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/28092358/" target="_blank" style="color:#520049"><b>2017</b> </a></td>
@@ -824,9 +824,9 @@ This section lists all the experimentally validated aptamers.
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Vitamin-B12-aptamer" target="_blank" style="color:#520049"><b>Vitamin B12-aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Vitamin-B12-aptamer" target="_blank" style="color:#520049"><b>Vitamin B12 aptamer</b></a></td>
         <td name="td2">Cyanocobalamin (vitamin B<sub>12</sub>)</td>
-        <td name="td3">Cyanocobalamin (commonly known as Vitamin B<sub>12</sub>) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B<sub>12</sub> has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.</td>
+        <td name="td3">Cyanocobalamin (commonly known as Vitamin B<sub>12</sub>) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B<sub>12</sub> has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7508262/" target="_blank" style="color:#520049"><b>1994</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1ET4" target="_blank" style="color:#520049"><b>1ET4</b></a></td>
       </tr> 
@@ -1157,11 +1157,11 @@ This section lists all the experimentally validated aptamers.
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Prion</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Bovine-prion-protein(bPrP)-aptamer" target="_blank" style="color:#520049"><b>Bovine prion protein(bPrP) aptamer</b></a></td>
-        <td name="td2">Bovine prion protein (bPrP)</td>
-        <td name="td3">Normal cellular form of prion protein (PrP<sub>C</sub>) change into abnormal form (PrP<sub>Sc</sub>) and causes anti-prion, prevent prion and Alzheimer's disease. There are the similar structures between 2RSK and 2RU7, so only the 2RU7 with last literature is chosen.</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Bovine-prion-protein-aptamer" target="_blank" style="color:#520049"><b>Bovine prion protein aptamer</b></a></td>
+        <td name="td2">Bovine prion protein</td>
+        <td name="td3">A prion is a misfolded protein that induces misfolding in normal variants of the same protein, leading to cellular death. Normal cellular form of prion protein (PrP<sub>C</sub>) change into abnormal form (PrP<sub>Sc</sub>) and causes anti-prion, prevent prion and Alzheimer's disease. </td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/19098441/" target="_blank" style="color:#520049"><b>2008</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/2RU7" target="_blank" style="color:#520049"><b>2RU7</b></a><br><a href="https://www.rcsb.org/structure/2RSK" target="_blank" style="color:#520049"><b>2RSK</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/2RU7" target="_blank" style="color:#520049"><b>2RU7</b></a><br><a href="https://www.rcsb.org/structure/2RSK" target="_blank" style="color:#520049"><b>2RSK</b></a><br><a href="https://www.rcsb.org/structure/2RQJ" target="_blank" style="color:#520049"><b>2RQJ</b></a></td>
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
@@ -1197,7 +1197,7 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Tat-aptamer" target="_blank" style="color:#520049"><b>Tat aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-Tat-aptamer" target="_blank" style="color:#520049"><b>HIV Tat aptamer</b></a></td>
         <td name="td2">HIV Tat peptides</td>
         <td name="td3">In molecular biology, Tat is a protein that is encoded for by the tat gene in HIV-1. Tat is a regulatory protein that drastically enhances the efficiency of viral transcription. Tat stands for "Trans-Activator of Transcription". The protein consists of between 86 and 101 amino acids depending on the subtype. Tat vastly increases the level of transcription of the HIV dsDNA.</td>
         <td name="td4"><a href="https://onlinelibrary.wiley.com/doi/10.1046/j.1365-2443.2000.00330.x" target="_blank" style="color:#520049"><b>2000</b> </a></td>
@@ -1230,8 +1230,8 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Ribosomal-protein-S8-aptamer" target="_blank" style="color:#520049"><b>Ribosomal protein S8-aptamer</b></a></td>
-        <td name="td2">ribosomal protein S8</td>
-        <td name="td3">In the free state, the internal loop of the ribosomal protein S8 aptamper hairpin stem contains G-A, U-U and A-A mismatches with an overall helical A-form geometry. To bind r-protein S8, the internal loop undergoes a dramatic rearrangement of secondary structure to form a base triple and a base quartet.</td>
+        <td name="td2">Ribosomal protein S8</td>
+        <td name="td3">Ribosomal protein S8 is a component of the 40S subunit. This protein belongs to the S8E family of ribosomal proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25140011/" target="_blank" style="color:#520049"><b>2014</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/4PDB" target="_blank" style="color:#520049"><b>4PDB</b></a></td>
       </tr> 
@@ -1239,7 +1239,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TetR-aptamer" target="_blank" style="color:#520049"><b>TetR aptamer</b></a></td>
         <td name="td2">Transcription repressor TetR</td>
-        <td name="td3">Tet Repressor proteins (termed TetR) are crucial in conferring antibiotic resistance to numerous bacterial species. Tetracycline (Tc) represents a broad class of antibiotics against which bacteria have developed resistance.</td>
+        <td name="td3">Tet Repressor proteins (termed TetR) family is a family of transcriptional regulators prevalent in a variety of bacteria. It controls the expression of genes that encode the tetracycline overflow pump necessary for drug resistance.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32052019/" target="_blank" style="color:#520049"><b>2020</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6SY4" target="_blank" style="color:#520049"><b>6SY4</b></a><br><a href="https://www.rcsb.org/structure/6SY6" target="_blank" style="color:#520049"><b>6SY6</b></a></td>
       </tr> 
@@ -1253,7 +1253,7 @@ This section lists all the experimentally validated aptamers.
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/AML1(RUNX1)-aptamer" target="_blank" style="color:#520049"><b>AML1 (RUNX1)-aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/AML1(RUNX1)-aptamer" target="_blank" style="color:#520049"><b>AML1 (RUNX1) aptamer</b></a></td>
         <td name="td2">AML1 Runt domain</td>
         <td name="td3">AML1 (RUNX1) is a key transcription factor for hematopoiesis that binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N-terminal Runt domain.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/23997091/" target="_blank" style="color:#520049"><b>2013</b> </a></td>
