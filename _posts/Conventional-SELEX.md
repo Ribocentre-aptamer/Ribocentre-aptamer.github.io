@@ -7,7 +7,6 @@ categories: SELEX
 ---
 <html>
 <head>
-  <title>横向排列的点击按钮</title>
   <style>
     /* 按钮容器样式 */
     .button-container {
