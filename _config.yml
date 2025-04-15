@@ -17,6 +17,7 @@ include:
   - .htaccess
   - _pages
   - _posts
+  - search.json
 
 sass:
   sass_dir: _sass
@@ -47,8 +48,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 
 # Markdown Processing
 kramdown:

@@ -14,6 +14,9 @@
 		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/aboutus/">
 			  <img src="{{ site.url }}{{ site.baseurl }}/images/header/aboutus.svg" style='height: 20px; width: auto; margin: 0;'>
 			  About us</a></li>
+		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="javascript:void(0);" onclick="document.getElementById('search-box-header').focus();">
+			  <img src="{{ site.url }}{{ site.baseurl }}/images/header/search.svg" style='height: 20px; width: auto; margin: 0;'>
+			  Search</a></li>
 		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://gzlab.ac.cn/">
 			  GZNL-RDC
 			  <img src="{{ site.url }}{{ site.baseurl }}/images/header/gznl2.svg" style='height: 20px; width: auto; margin: 0;'>
@@ -76,14 +79,29 @@
         <h1><b>Ribocentre-aptamer</b></h1>
       </div>
       <p>A database of RNA aptamers</p>
-      <script async src="https://cse.google.com/cse.js?cx=560632b54571a4f6c"></script>
-        <div class="gcse-search"></div>
+      
+      <!-- Google 风格搜索框 -->
+      <div class="google-search-container" style="width: 100%; max-width: 100%;">
+        <div class="search-input-container">
+          <input type="text" id="search-box-header" class="google-search-input" placeholder="Search RNA aptamers..." aria-label="Search keywords">
+          <button class="google-search-button" type="button" id="search-button-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            <span style="margin-left: 8px; color: #ffffff;">Search</span>
+          </button>
+        </div>
+        <div class="search-results-wrapper" style="position: relative; width: 100%;">
+          <div id="search-results-header" class="search-results-container" style="display: none;"></div>
+        </div>
+      </div>
+      
       <p>Example: 
         <a class="tip" href="https://aptamer.ribocentre.org/Ribocentre-aptamer/">RNA aptamer</a>&nbsp;&nbsp;
         <a class="tip" href="https://aptamer.ribocentre.org/SELEX/">SELEX</a>&nbsp;&nbsp;
         <a class="tip" href="https://aptamer.ribocentre.org/docs/ATP-aptamer/" target="_blank">ATP-aptamer</a>&nbsp;&nbsp;
         <a class="tip" href="https://aptamer.ribocentre.org/structures/">Structure</a>&nbsp;&nbsp;
-    </p>
+      </p>
     </div>
   </div>
 </div> 
@@ -125,6 +143,8 @@
     padding-right: 20px;
     background: #fff;
     position: absolute;
+    width: 100%;
+    max-width: 600px;
 }
 
 .search h1 {
@@ -230,6 +250,339 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
     border-color: transparent;
     border: 1px solid #ffffff;
 }
+
+/* 自定义搜索框样式 */
+.custom-search-container {
+  position: relative !important;
+  width: 100% !important;
+  z-index: 999999 !important;
+}
+
+.custom-search-container .input-group {
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.custom-search-container .form-control {
+  border: 1px solid #ced4da;
+  padding: 8px 15px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.custom-search-container .btn-primary {
+  background-color: #520049;
+  border-color: #520049;
+  padding: 8px 15px;
+  border-radius: 0 4px 4px 0;
+}
+
+.custom-search-container .btn-primary:hover {
+  background-color: #3d0037;
+  border-color: #3d0037;
+}
+
+.custom-search-container svg {
+  color: white;
+}
+
+/* 搜索结果容器样式 */
+.search-results-wrapper {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  width: 100%;
+  z-index: 999999;
+  margin-top: 5px;
+}
+
+.search-results-container {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.25) !important;
+  z-index: 999999 !important;
+  margin-top: 5px !important;
+  max-height: 400px !important;
+  overflow-y: auto !important;
+}
+
+/* 搜索结果项目样式 */
+.search-result-item {
+  padding: 15px !important;
+  border-bottom: 1px solid #eee !important;
+  cursor: pointer !important;
+  display: flex !important;
+  flex-direction: column !important;
+  transition: background-color 0.2s ease;
+}
+
+.search-result-item:last-child {
+  border-bottom: none !important;
+}
+
+.search-result-item:hover {
+  background-color: #f8f9fa !important;
+}
+
+.search-result-item h4 {
+  margin: 0 0 5px 0;
+  color: #1a73e8;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.search-result-item h4 a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.search-result-item h4 a:hover {
+  text-decoration: underline;
+}
+
+.search-result-item p {
+  margin: 5px 0 0 0;
+  color: #4d5156;
+  font-size: 14px;
+  line-height: 1.58;
+}
+
+.search-result-item .category {
+  color: #70757a;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.search-result-item .tags {
+  color: #520049;
+  font-size: 12px;
+}
+
+.search-result-item .content-preview {
+  margin: 5px 0;
+  color: #4d5156;
+  font-size: 14px;
+  line-height: 1.58;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.search-result-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #70757a;
+}
+
+.search-result-date {
+  color: #70757a;
+}
+
+.no-results-message {
+  padding: 20px !important;
+  text-align: center !important;
+  color: #4d5156 !important;
+  font-size: 16px !important;
+}
+
+.result-count {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  color: #70757a;
+  font-size: 14px;
+}
+
+/* 加载状态样式 */
+.loading-message {
+  padding: 15px;
+  text-align: center;
+  color: #666;
+}
+
+.loading-message:after {
+  content: "...";
+  animation: dots 1.5s steps(5, end) infinite;
+}
+
+@keyframes dots {
+  0%, 20% {
+    content: ".";
+  }
+  40% {
+    content: "..";
+  }
+  60%, 100% {
+    content: "...";
+  }
+}
+
+/* 自定义滚动条 */
+.search-results-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.search-results-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.search-results-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+.search-results-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Google 风格搜索框样式 */
+.google-search-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background: transparent;
+  z-index: 999999;
+}
+
+.search-input-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.google-search-input {
+  flex: 1;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px 0 0 24px;
+  outline: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: white;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.google-search-input:hover, .google-search-input:focus {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.38);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.google-search-button {
+  height: 44px;
+  width: auto;
+  min-width: 120px;
+  background: #520049;
+  border: none;
+  border-radius: 0 24px 24px 0;
+  padding: 0 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  white-space: nowrap;
+}
+
+.google-search-button:hover {
+  background-color: #3d0037;
+}
+
+.google-search-button svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.search-results-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 999999;
+  margin-top: 5px;
+}
+
+/* 搜索结果分页样式 */
+.search-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.search-pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: #f8f9fa;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  color: #520049;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.search-pagination button:hover {
+  background: #e8f0fe;
+  border-color: #520049;
+}
+
+.search-pagination button.active {
+  background: #520049;
+  color: white;
+  border-color: #520049;
+}
+
+.search-pagination button:disabled {
+  color: #70757a;
+  background: #f8f9fa;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.search-pagination .page-info {
+  margin: 0 10px;
+  color: #70757a;
+  font-size: 14px;
+}
+
+/* 图片缩略图样式 */
+.search-result-thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.search-result-with-thumbnail {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.search-result-content {
+  flex: 1;
+}
+
+/* 关键词高亮样式 */
+.keyword-highlight {
+  background-color: #ffeaa7;
+  font-weight: bold;
+  padding: 0 2px;
+}
 </style>
 
 
@@ -268,3 +621,570 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
 	</div>
   </div>
   
+
+<!-- 页面底部添加JavaScript实现搜索功能 -->
+<script>
+  // 简单搜索实现，不依赖外部库
+  document.addEventListener('DOMContentLoaded', function() {
+    var searchInput = document.getElementById('search-box-header');
+    var resultsContainer = document.getElementById('search-results-header');
+    var searchButton = document.getElementById('search-button-header');
+    
+    if (!searchInput || !resultsContainer || !searchButton) {
+      console.error('搜索元素未找到');
+      return;
+    }
+    
+    // 页面状态变量
+    var currentPage = 1;
+    var resultsPerPage = 10;
+    var allSearchResults = [];
+    
+    // 点击页面其他区域关闭搜索结果
+    document.addEventListener('click', function(event) {
+      if (!searchInput.contains(event.target) && !resultsContainer.contains(event.target) && !searchButton.contains(event.target)) {
+        resultsContainer.style.display = 'none';
+      }
+    });
+    
+    // 计算文本相关性分数
+    function calculateRelevanceScore(item, query) {
+      var score = 0;
+      var queryTerms = query.toLowerCase().split(' ');
+      
+      // 标题匹配权重最高
+      if (item.title) {
+        var titleLower = item.title.toLowerCase();
+        queryTerms.forEach(function(term) {
+          if (titleLower === term) score += 100; // 完全匹配
+          else if (titleLower.indexOf(term) === 0) score += 50; // 前缀匹配
+          else if (titleLower.indexOf(term) !== -1) score += 30; // 包含匹配
+        });
+      }
+      
+      // 类别和标签匹配次之
+      if (item.category) {
+        var categoryLower = item.category.toLowerCase();
+        queryTerms.forEach(function(term) {
+          if (categoryLower.indexOf(term) !== -1) score += 20;
+        });
+      }
+      
+      if (item.tags) {
+        var tagsLower = item.tags.toLowerCase();
+        queryTerms.forEach(function(term) {
+          if (tagsLower.indexOf(term) !== -1) score += 25;
+        });
+      }
+      
+      // 内容匹配
+      if (item.content) {
+        var contentLower = item.content.toLowerCase();
+        queryTerms.forEach(function(term) {
+          var count = (contentLower.match(new RegExp(term, 'g')) || []).length;
+          score += count * 5; // 每出现一次加5分
+          
+          // 如果内容中有完整的短语匹配，额外加分
+          if (contentLower.indexOf(query.toLowerCase()) !== -1) {
+            score += 15;
+          }
+        });
+      }
+      
+      return score;
+    }
+    
+    // 高亮关键词
+    function highlightKeywords(text, query) {
+      if (!text) return '';
+      
+      var queryTerms = query.toLowerCase().split(' ').filter(function(term) {
+        return term.length > 1; // 忽略单字符词
+      });
+      
+      var result = text;
+      queryTerms.forEach(function(term) {
+        // 使用正则表达式进行不区分大小写的替换，保留原始大小写
+        var regex = new RegExp('(' + term + ')', 'gi');
+        result = result.replace(regex, '<span class="keyword-highlight">$1</span>');
+      });
+      
+      return result;
+    }
+    
+    // 提取包含关键词的上下文
+    function extractContext(text, query, contextLength) {
+      if (!text) return '';
+      
+      var textLower = text.toLowerCase();
+      var queryLower = query.toLowerCase();
+      var index = textLower.indexOf(queryLower);
+      
+      // 如果找不到精确匹配，尝试查找单个词
+      if (index === -1) {
+        var queryTerms = queryLower.split(' ');
+        for (var i = 0; i < queryTerms.length; i++) {
+          if (queryTerms[i].length > 1) {
+            index = textLower.indexOf(queryTerms[i]);
+            if (index !== -1) break;
+          }
+        }
+      }
+      
+      // 如果还是找不到，返回文本开头
+      if (index === -1) {
+        return text.substring(0, contextLength);
+      }
+      
+      // 提取上下文
+      var start = Math.max(0, index - contextLength / 2);
+      var end = Math.min(text.length, index + queryLower.length + contextLength / 2);
+      
+      // 调整到单词边界
+      if (start > 0) {
+        while (start > 0 && text[start] !== ' ' && text[start] !== '.') start--;
+        if (start > 0) start++; // 避免以空格开头
+      }
+      
+      if (end < text.length) {
+        while (end < text.length && text[end] !== ' ' && text[end] !== '.') end++;
+      }
+      
+      var context = text.substring(start, end);
+      
+      // 添加省略号
+      if (start > 0) context = '...' + context;
+      if (end < text.length) context = context + '...';
+      
+      return context;
+    }
+    
+    // 查找页面第一张图片
+    function findFirstImage(content) {
+      if (!content) return null;
+      
+      // 尝试从HTML内容中提取第一个img标签
+      var imgRegex = /<img.*?src=["'](.*?)["']/i;
+      var match = content.match(imgRegex);
+      if (match && match[1]) {
+        return match[1];
+      }
+      
+      // 如果是markdown内容，尝试提取markdown图片语法
+      var mdRegex = /!\[.*?\]\((.*?)\)/i;
+      match = content.match(mdRegex);
+      if (match && match[1]) {
+        return match[1];
+      }
+      
+      return null;
+    }
+    
+    // 渲染分页控件
+    function renderPagination() {
+      var totalPages = Math.ceil(allSearchResults.length / resultsPerPage);
+      
+      if (totalPages <= 1) {
+        return ''; // 不需要分页
+      }
+      
+      var html = '<div class="search-pagination">';
+      
+      // 上一页按钮
+      html += '<button ' + (currentPage === 1 ? 'disabled' : '') + ' id="prev-page">Previous</button>';
+      
+      // 页码按钮
+      var startPage = Math.max(1, currentPage - 2);
+      var endPage = Math.min(totalPages, startPage + 4);
+      
+      if (endPage - startPage < 4 && startPage > 1) {
+        startPage = Math.max(1, endPage - 4);
+      }
+      
+      for (var i = startPage; i <= endPage; i++) {
+        html += '<button class="' + (i === currentPage ? 'active' : '') + '" data-page="' + i + '">' + i + '</button>';
+      }
+      
+      // 下一页按钮
+      html += '<button ' + (currentPage === totalPages ? 'disabled' : '') + ' id="next-page">Next</button>';
+      
+      // 页码信息
+      html += '<span class="page-info">Page ' + currentPage + ' of ' + totalPages + '</span>';
+      
+      html += '</div>';
+      return html;
+    }
+    
+    // 搜索函数
+    function performSearch() {
+      var query = searchInput.value.trim().toLowerCase();
+      if (!query) {
+        resultsContainer.style.display = 'none';
+        return;
+      }
+      
+      // 显示加载状态
+      resultsContainer.innerHTML = '<div class="loading-message">Searching...</div>';
+      resultsContainer.style.display = 'block';
+      
+      // 尝试多种可能的路径
+      var searchJsonPaths = [
+        '{{ site.url }}{{ site.baseurl }}/search.json',
+        '/search.json',
+        './search.json',
+        window.location.origin + '/search.json',
+        'search.json'
+      ];
+      
+      // 重置页码
+      currentPage = 1;
+      
+      // 逐个尝试路径
+      tryNextPath(0);
+      
+      function tryNextPath(index) {
+        if (index >= searchJsonPaths.length) {
+          resultsContainer.innerHTML = '<div class="no-results-message">No results found. Please try different keywords.</div>';
+          return;
+        }
+        
+        console.log('尝试加载搜索索引:', searchJsonPaths[index]);
+        
+        fetch(searchJsonPaths[index])
+          .then(function(response) {
+            if (!response.ok) {
+              throw new Error('搜索数据加载失败');
+            }
+            return response.text(); // 先获取文本响应
+          })
+          .then(function(text) {
+            try {
+              // 尝试解析JSON
+              var data = JSON.parse(text);
+              processSearchResults(data);
+            } catch (e) {
+              console.error('JSON解析错误:', e);
+              // 可能是由于Jekyll在开发环境中的模板标记没有被处理
+              // 尝试移除可能的前面部分
+              var jsonStart = text.indexOf('[');
+              if (jsonStart !== -1) {
+                try {
+                  var cleanedText = text.substring(jsonStart);
+                  var data = JSON.parse(cleanedText);
+                  processSearchResults(data);
+                  return;
+                } catch (e) {
+                  console.error('清理后的JSON仍然无效:', e);
+                }
+              }
+              
+              // 尝试下一个路径
+              tryNextPath(index + 1);
+            }
+          })
+          .catch(function(error) {
+            console.error('搜索路径错误:', searchJsonPaths[index], error);
+            // 尝试下一个路径
+            tryNextPath(index + 1);
+          });
+      }
+      
+      function processSearchResults(data) {
+        var results = [];
+        var startTime = new Date().getTime();
+        
+        // 查找匹配项并计算相关性分数
+        data.forEach(function(item) {
+          if (
+            (item.title && item.title.toLowerCase().indexOf(query) !== -1) ||
+            (item.category && item.category.toLowerCase().indexOf(query) !== -1) ||
+            (item.tags && item.tags.toLowerCase().indexOf(query) !== -1) ||
+            (item.content && item.content.toLowerCase().indexOf(query) !== -1)
+          ) {
+            // 添加相关性分数
+            item.relevanceScore = calculateRelevanceScore(item, query);
+            results.push(item);
+          }
+        });
+        
+        // 按相关性分数排序
+        results.sort(function(a, b) {
+          return b.relevanceScore - a.relevanceScore;
+        });
+        
+        // 保存所有结果，用于分页
+        allSearchResults = results;
+        
+        // 计算搜索用时
+        var searchTime = (new Date().getTime() - startTime) / 1000;
+        
+        // 显示当前页的结果
+        renderResults(searchTime);
+      }
+      
+      function renderResults(searchTime) {
+        if (allSearchResults.length > 0) {
+          var startIndex = (currentPage - 1) * resultsPerPage;
+          var endIndex = Math.min(startIndex + resultsPerPage, allSearchResults.length);
+          var currentResults = allSearchResults.slice(startIndex, endIndex);
+          
+          var html = '<div class="result-count">About ' + allSearchResults.length + ' results (' + searchTime.toFixed(2) + ' seconds)</div>';
+          
+          currentResults.forEach(function(item) {
+            // 提取上下文并高亮关键词
+            var contentPreview = '';
+            if (item.content) {
+              contentPreview = extractContext(item.content, query, 200);
+              contentPreview = highlightKeywords(contentPreview, query);
+            }
+            
+            // 查找第一张图片
+            var firstImage = findFirstImage(item.content);
+            
+            // 生成结果项HTML - 为整个项目添加data-url属性用于跳转
+            var resultItemClass = firstImage ? 'search-result-item search-result-with-thumbnail' : 'search-result-item';
+            html += '<div class="' + resultItemClass + '" data-url="' + item.url + '">';
+            
+            // 如果有图片，添加缩略图
+            if (firstImage) {
+              html += '<img src="' + firstImage + '" alt="Thumbnail" class="search-result-thumbnail">';
+            }
+            
+            // 结果内容
+            html += '<div class="search-result-content">';
+            // 标题不再包含链接，只显示文本
+            html += '<h4>' + highlightKeywords(item.title, query) + '</h4>';
+            
+            if (item.category) {
+              html += '<div class="category">' + highlightKeywords(item.category, query) + '</div>';
+            }
+            
+            html += '<div class="content-preview">' + contentPreview + '</div>';
+            
+            html += '<div class="search-result-meta">';
+            if (item.tags) {
+              html += '<div class="tags">' + highlightKeywords(item.tags, query) + '</div>';
+            }
+            if (item.date) {
+              html += '<div class="search-result-date">' + item.date + '</div>';
+            }
+            html += '</div>'; // close .search-result-meta
+            
+            html += '</div>'; // close .search-result-content
+            html += '</div>'; // close .search-result-item
+          });
+          
+          // 添加分页控件
+          html += renderPagination();
+          
+          resultsContainer.innerHTML = html;
+          
+          // 为每个结果项添加点击事件
+          var resultItems = resultsContainer.querySelectorAll('.search-result-item');
+          resultItems.forEach(function(item) {
+            item.addEventListener('click', function(e) {
+              // 防止冒泡和默认行为
+              if (e.target.tagName === 'BUTTON') return; // 忽略分页按钮的点击
+              
+              var url = this.getAttribute('data-url');
+              if (url) {
+                window.location.href = url;
+              }
+            });
+          });
+          
+          // 添加分页事件监听器
+          var prevButton = document.getElementById('prev-page');
+          var nextButton = document.getElementById('next-page');
+          var pageButtons = document.querySelectorAll('.search-pagination button[data-page]');
+          
+          if (prevButton) {
+            prevButton.addEventListener('click', function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+              if (currentPage > 1) {
+                currentPage--;
+                renderResults(searchTime);
+                // 保持搜索结果可见
+                resultsContainer.style.display = 'block';
+              }
+            });
+          }
+          
+          if (nextButton) {
+            nextButton.addEventListener('click', function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+              var totalPages = Math.ceil(allSearchResults.length / resultsPerPage);
+              if (currentPage < totalPages) {
+                currentPage++;
+                renderResults(searchTime);
+                // 保持搜索结果可见
+                resultsContainer.style.display = 'block';
+              }
+            });
+          }
+          
+          pageButtons.forEach(function(button) {
+            button.addEventListener('click', function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+              currentPage = parseInt(this.getAttribute('data-page'));
+              renderResults(searchTime);
+              // 保持搜索结果可见
+              resultsContainer.style.display = 'block';
+            });
+          });
+          
+          // 调整搜索结果容器样式
+          resultsContainer.style.display = 'block';
+          
+          // 检查是否在首页
+          var isHomepage = document.querySelector('.full-width-image .search-box .search');
+          if (isHomepage) {
+            var wrapper = resultsContainer.closest('.search-results-wrapper');
+            if (wrapper) {
+              wrapper.style.position = 'absolute';
+              wrapper.style.width = '100%';
+              wrapper.style.maxWidth = '600px';
+              wrapper.style.top = '100%';
+              wrapper.style.left = '0';
+              wrapper.style.zIndex = '999999';
+            }
+            resultsContainer.style.position = 'relative';
+            resultsContainer.style.width = '100%';
+            resultsContainer.style.maxWidth = '600px';
+            resultsContainer.style.backgroundColor = 'white';
+            resultsContainer.style.boxShadow = '0 5px 20px rgba(0,0,0,0.25)';
+            resultsContainer.style.borderRadius = '8px';
+            resultsContainer.style.marginTop = '5px';
+            resultsContainer.style.zIndex = '999999';
+          }
+        } else {
+          resultsContainer.innerHTML = '<div class="no-results-message">No results found. Please try different keywords.</div>';
+          resultsContainer.style.display = 'block';
+        }
+      }
+    }
+    
+    // 输入框事件监听
+    searchInput.addEventListener('input', function() {
+      if (searchInput.value.trim() !== '') {
+        performSearch();
+      } else {
+        resultsContainer.style.display = 'none';
+      }
+    });
+    
+    // 获得焦点时
+    searchInput.addEventListener('focus', function() {
+      if (searchInput.value.trim() !== '') {
+        performSearch();
+      }
+    });
+    
+    // 搜索按钮点击
+    searchButton.addEventListener('click', function() {
+      if (searchInput.value.trim() !== '') {
+        performSearch();
+      }
+    });
+    
+    // 回车键搜索
+    searchInput.addEventListener('keyup', function(event) {
+      if (event.key === 'Enter' && searchInput.value.trim() !== '') {
+        performSearch();
+      }
+    });
+  });
+</script>
+
+<!-- 尝试加载外部搜索脚本 -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 获取当前页面的路径和域名
+    var currentPath = window.location.pathname;
+    var currentOrigin = window.location.origin;
+    var siteUrl = '{{ site.url }}';
+    var siteBaseurl = '{{ site.baseurl }}';
+    
+    // 检查search.json文件是否可访问
+    var jsonPath = currentOrigin + siteBaseurl + '/search.json';
+    console.log('尝试加载搜索索引:', jsonPath);
+    
+    // 尝试多种可能的路径
+    var searchJsonPaths = [
+      jsonPath,
+      '/search.json',
+      './search.json',
+      currentOrigin + '/search.json',
+      'search.json'
+    ];
+    
+    // 逐个尝试路径
+    tryNextPath(0);
+    
+    function tryNextPath(index) {
+      if (index >= searchJsonPaths.length) {
+        console.error('所有搜索索引路径都无法访问');
+        return;
+      }
+      
+      console.log('尝试加载搜索索引:', searchJsonPaths[index]);
+      
+      fetch(searchJsonPaths[index])
+        .then(response => {
+          if (!response.ok) {
+            console.error('无法加载search.json文件，状态码:', response.status);
+            // 尝试下一个路径
+            tryNextPath(index + 1);
+            return null;
+          }
+          console.log('search.json文件加载成功');
+          return response.text();
+        })
+        .then(text => {
+          if (!text) return;
+          
+          try {
+            // 尝试解析JSON
+            var data = JSON.parse(text);
+            console.log('search.json内容可用:', !!data);
+            // 初始化搜索
+            initSearch(searchJsonPaths[index]);
+          } catch (e) {
+            console.error('JSON解析错误:', e);
+            // 可能是由于Jekyll在开发环境中的模板标记没有被处理
+            // 尝试移除可能的前面部分
+            var jsonStart = text.indexOf('[');
+            if (jsonStart !== -1) {
+              try {
+                var cleanedText = text.substring(jsonStart);
+                var data = JSON.parse(cleanedText);
+                console.log('搜索JSON清理后可用');
+                initSearch(searchJsonPaths[index]);
+                return;
+              } catch (e) {
+                console.error('清理后的JSON仍然无效:', e);
+              }
+            }
+            
+            // 尝试下一个路径
+            tryNextPath(index + 1);
+          }
+        })
+        .catch(error => {
+          console.error('加载search.json时出错:', error);
+          console.log('尝试使用下一个路径');
+          // 尝试下一个路径
+          tryNextPath(index + 1);
+        });
+    }
+    
+    function initSearch(jsonPath) {
+      // 不再需要加载SimpleJekyllSearch插件，因为我们已经实现了自定义搜索
+      console.log('使用增强搜索功能');
+    }
+  });
+</script>
+

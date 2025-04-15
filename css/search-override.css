@@ -1,0 +1,76 @@
+/**
+ * 搜索结果样式覆盖
+ */
+
+/* 搜索结果包装器 */
+.search-results-wrapper {
+  position: relative;
+  z-index: 999999 !important;
+}
+
+/* 确保搜索结果显示在最上层 */
+.search-results-container {
+  position: absolute !important;
+  z-index: 999999 !important;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.25) !important;
+  background-color: white !important;
+  width: 100% !important;
+  max-width: 600px !important;
+  border-radius: 8px !important;
+  margin-top: 5px !important;
+  overflow: visible !important;
+}
+
+/* 首页特定样式 */
+.full-width-image .search-box .search .custom-search-container .search-results-wrapper {
+  position: absolute !important;
+  width: 100% !important;
+  max-width: 600px !important;
+  top: 100% !important;
+  left: 0 !important;
+}
+
+.full-width-image .search-box .search .custom-search-container .search-results-container {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 600px !important;
+  margin-top: 5px !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.25) !important;
+}
+
+/* 确保搜索结果项可见 */
+.search-result-item {
+  background-color: white !important;
+  border-bottom: 1px solid #eee !important;
+  padding: 10px !important;
+  position: relative !important;
+  z-index: 999999 !important;
+}
+
+.search-result-item h4 a {
+  color: #520049 !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.search-result-item:hover {
+  background-color: #f8f9fa !important;
+}
+
+/* 确保搜索框和结果容器在其他元素之上 */
+.custom-search-container {
+  position: relative !important;
+  z-index: 999999 !important;
+}
+
+/* 修复可能的溢出问题 */
+.search {
+  overflow: visible !important;
+}
+
+.full-width-image {
+  overflow: visible !important;
+} 
