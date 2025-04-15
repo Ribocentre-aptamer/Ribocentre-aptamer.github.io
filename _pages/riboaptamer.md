@@ -730,7 +730,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FMN-aptamer" target="_blank" style="color:#520049"><b>FMN aptamer</b></a></td>
         <td name="td2">Flavin mononucleotide (FMN)</td>
-        <td name="td3">Flavin mononucleotide (FMN)  is a cofactor that mediates oxidation–reduction reactions when bound as a prosthetic group in flavoproteins.The chromophore (isoalloxazine ring) of FMN serves as a transient carrier of a pair of hydrogen atoms removed from the substrate molecule in redox reactions catalyzed by these enzymes.</td>
+        <td name="td3">Flavin mononucleotide (FMN)  is a cofactor that mediates oxidation–reduction reactions when bound as a prosthetic group in flavoproteins. The chromophore (isoalloxazine ring) of FMN serves as a transient carrier of a pair of hydrogen atoms removed from the substrate molecule in redox reactions catalyzed by these enzymes.</td>
         <td name="td4"><a href="https://onlinelibrary.wiley.com/doi/10.1002/anie.199410841" target="_blank" style="color:#520049"><b>1994</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1FMN" target="_blank" style="color:#520049"><b>1FMN</b></a></td>
       </tr> 
@@ -807,7 +807,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/7RWR" target="_blank" style="color:#520049"><b>7RWR</b></a> (FMN)</td>
       </tr> 
       <tr>
-        <td name="td0" rowspan = "1">Amino Acids &amp; Peptides</td>
+        <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Citrulline-aptamer" target="_blank" style="color:#520049"><b>Citrulline aptamer</b></a></td>
         <td name="td2">Citrulline</td>
         <td name="td3">Citrulline is a metabolic intermediate within the urea cycle, which is the pathway by which mammals excrete ammonia by converting it into urea. Citrulline is also produced as a byproduct of the enzymatic production of nitric oxide from the amino acid arginine, catalyzed by nitric oxide synthase. In the yeast species Saccharomyces cerevisiae, citrulline is a metabolic intermediate in the latter, cytosolic half of the arginine biosynthesis pathway.</td>
@@ -815,10 +815,10 @@ This section lists all the experimentally validated aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/1KOD" target="_blank" style="color:#520049"><b>1KOD</b></a></td>
       </tr>  
       <tr>
-        <td name="td0" rowspan = "1">Amino Acids &amp; Peptides</td>
+        <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Arginine-aptamer" target="_blank" style="color:#520049"><b>Arginine aptamer</b></a></td>
         <td name="td2">Arginine</td>
-        <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H. The molecule features a guanidino group appended to a standard amino acid framework. At physiological pH, the carboxylic acid is deprotonated (−CO2−) and both the amino and guanidino groups are protonated, resulting in a cation. Only the l-arginine (symbol Arg or R) enantiomer is found naturally. Arg residues are common components of proteins. It is encoded by the codons CGU, CGC, CGA, CGG, AGA, and AGG. The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide. Like all amino acids, it is a white, water-soluble solid.-----from wikipedia</td>
+        <td name="td3">Arginine is the amino acid with the formula (H2N)(HN)CN(H)(CH2)3CH(NH2)CO2H.  The molecule features a guanidino group appended to a standard amino acid framework.  The guanidine group in arginine is the precursor for the biosynthesis of nitric oxide.  Like all amino acids, it is a white, water-soluble solid.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9631062/" target="_blank" style="color:#520049"><b>1996</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1KOC" target="_blank" style="color:#520049"><b>1KOC</b></a></td>
       </tr>  

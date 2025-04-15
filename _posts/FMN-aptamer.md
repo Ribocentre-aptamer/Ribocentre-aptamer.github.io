@@ -2,7 +2,7 @@
 layout: post
 title:  "FMN aptamer"
 date:   2024-03-28 00:00:00
-author: Yuhang Luo, Zhizhong Lu
+author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
 <html>
@@ -33,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -43,7 +46,7 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -62,7 +65,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -71,6 +74,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -184,31 +196,32 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1994, Dr. Michael Famulok et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Flavin mononucleotide (FMN). In 1996, Patel DJ. Molecular et al. elucidated the structure of the aptamer complexed with FMN using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1994, Famulok, M. et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Flavin mononucleotide (FMN). In 1996, Patel, D. J. et al. elucidated the structure of the aptamer complexed with FMN using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Dr. Michael Famulok et al. performed the screening using an RNA 113-mer library containing 10<sup>15</sup> different sequences, each consisting of 14 random nucleotides surrounded by two specific primer binding sites. Specifically bound RNAs (aptamers) were selected from the RNA pool by affinity chromatography with a given cofactor (FMN)-derivatized agarose. RNA sequences bound to agarose were subsequently eluted with a solution containing the appropriate ligand. After six rounds of screening, a large number of RNAs bound to FMN and NAD<sup>+</sup> columns. From the pool of FMN-selected RNAs, the researchers cloned and sequenced 17 different clones that demonstrated the ability to specifically bind FMN. These FMN-binding RNAs contained two conserved regions with the sequences AGGNUAU and AGAAGG. 13 FMN-binding RNAs contained the two conserved regions described above, and these sequences were surrounded by variable nucleotides that were capable of pairing to form defined secondary structures. The dissociation constants of the FMN-2 aptamer/FMN complexes were determined by analytical affinity chromatography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>Famulok, M. et al. performed the screening using an RNA 113-mer library containing 10<sup>15</sup> different sequences, each consisting of 14 random nucleotides surrounded by two specific primer binding sites. Specifically bound RNAs (aptamers) were selected from the RNA pool by affinity chromatography with a given cofactor (FMN)-derivatized agarose. RNA sequences bound to agarose were subsequently eluted with a solution containing the appropriate ligand. After six rounds of screening, a large number of RNAs bound to FMN and NAD+ columns. From the pool of FMN-selected RNAs, the researchers cloned and sequenced 17 different clones that demonstrated the ability to specifically bind FMN. These FMN-binding RNAs contained two conserved regions with the sequences AGGNUAU and AGAAGG. 13 FMN-binding RNAs contained the two conserved regions described above, and these sequences were surrounded by variable nucleotides that were capable of pairing to form defined secondary structures. The dissociation constants of the FMN-2 aptamer/FMN complexes were determined by analytical affinity chromatography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-GGCGUGUAGGAUAUGCUUCGGCAGAAGGACACGCC-3'</p></font>
+<p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>5'-GGCGUGUAGGAUAUGCUUCGGCAGAAGGACACGCC-3'</p>
 <img src="/images/2D/FMN_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Dinshaw J. Patel present the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of the complex of flavin mononucleotide (FMN) bound to the conserved internal loop segment of a 35 nucleotide RNA aptamer identified through in vitro selection. Their comprehensive study reveals the detailed interactions between FMN and the RNA aptamer, including base-pair mismatches, a base-triple formation, and the specific intercalation of FMN's isoalloxazine ring into the RNA helix, contributing to our understanding of RNA folding and molecular recognition principles. The PDB ID of this structure is 1FMN<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Patel, D. J. et al. presented the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of the complex of FMN bound to the conserved internal loop segment of a 35 nucleotide RNA aptamer identified through in vitro selection. Their comprehensive study reveals the detailed interactions between FMN and the RNA aptamer, including base-pair mismatches, a base-triple formation, and the specific intercalation of FMN's isoalloxazine ring into the RNA helix, contributing to our understanding of RNA folding and molecular recognition principles. The PDB ID of this structure is 1FMN<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/FMN_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -265,47 +278,62 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                 {
   struct_asym_id: 'A', 
   start_residue_number:1, 
-  end_residue_number:9, 
-  color:{r:9,g:254,b:254}
+  end_residue_number:8, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:11, 
   end_residue_number:11, 
-  color:{r:9,g:254,b:254}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:10, 
-  end_residue_number:10, 
-  color:{r:255,g:192,b:203}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:12, 
   end_residue_number:12, 
-  color:{r:255,g:192,b:203}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:24, 
-  color:{r:255,g:135,b:10}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:25, 
+  end_residue_number:25, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:26, 
   end_residue_number:26, 
-  color:{r:255,g:192,b:203}
-},{
-   struct_asym_id: 'A', 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:27, 
+  end_residue_number:27, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:28, 
   end_residue_number:35, 
-  color:{r:9,g:254,b:254}
-},{
-  struct_asym_id: 'B', 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
   start_residue_number:36, 
   end_residue_number:36, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -319,7 +347,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/FMN_1FMN-3D.pdb',
+        url:'/pdbfiles/1FMN.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
@@ -341,8 +369,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1FMN by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1FMN by NMR. FMN (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/FMN_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -358,12 +385,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
-  
+<p class="header_box" id="ligand-recognition">Ligand information</p> 
 <p class="blowheader_box">SELEX ligand</p>
-<font >The dissociation constant Kd of the FMN-2 aptamer/FMN complex was determined using analytical affinity chromatography by Dr. Michael Famulok et al. The specificity of this RNA was quantified by elution with 7,8-dimethylisobeacodyl, Flavin adenine dinucleotide (FAD),Adenosine triphosphate (ATP) and Guanosine triphosphate (GTP)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
-<div style="display: flex; justify-content: center;">
-<br>
+<p>The dissociation constant (K<sub>d</sub>) of the FMN-2 aptamer/FMN complex was determined using analytical affinity chromatography by Famulok, M. et al. The specificity of this RNA was quantified by elution with 7,8-dimethylisobeacodyl, Flavin adenine dinucleotide (FAD), Adenosine triphosphate (ATP) and Guanosine triphosphate (GTP)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -386,19 +410,23 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table-->
-  </div>
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/FMN_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Flavin mononucleotide is a form of vitamin B2 used to restore riboflavin in anemia, migraine, alcoholism, and hyperhomocysteinemia.-----From Drugbank</p></font>
+<p>Flavin mononucleotide (FMN) is a form of vitamin B2 used to restore riboflavin in anemia, migraine, alcoholism, and hyperhomocysteinemia.-----From Drugbank</p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -409,8 +437,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/643976" target="_blank" style="color:#520049"><b>643976</b></a></td>
         <td name="td1">C<sub>17</sub>H<sub>21</sub>N<sub>4</sub>O<sub>9</sub>P</td>
         <td name="td2">456.3 g/mol</td>
-        <td name="td3">146-17-8</td>
-        <td name="td4">92 mg/mL</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=146-17-8" target="_blank" style="color:#520049"><b>146-17-8</b></a></td>
+        <td name="td4">92 mg/ml</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB03247" target="_blank" style="color:#520049"><b>DB03247</b> </a></td>
       </tr>
 	  </tbody>
@@ -422,13 +450,18 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </table>
 <div style="display: flex; justify-content: center;"></div>
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to Flavin mononucleotide (FMN) by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to Flavin mononucleotide (FMN) by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -436,59 +469,59 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC000003831428</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000003831428/" target="_blank" style="color:#520049"><b>ZINC000003831428</b></a></td>
         <td name="td2">Riboflavin Monophosphate</td>
-        <td name="td3">130-40-5</td>
-        <td name="td4">23666409</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=130-40-5" target="_blank" style="color:#520049"><b>130-40-5</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/23666409" target="_blank" style="color:#520049"><b>23666409</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000030730210</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000030730210/" target="_blank" style="color:#520049"><b>ZINC000030730210</b></a></td>
         <td name="td2">Riboflavin Cyclic-4',5'-Phosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">11026517</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11026517" target="_blank" style="color:#520049"><b>11026517</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000003869906</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000003869906/" target="_blank" style="color:#520049"><b>ZINC000003869906</b></a></td>
         <td name="td2">1,5-Dihydroriboflavin 5'-(dihydrogen phosphate)</td>
-        <td name="td3">5666-16-0</td>
-        <td name="td4">445395</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=5666-16-0" target="_blank" style="color:#520049"><b>5666-16-0</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/445395" target="_blank" style="color:#520049"><b>445395</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000008551105</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000008551105/" target="_blank" style="color:#520049"><b>ZINC000008551105</b></a></td>
         <td name="td2">Riboflavin 5'-phosphate sodium</td>
-        <td name="td3">6184-17-4</td>
-        <td name="td4">23687712</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=6184-17-4" target="_blank" style="color:#520049"><b>6184-17-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/23687712" target="_blank" style="color:#520049"><b>23687712</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000008551106</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000008551106/" target="_blank" style="color:#520049"><b>ZINC000008551106</b></a></td>
         <td name="td2">[(2S,3R,4S)-5-(7,8-dimethyl-2,4-dioxobenzo[g]pteridin-10-yl)-2,3,4-trihydroxypentyl] dihydrogen phosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">51435500</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/51435500" target="_blank" style="color:#520049"><b>51435500</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000003831427</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000003831427/" target="_blank" style="color:#520049"><b>ZINC000003831427</b></a></td>
         <td name="td2">[(2R,3R,4S)-5-(7,8-dimethyl-2,4-dioxobenzo[g]pteridin-10-yl)-2,3,4-trihydroxypentyl] dihydrogen phosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">7048781</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7048781" target="_blank" style="color:#520049"><b>7048781</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000008551108</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000008551108/" target="_blank" style="color:#520049"><b>ZINC000008551108</b></a></td>
         <td name="td2">Lyxoflavin 5'-monophosphate</td>
-        <td name="td3">53860-75-6</td>
-        <td name="td4">51435503</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=53860-75-6" target="_blank" style="color:#520049"><b>53860-75-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/51435503" target="_blank" style="color:#520049"><b>51435503</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000027414762</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000027414762/" target="_blank" style="color:#520049"><b>ZINC000027414762</b></a></td>
         <td name="td2">[(2S,3R,4R)-5-(7,8-dimethyl-2,4,6-trioxo-1H-benzo[g]pteridin-10-yl)-2,3,4-trihydroxypentyl] dihydrogen phosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">44354184</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/44354184" target="_blank" style="color:#520049"><b>44354184</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/FMN_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
