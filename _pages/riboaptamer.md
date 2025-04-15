@@ -394,30 +394,38 @@ permalink: /Ribocentre-aptamer/
 <h1 class="post-title" itemprop="name headline">RNA Aptamers</h1>
     
 RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into complex 3D shapes that bind to specific targets. Although some aptamers exist naturally as the ligand-binding elements of riboswitches, most are generated in vitro and can be tailored for a specific target.
-<br>
-<br>
-<br>
         
 <p class="header_box" >Statistical information </p>
 <!--iframe src="../plotly_pie.html" class="rounded-iframe" width="100%" height="600" frameborder="0"></iframe-->
-<div id="pie-chart" style="width: 800px; height: 600px;"></div>
-<script>
-    var data = [{
-      values: [12, 7, 73, 3, 2, 3, 3, 28, 4, 6, 8, 16, 7, 11, 3],
-      labels: ['Bacteria', 'Cell', 'Mammalian', 'Other', 'Parasite', 'Prion','Toxin','Viral','RNA','Amino Acids & Peptides','Biologics & Signaling Molecules','Fluorophores','Nucleosides & Nucleotides','Pharmaceuticals','Synthetic'],
-      type: 'pie',
-      marker: {
-        colors: ['#e97e8d', '#bf97d1', '#d75369', '#9841da', '#396120', '#77c670', '#ab233a', '#ade48b', '#6ed9cd', '#FFA07A', '#f0a570', '#385dbf', '#3c58a5', '#14a0ec','#2a5c76']
-      }
-    }];
-    var layout = {
-    };
-    Plotly.newPlot('pie-chart', data, layout);
-  </script>
 
+<!-- 添加折叠面板和搜索框 -->
+<div class="collapsible-container">
 
-<p>The aptamer database encompasses both aptamers with known 3D structures and those without. The following table lists the ligands of all aptamers in this database. The color coding of the table matches the hues of the pie chart displayed above, which symbolizes the various categories of aptamers. By clicking on a ligand of interest, you can access detailed information pertaining to the respective aptamer.</p>
-<font>This table lists the ligands of aptamers with identified 3D structures:</font>
+  <!-- 统计信息折叠面板 -->
+  <div class="stat-panel" style="margin-bottom: 30px;">
+    <div class="stat-header" onclick="toggleStats()" style="cursor: pointer; padding: 10px; background-color: #f2f2f2; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+      <span style="font-weight: bold; color: #520049;">▶ Click to view aptamer statistics</span>
+      <span id="toggleIcon">+</span>
+    </div>
+    <div id="statsContent" style="display: none; padding-top: 15px;">
+    <!--lihl --->
+      <div id="pie-chart" style="width: 800px; height: 600px;"></div>
+      <script>
+          var data = [{
+            values: [12, 7, 73, 3, 2, 3, 3, 28, 4, 6, 8, 16, 7, 11, 3],
+            labels: ['Bacteria', 'Cell', 'Mammalian', 'Other', 'Parasite', 'Prion','Toxin','Viral','RNA','Amino Acids & Peptides','Biologics & Signaling Molecules','Fluorophores','Nucleosides & Nucleotides','Pharmaceuticals','Synthetic'],
+            type: 'pie',
+            marker: {
+              colors: ['#e97e8d', '#bf97d1', '#d75369', '#9841da', '#396120', '#77c670', '#ab233a', '#ade48b', '#6ed9cd', '#FFA07A', '#f0a570', '#385dbf', '#3c58a5', '#14a0ec','#2a5c76']
+            }
+          }];
+          var layout = {
+          };
+          Plotly.newPlot('pie-chart', data, layout);
+      </script>
+      <p>The aptamer database encompasses both aptamers with known 3D structures and those without. The following table lists the ligands of all aptamers in this database. The color coding of the table matches the hues of the pie chart displayed above, which symbolizes the various categories of aptamers. By clicking on a ligand of interest, you can access detailed information pertaining to the respective aptamer.</p>
+      <div id="sheet1" class="sheet">
+  <font>This table lists the ligands of aptamers with identified 3D structures:</font>
   <table class="table" border="1">
     <tr class="row1">
       <td><a href="https://aptamer.ribocentre.org/_posts/Citrulline-aptamer" target="_blank" onclick="handleCellClick(event)">Citrulline</a></td>
@@ -649,36 +657,29 @@ RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into co
 <!--a href="/downloads/riboswitches_page/Classification_of_Riboswitches.pdf" target="_blank" download="Classification_of_Riboswitches.pdf"><button class="btn btn-secondary" style="color:#520049" ><span class="glyphicon glyphicon-download-alt"></span>&nbsp;&nbsp;Download FIGURE</button></a-->   
 
 <!--p>For more detailed information about each Aptamer, please browse the table below.</p-->
-<br>
-<br>
-<br>
 
-<p class="header_box" >Detail information</p>    
-This section lists all the experimentally validated aptamers.
-
-<br><br>
-<div class="form-container">
-  <!-- 搜索框 -->
-  <input type="text" id="searchBox" placeholder="Search by keyword..." onfocus="showAllSheets()" oninput="searchTables()"><br><br>
-  <!--select id="downloadOptions">
-    <option value="" disabled selected>Select an option</option>
-    <option value="/downloads/RNA-aptamers_page/Small_molecules.xlsx">Small molecules</option>
-     <option value="/downloads/RNA-aptamers_page/Proteins.xlsx">Proteins</option>
-      <option value="/downloads/RNA-aptamers_page/Nucleic_acids.xlsx">Nucleic acids</option>
-      <option value="/downloads/RNA-aptamers_page/Others.xlsx">Others</option>
-    <option value="/downloads/RNA-aptamers/All_tables.xlsx">all table in this page </option>
-  </select-->
-  <!-- Download button -->
-  <!--button class="button" onclick="downloadExcel()">Download</button-->
+    </div>
+  </div>
 </div>
-  <!-- 按钮 -->
-  <!--div class="button-container">
-      <button class="button" onclick="showSheet('sheet1')">Small molecules</button>
-      <button class="button" onclick="showSheet('sheet2')">Proteins</button>
-      <button class="button" onclick="showSheet('sheet3')">Nucleic acids</button>
-      <button class="button" onclick="showSheet('sheet3')">Others</button>
-  </div-->
-        
+
+<!-- 添加切换统计信息面板的JavaScript函数 -->
+<script>
+  function toggleStats() {
+    var content = document.getElementById("statsContent");
+    var icon = document.getElementById("toggleIcon");
+    
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      icon.textContent = "-";
+    } else {
+      content.style.display = "none";
+      icon.textContent = "+";
+    }
+  }
+</script>
+<p class="header_box" >Detail information</p>
+This section lists all the experimentally validated aptamers.<br><br>
+<input type="text" id="searchBox" placeholder="Search by keyword..." onfocus="showAllSheets()" oninput="searchTables()">
 <div id="sheet1" class="sheet">
     <h2>Small molecules</h2>
     <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
@@ -978,7 +979,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/cAMP-aptamer" target="_blank" style="color:#520049"><b>cAMP aptamer</b></a></td>
         <td name="td2">3',5'-cyclic adenosine monophosphate (cAMP)</td>
-        <td name="td3">Cyclic adenosine monophosphate (cAMP, cyclic AMP, or 3',5'-cyclic adenosine monophosphate) is a second messenger, or cellular signal occurring within cells, that is important in many biological processes. cAMP is a derivative of adenosine triphosphate (ATP) and used for intracellular signal transduction in many different organisms, conveying the cAMP-dependent pathway.</td>
+        <td name="td3">Cyclic adenosine monophosphate (cAMP, cyclic AMP, or 3',5'-cyclic adenosine monophosphate) is a second messenger, or cellular signal occurring within cells, that is important in many biological processes. cAMP is a derivative of adenosine triphosphate (ATP) and used for intracellular signal transduction in many different organisms, conveying the cAMP-dependent pathway.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10913311/" target="_blank" style="color:#520049"><b>2000</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -1119,7 +1120,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Other</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/bacteriophage-MS2-coat-protein-aptamer" target="_blank" style="color:#520049"><b>Bacteriophage MS2 coat protein aptamer</b></a></td>
         <td name="td2">Bacteriophage MS2 coat protein</td>
-        <td name="td3">The coat protein of the RNA bacteriophage MS2 binds a specific stem-loop structure in viral RNA to accomplish encapsidation of the genome and translational repression of replicase synthesis.</td>
+        <td name="td3">The coat protein of the RNA bacteriophage MS2 binds a specific stem-loop structure in viral RNA to accomplish encapsidation of the genome and translational repression of replicase synthesis.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/1469719/" target="_blank" style="color:#520049"><b>1992</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6MSF" target="_blank" style="color:#520049"><b>6MSF</b> </a></td>
       </tr>  
@@ -1127,7 +1128,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Hfq-aptamer" target="_blank" style="color:#520049"><b>Hfq aptamer</b></a></td>
         <td name="td2">Hfq</td>
-        <td name="td3">Hfq（host factor required for phage Qβ RNA replication） binds to the loop structure formed by the AG repeat sequence, which regulates gene expression.</td>
+        <td name="td3">Hfq (host factor required for phage Qβ RNA replication) binds to the loop structure formed by the AG repeat sequence, which regulates gene expression.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/22053080/" target="_blank" style="color:#520049"><b>2012</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/3HSB" target="_blank" style="color:#520049"><b>3HSB</b></a><br><a href="https://www.rcsb.org/structure/3AHU" target="_blank" style="color:#520049"><b>3AHU</b></a></td>
       </tr>    
@@ -1165,14 +1166,6 @@ This section lists all the experimentally validated aptamers.
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/GlnRs-aptamer" target="_blank" style="color:#520049"><b>GlnRs aptamer</b></a></td>
-        <td name="td2">Glutaminyl-tRNA synthetase (GlnRs)</td>
-        <td name="td3">GlnRs (Glutaminyl-tRNA synthetase) is a member of the aminoacyl tRNA synthetase family. It forms a subcomplex with arginine tRNA synthetase (RRS) and P43 (a cofactor of the aminoacyl tRNA synthetase complex), interacting closely with RRS and P43, and more weakly with other aminoacyl tRNA synthetases.</td>
-        <td name="td4"><a href="https://www.proquest.com/openview/6857e35043f04e11f53714d80cdc4dcf/1?pq-origsite=gscholar&cbl=18750&diss=y" target="_blank" style="color:#520049"><b>1996</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/1EXD" target="_blank" style="color:#520049"><b>1EXD</b></a></td>
-      </tr>  
-      <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/eIF4A-aptamer" target="_blank" style="color:#520049"><b>eIF4A aptamer</b></a></td>
         <td name="td2">Mammalian translation initiation factor 4A (eIF4A)</td>
         <td name="td3">The apparent role of mammalian translation initiation factor 4A (eIF4A) is to facilitate the "melting" of secondary structure present in the 5′ untranslated region of mRNAs that impedes translation initiation, finally controlling the translation initiation. RNA aptamers to initiation factor 4A helicase hinder cap-dependent translation by blocking ATP hydrolysis.</td>
@@ -1199,7 +1192,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Viral</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-Tat-aptamer" target="_blank" style="color:#520049"><b>HIV Tat aptamer</b></a></td>
         <td name="td2">HIV Tat peptides</td>
-        <td name="td3">In molecular biology, Tat is a protein that is encoded for by the tat gene in HIV-1. Tat is a regulatory protein that drastically enhances the efficiency of viral transcription. Tat stands for "Trans-Activator of Transcription". The protein consists of between 86 and 101 amino acids depending on the subtype. Tat vastly increases the level of transcription of the HIV dsDNA.</td>
+        <td name="td3">In molecular biology, Tat is a protein that is encoded for by the tat gene in HIV-1. Tat is a regulatory protein that drastically enhances the efficiency of viral transcription. Tat stands for "Trans-Activator of Transcription". The protein consists of between 86 and 101 amino acids depending on the subtype. Tat vastly increases the level of transcription of the HIV dsDNA.</td>
         <td name="td4"><a href="https://onlinelibrary.wiley.com/doi/10.1046/j.1365-2443.2000.00330.x" target="_blank" style="color:#520049"><b>2000</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1NBK" target="_blank" style="color:#520049"><b>1NBK</b></a><br>(argininamide)</td>
       </tr> 
@@ -1223,7 +1216,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Thrombin-aptamer" target="_blank" style="color:#520049"><b>Thrombin aptamer</b></a></td>
         <td name="td2">Human Thrombin</td>
-        <td name="td3">Thrombin is a serine protease, an enzyme that, in humans, is encoded by the F2 gene. During the clotting process, prothrombin (coagulation factor II) is proteolytically cleaved by the prothrombinase enzyme complex to form thrombin. Thrombin in turn acts as a serine protease that converts soluble fibrinogen into insoluble strands of fibrin, as well as catalyzing many other coagulation-related reactions.</td>
+        <td name="td3">Thrombin is a serine protease, an enzyme that, in humans, is encoded by the F2 gene. During the clotting process, prothrombin (coagulation factor II) is proteolytically cleaved by the prothrombinase enzyme complex to form thrombin. Thrombin in turn acts as a serine protease that converts soluble fibrinogen into insoluble strands of fibrin, as well as catalyzing many other coagulation-related reactions.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7518917/" target="_blank" style="color:#520049"><b>1994</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/5DO4" target="_blank" style="color:#520049"><b>5DO4</b></a><br><a href="https://www.rcsb.org/structure/3DD2" target="_blank" style="color:#520049"><b>3DD2</b></a></td>
       </tr> 
@@ -1519,7 +1512,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Restriction-endonucleases-(REases)-KpnI-aptamer" target="_blank" style="color:#520049"><b>Restriction endonucleases (REases) KpnI-aptamer</b></a></td>
         <td name="td2">Restriction endonucleases (REases) KpnI</td>
-        <td name="td3">The restriction endonucleases (REases) KpnI is an orthodox Type IIP enzyme, which binds to DNA in the absence of metal ions and cleaves the DNA sequence 5′-GGTAC^C-3′ in the presence of Mg2+ as shown generating 3′ four base overhangs.</td>
+        <td name="td3">The restriction endonucleases (REases) KpnI is an orthodox Type IIP enzyme, which binds to DNA in the absence of metal ions and cleaves the DNA sequence 5'-GGTAC^C-3' in the presence of Mg2+ as shown generating 3' four base overhangs.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/26184872/" target="_blank" style="color:#520049"><b>2015</b> </a></td>
         <td name="td5">NA</td>
       </tr>
@@ -1765,14 +1758,6 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/77-aptamer" target="_blank" style="color:#520049"><b>77 aptamer</b></a></td>
-        <td name="td2">Upstream of N-Ras (Unr) protein</td>
-        <td name="td3">Upstream of N-Ras (Unr) protein, also called CSDE1. In molecular biology, the cold-shock domain (CSD) is a protein domain of about 70 amino acids which has been found in prokaryotic and eukaryotic DNA-binding proteins. Part of this domain is highly similar to the RNP-1 RNA-binding motif.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10101203/" target="_blank" style="color:#520049"><b>1999</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/APC-99-aptamer" target="_blank" style="color:#520049"><b>APC-99 aptamer</b></a></td>
         <td name="td2">Human activated protein C (APC)</td>
         <td name="td3">Human activated protein C (APC) is a vitamin K-dependent serine protease that regulates blood coagulation by inactivating factors Va and VIIIa in the presence of calcium ions and phospholipids. Exerts a protective effect on the endothelial cell barrier function.</td>
@@ -1822,8 +1807,8 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TR-D28-aptamer" target="_blank" style="color:#520049"><b>TR-D28 aptamer</b></a></td>
-        <td name="td2">Integrin beta chain-2 (CD18)</td>
-        <td name="td3">In molecular biology, integrin beta chain-2 (CD18) is an integrin beta chain protein that is encoded by the ITGB2 gene in humans. Upon binding with one of a number of alpha chains, CD18 is capable of forming multiple heterodimers, which play significant roles in cellular adhesion and cell surface signaling, as well as important roles in immune responses.</td>
+        <td name="td2">Integrin beta chain-2 (CD18)</td>
+        <td name="td3">In molecular biology, integrin beta chain-2 (CD18) is an integrin beta chain protein that is encoded by the ITGB2 gene in humans. Upon binding with one of a number of alpha chains, CD18 is capable of forming multiple heterodimers, which play significant roles in cellular adhesion and cell surface signaling, as well as important roles in immune responses.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10097084/" target="_blank" style="color:#520049"><b>1999</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -1847,7 +1832,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Aβ42-aptamer" target="_blank" style="color:#520049"><b>Aβ42 aptamer</b></a></td>
         <td name="td2">β-amyloid 42 (Aβ42)</td>
-        <td name="td3">Oligomers of β-amyloid 42 (Aβ42), rather than fibrils, drive the pathogenesis of Alzheimer’s disease (AD). In particular, toxic oligomeric species called protofibrils (PFs) have attracted significant attention.</td>
+        <td name="td3">Oligomers of β-amyloid 42 (Aβ42), rather than fibrils, drive the pathogenesis of Alzheimer's disease (AD). In particular, toxic oligomeric species called protofibrils (PFs) have attracted significant attention.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/32127399/" target="_blank" style="color:#520049"><b>2020</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -1911,7 +1896,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NFAT-aptamer" target="_blank" style="color:#520049"><b>NFAT aptamer</b></a></td>
         <td name="td2">NFAT DNA binding domain</td>
-        <td name="td3">Nuclear factor of activated T-cells (NFAT) is a family of transcription factors shown to be important in immune response. One or more members of the NFAT family is expressed in most cells of the immune system.</td>
+        <td name="td3">Nuclear factor of activated T-cells (NFAT) is a family of transcription factors shown to be important in immune response. One or more members of the NFAT family is expressed in most cells of the immune system.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15359119/" target="_blank" style="color:#520049"><b>2004</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -1935,7 +1920,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Bovine-thrombin-aptamer" target="_blank" style="color:#520049"><b>Bovine thrombin aptamer</b></a></td>
         <td name="td2">Bovine thrombin</td>
-        <td name="td3">Bovine thrombin is a topical thrombin indicated to aid hemostasis whenever oozing blood and minor bleeding from capillaries and small venules is accessible and control of bleeding by standard surgical techniques (like suture, ligature, or cautery) is ineffective or impractical Label.</td>
+        <td name="td3">Bovine thrombin is a topical thrombin indicated to aid hemostasis whenever oozing blood and minor bleeding from capillaries and small venules is accessible and control of bleeding by standard surgical techniques (like suture, ligature, or cautery) is ineffective Label.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12557236/" target="_blank" style="color:#520049"><b>2003</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -1965,14 +1950,6 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Other</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mbl-aptamer" target="_blank" style="color:#520049"><b>Mbl-aptamer</b></a></td>
-        <td name="td2">Drosophila muscleblind protein (Mbl)</td>
-        <td name="td3">Drosophila muscleblind (Mbl) is an RNA-binding protein critical for cellular differentiation and development. Mbl plays significant roles in the differentiation of photoreceptors and the terminal differentiation of muscles. The human orthologues of Mbl, known as muscleblind-like proteins (MBNL1-3), similarly regulate the alternative splicing of transcripts essential for development.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18557632/" target="_blank" style="color:#520049"><b>2008</b></a></td>
-        <td name="td5">NA</td>
-      </tr>
-      <tr>
-        <td name="td0" rowspan = "1">Toxin</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Pepocin-aptamer" target="_blank" style="color:#520049"><b>Pepocin aptamer</b></a></td>
         <td name="td2">Pepocin</td>
         <td name="td3">Pepocin is a ribosome-inactivating protein (RIP). RIPs site-specifically recognize and depurinate an adenosine at position 4324 in rat 28 S rRNA, rendering the ribosome incapable of interacting with essential elongation factors.</td>
@@ -1999,7 +1976,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Gp43-aptamer" target="_blank" style="color:#520049"><b>T4 gp43-aptamer</b></a></td>
         <td name="td2">T4 DNA polymerase (gp43)</td>
-        <td name="td3">A DNA polymerase is a member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates, the molecular precursors of DNA. These enzymes are essential for DNA replication and usually work in groups to create two identical DNA duplexes from a single original DNA duplex. T4 DNA polymerase is a DNA polymerase with 3´ -deoxyribonuclease activity but no 5´a3´ deoxyribonuclease activity.</td>
+        <td name="td3">A DNA polymerase is a member of a family of enzymes that catalyze the synthesis of DNA molecules from nucleoside triphosphates, the molecular precursors of DNA. These enzymes are essential for DNA replication and usually work in groups to create two identical DNA duplexes from a single original DNA duplex. T4 DNA polymerase is a DNA polymerase with 3' -deoxyribonuclease activity but no 5'a3' deoxyribonuclease activity.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049"><b>1990</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -2047,7 +2024,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TfR-ECD-aptamer" target="_blank" style="color:#520049"><b>TfR-ECD aptamer</b></a></td>
         <td name="td2">Mouse transferrin receptor (TfR-ECD)</td>
-        <td name="td3">Transferrin receptor protein 1 (TfR1), also known as Cluster of Differentiation 71 (CD71), is a protein that in humans is encoded by the TFRC gene.</td>
+        <td name="td3">Transferrin receptor protein 1 (TfR1), also known as Cluster of Differentiation 71 (CD71), is a protein that in humans is encoded by the TFRC gene.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18838694/" target="_blank" style="color:#520049"><b>2008</b></a></td>
         <td name="td5">NA</td>
       </tr>
@@ -2124,7 +2101,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">RNA</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-TAR-RNA-aptamer" target="_blank" style="color:#520049"><b>HIV-1 TAR RNA aptamer</b></a></td>
         <td name="td2">HIV-1 TAR RNA</td>
-        <td name="td3">The trans-activating responsive (TAR) RNA element located in the 5′-untranslated region of the human immunodeficiency virus type 1 (HIV-1) genome is a 59 nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.</td>
+        <td name="td3">The trans-activating responsive (TAR) RNA element located in the 5'-untranslated region of the human immunodeficiency virus type 1 (HIV-1) genome is a 59 nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10606271/" target="_blank" style="color:#520049"><b>1999</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2OOM" target="_blank" style="color:#520049"><b>2OOM</b></a></td>
       </tr>
@@ -2446,10 +2423,10 @@ function downloadExcel() {
     
     if (hiddenContent.style.display === 'none') {
       hiddenContent.style.display = 'inline'; // 展开内容
-      btn.innerHTML = '...'; // 更新按钮文字为“... (less)”
+      btn.innerHTML = '...'; // 更新按钮文字为"... (less)"
     } else {
       hiddenContent.style.display = 'none'; // 收起内容
-      btn.innerHTML = '......'; // 更新按钮文字为“... (more)”
+      btn.innerHTML = '......'; // 更新按钮文字为"... (more)"
     }
   }
 </script-->
