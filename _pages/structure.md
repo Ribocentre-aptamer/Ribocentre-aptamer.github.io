@@ -171,7 +171,7 @@ This page provides a summary of the methods used for structure determination and
 
 
 <p class="header_box" >Detailed information</p>    
-This section displays
+
 <br><br>
 <div class="form-container">
   <!-- 搜索框 -->
