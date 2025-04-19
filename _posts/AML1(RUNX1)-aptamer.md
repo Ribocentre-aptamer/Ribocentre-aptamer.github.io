@@ -351,7 +351,7 @@ categories: Aptamer
   color:{r:184,g:51,b:50}
 },{
   struct_asym_id: 'A', 
-  start_residue_number:6, 
+  start_residue_number:5, 
   end_residue_number:7, 
   color:{r:241,g:125,b:7}
 },

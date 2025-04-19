@@ -423,22 +423,22 @@ categories: Aptamer
   start_residue_number:46, 
   end_residue_number:53, 
   color:{r:207,g:62, b:125}
-}{
+},{
   struct_asym_id: 'B', 
   start_residue_number:54, 
   end_residue_number:59, 
   color:{r:46,g:161,b:3}
-}{
+},{
   struct_asym_id: 'B', 
   start_residue_number:60, 
   end_residue_number:60, 
   color:{r:241,g:125,b:7}
-}{
+},{
   struct_asym_id: 'B', 
   start_residue_number:61, 
   end_residue_number:65, 
   color:{r:184,g:51,b:50}
-}{
+},{
   struct_asym_id: 'C', 
   start_residue_number:601, 
   end_residue_number:601, 

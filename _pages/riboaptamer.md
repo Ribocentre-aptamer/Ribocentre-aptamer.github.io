@@ -737,9 +737,9 @@ This section lists all the experimentally validated aptamers.
       <tr>
         <td name="td0" rowspan = "1">Nucleosides & Nucleotides</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/GTP-aptamer" target="_blank" style="color:#520049"><b>GTP aptamer</b></a></td>
-        <td name="td2">GTP</td>
-        <td name="td3">Guanosine-5'-triphosphate (GTP) is a purine nucleoside triphosphate. It is one of the building blocks needed for the synthesis of RNA during the transcription process. Its structure is similar to that of the guanosine nucleoside, the only difference being that nucleotides like GTP have phosphates on their ribose sugar. GTP has the guanine nucleobase attached to the 1' carbon of the ribose and it has the triphosphate moiety attached to ribose's 5' carbon.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16510427/" target="_blank" style="color:#520049"><b>2006</b> </a></td>
+        <td name="td2">Guanosine-5'-triphosphate (GTP)</td>
+        <td name="td3">Guanosine-5'-triphosphate (GTP) is a purine nucleoside triphosphate and serves as an essential building block for RNA synthesis during transcription. Structurally, it closely resembles guanosine, differing primarily in the presence of a triphosphate group attached to the ribose sugar.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12185247/" target="_blank" style="color:#520049"><b>2002</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2AU4" target="_blank" style="color:#520049"><b>2AU4</b></a></td>
       </tr>
       <tr>
@@ -784,7 +784,7 @@ This section lists all the experimentally validated aptamers.
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Pharmaceuticals</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Tobramycin-RNA-aptamer" target="_blank" style="color:#520049"><b>Tobramycin-RNA aptamer</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Tobramycin-aptamer" target="_blank" style="color:#520049"><b>Tobramycin aptamer</b></a></td>
         <td name="td2">Tobramycin</td>
         <td name="td3">Tobramycin is an aminoglycoside antibiotic derived from Streptomyces tenebrarius that is used to treat various types of bacterial infections, particularly Gram-negative infections. Tobramycin works by binding to a site on the bacterial 30S and 50S ribosome, preventing formation of the 70S complex.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9383430/" target="_blank" style="color:#520049"><b>1995</b> </a></td>
@@ -895,7 +895,7 @@ This section lists all the experimentally validated aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/1Q8N" target="_blank" style="color:#520049"><b>1Q8N</b></a></td>
       </tr>   
       <tr>
-        <td name="td0" rowspan = "1">Biologics & Signaling Molecules</td>
+        <td name="td0" rowspan = "1">Fluorophores</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Biotin-aptamer" target="_blank" style="color:#520049"><b>Biotin aptamer</b></a></td>
         <td name="td2">Biotin</td>
         <td name="td3">Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.</td>
@@ -1094,6 +1094,22 @@ This section lists all the experimentally validated aptamers.
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/17038331/" target="_blank" style="color:#520049"><b>2006</b></a></td>
         <td name="td5">NA</td>
       </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Pharmaceuticals</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Ribostamycin-aptamer" target="_blank" style="color:#520049"><b>Ribostamycin aptamer</b></a></td>
+        <td name="td2">Ribostamycin (RIO)</td>
+        <td name="td3">Ribostamycin is an aminoglycoside-aminocyclitol antibiotic isolated from a streptomycete, Streptomyces ribosidificus, originally identified in a soil sample from Tsu City of Mie Prefecture in Japan. It is made up of 3 ring subunits: 2-deoxystreptamine (DOS), neosamine C, and ribose. Ribostamycin, along with other aminoglycosides with the DOS subunit, is an important broad-spectrum antibiotic with important use against human immunodeficiency virus and is considered a critically important antimicrobial by the World Health Organization.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18000033/" target="_blank" style="color:#520049"><b>2008</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/2N0J" target="_blank" style="color:#520049"><b>2N0J</b></a></td>
+      </tr>
+      <tr>
+        <td name="td0" rowspan = "1">Pharmaceuticals</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Ribostamycin-aptamer" target="_blank" style="color:#520049"><b>Paromomycin aptamer</b></a></td>
+        <td name="td2">Paromomycin (PAR)</td>
+        <td name="td3">Paromomycin is an antimicrobial used to treat a number of parasitic infections including amebiasis, giardiasis, leishmaniasis, and tapeworm infection. It is a first-line treatment for amebiasis or giardiasis during pregnancy. Otherwise, it is generally a second line treatment option. It is taken by mouth, applied to the skin, or by injection into a muscle.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/18000033/" target="_blank" style="color:#520049"><b>2008</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/2MXS" target="_blank" style="color:#520049"><b>2MXS</b></a></td>
+      </tr>
 	  </tbody>
   </table>
 </div>        
@@ -1132,20 +1148,12 @@ This section lists all the experimentally validated aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/3HSB" target="_blank" style="color:#520049"><b>3HSB</b></a><br><a href="https://www.rcsb.org/structure/3AHU" target="_blank" style="color:#520049"><b>3AHU</b></a></td>
       </tr>    
       <tr>
-        <td name="td0" rowspan = "1">Cell</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer" target="_blank" style="color:#520049"><b>Lys1.2minF aptamer</b></a></td>
-        <td name="td2">HEWL(lysozyme)</td>
-        <td name="td3">It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/24570482/" target="_blank" style="color:#520049"><b>2013</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/4M6D" target="_blank" style="color:#520049"><b>4M6D</b></a></td>
-      </tr>    
-      <tr>
-        <td name="td0" rowspan = "1">Cell</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer" target="_blank" style="color:#520049"><b>Lys1.2minE apatmer</b></a></td>
-        <td name="td2">HEWL(lysozyme)</td>
-        <td name="td3">It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/24570482/" target="_blank" style="color:#520049"><b>2013</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/4M4O" target="_blank" style="color:#520049"><b>4M4O</b></a></td>
+        <td name="td0" rowspan = "1">Other</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer" target="_blank" style="color:#520049"><b>Lysozyme aptamer</b></a></td>
+        <td name="td2">Lysozyme</td>
+        <td name="td3">Lysozyme (EC 3.2.1.17, muramidase, N-acetylmuramide glycanhydrolase; systematic name peptidoglycan N-acetylmuramoylhydrolase) is an antimicrobial enzyme produced by animals that forms part of the innate immune system.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/24570482/" target="_blank" style="color:#520049"><b>2013</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/4M6D" target="_blank" style="color:#520049"><b>4M6D</b></a><br><a href="https://www.rcsb.org/structure/4M4O" target="_blank" style="color:#520049"><b>4M4O</b></a></td>
       </tr>
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
@@ -1245,9 +1253,9 @@ This section lists all the experimentally validated aptamers.
       </tr> 
       <tr>
         <td name="td0" rowspan = "1">Viral</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/REX16-aptamer" target="_blank" style="color:#520049"><b>HTLV-1 Rex aptamer</b></a></td>
-        <td name="td2">HTLV-1 arginine-rich Rex peptide</td>
-        <td name="td3">Rex is a post-transcriptional regulator that induces the emergence of unspliced and single-spliced viral mRNA in the cytoplasm.</td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Rex-protein-aptamer" target="_blank" style="color:#520049"><b>Rex protein aptamer</b></a></td>
+        <td name="td2">HTLV-1 Rex protein</td>
+        <td name="td3">Human T-cell leukemia virus type 1 (HTLV-1) replication was largely regulated by the virus-encoded proteins Tax and Rex. Rex functions posttranscriptionally, enhancing the cytoplasmic appearance of incompletely spliced mRNAs encoding HTLV-1 structural proteins and suppressing the appearance of completely spliced mRNAs encoding regulatory proteins such as Tax and Rex.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10647177/" target="_blank" style="color:#520049"><b>1999</b></a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/1EXY" target="_blank" style="color:#520049"><b>1EXY</b></a></td>
       </tr> 
@@ -1271,17 +1279,17 @@ This section lists all the experimentally validated aptamers.
         <td name="td0" rowspan = "1">Mammalian</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Spinach-RNA-aptamer" target="_blank" style="color:#520049"><b>Spinach RNA aptamer</b></a></td>
         <td name="td2">Fab BL3-6S97N</td>
-        <td name="td3">An independent selection using a 40-nt randomized library unconstrained by secondary structure revealed a GNGACCC consensus sequence for Fab BL3–6 binding.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29309709/" target="_blank" style="color:#520049"><b>2018</b> </a></td>
+        <td name="td3">Fab BL3-6S97N is an affinity-matured variant of the Fab BL3-6 antibody fragment, featuring a key S97N mutation in CDR L3. This mutation introduces asparagine, forming additional hydrogen bonds with RNA nucleobase A40, enhancing binding affinity by ~20-fold compared to the parent Fab. The crystal structure of Fab BL3-6S97N bound to the GAAACAC RNA motif shows N97’s carboxamide group within hydrogen bonding distance of A40, strengthening interactions.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/21798953/" target="_blank" style="color:#520049"><b>2011</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/6B14" target="_blank" style="color:#520049"><b>6B14</b></a><br><a href="https://www.rcsb.org/structure/6B3K" target="_blank" style="color:#520049"><b>6B3K</b></a></td>
       </tr>  
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
-        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Factor-Xa-aptamer" target="_blank" style="color:#520049"><b>Factor Xa-aptamer</b></a></td>
-        <td name="td2">DesGla-XaS195A</td>
-        <td name="td3">GD-FXaS195A is a FXa variant that lacks the membrane binding γ-carboxyglutamic acid (Gla) domain and contains an alanine substitution at the catalytic serine.</td>
-        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29863725/" target="_blank" style="color:#520049"><b>2018</b> </a></td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/5VOF" target="_blank" style="color:#520049"><b>5VOF</b></a><br><a href="https://www.rcsb.org/structure/5VOE" target="_blank" style="color:#520049"><b>5VOE</b></a></td>
+        <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Factor-Xa-aptamer" target="_blank" style="color:#520049"><b>Factor Xa aptamer</b></a></td>
+        <td name="td2">Factor Xa</td>
+        <td name="td3">Factor Xa, a trypsin-like serine protease, is situated at the critical juncture between the intrinsic and extrinsic pathways, catalyzing the conversion of prothrombin to thrombin, and hence plays a pivotal role in the final common pathway of the cascade and has become an important target in the discovery and development of new anticoagulants.</td>
+        <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20022942/" target="_blank" style="color:#520049"><b>2009</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/5VOF" target="_blank" style="color:#520049"><b>5VOF</b></a></td>
       </tr>   
       <tr>
         <td name="td0" rowspan = "1">Mammalian</td>
@@ -1292,10 +1300,10 @@ This section lists all the experimentally validated aptamers.
         <td name="td5"><a href="https://www.rcsb.org/structure/4R8I" target="_blank" style="color:#520049"><b>4R8I</b></a></td>
       </tr> 
       <tr>
-        <td name="td0" rowspan = "1">Other</td>
+        <td name="td0" rowspan = "1">Bacteria</td>
         <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FC-RNA-aptamer" target="_blank" style="color:#520049"><b>FC RNA aptamer</b></a></td>
         <td name="td2">RNA polymerase (Pol) II (S. cerevisiae)</td>
-        <td name="td3">RNA polymerase II (RNAP II and Pol II) is a 550 kDa multiprotein complex of 12 subunits that transcribes DNA into precursors of messenger RNA (mRNA) and most small nuclear RNA (snRNA) and microRNA. A wide range of transcription factors are required for it to bind to upstream gene promoters and begin transcription.</td>
+        <td name="td3">RNA polymerase II (RNAP II and Pol II) is a multiprotein complex that transcribes DNA into precursors of messenger RNA (mRNA) and most small nuclear RNA (snRNA) and microRNA. It is one of the three RNAP enzymes found in the nucleus of eukaryotic cells. A 550 kDa complex of 12 subunits, RNAP II is the most studied type of RNA polymerase. A wide range of transcription factors are required for it to bind to upstream gene promoters and begin transcription.</td>
         <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9346949/" target="_blank" style="color:#520049"><b>1997</b> </a></td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2B63" target="_blank" style="color:#520049"><b>2B63</b></a></td>
       </tr> 

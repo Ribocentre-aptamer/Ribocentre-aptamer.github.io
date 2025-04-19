@@ -2,7 +2,7 @@
 layout: post
 title:  "GTP aptamer"
 date:   2024-03-31 00:00:00
-author: Yangyi Ren, Chen Ke
+author: Yangyi Ren, Ke Chen
 categories: Aptamer
 ---
 <html>
@@ -33,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -43,7 +46,7 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -62,7 +65,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -71,6 +74,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -167,16 +179,16 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2002, Davis et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for GTP. Then,Davis et al. demonstrated significantly enhanced GTP binding, spanning three orders of magnitude in binding affinity. In 2006, James etal elucidated the structure of the aptamer complexed with GTP using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2002, Szostak, J. W. et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for GTP. Then, Davis, J. H. et al. demonstrated significantly enhanced GTP binding, spanning three orders of magnitude in binding affinity. In 2006, Szostak, J. W. et al. elucidated the structure of the aptamer complexed with GTP using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Aptamers, RNA sequences that bind to target ligands, are typically isolated by in vitro selection from RNA libraries containing completely random sequences. To see whether higher-affinity aptamers can be isolated from partially structured RNA libraries, we selected for aptamers that bind GTP, starting from a mixture of fully random and partially structured libraries. Because stem-loops are common motifs in previously characterized aptamers, we designed the partially structured library to contain a centrally located stable stem-loop. We used an off-rate selection protocol designed to maximize the enrichment of high-affinity aptamers. The selection produced a surprisingly large number of distinct sequence motifs and secondary structures, including seven different aptamers with Kds ranging from 500 to 25 nanomolar. The engineered stem-loop was present in the three highest affinity aptamers, and in 12 of 13 independent isolates with a single consensus sequence, suggesting that its inclusion increased the abundance of high-affinity aptamers in the starting pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>A selection process for GTP-binding aptamers was carried out using a mixture of fully random and partially structured libraries. Given that stem-loops are common motifs in previously characterised aptamers, the partially structured library was designed to include a centrally positioned stable stem-loop. An off-rate selection protocol was employed to maximise the enrichment of high-affinity aptamers. This selection process yielded an unexpectedly diverse array of sequence motifs and secondary structures, including seven distinct aptamers with dissociation constants (Kd) ranging from 500 to 25 nanomolar. The engineered stem-loop was present in the three highest-affinity aptamers and in 12 of the 13 independent isolates sharing a single consensus sequence, suggesting that its incorporation increased the prevalence of high-affinity aptamers in the initial pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>  
 
@@ -184,19 +196,19 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p></font>
-<font><p>5'-GGGACGAAGUGGUUGGGCGCUUCGGCGUGUGAAAACGUCCC-3'</p></font>
-<img src="/images/2D/GTP_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;">   
-</div>
+<p>Here we used ribodraw to complete the figure, through the 3D structure information. Class I GTP aptamer was named by Szostak, J. W<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>5'-GGGACGAAGUGGUUGGGCGCUUCGGCGUGUGAAAACGUCCC-3'</p>
+<img src="/images/2D/GTP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
 
 
 
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >James m. carothers and Jonathan h. davis elucidate the solution structure of the 41-nt Class I GTP aptamer (Kd = 75 nM) using  multidimensional NMR spectroscopy and molecular dynamics calculations. The PDB ID of this structure is 2AU4<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Szostak, J. W. et al. elucidated the solution structure of the 41-nt Class I GTP aptamer (Kd=75 nM) using multidimensional nuclear magnetic resonance (NMR) spectroscopy and molecular dynamics calculations. The PDB ID of this structure is 2AU4<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GTP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -254,41 +266,46 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A',    
   start_residue_number:1, 
   end_residue_number:7, 
-  color:{r:9,g:254,b:254}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:16, 
-  color:{r:128,g:219,b:158}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:17, 
   end_residue_number:28, 
-  color:{r:194,g:194,b:255}
+  color:{ r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:29, 
-  end_residue_number:29, 
-  color:{r:255,g:0,b:255}
+  end_residue_number:30, 
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:30, 
+  start_residue_number:31, 
+  end_residue_number:31, 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:32, 
   end_residue_number:34, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'A', 
+  color:{r:46,g:161,b:3}
+},{
+   struct_asym_id: 'A', 
   start_residue_number:35, 
   end_residue_number:41, 
-  color:{r:9,g:254,b:254}
+  color:{ r:184,g:51,b:50}
 },{
   struct_asym_id: 'B', 
   start_residue_number:42, 
   end_residue_number:42, 
-  color:{r:255,g:255,b:0}
+  color:{ r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -324,14 +341,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2AU4 by NMR. GTP(Guanosine-5'-triphosphate)(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with GTP.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2AU4 by NMR. GTP (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with GTP.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/GTP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/GTP_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/GTP_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/GTP_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -340,12 +356,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Jonathan H. Davis and Jack W. Szostak use ultrafiltration Kd assays to determine binding assays<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>. The affinity of the aptamer is shown in the figure below.</font >
-<div style="display: flex; justify-content: center;">
-<br>
+<p>Szostak, J. W. et al. used ultrafiltration Kd assays to determine binding assays<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>. The affinity of the aptamer is shown in the figure below.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -368,18 +382,24 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table-->
-  </div>
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/GTP_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>GTP is a guanosine 5'-phosphate and a purine ribonucleoside 5'-triphosphate. It has a role as an Escherichia coli metabolite, a mouse metabolite and an uncoupling protein inhibitor. It is a conjugate acid of a GTP.-----from PubChem</p></font>
+<p>GTP is a guanosine 5'-phosphate and a purine ribonucleoside 5'-triphosphate. It has a role as an Escherichia coli metabolite, a mouse metabolite and an uncoupling protein inhibitor. It is a conjugate acid of a GTP(3-).-----From <a href="https://pubchem.ncbi.nlm.nih.gov/compound/135398633" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -387,10 +407,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">GTP</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/135398633" target="_blank" style="color:#520049"><b>135398633</b></a></td>
         <td name="td1">C<sub>10</sub>H<sub>16</sub>N<sub>5</sub>O<sub>14</sub>P<sub>3</sub></td>
         <td name="td2">523.18 g/mol</td>
-        <td name="td3">86-01-1</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=86-01-1" target="_blank" style="color:#520049"><b>86-01-1</b></a></td>
         <td name="td4">100 mg/mL in water</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB04137" target="_blank" style="color:#520049"><b>DB04137</b> </a></td>
       </tr>
@@ -401,16 +422,20 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/GTP_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
 </table>
-<div style="display: flex; justify-content: center;">
-  </div>
+<div style="display: flex; justify-content: center;"></div>
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to GTP by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to GTP by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -418,59 +443,59 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC14881082</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC14881082/" target="_blank" style="color:#520049"><b>ZINC14881082</b></a></td>
         <td name="td2">9beta-D-Arabinofuranosylguanosine 5'-Triphosphate</td>
-        <td name="td3">72490-81-4</td>
-        <td name="td4">135544356</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=72490-81-4" target="_blank" style="color:#520049"><b>72490-81-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/135544356" target="_blank" style="color:#520049"><b>135544356</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC100054067</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC100054067/" target="_blank" style="color:#520049"><b>ZINC100054067</b></a></td>
         <td name="td2">6-Thioguanosine-5'- O- Triphosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">131769948</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/131769948" target="_blank" style="color:#520049"><b>131769948</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC37868676</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC37868676/" target="_blank" style="color:#520049"><b>ZINC37868676</b></a></td>
         <td name="td2">Phosphoaminophosphonic Acid Guanylate Ester</td>
-        <td name="td3">34273-04-6</td>
-        <td name="td4">135403657</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=34273-04-6" target="_blank" style="color:#520049"><b>34273-04-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/135403657" target="_blank" style="color:#520049"><b>135403657</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8215530</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8215530/" target="_blank" style="color:#520049"><b>ZINC8215530</b></a></td>
         <td name="td2">Inosine triphosphate</td>
-        <td name="td3">132-06-9</td>
-        <td name="td4">135398643</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=132-06-9" target="_blank" style="color:#520049"><b>132-06-9</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/135398643" target="_blank" style="color:#520049"><b>135398643</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC13436579</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC13436579/" target="_blank" style="color:#520049"><b>ZINC13436579</b></a></td>
         <td name="td2">2'-Deoxyguanosine-5'-Triphosphate</td>
-        <td name="td3">2564-35-4</td>
-        <td name="td4">135398599</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=2564-35-4" target="_blank" style="color:#520049"><b>2564-35-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/135398599" target="_blank" style="color:#520049"><b>135398599</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC95618747</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC95618747/" target="_blank" style="color:#520049"><b>ZINC95618747</b></a></td>
         <td name="td2">6-Thioguanosine 5'-triphosphate</td>
-        <td name="td3">17670-19-8</td>
-        <td name="td4">10143562</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=17670-19-8" target="_blank" style="color:#520049"><b>17670-19-8</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/10143562" target="_blank" style="color:#520049"><b>10143562</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC53683954</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC53683954/" target="_blank" style="color:#520049"><b>ZINC53683954</b></a></td>
         <td name="td2">7-Methyl-Guanosine-5'-Triphosphate</td>
-        <td name="td3">26554-26-7</td>
-        <td name="td4">135419182</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=26554-26-7" target="_blank" style="color:#520049"><b>26554-26-7</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/135419182" target="_blank" style="color:#520049"><b>135419182</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC44221439</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC44221439/" target="_blank" style="color:#520049"><b>ZINC44221439</b></a></td>
         <td name="td2">Guanidinetriphosphate</td>
         <td name="td3">NA</td>
-        <td name="td4">135440071</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/135440071" target="_blank" style="color:#520049"><b>135440071</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/GTP_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
