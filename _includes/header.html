@@ -1,4 +1,3 @@
-
 <div class="navbar-expand-lg navbar-dark" style='background-color: #333333; border-radius: 0; margin-bottom: 0; border: 0; height: 30px;' role="navigation">
 	<div class="container-fluidmiao" style='height: 30px; max-width: 1000px;'>
 		<ul class="nav navbar-nav navbar-right" style='height: 30px;'>
@@ -642,51 +641,76 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       }
     });
     
-    // 计算文本相关性分数
+    // 计算文本相关性分数 - 增强版
     function calculateRelevanceScore(item, query) {
       var score = 0;
-      var queryTerms = query.toLowerCase().split(' ');
+      // 将查询拆分为单独的关键词
+      var queryTerms = query.toLowerCase().split(/\s+/).filter(function(term) {
+        return term.length > 0;
+      });
+      var fullQuery = query.toLowerCase();
       
-      // 标题匹配权重最高
-      if (item.title) {
-        var titleLower = item.title.toLowerCase();
-        queryTerms.forEach(function(term) {
-          if (titleLower === term) score += 100; // 完全匹配
-          else if (titleLower.indexOf(term) === 0) score += 50; // 前缀匹配
-          else if (titleLower.indexOf(term) !== -1) score += 30; // 包含匹配
-        });
-      }
+      // 检查字段是否存在
+      var titleLower = item.title ? item.title.toLowerCase() : '';
+      var categoryLower = item.category ? item.category.toLowerCase() : '';
+      var tagsLower = item.tags ? item.tags.toLowerCase() : '';
+      var contentLower = item.content ? item.content.toLowerCase() : '';
       
-      // 类别和标签匹配次之
-      if (item.category) {
-        var categoryLower = item.category.toLowerCase();
-        queryTerms.forEach(function(term) {
-          if (categoryLower.indexOf(term) !== -1) score += 20;
-        });
-      }
+      // 精确匹配完整查询词 - 最高权重
+      if (titleLower.indexOf(fullQuery) !== -1) score += 200; // 标题中有完整查询词
+      if (contentLower.indexOf(fullQuery) !== -1) score += 100; // 内容中有完整查询词
+      if (categoryLower.indexOf(fullQuery) !== -1) score += 80; // 分类中有完整查询词
+      if (tagsLower.indexOf(fullQuery) !== -1) score += 90; // 标签中有完整查询词
       
-      if (item.tags) {
-        var tagsLower = item.tags.toLowerCase();
-        queryTerms.forEach(function(term) {
-          if (tagsLower.indexOf(term) !== -1) score += 25;
-        });
-      }
-      
-      // 内容匹配
-      if (item.content) {
-        var contentLower = item.content.toLowerCase();
-        queryTerms.forEach(function(term) {
-          // 使用转义函数处理特殊字符
+      // 检查每个关键词的匹配情况
+      var matchedTerms = 0;
+      queryTerms.forEach(function(term) {
+        let termMatched = false;
+        
+        // 标题匹配权重最高
+        if (titleLower === term) {
+          score += 100; // 标题与单词完全匹配
+          termMatched = true;
+        } else if (titleLower.indexOf(term) === 0) {
+          score += 80; // 标题以关键词开头
+          termMatched = true;
+        } else if (titleLower.indexOf(term) !== -1) {
+          score += 60; // 标题包含关键词
+          termMatched = true;
+        }
+        
+        // 分类匹配
+        if (categoryLower.indexOf(term) !== -1) {
+          score += 30;
+          termMatched = true;
+        }
+        
+        // 标签匹配
+        if (tagsLower.indexOf(term) !== -1) {
+          score += 40;
+          termMatched = true;
+        }
+        
+        // 内容匹配
+        if (contentLower.indexOf(term) !== -1) {
+          // 计算关键词在内容中出现的次数
           var escapedTerm = escapeRegExp(term);
-          var regex = new RegExp(escapedTerm, 'g');
+          var regex = new RegExp(escapedTerm, 'gi');
           var count = (contentLower.match(regex) || []).length;
-          score += count * 5; // 每出现一次加5分
           
-          // 如果内容中有完整的短语匹配，额外加分
-          if (contentLower.indexOf(query.toLowerCase()) !== -1) {
-            score += 15;
-          }
-        });
+          // 根据出现次数和单词长度加权
+          var termWeight = Math.min(count * (term.length > 3 ? 3 : 2), 30); // 避免单个词出现太多次权重过高
+          score += termWeight;
+          termMatched = true;
+        }
+        
+        if (termMatched) matchedTerms++;
+      });
+      
+      // 匹配词数占比加成 - 如果查询有多个词，且都匹配到了，给额外加分
+      if (queryTerms.length > 1 && matchedTerms > 0) {
+        var matchRatio = matchedTerms / queryTerms.length;
+        score += matchRatio * 50; // 完全匹配所有词可获得50分加成
       }
       
       return score;
@@ -696,7 +720,7 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
     function highlightKeywords(text, query) {
       if (!text) return '';
       
-      var queryTerms = query.toLowerCase().split(' ').filter(function(term) {
+      var queryTerms = query.toLowerCase().split(/\s+/).filter(function(term) {
         return term.length > 1; // 忽略单字符词
       });
       
@@ -711,42 +735,71 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       
       return result;
     }
+    
     // 提取包含关键词的上下文
-    function extractContext(text, query, contextLength) {
+    function extractContext(text, query) {
       if (!text) return '';
       
+      var contextLength = 200;
       var textLower = text.toLowerCase();
       var queryLower = query.toLowerCase();
-      var index = textLower.indexOf(queryLower);
+      var queryTerms = queryLower.split(/\s+/).filter(function(term) {
+        return term.length > 1;
+      });
       
-      // 如果找不到精确匹配，尝试查找单个词
-      if (index === -1) {
-        var queryTerms = queryLower.split(' ');
-        for (var i = 0; i < queryTerms.length; i++) {
-          if (queryTerms[i].length > 1) {
-            index = textLower.indexOf(queryTerms[i]);
-            if (index !== -1) break;
+      // 尝试找出最佳上下文段落 - 优先匹配完整查询，其次匹配最多关键词的段落
+      var bestStart = -1;
+      var bestMatchCount = 0;
+      var chunkSize = 150; // 滑动窗口大小
+      
+      // 先检查是否有完整查询匹配
+      var fullQueryIndex = textLower.indexOf(queryLower);
+      if (fullQueryIndex !== -1) {
+        bestStart = fullQueryIndex;
+      } else {
+        // 没有完整匹配，尝试找到包含最多关键词的文本段落
+        for (var i = 0; i < textLower.length; i += chunkSize / 2) { // 窗口滑动步长为窗口大小的一半
+          var chunkEnd = Math.min(i + chunkSize, textLower.length);
+          var chunk = textLower.substring(i, chunkEnd);
+          var matchCount = 0;
+          
+          // 计算当前段落包含多少个关键词
+          queryTerms.forEach(function(term) {
+            if (chunk.indexOf(term) !== -1) {
+              matchCount++;
+            }
+          });
+          
+          // 如果找到包含更多关键词的段落，更新最佳起始位置
+          if (matchCount > bestMatchCount) {
+            bestMatchCount = matchCount;
+            bestStart = i;
+          }
+          
+          // 如果已经匹配了所有关键词，可以提前结束
+          if (matchCount === queryTerms.length) {
+            break;
           }
         }
       }
       
-      // 如果还是找不到，返回文本开头
-      if (index === -1) {
+      // 如果没有找到任何匹配，返回文本开头
+      if (bestStart === -1) {
         return text.substring(0, contextLength);
       }
       
-      // 提取上下文
-      var start = Math.max(0, index - contextLength / 2);
-      var end = Math.min(text.length, index + queryLower.length + contextLength / 2);
+      // 提取上下文，确保不超出文本边界
+      var start = Math.max(0, bestStart - contextLength / 4);
+      var end = Math.min(text.length, bestStart + contextLength * 3/4);
       
       // 调整到单词边界
       if (start > 0) {
-        while (start > 0 && text[start] !== ' ' && text[start] !== '.') start--;
+        while (start > 0 && !/\s/.test(text[start])) start--;
         if (start > 0) start++; // 避免以空格开头
       }
       
       if (end < text.length) {
-        while (end < text.length && text[end] !== ' ' && text[end] !== '.') end++;
+        while (end < text.length && !/\s/.test(text[end])) end++;
       }
       
       var context = text.substring(start, end);
@@ -756,9 +809,9 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       if (end < text.length) context = context + '...';
       
       return context;
-    }
+  }
       
-  // 转义正则表达式中的特殊字符
+    // 转义正则表达式中的特殊字符
     function escapeRegExp(string) {
       return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $&表示匹配到的字符串
     }
@@ -821,14 +874,14 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
     
     // 搜索函数
     function performSearch() {
-      var query = searchInput.value.trim().toLowerCase();
+      var query = searchInput.value.trim();
       if (!query) {
         resultsContainer.style.display = 'none';
         return;
       }
       
       // 显示加载状态
-      resultsContainer.innerHTML = '<div class="loading-message">Searching...</div>';
+      resultsContainer.innerHTML = '<div class="loading-message">正在搜索</div>';
       resultsContainer.style.display = 'block';
       
       // 尝试多种可能的路径
@@ -848,7 +901,7 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       
       function tryNextPath(index) {
         if (index >= searchJsonPaths.length) {
-          resultsContainer.innerHTML = '<div class="no-results-message">No results found. Please try different keywords.</div>';
+          resultsContainer.innerHTML = '<div class="no-results-message">无法加载搜索数据，请稍后再试。</div>';
           return;
         }
         
@@ -896,15 +949,46 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       function processSearchResults(data) {
         var results = [];
         var startTime = new Date().getTime();
+        var queryLower = query.toLowerCase();
+        var queryTerms = queryLower.split(/\s+/).filter(function(term) {
+          return term.length > 0;
+        });
         
-        // 查找匹配项并计算相关性分数
+        // 查找匹配项
         data.forEach(function(item) {
+          // 获取所有要搜索的字段，转为小写
+          var titleLower = item.title ? item.title.toLowerCase() : '';
+          var categoryLower = item.category ? item.category.toLowerCase() : '';
+          var tagsLower = item.tags ? item.tags.toLowerCase() : '';
+          var contentLower = item.content ? item.content.toLowerCase() : '';
+          
+          var matched = false;
+          
+          // 检查完整查询词匹配
           if (
-            (item.title && item.title.toLowerCase().indexOf(query) !== -1) ||
-            (item.category && item.category.toLowerCase().indexOf(query) !== -1) ||
-            (item.tags && item.tags.toLowerCase().indexOf(query) !== -1) ||
-            (item.content && item.content.toLowerCase().indexOf(query) !== -1)
+            titleLower.indexOf(queryLower) !== -1 ||
+            categoryLower.indexOf(queryLower) !== -1 ||
+            tagsLower.indexOf(queryLower) !== -1 ||
+            contentLower.indexOf(queryLower) !== -1
           ) {
+            matched = true;
+          } else {
+            // 检查分词匹配 - 任何一个词匹配即可
+            for (var i = 0; i < queryTerms.length; i++) {
+              var term = queryTerms[i];
+              if (
+                titleLower.indexOf(term) !== -1 ||
+                categoryLower.indexOf(term) !== -1 ||
+                tagsLower.indexOf(term) !== -1 ||
+                contentLower.indexOf(term) !== -1
+              ) {
+                matched = true;
+                break;
+              }
+            }
+          }
+          
+          if (matched) {
             // 添加相关性分数
             item.relevanceScore = calculateRelevanceScore(item, query);
             results.push(item);
@@ -938,7 +1022,7 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
             // 提取上下文并高亮关键词
             var contentPreview = '';
             if (item.content) {
-              contentPreview = extractContext(item.content, query, 200);
+              contentPreview = extractContext(item.content, query);
               contentPreview = highlightKeywords(contentPreview, query);
             }
             
