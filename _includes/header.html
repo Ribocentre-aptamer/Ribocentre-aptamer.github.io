@@ -99,7 +99,7 @@
       <p>Example: 
         <a class="tip" href="https://aptamer.ribocentre.org/Ribocentre-aptamer/">RNA aptamer</a>&nbsp;&nbsp;
         <a class="tip" href="https://aptamer.ribocentre.org/SELEX/">SELEX</a>&nbsp;&nbsp;
-        <a class="tip" href="https://aptamer.ribocentre.org/docs/ATP-aptamer/" target="_blank">ATP-aptamer</a>&nbsp;&nbsp;
+        <a class="tip" href="https://aptamer.ribocentre.org/_posts/ATP-aptamer/" target="_blank">ATP aptamer</a>&nbsp;&nbsp;
         <a class="tip" href="https://aptamer.ribocentre.org/structures/">Structure</a>&nbsp;&nbsp;
       </p>
     </div>
@@ -676,7 +676,10 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       if (item.content) {
         var contentLower = item.content.toLowerCase();
         queryTerms.forEach(function(term) {
-          var count = (contentLower.match(new RegExp(term, 'g')) || []).length;
+          // 使用转义函数处理特殊字符
+          var escapedTerm = escapeRegExp(term);
+          var regex = new RegExp(escapedTerm, 'g');
+          var count = (contentLower.match(regex) || []).length;
           score += count * 5; // 每出现一次加5分
           
           // 如果内容中有完整的短语匹配，额外加分
@@ -699,14 +702,15 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       
       var result = text;
       queryTerms.forEach(function(term) {
+        // 使用转义函数处理特殊字符
+        var escapedTerm = escapeRegExp(term);
         // 使用正则表达式进行不区分大小写的替换，保留原始大小写
-        var regex = new RegExp('(' + term + ')', 'gi');
+        var regex = new RegExp('(' + escapedTerm + ')', 'gi');
         result = result.replace(regex, '<span class="keyword-highlight">$1</span>');
       });
       
       return result;
     }
-    
     // 提取包含关键词的上下文
     function extractContext(text, query, contextLength) {
       if (!text) return '';
@@ -753,7 +757,12 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
       
       return context;
     }
-    
+      
+  // 转义正则表达式中的特殊字符
+    function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $&表示匹配到的字符串
+    }
+
     // 查找页面第一张图片
     function findFirstImage(content) {
       if (!content) return null;
@@ -983,7 +992,8 @@ table:not(.table-bordered) > thead > tr > th, table:not(.table-bordered) > tbody
               
               var url = this.getAttribute('data-url');
               if (url) {
-                window.location.href = url;
+                // window.location.href = url;
+                window.open(url, '_blank'); // 在新标签页打开链接
               }
             });
           });
