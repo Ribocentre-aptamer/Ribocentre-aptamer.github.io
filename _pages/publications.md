@@ -1,5 +1,5 @@
 ---
-title: "Ribocentre-aptamer - Publication"
+title: "Ribocentre Aptamer - Publication"
 layout: gridlay
 excerpt: "Ribocentre-aptamer: A aptamer database"
 sitemap: True
