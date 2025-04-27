@@ -1,5 +1,5 @@
 ---
-title: "Riboaptamer - RNA-Aptamers"
+title: "Ribocentre Aptamer - RNA Aptamers"
 layout: piclay
 excerpt: "Ribocentre-aptamer: A aptamer database"
 sitemap: True
