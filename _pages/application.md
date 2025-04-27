@@ -1,5 +1,5 @@
 ---
-title: "Riboaptamer - applications-Aptamers"
+title: "Ribocentre Aptamer - Applications"
 layout: piclay
 excerpt: "Ribocentre-aptamer: A aptamer database"
 sitemap: True
