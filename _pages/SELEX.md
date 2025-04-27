@@ -1,5 +1,5 @@
 ---
-title: "Ribocentre-aptamer - SELEX"
+title: "Ribocentre Aptamer - SELEX"
 layout: riboaptamer
 excerpt: "Ribocentre-aptamer: A aptamer database"
 sitemap: True
