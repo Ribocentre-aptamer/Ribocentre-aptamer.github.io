@@ -1,5 +1,5 @@
 ---
-title: "Ribocentre-aptamer - Fluorescences"
+title: "Ribocentre Aptamer - Fluorescences"
 layout: riboaptamer
 excerpt: "Ribocentre-aptamer: A aptamer database"
 sitemap: True
