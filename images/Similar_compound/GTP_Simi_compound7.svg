@@ -6,7 +6,7 @@
 	.st0{font-family:'ArialMT';}
 	.st1{font-size:7.3042px;}
 	.st2{font-size:4.4949px;}
-	.st3{stroke:#304FF7;stroke-width:0.9449;}
+	.st3{fill:none;stroke:#304FF7;stroke-width:0.9449;}
 </style>
 <polygon points="191.6,78.7 179.2,74.6 179.3,74.3 179.4,74 191.8,78.1 191.7,78.4 "/>
 <text transform="matrix(1 0 0 1 173.3469 76.2166)" class="st0 st1">N</text>

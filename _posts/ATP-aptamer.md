@@ -456,7 +456,8 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-                    
+
+
 <p class="blowheader_box">Similar compound(s)</p>
 <p>We screened compounds with a significant resemblance to AMP utilizing the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p>
 

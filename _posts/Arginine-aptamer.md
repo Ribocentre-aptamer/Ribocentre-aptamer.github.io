@@ -2,13 +2,9 @@
 layout: post
 title:  "Arginine aptamer"
 date:   2024-04-09 00:00:00
-author: Yuhang Luo, LinFei Li
+author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <style>
@@ -37,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -47,7 +46,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -66,7 +65,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -75,6 +74,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -147,16 +155,16 @@ categories: Aptamer
 </div>
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1994, Michael Famulok employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for L-Citrulline. Subsequently, following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The capability to shift binding specificity from L-citrulline to L-arginine was demonstrated. In 1996, Michael Famulok et al. elucidated the structure of the aptamer complexed with L-Citrulline and L-arginine using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<P>In 1994, Famulok, M. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for L-Citrulline. Subsequently, following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The capability to shift binding specificity from L-citrulline to L-arginine was demonstrated. In 1996, Famulok, M. et al. elucidated the structure of the aptamer complexed with L-Citrulline and L-arginine using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculation<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The SELEX began with an initial RNA pool consisting of approximately 10<sup>15</sup> different RNA molecules. This pool was subjected to in vitro selection targeting specific binding to L-citrulline. RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled.  After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets. This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed. Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>The SELEX began with an initial RNA pool consisting of approximately 10<sup>15</sup> different RNA molecules.This pool was subjected to in vitro selection targeting specific binding to L-citrulline. RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled. After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets. This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed. Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
@@ -164,8 +172,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information. Here's another aptamer: ag.06 aptamer that was isolated in 1996<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref5" style="color:#520049">5</a>]</sup>.</p></font>
-<font><p>A:5'-AGAAGGAGCGU-3'<br>B:5'-ACAGGUAGGUCGCU-3'</p></font>
+<p>Here we used ribodraw to complete the figure, through the 3D structure information. The L-arginine aptamer and ag.06 aptamer were named by Famulok, M. in the article. The ag.06 aptamer was subsequently isolated in 1996 and showed higher affinity, but its structure has not been resolved yet<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>5'-CAGCGAGGAAGAGAAAGCUCGCUGGAUGGGCUG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/Arginine_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -178,9 +186,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
- <p class="blowheader_box">3D visualisation</p>             
-<font>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Michael Famulok et al. through multidimensional nuclear magnetic resonance (NMR) spectroscopy. The PDB ID of this structure is 1KOC<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p class="blowheader_box">3D visualisation</p>             
+<p>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Famulok, M. et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 1KOC<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Arginine_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -238,42 +247,54 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:5, 
   end_residue_number:12, 
-  color:{r:9,g:254,b:254}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:13, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:14, 
   end_residue_number:15, 
-  color:{r:9,g:254,b:254}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:29, 
   end_residue_number:30, 
-  color:{r:128,g:219,b:158}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:31, 
   end_residue_number:31, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:32, 
-  end_residue_number:40, 
-  color:{r:128,g:219,b:158}
-},{
+  end_residue_number:34, 
+  color:{r:46,g:161,b:3}
+},
+{
   struct_asym_id: 'B', 
+  start_residue_number:35, 
+  end_residue_number:40, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'C', 
   start_residue_number:1, 
   end_residue_number:1, 
-  color:{r:255,g:255,b:0}
-}
+  color:{r:255,g:0,b:255}
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
@@ -286,7 +307,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/1koc.pdb',
+        url:'/pdbfiles/1KOC-arg.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
@@ -311,8 +332,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>              
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOC by NMR. Arginine (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with Arginine<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOC by NMR. Arginine (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with L-Arginine.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Arginine_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -327,11 +347,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<font>Michael Famulok determined the dissociation constants Kd for L-citrulline RNA conjugates and L-arginine RNA conjugates in solution.The methods used for this purpose are isocratic elution chromatography and equilibrium gel filtration, which allow for a comprehensive assessment of the stability and affinity of the interactions under a variety of experimental conditions. These methods allow a robust assessment of the binding affinity dynamics of RNA with L-citrulline and L-arginine in different environments. The affinity of Citrulline RNA aptamer for L-Citrulline is 68 μM, and the rest demonstrates the affinity of Arginine RNA aptamer<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
-<br><br>
-<div style="display: flex; justify-content: center;">
+<p>Famulok, M. determined the dissociation constants (Kd) of the L-arginine aptamer with L-arginine and its derivatives in solution. To achieve this, he employed isocratic elution chromatography and equilibrium gel filtration, both of which allow for a comprehensive assessment of the stability and affinity of the interactions under various experimental conditions<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -378,20 +396,25 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table-->
-  </div>
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/Arginine_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
-<br>
+
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>L-arginine is an L-alpha-amino acid that is the L-isomer of arginine. It has a role as a nutraceutical, a biomarker, a micronutrient, an Escherichia coli metabolite and a mouse metabolite. It is a glutamine family amino acid, a proteinogenic amino acid, an arginine and a L-alpha-amino acid. It is a conjugate base of a L-argininium(1+). It is a conjugate acid of a L-argininate. It is an enantiomer of a D-arginine.-----from ChEBI</p></font>
+<p>L-arginine is an L-alpha-amino acid that is the L-isomer of arginine. It has a role as a nutraceutical, a biomarker, a micronutrient, an Escherichia coli metabolite and a mouse metabolite. It is a glutamine family amino acid, a proteinogenic amino acid, an arginine and a L-alpha-amino acid. It is a conjugate base of a L-argininium(1+). It is a conjugate acid of a L-argininate. It is an enantiomer of a D-arginine.-----From <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Arginine" target="_blank" style="color:#520049; text-decoration: underline;"><b>ChEBI</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -401,8 +424,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tr>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6322" target="_blank" style="color:#520049"><b>6322</b> </a></td>
         <td name="td1">C<sub>6</sub>H<sub>14</sub>N<sub>4</sub>O<sub>2</sub></td>
-        <td name="td2">174.20 g/mol</td>
-        <td name="td3">74-79-3</td>
+        <td name="td2">175.19 g/mol</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=74-79-3" target="_blank" style="color:#520049"><b>74-79-3</b></a></td>
         <td name="td4">50 mg/mL</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00125" target="_blank" style="color:#520049"><b>DB00125</b> </a></td>
       </tr>
@@ -414,16 +437,21 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-<br>
 
 
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to Citrulline and Arginine by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to Arginine by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -431,31 +459,31 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC000003873047</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000003873047/" target="_blank" style="color:#520049"><b>ZINC000003873047</b></a></td>
         <td name="td2">L-Thiocitrulline</td>
-        <td name="td3">156719-37-8</td>
-        <td name="td4">2733514</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=156719-37-8" target="_blank" style="color:#520049"><b>156719-37-8</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2733514" target="_blank" style="color:#520049"><b>2733514</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000001886324</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000001886324/" target="_blank" style="color:#520049"><b>ZINC000001886324</b></a></td>
         <td name="td2">n5-Iminoethyl-l-ornithine</td>
-        <td name="td3">36889-13-1</td>
-        <td name="td4">107984</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=36889-13-1" target="_blank" style="color:#520049"><b>36889-13-1</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/107984" target="_blank" style="color:#520049"><b>107984</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000003869452</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000003869452/" target="_blank" style="color:#520049"><b>ZINC000003869452</b></a></td>
         <td name="td2">Canavanin</td>
-        <td name="td3">543-38-4</td>
-        <td name="td4">439202</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=543-38-4" target="_blank" style="color:#520049"><b>543-38-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/439202" target="_blank" style="color:#520049"><b>439202</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC000035881877</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC000035881877/" target="_blank" style="color:#520049"><b>ZINC000035881877</b></a></td>
         <td name="td2">5-Azidonorvaline</td>
-        <td name="td3">156463-09-1</td>
-        <td name="td4">53662155</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=156463-09-1" target="_blank" style="color:#520049"><b>156463-09-1</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/53662155" target="_blank" style="color:#520049"><b>53662155</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Arginine_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>

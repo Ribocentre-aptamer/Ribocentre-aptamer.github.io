@@ -33,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -43,7 +46,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -62,7 +65,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -71,6 +74,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -120,30 +132,31 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2022, Dey, S. K. et al. evolved a naturally occurring well-folded adenine riboswitch into a fluorogenic aptamer-Squash，Squash exhibits markedly improved in-cell folding and highly efficient metabolite-dependent folding when fused to a S-adenosylmethionine (SAM)-binding aptamer. The same year, Truong, L. et al. reported the 2.7 Å-resolution co-crystal structure of fluorophore-bound Squash. Squash did not harbor a G-quadruplex, sandwiching its fluorophore between a base triple and a non-canonical base quadruple in a largely apolar pocket<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2022, Jaffrey, S. R. et al. evolved a naturally occurring well-folded adenine riboswitch into a fluorogenic aptamer-Squash，Squash exhibits markedly improved in-cell folding and highly efficient metabolite-dependent folding when fused to a S-adenosylmethionine (SAM)-binding aptamer. The same year, Jaffrey, S. R., & Ferré-D'Amaré, A. R. et al. reported the 2.7 Å-resolution co-crystal structure of fluorophore-bound Squash. Squash did not harbor a G-quadruplex, sandwiching its fluorophore between a base triple and a non-canonical base quadruple in a largely apolar pocket<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>To evolve the adenine aptamer into a fluorogenic aptamer, and selected for aptamers that bind to agarose-immobilized DFHBI. By the seventh round of SELEX, the pool exhibited fluorescence upon incubation with DFHBI-1T. At this point, the library was cloned into a bacterial expression vector, transformed into E. coli, and fluorescent aptamers were identified by sorting cells based on DFHBI-1T-induced fluorescence. After recovery of plasmids from the brightest cells, they found three library members which induced fluorescence activation of DFHBI-1T. For directed evolution, they synthesized a DNA library of 9–1 aptamer mutants such that each nucleotide in the ligand-binding pocket has a controlled probability of being converted into one of the other three nucleotides<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>To evolve the adenine aptamer into a fluorogenic aptamer, they selected for aptamers that bind to agarose-immobilized DFHBI. By the seventh round of SELEX, the pool exhibited fluorescence upon incubation with DFHBI-1T. At this point, the library was cloned into a bacterial expression vector, transformed into E. coli, and fluorescent aptamers were identified by sorting cells based on DFHBI-1T-induced fluorescence. After recovery of plasmids from the brightest cells, they found three library members which induced fluorescence activation of DFHBI-1T. For directed evolution, they synthesized a DNA library of 9–1 aptamer mutants such that each nucleotide in the ligand-binding pocket had a controlled probability of being converted into one of the other three nucleotides<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>5'-GGGAAGAUACAAGGUGAGCCCAAUAAUAUGGUUUGGGUUAGGAUAGGAAGUAGAGCCUUAAACUCUCUAAGCGGUAUCUUCCC-3'</p></font>
-<img src="/images/2D/squash_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>Here we used ribodraw to complete the figure, through the 3D structure information. Squash RNA aptamer was named by Jaffrey, S. R<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
+<p>5'-GGGAAGAUACAAGGUGAGCCCAAUAAUAUGGUUUGGGUUAGGAUAGGAAGUAGAGCCUUAAACUCUCUAAGCGGUAUCUUCCC-3'</p>
+<img src="/images/2D/squash_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
+
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Determined the co-crystal structures of Squash bound to DFHBI-1T and DFHO. Our structures reveal that the fluorescence turn-on aptamer retains the overall fold of the adenine riboswitch, and that the fluorophores are recognized in a binding site lacking a G-quadruplex.This shows Squash-DFHBI-1T co-crystal structure in here. The PDB ID is 7KVU<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Determined the co-crystal structures of Squash bound to DFHBI-1T and DFHO. The structures reveal that the fluorescence turn-on aptamer retains the overall fold of the adenine riboswitch, and that the fluorophores were recognized in a binding site lacking a G-quadruplex.This showed Squash-DFHBI-1T 2.7 Å resolution co-crystal structure in here. The PDB ID of the structure is 7KVU<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/squash_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -201,49 +214,59 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'G', 
   start_residue_number:1, 
   end_residue_number:10, 
-  color:{r:255,g:255,b:0}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'G', 
   start_residue_number:11, 
   end_residue_number:17, 
-  color:{r:255,g:192,b:203}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'G', 
   start_residue_number:18, 
   end_residue_number:38, 
-  color:{r:0,g:255,b:0}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'G', 
   start_residue_number:39, 
   end_residue_number:49, 
-  color:{r:194,g:194,b:255}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'G', 
   start_residue_number:50, 
   end_residue_number:67, 
-  color:{r:72,g:209,b:204}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'G', 
   start_residue_number:68, 
+  end_residue_number:68, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'G', 
+  start_residue_number:69, 
+  end_residue_number:70, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'G', 
+  start_residue_number:71, 
   end_residue_number:73, 
-  color:{r:10,g:11,b:255}
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'G', 
   start_residue_number:74, 
   end_residue_number:83, 
-  color:{r:255,g:255,b:0}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'G', 
   start_residue_number:106, 
   end_residue_number:106, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -279,7 +302,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>              
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7KVU by X-ray crystallography. DFHBI-1T(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI-1T<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7KVU by X-ray crystallography. DFHBI-1T(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI-1T.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/squash_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -294,42 +317,29 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Dissociation constants (Kd) for the RNA-fluorophore complexes were determined.  The RNA aptamer at a fixed concentration (50 nM) was titrated with increasing fluorophore concentration and the resulting increase in fluorescence was recorded.  For each fluorophore concentration, a background signal for fluorophore only solution was also measured separately and subtracted from the measured RNA-fluorophore signal.  Data was fitted to a single site saturation model using nonlinear regression analysis in Sigmaplot software.</p>
+<p>Dissociation constants (Kd) for the RNA-fluorophore complexes were determined by Jaffrey, S. R. The RNA aptamer at a fixed concentration (50 nM) was titrated with increasing fluorophore concentration and the resulting increase in fluorescence was recorded.  For each fluorophore concentration, a background signal for fluorophore only solution was also measured separately and subtracted from the measured RNA-fluorophore signal. Data was fitted to a single site saturation model using nonlinear regression analysis in Sigmaplot software<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/SELEX_ligand/squash_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+  <img src="/images/SELEX_ligand/squash_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
-<!--div style="display: flex; justify-content: center;"></div>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(1)">Sequence</th>
-        <th onclick="sortTable(2)">Ligand</th>
-        <th onclick="sortTable(3)">Affinity</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td1">5'-GAGACGGUCGGGUCCAGAUAUUCGUAUCUGUCGAGUAGAGUGUGGGCUC-3'</td>
-        <td name="td2">DFHBI-1T</td>
-        <td name="td3">360 nM</td>
-      </tr>
-	  </tbody>
-  </table-->
-
 
 
 <p class="blowheader_box">Structure ligand</p>                    
-<font><p>DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe (ex/em=472 nm/507 nm). DFHBI-1T binds to RNA aptamers (Spinach, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells.-----From MedChemExpress</p></font>
+<p>DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe (ex/em=472 nm/507 nm). DFHBI-1T binds to RNA aptamers (Spinach, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells.-----From <a href="https://www.medchemexpress.cn/dfhbi-1t.html" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://www.medchemexpress.cn/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a>:</b> a global supplier of high-quality chemicals for life science research.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">MedChemExpress</th>
@@ -341,7 +351,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/101889712" target="_blank" style="color:#520049"><b>101889712</b> </a></td>
         <td name="td1">C<sub>13</sub>H<sub>9</sub>F<sub>5</sub>N<sub>2</sub>O<sub>2</sub></td>
         <td name="td2">320.21 g/mol</td>
-        <td name="td3">1539318-36-9</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=1539318-36-9" target="_blank" style="color:#520049"><b>1539318-36-9</b></a></td>
         <td name="td4">100 mg/ml(in DMSO)</td>
         <td name="td5"><a href="https://www.medchemexpress.cn/dfhbi-1t.html" target="_blank" style="color:#520049"><b>HY-110251</b></a></td>
       </tr>
@@ -353,14 +363,20 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-<br>
+
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the PubChem database to screen compounds that were more similar to DFHBI-1T, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<p>We used the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a> to screen compounds that were more similar to DFHBI-1T, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Named</th>
+        <th onclick="sortTable(5)">ZINC ID</th>
+        <th onclick="sortTable(1)">Name</th>
         <th onclick="sortTable(2)">CAS</th>
         <th onclick="sortTable(3)">Pubchem CID</th>
         <th onclick="sortTable(4)">Structure</th>
@@ -368,39 +384,45 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td5"><a href="https://zinc15.docking.org/substances/ZINC98208407/" target="_blank" style="color:#520049"><b>ZINC98208407</b></a></td>
         <td name="td1">DFHBI</td>
-        <td name="td2">1241390-29-3</td>
-        <td name="td3">70808995</td>
+        <td name="td2"><a href="https://commonchemistry.cas.org/detail?cas_rn=1241390-29-3" target="_blank" style="color:#520049"><b>1241390-29-3</b></a></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/70808995" target="_blank" style="color:#520049"><b>70808995</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/squash_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
+        <td name="td5"><a href="https://zinc15.docking.org/substances/ZINC146958962/" target="_blank" style="color:#520049"><b>ZINC146958962</b></a></td>
         <td name="td1">SCHEMBL14662970</td>
         <td name="td2">NA</td>
-        <td name="td3">71240545</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/71240545" target="_blank" style="color:#520049"><b>71240545</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/squash_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
+        <td name="td5">NA</td>
         <td name="td1">3,5-difluoro-4-hydroxybenzylidene 1-trifluoroethyl-imidazolinone</td>
         <td name="td2">NA</td>
-        <td name="td3">129847459</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/129847459" target="_blank" style="color:#520049"><b>129847459</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/squash_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
+        <td name="td5">NA</td>
         <td name="td1">(z)-4-(2-(difluoroboryl)-4-hydroxybenzylidene)-1,2-dimethyl-1h-imidazol-5(4h)-one</td>
         <td name="td2">NA</td>
-        <td name="td3">132599529</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/132599529" target="_blank" style="color:#520049"><b>132599529</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/squash_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
+        <td name="td5"><a href="https://zinc15.docking.org/substances/ZINC146958550/" target="_blank" style="color:#520049"><b>ZINC146958550</b></a></td>
         <td name="td1">DFAME</td>
-        <td name="td2">1420815-55-9</td>
-        <td name="td3">71240548</td>
+        <td name="td2"><a href="https://commonchemistry.cas.org/detail?cas_rn=1420815-55-9" target="_blank" style="color:#520049"><b>1420815-55-9</b></a></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/139600407" target="_blank" style="color:#520049"><b>139600407</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/squash_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
+        <td name="td5">NA</td>
         <td name="td1">DFHBI-2T</td>
-        <td name="td2">1539318-40-5</td>
-        <td name="td3">129080921</td>
+        <td name="td2"><a href="https://commonchemistry.cas.org/detail?cas_rn=1539318-40-5" target="_blank" style="color:#520049"><b>1539318-40-5</b></a></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/129080921" target="_blank" style="color:#520049"><b>129080921</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/squash_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>

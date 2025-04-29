@@ -366,6 +366,16 @@ categories: Aptamer
 {
   struct_asym_id: 'L', 
   start_residue_number:1D, 
+  end_residue_number:1A, 
+  color:{r:207,g:62, b:125}
+},{
+  struct_asym_id: 'L', 
+  start_residue_number:1, 
+  end_residue_number:14, 
+  color:{r:207,g:62, b:125}
+},{
+  struct_asym_id: 'L', 
+  start_residue_number:14A, 
   end_residue_number:14L, 
   color:{r:207,g:62, b:125}
 },

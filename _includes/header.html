@@ -45,7 +45,7 @@
 	  </div>
 	  <p class="additional-text">Additional text here...</p>
 	</div>
-  
+
 	<div class="background-image">
 	  <img src="{{ site.url }}{{ site.baseurl }}/images/Picture-1.jpg" style='width: 100%; border-radius: 0; margin-top: 0; margin-bottom: 0;'>
 	</div>
@@ -115,8 +115,7 @@
       <p>Example:
         <a class="tip" href="{{ site.url }}{{ site.baseurl }}/Ribocentre-aptamer/">RNA aptamer</a>&nbsp;&nbsp;
         <a class="tip" href="{{ site.url }}{{ site.baseurl }}/SELEX/">SELEX</a>&nbsp;&nbsp;
-        <a class="tip" href="{{ site.url }}{{ site.baseurl }}/_posts/ATP-aptamer/" target="_blank">ATP
-          aptamer</a>&nbsp;&nbsp;
+        <a class="tip" href="{{ site.url }}{{ site.baseurl }}/_posts/ATP-aptamer/" target="_blank">ATP aptamer</a>&nbsp;&nbsp;
         <a class="tip" href="{{ site.url }}{{ site.baseurl }}/structures/">Structure</a>&nbsp;&nbsp;
       </p>
     </div>
@@ -772,30 +771,30 @@
     // 高亮关键词 - 修改版本，避免高亮HTML标签内文本
     function highlightKeywords(text, query) {
       if (!text) return '';
-      
+
       // 先查找所有HTML标签，将它们替换为占位符
       var tags = [];
       var tagPattern = /<[^>]*>/g;
       var tagMatch;
       var tempText = text;
-      
+
       while ((tagMatch = tagPattern.exec(text)) !== null) {
         var tag = tagMatch[0];
         var placeholder = `__TAG_${tags.length}__`;
         tags.push(tag);
         tempText = tempText.replace(tag, placeholder);
       }
-      
+
       // 在临时文本上执行关键词高亮
       var queryTerms = query.toLowerCase().split(/\s+/).filter(function (term) {
         return term.length > 1; // 忽略单字符词
       });
-      
+
       // 首先尝试高亮完整查询
       var escapedFullQuery = escapeRegExp(query);
       var fullQueryRegex = new RegExp('(' + escapedFullQuery + ')', 'gi');
       tempText = tempText.replace(fullQueryRegex, '<span class="keyword-highlight">$1</span>');
-      
+
       // 然后尝试高亮单个词
       queryTerms.forEach(function (term) {
         if (term.length < 2) return; // 忽略单字符词
@@ -803,12 +802,12 @@
         var regex = new RegExp('(' + escapedTerm + ')', 'gi');
         tempText = tempText.replace(regex, '<span class="keyword-highlight">$1</span>');
       });
-      
+
       // 恢复HTML标签
       for (var i = 0; i < tags.length; i++) {
         tempText = tempText.replace(`__TAG_${i}__`, tags[i]);
       }
-      
+
       return tempText;
     }
 
@@ -838,7 +837,7 @@
         for (var i = 0; i < queryTerms.length; i++) {
           var term = queryTerms[i];
           if (term.length < 2) continue;
-          
+
           var termIndex = textLower.indexOf(term);
           if (termIndex !== -1) {
             // 找到了一个关键词
@@ -849,7 +848,7 @@
             }
           }
         }
-        
+
         // 如果找到了单个关键词，检查附近是否有更多的关键词
         if (bestStart !== -1) {
           // 尝试找到包含最多关键词的文本段落
@@ -922,7 +921,7 @@
       // 确认提取的上下文中包含至少一个关键词
       var contextLower = context.toLowerCase();
       var containsKeyword = queryLower.length > 0 && contextLower.indexOf(queryLower) !== -1;
-      
+
       if (!containsKeyword) {
         for (var i = 0; i < queryTerms.length; i++) {
           if (queryTerms[i].length > 1 && contextLower.indexOf(queryTerms[i]) !== -1) {
@@ -931,23 +930,23 @@
           }
         }
       }
-      
+
       // 如果提取的上下文不包含关键词，尝试找到一个包含关键词的段落
       if (!containsKeyword && bestTermIndex !== -1) {
         start = Math.max(0, bestTermIndex - contextLength / 3);
         end = Math.min(text.length, bestTermIndex + contextLength * 2 / 3);
-        
+
         if (start > 0) {
           while (start > 0 && !/\s/.test(text[start])) start--;
           if (start > 0) start++; // 避免以空格开头
         }
-        
+
         if (end < text.length) {
           while (end < text.length && !/\s/.test(text[end])) end++;
         }
-        
+
         context = text.substring(start, end);
-        
+
         // 添加省略号
         if (start > 0) context = '...' + context;
         if (end < text.length) context = context + '...';
@@ -1177,17 +1176,17 @@
               var fullContentLower = item.content.toLowerCase();
               var queryLower = query.toLowerCase();
               var queryTerms = queryLower.split(/\s+/).filter(term => term.length > 1);
-              
+
               // 尝试找到第一个匹配的关键词位置
               var keywordPos = -1;
               var matchedKeyword = '';
-              
+
               // 首先尝试完整查询
               keywordPos = fullContentLower.indexOf(queryLower);
               if (keywordPos !== -1) {
                 matchedKeyword = queryLower;
               }
-              
+
               // 如果完整查询没找到，尝试查找单个关键词
               if (keywordPos === -1) {
                 for (var i = 0; i < queryTerms.length; i++) {
@@ -1201,30 +1200,30 @@
                   }
                 }
               }
-              
+
               // 如果找到关键词位置
               if (keywordPos !== -1) {
                 // 获取关键词周围的上下文
                 var contextLength = 300; // 增加上下文长度以确保显示足够内容
                 var start = Math.max(0, keywordPos - contextLength / 3);
                 var end = Math.min(item.content.length, keywordPos + contextLength * 2 / 3);
-                
+
                 // 调整到单词边界
                 if (start > 0) {
                   while (start > 0 && !/\s/.test(item.content[start])) start--;
                   if (start > 0) start++;
                 }
-                
+
                 if (end < item.content.length) {
                   while (end < item.content.length && !/\s/.test(item.content[end])) end++;
                 }
-                
+
                 contentPreview = item.content.substring(start, end);
-                
+
                 // 添加省略号
                 if (start > 0) contentPreview = '...' + contentPreview;
                 if (end < item.content.length) contentPreview = contentPreview + '...';
-                
+
                 // 确认生成的预览包含关键词
                 var previewLower = contentPreview.toLowerCase();
                 if (previewLower.indexOf(matchedKeyword) === -1) {
@@ -1239,7 +1238,7 @@
                 contentPreview = item.content.substring(0, 200) + '...';
                 console.warn('搜索结果索引 ' + (startIndex + index) + ' 未找到关键词位置，但之前匹配成功');
               }
-              
+
               // 高亮所有关键词
               contentPreview = highlightKeywords(contentPreview, query);
             }

@@ -5,7 +5,6 @@ date:   2024-05-08 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <style>
@@ -34,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +46,7 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +65,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +74,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -129,31 +140,33 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1998, Szostak, J employed in vitro selection techniques to isolate aptamers with affinity binding sites for biotin. In 2000, Nix, J. C. determined the 1.3 Å crystal structure of the aptamer complexed with biotin. Biotin is bound at the interface between the pseudoknot's stacked helices in a pocket defined almost entirely by base-paired nucleotides. The structure provides general insight into the mechanisms by which RNA function is mediated by divalent metals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1998, Szostak, J employed in vitro selection techniques to isolate aptamers with affinity binding sites for biotin. In 2000, Nix, J. C. determined the 1.3 Å crystal structure of the aptamer complexed with biotin. Biotin is bound at the interface between the pseudoknot's stacked helices in a pocket defined almost entirely by base-paired nucleotides. The structure provides general insight into the mechanisms by which RNA function is mediated by divalent metals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>A randomized RNA library, consisting of approximately 10<sup>14</sup> molecules, was synthesized via in vitro transcription from a DNA template and resuspended in a selection buffer comprising 0.1 M KCl, 5 mM MgCl2, and 10 mM Na-HEPES at pH 7.4. Following equilibration at ambient temperature, the RNA pool was applied to a 500 μL biotin-agarose affinity column to selectively bind biotin-interacting RNAs. Non-specific binders were eliminated through a series of 15 washes with 500 μL of the selection buffer. The biotinylated RNAs were eluted using 5 volumes of 500 μL elution buffer, which was the selection buffer supplemented with 5 mM D-biotin at pH 7.4. The affinity-purified RNAs were then pooled, concentrated, and subjected to enzymatic amplification. The resulting enriched RNA pool underwent gel purification and was cycled through additional rounds of selection and amplification. Notably, biotin-binding RNA species were first identified in the fourth selection round, and by the seventh round, these RNAs constituted over 50% of the total sequences present in the pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br><br>
-
-
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p></font>
-<font><p>5'-GGACCGUCAGAGGACACGGUUAAAAAGUCCUCU-3'</p></font>
-<img src="/images/2D/biotin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;"></div>
+<p>A randomized RNA library, consisting of approximately 10<sup>14</sup> molecules, was synthesized via in vitro transcription from a DNA template and resuspended in a selection buffer comprising 0.1 M KCl, 5 mM MgCl2, and 10 mM Na-HEPES at pH 7.4. Following equilibration at ambient temperature, the RNA pool was applied to a 500 μL biotin-agarose affinity column to selectively bind biotin-interacting RNAs. Non-specific binders were eliminated through a series of 15 washes with 500 μL of the selection buffer. The biotinylated RNAs were eluted using 5 volumes of 500 μL elution buffer, which was the selection buffer supplemented with 5 mM D-biotin at pH 7.4. The affinity-purified RNAs were then pooled, concentrated, and subjected to enzymatic amplification. The resulting enriched RNA pool underwent gel purification and was cycled through additional rounds of selection and amplification. Biotin-binding RNA species were first identified in the fourth selection round, and by the seventh round, these RNAs constituted over 50% of the total sequences present in the pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<br>
 <br>
 
 
 
+<p class="header_box" id="Structure">Structure</p>
+<p class="blowheader_box">2D representation</p>
+<p>Here we use ribodraw to complete the figure, through the 3D structure information. BB8-5 RNA aptamer was named by Szostak, J<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
+<p>5'-GGACCGUCAGAGGACACGGUUAAAAAGUCCUCU-3'</p>
+<img src="/images/2D/biotin_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
+
+
+
 <p class="blowheader_box">3D visualisation</p>             
-<font>Nix, J. et al. determined the structure of the biotin RNA aptamer using X-ray crystallography. The aptamer structure reveals how a highly complementary binding pocket for an unusual ligand can be built by an RNA using mostly Watson-Crick base-paired nucleotides and a collection of bound solvent molecules. The PDB ID of this structure is 1F27<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Nix et al. determined the structure of the biotin RNA aptamer using X-ray crystallography at a resolution of 1.3 Å. The aptamer structure revealed how a highly complementary binding pocket for an unusual ligand can be constructed by an RNA molecule, primarily using Watson-Crick base-paired nucleotides and a collection of bound solvent molecules. The PDB ID for this structure is 1F27<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -210,31 +223,49 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                 {
   struct_asym_id: 'A', 
   start_residue_number:3, 
-  end_residue_number:21, 
-  color:{r:72,g:209,b:204}
+  end_residue_number:20, 
+  color:{r:46,g:161,b:3}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:7, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:10, 
+  end_residue_number:15, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:21, 
+  end_residue_number:21, 
+  color:{r:194,g:182,b:23}
 },{
   struct_asym_id: 'B', 
   start_residue_number:22, 
+  end_residue_number:24, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:28, 
   end_residue_number:32, 
-  color:{r:72,g:209,b:204}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'B', 
   start_residue_number:25, 
   end_residue_number:27, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:33, 
   end_residue_number:33, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -271,8 +302,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F27 by X-ray crystallography. Biotin (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with Biotin.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F27 by X-ray crystallography. Biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Biotin.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -287,12 +317,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>The affinity of the aptamer for biotin was determined by measuring the fraction of RNA bound to biotin agarose at a range of immobilized ligand concentrations. The concentration of biotin available for binding was determined by saturating biotin agarose with excess labeled aptamer and measuring the amount of RNA specifically eluted following washing<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
-<div style="display: flex; justify-content: center;">
-<br>
+<p>The affinity of the aptamer for biotin was determined by measuring the fraction of RNA bound to biotin agarose at a range of immobilized ligand concentrations. The concentration of biotin available for binding was determined by saturating biotin agarose with excess labeled aptamer and measuring the amount of RNA specifically eluted following washing<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -315,20 +343,25 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table-->
-  </div>
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/biotin_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
   <br>
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.-----From Wiki</p></font>
+<p>Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.-----From <a href="https://en.wikipedia.org/wiki/Biotin" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -340,7 +373,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/171548" target="_blank" style="color:#520049"><b>171548</b> </a></td>
         <td name="td1">C<sub>10</sub>H<sub>16</sub>N<sub>2</sub>O<sub>3</sub>S</td>
         <td name="td2">244.31 g/mol</td>
-        <td name="td3">58-85-5</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=58-85-5" target="_blank" style="color:#520049"><b>58-85-5</b></a></td>
         <td name="td4">220 mg/L (at 25 °C)</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00121" target="_blank" style="color:#520049"><b>DB00121</b> </a></td>
       </tr>
@@ -354,13 +387,18 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to biotin by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to biotin by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -368,59 +406,59 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC4095742</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4095742/" target="_blank" style="color:#520049"><b>ZINC4095742</b></a></td>
         <td name="td2">Biotin Amide</td>
-        <td name="td3">6929-42-6</td>
-        <td name="td4">439597</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=6929-42-6" target="_blank" style="color:#520049"><b>6929-42-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/439597" target="_blank" style="color:#520049"><b>439597</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC3870809</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC3870809/" target="_blank" style="color:#520049"><b>ZINC3870809</b></a></td>
         <td name="td2">2-Iminobiotin</td>
         <td name="td3">NA</td>
-        <td name="td4">46936649</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/46936649" target="_blank" style="color:#520049"><b>46936649</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC13543600</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC13543600/" target="_blank" style="color:#520049"><b>ZINC13543600</b></a></td>
         <td name="td2">Lydimycin</td>
         <td name="td3">NA</td>
-        <td name="td4">70685126</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/70685126" target="_blank" style="color:#520049"><b>70685126</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC2169827</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC2169827/" target="_blank" style="color:#520049"><b>ZINC2169827</b></a></td>
         <td name="td2">vitamin H</td>
         <td name="td3">NA</td>
-        <td name="td4">6560210</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6560210" target="_blank" style="color:#520049"><b>6560210</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4321698</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4321698/" target="_blank" style="color:#520049"><b>ZINC4321698</b></a></td>
         <td name="td2">Biotin Sulfone</td>
-        <td name="td3">40720-05-6</td>
-        <td name="td4">83863</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=40720-05-6" target="_blank" style="color:#520049"><b>40720-05-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/83863" target="_blank" style="color:#520049"><b>83863</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4096827</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4096827/" target="_blank" style="color:#520049"><b>ZINC4096827</b></a></td>
         <td name="td2">Biocytin</td>
-        <td name="td3">576-19-2</td>
-        <td name="td4">83814</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=576-19-2" target="_blank" style="color:#520049"><b>576-19-2</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/83814" target="_blank" style="color:#520049"><b>83814</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC5192424</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC5192424/" target="_blank" style="color:#520049"><b>ZINC5192424</b></a></td>
         <td name="td2">Bisnorbiotin</td>
-        <td name="td3">16968-98-2</td>
-        <td name="td4">86492</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=16968-98-2" target="_blank" style="color:#520049"><b>16968-98-2</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/86492" target="_blank" style="color:#520049"><b>86492</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4521221</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4521221/" target="_blank" style="color:#520049"><b>ZINC4521221</b></a></td>
         <td name="td2">Biotin-X</td>
-        <td name="td3">72040-64-3</td>
-        <td name="td4">446905</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=72040-64-3" target="_blank" style="color:#520049"><b>72040-64-3</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/446905" target="_blank" style="color:#520049"><b>446905</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/biotin_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>

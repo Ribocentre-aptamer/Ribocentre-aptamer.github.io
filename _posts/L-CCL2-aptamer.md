@@ -276,123 +276,129 @@ categories: Aptamer
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
+  start_residue_number:3, 
+  end_residue_number:70, 
+  color:{r:133,g:39,b:181}
+}, 
+{
+  struct_asym_id: 'B', 
   start_residue_number:1, 
   end_residue_number:3, 
-  color:{R:184,G:51,B:50}
+  color:{r:184,g:51,b:50}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:4, 
   end_residue_number:4, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:5, 
   end_residue_number:5, 
-  color:{R:241,G:125,B:7}
+  color:{r:241,g:125,b:7}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:6, 
   end_residue_number:7, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:8, 
   end_residue_number:8, 
-  color:{R:8,G:69,B:149}
+  color:{r:8,g:69,b:149}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:9, 
   end_residue_number:11, 
-  color:{R:241,G:125,B:7}
+  color:{r:241,g:125,b:7}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:12, 
   end_residue_number:13, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number1:4, 
   end_residue_number:16, 
-  color:{R:207,G:62,B:125}
+  color:{r:207,g:62,b:125}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:17, 
   end_residue_number:21, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:22, 
   end_residue_number:22, 
-  color:{R:241,G:125,B:7}
+  color:{r:241,g:125,b:7}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:23, 
   end_residue_number:23, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:24, 
   end_residue_number:24, 
-  color:{R:241,G:125,B:7}
-}, 
+  color:{r:241,g:125,b:7}
+},
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:25, 
   end_residue_number:25, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:26, 
   end_residue_number:27, 
-  color:{R:241,G:125,B:7}
+  color:{r:241,g:125,b:7}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:28, 
   end_residue_number:30, 
-  color:{R:207,G:62,B:125}
+  color:{r:207,g:62,b:125}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:31, 
   end_residue_number:31, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:32, 
   end_residue_number:33, 
-  color:{R:8, G:69,B:149}
+  color:{r:8,g:69,b:149}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:34, 
   end_residue_number:36, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:37, 
   end_residue_number:39, 
-  color:{R:184,G:51,B:50}
+  color:{r:184,g:51,b:50}
 }, 
 {
-  struct_asym_id: 'A', 
+  struct_asym_id: 'B', 
   start_residue_number:40, 
   end_residue_number:40, 
-  color:{R:24,G:152,B:140}
+  color:{r:24,g:152,b:140}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>

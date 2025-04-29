@@ -173,7 +173,7 @@ Shows the sequence of RNA aptamers. We keep the U in the partial sequence becaus
 <br>
 
 <p class="header_box" >Detailed information</p>    
-This section displays
+
 <br>
 <br>
 <!--p class="header_box" >Detailed information</p-->    

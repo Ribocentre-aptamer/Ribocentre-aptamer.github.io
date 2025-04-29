@@ -199,7 +199,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<p>The TetR-binding aptamer is capable of inducing TetR-controlled gene expression. TetR-binding aptamers were isolated via in vitro selection along with an additional screening step, which was crucial for identifying aptamers that are active within the cell. Mutational analyses defined the minimal active sequence and highlighted the aptamer bases involved in induction. Here we utilized Ribodraw to complete the figure based on the 3D structure information. TetR binding aptamer was named by Anke Hunsicker et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
+<p>The TetR-binding aptamer is capable of inducing TetR-controlled gene expression. TetR-binding aptamers were isolated via in vitro selection along with an additional screening step, which was crucial for identifying aptamers that are active within the cell. Mutational analyses defined the minimal active sequence and highlighted the aptamer bases involved in induction. Here we utilized Ribodraw to complete the figure based on the 3D structure information. TetR-RNA aptamer was named by Anke Hunsicker et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>5'-GGCCGGAGAAUGUUAUGGCGCGAAAGCGCAGAGAAAACCGGUC-3'</p>
 <img src="/images/2D/TetR_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -321,18 +321,18 @@ categories: Aptamer
   start_residue_number:30, 
   end_residue_number:31, 
   color:{r:241,g:125,b:7}
-}，
+},
 {
   struct_asym_id: 'C', 
   start_residue_number:32, 
   end_residue_number:32, 
   color:{r:46,g:161,b:3}
-}，{
+},{
   struct_asym_id: 'C', 
   start_residue_number:33, 
   end_residue_number:33, 
   color:{r:241,g:125,b:7}
-}，{
+},{
   struct_asym_id: 'C', 
   start_residue_number:34, 
   end_residue_number:41, 

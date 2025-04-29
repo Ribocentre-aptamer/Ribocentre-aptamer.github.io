@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Tobramycin-RNA aptamer"
+title:  "Tobramycin aptamer"
 date:   2024-04-24 00:00:00
-author: Linfei Li, Yuhang Luo
+author: Linfei Li, Ke Chen
 categories: Aptamer
 ---
 <html>
@@ -33,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -43,7 +46,7 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -62,7 +65,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -71,6 +74,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -160,16 +172,16 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1995, Wang, Y et al. isolated aptamers with high affinity tobramycin binding sites using in vitro selection techniques. Subsequently, Jiang, LPatel et al. elucidated the structure of the aptamer with tobramycin using multidimensional NMR spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>Tobramycin aptamers, a class of high-affinity RNA molecules obtained through in vitro selection, were found to exhibit specific recognition of the aminoglycoside antibiotic tobramycin. Research demonstrated that these aptamers formed binding pockets via distinctive stem-loop structures. These structures adopted a “zipper-like” fold, which broadened the RNA’s major groove geometry through the synergistic arrangement of mismatched base pairs (e.g., G•U, U•U) and Watson-Crick base pairs (e.g., U•A). Tobramycin was positioned within the RNA’s major groove, partially encapsulated between the groove’s base and protruding bases (e.g., G15 or C15), forming a semi-enclosed chamber. Its binding was stabilised by hydrogen bonding and electrostatic interactions. For instance, the amino groups (NH₃⁺) of tobramycin could form hydrogen-bond networks with RNA base edges (e.g., N7, O4) or the phosphate backbone, while its aminosugar ring III enhanced binding through hydrophobic interactions with non-polar pyrimidine rings. Selection experiments revealed that high-affinity aptamers (with Kd values in the nM range) possessed highly conserved sequences. Their core binding domains were concentrated within predicted stem-loop regions, with affinity directly correlated to stem-loop stability. Quantitative analyses using fluorescently labelled tobramycin analogues (e.g., PYT) indicated that aptamers exhibited cross-binding capability with structurally similar aminoglycosides (e.g., neomycin), but no significant interaction with non-aminoglycoside antibiotics (e.g., erythromycin), underscoring their specificity. These studies not only elucidated the molecular mechanisms underlying RNA-aminoglycoside interactions but also provided critical insights for antibiotic optimisation and the design of novel RNA-targeted therapeutics informed by structural data<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>An RNA diversity library was used to select for sequences capable of binding to the aminoglycoside antibiotic tobramycin.After six cycles of selection, 82 % of the RNA bound to tobramycin specifically. The selected RNA was reverse-transcribed into DNA, which was then cloned. At low selection stringency, an extremely large number of clones, on the order of 107, produced RNAs capable of binding tobramycin with Kds in the PM range (values similar to that observed for the binding of tobramycin to Escherichia coli ribosomes). Sequencing of 18 of the clones revealed no obvious consensus sequence. At higher selection stringencies (Kds in the nM range) only two consensus sequences for binding were observed<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>An RNA diversity library was employed to select sequences capable of binding to the aminoglycoside antibiotic tobramycin. After six cycles of selection, 82% of the RNA bound specifically to tobramycin. The selected RNA was then reverse-transcribed into DNA and subsequently cloned. At low selection stringency, an extremely large number of clones, on the order of 10⁷, produced RNAs capable of binding tobramycin with dissociation constants (Kd) in the µM range. These values were similar to those observed for the binding of tobramycin to Escherichia coli ribosomes. Sequencing of 18 of these clones revealed no obvious consensus sequence. However, at higher selection stringencies (with Kd values in the nM range), only two consensus sequences for binding were observed<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>  
 
@@ -177,25 +189,27 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information.</p></font>
-<font><p>Tobramycin-RNA aptamer I: 5'-GGCACGAGGUUUAGCUACACUCGUGCC-3'<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup><br>Tobramycin-RNA aptamer II: 5'-ACUUGGUUUAGGUAAUGAGU-3'<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p></font>
+<p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>5'-GGCACGAGGUUUAGCUACACUCGUGCC-3'</p>
+<p>5'-ACUUGGUUUAGGUAAUGAGU-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/tobramycin1_aptamer_2D.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/Tobramycin_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/tobramycin2_aptamer_2D.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/Tobramycin_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Jiang, L., Suri, A. K., Fiala, R., & Patel, D. J.et al.described a solution-structure determination of the tobramycin-RNA aptamer complex, obtained using NMR and molecular dynamics. The PDB ID of this structure is 1TOB<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>. <br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Patel, D. J. et al. described a solution-structure determination of the tobramycin-RNA aptamer I complex, obtained using nuclear magnetic resonance (NMR) and molecular dynamics. The PDB ID of this structure is 1TOB<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/tobramycin1_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/3D/Tobramycin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
@@ -246,76 +260,66 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+{
   struct_asym_id: 'A',    
   start_residue_number:1, 
+  end_residue_number:5, 
+  color:{R:184,G:51,B:50}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:6, 
   end_residue_number:6, 
-  color:{r:9,g:254,b:254}
+  color:{R:46,G:161,B:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:7, 
-  color:{r:255,g:0,b:255}
+  color:{R:241,G:125,B:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:8, 
   end_residue_number:8, 
-  color:{r:9,g:254,b:254}
+  color:{R:46,G:161,B:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:9, 
-  color:{r:255,g:0,b:255}
+  color:{R:241,G:125,B:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:10, 
-  end_residue_number:10, 
-  color:{r:255,g:192,b:203}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:11, 
   end_residue_number:11, 
-  color:{r:50,g:205,b:50}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:12, 
   end_residue_number:12, 
-  color:{r:255,g:0,b:255}
+  color:{R:241,G:125,B:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:13, 
   end_residue_number:14, 
-  color:{r:50,g:205,b:50}
+  color:{R:46,G:161,B:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:15, 
   end_residue_number:15, 
-  color:{r:255,g:0,b:255}
+  color:{R:241,G:125,B:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:16, 
-  end_residue_number:17, 
-  color:{r:50,g:205,b:50}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:18, 
   end_residue_number:18, 
-  color:{r:255,g:192,b:203}
+  color:{R:46,G:163,B:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:19, 
-  end_residue_number:19, 
-  color:{r:34,g:139,b:34}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:20, 
   end_residue_number:27, 
-  color:{r:9,g:254,b:254}
+  color:{R:184,G:51,B:50}
 },{
   struct_asym_id: 'C', 
   start_residue_number:28, 
   end_residue_number:30, 
-  color:{r:255,g:255,b:0}
+  color:{R:255,G:0,B:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -350,11 +354,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </div>
 <br>
 
-<font >Jiang, L., & Patel, D. J. et al. described the structure of the complex was calculated by NMR and the X-PLOR 3.1 programme, and molecular dynamics constraints were performed to demonstrate the solution structure of the complex of the aminoglycoside antibiotic tobramycin in conjunction with stem-loop RNA. The PDB ID of this structure is 2TOB<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Patel, D. J. et al. described the structure of the complex was calculated by NMR and the X-PLOR programme, and molecular dynamics constraints were performed to demonstrate the solution structure of the complex of the aminoglycoside antibiotic tobramycin in conjunction with stem-loop RNA aptamer II. The PDB ID of this structure is 2TOB<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/tobramycin2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/3D/Tobramycin_aptamer_3D2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
@@ -405,56 +410,51 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <div class="controlsSection2">
             <button onclick="
               var selectSections2 = [
-               {
+{
   struct_asym_id: 'A',    
   start_residue_number:4, 
   end_residue_number:6, 
-  color:{r:9,g:254,b:254}
-},{
+  color:{r:184,g:51,b:50},
+{
   struct_asym_id: 'A', 
   start_residue_number:7, 
-  end_residue_number:9, 
-  color:{r:255,g:0,b:255}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:10, 
-  end_residue_number:10, 
-  color:{r:255,g:192,b:203}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:11, 
   end_residue_number:12, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:13, 
+  end_residue_number:14, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:15, 
   end_residue_number:15, 
-  color:{r:173,g:255,b:47}
+  color:{r:241,g:125,b:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:16, 
   end_residue_number:18, 
-  color:{r:255,g:192,b:203}
+  color:{R:46,G:161,B:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:19, 
   end_residue_number:19, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:20, 
   end_residue_number:20, 
-  color:{r:255,g:192,b:203}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:21, 
   end_residue_number:23, 
-  color:{r:9,g:254,b:254}
+  color:{r:184,g:51,b:50}
 },{
   struct_asym_id: 'C', 
   start_residue_number:100, 
   end_residue_number:102, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -492,27 +492,25 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1TOB by NMR. Tobramycin (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with tobramycin.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1TOB by NMR. TOB (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TOB.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/tobramycin1_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/tobramycin1_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
   <br>
             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2TOB by NMR. Tobramycin (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with tobramycin.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2TOB by NMR. TOB (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TOB.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/tobramycin2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker3.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/tobramycin2_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker4.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -521,56 +519,29 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Wang, Y., & Rando, R. R et al.used an RNA diversity library to screen for sequences that bind to aminoglycoside antibiotics.After six cycles of screening, 82% of the RNA binds specifically to tobramycin. The screened RNAs were reverse transcribed into DNA and then cloned. Cloning at lower selection stringency yielded RNAs capable of binding tobramycin with Kds in the PM range (values similar to those for tobramycin binding to tobramycin). Sequencing of 18 clones showed no apparent consensus sequence. At higher selection stringency (Kds in the nM range), only two bound consensus sequences were observed<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
-<br><br>
-<!--div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(0)">Ligand</th>
-        <th onclick="sortTable(1)">Affinity</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td0">Tobramycin</td>
-        <td name="td1">4.3±0.7 μM</td>
-      </tr>
-	  </tbody>
-      <tbody>
-      <tr>
-        <td name="td0">Erythromycin</td>
-        <td name="td1">505±25 μM</td>
-      </tr>
-	  </tbody>
-      <tbody>
-      <tr>
-        <td name="td0">Gentamycin C</td>
-        <td name="td1">47±11  μM</td>
-      </tr>
-	  </tbody>
-      <tbody>
-      <tr>
-        <td name="td0">Neomycin B</td>
-        <td name="td1">4.7±0.9 μM</td>
-      </tr>
-	  </tbody>
-  </table>
-  </div-->
+<p>Rando, R. R. et al. used a variety of methods, including cloned RNA fluorescence, equilibrium gel filtration, and polymerase chain reaction (PCR) to determine the affinity of tobramycin RNA aptamer in solution<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/Tobramycin_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
 <br>
 
+
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From Drugbank</p></font>
+<p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From <a href="https://go.drugbank.com/drugs/DB00684" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -578,11 +549,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">Tobramycin</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/36294" target="_blank" style="color:#520049"><b>36294</b></a></td>
         <td name="td1">C<sub>18</sub>H<sub>37</sub>N<sub>5</sub>O<sub>9</sub></td>
         <td name="td2">467.5 g/mol</td>
-        <td name="td3">32986-56-4</td>
-        <td name="td4">53.7 g/L (in water)</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=32986-56-4" target="_blank" style="color:#520049"><b>32986-56-4</b></a></td>
+        <td name="td4">5.37e+01 g/L</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB00684" target="_blank" style="color:#520049"><b>DB00684</b> </a></td>
       </tr>
 	  </tbody>
@@ -593,14 +565,20 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-                    
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to tobramycin by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+
+              
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity toTobramycin by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -608,66 +586,66 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC8551162</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8551162/" target="_blank" style="color:#520049"><b>ZINC8551162</b></a></td>
         <td name="td2">(2R,3S,4R,5S,6S)-4-amino-2-[(1R,2R,3R,4S,6R)-4,6-diamino-3-[(2S,3S,5S,6S)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-dio</td>
         <td name="td3">NA</td>
-        <td name="td4">92331686</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/92331686" target="_blank" style="color:#520049"><b>92331686</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8551164</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8551164/" target="_blank" style="color:#520049"><b>ZINC8551164</b></a></td>
         <td name="td2">(2R,3S,4R,5S,6S)-4-amino-2-[(1R,2R,3R,4S,6R)-4,6-diamino-3-[(2R,3S,5S,6S)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol</td>
         <td name="td3">NA</td>
-        <td name="td4">92331688</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/92331688" target="_blank" style="color:#520049"><b>92331688</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8551165</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8551165/" target="_blank" style="color:#520049"><b>ZINC8551165</b></a></td>
         <td name="td2">(2R,3S,4R,5S,6S)-4-amino-2-[(1R,2R,3R,4S,6R)-4,6-diamino-3-[(2R,3S,5S,6R)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol</td>
         <td name="td3">NA</td>
-        <td name="td4">92331689</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/92331689" target="_blank" style="color:#520049"><b>92331689</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8551163</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8551163/" target="_blank" style="color:#520049"><b>ZINC8551163</b></a></td>
         <td name="td2">(2R,3S,4R,5S,6S)-4-amino-2-[(1R,2R,3R,4S,6R)-4,6-diamino-3-[(2S,3S,5S,6R)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol</td>
         <td name="td3">NA</td>
-        <td name="td4">92331687</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/92331687" target="_blank" style="color:#520049"><b>92331687</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8214692</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8214692/" target="_blank" style="color:#520049"><b>ZINC8214692</b></a></td>
         <td name="td2">Tobramycin</td>
-        <td name="td3">32986-56-4</td>
-        <td name="td4">36294</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=32986-56-4" target="_blank" style="color:#520049"><b>32986-56-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/36294" target="_blank" style="color:#520049"><b>36294</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC43562055</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC43562055/" target="_blank" style="color:#520049"><b>ZINC43562055</b></a></td>
         <td name="td2">(2S,3R,4R,5S,6S)-2-(Aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-3-[(2S,3R,4S,5S,6R)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxyoxane-3,4,5-triol</td>
         <td name="td3">NA</td>
-        <td name="td4">11274101</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11274101" target="_blank" style="color:#520049"><b>11274101</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8214590</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8214590/" target="_blank" style="color:#520049"><b>ZINC8214590</b></a></td>
         <td name="td2">Kanamycin</td>
-        <td name="td3">59-01-8</td>
-        <td name="td4">6032</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=59-01-8" target="_blank" style="color:#520049"><b>59-01-8</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6032" target="_blank" style="color:#520049"><b>6032</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC53132258</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC53132258/" target="_blank" style="color:#520049"><b>ZINC53132258</b></a></td>
         <td name="td2">Bekanamycin</td>
-        <td name="td3">4696-76-8</td>
-        <td name="td4">439318</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=4696-76-8" target="_blank" style="color:#520049"><b>4696-76-8</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/439318" target="_blank" style="color:#520049"><b>439318</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8214383</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8214383/" target="_blank" style="color:#520049"><b>ZINC8214383</b></a></td>
         <td name="td2">Dibekacin</td>
-        <td name="td3">34493-98-6</td>
-        <td name="td4">470999</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=34493-98-6" target="_blank" style="color:#520049"><b>34493-98-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/470999" target="_blank" style="color:#520049"><b>470999</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/Tobramycin_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
