@@ -10,10 +10,26 @@ permalink: /
 <meta charset="utf-8"> 
 
 <style>
+  #searchBox {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    width: 300px;
+  }
+  /* Style the search box when it has focus */
+  #searchBox:focus {
+    outline: none;
+    border-color: #efefef;
+  }
+  /* Style the placeholder text */
+  #searchBox::placeholder {
+    font-size: 16px;
+  }
   button, input, optgroup, select, textarea {
-    color: #ffffff;
+    color: #000000;
     font: inherit;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin: 0;
 }
   .header_box {
@@ -68,7 +84,7 @@ permalink: /
   text-align: left;
 }
    img{
-    margin: 0 0 0 0; 
+    /* margin: 0 0 0 0;  */
     border-radius: 0%; }
 /*****/
 .button-container {
