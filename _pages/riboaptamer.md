@@ -33,15 +33,12 @@ permalink: /Ribocentre-aptamer/
       border-width: 1px 1px 2px 1px;
       border-color: #ffffff #ffffff #ffffff #ffffff;
     }
-
     .box_style {
       background: #ffffff;
     }
-
     h2 {
       font-size: 20px;
     }
-
     /* 按钮容器样式 */
     .button-container {
       display: flex;
@@ -50,7 +47,6 @@ permalink: /Ribocentre-aptamer/
       height: 50px;
       overflow: auto
     }
-
     /* 按钮样式 */
     .button {
       display: block;
@@ -64,13 +60,11 @@ permalink: /Ribocentre-aptamer/
       border: 1px solid #520049;
       border-radius: 5px;
     }
-
     /* 鼠标悬停样式 */
     .button:hover {
       background-color: #c9c5c5;
       cursor: pointer;
     }
-
     /* 样式表格 */
     .table-style1 {
       border: 2px solid #ffffff;
@@ -80,7 +74,6 @@ permalink: /Ribocentre-aptamer/
       background-color: #fff;
       border-radius: 5px;
     }
-
     .table-style1 th {
       background-color: #520049;
       background-color: #520049;
@@ -88,28 +81,23 @@ permalink: /Ribocentre-aptamer/
       color: rgba(255, 255, 255, 0.9);
       cursor: pointer;
     }
-
     .table-style1 td {
       background-color: #ffffff;
       background-color: #f9f9f9;
       background-color: #f9f9f9;
     }
-
     .table-style1 th,
     .table-style1 td {
       padding: 10px 10px;
     }
-
     table.dataTable.no-footer {
       border-bottom: 1px solid rgba(0, 0, 0, 0);
     }
-
     /* 隐藏所有 sheet */
     .sheet {
       display: all;
       overflow: auto
     }
-
     /* Style the search box */
     #searchBox {
       padding: 10px;
@@ -118,18 +106,15 @@ permalink: /Ribocentre-aptamer/
       border-radius: 1px;
       width: 300px;
     }
-
     /* Style the search box when it has focus */
     #searchBox:focus {
       outline: none;
       border-color: #efefef;
     }
-
     /* Style the placeholder text */
     #searchBox::placeholder {
       font-size: 16px;
     }
-
     button,
     input,
     optgroup,
@@ -140,18 +125,15 @@ permalink: /Ribocentre-aptamer/
       /* font-weight: bold; */
       margin: 0;
     }
-
     /* 搜索框和下载框水平布局 */
     .form-container {
       display: flex;
       align-items: center;
       overflow: auto
     }
-
     .form-container input {
       margin-right: 10px;
     }
-
     /* 下载框位置设置 */
     .form-container select {
       margin-left: auto;
@@ -161,11 +143,9 @@ permalink: /Ribocentre-aptamer/
       border-radius: 4px;
       width: 300px;
     }
-
     .button.clicked {
       background-color: #999;
     }
-
     .table {
       width: 100%;
       max-width: 100%;
@@ -176,7 +156,6 @@ permalink: /Ribocentre-aptamer/
       table-layout: fixed;
       /* 使用固定布局 */
     }
-
     .table td {
       padding: 10px;
       text-align: center;
@@ -187,226 +166,173 @@ permalink: /Ribocentre-aptamer/
       white-space: normal;
       /* 换行处理 */
     }
-
     /* 每个单元格的背景颜色 */
     .row1 td:nth-child(1) {
       background-color: #FFA07A;
     }
-
     .row1 td:nth-child(2) {
       background-color: #FFA07A;
     }
-
     .row1 td:nth-child(3) {
       background-color: #385dbf;
     }
-
     .row1 td:nth-child(4) {
       background-color: #385dbf;
     }
-
     .row1 td:nth-child(5) {
       background-color: #385dbf;
     }
-
     .row1 td:nth-child(6) {
       background-color: #385dbf;
     }
-
     .row1 td:nth-child(7) {
       background-color: #385dbf;
     }
-
     .row1 td:nth-child(8) {
       background-color: #385dbf;
     }
-
     .row1 td:nth-child(9) {
       background-color: #385dbf;
     }
-
     /* 在:hover伪类下，将transform属性添加到td元素上 */
     .table td:hover {
       transform: scale(1.05);
       /* 缩放到105% */
       cursor: pointer;
     }
-
     /* 覆盖链接样式，确保链接文字颜色为白色 */
     .table a {
       color: white !important;
       text-decoration: none !important;
       /* 去除链接下划线 */
     }
-
     /* 鼠标悬停链接时，保持白色 */
     .table a:hover {
       color: white !important;
       text-decoration: none !important;
     }
-
     /* 其他行的背景颜色 */
     .row2 td:nth-child(1) {
       background-color: #385dbf;
     }
-
     .row2 td:nth-child(2) {
       background-color: #385dbf;
     }
-
     .row2 td:nth-child(3) {
       background-color: #385dbf;
     }
-
     .row2 td:nth-child(4) {
       background-color: #385dbf;
     }
-
     .row2 td:nth-child(5) {
       background-color: #385dbf;
     }
-
     .row2 td:nth-child(6) {
       background-color: #385dbf;
     }
-
     .row2 td:nth-child(7) {
       background-color: #385dbf;
     }
-
     .row2 td:nth-child(8) {
       background-color: #f0a570;
     }
-
     .row2 td:nth-child(9) {
       background-color: #f0a570;
     }
-
     .row3 td:nth-child(1) {
       background-color: #f0a570;
     }
-
     .row3 td:nth-child(2) {
       background-color: #f0a570;
     }
-
     .row3 td:nth-child(3) {
       background-color: #f0a570;
     }
-
     .row3 td:nth-child(4) {
       background-color: #d75369;
     }
-
     .row3 td:nth-child(5) {
       background-color: #d75369;
     }
-
     .row3 td:nth-child(6) {
       background-color: #d75369;
     }
-
     .row3 td:nth-child(7) {
       background-color: #d75369;
     }
-
     .row3 td:nth-child(8) {
       background-color: #d75369;
     }
-
     .row3 td:nth-child(9) {
       background-color: #d75369;
     }
-
     .row4 td:nth-child(1) {
       background-color: #d75369;
     }
-
     .row4 td:nth-child(2) {
       background-color: #d75369;
     }
-
     .row4 td:nth-child(3) {
       background-color: #d75369;
     }
-
     .row4 td:nth-child(4) {
       background-color: #d75369;
     }
-
     .row4 td:nth-child(5) {
       background-color: #3c58a5;
     }
-
     .row4 td:nth-child(6) {
       background-color: #3c58a5;
     }
-
     .row4 td:nth-child(7) {
       background-color: #14a0ec;
     }
-
     .row4 td:nth-child(8) {
       background-color: #14a0ec;
     }
-
     .row4 td:nth-child(9) {
       background-color: #14a0ec;
     }
-
     .row5 td:nth-child(1) {
       background-color: #14a0ec;
     }
-
     .row5 td:nth-child(2) {
       background-color: #14a0ec;
     }
-
     .row5 td:nth-child(3) {
       background-color: #e97e8d;
     }
-
     .row5 td:nth-child(4) {
       background-color: #e97e8d;
     }
-
     .row5 td:nth-child(5) {
       background-color: #e97e8d;
     }
-
     .row5 td:nth-child(6) {
       background-color: #e97e8d;
     }
-
     .row5 td:nth-child(7) {
       background-color: #ade48b;
     }
-
     .row5 td:nth-child(8) {
       background-color: #ade48b;
     }
-
     .row5 td:nth-child(9) {
       background-color: #ade48b;
     }
-
     .row6 td:nth-child(1) {
       background-color: #ade48b;
     }
-
     .row6 td:nth-child(2) {
       background-color: #9841da;
     }
-
     .row6 td:nth-child(3) {
       background-color: #77c670;
     }
-
     #pie-chart {
       margin: 0 auto;
       /* 居中 */
     }
-
     .table2 {
       width: 100%;
       max-width: 100%;
@@ -418,7 +344,6 @@ permalink: /Ribocentre-aptamer/
       table-layout: fixed;
       /* 使用固定布局 */
     }
-
     .table2 td {
       padding: 10px;
       text-align: center;
@@ -429,56 +354,43 @@ permalink: /Ribocentre-aptamer/
       white-space: normal;
       /* 换行处理 */
     }
-
     /* 每个单元格的背景颜色设置 */
     .table2 .row1 td:nth-child(1) {
       background-color: #FFA07A;
     }
-
     .table2 .row1 td:nth-child(2) {
       background-color: #FFA07A;
     }
-
     .table2 .row1 td:nth-child(3) {
       background-color: #FFA07A;
     }
-
     .table2 .row1 td:nth-child(4) {
       background-color: #FFA07A;
     }
-
     .table2 .row1 td:nth-child(5) {
       background-color: #385dbf;
     }
-
     .table2 .row1 td:nth-child(6) {
       background-color: #385dbf;
     }
-
     .table2 .row1 td:nth-child(7) {
       background-color: #385dbf;
     }
-
     .table2 .row1 td:nth-child(8) {
       background-color: #f0a570;
     }
-
     .table2 .row1 td:nth-child(9) {
       background-color: #f0a570;
     }
-
     .table2 .row2 td:nth-child(1) {
       background-color: #f0a570;
     }
-
     .table2 .row2 td:nth-child(2) {
       background-color: #d75369;
     }
-
     .table2 .row2 td:nth-child(3) {
       background-color: #d75369;
     }
-
     .table2 .row2 td:nth-child(4) {
       background-color: #d75369;
     }
@@ -997,10 +909,10 @@ permalink: /Ribocentre-aptamer/
       <div class="stat-panel" style="margin-bottom: 30px;">
         <div class="stat-header" onclick="toggleStats()"
           style="cursor: pointer; padding: 10px; background-color: #f2f2f2; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
-          <span style="font-weight: bold; color: #520049;">▶ Click to view aptamer statistics</span>
-          <span id="toggleIcon">+</span>
+          <span style="font-weight: bold; color: #520049;">▶ Aptamer Statistics Panel (click to toggle)</span>
+          <span id="toggleIcon">-</span>
         </div>
-        <div id="statsContent" style="display: none; padding-top: 15px;">
+        <div id="statsContent" style="display: block; padding-top: 15px;">
           <!--lihl --->
           <font>This table lists the ligands of aptamers with identified 3D structures:</font>
           <table class="table" border="1">
@@ -1403,25 +1315,19 @@ permalink: /Ribocentre-aptamer/
                   onclick="handleCellClick(event)">Glioma cells</a></td>
             </tr>
           </table>
-
           <!--img src="/images/aptamers/Aptamers_classification.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive"-->
           <div style="display: flex; justify-content: center;">
           </div>
-
           <!--a href="/downloads/riboswitches_page/Classification_of_Riboswitches.pdf" target="_blank" download="Classification_of_Riboswitches.pdf"><button class="btn btn-secondary" style="color:#520049" ><span class="glyphicon glyphicon-download-alt"></span>&nbsp;&nbsp;Download FIGURE</button></a-->
-
           <!--p>For more detailed information about each Aptamer, please browse the table below.</p-->
-
         </div>
       </div>
     </div>
-
     <!-- 添加切换统计信息面板的JavaScript函数 -->
     <script>
       function toggleStats() {
         var content = document.getElementById("statsContent");
         var icon = document.getElementById("toggleIcon");
-
         if (content.style.display === "none") {
           content.style.display = "block";
           icon.textContent = "-";
@@ -1696,12 +1602,10 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/DIR2s-apt-aptamer" target="_blank"
                 style="color:#520049"><b>DIR2s-apt aptamer</b></a></td>
             <td name="td2">OTB-SO3<br>OTB-SO3, Fab</td>
-            <td name="td3">OTB (3-Methyl-2-[(3-methyl-1,3-benzothiazol-3-ium-2-yl)methylidene]-1,3-benzoxazole) is a
-              cyanine dye that fluoresces blue when excited.</td>
+            <td name="td3">3-Methyl-2-[(3-methyl-1,3-benzothiazol-3-ium-2-yl)methylidene]-1,3-benzoxazole (OTB) is a cyanine dye that fluoresces blue when excited.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/28644615/" target="_blank"
                 style="color:#520049"><b>2017</b> </a></td>
-            <td name="td5"><a href="https://www.rcsb.org/structure/6DB9" target="_blank" style="color:#520049"><b>6DB9
-                  (OTB-SO3)</b></a><br><br><a href="https://www.rcsb.org/structure/6DB8" target="_blank"
+            <td name="td5"><a href="https://www.rcsb.org/structure/6DB9" target="_blank" style="color:#520049"><b>6DB9 (OTB-SO3)</b></a><br><br><a href="https://www.rcsb.org/structure/6DB8" target="_blank"
                 style="color:#520049"><b>6DB8 (OTB-SO3, Fab)</b></a></td>
           </tr>
           <tr>
@@ -1729,17 +1633,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Chili-aptamer" target="_blank"
                 style="color:#520049"><b>Chili aptamer</b></a></td>
             <td name="td2">DMHBI<br>DMHBO+</td>
-            <td name="td3">DMHBI
-              (4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one) is
-              predominantly found in the phenolic form, the brighter DMFBI mimics EGFP and is anionic under standard
-              conditions. The DMFBI-RNA complex has been called Spinach, it is the first fluorescent RNA tag that is
-              both selective and non-toxic. It only fluoresces when bound to RNA, is resistant to photobleaching and has
-              been used to follow RNA tagged molecules as they move through cells.----From Green Fluorescent
-              Protein<br>DMHBO+
-              ([4-[(2Z,4Z)-4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2-(nitrosomethylidene)-5-oxoimidazolidin-1-yl]phenyl]-trimethylazanium)
-              is a cationic chromophore that binds to the Chili aptamer with a Kd of 12 nM. The Chili-DMHBO+ complex is
-              an ideal fluorescence donor for FRET to the rhodamine dye Atto 590, suitable for imaging RNA in cells.
-              Ex/Em=456/592 nm.</td>
+            <td name="td3">4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one (DMHBI) is predominantly found in the phenolic form, the brighter DMFBI mimics EGFP and is anionic under standard conditions. The DMFBI-RNA complex has been called Spinach, it is the first fluorescent RNA tag that is both selective and non-toxic.<br>[4-[(2Z,4Z)-4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2-(nitrosomethylidene)-5-oxoimidazolidin-1-yl]phenyl]-trimethylazanium (DMHBO+) is a cationic chromophore that binds to the Chili aptamer with a Kd of 12 nM. The Chili-DMHBO+ complex is an ideal fluorescence donor for FRET to the rhodamine dye Atto 590, suitable for imaging RNA in cells. Ex/Em=456/592 nm.</td>
             <td name="td4"><a href="https:" target="_blank" style="color:#520049"><b>2018</b> </a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/7OAW" target="_blank" style="color:#520049"><b>7OAW
                   (DMHBI+)</b></a><br><br><a href="https://www.rcsb.org/structure/7OAX" target="_blank"
@@ -1752,10 +1646,8 @@ permalink: /Ribocentre-aptamer/
             <td name="td0" rowspan="1">Fluorophores</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TMR-aptamer" target="_blank"
                 style="color:#520049"><b>TMR aptamer</b></a></td>
-            <td name="td2">TMR (Tetramethylrhodamine)</td>
-            <td name="td3">TMR (tetramethylrhodamine) is a rhodamine in which four hydrogens have been replaced
-              by methyl groups. Forms such as tetramethylrhodamine dextran are often used as fluorescent tracer dyes in
-              cell research.</td>
+            <td name="td2">Tetramethylrhodamine (TMR)</td>
+            <td name="td3">Tetramethylrhodamine (TMR) is a rhodamine in which four hydrogens have been replaced by methyl groups. Forms such as tetramethylrhodamine dextran are often used as fluorescent tracer dyes in cell research.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/20159999/" target="_blank"
                 style="color:#520049"><b>2010</b> </a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/6GZK" target="_blank"
@@ -1764,11 +1656,10 @@ permalink: /Ribocentre-aptamer/
           </tr>
           <tr>
             <td name="td0" rowspan="1">Fluorophores</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mango-aptamer(TO1-biotin)" target="_blank"
-                style="color:#520049"><b>Mango aptamer(TO1-biotin)</b></a></td>
-            <td name="td2">TO1-Biotin</td>
-            <td name="td3">TO1 (Thiazole Orange) is an asymmetric cyanine fluorophore, which contains a benzothiazole
-              ring covalently linked to a quinoline ring via a monomethine bridge.</td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mango-aptamer" target="_blank"
+                style="color:#520049"><b>Mango aptamer</b></a></td>
+            <td name="td2">Thiazole Orange-biotin (TO1-biotin)</td>
+            <td name="td3">Thiazole Orange-Biotin (TO1-Biotin) is an asymmetric cyanine fluorophore, which contains a benzothiazole ring covalently linked to a quinoline ring via a monomethine bridge.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25101481/" target="_blank"
                 style="color:#520049"><b>2014</b> </a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/5V3F" target="_blank"
@@ -1777,12 +1668,9 @@ permalink: /Ribocentre-aptamer/
           <tr>
             <td name="td0" rowspan="1">Fluorophores</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Mango-III-aptamer(YO3)" target="_blank"
-                style="color:#520049"><b>Mango-III aptamer(YO3)</b></a></td>
+                style="color:#520049"><b>Mango-III aptamer</b></a></td>
             <td name="td2">Oxazole yellow 3 (YO3)</td>
-            <td name="td3">YO3 (Oxazole yellow 3) is a synthetic fluorescent small molecule whose spectral properties
-              are very similar to Texas Red. YO3-biotin fluoresces with comparable intensities when bound in either the
-              Mango or the Spinach construct, similarly to TO1-biotin. DFHBI-1T outcompetes YO3-biotin bound in Spinach,
-              whereas YO3-biotin is unable to outcompete DFHBI-1T bound in Spinach.</td>
+            <td name="td3">Oxazole yellow 3 (YO3) is a synthetic fluorescent small molecule whose spectral properties are very similar to Texas Red. YO3-biotin fluoresces with comparable intensities when bound in either the Mango or the Spinach construct, similarly to TO1-biotin. DFHBI-1T outcompetes YO3-biotin bound in Spinach, whereas YO3-biotin is unable to outcompete DFHBI-1T bound in Spinach.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25101481/" target="_blank"
                 style="color:#520049"><b>2014</b></a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/6UP0" target="_blank"
@@ -1793,10 +1681,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Spinach-aptamer" target="_blank"
                 style="color:#520049"><b>Spinach aptamer</b></a></td>
             <td name="td2">DFHBI</td>
-            <td name="td3">DFHBI ((Z)-4-(3,5-difluoro- 4-hydroxybenzylidene)-1,2-dimethyl-1H-imidazol-5(4H)-one) is a
-              small molecule that resembles the chromophore of green fluorescent protein (GFP). Spinach and DFHBI are
-              essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in
-              vitro and in living cells.</td>
+            <td name="td3">(Z)-4-(3,5-difluoro- 4-hydroxybenzylidene)-1,2-dimethyl-1H-imidazol-5(4H)-one (DFHBI) is a small molecule that resembles the chromophore of green fluorescent protein (GFP). Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/21798953/" target="_blank"
                 style="color:#520049"><b>2011</b></a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/4TS0" target="_blank"
@@ -1900,9 +1785,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Clivias-aptamer" target="_blank"
                 style="color:#520049"><b>Clivias aptamer</b></a></td>
             <td name="td2">NBSI</td>
-            <td name="td3">NBSI is a typical chromophore structure consisting of an electron donor and an electron
-              acceptor linked by π conjugation. NBSI exhibit a large Stokes shift of 80 nm when it was constrained in
-              glycerol.</td>
+            <td name="td3">NBSI is a typical chromophore structure consisting of an electron donor and an electron acceptor linked by π conjugation. NBSI exhibit a large Stokes shift of 80 nm when it was constrained in glycerol.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/37723244/" target="_blank"
                 style="color:#520049"><b>2023</b></a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/8HZE" target="_blank"
