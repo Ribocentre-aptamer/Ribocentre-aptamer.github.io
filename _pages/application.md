@@ -7,9 +7,10 @@ permalink: /applications/
 ---
 
 <h1 class="post-title" itemprop="name headline">Applications</h1>
-<font>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</font>
+<p>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/main.svg" alt="drawing" style="width:800px;height:600px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/applications/main.png" alt="drawing" style="width:900px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<br>
 <p>RNA aptamers offer several advantages over traditional antibodies and other molecular recognition elements<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>:</p>
 
 
@@ -353,7 +354,7 @@ permalink: /applications/
 <p>With the rapid development of biotechnology and medicine, RNA aptamer, as a new recognition element, has shown great potential and application prospect in the field of clinical sample detection. As an RNA molecule with high affinity and specific binding to specific targets, RNA aptamers play an important role in the detection and diagnosis of biomarkers in serum, biomarkers in urine, feces, prostatic fluid and other clinical samples.<sup>[<a href="#ref12" style="color:#520049">12</a></sup><sup>,<a href="#ref13" style="color:#520049">13</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/ͼ3.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/applications/ͼ3.png" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 
 <div style="display: flex;overflow:auto">
     <table style="flex: 1;" class="table-style1">
@@ -532,7 +533,7 @@ permalink: /applications/
 <p>The another innovative applications of RNA aptamers is in targeted drug delivery. By conjugating aptamers to therapeutic agents, it is possible to direct these agents specifically to disease sites, minimizing off-target effects and enhancing therapeutic efficacy.  Targeted drug delivery is a smart way to give medicine to the body. Instead of spreading the medicine everywhere, which can cause side effects, we want to give the medicine only to the place where it's needed. So, imagine we have a medicine that can help fight a disease, but we don't want it to go everywhere in the body. We can attach this medicine to an RNA aptamer. The RNA aptamer is like a guide, it knows exactly where to go because it can find and stick to its specific target. When the RNA aptamer finds its target, it delivers the medicine right there. This way, we can treat the disease more effectively and with fewer side effects. It's like sending a package directly to the right address instead of leaving it at the post office for someone to pick up. For example, aptamers that bind to cancer cell surface markers can be linked to chemotherapeutic drugs, ensuring that the drugs are delivered directly to the cancer cells while sparing healthy tissues. In targeted drug delivery, these RNA aptamers are used to deliver drugs directly to the affected cells or tissues. By attaching a drug to an RNA aptamer, the medication can be directed precisely where it is needed, reducing side effects and increasing effectiveness. This approach is particularly useful for treating diseases like cancer, where it's important to target only the cancerous cells while leaving healthy cells unharmed<sup>[<a href="#ref16" style="color:#520049">16</a></sup><sup>,<a href="#ref17" style="color:#520049">17</a></sup><sup>,<a href="#ref18" style="color:#520049">18</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/ͼ5.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/applications/ͼ5.png" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex;overflow:auto">
     <table style="flex: 1;" class="table-style1">
       <tr>
@@ -610,7 +611,7 @@ permalink: /applications/
 <p>RNA aptamers have also found applications in the field of biosensing. Their high affinity and specificity for target molecules allow for the development of sensors with enhanced sensitivity and selectivity. Aptamer-based biosensors have been used for the detection of biomarkers, pathogens, and toxins, with the potential for rapid, real-time monitoring of biological samples. Additionally, aptamers can be integrated into biosensing platforms, such as microfluidic devices and nanoparticle-based sensors, enabling the development of miniaturized, portable, and user-friendly diagnostic tools. RNA aptamers are also finding applications in environmental monitoring, where they are used to detect pollutants and toxins with high sensitivity and specificity. For instance, aptamers that bind to heavy metals such as lead and mercury can be incorporated into sensors to monitor water quality. These aptamer-based sensors offer a rapid and reliable method for detecting environmental contaminants, which is crucial for ensuring public health and safety. In addition, RNA aptamers have been developed to detect biotoxins and pathogens in food and water samples. aptamers can be used in biosensors to detect these contaminants in food products, helping to prevent foodborne illnesses<sup>[<a href="#ref19" style="color:#520049">19</a></sup><sup>,<a href="#ref20" style="color:#520049">20</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases. The picture is from a review written by Harmanjit Kaur<sup>[<a href="#ref21" style="color:#520049">21</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/ͼ6.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/applications/ͼ6.png" alt="drawing" style="width:1000px;height:550px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex;overflow:auto">
     <table style="flex: 1;" class="table-style1">
       <tr>
@@ -696,7 +697,7 @@ permalink: /applications/
 <p>For example, the aptamers can be combined with a variety of different expression platforms. RNA-based switches have been constructed that allow for controlling gene expression in diverse contexts. Recently, researchers have developed a gene expression control technique that utilizes a tetracycline-dependent ribozyme switch to achieve conditional induction of gene expression in Caenorhabditis elegans.  This system provides a powerful tool for studying gene regulation in C. elegans, as it allows for precise control of gene expression in living organisms<sup>[<a href="#ref22" style="color:#520049">22</a></sup><sup>]</sup>.</p>
 <p>The picture is from a review written by Maike Spöring<sup>[<a href="#ref24" style="color:#520049">24</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/ͼ7.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/applications/ͼ7.png" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex;overflow:auto">
     <table style="flex: 1;" class="table-style1">
       <tr>
@@ -771,122 +772,122 @@ permalink: /applications/
 
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] In vitro selection of RNA molecules that bind specific ligands..</strong></font><br />
+<a id="ref1"></a><font><strong>[1] In vitro selection of RNA molecules that bind specific ligands.</strong></font><br />
 Ellington, A. D., & Szostak, J. W.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/1697402/" target="_blank" style="color:#520049">Nature, 346(6287), 818–822. (1990)</a>
 <br/>
             
-<a id="ref2"></a><font><strong>[2] Systematic evolution of ligands by exponential enrichment: RNA ligands to bacteriophage T4 DNA polymerase..</strong></font><br />
+<a id="ref2"></a><font><strong>[2] Systematic evolution of ligands by exponential enrichment: RNA ligands to bacteriophage T4 DNA polymerase.</strong></font><br />
 Tuerk, C., & Gold, L.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049">Science (New York, N.Y.), 249(4968), 505–510. (1990)</a>
 <br/>
             
-<a id="ref3"></a><font><strong>[3] Aptamers as targeted therapeutics: current potential and challenges..</strong></font><br />
+<a id="ref3"></a><font><strong>[3] Aptamers as targeted therapeutics: current potential and challenges.</strong></font><br />
 Zhou, J., & Rossi, J.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
 <br/>
             
-<a id="ref4"></a><font><strong>[4] Oligonucleotide aptamers for pathogen detection and infectious disease control..</strong></font><br />
+<a id="ref4"></a><font><strong>[4] Oligonucleotide aptamers for pathogen detection and infectious disease control.</strong></font><br />
 Wan, Q., Liu, X., & Zu, Y.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/34522231/" target="_blank" style="color:#520049">Theranostics, 11(18), 9133–9161. (2021)</a>
 <br/>
             
-<a id="ref5"></a><font><strong>[5] Aptamers in diagnostics and treatment of viral infections..</strong></font><br />
+<a id="ref5"></a><font><strong>[5] Aptamers in diagnostics and treatment of viral infections.</strong></font><br />
 Wandtke, T., Woźniak, J., & Kopiński, P.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/25690797/" target="_blank" style="color:#520049">Viruses, 7(2), 751–780. (2015)</a>
 <br/>
             
-<a id="ref6"></a><font><strong>[6] Translation of aptamers toward clinical diagnosis and commercialization..</strong></font><br />
+<a id="ref6"></a><font><strong>[6] Translation of aptamers toward clinical diagnosis and commercialization.</strong></font><br />
 Liu, S., Xu, Y., Jiang, X., Tan, H., & Ying, B.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/35364525/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 208, 114168. (2022)</a>
 <br/>
             
-<a id="ref7"></a><font><strong>[7] Aptamers in the Therapeutics and Diagnostics Pipelines..</strong></font><br />
+<a id="ref7"></a><font><strong>[7] Aptamers in the Therapeutics and Diagnostics Pipelines.</strong></font><br />
 Kaur, H., Bruno, J. G., Kumar, A., & Sharma, T. K.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30128033/" target="_blank" style="color:#520049">Theranostics, 8(15), 4016–4032. (2018)</a>
 <br/>
             
-<a id="ref8"></a><font><strong>[8] Aptamers used for molecular imaging and theranostics - recent developments..</strong></font><br />
+<a id="ref8"></a><font><strong>[8] Aptamers used for molecular imaging and theranostics - recent developments.</strong></font><br />
 Bohrmann, L., Burghardt, T., Haynes, C., Saatchi, K., & Häfeli, U. O.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/35673581/" target="_blank" style="color:#520049">Theranostics, 12(9), 4010–4050. (2022)</a>
 <br/>
             
-<a id="ref9"></a><font><strong>[9] The chromatin accessibility landscape of primary human cancers..</strong></font><br />
+<a id="ref9"></a><font><strong>[9] The chromatin accessibility landscape of primary human cancers.</strong></font><br />
 Corces, M. R., Granja, J. M., Shams, S., Louie, B. H., Seoane, J. A., Zhou, W., Silva, T. C., Groeneveld, C., Wong, C. K., Cho, S. W., Satpathy, A. T., Mumbach, M. R., Hoadley, K. A., Robertson, A. G., Sheffield, N. C., Felau, I., Castro, M. A. A., Berman, B. P., Staudt, L. M., Zenklusen, J. C., … Chang, H. Y.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30361341/" target="_blank" style="color:#520049">Science (New York, N.Y.), 362(6413), eaav1898. (2018)</a>
 <br/>
             
-<a id="ref10"></a><font><strong>[10] Engineered aptamers for molecular imaging..</strong></font><br />
+<a id="ref10"></a><font><strong>[10] Engineered aptamers for molecular imaging.</strong></font><br />
 Lin, B., Xiao, F., Jiang, J., Zhao, Z., & Zhou, X.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/38098720/" target="_blank" style="color:#520049">Chemical science, 14(48), 14039–14061. (2023)</a>
 <br/>
             
-<a id="ref11"></a><font><strong>[11] Aptamers: active targeting ligands for cancer diagnosis and therapy..</strong></font><br />
+<a id="ref11"></a><font><strong>[11] Aptamers: active targeting ligands for cancer diagnosis and therapy.</strong></font><br />
 Wu, X., Chen, J., Wu, M., & Zhao, J. X.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/25699094/" target="_blank" style="color:#520049">Theranostics, 5(4), 322–344. (2015)</a>
 <br/>
             
-<a id="ref12"></a><font><strong>[12] Highly-efficient selection of aptamers for detecting various HPV subtypes in clinical samples..</strong></font><br />
+<a id="ref12"></a><font><strong>[12] Highly-efficient selection of aptamers for detecting various HPV subtypes in clinical samples.</strong></font><br />
 Yang, G., Li, W., Zhang, S., Hu, B., & Huang, Z.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/37604070/" target="_blank" style="color:#520049">Talanta, 266(Pt 2), 125039. (2024)</a>
 <br/>
             
-<a id="ref13"></a><font><strong>[13] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics..</strong></font><br />
+<a id="ref13"></a><font><strong>[13] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics.</strong></font><br />
 Gholikhani, T., Kumar, S., Valizadeh, H., Mahdinloo, S., Adibkia, K., Zakeri-Milani, P., Barzegar-Jalali, M., & Jimenez, B.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
 <br/>
             
-<a id="ref14"></a><font><strong>[14] Aptamers as Therapeutics..</strong></font><br />
+<a id="ref14"></a><font><strong>[14] Aptamers as Therapeutics.</strong></font><br />
 Nimjee, S. M., White, R. R., Becker, R. C., & Sullenger, B. A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/28061688/" target="_blank" style="color:#520049">Annual review of pharmacology and toxicology, 57, 61–79. (2017)</a>
 <br/>
             
-<a id="ref15"></a><font><strong>[15] Aptamers as targeted therapeutics: current potential and challenges..</strong></font><br />
+<a id="ref15"></a><font><strong>[15] Aptamers as targeted therapeutics: current potential and challenges.</strong></font><br />
 Zhou, J., & Rossi, J.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
 <br/>
             
-<a id="ref16"></a><font><strong>[16] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics..</strong></font><br />
+<a id="ref16"></a><font><strong>[16] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics.</strong></font><br />
 Gholikhani, T., Kumar, S., Valizadeh, H., Mahdinloo, S., Adibkia, K., Zakeri-Milani, P., Barzegar-Jalali, M., & Jimenez, B.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
 <br/>
             
-<a id="ref17"></a><font><strong>[17] Molecular aptamers for drug delivery..</strong></font><br />
+<a id="ref17"></a><font><strong>[17] Molecular aptamers for drug delivery.</strong></font><br />
 Tan, W., Wang, H., Chen, Y., Zhang, X., Zhu, H., Yang, C., Yang, R., & Liu, C.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/21821299/" target="_blank" style="color:#520049">Trends in biotechnology, 29(12), 634–640. (2011)</a>
 <br/>
             
-<a id="ref18"></a><font><strong>[18] Method for Confirming Cytoplasmic Delivery of RNA Aptamers..</strong></font><br />
+<a id="ref18"></a><font><strong>[18] Method for Confirming Cytoplasmic Delivery of RNA Aptamers.</strong></font><br />
 Dickey, D. D., Thomas, G. S., Dassie, J. P., & Giangrande, P. H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/26472453/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 1364, 209–217. (2016)</a>
 <br/>
             
-<a id="ref19"></a><font><strong>[19] Genetically encoded RNA-based sensors with Pepper fluorogenic aptamer..</strong></font><br />
+<a id="ref19"></a><font><strong>[19] Genetically encoded RNA-based sensors with Pepper fluorogenic aptamer.</strong></font><br />
 Chen, Z., Chen, W., Reheman, Z., Jiang, H., Wu, J., & Li, X.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/37486780/" target="_blank" style="color:#520049">Nucleic acids research, 51(16), 8322–8336. (2023)</a>
 <br/>
             
-<a id="ref20"></a><font><strong>[20] Aptasensors for pesticide detection..</strong></font><br />
+<a id="ref20"></a><font><strong>[20] Aptasensors for pesticide detection.</strong></font><br />
 Liu, M., Khan, A., Wang, Z., Liu, Y., Yang, G., Deng, Y., & He, N. <br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30738246/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 130, 174–184. (2019)</a>
 <br/>
             
-<a id="ref21"></a><font><strong>[21] Nanomaterial based aptasensors for clinical and environmental diagnostic applications..</strong></font><br />
+<a id="ref21"></a><font><strong>[21] Nanomaterial based aptasensors for clinical and environmental diagnostic applications.</strong></font><br />
 Kaur, H., & Shorie, M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/36131986/" target="_blank" style="color:#520049">Nanoscale advances, 1(6), 2123–2138. (2019)</a>
 <br/>
             
-<a id="ref22"></a><font><strong>[22] A tetracycline-dependent ribozyme switch allows conditional induction of gene expression in Caenorhabditis elegans. .</strong></font><br />
+<a id="ref22"></a><font><strong>[22] A tetracycline-dependent ribozyme switch allows conditional induction of gene expression in Caenorhabditis elegans.</strong></font><br />
 Wurmthaler, L. A., Sack, M., Gense, K., Hartig, J. S., & Gamerdinger, M. <br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30700719/" target="_blank" style="color:#520049">Nature communications, 10(1), 491. (2019)</a>
 <br/>
             
-<a id="ref23"></a><font><strong>[23] Ligand-dependent ribozymes..</strong></font><br />
+<a id="ref23"></a><font><strong>[23] Ligand-dependent ribozymes.</strong></font><br />
 Felletti, M., & Hartig, J. S.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/27687155/" target="_blank" style="color:#520049">Wiley interdisciplinary reviews. RNA, 8(2), 10.1002/wrna.1395. (2017)</a>
 <br/>
             
-<a id="ref24"></a><font><strong>[24] Aptamers in RNA-based switches of gene expression. .</strong></font><br />
+<a id="ref24"></a><font><strong>[24] Aptamers in RNA-based switches of gene expression.</strong></font><br />
 Spöring, M., Finke, M., & Hartig, J. S.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/31811992/" target="_blank" style="color:#520049">Current opinion in biotechnology, 63, 34–40. (2020)</a>
 <br/>
