@@ -5,7 +5,6 @@ date:   2024-04-30 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <style>
@@ -34,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +46,8 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -129,36 +141,39 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2022, Jiahui Wu, et al. developed Beetroot aptamer, which enables to bind DFAME and forms an RNA-fluorophore complex. In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-ThT complex through crystallization, diffraction data collection and NMR spectroscopy<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2022, Jiahui Wu, et al. developed Beetroot aptamer, which enables to bind DFAME and forms an RNA-fluorophore complex. In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-ThT complex through crystallization, diffraction data collection and NMR spectroscopy. Beetroot and its variant form heterodimers, serving as the starting point for engineered tags, whose through-space inter-fluorophore interactions can be used to monitor RNA dimerisation<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>About ~10<sup>14</sup> random RNA sequences was used in the systematic evolution of ligands by exponential enrichment approach to generated aptamers that bind DFHO. DFHO with an aminohexyl linker was synthesized so that this fluorophore could be attached to solid support. After eight rounds of SELEX, a single 119 nucleotides-long aptamer (aptamer 6-1) that induced the fluorescence of DFHO was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>About ~10<sup>14</sup> random RNA sequences was used in the systematic evolution of ligands by exponential enrichment approach to generated aptamers that bind DFHO. DFHO with an aminohexyl linker was synthesized so that this fluorophore could be attached to solid support. After eight rounds of SELEX, a single 119 nucleotides-long aptamer (aptamer 6-1) that induced the fluorescence of DFHO was identified. Afterwards, an RNA library containing ∼10<sup>14</sup> random library members was used and DFAME was conjugated to agarose beads using an aminohexyl linker as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence by threefold was identified<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
+
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
-<font><p>5'-GUUAGGCAGAGGUGGGUGGUGUGGAGGAGUAUCUGUC-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/DFAME_aptamer_2D.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
-  </td>
-  <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/ThT_aptamer_2D.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
-  </td>
-  </tr>
-  </table>
+<p>The co-axial stacking of the two Beetroot protomers results in an eight-tiered quadruplex that spans the dimer interface. Here we used ribodraw to complete the figures, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
+
+<p>Beetroot aptamer (ThT): 5'-GCGCCGGUUAGGCAGAGGUGGGUGGUGUGGAGGAGUAUCUGUCCGGCGC-3'</p>
+<img src="/images/2D/ThT_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
+
+<p>Beetroot aptamer (DFAME): 5'-GCGCCGGUUAGGCAGAGGUGGGUGGUGUGGAGGAGUAUCUGUCCGGCGC-3'</p>
+<img src="/images/2D/DFAME_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
+
+
+
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The overall structure of Beetroot bound to different fluorescent molecules closely resembles that of the wild-type Beetroot fluorophore complex. These small molecules bind at both ends of the eight-tiered quadruplex at the Beetroot dimer interface, occupying the same pocket and adopting a nearly planar conformation. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO) with resolutions of 1.95 Å, 2.55 Å, 2.1 Å and 2.85 Å respectively<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ThT_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -216,127 +231,127 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:103, 
   end_residue_number:103, 
-  color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:17, 
-  end_residue_number:17, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:26, 
-  end_residue_number:26, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:34, 
-  end_residue_number:34, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:37, 
-  end_residue_number:37, 
-  color:{r:9,g:254,b:254}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:1, 
   end_residue_number:7, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:43, 
+  end_residue_number:49, 
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:12, 
-  end_residue_number:16, 
-  color:{r:128,g:219,b:158}
+  end_residue_number:15, 
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:38, 
-  end_residue_number:49, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:20, 
-  end_residue_number:21, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:24, 
-  end_residue_number:25, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:29, 
-  end_residue_number:30, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:32, 
-  end_residue_number:33, 
-  color:{r:10,g:11,b:255}
+  start_residue_number:39, 
+  end_residue_number:42, 
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:18, 
   end_residue_number:18, 
-  color:{r:0,g:128,b:128}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:22, 
+  start_residue_number:20, 
   end_residue_number:22, 
-  color:{r:0,g:128,b:128}
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:24, 
+  end_residue_number:25, 
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:27, 
   end_residue_number:27, 
-  color:{r:0,g:128,b:128}
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:29, 
+  end_residue_number:30, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:32, 
+  end_residue_number:33, 
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:35, 
   end_residue_number:35, 
-  color:{r:0,g:128,b:128}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:19, 
   end_residue_number:19, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:23, 
   end_residue_number:23, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:28, 
   end_residue_number:28, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:31, 
   end_residue_number:31, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:36, 
   end_residue_number:36, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:16, 
+  end_residue_number:17, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:26, 
+  end_residue_number:26, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:34, 
+  end_residue_number:34, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:37, 
+  end_residue_number:38, 
+  color:{r:46,g:161,b:3}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -371,8 +386,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </div>
 
 
-<font>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The overall structure of Beetroot bound to different fluorescent molecules closely resembles that of the wild-type Beetroot fluorophore complex. These small molecules bind at both ends of the eight-tiered quadruplex at the Beetroot dimer interface, occupying the same pocket and adopting a nearly planar conformation. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFAME_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -430,115 +446,127 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'A', 
   start_residue_number:104, 
   end_residue_number:104, 
-  color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:17, 
-  end_residue_number:18, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:22, 
-  end_residue_number:22, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:26, 
-  end_residue_number:27, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:34, 
-  end_residue_number:35, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:37, 
-  end_residue_number:37, 
-  color:{r:9,g:254,b:254}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:1, 
   end_residue_number:11, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:43, 
   end_residue_number:49, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:12, 
+  end_residue_number:15, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:39, 
+  end_residue_number:42, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:18, 
+  end_residue_number:18, 
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:20, 
-  end_residue_number:21, 
-  color:{r:10,g:11,b:255}
+  end_residue_number:22, 
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:24, 
   end_residue_number:25, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:27, 
+  end_residue_number:27, 
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:29, 
   end_residue_number:30, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:32, 
   end_residue_number:33, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
-  start_residue_number:12, 
-  end_residue_number:16, 
-  color:{r:0,g:128,b:128}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:38, 
-  end_residue_number:42, 
-  color:{r:0,g:128,b:128}
+  start_residue_number:35, 
+  end_residue_number:35, 
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:19, 
   end_residue_number:19, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:23, 
   end_residue_number:23, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:28, 
   end_residue_number:28, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:31, 
   end_residue_number:31, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'A', 
   start_residue_number:36, 
   end_residue_number:36, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:16, 
+  end_residue_number:17, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:26, 
+  end_residue_number:26, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:34, 
+  end_residue_number:34, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:37, 
+  end_residue_number:38, 
+  color:{r:46,g:161,b:3}
 }
               ]
             viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -574,7 +602,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYW by X-ray crystallography. Thioflavin T(ThT)(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with ThT or other nucleotides surround small molecules.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYW by X-ray crystallography. Thioflavin T (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with ThT or other nucleotides surround small molecules.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ThT_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -585,7 +613,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </tr>
   </table>
 
-  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYU by X-ray crystallography. DFAME (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFAME or other nucleotides surround small molecules.</p>
+  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYU by X-ray crystallography. DFAME (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFAME or other nucleotides surround small molecules.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DFAME_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -601,59 +629,42 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
 <p class="blowheader_box">SELEX ligand</p>
-<p>K<sub>d</sub> is calculated by both ITC and measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration (50 nM) of RNA aptamer<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p >
-<p>The K<sub>d</sub> was determined by and measuring the increase in fluorescence as a function of increasing RNA aptamer concentration in the presence of a fixed concentration of fluorophore<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.</p >
-<div style="display: flex; justify-content: center;">
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(0)">Ligand</th>
-        <th onclick="sortTable(1)">Affinity</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td0">ATP</td>
-        <td name="td1">~14uM</td>
-      </tr>
-      <tr>
-        <td name="td0">adenosine</td>
-        <td name="td1">5-8uM</td>
-      </tr>
-      <tr>
-        <td name="td0">dATP</td>
-        <td name="td1">> 1mM</td>
-      </tr>
-	  </tbody>
-  </table-->
-  </div>
-  <img src="/images/SELEX_ligand/ThT_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
+<p>ThT-Beetroot aptamer complex: K<sub>d</sub> is calculated by both ITC and measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration (50 nM) of RNA aptamer<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>. DFAME-Beetroot aptamer complex: The K<sub>d</sub> was determined by and measuring the increase in fluorescence as a function of increasing RNA aptamer concentration in the presence of a fixed concentration of fluorophore<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.</p>
+  <div style="display: flex; justify-content: center;"></div>
+  <img src="/images/SELEX_ligand/DFAME_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
   <br>
 
 
 
 <p class="blowheader_box">Structure ligand</p>
-<p>ThT are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.-----From Wikipedia</p>
+<p>ThT (Thioflavin T) are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.-----From <a href="https://en.wikipedia.org/wiki/Thioflavin" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wikipedia</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://www.medchemexpress.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a>:</b> an entry number for the classification of chemicals by the well-known chemical manufacturing company MedChemExpress.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
-        <th onclick="sortTable(5)">Drugbank ID</th>
+        <th onclick="sortTable(5)">MedChemExpress</th>
       </tr>
   </thead>
     <tbody>
       <tr>
+        <td name="td6">ThT</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/16953" target="_blank" style="color:#520049"><b>16953</b> </a></td>
         <td name="td1">C<sub>17</sub>H<sub>19</sub>ClN<sub>2</sub>S</td>
         <td name="td2">318.9 g/mol</td>
-        <td name="td3">2390-54-7</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=2390-54-7" target="_blank" style="color:#520049"><b>2390-54-7</b></a></td>
         <td name="td4">16.67 mg/mL in DMSO; 5 mg/mL in H2O</td>
         <td name="td5"><a href="https://www.medchemexpress.cn/Thioflavin_T.html" target="_blank" style="color:#520049"><b>HY-D0218</b> </a></td>
       </tr>
@@ -667,25 +678,28 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 
 
-<p>DFAME is a red fluorophore(Ex=508 nm, Em=641 nm). Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind to DFAME to form Beetroot-DFAME (Kd=460 nM) and Corn-DFAME (Kd= 3600 nM). Beetroot-DFAME (Kd=460 nM) and Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy (CGT) research.-----From MedChemExpress</p>
+<p>DFAME (Methyl (Z)-3-(4-(3,5-difluoro-4-hydroxybenzylidene)-1-methyl-5-oxo-4,5-dihydro-1H-imidazol-2-yl)acrylate) is a red fluorophore(Ex=508 nm, Em=641 nm). Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind to DFAME to form Beetroot-DFAME (Kd=460 nM) and Corn-DFAME (Kd= 3600 nM). Beetroot-DFAME (Kd=460 nM) and Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy (CGT) research.-----From <a href="https://www.medchemexpress.cn/dfame.html" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a></p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
-        <th onclick="sortTable(5)">Drugbank ID</th>
+        <th onclick="sortTable(5)">MedChemExpress</th>
       </tr>
   </thead>
     <tbody>
       <tr>
+        <td name="td6">DFAME</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/71240548" target="_blank" style="color:#520049"><b>71240548</b> </a></td>
         <td name="td1">C<sub>15</sub>H<sub>12</sub>F<sub>2</sub>N<sub>2</sub>O<sub>4</sub></td>
         <td name="td2">322.26 g/mol</td>
-        <td name="td3">1420815-55-9</td>
-        <td name="td4">100 mg/mL (DMSO)</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=1420815-55-9" target="_blank" style="color:#520049"><b>1420815-55-9</b></a></td>
+        <td name="td4">NA</td>
         <td name="td5"><a href="https://www.medchemexpress.cn/dfame.html" target="_blank" style="color:#520049"><b>HY-W073524</b> </a></td>
       </tr>
 	  </tbody>
@@ -699,13 +713,18 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to ThT by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to ThT by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Source ligand</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -713,45 +732,87 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ThT</td>
-        <td name="td2">p-Dimethylaminostyrylbenzothiazole</td>
-        <td name="td3">1628-58-6</td>
-        <td name="td4">5378081</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC38539054/" target="_blank" style="color:#520049"><b>ZINC38539054</b></a></td>
+        <td name="td2">2-[4-(Dimethylamino)phenyl]-6-Hydroxy-3-Methyl-1,3-Benzothiazol-3-Ium</td>
+        <td name="td3">NA</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/24832019" target="_blank" style="color:#520049"><b>24832019</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ThT</td>
-        <td name="td2">DHPT</td>
-        <td name="td3">92-36-4</td>
-        <td name="td4">7087</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC56936/" target="_blank" style="color:#520049"><b>ZINC56936</b></a></td>
+        <td name="td2">N,N-dimethyl-4-(6-methyl-1,3-benzothiazol-2-yl)aniline</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=10205-62-6" target="_blank" style="color:#520049"><b>10205-62-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/82450" target="_blank" style="color:#520049"><b>82450</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ThT</td>
-        <td name="td2">4-(1,3-benzothiazol-2-yl)aniline</td>
-        <td name="td3">6278-73-5</td>
-        <td name="td4">234475</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC584593350/" target="_blank" style="color:#520049"><b>ZINC584593350</b></a></td>
+        <td name="td2">N,N-dimethyl-4-(5-methyl-1,3-benzothiazol-2-yl)aniline</td>
+        <td name="td3">NA</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/125465487" target="_blank" style="color:#520049"><b>125465487</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">DFAME</td>
-        <td name="td2">DFHBI</td>
-        <td name="td3">1241390-29-3</td>
-        <td name="td4">70808995</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC167917029/" target="_blank" style="color:#520049"><b>ZINC167917029</b></a></td>
+        <td name="td2">4-(1,5-dimethylbenzimidazol-2-yl)-N,N-dimethylaniline</td>
+        <td name="td3">NA</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20625541" target="_blank" style="color:#520049"><b>20625541</b></a></td>
+        <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC553312/" target="_blank" style="color:#520049"><b>ZINC553312</b></a></td>
+        <td name="td2">N,N-dimethyl-4-(6-methyl-1H-benzimidazol-2-yl)aniline</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=69570-95-2" target="_blank" style="color:#520049"><b>69570-95-2</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/950737" target="_blank" style="color:#520049"><b>950737</b></a></td>
+        <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4127888/" target="_blank" style="color:#520049"><b>ZINC4127888</b></a></td>
+        <td name="td2">N,N-dimethyl-4-(6-methyl-1,3-benzoxazol-2-yl)aniline</td>
+        <td name="td3">NA</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6486758" target="_blank" style="color:#520049"><b>6486758</b></a></td>
+        <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1659652/" target="_blank" style="color:#520049"><b>ZINC1659652</b></a></td>
+        <td name="td2">N,N-dimethyl-4-(5-methyl-1,3-benzoxazol-2-yl)aniline</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=127753-24-6" target="_blank" style="color:#520049"><b>127753-24-6</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/401586" target="_blank" style="color:#520049"><b>401586</b></a></td>
+        <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC751217940/" target="_blank" style="color:#520049"><b>ZINC751217940</b></a></td>
+        <td name="td2">NA</td>
+        <td name="td3">NA</td>
+        <td name="td4">NA</td>
+        <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1857599770/" target="_blank" style="color:#520049"><b>ZINC1857599770</b></a></td>
+        <td name="td2">2-[4-(dimethylamino)phenyl]-1,3-benzothiazol-5-ol</td>
+        <td name="td3">NA</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/155555168" target="_blank" style="color:#520049"><b>155555168</b></a></td>
+        <td name="td5"><img src="/images/Similar_compound/ThT_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC218483872/" target="_blank" style="color:#520049"><b>ZINC218483872</b></a></td>
+        <td name="td2">(5E)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-3-methyl-2-(nitrosomethylidene)imidazolidin-4-one</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=1420815-34-4" target="_blank" style="color:#520049"><b>1420815-34-4</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/154723879" target="_blank" style="color:#520049"><b>154723879</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DFAME_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">DFAME</td>
-        <td name="td2">DFHBI 1T</td>
-        <td name="td3">1539318-36-9</td>
-        <td name="td4">101889712</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC811701546/" target="_blank" style="color:#520049"><b>ZINC811701546</b></a></td>
+        <td name="td2">(3E)-3-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-1H-indol-2-one</td>
+        <td name="td3">NA</td>
+        <td name="td4">NA</td>
         <td name="td5"><img src="/images/Similar_compound/DFAME_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">DFAME</td>
-        <td name="td2">SCHEMBL14662970</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC492568317/" target="_blank" style="color:#520049"><b>ZINC492568317</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">71240545</td>
+        <td name="td4">NA</td>
         <td name="td5"><img src="/images/Similar_compound/DFAME_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>

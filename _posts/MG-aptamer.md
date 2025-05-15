@@ -5,7 +5,6 @@ date:   2024-03-29 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <style>
@@ -34,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +46,8 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -98,7 +110,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10339553/" target="_blank" style="color:#520049">1999</a></h3>
     </div>
     <div class="body">
-      <p>An MG-binding RNA motif was isolated and charactered in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>A MG-binding RNA motif was isolated and charactered in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -241,34 +253,40 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>Dilara Grate and Charles Wilson reported and characterized MG-binding RNA motifs obtained by SELEX in a work published in 1999. Later, Jeremy Flinders et al. resolved the structure of the MG-RNA complex by NMR spectroscopy in a work they published in 2004<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>Dilara Grate and Charles Wilson reported and characterized MG-binding RNA motifs obtained by SELEX in a work published in 1999. In 2000, Charles Wilson et al. determined the 2.8 A crystal structure of the aptamer bound to tetramethylrosamine, a high-affinity MG analog. Later, Jeremy Flinders et al. resolved the structure of the MG-RNA complex by NMR spectroscopy in a work they published in 2004<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>MG-specific RNA aptamers were selected and amplified from a pool containing approximately 5×10<sup>15</sup> different random sequence molecules. MG agarose affinity chromatography was used as a basis for enrichment. The fraction  of MG agarose-binding RNAs appeared to plateau after eight cycles. Final pool was dominated by 30–40 major species and sequences for 14 unique clones were obtained and  their ability to bind MG agarose determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>MG-specific RNA aptamers was selected and amplified from a pool containing approximately 5×10<sup>15</sup> different random sequence molecules. MG agarose affinity chromatography was used as a basis for enrichment. The fraction of MG agarose-binding RNAs appeared to plateau after eight cycles. Final pool was dominated by 30-40 major species and sequences for 14 unique clones were obtained and their ability to bind MG agarose determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p></font>
-<font><p>5'-GGUACCCGACUGGCGAGAGCCAGGUAACGAAUGGUACC-3'</p></font>
-<img src="/images/2D/MG_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The secondary structure of the aptamer, defined  by two Watson-Crick helices flanking an asymmetric loop. Here we used Ribodraw to complete the figures, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>MG aptamer (1F1T): 5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
+<img src="/images/2D/MG_aptamer(1F1T)_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
+
+<p>Aptamer contains a binding pocket that binds the ligand, which interacts with the ligand and folds into specific secondary structure. Here we used Ribodraw to complete the figures, through the 3D structure information<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
+<p>MG aptamer (1Q8N): 5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
+<img src="/images/2D/MG_aptamer(1Q8N)_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Jeremy Flinders et al. resolved the structure of the MG-RNA complex by NMR spectroscopy and X-ray crystallography in a work they published in 2004. The PDB ID of this structure is 1Q8N<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Folding of the asymmetric loop is stabilized by a variety of stacking and base-pairing interactions that together combine effectively to encapsulate the ligand. The PDB ID of this structure is 1F1T (2.8 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/MG_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/3D/MG_aptamer(1F1T)_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
@@ -321,39 +339,54 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
-  start_residue_number:39, 
-  end_residue_number:39, 
-  color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:7, 
-  end_residue_number:9, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:26, 
-  end_residue_number:30, 
-  color:{r:9,g:254,b:254}
-},
-{
+  start_residue_number:101, 
+  end_residue_number:101, 
+  color:{r:255,g:0,b:255}
+},{
   struct_asym_id: 'A', 
   start_residue_number:1, 
   end_residue_number:6, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:184,g:51,b:50}
+},{
   struct_asym_id: 'A', 
-  start_residue_number:31, 
+  start_residue_number:33, 
   end_residue_number:38, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:184,g:51,b:50}
+},{
   struct_asym_id: 'A', 
-  start_residue_number:11, 
+  start_residue_number:10, 
+  end_residue_number:23, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:9, 
+  end_residue_number:9, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:26, 
+  end_residue_number:27, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:32, 
+  end_residue_number:32, 
+  color:{r:194,g:182,b:23}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:7, 
+  end_residue_number:8, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:24, 
   end_residue_number:25, 
-  color:{r:194,g:194,b:255}
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:28, 
+  end_residue_number:31, 
+  color:{r:46,g:161,b:3}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -367,7 +400,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/1q8n.pdb',
+        url:'/pdbfiles/1f1t.pdb',
         format: 'pdb'},
         expanded: false,
         hideControls: true,
@@ -387,17 +420,145 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </table>
 </div>
 
+<p>Jeremy Flinders et al. resolved the structure of the MG-RNA complex to by NMR spectroscopy in a work they published in 2004. The PDB ID of this structure is 1Q8N<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/3D/MG_aptamer(1Q8N)_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>PDBe Molstar</title>
+      <!-- Molstar CSS & JS -->
+      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection2 {
+            padding-top: 0px;
+          }
+          .controlsSection2 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox2 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer2{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
+    <body onload="customize()">
+        <div class="controlsSection2">
+            <button onclick="
+              var selectSections2 = [
+                {
+  struct_asym_id: 'A', 
+  start_residue_number:7, 
+  end_residue_number:9, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:26, 
+  end_residue_number:30, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:1, 
+  end_residue_number:6, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:31, 
+  end_residue_number:38, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:10, 
+  end_residue_number:25, 
+  color:{r:8,g:69,b:149}
+}
+             ]
+            viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
+      </div>
+    <div class="viewerSection2">
+    <!-- Molstar container -->
+      <div id="myViewer2"></div>
+    </div>
+    <script>
+      var viewerInstance2 = new PDBeMolstarPlugin();
+      var options2 = {
+        customData:{
+        url:'/pdbfiles/1q8n.pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer2 = document.getElementById('myViewer2');
+      viewerInstance2.render(viewerContainer2, options2);
+  window.addEventListener('load', function() {
+    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
+    colorSelectionButton2.click();
+  });
+</script>
+</body>
+</html>
+</td>
+</tr>
+</table>
+</div>
+
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1Q8N by NMR and X-ray crystallography. Malachite green (MG) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with MG or other nucleotides surround small molecules.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F1T by X-ray crystallography. MG (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with MG or other nucleotides surround small molecules.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/MG_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/MG_aptamer(1F1T)_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/MG_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/MG_aptamer(1F1T)_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  </tr>
+  </table>
+
+  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1Q8N by NMR. MG (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with MG or other nucleotides surround small molecules.</p>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/Binding_pocket/MG_aptamer(1Q8N)_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/Binding_pocket/MG_aptamer(1Q8N)_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -406,46 +567,29 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p> 
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>The RNA concentration dependence of the shift in maximum wavelength indicates the apparent Kd of this RNA aptamer. This affinity for soluble MG closely matches that measured for agarose-immobilized ligand by an equilibrium matrix binding assay<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
-<div style="display: flex; justify-content: center;">
-<br>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(0)">Ligand</th>
-        <th onclick="sortTable(1)">Affinity</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td0">ATP</td>
-        <td name="td1">~14uM</td>
-      </tr>
-      <tr>
-        <td name="td0">adenosine</td>
-        <td name="td1">5-8uM</td>
-      </tr>
-      <tr>
-        <td name="td0">dATP</td>
-        <td name="td1">> 1mM</td>
-      </tr>
-	  </tbody>
-  </table-->
-  </div>
+<p>Malachite green (MG): The RNA concentration dependence of the shift in maximum wavelength indicates the apparent Kd of this RNA aptamer. This affinity for soluble MG closely matches that measured for agarose-immobilized ligand by an equilibrium matrix binding assay. Tetramethylrhodamine (TMR): Binding of the fuorophores TMR to the aptamer was measured by monitoring changes in fuorescence intensity or anisotropy using a Perkin Elmer LS50B Luminescence Spectrometer<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/MG_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
 <br>
 
+
 <p class="blowheader_box">Structure ligand</p>
-<font><p>MG (Malachite green) is an organic compound that is used as a dyestuff and controversially as an antimicrobial in aquaculture. Malachite green is traditionally used as a dye for materials such as silk, leather, and paper. Despite its name the dye is not prepared from the mineral malachite. The name just comes from the similarity of color.-----From Wikipedia</p></font>
+<p>Malachite green (MG) is an organic compound that is used as a dyestuff and controversially as an antimicrobial in aquaculture. Malachite green is traditionally used as a dye for materials such as silk, leather, and paper. Despite its name the dye is not prepared from the mineral malachite. The name just comes from the similarity of color.-----From <a href="https://en.wikipedia.org/wiki/Malachite_green" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wikipedia</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -453,10 +597,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">MG</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11294#section=3D-Conformer" target="_blank" style="color:#520049"><b>11294</b> </a></td>
         <td name="td1">C<sub>23</sub>H<sub>25</sub>N<sub>2</sub></td>
         <td name="td2">364.9 g/mol</td>
-        <td name="td3">569-64-2</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=569-64-2" target="_blank" style="color:#520049"><b>569-64-2</b></a></td>
         <td name="td4">100 mg/mL in DMSO; 3.85 mg/mL in H2O</td>
         <td name="td5"><a href="https://go.drugbank.com/drugs/DB03895" target="_blank" style="color:#520049"><b>DB03895</b> </a></td>
       </tr>
@@ -468,14 +613,56 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-                    
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to TO1 by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+
+
+<p>TMR (Tetramethylrhodamine) is a rhodamine in which four hydrogens have been replaced by methyl groups. Forms such as tetramethylrhodamine dextran are often used as fluorescent tracer dyes in cell research.-----From <a href="https://en.wiktionary.org/wiki/tetramethylrhodamine" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wikipedia</b></a></p>
+
+<p class="dot-paragraph"><b>ChEBI ID:</b> a unique identifier assigned to each molecular entity in the <a href="https://www.ebi.ac.uk/chebi/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Chemical Entities of Biological Interest database</b></a>.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(6)">Name</th>
+        <th onclick="sortTable(0)">PubChem CID</th>
+        <th onclick="sortTable(1)">Molecular Formula</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
+        <th onclick="sortTable(3)">CAS</th>
+        <th onclick="sortTable(4)">Solubility</th>
+        <th onclick="sortTable(5)">ChEBI ID</th>
+      </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td name="td6">TMR</td>
+        <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/9952143" target="_blank" style="color:#520049"><b>9952143</b> </a></td>
+        <td name="td1">C<sub>24</sub>H<sub>22</sub>N<sub>2</sub>O<sub>3</sub></td>
+        <td name="td2">386.4 g/mol</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=120718-52-7" target="_blank" style="color:#520049"><b>120718-52-7</b></a></td>
+        <td name="td4">NA</td>
+        <td name="td5"><a href="https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:52282" target="_blank" style="color:#520049"><b>52282</b> </a></td>
+      </tr>
+	  </tbody>
+  </table>
+<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/TMR_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/TMR_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
+</tr>
+</table>
+<div style="display: flex; justify-content: center;"></div>
+
+                    
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to MG by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
+<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+  <thead>
+      <tr>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -483,66 +670,66 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC13763987</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC13763987/" target="_blank" style="color:#520049"><b>ZINC13763987</b></a></td>
         <td name="td2">Crystal Violet</td>
-        <td name="td3">548-62-9;7438-46-2</td>
-        <td name="td4">3468</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=548-62-9" target="_blank" style="color:#520049"><b>548-62-9</b></a><br><a href="https://commonchemistry.cas.org/detail?cas_rn=7438-46-2" target="_blank" style="color:#520049"><b>7438-46-2</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/3468" target="_blank" style="color:#520049"><b>3468</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC5140632</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC5140632/" target="_blank" style="color:#520049"><b>ZINC5140632</b></a></td>
         <td name="td2">Tetramethylrhodamine</td>
-        <td name="td3">62669-71-0</td>
-        <td name="td4">65220</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=62669-71-0" target="_blank" style="color:#520049"><b>62669-71-0</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/65220" target="_blank" style="color:#520049"><b>65220</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC3953819</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC3953819/" target="_blank" style="color:#520049"><b>ZINC3953819</b></a></td>
         <td name="td2">Brilliant Green</td>
-        <td name="td3">10309-95-2</td>
-        <td name="td4">11295</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=10309-95-2" target="_blank" style="color:#520049"><b>10309-95-2</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11295" target="_blank" style="color:#520049"><b>11295</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8577555</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8577555/" target="_blank" style="color:#520049"><b>ZINC8577555</b></a></td>
         <td name="td2">Rosamine</td>
         <td name="td3">NA</td>
-        <td name="td4">2762681</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2762681" target="_blank" style="color:#520049"><b>2762681</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4521863</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4521863/" target="_blank" style="color:#520049"><b>ZINC4521863</b></a></td>
         <td name="td2">Rhodamine I</td>
-        <td name="td3">115532-52-0</td>
-        <td name="td4">2762683</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=115532-52-0" target="_blank" style="color:#520049"><b>115532-52-0</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2762683" target="_blank" style="color:#520049"><b>2762683</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4521864</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4521864/" target="_blank" style="color:#520049"><b>ZINC4521864</b></a></td>
         <td name="td2">Rhodamine II</td>
-        <td name="td3">115532-49-5</td>
-        <td name="td4">5009757</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=115532-49-5" target="_blank" style="color:#520049"><b>115532-49-5</b></a></td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5009757" target="_blank" style="color:#520049"><b>5009757</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC59301830</td>
-        <td name="td2">[4-[[4-(diethylamino)phenyl]-phenylmethylidene]cyclohexa-2,5-dien-1-ylidene]-dimethylazanium</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC59301830/" target="_blank" style="color:#520049"><b>ZINC59301830</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">10504023</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/10504023" target="_blank" style="color:#520049"><b>10504023</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC504413298</td>
-        <td name="td2">[4-[[4-(dimethylamino)phenyl]-phenylmethylidene]cyclohexylidene]-dimethylazanium</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC504413298/" target="_blank" style="color:#520049"><b>ZINC504413298</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">125339933</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/125339933" target="_blank" style="color:#520049"><b>125339933</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4558687</td>
-        <td name="td2">[4-[(2-chlorophenyl)-[4-(dimethylamino)phenyl]methylidene]cyclohexa-2,5-dien-1-ylidene]-dimethylazanium</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4558687/" target="_blank" style="color:#520049"><b>ZINC4558687</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">107405</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/107405" target="_blank" style="color:#520049"><b>107405</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/MG_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>

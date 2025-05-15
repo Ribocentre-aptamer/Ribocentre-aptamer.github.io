@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 800 300" style="enable-background:new 0 0 800 300;" xml:space="preserve">
 <style type="text/css">
 	.st0{font-family:'ArialMT';}
 	.st1{font-size:16.73px;}
 	.st2{fill:none;stroke:#000000;stroke-width:0.91;stroke-miterlimit:3.86;}
-	.st3{font-size:20px;}
+	.st3{font-size:16px;}
 	.st4{font-size:16.8283px;}
 	.st5{font-size:10.3559px;}
 	.st6{fill:none;stroke:#000000;stroke-width:0.9089;stroke-miterlimit:3.8476;}
@@ -72,7 +72,7 @@
 </g>
 <line class="st2" x1="311.9" y1="135.9" x2="318.2" y2="135.9"/>
 <polygon points="260.4,182.8 228.4,164.1 228.4,163.2 229.2,162.8 261.3,181.6 261.1,182.4 "/>
-<text transform="matrix(1 0 0 1 159.25 265.705)" class="st0 st3">TMR: 370±150 nM</text>
+<text transform="matrix(1 0 0 1 162.25 275.705)" class="st0 st3">TMR: 370 ± 150 nM</text>
 <polygon points="537.4,76.6 570.4,57.5 571.2,58 571.2,58.8 538.9,77.5 538.1,77 "/>
 <polygon points="571.9,57.5 605,76.6 604.2,77 603.5,77.5 571.2,58.8 571.2,58 "/>
 <polygon points="571.5,62.6 600,79 599.6,79.7 599.3,80.3 570.8,63.9 571.2,63.2 "/>
@@ -99,5 +99,5 @@
 <line class="st6" x1="642.9" y1="163.6" x2="649.2" y2="163.6"/>
 <line class="st6" x1="646.1" y1="160.5" x2="646.1" y2="166.8"/>
 <line class="st6" x1="609.8" y1="218" x2="616.2" y2="218"/>
-<text transform="matrix(1 0 0 1 527.9551 265.7055)" class="st0 st3">pAF: 3600 nM</text>
+<text transform="matrix(1 0 0 1 524.9551 275.7055)" class="st0 st3">pAF: 3600 nM</text>
 </svg>

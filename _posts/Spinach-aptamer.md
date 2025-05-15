@@ -5,7 +5,6 @@ date:   2024-04-23 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <style>
@@ -34,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +46,8 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -275,35 +287,36 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In a work published in 2011, Jeremy S. Paige et al. isolated an RNA aptamer, named Spinach, which binds DFHBI and enhances its optical properties. Later, in a work published in 2014 by Katherine Deigan Warner and others, the structure of the Spinach-DFHBI complex was analyzed by crystallization, diffraction data collection, structure determination and refinement<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In a work published in 2011, Samie R. Jaffrey et al. isolated an RNA aptamer, named Spinach, which binds DFHBI and enhances its optical properties. Later, in a work published in 2014 by Adrian R Ferré-D’Amaré et al., the structure of the Spinach-DFHBI complex was analyzed by crystallization, diffraction data collection, structure determination and refinement<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>SELEX was performed with a library containing ~5×10<sup>13</sup> RNA molecules and selected RNAs for their ability to bind DMHBI-agarose. The selection process went through 10 rounds. After SELEX, researchers selected a number of sequences, including Spinach, to characterize their affinity for the dye and its spectral properties<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>SELEX was performed with a library containing ~5×10<sup>13</sup> RNA molecules and selected RNAs for their ability to bind DMHBI-agarose. The selection process went through 10 rounds. After SELEX, researchers selected a number of sequences, including Spinach, to characterize their affinity for the dye and its spectral properties. Spinach is notably resistant to photobleaching, and Spinach fusion RNAs can be imaged in living cells<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>  
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
-<font><p>5'-GACGCGACUGAAUGAAAUGGUGAAGGACGGGUCCAGGUGUGGCUGCUUCGGCAGUGCAGCUUGUUGAGUAGAGUGUGAGCUCCGUAACUAGUCGCGUC-3'</p></font>
-<img src="/images/2D/DFHBI1_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>Spinach folds into a single coaxial helical stack, composed of three canonical A-form duplexes (paired regions P1, P2, and P3), which are separated by two irregular junctions. Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>5'-GACGCGACCGAAUGAAAUGGUGAAGGACGGGUCCAGCCGGCUGC-3'<br>5'-GCAGCCGGCUUGUUGAGUAGAGUGUGAGCUCCGUAACUGGUCGCGUC-3'</p>
+<img src="/images/2D/DFHBI_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Katherine Deigan Warner et al. present the solution structure, as determined by multidimensional NMR spectroscopy, molecular dynamics calculations, crystallization and diffraction data collection of Spinach–DFHBI complex. The PDB ID of these structures are 4TS0 and 4TS2<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>Adrian R Ferré-D'Amaré et al. present the solution structure, as determined by multidimensional NMR spectroscopy, molecular dynamics calculations, crystallization and diffraction data collection of Spinach-DFHBI complex. The Spinach chromophore, adopting a conformation with coplanar imidazolone and phenyl rings, was positioned between G26 and G65 of the top G-quartet and the Hoogsteen-paired U61 and A64 of the base triple in J2-3. DFHBI interacted extensively within the plane of its rings. The PDB ID of these structures are 4TS0 (2.8 Å) and 4TS2 (2.88 Å)<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/DFHBI1_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/3D/DFHBI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
@@ -358,151 +371,116 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'Y', 
   start_residue_number:206, 
   end_residue_number:206, 
-  color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:27, 
-  end_residue_number:28, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:32, 
-  end_residue_number:33, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:62, 
-  end_residue_number:63, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:66, 
-  end_residue_number:67, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:71, 
-  end_residue_number:71, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:69, 
-  end_residue_number:69, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'Y', 
-  start_residue_number:85, 
-  end_residue_number:94, 
-  color:{r:128,g:219,b:158}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'X', 
   start_residue_number:1, 
-  end_residue_number:13, 
-  color:{r:128,g:219,b:158}
+  end_residue_number:24, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:73, 
+  end_residue_number:94, 
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'Y', 
   start_residue_number:101, 
   end_residue_number:101, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'X', 
-  start_residue_number:36, 
+  start_residue_number:33, 
   end_residue_number:44, 
-  color:{r:194,g:194,b:255}
-},
-{
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'Y', 
   start_residue_number:49, 
-  end_residue_number:57, 
-  color:{r:194,g:194,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:26, 
-  end_residue_number:26, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'X', 
-  start_residue_number:31, 
-  end_residue_number:31, 
-  color:{r:255,g:0,b:255}
-},
-{
+  end_residue_number:60, 
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'Y', 
-  start_residue_number:64, 
-  end_residue_number:64, 
-  color:{r:255,g:0,b:255}
-},
-{
+  start_residue_number:62, 
+  end_residue_number:63, 
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'X', 
   start_residue_number:25, 
   end_residue_number:25, 
-  color:{r:10,g:11,b:255}
-},
-{
+  color:{r:24,g:152,b:140}
+},{
   struct_asym_id: 'X', 
-  start_residue_number:29, 
+  start_residue_number:28, 
   end_residue_number:30, 
-  color:{r:10,g:11,b:255}
-},
-{
+  color:{r:24,g:152,b:140}
+},{
   struct_asym_id: 'Y', 
   start_residue_number:65, 
-  end_residue_number:65, 
-  color:{r:10,g:11,b:255}
-},
-{
+  end_residue_number:66, 
+  color:{r:24,g:152,b:140}
+},{
   struct_asym_id: 'Y', 
   start_residue_number:68, 
   end_residue_number:68, 
-  color:{r:10,g:11,b:255}
-},
-{
+  color:{r:24,g:152,b:140}
+},{
   struct_asym_id: 'Y', 
   start_residue_number:70, 
   end_residue_number:70, 
-  color:{r:10,g:11,b:255}
-},
-{
+  color:{r:24,g:152,b:140}
+},{
   struct_asym_id: 'Y', 
   start_residue_number:72, 
-  end_residue_number:72, 
-  color:{r:10,g:11,b:255}
-},
-{
+  end_residue_number:74, 
+  color:{r:24,g:152,b:140}
+},{
   struct_asym_id: 'X', 
-  start_residue_number:14, 
-  end_residue_number:24, 
-  color:{r:0,g:128,b:128}
-},
-{
+  start_residue_number:27, 
+  end_residue_number:27, 
+  color:{r:194,g:182,b:23}
+},{
   struct_asym_id: 'Y', 
-  start_residue_number:73, 
-  end_residue_number:84, 
-  color:{r:0,g:128,b:128}
-},
-{
+  start_residue_number:67, 
+  end_residue_number:67, 
+  color:{r:194,g:182,b:23}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:71, 
+  end_residue_number:71, 
+  color:{r:194,g:182,b:23}
+},{
   struct_asym_id: 'X', 
-  start_residue_number:34, 
-  end_residue_number:35, 
-  color:{r:255,g:135,b:10}
-},
-{
+  start_residue_number:32, 
+  end_residue_number:32, 
+  color:{r:46,g:161,b:3}
+},{
   struct_asym_id: 'Y', 
-  start_residue_number:58, 
+  start_residue_number:61, 
   end_residue_number:61, 
-  color:{r:255,g:135,b:10}
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:69, 
+  end_residue_number:69, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'X', 
+  start_residue_number:26, 
+  end_residue_number:26, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'X', 
+  start_residue_number:31, 
+  end_residue_number:31, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'X', 
+  start_residue_number:64, 
+  end_residue_number:64, 
+  color:{r:241,g:125,b:7}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -539,14 +517,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</font>
-<br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/DFHBI1_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/DFHBI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/Binding_pocket/DFHBI1_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/Binding_pocket/DFHBI_aptamer_binding_pocket2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
@@ -556,22 +533,29 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p> 
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>The K<sub>d</sub> was determined by measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration of RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
-  <img src="/images/SELEX_ligand/DFHBI1_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
+  <img src="/images/SELEX_ligand/DFHBI_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
+
 <p class="blowheader_box">Structure ligand</p>
-<font><p>DFHBI is a small molecule that resembles the chromophore of green fluorescent protein. Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.-----From MedChemExpress</p></font>
+<p>DFHBI ((Z)-4-(3,5-difluoro- 4-hydroxybenzylidene)-1,2-dimethyl-1H-imidazol-5(4H)-one) is a small molecule that resembles the chromophore of green fluorescent protein. Spinach and DFHBI are essentially nonfluorescent when unbound, whereas the Spinach-DFHBI complex is brightly fluorescent both in vitro and in living cells.-----From <a href="https://www.medchemexpress.com/DFHBI.html" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://www.medchemexpress.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a>:</b> an entry number for the classification of chemicals by the well-known chemical manufacturing company MedChemExpress.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">MedChemExpress</th>
@@ -579,98 +563,104 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">DFHBI</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/70808995" target="_blank" style="color:#520049"><b>70808995</b></a></td>
         <td name="td1">C<sub>12</sub>H<sub>10</sub>F<sub>2</sub>N<sub>2</sub>O<sub>2</sub></td>
         <td name="td2">252.22 g/mol</td>
-        <td name="td3">1241390-29-3</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=1241390-29-3" target="_blank" style="color:#520049"><b>1241390-29-3</b></a></td>
         <td name="td4"> ≥ 83.33 mg/mL in DMSO</td>
         <td name="td5"><a href="https://www.medchemexpress.cn/DFHBI.html" target="_blank" style="color:#520049"><b>HY-110250</b></a></td>
       </tr>
 	  </tbody>
   </table>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHBI1_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHBI1_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHBI_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHBI_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to DFHBI by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to DFHBI by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
-        <th onclick="sortTable(3)">CAS</th>
-        <th onclick="sortTable(4)">Pubchem CID</th>
-        <th onclick="sortTable(5)">Structure</th>
+        <th onclick="sortTable(0)">ZINC ID</th>
+        <th onclick="sortTable(1)">Name</th>
+        <th onclick="sortTable(2)">CAS</th>
+        <th onclick="sortTable(3)">Pubchem CID</th>
+        <th onclick="sortTable(4)">Structure</th>
       </tr>
   </thead>
     <tbody>
       <tr>
-        <td name="td0">ZINC98208026</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC98208026/" target="_blank" style="color:#520049"><b>ZINC98208026</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">131633007</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/131633007" target="_blank" style="color:#520049"><b>131633007</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC33551210</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC33551210/" target="_blank" style="color:#520049"><b>ZINC33551210</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">124391872</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/124391872" target="_blank" style="color:#520049"><b>124391872</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC8091529</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC8091529/" target="_blank" style="color:#520049"><b>ZINC8091529</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">19374978</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/19374978" target="_blank" style="color:#520049"><b>19374978</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC409189401</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC409189401/" target="_blank" style="color:#520049"><b>ZINC409189401</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">126195641</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/126195641" target="_blank" style="color:#520049"><b>126195641</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC409190392</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC409190392/" target="_blank" style="color:#520049"><b>ZINC409190392</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">126196630</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/126196630" target="_blank" style="color:#520049"><b>126196630</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC408820263</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC408820263/" target="_blank" style="color:#520049"><b>ZINC408820263</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">125827993</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/125827993" target="_blank" style="color:#520049"><b>125827993</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC408816652</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC408816652/" target="_blank" style="color:#520049"><b>ZINC408816652</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">125824383</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/125824383" target="_blank" style="color:#520049"><b>125824383</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC408846725</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC408846725/" target="_blank" style="color:#520049"><b>ZINC408846725</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
-        <td name="td3">125854305</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/125854305" target="_blank" style="color:#520049"><b>125854305</b></a></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC255720511</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC255720511/" target="_blank" style="color:#520049"><b>ZINC255720511</b></a></td>
         <td name="td1">NA</td>
         <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4"><img src="/images/Similar_compound/DFHBI1_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
+        <td name="td4"><img src="/images/Similar_compound/DFHBI_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
   </table>

@@ -1612,21 +1612,14 @@ permalink: /Ribocentre-aptamer/
             <td name="td0" rowspan="1">Fluorophores</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Beetroot-aptamer" target="_blank"
                 style="color:#520049"><b>Beetroot aptamer</b></a></td>
-            <td name="td2">ThT<br>DFHO<br>DFAME</td>
-            <td name="td3">ThT (Thioflavin T) are fluorescent dyes used for histology staining and biophysical studies
-              of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the
-              electrophysiology of bacteria.<br>DFHO (3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime) is a Corn
-              homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living
-              cells.<br>DFAME is a red fluorophore. Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind
-              to DFAME to form Beetroot-DFAME (Kd=460 nM) and Corn-DFAME (Kd= 3600 nM). Beetroot-DFAME (Kd=460 nM) and
-              Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the
-              study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy (CGT)
-              research.</td>
-            <td name="td4"><a href="https:" target="_blank" style="color:#520049"><b>2022</b> </a></td>
+            <td name="td2">Thioflavin T (ThT)<br>DFHO<br>DFAME</td>
+            <td name="td3">Thioflavin T (ThT) are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.<br>3,5-difluoro-4-hydroxybenzylidene imidazolinone-2-oxime (DFHO) is a Corn homologous ligand that fluoresces yellow upon excitation and is used to image RNA in living cells.<br>DFAME (Methyl (Z)-3-(4-(3,5-difluoro-4-hydroxybenzylidene)-1-methyl-5-oxo-4,5-dihydro-1H-imidazol-2-yl)acrylate) is a red fluorophore. Beetroot and Corn are dimeric fluorogenic RNA aptamers that can bind to DFAME to form Beetroot-DFAME and Corn-DFAME. Beetroot-DFAME and Corn-DFAME can be used to form RNA assemblies in living cells. Creating RNA assemblies can be used for the study of RNA Nanostructures. DNA/RNA Nanostructures would be useful in cell and gene therapy research.</td>
+            <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/35294188/" target="_blank" style="color:#520049"><b>2022</b> </a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/8EYW" target="_blank"
-                style="color:#520049"><b>8EYW</b></a><br><a href="https://www.rcsb.org/structure/8EYV" target="_blank"
-                style="color:#520049"><b>8EYV</b></a><br><a href="https://www.rcsb.org/structure/8EYU" target="_blank"
-                style="color:#520049"><b>8EYU</b></a></td>
+                style="color:#520049"><b>8EYW (ThT)</b></a><br><a href="https://www.rcsb.org/structure/8EYV" target="_blank"
+                style="color:#520049"><b>8EYV (DFHO)</b></a><br><a href="https://www.rcsb.org/structure/8F0N" target="_blank"
+                style="color:#520049"><b>8F0N (DFHO)</b></a><br><a href="https://www.rcsb.org/structure/8EYU" target="_blank"
+                style="color:#520049"><b>8EYU (DFAME)</b></a></td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Fluorophores</td>
@@ -1653,6 +1646,17 @@ permalink: /Ribocentre-aptamer/
             <td name="td5"><a href="https://www.rcsb.org/structure/6GZK" target="_blank"
                 style="color:#520049"><b>6GZK</b></a><br><a href="https://www.rcsb.org/structure/6GZR" target="_blank"
                 style="color:#520049"><b>6GZR</b></a></td>
+          </tr>
+          <tr>
+            <td name="td0" rowspan="1">Fluorophores</td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TMR-DN-aptamer" target="_blank"
+                style="color:#520049"><b>TMR-DN aptamer</b></a></td>
+            <td name="td2">Tetramethylrhodamine-dinitroaniline (TMR-DN)</td>
+            <td name="td3">Tetramethylrhodamine-dinitroaniline (TMR-DN) is tetramethylrhodamine that combines the quenching group of dinitroaniline.</td>
+            <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/38760339/" target="_blank"
+                style="color:#520049"><b>2024</b> </a></td>
+            <td name="td5"><a href="https://www.rcsb.org/structure/8JY0" target="_blank"
+                style="color:#520049"><b>8JY0</b></a></td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Fluorophores</td>
@@ -1692,15 +1696,13 @@ permalink: /Ribocentre-aptamer/
             <td name="td0" rowspan="1">Fluorophores</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/MG-aptamer" target="_blank"
                 style="color:#520049"><b>MG aptamer</b></a></td>
-            <td name="td2">Malachite green (MG)</td>
-            <td name="td3">MG (Malachite green) is an organic compound that is used as a dyestuff and controversially as
-              an antimicrobial in aquaculture. Malachite green is traditionally used as a dye for materials such as
-              silk, leather, and paper. Despite its name the dye is not prepared from the mineral malachite; the name
-              just comes from the similarity of color.</td>
+            <td name="td2">Malachite green (MG)<br>Tetramethylrhodamine (TMR)</td>
+            <td name="td3">Malachite green (MG) is an organic compound that is used as a dyestuff and controversially as an antimicrobial in aquaculture. Malachite green is traditionally used as a dye for materials such as silk, leather, and paper. Despite its name the dye is not prepared from the mineral malachite; the name just comes from the similarity of color.<br>Tetramethylrhodamine (TMR) is a rhodamine in which four hydrogens have been replaced by methyl groups. Forms such as tetramethylrhodamine dextran are often used as fluorescent tracer dyes in cell research.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10339553/" target="_blank"
                 style="color:#520049"><b>1999</b></a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/1Q8N" target="_blank"
-                style="color:#520049"><b>1Q8N</b></a></td>
+                style="color:#520049"><b>1Q8N</b></a><br><a href="https://www.rcsb.org/structure/1F1T" target="_blank"
+                style="color:#520049"><b>1F1T</b></a></td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Biologics & Signaling Molecules</td>

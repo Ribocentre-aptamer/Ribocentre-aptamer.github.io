@@ -5,7 +5,6 @@ date:   2024-04-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <style>
@@ -34,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +46,8 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -97,7 +109,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/21798953/" target="_blank" style="color:#520049">2011</a></h3>
     </div>
     <div class="body">
-      <p>In this work, researchers isolated Spinach RNA aptamer and obtained another 13-2 aptamer series which has affinity with DMHBI and can activate its fluorescence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>Researchers isolated Spinach RNA aptamer and obtained another 13-2 aptamer series which has affinity with DMHBI and can activate its fluorescence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -136,32 +148,33 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2011, Jeremy S. Paige et al. isolated Spinach RNA aptamer and obtained a 13-2 aptamer series that has affinity with DMHBI and can activate its fluorescence. In 2018, Christian Steinmetzger et al. obtained an RNA aptamer with stronger affinity to DMHBI through rational design of 13-2-min, and named it Chili. In 2021, Mateusz Mieczkowski et al. analyzed the structure of the Chili-DMHBI's derivatives complexs through crystallization, diffraction data collection and NMR spectroscopy<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2011, Samie R. Jaffrey et al. isolated Spinach RNA aptamer and obtained a 13-2 aptamer series that has affinity with DMHBI and can activate its fluorescence. In 2018, Claudia Höbartner et al. obtained an RNA aptamer with stronger affinity to DMHBI through rational design of 13-2-min, and named it Chili. In 2021, Claudia Höbartner et al. analyzed the structure of the Chili-DMHBI's derivatives complexs through crystallization, diffraction data collection and NMR spectroscopy<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>This work generated aptamers that bind DMHBI using SELEX. A DNA library containing ~5×10<sup>13</sup> random library members was used and DMHBI was conjugated to agarose beads as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>This work generated aptamers that bind DMHBI using SELEX. A DNA library containing ~5×10<sup>13</sup> random sequence members was used and DMHBI was conjugated to agarose beads as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence was identified. These RNA mimics of GFP provide a useable approach for the genetic encoding of fluorescent RNAs<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>  
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p></font>
-<font><p>5'-GGCUAGCUGGAGGGGCGCCAGUUCGCUGGUGGUUGGGUGCGGUCGGCUAGCC-3'</p></font>
-<img src="/images/2D/DMHBI+_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The Chili RNA folds into a single coaxial helical stack, consisting of two A-form duplexes, P1 and P2, which are separated by the central fluorophore-binding domain. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>5'-GGCUAGCUGGAGGGGCGCCAGUUCGCUGGUGGUUGGGUGCGGUCGGCUAGCC-3'</p>
+<img src="/images/2D/DMHBI+_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>In 2021, Mateusz Mieczkowski et al. analyzed the structure of the Chili-DMHBI's derivatives complexs through crystallization, diffraction data collection and NMR spectroscopy. Structural data obtained by X-ray crystallography were deposited in the Protein Data Bank and are available with the following accession codes: 7OAW, 7OAX, 7OA3, 7OAV<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 2021, Claudia Höbartner et al. analyzed the structure of the Chili-DMHBI's derivatives complexs through crystallization, diffraction data collection and NMR spectroscopy. The Chili RNA adopts a single coaxial helical stack (~70 Å in length), comprising two A-form duplexes (P1 and P2) flanking the central fluorophore-binding domain. The basal stem P1 forms an 8 bp duplex (nucleotides 1-8 and 45-52), while the apical stem P2 (5 bp, nt 17-21 and 26-30) is capped by the UUCG tetraloop L2 (nt 22–25). The FBD spans nucleotides 9-16 and 31-44, forming the ligand-binding pocket. Structural data obtained by X-ray crystallography were deposited in the Protein Data Bank and are available with the following accession codes: 7OAW (2.95 Å), 7OAX (2.24 Å), 7OA3 (2.8 Å), 7OAV (2.99 Å)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DMHBI+_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -219,109 +232,115 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'D', 
   start_residue_number:104, 
   end_residue_number:104, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'D', 
-  start_residue_number:14, 
-  end_residue_number:14, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:16, 
-  end_residue_number:16, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:31, 
-  end_residue_number:31, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:33, 
-  end_residue_number:34, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:2, 
+  start_residue_number:1, 
   end_residue_number:8, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:10, 
   end_residue_number:11, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'D', 
-  start_residue_number:35, 
-  end_residue_number:35, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:38, 
-  end_residue_number:40, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:43, 
+  start_residue_number:44, 
   end_residue_number:52, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:103, 
-  end_residue_number:103, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:17, 
   end_residue_number:30, 
-  color:{r:194,g:194,b:255}
-},
-{
-  struct_asym_id: 'D', 
-  start_residue_number:15, 
-  end_residue_number:15, 
-  color:{r:255,g:0,b:255}
+  color:{r:8,g:69,b:149}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:9, 
   end_residue_number:9, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:12, 
   end_residue_number:13, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:32, 
   end_residue_number:32, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:36, 
   end_residue_number:37, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'D', 
   start_residue_number:41, 
   end_residue_number:42, 
-  color:{r:10,g:11,b:255}
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:43, 
+  end_residue_number:43, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:38, 
+  end_residue_number:38, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:35, 
+  end_residue_number:35, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:16, 
+  end_residue_number:16, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:31, 
+  end_residue_number:31, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:33, 
+  end_residue_number:34, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:39, 
+  end_residue_number:40, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'D', 
+  start_residue_number:15, 
+  end_residue_number:15, 
+  color:{r:241,g:125,b:7}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -358,8 +377,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7OAW by NMR and X-ray crystallography. DMHBI+ (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DMHBI+ or other nucleotides surround small molecules.</font>
-<br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7OAW by NMR and X-ray crystallography. DMHBI+ (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DMHBI+ or other nucleotides surround small molecules.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DMHBI+_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -375,23 +393,29 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p> 
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>The Kd was determined by and measuring the increase in fluorescence as a function of increasing dye concentration in the presence of a fixed concentration of RNA aptamer<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</font >
-<br><br>
+<p>The Kd was determined by and measuring the increase in fluorescence as a function of increasing dye concentration in the presence of a fixed concentration of RNA aptamer<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/DMHBI_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
+
 <p class="blowheader_box">Structure ligand</p>
-<font><p>DMHBI (4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one) is predominantly found in the phenolic form, the brighter DMFBI mimics EGFP and is anionic under standard conditions. The DMFBI-RNA complex has been called Spinach, it is the first fluorescent RNA tag that is both selective and non-toxic. It only fluoresces when bound to RNA, is resistant to photobleaching and has been used to follow RNA tagged molecules as they move through cells.-----From Green Fluorescent Protein</p></font>
+<p>DMHBI (4-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,2-dimethyl-4,5-dihydro-1H-imidazol-5-one) is predominantly found in the phenolic form, the brighter DMFBI mimics EGFP and is anionic under standard conditions. The DMFBI-RNA complex has been called Spinach, it is the first fluorescent RNA tag that is both selective and non-toxic. It only fluoresces when bound to RNA, is resistant to photobleaching and has been used to follow RNA tagged molecules as they move through cells.-----From <a href="https://gfp.conncoll.edu/spinach/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Green Fluorescent Protein</b></a></p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -399,10 +423,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">DMHBI</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/68787434" target="_blank" style="color:#520049"><b>68787434</b> </a></td>
         <td name="td1">C<sub>14</sub>H<sub>16</sub>N<sub>2</sub>O<sub>4</sub></td>
         <td name="td2">276.29 g/mol</td>
-        <td name="td3">1241390-25-9</td>
+        <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=1241390-25-9" target="_blank" style="color:#520049"><b>1241390-25-9</b></a></td>
         <td name="td4">NA</td>
         <td name="td5">NA</td>
       </tr>
@@ -416,13 +441,18 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to DMHBI by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to DMHBI by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -430,66 +460,66 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC2051913110</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC2051913110/" target="_blank" style="color:#520049"><b>ZINC2051913110</b></a></td>
         <td name="td2">DFHBI</td>
         <td name="td3">NA</td>
-        <td name="td4">70808995</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/70808995" target="_blank" style="color:#520049"><b>70808995</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1857790839</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1857790839/" target="_blank" style="color:#520049"><b>ZINC1857790839</b></a></td>
         <td name="td2">DFHBI 1T</td>
         <td name="td3">NA</td>
-        <td name="td4">101889712</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/101889712" target="_blank" style="color:#520049"><b>101889712</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC2048528770</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC2048528770/" target="_blank" style="color:#520049"><b>ZINC2048528770</b></a></td>
         <td name="td2">DFHBI 2T</td>
         <td name="td3">NA</td>
-        <td name="td4">129080921</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/129080921" target="_blank" style="color:#520049"><b>129080921</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC145340396</td>
-        <td name="td2">(5E)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-2,3-dimethylimidazol-4-one</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC145340396/" target="_blank" style="color:#520049"><b>ZINC145340396</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">46898418</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/46898418" target="_blank" style="color:#520049"><b>46898418</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC4918310</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC4918310/" target="_blank" style="color:#520049"><b>ZINC4918310</b></a></td>
         <td name="td2">NA</td>
         <td name="td3">NA</td>
         <td name="td4">NA</td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC34107441</td>
-        <td name="td2">(5E)-3-methyl-2-sulfanylidene-5-[(3,4,5-trimethoxyphenyl)methylidene]imidazolidin-4-one</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC34107441/" target="_blank" style="color:#520049"><b>ZINC34107441</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">6527199</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6527199" target="_blank" style="color:#520049"><b>6527199</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC8091545</td>
-        <td name="td2">(5E)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-3-methylimidazolidine-2,4-dione</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC8091545/" target="_blank" style="color:#520049"><b>ZINC8091545</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">19374977</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/19374977" target="_blank" style="color:#520049"><b>19374977</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC409030759</td>
-        <td name="td2">(5Z)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-1,3-dimethyl-2-sulfanylideneimidazolidin-4-one</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC409030759/" target="_blank" style="color:#520049"><b>ZINC409030759</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">126037191</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/126037191" target="_blank" style="color:#520049"><b>126037191</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC408815341</td>
-        <td name="td2">(5Z)-5-[(4-hydroxy-3,5-dimethoxyphenyl)methylidene]-3-methyl-1,3-thiazolidine-2,4-dione</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC408815341/" target="_blank" style="color:#520049"><b>ZINC408815341</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">125823074</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/125823074" target="_blank" style="color:#520049"><b>125823074</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/DMHBI_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>

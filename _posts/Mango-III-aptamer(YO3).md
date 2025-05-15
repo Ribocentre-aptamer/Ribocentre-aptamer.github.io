@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Mango-III aptamer(YO3)"
+title:  "Mango-III aptamer"
 date:   2024-04-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <style>
@@ -34,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -44,7 +46,8 @@ categories: Aptamer
 <style>
  .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -63,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -72,6 +75,15 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
 </style>
 </head>
 <br>
@@ -128,31 +140,31 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2014, Elena V. Dolgosheina et al. employed in vitro selection techniques to isolate Mango aptamers with high-affinity binding sites for TO1-biotin. Subsequently, they used this motif to design ribozymes displaying polynucleotide kinase activity. In 2021, SUNNY C.Y.JENG et al. elucidated the structure of the Mango-III fluorescent aptamer bound to YO3-Biotin by X-ray diffraction<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2014, Peter J. Unrau et al. employed in vitro selection techniques to isolate Mango aptamers with high-affinity binding sites for TO1-biotin. Subsequently, they used this motif to design ribozymes displaying polynucleotide kinase activity. In 2021, Peter J. Unrau et al. elucidated the structure of the Mango-III fluorescent aptamer bound to YO3-biotin by X-ray diffraction<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>This work generated aptamers that bind TO1-biotin using SELEX. An RNA library containing ∼3×10<sup>13</sup> random library members was used and TO1-Biotin was conjugated to streptavidin magnetic as positive target. After 12 rounds of SELEX, one RNA family that exhibited both tight binding and a high fluorescent enhancement was identified from 7 distinct families<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>This work generated aptamers that bind TO1-biotin using SELEX. An RNA library containing ∼3×10<sup>13</sup> random library members was used and TO1-Biotin was conjugated to streptavidin magnetic as positive target. After 12 rounds of SELEX, one RNA family that exhibited both tight binding and a high fluorescent enhancement was identified from 7 distinct families. This work also proposed a novel fluorescence-based selection approach, which simplifies the generation of aptamers optimised for expression and performance in living cells<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
-<font><p>5'-GCUACGAAGGAAGGAUUGGUAUGUGGUAUAUUCGUAGC-3'</p></font>
-<img src="/images/2D/YO3-biotin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The structures of Mango-I and Mango-IV suggest considerable flexibility at the junction between the fluorophore-binding pocket and the variable helix. The fluorophore-binding pocket of the Spinach-class aptamers resides between two coaxially stacked paired elements, characterised by variable sequence and length. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>5'-GCUACGAAGGAAGGAUUGGUAUGUGGUAUAUUCGUAGC-3'</p>
+<img src="/images/2D/YO3-biotin_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>In 2021, Sunny C.Y. Jeng et al. analyzed the structure of the Mango-YO3-biotin complexs through crystallization and X-ray diffraction data collection. Coordinates and structure factors have been deposited to the Protein Database under accession codes PDB: 6UP0<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<p>In 2021, Peter J. Unrau et al. analyzed the structure of the Mango-YO3-biotin complexs through crystallization and X-ray diffraction data collection. Mango-I connected its fluorophore-binding quadruplex module to an external helix via a partially crystallographically disordered GAAA tetraloop-like junction, whereas the corresponding helix–quadruplex junction in Mango-III formed a well-defined coaxially stacked triplex. In contrast, the fluorophore-binding pocket of Spinach-class aptamers was positioned between two coaxially stacked paired elements with variable sequences and lengths. Coordinates and structure factors have been deposited to the Protein Database under accession codes PDB: 6UP0 (2.80 Å)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
+<p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/YO3-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -210,91 +222,103 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   struct_asym_id: 'C', 
   start_residue_number:104, 
   end_residue_number:104, 
-  color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:15, 
-  end_residue_number:15, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:20, 
-  end_residue_number:22, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:26, 
-  end_residue_number:29, 
-  color:{r:9,g:254,b:254}
+  color:{r:255,g:0,b:255}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:1, 
   end_residue_number:8, 
-  color:{r:128,g:219,b:158}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:31, 
   end_residue_number:38, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:9, 
-  end_residue_number:10, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:13, 
-  end_residue_number:14, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:18, 
-  end_residue_number:19, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:23, 
-  end_residue_number:23, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'C', 
-  start_residue_number:25, 
-  end_residue_number:25, 
-  color:{r:10,g:11,b:255}
+  color:{r:184,g:51,b:50}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:12, 
   end_residue_number:12, 
-  color:{r:0,g:128,b:128}
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:26, 
+  end_residue_number:30, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:13, 
+  end_residue_number:14, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:18, 
+  end_residue_number:19, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:23, 
+  end_residue_number:23, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:25, 
+  end_residue_number:25, 
+  color:{r:24,g:152,b:140}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:11, 
   end_residue_number:11, 
-  color:{r:255,g:135,b:10}
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'C', 
   start_residue_number:16, 
-  end_residue_number:17, 
-  color:{r:255,g:135,b:10}
+  end_residue_number:16, 
+  color:{r:194,g:182,b:23}
 },
 {
   struct_asym_id: 'C', 
-  start_residue_number:30, 
-  end_residue_number:30, 
-  color:{r:255,g:135,b:10}
+  start_residue_number:15, 
+  end_residue_number:15, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:17, 
+  end_residue_number:17, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'C', 
+  start_residue_number:22, 
+  end_residue_number:22, 
+  color:{r:46,g:161,b:3}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -327,12 +351,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </tr>
 </table>
 </div>
-<br>
+
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1Q8N by X-ray crystallography. YO3-biotin (Oxazole yellow 3-biotin) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with YO3-biotin or other nucleotides surround small molecules.</font>
-<br><br>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6UP0 by X-ray crystallography. YO3-biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with YO3-biotin or other nucleotides surround small molecules.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/YO3-biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -347,47 +370,29 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font>YO3-biotin-RNA aptamer: The EC50 was determined by and measuring the increase in fluorescence as a function of increasing RNA aptamer concentration in the presence of a fixed concentration of dye<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>TO3-biotin-RNA aptamer: The Kd was determined by and measuring the increase in fluorescence as a function of increasing RNA aptamer concentration in the presence of a fixed concentration of dye<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
-<br><br>
-<div style="display: flex; justify-content: center;">
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(0)">Ligand</th>
-        <th onclick="sortTable(1)">Affinity</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td0">ATP</td>
-        <td name="td1">~14uM</td>
-      </tr>
-      <tr>
-        <td name="td0">adenosine</td>
-        <td name="td1">5-8uM</td>
-      </tr>
-      <tr>
-        <td name="td0">dATP</td>
-        <td name="td1">> 1mM</td>
-      </tr>
-	  </tbody>
-  </table-->
-  </div>
+<p>The EC50 was determined by measuring the increase in fluorescence as a function of increasing RNA aptamer concentration in the presence of a fixed concentration of dye<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>. The Kd was determined by and measuring the increase in fluorescence as a function of increasing RNA aptamer concentration in the presence of a fixed concentration of dye<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+  <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/YO3-biotin_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef!important;display:block;margin:0 auto;border:solid 1px;border-radius:0;" class="img-responsive">
 <br>
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>YO3 (Oxazole yellow 3) is a synthetic fluorescent small molecule whose spectral properties are very similar to Texas Red. YO3-biotin fluoresces with comparable intensities when bound in either the Mango or the Spinach construct, similarly to TO1-biotin. DFHBI-1T outcompetes YO3-biotin bound in Spinach, whereas YO3-biotin is unable to outcompete DFHBI-1T bound in Spinach.-----Ikeda, S., Kubota, T., Yuki, M., & Okamoto, A. (2009). Exciton‐controlled hybridization‐sensitive fluorescent probes: multicolor detection of nucleic acids. Angewandte Chemie, 121(35), 6602-6606.</p></font>
+<p>YO3 (Oxazole yellow 3) is a synthetic fluorescent small molecule whose spectral properties are very similar to Texas Red. YO3-biotin fluoresces with comparable intensities when bound in either the Mango or the Spinach construct, similarly to TO1-biotin. DFHBI-1T outcompetes YO3-biotin bound in Spinach, whereas YO3-biotin is unable to outcompete DFHBI-1T bound in Spinach.-----Ikeda, S., Kubota, T., Yuki, M., & Okamoto, A. (2009). Exciton‐controlled hybridization‐sensitive fluorescent probes: multicolor detection of nucleic acids. Angewandte Chemie, 121(35), 6602-6606.</p>
+
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+<p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
+        <th onclick="sortTable(6)">Name</th>
         <th onclick="sortTable(0)">PubChem CID</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
-        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(2)">Molecular Weight</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">Drugbank ID</th>
@@ -395,6 +400,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
+        <td name="td6">YO3</td>
         <td name="td0"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/59853378" target="_blank" style="color:#520049"><b>59853378</b> </a></td>
         <td name="td1">C<sub>21</sub>H<sub>19</sub>N<sub>2</sub>O<sup>+</sup></td>
         <td name="td2">315.4 g/mol</td>
@@ -412,13 +418,18 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 
                     
-<p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to YO3 by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>
+<p>We screened the compounds with great similarity to YO3 by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
+
+<p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
+<p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
+<p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(1)">Zinc_id</th>
-        <th onclick="sortTable(2)">Named</th>
+        <th onclick="sortTable(1)">ZINC ID</th>
+        <th onclick="sortTable(2)">Name</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Pubchem CID</th>
         <th onclick="sortTable(5)">Structure</th>
@@ -426,10 +437,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC114784389</td>
-        <td name="td2">2-[(2Z)-2-[(E)-3-(1-methylquinolin-1-ium-4-yl)prop-2-enylidene]-1,3-benzothiazol-3-yl]acetic acid</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC114784389/" target="_blank" style="color:#520049"><b>ZINC114784389</b></a></td>
+        <td name="td2">NA</td>
         <td name="td3">NA</td>
-        <td name="td4">59274362</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/59274362" target="_blank" style="color:#520049"><b>59274362</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/YO3_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
