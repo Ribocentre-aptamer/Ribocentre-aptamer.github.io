@@ -89,14 +89,12 @@ categories: Aptamer
       white-space: normal;
       overflow-wrap: break-word;
     }
-
     .sequence-text {
       display: inline-block;
       white-space: nowrap;
       max-width: 100%;
       overflow: hidden;
     }
-
     .show-more {
       display: inline-block;
       color: #520049;
@@ -104,19 +102,15 @@ categories: Aptamer
       font-weight: bold;
       text-decoration: underline;
     }
-
     .full-sequence {
       display: none;
     }
-
     .sequence-container.expanded .sequence-text {
       display: none;
     }
-
     .sequence-container.expanded .full-sequence {
       display: inline;
     }
-
     .sequence-container.collapsed .sequence-text {
       white-space: normal;
       display: inline-block;
@@ -463,7 +457,7 @@ categories: Aptamer
         <td name="td2">36.61 kDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
+          <span class="sequence-text"></span>
           <span class="show-more" onclick="toggleSequence(event)">......</span>
           <span class="full-sequence">GGPYLQILEQPKQRGFRFRYVCEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVTNGKNIHLHAHSLVGKHCEDGVCTVTAGPKDMVVGFANLGILHVTKKKVFETLEARMTEACIRGYNPGLLVHSDLAYLQAEGGGDRQLTDREKEIIRQAAVQQTKEMDLSVVRLMFTAFLPDSTGSFTRRLEPVVSDAIYDSKAPNASNLKIVRMDRTAGCVTGGEEIYLLCDKVQKDDIQIRFYEEEENGGVWEGFGDFSPTDVHRQFAIVFKTPKYKDVNITKPASVFVQLRRKSDLETSEPKPFLYYPEIKDKEEVQRKRQK</span>
         </div>

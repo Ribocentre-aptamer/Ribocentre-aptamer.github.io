@@ -397,10 +397,12 @@ categories: Aptamer
 
 <p class="blowheader_box">Structure ligand</p>
 <p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.-----From <a href="https://rfam.org/family/RF00250" target="_blank" style="color:#520049; text-decoration: underline;"><b>Rfam</b></a></p>
+
 <p class="dot-paragraph"><b><a href="https://mirbase.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>mirBase</b></a>:</b> a comprehensive database dedicated to storing and providing microRNA (miRNA) sequence data, annotation, prediction of gene targets, and other information.</p>
 <p class="dot-paragraph"><b><a href="https://rfam.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Rfam</b></a>:</b> a database that specializes in non-coding RNA families and their alignments and consensus secondary structures.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass
 " target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
   <thead>
       <tr>

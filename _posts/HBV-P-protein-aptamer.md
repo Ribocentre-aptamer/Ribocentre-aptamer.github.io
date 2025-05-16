@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "HSV-1 US11 aptamer"
-date:   2024-05-01 00:00:00
-author: Jiali Wang, Bo Fu
+title:  "HBV P protein aptamer"
+date:   2024-05-06 00:00:00
+author: Jiali Wang, Fu Bo
 categories: Aptamer
 ---
 <html>
@@ -127,6 +127,7 @@ categories: Aptamer
 <br>
 <br>
 
+
 <div class="side-nav">
 <ul>
     <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
@@ -139,32 +140,30 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<p>In 2005, Coen, D. M et al. used the SELEX method to select RNA aptamers that could specifically bind to the US11 protein of Herpes simplex virus-1 (HSV-1). These aptamers were selected from 80 base sequences with 30 random base regions. These findings contribute to a further understanding of the RNA binding characteristics of HSV-1 US11 protein and may provide clues for studying how viruses regulate gene expression in host cells<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>In 2011, Hu, K. H et al. isolated aptamers targeting human hepatitis B virus (HBV) RNA packaging signals using the SELEX method. These aptamers can mimic the specific interaction between HBV polymerase (P protein) and the ε RNA stem ring structure on pgRNA, but do not support viral replication. Especially, the S9 aptamer has shown high affinity and specificity for recombinant truncated HBV P protein (miniP) in vitro experiments, and does not support viral replication when used as part of the complete HBV genome. Introducing S9 RNA into HepG2 cells that briefly produce HBV strongly inhibited the packaging and DNA synthesis of pgRNA, indicating that S9 RNA can act as an ε bait to competitively inhibit the binding of P protein to the real ε signal on pgRNA. This study demonstrates the successful identification of human HBV ε - aptamers using the in vitro SELEX method, and that S9 aptamers effectively inhibit HBV replication, providing a theoretical basis for the formation of ε - bait RNA interference virus P - ε complexes, and suggesting that S9 class RNA may be further developed as a useful therapeutic tool for chronic hepatitis B<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2005, Coen, D. M et al. conducted an in vitro selection of RNA aptamers binding to US11 from an RNA library comprising over 10<sup>14</sup> 80-nucleotide sequences, which varied in a 30-base randomised region. They carried out 12 rounds of automated selection for aptamers that bound MBP-US11. A total of 23 selected aptamers were cloned and sequenced, and a consensus emerged from these sequences: UUCGCAAUYCUGCAYUG (where Y denotes a pyrimidine base)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>In 2011, Hu, K. H et al. used an in-vitro reconstruction system based on recombinant truncated HBV P protein (miniP) to select potential e-structure aptamers from two large, randomised upper stem e-RNA pools. After three rounds of screening, these RNA pools were rich in RNAs with a strong affinity for miniPs. Around 500 RT-PCR product clones were generated, and 45 were randomly sequenced. Most (43) had upper stem sequences rich in adenosine (A). The selected adaptors, S6 and S9, showed high affinity and specificity for miniPs in vitro. Notably, S9 RNA effectively inhibited pgRNA packaging and DNA synthesis, suggesting it could act as a decoy for the e structure by competitively blocking the P protein’s binding to the authentic e signal on pgRNA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<p>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. C17 aptamer binds to herpes simplex virus-1 (HSV-1) US11. C17 aptamer was named by Coen, D. M et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>5'-GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU-3'</p>
-<img src="/images/2D/C17_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw. S9 apatmer binds to hepatitis B virus (HBV) polymerase (P protein) (miniP). S9 aptamer was named by Hu, K. H et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>5'-UGUUCAUGUCCUACUGUUCAAACAAAAAAACUGUGCACAAAAAUAAAUUGGGGCAUGGACA-3'</p>
+<img src="/images/2D/S9_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
-
-<p class="header_box" id="ligand-recognition">Ligand information</p>
+<p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -176,42 +175,17 @@ categories: Aptamer
   </thead>
     <tbody>
       <tr>
-      <td name="td0">C17</td>
-      <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU-3'</td>
-      <td name="td2">US11</td>
-      <td name="td3">70 nM</td>
-    </tr>
-     <tr>
-      <td name="td0">C17</td>
-      <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU-3'</td>
-      <td name="td2">US11-RBD</td>
-      <td name="td3">220 ± 60 nM</td>
-    </tr>
-     <tr>
-      <td name="td0">Lyso</td>
-      <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAAGCUU-3'</td>
-      <td name="td2">US12-RBD</td>
-      <td name="td3">No binding detected</td>
-    </tr>
-     <tr>
-      <td name="td0">dsC17</td>
-      <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCGCAAUCCUGUAUUGAACUUCUCACUAAAACUUCACUGCAGACUUGACGAAGCUU-3'<br>3'-CCCUUACCUAGGUGUAGAUGCUUAAGCGUUAGGACAUAACUUGAAGAGUGAUUUUGAAGUGACGUCUGAACUGCUUCGAA-5'</td>
-      <td name="td2">US13-RBD</td>
-      <td name="td3">1400 ± 170 nM</td>
-    </tr>
-     <tr>
-      <td name="td0">dsLyso</td>
-      <td name="td1">5'-GGGAAUGGAUCCACAUCUACGAAUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAAGCUU-3'<br>5'-CCCUUACCUAGGUGUAGAUGCUUAAGUAGUCCCGAUUUCUCACGUCUCAAUGAAUCAAGUGACGUCUGAACUGCUUCGAA-3'</td>
-      <td name="td2">US14-RBD</td>
-      <td name="td3">1200 ± 200 nM</td>
-    </tr>
+        <td name="td0">S9</td>
+        <td name="td1">5'-UGUUCAUGUCCUACUGUUCAAACAAAAAAACUGUGCACAAAAAUAAAUUGGGGCAUGGACA-3'</td>
+        <td name="td2">HBV P protein</td>
+        <td name="td3">NA</td>
+      </tr>
 	  </tbody>
   </table>
-  </div>
-<br>
+
 
 <p class="blowheader_box">Structure ligand</p>
-<p>Herpes simplex virus-1 (HSV-1) US11, is a relatively small (~23 kDa), highly basic phosphoprotein that is expressed late in infection but is present at early times post-infection as it enters the cell as a component of the virion.-----From <a href="https://en.wikipedia.org/wiki/Herpes_simplex_virus" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
+<p>This entry represents protein P from hepatitis B virus. Protein P is a multifunctional enzyme that converts the viral RNA genome into dsDNA in viral cytoplasmic capsids.-----From <a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR037531/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
 <p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
@@ -232,19 +206,19 @@ categories: Aptamer
   </thead>
     <tbody>
       <tr>
-        <td name="td0">Herpes simplex virus-1 (HSV-1) US11</td>
-        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/D0V0N2/entry" target="_blank" style="color:#520049"><b>D0V0N2</b></a></td>
-        <td name="td2">NA</td>
-        <td name="td3">16.704 kDa</td>
+        <td name="td0">Hepatitis B virus (HBV) polymerase (P protein) (miniP)</td>
+        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/Q9QMN7/entry" target="_blank" style="color:#520049"><b>Q9QMN7</b></a></td>
+        <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/InterPro/IPR037531/" target="_blank" style="color:#520049"><b>IPR037531</b></a></td>
+        <td name="td3">94.48 kDa</td>
         <td name="td4">
         <div class="sequence-container">
           <span class="sequence-text"></span>
           <span class="show-more" onclick="toggleSequence(event)">......</span>
-          <span class="full-sequence">MSQTQPPAPVGPGDPDVYLKGVPSAGMHPRGVHAPRGHPRMISGPPQRGDNDQAAGQCGDSGLLRVGADTTISKPSEAVRPPTIPRTPRVPREPRVPRPPREPREPRVPRAPRDPRVPRDPRDPRQPREPRPPREPRTPRTPREPRTARGSV</span>
+          <span class="full-sequence">MPLSYQHFRKLLLLDDEAGPLEEELPRLADEGLNRRVAEDLNLGNLNVSIPWTHKVGNFTGLYSSTVPVFNPDWQTPSFPHIHLKEDIINRCQQYVGPLTVNEKRRLKLIMPARFYPNLTKYLPLDKGIKPYYPEHIVNHYFQTRHYLHTLWKAGILYKRETTRSASFCGSPYSWEQELQHGRLVFQTSTRHGDESFCSQSSGILSRSPVGPGIRSQFKQSRLGLQPQQGSMASGTPGRSGIIRARVHSTTRQSFGVEPSGSGHIDSSTSSASSCLHQSAVRKTAYSHLSTSKRQSSSGHAVELQHIPPSSTRSQSEGPILSCWWLQFRNSKPCSDYCLSHIVNLLEDWGPCTEYGEHHIRIPRTPARVTGGVFLVDKNPHNTTESRLVVDFSQFSRGSTHVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLPRYVARLSSXSRXINXQHXTMQBLHDSCSRNLYVSLXLLYKTXGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLDSLFTAVTNFLLSLGIHLNPTKTKRWGYTLNFMGYVIGSWGTLPQEHIVHKIKHCFRKLPINRPIDWKVCQRIVGLLGFAAPFTQCGYPALMPLYACIQAKQAFTFSPTYKAFLXXQYLNLYPVARQRSGLCQVFADATPTGWGLAIGHQRMRGTFVXPLPIHTAELLAACFARSRSGAKLIGTDNSVVLSRKYTSFPWLLGCAANWILRGTSFVYVPSALNPADDPSRGRLGLYRPLLRLPYRPTTGRTSLYADSPSVPSHLPDRVHFASPLHVAWRPP</span>
         </div>
         </td>
         <td name="td5">NA</td>
-        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/nuccore/AY832929.1" target="_blank" style="color:#520049"><b>AY832929.1</b></a></td>
+        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/nuccore/AB031265" target="_blank" style="color:#520049"><b>AB031265</b></a></td>
       </tr>
 	  </tbody>
   </table>
@@ -252,11 +226,12 @@ categories: Aptamer
 <br>
 
 
+                 
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Binding of herpes simplex virus-1 US11 to specific RNA sequences.</strong></font><br />
-Bryant, K. F., Cox, J. C., Wang, H., Hogle, J. M., Ellington, A. D., & Coen, D. M.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/16246910/" target="_blank" style="color:#520049" >Nucleic acids research, 33(19), 6090–6100. (2005)</a>
+<a id="ref1"></a><font><strong>[1] A SELEX-screened aptamer of human hepatitis B virus RNA encapsidation signal suppresses viral replication.</strong></font><br />
+Feng, H., Beck, J., Nassal, M., & Hu, K. H.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/22125633/" target="_blank" style="color:#520049" >PloS one, 6(11), e27862. (2011)</a>
 <br/>
 
 

@@ -5,10 +5,6 @@ date:   2024-05-06 00:00:00
 author: Jiali Wang, Chen Ke
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <style>
@@ -37,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -47,7 +46,8 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -66,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -75,6 +75,53 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
+    * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
 </style>
 </head>
 <br>
@@ -92,59 +139,33 @@ categories: Aptamer
 </div>
 
 
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 2015, Duclair S, Gautam A, Ellington A, et al. selexed several RNA aptamers targeting the human immunodeficiency virus type 1 (HIV-1) protease (PR) using a method called Systematic Evolution of Ligands by Exponential Enrichment (SELEX). The function of these aptamers is to bind to HIV-1 PR, inhibit its activity, and thus prevent the replication cycle of the HIV virus. Research has shown that these RNA aptamers have high affinity and specificity, and can non competitively inhibit the protease activity of HIV-1 PR. Through further mutation analysis, researchers identified the secondary structural elements of the ligands crucial for PR binding and demonstrated their ability to inhibit HIV replication in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 2015, Prasad, V. R et al. isolated several RNA aptamers targeting the human immunodeficiency virus type 1 (HIV-1) protease (PR) using a method called Systematic Evolution of Ligands by Exponential Enrichment (SELEX). The function of these aptamers is to bind to HIV-1 PR, inhibit its activity, and thus prevent the replication cycle of the HIV virus. Research has shown that these RNA aptamers have high affinity and specificity, and can non competitively inhibit the protease activity of HIV-1 PR. Through further mutation analysis, researchers identified the secondary structural elements of the ligands crucial for PR binding and demonstrated their ability to inhibit HIV replication in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2015, Duclair S, Gautam A, Ellington A, et al. used an RNA library containing 10<sub>14</sub> unique species for screening, and improved their binding ability to HIV-1 PR through nine rounds of SELEX process. After the 10th round of selection, 48 clones were sequenced and four different sequence families were discovered. In order to improve the binding affinity of the first generation RNA adapter, researchers screened variants from a newly generated partially randomized (dosed) pool and conducted an additional eight rounds of selection. Several variants were identified from the 8th round pool of PR10.1 and PR10.9 RNA adapters, and these second-generation PR RNA adapters showed significantly improved binding affinity. Through site-specific mutation analysis, researchers investigated the predicted secondary structure of the second-generation PR10.1-8E RNA adapter to identify structural elements crucial for PR binding<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 2015, Prasad, V. R et al. used an RNA library of 10<sub>14</sub> unique species to isolated aptamers. They improved binding to HIV-1 PR via nine SELEX rounds. After the 10th round, sequencing of 48 clones revealed four sequence families. To enhance the first generation RNA aptamers' binding affinity, they screened variants from a partially randomised pool and performed eight more selection rounds. Several variants were found in the 8th round pool of PR10.1 and PR10.9 RNA aptamers. These second-generation PR RNA aptamers exhibited significantly improved binding affinity. Through site-specific mutation analysis, researchers studied the predicted secondary structure of the second-generation PR10.1-8E RNA aptamer to identify key structural elements for PR binding<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw. PR10.1-8E aptamer binds to HIV-1 aspartyl protease (PR)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGUUACCUAGGAGGAGAUGCUCUUAAGUGUAACUUCUCAUAACAUCCGGAGGCUUUUACUUCCGGGGACCUAAGUGACGUCUGAACUGCUUCGAA-3'</p></font>
-<img src="/images/2D/PR10_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;">   
-</div>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw. PR10.1-8E aptamer binds to HIV-1 aspartyl protease (PR)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>5'-GGGUUACCUAGGAGGAGAUGCUCUUAAGUGUAACUUCUCAUAACAUCCGGAGGCUUUUACUUCCGGGGACCUAAGUGACGUCUGAACUGCUUCGAA-3'</p>
+<img src="/images/2D/PR10.1_8E_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
 <br>
 <br>
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>
+
+
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 
 <p class="blowheader_box">SELEX ligand</p>
-<font>Aspartyl protease that mediates proteolytic cleavages of Gag and Gag-Pol polyproteins during or shortly after the release of the virion from the plasma membrane. Cleavages take place as an ordered, step-wise cascade to yield mature proteins. This process is called maturation. Displays maximal activity during the budding process just prior to particle release from the cell. Also cleaves Nef and Vif, probably concomitantly with viral structural proteins on maturation of virus particles. Hydrolyzes host EIF4GI and PABP1 in order to shut off the capped cellular mRNA translation. The resulting inhibition of cellular protein synthesis serves to ensure maximal viral gene expression and to evade host immune response. Also mediates cleavage of host YTHDF3. Mediates cleavage of host CARD8, thereby activating the CARD8 inflammasome, leading to the clearance of latent HIV-1 in patient CD4 T-cells after viral reactivation; in contrast, HIV-1 can evade CARD8-sensing when its protease remains inactive in infected cells prior to viral budding (By similarity).-----from Uniprot</font>
-<br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
-  <thead>
-      <tr>
-        <th onclick="sortTable(0)">Name</th>
-        <th onclick="sortTable(1)">Uniprot ID</th>
-        <th onclick="sortTable(2)">Pfam</th>
-        <th onclick="sortTable(3)">MW</th>
-        <th onclick="sortTable(4)">Amino acids sequences</th>
-        <th onclick="sortTable(5)">PDB</th>
-        <th onclick="sortTable(6)">Gene ID</th>
-      </tr>
-  </thead>
-    <tbody>
-      <tr>
-        <td name="td0">HIV-1 protease (PR)</td>
-        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P03366/entry" target="_blank" style="color:#520049"><b>P03366</b></a></td>
-        <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00077/" target="_blank" style="color:#520049"><b>PF00077</b></a></td>
-        <td name="td3">10.792 kDa</td>
-        <td name="td4">PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF</td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/4ZIP" target="_blank" style="color:#520049"><b>4ZIP</b></a></td>
-        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/nuccore/AH002345" target="_blank" style="color:#520049"><b>AH002345</b></a></td>
-      </tr>
-	  </tbody>
-  </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+<p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -180,24 +201,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <td name="td3">93 ± 19 nM</td>
     </tr>
      <tr>
-      <td name="td0">PR10.13</td>
-      <td name="td1">5'-GGGUUACCUAGGAGGAGAUGCUCCGGGUCGUCCCCUACGGGGACCUAAAGACUGUGUCCAACCGCCCUCGCCUAAGUGACGUCUGAACUGCUUCGAA-3'</td>
-      <td name="td2">HIV-1 protease (PR)</td>
-      <td name="td3">154 ± 13 nM</td>
-    </tr>
-     <tr>
-      <td name="td0">PR10.18</td>
-      <td name="td1">5'-GGGUUACCUAGGAGGAGAUGCUUCAGACAUUUACCUCACUUCGUCUGUUCAAUCGGGUAACACUCGGGAUGAAAGUGACGUCUGAACUGCUUCGAA-3'</td>
-      <td name="td2">HIV-1 protease (PR)</td>
-      <td name="td3">140 ± 17 nM</td>
-    </tr>
-     <tr>
-      <td name="td0">PR10.9-8E</td>
-      <td name="td1">5'-GGGUUACCUAGGAGGAGAUGCUACAUUACCUAGGUAAGAUAACGGCUUCGCGUUCAGAGACCUCUCCCUGGUAAGUGACGUCUGAACUGCUUCGAA-3'</td>
-      <td name="td2">HIV-1 protease (PR)</td>
-      <td name="td3">22 ± 9 nM</td>
-    </tr>
-     <tr>
       <td name="td0">PR10.9-8N</td>
       <td name="td1">5'-GGGUUACCUAGGAGGAGAUGCUUUGACCUAAGGUAAGAUAACGGCUUCGAGUUCAGAGACCUCGCCCUGGUAAGUGACGUCUGAACUGCUUCGAA-3'</td>
       <td name="td2">HIV-1 protease (PR)</td>
@@ -206,12 +209,59 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/SELEX_ligand/PR10_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/SELEX_ligand/PR10.1_8E_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+
+<p class="blowheader_box">Structure ligand</p>
+<p>Aspartyl protease that mediates proteolytic cleavages of Gag and Gag-Pol polyproteins during or shortly after the release of the virion from the plasma membrane. Cleavages take place as an ordered, step-wise cascade to yield mature proteins. This process is called maturation. Displays maximal activity during the budding process just prior to particle release from the cell. Also cleaves Nef and Vif, probably concomitantly with viral structural proteins on maturation of virus particles. Hydrolyzes host EIF4GI and PABP1 in order to shut off the capped cellular mRNA translation. The resulting inhibition of cellular protein synthesis serves to ensure maximal viral gene expression and to evade host immune response. Also mediates cleavage of host YTHDF3. Mediates cleavage of host CARD8, thereby activating the CARD8 inflammasome, leading to the clearance of latent HIV-1 in patient CD4 T-cells after viral reactivation; in contrast, HIV-1 can evade CARD8-sensing when its protease remains inactive in infected cells prior to viral budding (By similarity).-----From <a href="https://www.uniprot.org/uniprotkb/P03366/entry" target="_blank" style="color:#520049; text-decoration: underline;"><b>Uniprot</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
+<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+  <thead>
+      <tr>
+        <th onclick="sortTable(0)">Name</th>
+        <th onclick="sortTable(1)">Uniprot ID</th>
+        <th onclick="sortTable(2)">Pfam</th>
+        <th onclick="sortTable(3)">Mass</th>
+        <th onclick="sortTable(4)">Protein sequence</th>
+        <th onclick="sortTable(5)">PDB ID</th>
+        <th onclick="sortTable(6)">GenBank</th>
+      </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td name="td0">HIV-1 protease (PR)</td>
+        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P03366/entry" target="_blank" style="color:#520049"><b>P03366</b></a></td>
+        <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00077/" target="_blank" style="color:#520049"><b>PF00077</b></a></td>
+        <td name="td3">10.792 kDa</td>
+        <td name="td4">
+        <div class="sequence-container">
+          <span class="sequence-text"></span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF</span>
+        </div>
+        </td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/4ZIP" target="_blank" style="color:#520049"><b>4ZIP</b></a></td>
+        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/nuccore/AH002345" target="_blank" style="color:#520049"><b>AH002345</b></a></td>
+      </tr>
+	  </tbody>
+  </table>
+
+
+<p class="blowheader_box">Similar compound(s)</p>                    
+<p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
+
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
@@ -223,65 +273,65 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </thead>
     <tbody>
       <tr>
-      <td name="td0">2O40-A</td>
-      <td name="td1">17.9</td>
-      <td name="td2">0.5</td>
-      <td name="td3">Covalent dimer HIV-1 protease</td>
-    </tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/4ZIP" target="_blank" style="color:#520049"><b>4ZIP</b></a>-A</td>
+        <td name="td2">23.2</td>
+        <td name="td3">0</td>
+        <td name="td4">Protease</td>
+      </tr>
      <tr>
-      <td name="td0">1B11-A</td>
-      <td name="td1">15.4</td>
-      <td name="td2">1.4</td>
-      <td name="td3">Protein (feline immunodeficiency virus protease)</td>
-    </tr>
-     <tr>
-      <td name="td0">1FMB-A</td>
-      <td name="td1">14.8</td>
-      <td name="td2">1.7</td>
-      <td name="td3">Eiav protease</td>
-    </tr>
-     <tr>
-      <td name="td0">1BAI-A</td>
-      <td name="td1">14.1</td>
-      <td name="td2">1.9</td>
-      <td name="td3">Protease</td>
-    </tr>
-     <tr>
-      <td name="td0">3LIN-B</td>
-      <td name="td1">13.3</td>
-      <td name="td2">2.0</td>
-      <td name="td3">Protease</td>
-    </tr>
-     <tr>
-      <td name="td0">6S1V-B</td>
-      <td name="td1">12.5</td>
-      <td name="td2">2.4</td>
-      <td name="td3">Gag-pro-pol polyprotein</td>
-    </tr>
-     <tr>
-      <td name="td0">5C9F-A</td>
-      <td name="td1">10.1</td>
-      <td name="td2">2.8</td>
-      <td name="td3">Aprick protease</td>
-    </tr>
-     <tr>
-      <td name="td0">3NR6-A</td>
-      <td name="td1">9.6</td>
-      <td name="td2">2.5</td>
-      <td name="td3">Protease P14</td>
-    </tr>
-     <tr>
-      <td name="td0">4Z2Z-B</td>
-      <td name="td1">9.2</td>
-      <td name="td2">2.5</td>
-      <td name="td3">DNA damage-inducible protein 1</td>
-    </tr>
-     <tr>
-      <td name="td0">7KSE-A</td>
-      <td name="td1">8.7</td>
-      <td name="td2">2.7</td>
-      <td name="td3">Peptidase a9/Reverse transcriptase/Rnase H</td>
-    </tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/5UOV" target="_blank" style="color:#520049"><b>5UOV</b></a>-A</td>
+        <td name="td2">22.6</td>
+        <td name="td3">0.1</td>
+        <td name="td4">Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/5UPZ" target="_blank" style="color:#520049"><b>5UPZ</b></a>-A</td>
+        <td name="td2">22.6</td>
+        <td name="td3">0.1</td>
+        <td name="td4">Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/3DK1" target="_blank" style="color:#520049"><b>3DK1</b></a>-A</td>
+        <td name="td2">22.6</td>
+        <td name="td3">0.1</td>
+        <td name="td4">Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/3DJK" target="_blank" style="color:#520049"><b>3DJK</b></a>-A</td>
+        <td name="td2">22.5</td>
+        <td name="td3">0.1</td>
+        <td name="td4">Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/4KB9" target="_blank" style="color:#520049"><b>4KB9</b></a>-B</td>
+        <td name="td2">22.5</td>
+        <td name="td3">0.1</td>
+        <td name="td4">Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/3H5B" target="_blank" style="color:#520049"><b>3H5B</b></a>-A</td>
+        <td name="td2">22.5</td>
+        <td name="td3">0.2</td>
+        <td name="td4">HIV-1 Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/8FUI" target="_blank" style="color:#520049"><b>8FUI</b></a>-A</td>
+        <td name="td2">22.5</td>
+        <td name="td3">0.1</td>
+        <td name="td4">Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/6E9A" target="_blank" style="color:#520049"><b>6E9A</b></a>-A</td>
+        <td name="td2">22.5</td>
+        <td name="td3">0.2</td>
+        <td name="td4">Protease</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/3ST5" target="_blank" style="color:#520049"><b>3ST5</b></a>-A</td>
+        <td name="td2">22.4</td>
+        <td name="td3">0.2</td>
+        <td name="td4">Protease</td>
+      </tr>
     </tbody>
   </table>
 <br>
@@ -296,64 +346,27 @@ Duclair, S., Gautam, A., Ellington, A., & Prasad, V. R.<br />
 <br/>
 
 
-<html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1RAW-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    </html>
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>

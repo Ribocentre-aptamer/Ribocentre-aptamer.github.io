@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "SARS-CoV N protein aptamer"
-date:   2024-05-06 00:00:00
-author: Jiali Wang, Bo Fu
+title:  "HCV NS5B protein aptamer"
+date:   2024-05-02 00:00:00
+author: Jiali Wang, Fu Bo
 categories: Aptamer
 ---
 <html>
@@ -140,29 +140,35 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<p>In 2009, Oh, J. W et al. used the SELEX method to select the aptamer with high compatibility for the SARS-CoV nucleocapsid (N) protein. The aptamer antibody mixed immunoassay method they studied may be used for rapid and sensitive detection of SARS-CoV N protein, which has potential application value for improving the treatment and prognosis of SARS<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>In 2003, Lai, M. M et al. used the SELEX method to select the aptamer with high compatibility for the Hepatitis C virus NS5B protein. They found that the aptamers can act as templates for HCV polymerase, but others can interfere with the activity of the viral enzyme. These findings suggest that these RNA aptamers may be useful for further characterization of the binding properties of NS5B, and with further modifications, may have potential therapeutic value<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2009, Oh, J. W et al. and colleagues carried out SELEX screening of an RNA aptamer pool containing approximately 10 <sub>14</sub> random, 40-nt long aptamers to isolate those binding to the SARS-CoV N protein. The process involved nine rounds of SELEX: five preliminary rounds and four further rounds under more stringent conditions (with a fivefold reduction in the amount of N protein). After nine rounds of screening, the cDNA of the selected RNA population was cloned, and 17 independent clones were randomly selected for sequencing. The team further verified the binding specificity and affinity of the selected aptamers to the N protein using electrophoretic mobility shift assays (EMSAs) and surface plasmon resonance (SPR) analysis<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>In 2003, Lai, M. M et al. used an RNA library containing an estimated 10<sup>12</sup> distinct RNA species. After 20 screening rounds, the highest RNA enrichment occurred between rounds 18 and 20. Through the SELEX process, 37 ligands were identified and grouped into eight categories (A-H) based on sequence homology<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<p>The 2D structure of the figure is based on the article by ribodraw tool to draw. Aptamer 1 binds to SARS-CoV nucleocapsid (N) protein. Aptamer 1 was named by Oh, J. W et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>5'-GGGAGAGCGGAAGCGUGCUGGGCCUGUCGUUCGCUGUCUUGCUACGUUACGUUACACGGUUGGCAUAACCCAGAGGUCGAUGG-3'</p>
-<img src="/images/2D/aptamer_1_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;"></div>
+<p>The 2D structure of the figures are based on the article by ribodraw tool to draw. R20-43 apatamer and R20-15 aptamer bind to hepatitis C virus NS5B protein (HCV NS5B protein). R20-43 and R20-15 aptamer was named by  Lai, M. M et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>R20-43 aptamer: 5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGAGACUUUUCGAAAAGCGUGUUCCCAAUGAGUCUAUGCAUGCAUGAGGCCCGGAUCCGGC-3'<br>R20-15 aptamer: 5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGGCUAGUACCGACCUGCGUGCCUCGCUCCUUUUCAUGCAUGCAUGAGGCCCGGAUCCGGC-3'</p>
+<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/R20_43_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/R20_15_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  </tr>
+  </table>
+ <br>
+ <br>
 
 
-
-
-
-<p class="header_box" id="ligand-recognition">Ligand information</p> 
+<p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
@@ -177,30 +183,33 @@ categories: Aptamer
   </thead>
     <tbody>
       <tr>
-        <td name="td0">apatamer 1</td>
-        <td name="td1">5'-GGGAGAGCGGAAGCGUGCUGGGCCUGUCGUUCGCUGUCUUGCUACGUUACGUUACACGGUUGGCAUAACCCAGAGGUCGAUGG-3'</td>
-        <td name="td2">SARS-CoV N protein</td>
-        <td name="td3">1.65 ± 0.41 nM (equilibrium dissociation constant)<br>0.81 nM (apparent dissociation constant)</td>
-      </tr>
+      <td name="td0">R20-43</td>
+      <td name="td1">5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGAGACUUUUCGAAAAGCGUGUUCCCAAUGAGUCUAUGCAUGCAUGAGGCCCGGAUCCGGC-3'</td>
+      <td name="td2">HCV NS5B protein</td>
+      <td name="td3">1.4 ± 0.3 (1/s)</td>
+    </tr>
+     <tr>
+      <td name="td0">R20-15</td>
+      <td name="td1">5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGGCUAGUACCGACCUGCGUGCCUCGCUCCUUUUCAUGCAUGCAUGAGGCCCGGAUCCGGC-3'</td>
+      <td name="td2">HCV NS6B protein</td>
+      <td name="td3">1.0 ± 0.1 (1/s)</td>
+    </tr>
+     <tr>
+      <td name="td0">R1-1</td>
+      <td name="td1">5'-GGGAGCUCAGAAUAAACGCUCAACUCCUAACCUCUCCGCAUGNGCUGUUACCUACACAGCUCAGCAUGCAUGAGGCCCGGAUCCGGC-3'</td>
+      <td name="td2">HCV NS7B protein</td>
+      <td name="td3">100 ± 6 (1/s)</td>
+    </tr>
 	  </tbody>
-     <tbody>
-      <tr>
-        <td name="td0">apatamer 2</td>
-        <td name="td1">5'-GGGAGAGCGGAAGCGUGCUGGGCCUCAUUACACACAUCUCACGGGAGACAUAGCUGACGAUAUCCAUAACCCAGAGGUCGAUGG-3'</td>
-        <td name="td2">SARS-CoV N protein</td>
-        <td name="td3">3.35 nM (apparent dissociation constant)</td>
-      </tr>
-	  </tbody>
-    </table>
+  </table>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/SELEX_ligand/SARS_CoV_N_protein_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/SELEX_ligand/HCV_NS5B_protein_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
 
-
 <p class="blowheader_box">Structure ligand</p>
-<p>Coronavirus (CoV) nucleocapsid (N) proteins have 3 highly conserved domains. The N-terminal domain (NTD) (N1b), the C-terminal domain (CTD)(N2b) and the N3 region. The N1b and N2b domains from SARS CoV, infectious bronchitis virus (IBV), human CoV 229E and mouse hepatic virus (MHV) display similar topological organisations. N proteins form dimers, which are asymmetrically arranged into octamers via their N2b domains. Domains N1b and N2b are linked by another domain N2a that contains an SR-rich region in which phosphorylation of specific serine residues allows the N protein to associate with the RNA helicase DDX1 permitting template read-through, and enabling the transition from discontinuous transcription of subgenomic mRNAs (sgmRNAs) to continuous synthesis of longer sgmRNAs and genomic RNA (gRNA). It has been shown that N proteins interact with nonstructural protein 3 (NSP3) and thus are recruited to the replication-transcription complexes (RTCs).-----From <a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00937/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
+<p>This family includes viral RNA dependent RNA polymerase enzymes from hepatitis C virus and various plant viruses.-----From <a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00998/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
 <p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
@@ -221,22 +230,23 @@ categories: Aptamer
   </thead>
     <tbody>
       <tr>
-        <td name="td0">SARS-CoV nucleocapsid (N) protein</td>
-        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P59595/entry" target="_blank" style="color:#520049"><b>P59595</b></a></td>
-        <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00937/" target="_blank" style="color:#520049"><b>PF00937</b></a></td>
-        <td name="td3">13.913 kDa</td>
+        <td name="td0">Hepatitis C virus NS5B protein (HCV NS5B protein)</td>
+        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P26663/entry" target="_blank" style="color:#520049"><b>P26663</b></a></td>
+        <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00998/" target="_blank" style="color:#520049"><b>PF00998</b></a></td>
+        <td name="td3">58.978 kDa</td>
         <td name="td4">
         <div class="sequence-container">
           <span class="sequence-text"></span>
           <span class="show-more" onclick="toggleSequence(event)">......</span>
-          <span class="full-sequence">NTASWFTALTQHGKEELRFPRGQGVPINTNSGPDDQIGYYRRATRRVRGGDGKMKELSPRWYFYYLGTGPEASLPYGANKEGIVWVATEGALNTPKDHIGTRNPNNNAATVLQLPQGTTLPKGFYA</span>
+          <span class="full-sequence">SMSYTWTGALITPCAAEESKLPINALSNSLLRHHNMVYATTSRSAGLRQKKVTFDRLQVLDDHYRDVLKEMKAKASTVKAKLLSVEEACKLTPPHSAKSKFGYGAKDVRNLSSKAVNHIHSVWKDLLEDTVTPIDTTIMAKNEVFCVQPEKGGRKPARLIVFPDLGVRVCEKMALYDVVSTLPQVVMGSSYGFQYSPGQRVEFLVNTWKSKKNPMGFSYDTRCFDSTVTENDIRVEESIYQCCDLAPEARQAIKSLTERLYIGGPLTNSKGQNCGYRRCRASGVLTTSCGNTLTCYLKASAACRAAKLQDCTMLVNGDDLVVICESAGTQEDAASLRVFTEAMTRYSAPPGDPPQPEYDLELITSCSSNVSVAHDASGKRVYYLTRDPTTPLARAAWETARHTPVNSWLGNIIMYAPTLWARMILMTHFFSILLAQEQLEKALDCQIYGACYSIEPLDLPQIIERLHGLSAFSLHSYSPGEINRVASCLRKLGVPPLRVWRHRARSVRARLLSQGGRAATCGKYLFNWAVK</span>
         </div>
         </td>
-        <td name="td5"><a href="https://www.rcsb.org/structure/2OFZ" target="_blank" style="color:#520049"><b>2OFZ</b></a></td>
-        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/nuccore/AY278741" target="_blank" style="color:#520049"><b>AY278741</b></a></td>
+        <td name="td5"><a href="https://www.rcsb.org/structure/1CSJ" target="_blank" style="color:#520049"><b>1CSJ</b></a></td>
+        <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/nuccore/M58335" target="_blank" style="color:#520049"><b>M58335</b></a></td>
       </tr>
 	  </tbody>
   </table>
+
 
 <p class="blowheader_box">Similar compound(s)</p>                    
 <p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
@@ -257,77 +267,76 @@ categories: Aptamer
       </thead>
     <tbody>
       <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/2OFZ" target="_blank" style="color:#520049"><b>2OFZ</b></a>-A</td>
-        <td name="td2">26.0</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1CSJ" target="_blank" style="color:#520049"><b>1CSJ</b></a>-A</td>
+        <td name="td2">61.3</td>
         <td name="td3">0</td>
-        <td name="td4">Nucleocapsid protein</td>
+        <td name="td4">Hepatitis C virus RNA polymerase (ns5b)</td>
       </tr>
       <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/7N0R" target="_blank" style="color:#520049"><b>7N0R</b></a>-A</td>
-        <td name="td2">24.9</td>
-        <td name="td3">0.7</td>
-        <td name="td4">Nucleocapsid protein</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1CSJ" target="_blank" style="color:#520049"><b>1CSJ</b></a>-B</td>
+        <td name="td2">60.0</td>
+        <td name="td3">0.2</td>
+        <td name="td4">Hepatitis C virus RNA polymerase (ns5b)</td>
       </tr>
       <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/7N0R" target="_blank" style="color:#520049"><b>7N0R</b></a>-B</td>
-        <td name="td2">24.8</td>
-        <td name="td3">0.8</td>
-        <td name="td4">Nucleocapsid protein</td>
-      </tr>
-      <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/7XX1" target="_blank" style="color:#520049"><b>7XX1</b></a>-B</td>
-        <td name="td2">24.5</td>
-        <td name="td3">0.8</td>
-        <td name="td4">Nucleocapsid protein</td>
-      </tr>
-      <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/6VYO" target="_blank" style="color:#520049"><b>6VYO</b></a>-C</td>
-        <td name="td2">24.5</td>
-        <td name="td3">0.6</td>
-        <td name="td4">Nucleocapsid protein</td>
-      </tr>
-      <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/2OG3" target="_blank" style="color:#520049"><b>2OG3</b></a>-A</td>
-        <td name="td2">24.3</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1GX5" target="_blank" style="color:#520049"><b>1GX5</b></a>-A</td>
+        <td name="td2">57.6</td>
         <td name="td3">0.4</td>
-        <td name="td4">Nucleocapsid protein</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
       </tr>
       <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/9EZB" target="_blank" style="color:#520049"><b>9EZB</b></a>-A</td>
-        <td name="td2">24.3</td>
-        <td name="td3">0.9</td>
-        <td name="td4">Nucleocapsid protein</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2WRM" target="_blank" style="color:#520049"><b>2WRM</b></a>-A</td>
+        <td name="td2">57.2</td>
+        <td name="td3">0.4</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
       </tr>
       <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/7N3C" target="_blank" style="color:#520049"><b>7N3C</b></a>-C</td>
-        <td name="td2">24.3</td>
-        <td name="td3">0.9</td>
-        <td name="td4">S24-202 FAB heavy chain</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2WHO" target="_blank" style="color:#520049"><b>2WHO</b></a>-A</td>
+        <td name="td2">57.2</td>
+        <td name="td3">0.4</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
       </tr>
       <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/9EVY" target="_blank" style="color:#520049"><b>9EVY</b></a>-D</td>
-        <td name="td2">24.3</td>
-        <td name="td3">0.9</td>
-        <td name="td4">Nucleocapsid protein</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/1GX6" target="_blank" style="color:#520049"><b>1GX6</b></a>-A</td>
+        <td name="td2">57.1</td>
+        <td name="td3">0.4</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
       </tr>
       <tr>
-        <td name="td1"><a href="https://www.rcsb.org/structure/6VYO" target="_blank" style="color:#520049"><b>6VYO</b></a>-A</td>
-        <td name="td2">24.3</td>
-        <td name="td3">1.2</td>
-        <td name="td4">Nucleocapsid protein</td>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2WHO" target="_blank" style="color:#520049"><b>2WHO</b></a>-B</td>
+        <td name="td2">57.0</td>
+        <td name="td3">0.4</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2WCX" target="_blank" style="color:#520049"><b>2WCX</b></a>-A</td>
+        <td name="td2">54.8</td>
+        <td name="td3">0.6</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2BRK" target="_blank" style="color:#520049"><b>2BRK</b></a>-A</td>
+        <td name="td2">54.7</td>
+        <td name="td3">0.6</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
+      </tr>
+      <tr>
+        <td name="td1"><a href="https://www.rcsb.org/structure/2BRL" target="_blank" style="color:#520049"><b>2BRL</b></a>-A</td>
+        <td name="td2">54.3</td>
+        <td name="td3">0.6</td>
+        <td name="td4">RNA-directed RNA polymerase</td>
       </tr>
     </tbody>
   </table>
 <br>
 <br>
 
-
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] RNA aptamer-based sensitive detection of SARS coronavirus nucleocapsid protein.</strong></font><br />
-Ahn, D. G., Jeon, I. J., Kim, J. D., Song, M. S., Han, S. R., Lee, S. W., Jung, H., & Oh, J. W.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/19684916/" target="_blank" style="color:#520049">The Analyst, 134(9), 1896–1901. (2009)</a>
+<a id="ref1"></a><font><strong>[1] Identification of RNA ligands that bind hepatitis C virus polymerase selectively and inhibit its RNA synthesis from the natural viral RNA templates.</strong></font><br />
+Vo, N. V., Oh, J. W., & Lai, M. M.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/16476969/" target="_blank" style="color:#520049" >Virology, 307(2), 301–316. (2003)</a>
 <br/>
 
 

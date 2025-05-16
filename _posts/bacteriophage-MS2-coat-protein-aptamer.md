@@ -5,7 +5,6 @@ date:   2024-03-01 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 <head>
   <style>
@@ -315,7 +314,7 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>Craig Tuerk and Larry Gold determined the binding constant of the aptamer using nitrocellulose filtration. In the nitrocellulose filter binding assay, 100 μl reactions containing 50mM Tris-OAc at pH 7.7 were used, where 5 to 10 nCi (10 to 20 fmol) of internally labeled, gel-purified RNA, preheated for 3 minutes at 70°C, was allowed to equilibrate with variable (excess) concentrations of protein for 3 minutes at 37°C. Samples were filtered through a nitrocellulose disk that had been pre-wetted with 50 mM Tris-OAc at pH 7.7 and were immediately rinsed with 5 ml of the same solution. The filters were dried and counted with fluor in a scintillation counter. A least squares algorithm was employed to plot the percent of total RNA bound against the log of the protein concentration and to determine the dissociation constant from the generated curve. The F6 aptamer had not been tested for affinity<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>

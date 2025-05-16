@@ -2018,9 +2018,6 @@ permalink: /Ribocentre-aptamer/
         </tbody>
       </table>
     </div>
-
-
-
     <div id="sheet5" class="sheet">
       <h2>Proteins</h2>
       <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
@@ -2474,10 +2471,9 @@ permalink: /Ribocentre-aptamer/
           <tr>
             <td name="td0" rowspan="1">Viral</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HSV-1-US11-aptamer" target="_blank"
-                style="color:#520049"><b>HSV-1 US11-aptamer</b></a></td>
+                style="color:#520049"><b>HSV-1 US11 aptamer</b></a></td>
             <td name="td2">Herpes simplex virus-1 (HSV-1) US11</td>
-            <td name="td3">Herpes simplex virus-1 US11 is a RNA-binding protein with a novel RNA-binding domain. US11
-              has also been described as a double-stranded RNA (dsRNA)-binding protein.</td>
+            <td name="td3">Herpes simplex virus-1 US11 is a RNA-binding protein with a novel RNA-binding domain. US11 has also been described as a double-stranded RNA (dsRNA)-binding protein.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16246910/" target="_blank"
                 style="color:#520049"><b>2005</b> </a></td>
             <td name="td5">NA</td>
@@ -2487,10 +2483,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/SARS-CoV-N-protein-aptamer" target="_blank"
                 style="color:#520049"><b>SARS-CoV N protein aptamer</b></a></td>
             <td name="td2">SARS-CoV nucleocapsid (N) protein</td>
-            <td name="td3">SARS-CoV nucleocapsid (N) protein refers to the nucleocapsid protein of the Severe Acute
-              Respiratory Syndrome Coronavirus (SARS-CoV). The nucleocapsid protein is one of the key components that
-              make up the structure of viral particles. It encapsulates the genetic material of the virus, namely the
-              RNA genome, forming the nucleocapsid of the virus.</td>
+            <td name="td3">SARS-CoV nucleocapsid (N) protein refers to the nucleocapsid protein of the Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV). The nucleocapsid protein is one of the key components that make up the structure of viral particles. It encapsulates the genetic material of the virus, namely the RNA genome, forming the nucleocapsid of the virus.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/19684916/" target="_blank"
                 style="color:#520049"><b>2009</b> </a></td>
             <td name="td5">NA</td>
@@ -2498,13 +2491,9 @@ permalink: /Ribocentre-aptamer/
           <tr>
             <td name="td0" rowspan="1">Viral</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-CA-aptamer" target="_blank"
-                style="color:#520049"><b>HIV-1 CA-aptamer</b></a></td>
+                style="color:#520049"><b>HIV-1 CA aptamer</b></a></td>
             <td name="td2">HIV-1 capsid (CA) protein</td>
-            <td name="td3">HIV-1 capsid (CA) protein is the protein shell of a virus, enclosing its genetic material. It
-              consists of several oligomeric (repeating) structural subunits made of protein called protomers. The
-              observable 3-dimensional morphological subunits, which may or may not correspond to individual proteins,
-              are called capsomeres. The proteins making up the capsid are called capsid proteins or viral coat proteins
-              (VCP). The capsid and inner genome is called the nucleocapsid.</td>
+            <td name="td3">HIV-1 capsid (CA) protein is the protein shell of a virus, enclosing its genetic material. It consists of several oligomeric (repeating) structural subunits made of protein called protomers. The observable 3-dimensional morphological subunits, which may or may not correspond to individual proteins, are called capsomeres. The proteins making up the capsid are called capsid proteins or viral coat proteins (VCP). The capsid and inner genome is called the nucleocapsid.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/35018437/" target="_blank"
                 style="color:#520049"><b>2022</b> </a></td>
             <td name="td5">NA</td>
@@ -2514,9 +2503,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Hemagglutinin-aptamer" target="_blank"
                 style="color:#520049"><b>Hemagglutinin aptamer</b></a></td>
             <td name="td2">Hemagglutinin (HA)</td>
-            <td name="td3">Hemagglutinin (HA) is a substance that causes red blood cell agglutination, such as
-              antibodies or glycoproteins found on the surface of viruses. Virus hemagglutinin enables the virus to bind
-              to host cells.</td>
+            <td name="td3">Hemagglutinin (HA) is a substance that causes red blood cell agglutination, such as antibodies or glycoproteins found on the surface of viruses. Virus hemagglutinin enables the virus to bind to host cells.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/15913532/" target="_blank"
                 style="color:#520049"><b>2005</b> </a></td>
             <td name="td5">NA</td>
@@ -2526,9 +2513,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HPV-16-E7-oncoprotein-aptamer"
                 target="_blank" style="color:#520049"><b>HPV-16 E7 oncoprotein aptamer</b></a></td>
             <td name="td2">Human papillomavirus type 16 (HPV-16) E7 oncoprotein</td>
-            <td name="td3">Human papillomavirus type 16 (HPV-16) E7 oncoprotein (HPV-16 E7 protein) is a small acidic
-              phosphoprotein that resembles adenovirus E1A and SV40 large T antigen both in sequence and functionality.
-            </td>
+            <td name="td3">Human papillomavirus type 16 (HPV-16) E7 oncoprotein (HPV-16 E7 protein) is a small acidic phosphoprotein that resembles adenovirus E1A and SV40 large T antigen both in sequence and functionality.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/21565620/" target="_blank"
                 style="color:#520049"><b>2011</b> </a></td>
             <td name="td5">NA</td>
@@ -2538,8 +2523,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIRRV-aptamer" target="_blank"
                 style="color:#520049"><b>HIRRV aptamer</b></a></td>
             <td name="td2">Hirame rhabdovirus (HIRRV)</td>
-            <td name="td3">Hirome rhabdovirus (HIRRV) belongs to the family of rhabdoviruses and is composed of
-              rod-shaped particles that can infect living organisms, including viruses that cause rabies.</td>
+            <td name="td3">Hirome rhabdovirus (HIRRV) belongs to the family of rhabdoviruses and is composed of rod-shaped particles that can infect living organisms, including viruses that cause rabies.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/22943666/" target="_blank"
                 style="color:#520049"><b>2012</b> </a></td>
             <td name="td5">NA</td>
@@ -2548,10 +2532,8 @@ permalink: /Ribocentre-aptamer/
             <td name="td0" rowspan="1">Viral</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/H3N2-aptamer" target="_blank"
                 style="color:#520049"><b>H3N2 aptamer</b></a></td>
-            <td name="td2">Haemagglutinin (HA) region of H3N2</td>
-            <td name="td3">Hemagglutinin (HA) is an antigenic glycoprotein located on the surface of influenza virus,
-              which is responsible for binding the virus to infected cells. The name "hemagglutinin" comes from the fact
-              that this protein can cause the aggregation ("agglutination") of red blood cells in vitro.</td>
+            <td name="td2">Haemagglutinin (HA) region of the target strain A/Panama/2007/1999 (H3N2)</td>
+            <td name="td3">The haemagglutinin (HA) region of the target strain A/Panama/2007/1999 (H3N2) binds specifically to P30-10-16 aptamer.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16476969/" target="_blank"
                 style="color:#520049"><b>2006</b> </a></td>
             <td name="td5">NA</td>
@@ -2561,35 +2543,27 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-PR-aptamer" target="_blank"
                 style="color:#520049"><b>HIV-1 PR aptamer</b></a></td>
             <td name="td2">HIV-1 protease (PR)</td>
-            <td name="td3">HIV-1 protease (PR) is a retroviral aspartyl protease (retropepsin), an enzyme involved with
-              peptide bond hydrolysis in retroviruses, that is essential for the life-cycle of HIV, the retrovirus that
-              causes AIDS. HIV protease cleaves newly synthesized polyproteins (namely, Gag and Gag-Pol) at nine
-              cleavage sites to create the mature protein components of an HIV virion, the infectious form of a virus
-              outside of the host cell. Without effective HIV protease, HIV virions remain uninfectious.</td>
+            <td name="td3">HIV-1 protease (PR) is a retroviral aspartyl protease (retropepsin), an enzyme involved with peptide bond hydrolysis in retroviruses, that is essential for the life-cycle of HIV, the retrovirus that causes AIDS. HIV protease cleaves newly synthesized polyproteins (namely, Gag and Gag-Pol) at nine cleavage sites to create the mature protein components of an HIV virion, the infectious form of a virus outside of the host cell. Without effective HIV protease, HIV virions remain uninfectious.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25689224/" target="_blank"
                 style="color:#520049"><b>2015</b> </a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Viral</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HCV-aptamer" target="_blank"
-                style="color:#520049"><b>HCV aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HCV-NS5B-protein-aptamer" target="_blank"
+                style="color:#520049"><b>HCV NS5B protein aptamer</b></a></td>
             <td name="td2">Hepatitis C virus NS5B protein (HCV NS5B protein)</td>
-            <td name="td3">Hepatitis C virus NS5B protein (HCV NS5B protein) refers to a non-structural protein of the
-              Hepatitis C virus (HCV), specifically the non-structural protein numbered as 5B. The NS5B protein plays a
-              crucial role in the life cycle and replication of HCV, as it functions as an RNA-dependent RNA polymerase
-              (RdRp).</td>
-            <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12667800/" target="_blank"
+            <td name="td3">Hepatitis C virus NS5B protein (HCV NS5B protein) refers to a non-structural protein of the Hepatitis C virus (HCV), specifically the non-structural protein numbered as 5B. The NS5B protein plays a crucial role in the life cycle and replication of HCV, as it functions as an RNA-dependent RNA polymerase (RdRp).</td>
+            <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/16476969/" target="_blank"
                 style="color:#520049"><b>2003</b> </a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Viral</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HBV-aptamer" target="_blank"
-                style="color:#520049"><b>HBV aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HBV-P-protein-aptamer" target="_blank"
+                style="color:#520049"><b>HBV P protein aptamer</b></a></td>
             <td name="td2">Hepatitis B virus (HBV) polymerase (P protein) (miniP)</td>
-            <td name="td3">Hepatitis B virus (HBV) polymerase (P protein) (miniP) is a key enzyme in the replication
-              process of hepatitis B virus (HBV).</td>
+            <td name="td3">Hepatitis B virus (HBV) polymerase (P protein) (miniP) is a key enzyme in the replication process of hepatitis B virus (HBV).</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/22125633/" target="_blank"
                 style="color:#520049"><b>2011</b> </a></td>
             <td name="td5">NA</td>
