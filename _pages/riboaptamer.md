@@ -1798,8 +1798,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Doxycyline-aptamer" target="_blank"
                 style="color:#520049"><b>Doxycyline aptamer</b></a></td>
             <td name="td2">Doxycyline</td>
-            <td name="td3">Doxycycline is a tetracycline antibiotic that inhibits bacterial growth and is thought to
-              have anti-inflammatory effects.</td>
+            <td name="td3">Doxycycline is a tetracycline antibiotic that inhibits bacterial growth and is thought to have anti-inflammatory effects.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/29711918/" target="_blank"
                 style="color:#520049"><b>2000</b></a></td>
             <td name="td5">NA</td>
@@ -1809,21 +1808,17 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Adenine-aptamer" target="_blank"
                 style="color:#520049"><b>Adenine aptamer</b></a></td>
             <td name="td2">Adenine</td>
-            <td name="td3">Adenine, organic compound belonging to the purine family, occurring free in tea or combined
-              in many substances of biological importance, including the nucleic acids, which govern hereditary
-              characteristics of all cells.</td>
+            <td name="td3">Adenine, organic compound belonging to the purine family, occurring free in tea or combined in many substances of biological importance, including the nucleic acids, which govern hereditary characteristics of all cells</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11705996/" target="_blank"
                 style="color:#520049"><b>2002</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Pharmaceuticals</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/70cam6-aptamer" target="_blank"
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Chloramphenicol-aptamer" target="_blank"
                 style="color:#520049"><b>Chloramphenicol aptamer</b></a></td>
             <td name="td2">Chloramphenicol (Cam)</td>
-            <td name="td3">Chloramphenicol is an antibiotic useful for the treatment of a number of bacterial
-              infections,Chloramphenicol was discovered after being isolated from Streptomyces venezuelae in 1947. Its
-              chemical structure was identified and it was first synthesized in 1949.</td>
+            <td name="td3">Chloramphenicol is an antibiotic useful for the treatment of a number of bacterial infections, Chloramphenicol was discovered after being isolated from Streptomyces venezuelae in 1947.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9384530/" target="_blank"
                 style="color:#520049"><b>1997</b></a></td>
             <td name="td5">NA</td>
@@ -1832,11 +1827,8 @@ permalink: /Ribocentre-aptamer/
             <td name="td0" rowspan="1">Nucleosides & Nucleotides</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/cAMP-aptamer" target="_blank"
                 style="color:#520049"><b>cAMP aptamer</b></a></td>
-            <td name="td2">3',5'-cyclic adenosine monophosphate (cAMP)</td>
-            <td name="td3">Cyclic adenosine monophosphate (cAMP, cyclic AMP, or 3',5'-cyclic adenosine monophosphate) is
-              a second messenger, or cellular signal occurring within cells, that is important in many biological
-              processes. cAMP is a derivative of adenosine triphosphate (ATP) and used for intracellular signal
-              transduction in many different organisms, conveying the cAMP-dependent pathway.</td>
+            <td name="td2">3',5'-cyclic adenosine monophosphate (cAMP)</td>
+            <td name="td3">Cyclic adenosine monophosphate (cAMP, cyclic AMP, or 3',5'-cyclic adenosine monophosphate) is a second messenger, or cellular signal occurring within cells, that is important in many biological processes. cAMP is a derivative of adenosine triphosphate (ATP) and used for intracellular signal transduction in many different organisms, conveying the cAMP-dependent pathway.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10913311/" target="_blank"
                 style="color:#520049"><b>2000</b></a></td>
             <td name="td5">NA</td>

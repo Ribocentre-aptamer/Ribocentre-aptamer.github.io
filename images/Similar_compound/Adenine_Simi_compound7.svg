@@ -1,62 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 130">
-  <defs>
-    <style>
-      .cls-1 {
-        stroke-width: 0px;
-      }
-
-      .cls-1, .cls-2, .cls-3 {
-        fill: #000;
-      }
-
-      .cls-4, .cls-2, .cls-3 {
-        isolation: isolate;
-      }
-
-      .cls-2 {
-        font-size: 7.52px;
-      }
-
-      .cls-2, .cls-3 {
-        font-family: ArialMT, Arial;
-      }
-
-      .cls-3 {
-        font-size: 12.21px;
-      }
-    </style>
-  </defs>
-  <polygon class="cls-1" points="125.48 66.3 139.22 48.02 139.67 48.36 140.11 48.69 126.37 66.97 125.93 66.64 125.48 66.3"/>
-  <polygon class="cls-1" points="126.93 69.91 143.09 48.41 143.77 48.42 144.46 48.43 127.33 71.22 127.13 70.56 126.93 69.91"/>
-  <polygon class="cls-1" points="143.09 48.41 131.73 32.23 132.19 31.91 132.64 31.59 144.46 48.43 143.77 48.42 143.09 48.41"/>
-  <g class="cls-4">
-    <text class="cls-3" transform="translate(123.45 20.59)"><tspan x="0" y="0">H</tspan></text>
-  </g>
-  <g class="cls-4">
-    <text class="cls-3" transform="translate(123.45 31.74)"><tspan x="0" y="0">N</tspan></text>
-  </g>
-  <polygon class="cls-1" points="122.51 27.98 101.93 34.29 101.38 33.88 101.46 33.28 122.18 26.92 122.35 27.45 122.51 27.98"/>
-  <polygon class="cls-1" points="101.93 34.29 101.49 61.18 100.93 61.57 100.38 61.24 100.83 34.19 101.38 33.88 101.93 34.29"/>
-  <polygon class="cls-1" points="98.58 35.75 98.19 59.61 97.64 59.6 97.09 59.59 97.48 35.73 98.03 35.74 98.58 35.75"/>
-  <polygon class="cls-1" points="100.99 62.18 77.27 75.36 76.72 75.03 76.73 74.39 100.38 61.24 100.93 61.57 100.99 62.18"/>
-  <polygon class="cls-1" points="76.16 75.34 58.2 64.57 58.48 64.1 58.77 63.62 76.73 74.39 76.72 75.03 76.16 75.34"/>
-  <polygon class="cls-1" points="76.5 71.67 59.91 61.72 60.19 61.25 60.47 60.77 77.07 70.72 76.78 71.19 76.5 71.67"/>
-  <g class="cls-4">
-    <text class="cls-3" transform="translate(48.55 65.74)"><tspan x="0" y="0">N</tspan></text>
-  </g>
-  <polygon class="cls-1" points="52.51 54.62 52.87 32.77 53.41 33.09 53.96 33.42 53.62 54.64 53.06 54.63 52.51 54.62"/>
-  <polygon class="cls-1" points="52.87 32.77 71.84 22.22 72.11 22.71 72.38 23.19 53.96 33.42 53.41 33.09 52.87 32.77"/>
-  <polygon class="cls-1" points="56.44 34.58 73.46 25.13 73.72 25.61 73.99 26.1 56.98 35.55 56.71 35.07 56.44 34.58"/>
-  <g class="cls-4">
-    <text class="cls-3" transform="translate(73.22 24.59)"><tspan x="0" y="0">N</tspan></text>
-  </g>
-  <polygon class="cls-1" points="83.43 22.47 101.46 33.28 101.38 33.88 100.83 34.19 82.86 23.42 83.15 22.95 83.43 22.47"/>
-  <polygon class="cls-1" points="77.27 75.36 76.92 96.57 76.37 96.56 75.81 96.55 76.16 75.34 76.72 75.03 77.27 75.36"/>
-  <g class="cls-4">
-    <text class="cls-3" transform="translate(71.86 106.1)"><tspan x="0" y="0">N</tspan></text>
-    <text class="cls-3" transform="translate(80.68 106.1)"><tspan x="0" y="0">H</tspan></text>
-    <text class="cls-2" transform="translate(89.5 107.98)"><tspan x="0" y="0">2</tspan></text>
-  </g>
-  <polygon class="cls-1" points="101.49 61.18 126.93 69.91 127.13 70.56 127.33 71.22 100.99 62.18 100.93 61.57 101.49 61.18"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 130" style="enable-background:new 0 0 200 130;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'ArialMT';}
+	.st1{font-size:12.21px;}
+	.st2{font-size:7.52px;}
+</style>
+<polygon points="67.5,54.2 53.8,72.5 53.3,72.2 52.9,71.8 66.6,53.6 67.1,53.9 "/>
+<polygon points="66.1,50.6 49.9,72.1 49.2,72.1 48.5,72.1 65.7,49.3 65.9,50 "/>
+<polygon points="49.9,72.1 61.3,88.3 60.8,88.6 60.4,88.9 48.5,72.1 49.2,72.1 "/>
+<g>
+	<text transform="matrix(-1 0 0 -1 69.5596 99.9427)" class="st0 st1">H</text>
+</g>
+<g>
+	<text transform="matrix(-1 0 0 -1 69.5596 88.7923)" class="st0 st1">N</text>
+</g>
+<polygon points="70.5,92.6 91.1,86.2 91.6,86.7 91.5,87.3 70.8,93.6 70.7,93.1 "/>
+<polygon points="91.1,86.2 91.5,59.4 92.1,59 92.6,59.3 92.2,86.3 91.6,86.7 "/>
+<polygon points="94.4,84.8 94.8,60.9 95.4,60.9 95.9,60.9 95.5,84.8 95,84.8 "/>
+<polygon points="92,58.4 115.7,45.2 116.3,45.5 116.3,46.1 92.6,59.3 92.1,59 "/>
+<polygon points="116.8,45.2 134.8,56 134.5,56.4 134.2,56.9 116.3,46.1 116.3,45.5 "/>
+<polygon points="116.5,48.9 133.1,58.8 132.8,59.3 132.5,59.8 115.9,49.8 116.2,49.3 "/>
+<g>
+	<text transform="matrix(-1 0 0 -1 144.46 54.7923)" class="st0 st1">N</text>
+</g>
+<polygon points="140.5,65.9 140.1,87.8 139.6,87.4 139,87.1 139.4,65.9 139.9,65.9 "/>
+<polygon points="140.1,87.8 121.2,98.3 120.9,97.8 120.6,97.3 139,87.1 139.6,87.4 "/>
+<polygon points="136.6,86 119.5,95.4 119.3,94.9 119,94.4 136,85 136.3,85.5 "/>
+<g>
+	<text transform="matrix(-1 0 0 -1 119.79 95.9427)" class="st0 st1">N</text>
+</g>
+<polygon points="109.6,98.1 91.5,87.3 91.6,86.7 92.2,86.3 110.1,97.1 109.9,97.6 "/>
+<polygon points="115.7,45.2 116.1,24 116.6,24 117.2,24 116.8,45.2 116.3,45.5 "/>
+<g>
+	<text transform="matrix(1 0 0 1 112.7799 22.4236)" class="st0 st1">N</text>
+	<text transform="matrix(1 0 0 1 121.5992 22.4236)" class="st0 st1">H</text>
+	<text transform="matrix(1 0 0 1 130.4195 24.3045)" class="st0 st2">2</text>
+</g>
+<polygon points="91.5,59.4 66.1,50.6 65.9,50 65.7,49.3 92,58.4 92.1,59 "/>
 </svg>
