@@ -1838,9 +1838,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/J6f1-aptamer" target="_blank"
                 style="color:#520049"><b>J6f1 aptamer</b></a></td>
             <td name="td2">Tobramycin</td>
-            <td name="td3">Tobramycin is an aminoglycoside antibiotic derived from Streptomyces tenebrarius that is used
-              to treat various types of bacterial infections, particularly Gram-negative infections. Tobramycin works by
-              binding to a site on the bacterial 30S and 50S ribosome, preventing formation of the 70S complex.</td>
+            <td name="td3">Tobramycin is an aminoglycoside antibiotic derived from Streptomyces tenebrarius that is used to treat various types of bacterial infections, particularly Gram-negative infections. Tobramycin works by binding to a site on the bacterial 30S and 50S ribosome, preventing formation of the 70S complex.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9425088/" target="_blank"
                 style="color:#520049"><b>1998</b></a></td>
             <td name="td5">NA</td>
@@ -1850,9 +1848,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Lividomycin-aptamer" target="_blank"
                 style="color:#520049"><b>Lividomycin aptamer</b></a></td>
             <td name="td2">Lividomycin</td>
-            <td name="td3">Lividomycin is a broad-spectrum aminoglycoside antibiotic. It is effective against most gram
-              positive and gram negative bacteria including Mycobacterial tuberculosis (the causative agent of
-              tuberculosis) and Pseudomonas aeruginosa.</td>
+            <td name="td3">Lividomycin is a broad-spectrum aminoglycoside antibiotic. It is effective against most gram positive and gram negative bacteria including Mycobacterial tuberculosis (the causative agent of tuberculosis) and Pseudomonas aeruginosa.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9238640/" target="_blank"
                 style="color:#520049"><b>1996</b></a></td>
             <td name="td5">NA</td>
@@ -1861,10 +1857,8 @@ permalink: /Ribocentre-aptamer/
             <td name="td0" rowspan="1">Nucleosides & Nucleotides</td>
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/XBA-RNA-aptamer" target="_blank"
                 style="color:#520049"><b>XBA RNA aptamer</b></a></td>
-            <td name="td2">Xanthine (2,6-dioxypurine)<br>Guanine</td>
-            <td name="td3">Xanthine oxidase (XO, sometimes 'XAO') is a form of xanthine oxidoreductase, a type of enzyme
-              that generates reactive oxygen species. These enzymes catalyze the oxidation of hypoxanthine to xanthine
-              and can further catalyze the oxidation of xanthine to uric acid.</td>
+            <td name="td2">Xanthine (2,6-dioxypurine),<br>Guanine</td>
+            <td name="td3">Xanthine oxidase (XO, sometimes 'XAO') is a form of xanthine oxidoreductase, a type of enzyme that generates reactive oxygen species. These enzymes catalyze the oxidation of hypoxanthine to xanthine and can further catalyze the oxidation of xanthine to uric acid.<br>Guanine is one of the four main nucleobases found in the nucleic acids DNA and RNA, the others being adenine, cytosine, and thymine (uracil in RNA). In DNA, guanine is paired with cytosine. The guanine nucleoside is called guanosine.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9512549/" target="_blank"
                 style="color:#520049"><b>1998</b></a></td>
             <td name="td5">NA</td>
@@ -1874,9 +1868,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/rafl7s-aptamer" target="_blank"
                 style="color:#520049"><b>rafl7s aptamer</b></a></td>
             <td name="td2">Adenosine triphosphate (ATP)</td>
-            <td name="td3">ATP (Adenosine 5'-triphosphate) is an important substance for energy storage and metabolism
-              in the body, which provides energy for metabolism and plays a role as a coenzyme in cells. ATP is an
-              important endogenous signal molecule in immunity and inflammation.</td>
+            <td name="td3">ATP (Adenosine 5'-triphosphate) is an important substance for energy storage and metabolism in the body, which provides energy for metabolism and plays a role as a coenzyme in cells. ATP is an important endogenous signal molecule in immunity and inflammation.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11101810/" target="_blank"
                 style="color:#520049"><b>2000</b></a></td>
             <td name="td5">NA</td>
