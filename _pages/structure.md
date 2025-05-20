@@ -172,22 +172,19 @@ This page provides a summary of the methods used for structure determination and
 
 <p class="header_box" >Detailed information</p>    
 
-<br><br>
-<div class="form-container">
-  <!-- 搜索框 -->
+<!--div class="form-container">
   <input type="text" id="searchBox" placeholder="Search by keyword..." onfocus="showAllSheets()" oninput="searchTables()"><br><br>
-  <!--select id="downloadOptions">
+  <select id="downloadOptions">
     <option value="" disabled selected>Select an option</option>
     <option value="/downloads/RNA-aptamers_page/Small_molecules.xlsx">Small molecules</option>
      <option value="/downloads/RNA-aptamers_page/Proteins.xlsx">Proteins</option>
       <option value="/downloads/RNA-aptamers_page/Nucleic_acids.xlsx">Nucleic acids</option>
       <option value="/downloads/RNA-aptamers_page/Others.xlsx">Others</option>
     <option value="/downloads/RNA-aptamers/All_tables.xlsx">all table in this page </option>
-  </select-->
-  <!-- Download button -->
-  <!--button class="button" onclick="downloadExcel()">Download</button-->
-</div>
-<br>
+  </select>
+  <Download button>
+  <button class="button" onclick="downloadExcel()">Download</button>
+</div-->
         
 
 <div id="sheet1" class="sheet">
