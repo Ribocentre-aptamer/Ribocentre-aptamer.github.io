@@ -1725,8 +1725,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/SRB-2-aptamer" target="_blank"
                 style="color:#520049"><b>SRB-2 aptamer</b></a></td>
             <td name="td2">Sulforhodamine B</td>
-            <td name="td3">Sulforhodamine B or Kiton Red 620 is a fluorescent dye with uses spanning from laser-induced
-              fluorescence to the quantification of cellular proteins of cultured cells.</td>
+            <td name="td3">Sulforhodamine B (SRB) is often used as a membrane-impermeable polar tracer or used for cell density determination via determination of cellular proteins (cytotoxicity assay). The SRB assay has been used to inexpensively conduct various screening assays to investigate cytotoxicity in cell based studies. This method relies on the property of SRB, which binds stoichiometrically to proteins under mild acidic conditions and then can be extracted using basic conditions; thus, the amount of bound dye can be used as a proxy for cell mass, which can then be extrapolated to measure cell proliferation.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9889155/" target="_blank"
                 style="color:#520049"><b>1998</b></a></td>
             <td name="td5">NA</td>
@@ -1736,9 +1735,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/FB-1-aptamer" target="_blank"
                 style="color:#520049"><b>FB-1 aptamer</b></a></td>
             <td name="td2">Fluorescein</td>
-            <td name="td3">Fluorescein is an organic compound and dye based on the xanthene tricyclic structural motif,
-              formally belonging to triarylmethine dyes family. It is available as a dark orange/red powder slightly
-              soluble in water and alcohol.</td>
+            <td name="td3">Fluorescein sodium is used extensively as a diagnostic tool in the field of ophthalmology. Fluorescein is a fluorescent compound or fluorophore having a maximum absorbance of 494 m and an emission maximum of 521 nm. The yellowish-green fluorescence of the compound can be used to demarcate the vascular area under observation, distinguishing it from adjacent areas. It is applied topically in the form of a drop or it can be injected intravenously to produce a fluorescein angiogram.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9889155/" target="_blank"
                 style="color:#520049"><b>1998</b></a></td>
             <td name="td5">NA</td>
@@ -1748,13 +1745,22 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Squash-aptamer" target="_blank"
                 style="color:#520049"><b>Squash aptamer</b></a></td>
             <td name="td2">DFHBI-1T</td>
-            <td name="td3">DFHBI-1T is a fluorescent probe that can be activated via a membrane RNA aptamer (ex/em=472
-              nm/507 nm).</td>
+            <td name="td3">DFHBI-1T is a fluorescent probe that can be activated via a membrane RNA aptamer (ex/em=472 nm/507 nm).</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/34937909/" target="_blank"
                 style="color:#520049"><b>2022</b></a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/7KVU" target="_blank"
                 style="color:#520049"><b>7KVU</b></a><br><a href="https://www.rcsb.org/structure/7KVT" target="_blank"
                 style="color:#520049"><b>7KVT</b></a></td>
+          </tr>
+          <tr>
+            <td name="td0" rowspan="1">Fluorophores</td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/DFHBI-1T-aptamer" target="_blank"
+                style="color:#520049"><b>DFHBI-1T aptamer</b></a></td>
+            <td name="td2">DFHBI-1T</td>
+            <td name="td3">DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe. DFHBI-1T binds to RNA aptamers (Spinach, Spinach2, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells.</td>
+            <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/25337688/" target="_blank"
+                style="color:#520049"><b>2014</b></a></td>
+            <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Fluorophores</td>
@@ -2270,6 +2276,16 @@ permalink: /Ribocentre-aptamer/
                 style="color:#520049"><b>2002</b> </a></td>
             <td name="td5"><a href="https://www.rcsb.org/structure/6RTI" target="_blank"
                 style="color:#520049"><b>6RTI</b> </a></td>
+          </tr>
+          <tr>
+            <td name="td0" rowspan="1">Mammalian</td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Upstream-of-N-Ras-aptamer" target="_blank"
+                style="color:#520049"><b>Upstream of N-Ras aptamer</b></a></td>
+            <td name="td2">Upstream of N-Ras (Unr) protein</td>
+            <td name="td3">Upstream of N-Ras (Unr) protein, also called CSDE1. In molecular biology, the cold-shock domain (CSD) is a protein domain of about 70 amino acids which has been found in prokaryotic and eukaryotic DNA-binding proteins. Part of this domain is highly similar to the RNP-1 RNA-binding motif. Unr is RNA-binding protein involved in translationally coupled mRNA turnover which implicated with other RNA-binding proteins in the cytoplasmic deadenylation/translational and decay interplay of the FOS mRNA mediated by the major coding-region determinant of instability (mCRD) domain.</td>
+            <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10101203/" target="_blank"
+                style="color:#520049"><b>1999</b> </a></td>
+            <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
@@ -2962,147 +2978,120 @@ permalink: /Ribocentre-aptamer/
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/14.12-aptamer" target="_blank"
-                style="color:#520049"><b>14.12 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/L-selectin-aptamer" target="_blank"
+                style="color:#520049"><b>L-selectin aptamer</b></a></td>
             <td name="td2">L-selectin</td>
-            <td name="td3">L-selectin is one of calcium-dependent lectin that mediates cell adhesion by binding to
-              glycoproteins on neighboring cells. Mediates the adherence of lymphocytes to endothelial cells of high
-              endothelial venules in peripheral lymph nodes.</td>
+            <td name="td3">L-selectin is one of calcium-dependent lectin that mediates cell adhesion by binding to glycoproteins on neighboring cells. L-selectin mediates the adherence of lymphocytes to endothelial cells of high endothelial venules in peripheral lymph nodes and promotes initial tethering and rolling of leukocytes in endothelia. Interaction with SELPLG/PSGL1 and PODXL2 is required for promoting recruitment and rolling of leukocytes. This interaction is dependent on the sialyl Lewis X glycan modification of SELPLG and PODXL2, and tyrosine sulfation modifications of SELPLG.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/8650187/" target="_blank"
                 style="color:#520049"><b>1996</b> </a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/NX-213-aptamer" target="_blank"
-                style="color:#520049"><b>NX-213 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Vascular-endothelial-growth-factor-aptamer" target="_blank"
+                style="color:#520049"><b>Vascular endothelial growth factor aptamer</b></a></td>
             <td name="td2">Vascular endothelial growth factor (VEGF)</td>
-            <td name="td3">Vascular endothelial growth factor (VEGF) active in angiogenesis, vasculogenesis and
-              endothelial cell growth. VEGF induces endothelial cell proliferation, promotes cell migration, inhibits
-              apoptosis and induces permeabilization of blood vessels.</td>
+            <td name="td3">Vascular endothelial growth factor (VEGF) active in angiogenesis, vasculogenesis and endothelial cell growth. VEGF induces endothelial cell proliferation, promotes cell migration, inhibits apoptosis and induces permeabilization of blood vessels. VEGF binds to the FLT1/VEGFR1 and KDR/VEGFR2 receptors, heparan sulfate and heparin. VEGF also binds to the NRP1/neuropilin-1 receptor. Binding to NRP1 initiates a signaling pathway needed for motor neuron axon guidance and cell body migration, including for the caudal migration of facial motor neurons from rhombomere 4 to rhombomere 6 during embryonic development (By similarity).</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9383475/" target="_blank"
                 style="color:#520049"><b>1995</b> </a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/11-1.41-aptamer" target="_blank"
-                style="color:#520049"><b>11-1.41 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Angiopoietin-2-aptamer" target="_blank"
+                style="color:#520049"><b>Angiopoietin-2 aptamer</b></a></td>
             <td name="td2">Angiopoietin-2 (Ang2)</td>
-            <td name="td3">Angiopoietin-2 binds to TEK/TIE2, competing for the ANGPT1 binding site, and modulating
-              ANGPT1 signaling. Angiopoietin-2 can induce tyrosine phosphorylation of TEK/TIE2 in the absence of ANGPT1.
-            </td>
+            <td name="td3">Angiopoietin-2 (Ang2) binds to TEK/TIE2, competing for the ANGPT1 binding site, and modulating ANGPT1 signaling. Angiopoietin-2 can induce tyrosine phosphorylation of TEK/TIE2 in the absence of ANGPT1. In the absence of angiogenic inducers, such as VEGF, ANGPT2-mediated loosening of cell-matrix contacts may induce endothelial cell apoptosis with consequent vascular regression. In concert with VEGF, it may facilitate endothelial cell migration and proliferation, thus serving as a permissive angiogenic signal.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12692304/" target="_blank"
                 style="color:#520049"><b>2003</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/21.01-aptamer" target="_blank"
-                style="color:#520049"><b>21.01 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Raf-1-aptamer" target="_blank"
+                style="color:#520049"><b>Raf-1 aptamer</b></a></td>
             <td name="td2">Raf-1</td>
-            <td name="td3">RAF proto-oncogene serine/threonine-protein kinase that acts as a regulatory link between the
-              membrane-associated Ras GTPases and the MAPK/ERK cascade, and this critical regulatory link functions as a
-              switch determining cell fate decisions including proliferation, differentiation, apoptosis, survival and
-              oncogenic transformation.</td>
+            <td name="td3">RAF proto-oncogene serine/threonine-protein kinase acts as a regulatory link between the membrane-associated Ras GTPases and the MAPK/ERK cascade, and this critical regulatory link functions as a switch determining cell fate decisions including proliferation, differentiation, apoptosis, survival and oncogenic transformation. RAF1 activation initiates a mitogen-activated protein kinase cascade that comprises a sequential phosphorylation of the dual-specific MAPK kinases and the extracellular signal-regulated kinases.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9883908/" target="_blank"
                 style="color:#520049"><b>1998</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/APC-99-aptamer" target="_blank"
-                style="color:#520049"><b>APC-99 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Human-activated-protein-C-aptamer" target="_blank"
+                style="color:#520049"><b>Human activated protein C aptamer</b></a></td>
             <td name="td2">Human activated protein C (APC)</td>
-            <td name="td3">Human activated protein C (APC) is a vitamin K-dependent serine protease that regulates blood
-              coagulation by inactivating factors Va and VIIIa in the presence of calcium ions and phospholipids. Exerts
-              a protective effect on the endothelial cell barrier function.</td>
+            <td name="td3">Human activated protein C (APC) is a vitamin K-dependent serine protease that regulates blood coagulation by inactivating factors Va and VIIIa in the presence of calcium ions and phospholipids. APC exerts a protective effect on the endothelial cell barrier function. Calcium also binds, with stronger affinity to another site, beyond the GLA domain. This GLA-independent binding site is necessary for the recognition of the thrombin-thrombomodulin complex.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9546673/" target="_blank"
                 style="color:#520049"><b>1998</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/E2F-E1-aptamer" target="_blank"
-                style="color:#520049"><b>E2F-E1 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/E2F1-aptamer" target="_blank"
+                style="color:#520049"><b>E2F1 aptamer</b></a></td>
             <td name="td2">E2F1</td>
-            <td name="td3">E2F is transcription activator that binds DNA cooperatively with DP proteins through the E2
-              recognition site, 5'-TTTC[CG]CGC-3' found in the promoter region of a number of genes whose products are
-              involved in cell cycle regulation or in DNA replication.</td>
+            <td name="td3">E2F is transcription activator that binds DNA cooperatively with docking proteins through the E2 recognition site, 5'-TTTC[CG]CGC-3' found in the promoter region of a number of genes whose products are involved in cell cycle regulation or in DNA replication. The DRTF1/E2F complex functions in the control of cell-cycle progression from G1 to S phase. E2F2 binds specifically to RB1 in a cell-cycle dependent manner.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/8946842/" target="_blank"
                 style="color:#520049"><b>1996</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/P19-aptamer" target="_blank"
-                style="color:#520049"><b>P19 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Neurotensin-receptor-NTS-1-aptamer" target="_blank"
+                style="color:#520049"><b>Neurotensin receptor NTS-1 aptamer</b></a></td>
             <td name="td2">Neurotensin receptor NTS-1 (NTR)</td>
-            <td name="td3">Neurotensin receptor type 1 is G-protein coupled receptor for the tridecapeptide neurotensin
-              (NTS). Signaling is effected via G proteins that activate a phosphatidylinositol-calcium second messenger
-              system. Signaling leads to the activation of downstream MAP kinases and protects cells against apoptosis.
-            </td>
+            <td name="td3">Neurotensin receptor type 1 is G-protein coupled receptor for the tridecapeptide neurotensin (NTS). Signaling is effected via G proteins that activate a phosphatidylinositol-calcium second messenger system. Signaling leads to the activation of downstream MAP kinases and protects cells against apoptosis. NTR undergoes N-glycosylation modification and palmitoylation modification after translation. Among them, palmitoylation modification is required for normal localization at membrane rafts and normal GNA11-mediated activation of down-stream signaling cascades. The palmitoylation level increases in response to neurotensin treatment.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12054450/" target="_blank"
                 style="color:#520049"><b>2002</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/ps11-20-aptamer" target="_blank"
-                style="color:#520049"><b>ps11-20 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Basic-fibroblast-growth-factor-aptamer" target="_blank"
+                style="color:#520049"><b>Basic fibroblast growth factor aptamer</b></a></td>
             <td name="td2">Basic fibroblast growth factor (bFGF)</td>
-            <td name="td3">Growth factor active in angiogenesis, and endothelial cell growth, stimulating their
-              proliferation and migration and also has effects on the permeability of blood vessels.</td>
+            <td name="td3">Growth factor actives in angiogenesis, and endothelial cell growth, stimulating their proliferation and migration and also has effects on the permeability of blood vessels. Growth factor plays an important role in the regulation of cell survival, cell division, cell differentiation and cell migration. It acts as a ligand for FGFR1, FGFR2, FGFR3 and FGFR4, and as an integrin ligand which is required for FGF2 signaling.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9873529/" target="_blank"
                 style="color:#520049"><b>1998</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/RNA22-aptamer" target="_blank"
-                style="color:#520049"><b>RNA22 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Wilms-tumor-protein-aptamer" target="_blank"
+                style="color:#520049"><b>Wilms tumor protein aptamer</b></a></td>
             <td name="td2">Wilms tumor protein (WT1)</td>
-            <td name="td3">Wilms tumor protein (WT1) is a type of transcription factor that plays an important role in
-              cellular development and cell survival. Recognizes and binds to the DNA sequence 5'-GCG(T/G)GGGCG-3'.
-              Regulates the expression of numerous target genes, including EPO. Plays an essential role for development
-              of the urogenital system.</td>
+            <td name="td3">Wilms tumor protein (WT1) is a type of transcription factor that plays an important role in cellular development and cell survival. WT1 recognizes and binds to the DNA sequence 5'-GCG(T/G)GGGCG-3' and regulates the expression of numerous target genes, including EPO. Wilms tumor protein plays an essential role for development of the urogenital system. It has a tumor suppressor as well as an oncogenic role in tumor formation. Its function may be isoform-specific: isoforms lacking the KTS motif may act as transcription factors.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11329270/" target="_blank"
                 style="color:#520049"><b>2001</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/SE-RNA-1-aptamer" target="_blank"
-                style="color:#520049"><b>SE RNA #1 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Activated-T-Cells-Nuclear-Factor-aptamer" target="_blank"
+                style="color:#520049"><b>Activated T Cells' Nuclear Factor aptamer</b></a></td>
             <td name="td2">Nuclear factor of activated T cells (NFATC)</td>
-            <td name="td3">NFATC1 plays a role in the inducible expression of cytokine genes in T-cells, especially in
-              the induction of the IL-2 or IL-4 gene transcription. NFATC1 also controls gene expression in embryonic
-              cardiac cells.</td>
+            <td name="td3">Nuclear factor 1 of activated T cells (NFATC1) plays a role in the inducible expression of cytokine genes in T-cells, especially in the induction of the IL-2 or IL-4 gene transcription. NFATC1 also controls gene expression in embryonic cardiac cells. It could regulate not only the activation and proliferation but also the differentiation and programmed death of T-lymphocytes as well as lymphoid and non-lymphoid cells. It is also required for osteoclastogenesis and regulates many genes important for osteoclast differentiation and function.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12408978/" target="_blank"
                 style="color:#520049"><b>2002</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/TR-D28-aptamer" target="_blank"
-                style="color:#520049"><b>TR-D28 aptamer</b></a></td>
-            <td name="td2">Integrin beta chain-2 (CD18)</td>
-            <td name="td3">In molecular biology, integrin beta chain-2 (CD18) is an integrin beta chain protein that is
-              encoded by the ITGB2 gene in humans. Upon binding with one of a number of alpha chains, CD18 is capable of
-              forming multiple heterodimers, which play significant roles in cellular adhesion and cell surface
-              signaling, as well as important roles in immune responses.</td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Integrin-beta-chain-2-(CD18)-aptamer" target="_blank"
+                style="color:#520049"><b>Integrin beta chain-2 (CD18) aptamer</b></a></td>
+            <td name="td2">Integrin beta chain-2 (CD18)</td>
+            <td name="td3">In molecular biology, integrin beta chain-2 (CD18) is an integrin beta chain protein encoded by the ITGB2 gene in humans. Upon binding with one of a number of alpha chains, CD18 is capable of forming multiple heterodimers, which play significant roles in cellular adhesion and cell surface signaling, as well as important roles in immune responses. CD18 is involved in leukocyte adhesion and transmigration of leukocytes including T-cells and neutrophils. It also triggers neutrophil transmigration during lung injury through PTK2B/PYK2-mediated activation.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10097084/" target="_blank"
                 style="color:#520049"><b>1999</b></a></td>
             <td name="td5">NA</td>
           </tr>
           <tr>
             <td name="td0" rowspan="1">Mammalian</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/W2-aptamer" target="_blank"
-                style="color:#520049"><b>W2 aptamer</b></a></td>
-            <td name="td2">Complement component 5 (C5) protein</td>
-            <td name="td3">Activation of C5 by a C5 convertase initiates the spontaneous assembly of the late complement
-              components, C5-C9, into the membrane attack complex. C5b has a transient binding site for C6. The C5b-C6
-              complex is the foundation upon which the lytic complex is assembled.</td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/Complement-component-5-aptamer" target="_blank"
+                style="color:#520049"><b>Complement component 5 aptamer</b></a></td>
+            <td name="td2">C5 (Complement component 5) protein</td>
+            <td name="td3">Activation of C5 by a C5 convertase initiates the spontaneous assembly of the late complement components, C5-C9, into the membrane attack complex. C5b has a transient binding site for C6. The C5b-C6 complex is the foundation upon which the lytic complex is assembled. Derived from proteolytic degradation of complement C5, C5a anaphylatoxin is a mediator of local inflammatory process. Binding to the receptor C5AR1 induces a variety of responses including intracellular calcium release, contraction of smooth muscle, increased vascular permeability, and histamine release from mast cells and basophilic leukocytes.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/12490703/" target="_blank"
                 style="color:#520049"><b>2002</b></a></td>
             <td name="td5">NA</td>
