@@ -5,10 +5,6 @@ date:   2024-05-07 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <style>
@@ -37,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -47,7 +46,8 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -66,15 +66,62 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
-  } 
+  }
   .box_style{
     background: #ffffff;
   }
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
+    * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
 </style>
 </head>
 <br>
@@ -110,7 +157,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9356339/" target="_blank" style="color:#520049">1997</a></h3>
   </div>
   <div class="body">
-    <p>Keigo Machida et al. isolated aptamers that inhibited the activity of NS3 protease and helicase<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+    <p>Nishikawa, S. et al. isolated aptamers that inhibited the activity of NS3 protease and helicase<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
   </div>
  </div>
             
@@ -119,7 +166,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10848986/" target="_blank" style="color:#520049">2000</a></h3>
   </div>
   <div class="body">
-    <p>Kotaro Fukuda et al. isolated RNA aptamers that bind specifically to the NS3 protease active site in the truncated polypeptide ΔNS3<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
+    <p>Nishikawa, S. et al. isolated RNA aptamers that bind specifically to the NS3 protease active site in the truncated polypeptide ΔNS3<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
   </div>
  </div>
             
@@ -137,7 +184,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12655010/" target="_blank" style="color:#520049">2003</a></h3>
   </div>
   <div class="body">
-    <p>Fumiko Nishikawa et al. constructed a G9 aptamer expression system in cultured cells, using the cytomegarovirus enhancer + chicken beta-actin globin (CAG) promoter<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
+    <p>Nishikawa, S. et al. constructed a G9 aptamer expression system in cultured cells, using the cytomegarovirus enhancer + chicken beta-actin globin (CAG) promoter<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
   </div>
  </div>
             
@@ -146,7 +193,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/15247433/" target="_blank" style="color:#520049">2004</a></h3>
   </div>
   <div class="body">
-    <p>Byounghoon Hwang et al. isolated specific RNA aptamers to the helicase domain of HCV NS3 from a combinatorial RNA library with 40-nucleotide random sequences using in vitro selection techniques<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
+    <p>Lee, S. W. et al. isolated specific RNA aptamers to the helicase domain of HCV NS3 from a combinatorial RNA library with 40-nucleotide random sequences using in vitro selection techniques<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
   </div>
  </div>
             
@@ -155,7 +202,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/15541341/" target="_blank" style="color:#520049">2004</a></h3>
   </div>
   <div class="body">
-    <p>Kotaro Fukuda et al. designed a new aptamer called NEO-III-14U to inhibit both protease and helicase activity<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
+    <p>Nishikawa, S. et al. designed a new aptamer called NEO-III-14U to inhibit both protease and helicase activity<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
   </div>
  </div>
             
@@ -164,7 +211,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/22814430/" target="_blank" style="color:#520049">2012</a></h3>
   </div>
   <div class="body">
-    <p>Robert Vaughan et al. showed that RNAs can bind directly to the active site cleft of the NS3 protease domain (NS3P) and inhibit proteolysis of peptide substrates. RNAs that are less apt to form intramolecular structures have a stronger inhibitory activity than RNAs with more stable base paired regions<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
+    <p>Kao, C. C. et al. showed that RNAs can bind directly to the active site cleft of the NS3 protease domain (NS3P) and inhibit proteolysis of peptide substrates. RNAs that are less apt to form intramolecular structures have a stronger inhibitory activity than RNAs with more stable base paired regions<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
   </div>
  </div>
 </div>
@@ -173,44 +220,49 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1997, Keigo Machida and colleagues used an in vitro genetic-selection strategy to isolate high affinity RNA aptamers that bind to the NS3 protein. These aptamers can effectively inhibit the activities of NS3 protease and helicase<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1997, Nishikawa, S. and colleagues used a genetic selection strategy in vitro to isolate, from a pool of completely random RNA (120 random bases), those RNA aptamers that could bind to NS3. After six cycles of selection and amplification, 14% of the pooled RNAs could bind specifically to the NS3 protein. When the aptamers in the pool (cycle 6) were analyzed for binding and inhibition of the proteolytic activity of NS3 with the NS5A/NS5B peptide as substrate (S1), two aptamers, designated G6-16 and G6-19 RNA, were found to inhibit NS3 in vitro. Kinetic studies of the inhibition revealed that the aptamer G6-16 inhibited the NS3 protease with an inhibitory constant (Ki) of 3 microM<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1997, Keigo Machida and colleagues designed a selecting method based on existing research. They used a genetic selection strategy in vitro to isolate, from a pool of completely random RNA (120 random bases), those RNA aptamers that could bind to NS3. After six cycles of selection and amplification, 14% of the pooled RNAs could bind specifically to the NS3 protein. When the aptamers in the pool (cycle 6) were analyzed for binding and inhibition of the proteolytic activity of NS3 with the NS5A/NS5B peptide as substrate (S1), two aptamers, designated G6-16 and G6-19 RNA, were found to inhibit NS3 in vitro<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 1997, Nishikawa, S. and colleagues designed a selecting method based on existing research. They used a genetic selection strategy in vitro to isolate, from a pool of completely random RNA (120 random bases), those RNA aptamers that could bind to NS3. After six cycles of selection and amplification, 14% of the pooled RNAs could bind specifically to the NS3 protein. When the aptamers in the pool (cycle 6) were analyzed for binding and inhibition of the proteolytic activity of NS3 with the NS5A/NS5B peptide as substrate (S1), two aptamers, designated G6-16 and G6-19 RNA, were found to inhibit NS3 in vitro<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>G6-16 was the aptamer sequence mainly studied in the article, which had a high affinity with HCV NS3 protein. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>5'-GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGGUCGGACCAAUCAGUUCUUAUGGGAGAUGCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p></font>
-<img src="/images/2D/G6-16_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;">   
-</div>
-<br>
+<p>G6-16 was the aptamer sequence mainly studied in the article, which had a high affinity with HCV NS3 protein. The 2D structure of the figure is based on the article by ribodraw tool to draw. The G6-16 aptamer was named by Nishikawa, S. et al. in the article<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>5'-GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGGUCGGACCAAUCAGUUCUUAUGGGAGAUGCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
+<img src="/images/2D/G6-16_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
 <br>
 <br>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
 <p class="blowheader_box">SELEX ligand</p>
-<font>Hepatitis C virus NS3 protein is a serine protease which has a trypsin-like fold. The non-structural (NS) protein NS3 is one of the NS proteins involved in replication of the HCV genome. The action of NS3 protease (NS3P), which resides in the N-terminal one-third of the NS3 protein, then yields all remaining non-structural proteins.-----From Pfam</font>
-<br>
+<p>Hepatitis C virus NS3 protein is a serine protease which has a trypsin-like fold. The non-structural (NS) protein NS3 is one of the NS proteins involved in replication of the HCV genome. The action of NS3 protease (NS3P), which resides in the N-terminal one-third of the NS3 protein, then yields all remaining non-structural proteins.-----From <a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF02907/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
         <th onclick="sortTable(1)">Uniprot ID</th>
         <th onclick="sortTable(2)">Pfam</th>
-        <th onclick="sortTable(3)">MW</th>
-        <th onclick="sortTable(4)">Amino acids sequences</th>
-        <th onclick="sortTable(5)">PDB</th>
-        <th onclick="sortTable(6)">Gene ID</th>
+        <th onclick="sortTable(3)">Mass</th>
+        <th onclick="sortTable(4)">Protein sequence</th>
+        <th onclick="sortTable(5)">PDB ID</th>
+        <th onclick="sortTable(6)">GenBank</th>
       </tr>
   </thead>
     <tbody>
@@ -219,14 +271,20 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td1"><a href="https://www.uniprot.org/uniprotkb/B2Y2M9/entry#sequences" target="_blank" style="color:#520049"><b>B2Y2M9</b></a></td>
         <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF02907/" target="_blank" style="color:#520049"><b>PF02907</b></a></td>
         <td name="td3">19.15 kDa</td>
-        <td name="td4">APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTATQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGSRSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPAGHAVGLFRAAVCTRGVAKAVDFIPVENLETTMRS</td>
+        <td name="td4">
+        <div class="sequence-container">
+          <span class="sequence-text"></span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">APITAYAQQTRGLLGCIITSLTGRDKNQVEGEVQIVSTATQTFLATCINGVCWTVYHGAGTRTIASPKGPVIQMYTNVDQDLVGWPAPQGSRSLTPCTCGSSDLYLVTRHADVIPVRRRGDSRGSLLSPRPISYLKGSSGGPLLCPAGHAVGLFRAAVCTRGVAKAVDFIPVENLETTMRS (Residues 1027-1207)</span>
+        </div>
+        </td>
         <td name="td5"><a href="https://www.rcsb.org/structure/3KF2" target="_blank" style="color:#520049"><b>3KF2</b></a></td>
         <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/protein/ABY67662.1" target="_blank" style="color:#520049"><b>ABY67662.1</b></a></td>
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+
+<p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -239,7 +297,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">G6-16</td>
-        <td name="td1">GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGGUCGGACCAAUCAGUUCUUAUGGGAGAUGCAUAUGUGCGUCUACAUGGAUCCUCA</td>
+        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGGUCGGACCAAUCAGUUCUUAUGGGAGAUGCAUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
         <td name="td2">HCV NS3 protein</td>
         <td name="td3">120 ± 18 nM</td>
       </tr>
@@ -247,7 +305,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">△G6-16</td>
-        <td name="td1">GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGG</td>
+        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGG-3'</td>
         <td name="td2">HCV NS3 protein</td>
         <td name="td3">238 ± 110 nM</td>
       </tr>
@@ -255,7 +313,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tbody>
       <tr>
         <td name="td0">G6-19</td>
-        <td name="td1">GGGAGAAUUCCGACCAGAAGCUUAUACUGAAUUAAUCGCUACCGUGUCAUUGUACUUGGUAGUGUUGAUGGUUUGGGUCGCAUUUGGCUUGGCUUAUGGUUUUUUCACCCUACCUCUCAUUGACGCACUAGGCUCUCAUAUGUGCGUCUACAUGGAUCCUCA</td>
+        <td name="td1">5'-GGGAGAAUUCCGACCAGAAGCUUAUACUGAAUUAAUCGCUACCGUGUCAUUGUACUUGGUAGUGUUGAUGGUUUGGGUCGCAUUUGGCUUGGCUUAUGGUUUUUUCACCCUACCUCUCAUUGACGCACUAGGCUCUCAUAUGUGCGUCUACAUGGAUCCUCA-3'</td>
         <td name="td2">HCV NS3 protein</td>
         <td name="td3">NA</td>
       </tr>
@@ -265,80 +323,85 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/SELEX_ligand/G6-16_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
-<br>
 
 
-<p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>                    
+<p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
+
+<p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
         <th onclick="sortTable(1)">Z-socre</th>
-        <th onclick="sortTable(2)">RMSD</th>
+        <th onclick="sortTable(2)">RMSD (Å)</th>
         <th onclick="sortTable(3)">Description</th>
       </tr>
       </thead>
     <tbody>
       <tr>
-      <td name="td0">1CU1-A</td>
-      <td name="td1">20.7</td>
-      <td name="td2">1.0</td>
-      <td name="td3">Protein (protease/helicase NS3)</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/3KF2" target="_blank" style="color:#520049"><b>3KF2</b></a>-B</td>
+      <td name="td1">37.5</td>
+      <td name="td2">0</td>
+      <td name="td3">Polyprotein</td>
     </tr>
      <tr>
-      <td name="td0">2W5E-A</td>
-      <td name="td1">15.3</td>
-      <td name="td2">2.2</td>
-      <td name="td3">Putative sering protease</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2OIN" target="_blank" style="color:#520049"><b>2OIN</b></a>-B</td>
+      <td name="td1">35.7</td>
+      <td name="td2">0.3</td>
+      <td name="td3">Polyprotein</td>
     </tr>
      <tr>
-      <td name="td0">3K6Y-A</td>
-      <td name="td1">14.7</td>
-      <td name="td2">2.7</td>
-      <td name="td3">Possible membrane-associated sering protease</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2O8M" target="_blank" style="color:#520049"><b>2O8M</b></a>-A</td>
+      <td name="td1">35.7</td>
+      <td name="td2">0.3</td>
+      <td name="td3">Protease</td>
     </tr>
      <tr>
-      <td name="td0">2R3Y-A</td>
-      <td name="td1">14.4</td>
-      <td name="td2">2.8</td>
-      <td name="td3">Protease degs</td>
-    </tr>
-     <tr>
-      <td name="td0">6Z05-A</td>
-      <td name="td1">14.2</td>
-      <td name="td2">2.8</td>
-      <td name="td3">Dego family sering endoprotease</td>
-    </tr>
-     <tr>
-      <td name="td0">4INK-A</td>
-      <td name="td1">13.4</td>
-      <td name="td2">2.8</td>
-      <td name="td3">Sering protease spld</td>
-    </tr>
-     <tr>
-      <td name="td0">5LKL-A</td>
-      <td name="td1">13.3</td>
-      <td name="td2">3.0</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/3LON" target="_blank" style="color:#520049"><b>3LON</b></a>-A</td>
+      <td name="td1">35.5</td>
+      <td name="td2">0.3</td>
       <td name="td3">Genome polyprotein</td>
     </tr>
      <tr>
-      <td name="td0">1SGP-E</td>
-      <td name="td1">13.0</td>
-      <td name="td2">3.0</td>
-      <td name="td3">Streptomyces griseus proteinase B</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2OC0" target="_blank" style="color:#520049"><b>2OC0</b></a>-A</td>
+      <td name="td1">35.5</td>
+      <td name="td2">0.3</td>
+      <td name="td3">Hepatitis C virus</td>
     </tr>
      <tr>
-      <td name="td0">7SJY-A</td>
-      <td name="td1">12.8</td>
-      <td name="td2">3.1</td>
-      <td name="td3">Anti-sigma-I factor RSGI9</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2A4R" target="_blank" style="color:#520049"><b>2A4R</b></a>-A</td>
+      <td name="td1">35.3</td>
+      <td name="td2">0.3</td>
+      <td name="td3">NS3 protease/helicase</td>
     </tr>
      <tr>
-      <td name="td0">8W20-C</td>
-      <td name="td1">12.7</td>
-      <td name="td2">3.0</td>
-      <td name="td3">Secreted protein</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2QV1" target="_blank" style="color:#520049"><b>2QV1</b></a>-B</td>
+      <td name="td1">35.3</td>
+      <td name="td2">0.3</td>
+      <td name="td3">NS3</td>
+    </tr>
+     <tr>
+      <td name="td0"><a href="https://www.rcsb.org/structure/3KN2" target="_blank" style="color:#520049"><b>3KN2</b></a>-A</td>
+      <td name="td1">35.3</td>
+      <td name="td2">0.3</td>
+      <td name="td3">HCV NS3 protease domain</td>
+    </tr>
+     <tr>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2A4Q" target="_blank" style="color:#520049"><b>2A4Q</b></a>-A</td>
+      <td name="td1">35.3</td>
+      <td name="td2">0.3</td>
+      <td name="td3">NS3 protease/helicase</td>
+    </tr>
+     <tr>
+      <td name="td0"><a href="https://www.rcsb.org/structure/3EYD" target="_blank" style="color:#520049"><b>3EYD</b></a>-A</td>
+      <td name="td1">35.3</td>
+      <td name="td2">0.3</td>
+      <td name="td3">HCV NS3</td>
     </tr>
     </tbody>
   </table>
@@ -390,64 +453,27 @@ Vaughan, R., Li, Y., Fan, B., Ranjith-Kumar, C. T., & Kao, C. C.<br />
 <br/>
 
 
-<html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1RAW-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    </html>
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>

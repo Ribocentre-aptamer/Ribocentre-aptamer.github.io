@@ -2346,10 +2346,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/10G-1-aptamer" target="_blank"
                 style="color:#520049"><b>10G-1 aptamer</b></a></td>
             <td name="td2">HCV NS3 protease</td>
-            <td name="td3">The RNA genome of human hepatitis C virus (HCV) is translated into a large precursor
-              polyprotein. NS3 protein has a trypsin-like serine-protease motif in its N-terminal region, the NS3
-              protease of HCV has a crucial role in the processing of the polyprotein into functional viral proteins.
-            </td>
+            <td name="td3">The RNA genome of human hepatitis C virus (HCV) is translated into a large precursor polyprotein. NS3 protein has a trypsin-like serine-protease motif in its N-terminal region, the NS3 protease of HCV has a crucial role in the processing of the polyprotein into functional viral proteins.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9310370/" target="_blank"
                 style="color:#520049"><b>1997</b> </a></td>
             <td name="td5">NA</td>
@@ -2369,13 +2366,10 @@ permalink: /Ribocentre-aptamer/
           </tr>
           <tr>
             <td name="td0" rowspan="1">Viral</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/B.2-aptamer" target="_blank"
-                style="color:#520049"><b>B.2 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HCV-NS5BΔC55-aptamer" target="_blank"
+                style="color:#520049"><b>HCV NS5BΔC55 aptamer</b></a></td>
             <td name="td2">HCV NS5B polymerase (HCV NS5BΔC55 protein)</td>
-            <td name="td3">Hepatitis C virus NS5B is a 66-kDa membrane-associated viral nonstructural protein, derived
-              from the C-terminal end of the polyprotein. NS5B was initially identified as an RNA-dependent RNA
-              polymerase (RdRp) by the presence of the hallmark GDD sequence, a motif involved in binding the
-              Mg<sup>2+</sup> ions essential for all polymerase functions.</td>
+            <td name="td3">Hepatitis C virus (HCV) NS5B is a 66-kDa membrane-associated viral nonstructural protein, derived from the C-terminal end of the polyprotein. NS5B was initially identified as an RNA-dependent RNA polymerase (RdRp) by the presence of the hallmark GDD sequence, a motif involved in binding the Mg<sup>2+</sup> ions essential for all polymerase functions.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/11907208/" target="_blank"
                 style="color:#520049"><b>2002</b> </a></td>
             <td name="td5">NA</td>
@@ -2385,9 +2379,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/C52-aptamer" target="_blank"
                 style="color:#520049"><b>C52 aptamer</b></a></td>
             <td name="td2">HIV-1 Rev protein</td>
-            <td name="td3">Human immunodeficiency virus type 1 (HIV-1) Rev (116 residues, 13 kDa) is an essential
-              regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and
-              partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
+            <td name="td3">Human immunodeficiency virus type 1 (HIV-1) Rev (116 residues, 13 kDa) is an essential regulatory protein expressed early in viral replication, it mediates nuclear export of un-spliced and partially spliced viral RNAs for production of viral genomes and structural proteins.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/8523524/" target="_blank"
                 style="color:#520049"><b>1996</b> </a></td>
             <td name="td5">NA</td>
@@ -2410,9 +2402,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/G6-16-aptamer" target="_blank"
                 style="color:#520049"><b>G6-16 aptamer</b></a></td>
             <td name="td2">HCV NS3 protein</td>
-            <td name="td3">Hepatitis C virus (HCV) is a single-stranded RNA virus and its genome is translated into a
-              single large polyprotein. The viral-encoded NS3 protein possesses protease, nucleoside triphosphatase, and
-              helicase activities, which are considered essential for viral proliferation.</td>
+            <td name="td3">Hepatitis C virus (HCV) is a single-stranded RNA virus and its genome is translated into a single large polyprotein. The viral-encoded NS3 protein possesses protease, nucleoside triphosphatase, and helicase activities, which are considered essential for viral proliferation.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/9310370/" target="_blank"
                 style="color:#520049"><b>1997</b> </a></td>
             <td name="td5">NA</td>
@@ -2422,10 +2412,7 @@ permalink: /Ribocentre-aptamer/
             <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/G9-II-aptamer" target="_blank"
                 style="color:#520049"><b>G9-II aptamer</b></a></td>
             <td name="td2">HCV NS3 protease (ΔNS3)</td>
-            <td name="td3">The RNA genome of human hepatitis C virus (HCV) is translated into a large precursor
-              polyprotein. NS3 protein has a trypsin-like serine-protease motif in its N-terminal region, the NS3
-              protease of HCV has a crucial role in the processing of the polyprotein into functional viral proteins.
-            </td>
+            <td name="td3">The RNA genome of human hepatitis C virus (HCV) is translated into a large precursor polyprotein. NS3 protein has a trypsin-like serine-protease motif in its N-terminal region, the NS3 protease of HCV has a crucial role in the processing of the polyprotein into functional viral proteins.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10848986/" target="_blank"
                 style="color:#520049"><b>2000</b> </a></td>
             <td name="td5">NA</td>
@@ -2444,13 +2431,10 @@ permalink: /Ribocentre-aptamer/
           </tr>
           <tr>
             <td name="td0" rowspan="1">Viral</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/P5-aptamer" target="_blank"
-                style="color:#520049"><b>P5 aptamer</b></a></td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-integrase-aptamer" target="_blank"
+                style="color:#520049"><b>HIV-1 integrase aptamer</b></a></td>
             <td name="td2">HIV-1 integrase</td>
-            <td name="td3">In vitro, human immunodeficiency virus type 1 (HIV-1) integrase has been shown to be
-              necessary for processing double-stranded viral DNA, cleaving recipient DNA, and integrating the processed
-              DNA into the host genome. It is usually carried by the virus itself and is not present in the host cell.
-            </td>
+            <td name="td3">In vitro, human immunodeficiency virus type 1 (HIV-1) integrase has been shown to be necessary for processing double-stranded viral DNA, cleaving recipient DNA, and integrating the processed DNA into the host genome. It is usually carried by the virus itself and is not present in the host cell.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/7778267/" target="_blank"
                 style="color:#520049"><b>1995</b> </a></td>
             <td name="td5">NA</td>
@@ -3491,9 +3475,6 @@ permalink: /Ribocentre-aptamer/
         </tbody>
       </table>
     </div>
-
-
-
     <div id="sheet6" class="sheet" class="table-style1">
       <h2>Nucleic acid</h2>
       <p style="color:#FF4136;">You can download the tables by clicking on the five buttons below.</p>
@@ -3524,13 +3505,10 @@ permalink: /Ribocentre-aptamer/
           </tr>
           <tr>
             <td name="td0" rowspan="1">RNA</td>
-            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/109.2-3-aptamer" target="_blank"
-                style="color:#520049"><b>109.2-3 aptamer</b></a></td>
-            <td name="td2">16S rRNA decoding region</td>
-            <td name="td3">The decoding region of prokaryotic 16S ribosomal RNA (rRNA) is a region of RNA which is
-              thought to interact with mRNA and tRNA. It has long been known that the interaction of the codon and
-              anticodon occurs on the A-site of the decoding region of prokaryotic 16S rRNA, which is itself part of the
-              30S ribosomal subunit.</td>
+            <td name="td1"><a href="{{ site.url }}{{ site.baseurl }}/_posts/16S-rRNA-decoding-region-aptamer" target="_blank"
+                style="color:#520049"><b>16S rRNA decoding region aptamer</b></a></td>
+            <td name="td2">16S ribosomal RNA (rRNA) decoding region</td>
+            <td name="td3">The decoding region of prokaryotic 16S ribosomal RNA (rRNA) is a region of RNA which is thought to interact with mRNA and tRNA. It has long been known that the interaction of the codon and anticodon occurs on the A-site of the decoding region of prokaryotic 16S rRNA, which is itself part of the 30S ribosomal subunit.</td>
             <td name="td4"><a href="https://pubmed.ncbi.nlm.nih.gov/10908352/" target="_blank"
                 style="color:#520049"><b>2000</b> </a></td>
             <td name="td5">NA</td>

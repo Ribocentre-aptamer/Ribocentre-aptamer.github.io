@@ -5,10 +5,6 @@ date:   2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
 <head>
   <style>
@@ -37,6 +33,9 @@ categories: Aptamer
       background-color: #c9c5c5;
       cursor: pointer;
     }
+    h1, .h1 {
+    font-size: 30px;
+}
   </style>
 </head>
 </html>
@@ -47,7 +46,8 @@ categories: Aptamer
 <style>
   .header_box {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 1px;
@@ -66,7 +66,7 @@ categories: Aptamer
       text-decoration: none;
       border: 1px solid #ffffff;
       border-radius: 1px;
-      width:170px;
+      width:190px;
       height:40px;
   }
   .box_style{
@@ -75,6 +75,53 @@ categories: Aptamer
   blockquote {
   margin: 0 0 0px;
   }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
+    * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
 </style>
 </head>
 <br>
@@ -109,7 +156,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/8755498/" target="_blank" style="color:#520049">1996</a></h3>
   </div>
   <div class="body">
-    <p>Using the SELEX method, Wei Xu and colleagues obtained a series of anti-peptide aptamers that can recognize amino acid sequences<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+    <p>Using the SELEX method, Ellington, A. D. and colleagues obtained a series of anti-peptide aptamers that can recognize amino acid sequences<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
   </div>
  </div>
             
@@ -145,68 +192,78 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30017564/" target="_blank" style="color:#520049">2018</a></h3>
   </div>
   <div class="body">
-    <p>Altaira D. Dearborn et al. present the crystal structure of Rev93:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
+    <p>Wingfield, P. T. et al. present the crystal structure of Rev93:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
   </div>
  </div>
 </div>
 
 
 
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1996, Wei Xu and colleagues used the SELEX method to isolate the anti-peptide aptamers with high affinity for the HIV-1 Rev protein. Several of the selected RNAs could bind the free peptide more tightly than a natural RNA ligand, the Rev-binding element<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<p class="header_box" id="description">Description</p>
+<p>In 1996, Ellington, A. D. and colleagues used the SELEX method to isolate the anti-peptide aptamers with high affinity for the HIV-1 Rev protein. HIV-1 Rev protein were selected from a random sequence RNA pool. Several of the selected RNAs could bind the free peptide more tightly than a natural RNA ligand, the Rev-binding element. In accord with the hypothesis that protein and nucleic acid binding cusps are functionally similar, interactions between aptamers and the peptide target could be disrupted by sequence substitutions. Moreover, the aptamers appeared to be able to bind peptides with different solution conformations, implying an induced fit mechanism for binding. Just as anti-peptide antibodies can sometimes recognize the corresponding epitope when presented in a protein, the anti-peptide aptamers were found to specifically bind to Rev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 <br>
 <br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1996, Wei Xu and colleagues used existing research to design the method required for the SELEX process. The RNA recognition domain of HIV-1 Rev is an ARM that spans residues 34-50. A 17-mer peptide (sRev) corresponding to this domain was used as a target for in vitro selection experiments. A RNA pool containing 71 random sequence positions was incubated with an affinity resin containing sRev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>In 1996, Ellington, A. D. and colleagues used existing research to design the method required for the SELEX process. The RNA recognition domain of HIV-1 Rev is an ARM that spans residues 34-50. A 17-mer peptide (sRev) corresponding to this domain was used as a target for in vitro selection experiments. A RNA pool containing 71 random sequence positions was incubated with an affinity resin containing sRev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>C52 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Rev protein. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>5'-GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU-3'</p></font>
-<img src="/images/2D/C52_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;">   
-</div>
+<p>C52 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Rev protein. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. The C52 aptamer was named by Ellington, A. D. et al. in the article<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>5'-GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU-3'</p>
+<img src="/images/2D/C52_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<div style="display: flex; justify-content: center;"></div>
 <br>
 <br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
-  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
 <p class="blowheader_box">SELEX ligand</p>
-<font>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----From Pfam</font>
-<br>
+<p>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----From <a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00424/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
+
+<p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
+<p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
+<p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
         <th onclick="sortTable(1)">Uniprot ID</th>
         <th onclick="sortTable(2)">Pfam</th>
-        <th onclick="sortTable(3)">MW</th>
-        <th onclick="sortTable(4)">Amino acids sequences</th>
-        <th onclick="sortTable(5)">PDB</th>
-        <th onclick="sortTable(6)">Gene ID</th>
+        <th onclick="sortTable(3)">Mass</th>
+        <th onclick="sortTable(4)">Protein sequence</th>
+        <th onclick="sortTable(5)">PDB ID</th>
+        <th onclick="sortTable(6)">GenBank</th>
       </tr>
   </thead>
     <tbody>
       <tr>
         <td name="td0">HIV-1 Rev protein</td>
-        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P04616/entry#function" target="_blank" style="color:#520049"><b>P04616</b></a></td>
+        <td name="td1"><a href="https://www.uniprot.org/uniprotkb/P04616/entry" target="_blank" style="color:#520049"><b>P04616</b></a></td>
         <td name="td2"><a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00424/" target="_blank" style="color:#520049"><b>PF00424</b></a></td>
         <td name="td3">3.22 kDa</td>
-        <td name="td4">GAMATRQARRNRRRRWRERQRAAAAR(residue 34-50)</td>
+        <td name="td4">
+        <div class="sequence-container">
+          <span class="sequence-text"></span>
+          <span class="show-more" onclick="toggleSequence(event)">......</span>
+          <span class="full-sequence">GAMATRQARRNRRRRWRERQRAAAAR (residues 34-50)</span>
+        </div>
+        </td>
         <td name="td5"><a href="https://www.rcsb.org/structure/2M1A" target="_blank" style="color:#520049"><b>2M1A</b></a></td>
         <td name="td6"><a href="https://www.ncbi.nlm.nih.gov/protein/AAA44200.1" target="_blank" style="color:#520049"><b>AAA44200.1</b></a></td>
       </tr>
 	  </tbody>
   </table>
-<font>Some isolated sequences bind to the affinity of the protein.</font>
-<br>
+
+<p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -219,7 +276,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <tbody>
       <tr>
         <td name="td0">C52</td>
-        <td name="td1">GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU</td>
+        <td name="td1">5'-GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU-3'</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">19-36 nM</td>
       </tr>
@@ -227,7 +284,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
      <tbody>
       <tr>
         <td name="td0">C17</td>
-        <td name="td1">GGGAGAUACCAGCUUAUUCAAUUGUAUUCUCCGUGGUUUAAUCAGAGUAGAGGAGCUGACUCCUUUGGUUGGACUACGUGGAGGUGCUCUUAGAUAGUAAGUGCAAUCU</td>
+        <td name="td1">5'-GGGAGAUACCAGCUUAUUCAAUUGUAUUCUCCGUGGUUUAAUCAGAGUAGAGGAGCUGACUCCUUUGGUUGGACUACGUGGAGGUGCUCUUAGAUAGUAAGUGCAAUCU-3'</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">19-36 nM</td>
       </tr>
@@ -235,7 +292,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <tbody>
       <tr>
         <td name="td0">C8</td>
-        <td name="td1">GGGAGAUACCAGCUUAUUCAAUUGAGCCAGUAAGUGACCCGUACUAAUACUGUUGAGUAGUAUGUAGAGGAGUGGUGAUCCUCCAAACUGCUGAGAUAGUAAGUGCAAUCU</td>
+        <td name="td1">5'-GGGAGAUACCAGCUUAUUCAAUUGAGCCAGUAAGUGACCCGUACUAAUACUGUUGAGUAGUAUGUAGAGGAGUGGUGAUCCUCCAAACUGCUGAGAUAGUAAGUGCAAUCU-3'</td>
         <td name="td2">HIV-1 Rev protein</td>
         <td name="td3">19-36 nM</td>
       </tr>
@@ -247,74 +304,79 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 
-<p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the RCSB PDB website's similar structure search to find the top 10 structures similar to HIV-1 Rev protein (residues 34-50), and calculated TM-socre values and RMSD values using the TM-align website.</p></font>
+<p class="blowheader_box">Similar compound(s)</p>                    
+<p>We used the RCSB PDB website's <a href="https://www.rcsb.org/docs/search-and-browse/advanced-search/structure-similarity-search" target="_blank" style="color:#520049; text-decoration: underline;"><b>similar structure search</b></a> to find the top 10 structures similar to HIV-1 REV PROTEIN (residues T34-R50), and calculated TM-socre values and RMSD values using the <a href="https://zhanggroup.org/TM-align/" target="_blank" style="color:#520049; text-decoration: underline;"><b>TM-align website</b></a>.</p>
+
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
+<p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
         <th onclick="sortTable(1)">TM-socre</th>
-        <th onclick="sortTable(2)">RMSD</th>
+        <th onclick="sortTable(2)">RMSD (Å)</th>
         <th onclick="sortTable(3)">Description</th>
       </tr>
       </thead>
     <tbody>
       <tr>
-      <td name="td0">2LD2</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2LD2" target="_blank" style="color:#520049"><b>2LD2</b></a></td>
       <td name="td1">0.358</td>
       <td name="td2">0.89</td>
       <td name="td3">Solution structure of the N-terminal domain of huntingtin (htt17) in presence of DPC micelles</td>
     </tr>
      <tr>
-      <td name="td0">1DNG</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/1DNG" target="_blank" style="color:#520049"><b>1DNG</b></a></td>
       <td name="td1">0.442</td>
       <td name="td2">1.68</td>
       <td name="td3">NMR structure of a model hydrophilic amphipathic helical acidic peptide</td>
     </tr>
      <tr>
-      <td name="td0">3N95-E</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/3N95" target="_blank" style="color:#520049"><b>3N95</b></a>-E</td>
       <td name="td1">0.034</td>
       <td name="td2">1.7</td>
       <td name="td3">Crystal structure of human CRFR2 alpha extracellular domain in complex with Urocortin 2</td>
     </tr>
      <tr>
-      <td name="td0">1OMQ</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/1OMQ" target="_blank" style="color:#520049"><b>1OMQ</b></a></td>
       <td name="td1">0.366</td>
       <td name="td2">1.1</td>
       <td name="td3">Structure of penetratin in bicellar solution</td>
     </tr>
      <tr>
-      <td name="td0">7LSO</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/7LSO" target="_blank" style="color:#520049"><b>7LSO</b></a></td>
       <td name="td1">0.44</td>
       <td name="td2">0.67</td>
       <td name="td3">L-Phenylseptin</td>
     </tr>
      <tr>
-      <td name="td0">2RLG</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/2RLG" target="_blank" style="color:#520049"><b>2RLG</b></a></td>
       <td name="td1">0.34</td>
       <td name="td2">0.79</td>
       <td name="td3">NMR structure of the antimicrobial peptide RP-1 bound to SDS micelles</td>
     </tr>
      <tr>
-      <td name="td0">3N93-E</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/3N93" target="_blank" style="color:#520049"><b>3N93</b></a>-E</td>
       <td name="td1">0.03</td>
       <td name="td2">1.62</td>
       <td name="td3">Crystal structure of human CRFR2 alpha extracellular domain in complex with Urocortin 3</td>
     </tr>
      <tr>
-      <td name="td0">7LSP</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/7LSP" target="_blank" style="color:#520049"><b>7LSP</b></a></td>
       <td name="td1">0.465</td>
       <td name="td2">0.56</td>
       <td name="td3">D-Phenylseptin - The second residue of PHE of the peptide is a D-amino acid</td>
     </tr>
      <tr>
-      <td name="td0">1O53</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/1O53" target="_blank" style="color:#520049"><b>1O53</b></a></td>
       <td name="td1">0.371</td>
       <td name="td2">0.49</td>
       <td name="td3">Solution structure of the N-terminal membrane anchor of E. coli enzyme IIA(Glucose)</td>
     </tr>
      <tr>
-      <td name="td0">6GS9</td>
+      <td name="td0"><a href="https://www.rcsb.org/structure/6GS9" target="_blank" style="color:#520049"><b>6GS9</b></a></td>
       <td name="td1">0.303</td>
       <td name="td2">1.36</td>
       <td name="td3">NMR structure of aurein 2.5 in SDS micelles</td>
@@ -359,64 +421,27 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
 <br/>
 
 
-<html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1RAW-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    </html>
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>
