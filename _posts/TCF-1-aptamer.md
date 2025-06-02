@@ -238,7 +238,7 @@ Choi KH, Park MW, Lee SY, Jeon MY, Kim MY, Lee HK, Yu J, Kim HJ, Han K, Lee H, P
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
         <style>
           * {
               margin: 0;

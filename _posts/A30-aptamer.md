@@ -302,7 +302,7 @@ Yu X, Ghamande S, Liu H, Xue L, Zhao S, Tan W, Zhao L, Tang SC, Wu D, Korkaya H,
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
         <style>
           * {
               margin: 0;
