@@ -203,30 +203,35 @@ permalink: /
         <h2 style="text-align: center; margin-bottom: 30px; color: #520049;">数据统计仪表板</h2>
         
         <div class="amir-container">
-            <!-- 统计概览区域 -->
-            <section class="statistics-overview">
-                <h3 class="section-title">数据概览</h3>
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number" id="totalAptamers">0</div>
-                        <div class="stat-label">适配体总数</div>
+            <div class="chart-container">
+                <!-- 年份分布图表 -->
+                <div class="chart-wrapper">
+                    <div class="chart-header">
+                        <h4 class="chart-title">年份分布</h4>
+                        <div class="chart-controls">
+                            <span class="chart-info">点击柱状图进行多选筛选</span>
+                        </div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number" id="uniqueLigands">0</div>
-                        <div class="stat-label">配体种类</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number" id="yearSpan">0年</div>
-                        <div class="stat-label">时间跨度</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number" id="avgGC">0%</div>
-                        <div class="stat-label">平均GC含量</div>
+                    <div class="chart-content">
+                        <div id="yearChart" class="amir-chart"></div>
                     </div>
                 </div>
-            </section>
+                
+                <!-- GC区间分布图表 -->
+                <div class="chart-wrapper">
+                    <div class="chart-header">
+                        <h4 class="chart-title">GC含量区间分布</h4>
+                        <div class="chart-controls">
+                            <span class="chart-info">点击扇形区域进行多选筛选</span>
+                        </div>
+                    </div>
+                    <div class="chart-content">
+                        <div id="ligandChart" class="amir-chart"></div>
+                    </div>
+                </div>
+            </div>
 
-            <!-- 筛选控制区域 -->
+            <!-- 数据筛选条，移动到柱状图和饼图下方 -->
             <section class="filter-controls">
                 <div class="filter-header">
                     <h4 class="filter-title">数据筛选</h4>
@@ -240,67 +245,7 @@ permalink: /
                 </div>
             </section>
 
-            <!-- 主要图表区域 -->
-            <section class="charts-section">
-                <div class="chart-container">
-                    <!-- 年份分布图表 -->
-                    <div class="chart-wrapper">
-                        <div class="chart-header">
-                            <h4 class="chart-title">年份分布</h4>
-                            <div class="chart-controls">
-                                <span class="chart-info">点击柱状图进行多选筛选</span>
-                            </div>
-                        </div>
-                        <div class="chart-content">
-                            <div id="yearChart" class="amir-chart"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- GC区间分布图表 -->
-                    <div class="chart-wrapper">
-                        <div class="chart-header">
-                            <h4 class="chart-title">GC含量区间分布</h4>
-                            <div class="chart-controls">
-                                <span class="chart-info">点击扇形区域进行多选筛选</span>
-                            </div>
-                        </div>
-                        <div class="chart-content">
-                            <div id="ligandChart" class="amir-chart"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 散点图分析 -->
-                <div class="analysis-wrapper">
-                    <div class="chart-header">
-                        <h4 class="chart-title">序列长度 vs GC含量分布</h4>
-                        <div class="chart-controls">
-                            <span class="chart-info">拖拽选择区域进行筛选</span>
-                        </div>
-                    </div>
-                    <div class="chart-content">
-                        <div id="scatterChart" class="amir-chart-large"></div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- 详细数据计数 -->
-            <section class="data-summary">
-                <div class="summary-cards">
-                    <div class="summary-card">
-                        <span class="summary-label">当前显示</span>
-                        <span class="summary-count" id="currentCount">555</span>
-                        <span class="summary-unit">条数据</span>
-                    </div>
-                    <div class="summary-card">
-                        <span class="summary-label">筛选比例</span>
-                        <span class="summary-percentage" id="filterPercentage">100%</span>
-                        <span class="summary-unit">可见</span>
-                    </div>
-                </div>
-            </section>
-
-            <!-- 数据总表 -->
+            <!-- 先放数据详情表 -->
             <section class="data-table-section">
                 <div class="chart-header">
                     <h4 class="chart-title">数据详情表</h4>
@@ -329,6 +274,35 @@ permalink: /
                     </div>
                 </div>
             </section>
+
+            <!-- 详细数据计数，移动到表格和散点图之间 -->
+            <section class="data-summary">
+                <div class="summary-cards">
+                    <div class="summary-card">
+                        <span class="summary-label">当前显示</span>
+                        <span class="summary-count" id="currentCount">555</span>
+                        <span class="summary-unit">条数据</span>
+                    </div>
+                    <div class="summary-card">
+                        <span class="summary-label">筛选比例</span>
+                        <span class="summary-percentage" id="filterPercentage">100%</span>
+                        <span class="summary-unit">可见</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 再放散点图分析 -->
+            <div class="analysis-wrapper">
+                <div class="chart-header">
+                    <h4 class="chart-title">序列长度 vs GC含量分布</h4>
+                    <div class="chart-controls">
+                        <span class="chart-info">拖拽选择区域进行筛选</span>
+                    </div>
+                </div>
+                <div class="chart-content">
+                    <div id="scatterChart" class="amir-chart-large"></div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
