@@ -604,12 +604,14 @@ class AdvancedSearchModule {
                 } else {
                     this.renderGridView(resultsList, this.masonryData);
                 }
-                // 隐藏分页
+                // 隐藏分页，显示进度条
                 const paginationContainer = document.getElementById('paginationContainer');
                 if (paginationContainer) paginationContainer.style.display = 'none';
+                this.showMasonryProgressBar();
                 break;
             case 'table':
                 window.removeEventListener('scroll', this.handleMasonryScroll);
+                this.hideMasonryProgressBar();
                 this.itemsPerPage = this.itemsPerPageTable;
                 start = (this.currentPage - 1) * this.itemsPerPage;
                 end = start + this.itemsPerPage;
@@ -620,6 +622,7 @@ class AdvancedSearchModule {
             case 'list':
             default:
                 window.removeEventListener('scroll', this.handleMasonryScroll);
+                this.hideMasonryProgressBar();
                 this.itemsPerPage = this.itemsPerPageList;
                 start = (this.currentPage - 1) * this.itemsPerPage;
                 end = start + this.itemsPerPage;
@@ -630,9 +633,32 @@ class AdvancedSearchModule {
         }
     }
 
+    showMasonryProgressBar() {
+        const bar = document.getElementById('masonryProgressBar');
+        if (bar && this.filteredData.length > this.masonryPageSize) {
+            bar.style.display = 'flex';
+            this.updateMasonryProgressBar();
+        }
+    }
+
+    hideMasonryProgressBar() {
+        const bar = document.getElementById('masonryProgressBar');
+        if (bar) {
+            bar.style.display = 'none';
+        }
+    }
+
     handleMasonryScroll() {
         if (this.currentView !== 'grid') return;
-        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 200)) {
+        
+        // 计算滚动进度 - 考虑页面总高度和视窗位置
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollProgress = scrollTop / (documentHeight - windowHeight);
+        
+        // 基于滚动位置的智能加载
+        if ((windowHeight + scrollTop) >= (documentHeight - 200)) {
             // 快到底部时加载更多
             this.masonryPage++;
             const moreData = this.filteredData.slice(0, this.masonryPage * this.masonryPageSize);
@@ -640,24 +666,92 @@ class AdvancedSearchModule {
                 this.masonryData = moreData;
                 const resultsList = document.getElementById('resultsList');
                 this.renderGridView(resultsList, this.masonryData);
-                this.updateMasonryProgressBar();
             }
-        } else {
-            this.updateMasonryProgressBar();
         }
+        
+        // 实时更新进度条 - 传递滚动进度用于更精确的计算
+        this.updateMasonryProgressBar(scrollProgress);
     }
 
-    updateMasonryProgressBar() {
+    updateMasonryProgressBar(scrollProgress = 0) {
         const bar = document.getElementById('masonryProgressBar');
         const inner = document.getElementById('masonryProgressInner');
         if (!bar || !inner) return;
-        const barHeight = 320;
+        
         const total = this.filteredData.length;
         const loaded = this.masonryData.length;
-        const percent = total > 0 ? Math.min(loaded / total, 1) : 0;
-        const progressHeight = Math.max(8, Math.round(barHeight * percent));
-        inner.style.height = progressHeight + 'px';
+        
+        // 如果数据量小于一页，不显示进度条
+        if (total <= this.masonryPageSize) {
+            bar.style.display = 'none';
+            return;
+        }
+        
+        // 多维度进度计算
+        const dataLoadProgress = total > 0 ? (loaded / total) : 0;
+        const scrollWeight = Math.min(scrollProgress * 1.2, 1); // 滚动权重，略微放大
+        
+        // 综合进度：70% 基于数据加载，30% 基于滚动位置
+        const combinedProgress = (dataLoadProgress * 0.7) + (scrollWeight * 0.3);
+        const finalProgress = Math.min(combinedProgress, 1);
+        
+        // 进度条高度计算 - 使用缓动函数
+        const barHeight = 320; // 进度条总高度
+        const minHeight = 8; // 最小高度
+        const maxHeight = barHeight - 4; // 最大高度，留出边距
+        
+        // 使用缓动函数让进度条动画更自然
+        const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
+        const easedProgress = easeOutCubic(finalProgress);
+        
+        // 计算最终高度
+        const progressHeight = Math.max(minHeight, Math.round(maxHeight * easedProgress));
+        
+        // 渐变动画更新
+        const currentHeight = parseInt(inner.style.height) || minHeight;
+        const heightDiff = progressHeight - currentHeight;
+        
+        if (Math.abs(heightDiff) > 2) {
+            // 使用CSS transition实现平滑动画
+            inner.style.transition = 'height 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
+            inner.style.height = progressHeight + 'px';
+        } else {
+            // 微小变化直接设置，避免不必要的动画
+            inner.style.transition = 'none';
+            inner.style.height = progressHeight + 'px';
+        }
+        
+        // 根据进度调整进度条颜色渐变
+        const hue = 240 + (finalProgress * 60); // 从紫色(300)到蓝色(240)
+        const saturation = 60 + (finalProgress * 30); // 饱和度递增
+        const lightness = 50 + (finalProgress * 20); // 亮度递增
+        
+        inner.style.background = `linear-gradient(180deg, 
+            hsl(${hue}, ${saturation}%, ${lightness}%) 0%, 
+            hsl(${hue - 20}, ${saturation + 10}%, ${lightness - 15}%) 100%)`;
+        
+        // 进度条阴影效果随进度增强
+        const shadowIntensity = 0.2 + (finalProgress * 0.3);
+        inner.style.boxShadow = `0 0 ${8 + finalProgress * 4}px hsla(${hue}, ${saturation}%, ${lightness}%, ${shadowIntensity})`;
+        
+        // 显示进度条
         bar.style.display = 'flex';
+        
+        // 如果完全加载完毕，添加完成效果
+        if (loaded >= total && finalProgress >= 0.98) {
+            setTimeout(() => {
+                inner.style.background = 'linear-gradient(180deg, #10b981 0%, #059669 100%)';
+                inner.style.boxShadow = '0 0 12px rgba(16, 185, 129, 0.4)';
+                
+                // 2秒后恢复原色
+                setTimeout(() => {
+                    inner.style.background = `linear-gradient(180deg, 
+                        hsl(${hue}, ${saturation}%, ${lightness}%) 0%, 
+                        hsl(${hue - 20}, ${saturation + 10}%, ${lightness - 15}%) 100%)`;
+                    inner.style.boxShadow = `0 0 ${8 + finalProgress * 4}px hsla(${hue}, ${saturation}%, ${lightness}%, ${shadowIntensity})`;
+                }, 2000);
+            }, 300);
+        }
     }
 
     renderListView(container, data) {
