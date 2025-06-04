@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Theophylline aptamer"
+title:  "Theophylline aptamer_old"
 date:   2024-04-24 00:00:00
 author: Linfei Li, Jiali Wang
 categories: Aptamer
@@ -1470,6 +1470,11 @@ Wrist, A., Sun, W., & Summers, R. M.<br />
 
 <a id="ref30"></a><font><strong>[30] Discovery of small molecules that target a tertiary-structured RNA.</strong></font><br />
 Menichelli, E., Lam, B. J., Wang, Y., Wang, V. S., Shaffer, J., Tjhung, K. F., Bursulaya, B., Nguyen, T. N., Vo, T., Alper, P. B., McAllister, C. S., Jones, D. H., Spraggon, G., Michellys, P. Y., Joslin, J., Joyce, G. F., & Rogers, J.<br />
+<<<<<<< HEAD:_posts/Theophylline-aptamer.md
   <a href="https://pubmed.ncbi.nlm.nih.gov/36413497/" target="_blank" style="color:#520049" >Proceedings of the National Academy of Sciences of the United States of America, 119(48), e2213117119. (2022)</a>
 <br />
 </div>
+=======
+<a href="https://pubmed.ncbi.nlm.nih.gov/36413497/" target="_blank" style="color:#520049" >Proceedings of the National Academy of Sciences of the United States of America, 119(48), e2213117119. (2022)</a>
+<br />
+>>>>>>> f61fe444c599dd8b992a63bfcf84339d08f7a859:_posts/Theophylline-aptamer_old.md
