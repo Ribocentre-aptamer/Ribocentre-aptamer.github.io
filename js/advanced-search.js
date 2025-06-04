@@ -8,11 +8,17 @@ class AdvancedSearchModule {
         this.searchData = [];
         this.filteredData = [];
         this.currentPage = 1;
-        this.itemsPerPage = 10;
+        this.itemsPerPageList = 5;
+        this.itemsPerPageTable = 20;
+        this.itemsPerPage = this.itemsPerPageList; // 默认list
         this.searchTimeout = null;
         this.currentFilters = {};
         this.currentSearchType = 'all';
         this.currentView = 'list';
+        this.masonryLoaded = false;
+        this.masonryPage = 1;
+        this.masonryPageSize = 30;
+        this.masonryData = [];
         
         this.init();
     }
@@ -190,6 +196,10 @@ class AdvancedSearchModule {
 
         // Floating buttons
         this.setupFloatingButtons();
+
+        const searchCard = document.querySelector('.search-card');
+        const filterCard = document.querySelector('.filter-card');
+        const resultsList = document.getElementById('resultsList');
     }
 
     setupFilterControls() {
@@ -580,33 +590,74 @@ class AdvancedSearchModule {
         const resultsList = document.getElementById('resultsList');
         if (!resultsList) return;
 
-        const start = (this.currentPage - 1) * this.itemsPerPage;
-        const end = start + this.itemsPerPage;
-        const pageData = this.filteredData.slice(start, end);
-
-        if (pageData.length === 0) {
-            resultsList.innerHTML = `
-                <div class="no-results">
-                    <i class="fas fa-search" style="font-size: 48px; color: #ddd; margin-bottom: 20px;"></i>
-                    <h3>No matching results found</h3>
-                    <p>Please try adjusting your search keywords or filter criteria</p>
-                </div>
-            `;
-            return;
-        }
-
+        let start, end, pageData;
         switch (this.currentView) {
             case 'grid':
-                this.renderGridView(resultsList, pageData);
+                // 瀑布流无限加载，不渲染分页
+                if (!this.masonryLoaded) {
+                    this.masonryLoaded = true;
+                    this.masonryPage = 1;
+                    this.masonryPageSize = 30;
+                    this.masonryData = this.filteredData.slice(0, this.masonryPage * this.masonryPageSize);
+                    this.renderGridView(resultsList, this.masonryData);
+                    window.addEventListener('scroll', this.handleMasonryScroll.bind(this));
+                } else {
+                    this.renderGridView(resultsList, this.masonryData);
+                }
+                // 隐藏分页
+                const paginationContainer = document.getElementById('paginationContainer');
+                if (paginationContainer) paginationContainer.style.display = 'none';
                 break;
             case 'table':
+                window.removeEventListener('scroll', this.handleMasonryScroll);
+                this.itemsPerPage = this.itemsPerPageTable;
+                start = (this.currentPage - 1) * this.itemsPerPage;
+                end = start + this.itemsPerPage;
+                pageData = this.filteredData.slice(start, end);
                 this.renderTableView(resultsList, pageData);
+                this.setupPagination();
                 break;
             case 'list':
             default:
+                window.removeEventListener('scroll', this.handleMasonryScroll);
+                this.itemsPerPage = this.itemsPerPageList;
+                start = (this.currentPage - 1) * this.itemsPerPage;
+                end = start + this.itemsPerPage;
+                pageData = this.filteredData.slice(start, end);
                 this.renderListView(resultsList, pageData);
+                this.setupPagination();
                 break;
         }
+    }
+
+    handleMasonryScroll() {
+        if (this.currentView !== 'grid') return;
+        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 200)) {
+            // 快到底部时加载更多
+            this.masonryPage++;
+            const moreData = this.filteredData.slice(0, this.masonryPage * this.masonryPageSize);
+            if (moreData.length > this.masonryData.length) {
+                this.masonryData = moreData;
+                const resultsList = document.getElementById('resultsList');
+                this.renderGridView(resultsList, this.masonryData);
+                this.updateMasonryProgressBar();
+            }
+        } else {
+            this.updateMasonryProgressBar();
+        }
+    }
+
+    updateMasonryProgressBar() {
+        const bar = document.getElementById('masonryProgressBar');
+        const inner = document.getElementById('masonryProgressInner');
+        if (!bar || !inner) return;
+        const barHeight = 320;
+        const total = this.filteredData.length;
+        const loaded = this.masonryData.length;
+        const percent = total > 0 ? Math.min(loaded / total, 1) : 0;
+        const progressHeight = Math.max(8, Math.round(barHeight * percent));
+        inner.style.height = progressHeight + 'px';
+        bar.style.display = 'flex';
     }
 
     renderListView(container, data) {
@@ -635,43 +686,47 @@ class AdvancedSearchModule {
     }
 
     renderGridView(container, data) {
-        const html = data.map(item => `
-            <div class="result-item-grid">
-                <div class="grid-card">
-                    <div class="card-header">
-                        <h4 class="card-title">${this.truncateText(item.title || 'Unknown Title', 50)}</h4>
-                        <div class="card-year">${item.date ? item.date.split('-')[0] : 'Unknown'}</div>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-meta">
-                            <div class="meta-row">
-                                <span class="meta-label">Target:</span>
-                                <span class="meta-value">${item.target || 'Unknown'}</span>
+        // 使用瀑布流布局
+        const html = `
+            <div class="results-masonry">
+                ${data.map(item => `
+                    <div class="result-item-masonry">
+                        <div class="masonry-card">
+                            <div class="card-header-masonry">
+                                <h4 class="card-title-masonry">${this.truncateText(item.title || 'Unknown Title', 50)}</h4>
+                                <div class="card-year">${item.date ? item.date.split('-')[0] : 'Unknown'}</div>
                             </div>
-                            <div class="meta-row">
-                                <span class="meta-label">Length:</span>
-                                <span class="meta-value">${item.sequence_length || 'Unknown'} bp</span>
+                            <div class="card-body">
+                                <div class="card-meta">
+                                    <div class="meta-row">
+                                        <span class="meta-label">Target:</span>
+                                        <span class="meta-value">${item.target || 'Unknown'}</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-label">Length:</span>
+                                        <span class="meta-value">${item.sequence_length || 'Unknown'} bp</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-label">GC Content:</span>
+                                        <span class="meta-value">${item.gc_content || 'Unknown'}%</span>
+                                    </div>
+                                    <div class="meta-row">
+                                        <span class="meta-label">Category:</span>
+                                        <span class="meta-value">${item.category || 'Unknown'}</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="meta-row">
-                                <span class="meta-label">GC Content:</span>
-                                <span class="meta-value">${item.gc_content || 'Unknown'}%</span>
-                            </div>
-                            <div class="meta-row">
-                                <span class="meta-label">Category:</span>
-                                <span class="meta-value">${item.category || 'Unknown'}</span>
+                            <div class="card-footer">
+                                <a href="${item.url}" target="_blank" class="btn-view-details">
+                                    View Details
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="card-footer">
-                        <a href="${item.url}" target="_blank" class="btn-view-details">
-                            View Details
-                        </a>
-                    </div>
-                </div>
+                `).join('')}
             </div>
-        `).join('');
-
-        container.innerHTML = `<div class="results-grid">${html}</div>`;
+        `;
+        container.innerHTML = html;
     }
 
     renderTableView(container, data) {
@@ -910,12 +965,12 @@ class AdvancedSearchModule {
 
     exportResults() {
         if (!this.filteredData.length) {
-            alert('No data to export');
+            alert('没有数据可导出');
             return;
         }
 
-        // Create CSV content
-        const headers = ['Title', 'Target', 'Category', 'Date', 'Length', 'GC Content', 'Tags', 'URL'];
+        // 创建CSV内容
+        const headers = ['标题', '目标', '分类', '日期', '长度', 'GC含量', '标签', 'URL'];
         const csvContent = [
             headers.join(','),
             ...this.filteredData.map(item => [
@@ -930,7 +985,7 @@ class AdvancedSearchModule {
             ].join(','))
         ].join('\n');
 
-        // Download file
+        // 下载文件
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement('a');
         const url = URL.createObjectURL(blob);
@@ -943,19 +998,67 @@ class AdvancedSearchModule {
     }
 
     showSuggestions() {
-        // Show search suggestions implementation
         const suggestions = document.getElementById('searchSuggestions');
-        if (suggestions) {
+        const searchInput = document.getElementById('mainSearchInput');
+        
+        if (!suggestions || !searchInput) return;
+
+        const query = searchInput.value.trim().toLowerCase();
+        if (query.length < 2) {
+            suggestions.style.display = 'none';
+            return;
+        }
+
+        // 从搜索数据中获取建议
+        const suggestionsList = this.searchData
+            .filter(item => {
+                const searchFields = [
+                    item.title || '',
+                    item.content || '',
+                    item.tags || '',
+                    item.category || '',
+                    item.target || ''
+                ].join(' ').toLowerCase();
+                return searchFields.includes(query);
+            })
+            .slice(0, 5) // 只显示前5个建议
+            .map(item => ({
+                title: item.title,
+                category: item.category,
+                url: item.url
+            }));
+
+        if (suggestionsList.length > 0) {
+            const html = suggestionsList.map(item => `
+                <div class="suggestion-item" data-url="${item.url}">
+                    <div class="suggestion-title">${this.highlightKeywords(item.title, query)}</div>
+                    ${item.category ? `<div class="suggestion-category">${item.category}</div>` : ''}
+                </div>
+            `).join('');
+
+            suggestions.innerHTML = html;
             suggestions.style.display = 'block';
-            // Here you can add actual suggestion logic based on search data
+
+            // 添加点击事件
+            suggestions.querySelectorAll('.suggestion-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const url = item.getAttribute('data-url');
+                    if (url) {
+                        window.open(url, '_blank');
+                    }
+                });
+            });
+        } else {
+            suggestions.style.display = 'none';
         }
     }
 
-    hideSuggestions() {
-        const suggestions = document.getElementById('searchSuggestions');
-        if (suggestions) {
-            suggestions.style.display = 'none';
-        }
+    highlightKeywords(text, query) {
+        if (!text || !query) return text;
+        
+        const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`(${escapedQuery})`, 'gi');
+        return text.replace(regex, '<span class="keyword-highlight">$1</span>');
     }
 
     setupFilters() {

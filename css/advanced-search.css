@@ -1113,6 +1113,9 @@
     transform-origin: center;
     transform: scale(1);
     will-change: transform;
+    background: linear-gradient(135deg, #e9e6ff 0%, #e0c6ff 100%) !important;
+    z-index: 9999 !important;
+    position: relative;
 }
 
 .search-card::before {
@@ -1176,6 +1179,7 @@
     position: relative;
     z-index: 999;
     transform-origin: center top;
+    background: linear-gradient(135deg, #fffbe6 0%, #ffd6e0 100%) !important;
 }
 
 .filter-card .filter-header {
@@ -1241,20 +1245,6 @@
 .search-card.slide-left,
 .filter-card.slide-left {
     animation: slideToLeft 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-/* 拖尾效果 */
-.filter-card::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
-    height: 10px;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.8), transparent);
-    opacity: 0;
-    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-    pointer-events: none;
 }
 
 .filter-card:not(.collapsed)::after {
@@ -1325,4 +1315,141 @@
         transform: translateY(-100%);
         opacity: 0;
     }
+}
+
+.card-slide-left {
+    transition: transform 0.6s cubic-bezier(0.4,0,0.2,1);
+    transform: translateX(-120%) !important;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.card-shrink-left {
+    transition: transform 0.5s linear;
+    transform: scale(0.7) translateX(-20%);
+    opacity: 1;
+    z-index: 10;
+}
+
+.results-masonry {
+    column-count: 3;
+    column-gap: 24px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+@media (max-width: 900px) {
+    .results-masonry { column-count: 2; }
+}
+@media (max-width: 600px) {
+    .results-masonry { column-count: 1; }
+}
+.result-item-masonry {
+    break-inside: avoid;
+    margin-bottom: 24px;
+}
+.masonry-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s;
+}
+.masonry-card:hover {
+    box-shadow: 0 8px 32px rgba(60,60,60,0.16);
+}
+.card-header-masonry {
+    background: linear-gradient(135deg, #520049 0%, #a084e8 100%);
+    color: #fff;
+    padding: 18px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card-title-masonry {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff !important;
+    text-shadow: 0 2px 8px rgba(82,0,73,0.10), 0 1px 0 #333;
+}
+
+/* BackToTop按钮优化 */
+.bento-fab.bento-fab-top {
+    background: #520049 !important;
+    color: #fff;
+    border: none;
+    box-shadow: 0 6px 24px 0 #a084e855;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4em;
+    transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+    position: relative;
+}
+.bento-fab.bento-fab-top:hover {
+    background: #a084e8 !important;
+    color: #fff;
+    box-shadow: 0 12px 32px 0 #52004999;
+}
+.bento-fab.bento-fab-top i {
+    font-size: 1em;
+    margin: 0;
+    line-height: 1;
+}
+
+/* back to top按钮悬浮气泡提示 */
+.bento-fab-top .fab-tooltip {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    color: #520049;
+    padding: 7px 18px;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: 0 2px 12px #a084e855;
+    white-space: nowrap;
+    z-index: 10000;
+    pointer-events: none;
+    opacity: 0.95;
+}
+.bento-fab-top:hover .fab-tooltip {
+    display: block;
+}
+
+/* 线性增长、无斑马纹的竖直进度条 */
+.masonry-progress-bar-apple {
+    position: fixed;
+    left: 32px;
+    top: 120px;
+    width: 16px;
+    height: 320px;
+    background: #f3eaff;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px 0 #52004933;
+    z-index: 99999;
+    pointer-events: none;
+    opacity: 0.98;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #520049;
+}
+.masonry-progress-inner {
+    width: 100%;
+    background: linear-gradient(180deg, #a084e8 0%, #520049 100%);
+    border-radius: 10px;
+    transition: height 0.5s cubic-bezier(.4,0,.2,1);
+    box-shadow: 0 0 8px #a084e855;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 } 
