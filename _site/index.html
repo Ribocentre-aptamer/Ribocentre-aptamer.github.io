@@ -1568,6 +1568,8 @@
         searchDelay: 300, // 搜索延迟时间（毫秒）
         minSearchLength: 2 // 最小搜索字符长度
     };
+    
+    // 如果您想完全禁用hero section高度调整功能，请将上面的 disableHeroHeightFix 设置为 true
 </script>
 
 <!-- Hero Section -->
@@ -1708,9 +1710,6 @@
         <div class="homepage-search-box">
             <input type="text" class="homepage-search-input" placeholder="输入适配体名称、序列或靶标..." 
                    id="mainSearch" 
-                   oninput="handleSearchInput()" 
-                   onfocus="handleSearchFocus()" 
-                   onblur="handleSearchBlur()" 
                    autocomplete="off">
         </div>
         
@@ -1747,6 +1746,29 @@
         <h2 style="text-align: center; margin-bottom: 30px; color: #520049;">数据统计仪表板</h2>
         
         <div class="amir-container">
+            <!-- 统计概览区域 -->
+            <section class="statistics-overview">
+                <h3 class="section-title">数据概览</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalAptamers">0</div>
+                        <div class="stat-label">适配体总数</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="uniqueLigands">0</div>
+                        <div class="stat-label">配体种类</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="yearSpan">0年</div>
+                        <div class="stat-label">时间跨度</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="avgGC">0%</div>
+                        <div class="stat-label">平均GC含量</div>
+                    </div>
+                </div>
+            </section>
+
             <!-- 筛选控制区域 -->
             <section class="filter-controls">
                 <div class="filter-header">
@@ -2619,244 +2641,28 @@ function copyCitation() {
 </style>
 
 <script>
-// 模拟搜索数据
-const searchData = [
-    {
-        title: "TetR aptamer",
-        description: "...y of 80 nM; ITC recorded a KjD of 5.6 nM and confirmed a 1-to-1 stoichiometry. ITC also showed the complex formation is enthalpy-driven (ΔH = -156.0 kJ mol−1) with large entropy reduction (TΔS = -108.8 kJ mol−1)[5]. Name Sequence Ligand Affinity ..."
-    },
-    {
-        title: "Ribocentre Aptamer - Publications", 
-        description: "...tor inhibitor-1 binding motif in the somatomedin B domain of vitronectin The Journal of biological chemistry 1997 Kjøller, L., Kanse, S. M., Kirkegaard, T., Rodenburg, K. W. Plasminogen activator inhibitor-1 represses integrin- and vitronectin-mediated cell m..."
-    },
-    {
-        title: "Arginine aptamer",
-        description: "...[1] Molecular Recognition of Amino Acids by RNA-Aptamers: An L-Citrulline Binding RNA Motif and Its Evolution into an L-Arginine Binder.Michael Famulok kJ Journal of the American Chemical Society 1994 116 (5), 1698-1706 (1994) [2] Structural probing and damage selection of citrulline- and..."
-    }
-];
+// 模拟搜索数据 - 移除，现在由SearchModule处理
+// 所有搜索相关的JavaScript代码已移至js/homepage-main.js中的SearchModule
 
-let searchTimeout;
-let searchInput;
-let heroOriginalHeight = null;
-let overviewOriginalHeight = null;
-let isSearchActive = false;
-
-// 处理搜索框获得焦点
-function handleSearchFocus() {
-    if (!window.SEARCH_CONFIG.disableHeroHeightFix && !isSearchActive) {
-        isSearchActive = true;
-        fixHeroHeight();
-    }
-}
-
-// 处理搜索框失去焦点
-function handleSearchBlur() {
-    // 延迟执行，避免点击搜索结果时立即恢复
-    setTimeout(() => {
-        const overlay = document.getElementById('searchResultsOverlay');
-        const searchInput = document.getElementById('mainSearch');
+// 复制引用功能
+function copyCitation() {
+    const citation = 'Zhichao Miao, Lin Huang. Ribocentre-aptamer: a database of aptamers.';
+    navigator.clipboard.writeText(citation).then(function() {
+        // 显示复制成功提示
+        const btn = document.querySelector('.copy-citation-btn');
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-check"></i> 已复制';
+        btn.style.background = '#28a745';
         
-        // 只有当搜索结果没有显示且搜索框确实失去焦点时才恢复
-        if (!overlay.classList.contains('show') && document.activeElement !== searchInput) {
-            if (!window.SEARCH_CONFIG.disableHeroHeightFix) {
-                isSearchActive = false;
-                restoreHeroHeight();
-            }
-        }
-    }, 150);
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.style.background = '';
+        }, 2000);
+    }).catch(function(err) {
+        console.error('复制失败:', err);
+        alert('复制失败，请手动复制引用内容');
+    });
 }
-
-// 处理搜索输入 - 新增智能防抖逻辑
-function handleSearchInput() {
-    const query = document.getElementById('mainSearch').value.trim();
-    const config = window.SEARCH_CONFIG;
-    
-    // 清除之前的搜索延时
-    clearTimeout(searchTimeout);
-    
-    // 如果查询为空，立即隐藏结果
-    if (query.length === 0) {
-        hideSearchResults();
-        return;
-    }
-    
-    // 如果查询长度小于配置的最小长度，不进行搜索
-    if (query.length < config.minSearchLength) {
-        return;
-    }
-    
-    // 确保Hero Section高度已固定（如果启用）
-    if (!config.disableHeroHeightFix && !isSearchActive) {
-        isSearchActive = true;
-        fixHeroHeight();
-    }
-    
-    // 延迟执行搜索
-    searchTimeout = setTimeout(() => {
-        performSearch();
-    }, config.searchDelay);
-}
-
-// 固定Hero Section高度
-function fixHeroHeight() {
-    const heroSection = document.querySelector('.hero-section');
-    const overviewContainer = document.querySelector('.overview-container');
-    
-    if (heroSection && !heroSection.classList.contains('search-active')) {
-        // 保存原始高度
-        heroOriginalHeight = heroSection.getBoundingClientRect().height;
-        heroSection.style.setProperty('--hero-fixed-height', heroOriginalHeight + 'px');
-        heroSection.classList.add('search-active');
-    }
-    
-    if (overviewContainer && !overviewContainer.classList.contains('search-active')) {
-        overviewOriginalHeight = overviewContainer.getBoundingClientRect().height;
-        overviewContainer.style.setProperty('--overview-fixed-height', overviewOriginalHeight + 'px');
-        overviewContainer.classList.add('search-active');
-    }
-}
-
-// 恢复Hero Section高度
-function restoreHeroHeight() {
-    const heroSection = document.querySelector('.hero-section');
-    const overviewContainer = document.querySelector('.overview-container');
-    
-    if (heroSection && heroSection.classList.contains('search-active')) {
-        heroSection.classList.remove('search-active');
-        heroSection.style.removeProperty('--hero-fixed-height');
-    }
-    
-    if (overviewContainer && overviewContainer.classList.contains('search-active')) {
-        overviewContainer.classList.remove('search-active');
-        overviewContainer.style.removeProperty('--overview-fixed-height');
-    }
-}
-
-function performSearch() {
-    const query = document.getElementById('mainSearch').value.trim();
-    const overlay = document.getElementById('searchResultsOverlay');
-    const resultsContainer = document.getElementById('searchResults');
-    const resultsList = document.getElementById('searchResultsList');
-    const resultsCount = document.getElementById('searchResultsCount');
-    
-    // 如果查询为空，隐藏结果并返回
-    if (query.length === 0) {
-        hideSearchResults();
-        return;
-    }
-    
-    // 计算搜索框位置
-    const searchBox = document.getElementById('mainSearch');
-    const searchBoxRect = searchBox.getBoundingClientRect();
-    const searchTop = searchBoxRect.bottom + window.scrollY + 10;
-    
-    // 设置搜索结果位置
-    resultsContainer.style.setProperty('--search-top', searchTop + 'px');
-    resultsContainer.classList.add('positioned');
-    
-    // 模拟搜索逻辑
-    const filteredResults = searchData.filter(item => 
-        item.title.toLowerCase().includes(query.toLowerCase()) ||
-        item.description.toLowerCase().includes(query.toLowerCase())
-    );
-    
-    // 显示结果
-    resultsCount.textContent = `找到 ${filteredResults.length} 个结果（用时 3 毫秒）`;
-    
-    if (filteredResults.length > 0) {
-        resultsList.innerHTML = filteredResults.map(item => `
-            <div class="search-result-item" onclick="openAptamerDetail('${item.title}')">
-                <div class="search-result-title">${highlightText(item.title, query)}</div>
-                <div class="search-result-description">${highlightText(item.description, query)}</div>
-            </div>
-        `).join('');
-    } else {
-        resultsList.innerHTML = `
-            <div class="search-no-results">
-                <i class="fas fa-search"></i>
-                <div>未找到相关结果</div>
-                <div style="font-size: 12px; margin-top: 5px;">请尝试其他关键词</div>
-            </div>
-        `;
-    }
-    
-    // 显示搜索结果
-    overlay.style.display = 'block';
-    // 强制重排，然后添加show类以触发动画
-    overlay.offsetHeight;
-    overlay.classList.add('show');
-}
-
-function hideSearchResults() {
-    const overlay = document.getElementById('searchResultsOverlay');
-    overlay.classList.remove('show');
-    
-    setTimeout(() => {
-        overlay.style.display = 'none';
-    }, 300);
-}
-
-function highlightText(text, query) {
-    if (!query) return text;
-    const regex = new RegExp(`(${query})`, 'gi');
-    return text.replace(regex, '<mark style="background: #fff3cd; padding: 1px 2px; border-radius: 2px;">$1</mark>');
-}
-
-function closeSearchResults() {
-    document.getElementById('mainSearch').value = '';
-    hideSearchResults();
-    
-    // 如果启用了hero height fix，触发blur事件来恢复Hero Section高度
-    if (!window.SEARCH_CONFIG.disableHeroHeightFix) {
-        document.getElementById('mainSearch').blur();
-    }
-}
-
-function openAptamerDetail(aptamerName) {
-    console.log('打开适配体详情:', aptamerName);
-    closeSearchResults();
-}
-
-// 点击覆盖层关闭搜索结果
-document.addEventListener('click', function(event) {
-    const overlay = document.getElementById('searchResultsOverlay');
-    const searchInput = document.getElementById('mainSearch');
-    const resultsContainer = document.getElementById('searchResults');
-    
-    // 如果点击的是覆盖层（不是搜索结果容器），或者不是搜索输入框
-    if (event.target === overlay || (!resultsContainer.contains(event.target) && event.target !== searchInput)) {
-        hideSearchResults();
-        if (document.activeElement === searchInput) {
-            searchInput.blur();
-        }
-    }
-});
-
-// ESC键关闭搜索结果
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-        closeSearchResults();
-    }
-});
-
-// 窗口大小改变时重新计算位置和高度
-window.addEventListener('resize', function() {
-    const overlay = document.getElementById('searchResultsOverlay');
-    if (overlay.classList.contains('show')) {
-        const searchBox = document.getElementById('mainSearch');
-        const searchBoxRect = searchBox.getBoundingClientRect();
-        const searchTop = searchBoxRect.bottom + window.scrollY + 10;
-        
-        const resultsContainer = document.getElementById('searchResults');
-        resultsContainer.style.setProperty('--search-top', searchTop + 'px');
-    }
-    
-    // 如果搜索处于活动状态，重新固定高度
-    if (isSearchActive) {
-        restoreHeroHeight();
-        setTimeout(fixHeroHeight, 50);
-    }
-});
 </script> 
   </div>
   <br>

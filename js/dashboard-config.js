@@ -3,6 +3,21 @@
 // ====== 全局变量 ======
 let originalData = [];
 let filteredData = [];
+
+// 冻结数据和节点层级管理
+let nodeInteractionOrder = []; // 用户交互顺序，保存图表ID: ['yearChart', 'ligandChart', 'scatterChart']
+let nodeFilteredData = {  // 每个节点的筛选后数据
+    yearChart: [],       // A节点(柱状图)的筛选后数据
+    ligandChart: [],     // B节点(饼图)的筛选后数据
+    scatterChart: []     // C节点(散点图)的筛选后数据
+};
+let nodeFrozenState = {  // 每个节点的冻结状态
+    yearChart: false,    // A节点是否冻结
+    ligandChart: false,  // B节点是否冻结
+    scatterChart: false  // C节点是否冻结
+};
+
+// 筛选条件
 let activeFilters = {
     years: new Set(),
     gcBins: new Set(),
@@ -28,7 +43,12 @@ const morandiDim = 'rgba(180,180,180,0.3)'; // 非高亮部分叠加的半透明
 // ====== 图表配置 ======
 const chartConfig = {
     responsive: true,
-    displayModeBar: false
+    displayModeBar: false,
+    // 提升悬停性能的配置
+    interaction: {
+        intersect: false,
+        mode: 'nearest'
+    }
 };
 
 const chartLayoutBase = {
@@ -38,7 +58,10 @@ const chartLayoutBase = {
         family: 'Helvetica Neue, Helvetica, Arial, sans-serif',
         size: 12,
         color: '#555'
-    }
+    },
+    // 全局悬停配置
+    hovermode: 'closest',
+    hoverdistance: 50
 };
 
 // ====== 工具函数 ======
@@ -105,6 +128,22 @@ function resetAllFilters() {
     activeFilters.years.clear();
     activeFilters.gcBins.clear();
     activeFilters.scatterSelection = null;
+    
+    // 重置节点交互顺序和冻结状态
+    nodeInteractionOrder = [];
+    nodeFrozenState.yearChart = false;
+    nodeFrozenState.ligandChart = false;
+    nodeFrozenState.scatterChart = false;
+    
+    // 重置各节点数据
+    nodeFilteredData.yearChart = [];
+    nodeFilteredData.ligandChart = [];
+    nodeFilteredData.scatterChart = [];
+    
+    // 更新筛选后数据
+    filteredData = [...originalData];
+    
+    // 更新UI
     applyFilters();
 }
 

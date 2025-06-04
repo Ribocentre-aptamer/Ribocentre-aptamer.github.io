@@ -210,6 +210,17 @@
     border: 1px solid #e9ecef;
 }
 
+/* 节点状态指示器样式 */
+.node-state-indicator {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #520049;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
 .chart-content {
     padding: 15px;
 }
@@ -399,6 +410,31 @@
 
 .plotly .cursor-pointer .nsewdrag {
     cursor: pointer !important;
+}
+
+/* 散点图特定优化 */
+#scatterChart .plotly .main-svg {
+    overflow: visible;
+}
+
+#scatterChart .plotly .scatterlayer .trace .points path {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* 改善散点图悬停区域 */
+#scatterChart .plotly .hoverlayer .hovertext {
+    pointer-events: none;
+    white-space: nowrap;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 250px;
+}
+
+/* 散点图标记点悬停效果 */
+#scatterChart .plotly .scatterlayer .trace .points path:hover {
+    stroke-width: 2px !important;
+    filter: brightness(1.1);
 }
 
 /* 响应式设计 */
