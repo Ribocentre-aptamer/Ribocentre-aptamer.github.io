@@ -167,99 +167,6 @@ categories: Aptamer
       transform: rotate(-45deg) translate(4px, -4px);
     }
 
-    .side-nav {
-      position: fixed;
-      top: 50%;
-      right: 100px;
-      transform: translateY(-50%) scale(0);
-      background: rgba(255, 255, 255, 0.95);
-      padding: 20px 0;
-      border-radius: var(--border-radius);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      z-index: 999;
-      transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      backdrop-filter: blur(15px);
-      -webkit-backdrop-filter: blur(15px);
-      min-width: 200px;
-      opacity: 0;
-    }
-
-    .side-nav.active {
-      transform: translateY(-50%) scale(1);
-      opacity: 1;
-    }
-
-    .side-nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .side-nav-item {
-      margin: 0;
-      position: relative;
-    }
-
-    .side-nav-item a {
-      display: block;
-      padding: 12px 20px;
-      color: var(--primary-color);
-      text-decoration: none;
-      transition: var(--transition);
-      font-size: 14px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .side-nav-item a::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 4px;
-      background: var(--primary-color);
-      transform: scaleY(0);
-      transition: transform 0.2s;
-    }
-
-    .side-nav-item a:hover {
-      background: rgba(82, 0, 73, 0.1);
-      padding-left: 25px;
-    }
-
-    .side-nav-item a:hover::before {
-      transform: scaleY(1);
-    }
-
-    .side-nav-item.active a {
-      background: rgba(82, 0, 73, 0.1);
-      font-weight: 600;
-    }
-
-    .side-nav-item.active a::before {
-      transform: scaleY(1);
-    }
-
-    /* 阅读进度条样式 */
-    .progress-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background: transparent;
-      z-index: 1001;
-    }
-
-    .progress-bar {
-      height: 100%;
-      background: var(--primary-color);
-      width: 0%;
-      transition: width 0.1s ease;
-      box-shadow: 0 0 10px rgba(82, 0, 73, 0.3);
-    }
-
     /* 遮罩层样式 */
     .overlay {
       position: fixed;
@@ -267,7 +174,7 @@ categories: Aptamer
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.3);
       opacity: 0;
       visibility: hidden;
       transition: var(--transition);
@@ -713,6 +620,155 @@ categories: Aptamer
     .binding-pocket-table td img {
       max-width: none;
       width: 500px;
+      height: auto;
+    }
+
+    /* 侧边导航样式 */
+    .side-nav {
+      position: fixed !important;
+      top: 50% !important;
+      right: 90px !important;
+      left: auto !important;
+      transform: translateY(-50%) scale(0);
+      background: rgba(255, 255, 255, 0.95);
+      padding: 15px 0;
+      border-radius: var(--border-radius);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      z-index: 999;
+      transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      width: 200px;
+      max-width: 200px;
+      opacity: 0;
+    }
+
+    .side-nav.active {
+      transform: translateY(-50%) scale(1);
+      opacity: 1;
+    }
+
+    .side-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .side-nav-item {
+      margin: 0;
+      position: relative;
+    }
+
+    .side-nav-item a {
+      display: block;
+      padding: 10px 15px;
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: var(--transition);
+      font-size: 14px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .side-nav-item a::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 4px;
+      background: var(--primary-color);
+      transform: scaleY(0);
+      transition: transform 0.2s;
+    }
+
+    .side-nav-item a:hover {
+      background: rgba(82, 0, 73, 0.1);
+      padding-left: 20px;
+    }
+
+    .side-nav-item a:hover::before {
+      transform: scaleY(1);
+    }
+
+    .side-nav-item.active a {
+      background: rgba(82, 0, 73, 0.1);
+      font-weight: 600;
+    }
+
+    .side-nav-item.active a::before {
+      transform: scaleY(1);
+    }
+
+    /* 阅读进度条样式 */
+    .progress-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: transparent;
+      z-index: 1001;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: var(--primary-color);
+      width: 0%;
+      transition: width 0.1s ease;
+      box-shadow: 0 0 10px rgba(82, 0, 73, 0.3);
+    }
+
+    /* 参考文献样式优化 - 使用更精确的选择器 */
+    div.content-section h2[id="references"] + a[id^="ref"],
+    div.content-section a[id^="ref"] + a[id^="ref"] {
+      display: block;
+      margin-top: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(82, 0, 73, 0.1);
+    }
+    
+    div.content-section a[id^="ref"]:nth-of-type(odd) {
+      background-color: rgba(245, 245, 245, 0.5);
+      padding: 10px;
+      border-radius: var(--border-radius);
+    }
+    
+    /* 强制样式应用 */
+    div.content-section a[id^="ref"] {
+      display: block !important;
+      margin-top: 15px !important;
+    }
+    
+    /* 调整Similar compound表格列宽 */
+    .table th:nth-child(1), 
+    .table td:nth-child(1) {
+      width: 12%;
+    }
+    
+    .table th:nth-child(2), 
+    .table td:nth-child(2) {
+      width: 12%;
+    }
+    
+    .table th:nth-child(3), 
+    .table td:nth-child(3) {
+      width: 10%;
+    }
+    
+    .table th:nth-child(4), 
+    .table td:nth-child(4) {
+      width: 12%;
+    }
+    
+    .table th:nth-child(5), 
+    .table td:nth-child(5) {
+      width: 54%;
+    }
+    
+    /* 确保Structure列的图片适当显示 */
+    .table td:nth-child(5) img {
+      max-width: 100%;
       height: auto;
     }
   </style>
