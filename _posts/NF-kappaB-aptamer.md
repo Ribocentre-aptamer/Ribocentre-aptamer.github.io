@@ -8,34 +8,7 @@ categories: Aptamer
 <html>
 <head>
   <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
+    /* 移除重复的样式定义，使用header.html中的统一样式 */
   </style>
 </head>
 </html>
@@ -44,78 +17,7 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
+  /* 移除重复的样式定义，使用header.html中的统一样式 */
 </style>
 </head>
 <br>
@@ -564,42 +466,42 @@ categories: Aptamer
                 
 <a id="ref1"></a><font><strong>[1] Selection and characterization of an RNA decoy for transcription factor NF-kappa B.</strong></font><br />
 Lebruska, L. L., & Maher, L. J., 3rd.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/10074372/" target="_blank" style="color:#520049" >Biochemistry, 38(10), 3168–3174. (1999)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/10074372/" target="_blank" style="color:#520049" >Biochemistry, 38(10), 3168–3174. (1999)</a>
 <br />
                 
 <a id="ref2"></a><font><strong>[2] Crystal structure of NF-kappaB (p50)2 complexed to a high-affinity RNA aptamer.</strong></font><br />
 Huang, D. B., Vu, D., Cassiday, L. A., Zimmerman, J. M., Maher, L. J., 3rd, & Ghosh, G.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/12886018/" target="_blank" style="color:#520049">Proceedings of the National Academy of Sciences of the United States of America, 100(16), 9268–9273. (2003)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/12886018/" target="_blank" style="color:#520049">Proceedings of the National Academy of Sciences of the United States of America, 100(16), 9268–9273. (2003)</a>
 <br />
                 
 <a id="ref3"></a><font><strong>[3] Yeast genetic selections to optimize RNA decoys for transcription factor NF-kappa B.</strong></font><br />
 Cassiday, L. A., & Maher, L. J., 3rd.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/12637683/" target="_blank" style="color:#520049"> Proceedings of the National Academy of Sciences of the United States of America, 100(7), 3930–3935. (2003)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/12637683/" target="_blank" style="color:#520049"> Proceedings of the National Academy of Sciences of the United States of America, 100(7), 3930–3935. (2003)</a>
 <br />
                 
 <a id="ref4"></a><font><strong>[4] Synthesis and physical and physiological properties of 4'-thioRNA: application to post-modification of RNA aptamer toward NF-kappaB.</strong></font><br />
 Hoshika, S., Minakawa, N., & Matsuda, A.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/15263062/" target="_blank" style="color:#520049">Nucleic acids research, 32(13), 3815–3825. (2004)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/15263062/" target="_blank" style="color:#520049">Nucleic acids research, 32(13), 3815–3825. (2004)</a>
 <br />
                 
 <a id="ref5"></a><font><strong>[5] Co-expression of anti-NFkappaB RNA aptamers and siRNAs leads to maximal suppression of NFkappaB activity in mammalian cells.</strong></font><br />
 Chan, R., Gilbert, M., Thompson, K. M., Marsh, H. N., Epstein, D. M., & Pendergrast, P. S.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/16517938/" target="_blank" style="color:#520049">Nucleic acids research, 34(5), e36. (2006)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/16517938/" target="_blank" style="color:#520049">Nucleic acids research, 34(5), e36. (2006)</a>
 <br />
 
 <a id="ref6"></a><font><strong>[6] DNA mimicry by a high-affinity anti-NF-kappaB RNA aptamer.</strong></font><br />
 Reiter, N. J., Maher, L. J., 3rd, & Butcher, S. E.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/18160411/" target="_blank" style="color:#520049">Nucleic acids research, 36(4), 1227–1236. (2008)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/18160411/" target="_blank" style="color:#520049">Nucleic acids research, 36(4), 1227–1236. (2008)</a>
 <br />   
 
 <a id="ref7"></a><font><strong>[7] Selection and characterization of anti-NF-kappaB p65 RNA aptamers.</strong></font><br />
 Wurster, S. E., & Maher, L. J., 3rd.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/18426920/" target="_blank" style="color:#520049">RNA (New York, N.Y.), 14(6), 1037–1047. (2008)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/18426920/" target="_blank" style="color:#520049">RNA (New York, N.Y.), 14(6), 1037–1047. (2008)</a>
 <br /> 
 
 <a id="ref8"></a><font><strong>[8] Characterization of anti-NF-kappaB RNA aptamer-binding specificity in vitro and in the yeast three-hybrid system.</strong></font><br />
 Wurster, S. E., Bida, J. P., Her, Y. F., & Maher, L. J., 3rd.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/19696077/" target="_blank" style="color:#520049">Nucleic acids research, 37(18), 6214–6224. (2009)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/19696077/" target="_blank" style="color:#520049">Nucleic acids research, 37(18), 6214–6224. (2009)</a>
 <br /> 
 
 

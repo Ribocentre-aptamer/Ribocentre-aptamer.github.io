@@ -617,6 +617,259 @@
     font-weight: bold;
     padding: 0 2px;
   }
+
+  /* 统一导航栏样式 */
+  .nav-link-1 {
+    font-size: 20px !important;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 15px 15px 5px 5px;
+    line-height: 30px;
+    transition: color 0.3s ease;
+  }
+  
+  /* 悬停效果 */
+  .nav-link-1:hover {
+    color: #520049 !important;
+    text-decoration: none;
+  }
+  
+  /* 下拉菜单样式 */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  .dropdown-toggle:focus {
+    outline: none;
+  }
+  
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    transition: transform 0.3s ease;
+  }
+  
+  .dropdown.open .caret {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 8px 0;
+    margin: 2px 0 0;
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    background-color: #ffffff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .dropdown-menu > li {
+    position: relative;
+  }
+  
+  .dropdown-menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 16px !important;
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+    color: #520049;
+    background-color: #f5f5f5;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu > li:first-child > a {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .dropdown-menu > li:last-child > a {
+    border-radius: 0 0 5px 5px;
+  }
+  
+  /* 响应式下拉菜单 */
+  @media (max-width: 768px) {
+    .dropdown-menu {
+      position: static;
+      display: none;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 0;
+      box-shadow: none;
+      border-radius: 0;
+    }
+    
+    .dropdown.open .dropdown-menu {
+      display: block;
+      opacity: 1;
+      transform: none;
+    }
+    
+    .dropdown-menu > li > a {
+      padding: 8px 20px;
+      color: #ffffff;
+    }
+    
+    .dropdown-menu > li > a:hover {
+      color: #520049;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  /* 统一标题样式 */
+  h1, .h1 {
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+
+  /* 统一header_box样式 */
+  .header_box {
+    display: block;
+    font-size: 20px !important;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+  }
+
+  /* 统一blowheader_box样式 */
+  .blowheader_box {
+    display: block;
+    padding: 6px;
+    font-size: 20px !important;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #efefef;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+    width: 190px;
+    height: 40px;
+  }
+
+  /* 统一按钮样式 */
+  .button {
+    display: block;
+    padding: 10px;
+    font-size: 24px !important;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #520049;
+    text-decoration: none;
+    border: 1px solid #520049;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #c9c5c5;
+    cursor: pointer;
+  }
+
+  /* 统一按钮容器样式 */
+  .button-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand img {
+    transition: all 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      max-height: 40px;
+    }
+    
+    .nav-link-1 {
+      font-size: 16px !important;
+      padding: 10px 8px !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-brand img {
+      max-height: 35px;
+    }
+    
+    .nav-link-1 {
+      font-size: 14px !important;
+      padding: 8px 6px !important;
+    }
+  }
+
+  /* 下拉菜单打开时按钮保持高亮 */
+  .dropdown.open > .nav-link-1 {
+    color: #520049 !important;
+    text-decoration: none;
+  }
+  
+  /* 确保下拉菜单关闭时按钮恢复正常状态 */
+  .dropdown:not(.open) > .nav-link-1:not(:hover) {
+    color: #ffffff !important;
+  }
+  
+  /* 移除focus时的默认样式 */
+  .dropdown-toggle:focus {
+    outline: none;
+    color: inherit;
+  }
+  
+  /* 下拉菜单样式 */
 </style>
 
 
@@ -637,30 +890,42 @@
       <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
 
         <img class="navbar-brand" src="{{ site.url }}{{ site.baseurl }}/images/aptamer-logo.svg"
-          style='height:50px;margin-top:-14px;margin-bottom:0;padding:2px 2px;border-radius: 0;' alt="logo">
+          style='height: auto; max-height: 50px; width: auto; margin: 0; padding: 5px;' alt="logo">
         <!--b style='font-size: 32px; color: #eeeeee;'>Ribocentre-aptamer</b-->
       </a>
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/" style="font-size: 20px">Home</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/Ribocentre-aptamer/"
-            style="font-size: 20px">Aptamers</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/SELEX/" style="font-size: 20px">SELEX</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/fluorescences/"
-            style="font-size: 20px">Fluorescences</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/sequences/"
-            style="font-size: 20px;">Sequences</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/structures/"
-            style="font-size: 20px;">Structures</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/applications/"
-            style="font-size: 20px">Applications</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/publications/"
-            style="font-size: 20px">Publications</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/advanced-search/"
-            style="font-size: 20px; color: #ffd700;">
-            <i class="fas fa-search-plus" style="margin-right: 5px;"></i>高级搜索</a></li>
-        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/helps/" style="font-size: 20px">Help</a></li>
+        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+        
+        <!-- Aptamers 下拉菜单 -->
+        <li class="dropdown">
+          <a href="#" class="nav-link-1 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Aptamers <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.url }}{{ site.baseurl }}/Ribocentre-aptamer/">Aptamers</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/SELEX/">SELEX</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/fluorescences/">Fluorescences</a></li>
+          </ul>
+        </li>
+        
+        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/applications/">Applications</a></li>
+        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/publications/">Publications</a></li>
+        
+        <!-- Download 下拉菜单 -->
+        <li class="dropdown">
+          <a href="#" class="nav-link-1 dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Download <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.url }}{{ site.baseurl }}/sequences/">Sequences</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/structures/">Structures</a></li>
+          </ul>
+        </li>
+        
+        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/advanced-search/">Search</a></li>
+        <li><a class="nav-link-1" href="{{ site.url }}{{ site.baseurl }}/helps/">Help</a></li>
       </ul>
     </div>
   </div>
@@ -1519,6 +1784,106 @@
     function initSearch(jsonPath) {
       // 不再需要加载SimpleJekyllSearch插件，因为我们已经实现了自定义搜索
       console.log('使用增强搜索功能');
+    }
+  });
+</script>
+
+<!-- 下拉菜单控制脚本 -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 获取所有下拉菜单
+    var dropdowns = document.querySelectorAll('.dropdown');
+    
+    dropdowns.forEach(function(dropdown) {
+      var toggle = dropdown.querySelector('.dropdown-toggle');
+      var menu = dropdown.querySelector('.dropdown-menu');
+      
+      if (!toggle || !menu) return;
+      
+      // 点击下拉按钮
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // 关闭其他所有下拉菜单
+        dropdowns.forEach(function(otherDropdown) {
+          if (otherDropdown !== dropdown) {
+            otherDropdown.classList.remove('open');
+          }
+        });
+        
+        // 切换当前下拉菜单
+        dropdown.classList.toggle('open');
+        
+        // 如果下拉菜单关闭了，移除按钮的focus状态
+        if (!dropdown.classList.contains('open')) {
+          toggle.blur();
+        }
+      });
+      
+      // 鼠标悬停显示
+      dropdown.addEventListener('mouseenter', function() {
+        // 关闭其他所有下拉菜单
+        dropdowns.forEach(function(otherDropdown) {
+          if (otherDropdown !== dropdown) {
+            otherDropdown.classList.remove('open');
+          }
+        });
+        
+        dropdown.classList.add('open');
+      });
+      
+      // 鼠标离开隐藏
+      dropdown.addEventListener('mouseleave', function() {
+        dropdown.classList.remove('open');
+      });
+    });
+    
+    // 点击页面其他地方关闭所有下拉菜单
+    document.addEventListener('click', function(e) {
+      dropdowns.forEach(function(dropdown) {
+        if (!dropdown.contains(e.target)) {
+          dropdown.classList.remove('open');
+          // 移除focus状态
+          var toggle = dropdown.querySelector('.dropdown-toggle');
+          if (toggle) toggle.blur();
+        }
+      });
+    });
+    
+    // ESC键关闭下拉菜单
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        dropdowns.forEach(function(dropdown) {
+          dropdown.classList.remove('open');
+          // 移除focus状态
+          var toggle = dropdown.querySelector('.dropdown-toggle');
+          if (toggle) toggle.blur();
+        });
+      }
+    });
+    
+    // 处理移动设备上的点击
+    if ('ontouchstart' in document.documentElement) {
+      dropdowns.forEach(function(dropdown) {
+        var toggle = dropdown.querySelector('.dropdown-toggle');
+        
+        if (toggle) {
+          toggle.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            
+            // 关闭其他所有下拉菜单
+            dropdowns.forEach(function(otherDropdown) {
+              if (otherDropdown !== dropdown) {
+                otherDropdown.classList.remove('open');
+              }
+            });
+            
+            // 切换当前下拉菜单
+            dropdown.classList.toggle('open');
+          });
+        }
+      });
     }
   });
 </script>
