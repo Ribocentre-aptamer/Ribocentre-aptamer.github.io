@@ -472,7 +472,7 @@ const ChartModule = {
             const sel = activeFilters.scatterSelection;
             dataForVisualization.forEach((d, i) => {
                 if (d.length >= sel.xrange[0] && d.length <= sel.xrange[1] &&
-                    d.gc_content * 100 >= sel.yrange[0] && d.gc_content * 100 <= sel.yrange[1]) {
+                    d.gc_content >= sel.yrange[0] && d.gc_content <= sel.yrange[1]) {
                     scatterSelected.push(i);
                 }
             });
@@ -505,9 +505,10 @@ const ChartModule = {
             return 8;
         });
         
+        // 将GC含量从0-1的小数转换为0-100的百分比
         const trace = {
             x: dataForVisualization.map(d => d.length),
-            y: dataForVisualization.map(d => d.gc_content * 100), // 转换为百分比
+            y: dataForVisualization.map(d => d.gc_content * 100), // 将小数乘以100显示为百分比
             mode: 'markers',
             type: 'scatter',
             marker: {
@@ -515,6 +516,7 @@ const ChartModule = {
                 color: colors,
                 opacity: dataForVisualization.map((d, i) => {
                     if (hasScatterSelection && nodeFrozenState.scatterChart && !scatterSelected.includes(i)) {
+                        // 未选中的点透明度降低
                         return 0.4;
                     }
                     return 0.8;
@@ -529,11 +531,7 @@ const ChartModule = {
                     color: 'white' 
                 }
             },
-            hovertemplate: '<b>%{text}</b><br>' +
-                          '长度: %{x} bp<br>' +
-                          'GC含量: %{y:.1f}%<br>' +
-                          '年份: %{customdata[0]}<br>' +
-                          '类别: %{customdata[1]}<extra></extra>',
+            hovertemplate: '<b>%{text}</b><br>长度: %{x} bp<br>GC含量: %{y}%<br>年份: %{customdata[0]}<br>类别: %{customdata[1]}<extra></extra>',
             text: dataForVisualization.map(d => d.name),
             customdata: dataForVisualization.map(d => [
                 d.year,
@@ -559,8 +557,7 @@ const ChartModule = {
                 titlefont: { size: 12, color: '#555' },
                 tickfont: { size: 10, color: '#555' },
                 gridcolor: 'rgba(0,0,0,0.1)',
-                showgrid: true,
-                range: [0, 100] // 设置y轴范围为0-100%
+                showgrid: true
             },
             dragmode: 'select',
             title: hasAnyFilter ? {
@@ -579,7 +576,7 @@ const ChartModule = {
                 const yValues = eventData.points.map(p => p.y);
                 const selection = {
                     xrange: [Math.min(...xValues), Math.max(...xValues)],
-                    yrange: [Math.min(...yValues), Math.max(...yValues)]
+                    yrange: [Math.min(...yValues) / 100, Math.max(...yValues) / 100] // 将百分比转回小数存储
                 };
                 FilterModule.setScatterSelection(selection);
             }
@@ -655,6 +652,13 @@ const FilterModule = {
                 d.length >= sel.xrange[0] && d.length <= sel.xrange[1] &&
                 d.gc_content >= sel.yrange[0] && d.gc_content <= sel.yrange[1]
             );
+            
+            // 如果筛选后没有数据，给出警告并使用原始数据
+            if (nodeFilteredData[nodeId].length === 0) {
+                console.warn(`散点图筛选后没有数据，使用原始数据`);
+                nodeFilteredData[nodeId] = [...originalData];
+            }
+            
             console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
         } else {
             // 如果该节点没有应用筛选条件，使用原始数据
@@ -788,7 +792,28 @@ const FilterModule = {
     
     // 设置散点图区域筛选
     setScatterSelection(selection) {
+        console.log('设置散点图区域筛选:', selection);
         activeFilters.scatterSelection = selection;
+        
+        // 预先计算筛选后的数据量，确保有数据
+        const filteredCount = originalData.filter(d => 
+            d.length >= selection.xrange[0] && d.length <= selection.xrange[1] &&
+            d.gc_content >= selection.yrange[0] && d.gc_content <= selection.yrange[1]
+        ).length;
+        
+        console.log(`散点图筛选预计返回 ${filteredCount} 条数据`);
+        
+        if (filteredCount === 0) {
+            console.warn('散点图筛选没有匹配数据，取消选择');
+            activeFilters.scatterSelection = null;
+            return;
+        }
+        
+        // 更新节点数据
+        nodeFilteredData['scatterChart'] = originalData.filter(d => 
+            d.length >= selection.xrange[0] && d.length <= selection.xrange[1] &&
+            d.gc_content >= selection.yrange[0] && d.gc_content <= selection.yrange[1]
+        );
         
         // 注册节点交互
         this.registerNodeInteraction('scatterChart');
@@ -997,11 +1022,26 @@ const FilterModule = {
             return true;
         });
         
+        // 如果筛选后数据为空，但有筛选条件，给出警告
+        if (dataWithAllFilters.length === 0 && 
+            (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || activeFilters.scatterSelection)) {
+            console.warn('应用所有筛选条件后没有匹配数据');
+            
+            // 如果散点图筛选导致没有数据，尝试重置散点图筛选
+            if (activeFilters.scatterSelection) {
+                console.warn('尝试重置散点图筛选');
+                activeFilters.scatterSelection = null;
+                
+                // 重新应用筛选器
+                return this.applyFilters();
+            }
+        }
+        
         // 根据节点层级计算每个节点的数据
         this.calculateNodeData();
         
         // 更新全局筛选后数据(用于表格和统计)
-        filteredData = dataWithAllFilters;
+        filteredData = dataWithAllFilters.length > 0 ? dataWithAllFilters : [...originalData];
         
         console.log(`筛选后数据: ${filteredData.length}/${originalData.length} 条`);
         
