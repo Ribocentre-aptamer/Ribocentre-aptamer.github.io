@@ -10,7 +10,7 @@ def clean_excel_data():
     try:
         # 读取Excel文件
         print("正在读取Excel文件...")
-        df = pd.read_excel('sequences-NEW.xlsx')
+        df = pd.read_excel('sequences_2025.6.6.xlsx')
         
         print(f"原始数据行数: {len(df)}")
         print(f"列名: {list(df.columns)}")
@@ -96,11 +96,17 @@ def clean_excel_data():
                 article_name = str(row.get('Article name', '')).strip() if pd.notna(row.get('Article name')) else ''
                 linker = str(row.get('Linker', '')).strip() if pd.notna(row.get('Linker')) else ''
                 
+                # 处理新增字段
+                aptamer_type = str(row.get('Type', '')).strip() if pd.notna(row.get('Type')) else ''
+                category = str(row.get('Category', '')).strip() if pd.notna(row.get('Category')) else ''
+                ligand_info = str(row.get('Ligand Information \n(CAS/sequence)', '')).strip() if pd.notna(row.get('Ligand Information \n(CAS/sequence)')) else ''
+                pubmed_link = str(row.get('Link to PubMed Entry', '')).strip() if pd.notna(row.get('Link to PubMed Entry')) else ''
+                
                 # 只添加有长度、GC含量、年份和配体信息的有效数据
                 if length and length > 0 and gc_content > 0 and year and ligand != '未知':
                     clean_record = {
                         'id': aptamer_id,
-                        'name': aptamer_name,  # 修正字段名
+                        'name': aptamer_name,
                         'ligand': ligand,
                         'ligand_description': ligand_desc,
                         'sequence': sequence,
@@ -111,7 +117,11 @@ def clean_excel_data():
                         'year_bin': year_bin,
                         'gc_bin': gc_bin,
                         'article_name': article_name,
-                        'link': linker
+                        'link': linker,
+                        'type': aptamer_type,
+                        'category': category,
+                        'ligand_info': ligand_info,
+                        'pubmed_link': pubmed_link
                     }
                     clean_data.append(clean_record)
                     
@@ -132,6 +142,8 @@ def clean_excel_data():
             ligand_counts = {}
             year_counts = {}
             gc_stats = []
+            type_counts = {}
+            category_counts = {}
             
             for record in clean_data:
                 # 配体统计
@@ -144,6 +156,16 @@ def clean_excel_data():
                 
                 # GC含量统计
                 gc_stats.append(record['gc_content'])
+                
+                # 类型统计
+                aptamer_type = record['type']
+                if aptamer_type:
+                    type_counts[aptamer_type] = type_counts.get(aptamer_type, 0) + 1
+                
+                # 类别统计
+                category = record['category']
+                if category:
+                    category_counts[category] = category_counts.get(category, 0) + 1
             
             print(f"\n=== 数据统计 ===")
             print(f"总数据量: {len(clean_data)}")
@@ -159,11 +181,21 @@ def clean_excel_data():
             sorted_years = sorted(year_counts.items())
             for year_bin, count in sorted_years:
                 print(f"  {year_bin}: {count}")
+            
+            print(f"\n适配体类型分布:")
+            sorted_types = sorted(type_counts.items(), key=lambda x: x[1], reverse=True)
+            for aptamer_type, count in sorted_types:
+                print(f"  {aptamer_type}: {count}")
+            
+            print(f"\n类别分布:")
+            sorted_categories = sorted(category_counts.items(), key=lambda x: x[1], reverse=True)
+            for category, count in sorted_categories:
+                print(f"  {category}: {count}")
         
         return clean_data
         
     except FileNotFoundError:
-        print("错误: 未找到 sequences-NEW.xlsx 文件")
+        print("错误: 未找到 sequences_2025.6.6.xlsx 文件")
         print("请确保文件在当前目录中")
         return None
     except Exception as e:

@@ -231,16 +231,16 @@ const ChartModule = {
         });
     },
 
-    // 创建GC区间分布图表
-    createGCBinChart() {
-        // 获取所有可能的GC区间（基于原始数据）
-        const allGCBinCounts = {};
+    // 创建类别分布图表
+    createCategoryChart() {
+        // 获取所有可能的类别（基于原始数据）
+        const allCategoryCounts = {};
         originalData.forEach(d => {
-            allGCBinCounts[d.gc_bin] = (allGCBinCounts[d.gc_bin] || 0) + 1;
+            allCategoryCounts[d.category] = (allCategoryCounts[d.category] || 0) + 1;
         });
-        const allGCBins = Object.keys(allGCBinCounts).sort();
+        const allCategories = Object.keys(allCategoryCounts).sort();
         
-        console.log("创建GC区间图 - 交互顺序:", nodeInteractionOrder.join(" > "));
+        console.log("创建类别图 - 交互顺序:", nodeInteractionOrder.join(" > "));
         
         // 确定数据源 - A节点使用原始数据，B/C节点使用上级节点数据
         let dataForVisualization = [];
@@ -248,7 +248,7 @@ const ChartModule = {
         if (nodeInteractionOrder.length === 0) {
             // 没有任何交互，使用原始数据
             dataForVisualization = [...originalData];
-            console.log("GC图表无交互，使用原始数据:", dataForVisualization.length);
+            console.log("类别图表无交互，使用原始数据:", dataForVisualization.length);
         } else {
             // 根据当前节点在交互序列中的位置确定数据来源
             const myIndex = nodeInteractionOrder.indexOf('ligandChart');
@@ -257,36 +257,36 @@ const ChartModule = {
                 // 如果不在交互序列中，使用最后一个交互节点的数据
                 const lastNodeId = nodeInteractionOrder[nodeInteractionOrder.length - 1];
                 dataForVisualization = [...nodeFilteredData[lastNodeId]];
-                console.log(`GC图表不在交互序列中，使用最后节点${lastNodeId}数据:`, dataForVisualization.length);
+                console.log(`类别图表不在交互序列中，使用最后节点${lastNodeId}数据:`, dataForVisualization.length);
             } else if (myIndex === 0) {
                 // 如果是A节点，必须使用原始数据，严禁下探
                 dataForVisualization = [...originalData];
-                console.log("GC图表是A节点，使用原始数据(禁止下探):", dataForVisualization.length);
+                console.log("类别图表是A节点，使用原始数据(禁止下探):", dataForVisualization.length);
             } else {
                 // 如果是B节点或C节点，使用上级节点的数据进行可视化
                 const parentNodeId = nodeInteractionOrder[myIndex - 1];
                 dataForVisualization = [...nodeFilteredData[parentNodeId]];
-                console.log(`GC图表是${myIndex === 1 ? 'B' : 'C'}节点，使用上级节点${parentNodeId}数据:`, dataForVisualization.length);
+                console.log(`类别图表是${myIndex === 1 ? 'B' : 'C'}节点，使用上级节点${parentNodeId}数据:`, dataForVisualization.length);
             }
         }
         
-        // 计算可视化数据的GC区间分布
-        const visualizationGCBinCounts = {};
+        // 计算可视化数据的类别分布
+        const visualizationCategoryCounts = {};
         dataForVisualization.forEach(d => {
-            visualizationGCBinCounts[d.gc_bin] = (visualizationGCBinCounts[d.gc_bin] || 0) + 1;
+            visualizationCategoryCounts[d.category] = (visualizationCategoryCounts[d.category] || 0) + 1;
         });
         
-        // 检查是否有GC区间筛选
-        const hasGCFilter = activeFilters.gcBins.size > 0;
+        // 检查是否有类别筛选
+        const hasCategoryFilter = activeFilters.categories.size > 0;
         const hasAnyFilter = nodeInteractionOrder.length > 0;
         
-        // 创建饼图数据 - 基于可视化数据源的GC区间分布
-        const pieData = allGCBins.map(bin => {
-            const value = visualizationGCBinCounts[bin] || 0;
+        // 创建饼图数据 - 基于可视化数据源的类别分布
+        const pieData = allCategories.map(category => {
+            const value = visualizationCategoryCounts[category] || 0;
             return {
-                bin: bin,
+                category: category,
                 count: value,
-                isFiltered: hasGCFilter && activeFilters.gcBins.has(bin)
+                isFiltered: hasCategoryFilter && activeFilters.categories.has(category)
             };
         });
         
@@ -311,19 +311,19 @@ const ChartModule = {
             return;
         }
         
-        // 只显示有数据的GC区间
-        const displayBins = pieData.filter(d => d.count > 0).map(d => d.bin);
+        // 只显示有数据的类别
+        const displayCategories = pieData.filter(d => d.count > 0).map(d => d.category);
         const displayValues = pieData.filter(d => d.count > 0).map(d => d.count);
         const isFiltered = pieData.filter(d => d.count > 0).map(d => d.isFiltered);
         
         // 如果筛选后没有数据，显示错误
-        if (displayBins.length === 0) {
-            console.warn('筛选后没有GC区间数据，显示空状态');
+        if (displayCategories.length === 0) {
+            console.warn('筛选后没有类别数据，显示空状态');
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
                 margin: { l: 20, r: 20, t: 20, b: 20 },
                 annotations: [{
-                    text: '没有匹配的GC区间数据',
+                    text: '没有匹配的类别数据',
                     xref: 'paper',
                     yref: 'paper',
                     x: 0.5,
@@ -338,13 +338,13 @@ const ChartModule = {
         }
         
         const trace = {
-            labels: displayBins,
+            labels: displayCategories,
             values: displayValues,
             type: 'pie',
             hole: 0.4,
             marker: {
-                colors: displayBins.map((bin, i) => {
-                    // 如果该GC区间被选中，使用高亮颜色
+                colors: displayCategories.map((category, i) => {
+                    // 如果该类别被选中，使用高亮颜色
                     if (isFiltered[i]) {
                         return morandiHighlight;
                     }
@@ -352,13 +352,13 @@ const ChartModule = {
                     return morandiColors[i % morandiColors.length];
                 }),
                 line: {
-                    color: displayBins.map((bin, i) => {
+                    color: displayCategories.map((category, i) => {
                         if (isFiltered[i]) {
                             return '#333';
                         }
                         return 'white';
                     }),
-                    width: displayBins.map((bin, i) => {
+                    width: displayCategories.map((category, i) => {
                         if (isFiltered[i]) {
                             return 3;
                         }
@@ -371,9 +371,8 @@ const ChartModule = {
             hovertemplate: '<b>%{label}</b><br>数量: %{value}<br>' + 
                           '点击进行多选筛选<extra></extra>',
             hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight },
-            // 添加不透明度设置，凸显选中部分
-            opacity: displayBins.map((bin, i) => {
-                if (hasGCFilter && !isFiltered[i]) {
+            opacity: displayCategories.map((category, i) => {
+                if (hasCategoryFilter && !isFiltered[i]) {
                     return 0.6; // 未选中的区间半透明
                 }
                 return 1.0; // 选中的区间完全不透明
@@ -385,7 +384,7 @@ const ChartModule = {
             margin: { l: 20, r: 20, t: 20, b: 20 },
             showlegend: false,
             title: hasAnyFilter ? {
-                text: nodeFrozenState.ligandChart ? 'GC含量区间分布 (已冻结)' : 'GC含量区间分布 (已筛选)',
+                text: nodeFrozenState.ligandChart ? '类别分布 (已冻结)' : '类别分布 (已筛选)',
                 font: { size: 14, color: '#520049' }
             } : null
         };
@@ -393,8 +392,8 @@ const ChartModule = {
         Plotly.newPlot('ligandChart', [trace], layout, chartConfig);
         
         document.getElementById('ligandChart').on('plotly_click', function(data) {
-            const gcBin = data.points[0].label;
-            FilterModule.toggleGCBinFilter(gcBin);
+            const category = data.points[0].label;
+            FilterModule.toggleCategoryFilter(category);
         });
     },
 
@@ -473,7 +472,7 @@ const ChartModule = {
             const sel = activeFilters.scatterSelection;
             dataForVisualization.forEach((d, i) => {
                 if (d.length >= sel.xrange[0] && d.length <= sel.xrange[1] &&
-                    d.gc_content >= sel.yrange[0] && d.gc_content <= sel.yrange[1]) {
+                    d.gc_content * 100 >= sel.yrange[0] && d.gc_content * 100 <= sel.yrange[1]) {
                     scatterSelected.push(i);
                 }
             });
@@ -508,7 +507,7 @@ const ChartModule = {
         
         const trace = {
             x: dataForVisualization.map(d => d.length),
-            y: dataForVisualization.map(d => d.gc_content),
+            y: dataForVisualization.map(d => d.gc_content * 100), // 转换为百分比
             mode: 'markers',
             type: 'scatter',
             marker: {
@@ -516,7 +515,6 @@ const ChartModule = {
                 color: colors,
                 opacity: dataForVisualization.map((d, i) => {
                     if (hasScatterSelection && nodeFrozenState.scatterChart && !scatterSelected.includes(i)) {
-                        // 未选中的点透明度降低
                         return 0.4;
                     }
                     return 0.8;
@@ -531,11 +529,15 @@ const ChartModule = {
                     color: 'white' 
                 }
             },
-            hovertemplate: '<b>%{text}</b><br>长度: %{x} bp<br>GC含量: %{y}%<br>年份: %{customdata[0]}<br>配体: %{customdata[1]}<extra></extra>',
+            hovertemplate: '<b>%{text}</b><br>' +
+                          '长度: %{x} bp<br>' +
+                          'GC含量: %{y:.1f}%<br>' +
+                          '年份: %{customdata[0]}<br>' +
+                          '类别: %{customdata[1]}<extra></extra>',
             text: dataForVisualization.map(d => d.name),
             customdata: dataForVisualization.map(d => [
                 d.year,
-                d.gc_bin
+                d.category
             ]),
             hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight }
         };
@@ -557,7 +559,8 @@ const ChartModule = {
                 titlefont: { size: 12, color: '#555' },
                 tickfont: { size: 10, color: '#555' },
                 gridcolor: 'rgba(0,0,0,0.1)',
-                showgrid: true
+                showgrid: true,
+                range: [0, 100] // 设置y轴范围为0-100%
             },
             dragmode: 'select',
             title: hasAnyFilter ? {
@@ -589,9 +592,15 @@ const ChartModule = {
 
     // 创建所有图表
     createAllCharts() {
-        this.createYearChart();
-        this.createGCBinChart();
-        this.createScatterChart();
+        try {
+            console.log("开始创建所有图表...");
+            this.createYearChart();
+            this.createCategoryChart();
+            this.createScatterChart();
+            console.log("所有图表创建完成");
+        } catch (error) {
+            console.error("创建图表时发生错误:", error);
+        }
     }
 };
 
@@ -633,10 +642,10 @@ const FilterModule = {
                 activeFilters.years.has(d.year)
             );
             console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
-        } else if (nodeId === 'ligandChart' && activeFilters.gcBins.size > 0) {
-            // GC区间筛选 - 直接从原始数据筛选
+        } else if (nodeId === 'ligandChart' && activeFilters.categories.size > 0) {
+            // 类别筛选 - 直接从原始数据筛选
             nodeFilteredData[nodeId] = originalData.filter(d => 
-                activeFilters.gcBins.has(d.gc_bin)
+                activeFilters.categories.has(d.category)
             );
             console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
         } else if (nodeId === 'scatterChart' && activeFilters.scatterSelection) {
@@ -713,10 +722,10 @@ const FilterModule = {
                 nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => 
                     activeFilters.years.has(d.year)
                 );
-            } else if (interactedNodeId === 'ligandChart' && activeFilters.gcBins.size > 0) {
-                // 基于上级节点数据进行GC区间筛选
+            } else if (interactedNodeId === 'ligandChart' && activeFilters.categories.size > 0) {
+                // 基于上级节点数据进行类别筛选
                 nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => 
-                    activeFilters.gcBins.has(d.gc_bin)
+                    activeFilters.categories.has(d.category)
                 );
             } else if (interactedNodeId === 'scatterChart' && activeFilters.scatterSelection) {
                 // 基于上级节点数据进行散点图区域筛选
@@ -763,43 +772,15 @@ const FilterModule = {
         this.registerNodeInteraction('yearChart');
     },
 
-    // 切换GC区间筛选
-    toggleGCBinFilter(gcBin) {
-        console.log('切换GC区间筛选:', gcBin);
+    // 切换类别筛选
+    toggleCategoryFilter(category) {
+        console.log('切换类别筛选:', category);
         
-        // 检查是否存在有效的GC区间数据
-        let hasValidGCData = false;
-        
-        // 检查原始数据中是否存在此GC区间
-        const binExists = originalData.some(d => d.gc_bin === gcBin);
-        
-        if (!binExists) {
-            console.warn(`GC区间 ${gcBin} 在原始数据中不存在，忽略此筛选操作`);
-            return;
-        }
-        
-        if (activeFilters.gcBins.has(gcBin)) {
-            activeFilters.gcBins.delete(gcBin);
+        if (activeFilters.categories.has(category)) {
+            activeFilters.categories.delete(category);
         } else {
-            activeFilters.gcBins.add(gcBin);
-            
-            // 预检查：确保筛选后会有数据
-            hasValidGCData = originalData.some(d => 
-                activeFilters.gcBins.has(d.gc_bin) && 
-                (activeFilters.years.size === 0 || activeFilters.years.has(d.year))
-            );
-            
-            if (!hasValidGCData) {
-                console.warn(`选择GC区间 ${gcBin} 后没有匹配数据，但继续执行筛选操作`);
-            }
+            activeFilters.categories.add(category);
         }
-        
-        // 注册节点交互前计算筛选后数据
-        const filteredForGC = originalData.filter(d => 
-            activeFilters.gcBins.has(d.gc_bin)
-        );
-        
-        console.log(`GC区间筛选后数据数量: ${filteredForGC.length}/${originalData.length}`);
         
         // 注册节点交互
         this.registerNodeInteraction('ligandChart');
@@ -838,10 +819,9 @@ const FilterModule = {
             tagsContainer.appendChild(tag);
         });
         
-        // GC区间标签
-        activeFilters.gcBins.forEach(gcBin => {
-            const shortBin = gcBin.length > 20 ? gcBin.substring(0, 20) + '...' : gcBin;
-            const tag = createFilterTag(`GC区间: ${shortBin}`, () => this.toggleGCBinFilter(gcBin));
+        // 类别标签
+        activeFilters.categories.forEach(category => {
+            const tag = createFilterTag(`类别: ${category}`, () => this.toggleCategoryFilter(category));
             tagsContainer.appendChild(tag);
         });
         
@@ -855,7 +835,7 @@ const FilterModule = {
         
         // 显示/隐藏筛选控制区域
         const hasActiveFilters = activeFilters.years.size > 0 || 
-                               activeFilters.gcBins.size > 0 || 
+                               activeFilters.categories.size > 0 || 
                                activeFilters.scatterSelection;
         
         const filterSection = document.querySelector('.filter-controls');
@@ -863,7 +843,7 @@ const FilterModule = {
         
         // 设置当前筛选条件计数和节点状态
         const activeFilterCount = (activeFilters.years.size > 0 ? 1 : 0) + 
-                                 (activeFilters.gcBins.size > 0 ? 1 : 0) + 
+                                 (activeFilters.categories.size > 0 ? 1 : 0) + 
                                  (activeFilters.scatterSelection ? 1 : 0);
         
         const resetBtn = document.getElementById('resetAllFilters');
@@ -991,7 +971,7 @@ const FilterModule = {
     // 应用筛选器，基于节点层级逻辑
     applyFilters() {
         console.log('应用筛选器 - 当前交互顺序:', nodeInteractionOrder.join(" > "));
-        console.log('筛选条件 - 年份:', Array.from(activeFilters.years), 'GC区间:', Array.from(activeFilters.gcBins));
+        console.log('筛选条件 - 年份:', Array.from(activeFilters.years), '类别:', Array.from(activeFilters.categories));
         
         // 首先，基于所有筛选条件过滤原始数据
         const dataWithAllFilters = originalData.filter(d => {
@@ -1000,8 +980,8 @@ const FilterModule = {
                 return false;
             }
             
-            // GC区间筛选
-            if (activeFilters.gcBins.size > 0 && !activeFilters.gcBins.has(d.gc_bin)) {
+            // 类别筛选
+            if (activeFilters.categories.size > 0 && !activeFilters.categories.has(d.category)) {
                 return false;
             }
             
@@ -1026,7 +1006,7 @@ const FilterModule = {
         console.log(`筛选后数据: ${filteredData.length}/${originalData.length} 条`);
         
         // 检查筛选后是否有数据
-        if (filteredData.length === 0 && (activeFilters.years.size > 0 || activeFilters.gcBins.size > 0 || activeFilters.scatterSelection)) {
+        if (filteredData.length === 0 && (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || activeFilters.scatterSelection)) {
             console.warn('筛选后没有数据！');
             this.showNoDataWarning();
         } else {
@@ -1111,4 +1091,4 @@ document.addEventListener('DOMContentLoaded', function() {
 // 暴露给外部的函数（兼容性）
 window.applyFilters = () => FilterModule.applyFilters();
 window.toggleYearFilter = (year) => FilterModule.toggleYearFilter(year);
-window.toggleGCBinFilter = (gcBin) => FilterModule.toggleGCBinFilter(gcBin); 
+window.toggleCategoryFilter = (category) => FilterModule.toggleCategoryFilter(category); 

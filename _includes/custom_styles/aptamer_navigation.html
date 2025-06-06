@@ -1,0 +1,139 @@
+<!-- 阅读进度条 -->
+<div class="progress-container">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+
+<!-- 导航球 -->
+<div class="nav-ball" id="navBall">
+  <div class="nav-ball-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+<!-- 遮罩层 -->
+<div class="overlay" id="overlay"></div>
+
+<!-- 侧边导航 -->
+<div class="side-nav" id="sideNav">
+  <ul id="navItems">
+    <!-- 导航项将由JavaScript动态生成 -->
+  </ul>
+</div>
+
+<script>
+  // 导航球切换
+  const navBall = document.getElementById('navBall');
+  const sideNav = document.getElementById('sideNav');
+  const overlay = document.getElementById('overlay');
+
+  navBall.addEventListener('click', () => {
+    navBall.classList.toggle('active');
+    sideNav.classList.toggle('active');
+    overlay.classList.toggle('active');
+  });
+
+  overlay.addEventListener('click', () => {
+    navBall.classList.remove('active');
+    sideNav.classList.remove('active');
+    overlay.classList.remove('active');
+  });
+
+  // 阅读进度条
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    document.getElementById('progressBar').style.width = scrolled + '%';
+  });
+
+  // 自动生成导航菜单
+  document.addEventListener('DOMContentLoaded', function() {
+    // 查找页面中的所有一级标题
+    const headers = document.querySelectorAll('.header_box[id], h2[id], .section-title[id]');
+    const navItemsContainer = document.getElementById('navItems');
+    
+    if (headers.length > 0 && navItemsContainer) {
+      // 清空现有导航项
+      navItemsContainer.innerHTML = '';
+      
+      // 为每个标题创建导航项
+      headers.forEach(header => {
+        const id = header.getAttribute('id');
+        const title = header.textContent.trim();
+        
+        if (id && title) {
+          const listItem = document.createElement('li');
+          listItem.className = 'side-nav-item';
+          
+          const link = document.createElement('a');
+          link.href = '#' + id;
+          link.textContent = title;
+          
+          listItem.appendChild(link);
+          navItemsContainer.appendChild(listItem);
+        }
+      });
+    }
+    
+    // 平滑滚动和导航项激活
+    const navItems = document.querySelectorAll('.side-nav-item a');
+    const sections = Array.from(headers);
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if (sectionTop < 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navItems.forEach(item => {
+        item.parentElement.classList.remove('active');
+        if (item.getAttribute('href').slice(1) === current) {
+          item.parentElement.classList.add('active');
+        }
+      });
+    });
+
+    navItems.forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth'
+          });
+          // 关闭导航菜单
+          navBall.classList.remove('active');
+          sideNav.classList.remove('active');
+          overlay.classList.remove('active');
+        }
+      });
+    });
+  });
+
+  // Timeline动画效果
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationPlayState = 'running';
+      }
+    });
+  }, observerOptions);
+
+  // 观察所有timeline条目
+  document.querySelectorAll('.entry').forEach(entry => {
+    entry.style.animationPlayState = 'paused';
+    observer.observe(entry);
+  });
+</script> 

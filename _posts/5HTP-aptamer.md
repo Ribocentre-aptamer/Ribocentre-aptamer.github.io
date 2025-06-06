@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "5HTP aptamer"
 date:   2024-04-20 00:00:00
 author: Yuhang Luo, Linfei Li

@@ -20,7 +20,7 @@ let nodeFrozenState = {  // 每个节点的冻结状态
 // 筛选条件
 let activeFilters = {
     years: new Set(),
-    gcBins: new Set(),
+    categories: new Set(),
     scatterSelection: null
 };
 
@@ -125,9 +125,12 @@ function exportData() {
 
 // 重置所有筛选
 function resetAllFilters() {
-    activeFilters.years.clear();
-    activeFilters.gcBins.clear();
-    activeFilters.scatterSelection = null;
+    // 重置所有筛选条件
+    activeFilters = {
+        years: new Set(),
+        categories: new Set(),
+        scatterSelection: null
+    };
     
     // 重置节点交互顺序和冻结状态
     nodeInteractionOrder = [];
@@ -140,7 +143,7 @@ function resetAllFilters() {
     nodeFilteredData.ligandChart = [];
     nodeFilteredData.scatterChart = [];
     
-    // 更新筛选后数据
+    // 重置筛选后数据
     filteredData = [...originalData];
     
     // 更新UI

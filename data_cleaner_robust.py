@@ -139,11 +139,11 @@ def clean_data():
         return
     
     # 保存为JSON
-    with open('_data/sequences_cleaned.json', 'w', encoding='utf-8') as f:
+    with open('apidata/sequences_cleaned.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
     print(f"清洗完成，共 {len(data)} 条有效数据")
-    print("数据已保存到 _data/sequences_cleaned.json")
+    print("数据已保存到 apidata/sequences_cleaned.json")
     
     # 创建配体统计
     ligand_counts = {}

@@ -80,7 +80,7 @@ if __name__ == "__main__":
     print(f'清洗完成，共 {len(cleaned_data)} 条有效数据')
 
     # 保存为JSON文件
-    with open('_data/sequences_cleaned.json', 'w', encoding='utf-8') as f:
+    with open('apidata/sequences_cleaned.json', 'w', encoding='utf-8') as f:
         json.dump(cleaned_data, f, ensure_ascii=False, indent=2)
 
-    print('数据已保存到 _data/sequences_cleaned.json') 
+    print('数据已保存到 apidata/sequences_cleaned.json') 
