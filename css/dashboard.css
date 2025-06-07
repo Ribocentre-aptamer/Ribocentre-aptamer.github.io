@@ -1,0 +1,486 @@
+/* Dashboard CSS - 数据可视化仪表板样式 */
+
+/* 容器样式 */
+.amir-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* 统计概览区域 */
+.statistics-overview {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #e9ecef;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4A90E2;
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 500;
+}
+
+/* 筛选控制区域 */
+.filter-controls {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e3f2fd 100%);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #e3f2fd;
+    display: none;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.filter-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+}
+
+.filter-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.reset-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.reset-btn:hover {
+    background: #c82333;
+}
+
+.export-btn {
+    background: #28a745;
+    color: white;
+}
+
+.export-btn:hover {
+    background: #218838;
+}
+
+.filter-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-tag {
+    background: #4A90E2;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-tag-text {
+    font-weight: 500;
+}
+
+.filter-tag-remove {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.filter-tag-remove:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 图表区域 */
+.charts-section {
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.chart-wrapper, .analysis-wrapper {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.analysis-wrapper {
+    grid-column: 1 / -1;
+}
+
+.chart-header {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+}
+
+.chart-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chart-info {
+    font-size: 11px;
+    color: #666666;
+    background: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+}
+
+/* 节点状态指示器样式 */
+.node-state-indicator {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #520049;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.chart-content {
+    padding: 15px;
+}
+
+.amir-chart {
+    width: 100%;
+    height: 300px;
+}
+
+.amir-chart-large {
+    width: 100%;
+    height: 400px;
+}
+
+/* 数据摘要 */
+.data-summary {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.summary-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: 1px solid #e9ecef;
+    min-width: 150px;
+}
+
+.summary-label {
+    font-size: 12px;
+    color: #666666;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.summary-count, .summary-percentage {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4A90E2;
+    margin: 0 5px;
+}
+
+.summary-unit {
+    font-size: 12px;
+    color: #666666;
+}
+
+/* 数据表格样式 */
+.data-table-section {
+    margin-top: 30px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table-container {
+    padding: 15px;
+}
+
+.table-responsive {
+    max-height: 360px;
+    overflow-y: auto;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.table {
+    margin-bottom: 0;
+    font-size: 13px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    z-index: 10;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+    color: #333333;
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.table td {
+    padding: 8px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(74, 144, 226, 0.1);
+    cursor: pointer;
+}
+
+.table td:first-child,
+.table th:first-child {
+    text-align: center;
+    width: 60px;
+}
+
+.table td:nth-child(4),
+.table th:nth-child(4) {
+    text-align: center;
+    width: 80px;
+}
+
+.table td:nth-child(5),
+.table th:nth-child(5) {
+    text-align: center;
+    width: 100px;
+}
+
+.table td:nth-child(6),
+.table th:nth-child(6) {
+    text-align: center;
+    width: 100px;
+}
+
+/* 提示框样式 */
+.amir-tooltip {
+    position: absolute;
+    z-index: 999999;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 300px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-content {
+    word-wrap: break-word;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgba(0, 0, 0, 0.9);
+}
+
+/* 动画效果 */
+.stat-card, .chart-wrapper, .analysis-wrapper, .filter-controls {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 图表交互提示 */
+.plotly .cursor-crosshair .nsewdrag {
+    cursor: crosshair !important;
+}
+
+.plotly .cursor-pointer .nsewdrag {
+    cursor: pointer !important;
+}
+
+/* 散点图特定优化 */
+#scatterChart .plotly .main-svg {
+    overflow: visible;
+}
+
+#scatterChart .plotly .scatterlayer .trace .points path {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* 改善散点图悬停区域 */
+#scatterChart .plotly .hoverlayer .hovertext {
+    pointer-events: none;
+    white-space: nowrap;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 250px;
+}
+
+/* 散点图标记点悬停效果 */
+#scatterChart .plotly .scatterlayer .trace .points path:hover {
+    stroke-width: 2px !important;
+    filter: brightness(1.1);
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+    .chart-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .summary-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .amir-container {
+        padding: 15px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .chart-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .amir-chart, .amir-chart-large {
+        height: 250px;
+    }
+
+    .filter-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .filter-actions {
+        justify-content: center;
+    }
+} 

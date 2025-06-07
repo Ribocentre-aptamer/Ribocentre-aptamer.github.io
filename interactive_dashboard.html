@@ -1,0 +1,158 @@
+---
+layout: default
+title: 适配体数据统计平台
+---
+
+<!-- 引入专用CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/css/dashboard.css">
+
+<!-- 全局配置变量 -->
+<script>
+    window.DASHBOARD_CONFIG = {
+        baseurl: '{{ site.baseurl }}',
+        dataPath: '{{ site.baseurl }}/apidata/sequences_cleaned.json'
+    };
+</script>
+
+<div class="amir-container">
+    <!-- 统计概览区域 -->
+    <section class="statistics-overview">
+        <h3 class="section-title">适配体数据库统计</h3>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="totalAptamers">555</div>
+                <div class="stat-label">适配体总数</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="uniqueLigands">50+</div>
+                <div class="stat-label">配体类型</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="yearSpan">30+</div>
+                <div class="stat-label">年份跨度</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="avgGC">53.2%</div>
+                <div class="stat-label">平均GC含量</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 筛选控制区域 -->
+    <section class="filter-controls">
+        <div class="filter-header">
+            <h4 class="filter-title">数据筛选</h4>
+            <div class="filter-actions">
+                <button class="filter-btn reset-btn" id="resetAllFilters">重置全部</button>
+                <button class="filter-btn export-btn" id="exportData">导出数据</button>
+            </div>
+        </div>
+        <div class="filter-tags" id="filterTags">
+            <!-- 筛选标签会动态显示在这里 -->
+        </div>
+    </section>
+
+    <!-- 主要图表区域 -->
+    <section class="charts-section">
+        <div class="chart-container">
+            <!-- 年份分布图表 -->
+            <div class="chart-wrapper">
+                <div class="chart-header">
+                    <h4 class="chart-title">年份分布</h4>
+                    <div class="chart-controls">
+                        <span class="chart-info">点击柱状图进行多选筛选</span>
+                    </div>
+                </div>
+                <div class="chart-content">
+                    <div id="yearChart" class="amir-chart"></div>
+                </div>
+            </div>
+            
+            <!-- GC区间分布图表 -->
+            <div class="chart-wrapper">
+                <div class="chart-header">
+                    <h4 class="chart-title">类别分布</h4>
+                    <div class="chart-controls">
+                        <span class="chart-info">点击扇形区域进行多选筛选</span>
+                    </div>
+                </div>
+                <div class="chart-content">
+                    <div id="ligandChart" class="amir-chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 散点图分析 -->
+        <div class="analysis-wrapper">
+            <div class="chart-header">
+                <h4 class="chart-title">序列长度 vs GC含量分布</h4>
+                <div class="chart-controls">
+                    <span class="chart-info">拖拽选择区域进行筛选</span>
+                </div>
+            </div>
+            <div class="chart-content">
+                <div id="scatterChart" class="amir-chart-large"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 详细数据计数 -->
+    <section class="data-summary">
+        <div class="summary-cards">
+            <div class="summary-card">
+                <span class="summary-label">当前显示</span>
+                <span class="summary-count" id="currentCount">555</span>
+                <span class="summary-unit">条数据</span>
+            </div>
+            <div class="summary-card">
+                <span class="summary-label">筛选比例</span>
+                <span class="summary-percentage" id="filterPercentage">100%</span>
+                <span class="summary-unit">可见</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据总表 -->
+    <section class="data-table-section">
+        <div class="chart-header">
+            <h4 class="chart-title">数据详情表</h4>
+            <div class="chart-controls">
+                <span class="chart-info" id="tableInfo">显示全部 555 条数据</span>
+            </div>
+        </div>
+        <div class="table-container">
+            <div class="table-responsive">
+                <table id="dataTable" class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>名称</th>
+                            <th>配体</th>
+                            <th>年份</th>
+                            <th>长度 (bp)</th>
+                            <th>GC含量 (%)</th>
+                            <th>亲和力</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- 表格数据将通过JavaScript动态填充 -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- 悬浮提示框 -->
+<div class="amir-tooltip" id="amirTooltip">
+    <div class="tooltip-content"></div>
+    <div class="tooltip-arrow"></div>
+</div>
+
+<!-- 引入必要的脚本 -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+<!-- 引入模块化的JavaScript -->
+<script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
+<script src="{{ site.baseurl }}/js/dashboard-main.js"></script> 

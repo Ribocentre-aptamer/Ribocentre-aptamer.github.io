@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "5HTP aptamer"
 date:   2024-04-20 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -139,7 +139,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
         <style>
           * {
               margin: 0;
