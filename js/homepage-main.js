@@ -593,7 +593,7 @@ const MolstarModule = {
             }
 
             const script = document.createElement('script');
-            script.src = './js/mol/pdbe-molstar-plugin.js';
+            script.src = (window.DASHBOARD_CONFIG?.baseurl || '') + '/js/mol/pdbe-molstar-plugin.js';
             script.onload = resolve;
             script.onerror = () => reject(new Error('Failed to load Molstar library'));
             document.head.appendChild(script);

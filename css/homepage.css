@@ -417,13 +417,13 @@ mark {
 
 .overview-text h3 {
     color: #333;
-    font-size: 2.5rem;
+    font-size: 1.1em;
     margin-bottom: 25px;
     font-weight: bold;
 }
 
 .overview-text .description {
-    font-size: 1.2rem;
+    font-size: 1.1em;
     line-height: 1.8;
     color: #555;
     margin-bottom: 30px;
@@ -438,7 +438,7 @@ mark {
     padding: 12px 0;
     border-bottom: 1px solid #eee;
     color: #333;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
 }
 
 .overview-text .features li:before {
