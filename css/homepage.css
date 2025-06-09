@@ -30,17 +30,7 @@
     box-sizing: border-box !important;
 }
 
-.overview-container.search-active {
-    height: var(--overview-fixed-height) !important;
-    min-height: var(--overview-fixed-height) !important;
-    max-height: var(--overview-fixed-height) !important;
-    overflow: hidden !important;
-    transition: none !important;
-    animation: none !important;
-    transform: none !important;
-    flex: none !important;
-    box-sizing: border-box !important;
-}
+/* Overview search-active样式已移至overview.css */
 
 /* 搜索结果样式优化 */
 .search-results-overlay {
@@ -395,58 +385,7 @@ mark {
     font-size: 0.8rem;
 }
 
-/* Overview Container */
-.overview-container {
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    margin: -30px auto 50px;
-    max-width: 1400px;
-    overflow: hidden;
-}
-
-.overview-content {
-    display: flex;
-    min-height: 600px;
-}
-
-.overview-text {
-    flex: 1;
-    padding: 50px;
-}
-
-.overview-text h3 {
-    color: #333;
-    font-size: 1.1em;
-    margin-bottom: 25px;
-    font-weight: bold;
-}
-
-.overview-text .description {
-    font-size: 1.1em;
-    line-height: 1.8;
-    color: #555;
-    margin-bottom: 30px;
-}
-
-.overview-text .features {
-    list-style: none;
-    padding: 0;
-}
-
-.overview-text .features li {
-    padding: 12px 0;
-    border-bottom: 1px solid #eee;
-    color: #333;
-    font-size: 1.6rem;
-}
-
-.overview-text .features li:before {
-    content: "✓";
-    color: #28a745;
-    font-weight: bold;
-    margin-right: 12px;
-}
+/* Overview样式已移至overview.css */
 
 /* Carousel */
 .carousel-container {
@@ -879,9 +818,7 @@ mark {
 
 /* 响应式设计 */
 @media (max-width: 1200px) {
-    .overview-content {
-        flex-direction: column;
-    }
+    /* Overview响应式样式已移至overview.css */
     
     .carousel {
         height: 400px;
