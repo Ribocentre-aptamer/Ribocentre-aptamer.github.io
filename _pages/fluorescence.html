@@ -54,7 +54,7 @@ permalink: /fluorescence/
 <script>
     window.DASHBOARD_CONFIG = {
         baseurl: '{{ site.baseurl }}',
-        dataPath: '{{ site.baseurl }}/apidata/sequences_cleaned.json'
+        dataPath: '{{ site.baseurl }}/apidata/fluorescence_data.json'
     };
     
     // 搜索配置 - 可以通过修改这个配置来禁用hero section高度调整
@@ -198,14 +198,14 @@ permalink: /fluorescence/
 <!-- Dashboard Section -->
 <div class="dashboard-section" style="background: #f8f9fa; padding: 40px 0; margin-top: 20px;">
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 30px; color: #520049;">数据统计仪表板</h2>
+        <h2 style="text-align: center; margin-bottom: 30px; color: #520049;">Light-Up RNA Aptamers</h2>
         
         <div class="amir-container">
             <div class="chart-container">
                 <!-- 年份分布图表 -->
                 <div class="chart-wrapper">
                     <div class="chart-header">
-                        <h4 class="chart-title">年份分布</h4>
+                        <h4 class="chart-title">Publication Trends by Year</h4>
                         <div class="chart-controls">
                             <span class="chart-info">点击柱状图进行多选筛选</span>
                         </div>
@@ -218,7 +218,7 @@ permalink: /fluorescence/
                 <!-- GC区间分布图表 -->
                 <div class="chart-wrapper">
                     <div class="chart-header">
-                        <h4 class="chart-title">类别分布</h4>
+                        <h4 class="chart-title">Distribution of Fluorophore Activation Mechanisms</h4>
                         <div class="chart-controls">
                             <span class="chart-info">点击扇形区域进行多选筛选</span>
                         </div>
@@ -246,7 +246,7 @@ permalink: /fluorescence/
             <!-- 先放数据详情表 -->
             <section class="data-table-section">
                 <div class="chart-header">
-                    <h4 class="chart-title">数据详情表</h4>
+                    <h4 class="chart-title">Light-Up RNA Aptamers Data</h4>
                     <div class="chart-controls">
                         <span class="chart-info" id="tableInfo">显示全部 555 条数据</span>
                     </div>
@@ -256,13 +256,13 @@ permalink: /fluorescence/
                         <table id="dataTable" class="table table-striped table-hover">
                             <thead>
                                 <tr>
-                                    <th>序号</th>
-                                    <th>名称</th>
-                                    <th>配体</th>
-                                    <th>年份</th>
-                                    <th>长度 (bp)</th>
-                                    <th>GC含量 (%)</th>
-                                    <th>亲和力</th>
+                                    <th>No.</th>
+                                    <th>Sequence Name</th>
+                                    <th>Ligand</th>
+                                    <th>Mechanisms</th><th>Year</th>
+                                    <th>Length (bp)</th>
+                                    <th>GC Content (%)</th>
+                                    
                                 </tr>
                             </thead>
                             <tbody id="tableBody">

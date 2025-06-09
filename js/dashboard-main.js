@@ -231,14 +231,16 @@ const ChartModule = {
         });
     },
 
-    // 创建类别分布图表
+    // 创建机制分布图表
     createCategoryChart() {
-        // 获取所有可能的类别（基于原始数据）
-        const allCategoryCounts = {};
+        // 获取所有可能的机制（基于原始数据）
+        const allMechanismCounts = {};
         originalData.forEach(d => {
-            allCategoryCounts[d.category] = (allCategoryCounts[d.category] || 0) + 1;
+            if (d.mechanisms) {
+                allMechanismCounts[d.mechanisms] = (allMechanismCounts[d.mechanisms] || 0) + 1;
+            }
         });
-        const allCategories = Object.keys(allCategoryCounts).sort();
+        const allMechanisms = Object.keys(allMechanismCounts).sort();
         
         console.log("创建类别图 - 交互顺序:", nodeInteractionOrder.join(" > "));
         
@@ -270,23 +272,25 @@ const ChartModule = {
             }
         }
         
-        // 计算可视化数据的类别分布
-        const visualizationCategoryCounts = {};
+        // 计算可视化数据的机制分布
+        const visualizationMechanismCounts = {};
         dataForVisualization.forEach(d => {
-            visualizationCategoryCounts[d.category] = (visualizationCategoryCounts[d.category] || 0) + 1;
+            if (d.mechanisms) {
+                visualizationMechanismCounts[d.mechanisms] = (visualizationMechanismCounts[d.mechanisms] || 0) + 1;
+            }
         });
         
-        // 检查是否有类别筛选
+        // 检查是否有机制筛选
         const hasCategoryFilter = activeFilters.categories.size > 0;
         const hasAnyFilter = nodeInteractionOrder.length > 0;
         
-        // 创建饼图数据 - 基于可视化数据源的类别分布
-        const pieData = allCategories.map(category => {
-            const value = visualizationCategoryCounts[category] || 0;
+        // 创建饼图数据 - 基于可视化数据源的机制分布
+        const pieData = allMechanisms.map(mechanism => {
+            const value = visualizationMechanismCounts[mechanism] || 0;
             return {
-                category: category,
+                category: mechanism,
                 count: value,
-                isFiltered: hasCategoryFilter && activeFilters.categories.has(category)
+                isFiltered: hasCategoryFilter && activeFilters.categories.has(mechanism)
             };
         });
         
@@ -384,7 +388,7 @@ const ChartModule = {
             margin: { l: 20, r: 20, t: 20, b: 20 },
             showlegend: false,
             title: hasAnyFilter ? {
-                text: nodeFrozenState.ligandChart ? '类别分布 (已冻结)' : '类别分布 (已筛选)',
+                text: nodeFrozenState.ligandChart ? '机制分布 (已冻结)' : '机制分布 (已筛选)',
                 font: { size: 14, color: '#520049' }
             } : null
         };
@@ -1095,10 +1099,10 @@ const TableModule = {
                 <td>${index + 1}</td>
                 <td title="${item.name}">${item.name.length > 40 ? item.name.substring(0, 40) + '...' : item.name}</td>
                 <td title="${item.ligand}">${item.ligand.length > 30 ? item.ligand.substring(0, 30) + '...' : item.ligand}</td>
-                <td>${item.year}</td>
-                <td>${item.length}</td>
-                <td>${item.gc_content.toFixed(1)}</td>
-                <td title="${item.affinity}">${item.affinity.length > 20 ? item.affinity.substring(0, 20) + '...' : item.affinity}</td>
+                <td>${item.mechanisms || '-'}</td>
+                <td>${item.year || '-'}</td>
+                <td>${item.length || '-'}</td>
+                <td>${(item.gc_content * 100).toFixed(2)}%</td>
             `;
             tableBody.appendChild(row);
         });
