@@ -11,7 +11,7 @@ const SearchModule = {
     searchResultsList: null,
     searchResultsCount: null,
     currentPage: 1,
-    resultsPerPage: 10,
+    resultsPerPage: 1000, // 显示所有结果，设置足够大的数值
     allSearchResults: [],
     searchTimeout: null,
     isSearchActive: false,
@@ -183,10 +183,8 @@ const SearchModule = {
             this.fixHeroHeight();
         }
 
-        if (this.mainSearchInput.value.trim() !== '') {
-            this.clearSearchTimeout();
-            this.performSearch();
-        }
+        // 移除自动搜索逻辑，让用户主动输入或按回车键来触发搜索
+        // 这样用户点击搜索框编辑内容时不会立即显示搜索结果
     },
 
     // 清除搜索延时
