@@ -18,6 +18,8 @@ permalink: /
 <link rel="stylesheet" href="./css/stats.css">
 <link rel="stylesheet" href="./css/footer.css">
 <link rel="stylesheet" href="./css/overview.css">
+<!-- 搜索功能CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/css/search-override.css">
 
 <!-- 全局配置变量 -->
 <script>
@@ -168,32 +170,32 @@ permalink: /
 <!-- Search Section -->
 <div class="homepage-search-section">
     <div class="homepage-search-container">
-        <h2 class="homepage-search-title">快速搜索</h2>
-        <p class="homepage-search-subtitle">在我们的数据库中搜索适配体、序列、结构和相关信息</p>
+        <h2 class="homepage-search-title">Quick Search</h2>
+        <p class="homepage-search-subtitle">Search for aptamers, sequences, structures and related information in our database</p>
         
         <div class="homepage-search-box">
-            <input type="text" class="homepage-search-input" placeholder="输入适配体名称、序列或靶标..." 
+            <input type="text" class="homepage-search-input" placeholder="Enter the aptamer name, sequence or ligand..." 
                    id="mainSearch" 
                    autocomplete="off">
         </div>
         
         <div class="homepage-search-categories">
-            <a href="./aptamer/" class="homepage-search-category">适配体数据</a>
-            <a href="./structure/" class="homepage-search-category">结构信息</a>
-            <a href="./selex/" class="homepage-search-category">SELEX数据</a>
-            <a href="./application/" class="homepage-search-category">应用案例</a>
-            <a href="./fluorescence/" class="homepage-search-category">荧光检测</a>
-            <a href="./interactive_dashboard.html" class="homepage-search-category">数据可视化</a>
-            <a href="./tools/" class="homepage-search-category">在线工具</a>
+            <a href="./aptamer/" class="homepage-search-category">Aptamers</a>
+            <a href="./structure/" class="homepage-search-category">Structures</a>
+            <a href="./selex/" class="homepage-search-category">SELEX</a>
+            <a href="./application/" class="homepage-search-category">Applications</a>
+            <a href="./fluorescence/" class="homepage-search-category">Fluorescence</a>
+            <a href="./interactive_dashboard.html" class="homepage-search-category">Dashboard</a>
+            <a href="./tools/" class="homepage-search-category">Tools</a>
         </div>
     </div>
 </div>
 
-<!-- 搜索结果容器 - 移到body级别，使用固定定位 -->
+<!-- 搜索结果容器 -->
 <div class="search-results-overlay" id="searchResultsOverlay" style="display: none;">
     <div class="search-results-container" id="searchResults">
         <div class="search-results-header">
-            <span class="search-results-count" id="searchResultsCount">找到 0 个结果</span>
+            <span class="search-results-count" id="searchResultsCount">No results found</span>
             <button class="close-search-btn" onclick="closeSearchResults()">
                 <i class="fas fa-times"></i>
             </button>
@@ -531,6 +533,11 @@ permalink: /
 
 <!-- External JavaScript -->
 <script src="./js/homepage-data.js"></script>
+
+<!-- 搜索功能JavaScript - 优先加载，确保hero section搜索功能正常 -->
+<script src="./js/search.js"></script>
+
+<!-- 主页功能JavaScript - 后加载，包含仪表板和其他功能 -->
 <script src="./js/homepage-main.js"></script>
 
 <!-- Dashboard JavaScript -->
@@ -1079,8 +1086,12 @@ function copyCitation() {
 </style>
 
 <script>
-// 模拟搜索数据 - 移除，现在由SearchModule处理
-// 所有搜索相关的JavaScript代码已移至js/homepage-main.js中的SearchModule
+// 为搜索模块提供关闭功能
+function closeSearchResults() {
+    if (SearchModule && typeof SearchModule.closeSearchResults === 'function') {
+        SearchModule.closeSearchResults();
+    }
+}
 
 // 复制引用功能
 function copyCitation() {
