@@ -194,9 +194,9 @@ const ChartModule = {
                     })
                 }
             },
-            hovertemplate: '<b>%{x}年</b><br>' + 
-                          '数量: %{y}<br>' +
-                          '点击进行多选筛选<extra></extra>',
+            hovertemplate: '<b>Year: %{x}</b><br>' + 
+                          'Count: %{y}<br>' +
+                          'Click for multi-select filter<extra></extra>',
             hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight }
         };
         
@@ -204,21 +204,21 @@ const ChartModule = {
             ...chartLayoutBase,
             margin: { l: 60, r: 20, t: 30, b: 50 },
             xaxis: {
-                title: '年份',
+                title: 'Year',
                 titlefont: { size: 12, color: '#555' },
                 tickfont: { size: 10, color: '#555' },
                 gridcolor: 'rgba(0,0,0,0.1)',
                 showgrid: true
             },
             yaxis: {
-                title: '数量',
+                title: 'Count',
                 titlefont: { size: 12, color: '#555' },
                 tickfont: { size: 10, color: '#555' },
                 gridcolor: 'rgba(0,0,0,0.1)',
                 showgrid: true
             },
             title: hasAnyFilter ? {
-                text: nodeFrozenState.yearChart ? '年份分布 (已冻结)' : '年份分布 (已筛选)',
+                // text: nodeFrozenState.yearChart ? '年份分布 (已冻结)' : '年份分布 (已筛选)',
                 font: { size: 14, color: '#520049' }
             } : null
         };
@@ -368,8 +368,8 @@ const ChartModule = {
             },
             textinfo: 'percent',
             textfont: { size: 11, color: 'white' },
-            hovertemplate: '<b>%{label}</b><br>数量: %{value}<br>' + 
-                          '点击进行多选筛选<extra></extra>',
+            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>' + 
+                          'Click for multi-select filter<extra></extra>',
             hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight },
             opacity: displayCategories.map((category, i) => {
                 if (hasCategoryFilter && !isFiltered[i]) {
@@ -384,7 +384,7 @@ const ChartModule = {
             margin: { l: 20, r: 20, t: 20, b: 20 },
             showlegend: false,
             title: hasAnyFilter ? {
-                text: nodeFrozenState.ligandChart ? '类别分布 (已冻结)' : '类别分布 (已筛选)',
+                // text: nodeFrozenState.ligandChart ? '类别分布 (已冻结)' : '类别分布 (已筛选)',
                 font: { size: 14, color: '#520049' }
             } : null
         };
@@ -908,7 +908,7 @@ const FilterModule = {
         nodeInteractionOrder.forEach((nodeId, index) => {
             // 节点层级使用字母A/B/C表示，按照交互顺序顺序分配
             // 第一个交互的是A节点，第二个是B节点，第三个是C节点
-            const stateText = index === 0 ? 'A节点' : (index === 1 ? 'B节点' : 'C节点');
+            const stateText = index === 0 ? 'Node A' : (index === 1 ? 'Node B' : 'Node C');
             
             if (nodeId === 'yearChart') {
                 yearStateIndicator.textContent = stateText;

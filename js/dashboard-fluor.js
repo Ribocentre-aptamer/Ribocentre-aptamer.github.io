@@ -59,7 +59,7 @@
                 return;
             }
 
-            tableInfo.textContent = `显示 ${filteredData.length} 条数据（共 ${originalData.length} 条）`;
+            tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
             tableBody.innerHTML = '';
 
             // 辅助函数
@@ -220,7 +220,7 @@
 
             // 根据交互顺序填充状态（仅 A/B 两层）
             nodeInteractionOrder.forEach((nodeId, index) => {
-                const stateText = index === 0 ? 'A节点' : 'B节点';
+                const stateText = index === 0 ? 'Node A' : 'Node B';
                 if (nodeId === 'yearChart') {
                     yearStateIndicator.textContent = stateText;
                     yearStateIndicator.style.backgroundColor = '#520049';

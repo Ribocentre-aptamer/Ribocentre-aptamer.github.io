@@ -225,8 +225,8 @@ permalink: /fluorescence/
 <!-- Search Section -->
 <div class="homepage-search-section">
     <div class="homepage-search-container">
-        <h2 class="homepage-search-title">快速搜索</h2>
-        <p class="homepage-search-subtitle">在我们的数据库中搜索适配体、序列、结构和相关信息</p>
+        <h2 class="homepage-search-title">Quick Search</h2>
+        <p class="homepage-search-subtitle">Search for aptamers, sequences, structures and related information in our database</p>
         
         <div class="homepage-search-box">
             <input type="text" class="homepage-search-input" placeholder="Enter the aptamer name, sequence or ligand..." 
@@ -248,7 +248,7 @@ permalink: /fluorescence/
 <div class="search-results-overlay" id="searchResultsOverlay" style="display: none;">
     <div class="search-results-container" id="searchResults">
         <div class="search-results-header">
-            <span class="search-results-count" id="searchResultsCount">找到 0 个结果</span>
+            <span class="search-results-count" id="searchResultsCount">No results found</span>
             <button class="close-search-btn" onclick="closeSearchResults()">
                 <i class="fas fa-times"></i>
             </button>
@@ -262,9 +262,8 @@ permalink: /fluorescence/
 
 
 <!-- Dashboard Section -->
-<div class="dashboard-section" style="background: #f8f9fa; padding: 40px 0; margin-top: 20px;">
+<div class="dashboard-section" style="background: #f8f9fa; padding: 40px 0; margin-top: 0px;">
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 30px; color: #520049;">数据统计仪表板</h2>
         
         <div class="amir-container">
             <div class="chart-container">
@@ -273,7 +272,7 @@ permalink: /fluorescence/
                     <div class="chart-header">
                         <h4 class="chart-title">Publication Trends by Year</h4>
                         <div class="chart-controls">
-                            <span class="chart-info">点击柱状图进行多选筛选</span>
+                            <span class="chart-info">Click on bars for multi-selection filtering</span>
                         </div>
                     </div>
                     <div class="chart-content">
@@ -286,7 +285,7 @@ permalink: /fluorescence/
                     <div class="chart-header">
                         <h4 class="chart-title">Distribution of Fluorophore Activation Mechanisms</h4>
                         <div class="chart-controls">
-                            <span class="chart-info">点击扇形区域进行多选筛选</span>
+                            <span class="chart-info">Click on pie sectors for multi-selection filtering</span>
                         </div>
                     </div>
                     <div class="chart-content">
@@ -298,10 +297,10 @@ permalink: /fluorescence/
             <!-- 数据筛选条，移动到柱状图和饼图下方 -->
             <section class="filter-controls">
                 <div class="filter-header">
-                    <h4 class="filter-title">数据筛选</h4>
+                    <h4 class="filter-title">Data Filtering</h4>
                     <div class="filter-actions">
-                        <button class="filter-btn reset-btn" id="resetAllFilters">重置全部</button>
-                        <button class="filter-btn export-btn" id="exportData">导出数据</button>
+                        <button class="filter-btn reset-btn" id="resetAllFilters">Reset All</button>
+                        <button class="filter-btn export-btn" id="exportData">Export Data</button>
                     </div>
                 </div>
                 <div class="filter-tags" id="filterTags">
@@ -314,7 +313,7 @@ permalink: /fluorescence/
                 <div class="chart-header">
                     <h4 class="chart-title">Light-Up RNA Aptamers Data</h4>
                     <div class="chart-controls">
-                        <span class="chart-info" id="tableInfo">显示全部 555 条数据</span>
+                        <span class="chart-info" id="tableInfo">Showing all 555 records</span>
                     </div>
                 </div>
                 <div class="table-container">
@@ -345,14 +344,14 @@ permalink: /fluorescence/
             <section class="data-summary">
                 <div class="summary-cards">
                     <div class="summary-card">
-                        <span class="summary-label">当前显示</span>
+                        <span class="summary-label">Currently Showing</span>
                         <span class="summary-count" id="currentCount">555</span>
-                        <span class="summary-unit">条数据</span>
+                        <span class="summary-unit">records</span>
                     </div>
                     <div class="summary-card">
-                        <span class="summary-label">筛选比例</span>
+                        <span class="summary-label">Filter Ratio</span>
                         <span class="summary-percentage" id="filterPercentage">100%</span>
-                        <span class="summary-unit">可见</span>
+                        <span class="summary-unit">visible</span>
                     </div>
                 </div>
             </section>
