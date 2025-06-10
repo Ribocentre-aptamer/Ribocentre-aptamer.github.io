@@ -628,7 +628,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var searchButton = document.getElementById('search-button-header');
 
   if (searchInput && resultsContainer && searchButton) {
-    // 搜索逻辑（简化版本）
+    // 搜索逻辑
     function performSearch() {
       var query = searchInput.value.trim();
       if (!query) {
@@ -646,11 +646,141 @@ document.addEventListener('DOMContentLoaded', function() {
       resultsContainer.innerHTML = '<div class="no-results-message">正在搜索...</div>';
       resultsContainer.style.display = 'block';
 
-      // 这里可以加入实际的搜索逻辑
-      // 现在显示一个占位符消息
-      setTimeout(function() {
-        resultsContainer.innerHTML = '<div class="no-results-message">搜索功能需要配置search.json文件</div>';
-      }, 500);
+      // 尝试不同路径加载search.json
+      var searchPaths = ['./search.json', '/search.json', 'search.json'];
+      var searchFound = false;
+
+      function tryNextPath(index) {
+        if (index >= searchPaths.length) {
+          // 所有路径都失败
+          resultsContainer.innerHTML = '<div class="no-results-message">搜索数据未找到，请配置search.json文件</div>';
+          return;
+        }
+
+        fetch(searchPaths[index])
+          .then(function(response) {
+            if (!response.ok) {
+              throw new Error('搜索路径错误: ' + searchPaths[index]);
+            }
+            return response.json();
+          })
+          .then(function(data) {
+            searchFound = true;
+            processSearchResults(data, query);
+          })
+          .catch(function(error) {
+            console.error(error);
+            // 尝试下一个路径
+            tryNextPath(index + 1);
+          });
+      }
+
+      // 处理搜索结果
+      function processSearchResults(data, query) {
+        var results = [];
+        var queryLower = query.toLowerCase();
+        var queryTerms = queryLower.split(/\s+/).filter(function(term) { return term.length > 0; });
+
+        // 遍历数据查找匹配项
+        data.forEach(function(item) {
+          var titleLower = (item.title || '').toLowerCase();
+          var categoryLower = (item.category || '').toLowerCase();
+          var tagsLower = (item.tags || '').toLowerCase();
+          var contentLower = (item.content || '').toLowerCase();
+
+          var matched = false;
+
+          // 检查精确匹配
+          if (titleLower.includes(queryLower) || 
+              categoryLower.includes(queryLower) || 
+              tagsLower.includes(queryLower) || 
+              contentLower.includes(queryLower)) {
+            matched = true;
+          } else {
+            // 检查分词匹配
+            for (var i = 0; i < queryTerms.length; i++) {
+              var term = queryTerms[i];
+              if (titleLower.includes(term) || 
+                  categoryLower.includes(term) || 
+                  tagsLower.includes(term) || 
+                  contentLower.includes(term)) {
+                matched = true;
+                break;
+              }
+            }
+          }
+
+          if (matched) {
+            results.push(item);
+          }
+        });
+
+        // 渲染结果
+        renderResults(results, query);
+      }
+
+      // 渲染搜索结果
+      function renderResults(results, query) {
+        if (results.length === 0) {
+          resultsContainer.innerHTML = '<div class="no-results-message">没有找到相关结果，请尝试其他关键词</div>';
+          return;
+        }
+
+        var html = '';
+        results.slice(0, 10).forEach(function(item) { // 显示前10个结果
+          html += '<div class="search-result-item" onclick="window.location.href=\'' + (item.url || '#') + '\'">' +
+                    '<h4>' + highlightKeywords(item.title || 'Untitled', query) + '</h4>' +
+                    (item.category ? '<div class="category">' + item.category + '</div>' : '') +
+                    '<div class="content-preview">' + getContentPreview(item.content || '', query) + '</div>' +
+                    '<div class="search-result-meta">' +
+                      (item.tags ? '<div>' + item.tags + '</div>' : '<div></div>') +
+                      (item.date ? '<div>' + item.date + '</div>' : '<div></div>') +
+                    '</div>' +
+                  '</div>';
+        });
+
+        resultsContainer.innerHTML = html;
+      }
+
+      // 关键词高亮
+      function highlightKeywords(text, query) {
+        if (!text) return '';
+        
+        var queryTerms = query.toLowerCase().split(/\s+/).filter(function(term) { return term.length > 1; });
+        var result = text;
+        
+        queryTerms.forEach(function(term) {
+          var regex = new RegExp('(' + term + ')', 'gi');
+          result = result.replace(regex, '<span class="keyword-highlight">$1</span>');
+        });
+        
+        return result;
+      }
+
+      // 获取内容预览
+      function getContentPreview(content, query) {
+        if (!content) return '';
+        
+        var queryLower = query.toLowerCase();
+        var keywordPos = content.toLowerCase().indexOf(queryLower);
+        
+        if (keywordPos !== -1) {
+          var start = Math.max(0, keywordPos - 50);
+          var end = Math.min(content.length, keywordPos + 100);
+          var preview = content.substring(start, end);
+          
+          if (start > 0) preview = '...' + preview;
+          if (end < content.length) preview = preview + '...';
+          
+          return highlightKeywords(preview, query);
+        }
+        
+        // 如果没有找到关键词，显示前150个字符
+        return highlightKeywords(content.substring(0, 150) + '...', query);
+      }
+
+      // 开始尝试第一个路径
+      tryNextPath(0);
     }
 
     // 事件监听
