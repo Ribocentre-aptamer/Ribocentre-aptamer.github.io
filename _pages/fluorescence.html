@@ -18,6 +18,8 @@ permalink: /fluorescence/
 <link rel="stylesheet" href="/css/overview.css">
 <!-- 引入专用CSS -->
 <link rel="stylesheet" href="/css/fluorescence.css">
+<!-- 通用文章样式 -->
+<link rel="stylesheet" href="/css/article-common.css">
 
 <style>
 /* Hero Section 样式 */
@@ -48,13 +50,77 @@ permalink: /fluorescence/
     padding: 0 24px;
     line-height: 1.7;
 }
+
+/* 确保文章样式不被覆盖 */
+/* .fluor-body-section h2, 
+.fluor-body-section h3 {
+    color: #520049 !important;
+    margin-top: 30px !important;
+    margin-bottom: 15px !important;
+    line-height: 1.3 !important;
+    font-size: 1.75rem !important;
+}
+
+.fluor-body-section h3 {
+    font-size: 1.5rem !important;
+} */
+
+.fluor-body-section p {
+    margin-bottom: 18px !important;
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    line-height: 1.7 !important;
+}
+
+.fluor-body-section .word-emphasis {
+    font-weight: 600 !important;
+    color: #520049 !important;
+    display: inline-block !important;
+}
+
+.fluor-body-section p:first-of-type::first-letter {
+    font-weight: 700 !important;
+    font-size: 1.2em !important;
+    color: #520049 !important;
+}
+
+.fluor-body-section .blowheader_box {
+    background: linear-gradient(135deg, #520049, rgba(82, 0, 73, 0.8)) !important;
+    color: white !important;
+    padding: 12px 20px !important;
+    margin: 30px 0 20px !important;
+    border-radius: 8px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    position: relative !important;
+    box-shadow: 0 4px 15px rgba(82, 0, 73, 0.2) !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* .fluor-body-section .blowheader_box::before {
+    content: '▶' !important;
+    margin-right: 10px !important;
+    font-size: 0.9em !important;
+} */
+
+.fluor-body-section .blowheader_box::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: -8px !important;
+    left: 20px !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-top: 8px solid #520049 !important;
+}
 </style>
 
 <!-- 全局配置变量 -->
 <script>
     window.DASHBOARD_CONFIG = {
         baseurl: '{{ site.baseurl }}',
-        dataPath: '{{ site.baseurl }}/apidata/sequences_cleaned.json'
+        dataPath: '{{ site.baseurl }}/apidata/fluorescence_data.json'
     };
     
     // 搜索配置 - 可以通过修改这个配置来禁用hero section高度调整
@@ -163,19 +229,17 @@ permalink: /fluorescence/
         <p class="homepage-search-subtitle">在我们的数据库中搜索适配体、序列、结构和相关信息</p>
         
         <div class="homepage-search-box">
-            <input type="text" class="homepage-search-input" placeholder="输入适配体名称、序列或靶标..." 
+            <input type="text" class="homepage-search-input" placeholder="Enter the aptamer name, sequence or ligand..." 
                    id="mainSearch" 
                    autocomplete="off">
         </div>
         
         <div class="homepage-search-categories">
-            <a href="/aptamer/" class="homepage-search-category">适配体数据</a>
-            <a href="/structure/" class="homepage-search-category">结构信息</a>
-            <a href="/selex/" class="homepage-search-category">SELEX数据</a>
-            <a href="/application/" class="homepage-search-category">应用案例</a>
-            <a href="/fluorescence/" class="homepage-search-category">荧光检测</a>
-            <a href="/interactive_dashboard.html" class="homepage-search-category">数据可视化</a>
-            <a href="/tools/" class="homepage-search-category">在线工具</a>
+            <a href="#dataTable" class="homepage-search-category">Sequences</a>
+            <a href="#ligandChart" class="homepage-search-category">Ligands</a>
+            <a href="https://aptamer.ribocentre.org/Ribocentre-aptamer/" class="homepage-search-category">Structures</a>
+            <a href="#section3-3" class="homepage-search-category">Mechanisms</a>
+            <a href="https://aptamer.ribocentre.org/applications/" class="homepage-search-category">Applications</a>
         </div>
     </div>
 </div>
@@ -207,7 +271,7 @@ permalink: /fluorescence/
                 <!-- 年份分布图表 -->
                 <div class="chart-wrapper">
                     <div class="chart-header">
-                        <h4 class="chart-title">年份分布</h4>
+                        <h4 class="chart-title">Publication Trends by Year</h4>
                         <div class="chart-controls">
                             <span class="chart-info">点击柱状图进行多选筛选</span>
                         </div>
@@ -220,7 +284,7 @@ permalink: /fluorescence/
                 <!-- GC区间分布图表 -->
                 <div class="chart-wrapper">
                     <div class="chart-header">
-                        <h4 class="chart-title">类别分布</h4>
+                        <h4 class="chart-title">Distribution of Fluorophore Activation Mechanisms</h4>
                         <div class="chart-controls">
                             <span class="chart-info">点击扇形区域进行多选筛选</span>
                         </div>
@@ -248,7 +312,7 @@ permalink: /fluorescence/
             <!-- 先放数据详情表 -->
             <section class="data-table-section">
                 <div class="chart-header">
-                    <h4 class="chart-title">数据详情表</h4>
+                    <h4 class="chart-title">Light-Up RNA Aptamers Data</h4>
                     <div class="chart-controls">
                         <span class="chart-info" id="tableInfo">显示全部 555 条数据</span>
                     </div>
@@ -258,13 +322,15 @@ permalink: /fluorescence/
                         <table id="dataTable" class="table table-striped table-hover">
                             <thead>
                                 <tr>
-                                    <th>序号</th>
-                                    <th>名称</th>
-                                    <th>配体</th>
-                                    <th>年份</th>
-                                    <th>长度 (bp)</th>
-                                    <th>GC含量 (%)</th>
-                                    <th>亲和力</th>
+                                    <!-- 这里是表格的数据的title -->
+                                    <th>No\.</th>
+                                    <th>Aptamer name</th>
+                                    <th>Ligand</th>
+                                    <th>Year</th>
+                                    <th>Mechanisms</th>
+                                    <th>Sequence (5'-3')</th>
+                                    <th>Citation</th>
+                                    <th>Relevant 3D structures</th>
                                 </tr>
                             </thead>
                             <tbody id="tableBody">
@@ -291,18 +357,78 @@ permalink: /fluorescence/
                 </div>
             </section>
 
-            <!-- 再放散点图分析 -->
-            <div class="analysis-wrapper">
-                <div class="chart-header">
-                    <h4 class="chart-title">序列长度 vs GC含量分布</h4>
-                    <div class="chart-controls">
-                        <span class="chart-info">拖拽选择区域进行筛选</span>
-                    </div>
+            <!-- === 正文内容开始 === -->
+            <section class="fluor-body-section" id="fluorBody" style="margin-top: 60px;">
+                <!-- 一级标题 -->
+                <h2>Light-up RNA aptamers</h2>
+                <p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP 2. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties 3, 4, 5. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer's performance for better performance in cellular environments 6, 7, 8.<br/>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells 9.</p>
+
+                <!-- 二级标题1 -->
+                <h3 id="mechanisms">Fluorogenic mechanisms</h3>
+                <p>Light-up RNA aptamers contain specific binding sites that interact with small-molecule fluorophores. These fluorophores are non-fluorescent or weakly fluorescent in the absence of the aptamer. Upon binding to the aptamer, the fluorophore undergoes a conformational change that enhances its fluorescence properties. This binding typically occurs through a combination of hydrogen bonding, Van der Waals interactions, and stacking interactions within the RNA's three-dimensional structure.<br/>Understanding their mechanism of action involves exploring how these aptamers interact with their fluorophores to produce fluorescence, the structural basis of their function, and the principles guiding their design and optimization 10.</p>
+
+                <!-- 图0 -->
+                <figure style="text-align:center;">
+                    <img src="/images/fluorescence/light-up_aptamer.svg" alt="Structural Basis">
+                    <figcaption style="font-style: italic;">Structural Basis: Molecular Framework for Fluorescence Activation. Aptamers precisely identify the chemical groups of fluorophores through base complementarity or structural complementarity. After binding, the excited state energy of the fluorophore is effectively converted into fluorescence emission through the restriction of the rigid structure of the fitting body, rather than heat energy or vibration energy loss.</figcaption>
+                </figure>
+
+                <!-- 三级标题1 -->
+                <h4>Twisted Intramolecular Charge Transfer (TICT)</h4>
+                <p>TICT refers to a mechanism where the binding of a target induces a conformational change in the RNA aptamer, leading to the activation or enhancement of fluorescence through a twisted charge-transfer state. This state involves the separation of charge within the molecule, resulting in a geometry that promotes fluorescence.<br/>In the unbound state, the RNA aptamer and its fluorophore may be in a non-planar or less twisted conformation with limited charge separation, leading to weak or no fluorescence. Upon binding to a specific target, the aptamer undergoes a conformational change that facilitates a twist between the donor and acceptor moieties within the fluorophore. This twist maximizes the charge separation, creating an intramolecular charge transfer state with a large dipole moment. The TICT state stabilizes the fluorophore in a way that enhances its fluorescence emission, often resulting in a red-shifted and intensified fluorescence signal compared to the non-twisted state.</p>
+                <figure style="text-align:center;">
+                    <img src="/images/fluorescence/Twisted_intramolecular_charge_transfer_(TICT)_20260526.svg" alt="TICT mechanism">
+                    <figcaption style="font-style: italic;">TICT mechanism regulates fluorescence activation through conformational dynamics of fluorophores.</figcaption>
+                </figure>
+
+                <!-- 三级标题2 -->
+                <h4>Contact Quenching (CQ)</h4>
+                <p>Contact quenching in light-up RNA aptamers involves the reduction or elimination of fluorescence due to the close physical proximity of a quencher molecule to the fluorophore. This process is highly dependent on the spatial arrangement and interaction between the RNA aptamer and its target.<br/>In the absence of the target, the fluorophore may be in close proximity to a quencher moiety within the RNA aptamer, resulting in minimal fluorescence. Binding of the target induces a conformational change in the RNA aptamer that separates the fluorophore from the quencher. The increased distance between the fluorophore and quencher reduces the efficiency of non-radiative energy transfer, allowing the fluorophore to emit fluorescence. The efficiency of contact quenching and subsequent fluorescence recovery can be modulated by the nature of the target-aptamer interaction and the specific design of the aptamer.<br/>Light-up RNA aptamers exploiting contact quenching are used in biosensors to detect various biomolecules by monitoring changes in fluorescence.These aptamers facilitate the detection and quantification of analytes in complex mixtures.</p>
+                <figure style="text-align:center;">
+                    <img src="/images/fluorescence/Contact_quenching(CQ)_20260526.svg" alt="Contact quenching">
+                    <figcaption style="font-style: italic;">CQ operates via direct physical interaction between the fluorophore and quencher.</figcaption>
+                </figure>
+
+                <!-- 三级标题3 -->
+                <h4>Spirolactonization (SP)</h4>
+                <p>Spirolactonization in light-up RNA aptamers involves the formation of a spirolactone ring structure upon binding to a target. This structural change enhances the fluorescence of the aptamer, providing a clear signal upon target recognition.<br/>In the absence of the target, the RNA aptamer remains in a conformation that does not support spirolactone formation, leading to weak or no fluorescence. Binding of the target induces a conformational rearrangement in the aptamer, promoting the formation of a spirolactone ring. The formation of the spirolactone ring stabilizes the fluorophore in a fluorescent state, significantly enhancing its emission properties. The structural rigidity and planarity introduced by the spirolactone ring reduce non-radiative decay pathways, leading to a bright fluorescence signal.<br/>Spirolactonization-based light-up RNA aptamers are used to detect specific targets with high sensitivity and specificity. These aptamers can serve dual functions in theranostics, providing both diagnostic imaging and therapeutic action.</p>
+                <figure style="text-align:center;">
+                    <img src="/images/fluorescence/Spirolactonization_(SP)_20250526.svg" alt="Spirolactonization mechanism">
+                    <figcaption style="font-style: italic;">SP is exemplified by rhodamine-based probes. Aptamer binding alters the local microenvironment, triggering lactone ring-opening to yield the fluorescent zwitterionic form.</figcaption>
+                </figure>
+
+                <!-- 二级标题2 -->
+                <h3 id="properties">Properties of Fluorophore-Aptamer pairs</h3>
+                <p>Each light-up RNA aptamer is usually specific to a particular fluorophore. The specificity arises from the precise shape and chemical environment of the binding pocket within the RNA. The sequence and structure of the aptamer dictate the compatibility with the fluorophore, ensuring selective binding and fluorescence activation. Researchers focused on optimizing these aptamers for improved brightness, stability, and minimal background fluorescence. This included engineering the aptamers and fluorophores for better performance in cellular environments.<br/>The table below lists several fluorescent small molecular-RNA pairings for which interaction patterns have been known through crystallographic studies or NMR. (The table only shows the representative individuals of each type of fluorescent small molecule. For more details, click on small molecule to jump to the corresponding view.)</p>
+
+                <!-- 表格1 -->
+                <div class="table-responsive" style="overflow-x:auto;">
+                    <table class="table article-table" id="fluorPairsTable">
+                        <thead>
+                            <tr>
+                                <th>Fluorescent molecule</th>
+                                <th>IUPAC</th>
+                                <th>Molecular Formula</th>
+                                <th>Molar mass<br/>(g/mol)</th>
+                                <th>CAS</th>
+                                <th>Excitation (nm)</th>
+                                <th>Emission (nm)</th>
+                                <th>Aptamer</th>
+                                <th>Fluorogenic mechanisms</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- 数据由 fluor-article.js 动态填充 -->
+                        </tbody>
+                    </table>
                 </div>
-                <div class="chart-content">
-                    <div id="scatterChart" class="amir-chart-large"></div>
-                </div>
-            </div>
+
+                <!-- 参考文献 -->
+                <h3 id="references">References</h3>
+                <ol class="reference-list" id="referenceList" style="font-size: 0.95em; list-style-type: none; padding-left: 0;"></ol>
+            </section>
+            <!-- === 正文内容结束 === -->
+
         </div>
     </div>
 </div>
@@ -314,14 +440,12 @@ permalink: /fluorescence/
 </div>
 
 
-<!-- External JavaScript -->
-<script src="{{ site.baseurl }}/js/homepage-data.js"></script>
-
 <!-- Dashboard JavaScript -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
 <script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
+<script src="{{ site.baseurl }}/js/dashboard-fluor.js"></script>
 
 <!-- 模块化脚本引入 -->
 <script src="/js/carousel.js"></script>
@@ -340,4 +464,5 @@ function closeSearchResults() {
 </script>
 
 <!-- 页面底部引入专用JS，确保在页面最底部 -->
-<script src="/js/fluorescence.js"></script> 
+<script src="/js/fluorescence.js"></script>
+<script src="{{ site.baseurl }}/js/fluor-article.js"></script> 
