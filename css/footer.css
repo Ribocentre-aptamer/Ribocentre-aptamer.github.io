@@ -80,23 +80,38 @@
 .citation-link {
     background: #520049;
     color: white;
+    border: 2px solid #520049;
 }
 
 .citation-link:hover {
-    background: #3d0037;
+    background: white;
+    color: #520049;
     transform: translateY(-2px);
+}
+
+.citation-link:active {
+    background: #520049;
+    color: white;
+    transform: translateY(0);
 }
 
 .copy-citation-btn {
     background: #6c757d;
     color: white;
-    border: none;
+    border: 2px solid #6c757d;
     cursor: pointer;
 }
 
 .copy-citation-btn:hover {
-    background: #5a6268;
+    background: white;
+    color: #6c757d;
     transform: translateY(-2px);
+}
+
+.copy-citation-btn:active {
+    background: #6c757d;
+    color: white;
+    transform: translateY(0);
 }
 
 /* 相关数据库部分 */
@@ -237,11 +252,19 @@
     border-radius: 6px;
     font-weight: 500;
     transition: all 0.3s ease;
+    border: 2px solid #520049;
 }
 
 .support-btn:hover {
-    background: #3d0037;
+    background: white;
+    color: #520049;
     transform: translateY(-2px);
+}
+
+.support-btn:active {
+    background: #520049;
+    color: white;
+    transform: translateY(0);
 }
 
 /* 页脚底部 */

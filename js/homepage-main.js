@@ -3,8 +3,8 @@
 // ====== 打字机效果模块 ======
 const TypewriterModule = {
     init() {
-        const titleText = "欢迎来到 Ribocentre-Aptamer";
-        const subtitleText = "——综合性的适配体数据库与研究平台";
+        const titleText = "Welcome to Ribocentre-Aptamer";
+        const subtitleText = "——Comprehensive Aptamer Database and Research Platform";
         
         const titleElement = document.getElementById('typewriter-title');
         const subtitleElement = document.getElementById('typewriter-subtitle');

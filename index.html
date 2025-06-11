@@ -49,24 +49,24 @@ permalink: /
             
             <!-- 适配体基本信息卡片 - 左下角 -->
             <div class="aptamer-info-card aptamer-basic-info" id="aptamerBasicInfo">
-                <a href="#" class="aptamer-name" id="aptamerName" target="_blank">加载中...</a>
-                <div class="aptamer-target" id="aptamerTarget">目标蛋白: --</div>
-                <div class="aptamer-year" id="aptamerYear">发现年份: --</div>
+                <a href="#" class="aptamer-name" id="aptamerName" target="_blank">Loading...</a>
+                <div class="aptamer-target" id="aptamerTarget">Target Protein: --</div>
+                <div class="aptamer-year" id="aptamerYear">Discovery Year: --</div>
             </div>
             
-            <!-- 描述信息卡片 - 右上角 -->
+            <!-- Description Info Card - Top Right -->
             <div class="aptamer-info-card aptamer-description-info" id="aptamerDescriptionInfo">
-                <div class="description-title">适配体描述</div>
-                <div class="description-text" id="descriptionText">加载中...</div>
+                <div class="description-title">Aptamer Description</div>
+                <div class="description-text" id="descriptionText">Loading...</div>
             </div>
             
-            <!-- 结构信息卡片 - 右下角 -->
+            <!-- Structure Info Card - Bottom Right -->
             <div class="aptamer-info-card aptamer-structure-info" id="aptamerStructureInfo">
                 <div class="structure-pdb-id" id="structurePdbId">
                     <a href="#" target="_blank" id="pdbLink">PDB: --</a>
                 </div>
-                <div class="structure-resolution" id="structureResolution">分辨率: --</div>
-                <div class="structure-method" id="structureMethod">方法: --</div>
+                <div class="structure-resolution" id="structureResolution">Resolution: --</div>
+                <div class="structure-method" id="structureMethod">Method: --</div>
             </div>
         </div>
     </div>
@@ -209,16 +209,16 @@ permalink: /
 <!-- Dashboard Section -->
 <div class="dashboard-section" style="background: #f8f9fa; padding: 40px 0; margin-top: 20px;">
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 30px; color: #520049;">数据统计仪表板</h2>
+        <h2 style="text-align: center; margin-bottom: 30px; color: #520049;">Data Statistics Dashboard</h2>
         
         <div class="amir-container">
             <div class="chart-container">
                 <!-- 年份分布图表 -->
                 <div class="chart-wrapper">
                     <div class="chart-header">
-                        <h4 class="chart-title">年份分布</h4>
+                        <h4 class="chart-title">Year Distribution</h4>
                         <div class="chart-controls">
-                            <span class="chart-info">点击柱状图进行多选筛选</span>
+                            <span class="chart-info">Click bars for multi-selection</span>
                         </div>
                     </div>
                     <div class="chart-content">
@@ -229,9 +229,9 @@ permalink: /
                 <!-- GC区间分布图表 -->
                 <div class="chart-wrapper">
                     <div class="chart-header">
-                        <h4 class="chart-title">类别分布</h4>
+                        <h4 class="chart-title">Category Distribution</h4>
                         <div class="chart-controls">
-                            <span class="chart-info">点击扇形区域进行多选筛选</span>
+                            <span class="chart-info">Click sectors for multi-selection</span>
                         </div>
                     </div>
                     <div class="chart-content">
@@ -243,10 +243,10 @@ permalink: /
             <!-- 数据筛选条，移动到柱状图和饼图下方 -->
             <section class="filter-controls">
                 <div class="filter-header">
-                    <h4 class="filter-title">数据筛选</h4>
+                    <h4 class="filter-title">Data Filtering</h4>
                     <div class="filter-actions">
-                        <button class="filter-btn reset-btn" id="resetAllFilters">重置全部</button>
-                        <button class="filter-btn export-btn" id="exportData">导出数据</button>
+                        <button class="filter-btn reset-btn" id="resetAllFilters">Reset All</button>
+                        <button class="filter-btn export-btn" id="exportData">Export Data</button>
                     </div>
                 </div>
                 <div class="filter-tags" id="filterTags">
@@ -257,9 +257,9 @@ permalink: /
             <!-- 先放数据详情表 -->
             <section class="data-table-section">
                 <div class="chart-header">
-                    <h4 class="chart-title">数据详情表</h4>
+                    <h4 class="chart-title">Data Details</h4>
                     <div class="chart-controls">
-                        <span class="chart-info" id="tableInfo">显示全部 555 条数据</span>
+                        <span class="chart-info" id="tableInfo">Showing all 555 entries</span>
                     </div>
                 </div>
                 <div class="table-container">
@@ -267,17 +267,17 @@ permalink: /
                         <table id="dataTable" class="table table-striped table-hover">
                             <thead>
                                 <tr>
-                                    <th>序号</th>
-                                    <th>名称</th>
-                                    <th>配体</th>
-                                    <th>年份</th>
-                                    <th>长度 (bp)</th>
-                                    <th>GC含量 (%)</th>
-                                    <th>亲和力</th>
+                                    <th>No.</th>
+                                    <th>Name</th>
+                                    <th>Ligand</th>
+                                    <th>Year</th>
+                                    <th>Length (bp)</th>
+                                    <th>GC Content (%)</th>
+                                    <th>Affinity</th>
                                 </tr>
                             </thead>
                             <tbody id="tableBody">
-                                <!-- 表格数据将通过JavaScript动态填充 -->
+                                <!-- Table data will be dynamically populated -->
                             </tbody>
                         </table>
                     </div>
@@ -288,14 +288,14 @@ permalink: /
             <section class="data-summary">
                 <div class="summary-cards">
                     <div class="summary-card">
-                        <span class="summary-label">当前显示</span>
+                        <span class="summary-label">Currently Showing</span>
                         <span class="summary-count" id="currentCount">555</span>
-                        <span class="summary-unit">条数据</span>
+                        <span class="summary-unit">entries</span>
                     </div>
                     <div class="summary-card">
-                        <span class="summary-label">筛选比例</span>
+                        <span class="summary-label">Filter Ratio</span>
                         <span class="summary-percentage" id="filterPercentage">100%</span>
-                        <span class="summary-unit">可见</span>
+                        <span class="summary-unit">visible</span>
                     </div>
                 </div>
             </section>
@@ -303,9 +303,9 @@ permalink: /
             <!-- 再放散点图分析 -->
             <div class="analysis-wrapper">
                 <div class="chart-header">
-                    <h4 class="chart-title">序列长度 vs GC含量分布</h4>
+                    <h4 class="chart-title">Sequence Length vs GC Content Distribution</h4>
                     <div class="chart-controls">
-                        <span class="chart-info">拖拽选择区域进行筛选</span>
+                        <span class="chart-info">Drag to select area for filtering</span>
                     </div>
                 </div>
                 <div class="chart-content">
@@ -414,7 +414,7 @@ permalink: /
             <div class="citation-card">
                 <div class="citation-header">
                     <i class="fas fa-quote-left citation-icon"></i>
-                    <h3 class="citation-title">引用我们</h3>
+                    <h3 class="citation-title">Cite Us</h3>
                 </div>
                 <div class="citation-content">
                     <div class="authors">Zhichao Miao, Lin Huang</div>
@@ -422,11 +422,11 @@ permalink: /
                     <div class="citation-actions">
                         <a href="#" class="citation-link" target="_blank">
                             <i class="fas fa-external-link-alt"></i>
-                            查看文章
+                            View Article
                         </a>
                         <button class="copy-citation-btn" onclick="copyCitation()">
                             <i class="fas fa-copy"></i>
-                            复制引用
+                            Copy Citation
                         </button>
                     </div>
                 </div>
@@ -437,7 +437,7 @@ permalink: /
         <div class="related-section">
             <h3 class="section-title">
                 <i class="fas fa-database"></i>
-                相关数据库
+                Related Databases
             </h3>
             <div class="related-databases">
                 <a href="https://www.ribocentre.org/" target="_blank" class="database-card">
@@ -446,7 +446,7 @@ permalink: /
                     </div>
                     <div class="db-info">
                         <h4>Ribocentre</h4>
-                        <p>RNA功能元件数据库</p>
+                        <p>RNA Functional Elements Database</p>
                     </div>
                     <i class="fas fa-external-link-alt db-link-icon"></i>
                 </a>
@@ -456,7 +456,7 @@ permalink: /
                     </div>
                     <div class="db-info">
                         <h4>Riboswitch</h4>
-                        <p>核糖开关数据库</p>
+                        <p>Riboswitch Database</p>
                     </div>
                     <i class="fas fa-external-link-alt db-link-icon"></i>
                 </a>
@@ -470,11 +470,11 @@ permalink: /
                     <div class="support-icon help-icon">
                         <i class="fas fa-question-circle"></i>
                     </div>
-                    <h4 class="support-title">需要帮助？</h4>
-                    <p class="support-desc">查看我们的使用指南和常见问题解答</p>
+                    <h4 class="support-title">Need Help?</h4>
+                    <p class="support-desc">Check our user guide and FAQs</p>
                     <a href="./helps/" class="support-btn">
                         <i class="fas fa-book-open"></i>
-                        使用指南
+                        User Guide
                     </a>
                 </div>
                 
@@ -482,12 +482,12 @@ permalink: /
                     <div class="support-icon feedback-icon">
                         <i class="fas fa-comments"></i>
                     </div>
-                    <h4 class="support-title">意见反馈</h4>
-                    <p class="support-desc">告诉我们您的建议，帮助我们改进平台</p>
+                    <h4 class="support-title">Feedback</h4>
+                    <p class="support-desc">Share your suggestions to help us improve the platform</p>
                     <a href="https://docs.google.com/spreadsheets/d/1YYWEy1PL9YyzxqsPtWUqqh5G2gbl4D9n7SeV7cqaSK8/edit?gid=0#gid=0" 
                        class="support-btn" target="_blank">
                         <i class="fas fa-paper-plane"></i>
-                        提交反馈
+                        Submit Feedback
                     </a>
                 </div>
                 
@@ -495,11 +495,11 @@ permalink: /
                     <div class="support-icon contact-icon">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <h4 class="support-title">联系我们</h4>
-                    <p class="support-desc">有疑问或合作意向？随时与我们联系</p>
+                    <h4 class="support-title">Contact Us</h4>
+                    <p class="support-desc">Questions or collaboration? Feel free to reach out</p>
                     <a href="mailto:contact@ribocentre.org" class="support-btn">
                         <i class="fas fa-at"></i>
-                        发送邮件
+                        Send Email
                     </a>
                 </div>
             </div>
@@ -513,17 +513,17 @@ permalink: /
                         <span class="logo-main">Ribocentre</span>
                         <span class="logo-sub">Aptamer</span>
                     </div>
-                    <p class="footer-description">专业的适配体数据库平台</p>
+                    <p class="footer-description">Professional Aptamer Database Platform</p>
                 </div>
                 <div class="footer-right">
                     <div class="footer-links">
-                        <a href="./privacy/" class="footer-link">隐私政策</a>
-                        <a href="./terms/" class="footer-link">使用条款</a>
-                        <a href="./api/" class="footer-link">API文档</a>
+                        <a href="./privacy/" class="footer-link">Privacy Policy</a>
+                        <a href="./terms/" class="footer-link">Terms of Use</a>
+                        <a href="./api/" class="footer-link">API Documentation</a>
                     </div>
                     <div class="copyright">
-                        <p>&copy; 2024 Ribocentre-Aptamer. All rights reserved.</p>
-                        <p>由 <span style="color: #520049;">Ribocentre 团队</span> 开发维护</p>
+                        <p>&copy; 2025 Ribocentre-Aptamer. All rights reserved.</p>
+                        <p>Developed and maintained by <span style="color: #520049;">Ribocentre Team</span></p>
                     </div>
                 </div>
             </div>
@@ -541,33 +541,15 @@ permalink: /
 <!-- 主页功能JavaScript - 后加载，包含仪表板和其他功能 -->
 <script src="./js/homepage-main.js"></script>
 
+<!-- 页脚JavaScript -->
+<!-- <script src="./js/footer.js"></script> -->
+
 <!-- Dashboard JavaScript -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
 <script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
 
-<!-- 复制引用功能 -->
-<script>
-function copyCitation() {
-    const citation = 'Zhichao Miao, Lin Huang. Ribocentre-aptamer: a database of aptamers.';
-    navigator.clipboard.writeText(citation).then(function() {
-        // 显示复制成功提示
-        const btn = document.querySelector('.copy-citation-btn');
-        const originalText = btn.innerHTML;
-        btn.innerHTML = '<i class="fas fa-check"></i> 已复制';
-        btn.style.background = '#28a745';
-        
-        setTimeout(() => {
-            btn.innerHTML = originalText;
-            btn.style.background = '';
-        }, 2000);
-    }).catch(function(err) {
-        console.error('复制失败:', err);
-        alert('复制失败，请手动复制引用内容');
-    });
-}
-</script>
 
 <!-- Footer Styles -->
 <style>
@@ -652,10 +634,10 @@ function copyCitation() {
     color: white;
 }
 
-.citation-link:hover {
+/* .citation-link:hover {
     background: #3d0037;
     transform: translateY(-2px);
-}
+} */
 
 .copy-citation-btn {
     background: #6c757d;
@@ -809,10 +791,10 @@ function copyCitation() {
     transition: all 0.3s ease;
 }
 
-.support-btn:hover {
+/* .support-btn:hover {
     background: #3d0037;
     transform: translateY(-2px);
-}
+} */
 
 /* 页脚底部 */
 .footer-bottom {
@@ -1106,7 +1088,7 @@ function copyCitation() {
         // 显示复制成功提示
         const btn = document.querySelector('.copy-citation-btn');
         const originalText = btn.innerHTML;
-        btn.innerHTML = '<i class="fas fa-check"></i> 已复制';
+        btn.innerHTML = '<i class="fas fa-check"></i> Copied';
         btn.style.background = '#28a745';
         
         setTimeout(() => {
@@ -1114,8 +1096,8 @@ function copyCitation() {
             btn.style.background = '';
         }, 2000);
     }).catch(function(err) {
-        console.error('复制失败:', err);
-        alert('复制失败，请手动复制引用内容');
+        console.error('Copy failed:', err);
+        alert('Copy failed, please copy the citation manually');
     });
 }
 </script> 

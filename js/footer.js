@@ -23,18 +23,18 @@ const FooterModule = {
             const originalText = btn.innerHTML;
             
             // 显示复制成功提示
-            btn.innerHTML = '<i class="fas fa-check"></i> 已复制';
+            btn.innerHTML = '<i class="fas fa-check"></i> Copied';
             btn.style.background = '#28a745';
             
-            // 2秒后恢复原始按钮文本
+            // Restore original button text after 2 seconds
             setTimeout(() => {
                 btn.innerHTML = originalText;
                 btn.style.background = '';
             }, 2000);
         }).catch((err) => {
-            // 复制失败时的错误处理
-            console.error('复制失败:', err);
-            alert('复制失败，请手动复制引用内容');
+            // Error handling for copy failure
+            console.error('Copy failed:', err);
+            alert('Copy failed, please copy the citation manually');
         });
     },
     
