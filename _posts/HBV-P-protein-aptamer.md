@@ -153,7 +153,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<p>The 2D structure of the figure is based on the article by ribodraw tool to draw. S9 apatmer binds to hepatitis B virus (HBV) polymerase (P protein) (miniP). S9 aptamer was named by Hu, K. H et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw. S9 aptamer binds to hepatitis B virus (HBV) polymerase (P protein) (miniP). S9 aptamer was named by Hu, K. H et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-UGUUCAUGUCCUACUGUUCAAACAAAAAAACUGUGCACAAAAAUAAAUUGGGGCAUGGACA-3'</p>
 <img src="/images/2D/S9_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
