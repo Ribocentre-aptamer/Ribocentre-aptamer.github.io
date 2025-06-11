@@ -110,17 +110,45 @@ function createFilterTag(text, onRemove) {
 
 // 导出数据
 function exportData() {
-    const csvContent = "data:text/csv;charset=utf-8," + 
-        "Name,Ligand,Year,Length,GC Content\n" +
-        filteredData.map(d => `${d.name},${d.ligand},${d.year},${d.length},${d.gc_content}`).join("\n");
+    // 检查是否有数据可导出
+    if (!filteredData || filteredData.length === 0) {
+        alert("No data available to export.");
+        return;
+    }
     
+    // 从第一条数据获取所有字段名
+    const firstItem = filteredData[0];
+    const headers = Object.keys(firstItem);
+    
+    // 创建CSV标题行
+    const headerRow = headers.join(",");
+    
+    // 创建数据行
+    const dataRows = filteredData.map(item => {
+        return headers.map(header => {
+            // 处理可能包含逗号的字段，用引号包裹
+            let value = item[header] !== undefined ? item[header] : "";
+            // 如果值包含逗号、引号或换行符，则用引号包裹并处理内部引号
+            if (typeof value === 'string' && (value.includes(',') || value.includes('"') || value.includes('\n'))) {
+                value = '"' + value.replace(/"/g, '""') + '"';
+            }
+            return value;
+        }).join(",");
+    }).join("\n");
+    
+    // 组合完整CSV内容
+    const csvContent = "data:text/csv;charset=utf-8," + headerRow + "\n" + dataRows;
+    
+    // 创建下载链接
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "aptamer_filtered_data.csv");
+    link.setAttribute("download", "aptamer_data_export.csv");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    
+    console.log(`Exported ${filteredData.length} records with ${headers.length} fields.`);
 }
 
 // 重置所有筛选
