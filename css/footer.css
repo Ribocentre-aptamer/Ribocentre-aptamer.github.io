@@ -89,6 +89,13 @@
     transform: translateY(-2px);
 }
 
+.citation-link:focus {
+    background: #520049;
+    color: white;
+    outline: none;
+    transform: translateY(0);
+}
+
 .citation-link:active {
     background: #520049;
     color: white;
@@ -106,6 +113,13 @@
     background: white;
     color: #6c757d;
     transform: translateY(-2px);
+}
+
+.copy-citation-btn:focus {
+    background: #6c757d;
+    color: white;
+    outline: none;
+    transform: translateY(0);
 }
 
 .copy-citation-btn:active {
@@ -259,6 +273,13 @@
     background: white;
     color: #520049;
     transform: translateY(-2px);
+}
+
+.support-btn:focus {
+    background: #520049;
+    color: white;
+    outline: none;
+    transform: translateY(0);
 }
 
 .support-btn:active {
