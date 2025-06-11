@@ -435,21 +435,21 @@ const ChartModule = {
                 ...chartLayoutBase,
                 margin: { l: 60, r: 30, t: 30, b: 50 },
                 xaxis: {
-                    title: '序列长度 (bp)',
+                    title: 'Sequence Length (bp)',
                     titlefont: { size: 12, color: '#555' },
                     tickfont: { size: 10, color: '#555' },
                     gridcolor: 'rgba(0,0,0,0.1)',
                     showgrid: true
                 },
                 yaxis: {
-                    title: 'GC含量 (%)',
+                    title: 'GC Content (%)',
                     titlefont: { size: 12, color: '#555' },
                     tickfont: { size: 10, color: '#555' },
                     gridcolor: 'rgba(0,0,0,0.1)',
                     showgrid: true
                 },
                 annotations: [{
-                    text: '没有匹配的数据',
+                    text: 'No matching data',
                     xref: 'paper',
                     yref: 'paper',
                     x: 0.5,
@@ -531,7 +531,7 @@ const ChartModule = {
                     color: 'white' 
                 }
             },
-            hovertemplate: '<b>%{text}</b><br>长度: %{x} bp<br>GC含量: %{y}%<br>年份: %{customdata[0]}<br>类别: %{customdata[1]}<extra></extra>',
+            hovertemplate: '<b>%{text}</b><br>Length: %{x} bp<br>GC Content: %{y}%<br>Year: %{customdata[0]}<br>Category: %{customdata[1]}<extra></extra>',
             text: dataForVisualization.map(d => d.name),
             customdata: dataForVisualization.map(d => [
                 d.year,
@@ -546,14 +546,14 @@ const ChartModule = {
             ...chartLayoutBase,
             margin: { l: 60, r: 30, t: 30, b: 50 },
             xaxis: {
-                title: '序列长度 (bp)',
+                title: 'Sequence Length (bp)',
                 titlefont: { size: 12, color: '#555' },
                 tickfont: { size: 10, color: '#555' },
                 gridcolor: 'rgba(0,0,0,0.1)',
                 showgrid: true
             },
             yaxis: {
-                title: 'GC含量 (%)',
+                title: 'GC Content (%)',
                 titlefont: { size: 12, color: '#555' },
                 tickfont: { size: 10, color: '#555' },
                 gridcolor: 'rgba(0,0,0,0.1)',
@@ -562,8 +562,8 @@ const ChartModule = {
             dragmode: 'select',
             title: hasAnyFilter ? {
                 text: nodeFrozenState.scatterChart ? 
-                      `数据分布 (已冻结, ${dataForVisualization.length}/${originalData.length} 条数据)` : 
-                      `数据分布 (已筛选, ${dataForVisualization.length}/${originalData.length} 条数据)`,
+                      `Data Distribution (Frozen, ${dataForVisualization.length}/${originalData.length} entries)` : 
+                      `Data Distribution (Filtered, ${dataForVisualization.length}/${originalData.length} entries)`,
                 font: { size: 14, color: '#520049' }
             } : null
         };
@@ -838,22 +838,22 @@ const FilterModule = {
         const tagsContainer = document.getElementById('filterTags');
         tagsContainer.innerHTML = '';
         
-        // 年份标签
+        // Year tags
         activeFilters.years.forEach(year => {
-            const tag = createFilterTag(`年份: ${year}`, () => this.toggleYearFilter(year));
+            const tag = createFilterTag(`Year: ${year}`, () => this.toggleYearFilter(year));
             tagsContainer.appendChild(tag);
         });
         
-        // 类别标签
+        // Category tags
         activeFilters.categories.forEach(category => {
-            const tag = createFilterTag(`类别: ${category}`, () => this.toggleCategoryFilter(category));
+            const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category));
             tagsContainer.appendChild(tag);
         });
         
-        // 散点图筛选标签
+        // Scatter plot filter tag
         if (activeFilters.scatterSelection) {
             const sel = activeFilters.scatterSelection;
-            const text = `范围: ${sel.xrange[0].toFixed(0)}-${sel.xrange[1].toFixed(0)}bp, ${sel.yrange[0].toFixed(1)}-${sel.yrange[1].toFixed(1)}%`;
+            const text = `Range: ${sel.xrange[0].toFixed(0)}-${sel.xrange[1].toFixed(0)}bp, ${sel.yrange[0].toFixed(1)}-${sel.yrange[1].toFixed(1)}%`;
             const tag = createFilterTag(text, () => this.clearScatterSelection());
             tagsContainer.appendChild(tag);
         }
@@ -873,7 +873,7 @@ const FilterModule = {
         
         const resetBtn = document.getElementById('resetAllFilters');
         if (resetBtn) {
-            resetBtn.textContent = `重置全部 (${activeFilterCount})`;
+            resetBtn.textContent = `Reset All (${activeFilterCount})`;
             resetBtn.disabled = !hasActiveFilters;
             resetBtn.style.opacity = hasActiveFilters ? '1' : '0.5';
         }
@@ -969,8 +969,8 @@ const FilterModule = {
         
         warningEl.innerHTML = `
             <div>
-                <strong>没有匹配的数据!</strong> 
-                当前筛选条件组合没有返回任何结果。
+                <strong>No matching data!</strong> 
+                The current filter combination did not return any results.
             </div>
             <button id="resetFiltersBtn" style="
                 background: #dc3545;
@@ -979,7 +979,7 @@ const FilterModule = {
                 padding: 5px 10px;
                 border-radius: 4px;
                 cursor: pointer;
-            ">重置筛选</button>
+            ">Reset Filters</button>
         `;
         
         document.getElementById('resetFiltersBtn').addEventListener('click', resetAllFilters);
@@ -1083,7 +1083,7 @@ const TableModule = {
         const tableInfo = document.getElementById('tableInfo');
         
         // 更新表格信息
-        tableInfo.textContent = `显示 ${filteredData.length} 条数据（共 ${originalData.length} 条）`;
+        tableInfo.textContent = `Showing ${filteredData.length} entries (Total: ${originalData.length})`;
         
         // 清空表格
         tableBody.innerHTML = '';

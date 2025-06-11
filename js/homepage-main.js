@@ -617,29 +617,29 @@ const MolstarModule = {
         const aptamerYear = document.getElementById('aptamerYear');
         
         if (aptamerName) {
-            aptamerName.textContent = data.name || '未知适配体';
+            aptamerName.textContent = data.name || 'Unknown Aptamer';
             aptamerName.href = data.url || '#';
         }
-        if (aptamerTarget) aptamerTarget.textContent = `目标: ${data.target || '未知'}`;
-        if (aptamerYear) aptamerYear.textContent = `发现年份: ${data.firstYear || data.date || '未知'}`;
+        if (aptamerTarget) aptamerTarget.textContent = `Target: ${data.target || 'Unknown'}`;
+        if (aptamerYear) aptamerYear.textContent = `Discovery Year: ${data.firstYear || data.date || 'Unknown'}`;
 
         // 结构信息卡片
         const pdbLink = document.getElementById('pdbLink');
         const structureResolution = document.getElementById('structureResolution');
         const structureMethod = document.getElementById('structureMethod');
         
-        const pdbId = data.pdbId || '未知';
+        const pdbId = data.pdbId || 'Unknown';
         if (pdbLink) {
             pdbLink.textContent = `PDB: ${pdbId}`;
-            pdbLink.href = pdbId !== '未知' ? `https://www.rcsb.org/structure/${pdbId}` : '#';
+            pdbLink.href = pdbId !== 'Unknown' ? `https://www.rcsb.org/structure/${pdbId}` : '#';
         }
-        if (structureResolution) structureResolution.textContent = `分辨率: 高分辨率`;
-        if (structureMethod) structureMethod.textContent = `方法: X-ray/NMR`;
+        if (structureResolution) structureResolution.textContent = `Resolution: High Resolution`;
+        if (structureMethod) structureMethod.textContent = `Method: X-ray/NMR`;
 
         // 描述信息卡片
         const descriptionText = document.getElementById('descriptionText');
         if (descriptionText) {
-            const cleanDescription = (data.description || '暂无描述信息')
+            const cleanDescription = (data.description || 'No description available')
                 .replace(/\n\s*\n\s*\n/g, '\n\n')
                 .replace(/^\s+|\s+$/g, '')
                 .replace(/[ \t]+/g, ' ');

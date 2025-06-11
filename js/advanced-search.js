@@ -1059,12 +1059,12 @@ class AdvancedSearchModule {
 
     exportResults() {
         if (!this.filteredData.length) {
-            alert('没有数据可导出');
+            alert('No data to export');
             return;
         }
 
-        // 创建CSV内容
-        const headers = ['标题', '目标', '分类', '日期', '长度', 'GC含量', '标签', 'URL'];
+        // Create CSV content
+        const headers = ['Title', 'Target', 'Category', 'Date', 'Length', 'GC Content', 'Tags', 'URL'];
         const csvContent = [
             headers.join(','),
             ...this.filteredData.map(item => [

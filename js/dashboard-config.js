@@ -111,13 +111,13 @@ function createFilterTag(text, onRemove) {
 // 导出数据
 function exportData() {
     const csvContent = "data:text/csv;charset=utf-8," + 
-        "名称,配体,年份,长度,GC含量\n" +
+        "Name,Ligand,Year,Length,GC Content\n" +
         filteredData.map(d => `${d.name},${d.ligand},${d.year},${d.length},${d.gc_content}`).join("\n");
     
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "适配体筛选数据.csv");
+    link.setAttribute("download", "aptamer_filtered_data.csv");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
