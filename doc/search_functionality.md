@@ -1,6 +1,7 @@
 # Ribocentre-Aptamer 搜索功能实现文档
 
 本文档详细说明了 Ribocentre-Aptamer 网站中搜索功能的实现逻辑，包括 header 中的搜索功能和主页的 homepageSearch 功能。
+后续计划进行减法，现在两者的行为不同。
 
 ## 1. 搜索功能架构概述
 
