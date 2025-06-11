@@ -534,6 +534,7 @@ permalink: /
 <!-- External JavaScript -->
 <script src="./js/homepage-data.js"></script>
 
+
 <!-- 搜索功能JavaScript - 优先加载，确保hero section搜索功能正常 -->
 <script src="./js/search.js"></script>
 
@@ -1088,8 +1089,13 @@ function copyCitation() {
 <script>
 // 为搜索模块提供关闭功能
 function closeSearchResults() {
+    // 优先使用search.js中的SearchModule
     if (SearchModule && typeof SearchModule.closeSearchResults === 'function') {
         SearchModule.closeSearchResults();
+    }
+    // 如果主页模块存在，也关闭它的搜索结果
+    if (homepageSearchModule && typeof homepageSearchModule.mainSearchResults !== 'undefined') {
+        homepageSearchModule.mainSearchResults.style.display = 'none';
     }
 }
 

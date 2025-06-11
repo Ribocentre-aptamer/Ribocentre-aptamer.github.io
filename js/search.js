@@ -28,6 +28,18 @@ const SearchModule = {
         this.searchResultsList = document.getElementById('searchResultsList');
         this.searchResultsCount = document.getElementById('searchResultsCount');
         
+        // 检查页面类型，如果在index页面并且已有homepageSearchModule处理搜索
+        const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
+        const homepageModuleActive = typeof homepageSearchModule !== 'undefined' && homepageSearchModule.mainSearchInput;
+        
+        // 在某些页面上，我们希望保留search.js的功能而不是homepage-main.js的搜索
+        const isFluorescencePage = window.location.pathname.includes('fluorescence');
+        
+        if (isIndexPage && !isFluorescencePage && homepageModuleActive) {
+            console.log('SearchModule: 在index页面检测到homepageSearchModule，跳过初始化');
+            return;
+        }
+        
         if (!this.mainSearchInput) {
             console.error('搜索输入框未找到！');
             return;

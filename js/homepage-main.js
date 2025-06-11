@@ -132,8 +132,8 @@ const CounterModule = {
     }
 };
 
-// ====== 搜索模块 ======
-const SearchModule = {
+// ====== 主页搜索模块 ======
+const homepageSearchModule = {
     mainSearchInput: null,
     mainSearchResults: null,
     currentPage: 1,
@@ -145,6 +145,16 @@ const SearchModule = {
     overviewOriginalHeight: null,
 
     init() {
+        // 检查是否在index.html页面，以及是否已有SearchModule模块在运行
+        const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
+        const searchModuleActive = typeof SearchModule !== 'undefined' && SearchModule.mainSearchInput;
+        
+        // 在index页面，并且SearchModule已激活，则不初始化本模块的搜索功能
+        if (isIndexPage && searchModuleActive) {
+            console.log('homepageSearchModule: 检测到SearchModule已存在，跳过搜索功能初始化');
+            return;
+        }
+        
         this.mainSearchInput = document.getElementById('mainSearch');
         if (!this.mainSearchInput) return;
 
@@ -759,7 +769,7 @@ document.addEventListener('DOMContentLoaded', function() {
     TypewriterModule.init();
     CounterModule.init();
     CarouselModule.init();
-    SearchModule.init();
+    homepageSearchModule.init();
     
     // 延迟初始化Molstar以避免阻塞其他功能
     setTimeout(() => {
