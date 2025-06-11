@@ -282,107 +282,28 @@ const SearchModule = {
         this.searchResultsList.innerHTML = '<div style="padding: 15px; text-align: center; color: #666;">正在搜索...</div>';
         this.showSearchResults();
 
-        // 尝试不同路径加载search.json
         const searchPaths = ['./search.json', '/search.json', 'search.json'];
         this.currentPage = 1;
 
-        for (let i = 0; i < searchPaths.length; i++) {
-            try {
-                const response = await fetch(searchPaths[i]);
-                if (response.ok) {
-                    const text = await response.text();
-                    const data = JSON.parse(text);
-                    this.processSearchResults(data, query);
-                    return;
-                }
-            } catch (error) {
-                console.error('搜索路径错误:', searchPaths[i], error);
-            }
+        try {
+            const data = await SearchUtils.fetchData(searchPaths);
+            this.processSearchResults(data, query);
+        } catch (e) {
+            console.error('搜索数据加载失败', e);
+            this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">无法加载搜索数据，请稍后再试。</div>';
         }
-
-        // 如果所有路径都失败
-        this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">无法加载搜索数据，请稍后再试。</div>';
     },
 
     // 处理搜索结果
     processSearchResults(data, query) {
-        const results = [];
         const startTime = Date.now();
-        const queryLower = query.toLowerCase();
-        const queryTerms = queryLower.split(/\s+/).filter(term => term.length > 0);
-
-        // 遍历数据查找匹配项
-        data.forEach(item => {
-            const titleLower = (item.title || '').toLowerCase();
-            const categoryLower = (item.category || '').toLowerCase();
-            const tagsLower = (item.tags || '').toLowerCase();
-            const contentLower = (item.content || '').toLowerCase();
-
-            let matched = false;
-
-            // 检查精确匹配
-            if (titleLower.includes(queryLower) || 
-                categoryLower.includes(queryLower) || 
-                tagsLower.includes(queryLower) || 
-                contentLower.includes(queryLower)) {
-                matched = true;
-            } else {
-                // 检查分词匹配
-                for (const term of queryTerms) {
-                    if (titleLower.includes(term) || 
-                        categoryLower.includes(term) || 
-                        tagsLower.includes(term) || 
-                        contentLower.includes(term)) {
-                        matched = true;
-                        break;
-                    }
-                }
-            }
-
-            if (matched) {
-                // 计算相关性得分
-                item.relevanceScore = this.calculateRelevanceScore(item, query);
-                results.push(item);
-            }
-        });
-
-        // 按相关性排序
-        results.sort((a, b) => b.relevanceScore - a.relevanceScore);
-        this.allSearchResults = results;
-        
-        // 渲染结果
+        this.allSearchResults = SearchUtils.processResults(data, query);
         this.renderResults(Date.now() - startTime);
     },
 
     // 计算相关性得分
     calculateRelevanceScore(item, query) {
-        let score = 0;
-        const queryTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 0);
-        const fullQuery = query.toLowerCase();
-
-        const titleLower = (item.title || '').toLowerCase();
-        const categoryLower = (item.category || '').toLowerCase();
-        const tagsLower = (item.tags || '').toLowerCase();
-        const contentLower = (item.content || '').toLowerCase();
-
-        // 精确匹配完整查询词
-        if (titleLower.includes(fullQuery)) score += 200;
-        if (contentLower.includes(fullQuery)) score += 100;
-        if (categoryLower.includes(fullQuery)) score += 80;
-        if (tagsLower.includes(fullQuery)) score += 90;
-
-        // 检查每个关键词的匹配情况
-        queryTerms.forEach(term => {
-            if (titleLower === term) score += 100;
-            else if (titleLower.startsWith(term)) score += 80;
-            else if (titleLower.includes(term)) score += 60;
-
-            if (categoryLower.includes(term)) score += 30;
-            if (tagsLower.includes(term)) score += 40;
-            if (contentLower.includes(term)) score += Math.min((contentLower.match(new RegExp(term, 'gi')) || []).length * 3, 30);
-        });
-
-        return score;
+        return SearchUtils.calculateRelevanceScore(item, query);
     },
 
     // 渲染搜索结果
@@ -433,39 +354,12 @@ const SearchModule = {
 
     // 关键词高亮
     highlightKeywords(text, query) {
-        if (!text) return '';
-        
-        const queryTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 1);
-        let result = text;
-        
-        queryTerms.forEach(term => {
-            const regex = new RegExp(`(${term})`, 'gi');
-            result = result.replace(regex, '<span class="keyword-highlight">$1</span>');
-        });
-        
-        return result;
+        return SearchUtils.highlightKeywords(text, query);
     },
 
     // 获取内容预览
     getContentPreview(content, query) {
-        if (!content) return '';
-        
-        const queryLower = query.toLowerCase();
-        const keywordPos = content.toLowerCase().indexOf(queryLower);
-        
-        if (keywordPos !== -1) {
-            const start = Math.max(0, keywordPos - 80);
-            const end = Math.min(content.length, keywordPos + 120);
-            let preview = content.substring(start, end);
-            
-            if (start > 0) preview = '...' + preview;
-            if (end < content.length) preview = preview + '...';
-            
-            return this.highlightKeywords(preview, query);
-        }
-        
-        // 如果没有找到关键词，显示前200个字符
-        return this.highlightKeywords(content.substring(0, 200) + '...', query);
+        return SearchUtils.getContentPreview(content, query, 120);
     },
 
     // 显示搜索结果

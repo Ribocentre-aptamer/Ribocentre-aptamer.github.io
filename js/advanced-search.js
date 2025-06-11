@@ -1148,11 +1148,7 @@ class AdvancedSearchModule {
     }
 
     highlightKeywords(text, query) {
-        if (!text || !query) return text;
-        
-        const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`(${escapedQuery})`, 'gi');
-        return text.replace(regex, '<span class="keyword-highlight">$1</span>');
+        return SearchUtils.highlightKeywords(text, query);
     }
 
     setupFilters() {

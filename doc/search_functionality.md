@@ -5,11 +5,12 @@
 
 ## 1. 搜索功能架构概述
 
-Ribocentre-Aptamer 网站的搜索功能采用了模块化设计，主要包含三个核心模块：
+Ribocentre-Aptamer 网站的搜索功能采用了模块化设计，主要包含三个核心模块，并共享一套工具函数：
 
 1. **SearchModule (js/search.js)** - 全站通用的搜索功能模块
 2. **homepageSearchModule (js/homepage-main.js)** - 主页特定的搜索功能模块
 3. **AdvancedSearchModule (js/advanced-search.js)** - 高级搜索页面的专用搜索模块
+4. **SearchUtils (js/search-utils.js)** - 提供数据加载、关键词高亮等通用工具
 
 这些模块可以根据不同页面的需求独立运行或协同工作。系统会根据当前页面类型自动选择合适的搜索模块。
 
@@ -22,6 +23,7 @@ Header 中的搜索功能主要依赖以下文件：
 | 文件路径 | 作用 |
 |---------|------|
 | `js/search.js` | 实现全站通用的搜索功能逻辑 |
+| `js/search-utils.js` | 公共搜索工具函数 |
 | `css/search.css` | 提供搜索功能的样式定义 |
 | `js/simple-jekyll-search.min.js` | 提供基于 Jekyll 的搜索引擎功能 |
 | `search.json` | 存储网站内容的搜索索引数据 |
@@ -33,6 +35,7 @@ Header 中的搜索功能主要依赖以下文件：
 | 文件路径 | 作用 |
 |---------|------|
 | `js/homepage-main.js` | 包含 homepageSearchModule 实现 |
+| `js/search-utils.js` | 公共搜索工具函数 |
 | `css/search.css` | 提供搜索功能的样式定义 |
 | `css/homepage.css` | 包含主页特定的搜索样式 |
 | `js/homepage-data.js` | 提供主页搜索需要的数据 |
@@ -45,6 +48,7 @@ Header 中的搜索功能主要依赖以下文件：
 | 文件路径 | 作用 |
 |---------|------|
 | `js/advanced-search.js` | 包含 AdvancedSearchModule 类实现 |
+| `js/search-utils.js` | 公共搜索工具函数 |
 | `css/advanced-search.css` | 提供高级搜索页面的样式定义 |
 | `advanced_search.html` | 高级搜索页面的HTML结构 |
 | `search.json` | 同样用作高级搜索的数据源 |
