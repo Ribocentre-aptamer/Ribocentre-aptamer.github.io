@@ -74,7 +74,7 @@
 
       <p>Example:
         <a class="tip" href="{{ site.url }}{{ site.baseurl }}/Ribocentre-aptamer/">RNA aptamer</a>&nbsp;&nbsp;
-        <a class="tip" href="{{ site.url }}{{ site.baseurl }}/SELEX/">SELEX</a>&nbsp;&nbsp;
+        <!-- <a class="tip" href="{{ site.url }}{{ site.baseurl }}/SELEX/">SELEX</a>&nbsp;&nbsp; -->
         <a class="tip" href="{{ site.url }}{{ site.baseurl }}/_posts/ATP-aptamer" target="_blank">ATP aptamer</a>&nbsp;&nbsp;
         <a class="tip" href="{{ site.url }}{{ site.baseurl }}/structures/">Structure</a>&nbsp;&nbsp;
       </p>
@@ -110,7 +110,8 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="{{ site.url }}{{ site.baseurl }}/Ribocentre-aptamer/">Aptamers</a></li>
-            <li><a href="{{ site.url }}{{ site.baseurl }}/SELEX/">SELEX</a></li>
+            <!-- SELEX按钮先注释掉，图片的问题很大 -->
+            <!-- <li><a href="{{ site.url }}{{ site.baseurl }}/SELEX/">SELEX</a></li> -->
             <li><a href="{{ site.url }}{{ site.baseurl }}/fluorescence/">Fluorescence</a></li>
           </ul>
         </li>
@@ -578,13 +579,14 @@
       top: 3px;
     }
     
+    /* 这是外部导航栏折叠按钮的样式 */
     .external-nav {
       display: none;
       position: absolute;
       top: 30px;
       right: 0;
       background-color: #333333;
-      z-index: 1010;
+      z-index: 10000;
       width: 200px;
       height: auto !important;
       padding: 10px 0;
@@ -636,14 +638,18 @@
       left: 0;
       right: 0;
       background-color: #520049;
-      z-index: 1000;
+      z-index: 10000;
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.3s ease;
+      pointer-events: none; /* 禁用交互 */
+      visibility: hidden; /* 完全隐藏元素 */
     }
     
     #navbar-collapse-1.show {
       max-height: 500px;
+      pointer-events: auto; /* 恢复交互 */
+      visibility: visible; /* 显示元素 */
     }
     
     #navbar-collapse-1 ul.navbar-nav {
@@ -780,7 +786,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // 限制结果数量
-        const limitedResults = results.slice(0, 10);
+        const limitedResults = results.slice(0, 1000);
         this.renderResults(limitedResults, query);
       },
 
