@@ -21,7 +21,7 @@ permalink: /Ribocentre-aptamer/
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.26.2.min.js"></script>
   <!-- dashboard style -->
   <link rel="stylesheet" href="/css/dashboard.css">
   <link rel="stylesheet" href="/css/article-common.css">
@@ -877,7 +877,7 @@ permalink: /Ribocentre-aptamer/
 </head>
 
 
-<body onload="showSheet('sheet1')">
+<body>
   <h1 class="post-title" itemprop="name headline">RNA Aptamers</h1>
 
   RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into complex 3D shapes that bind to specific
@@ -1337,6 +1337,9 @@ permalink: /Ribocentre-aptamer/
         } else {
           content.style.display = "none";
           icon.textContent = "+";
+        }
+      }
+    </script>
 <p class="header_box">Detail information</p>
 <div class="dashboard-section">
   <h2 class="blowheader_box">Small molecules</h2>
@@ -1628,4 +1631,9 @@ permalink: /Ribocentre-aptamer/
   initAptamerDashboard({dataPath: '{{ site.baseurl }}/apidata/aptamer_proteins.json', prefix: 'pr'});
   initAptamerDashboard({dataPath: '{{ site.baseurl }}/apidata/aptamer_nucleic_acids.json', prefix: 'na'});
   initAptamerDashboard({dataPath: '{{ site.baseurl }}/apidata/aptamer_cells.json', prefix: 'ce'});
+</script>
+<script>
+  function handleCellClick(event) {
+    // placeholder for future cell click actions
+  }
 </script>
