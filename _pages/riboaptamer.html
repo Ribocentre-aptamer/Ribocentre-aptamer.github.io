@@ -1,0 +1,212 @@
+---
+layout: riboaptamer
+title: "Ribocentre Aptamer - RNA Aptamers"
+excerpt: "Ribocentre-aptamer: A aptamer database"
+sitemap: True
+permalink: /Ribocentre-aptamer/
+---
+
+<!-- 引入dashboard专用CSS -->
+<link rel="stylesheet" href="/css/dashboard.css">
+<!-- 通用文章样式 -->
+<link rel="stylesheet" href="/css/article-common.css">
+
+<div class="dashboard-section" style="background: #f8f9fa; padding: 40px 0;">
+  <div class="container">
+    <h1 style="text-align:center;color:#520049;margin-bottom:30px;">RNA Aptamers</h1>
+
+    <!-- Small molecules dashboard -->
+    <section class="amir-container" id="dash-small">
+      <h2 class="section-title">Small molecules</h2>
+      <div class="chart-container">
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Publication Trends by Year</h4></div>
+          <div class="chart-content"><div id="yearChart-small" class="amir-chart"></div></div>
+        </div>
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Category Distribution</h4></div>
+          <div class="chart-content"><div id="catChart-small" class="amir-chart"></div></div>
+        </div>
+      </div>
+      <section class="data-table-section">
+        <div class="table-container">
+          <div class="table-responsive">
+            <table id="table-small" class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>Name</th>
+                  <th>Ligand</th>
+                  <th>Year</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Proteins dashboard -->
+    <section class="amir-container" id="dash-protein">
+      <h2 class="section-title">Proteins</h2>
+      <div class="chart-container">
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Publication Trends by Year</h4></div>
+          <div class="chart-content"><div id="yearChart-protein" class="amir-chart"></div></div>
+        </div>
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Category Distribution</h4></div>
+          <div class="chart-content"><div id="catChart-protein" class="amir-chart"></div></div>
+        </div>
+      </div>
+      <section class="data-table-section">
+        <div class="table-container">
+          <div class="table-responsive">
+            <table id="table-protein" class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>Name</th>
+                  <th>Ligand</th>
+                  <th>Year</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Nucleic acids dashboard -->
+    <section class="amir-container" id="dash-nucleic">
+      <h2 class="section-title">Nucleic acids</h2>
+      <div class="chart-container">
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Publication Trends by Year</h4></div>
+          <div class="chart-content"><div id="yearChart-nucleic" class="amir-chart"></div></div>
+        </div>
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Category Distribution</h4></div>
+          <div class="chart-content"><div id="catChart-nucleic" class="amir-chart"></div></div>
+        </div>
+      </div>
+      <section class="data-table-section">
+        <div class="table-container">
+          <div class="table-responsive">
+            <table id="table-nucleic" class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>Name</th>
+                  <th>Ligand</th>
+                  <th>Year</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Cells dashboard -->
+    <section class="amir-container" id="dash-cell">
+      <h2 class="section-title">Cell</h2>
+      <div class="chart-container">
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Publication Trends by Year</h4></div>
+          <div class="chart-content"><div id="yearChart-cell" class="amir-chart"></div></div>
+        </div>
+        <div class="chart-wrapper">
+          <div class="chart-header"><h4 class="chart-title">Category Distribution</h4></div>
+          <div class="chart-content"><div id="catChart-cell" class="amir-chart"></div></div>
+        </div>
+      </div>
+      <section class="data-table-section">
+        <div class="table-container">
+          <div class="table-responsive">
+            <table id="table-cell" class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>Name</th>
+                  <th>Ligand</th>
+                  <th>Year</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
+<script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
+<script>
+function initAptamerDashboard(prefix, dataPath) {
+  const config = {
+    baseurl: '{{ site.baseurl }}',
+    dataPath: dataPath
+  };
+  window.DASHBOARD_CONFIG = config;
+  const yearChartId = 'yearChart-' + prefix;
+  const catChartId = 'catChart-' + prefix;
+  const tableId = 'table-' + prefix;
+  DataModule.loadData = async function(){
+    try {
+      const response = await fetch(config.dataPath);
+      const data = await response.json();
+      originalData = data;
+      filteredData = [...data];
+      ChartModule.createAllCharts = function(){
+        this.createYearChart();
+        this.createCategoryChart();
+      };
+      ChartModule.createYearChart = function(){
+        const yearCounts = {};
+        data.forEach(d => {yearCounts[d.Year||d.year] = (yearCounts[d.Year||d.year]||0)+1;});
+        const years = Object.keys(yearCounts).map(y=>parseInt(y)).sort();
+        const values = years.map(y=>yearCounts[y]);
+        Plotly.newPlot(yearChartId,[{x:years,y:values,type:'bar',marker:{color:'#AEE1D6'}}],{margin:{t:30}});
+      };
+      ChartModule.createCategoryChart = function(){
+        const catCounts = {};
+        data.forEach(d => {catCounts[d.Category||d.category] = (catCounts[d.Category||d.category]||0)+1;});
+        const cats = Object.keys(catCounts);
+        const values = cats.map(c=>catCounts[c]);
+        Plotly.newPlot(catChartId,[{labels:cats,values:values,type:'pie'}],{margin:{t:30}});
+      };
+      TableModule.updateDataTable = function(){
+        const tbody=document.querySelector('#'+tableId+' tbody');
+        tbody.innerHTML='';
+        data.forEach((d,i)=>{
+          const tr=document.createElement('tr');
+          tr.innerHTML=`<td>${i+1}</td><td>${d['Named']||d.name}</td><td>${d['Ligand']||d.ligand}</td><td>${d['Year']||d.year}</td><td>${d['Category']||d.category}</td>`;
+          tbody.appendChild(tr);
+        });
+      };
+      ChartModule.createAllCharts();
+      TableModule.updateDataTable();
+    }catch(e){console.error(e);}
+  };
+  DataModule.loadData();
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+  initAptamerDashboard('small','{{ site.baseurl }}/apidata/aptamer_small_molecules.json');
+  initAptamerDashboard('protein','{{ site.baseurl }}/apidata/aptamer_proteins.json');
+  initAptamerDashboard('nucleic','{{ site.baseurl }}/apidata/aptamer_nucleic_acids.json');
+  initAptamerDashboard('cell','{{ site.baseurl }}/apidata/aptamer_cells.json');
+});
+</script>
