@@ -13,6 +13,7 @@ Ribocentre-Aptamer 网站的搜索功能采用了模块化设计，主要包含�
 4. **SearchUtils (js/search-utils.js)** - 提供数据加载、关键词高亮等通用工具
 
 这些模块可以根据不同页面的需求独立运行或协同工作。系统会根据当前页面类型自动选择合适的搜索模块。
+所有模块的搜索逻辑均依赖 `SearchUtils.processResults`，从而确保同一关键词在不同位置得到一致的搜索结果。
 
 ## 2. 文件依赖关系
 
@@ -213,7 +214,7 @@ async performSearch() {
 
 #### 3.3.1 初始化流程
 
-高级搜索页面使用面向对象的方式实现，通过 `AdvancedSearchModule` 类管理所有功能：
+高级搜索页面使用面向对象的方式实现，通过 `AdvancedSearchModule` 类管理所有功能，并在基础搜索阶段同样调用 `SearchUtils.processResults`，与其他模块保持一致：
 
 ```js
 // 在 js/advanced-search.js 中
