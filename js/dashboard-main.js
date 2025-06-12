@@ -13,11 +13,81 @@ const DataModule = {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             
-            const data = await response.json();
-            originalData = data;
-            filteredData = [...data];
+            const responseData = await response.json();
             
-            console.log('数据加载成功，共', data.length, '条记录');
+            // 处理 sequences_cleaned.json 的特殊结构
+            // 数据可能存储在 Sheet1 字段下
+            let processedData = [];
+            if (responseData.Sheet1 && Array.isArray(responseData.Sheet1)) {
+                // 如果数据在 Sheet1 键下
+                processedData = responseData.Sheet1;
+                console.log('从 Sheet1 字段读取数据');
+            } else if (Array.isArray(responseData)) {
+                // 如果直接是数组
+                processedData = responseData;
+                console.log('直接从响应中读取数组数据');
+            } else {
+                // 尝试其他可能的数据格式
+                const possibleArrayField = Object.keys(responseData).find(
+                    key => Array.isArray(responseData[key]) && responseData[key].length > 0
+                );
+                
+                if (possibleArrayField) {
+                    processedData = responseData[possibleArrayField];
+                    console.log(`从 ${possibleArrayField} 字段读取数据`);
+                } else {
+                    console.warn('未找到有效的数据数组，使用空数组');
+                    processedData = [];
+                }
+            }
+            
+            // 确保数据中的字段兼容性，处理类型和大小写差异
+            processedData = processedData.map(item => {
+                // 确保基本字段存在
+                const processedItem = { ...item };
+                
+                // 处理 year 和 Year 字段
+                if (!processedItem.year && processedItem.Year) {
+                    processedItem.year = processedItem.Year;
+                }
+                
+                // 处理 ligand 和 Ligand 字段
+                if (!processedItem.ligand && processedItem.Ligand) {
+                    processedItem.ligand = processedItem.Ligand;
+                }
+                
+                // 处理 category 字段
+                if (!processedItem.category && processedItem.Category) {
+                    processedItem.category = processedItem.Category;
+                }
+                
+                // 处理 sequence 字段
+                if (!processedItem.sequence && processedItem.Sequence) {
+                    processedItem.sequence = processedItem.Sequence;
+                }
+                
+                // 处理 length 字段
+                if (!processedItem.length && processedItem.Length) {
+                    processedItem.length = processedItem.Length;
+                }
+                
+                // 处理 gc_content 字段
+                if (!processedItem.gc_content && processedItem['GC Content']) {
+                    processedItem.gc_content = processedItem['GC Content'];
+                }
+                
+                // 处理 affinity 字段
+                if (!processedItem.affinity && processedItem.Affinity) {
+                    processedItem.affinity = processedItem.Affinity;
+                }
+                
+                return processedItem;
+            });
+            
+            originalData = processedData;
+            filteredData = [...processedData];
+            
+            console.log('数据加载成功，共', processedData.length, '条记录');
             
             this.updateStatistics();
             ChartModule.createAllCharts();
@@ -1081,26 +1151,109 @@ const TableModule = {
     updateDataTable() {
         const tableBody = document.getElementById('tableBody');
         const tableInfo = document.getElementById('tableInfo');
-        
-        // 更新表格信息
-        tableInfo.textContent = `Showing ${filteredData.length} entries (Total: ${originalData.length})`;
-        
-        // 清空表格
+
+        if (!tableBody || !tableInfo) {
+            console.warn('表格元素缺失，无法更新数据表');
+            return;
+        }
+
+        tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
         tableBody.innerHTML = '';
-        
-        // 添加筛选后的数据
+
+        // 辅助函数：序列着色
+        const colorizeSequence = (seq) => {
+            const colorMap = { 'A': '#d9534f', 'T': '#f0ad4e', 'U': '#f0ad4e', 'C': '#5bc0de', 'G': '#5cb85c' };
+            return (seq || '').split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
+        };
+
+        // 辅助函数：tooltip
+        const addTooltip = (cell, htmlContent) => {
+            if (!htmlContent) return;
+            cell.addEventListener('mouseenter', (e) => {
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.pageX, e.pageY);
+            });
+            cell.addEventListener('mousemove', (e) => {
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.pageX, e.pageY);
+            });
+            cell.addEventListener('mouseleave', () => {
+                if (typeof hideAmirTooltip === 'function') hideAmirTooltip();
+            });
+        };
+
         filteredData.forEach((item, index) => {
             const row = document.createElement('tr');
+            row.style.whiteSpace = 'nowrap';
+
+            // 1. Aptamer name - 使用Article name字段
+            // 获取aptamer名称，优先使用Article name
+            let nameHTML = item['Article name'] || '';
+            // 如果有链接，创建超链接
+            if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
+                nameHTML = `<a href="${item.Linker}" target="_blank">${item['Article name'] || ''}</a>`;
+            }
+
+            // 2. Ligand - 使用Ligand字段，限制最多显示2个单词
+            const ligandFull = item.Ligand || '';
+            // 截取前两个单词作为简短显示
+            const ligandWords = ligandFull.split(' ');
+            const ligandShort = ligandWords.length > 2 
+                ? ligandWords.slice(0, 2).join(' ') + '...' 
+                : ligandFull;
+
+            // 3. Year - 使用Year字段
+            // 获取年份信息，如果有PubMed链接则创建超链接
+            let yearHTML = `${item.Year || ''}`;
+            if (item['Link to PubMed Entry'] && item['Link to PubMed Entry'].trim() !== '' && item['Link to PubMed Entry'] !== 'null') {
+                yearHTML = `<a href="${item['Link to PubMed Entry']}" target="_blank">${item.Year || ''}</a>`;
+            }
+
+            // 4. Category - 使用Category字段
+            const categoryHTML = item.Category || '';
+
+            // 5. CAS - 使用CAS字段，限制最多显示前20个字符
+            const casFullHTML = item['CAS'] || '';
+            // 截取前20个字符作为简短显示
+            const casHTML = casFullHTML.length > 20
+                ? casFullHTML.substring(0, 20) + '...'
+                : casFullHTML;
+
+            // 6. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
+            const affinityFull = item.Affinity || '';
+            // 截取第一个逗号前的内容
+            const affinityHTML = affinityFull.split(',')[0].trim();
+
+            // 7. Sequence (5'-3') - 使用Sequence字段
+            // 获取序列信息，只显示前10个字符，鼠标悬停时显示完整彩色序列
+            const sequence = item.Sequence || '';
+            const seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
+            const seqFullColored = colorizeSequence(sequence);
+
+            // 8. Description - 使用Ligand Description字段
+            // 获取描述信息，截取前20个字符作为简短显示
+            const descFull = item['Ligand Description'] || '';
+            const descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;
+
+            // 构建表格行HTML
             row.innerHTML = `
                 <td>${index + 1}</td>
-                <td title="${item.name}">${item.name.length > 40 ? item.name.substring(0, 40) + '...' : item.name}</td>
-                <td title="${item.ligand}">${item.ligand.length > 30 ? item.ligand.substring(0, 30) + '...' : item.ligand}</td>
-                <td>${item.year}</td>
-                <td>${item.length}</td>
-                <td>${item.gc_content.toFixed(1)}</td>
-                <td title="${item.affinity}">${item.affinity.length > 20 ? item.affinity.substring(0, 20) + '...' : item.affinity}</td>
+                <td>${nameHTML}</td>
+                <td>${ligandShort}</td>
+                <td>${yearHTML}</td>
+                <td>${categoryHTML}</td>
+                <td>${casHTML}</td>
+                <td>${affinityHTML}</td>
+                <td>${seqShort}</td>
+                <td>${descShort}</td>
             `;
             tableBody.appendChild(row);
+
+            // 为各字段添加tooltip，鼠标悬停时显示完整内容
+            const cells = row.querySelectorAll('td');
+            addTooltip(cells[2], ligandFull); // ligand完整内容
+            addTooltip(cells[5], casFullHTML); // CAS完整内容
+            addTooltip(cells[6], affinityFull); // Affinity完整内容
+            addTooltip(cells[7], seqFullColored); // 序列完整彩色内容
+            addTooltip(cells[8], descFull); // 描述完整内容
         });
     }
 };
