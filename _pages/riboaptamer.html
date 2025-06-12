@@ -15,6 +15,23 @@ permalink: /Ribocentre-aptamer/
   <div class="container">
     <h1 style="text-align:center;color:#520049;margin-bottom:30px;">RNA Aptamers</h1>
 
+    <p>RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into complex 3D shapes that bind to specific targets. Although some aptamers exist naturally as the ligand-binding elements of riboswitches, most are generated in vitro and can be tailored for a specific target.</p>
+
+    <p class="header_box">Statistical information </p>
+    <div class="collapsible-container">
+      <div id="pie-chart" style="width: 800px; height: 600px;"></div>
+      <script>
+        var data = [{
+          values: [12, 7, 73, 3, 2, 3, 3, 28, 4, 6, 8, 16, 7, 11, 3],
+          labels: ['Bacteria', 'Cell', 'Mammalian', 'Other', 'Parasite', 'Prion', 'Toxin', 'Viral', 'RNA', 'Amino Acids & Peptides', 'Biologics & Signaling Molecules', 'Fluorophores', 'Nucleosides & Nucleotides', 'Pharmaceuticals', 'Synthetic'],
+          type: 'pie',
+          marker: { colors: ['#e97e8d', '#bf97d1', '#d75369', '#9841da', '#396120', '#77c670', '#ab233a', '#ade48b', '#6ed9cd', '#FFA07A', '#f0a570', '#385dbf', '#3c58a5', '#14a0ec', '#2a5c76'] }
+        }];
+        Plotly.newPlot('pie-chart', data, {});
+      </script>
+      <p>The aptamer database encompasses both aptamers with known 3D structures and those without. The following table lists the ligands of all aptamers in this database. The color coding of the table matches the hues of the pie chart displayed above, which symbolizes the various categories of aptamers. By clicking on a ligand of interest, you can access detailed information pertaining to the respective aptamer.</p>
+    </div>
+
     <!-- Small molecules dashboard -->
     <section class="amir-container" id="dash-small">
       <h2 class="section-title">Small molecules</h2>
@@ -150,63 +167,45 @@ permalink: /Ribocentre-aptamer/
   </div>
 </div>
 
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
-<script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
 <script>
-function initAptamerDashboard(prefix, dataPath) {
-  const config = {
-    baseurl: '{{ site.baseurl }}',
-    dataPath: dataPath
-  };
-  window.DASHBOARD_CONFIG = config;
-  const yearChartId = 'yearChart-' + prefix;
-  const catChartId = 'catChart-' + prefix;
-  const tableId = 'table-' + prefix;
-  DataModule.loadData = async function(){
-    try {
-      const response = await fetch(config.dataPath);
-      const data = await response.json();
-      originalData = data;
-      filteredData = [...data];
-      ChartModule.createAllCharts = function(){
-        this.createYearChart();
-        this.createCategoryChart();
-      };
-      ChartModule.createYearChart = function(){
-        const yearCounts = {};
-        data.forEach(d => {yearCounts[d.Year||d.year] = (yearCounts[d.Year||d.year]||0)+1;});
-        const years = Object.keys(yearCounts).map(y=>parseInt(y)).sort();
-        const values = years.map(y=>yearCounts[y]);
-        Plotly.newPlot(yearChartId,[{x:years,y:values,type:'bar',marker:{color:'#AEE1D6'}}],{margin:{t:30}});
-      };
-      ChartModule.createCategoryChart = function(){
-        const catCounts = {};
-        data.forEach(d => {catCounts[d.Category||d.category] = (catCounts[d.Category||d.category]||0)+1;});
-        const cats = Object.keys(catCounts);
-        const values = cats.map(c=>catCounts[c]);
-        Plotly.newPlot(catChartId,[{labels:cats,values:values,type:'pie'}],{margin:{t:30}});
-      };
-      TableModule.updateDataTable = function(){
-        const tbody=document.querySelector('#'+tableId+' tbody');
-        tbody.innerHTML='';
-        data.forEach((d,i)=>{
-          const tr=document.createElement('tr');
-          tr.innerHTML=`<td>${i+1}</td><td>${d['Named']||d.name}</td><td>${d['Ligand']||d.ligand}</td><td>${d['Year']||d.year}</td><td>${d['Category']||d.category}</td>`;
-          tbody.appendChild(tr);
-        });
-      };
-      ChartModule.createAllCharts();
-      TableModule.updateDataTable();
-    }catch(e){console.error(e);}
-  };
-  DataModule.loadData();
+function createDashboard(prefix, dataUrl) {
+  fetch(dataUrl)
+    .then(r => r.json())
+    .then(data => {
+      const yearMap = {};
+      data.forEach(d => {
+        const y = d.Year || d.year;
+        if (y) yearMap[y] = (yearMap[y] || 0) + 1;
+      });
+      const years = Object.keys(yearMap).map(y => parseInt(y, 10)).sort((a,b) => a-b);
+      const yearValues = years.map(y => yearMap[y]);
+      Plotly.newPlot('yearChart-' + prefix, [{ x: years, y: yearValues, type: 'bar', marker: { color: '#AEE1D6' } }], { margin: { t: 30 } });
+
+      const catMap = {};
+      data.forEach(d => {
+        const c = d.Category || d.category || d.Type || '';
+        catMap[c] = (catMap[c] || 0) + 1;
+      });
+      const cats = Object.keys(catMap);
+      const catValues = cats.map(c => catMap[c]);
+      Plotly.newPlot('catChart-' + prefix, [{ labels: cats, values: catValues, type: 'pie' }], { margin: { t: 30 } });
+
+      const tbody = document.querySelector('#' + 'table-' + prefix + ' tbody');
+      tbody.innerHTML = '';
+      data.forEach((d, i) => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${i + 1}</td><td>${d.Named || d.name || ''}</td><td>${d.Ligand || d.ligand || ''}</td><td>${d.Year || d.year || ''}</td><td>${d.Category || d.category || d.Type || ''}</td>`;
+        tbody.appendChild(tr);
+      });
+    })
+    .catch(err => console.error(err));
 }
 
-document.addEventListener('DOMContentLoaded', function(){
-  initAptamerDashboard('small','{{ site.baseurl }}/apidata/aptamer_small_molecules.json');
-  initAptamerDashboard('protein','{{ site.baseurl }}/apidata/aptamer_proteins.json');
-  initAptamerDashboard('nucleic','{{ site.baseurl }}/apidata/aptamer_nucleic_acids.json');
-  initAptamerDashboard('cell','{{ site.baseurl }}/apidata/aptamer_cells.json');
+document.addEventListener('DOMContentLoaded', function() {
+  createDashboard('small', '{{ site.baseurl }}/apidata/aptamer_small_molecules.json');
+  createDashboard('protein', '{{ site.baseurl }}/apidata/aptamer_proteins.json');
+  createDashboard('nucleic', '{{ site.baseurl }}/apidata/aptamer_nucleic_acids.json');
+  createDashboard('cell', '{{ site.baseurl }}/apidata/aptamer_cells.json');
 });
 </script>
