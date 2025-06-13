@@ -6,16 +6,6 @@ sitemap: True
 permalink: /applications/
 ---
 
-<h1 class="post-title" itemprop="name headline">Applications</h1>
-<p>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
-<div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/main.png" alt="drawing" style="width:900px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<br>
-<p>RNA aptamers offer several advantages over traditional antibodies and other molecular recognition elements<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>:</p>
-
-
-
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -157,8 +147,51 @@ div.content-section a[id^="ref"] {
   margin-top: 15px !important;
 }
 </style>
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
+<script src="/js/mol/pdbe-molstar-plugin.js"></script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .msp-plugin ::-webkit-scrollbar-thumb {
+    background-color: #474748  !important;
+  }
+  .msp-plugin .msp-layout-standard {
+    border: 1px solid #efefef;
+  }
+  .viewerSection1 {
+    padding-top: 0px;
+  }
+  .controlsSection1 {
+    width: 300px;
+    display: flex;
+    float:left;
+    padding: 0px 0 0 0;
+    height:25px;
+  }
+  .controlBox1 {
+    border: 0px solid lightgray;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+  #myViewer1{
+    float:left;
+    width:500px;
+    height: 500px;
+    position:relative;
+  }
+</style>
 </head>
 <body>
+<h1 class="post-title" itemprop="name headline">Applications</h1>
+<p>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
+<div style="display: flex; justify-content: center;"></div>
+<img src="/images/applications/main.png" alt="drawing" style="width:900px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<br>
+<p>RNA aptamers offer several advantages over traditional antibodies and other molecular recognition elements<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>:</p>
+
 <div class="content-section">
 <ul class="purple-list">
     <li><b>Versatility</b> &nbsp;&nbsp;&nbsp; Aptamers can be engineered to target a wide range of molecules, including proteins, small molecules, ions, and even whole cells.</li>
@@ -1061,70 +1094,5 @@ function downloadExcel() {
     }
   }  
 </script>
+</body>
 </html>
-<br>
-
-
-
-<html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
-</div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1RAW-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    </html>
