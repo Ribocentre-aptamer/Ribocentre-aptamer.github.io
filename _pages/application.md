@@ -33,9 +33,9 @@ p {
   text-justify: inter-word;
 }
 .content-section p:first-of-type::first-letter {
-  font-weight: 700;
-  font-size: 1.2em;
-  color: var(--primary-color);
+  font-weight: 700 !important;
+  font-size: 1.2em !important;
+  color: var(--primary-color) !important;
 }
 .purple-list {
   list-style-type: none;
