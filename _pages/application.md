@@ -159,7 +159,7 @@ div.content-section a[id^="ref"] {
 </style>
 </head>
 <body>
-
+<div class="content-section">
 <ul class="purple-list">
     <li><b>Versatility</b> &nbsp;&nbsp;&nbsp; Aptamers can be engineered to target a wide range of molecules, including proteins, small molecules, ions, and even whole cells.</li>
     <li><b>High Affinity and Specificity</b> &nbsp;&nbsp;&nbsp; They can exhibit binding affinities and specificities comparable to monoclonal antibodies.</li>
@@ -171,6 +171,7 @@ div.content-section a[id^="ref"] {
 </ul>
 <br>
 <br>
+</div>
 
 
 
@@ -186,11 +187,7 @@ div.content-section a[id^="ref"] {
     <div class="side-nav-item"><a href="#Research-Tools " style="color: #000000;">Research Tools</a></div>
     </ul>
 </div-->
-
-
-
-
-        
+<div class="content-section">
 <h2 class="section-title" id="Diagnosis-detection">Diagnosis and detection</h2>
 <p>In the diagnostic arena, RNA aptamers have been employed as molecular probes for the detection of various biomarkers. Their high affinity and specificity for target molecules allow for the development of sensitive and selective assays. For example, aptamers have been used to detect cancer biomarkers in blood samples, enabling early diagnosis and treatment of malignancies. Additionally, aptamers have been utilized in the development of biosensors for the detection of pathogens, toxins, and other harmful substances, providing a rapid and reliable means of monitoring environmental and food safety. In addition, they can detect and image various biomolecules or cellular processes, enhancing the sensitivity and specificity of diagnostic assays<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <div class="blowheader_box">Diagnosis of infectious diseases and pathogens</div>      
@@ -455,6 +452,8 @@ div.content-section a[id^="ref"] {
 <br>
 
         
+</div>
+<div class="content-section">
 <h2 class="section-title" id="Disease-treatment-drugs">Disease treatment and drugs</h2>
 <div class="blowheader_box">Aptamers as inhibitor</div>      
 <p>RNA aptamers can be used as therapeutic agents to modulate the activity of proteins or other targets involved in disease pathways. RNA aptamers have shown great promise as therapeutic agents, primarily due to their high specificity and low immunogenicity compared to antibodies. The therapeutic potential of RNA aptamers is particularly promising. Their ability to bind tightly and specifically to target proteins has enabled the development of aptamer-based therapeutics that can inhibit the function of disease-causing proteins. Aptamers have been used to target a wide range of proteins, including growth factors, receptors, enzymes, and transcription factors, with the potential to treat a variety of diseases, including cancer, inflammatory disorders, and infectious diseases. Furthermore, aptamers can be conjugated to therapeutic payloads, such as cytotoxic drugs or radioactive isotopes, enabling targeted delivery of therapeutics to diseased cells while minimizing systemic toxicity<sup>[<a href="#ref7" style="color:#520049">7</a></sup><sup>,<a href="#ref13" style="color:#520049">13</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>,<a href="#ref15" style="color:#520049">15</a></sup><sup>]</sup>.</p>
@@ -622,6 +621,8 @@ div.content-section a[id^="ref"] {
 <br>
 
 
+</div>
+<div class="content-section">
 <h2 class="section-title" id="Biosensing-monitoring">Biosensing and monitoring</h2>
 <p>RNA aptamers have also found applications in the field of biosensing. Their high affinity and specificity for target molecules allow for the development of sensors with enhanced sensitivity and selectivity. Aptamer-based biosensors have been used for the detection of biomarkers, pathogens, and toxins, with the potential for rapid, real-time monitoring of biological samples. Additionally, aptamers can be integrated into biosensing platforms, such as microfluidic devices and nanoparticle-based sensors, enabling the development of miniaturized, portable, and user-friendly diagnostic tools. RNA aptamers are also finding applications in environmental monitoring, where they are used to detect pollutants and toxins with high sensitivity and specificity. For instance, aptamers that bind to heavy metals such as lead and mercury can be incorporated into sensors to monitor water quality. These aptamer-based sensors offer a rapid and reliable method for detecting environmental contaminants, which is crucial for ensuring public health and safety. In addition, RNA aptamers have been developed to detect biotoxins and pathogens in food and water samples. aptamers can be used in biosensors to detect these contaminants in food products, helping to prevent foodborne illnesses<sup>[<a href="#ref19" style="color:#520049">19</a></sup><sup>,<a href="#ref20" style="color:#520049">20</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases. The picture is from a review written by Harmanjit Kaur<sup>[<a href="#ref21" style="color:#520049">21</a></sup><sup>]</sup>.</p>
@@ -707,6 +708,8 @@ div.content-section a[id^="ref"] {
 
 
 
+</div>
+<div class="content-section">
 <h2 class="section-title" id="Research-Tools">Research Tools</h2>
 <p>In the realm of basic research, RNA aptamers serve as valuable tools for studying molecular interactions and cellular processes. They can be used as molecular probes to study protein function, investigate signaling pathways, and dissect complex biological systems. RNA aptamers can also be employed to inhibit specific proteins or pathways in a controlled manner, providing insights into their roles in cellular physiology and disease. In the laboratory, aptamers are valuable for studying protein functions, signaling pathways, and molecular interactions due to their ability to bind targets with high specificity<sup>[<a href="#ref23" style="color:#520049">23</a></sup><sup>,<a href="#ref24" style="color:#520049">24</a></sup><sup>]</sup>. Among them, fluorescent RNA aptamers is the most important research tools. For more fluorescent RNA aptamers, please refer to <a href="{{ site.url }}{{ site.baseurl }}/fluorescences" target="_blank" style="color:#520049"><b><i>Fluorescences</i></b></a> page.</p>
 <p>For example, the aptamers can be combined with a variety of different expression platforms. RNA-based switches have been constructed that allow for controlling gene expression in diverse contexts. Recently, researchers have developed a gene expression control technique that utilizes a tetracycline-dependent ribozyme switch to achieve conditional induction of gene expression in Caenorhabditis elegans.  This system provides a powerful tool for studying gene regulation in C. elegans, as it allows for precise control of gene expression in living organisms<sup>[<a href="#ref22" style="color:#520049">22</a></sup><sup>]</sup>.</p>
@@ -785,6 +788,8 @@ div.content-section a[id^="ref"] {
 <br>
 
 
+</div>
+<div class="content-section">
 <h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] In vitro selection of RNA molecules that bind specific ligands.</strong></font><br />
@@ -909,6 +914,7 @@ Spöring, M., Finke, M., & Hartig, J. S.<br />
 
                     
   
+</div>
 <script>
 var tables = [];
     var currentSheet = 'sheet1';
@@ -1103,6 +1109,7 @@ function downloadExcel() {
           }
         </style>
     </head>
+</div>
     <script>
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
