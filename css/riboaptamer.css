@@ -1,0 +1,847 @@
+    .header_box {
+      display: block;
+      font-size: 24px;
+      background-color: #ffffff;
+      text-decoration: none;
+      border-radius: 1px;
+      width: 500px;
+      border-width: 1px 1px 2px 1px;
+      border-color: #ffffff #ffffff #ffffff #ffffff;
+    }
+    .box_style {
+      background: #ffffff;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    /* 按钮容器样式 */
+    .button-container {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 50px;
+      overflow: auto
+    }
+    /* 按钮样式 */
+    .button {
+      display: block;
+      padding: 10px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #ffffff;
+      color: #520049;
+      text-decoration: none;
+      font-size: 16px;
+      border: 1px solid #520049;
+      border-radius: 5px;
+    }
+    /* 鼠标悬停样式 */
+    .button:hover {
+      background-color: #c9c5c5;
+      cursor: pointer;
+    }
+    /* 样式表格 */
+    .table-style1 {
+      border: 2px solid #ffffff;
+      border: 2px solid #ffffff;
+      border: 2px solid #ffffff;
+      border-radius: 5px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    .table-style1 th {
+      background-color: #520049;
+      background-color: #520049;
+      background-color: #520049;
+      color: rgba(255, 255, 255, 0.9);
+      cursor: pointer;
+    }
+    .table-style1 td {
+      background-color: #ffffff;
+      background-color: #f9f9f9;
+      background-color: #f9f9f9;
+    }
+    .table-style1 th,
+    .table-style1 td {
+      padding: 10px 10px;
+    }
+    table.dataTable.no-footer {
+      border-bottom: 1px solid rgba(0, 0, 0, 0);
+    }
+    /* 隐藏所有 sheet */
+    .sheet {
+      display: all;
+      overflow: auto
+    }
+    /* Style the search box */
+    #searchBox {
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 1px;
+      width: 300px;
+    }
+    /* Style the search box when it has focus */
+    #searchBox:focus {
+      outline: none;
+      border-color: #efefef;
+    }
+    /* Style the placeholder text */
+    #searchBox::placeholder {
+      font-size: 16px;
+    }
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      color: #000000;
+      font: inherit;
+      /* font-weight: bold; */
+      margin: 0;
+    }
+    /* 搜索框和下载框水平布局 */
+    .form-container {
+      display: flex;
+      align-items: center;
+      overflow: auto
+    }
+    .form-container input {
+      margin-right: 10px;
+    }
+    /* 下载框位置设置 */
+    .form-container select {
+      margin-left: auto;
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      width: 300px;
+    }
+    .button.clicked {
+      background-color: #999;
+    }
+    .table {
+      width: 100%;
+      max-width: 100%;
+      margin: 5 auto;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      border: 1px solid #fff;
+      table-layout: fixed;
+      /* 使用固定布局 */
+    }
+    .table td {
+      padding: 10px;
+      text-align: center;
+      color: white;
+      transition: transform 0.3s, background-color 0.3s, color 0.3s;
+      word-wrap: break-word;
+      /* 单词换行 */
+      white-space: normal;
+      /* 换行处理 */
+    }
+    /* 每个单元格的背景颜色 */
+    .row1 td:nth-child(1) {
+      background-color: #FFA07A;
+    }
+    .row1 td:nth-child(2) {
+      background-color: #FFA07A;
+    }
+    .row1 td:nth-child(3) {
+      background-color: #385dbf;
+    }
+    .row1 td:nth-child(4) {
+      background-color: #385dbf;
+    }
+    .row1 td:nth-child(5) {
+      background-color: #385dbf;
+    }
+    .row1 td:nth-child(6) {
+      background-color: #385dbf;
+    }
+    .row1 td:nth-child(7) {
+      background-color: #385dbf;
+    }
+    .row1 td:nth-child(8) {
+      background-color: #385dbf;
+    }
+    .row1 td:nth-child(9) {
+      background-color: #385dbf;
+    }
+    /* 在:hover伪类下，将transform属性添加到td元素上 */
+    .table td:hover {
+      transform: scale(1.05);
+      /* 缩放到105% */
+      cursor: pointer;
+    }
+    /* 覆盖链接样式，确保链接文字颜色为白色 */
+    .table a {
+      color: white !important;
+      text-decoration: none !important;
+      /* 去除链接下划线 */
+    }
+    /* 鼠标悬停链接时，保持白色 */
+    .table a:hover {
+      color: white !important;
+      text-decoration: none !important;
+    }
+    /* 其他行的背景颜色 */
+    .row2 td:nth-child(1) {
+      background-color: #385dbf;
+    }
+    .row2 td:nth-child(2) {
+      background-color: #385dbf;
+    }
+    .row2 td:nth-child(3) {
+      background-color: #385dbf;
+    }
+    .row2 td:nth-child(4) {
+      background-color: #385dbf;
+    }
+    .row2 td:nth-child(5) {
+      background-color: #385dbf;
+    }
+    .row2 td:nth-child(6) {
+      background-color: #385dbf;
+    }
+    .row2 td:nth-child(7) {
+      background-color: #385dbf;
+    }
+    .row2 td:nth-child(8) {
+      background-color: #f0a570;
+    }
+    .row2 td:nth-child(9) {
+      background-color: #f0a570;
+    }
+    .row3 td:nth-child(1) {
+      background-color: #f0a570;
+    }
+    .row3 td:nth-child(2) {
+      background-color: #f0a570;
+    }
+    .row3 td:nth-child(3) {
+      background-color: #f0a570;
+    }
+    .row3 td:nth-child(4) {
+      background-color: #d75369;
+    }
+    .row3 td:nth-child(5) {
+      background-color: #d75369;
+    }
+    .row3 td:nth-child(6) {
+      background-color: #d75369;
+    }
+    .row3 td:nth-child(7) {
+      background-color: #d75369;
+    }
+    .row3 td:nth-child(8) {
+      background-color: #d75369;
+    }
+    .row3 td:nth-child(9) {
+      background-color: #d75369;
+    }
+    .row4 td:nth-child(1) {
+      background-color: #d75369;
+    }
+    .row4 td:nth-child(2) {
+      background-color: #d75369;
+    }
+    .row4 td:nth-child(3) {
+      background-color: #d75369;
+    }
+    .row4 td:nth-child(4) {
+      background-color: #d75369;
+    }
+    .row4 td:nth-child(5) {
+      background-color: #3c58a5;
+    }
+    .row4 td:nth-child(6) {
+      background-color: #3c58a5;
+    }
+    .row4 td:nth-child(7) {
+      background-color: #14a0ec;
+    }
+    .row4 td:nth-child(8) {
+      background-color: #14a0ec;
+    }
+    .row4 td:nth-child(9) {
+      background-color: #14a0ec;
+    }
+    .row5 td:nth-child(1) {
+      background-color: #14a0ec;
+    }
+    .row5 td:nth-child(2) {
+      background-color: #14a0ec;
+    }
+    .row5 td:nth-child(3) {
+      background-color: #e97e8d;
+    }
+    .row5 td:nth-child(4) {
+      background-color: #e97e8d;
+    }
+    .row5 td:nth-child(5) {
+      background-color: #e97e8d;
+    }
+    .row5 td:nth-child(6) {
+      background-color: #e97e8d;
+    }
+    .row5 td:nth-child(7) {
+      background-color: #ade48b;
+    }
+    .row5 td:nth-child(8) {
+      background-color: #ade48b;
+    }
+    .row5 td:nth-child(9) {
+      background-color: #ade48b;
+    }
+    .row6 td:nth-child(1) {
+      background-color: #ade48b;
+    }
+    .row6 td:nth-child(2) {
+      background-color: #9841da;
+    }
+    .row6 td:nth-child(3) {
+      background-color: #77c670;
+    }
+    #pie-chart {
+      margin: 0 auto;
+      /* 居中 */
+    }
+    .table2 {
+      width: 100%;
+      max-width: 100%;
+      margin: 5px auto;
+      /* 适当的间距 */
+      border-collapse: collapse;
+      background-color: #ffffff;
+      border: 1px solid #fff;
+      table-layout: fixed;
+      /* 使用固定布局 */
+    }
+    .table2 td {
+      padding: 10px;
+      text-align: center;
+      color: white;
+      transition: transform 0.3s, background-color 0.3s, color 0.3s;
+      word-wrap: break-word;
+      /* 单词换行 */
+      white-space: normal;
+      /* 换行处理 */
+    }
+    /* 每个单元格的背景颜色设置 */
+    .table2 .row1 td:nth-child(1) {
+      background-color: #FFA07A;
+    }
+    .table2 .row1 td:nth-child(2) {
+      background-color: #FFA07A;
+    }
+    .table2 .row1 td:nth-child(3) {
+      background-color: #FFA07A;
+    }
+    .table2 .row1 td:nth-child(4) {
+      background-color: #FFA07A;
+    }
+    .table2 .row1 td:nth-child(5) {
+      background-color: #385dbf;
+    }
+    .table2 .row1 td:nth-child(6) {
+      background-color: #385dbf;
+    }
+    .table2 .row1 td:nth-child(7) {
+      background-color: #385dbf;
+    }
+    .table2 .row1 td:nth-child(8) {
+      background-color: #f0a570;
+    }
+    .table2 .row1 td:nth-child(9) {
+      background-color: #f0a570;
+    }
+    .table2 .row2 td:nth-child(1) {
+      background-color: #f0a570;
+    }
+    .table2 .row2 td:nth-child(2) {
+      background-color: #d75369;
+    }
+    .table2 .row2 td:nth-child(3) {
+      background-color: #d75369;
+    }
+    .table2 .row2 td:nth-child(4) {
+      background-color: #d75369;
+    }
+
+    .table2 .row2 td:nth-child(5) {
+      background-color: #d75369;
+    }
+
+    .table2 .row2 td:nth-child(6) {
+      background-color: #d75369;
+    }
+
+    .table2 .row2 td:nth-child(7) {
+      background-color: #d75369;
+    }
+
+    .table2 .row2 td:nth-child(8) {
+      background-color: #d75369;
+    }
+
+    .table2 .row2 td:nth-child(9) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(1) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(2) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(3) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(4) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(5) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(6) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(7) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(8) {
+      background-color: #d75369;
+    }
+
+    .table2 .row3 td:nth-child(9) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(1) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(2) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(3) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(4) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(5) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(6) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(7) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(8) {
+      background-color: #d75369;
+    }
+
+    .table2 .row4 td:nth-child(9) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(1) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(2) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(3) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(4) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(5) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(6) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(7) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(8) {
+      background-color: #d75369;
+    }
+
+    .table2 .row5 td:nth-child(9) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(1) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(2) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(3) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(4) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(5) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(6) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(7) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(8) {
+      background-color: #d75369;
+    }
+
+    .table2 .row6 td:nth-child(9) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(1) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(2) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(3) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(4) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(5) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(6) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(7) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(8) {
+      background-color: #d75369;
+    }
+
+    .table2 .row7 td:nth-child(9) {
+      background-color: #d75369;
+    }
+
+    .table2 .row8 td:nth-child(1) {
+      background-color: #d75369;
+    }
+
+    .table2 .row8 td:nth-child(2) {
+      background-color: #3c58a5;
+    }
+
+    .table2 .row8 td:nth-child(3) {
+      background-color: #3c58a5;
+    }
+
+    .table2 .row8 td:nth-child(4) {
+      background-color: #3c58a5;
+    }
+
+    .table2 .row8 td:nth-child(5) {
+      background-color: #3c58a5;
+    }
+
+    .table2 .row8 td:nth-child(6) {
+      background-color: #3c58a5;
+    }
+
+    .table2 .row8 td:nth-child(7) {
+      background-color: #14a0ec;
+    }
+
+    .table2 .row8 td:nth-child(8) {
+      background-color: #14a0ec;
+    }
+
+    .table2 .row8 td:nth-child(9) {
+      background-color: #14a0ec;
+    }
+
+    .table2 .row9 td:nth-child(1) {
+      background-color: #14a0ec;
+    }
+
+    .table2 .row9 td:nth-child(2) {
+      background-color: #14a0ec;
+    }
+
+    .table2 .row9 td:nth-child(3) {
+      background-color: #14a0ec;
+    }
+
+    .table2 .row9 td:nth-child(4) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row9 td:nth-child(5) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row9 td:nth-child(6) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row9 td:nth-child(7) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row9 td:nth-child(8) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row9 td:nth-child(9) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row10 td:nth-child(1) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row10 td:nth-child(2) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row10 td:nth-child(3) {
+      background-color: #e97e8d;
+    }
+
+    .table2 .row10 td:nth-child(4) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row10 td:nth-child(5) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row10 td:nth-child(6) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row10 td:nth-child(7) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row10 td:nth-child(8) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row10 td:nth-child(9) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(1) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(2) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(3) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(4) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(5) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(6) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(7) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(8) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row11 td:nth-child(9) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(1) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(2) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(3) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(4) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(5) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(6) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(7) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(8) {
+      background-color: #ade48b;
+    }
+
+    .table2 .row12 td:nth-child(9) {
+      background-color: #9841da;
+    }
+
+    .table2 .row13 td:nth-child(1) {
+      background-color: #9841da;
+    }
+
+    .table2 .row13 td:nth-child(2) {
+      background-color: #9841da;
+    }
+
+    .table2 .row13 td:nth-child(3) {
+      background-color: #ab233a;
+    }
+
+    .table2 .row13 td:nth-child(4) {
+      background-color: #2a5c76;
+    }
+
+    .table2 .row13 td:nth-child(5) {
+      background-color: #2a5c76;
+    }
+
+    .table2 .row13 td:nth-child(6) {
+      background-color: #2a5c76;
+    }
+
+    .table2 .row13 td:nth-child(7) {
+      background-color: #6ed9cd;
+    }
+
+    .table2 .row13 td:nth-child(8) {
+      background-color: #6ed9cd;
+    }
+
+    .table2 .row13 td:nth-child(9) {
+      background-color: #6ed9cd;
+    }
+
+    .table2 .row14 td:nth-child(1) {
+      background-color: #396120;
+    }
+
+    .table2 .row14 td:nth-child(2) {
+      background-color: #396120;
+    }
+
+    .table2 .row14 td:nth-child(3) {
+      background-color: #77c670;
+    }
+
+    .table2 .row14 td:nth-child(4) {
+      background-color: #77c670;
+    }
+
+    .table2 .row14 td:nth-child(5) {
+      background-color: #bf97d1;
+    }
+
+    .table2 .row14 td:nth-child(6) {
+      background-color: #bf97d1;
+    }
+
+    .table2 .row14 td:nth-child(7) {
+      background-color: #bf97d1;
+    }
+
+    .table2 .row14 td:nth-child(8) {
+      background-color: #bf97d1;
+    }
+
+    .table2 .row14 td:nth-child(9) {
+      background-color: #bf97d1;
+    }
+
+    .table2 .row15 td:nth-child(1) {
+      background-color: #bf97d1;
+    }
+
+    /* 悬停效果 */
+    .table2 td:hover {
+      transform: scale(1.05);
+      /* 缩放到105% */
+      cursor: pointer;
+    }
+
+    /* 链接样式 */
+    .table2 a {
+      color: white !important;
+      text-decoration: none !important;
+      /* 去除链接下划线 */
+    }
+
+    /* 链接悬停样式 */
+    .table2 a:hover {
+      color: white !important;
+      text-decoration: none !important;
+    }
