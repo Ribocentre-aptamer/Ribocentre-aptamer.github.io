@@ -21,34 +21,140 @@ permalink: /applications/
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+:root {
+  --primary-color: #520049;
+  --secondary-color: #f5f5f5;
+  --text-color: #333;
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+  --box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: var(--text-color);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  padding-top: 0px;
+}
+p {
+  margin-bottom: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.content-section p:first-of-type::first-letter {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: var(--primary-color);
+}
 .purple-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .purple-list li {
-    background-color: #efefef;
-    margin-bottom: 10px;
-    border-radius: 1px;
-    padding: 15px;
-    position: relative;
+  background-color: #efefef;
+  margin-bottom: 10px;
+  border-radius: 1px;
+  padding: 15px;
+  position: relative;
 }
 .purple-list li::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #996699;
-    border-radius: 1px 0 0 1px;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #996699;
+  border-radius: 1px 0 0 1px;
 }
 .purple-list li b {
-    color: #996699;
+  color: #996699;
 }
 .purple-list li p {
-    color: #333;
-    margin-top: 5px;
+  color: #333;
+  margin-top: 5px;
+}
+.button-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 50px;
+}
+.button {
+  display: block;
+  padding: 10px;
+  font-size: 24px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: #efefef;
+  color: #005826;
+  text-decoration: none;
+  border: 1px solid #005826;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #999;
+  cursor: pointer;
+}
+.section-title {
+  color: var(--primary-color);
+  font-size: 24px;
+  margin: 30px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary-color);
+}
+.blowheader_box {
+  background: linear-gradient(135deg, var(--primary-color), rgba(82,0,73,0.8));
+  color: white;
+  padding: 12px 20px;
+  margin: 20px 0 15px;
+  border-radius: var(--border-radius);
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(82,0,73,0.2);
+}
+.blowheader_box::before {
+  content: '▶';
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+.table-style1 {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.table-style1 th {
+  background-color: var(--primary-color);
+  color: rgba(255,255,255,0.9);
+  cursor: pointer;
+}
+.table-style1 td {
+  background-color: #f9f9f9;
+}
+.table-style1 th, .table-style1 td {
+  padding: 10px 10px;
+}
+table.dataTable.no-footer {
+  border-bottom: 1px solid rgba(0,0,0,0);
+}
+div.content-section h2[id="references"] + a[id^="ref"],
+div.content-section a[id^="ref"] + a[id^="ref"] {
+  display: block;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(82,0,73,0.1);
+}
+div.content-section a[id^="ref"]:nth-of-type(odd) {
+  background-color: rgba(245,245,245,0.5);
+  padding: 10px;
+  border-radius: var(--border-radius);
+}
+div.content-section a[id^="ref"] {
+  display: block !important;
+  margin-top: 15px !important;
 }
 </style>
 </head>
@@ -63,101 +169,10 @@ permalink: /applications/
     <li><b>Ease of Modification</b> &nbsp;&nbsp;&nbsp; RNA aptamers can be chemically modified to improve their properties, such as stability, solubility, and resistance to nucleases.</li>
     <li><b>Multivalency</b> &nbsp;&nbsp;&nbsp; They can be designed to bind multiple targets or to carry multiple functionalities, such as drug delivery or imaging agents.</li>
 </ul>
-</body>
-</html>
 <br>
 <br>
 
 
-<html>
-<head>
-  <style>
-     body {
-    padding-top: 0px;
-}
-.box_style {
-    background: #ffffff;
-}
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #005826;
-      text-decoration: none;
-      border: 1px solid #005826;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #999;
-      cursor: pointer;
-    }
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box1{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:420px;
-	    height:40px;
-  }
-  blockquote {
-  margin: 0 0 0p}
-  /* 样式表格 */
-    .table-style1 {
-        border: 2px solid #ffffff;
-        border: 2px solid #ffffff;
-		    border: 2px solid #ffffff;
-		    border-radius: 5px;
-		    background-color: #fff;
-		    border-radius: 5px;
-        }
-		  .table-style1 th {
-        background-color: #520049;
-        background-color: #520049;
-        background-color: #520049;
-        color: rgba(255,255,255,0.9);
-		    cursor: pointer;
-        }
-		  .table-style1 td {
-		    background-color: #ffffff;
-		    background-color: #f9f9f9;
-		    background-color: #f9f9f9;
-		    }		
-		  .table-style1 th, .table-style1 td {
-		  padding: 10px 10px;
-		}
-    table.dataTable.no-footer {
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
-  </style>
-</head>
 
 
 
@@ -176,9 +191,9 @@ permalink: /applications/
 
 
         
-<p class="header_box" id="Diagnosis-detection">Diagnosis and detection</p>
+<h2 class="section-title" id="Diagnosis-detection">Diagnosis and detection</h2>
 <p>In the diagnostic arena, RNA aptamers have been employed as molecular probes for the detection of various biomarkers. Their high affinity and specificity for target molecules allow for the development of sensitive and selective assays. For example, aptamers have been used to detect cancer biomarkers in blood samples, enabling early diagnosis and treatment of malignancies. Additionally, aptamers have been utilized in the development of biosensors for the detection of pathogens, toxins, and other harmful substances, providing a rapid and reliable means of monitoring environmental and food safety. In addition, they can detect and image various biomolecules or cellular processes, enhancing the sensitivity and specificity of diagnostic assays<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
-<p class="blowheader_box1">Diagnosis of infectious diseases and pathogens</p>      
+<div class="blowheader_box">Diagnosis of infectious diseases and pathogens</div>      
 <p>In the evolving field of diagnostics for infectious diseases, RNA aptamers have emerged as a powerful tool for the detection of parasites, bacteria, prion protein, and viruses. In the context of viral detection, RNA aptamers have been developed to target conserved regions of viral genomes. These aptamers can be used in diagnostic assays such as reverse transcription-polymerase chain reaction (RT-PCR) or isothermal amplification techniques, enhancing the sensitivity and specificity of viral detection. The ability to rapidly detect viral infections, especially those caused by emerging or re-emerging viruses, is crucial for effective disease control and management. Another important application is in infectious disease diagnostics. RNA aptamers can be designed to recognize viral proteins, enabling the rapid and precise detection of viral pathogens such as HIV, hepatitis C virus (HCV), and influenza. These aptamer-based diagnostic tools can be particularly valuable in resource-limited settings where quick and accurate detection is crucial for disease management and control<sup>[<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -274,7 +289,7 @@ permalink: /applications/
 <br>
 
 
-<p class="blowheader_box1">Cancer Recognition and Molecular Imaging</p>      
+<div class="blowheader_box">Cancer Recognition and Molecular Imaging</div>      
 <p>In the diagnostic arena, RNA aptamers have been employed as molecular probes for the detection of various biomarkers. Their high affinity and specificity for target molecules allow for the development of sensitive and selective assays. For example, aptamers have been used to detect cancer biomarkers in blood samples, enabling early diagnosis and treatment of malignancies. RNA aptamers can be conjugated with imaging agents, making them valuable tools in molecular imaging for disease diagnosis and monitoring. For instance, RNA aptamers specific to cancer biomarkers can be labeled with fluorescent dyes or radioactive isotopes and used to visualize tumors in vivo. This application has significant implications for early cancer detection, allowing for non-invasive imaging of tumor cells and monitoring of treatment efficacy<sup>[<a href="#ref7" style="color:#520049">7</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases. The picture is from an article written by M Ryan Corces about cancer markers<sup>[<a href="#ref9" style="color:#520049">9</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -350,7 +365,7 @@ permalink: /applications/
 <br>
 
 
-<p class="blowheader_box1">Clinical sample detection</p>      
+<div class="blowheader_box">Clinical sample detection</div>      
 <p>With the rapid development of biotechnology and medicine, RNA aptamer, as a new recognition element, has shown great potential and application prospect in the field of clinical sample detection. As an RNA molecule with high affinity and specific binding to specific targets, RNA aptamers play an important role in the detection and diagnosis of biomarkers in serum, biomarkers in urine, feces, prostatic fluid and other clinical samples.<sup>[<a href="#ref12" style="color:#520049">12</a></sup><sup>,<a href="#ref13" style="color:#520049">13</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -440,8 +455,8 @@ permalink: /applications/
 <br>
 
         
-<p class="header_box" id="Disease-treatment-drugs">Disease treatment and drugs</p>
-<p class="blowheader_box1">Aptamers as inhibitor</p>      
+<h2 class="section-title" id="Disease-treatment-drugs">Disease treatment and drugs</h2>
+<div class="blowheader_box">Aptamers as inhibitor</div>      
 <p>RNA aptamers can be used as therapeutic agents to modulate the activity of proteins or other targets involved in disease pathways. RNA aptamers have shown great promise as therapeutic agents, primarily due to their high specificity and low immunogenicity compared to antibodies. The therapeutic potential of RNA aptamers is particularly promising. Their ability to bind tightly and specifically to target proteins has enabled the development of aptamer-based therapeutics that can inhibit the function of disease-causing proteins. Aptamers have been used to target a wide range of proteins, including growth factors, receptors, enzymes, and transcription factors, with the potential to treat a variety of diseases, including cancer, inflammatory disorders, and infectious diseases. Furthermore, aptamers can be conjugated to therapeutic payloads, such as cytotoxic drugs or radioactive isotopes, enabling targeted delivery of therapeutics to diseased cells while minimizing systemic toxicity<sup>[<a href="#ref7" style="color:#520049">7</a></sup><sup>,<a href="#ref13" style="color:#520049">13</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>,<a href="#ref15" style="color:#520049">15</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -529,7 +544,7 @@ permalink: /applications/
 </div>
 <br>
 
-<p class="blowheader_box1">Targeted drug delivery</p>      
+<div class="blowheader_box">Targeted drug delivery</div>      
 <p>The another innovative applications of RNA aptamers is in targeted drug delivery. By conjugating aptamers to therapeutic agents, it is possible to direct these agents specifically to disease sites, minimizing off-target effects and enhancing therapeutic efficacy.  Targeted drug delivery is a smart way to give medicine to the body. Instead of spreading the medicine everywhere, which can cause side effects, we want to give the medicine only to the place where it's needed. So, imagine we have a medicine that can help fight a disease, but we don't want it to go everywhere in the body. We can attach this medicine to an RNA aptamer. The RNA aptamer is like a guide, it knows exactly where to go because it can find and stick to its specific target. When the RNA aptamer finds its target, it delivers the medicine right there. This way, we can treat the disease more effectively and with fewer side effects. It's like sending a package directly to the right address instead of leaving it at the post office for someone to pick up. For example, aptamers that bind to cancer cell surface markers can be linked to chemotherapeutic drugs, ensuring that the drugs are delivered directly to the cancer cells while sparing healthy tissues. In targeted drug delivery, these RNA aptamers are used to deliver drugs directly to the affected cells or tissues. By attaching a drug to an RNA aptamer, the medication can be directed precisely where it is needed, reducing side effects and increasing effectiveness. This approach is particularly useful for treating diseases like cancer, where it's important to target only the cancerous cells while leaving healthy cells unharmed<sup>[<a href="#ref16" style="color:#520049">16</a></sup><sup>,<a href="#ref17" style="color:#520049">17</a></sup><sup>,<a href="#ref18" style="color:#520049">18</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -607,7 +622,7 @@ permalink: /applications/
 <br>
 
 
-<p class="header_box" id="Biosensing-monitoring">Biosensing and monitoring</p>
+<h2 class="section-title" id="Biosensing-monitoring">Biosensing and monitoring</h2>
 <p>RNA aptamers have also found applications in the field of biosensing. Their high affinity and specificity for target molecules allow for the development of sensors with enhanced sensitivity and selectivity. Aptamer-based biosensors have been used for the detection of biomarkers, pathogens, and toxins, with the potential for rapid, real-time monitoring of biological samples. Additionally, aptamers can be integrated into biosensing platforms, such as microfluidic devices and nanoparticle-based sensors, enabling the development of miniaturized, portable, and user-friendly diagnostic tools. RNA aptamers are also finding applications in environmental monitoring, where they are used to detect pollutants and toxins with high sensitivity and specificity. For instance, aptamers that bind to heavy metals such as lead and mercury can be incorporated into sensors to monitor water quality. These aptamer-based sensors offer a rapid and reliable method for detecting environmental contaminants, which is crucial for ensuring public health and safety. In addition, RNA aptamers have been developed to detect biotoxins and pathogens in food and water samples. aptamers can be used in biosensors to detect these contaminants in food products, helping to prevent foodborne illnesses<sup>[<a href="#ref19" style="color:#520049">19</a></sup><sup>,<a href="#ref20" style="color:#520049">20</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases. The picture is from a review written by Harmanjit Kaur<sup>[<a href="#ref21" style="color:#520049">21</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -692,7 +707,7 @@ permalink: /applications/
 
 
 
-<p class="header_box" id="Research-Tools">Research Tools</p>
+<h2 class="section-title" id="Research-Tools">Research Tools</h2>
 <p>In the realm of basic research, RNA aptamers serve as valuable tools for studying molecular interactions and cellular processes. They can be used as molecular probes to study protein function, investigate signaling pathways, and dissect complex biological systems. RNA aptamers can also be employed to inhibit specific proteins or pathways in a controlled manner, providing insights into their roles in cellular physiology and disease. In the laboratory, aptamers are valuable for studying protein functions, signaling pathways, and molecular interactions due to their ability to bind targets with high specificity<sup>[<a href="#ref23" style="color:#520049">23</a></sup><sup>,<a href="#ref24" style="color:#520049">24</a></sup><sup>]</sup>. Among them, fluorescent RNA aptamers is the most important research tools. For more fluorescent RNA aptamers, please refer to <a href="{{ site.url }}{{ site.baseurl }}/fluorescences" target="_blank" style="color:#520049"><b><i>Fluorescences</i></b></a> page.</p>
 <p>For example, the aptamers can be combined with a variety of different expression platforms. RNA-based switches have been constructed that allow for controlling gene expression in diverse contexts. Recently, researchers have developed a gene expression control technique that utilizes a tetracycline-dependent ribozyme switch to achieve conditional induction of gene expression in Caenorhabditis elegans.  This system provides a powerful tool for studying gene regulation in C. elegans, as it allows for precise control of gene expression in living organisms<sup>[<a href="#ref22" style="color:#520049">22</a></sup><sup>]</sup>.</p>
 <p>The picture is from a review written by Maike Spöring<sup>[<a href="#ref24" style="color:#520049">24</a></sup><sup>]</sup>.</p>
@@ -770,7 +785,7 @@ permalink: /applications/
 <br>
 
 
-<p class="header_box" id="references">References</p>
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] In vitro selection of RNA molecules that bind specific ligands.</strong></font><br />
 Ellington, A. D., & Szostak, J. W.<br />
