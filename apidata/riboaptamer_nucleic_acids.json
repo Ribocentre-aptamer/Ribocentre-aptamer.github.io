@@ -1,0 +1,46 @@
+[
+  {
+    "category": "RNA",
+    "name": "HIV-1 TAR RNA aptamer",
+    "ligand": "HIV-1 TAR RNA",
+    "description": "The trans-activating responsive (TAR) RNA element located in the 5'-untranslated region of the human immunodeficiency virus type 1 (HIV-1) genome is a 59 nt imperfect stem-loop essential for the viral replication. TAR regulates transcription by interacting with both viral and cellular proteins.",
+    "discovery": "1999",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/10606271/",
+    "pdb": "2OOM",
+    "pdb_links": ["https://www.rcsb.org/structure/2OOM"],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-TAR-RNA-aptamer"
+  },
+  {
+    "category": "RNA",
+    "name": "16S rRNA decoding region aptamer",
+    "ligand": "16S ribosomal RNA (rRNA) decoding region",
+    "description": "The decoding region of prokaryotic 16S ribosomal RNA (rRNA) is a region of RNA which is thought to interact with mRNA and tRNA. It has long been known that the interaction of the codon and anticodon occurs on the A-site of the decoding region of prokaryotic 16S rRNA, which is itself part of the 30S ribosomal subunit.",
+    "discovery": "2000",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/10908352/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/16S-rRNA-decoding-region-aptamer"
+  },
+  {
+    "category": "RNA",
+    "name": "tRNA aptamer",
+    "ligand": "Yeast phenylalanine tRNA",
+    "description": "Transfer RNA (tRNA), often referred to simply as tRNA, is a 76-90 nucleotide RNA whose 3' end can be catalyzed by aminoacyl-TRNA synthetase to attach a specific amino acid. In the process of translation, tRNA can recognize the codon on mRNA by its own anti-codon, and transport the amino acid corresponding to the codon to the polypeptide chain in ribosome synthesis.",
+    "discovery": "1999",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/10449422/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/tRNA-aptamer"
+  },
+  {
+    "category": "RNA",
+    "name": "RNA loop aptamer",
+    "ligand": "RNA stem-loop",
+    "description": "The reverse repeat sequence present in single-stranded RNA can form a secondary structure due to hydrogen bond pairing between complementary bases. The double-stranded region between the paired bases forms a \"stem\", while the unpaired single-stranded region protrudes into a \"loop\".",
+    "discovery": "1997",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/9222504/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/RNA-loop-aptamer"
+  }
+] 

@@ -1,0 +1,77 @@
+{
+  "smallMolecules": [
+    {
+      "category": "Nucleosides & Nucleotides",
+      "name": "ATP aptamer",
+      "nameUrl": "/_posts/ATP-aptamer",
+      "ligand": "ATP,<br>Adenosine",
+      "description": "ATP (Adenosine 5'-triphosphate) is an important substance for energy storage and metabolism in the body, which provides energy for metabolism and plays a role as a coenzyme in cells. ATP is an important endogenous signal molecule in immunity and inflammation.",
+      "discovery": "1993",
+      "discoveryUrl": "https://pubmed.ncbi.nlm.nih.gov/7687750/",
+      "pdb": [
+        {"id": "1AM0", "url": "https://www.rcsb.org/structure/1AM0", "note": "(AMP)"},
+        {"id": "1RAW", "url": "https://www.rcsb.org/structure/1RAW", "note": "(AMP)"}
+      ]
+    },
+    {
+      "category": "Synthetic",
+      "name": "B4-25 aptamer",
+      "nameUrl": "/_posts/B4-25-aptamer",
+      "ligand": "Reactive Blue 4",
+      "description": "Reactive Blue 4 is an anthraquinone dye, as a single colorimetric chemosensor for sequential determination of multiple analytes with different optical responses in aqueous media. Reactive Blue 4 is phytotoxic, cytotoxic and genotoxic.",
+      "discovery": "1990",
+      "discoveryUrl": "https://pubmed.ncbi.nlm.nih.gov/1697402/",
+      "pdb": "NA"
+    },
+    {
+      "category": "Fluorophores",
+      "name": "Pepper aptamer",
+      "nameUrl": "/_posts/Pepper-aptamer",
+      "ligand": "HBC",
+      "description": "HBC ((4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile) is a synthetic dye similar to GFP fluorophores, featuring a structurally rigid electron acceptor and a strong electron donor.",
+      "discovery": "2019",
+      "discoveryUrl": "https://pubmed.ncbi.nlm.nih.gov/31548726/",
+      "pdb": [
+        {"id": "7EOH", "url": "https://www.rcsb.org/structure/7EOH"},
+        {"id": "7SZU", "url": "https://www.rcsb.org/structure/7SZU"},
+        {"id": "7U0Y", "url": "https://www.rcsb.org/structure/7U0Y"}
+      ]
+    }
+  ],
+  "proteins": [
+    {
+      "category": "Viral",
+      "name": "Example protein aptamer",
+      "nameUrl": "/_posts/example-protein-aptamer",
+      "ligand": "Example protein",
+      "description": "Example description for protein aptamer.",
+      "discovery": "2020",
+      "discoveryUrl": "https://pubmed.ncbi.nlm.nih.gov/example",
+      "pdb": "NA"
+    }
+  ],
+  "aminoAcids": [
+    {
+      "category": "Amino Acids & Peptides",
+      "name": "Example amino acid aptamer",
+      "nameUrl": "/_posts/example-amino-aptamer",
+      "ligand": "Example amino acid",
+      "description": "Example description for amino acid aptamer.",
+      "discovery": "2021",
+      "discoveryUrl": "https://pubmed.ncbi.nlm.nih.gov/example",
+      "pdb": "NA"
+    }
+  ],
+  "sugars": [
+    {
+      "category": "Biologics & Signaling Molecules",
+      "name": "Example sugar aptamer",
+      "nameUrl": "/_posts/example-sugar-aptamer",
+      "ligand": "Example sugar",
+      "description": "Example description for sugar aptamer.",
+      "discovery": "2022",
+      "discoveryUrl": "https://pubmed.ncbi.nlm.nih.gov/example",
+      "pdb": "NA"
+    }
+  ]
+} 

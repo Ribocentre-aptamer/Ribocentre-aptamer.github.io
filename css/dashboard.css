@@ -355,9 +355,9 @@
     width: 100px;
 }
 
-/* 提示框样式 */
+/* 提示框样式 - 智能定位版本 */
 .amir-tooltip {
-    position: absolute;
+    position: fixed; /* 使用fixed定位，相对于视口 */
     z-index: 999999;
     background: rgba(0, 0, 0, 0.9);
     color: white;
@@ -370,6 +370,17 @@
     transition: opacity 0.3s ease;
     pointer-events: none;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/* Aptamer页面tooltip特定优化 */
+body[data-page="aptamer"] .amir-tooltip {
+    position: fixed !important; /* 强制使用fixed定位 */
+    z-index: 9999999 !important; /* 确保在最上层 */
+    max-width: 400px; /* 增加最大宽度 */
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .tooltip-content {
@@ -378,14 +389,25 @@
 
 .tooltip-arrow {
     position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 0;
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
+    transition: all 0.2s ease;
+}
+
+/* 默认箭头在底部 */
+.tooltip-arrow {
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
     border-top: 5px solid rgba(0, 0, 0, 0.9);
+    border-bottom: none;
+}
+
+/* 智能tooltip箭头优化 - 适用于所有dashboard页面 */
+.amir-tooltip .tooltip-arrow {
+    transition: none; /* 移除过渡效果，确保实时跟随 */
 }
 
 /* 动画效果 */
@@ -483,4 +505,42 @@
     .filter-actions {
         justify-content: center;
     }
+}
+
+/* ====== Dashboard数据详情表专用超链接样式 ====== */
+
+/* 通用数据详情表超链接样式 - 适用于所有dashboard页面 */
+.data-table-section .table a {
+    color: #520049 !important;
+    text-decoration: none !important;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.data-table-section .table a:hover {
+    color: #7a0070 !important;
+    text-decoration: underline !important;
+    background-color: rgba(82, 0, 73, 0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.data-table-section .table a:visited {
+    color: #520049 !important;
+}
+
+.data-table-section .table a:active {
+    color: #520049 !important;
+    background-color: rgba(82, 0, 73, 0.2);
+}
+
+/* Aptamer name列专用样式（第2列） - 适用于所有dashboard页面 */
+.data-table-section .table td:nth-child(2) a {
+    color: #520049 !important;
+    font-weight: 700 !important;
+}
+
+.data-table-section .table td:nth-child(2) a:hover {
+    color: #7a0070 !important;
+    text-shadow: 0 1px 2px rgba(82, 0, 73, 0.3);
 } 
