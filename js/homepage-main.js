@@ -3,8 +3,8 @@
 // ====== 打字机效果模块 ======
 const TypewriterModule = {
     init() {
-        const titleText = "欢迎来到 Ribocentre-Aptamer";
-        const subtitleText = "——综合性的适配体数据库与研究平台";
+        const titleText = "Welcome to Ribocentre-Aptamer";
+        const subtitleText = "——Comprehensive Aptamer Database and Research Platform";
         
         const titleElement = document.getElementById('typewriter-title');
         const subtitleElement = document.getElementById('typewriter-subtitle');
@@ -132,8 +132,8 @@ const CounterModule = {
     }
 };
 
-// ====== 搜索模块 ======
-const SearchModule = {
+// ====== 主页搜索模块 ======
+const homepageSearchModule = {
     mainSearchInput: null,
     mainSearchResults: null,
     currentPage: 1,
@@ -145,6 +145,16 @@ const SearchModule = {
     overviewOriginalHeight: null,
 
     init() {
+        // 检查是否在index.html页面，以及是否已有SearchModule模块在运行
+        const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
+        const searchModuleActive = typeof SearchModule !== 'undefined' && SearchModule.mainSearchInput;
+        
+        // 在index页面，并且SearchModule已激活，则不初始化本模块的搜索功能
+        if (isIndexPage && searchModuleActive) {
+            console.log('homepageSearchModule: 检测到SearchModule已存在，跳过搜索功能初始化');
+            return;
+        }
+        
         this.mainSearchInput = document.getElementById('mainSearch');
         if (!this.mainSearchInput) return;
 
@@ -387,94 +397,23 @@ const SearchModule = {
         const searchPaths = ['./search.json', '/search.json', 'search.json'];
         this.currentPage = 1;
 
-        for (let i = 0; i < searchPaths.length; i++) {
-            try {
-                const response = await fetch(searchPaths[i]);
-                if (response.ok) {
-                    const text = await response.text();
-                    const data = JSON.parse(text);
-                    this.processSearchResults(data, query);
-                    return;
-                }
-            } catch (error) {
-                console.error('搜索路径错误:', searchPaths[i], error);
-            }
+        try {
+            const data = await SearchUtils.fetchData(searchPaths);
+            this.processSearchResults(data, query);
+        } catch (e) {
+            console.error('搜索数据加载失败', e);
+            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">无法加载搜索数据，请稍后再试。</div>';
         }
-
-        this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">无法加载搜索数据，请稍后再试。</div>';
     },
 
     processSearchResults(data, query) {
-        const results = [];
         const startTime = Date.now();
-        const queryLower = query.toLowerCase();
-        const queryTerms = queryLower.split(/\s+/).filter(term => term.length > 0);
-
-        data.forEach(item => {
-            const titleLower = (item.title || '').toLowerCase();
-            const categoryLower = (item.category || '').toLowerCase();
-            const tagsLower = (item.tags || '').toLowerCase();
-            const contentLower = (item.content || '').toLowerCase();
-
-            let matched = false;
-
-            // 检查匹配
-            if (titleLower.includes(queryLower) || 
-                categoryLower.includes(queryLower) || 
-                tagsLower.includes(queryLower) || 
-                contentLower.includes(queryLower)) {
-                matched = true;
-            } else {
-                for (const term of queryTerms) {
-                    if (titleLower.includes(term) || 
-                        categoryLower.includes(term) || 
-                        tagsLower.includes(term) || 
-                        contentLower.includes(term)) {
-                        matched = true;
-                        break;
-                    }
-                }
-            }
-
-            if (matched) {
-                item.relevanceScore = this.calculateRelevanceScore(item, query);
-                results.push(item);
-            }
-        });
-
-        results.sort((a, b) => b.relevanceScore - a.relevanceScore);
-        this.allSearchResults = results;
+        this.allSearchResults = SearchUtils.processResults(data, query);
         this.renderResults(Date.now() - startTime);
     },
 
     calculateRelevanceScore(item, query) {
-        let score = 0;
-        const queryTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 0);
-        const fullQuery = query.toLowerCase();
-
-        const titleLower = (item.title || '').toLowerCase();
-        const categoryLower = (item.category || '').toLowerCase();
-        const tagsLower = (item.tags || '').toLowerCase();
-        const contentLower = (item.content || '').toLowerCase();
-
-        // 精确匹配完整查询词
-        if (titleLower.includes(fullQuery)) score += 200;
-        if (contentLower.includes(fullQuery)) score += 100;
-        if (categoryLower.includes(fullQuery)) score += 80;
-        if (tagsLower.includes(fullQuery)) score += 90;
-
-        // 检查每个关键词的匹配情况
-        queryTerms.forEach(term => {
-            if (titleLower === term) score += 100;
-            else if (titleLower.startsWith(term)) score += 80;
-            else if (titleLower.includes(term)) score += 60;
-
-            if (categoryLower.includes(term)) score += 30;
-            if (tagsLower.includes(term)) score += 40;
-            if (contentLower.includes(term)) score += Math.min((contentLower.match(new RegExp(term, 'gi')) || []).length * 3, 30);
-        });
-
-        return score;
+        return SearchUtils.calculateRelevanceScore(item, query);
     },
 
     renderResults(searchTime) {
@@ -520,37 +459,11 @@ const SearchModule = {
     },
 
     highlightKeywords(text, query) {
-        if (!text) return '';
-        
-        const queryTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 1);
-        let result = text;
-        
-        queryTerms.forEach(term => {
-            const regex = new RegExp(`(${term})`, 'gi');
-            result = result.replace(regex, '<span class="keyword-highlight">$1</span>');
-        });
-        
-        return result;
+        return SearchUtils.highlightKeywords(text, query);
     },
 
     getContentPreview(content, query) {
-        if (!content) return '';
-        
-        const queryLower = query.toLowerCase();
-        const keywordPos = content.toLowerCase().indexOf(queryLower);
-        
-        if (keywordPos !== -1) {
-            const start = Math.max(0, keywordPos - 150);
-            const end = Math.min(content.length, keywordPos + 150);
-            let preview = content.substring(start, end);
-            
-            if (start > 0) preview = '...' + preview;
-            if (end < content.length) preview = preview + '...';
-            
-            return this.highlightKeywords(preview, query);
-        }
-        
-        return this.highlightKeywords(content.substring(0, 200) + '...', query);
+        return SearchUtils.getContentPreview(content, query, 150);
     }
 };
 
@@ -593,7 +506,7 @@ const MolstarModule = {
             }
 
             const script = document.createElement('script');
-            script.src = './js/mol/pdbe-molstar-plugin.js';
+            script.src = (window.DASHBOARD_CONFIG?.baseurl || '') + '/js/mol/pdbe-molstar-plugin.js';
             script.onload = resolve;
             script.onerror = () => reject(new Error('Failed to load Molstar library'));
             document.head.appendChild(script);
@@ -607,29 +520,29 @@ const MolstarModule = {
         const aptamerYear = document.getElementById('aptamerYear');
         
         if (aptamerName) {
-            aptamerName.textContent = data.name || '未知适配体';
+            aptamerName.textContent = data.name || 'Unknown Aptamer';
             aptamerName.href = data.url || '#';
         }
-        if (aptamerTarget) aptamerTarget.textContent = `目标: ${data.target || '未知'}`;
-        if (aptamerYear) aptamerYear.textContent = `发现年份: ${data.firstYear || data.date || '未知'}`;
+        if (aptamerTarget) aptamerTarget.textContent = `Target: ${data.target || 'Unknown'}`;
+        if (aptamerYear) aptamerYear.textContent = `Discovery Year: ${data.firstYear || data.date || 'Unknown'}`;
 
         // 结构信息卡片
         const pdbLink = document.getElementById('pdbLink');
         const structureResolution = document.getElementById('structureResolution');
         const structureMethod = document.getElementById('structureMethod');
         
-        const pdbId = data.pdbId || '未知';
+        const pdbId = data.pdbId || 'Unknown';
         if (pdbLink) {
             pdbLink.textContent = `PDB: ${pdbId}`;
-            pdbLink.href = pdbId !== '未知' ? `https://www.rcsb.org/structure/${pdbId}` : '#';
+            pdbLink.href = pdbId !== 'Unknown' ? `https://www.rcsb.org/structure/${pdbId}` : '#';
         }
-        if (structureResolution) structureResolution.textContent = `分辨率: 高分辨率`;
-        if (structureMethod) structureMethod.textContent = `方法: X-ray/NMR`;
+        if (structureResolution) structureResolution.textContent = `Resolution: High Resolution`;
+        if (structureMethod) structureMethod.textContent = `Method: X-ray/NMR`;
 
         // 描述信息卡片
         const descriptionText = document.getElementById('descriptionText');
         if (descriptionText) {
-            const cleanDescription = (data.description || '暂无描述信息')
+            const cleanDescription = (data.description || 'No description available')
                 .replace(/\n\s*\n\s*\n/g, '\n\n')
                 .replace(/^\s+|\s+$/g, '')
                 .replace(/[ \t]+/g, ' ');
@@ -759,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function() {
     TypewriterModule.init();
     CounterModule.init();
     CarouselModule.init();
-    SearchModule.init();
+    homepageSearchModule.init();
     
     // 延迟初始化Molstar以避免阻塞其他功能
     setTimeout(() => {

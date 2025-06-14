@@ -396,19 +396,9 @@ class AdvancedSearchModule {
         await new Promise(resolve => setTimeout(resolve, 500));
 
         const startTime = performance.now();
-        
-        // Execute search on the loaded data (using same logic as homepage)
-        let results = this.searchData.filter(item => {
-            const searchFields = [
-                item.title || '',
-                item.content || '',
-                item.tags || '',
-                item.category || '',
-                item.target || ''
-            ].join(' ').toLowerCase();
 
-            return searchFields.includes(query.toLowerCase());
-        });
+        // Use shared utility to process results for consistency
+        let results = SearchUtils.processResults(this.searchData, query);
 
         // Apply search type filter
         if (this.currentSearchType !== 'all') {
@@ -1059,12 +1049,12 @@ class AdvancedSearchModule {
 
     exportResults() {
         if (!this.filteredData.length) {
-            alert('没有数据可导出');
+            alert('No data to export');
             return;
         }
 
-        // 创建CSV内容
-        const headers = ['标题', '目标', '分类', '日期', '长度', 'GC含量', '标签', 'URL'];
+        // Create CSV content
+        const headers = ['Title', 'Target', 'Category', 'Date', 'Length', 'GC Content', 'Tags', 'URL'];
         const csvContent = [
             headers.join(','),
             ...this.filteredData.map(item => [
@@ -1103,19 +1093,9 @@ class AdvancedSearchModule {
             return;
         }
 
-        // 从搜索数据中获取建议
-        const suggestionsList = this.searchData
-            .filter(item => {
-                const searchFields = [
-                    item.title || '',
-                    item.content || '',
-                    item.tags || '',
-                    item.category || '',
-                    item.target || ''
-                ].join(' ').toLowerCase();
-                return searchFields.includes(query);
-            })
-            .slice(0, 5) // 只显示前5个建议
+        // 使用统一的搜索逻辑获取建议列表
+        const suggestionsList = SearchUtils.processResults(this.searchData, query)
+            .slice(0, 5)
             .map(item => ({
                 title: item.title,
                 category: item.category,
@@ -1148,11 +1128,7 @@ class AdvancedSearchModule {
     }
 
     highlightKeywords(text, query) {
-        if (!text || !query) return text;
-        
-        const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`(${escapedQuery})`, 'gi');
-        return text.replace(regex, '<span class="keyword-highlight">$1</span>');
+        return SearchUtils.highlightKeywords(text, query);
     }
 
     setupFilters() {
