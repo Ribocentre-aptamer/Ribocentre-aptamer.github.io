@@ -23,29 +23,28 @@ permalink: /publications/
     <script type="text/javascript"  src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
   <!--set sort order in table header finish-->
   <style>
+    :root {
+      --primary-color: #520049;
+      --secondary-color: #f5f5f5;
+      --text-color: #333;
+      --border-radius: 8px;
+      --transition: all 0.3s ease;
+      --box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
     body {
-    padding-top: 0px;
-}
-    .box_style {
-    background: #fff;
-}
-    .header_box {
-    border: none;
-    background: #efefef;
-    font-size:24px
-  }
-  h2{
-    font-size:20px;
-    font-weight: bold
-  }
-/* 按钮容器样式 */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text-color);
+      font-size: 16px;
+      letter-spacing: 0.3px;
+      padding-top: 0px;
+    }
     .button-container {
       display: flex;
       justify-content: left;
       align-items: center;
       height: 50px;
     }
-    /* 按钮样式 */
     .button {
       display: block;
       padding: 10px;
@@ -58,75 +57,57 @@ permalink: /publications/
       border: 1px solid #005826;
       border-radius: 5px;
     }
-    /* 鼠标悬停样式 */
     .button:hover {
       background-color: #999;
       cursor: pointer;
     }
-    /* 样式表格 */
-    .table-style1 {
-        border: 2px solid #ffffff;
-        border: 2px solid #ffffff;
-		    border: 2px solid #ffffff;
-		    border-radius: 5px;
-		    background-color: #fff;
-		    border-radius: 5px;
-        }
-		  .table-style1 th {
-        background-color: #520049;
-        background-color: #520049;
-        background-color: #520049;
-        color: rgba(255,255,255,0.9);
-		    cursor: pointer;
-        }
-		  .table-style1 td {
-		    background-color: #ffffff;
-		    background-color: #f9f9f9;
-		    background-color: #f9f9f9;
-		    }		
-		  .table-style1 th, .table-style1 td {
-		  padding: 10px 10px;
-		}
-    table.dataTable.no-footer {
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
-    /* 隐藏所有 sheet */
-    .sheet {
-      display: none;
+    .button.clicked {
+      background-color: #999;
     }
-    /* Style the search box */
-  #searchBox {
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 1px;
-    width: 300px;
-  }
-  /* Style the search box when it has focus */
-  #searchBox:focus {
-    outline: none;
-    border-color: #efefef;
-  }
-  /* Style the placeholder text */
-  #searchBox::placeholder {
-    font-size: 16px;
-  }
-  button, input, optgroup, select, textarea {
-    color: #000000;
-    font: inherit;
-    /* font-weight: bold; */
-    margin: 0;
-}
-  /* 搜索框和下载框水平布局 */
+    .table-style1 {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: white;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: var(--box-shadow);
+    }
+    .table-style1 th {
+      background: var(--primary-color);
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+    .table-style1 td {
+      padding: 12px;
+      border-bottom: 1px solid #e8e8e8;
+    }
+    .table-style1 tbody tr:nth-child(even) {
+      background: rgba(245, 245, 245, 0.5);
+    }
+    .table-style1 tbody tr:hover {
+      background: rgba(82, 0, 73, 0.05);
+    }
+    #searchBox {
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      width: 300px;
+    }
+    #searchBox:focus {
+      outline: none;
+      border-color: #efefef;
+    }
     .form-container {
       display: flex;
       align-items: center;
-      overflow:auto
+      overflow: auto;
     }
     .form-container input {
       margin-right: 10px;
     }
-    /* 下载框位置设置 */
     .form-container select {
       margin-left: auto;
       padding: 10px;
@@ -135,9 +116,6 @@ permalink: /publications/
       border-radius: 4px;
       width: 300px;
     }
-    .button.clicked {
-    background-color: #999;
-}
   </style>
 </head>
 
@@ -4473,6 +4451,8 @@ var tables = [];
      $(document).ready(function() {
     $.noConflict();
     tables.push($('#reviewtable').DataTable({
+      responsive: true,
+      pageLength: 25,
       dom: 'Bfrtip',
       buttons: [
         'copy', 'csv', 'excel', 'pdf', 'print'
@@ -4480,6 +4460,8 @@ var tables = [];
     }));
 
     tables.push($('#researchtable').DataTable({
+      responsive: true,
+      pageLength: 25,
       dom: 'Bfrtip',
       buttons: [
         'copy', 'csv', 'excel', 'pdf', 'print'
@@ -4487,6 +4469,8 @@ var tables = [];
     }));
 
     tables.push($('#rnapretable').DataTable({
+      responsive: true,
+      pageLength: 25,
       dom: 'Bfrtip',
       buttons: [
         'copy', 'csv', 'excel', 'pdf', 'print'
