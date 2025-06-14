@@ -357,13 +357,14 @@ ChartModule.createTypeChart = function() {
         return;
     }
     
-    // 为每种类型添加简短描述
+    // 为每种类型添加简短描述 - 根据实际数据更新
     const typeDescriptions = {
-        'DNA': 'DNA aptamers are single-stranded DNA molecules that bind to specific targets',
-        'RNA': 'RNA aptamers are single-stranded RNA molecules that bind to specific targets',
-        'Modified': 'Modified aptamers contain chemical modifications to enhance stability or binding',
-        'Hybrid': 'Hybrid aptamers combine different nucleic acid types or other molecules',
-        'Unknown': 'Aptamers with unspecified type'
+        'Small molecules': 'Aptamers that bind to small molecular targets like drugs, metabolites, and synthetic compounds',
+        'Proteins': 'Aptamers that bind to protein targets including enzymes, antibodies, and growth factors',
+        'Cells': 'Aptamers that bind to whole cells or cell surface markers',
+        'Others': 'Aptamers with specialized or uncommon target types',
+        'Nucleic acids': 'Aptamers that bind to DNA, RNA, or other nucleic acid structures',
+        'Unknown': 'Aptamers with unspecified target type'
     };
     
     const trace = {
@@ -397,10 +398,17 @@ ChartModule.createTypeChart = function() {
         },
         textinfo: 'percent',
         textfont: { size: 11, color: 'white' },
-        hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br>' + 
-                      '<i>' + (displayTypes.map(type => typeDescriptions[type] || '')) + '</i><br>' +
-                      'Click for multi-select filter<extra></extra>',
-        hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight },
+        hovertemplate: displayTypes.map(type => {
+            const description = typeDescriptions[type] || '';
+            return '<b>' + type + '</b><br>Count: %{value}<br>Percentage: %{percent}<br>' + 
+                   (description ? '<i>' + description + '</i><br>' : '') +
+                   'Click for multi-select filter<extra></extra>';
+        }),
+        hoverlabel: { 
+            bgcolor: 'white', 
+            bordercolor: morandiHighlight,
+            align: 'left'  // 强制左对齐
+        },
         opacity: displayTypes.map((type, i) => {
             if (hasTypeFilter && !isFiltered[i]) {
                 return 0.6; // 未选中的区间半透明

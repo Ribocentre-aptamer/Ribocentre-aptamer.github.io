@@ -460,6 +460,17 @@ body[data-page="aptamer"] .amir-tooltip {
     filter: brightness(1.1);
 }
 
+/* 饼图悬浮提示统一左对齐 */
+#typeChart .plotly .hoverlayer .hovertext,
+#ligandChart .plotly .hoverlayer .hovertext {
+    text-align: left !important;
+}
+
+#typeChart .plotly .hoverlayer .hovertext .nums,
+#ligandChart .plotly .hoverlayer .hovertext .nums {
+    text-anchor: start !important;
+}
+
 /* 响应式设计 */
 @media (max-width: 1024px) {
     .chart-container {
