@@ -106,22 +106,6 @@ p {
   margin-right: 10px;
   font-size: 0.9em;
 }
-.table-style1 {
-  border: 2px solid #ffffff;
-  border-radius: 5px;
-  background-color: #fff;
-}
-.table-style1 th {
-  background-color: var(--primary-color);
-  color: rgba(255,255,255,0.9);
-  cursor: pointer;
-}
-.table-style1 td {
-  background-color: #f9f9f9;
-}
-.table-style1 th, .table-style1 td {
-  padding: 10px 10px;
-}
 table.dataTable.no-footer {
   border-bottom: 1px solid rgba(0,0,0,0);
 }
@@ -310,122 +294,122 @@ div.content-section a[id^="ref"] {
                 
 <a id="ref1"></a><font><strong>[1] In vitro selection of RNA molecules that bind specific ligands.</strong></font><br />
 Ellington, A. D., & Szostak, J. W.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/1697402/" target="_blank" style="color:#520049">Nature, 346(6287), 818–822. (1990)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/1697402/" target="_blank" style="color:#520049">Nature, 346(6287), 818–822. (1990)</a>
 <br/>
             
 <a id="ref2"></a><font><strong>[2] Systematic evolution of ligands by exponential enrichment: RNA ligands to bacteriophage T4 DNA polymerase.</strong></font><br />
 Tuerk, C., & Gold, L.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049">Science (New York, N.Y.), 249(4968), 505–510. (1990)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049">Science (New York, N.Y.), 249(4968), 505–510. (1990)</a>
 <br/>
             
 <a id="ref3"></a><font><strong>[3] Aptamers as targeted therapeutics: current potential and challenges.</strong></font><br />
 Zhou, J., & Rossi, J.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
 <br/>
             
 <a id="ref4"></a><font><strong>[4] Oligonucleotide aptamers for pathogen detection and infectious disease control.</strong></font><br />
 Wan, Q., Liu, X., & Zu, Y.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/34522231/" target="_blank" style="color:#520049">Theranostics, 11(18), 9133–9161. (2021)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34522231/" target="_blank" style="color:#520049">Theranostics, 11(18), 9133–9161. (2021)</a>
 <br/>
             
 <a id="ref5"></a><font><strong>[5] Aptamers in diagnostics and treatment of viral infections.</strong></font><br />
 Wandtke, T., Woźniak, J., & Kopiński, P.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/25690797/" target="_blank" style="color:#520049">Viruses, 7(2), 751–780. (2015)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25690797/" target="_blank" style="color:#520049">Viruses, 7(2), 751–780. (2015)</a>
 <br/>
             
 <a id="ref6"></a><font><strong>[6] Translation of aptamers toward clinical diagnosis and commercialization.</strong></font><br />
 Liu, S., Xu, Y., Jiang, X., Tan, H., & Ying, B.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/35364525/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 208, 114168. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35364525/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 208, 114168. (2022)</a>
 <br/>
             
 <a id="ref7"></a><font><strong>[7] Aptamers in the Therapeutics and Diagnostics Pipelines.</strong></font><br />
 Kaur, H., Bruno, J. G., Kumar, A., & Sharma, T. K.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30128033/" target="_blank" style="color:#520049">Theranostics, 8(15), 4016–4032. (2018)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30128033/" target="_blank" style="color:#520049">Theranostics, 8(15), 4016–4032. (2018)</a>
 <br/>
             
 <a id="ref8"></a><font><strong>[8] Aptamers used for molecular imaging and theranostics - recent developments.</strong></font><br />
 Bohrmann, L., Burghardt, T., Haynes, C., Saatchi, K., & Häfeli, U. O.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/35673581/" target="_blank" style="color:#520049">Theranostics, 12(9), 4010–4050. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35673581/" target="_blank" style="color:#520049">Theranostics, 12(9), 4010–4050. (2022)</a>
 <br/>
             
 <a id="ref9"></a><font><strong>[9] The chromatin accessibility landscape of primary human cancers.</strong></font><br />
 Corces, M. R., Granja, J. M., Shams, S., Louie, B. H., Seoane, J. A., Zhou, W., Silva, T. C., Groeneveld, C., Wong, C. K., Cho, S. W., Satpathy, A. T., Mumbach, M. R., Hoadley, K. A., Robertson, A. G., Sheffield, N. C., Felau, I., Castro, M. A. A., Berman, B. P., Staudt, L. M., Zenklusen, J. C., … Chang, H. Y.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30361341/" target="_blank" style="color:#520049">Science (New York, N.Y.), 362(6413), eaav1898. (2018)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30361341/" target="_blank" style="color:#520049">Science (New York, N.Y.), 362(6413), eaav1898. (2018)</a>
 <br/>
             
 <a id="ref10"></a><font><strong>[10] Engineered aptamers for molecular imaging.</strong></font><br />
 Lin, B., Xiao, F., Jiang, J., Zhao, Z., & Zhou, X.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/38098720/" target="_blank" style="color:#520049">Chemical science, 14(48), 14039–14061. (2023)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38098720/" target="_blank" style="color:#520049">Chemical science, 14(48), 14039–14061. (2023)</a>
 <br/>
             
 <a id="ref11"></a><font><strong>[11] Aptamers: active targeting ligands for cancer diagnosis and therapy.</strong></font><br />
 Wu, X., Chen, J., Wu, M., & Zhao, J. X.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/25699094/" target="_blank" style="color:#520049">Theranostics, 5(4), 322–344. (2015)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25699094/" target="_blank" style="color:#520049">Theranostics, 5(4), 322–344. (2015)</a>
 <br/>
             
 <a id="ref12"></a><font><strong>[12] Highly-efficient selection of aptamers for detecting various HPV subtypes in clinical samples.</strong></font><br />
 Yang, G., Li, W., Zhang, S., Hu, B., & Huang, Z.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/37604070/" target="_blank" style="color:#520049">Talanta, 266(Pt 2), 125039. (2024)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37604070/" target="_blank" style="color:#520049">Talanta, 266(Pt 2), 125039. (2024)</a>
 <br/>
             
 <a id="ref13"></a><font><strong>[13] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics.</strong></font><br />
 Gholikhani, T., Kumar, S., Valizadeh, H., Mahdinloo, S., Adibkia, K., Zakeri-Milani, P., Barzegar-Jalali, M., & Jimenez, B.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
 <br/>
             
 <a id="ref14"></a><font><strong>[14] Aptamers as Therapeutics.</strong></font><br />
 Nimjee, S. M., White, R. R., Becker, R. C., & Sullenger, B. A.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/28061688/" target="_blank" style="color:#520049">Annual review of pharmacology and toxicology, 57, 61–79. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28061688/" target="_blank" style="color:#520049">Annual review of pharmacology and toxicology, 57, 61–79. (2017)</a>
 <br/>
             
 <a id="ref15"></a><font><strong>[15] Aptamers as targeted therapeutics: current potential and challenges.</strong></font><br />
 Zhou, J., & Rossi, J.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
 <br/>
             
 <a id="ref16"></a><font><strong>[16] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics.</strong></font><br />
 Gholikhani, T., Kumar, S., Valizadeh, H., Mahdinloo, S., Adibkia, K., Zakeri-Milani, P., Barzegar-Jalali, M., & Jimenez, B.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
 <br/>
             
 <a id="ref17"></a><font><strong>[17] Molecular aptamers for drug delivery.</strong></font><br />
 Tan, W., Wang, H., Chen, Y., Zhang, X., Zhu, H., Yang, C., Yang, R., & Liu, C.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/21821299/" target="_blank" style="color:#520049">Trends in biotechnology, 29(12), 634–640. (2011)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/21821299/" target="_blank" style="color:#520049">Trends in biotechnology, 29(12), 634–640. (2011)</a>
 <br/>
             
 <a id="ref18"></a><font><strong>[18] Method for Confirming Cytoplasmic Delivery of RNA Aptamers.</strong></font><br />
 Dickey, D. D., Thomas, G. S., Dassie, J. P., & Giangrande, P. H.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/26472453/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 1364, 209–217. (2016)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26472453/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 1364, 209–217. (2016)</a>
 <br/>
             
 <a id="ref19"></a><font><strong>[19] Genetically encoded RNA-based sensors with Pepper fluorogenic aptamer.</strong></font><br />
 Chen, Z., Chen, W., Reheman, Z., Jiang, H., Wu, J., & Li, X.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/37486780/" target="_blank" style="color:#520049">Nucleic acids research, 51(16), 8322–8336. (2023)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37486780/" target="_blank" style="color:#520049">Nucleic acids research, 51(16), 8322–8336. (2023)</a>
 <br/>
             
 <a id="ref20"></a><font><strong>[20] Aptasensors for pesticide detection.</strong></font><br />
 Liu, M., Khan, A., Wang, Z., Liu, Y., Yang, G., Deng, Y., & He, N. <br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30738246/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 130, 174–184. (2019)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30738246/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 130, 174–184. (2019)</a>
 <br/>
             
 <a id="ref21"></a><font><strong>[21] Nanomaterial based aptasensors for clinical and environmental diagnostic applications.</strong></font><br />
 Kaur, H., & Shorie, M.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/36131986/" target="_blank" style="color:#520049">Nanoscale advances, 1(6), 2123–2138. (2019)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36131986/" target="_blank" style="color:#520049">Nanoscale advances, 1(6), 2123–2138. (2019)</a>
 <br/>
             
 <a id="ref22"></a><font><strong>[22] A tetracycline-dependent ribozyme switch allows conditional induction of gene expression in Caenorhabditis elegans.</strong></font><br />
 Wurmthaler, L. A., Sack, M., Gense, K., Hartig, J. S., & Gamerdinger, M. <br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30700719/" target="_blank" style="color:#520049">Nature communications, 10(1), 491. (2019)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30700719/" target="_blank" style="color:#520049">Nature communications, 10(1), 491. (2019)</a>
 <br/>
             
 <a id="ref23"></a><font><strong>[23] Ligand-dependent ribozymes.</strong></font><br />
 Felletti, M., & Hartig, J. S.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/27687155/" target="_blank" style="color:#520049">Wiley interdisciplinary reviews. RNA, 8(2), 10.1002/wrna.1395. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/27687155/" target="_blank" style="color:#520049">Wiley interdisciplinary reviews. RNA, 8(2), 10.1002/wrna.1395. (2017)</a>
 <br/>
             
 <a id="ref24"></a><font><strong>[24] Aptamers in RNA-based switches of gene expression.</strong></font><br />
 Spöring, M., Finke, M., & Hartig, J. S.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/31811992/" target="_blank" style="color:#520049">Current opinion in biotechnology, 63, 34–40. (2020)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31811992/" target="_blank" style="color:#520049">Current opinion in biotechnology, 63, 34–40. (2020)</a>
 <br/>
 
                     
@@ -577,6 +561,6 @@ function downloadExcel() {
     }
   }  
 </script>
-<script src="{{ site.baseurl }}/js/text-emphasis.js"></script>
+
 </body>
 </html>

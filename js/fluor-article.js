@@ -82,97 +82,97 @@
     }
 
     // 直接为页面上的长单词添加内联样式
-    function emphasizeWordsDirectly() {
-      console.log('开始强调单词前三字母 - 直接样式');
+    // function emphasizeWordsDirectly() {
+    //   console.log('开始强调单词前三字母 - 直接样式');
       
-      // 忽略的小词列表
-      const ignoreWords = new Set([
-        'and', 'the', 'for', 'with', 'this', 'that', 'from', 'into', 'onto', 
-        'upon', 'about', 'RNA', 'DNA', 'GFP', 'NMR', 'are', 'not', 'has', 'its'
-      ]);
+    //   // 忽略的小词列表
+    //   const ignoreWords = new Set([
+    //     'and', 'the', 'for', 'with', 'this', 'that', 'from', 'into', 'onto', 
+    //     'upon', 'about', 'RNA', 'DNA', 'GFP', 'NMR', 'are', 'not', 'has', 'its'
+    //   ]);
       
-      // 遍历正文段落
-      const paragraphs = document.querySelectorAll('.fluor-body-section p');
-      console.log(`找到 ${paragraphs.length} 个段落`);
+    //   // 遍历正文段落
+    //   const paragraphs = document.querySelectorAll('.fluor-body-section p');
+    //   console.log(`找到 ${paragraphs.length} 个段落`);
       
-      // 遍历每个段落
-      Array.from(paragraphs).forEach((para, idx) => {
-        // 如果已经处理过，则跳过
-        if (para.getAttribute('data-processed') === 'true') return;
+    //   // 遍历每个段落
+    //   Array.from(paragraphs).forEach((para, idx) => {
+    //     // 如果已经处理过，则跳过
+    //     if (para.getAttribute('data-processed') === 'true') return;
         
-        console.log(`处理段落 ${idx+1}`);
+    //     console.log(`处理段落 ${idx+1}`);
         
-        // 获取所有文本节点
-        const textNodes = [];
-        function getTextNodes(node) {
-          if (node.nodeType === 3) { // 文本节点
-            textNodes.push(node);
-          } else if (node.nodeType === 1 && 
-                    !['SCRIPT', 'STYLE', 'SPAN', 'SUP', 'SUB', 'A'].includes(node.nodeName)) {
-            Array.from(node.childNodes).forEach(getTextNodes);
-          }
-        }
-        getTextNodes(para);
+    //     // 获取所有文本节点
+    //     const textNodes = [];
+    //     function getTextNodes(node) {
+    //       if (node.nodeType === 3) { // 文本节点
+    //         textNodes.push(node);
+    //       } else if (node.nodeType === 1 && 
+    //                 !['SCRIPT', 'STYLE', 'SPAN', 'SUP', 'SUB', 'A'].includes(node.nodeName)) {
+    //         Array.from(node.childNodes).forEach(getTextNodes);
+    //       }
+    //     }
+    //     getTextNodes(para);
         
-        // 处理每个文本节点
-        textNodes.forEach(textNode => {
-          const text = textNode.nodeValue;
-          if (!text.trim()) return; // 跳过空文本
+    //     // 处理每个文本节点
+    //     textNodes.forEach(textNode => {
+    //       const text = textNode.nodeValue;
+    //       if (!text.trim()) return; // 跳过空文本
           
-          // 用正则找出所有单词
-          const parts = [];
-          let lastIndex = 0;
+    //       // 用正则找出所有单词
+    //       const parts = [];
+    //       let lastIndex = 0;
           
-          // 匹配3个以上字母的单词
-          const regex = /\b([A-Za-z]{3,})\b/g;
-          let match;
+    //       // 匹配3个以上字母的单词
+    //       const regex = /\b([A-Za-z]{3,})\b/g;
+    //       let match;
           
-          while ((match = regex.exec(text)) !== null) {
-            const word = match[1];
-            const startIndex = match.index;
+    //       while ((match = regex.exec(text)) !== null) {
+    //         const word = match[1];
+    //         const startIndex = match.index;
             
-            // 忽略特定短词和已处理词
-            if (ignoreWords.has(word.toLowerCase())) continue;
+    //         // 忽略特定短词和已处理词
+    //         if (ignoreWords.has(word.toLowerCase())) continue;
             
-            // 添加前面的文本
-            if (startIndex > lastIndex) {
-              parts.push(document.createTextNode(text.substring(lastIndex, startIndex)));
-            }
+    //         // 添加前面的文本
+    //         if (startIndex > lastIndex) {
+    //           parts.push(document.createTextNode(text.substring(lastIndex, startIndex)));
+    //         }
             
-            // 创建强调的前3个字母
-            const prefixSpan = document.createElement('span');
-            prefixSpan.style.fontWeight = '600';
-            prefixSpan.style.color = '#520049';
-            prefixSpan.style.display = 'inline';
-            prefixSpan.textContent = word.substring(0, 3);
+    //         // 创建强调的前3个字母
+    //         const prefixSpan = document.createElement('span');
+    //         prefixSpan.style.fontWeight = '600';
+    //         prefixSpan.style.color = '#520049';
+    //         prefixSpan.style.display = 'inline';
+    //         prefixSpan.textContent = word.substring(0, 3);
             
-            // 添加剩余字母
-            const rest = document.createTextNode(word.substring(3));
+    //         // 添加剩余字母
+    //         const rest = document.createTextNode(word.substring(3));
             
-            // 添加到parts
-            parts.push(prefixSpan);
-            parts.push(rest);
+    //         // 添加到parts
+    //         parts.push(prefixSpan);
+    //         parts.push(rest);
             
-            lastIndex = startIndex + word.length;
-          }
+    //         lastIndex = startIndex + word.length;
+    //       }
           
-          // 添加剩余文本
-          if (lastIndex < text.length) {
-            parts.push(document.createTextNode(text.substring(lastIndex)));
-          }
+    //       // 添加剩余文本
+    //       if (lastIndex < text.length) {
+    //         parts.push(document.createTextNode(text.substring(lastIndex)));
+    //       }
           
-          // 如果做了任何替换
-          if (parts.length > 0) {
-            const fragment = document.createDocumentFragment();
-            parts.forEach(part => fragment.appendChild(part));
-            textNode.parentNode.replaceChild(fragment, textNode);
-          }
-        });
+    //       // 如果做了任何替换
+    //       if (parts.length > 0) {
+    //         const fragment = document.createDocumentFragment();
+    //         parts.forEach(part => fragment.appendChild(part));
+    //         textNode.parentNode.replaceChild(fragment, textNode);
+    //       }
+    //     });
         
-        // 标记为已处理
-        para.setAttribute('data-processed', 'true');
-      });
-    }
+    //     // 标记为已处理
+    //     para.setAttribute('data-processed', 'true');
+    //   });
+    // }
     
     // 将h4替换为带箭头的小标题
     function applyHeaderStyles() {

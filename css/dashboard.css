@@ -278,7 +278,7 @@
 
 /* 数据表格样式 */
 .data-table-section {
-    margin-top: 30px;
+    margin-top: 0px;
     background: white;
     border-radius: 12px;
     border: 1px solid #e9ecef;
@@ -460,15 +460,45 @@ body[data-page="aptamer"] .amir-tooltip {
     filter: brightness(1.1);
 }
 
-/* 饼图悬浮提示统一左对齐 */
+/* 饼图标记点鼠标事件优化 - 防止触发自定义tooltip */
+#ligandChart .plotly .scatterlayer,
+#ligandChart .plotly .pie {
+    pointer-events: auto !important; /* 确保Plotly能响应事件 */
+}
+
+/* 防止饼图和Plotly tooltip上的鼠标事件触发自定义tooltip */
+#ligandChart .plotly {
+    pointer-events: auto;
+}
+
+#ligandChart .plotly .hoverlayer {
+    z-index: 10000 !important; /* 确保Plotly提示框在最上层 */
+    pointer-events: none !important; /* 防止提示框自身触发事件 */
+}
+
+/* 饼图悬浮提示统一左对齐 - 增强版 */
 #typeChart .plotly .hoverlayer .hovertext,
 #ligandChart .plotly .hoverlayer .hovertext {
     text-align: left !important;
+    text-anchor: start !important;
 }
 
 #typeChart .plotly .hoverlayer .hovertext .nums,
 #ligandChart .plotly .hoverlayer .hovertext .nums {
     text-anchor: start !important;
+    dominant-baseline: auto !important;
+}
+
+#typeChart .plotly .hoverlayer .hovertext text,
+#ligandChart .plotly .hoverlayer .hovertext text {
+    text-anchor: start !important;
+    text-align: left !important;
+}
+
+/* 禁止自定义tooltip影响Plotly原生tooltip */
+.plotly .hoverlayer {
+    z-index: 1000 !important; 
+    pointer-events: none !important;
 }
 
 /* 响应式设计 */

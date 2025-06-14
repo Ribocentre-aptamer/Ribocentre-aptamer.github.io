@@ -1,98 +1,704 @@
+// dashboard-structures.js - 针对结构页面(structure.html)的 Dashboard 补丁脚本
+// 仅在该页面中引入，以避免影响其它页面的默认行为
+// 主要功能：
+// 1. 在数据加载阶段，把每条记录的 "Structure Determination" 字段映射为 year 图表
+// 2. 把 "Phase Determination" 字段映射为 category，复用原有类别图逻辑
+// 3. 重写 TableModule.updateDataTable，使其列顺序与结构页面一致
+// 4. 其他页面继续使用原版 dashboard-main.js，不受影响
+
 (function () {
     if (typeof DataModule === 'undefined') {
-        console.error('DataModule not found');
+        console.error('DataModule 未定义，dashboard-structures.js 无法应用补丁');
         return;
     }
 
-    const origLoad = DataModule.loadData;
+    // --- 重写 DataModule.loadData ---
+    const originalLoadData = DataModule.loadData;
     DataModule.loadData = async function () {
         try {
             const dataPath = window.DASHBOARD_CONFIG?.dataPath || './apidata/structures_merged.json';
-            const resp = await fetch(dataPath);
-            if (!resp.ok) throw new Error(`HTTP error! status: ${resp.status}`);
-            const data = await resp.json();
+            const response = await fetch(dataPath);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
 
+            const data = await response.json();
+
+            // 处理结构数据的字段映射
             data.forEach(d => {
-                d.category = d['Phase Determination'] || 'NA';
-                d.structure = d['Structure Determination'] || 'NA';
+                // 映射必要字段
+                d.name = d.Name;
+                d.ligand = d.Ligand;
+                
+                // 处理NDB字段，可能是字符串或对象
+                if (d.NDB) {
+                    if (typeof d.NDB === 'object') {
+                        // 新格式，NDB是一个对象
+                        d.ndb = d.NDB.id;
+                        d.ndbUrl = d.NDB.url;
+                    } else {
+                        // 旧格式，NDB是字符串
+                        d.ndb = d.NDB;
+                        // 创建默认链接
+                        const firstPdbId = d.NDB.split(' ')[0].trim();
+                        if (firstPdbId && firstPdbId !== 'NA') {
+                            d.ndbUrl = `https://www.rcsb.org/structure/${firstPdbId}`;
+                        }
+                    }
+                }
+                
+                d.resolution = d['Resolution(Å)'];
+                
+                // 确保站内链接字段存在
+                if (!d.internal_url) {
+                    // 如果没有提供内部链接，创建一个基于Name的默认链接
+                    const slugName = d.Name.toLowerCase()
+                        .replace(/[\s-]+/g, '-')
+                        .replace(/[^\w-]/g, '');
+                    d.internal_url = `/aptamers/${slugName}`;
+                }
             });
 
+            // 保存到全局数据
             originalData = data;
             filteredData = [...data];
 
+            console.log('结构数据加载成功，共', data.length, '条记录');
+
+            // 初始化各模块
             this.updateStatistics();
             ChartModule.createAllCharts();
             UIModule.updateDataSummary();
             FilterModule.updateFilterTags();
             TableModule.updateDataTable();
-        } catch (e) {
-            console.error('Failed to load structure data:', e);
-            this.showLoadingError(e.message);
+        } catch (error) {
+            console.error('结构数据加载失败:', error);
+            this.showLoadingError(error.message);
         }
     };
 
+    // --- 重写 TableModule.updateDataTable ---
     if (typeof TableModule !== 'undefined') {
         TableModule.updateDataTable = function () {
-            const tbody = document.getElementById('tableBody');
-            const info = document.getElementById('tableInfo');
-            if (!tbody || !info) return;
+            const tableBody = document.getElementById('tableBody');
+            const tableInfo = document.getElementById('tableInfo');
 
-            info.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
-            tbody.innerHTML = '';
+            if (!tableBody || !tableInfo) {
+                console.warn('表格元素缺失，无法更新数据表');
+                return;
+            }
 
-            const addTooltip = (cell, html) => {
-                if (!html) return;
+            tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
+            tableBody.innerHTML = '';
+
+            // 辅助函数：tooltip - 使用clientX/clientY坐标，支持智能定位
+            const addTooltip = (cell, htmlContent) => {
+                if (!htmlContent) return;
                 cell.style.cursor = 'pointer';
-                cell.addEventListener('mouseenter', e => showAmirTooltip(html, e.clientX, e.clientY));
-                cell.addEventListener('mousemove', e => showAmirTooltip(html, e.clientX, e.clientY));
+                
+                cell.addEventListener('mouseenter', (e) => {
+                    console.log(`[Structure] 触发元素tooltip (${new Date().toISOString().split('T')[1].slice(0, -1)}): ${e.target.tagName}`);
+                    showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
+                });
+                cell.addEventListener('mousemove', (e) => {
+                    // 实时跟随鼠标移动
+                    showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
+                });
                 cell.addEventListener('mouseleave', hideAmirTooltip);
             };
 
-            filteredData.forEach((item, idx) => {
+            filteredData.forEach((item, index) => {
                 const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${idx + 1}</td>
-                    <td>${item['Name'] || ''}</td>
-                    <td>${item['Ligand'] || ''}</td>
-                    <td>${item['Structure Determination'] || ''}</td>
-                    <td>${item['NDB'] || ''}</td>
-                    <td>${item['Phase Determination'] || ''}</td>
-                    <td>${item['Resolution(Å)'] || ''}</td>
-                    <td>${item['Year'] || ''}</td>
-                `;
-                tbody.appendChild(row);
+                row.style.whiteSpace = 'nowrap';
+
+                // 第一列：序号
+                const indexCell = document.createElement('td');
+                indexCell.textContent = index + 1;
+                row.appendChild(indexCell);
+                
+                // Name 列 - 使用 Name 字段，加上站内链接
+                const nameCell = document.createElement('td');
+                const nameLink = document.createElement('a');
+                nameLink.href = item.internal_url || '#';
+                nameLink.style.color = '#520049';
+                nameLink.style.textDecoration = 'none';
+                nameLink.style.borderBottom = '1px dashed #520049';
+                nameLink.style.transition = 'all 0.2s ease';
+                nameLink.onmouseover = function() { this.style.color = '#880074'; };
+                nameLink.onmouseout = function() { this.style.color = '#520049'; };
+                nameLink.textContent = item.Name || '';
+                nameCell.appendChild(nameLink);
+                row.appendChild(nameCell);
+
+                // Ligand 列 - 截取前20个字符
+                const ligandCell = document.createElement('td');
+                const ligandFull = item.Ligand || '';
+                ligandCell.textContent = ligandFull.length > 20 ? ligandFull.substring(0, 20) + '...' : ligandFull;
+                row.appendChild(ligandCell);
+                
+                // Structure determination 列
+                const structCell = document.createElement('td');
+                structCell.textContent = item['Structure Determination'] || '';
+                row.appendChild(structCell);
+
+                // NDB 列 - 带链接，截取前15个字符
+                const ndbCell = document.createElement('td');
+                let ndbFull = '';
+                
+                if (item.ndb) {
+                    ndbFull = item.ndb;
+                    const ndbDisplayText = ndbFull.length > 15 ? ndbFull.substring(0, 15) + '...' : ndbFull;
+                    
+                    if (item.ndbUrl) {
+                        const ndbLink = document.createElement('a');
+                        ndbLink.href = item.ndbUrl;
+                        ndbLink.target = '_blank';
+                        ndbLink.style.color = '#520049';
+                        ndbLink.style.textDecoration = 'none';
+                        ndbLink.style.borderBottom = '1px dashed #520049';
+                        ndbLink.style.transition = 'all 0.2s ease';
+                        ndbLink.onmouseover = function() { this.style.color = '#880074'; };
+                        ndbLink.onmouseout = function() { this.style.color = '#520049'; };
+                        ndbLink.textContent = ndbDisplayText;
+                        ndbCell.appendChild(ndbLink);
+                    } else {
+                        ndbCell.textContent = ndbDisplayText;
+                    }
+                }
+                row.appendChild(ndbCell);
+
+                // Phase determination 列 - 截取前25个字符
+                const phaseCell = document.createElement('td');
+                const phaseFull = item['Phase Determination'] || '';
+                phaseCell.textContent = phaseFull.length > 25 ? phaseFull.substring(0, 25) + '...' : phaseFull;
+                row.appendChild(phaseCell);
+
+                // Resolution 列
+                const resolutionCell = document.createElement('td');
+                resolutionCell.textContent = item['Resolution(Å)'] || '';
+                row.appendChild(resolutionCell);
+
+                // Year 列
+                const yearCell = document.createElement('td');
+                yearCell.textContent = item.Year || '';
+                row.appendChild(yearCell);
+                
+                tableBody.appendChild(row);
+
+                // 添加 tooltip
+                addTooltip(ligandCell, ligandFull);
+                if (ndbFull && ndbFull.length > 15) {
+                    addTooltip(ndbCell, ndbFull);
+                }
+                if (phaseFull && phaseFull.length > 25) {
+                    addTooltip(phaseCell, phaseFull);
+                }
             });
         };
     }
 
-    if (typeof ChartModule !== 'undefined') {
-        ChartModule.createAllCharts = function () {
-            this.createStructureChart();
-            this.createPhaseChart();
-        };
+    // --- 重写统计数据更新功能 ---
+    const originalUpdateStatistics = DataModule.updateStatistics;
+    DataModule.updateStatistics = function() {
+        if (!originalData || originalData.length === 0) {
+            return;
+        }
 
-        ChartModule.createStructureChart = function () {
-            const counts = {};
-            filteredData.forEach(d => {
-                const key = d['Structure Determination'] || 'NA';
-                counts[key] = (counts[key] || 0) + 1;
-            });
-            const labels = Object.keys(counts);
-            const values = labels.map(k => counts[k]);
-            const trace = { x: labels, y: values, type: 'bar', marker: { color: '#4A90E2' } };
-            Plotly.newPlot('yearChart', [trace], Object.assign({}, chartLayoutBase, {margin:{t:40}}), chartConfig);
-        };
+        if (!filteredData) {
+            return;
+        }
 
-        ChartModule.createPhaseChart = function () {
-            const counts = {};
-            filteredData.forEach(d => {
-                const key = d['Phase Determination'] || 'NA';
-                counts[key] = (counts[key] || 0) + 1;
+        const ligands = [...new Set(filteredData.map(d => d.ligand))];
+        const structures = [...new Set(filteredData.map(d => d['Structure Determination']).filter(s => s))];
+
+        const totalAptamersEl = document.getElementById('totalAptamers');
+        const uniqueLigandsEl = document.getElementById('uniqueLigands');
+        const yearSpanEl = document.getElementById('yearSpan');
+        const avgGCEl = document.getElementById('avgGC');
+
+        if (totalAptamersEl) totalAptamersEl.textContent = filteredData.length;
+        if (uniqueLigandsEl) uniqueLigandsEl.textContent = ligands.length;
+        if (yearSpanEl) {
+            yearSpanEl.textContent = structures.length + ' methods';
+        }
+        if (avgGCEl) {
+            // 统计有分辨率数据的结构数量
+            const validResData = filteredData.filter(d => 
+                d['Resolution(Å)'] && d['Resolution(Å)'] !== 'NA' && d['Resolution(Å)'] !== ''
+            );
+            avgGCEl.textContent = validResData.length + ' with resolution';
+        }
+    };
+
+    // --- 覆写 ChartModule：重写两个图表创建函数 ---
+    
+    // 重写年份图表为结构确定方法图表
+    ChartModule.createYearChart = function () {
+        console.log("[Structure] 创建结构确定方法图表...");
+        
+        // 获取所有可能的结构确定方法（基于原始数据）
+        const allMethodCounts = {};
+        originalData.forEach(d => {
+            const method = d['Structure Determination'] || 'Unknown';
+            allMethodCounts[method] = (allMethodCounts[method] || 0) + 1;
+        });
+        const allMethods = Object.keys(allMethodCounts).sort();
+        
+        // 确定数据源
+        let dataForVisualization = [];
+        if (nodeInteractionOrder.length === 0) {
+            dataForVisualization = [...originalData];
+        } else {
+            const myIndex = nodeInteractionOrder.indexOf('yearChart');
+            if (myIndex === -1) {
+                const lastNodeId = nodeInteractionOrder[nodeInteractionOrder.length - 1];
+                dataForVisualization = [...nodeFilteredData[lastNodeId]];
+            } else if (myIndex === 0) {
+                dataForVisualization = [...originalData];
+            } else {
+                const parentNodeId = nodeInteractionOrder[myIndex - 1];
+                dataForVisualization = [...nodeFilteredData[parentNodeId]];
+            }
+        }
+        
+        // 计算可视化数据的方法分布
+        let visualizationMethodCounts = {};
+        dataForVisualization.forEach(d => {
+            const method = d['Structure Determination'] || 'Unknown';
+            visualizationMethodCounts[method] = (visualizationMethodCounts[method] || 0) + 1;
+        });
+        
+        // 检查当前是否有筛选
+        const hasMethodFilter = activeFilters.years.size > 0;
+        const hasAnyFilter = nodeInteractionOrder.length > 0;
+        
+        // 创建柱状图
+        const trace = {
+            x: allMethods,
+            y: allMethods.map(method => visualizationMethodCounts[method] || 0),
+            type: 'bar',
+            marker: {
+                color: allMethods.map((method, i) => {
+                    if (hasMethodFilter && activeFilters.years.has(method)) {
+                        return morandiHighlight;
+                    }
+                    if (hasAnyFilter && (!visualizationMethodCounts[method] || visualizationMethodCounts[method] === 0)) {
+                        return morandiDim;
+                    }
+                    return morandiColors[i % morandiColors.length];
+                }),
+                opacity: 1.0,
+                line: {
+                    width: allMethods.map(method => {
+                        if (hasMethodFilter && activeFilters.years.has(method)) {
+                            return 3;
+                        }
+                        return 1;
+                    }),
+                    color: allMethods.map(method => {
+                        if (hasMethodFilter && activeFilters.years.has(method)) {
+                            return '#333';
+                        }
+                        return 'white';
+                    })
+                }
+            },
+            hovertemplate: '<b>Method: %{x}</b><br>' + 
+                          'Count: %{y}<br>' +
+                          'Click for multi-select filter<extra></extra>',
+            hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight }
+        };
+        
+        const layout = {
+            ...chartLayoutBase,
+            margin: { l: 60, r: 20, t: 30, b: 80 },
+            xaxis: {
+                title: 'Structure Determination Method',
+                titlefont: { size: 12, color: '#555' },
+                tickfont: { size: 10, color: '#555' },
+                gridcolor: 'rgba(0,0,0,0.1)',
+                showgrid: true,
+                tickangle: -45
+            },
+            yaxis: {
+                title: 'Count',
+                titlefont: { size: 12, color: '#555' },
+                tickfont: { size: 10, color: '#555' },
+                gridcolor: 'rgba(0,0,0,0.1)',
+                showgrid: true
+            }
+        };
+        
+        Plotly.newPlot('yearChart', [trace], layout, chartConfig);
+        
+        document.getElementById('yearChart').on('plotly_click', function(data) {
+            const method = data.points[0].x;
+            FilterModule.toggleYearFilter(method);
+        });
+    };
+    
+    // 重写类别图表为相位确定策略图表
+    ChartModule.createCategoryChart = function () {
+        console.log("[Structure] 创建相位确定策略图表...");
+        
+        // 获取所有可能的相位确定策略（基于原始数据）
+        const allPhaseCounts = {};
+        originalData.forEach(d => {
+            const phase = d['Phase Determination'] || 'Unknown';
+            allPhaseCounts[phase] = (allPhaseCounts[phase] || 0) + 1;
+        });
+        const allPhases = Object.keys(allPhaseCounts).sort();
+        
+        // 确定数据源
+        let dataForVisualization = [];
+        if (nodeInteractionOrder.length === 0) {
+            dataForVisualization = [...originalData];
+        } else {
+            const myIndex = nodeInteractionOrder.indexOf('ligandChart');
+            if (myIndex === -1) {
+                const lastNodeId = nodeInteractionOrder[nodeInteractionOrder.length - 1];
+                dataForVisualization = [...nodeFilteredData[lastNodeId]];
+            } else if (myIndex === 0) {
+                dataForVisualization = [...originalData];
+            } else {
+                const parentNodeId = nodeInteractionOrder[myIndex - 1];
+                dataForVisualization = [...nodeFilteredData[parentNodeId]];
+            }
+        }
+        
+        // 计算可视化数据的相位分布
+        const visualizationPhaseCounts = {};
+        dataForVisualization.forEach(d => {
+            const phase = d['Phase Determination'] || 'Unknown';
+            visualizationPhaseCounts[phase] = (visualizationPhaseCounts[phase] || 0) + 1;
+        });
+        
+        // 检查是否有相位筛选
+        const hasPhaseFilter = activeFilters.categories.size > 0;
+        const hasAnyFilter = nodeInteractionOrder.length > 0;
+        
+        // 创建饼图数据
+        const pieData = allPhases.map(phase => {
+            const value = visualizationPhaseCounts[phase] || 0;
+            return {
+                phase: phase,
+                count: value,
+                isFiltered: hasPhaseFilter && activeFilters.categories.has(phase)
+            };
+        });
+        
+        // 只显示有数据的相位
+        const displayPhases = pieData.filter(d => d.count > 0).map(d => d.phase);
+        const displayValues = pieData.filter(d => d.count > 0).map(d => d.count);
+        const isFiltered = pieData.filter(d => d.count > 0).map(d => d.isFiltered);
+        
+        if (displayPhases.length === 0) {
+            Plotly.newPlot('ligandChart', [], {
+                ...chartLayoutBase,
+                margin: { l: 20, r: 20, t: 20, b: 20 },
+                annotations: [{
+                    text: 'No phase determination data',
+                    xref: 'paper',
+                    yref: 'paper',
+                    x: 0.5,
+                    y: 0.5,
+                    xanchor: 'center',
+                    yanchor: 'middle',
+                    showarrow: false,
+                    font: { size: 16, color: '#520049' }
+                }]
+            }, chartConfig);
+            return;
+        }
+        
+        const trace = {
+            labels: displayPhases,
+            values: displayValues,
+            type: 'pie',
+            hole: 0.4,
+            marker: {
+                colors: displayPhases.map((phase, i) => {
+                    if (isFiltered[i]) {
+                        return morandiHighlight;
+                    }
+                    return morandiColors[i % morandiColors.length];
+                }),
+                line: {
+                    color: displayPhases.map((phase, i) => {
+                        if (isFiltered[i]) {
+                            return '#333';
+                        }
+                        return 'white';
+                    }),
+                    width: displayPhases.map((phase, i) => {
+                        if (isFiltered[i]) {
+                            return 3;
+                        }
+                        return 1;
+                    })
+                }
+            },
+            textinfo: 'percent',
+            textfont: { size: 11, color: 'white' },
+            hoverinfo: 'label+value+percent',
+            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
+            hoverlabel: { 
+                bgcolor: 'white', 
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' }
+            }
+        };
+        
+        const layout = {
+            ...chartLayoutBase,
+            margin: { l: 20, r: 20, t: 20, b: 20 },
+            showlegend: false,
+            // 使用原生Plotly悬停模式
+            hovermode: 'closest'
+        };
+        
+        // 为饼图使用专用配置，确保使用Plotly原生tooltip
+        const pieChartConfig = {
+            ...chartConfig,
+            displayModeBar: false,
+            responsive: true,
+            // 禁用自定义tooltip
+            modeBarButtonsToRemove: ['toImage', 'sendDataToCloud'],
+            // 使用原生悬停
+            interaction: {
+                mode: 'hover',
+                intersect: true
+            }
+        };
+        
+        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
+        
+        document.getElementById('ligandChart').on('plotly_click', function(data) {
+            const phase = data.points[0].label;
+            FilterModule.toggleCategoryFilter(phase);
+        });
+    };
+
+    // --- 覆写 ChartModule.createAllCharts：仅生成两个图表 ---
+    ChartModule.createAllCharts = function () {
+        try {
+            console.log("[Structure] 创建结构确定方法及相位确定策略图表...");
+            this.createYearChart();
+            this.createCategoryChart();
+            console.log("[Structure] 图表创建完成");
+        } catch (error) {
+            console.error("[Structure] 创建图表时发生错误:", error);
+        }
+    };
+
+    // --- 覆写 FilterModule.updateNodeStateIndicators：只处理两个图表 ---
+    if (typeof FilterModule !== 'undefined') {
+        const originalUpdateNodeStateIndicators = FilterModule.updateNodeStateIndicators;
+        FilterModule.updateNodeStateIndicators = function () {
+            const yearChartEl = document.querySelector('#yearChart');
+            const ligandChartEl = document.querySelector('#ligandChart');
+            if (!yearChartEl || !ligandChartEl) {
+                return;
+            }
+            
+            const yearChartHeader = yearChartEl.closest('.chart-wrapper').querySelector('.chart-header');
+            const ligandChartHeader = ligandChartEl.closest('.chart-wrapper').querySelector('.chart-header');
+
+            const yearStateIndicator = yearChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
+            yearStateIndicator.className = 'node-state-indicator';
+            const ligandStateIndicator = ligandChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
+            ligandStateIndicator.className = 'node-state-indicator';
+
+            // 清除状态
+            yearStateIndicator.textContent = '';
+            ligandStateIndicator.textContent = '';
+
+            // 根据交互顺序填充状态（仅 A/B 两层）
+            nodeInteractionOrder.forEach((nodeId, index) => {
+                const stateText = index === 0 ? 'Node A' : 'Node B';
+                if (nodeId === 'yearChart') {
+                    yearStateIndicator.textContent = stateText;
+                    yearStateIndicator.style.backgroundColor = '#520049';
+                } else if (nodeId === 'ligandChart') {
+                    ligandStateIndicator.textContent = stateText;
+                    ligandStateIndicator.style.backgroundColor = '#520049';
+                }
             });
-            const labels = Object.keys(counts);
-            const values = labels.map(k => counts[k]);
-            const trace = { labels: labels, values: values, type: 'pie', hole: 0.4 };
-            Plotly.newPlot('ligandChart', [trace], Object.assign({}, chartLayoutBase, {margin:{t:40}}), chartConfig);
+
+            // 附加到 DOM
+            if (!yearChartHeader.querySelector('.node-state-indicator')) {
+                yearChartHeader.appendChild(yearStateIndicator);
+            }
+            if (!ligandChartHeader.querySelector('.node-state-indicator')) {
+                ligandChartHeader.appendChild(ligandStateIndicator);
+            }
         };
     }
+
+    // --- 覆写FilterModule.calculateSpecificNodeData：处理结构数据的特殊字段 ---
+    const originalCalculateSpecificNodeData = FilterModule.calculateSpecificNodeData;
+    FilterModule.calculateSpecificNodeData = function(nodeId) {
+        console.log(`[Structure] 计算节点 ${nodeId} 的最新数据`);
+        
+        // 根据节点类型和筛选条件计算数据
+        if (nodeId === 'yearChart' && activeFilters.years.size > 0) {
+            // 结构确定方法筛选 - 基于 Structure Determination 字段
+            nodeFilteredData[nodeId] = originalData.filter(d => 
+                activeFilters.years.has(d['Structure Determination'])
+            );
+            console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
+        } else if (nodeId === 'ligandChart' && activeFilters.categories.size > 0) {
+            // 相位确定策略筛选 - 基于 Phase Determination 字段
+            nodeFilteredData[nodeId] = originalData.filter(d => 
+                activeFilters.categories.has(d['Phase Determination'])
+            );
+            console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
+        } else {
+            // 如果该节点没有应用筛选条件，使用原始数据
+            nodeFilteredData[nodeId] = [...originalData];
+        }
+    };
+
+    // --- 覆写FilterModule.calculateNodeData：处理结构数据的层级筛选 ---
+    const originalCalculateNodeData = FilterModule.calculateNodeData;
+    FilterModule.calculateNodeData = function() {
+        // 首先保存当前冻结节点的数据
+        const frozenNodesData = {};
+        for (const nodeId in nodeFrozenState) {
+            if (nodeFrozenState[nodeId]) {
+                frozenNodesData[nodeId] = [...nodeFilteredData[nodeId]];
+            }
+        }
+        
+        // 重置未冻结节点的数据
+        for (const nodeId in nodeFilteredData) {
+            if (!nodeFrozenState[nodeId]) {
+                nodeFilteredData[nodeId] = [];
+            }
+        }
+        
+        // 如果没有交互，所有节点使用原始数据
+        if (nodeInteractionOrder.length === 0) {
+            for (const nodeId in nodeFilteredData) {
+                nodeFilteredData[nodeId] = [...originalData];
+            }
+            return;
+        }
+        
+        // 恢复冻结节点的数据
+        for (const nodeId in frozenNodesData) {
+            nodeFilteredData[nodeId] = [...frozenNodesData[nodeId]];
+        }
+        
+        // 如果交互序列中只有一个节点(A节点)
+        if (nodeInteractionOrder.length === 1) {
+            const firstNodeId = nodeInteractionOrder[0];
+            const firstNodeData = nodeFilteredData[firstNodeId];
+            console.log(`[Structure] 只有A节点(${firstNodeId})，数据量: ${firstNodeData.length}`);
+            
+            // 非交互节点使用A节点的筛选结果
+            for (const nodeId in nodeFilteredData) {
+                if (nodeId !== firstNodeId && !nodeFrozenState[nodeId]) {
+                    nodeFilteredData[nodeId] = [...firstNodeData];
+                    console.log(`[Structure] 节点${nodeId}使用A节点数据: ${nodeFilteredData[nodeId].length}`);
+                }
+            }
+            return;
+        }
+        
+        // 处理多节点交互情况
+        nodeInteractionOrder.forEach((interactedNodeId, index) => {
+            if (index === 0) return; // 跳过A节点，A节点已经计算过了
+            
+            // 根据层级关系决定使用哪个上级节点的数据
+            const parentNodeId = nodeInteractionOrder[index - 1];
+            const parentNodeData = nodeFilteredData[parentNodeId];
+            
+            // 根据当前节点的筛选条件过滤上级节点数据
+            if (interactedNodeId === 'yearChart' && activeFilters.years.size > 0) {
+                // 基于上级节点数据进行结构确定方法筛选
+                nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => 
+                    activeFilters.years.has(d['Structure Determination'])
+                );
+            } else if (interactedNodeId === 'ligandChart' && activeFilters.categories.size > 0) {
+                // 基于上级节点数据进行相位确定策略筛选
+                nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => 
+                    activeFilters.categories.has(d['Phase Determination'])
+                );
+            } else {
+                // 如果没有应用筛选条件，使用上级节点数据
+                nodeFilteredData[interactedNodeId] = [...parentNodeData];
+            }
+            
+            console.log(`[Structure] ${String.fromCharCode(65 + index)}节点(${interactedNodeId})筛选后数据: ${nodeFilteredData[interactedNodeId].length}`);
+        });
+        
+        // 剩余未交互节点使用最后一个交互节点的数据
+        if (nodeInteractionOrder.length > 0) {
+            const lastNodeId = nodeInteractionOrder[nodeInteractionOrder.length - 1];
+            const lastNodeData = nodeFilteredData[lastNodeId];
+            
+            for (const nodeId in nodeFilteredData) {
+                if (!nodeInteractionOrder.includes(nodeId) && !nodeFrozenState[nodeId]) {
+                    nodeFilteredData[nodeId] = [...lastNodeData];
+                    console.log(`[Structure] 未交互节点${nodeId}使用${lastNodeId}数据: ${nodeFilteredData[nodeId].length}`);
+                }
+            }
+        }
+        
+        console.log("[Structure] 节点数据计算完成，交互顺序:", nodeInteractionOrder.join(" > "));
+    };
+
+    // --- 覆写FilterModule.applyFilters：处理结构数据的全局筛选 ---
+    const originalApplyFilters = FilterModule.applyFilters;
+    FilterModule.applyFilters = function() {
+        console.log('[Structure] 应用筛选器 - 当前交互顺序:', nodeInteractionOrder.join(" > "));
+        console.log('[Structure] 筛选条件 - 方法:', Array.from(activeFilters.years), '相位:', Array.from(activeFilters.categories));
+        
+        // 首先，基于所有筛选条件过滤原始数据
+        const dataWithAllFilters = originalData.filter(d => {
+            // 结构确定方法筛选
+            if (activeFilters.years.size > 0 && !activeFilters.years.has(d['Structure Determination'])) {
+                return false;
+            }
+            
+            // 相位确定策略筛选
+            if (activeFilters.categories.size > 0 && !activeFilters.categories.has(d['Phase Determination'])) {
+                return false;
+            }
+            
+            return true;
+        });
+        
+        // 如果筛选后数据为空，但有筛选条件，给出警告
+        if (dataWithAllFilters.length === 0 && 
+            (activeFilters.years.size > 0 || activeFilters.categories.size > 0)) {
+            console.warn('[Structure] 应用所有筛选条件后没有匹配数据');
+        }
+        
+        // 根据节点层级计算每个节点的数据
+        this.calculateNodeData();
+        
+        // 更新全局筛选后数据(用于表格和统计)
+        filteredData = dataWithAllFilters.length > 0 ? dataWithAllFilters : [...originalData];
+        
+        console.log(`[Structure] 筛选后数据: ${filteredData.length}/${originalData.length} 条`);
+        
+        // 检查筛选后是否有数据
+        if (filteredData.length === 0 && (activeFilters.years.size > 0 || activeFilters.categories.size > 0)) {
+            console.warn('[Structure] 筛选后没有数据！');
+            this.showNoDataWarning();
+        } else {
+            this.hideNoDataWarning();
+        }
+        
+        // 更新所有图表和统计
+        DataModule.updateStatistics();
+        ChartModule.createAllCharts();
+        UIModule.updateDataSummary();
+        this.updateFilterTags();
+        TableModule.updateDataTable();
+    };
+
+    console.log('dashboard-structures.js 补丁已应用');
 })();

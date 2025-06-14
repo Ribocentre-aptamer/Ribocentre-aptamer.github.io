@@ -267,7 +267,12 @@ const ChartModule = {
             hovertemplate: '<b>Year: %{x}</b><br>' + 
                           'Count: %{y}<br>' +
                           'Click for multi-select filter<extra></extra>',
-            hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight }
+            hoverlabel: { 
+                bgcolor: 'white', 
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' },
+                align: 'left'
+            }
         };
         
         const layout = {
@@ -438,9 +443,14 @@ const ChartModule = {
             },
             textinfo: 'percent',
             textfont: { size: 11, color: 'white' },
-            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>' + 
-                          'Click for multi-select filter<extra></extra>',
-            hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight },
+            hoverinfo: 'label+value+percent',
+            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
+            hoverlabel: { 
+                bgcolor: 'white', 
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' },
+                align: 'left'
+            },
             opacity: displayCategories.map((category, i) => {
                 if (hasCategoryFilter && !isFiltered[i]) {
                     return 0.6; // 未选中的区间半透明
@@ -453,13 +463,38 @@ const ChartModule = {
             ...chartLayoutBase,
             margin: { l: 20, r: 20, t: 20, b: 20 },
             showlegend: false,
+            hovermode: 'closest',
             title: hasAnyFilter ? {
                 // text: nodeFrozenState.ligandChart ? '类别分布 (已冻结)' : '类别分布 (已筛选)',
                 font: { size: 14, color: '#520049' }
             } : null
         };
         
-        Plotly.newPlot('ligandChart', [trace], layout, chartConfig);
+        // 为饼图使用专用配置，确保使用Plotly原生tooltip
+        const pieChartConfig = {
+            ...chartConfig,
+            displayModeBar: false,
+            responsive: true,
+            // 禁用自定义tooltip
+            modeBarButtonsToRemove: ['toImage', 'sendDataToCloud'],
+            // 使用原生悬停
+            interaction: {
+                mode: 'hover',
+                intersect: true
+            }
+        };
+        
+        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
+        
+        // 添加调试日志
+        console.log(`[饼图调试] 已完成Plotly.newPlot('ligandChart') - ${new Date().toISOString()}`);
+        
+        // 为饼图DOM元素添加自定义标记
+        const pieContainer = document.getElementById('ligandChart');
+        if (pieContainer) {
+            pieContainer.setAttribute('data-debug-id', 'ligandChart-container');
+            console.log('[饼图调试] 已为饼图添加标记');
+        }
         
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;
@@ -602,12 +637,17 @@ const ChartModule = {
                 }
             },
             hovertemplate: '<b>%{text}</b><br>Length: %{x} bp<br>GC Content: %{y}%<br>Year: %{customdata[0]}<br>Category: %{customdata[1]}<extra></extra>',
+            hoverlabel: {
+                bgcolor: 'white', 
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' },
+                align: 'left'
+            },
             text: dataForVisualization.map(d => d.name),
             customdata: dataForVisualization.map(d => [
                 d.year,
                 d.category
-            ]),
-            hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight }
+            ])
         };
         
         const hasAnyFilter = nodeInteractionOrder.length > 0;
@@ -1172,11 +1212,11 @@ const TableModule = {
             cell.style.cursor = 'pointer';
             
             cell.addEventListener('mouseenter', (e) => {
-                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY);
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
             });
             cell.addEventListener('mousemove', (e) => {
                 // 实时跟随鼠标移动
-                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY);
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
             });
             cell.addEventListener('mouseleave', () => {
                 if (typeof hideAmirTooltip === 'function') hideAmirTooltip();

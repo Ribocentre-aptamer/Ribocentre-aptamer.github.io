@@ -74,6 +74,11 @@ class ApplicationTableManager {
             // 添加aptamer风格的tooltip样式
             const style = document.createElement('style');
             style.textContent = `
+                /* CSS变量定义 */
+                :root {
+                    --primary-color: #520049;
+                }
+                
                 /* Aptamer风格tooltip样式 - 完全迁移 */
                 .amir-tooltip {
                     position: fixed;
@@ -145,6 +150,37 @@ class ApplicationTableManager {
                 .data-table-section .table a:active {
                     color: #520049 !important;
                     background-color: rgba(82, 0, 73, 0.2);
+                }
+
+                /* Publication页面表格样式 */
+                .table-style {
+                    width: 100%;
+                    margin: 20px 0;
+                    background: #fff;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                }
+                
+                .table-style th {
+                    background: var(--primary-color);
+                    color: #fff;
+                    padding: 12px;
+                    text-align: left;
+                    font-weight: 600;
+                }
+                
+                .table-style td {
+                    padding: 12px;
+                    border-bottom: 1px solid #e8e8e8;
+                }
+                
+                .table-style tbody tr:nth-child(even) {
+                    background: rgba(245,245,245,0.5);
+                }
+                
+                .table-style tbody tr:hover {
+                    background: rgba(82,0,73,0.05);
                 }
             `;
             document.head.appendChild(style);
@@ -255,11 +291,11 @@ class ApplicationTableManager {
         const excludeFields = ['Linker'];
         const allFields = data.length > 0 ? Object.keys(data[0]).filter(key => !excludeFields.includes(key)) : [];
 
-        // 创建表格HTML
+        // 创建表格HTML - 使用与publication页面相同的table-style类
         const html = `
             <div class="data-table-section">
                 <div style="display: flex; overflow: auto;">
-                    <table style="flex: 1;" class="table table-striped table-hover table-style1">
+                    <table style="flex: 1;" class="table table-striped table-hover table-style">
                         <thead>
                             <tr>
                                 ${allFields.map(field => `<th>${this.formatHeaderName(field)}</th>`).join('')}

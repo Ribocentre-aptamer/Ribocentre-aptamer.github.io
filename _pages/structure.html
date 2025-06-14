@@ -15,6 +15,29 @@ permalink: /structures/
 </script>
 
 <div class="amir-container">
+    <!-- 统计概览区域 -->
+    <section class="statistics-overview">
+        <h3 class="section-title">Structure Statistics</h3>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="totalAptamers">0</div>
+                <div class="stat-label">Total Structures</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="uniqueLigands">0</div>
+                <div class="stat-label">Unique Ligands</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="yearSpan">0</div>
+                <div class="stat-label">Methods</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="avgGC">0</div>
+                <div class="stat-label">With Resolution</div>
+            </div>
+        </div>
+    </section>
+
     <div class="chart-container">
         <div class="chart-wrapper">
             <div class="chart-header">
@@ -100,7 +123,7 @@ permalink: /structures/
     <div class="tooltip-arrow"></div>
 </div>
 
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
 <script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
 <script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
 <script src="{{ site.baseurl }}/js/dashboard-structures.js"></script>
