@@ -42,6 +42,7 @@ for md in POSTS_DIR.glob('*.md'):
     encoding='utf-8'
 )
 
+
 # Extract references from publication table
 pub_refs = []
 html = PUBLICATION_PAGE.read_text(encoding='utf-8')
@@ -55,10 +56,12 @@ for m in row_pattern.finditer(html):
         'journal': m.group(5).strip()
     })
 
+
 (Path('apidata/publicationRef.json')).write_text(
     json.dumps(pub_refs, indent=2, ensure_ascii=False),
     encoding='utf-8'
 )
+
 
 # Combine by PMID
 combined = {}
@@ -73,7 +76,9 @@ for r in post_refs:
         'post_link': r['post_link']
     })
 
+
 (Path('apidata/combineRef.json')).write_text(
     json.dumps(list(combined.values()), indent=2, ensure_ascii=False),
     encoding='utf-8'
 )
+

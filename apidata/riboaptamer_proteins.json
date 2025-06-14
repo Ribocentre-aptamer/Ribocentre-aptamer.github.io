@@ -1,0 +1,57 @@
+[
+  {
+    "category": "Other",
+    "name": "Bacteriophage MS2 coat protein aptamer",
+    "ligand": "Bacteriophage MS2 coat protein",
+    "description": "The coat protein of the RNA bacteriophage MS2 binds a specific stem-loop structure in viral RNA to accomplish encapsidation of the genome and translational repression of replicase synthesis.",
+    "discovery": "1992",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/1469719/",
+    "pdb": "6MSF",
+    "pdb_links": ["https://www.rcsb.org/structure/6MSF"],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/bacteriophage-MS2-coat-protein-aptamer"
+  },
+  {
+    "category": "Bacteria",
+    "name": "Hfq aptamer",
+    "ligand": "Hfq",
+    "description": "Hfq (host factor required for phage Qβ RNA replication) binds to the loop structure formed by the AG repeat sequence, which regulates gene expression.",
+    "discovery": "2012",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/22053080/",
+    "pdb": "3HSB<br>3AHU",
+    "pdb_links": ["https://www.rcsb.org/structure/3HSB", "https://www.rcsb.org/structure/3AHU"],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/Hfq-aptamer"
+  },
+  {
+    "category": "Cell",
+    "name": "Lys1.2minF aptamer",
+    "ligand": "HEWL(lysozyme)",
+    "description": "It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.",
+    "discovery": "2013",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/24570482/",
+    "pdb": "4M6D",
+    "pdb_links": ["https://www.rcsb.org/structure/4M6D"],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer"
+  },
+  {
+    "category": "Cell",
+    "name": "Lys1.2minE apatmer",
+    "ligand": "HEWL(lysozyme)",
+    "description": "It is a powerful enzyme found in abundance in tears, saliva, and human milk. In humans, it is encoded in the LYZ gene. Since it is a small, easily available, and highly stable protein, it has been subject to extensive research regarding its function and structure. Lysozyme acts as a non-specific defense against bacteria and fungi. It is a component of the innate immune system, and is an important part of an infant's diet to ward off diarrhea. It is an enzyme known for its ability to degrade the polysaccharide architecture of many kinds of cell walls, normally for the purpose of protection against bacterial infection.",
+    "discovery": "2013",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/24570482/",
+    "pdb": "4M4O",
+    "pdb_links": ["https://www.rcsb.org/structure/4M4O"],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/Lysozyme-aptamer"
+  },
+  {
+    "category": "Viral",
+    "name": "HIV-1 REV peptide-aptamer",
+    "ligand": "HIV-1 REV peptide",
+    "description": "The HIV-1 protein Rev controls a key step in viral replication by mediating nuclear output of both unspliced and single-spliced viral mRNAs.",
+    "discovery": "1996",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/8946856/",
+    "pdb": "1ULL",
+    "pdb_links": ["https://www.rcsb.org/structure/1ULL"],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/HIV-1-REV-peptide-aptamer"
+  }
+] 

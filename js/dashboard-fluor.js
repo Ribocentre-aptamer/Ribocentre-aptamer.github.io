@@ -70,11 +70,14 @@
 
             const addTooltip = (cell, htmlContent) => {
                 if (!htmlContent) return;
+                cell.style.cursor = 'pointer';
+                
                 cell.addEventListener('mouseenter', (e) => {
-                    showAmirTooltip(htmlContent, e.pageX, e.pageY);
+                    showAmirTooltip(htmlContent, e.clientX, e.clientY);
                 });
                 cell.addEventListener('mousemove', (e) => {
-                    showAmirTooltip(htmlContent, e.pageX, e.pageY);
+                    // 实时跟随鼠标移动
+                    showAmirTooltip(htmlContent, e.clientX, e.clientY);
                 });
                 cell.addEventListener('mouseleave', hideAmirTooltip);
             };

@@ -3,7 +3,7 @@ title: "Ribocentre Aptamer - RNA Aptamers"
 layout: riboaptamer
 excerpt: "Ribocentre-aptamer: A aptamer database"
 sitemap: True
-permalink: /Ribocentre-aptamer-raw/
+permalink: /Ribocentre-aptamer00/
 ---
 <html lang="en">
 

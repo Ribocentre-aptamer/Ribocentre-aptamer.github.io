@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Other",
+    "name": "Mitochondrion aptamer",
+    "ligand": "Mitochondrion",
+    "description": "Mitochondrion is a kind of organelle which exists in most eukaryotic cells and is covered by two membranes. It is the structure that produces energy in cells and the main place for cells to carry out aerobic respiration, so it is called \"power house\". Its diameter is about 0.5 to 1.0 microns.",
+    "discovery": "2002",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/12024047/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/Mitochondrion-aptamer"
+  },
+  {
+    "category": "Cell",
+    "name": "HER2 aptamer",
+    "ligand": "HER2-positive breast cancer cells",
+    "description": "Human epidermal growth factor receptor-2 (HER2/erbB-2) belongs to a family of four transmembrane receptors involved in signal transduction pathways that regulate cell growth and differentiation.",
+    "discovery": "2015",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/26221481/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/HER2-aptamer"
+  },
+  {
+    "category": "Cell",
+    "name": "E3 aptamer",
+    "ligand": "prostate cancer cell",
+    "description": "Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men. Common human prostate cancer cell lines include DU145, LNCaP clone FGC, PC3, NCI-H660, 22RV1, etc. E3 aptamr was obtained by selected different prostate cancer cell lines(LNCaP, PC-3, DU 145, and 22Rv1 cell lines).",
+    "discovery": "2018",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/29666232/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/E3-aptamer"
+  },
+  {
+    "category": "Cell",
+    "name": "TNBC aptamer",
+    "ligand": "Triple-negative breast cancer (TNBC)",
+    "description": "Triple-negative breast cancer refers to the breast cancer whose immunohistochemical results show that estrogen receptor (ER), progesterone receptor (PR) and proto-oncogene Her-2 are all negative.",
+    "discovery": "2020",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/32222697/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/TNBC-aptamer"
+  },
+  {
+    "category": "Cell",
+    "name": "CD133 aptamer",
+    "ligand": "CD133 on cell line Hep3B",
+    "description": "CD133, also known as Prominin-1, is a pentaspan, highly glycosylated, membrane glycoprotein that is associated with cholesterol in the plasma membrane.",
+    "discovery": "2013",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/CD133-aptamer"
+  },
+  {
+    "category": "Cell",
+    "name": "GL56 aptamer",
+    "ligand": "Insulin receptor (glioma cells)",
+    "description": "IR belongs to a family of receptor tyrosine kinases (RTKs) that also includes the insulin-like growth factor 1 receptor (IGF-1R).Activation of both receptors plays a key role in normal tissues physiology and has been implicated in cancer development and progression.",
+    "discovery": "2016",
+    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/27648925/",
+    "pdb": "NA",
+    "pdb_links": [],
+    "url": "{{ site.url }}{{ site.baseurl }}/_posts/GL56-aptamer"
+  }
+] 

@@ -8,6 +8,7 @@ permalink: /publications/
 <html lang="en">
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 <title>Ribocentre-aptamer publications</title>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
@@ -35,6 +36,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 #searchBox{padding:10px;font-size:16px;border:2px solid #ccc;border-radius:4px;width:300px;}
 #searchBox:focus{outline:none;border-color:#efefef;}
 </style>
+
 </head>
 <body>
 <h1 class="post-title">Publications</h1>
@@ -59,6 +61,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
   </table>
 </section>
 <script>
+
 let table;
 let tableData=[];
 function buildRows(data){
@@ -72,6 +75,7 @@ function buildRows(data){
       d.publication.journal,
       aptLinks
     ];
+
   });
 }
 function loadData(){
