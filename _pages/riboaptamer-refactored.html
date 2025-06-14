@@ -1,0 +1,225 @@
+---
+title: "Ribocentre Aptamer - RNA Aptamers"
+layout: riboaptamer
+excerpt: "Ribocentre-aptamer: A aptamer database"
+sitemap: True
+permalink: /Ribocentre-aptamer/
+---
+
+<html lang="en">
+<head>
+  <!-- DataTables CSS and JS -->
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- 引入专用CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/aptamer.css">
+  <!-- 引入dashboard专用CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/dashboard.css">
+  
+  <style>
+    /* 修复表格字体颜色问题 */
+    .table td {
+      color: #333 !important;
+    }
+    
+    /* 增强悬停提示效果 */
+    .amir-tooltip {
+      z-index: 9999;
+    }
+  </style>
+</head>
+
+<body data-page="aptamer">
+  <div class="container">
+    <h1>RNA Aptamers</h1>
+    
+    <p>
+      RNA Aptamers are nucleic acid molecules that mimic antibodies by folding into complex 3D shapes that bind to specific
+      targets. Although some aptamers exist naturally as the ligand-binding elements of riboswitches, most are generated in
+      vitro and can be tailored for a specific target.
+    </p>
+    
+    <!-- 统计信息部分 -->
+    <p class="header_box">Statistical information</p>
+    
+    <div class="collapsible-container">
+      <p>
+        The aptamer database encompasses both aptamers with known 3D structures and those without. The following table
+        lists the ligands of all aptamers in this database. The color coding of the table matches the hues of the pie
+        chart displayed above, which symbolizes the various categories of aptamers. By clicking on a ligand of interest,
+        you can access detailed information pertaining to the respective aptamer.
+    </p>
+    
+    <!-- Dashboard Section -->
+      <div class="dashboard-section" style="background: #f8f9fa; padding: 0px 0; margin-top: 0px;">
+        <div class="amir-container">
+          <!-- 类型分布图表 - 移至顶部并增加宽度 -->
+          <div class="chart-wrapper" style="width: 100%; margin-bottom: 20px;">
+            <div class="chart-header">
+              <h4 class="chart-title">Distribution of Aptamer Types</h4>
+              <div class="chart-controls">
+                <span class="chart-info">Click on pie sectors for multi-selection filtering</span>
+              </div>
+            </div>
+            <div class="chart-content">
+              <div id="typeChart" class="amir-chart" style="height: 350px;"></div>
+              <div class="chart-description" style="text-align: center; margin-top: 15px; padding: 0 20px;">
+                <p style="font-size: 14px; color: #333;">RNA aptamers can be classified into four main types based on their structural and functional characteristics. Each type has distinct binding properties and applications.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-container">
+            <!-- 年份分布图表 -->
+            <div class="chart-wrapper">
+              <div class="chart-header">
+                <h4 class="chart-title">Publication Trends by Year</h4>
+                <div class="chart-controls">
+                  <span class="chart-info">Click on bars for multi-selection filtering</span>
+                </div>
+              </div>
+              <div class="chart-content">
+                <div id="yearChart" class="amir-chart"></div>
+              </div>
+            </div>
+            
+            <!-- 类别分布图表 -->
+            <div class="chart-wrapper">
+              <div class="chart-header">
+                <h4 class="chart-title">Distribution of Aptamer Categories</h4>
+                <div class="chart-controls">
+                  <span class="chart-info">Click on pie sectors for multi-selection filtering</span>
+                </div>
+              </div>
+              <div class="chart-content">
+                <div id="ligandChart" class="amir-chart"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 数据筛选条 -->
+          <section class="filter-controls">
+            <div class="filter-header">
+              <h4 class="filter-title">Data Filtering</h4>
+              <div class="filter-actions">
+                <button class="filter-btn reset-btn" id="resetAllFilters">Reset All</button>
+                <button class="filter-btn export-btn" id="exportData">Export Data</button>
+              </div>
+            </div>
+            <div class="filter-tags" id="filterTags">
+              <!-- 筛选标签会动态显示在这里 -->
+            </div>
+          </section>
+
+          <!-- 数据表格 -->
+          <section class="data-table-section">
+            <div class="chart-header">
+              <h4 class="chart-title">RNA Aptamers Data</h4>
+              <div class="chart-controls">
+                <span class="chart-info" id="tableInfo">Loading data...</span>
+              </div>
+            </div>
+            <div class="table-container">
+              <div class="table-responsive">
+                <table id="dataTable" class="table table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th>No.</th>
+                      <th>Aptamer name</th>
+                      <th>Ligand</th>
+                      <th>Year</th>
+                      <th>Category</th>
+                      <th>CAS</th>
+                      <th>Affinity</th>
+                      <th>Sequence (5'-3')</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tableBody">
+                    <!-- 表格数据将通过JavaScript动态填充 -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <!-- 详细数据计数 -->
+          <section class="data-summary">
+            <div class="summary-cards">
+              <div class="summary-card">
+                <span class="summary-label">Currently Showing</span>
+                <span class="summary-count" id="currentCount">0</span>
+                <span class="summary-unit">records</span>
+              </div>
+              <div class="summary-card">
+                <span class="summary-label">Filter Ratio</span>
+                <span class="summary-percentage" id="filterPercentage">0%</span>
+                <span class="summary-unit">visible</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      
+      <div id="sheet1" class="sheet">
+        <!-- 统计信息折叠面板 -->
+        <div class="stat-panel">
+          <div class="stat-header" onclick="toggleStats()">
+            <span>▶ Aptamer Statistics Panel (click to toggle)</span>
+            <span id="toggleIcon">-</span>
+          </div>
+          <div id="statsContent">
+            <!-- 表格内容将通过JavaScript动态生成 -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 悬浮提示框 -->
+  <div class="amir-tooltip" id="amirTooltip">
+    <div class="tooltip-content"></div>
+    <div class="tooltip-arrow"></div>
+    </div>
+
+  <!-- 引入专用JavaScript -->
+  <script src="{{ site.baseurl }}/js/aptamer.js"></script>
+  
+  <!-- Dashboard JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
+  <script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
+  <script src="{{ site.baseurl }}/js/dashboard-aptamer.js"></script>
+  
+  <script>
+    // 全局配置变量
+    window.DASHBOARD_CONFIG = {
+      baseurl: '{{ site.baseurl }}',
+      dataPath: '{{ site.baseurl }}/apidata/sequences_cleaned.json'
+    };
+    
+    // 页面加载完成后初始化dashboard
+    document.addEventListener('DOMContentLoaded', function() {
+      // 初始化Dashboard
+      if (typeof DataModule !== 'undefined' && typeof DataModule.loadData === 'function') {
+        DataModule.loadData();
+      }
+      
+      // 绑定导出和重置按钮事件
+      const exportBtn = document.getElementById('exportData');
+      const resetBtn = document.getElementById('resetAllFilters');
+      
+      if (exportBtn && typeof exportData === 'function') {
+        exportBtn.addEventListener('click', exportData);
+      }
+      
+      if (resetBtn && typeof resetAllFilters === 'function') {
+        resetBtn.addEventListener('click', resetAllFilters);
+      }
+    });
+  </script>
+</body>
+</html> 

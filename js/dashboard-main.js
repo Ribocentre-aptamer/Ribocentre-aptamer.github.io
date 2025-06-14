@@ -1166,14 +1166,17 @@ const TableModule = {
             return (seq || '').split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
         };
 
-        // 辅助函数：tooltip
+        // 辅助函数：tooltip - 使用clientX/clientY坐标，支持智能定位
         const addTooltip = (cell, htmlContent) => {
             if (!htmlContent) return;
+            cell.style.cursor = 'pointer';
+            
             cell.addEventListener('mouseenter', (e) => {
-                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.pageX, e.pageY);
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY);
             });
             cell.addEventListener('mousemove', (e) => {
-                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.pageX, e.pageY);
+                // 实时跟随鼠标移动
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY);
             });
             cell.addEventListener('mouseleave', () => {
                 if (typeof hideAmirTooltip === 'function') hideAmirTooltip();
