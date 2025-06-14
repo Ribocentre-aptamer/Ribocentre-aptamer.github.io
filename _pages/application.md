@@ -10,6 +10,7 @@ permalink: /applications/
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="/js/applications.js"></script>
 <style>
 :root {
   --primary-color: #520049;
@@ -204,16 +205,6 @@ div.content-section a[id^="ref"] {
 
 
 
-
-
-<!--div class="side-nav">
-<ul>
-    <div class="side-nav-item"><a href="#Diagnosis-detection" style="color: #000000;">Diagnosis&detection</a></div>
-    <div class="side-nav-item"><a href="#Disease-treatment-drugs" style="color: #000000;">Disease treatment&drugs</a></div>
-    <div class="side-nav-item"><a href="#Biosensing-monitoring" style="color: #000000;">Biosensing&monitoring</a></div>
-    <div class="side-nav-item"><a href="#Research-Tools " style="color: #000000;">Research Tools</a></div>
-    </ul>
-</div-->
 <div class="content-section">
 <h2 class="section-title" id="Diagnosis-detection">Diagnosis and detection</h2>
 <p>In the diagnostic arena, RNA aptamers have been employed as molecular probes for the detection of various biomarkers. Their high affinity and specificity for target molecules allow for the development of sensitive and selective assays. For example, aptamers have been used to detect cancer biomarkers in blood samples, enabling early diagnosis and treatment of malignancies. Additionally, aptamers have been utilized in the development of biosensors for the detection of pathogens, toxins, and other harmful substances, providing a rapid and reliable means of monitoring environmental and food safety. In addition, they can detect and image various biomolecules or cellular processes, enhancing the sensitivity and specificity of diagnostic assays<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
@@ -223,92 +214,8 @@ div.content-section a[id^="ref"] {
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/ͼ1.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 
-<div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Section</th>
-        <th>Target</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>Viral</td>
-      <td>HIV-1</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/1379730/' target='_blank'>1992</a></td>
-    </tr> 
-     <tr>
-      <td>Viral</td>
-      <td>HCV</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/9356339/' target='_blank'>1997</a></td>
-    </tr> 
-     <tr>
-      <td>Viral</td>
-      <td>HSV</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/16246910/' target='_blank'>2005</a></td>
-    </tr>
-    <tr>
-      <td>Viral</td>
-      <td>HPV-16</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/21565620/' target='_blank'>2011</a></td>
-    </tr>
-    <tr>
-      <td>Viral</td>
-      <td>Hirame rhabdovirus</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/22943666/' target='_blank'>2012</a></td>
-    </tr>
-    <tr>
-      <td>Viral</td>
-      <td>HBV</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/22125633/' target='_blank'>2011</a></td>
-    </tr>
-    <tr>
-      <td>Viral</td>
-      <td>H3N2 (Influenza virus)</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/16476969/' target='_blank'>2006</a></td>
-    </tr>
-</table>
-<div style="width: 20px;"></div>
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Section</th>
-        <th>Target</th>
-        <th>References</th>
-      </tr>
-     <tr>
-      <td>Bacteria</td>
-      <td>Escherichia coli</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/9192624/' target='_blank'>1997</a></td>
-    </tr>                    
-     <tr>
-      <td>Bacteria</td>
-      <td>Yersinia</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/9603938/' target='_blank'>1998</a></td>
-    </tr>              
-     <tr>
-      <td>Bacteria</td>
-      <td>Salmonella enterica</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/16189080/' target='_blank'>2005</a></td>
-    </tr>
-    <tr>
-      <td>Parasite</td>
-      <td>Trypanosome</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/10198434/' target='_blank'>1999</a></td>
-    </tr>
-    <tr>
-      <td>Parasite</td>
-      <td>Caenorhabditis elegans</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/16467303/' target='_blank'>2006</a></td>
-    </tr>
-    <tr>
-      <td>Fungi</td>
-      <td>Candida albicans</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/30779315/' target='_blank'>2019</a></td>
-    </tr>
-    <tr>
-      <td>Infectious disease</td>
-      <td>Bovine Prion Protein</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/19098441/' target='_blank'>2008</a></td>
-    </tr>
-</table>
+<div id="section1-table">
+    <!-- 表格将通过JavaScript动态加载 -->
 </div>
 <br>
 
@@ -319,72 +226,8 @@ div.content-section a[id^="ref"] {
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/ͼ2.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 
-<div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Biomarkers</th>
-        <th>Cancer Type</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>EGFR</td>
-      <td>Lung cancer</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/30069577/' target='_blank'>2019</a></td>
-    </tr> 
-     <tr>
-      <td>CD30</td>
-      <td>Lymphoma</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/25057318/' target='_blank'>2014</a></td>
-    </tr> 
-     <tr>
-      <td>CD30</td>
-      <td>Lymphoma</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/19823169/' target='_blank'>2009</a></td>
-    </tr>
-    <tr>
-      <td>Integrins</td>
-      <td>Glioblastoma</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/31226519/' target='_blank'>2019</a></td>
-    </tr>
-    <tr>
-      <td>PSMA</td>
-      <td>Prostatic cancer</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/12124337/' target='_blank'>2002</a></td>
-    </tr>
-</table>
-<div style="width: 20px;"></div>
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Biomarkers</th>
-        <th>Cancer Type</th>
-        <th>References</th>
-      </tr>
-     <tr>
-      <td>PSMA</td>
-      <td>Prostatic cancer</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/20731831/' target='_blank'>2010</a></td>
-    </tr>                    
-     <tr>
-      <td>PSMA</td>
-      <td>Prostatic cancer</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/20407731/' target='_blank'>2010</a></td>
-    </tr>              
-     <tr>
-      <td>MMP-9</td>
-      <td>Glioblastoma</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/23043415/' target='_blank'>2016</a></td>
-    </tr>
-    <tr>
-      <td>MMP-9</td>
-      <td>Melanoma tumor</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/26901393/' target='_blank'>2016</a></td>
-    </tr>
-    <tr>
-      <td>SK-BR-3 </td>
-      <td>Breast cancer</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/20155973/' target='_blank'>2010</a></td>
-    </tr>
-</table>
+<div id="section2-table">
+    <!-- 表格将通过JavaScript动态加载 -->
 </div>
 <br>
 
@@ -395,84 +238,8 @@ div.content-section a[id^="ref"] {
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/ͼ3.png" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 
-<div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Clinical sample</th>
-        <th>Target</th>
-        <th>Disease indication</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>Plasma</td>
-      <td>α Thrombin</td>
-      <td>Thrombosis</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/7518917/' target='_blank'>1994</a></td>
-    </tr> 
-     <tr>
-      <td>Serum</td>
-      <td>IL-6R</td>
-      <td>Immune diseases</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/26383776/' target='_blank'>2015</a></td>
-    </tr> 
-     <tr>
-      <td>Serum</td>
-      <td>IL‐17A</td>
-      <td>Inflammation</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/20967861/' target='_blank'>2011</a></td>
-    </tr>
-    <tr>
-      <td>Cerebrospinal fluid</td>
-      <td>Amyloid beta-peptide</td>
-      <td>Alzheimers disease</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/19668864/' target='_blank'>2009</a></td>
-    </tr>
-    <tr>
-      <td>Excrement，Serum ect.</td>
-      <td>CEA</td>
-      <td>Gastric cancer</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/30303958/' target='_blank'>2018</a></td>
-    </tr>
-</table>
-<div style="width: 20px;"></div>
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Clinical sample</th>
-        <th>Target</th>
-        <th>Disease indication</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>Serum</td>
-      <td>IgE</td>
-      <td>Allergy</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/8683119/' target='_blank'>1996</a></td>
-    </tr> 
-     <tr>
-      <td>Serum</td>
-      <td>Dopamine</td>
-      <td>Parkinson's Disease</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/9245404/' target='_blank'>1997</a></td>
-    </tr> 
-     <tr>
-      <td>Serum</td>
-      <td>L-tyrosine</td>
-      <td>Phenylketonuria</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/10786843/' target='_blank'>2000</a></td>
-    </tr>
-    <tr>
-      <td>Serum</td>
-      <td>Neuropeptide Y</td>
-      <td>Angiocardiopathy</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/11756401/' target='_blank'>2002</a></td>
-    </tr>
-    <tr>
-      <td>Cellular tissue</td>
-      <td>β cells</td>
-      <td>Diabetes</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/35383192/' target='_blank'>2022</a></td>
-    </tr>
-</table>
+<div id="section3-table">
+    <!-- 表格将通过JavaScript动态加载 -->
 </div>
 <br>
 <br>
@@ -487,86 +254,8 @@ div.content-section a[id^="ref"] {
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/ͼ4.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Name</th>
-        <th>Target</th>
-        <th>Disease</th>
-        <th>Clinical Status</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>Pegaptanib (Macugen)</td>
-      <td>VEGF165</td>
-      <td>Age-related macular degeneration (AMD)</td>
-      <td>FDA approved(2004)</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/16647134/' target='_blank'>2006</a></td>
-    </tr> 
-     <tr>
-      <td>Avacincaptad pegol (Izervay)</td>
-      <td>Complement protein C5</td>
-      <td>Age-related macular degeneration (AMD)</td>
-      <td>FDA approved(2023)</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/37696275/' target='_blank'>2023</a></td>
-    </tr> 
-     <tr>
-      <td>RB 006 (Pegnivacogin)</td>
-      <td>Coronary Artery Disease</td>
-      <td>Factor IX</td>
-      <td>Phase III</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/21724623/' target='_blank'>2011</a></td>
-    </tr>
-    <tr>
-      <td>NOX-E36 (Emapticap pegol)</td>
-      <td>CCL2</td>
-      <td>Type 2 diabetic patients with albuminuria</td>
-      <td>Phase II</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/28186566/' target='_blank'>2017</a></td>
-    </tr>
-    <tr>
-      <td>RBM-007 (Umedaptanib pegol)</td>
-      <td>bFGF</td>
-      <td>Achondroplasia</td>
-      <td>Phase II</td>
-      <td><a href='https://rctportal.niph.go.jp/en/detail?trial_id=jRCT2031220291' target='_blank'>2022</a></td>
-    </tr>
-    <tr>
-      <td>NOX-A12 (Olaptesed pegol)</td>
-      <td>CXCL12</td>
-      <td>Glioblastoma</td>
-      <td>Phase II</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/38806504/' target='_blank'>2024</a></td>
-    </tr> 
-     <tr>
-      <td>AM003</td>
-      <td>LAG3</td>
-      <td>Solid Tumor</td>
-      <td>Phase I</td>
-      <td><a href='https://classic.clinicaltrials.gov/ct2/show/NCT06258330' target='_blank'>2024</a></td>
-    </tr> 
-     <tr>
-      <td>BC 007</td>
-      <td>GPCR x β-adrenoceptors</td>
-      <td>Post-Acute COVID-19 Syndrome</td>
-      <td>Phase II</td>
-      <td><a href='https://classic.clinicaltrials.gov/ct2/show/NCT05911009' target='_blank'>2023</a></td>
-    </tr>
-    <tr>
-      <td>Apta-1</td>
-      <td>Heparin-binding motif (Exosite II) on thrombin</td>
-      <td>Sepsis</td>
-      <td>Phase I</td>
-      <td><a href='https://onderzoekmetmensen.nl/en/trial/51837' target='_blank'>2022</a></td>
-    </tr>
-    <tr>
-      <td>E-10030 (Fovista)</td>
-      <td>PDGFB</td>
-      <td>Hippel-Lindau disease</td>
-      <td>Phase II</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/34549489/' target='_blank'>2021</a></td>
-    </tr>
-</table>
+<div id="section4-table">
+    <!-- 表格将通过JavaScript动态加载 -->
 </div>
 <br>
 
@@ -575,73 +264,8 @@ div.content-section a[id^="ref"] {
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/ͼ5.png" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Name</th>
-        <th>Target</th>
-        <th>Conjugated drug</th>
-        <th>Disease</th>
-        <th>Clinical Status</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>P19</td>
-      <td>PDAC</td>
-      <td>Monomethyl auristatin E, maytansine 1</td>
-      <td>Breast cancer</td>
-      <td>Preclinical research</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/28325302/' target='_blank'>2017</a></td>
-    </tr> 
-    <tr>
-      <td>P19</td>
-      <td>PDAC</td>
-      <td>5-fluorouracil, Gemcitabine</td>
-      <td>Pancreatic cancer</td>
-      <td>Preclinical research</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/28325302/' target='_blank'>2017</a></td>
-    </tr>
-    <tr>
-      <td>SQ2</td>
-      <td>ALPPL2</td>
-      <td>5-fluoro-2'-deoxyuridine</td>
-      <td>Pancreatic cancer</td>
-      <td>Preclinical research</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/25919296/' target='_blank'>2015</a></td>
-    </tr>
-    <tr>
-      <td>A10</td>
-      <td>PSMA</td>
-      <td>Doxorubicin</td>
-      <td>Prostate cancer</td>
-      <td>Preclinical research</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/21147500/' target='_blank'>2011</a></td>
-    </tr>
-    <tr>
-      <td>A10</td>
-      <td>PSMA</td>
-      <td>Epirubicin</td>
-      <td>Cancer</td>
-      <td>Preclinical research</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/23815443/' target='_blank'>2013</a></td>
-    </tr>
-    <tr>
-      <td>Her2 aptamer</td>
-      <td>HER2</td>
-      <td>Mertansine 1</td>
-      <td>Breast cancer</td>
-      <td>Preclinical research</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/33371333/' target='_blank'>2020</a></td>
-    </tr>
-    <tr>
-      <td>CD 30 aptamer</td>
-      <td>CD 30</td>
-      <td>siRNA</td>
-      <td>Human anaplastic large cell lymphoma</td>
-      <td>Preclinical research</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/21281497/' target='_blank'>2011</a></td>
-    </tr>
-</table>
+<div id="section5-table">
+    <!-- 表格将通过JavaScript动态加载 -->
 </div>
 <br>
 <br>
@@ -655,79 +279,8 @@ div.content-section a[id^="ref"] {
 <p>The following table will give some examples of RNA aptamers cases. The picture is from a review written by Harmanjit Kaur<sup>[<a href="#ref21" style="color:#520049">21</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/ͼ6.png" alt="drawing" style="width:1000px;height:550px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Fields</th>
-        <th>Aptamer Name</th>
-        <th>Target</th>
-        <th>Method</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>Clinical test</td>
-      <td>Broccoli and SAM riboswitch</td>
-      <td>SAM</td>
-      <td>Fluorescence</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/30962542/' target='_blank'>2019</a></td>
-    </tr> 
-     <tr>
-      <td>Clinical test and Foods inspection</td>
-      <td>cAMP aptamer</td>
-      <td>cAMP</td>
-      <td>Electrochemical impedance spectroscopy</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/25437358/' target='_blank'>2015</a></td>
-    </tr> 
-     <tr>
-      <td>Clinical test</td>
-      <td>Dopamine RNA aptamer</td>
-      <td>Dopamine</td>
-      <td>Electrochemical</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/23210972/' target='_blank'>2013</a></td>
-    </tr>
-    <tr>
-      <td>Clinical test</td>
-      <td>CRP aptamer</td>
-      <td>C-reactive protein</td>
-      <td>Electrochemical</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/38810381/' target='_blank'>2024</a></td>
-    </tr>
-    <tr>
-      <td>Foods and Animal</td>
-      <td>R10K6_V11</td>
-      <td>Ciprofloxacin</td>
-      <td>Inkjet-printed</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/30609709/' target='_blank'>2019</a></td>
-    </tr>
-    <tr>
-      <td>Foods and Environment</td>
-      <td>Ec3(31)</td>
-      <td>Escherichia coli</td>
-      <td>Electrochemical Impedance Spectroscopy</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/27871171/' target='_blank'>2016</a></td>
-    </tr> 
-     <tr>
-      <td>Clinical test</td>
-      <td>Theophylline RNA aptamer</td>
-      <td>Theophylline</td>
-      <td>Electrochemical</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/18324816/' target='_blank'>2008</a></td>
-    </tr> 
-     <tr>
-      <td>Foods</td>
-      <td>Neomycin B RNA aptamer</td>
-      <td>Neomycin B</td>
-      <td>Gold nanoparticle (AuNP) sensor</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/26942739/' target='_blank'>2008</a></td>
-    </tr>
-    <tr>
-      <td>Clinical test</td>
-      <td>Sc5-c3</td>
-      <td>HPV-16 E7 protein</td>
-      <td>Field effect transistor</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/32816088/' target='_blank'>2021</a></td>
-    </tr>
-</table>
+<div id="section6-table">
+    <!-- 表格将通过JavaScript动态加载 -->
 </div>
 <br>
 <br>
@@ -743,72 +296,8 @@ div.content-section a[id^="ref"] {
 <p>The picture is from a review written by Maike Spöring<sup>[<a href="#ref24" style="color:#520049">24</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/applications/ͼ7.png" alt="drawing" style="width:1000px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex;overflow:auto">
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Name</th>
-        <th>Target</th>
-        <th>Tool Function</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>Tc aptamer</td>
-      <td>Tetracycline</td>
-      <td>Regulatory system</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/12655001/' target='_blank'>2003</a></td>
-    </tr> 
-     <tr>
-      <td>Theophylline RNA aptamer</td>
-      <td>Theophylline</td>
-      <td>Signal-connectors——RNA devices</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/29319503/' target='_blank'>2018</a></td>
-    </tr> 
-     <tr>
-      <td>Tc aptamer</td>
-      <td>Tetracycline</td>
-      <td>Alternative splicing</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/29420816/' target='_blank'>2018</a></td>
-    </tr>
-    <tr>
-      <td>TetR RNA aptamer</td>
-      <td>TetR</td>
-      <td>Splicing regulation</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/31504742/' target='_blank'>2019</a></td>
-    </tr>
-</table>
-<div style="width: 20px;"></div>
-    <table style="flex: 1;" class="table-style1">
-      <tr>
-        <th>Name</th>
-        <th>Target</th>
-        <th>Tool Function</th>
-        <th>References</th>
-      </tr>     
-     <tr>
-      <td>Tc aptamer</td>
-      <td>Tetracycline</td>
-      <td>Occlusion of miRNA target sites</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/29567311/' target='_blank'>2018</a></td>
-    </tr>
-    <tr>
-      <td>TetR RNA aptamer</td>
-      <td>TetR</td>
-      <td>Regulate Dicer processing and miRNA maturation</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/29036355/' target='_blank'>2017</a></td>
-    </tr> 
-     <tr>
-      <td>FMN RNA aptamer</td>
-      <td>FMN</td>
-      <td>Aptazyme (cleavage)</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/10097080/' target='_blank'>1999</a></td>
-    </tr> 
-     <tr>
-      <td>ATP RNA aptamer</td>
-      <td>ATP</td>
-      <td>Aptazyme (cleavage)</td>
-      <td><a href='https://pubmed.ncbi.nlm.nih.gov/10097080/' target='_blank'>1999</a></td>
-    </tr>
-</table>
+<div id="section7-table">
+    <!-- 表格将通过JavaScript动态加载 -->
 </div>
 <br>
 <br>
