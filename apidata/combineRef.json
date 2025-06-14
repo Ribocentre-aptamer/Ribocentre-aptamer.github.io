@@ -10,14 +10,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/G9-II-aptamer.md",
-        "post_title": "G9-II aptamer",
-        "post_link": "/_posts/G9-II-aptamer"
-      },
-      {
         "source_file": "_posts/G6-16-aptamer.md",
         "post_title": "G6-16 aptamer",
         "post_link": "/_posts/G6-16-aptamer"
+      },
+      {
+        "source_file": "_posts/G9-II-aptamer.md",
+        "post_title": "G9-II aptamer",
+        "post_link": "/_posts/G9-II-aptamer"
       },
       {
         "source_file": "_posts/10G-1-aptamer.md",
@@ -37,14 +37,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/G9-II-aptamer.md",
-        "post_title": "G9-II aptamer",
-        "post_link": "/_posts/G9-II-aptamer"
-      },
-      {
         "source_file": "_posts/G6-16-aptamer.md",
         "post_title": "G6-16 aptamer",
         "post_link": "/_posts/G6-16-aptamer"
+      },
+      {
+        "source_file": "_posts/G9-II-aptamer.md",
+        "post_title": "G9-II aptamer",
+        "post_link": "/_posts/G9-II-aptamer"
       },
       {
         "source_file": "_posts/10G-1-aptamer.md",
@@ -64,14 +64,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/G9-II-aptamer.md",
-        "post_title": "G9-II aptamer",
-        "post_link": "/_posts/G9-II-aptamer"
-      },
-      {
         "source_file": "_posts/G6-16-aptamer.md",
         "post_title": "G6-16 aptamer",
         "post_link": "/_posts/G6-16-aptamer"
+      },
+      {
+        "source_file": "_posts/G9-II-aptamer.md",
+        "post_title": "G9-II aptamer",
+        "post_link": "/_posts/G9-II-aptamer"
       },
       {
         "source_file": "_posts/10G-1-aptamer.md",
@@ -91,14 +91,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/G9-II-aptamer.md",
-        "post_title": "G9-II aptamer",
-        "post_link": "/_posts/G9-II-aptamer"
-      },
-      {
         "source_file": "_posts/G6-16-aptamer.md",
         "post_title": "G6-16 aptamer",
         "post_link": "/_posts/G6-16-aptamer"
+      },
+      {
+        "source_file": "_posts/G9-II-aptamer.md",
+        "post_title": "G9-II aptamer",
+        "post_link": "/_posts/G9-II-aptamer"
       },
       {
         "source_file": "_posts/10G-1-aptamer.md",
@@ -118,14 +118,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/G9-II-aptamer.md",
-        "post_title": "G9-II aptamer",
-        "post_link": "/_posts/G9-II-aptamer"
-      },
-      {
         "source_file": "_posts/G6-16-aptamer.md",
         "post_title": "G6-16 aptamer",
         "post_link": "/_posts/G6-16-aptamer"
+      },
+      {
+        "source_file": "_posts/G9-II-aptamer.md",
+        "post_title": "G9-II aptamer",
+        "post_link": "/_posts/G9-II-aptamer"
       },
       {
         "source_file": "_posts/10G-1-aptamer.md",
@@ -145,14 +145,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/G9-II-aptamer.md",
-        "post_title": "G9-II aptamer",
-        "post_link": "/_posts/G9-II-aptamer"
-      },
-      {
         "source_file": "_posts/G6-16-aptamer.md",
         "post_title": "G6-16 aptamer",
         "post_link": "/_posts/G6-16-aptamer"
+      },
+      {
+        "source_file": "_posts/G9-II-aptamer.md",
+        "post_title": "G9-II aptamer",
+        "post_link": "/_posts/G9-II-aptamer"
       },
       {
         "source_file": "_posts/10G-1-aptamer.md",
@@ -172,14 +172,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/G9-II-aptamer.md",
-        "post_title": "G9-II aptamer",
-        "post_link": "/_posts/G9-II-aptamer"
-      },
-      {
         "source_file": "_posts/G6-16-aptamer.md",
         "post_title": "G6-16 aptamer",
         "post_link": "/_posts/G6-16-aptamer"
+      },
+      {
+        "source_file": "_posts/G9-II-aptamer.md",
+        "post_title": "G9-II aptamer",
+        "post_link": "/_posts/G9-II-aptamer"
       },
       {
         "source_file": "_posts/10G-1-aptamer.md",
@@ -204,6 +204,11 @@
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {
+        "source_file": "_posts/RBA-14-aptamer.md",
+        "post_title": "RBA-14 aptamer",
+        "post_link": "/_posts/RBA-14-aptamer"
+      },
+      {
         "source_file": "_posts/59-aptamer.md",
         "post_title": "59 aptamer",
         "post_link": "/_posts/59-aptamer"
@@ -212,11 +217,6 @@
         "source_file": "_posts/HIV-1-Rev-aptamer.md",
         "post_title": "HIV-1 Rev aptamer",
         "post_link": "/_posts/HIV-1-Rev-aptamer"
-      },
-      {
-        "source_file": "_posts/RBA-14-aptamer.md",
-        "post_title": "RBA-14 aptamer",
-        "post_link": "/_posts/RBA-14-aptamer"
       }
     ]
   },
@@ -231,6 +231,11 @@
     },
     "posts": [
       {
+        "source_file": "_posts/RBA-14-aptamer.md",
+        "post_title": "RBA-14 aptamer",
+        "post_link": "/_posts/RBA-14-aptamer"
+      },
+      {
         "source_file": "_posts/59-aptamer.md",
         "post_title": "59 aptamer",
         "post_link": "/_posts/59-aptamer"
@@ -239,11 +244,6 @@
         "source_file": "_posts/HIV-1-Rev-aptamer.md",
         "post_title": "HIV-1 Rev aptamer",
         "post_link": "/_posts/HIV-1-Rev-aptamer"
-      },
-      {
-        "source_file": "_posts/RBA-14-aptamer.md",
-        "post_title": "RBA-14 aptamer",
-        "post_link": "/_posts/RBA-14-aptamer"
       }
     ]
   },
@@ -258,6 +258,11 @@
     },
     "posts": [
       {
+        "source_file": "_posts/RBA-14-aptamer.md",
+        "post_title": "RBA-14 aptamer",
+        "post_link": "/_posts/RBA-14-aptamer"
+      },
+      {
         "source_file": "_posts/59-aptamer.md",
         "post_title": "59 aptamer",
         "post_link": "/_posts/59-aptamer"
@@ -266,11 +271,6 @@
         "source_file": "_posts/HIV-1-Rev-aptamer.md",
         "post_title": "HIV-1 Rev aptamer",
         "post_link": "/_posts/HIV-1-Rev-aptamer"
-      },
-      {
-        "source_file": "_posts/RBA-14-aptamer.md",
-        "post_title": "RBA-14 aptamer",
-        "post_link": "/_posts/RBA-14-aptamer"
       }
     ]
   },
@@ -285,6 +285,16 @@
     },
     "posts": [
       {
+        "source_file": "_posts/C52-aptamer.md",
+        "post_title": "C52 aptamer",
+        "post_link": "/_posts/C52-aptamer"
+      },
+      {
+        "source_file": "_posts/RBA-14-aptamer.md",
+        "post_title": "RBA-14 aptamer",
+        "post_link": "/_posts/RBA-14-aptamer"
+      },
+      {
         "source_file": "_posts/59-aptamer.md",
         "post_title": "59 aptamer",
         "post_link": "/_posts/59-aptamer"
@@ -293,16 +303,6 @@
         "source_file": "_posts/HIV-1-Rev-aptamer.md",
         "post_title": "HIV-1 Rev aptamer",
         "post_link": "/_posts/HIV-1-Rev-aptamer"
-      },
-      {
-        "source_file": "_posts/RBA-14-aptamer.md",
-        "post_title": "RBA-14 aptamer",
-        "post_link": "/_posts/RBA-14-aptamer"
-      },
-      {
-        "source_file": "_posts/C52-aptamer.md",
-        "post_title": "C52 aptamer",
-        "post_link": "/_posts/C52-aptamer"
       }
     ]
   },
@@ -317,6 +317,16 @@
     },
     "posts": [
       {
+        "source_file": "_posts/C52-aptamer.md",
+        "post_title": "C52 aptamer",
+        "post_link": "/_posts/C52-aptamer"
+      },
+      {
+        "source_file": "_posts/RBA-14-aptamer.md",
+        "post_title": "RBA-14 aptamer",
+        "post_link": "/_posts/RBA-14-aptamer"
+      },
+      {
         "source_file": "_posts/59-aptamer.md",
         "post_title": "59 aptamer",
         "post_link": "/_posts/59-aptamer"
@@ -325,16 +335,6 @@
         "source_file": "_posts/HIV-1-Rev-aptamer.md",
         "post_title": "HIV-1 Rev aptamer",
         "post_link": "/_posts/HIV-1-Rev-aptamer"
-      },
-      {
-        "source_file": "_posts/RBA-14-aptamer.md",
-        "post_title": "RBA-14 aptamer",
-        "post_link": "/_posts/RBA-14-aptamer"
-      },
-      {
-        "source_file": "_posts/C52-aptamer.md",
-        "post_title": "C52 aptamer",
-        "post_link": "/_posts/C52-aptamer"
       }
     ]
   },
@@ -349,6 +349,16 @@
     },
     "posts": [
       {
+        "source_file": "_posts/C52-aptamer.md",
+        "post_title": "C52 aptamer",
+        "post_link": "/_posts/C52-aptamer"
+      },
+      {
+        "source_file": "_posts/RBA-14-aptamer.md",
+        "post_title": "RBA-14 aptamer",
+        "post_link": "/_posts/RBA-14-aptamer"
+      },
+      {
         "source_file": "_posts/59-aptamer.md",
         "post_title": "59 aptamer",
         "post_link": "/_posts/59-aptamer"
@@ -357,16 +367,6 @@
         "source_file": "_posts/HIV-1-Rev-aptamer.md",
         "post_title": "HIV-1 Rev aptamer",
         "post_link": "/_posts/HIV-1-Rev-aptamer"
-      },
-      {
-        "source_file": "_posts/RBA-14-aptamer.md",
-        "post_title": "RBA-14 aptamer",
-        "post_link": "/_posts/RBA-14-aptamer"
-      },
-      {
-        "source_file": "_posts/C52-aptamer.md",
-        "post_title": "C52 aptamer",
-        "post_link": "/_posts/C52-aptamer"
       }
     ]
   },
@@ -381,6 +381,16 @@
     },
     "posts": [
       {
+        "source_file": "_posts/C52-aptamer.md",
+        "post_title": "C52 aptamer",
+        "post_link": "/_posts/C52-aptamer"
+      },
+      {
+        "source_file": "_posts/RBA-14-aptamer.md",
+        "post_title": "RBA-14 aptamer",
+        "post_link": "/_posts/RBA-14-aptamer"
+      },
+      {
         "source_file": "_posts/59-aptamer.md",
         "post_title": "59 aptamer",
         "post_link": "/_posts/59-aptamer"
@@ -389,16 +399,6 @@
         "source_file": "_posts/HIV-1-Rev-aptamer.md",
         "post_title": "HIV-1 Rev aptamer",
         "post_link": "/_posts/HIV-1-Rev-aptamer"
-      },
-      {
-        "source_file": "_posts/RBA-14-aptamer.md",
-        "post_title": "RBA-14 aptamer",
-        "post_link": "/_posts/RBA-14-aptamer"
-      },
-      {
-        "source_file": "_posts/C52-aptamer.md",
-        "post_title": "C52 aptamer",
-        "post_link": "/_posts/C52-aptamer"
       }
     ]
   },
@@ -532,14 +532,14 @@
     },
     "posts": [
       {
+        "source_file": "_posts/C52-aptamer.md",
+        "post_title": "C52 aptamer",
+        "post_link": "/_posts/C52-aptamer"
+      },
+      {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
         "post_title": "HIV-1 REV peptide apatmer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
-      },
-      {
-        "source_file": "_posts/HIV-1-Rev-aptamer.md",
-        "post_title": "HIV-1 Rev aptamer",
-        "post_link": "/_posts/HIV-1-Rev-aptamer"
       },
       {
         "source_file": "_posts/RBA-14-aptamer.md",
@@ -547,9 +547,9 @@
         "post_link": "/_posts/RBA-14-aptamer"
       },
       {
-        "source_file": "_posts/C52-aptamer.md",
-        "post_title": "C52 aptamer",
-        "post_link": "/_posts/C52-aptamer"
+        "source_file": "_posts/HIV-1-Rev-aptamer.md",
+        "post_title": "HIV-1 Rev aptamer",
+        "post_link": "/_posts/HIV-1-Rev-aptamer"
       }
     ]
   },
@@ -947,14 +947,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HCV-NS5B-protein-aptamer.md",
-        "post_title": "HCV NS5B protein aptamer",
-        "post_link": "/_posts/HCV-NS5B-protein-aptamer"
-      },
-      {
         "source_file": "_posts/H3N2-aptamer.md",
         "post_title": "H3N2 aptamer",
         "post_link": "/_posts/H3N2-aptamer"
+      },
+      {
+        "source_file": "_posts/HCV-NS5B-protein-aptamer.md",
+        "post_title": "HCV NS5B protein aptamer",
+        "post_link": "/_posts/HCV-NS5B-protein-aptamer"
       }
     ]
   },
@@ -1008,14 +1008,14 @@
         "post_link": "/_posts/Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer"
       },
       {
-        "source_file": "_posts/Cancer-antigen-72–4(CA72-4)-aptamer.md",
-        "post_title": "Cancer antigen 72–4(CA72-4)-aptamer",
-        "post_link": "/_posts/Cancer-antigen-72–4(CA72-4)-aptamer"
-      },
-      {
         "source_file": "_posts/Gastrointestinal-cancer-antigen-50-aptamer.md",
         "post_title": "Gastrointestinal cancer antigen 50-aptamer",
         "post_link": "/_posts/Gastrointestinal-cancer-antigen-50-aptamer"
+      },
+      {
+        "source_file": "_posts/Cancer-antigen-72–4(CA72-4)-aptamer.md",
+        "post_title": "Cancer antigen 72–4(CA72-4)-aptamer",
+        "post_link": "/_posts/Cancer-antigen-72–4(CA72-4)-aptamer"
       }
     ]
   },
@@ -3243,14 +3243,14 @@
         "post_link": "/_posts/WL-2-aptamer"
       },
       {
-        "source_file": "_posts/Aβ42-aptamer.md",
-        "post_title": "Aβ42 aptamer",
-        "post_link": "/_posts/Aβ42-aptamer"
-      },
-      {
         "source_file": "_posts/β55-aptamer.md",
         "post_title": "β55 aptamer",
         "post_link": "/_posts/β55-aptamer"
+      },
+      {
+        "source_file": "_posts/Aβ42-aptamer.md",
+        "post_title": "Aβ42 aptamer",
+        "post_link": "/_posts/Aβ42-aptamer"
       }
     ]
   },
@@ -3350,14 +3350,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/AN58-aptamer.md",
-        "post_title": "AN58 aptamer",
-        "post_link": "/_posts/AN58-aptamer"
-      },
-      {
         "source_file": "_posts/AB9-aptamer.md",
         "post_title": "AB9 aptamer",
         "post_link": "/_posts/AB9-aptamer"
+      },
+      {
+        "source_file": "_posts/AN58-aptamer.md",
+        "post_title": "AN58 aptamer",
+        "post_link": "/_posts/AN58-aptamer"
       }
     ]
   },
@@ -3372,14 +3372,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/AN58-aptamer.md",
-        "post_title": "AN58 aptamer",
-        "post_link": "/_posts/AN58-aptamer"
-      },
-      {
         "source_file": "_posts/AB9-aptamer.md",
         "post_title": "AB9 aptamer",
         "post_link": "/_posts/AB9-aptamer"
+      },
+      {
+        "source_file": "_posts/AN58-aptamer.md",
+        "post_title": "AN58 aptamer",
+        "post_link": "/_posts/AN58-aptamer"
       }
     ]
   },
@@ -3916,14 +3916,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Chili-aptamer.md",
-        "post_title": "Chili aptamer",
-        "post_link": "/_posts/Chili-aptamer"
-      },
-      {
         "source_file": "_posts/Clivias-aptamer.md",
         "post_title": "Clivias aptamer",
         "post_link": "/_posts/Clivias-aptamer"
+      },
+      {
+        "source_file": "_posts/Chili-aptamer.md",
+        "post_title": "Chili aptamer",
+        "post_link": "/_posts/Chili-aptamer"
       }
     ]
   },
@@ -4519,6 +4519,11 @@
     },
     "posts": [
       {
+        "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
+        "post_title": "Mango aptamer(TO1-biotin)",
+        "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
         "source_file": "_posts/Mango-aptamer.md",
         "post_title": "Mango aptamer",
         "post_link": "/_posts/Mango-aptamer"
@@ -4527,11 +4532,6 @@
         "source_file": "_posts/Mango-III-aptamer(YO3).md",
         "post_title": "Mango-III aptamer",
         "post_link": "/_posts/Mango-III-aptamer(YO3)"
-      },
-      {
-        "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
-        "post_title": "Mango aptamer(TO1-biotin)",
-        "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
       }
     ]
   },
@@ -4546,14 +4546,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4568,14 +4568,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4590,14 +4590,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4612,14 +4612,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4634,14 +4634,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4656,14 +4656,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4678,14 +4678,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4700,14 +4700,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4722,14 +4722,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4744,14 +4744,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Mango-aptamer.md",
-        "post_title": "Mango aptamer",
-        "post_link": "/_posts/Mango-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-aptamer(TO1-biotin).md",
         "post_title": "Mango aptamer(TO1-biotin)",
         "post_link": "/_posts/Mango-aptamer(TO1-biotin)"
+      },
+      {
+        "source_file": "_posts/Mango-aptamer.md",
+        "post_title": "Mango aptamer",
+        "post_link": "/_posts/Mango-aptamer"
       }
     ]
   },
@@ -4800,9 +4800,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
+        "source_file": "_posts/Beetroot-aptamer(ThT).md",
+        "post_title": "Beetroot aptamer(ThT)",
+        "post_link": "/_posts/Beetroot-aptamer(ThT)"
       },
       {
         "source_file": "_posts/Beetroot-aptamer.md",
@@ -4810,9 +4810,9 @@
         "post_link": "/_posts/Beetroot-aptamer"
       },
       {
-        "source_file": "_posts/Beetroot-aptamer(ThT).md",
-        "post_title": "Beetroot aptamer(ThT)",
-        "post_link": "/_posts/Beetroot-aptamer(ThT)"
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
       }
     ]
   },
@@ -4827,9 +4827,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
+        "source_file": "_posts/Beetroot-aptamer(ThT).md",
+        "post_title": "Beetroot aptamer(ThT)",
+        "post_link": "/_posts/Beetroot-aptamer(ThT)"
       },
       {
         "source_file": "_posts/Beetroot-aptamer.md",
@@ -4837,9 +4837,9 @@
         "post_link": "/_posts/Beetroot-aptamer"
       },
       {
-        "source_file": "_posts/Beetroot-aptamer(ThT).md",
-        "post_title": "Beetroot aptamer(ThT)",
-        "post_link": "/_posts/Beetroot-aptamer(ThT)"
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
       }
     ]
   },
@@ -4854,9 +4854,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
+        "source_file": "_posts/Beetroot-aptamer(ThT).md",
+        "post_title": "Beetroot aptamer(ThT)",
+        "post_link": "/_posts/Beetroot-aptamer(ThT)"
       },
       {
         "source_file": "_posts/Beetroot-aptamer.md",
@@ -4864,14 +4864,14 @@
         "post_link": "/_posts/Beetroot-aptamer"
       },
       {
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
+      },
+      {
         "source_file": "_posts/Beetroot-aptamer(DFAME).md",
         "post_title": "Beetroot aptamer(DFAME)",
         "post_link": "/_posts/Beetroot-aptamer(DFAME)"
-      },
-      {
-        "source_file": "_posts/Beetroot-aptamer(ThT).md",
-        "post_title": "Beetroot aptamer(ThT)",
-        "post_link": "/_posts/Beetroot-aptamer(ThT)"
       }
     ]
   },
@@ -5003,14 +5003,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
-      },
-      {
         "source_file": "_posts/Beetroot-aptamer.md",
         "post_title": "Beetroot aptamer",
         "post_link": "/_posts/Beetroot-aptamer"
+      },
+      {
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
       },
       {
         "source_file": "_posts/Beetroot-aptamer(DFAME).md",
@@ -5030,14 +5030,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Spinach-aptamer.md",
-        "post_title": "Spinach aptamer",
-        "post_link": "/_posts/Spinach-aptamer"
-      },
-      {
         "source_file": "_posts/Mango-III-aptamer(YO3).md",
         "post_title": "Mango-III aptamer",
         "post_link": "/_posts/Mango-III-aptamer(YO3)"
+      },
+      {
+        "source_file": "_posts/Spinach-aptamer.md",
+        "post_title": "Spinach aptamer",
+        "post_link": "/_posts/Spinach-aptamer"
       }
     ]
   },
@@ -5623,14 +5623,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Aβ42-aptamer.md",
-        "post_title": "Aβ42 aptamer",
-        "post_link": "/_posts/Aβ42-aptamer"
-      },
-      {
         "source_file": "_posts/β55-aptamer.md",
         "post_title": "β55 aptamer",
         "post_link": "/_posts/β55-aptamer"
+      },
+      {
+        "source_file": "_posts/Aβ42-aptamer.md",
+        "post_title": "Aβ42 aptamer",
+        "post_link": "/_posts/Aβ42-aptamer"
       }
     ]
   },
@@ -5792,14 +5792,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Arginine-aptamer.md",
-        "post_title": "Arginine aptamer",
-        "post_link": "/_posts/Arginine-aptamer"
-      },
-      {
         "source_file": "_posts/Citrulline-aptamer.md",
         "post_title": "Citrulline aptamer",
         "post_link": "/_posts/Citrulline-aptamer"
+      },
+      {
+        "source_file": "_posts/Arginine-aptamer.md",
+        "post_title": "Arginine aptamer",
+        "post_link": "/_posts/Arginine-aptamer"
       }
     ]
   },
@@ -5814,14 +5814,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Arginine-aptamer.md",
-        "post_title": "Arginine aptamer",
-        "post_link": "/_posts/Arginine-aptamer"
-      },
-      {
         "source_file": "_posts/Citrulline-aptamer.md",
         "post_title": "Citrulline aptamer",
         "post_link": "/_posts/Citrulline-aptamer"
+      },
+      {
+        "source_file": "_posts/Arginine-aptamer.md",
+        "post_title": "Arginine aptamer",
+        "post_link": "/_posts/Arginine-aptamer"
       }
     ]
   },
@@ -7869,9 +7869,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Tetracycline-aptamer.md",
-        "post_title": "Tetracycline aptamer",
-        "post_link": "/_posts/Tetracycline-aptamer"
+        "source_file": "_posts/Theophylline-aptamer_back1.md",
+        "post_title": "Theophylline aptamer",
+        "post_link": "/_posts/Theophylline-aptamer_back1"
       },
       {
         "source_file": "_posts/Theophylline-aptamer_back2.md",
@@ -7879,9 +7879,9 @@
         "post_link": "/_posts/Theophylline-aptamer_back2"
       },
       {
-        "source_file": "_posts/Theophylline-aptamer_back1.md",
-        "post_title": "Theophylline aptamer",
-        "post_link": "/_posts/Theophylline-aptamer_back1"
+        "source_file": "_posts/Tetracycline-aptamer.md",
+        "post_title": "Tetracycline aptamer",
+        "post_link": "/_posts/Tetracycline-aptamer"
       }
     ]
   },
@@ -8168,14 +8168,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       },
       {
         "source_file": "_posts/Theophylline-aptamer.md",
@@ -8195,14 +8195,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       },
       {
         "source_file": "_posts/Theophylline-aptamer.md",
@@ -8222,14 +8222,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8244,14 +8244,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8266,14 +8266,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8288,14 +8288,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8310,14 +8310,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8332,14 +8332,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8354,14 +8354,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8376,14 +8376,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8409,14 +8409,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       },
       {
         "source_file": "_posts/FMN-aptamer.md",
@@ -8436,14 +8436,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8458,14 +8458,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8480,14 +8480,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8502,14 +8502,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8524,14 +8524,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8546,14 +8546,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8568,14 +8568,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8590,14 +8590,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8612,14 +8612,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8634,14 +8634,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8667,14 +8667,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8689,14 +8689,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8711,14 +8711,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -8733,14 +8733,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
         "source_file": "_posts/Theophylline-aptamer_back1.md",
         "post_title": "Theophylline aptamer",
         "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
       }
     ]
   },
@@ -9130,14 +9130,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Arginine-aptamer.md",
-        "post_title": "Arginine aptamer",
-        "post_link": "/_posts/Arginine-aptamer"
-      },
-      {
         "source_file": "_posts/Citrulline-aptamer.md",
         "post_title": "Citrulline aptamer",
         "post_link": "/_posts/Citrulline-aptamer"
+      },
+      {
+        "source_file": "_posts/Arginine-aptamer.md",
+        "post_title": "Arginine aptamer",
+        "post_link": "/_posts/Arginine-aptamer"
       }
     ]
   },
@@ -9152,14 +9152,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Arginine-aptamer.md",
-        "post_title": "Arginine aptamer",
-        "post_link": "/_posts/Arginine-aptamer"
-      },
-      {
         "source_file": "_posts/Citrulline-aptamer.md",
         "post_title": "Citrulline aptamer",
         "post_link": "/_posts/Citrulline-aptamer"
+      },
+      {
+        "source_file": "_posts/Arginine-aptamer.md",
+        "post_title": "Arginine aptamer",
+        "post_link": "/_posts/Arginine-aptamer"
       }
     ]
   },
@@ -9174,14 +9174,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Arginine-aptamer.md",
-        "post_title": "Arginine aptamer",
-        "post_link": "/_posts/Arginine-aptamer"
-      },
-      {
         "source_file": "_posts/Citrulline-aptamer.md",
         "post_title": "Citrulline aptamer",
         "post_link": "/_posts/Citrulline-aptamer"
+      },
+      {
+        "source_file": "_posts/Arginine-aptamer.md",
+        "post_title": "Arginine aptamer",
+        "post_link": "/_posts/Arginine-aptamer"
       }
     ]
   },
@@ -9598,14 +9598,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9620,14 +9620,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9642,14 +9642,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9664,14 +9664,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9686,14 +9686,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9708,14 +9708,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9730,14 +9730,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9752,14 +9752,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9774,14 +9774,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9796,14 +9796,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9818,14 +9818,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -9840,14 +9840,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
-        "post_title": "HIV-1 TAR RNA aptamer",
-        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
-      },
-      {
         "source_file": "_posts/LR06-aptamer.md",
         "post_title": "LR06(GA) aptamer",
         "post_link": "/_posts/LR06-aptamer"
+      },
+      {
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       }
     ]
   },
@@ -10605,6 +10605,55 @@
     ]
   },
   {
+    "pmid": "16513347",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Theophylline-aptamer_back1.md",
+        "post_title": "Theophylline aptamer",
+        "post_link": "/_posts/Theophylline-aptamer_back1"
+      },
+      {
+        "source_file": "_posts/Theophylline-aptamer_back2.md",
+        "post_title": "Theophylline aptamer_old",
+        "post_link": "/_posts/Theophylline-aptamer_back2"
+      }
+    ]
+  },
+  {
+    "pmid": "19246008",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/TetR-aptamer.md",
+        "post_title": "TetR aptamer",
+        "post_link": "/_posts/TetR-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "31504742",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/TetR-aptamer.md",
+        "post_title": "TetR aptamer",
+        "post_link": "/_posts/TetR-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "33148600",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/TetR-aptamer.md",
+        "post_title": "TetR aptamer",
+        "post_link": "/_posts/TetR-aptamer"
+      }
+    ]
+  },
+  {
     "pmid": "20306311",
     "publication": null,
     "posts": [
@@ -10645,6 +10694,17 @@
         "source_file": "_posts/Ribostamycin-aptamer.md",
         "post_title": "Ribostamycin aptamer, Paromomycin aptamer",
         "post_link": "/_posts/Ribostamycin-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "28845698",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/AML1(RUNX1)-aptamer.md",
+        "post_title": "AML1 (RUNX1) aptamer",
+        "post_link": "/_posts/AML1(RUNX1)-aptamer"
       }
     ]
   },
@@ -10748,198 +10808,6 @@
     ]
   },
   {
-    "pmid": "28092358",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/5HTP-aptamer.md",
-        "post_title": "5HTP aptamer",
-        "post_link": "/_posts/5HTP-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "28945234",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "31631009",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "34028262",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "37171156",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Corn-aptamer.md",
-        "post_title": "Corn aptamer",
-        "post_link": "/_posts/Corn-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "27805569",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Tetracycline-aptamer.md",
-        "post_title": "Tetracycline aptamer",
-        "post_link": "/_posts/Tetracycline-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "12185247",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/GTP-aptamer.md",
-        "post_title": "GTP aptamer",
-        "post_link": "/_posts/GTP-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "16513347",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Theophylline-aptamer_back2.md",
-        "post_title": "Theophylline aptamer_old",
-        "post_link": "/_posts/Theophylline-aptamer_back2"
-      },
-      {
-        "source_file": "_posts/Theophylline-aptamer_back1.md",
-        "post_title": "Theophylline aptamer",
-        "post_link": "/_posts/Theophylline-aptamer_back1"
-      }
-    ]
-  },
-  {
-    "pmid": "19246008",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/TetR-aptamer.md",
-        "post_title": "TetR aptamer",
-        "post_link": "/_posts/TetR-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "31504742",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/TetR-aptamer.md",
-        "post_title": "TetR aptamer",
-        "post_link": "/_posts/TetR-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "33148600",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/TetR-aptamer.md",
-        "post_title": "TetR aptamer",
-        "post_link": "/_posts/TetR-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "23488798",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Spinach-RNA-aptamer.md",
-        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
-        "post_link": "/_posts/Spinach-RNA-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "9056763",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
-        "post_title": "Ribosomal protein S8-aptamer",
-        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "25140011",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
-        "post_title": "Ribosomal protein S8-aptamer",
-        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "29413905",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
-        "post_title": "Ribosomal protein S8-aptamer",
-        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "35320268",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
-        "post_title": "Ribosomal protein S8-aptamer",
-        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "36458023",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
-        "post_title": "Ribosomal protein S8-aptamer",
-        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
-      }
-    ]
-  },
-  {
     "pmid": "30986047",
     "publication": null,
     "posts": [
@@ -11036,95 +10904,13 @@
     ]
   },
   {
-    "pmid": "17625118",
+    "pmid": "24570482",
     "publication": null,
     "posts": [
       {
-        "source_file": "_posts/L-CCL2-aptamer.md",
-        "post_title": "L-CCL2 aptamer",
-        "post_link": "/_posts/L-CCL2-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "36097297",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/FAD-aptamer.md",
-        "post_title": "FAD aptamer",
-        "post_link": "/_posts/FAD-aptamer"
-      },
-      {
-        "source_file": "_posts/Riboflavin-aptamer.md",
-        "post_title": "Riboflavin aptamer",
-        "post_link": "/_posts/Riboflavin-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "34937909",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Squash-aptamer.md",
-        "post_title": "Squash aptamer",
-        "post_link": "/_posts/Squash-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "34937911",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Squash-aptamer.md",
-        "post_title": "Squash aptamer",
-        "post_link": "/_posts/Squash-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "28845698",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/AML1(RUNX1)-aptamer.md",
-        "post_title": "AML1 (RUNX1) aptamer",
-        "post_link": "/_posts/AML1(RUNX1)-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "1697402",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/B4-25-aptamer.md",
-        "post_title": "B4-25 aptamer, CB-42 aptamer",
-        "post_link": "/_posts/B4-25-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "20022942",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Factor-Xa-aptamer.md",
-        "post_title": "Factor Xa aptamer",
-        "post_link": "/_posts/Factor-Xa-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "26584417",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Factor-Xa-aptamer.md",
-        "post_title": "Factor Xa aptamer",
-        "post_link": "/_posts/Factor-Xa-aptamer"
+        "source_file": "_posts/Lysozyme-aptamer.md",
+        "post_title": "Lysozyme aptamer",
+        "post_link": "/_posts/Lysozyme-aptamer"
       }
     ]
   },
@@ -11184,24 +10970,260 @@
     ]
   },
   {
-    "pmid": "15687383",
+    "pmid": "27805569",
     "publication": null,
     "posts": [
       {
-        "source_file": "_posts/eIF4A-aptamer.md",
-        "post_title": "eIF4A aptamer",
-        "post_link": "/_posts/eIF4A-aptamer"
+        "source_file": "_posts/Tetracycline-aptamer.md",
+        "post_title": "Tetracycline aptamer",
+        "post_link": "/_posts/Tetracycline-aptamer"
       }
     ]
   },
   {
-    "pmid": "24570482",
+    "pmid": "17038331",
     "publication": null,
     "posts": [
       {
-        "source_file": "_posts/Lysozyme-aptamer.md",
-        "post_title": "Lysozyme aptamer",
-        "post_link": "/_posts/Lysozyme-aptamer"
+        "source_file": "_posts/Codeine-aptamer.md",
+        "post_title": "Codeine aptamer",
+        "post_link": "/_posts/Codeine-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "23678405",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Codeine-aptamer.md",
+        "post_title": "Codeine aptamer",
+        "post_link": "/_posts/Codeine-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "23830440",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Codeine-aptamer.md",
+        "post_title": "Codeine aptamer",
+        "post_link": "/_posts/Codeine-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "27336666",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Codeine-aptamer.md",
+        "post_title": "Codeine aptamer",
+        "post_link": "/_posts/Codeine-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "29133961",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Codeine-aptamer.md",
+        "post_title": "Codeine aptamer",
+        "post_link": "/_posts/Codeine-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "28945234",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "31631009",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "34028262",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "37171156",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Corn-aptamer.md",
+        "post_title": "Corn aptamer",
+        "post_link": "/_posts/Corn-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "23488798",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Spinach-RNA-aptamer.md",
+        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
+        "post_link": "/_posts/Spinach-RNA-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "36097297",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Riboflavin-aptamer.md",
+        "post_title": "Riboflavin aptamer",
+        "post_link": "/_posts/Riboflavin-aptamer"
+      },
+      {
+        "source_file": "_posts/FAD-aptamer.md",
+        "post_title": "FAD aptamer",
+        "post_link": "/_posts/FAD-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "28092358",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/5HTP-aptamer.md",
+        "post_title": "5HTP aptamer",
+        "post_link": "/_posts/5HTP-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "9056763",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
+        "post_title": "Ribosomal protein S8-aptamer",
+        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "25140011",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
+        "post_title": "Ribosomal protein S8-aptamer",
+        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "29413905",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
+        "post_title": "Ribosomal protein S8-aptamer",
+        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "35320268",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
+        "post_title": "Ribosomal protein S8-aptamer",
+        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "36458023",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Ribosomal-protein-S8-aptamer.md",
+        "post_title": "Ribosomal protein S8-aptamer",
+        "post_link": "/_posts/Ribosomal-protein-S8-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "34937909",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Squash-aptamer.md",
+        "post_title": "Squash aptamer",
+        "post_link": "/_posts/Squash-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "34937911",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Squash-aptamer.md",
+        "post_title": "Squash aptamer",
+        "post_link": "/_posts/Squash-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "1697402",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/B4-25-aptamer.md",
+        "post_title": "B4-25 aptamer, CB-42 aptamer",
+        "post_link": "/_posts/B4-25-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "20022942",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Factor-Xa-aptamer.md",
+        "post_title": "Factor Xa aptamer",
+        "post_link": "/_posts/Factor-Xa-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "26584417",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/Factor-Xa-aptamer.md",
+        "post_title": "Factor Xa aptamer",
+        "post_link": "/_posts/Factor-Xa-aptamer"
       }
     ]
   },
@@ -11338,61 +11360,6 @@
     ]
   },
   {
-    "pmid": "17038331",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Codeine-aptamer.md",
-        "post_title": "Codeine aptamer",
-        "post_link": "/_posts/Codeine-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "23678405",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Codeine-aptamer.md",
-        "post_title": "Codeine aptamer",
-        "post_link": "/_posts/Codeine-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "23830440",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Codeine-aptamer.md",
-        "post_title": "Codeine aptamer",
-        "post_link": "/_posts/Codeine-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "27336666",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Codeine-aptamer.md",
-        "post_title": "Codeine aptamer",
-        "post_link": "/_posts/Codeine-aptamer"
-      }
-    ]
-  },
-  {
-    "pmid": "29133961",
-    "publication": null,
-    "posts": [
-      {
-        "source_file": "_posts/Codeine-aptamer.md",
-        "post_title": "Codeine aptamer",
-        "post_link": "/_posts/Codeine-aptamer"
-      }
-    ]
-  },
-  {
     "pmid": "11800555",
     "publication": null,
     "posts": [
@@ -11488,6 +11455,39 @@
         "source_file": "_posts/Bovine-prion-protein-aptamer.md",
         "post_title": "Bovine prion protein aptamer",
         "post_link": "/_posts/Bovine-prion-protein-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "12185247",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/GTP-aptamer.md",
+        "post_title": "GTP aptamer",
+        "post_link": "/_posts/GTP-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "15687383",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/eIF4A-aptamer.md",
+        "post_title": "eIF4A aptamer",
+        "post_link": "/_posts/eIF4A-aptamer"
+      }
+    ]
+  },
+  {
+    "pmid": "17625118",
+    "publication": null,
+    "posts": [
+      {
+        "source_file": "_posts/L-CCL2-aptamer.md",
+        "post_title": "L-CCL2 aptamer",
+        "post_link": "/_posts/L-CCL2-aptamer"
       }
     ]
   }

@@ -27,12 +27,21 @@ for md in POSTS_DIR.glob('*.md'):
             'source_file': str(md),
             'post_title': post_title,
             'post_link': post_link
-            'source_file': str(md)
+(Path('apidata/postRef.json')).write_text(
+    json.dumps(post_refs, indent=2, ensure_ascii=False),
+    encoding='utf-8'
+)
 
 
-(Path('postRef.json')).write_text(json.dumps(post_refs, indent=2, ensure_ascii=False), encoding='utf-8')
+(Path('apidata/publicationRef.json')).write_text(
+    json.dumps(pub_refs, indent=2, ensure_ascii=False),
+    encoding='utf-8'
+)
 
-# Extract references from publication table
+(Path('apidata/combineRef.json')).write_text(
+    json.dumps(list(combined.values()), indent=2, ensure_ascii=False),
+    encoding='utf-8'
+)
 pub_refs = []
 html = PUBLICATION_PAGE.read_text(encoding='utf-8')
 row_pattern = re.compile(r'<tr>\s*<td name="td0"><a href="https://pubmed\.ncbi\.nlm\.nih\.gov/(\d+)/"[^>]*><b>(\d+)</b></a></td>\s*<td name="td1">([^<]*)</td>\s*<td name="td2">([^<]*)</td>\s*<td name="td3">([^<]*)</td>', re.S)
