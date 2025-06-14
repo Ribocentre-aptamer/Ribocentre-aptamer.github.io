@@ -9,9 +9,9 @@
       "journal": "European journal of biochemistry"
     },
     "posts": [
-      "_posts/10G-1-aptamer.md",
-      "_posts/G9-II-aptamer.md",
-      "_posts/G6-16-aptamer.md"
+      "10G-1-aptamer",
+      "G9-II-aptamer",
+      "G6-16-aptamer"
     ]
   },
   {
@@ -24,9 +24,9 @@
       "journal": "Virology"
     },
     "posts": [
-      "_posts/10G-1-aptamer.md",
-      "_posts/G9-II-aptamer.md",
-      "_posts/G6-16-aptamer.md"
+      "10G-1-aptamer",
+      "G9-II-aptamer",
+      "G6-16-aptamer"
     ]
   },
   {
@@ -39,9 +39,9 @@
       "journal": "European journal of biochemistry"
     },
     "posts": [
-      "_posts/10G-1-aptamer.md",
-      "_posts/G9-II-aptamer.md",
-      "_posts/G6-16-aptamer.md"
+      "10G-1-aptamer",
+      "G9-II-aptamer",
+      "G6-16-aptamer"
     ]
   },
   {
@@ -54,9 +54,9 @@
       "journal": "Biochemical and biophysical research communications"
     },
     "posts": [
-      "_posts/10G-1-aptamer.md",
-      "_posts/G9-II-aptamer.md",
-      "_posts/G6-16-aptamer.md"
+      "10G-1-aptamer",
+      "G9-II-aptamer",
+      "G6-16-aptamer"
     ]
   },
   {
@@ -69,9 +69,9 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/10G-1-aptamer.md",
-      "_posts/G9-II-aptamer.md",
-      "_posts/G6-16-aptamer.md"
+      "10G-1-aptamer",
+      "G9-II-aptamer",
+      "G6-16-aptamer"
     ]
   },
   {
@@ -84,9 +84,9 @@
       "journal": "Biochemical and biophysical research communications"
     },
     "posts": [
-      "_posts/10G-1-aptamer.md",
-      "_posts/G9-II-aptamer.md",
-      "_posts/G6-16-aptamer.md"
+      "10G-1-aptamer",
+      "G9-II-aptamer",
+      "G6-16-aptamer"
     ]
   },
   {
@@ -99,9 +99,9 @@
       "journal": "Virus research"
     },
     "posts": [
-      "_posts/10G-1-aptamer.md",
-      "_posts/G9-II-aptamer.md",
-      "_posts/G6-16-aptamer.md"
+      "10G-1-aptamer",
+      "G9-II-aptamer",
+      "G6-16-aptamer"
     ]
   },
   {
@@ -114,10 +114,10 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-REV-peptide-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md",
-      "_posts/59-aptamer.md"
+      "RBA-14-aptamer",
+      "HIV-1-REV-peptide-aptamer",
+      "HIV-1-Rev-aptamer",
+      "59-aptamer"
     ]
   },
   {
@@ -130,9 +130,9 @@
       "journal": "Gene"
     },
     "posts": [
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md",
-      "_posts/59-aptamer.md"
+      "RBA-14-aptamer",
+      "HIV-1-Rev-aptamer",
+      "59-aptamer"
     ]
   },
   {
@@ -145,9 +145,9 @@
       "journal": "Nature structural biology"
     },
     "posts": [
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md",
-      "_posts/59-aptamer.md"
+      "RBA-14-aptamer",
+      "HIV-1-Rev-aptamer",
+      "59-aptamer"
     ]
   },
   {
@@ -160,10 +160,10 @@
       "journal": "Journal of virology"
     },
     "posts": [
-      "_posts/C52-aptamer.md",
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md",
-      "_posts/59-aptamer.md"
+      "C52-aptamer",
+      "RBA-14-aptamer",
+      "HIV-1-Rev-aptamer",
+      "59-aptamer"
     ]
   },
   {
@@ -176,10 +176,10 @@
       "journal": "Journal of drug targeting"
     },
     "posts": [
-      "_posts/C52-aptamer.md",
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md",
-      "_posts/59-aptamer.md"
+      "C52-aptamer",
+      "RBA-14-aptamer",
+      "HIV-1-Rev-aptamer",
+      "59-aptamer"
     ]
   },
   {
@@ -192,10 +192,10 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/C52-aptamer.md",
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md",
-      "_posts/59-aptamer.md"
+      "C52-aptamer",
+      "RBA-14-aptamer",
+      "HIV-1-Rev-aptamer",
+      "59-aptamer"
     ]
   },
   {
@@ -208,10 +208,10 @@
       "journal": "Structure"
     },
     "posts": [
-      "_posts/C52-aptamer.md",
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md",
-      "_posts/59-aptamer.md"
+      "C52-aptamer",
+      "RBA-14-aptamer",
+      "HIV-1-Rev-aptamer",
+      "59-aptamer"
     ]
   },
   {
@@ -224,7 +224,7 @@
       "journal": "Journal of virology"
     },
     "posts": [
-      "_posts/HCV-NS5BΔC55-aptamer.md"
+      "HCV-NS5BΔC55-aptamer"
     ]
   },
   {
@@ -237,7 +237,7 @@
       "journal": "Virology"
     },
     "posts": [
-      "_posts/HCV-NS5BΔC55-aptamer.md"
+      "HCV-NS5BΔC55-aptamer"
     ]
   },
   {
@@ -250,7 +250,7 @@
       "journal": "Sensors"
     },
     "posts": [
-      "_posts/HCV-NS5BΔC55-aptamer.md"
+      "HCV-NS5BΔC55-aptamer"
     ]
   },
   {
@@ -263,7 +263,7 @@
       "journal": "Journal of virology"
     },
     "posts": [
-      "_posts/HCV-NS5BΔC55-aptamer.md"
+      "HCV-NS5BΔC55-aptamer"
     ]
   },
   {
@@ -276,7 +276,7 @@
       "journal": "Molecular therapy. Nucleic acids"
     },
     "posts": [
-      "_posts/HCV-NS5BΔC55-aptamer.md"
+      "HCV-NS5BΔC55-aptamer"
     ]
   },
   {
@@ -289,7 +289,7 @@
       "journal": "Molecular therapy. Methods & clinical development"
     },
     "posts": [
-      "_posts/HCV-NS5BΔC55-aptamer.md"
+      "HCV-NS5BΔC55-aptamer"
     ]
   },
   {
@@ -302,7 +302,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/C52-aptamer.md"
+      "C52-aptamer"
     ]
   },
   {
@@ -315,10 +315,10 @@
       "journal": "Nature structural biology"
     },
     "posts": [
-      "_posts/C52-aptamer.md",
-      "_posts/RBA-14-aptamer.md",
-      "_posts/HIV-1-REV-peptide-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md"
+      "C52-aptamer",
+      "RBA-14-aptamer",
+      "HIV-1-REV-peptide-aptamer",
+      "HIV-1-Rev-aptamer"
     ]
   },
   {
@@ -331,7 +331,7 @@
       "journal": "Nucleic acids symposium series"
     },
     "posts": [
-      "_posts/Clone-31-aptamer.md"
+      "Clone-31-aptamer"
     ]
   },
   {
@@ -344,7 +344,7 @@
       "journal": "Genes to cells : devoted to molecular & cellular mechanisms"
     },
     "posts": [
-      "_posts/Clone-31-aptamer.md"
+      "Clone-31-aptamer"
     ]
   },
   {
@@ -368,8 +368,8 @@
       "journal": "Structure (London"
     },
     "posts": [
-      "_posts/Clone-31-aptamer.md",
-      "_posts/HIV-Tat-aptamer.md"
+      "Clone-31-aptamer",
+      "HIV-Tat-aptamer"
     ]
   },
   {
@@ -382,7 +382,7 @@
       "journal": "Chemical communications"
     },
     "posts": [
-      "_posts/Clone-31-aptamer.md"
+      "Clone-31-aptamer"
     ]
   },
   {
@@ -395,8 +395,8 @@
       "journal": "Spectrochimica acta. Part A"
     },
     "posts": [
-      "_posts/Clone-31-aptamer.md",
-      "_posts/HIV-Tat-aptamer.md"
+      "Clone-31-aptamer",
+      "HIV-Tat-aptamer"
     ]
   },
   {
@@ -409,8 +409,8 @@
       "journal": "International journal of molecular sciences"
     },
     "posts": [
-      "_posts/Clone-31-aptamer.md",
-      "_posts/HIV-Tat-aptamer.md"
+      "Clone-31-aptamer",
+      "HIV-Tat-aptamer"
     ]
   },
   {
@@ -423,7 +423,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/G6-16-aptamer.md"
+      "G6-16-aptamer"
     ]
   },
   {
@@ -436,7 +436,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/ligand-1.1-aptamer.md"
+      "ligand-1.1-aptamer"
     ]
   },
   {
@@ -449,7 +449,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/ligand-1.1-aptamer.md"
+      "ligand-1.1-aptamer"
     ]
   },
   {
@@ -462,7 +462,7 @@
       "journal": "Journal of virology"
     },
     "posts": [
-      "_posts/ligand-1.1-aptamer.md"
+      "ligand-1.1-aptamer"
     ]
   },
   {
@@ -475,7 +475,7 @@
       "journal": "Journal of molecular modeling"
     },
     "posts": [
-      "_posts/ligand-1.1-aptamer.md"
+      "ligand-1.1-aptamer"
     ]
   },
   {
@@ -488,7 +488,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/ligand-1.1-aptamer.md"
+      "ligand-1.1-aptamer"
     ]
   },
   {
@@ -501,7 +501,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/ligand-1.1-aptamer.md"
+      "ligand-1.1-aptamer"
     ]
   },
   {
@@ -514,7 +514,7 @@
       "journal": "Virology"
     },
     "posts": [
-      "_posts/HIV-1-integrase-aptamer.md"
+      "HIV-1-integrase-aptamer"
     ]
   },
   {
@@ -527,7 +527,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/YT1-aptamer.md"
+      "YT1-aptamer"
     ]
   },
   {
@@ -540,7 +540,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/HSV-1-US11-aptamer.md"
+      "HSV-1-US11-aptamer"
     ]
   },
   {
@@ -553,7 +553,7 @@
       "journal": "The Analyst"
     },
     "posts": [
-      "_posts/SARS-CoV-N-protein-aptamer.md"
+      "SARS-CoV-N-protein-aptamer"
     ]
   },
   {
@@ -566,7 +566,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/HIV-1-CA-aptamer.md"
+      "HIV-1-CA-aptamer"
     ]
   },
   {
@@ -579,7 +579,7 @@
       "journal": "Analytical biochemistry"
     },
     "posts": [
-      "_posts/Hemagglutinin-aptamer.md"
+      "Hemagglutinin-aptamer"
     ]
   },
   {
@@ -592,7 +592,7 @@
       "journal": "Archives of medical research"
     },
     "posts": [
-      "_posts/HPV-16-E7-oncoprotein-aptamer.md"
+      "HPV-16-E7-oncoprotein-aptamer"
     ]
   },
   {
@@ -605,7 +605,7 @@
       "journal": "Journal of fish diseases"
     },
     "posts": [
-      "_posts/HIRRV-aptamer.md"
+      "HIRRV-aptamer"
     ]
   },
   {
@@ -618,8 +618,8 @@
       "journal": "The Journal of general virology"
     },
     "posts": [
-      "_posts/H3N2-aptamer.md",
-      "_posts/HCV-NS5B-protein-aptamer.md"
+      "H3N2-aptamer",
+      "HCV-NS5B-protein-aptamer"
     ]
   },
   {
@@ -632,7 +632,7 @@
       "journal": "Molecular therapy. Nucleic acids"
     },
     "posts": [
-      "_posts/HIV-1-PR-aptamer.md"
+      "HIV-1-PR-aptamer"
     ]
   },
   {
@@ -645,7 +645,7 @@
       "journal": "PloS one"
     },
     "posts": [
-      "_posts/HBV-P-protein-aptamer.md"
+      "HBV-P-protein-aptamer"
     ]
   },
   {
@@ -658,9 +658,9 @@
       "journal": "PLoS One"
     },
     "posts": [
-      "_posts/Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer.md",
-      "_posts/Gastrointestinal-cancer-antigen-50-aptamer.md",
-      "_posts/Cancer-antigen-72–4(CA72-4)-aptamer.md"
+      "Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer",
+      "Gastrointestinal-cancer-antigen-50-aptamer",
+      "Cancer-antigen-72–4(CA72-4)-aptamer"
     ]
   },
   {
@@ -673,7 +673,7 @@
       "journal": "Molecular Therapy"
     },
     "posts": [
-      "_posts/Chemokine-CCL17-aptamer.md"
+      "Chemokine-CCL17-aptamer"
     ]
   },
   {
@@ -686,7 +686,7 @@
       "journal": "Cell structure and function"
     },
     "posts": [
-      "_posts/Glycoprotein-2-(GP2)-protein-aptamer.md"
+      "Glycoprotein-2-(GP2)-protein-aptamer"
     ]
   },
   {
@@ -699,7 +699,7 @@
       "journal": "PloS one"
     },
     "posts": [
-      "_posts/Hemagglutinin-(HA)-protein-aptamer.md"
+      "Hemagglutinin-(HA)-protein-aptamer"
     ]
   },
   {
@@ -712,7 +712,7 @@
       "journal": "RNA biology"
     },
     "posts": [
-      "_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer.md"
+      "Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer"
     ]
   },
   {
@@ -725,7 +725,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Restriction-endonucleases-(REases)-KpnI-aptamer.md"
+      "Restriction-endonucleases-(REases)-KpnI-aptamer"
     ]
   },
   {
@@ -738,7 +738,7 @@
       "journal": "ChemBioChem"
     },
     "posts": [
-      "_posts/Ubiquitin-carboxyl-terminal-hydrolase37-(UCH37)-aptamer.md"
+      "Ubiquitin-carboxyl-terminal-hydrolase37-(UCH37)-aptamer"
     ]
   },
   {
@@ -751,7 +751,7 @@
       "journal": "Journal of Clinical Investgation"
     },
     "posts": [
-      "_posts/CypB-aptamer.md"
+      "CypB-aptamer"
     ]
   },
   {
@@ -764,7 +764,7 @@
       "journal": "Nucleic Acid Therapeutics"
     },
     "posts": [
-      "_posts/CypB-aptamer.md"
+      "CypB-aptamer"
     ]
   },
   {
@@ -777,7 +777,7 @@
       "journal": "Nucleic Acid Therapeutics"
     },
     "posts": [
-      "_posts/ERα-aptamer.md"
+      "ERα-aptamer"
     ]
   },
   {
@@ -790,7 +790,7 @@
       "journal": "Biochemical and Biophysical Research Communications"
     },
     "posts": [
-      "_posts/Escherichia-coli-aptamer.md"
+      "Escherichia-coli-aptamer"
     ]
   },
   {
@@ -803,7 +803,7 @@
       "journal": "Acta Biomaterialia"
     },
     "posts": [
-      "_posts/HPAI-H5N1-aptamer.md"
+      "HPAI-H5N1-aptamer"
     ]
   },
   {
@@ -816,7 +816,7 @@
       "journal": "Arthritis Rheum"
     },
     "posts": [
-      "_posts/IL-17A-aptamer.md"
+      "IL-17A-aptamer"
     ]
   },
   {
@@ -829,7 +829,7 @@
       "journal": "Nucleic Acid Therapeutics"
     },
     "posts": [
-      "_posts/OX40-aptamer.md"
+      "OX40-aptamer"
     ]
   },
   {
@@ -842,7 +842,7 @@
       "journal": "Protein Cell"
     },
     "posts": [
-      "_posts/ZAP-aptamer.md"
+      "ZAP-aptamer"
     ]
   },
   {
@@ -855,7 +855,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/16S-rRNA-decoding-region-aptamer.md"
+      "16S-rRNA-decoding-region-aptamer"
     ]
   },
   {
@@ -868,7 +868,7 @@
       "journal": "The EMBO journal"
     },
     "posts": [
-      "_posts/tRNA-aptamer.md"
+      "tRNA-aptamer"
     ]
   },
   {
@@ -881,7 +881,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/bFGF-aptamer.md"
+      "bFGF-aptamer"
     ]
   },
   {
@@ -894,7 +894,7 @@
       "journal": "Bioorganic & medicinal chemistry"
     },
     "posts": [
-      "_posts/RNA-loop-aptamer.md"
+      "RNA-loop-aptamer"
     ]
   },
   {
@@ -907,7 +907,7 @@
       "journal": "Molecules"
     },
     "posts": [
-      "_posts/SPC-aptamer.md"
+      "SPC-aptamer"
     ]
   },
   {
@@ -920,7 +920,7 @@
       "journal": "Journal of virology"
     },
     "posts": [
-      "_posts/Prion-protein1-aptamer.md"
+      "Prion-protein1-aptamer"
     ]
   },
   {
@@ -933,7 +933,7 @@
       "journal": "International journal of molecular sciences"
     },
     "posts": [
-      "_posts/Prion-protein1-aptamer.md"
+      "Prion-protein1-aptamer"
     ]
   },
   {
@@ -946,7 +946,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/Colicin-E3-aptamer.md"
+      "Colicin-E3-aptamer"
     ]
   },
   {
@@ -959,7 +959,7 @@
       "journal": "Archives of virology"
     },
     "posts": [
-      "_posts/Prion-protein2-aptamer.md"
+      "Prion-protein2-aptamer"
     ]
   },
   {
@@ -972,7 +972,7 @@
       "journal": "Antimicrobial agents and chemotherapy"
     },
     "posts": [
-      "_posts/Type-IVB-Pili-aptamer.md"
+      "Type-IVB-Pili-aptamer"
     ]
   },
   {
@@ -985,7 +985,7 @@
       "journal": "Journal of biochemistry"
     },
     "posts": [
-      "_posts/Subtilisin-aptamer.md"
+      "Subtilisin-aptamer"
     ]
   },
   {
@@ -998,7 +998,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Elongation-factor-SelB-aptamer.md"
+      "Elongation-factor-SelB-aptamer"
     ]
   },
   {
@@ -1011,7 +1011,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Elongation-factor-SelB-aptamer.md"
+      "Elongation-factor-SelB-aptamer"
     ]
   },
   {
@@ -1024,7 +1024,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/Protein-tyrosine-phosphatases-aptamer.md"
+      "Protein-tyrosine-phosphatases-aptamer"
     ]
   },
   {
@@ -1037,7 +1037,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/CsrA-aptamer.md"
+      "CsrA-aptamer"
     ]
   },
   {
@@ -1050,7 +1050,7 @@
       "journal": "FEBS letters"
     },
     "posts": [
-      "_posts/Peptide-release-factor-1-aptamer.md"
+      "Peptide-release-factor-1-aptamer"
     ]
   },
   {
@@ -1074,7 +1074,7 @@
       "journal": "Neuropharmacology"
     },
     "posts": [
-      "_posts/AMPA-receptors-Aptamer.md"
+      "AMPA-receptors-Aptamer"
     ]
   },
   {
@@ -1087,7 +1087,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/B1-CT-aptamer.md"
+      "B1-CT-aptamer"
     ]
   },
   {
@@ -1100,7 +1100,7 @@
       "journal": "Journal of biochemistry"
     },
     "posts": [
-      "_posts/Bovine-factor-IX-aptamer.md"
+      "Bovine-factor-IX-aptamer"
     ]
   },
   {
@@ -1113,7 +1113,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/polβ-aptamer.md"
+      "polβ-aptamer"
     ]
   },
   {
@@ -1126,7 +1126,7 @@
       "journal": "Biochimie"
     },
     "posts": [
-      "_posts/TbRIII-aptamer.md"
+      "TbRIII-aptamer"
     ]
   },
   {
@@ -1139,7 +1139,7 @@
       "journal": "Cancer research"
     },
     "posts": [
-      "_posts/pUC19-aptamer.md"
+      "pUC19-aptamer"
     ]
   },
   {
@@ -1196,9 +1196,9 @@
       "journal": "Science"
     },
     "posts": [
-      "_posts/Chili-aptamer.md",
-      "_posts/Spinach-RNA-aptamer.md",
-      "_posts/Spinach-aptamer.md"
+      "Chili-aptamer",
+      "Spinach-RNA-aptamer",
+      "Spinach-aptamer"
     ]
   },
   {
@@ -1222,7 +1222,7 @@
       "journal": "Nat Chem Biol"
     },
     "posts": [
-      "_posts/Spinach-RNA-aptamer.md"
+      "Spinach-RNA-aptamer"
     ]
   },
   {
@@ -1246,7 +1246,7 @@
       "journal": "Chembiochem : a European journal of chemical biology"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -1259,7 +1259,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Spinach-RNA-aptamer.md"
+      "Spinach-RNA-aptamer"
     ]
   },
   {
@@ -1272,7 +1272,7 @@
       "journal": "Scientific reports"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -1318,7 +1318,7 @@
       "journal": "Mol Cells"
     },
     "posts": [
-      "_posts/TCF-1-aptamer.md"
+      "TCF-1-aptamer"
     ]
   },
   {
@@ -1331,7 +1331,7 @@
       "journal": "Biochem Biophys Res Commun"
     },
     "posts": [
-      "_posts/TCF-1-aptamer.md"
+      "TCF-1-aptamer"
     ]
   },
   {
@@ -1344,7 +1344,7 @@
       "journal": "Biochem Biophys Res Commun"
     },
     "posts": [
-      "_posts/TCF-1-aptamer.md"
+      "TCF-1-aptamer"
     ]
   },
   {
@@ -1357,7 +1357,7 @@
       "journal": "Mol Cancer Ther"
     },
     "posts": [
-      "_posts/TCF-1-aptamer.md"
+      "TCF-1-aptamer"
     ]
   },
   {
@@ -1370,7 +1370,7 @@
       "journal": "Proc Natl Acad Sci U S A"
     },
     "posts": [
-      "_posts/A30-aptamer.md"
+      "A30-aptamer"
     ]
   },
   {
@@ -1383,7 +1383,7 @@
       "journal": "Mol Ther Nucleic Acids"
     },
     "posts": [
-      "_posts/A30-aptamer.md"
+      "A30-aptamer"
     ]
   },
   {
@@ -1396,7 +1396,7 @@
       "journal": "Nucleic Acids Res"
     },
     "posts": [
-      "_posts/RANK-aptamer.md"
+      "RANK-aptamer"
     ]
   },
   {
@@ -1409,7 +1409,7 @@
       "journal": "Proc Natl Acad Sci U S A"
     },
     "posts": [
-      "_posts/Cytohesin-2-aptamer.md"
+      "Cytohesin-2-aptamer"
     ]
   },
   {
@@ -1422,7 +1422,7 @@
       "journal": "Bioorg Med Chem Lett"
     },
     "posts": [
-      "_posts/Cytohesin-2-aptamer.md"
+      "Cytohesin-2-aptamer"
     ]
   },
   {
@@ -1435,7 +1435,7 @@
       "journal": "Bioorg Med Chem"
     },
     "posts": [
-      "_posts/Cytohesin-2-aptamer.md"
+      "Cytohesin-2-aptamer"
     ]
   },
   {
@@ -1448,8 +1448,8 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/eIF4A-aptamer.md",
-      "_posts/No.21-aptamer.md"
+      "eIF4A-aptamer",
+      "No.21-aptamer"
     ]
   },
   {
@@ -1462,7 +1462,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/No.21-aptamer.md"
+      "No.21-aptamer"
     ]
   },
   {
@@ -1475,7 +1475,7 @@
       "journal": "Mol Cells"
     },
     "posts": [
-      "_posts/NFAT-aptamer.md"
+      "NFAT-aptamer"
     ]
   },
   {
@@ -1488,8 +1488,8 @@
       "journal": "Biochem Biophys Res Commun"
     },
     "posts": [
-      "_posts/NFAT-aptamer.md",
-      "_posts/Activated-T-Cells-Nuclear-Factor-aptamer.md"
+      "NFAT-aptamer",
+      "Activated-T-Cells-Nuclear-Factor-aptamer"
     ]
   },
   {
@@ -1502,7 +1502,7 @@
       "journal": "Biomed Khim"
     },
     "posts": [
-      "_posts/NFAT-aptamer.md"
+      "NFAT-aptamer"
     ]
   },
   {
@@ -1515,7 +1515,7 @@
       "journal": "Mol Psychiatry"
     },
     "posts": [
-      "_posts/NFAT-aptamer.md"
+      "NFAT-aptamer"
     ]
   },
   {
@@ -1539,7 +1539,7 @@
       "journal": "Genomics Proteomics Bioinformatics"
     },
     "posts": [
-      "_posts/hTNF-α-aptamer.md"
+      "hTNF-α-aptamer"
     ]
   },
   {
@@ -1552,7 +1552,7 @@
       "journal": "Sheng Wu Gong Cheng Xue Bao"
     },
     "posts": [
-      "_posts/hTNF-α-aptamer.md"
+      "hTNF-α-aptamer"
     ]
   },
   {
@@ -1565,7 +1565,7 @@
       "journal": "Biotechnol Prog"
     },
     "posts": [
-      "_posts/hTNF-α-aptamer.md"
+      "hTNF-α-aptamer"
     ]
   },
   {
@@ -1578,8 +1578,8 @@
       "journal": "J Mol Recognit"
     },
     "posts": [
-      "_posts/Bovine-thrombin-aptamer.md",
-      "_posts/Thrombin-aptamer.md"
+      "Bovine-thrombin-aptamer",
+      "Thrombin-aptamer"
     ]
   },
   {
@@ -1592,7 +1592,7 @@
       "journal": "FEBS Lett"
     },
     "posts": [
-      "_posts/tMG-RNA-aptamer.md"
+      "tMG-RNA-aptamer"
     ]
   },
   {
@@ -1605,7 +1605,7 @@
       "journal": "Biochem Biophys Res Commun"
     },
     "posts": [
-      "_posts/tMG-RNA-aptamer.md"
+      "tMG-RNA-aptamer"
     ]
   },
   {
@@ -1618,7 +1618,7 @@
       "journal": "Cancer letters"
     },
     "posts": [
-      "_posts/CD133-aptamer.md"
+      "CD133-aptamer"
     ]
   },
   {
@@ -1631,7 +1631,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/CED-9-aptamer.md"
+      "CED-9-aptamer"
     ]
   },
   {
@@ -1644,7 +1644,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/PKC-aptamer.md"
+      "PKC-aptamer"
     ]
   },
   {
@@ -1657,7 +1657,7 @@
       "journal": "Analytical biochemistry"
     },
     "posts": [
-      "_posts/PKC-aptamer.md"
+      "PKC-aptamer"
     ]
   },
   {
@@ -1670,7 +1670,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/E3-aptamer.md"
+      "E3-aptamer"
     ]
   },
   {
@@ -1683,7 +1683,7 @@
       "journal": "Iranian journal of basic medical sciences"
     },
     "posts": [
-      "_posts/HER2-aptamer.md"
+      "HER2-aptamer"
     ]
   },
   {
@@ -1696,7 +1696,7 @@
       "journal": "Molecular therapy. Nucleic acids"
     },
     "posts": [
-      "_posts/GL56-aptamer.md"
+      "GL56-aptamer"
     ]
   },
   {
@@ -1709,7 +1709,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/Mbl-aptamer.md"
+      "Mbl-aptamer"
     ]
   },
   {
@@ -1722,7 +1722,7 @@
       "journal": "Molecular and cellular biology"
     },
     "posts": [
-      "_posts/Mitochondrion-aptamer.md"
+      "Mitochondrion-aptamer"
     ]
   },
   {
@@ -1735,7 +1735,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Mitochondrion-aptamer.md"
+      "Mitochondrion-aptamer"
     ]
   },
   {
@@ -1748,7 +1748,7 @@
       "journal": "Biological & pharmaceutical bulletin"
     },
     "posts": [
-      "_posts/Mitochondrion-aptamer.md"
+      "Mitochondrion-aptamer"
     ]
   },
   {
@@ -1761,7 +1761,7 @@
       "journal": "Journal of pharmaceutical sciences"
     },
     "posts": [
-      "_posts/Mitochondrion-aptamer.md"
+      "Mitochondrion-aptamer"
     ]
   },
   {
@@ -1774,7 +1774,7 @@
       "journal": "Nucleic acids symposium series"
     },
     "posts": [
-      "_posts/Pepocin-aptamer.md"
+      "Pepocin-aptamer"
     ]
   },
   {
@@ -1787,7 +1787,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/Pepocin-aptamer.md"
+      "Pepocin-aptamer"
     ]
   },
   {
@@ -1800,7 +1800,7 @@
       "journal": "Nucleic acids symposium series"
     },
     "posts": [
-      "_posts/R5-helix-peptide-aptamer.md"
+      "R5-helix-peptide-aptamer"
     ]
   },
   {
@@ -1813,7 +1813,7 @@
       "journal": "Chemical communications"
     },
     "posts": [
-      "_posts/R5-helix-peptide-aptamer.md"
+      "R5-helix-peptide-aptamer"
     ]
   },
   {
@@ -1826,7 +1826,7 @@
       "journal": "Chembiochem : a European journal of chemical biology"
     },
     "posts": [
-      "_posts/R5-helix-peptide-aptamer.md"
+      "R5-helix-peptide-aptamer"
     ]
   },
   {
@@ -1839,7 +1839,7 @@
       "journal": "Molecular and cellular biology"
     },
     "posts": [
-      "_posts/B52-aptamer.md"
+      "B52-aptamer"
     ]
   },
   {
@@ -1852,7 +1852,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/B52-aptamer.md"
+      "B52-aptamer"
     ]
   },
   {
@@ -1865,7 +1865,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/B52-aptamer.md"
+      "B52-aptamer"
     ]
   },
   {
@@ -1878,7 +1878,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/B52-aptamer.md"
+      "B52-aptamer"
     ]
   },
   {
@@ -1891,7 +1891,7 @@
       "journal": "Science"
     },
     "posts": [
-      "_posts/Gp43-aptamer.md"
+      "Gp43-aptamer"
     ]
   },
   {
@@ -1904,7 +1904,7 @@
       "journal": "iScience"
     },
     "posts": [
-      "_posts/TNBC-aptamer.md"
+      "TNBC-aptamer"
     ]
   },
   {
@@ -1917,7 +1917,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Trypanosome-VSG-aptamer.md"
+      "Trypanosome-VSG-aptamer"
     ]
   },
   {
@@ -1930,7 +1930,7 @@
       "journal": "Bioorganic & medicinal chemistry"
     },
     "posts": [
-      "_posts/Trypanosome-VSG-aptamer.md"
+      "Trypanosome-VSG-aptamer"
     ]
   },
   {
@@ -1943,7 +1943,7 @@
       "journal": "Eukaryotic cell"
     },
     "posts": [
-      "_posts/Trypanosome-VSG-aptamer.md"
+      "Trypanosome-VSG-aptamer"
     ]
   },
   {
@@ -1956,7 +1956,7 @@
       "journal": "Combinatorial chemistry & high throughput screening"
     },
     "posts": [
-      "_posts/Trypanosome-VSG-aptamer.md"
+      "Trypanosome-VSG-aptamer"
     ]
   },
   {
@@ -1969,7 +1969,7 @@
       "journal": "Handbook of experimental pharmacology"
     },
     "posts": [
-      "_posts/Trypanosome-VSG-aptamer.md"
+      "Trypanosome-VSG-aptamer"
     ]
   },
   {
@@ -1982,7 +1982,7 @@
       "journal": "Combinatorial chemistry & high throughput screening"
     },
     "posts": [
-      "_posts/Trypanosome-VSG-aptamer.md"
+      "Trypanosome-VSG-aptamer"
     ]
   },
   {
@@ -1995,7 +1995,7 @@
       "journal": "Biosensors & bioelectronics"
     },
     "posts": [
-      "_posts/Trypanosome-VSG-aptamer.md"
+      "Trypanosome-VSG-aptamer"
     ]
   },
   {
@@ -2008,7 +2008,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2021,8 +2021,8 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md",
-      "_posts/Vascular-endothelial-growth-factor-aptamer.md"
+      "VEGF-aptamer",
+      "Vascular-endothelial-growth-factor-aptamer"
     ]
   },
   {
@@ -2035,7 +2035,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2048,7 +2048,7 @@
       "journal": "In vitro cellular & developmental biology. Animal"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2061,7 +2061,7 @@
       "journal": "Journal of chromatography. B"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2074,7 +2074,7 @@
       "journal": "The New England journal of medicine"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2087,7 +2087,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2100,7 +2100,7 @@
       "journal": "Nature reviews. Drug discovery"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2113,7 +2113,7 @@
       "journal": "Clinical ophthalmology"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2126,7 +2126,7 @@
       "journal": "Klinische Monatsblatter fur Augenheilkunde"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2139,7 +2139,7 @@
       "journal": "American journal of ophthalmology"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2152,7 +2152,7 @@
       "journal": "The British journal of ophthalmology"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2165,7 +2165,7 @@
       "journal": "Biotechnology reports"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2178,7 +2178,7 @@
       "journal": "Clinical ophthalmology"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2191,7 +2191,7 @@
       "journal": "Scientific reports"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2204,7 +2204,7 @@
       "journal": "International journal of nanomedicine"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2217,7 +2217,7 @@
       "journal": "Photodiagnosis and photodynamic therapy"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2230,7 +2230,7 @@
       "journal": "Journal of computational chemistry"
     },
     "posts": [
-      "_posts/VEGF-aptamer.md"
+      "VEGF-aptamer"
     ]
   },
   {
@@ -2243,7 +2243,7 @@
       "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
     },
     "posts": [
-      "_posts/The-protein-calsenilin-aptamer.md"
+      "The-protein-calsenilin-aptamer"
     ]
   },
   {
@@ -2256,7 +2256,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/The-protein-calsenilin-aptamer.md"
+      "The-protein-calsenilin-aptamer"
     ]
   },
   {
@@ -2269,7 +2269,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/The-protein-calsenilin-aptamer.md"
+      "The-protein-calsenilin-aptamer"
     ]
   },
   {
@@ -2282,7 +2282,7 @@
       "journal": "Biochemical and biophysical research communications"
     },
     "posts": [
-      "_posts/The-protein-calsenilin-aptamer.md"
+      "The-protein-calsenilin-aptamer"
     ]
   },
   {
@@ -2295,7 +2295,7 @@
       "journal": "Biochimica et biophysica acta"
     },
     "posts": [
-      "_posts/The-protein-calsenilin-aptamer.md"
+      "The-protein-calsenilin-aptamer"
     ]
   },
   {
@@ -2308,7 +2308,7 @@
       "journal": "Bioorganic & medicinal chemistry"
     },
     "posts": [
-      "_posts/The-protein-calsenilin-aptamer.md"
+      "The-protein-calsenilin-aptamer"
     ]
   },
   {
@@ -2321,7 +2321,7 @@
       "journal": "Biochemical and biophysical research communications"
     },
     "posts": [
-      "_posts/WL-2-aptamer.md"
+      "WL-2-aptamer"
     ]
   },
   {
@@ -2334,7 +2334,7 @@
       "journal": "Lancet"
     },
     "posts": [
-      "_posts/WL-2-aptamer.md"
+      "WL-2-aptamer"
     ]
   },
   {
@@ -2347,7 +2347,7 @@
       "journal": "Journal of molecular biology"
     },
     "posts": [
-      "_posts/WL-2-aptamer.md"
+      "WL-2-aptamer"
     ]
   },
   {
@@ -2360,7 +2360,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/WL-2-aptamer.md"
+      "WL-2-aptamer"
     ]
   },
   {
@@ -2373,9 +2373,9 @@
       "journal": "Biochemical and biophysical research communications"
     },
     "posts": [
-      "_posts/WL-2-aptamer.md",
-      "_posts/Aβ42-aptamer.md",
-      "_posts/β55-aptamer.md"
+      "WL-2-aptamer",
+      "Aβ42-aptamer",
+      "β55-aptamer"
     ]
   },
   {
@@ -2388,7 +2388,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/WL-2-aptamer.md"
+      "WL-2-aptamer"
     ]
   },
   {
@@ -2401,7 +2401,7 @@
       "journal": "Nature"
     },
     "posts": [
-      "_posts/AN58-aptamer.md"
+      "AN58-aptamer"
     ]
   },
   {
@@ -2414,7 +2414,7 @@
       "journal": "Chemical reviews"
     },
     "posts": [
-      "_posts/AN58-aptamer.md"
+      "AN58-aptamer"
     ]
   },
   {
@@ -2427,7 +2427,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/AN58-aptamer.md"
+      "AN58-aptamer"
     ]
   },
   {
@@ -2440,7 +2440,7 @@
       "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience"
     },
     "posts": [
-      "_posts/AN58-aptamer.md"
+      "AN58-aptamer"
     ]
   },
   {
@@ -2453,8 +2453,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/AB9-aptamer.md",
-      "_posts/AN58-aptamer.md"
+      "AB9-aptamer",
+      "AN58-aptamer"
     ]
   },
   {
@@ -2467,8 +2467,8 @@
       "journal": "ACS chemical neuroscience"
     },
     "posts": [
-      "_posts/AB9-aptamer.md",
-      "_posts/AN58-aptamer.md"
+      "AB9-aptamer",
+      "AN58-aptamer"
     ]
   },
   {
@@ -2525,7 +2525,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/GRK2-aptamer.md"
+      "GRK2-aptamer"
     ]
   },
   {
@@ -2538,7 +2538,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/TfR-ECD-aptamer.md"
+      "TfR-ECD-aptamer"
     ]
   },
   {
@@ -2551,7 +2551,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/TfR-ECD-aptamer.md"
+      "TfR-ECD-aptamer"
     ]
   },
   {
@@ -2564,7 +2564,7 @@
       "journal": "The Journal of laboratory and clinical medicine"
     },
     "posts": [
-      "_posts/TfR-ECD-aptamer.md"
+      "TfR-ECD-aptamer"
     ]
   },
   {
@@ -2577,7 +2577,7 @@
       "journal": "Cell"
     },
     "posts": [
-      "_posts/TfR-ECD-aptamer.md"
+      "TfR-ECD-aptamer"
     ]
   },
   {
@@ -2590,7 +2590,7 @@
       "journal": "Traffic"
     },
     "posts": [
-      "_posts/TfR-ECD-aptamer.md"
+      "TfR-ECD-aptamer"
     ]
   },
   {
@@ -2603,7 +2603,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/TfR-ECD-aptamer.md"
+      "TfR-ECD-aptamer"
     ]
   },
   {
@@ -2616,7 +2616,7 @@
       "journal": "ournal of molecular biology"
     },
     "posts": [
-      "_posts/E2-aptamer.md"
+      "E2-aptamer"
     ]
   },
   {
@@ -2629,7 +2629,7 @@
       "journal": "Neurochemistry international"
     },
     "posts": [
-      "_posts/E2-aptamer.md"
+      "E2-aptamer"
     ]
   },
   {
@@ -2642,7 +2642,7 @@
       "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
     },
     "posts": [
-      "_posts/E2-aptamer.md"
+      "E2-aptamer"
     ]
   },
   {
@@ -2655,7 +2655,7 @@
       "journal": "Neuroscience"
     },
     "posts": [
-      "_posts/E2-aptamer.md"
+      "E2-aptamer"
     ]
   },
   {
@@ -2668,8 +2668,8 @@
       "journal": "Molecular bioSystems"
     },
     "posts": [
-      "_posts/E2-aptamer.md",
-      "_posts/β55-aptamer.md"
+      "E2-aptamer",
+      "β55-aptamer"
     ]
   },
   {
@@ -2682,7 +2682,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/PAI-1-aptamer.md"
+      "PAI-1-aptamer"
     ]
   },
   {
@@ -2695,7 +2695,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/PAI-1-aptamer.md"
+      "PAI-1-aptamer"
     ]
   },
   {
@@ -2708,7 +2708,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/PAI-1-aptamer.md"
+      "PAI-1-aptamer"
     ]
   },
   {
@@ -2721,7 +2721,7 @@
       "journal": "Experimental cell research"
     },
     "posts": [
-      "_posts/PAI-1-aptamer.md"
+      "PAI-1-aptamer"
     ]
   },
   {
@@ -2734,7 +2734,7 @@
       "journal": "International journal of molecular medicine"
     },
     "posts": [
-      "_posts/PAI-1-aptamer.md"
+      "PAI-1-aptamer"
     ]
   },
   {
@@ -2747,7 +2747,7 @@
       "journal": "Oligonucleotides"
     },
     "posts": [
-      "_posts/PAI-1-aptamer.md"
+      "PAI-1-aptamer"
     ]
   },
   {
@@ -2760,7 +2760,7 @@
       "journal": "Journal of proteome research"
     },
     "posts": [
-      "_posts/J18-aptamer.md"
+      "J18-aptamer"
     ]
   },
   {
@@ -2773,7 +2773,7 @@
       "journal": "Chembiochem : a European journal of chemical biology"
     },
     "posts": [
-      "_posts/PTP1B-aptamer.md"
+      "PTP1B-aptamer"
     ]
   },
   {
@@ -2885,7 +2885,7 @@
       "journal": "Chemical communications"
     },
     "posts": [
-      "_posts/II-mini3-4-aptamer.md"
+      "II-mini3-4-aptamer"
     ]
   },
   {
@@ -2898,7 +2898,7 @@
       "journal": "Nature chemical biology"
     },
     "posts": [
-      "_posts/Okra-aptamer.md"
+      "Okra-aptamer"
     ]
   },
   {
@@ -2911,8 +2911,8 @@
       "journal": "Nature methods"
     },
     "posts": [
-      "_posts/Chili-aptamer.md",
-      "_posts/Clivias-aptamer.md"
+      "Chili-aptamer",
+      "Clivias-aptamer"
     ]
   },
   {
@@ -2925,7 +2925,7 @@
       "journal": "Nature chemical biology"
     },
     "posts": [
-      "_posts/Clivias-aptamer.md"
+      "Clivias-aptamer"
     ]
   },
   {
@@ -2938,7 +2938,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/L-selectin-aptamer.md"
+      "L-selectin-aptamer"
     ]
   },
   {
@@ -2951,7 +2951,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Angiopoietin-2-aptamer.md"
+      "Angiopoietin-2-aptamer"
     ]
   },
   {
@@ -2964,7 +2964,7 @@
       "journal": "FEBS letters"
     },
     "posts": [
-      "_posts/Raf-1-aptamer.md"
+      "Raf-1-aptamer"
     ]
   },
   {
@@ -2977,7 +2977,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Upstream-of-N-Ras-aptamer.md"
+      "Upstream-of-N-Ras-aptamer"
     ]
   },
   {
@@ -2990,7 +2990,7 @@
       "journal": "European journal of biochemistry"
     },
     "posts": [
-      "_posts/Human-activated-protein-C-aptamer.md"
+      "Human-activated-protein-C-aptamer"
     ]
   },
   {
@@ -3003,7 +3003,7 @@
       "journal": "Nature medicine"
     },
     "posts": [
-      "_posts/E2F1-aptamer.md"
+      "E2F1-aptamer"
     ]
   },
   {
@@ -3016,7 +3016,7 @@
       "journal": "Analytical biochemistry"
     },
     "posts": [
-      "_posts/Neurotensin-receptor-NTS-1-aptamer.md"
+      "Neurotensin-receptor-NTS-1-aptamer"
     ]
   },
   {
@@ -3029,7 +3029,7 @@
       "journal": "Bioorganic & medicinal chemistry letters"
     },
     "posts": [
-      "_posts/Basic-fibroblast-growth-factor-aptamer.md"
+      "Basic-fibroblast-growth-factor-aptamer"
     ]
   },
   {
@@ -3042,7 +3042,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/Wilms-tumor-protein-aptamer.md"
+      "Wilms-tumor-protein-aptamer"
     ]
   },
   {
@@ -3055,7 +3055,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Integrin-beta-chain-2-(CD18)-aptamer.md"
+      "Integrin-beta-chain-2-(CD18)-aptamer"
     ]
   },
   {
@@ -3068,7 +3068,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Complement-component-5-aptamer.md"
+      "Complement-component-5-aptamer"
     ]
   },
   {
@@ -3081,8 +3081,8 @@
       "journal": "Folding & design"
     },
     "posts": [
-      "_posts/FB-1-aptamer.md",
-      "_posts/SRB-2-aptamer.md"
+      "FB-1-aptamer",
+      "SRB-2-aptamer"
     ]
   },
   {
@@ -3095,7 +3095,7 @@
       "journal": "Analytical biochemistry"
     },
     "posts": [
-      "_posts/SRB-2-aptamer.md"
+      "SRB-2-aptamer"
     ]
   },
   {
@@ -3108,7 +3108,7 @@
       "journal": "Angewandte Chemie"
     },
     "posts": [
-      "_posts/SRB-2-aptamer.md"
+      "SRB-2-aptamer"
     ]
   },
   {
@@ -3121,7 +3121,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/SRB-2-aptamer.md"
+      "SRB-2-aptamer"
     ]
   },
   {
@@ -3134,7 +3134,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/SRB-2-aptamer.md"
+      "SRB-2-aptamer"
     ]
   },
   {
@@ -3147,7 +3147,7 @@
       "journal": "Nature chemical biology"
     },
     "posts": [
-      "_posts/SRB-2-aptamer.md"
+      "SRB-2-aptamer"
     ]
   },
   {
@@ -3160,8 +3160,8 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md",
-      "_posts/Spinach-aptamer.md"
+      "DFHBI-1T-aptamer",
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3174,8 +3174,8 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md",
-      "_posts/Spinach-aptamer.md"
+      "DFHBI-1T-aptamer",
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3188,7 +3188,7 @@
       "journal": "Current protocols in chemical biology"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3201,7 +3201,7 @@
       "journal": "Cell chemical biology"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3214,7 +3214,7 @@
       "journal": "ACS chemical biology"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3227,8 +3227,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md",
-      "_posts/Spinach-aptamer.md"
+      "DFHBI-1T-aptamer",
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3241,7 +3241,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3254,7 +3254,7 @@
       "journal": "Angewandte Chemie"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3267,7 +3267,7 @@
       "journal": "Molecules"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3280,7 +3280,7 @@
       "journal": "Nature biotechnology"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3293,7 +3293,7 @@
       "journal": "Angewandte Chemie"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3306,7 +3306,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3319,7 +3319,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3332,7 +3332,7 @@
       "journal": "Biosensors & bioelectronics"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3345,7 +3345,7 @@
       "journal": "Angewandte Chemie"
     },
     "posts": [
-      "_posts/DFHBI-1T-aptamer.md"
+      "DFHBI-1T-aptamer"
     ]
   },
   {
@@ -3358,9 +3358,9 @@
       "journal": "ACS chemical biology"
     },
     "posts": [
-      "_posts/Mango-III-aptamer(YO3).md",
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-III-aptamer(YO3)",
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3373,8 +3373,8 @@
       "journal": "Nature chemical biology"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3387,8 +3387,8 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3401,8 +3401,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3415,8 +3415,8 @@
       "journal": "Nature chemical biology"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3429,8 +3429,8 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3443,8 +3443,8 @@
       "journal": "Structure"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3457,8 +3457,8 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3471,8 +3471,8 @@
       "journal": "Biophysical journal"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3485,8 +3485,8 @@
       "journal": "Frontiers in molecular biosciences"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3499,8 +3499,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Mango-aptamer(TO1-biotin).md",
-      "_posts/Mango-aptamer.md"
+      "Mango-aptamer(TO1-biotin)",
+      "Mango-aptamer"
     ]
   },
   {
@@ -3513,7 +3513,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/DIR2s-apt-aptamer.md"
+      "DIR2s-apt-aptamer"
     ]
   },
   {
@@ -3526,7 +3526,7 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/DIR2s-apt-aptamer.md"
+      "DIR2s-apt-aptamer"
     ]
   },
   {
@@ -3539,9 +3539,9 @@
       "journal": "Nature chemical biology"
     },
     "posts": [
-      "_posts/Corn-aptamer.md",
-      "_posts/Beetroot-aptamer.md",
-      "_posts/Beetroot-aptamer(ThT).md"
+      "Corn-aptamer",
+      "Beetroot-aptamer",
+      "Beetroot-aptamer(ThT)"
     ]
   },
   {
@@ -3554,9 +3554,9 @@
       "journal": "Cell chemical biology"
     },
     "posts": [
-      "_posts/Corn-aptamer.md",
-      "_posts/Beetroot-aptamer.md",
-      "_posts/Beetroot-aptamer(ThT).md"
+      "Corn-aptamer",
+      "Beetroot-aptamer",
+      "Beetroot-aptamer(ThT)"
     ]
   },
   {
@@ -3569,10 +3569,10 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/Corn-aptamer.md",
-      "_posts/Beetroot-aptamer.md",
-      "_posts/Beetroot-aptamer(ThT).md",
-      "_posts/Beetroot-aptamer(DFAME).md"
+      "Corn-aptamer",
+      "Beetroot-aptamer",
+      "Beetroot-aptamer(ThT)",
+      "Beetroot-aptamer(DFAME)"
     ]
   },
   {
@@ -3585,7 +3585,7 @@
       "journal": "Chemistry"
     },
     "posts": [
-      "_posts/Chili-aptamer.md"
+      "Chili-aptamer"
     ]
   },
   {
@@ -3598,7 +3598,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Chili-aptamer.md"
+      "Chili-aptamer"
     ]
   },
   {
@@ -3611,7 +3611,7 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/Chili-aptamer.md"
+      "Chili-aptamer"
     ]
   },
   {
@@ -3624,8 +3624,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
@@ -3638,8 +3638,8 @@
       "journal": "Biomolecular NMR assignments"
     },
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
@@ -3652,8 +3652,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
@@ -3666,9 +3666,9 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/Corn-aptamer.md",
-      "_posts/Beetroot-aptamer.md",
-      "_posts/Beetroot-aptamer(DFAME).md"
+      "Corn-aptamer",
+      "Beetroot-aptamer",
+      "Beetroot-aptamer(DFAME)"
     ]
   },
   {
@@ -3681,8 +3681,8 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/Mango-III-aptamer(YO3).md",
-      "_posts/Spinach-aptamer.md"
+      "Mango-III-aptamer(YO3)",
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3695,7 +3695,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Mango-III-aptamer(YO3).md"
+      "Mango-III-aptamer(YO3)"
     ]
   },
   {
@@ -3708,7 +3708,7 @@
       "journal": "Methods in molecular biology"
     },
     "posts": [
-      "_posts/Mango-III-aptamer(YO3).md"
+      "Mango-III-aptamer(YO3)"
     ]
   },
   {
@@ -3721,7 +3721,7 @@
       "journal": "Current opinion in chemical biology"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3734,7 +3734,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3747,7 +3747,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3760,7 +3760,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3773,7 +3773,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3786,7 +3786,7 @@
       "journal": "Nature structural & molecular biology"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3799,7 +3799,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3812,7 +3812,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3825,9 +3825,9 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Spinach-RNA-aptamer.md",
-      "_posts/Spinach-RNA-aptamer.md",
-      "_posts/Spinach-aptamer.md"
+      "Spinach-RNA-aptamer",
+      "Spinach-RNA-aptamer",
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3840,7 +3840,7 @@
       "journal": "Scientific reports"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3853,7 +3853,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3866,7 +3866,7 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3879,7 +3879,7 @@
       "journal": "The journal of physical chemistry"
     },
     "posts": [
-      "_posts/Spinach-aptamer.md"
+      "Spinach-aptamer"
     ]
   },
   {
@@ -3892,7 +3892,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3905,7 +3905,7 @@
       "journal": "Journal of molecular biology"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3918,7 +3918,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3931,7 +3931,7 @@
       "journal": "Chembiochem : a European journal of chemical biology"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3944,7 +3944,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3957,7 +3957,7 @@
       "journal": "Bioorganic & medicinal chemistry letters"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3970,7 +3970,7 @@
       "journal": "Journal of molecular recognition: JMR"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3983,7 +3983,7 @@
       "journal": "Molecular bioSystems"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -3996,7 +3996,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -4009,7 +4009,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -4022,7 +4022,7 @@
       "journal": "Talanta"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -4035,7 +4035,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -4048,7 +4048,7 @@
       "journal": "The Analyst"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -4061,7 +4061,7 @@
       "journal": "RSC advances"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -4074,7 +4074,7 @@
       "journal": "Sensors and actuators reports"
     },
     "posts": [
-      "_posts/MG-aptamer.md"
+      "MG-aptamer"
     ]
   },
   {
@@ -4087,7 +4087,7 @@
       "journal": "PLoS One"
     },
     "posts": [
-      "_posts/β55-aptamer.md"
+      "β55-aptamer"
     ]
   },
   {
@@ -4100,7 +4100,7 @@
       "journal": "Talanta"
     },
     "posts": [
-      "_posts/β55-aptamer.md"
+      "β55-aptamer"
     ]
   },
   {
@@ -4113,7 +4113,7 @@
       "journal": "International journal of molecular sciences"
     },
     "posts": [
-      "_posts/β55-aptamer.md"
+      "β55-aptamer"
     ]
   },
   {
@@ -4126,8 +4126,8 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md",
-      "_posts/β55-aptamer.md"
+      "Aβ42-aptamer",
+      "β55-aptamer"
     ]
   },
   {
@@ -4151,7 +4151,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4164,7 +4164,7 @@
       "journal": "Analytica chimica acta"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4177,7 +4177,7 @@
       "journal": "Organic & biomolecular chemistry"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4190,7 +4190,7 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4203,7 +4203,7 @@
       "journal": "The Analyst"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4216,7 +4216,7 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4229,7 +4229,7 @@
       "journal": "ACS chemical neuroscience"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4242,7 +4242,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Dopamine-aptamer.md"
+      "Dopamine-aptamer"
     ]
   },
   {
@@ -4255,8 +4255,8 @@
       "journal": "Nature biotechnology"
     },
     "posts": [
-      "_posts/Citrulline-aptamer.md",
-      "_posts/Arginine-aptamer.md"
+      "Citrulline-aptamer",
+      "Arginine-aptamer"
     ]
   },
   {
@@ -4269,8 +4269,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Citrulline-aptamer.md",
-      "_posts/Arginine-aptamer.md"
+      "Citrulline-aptamer",
+      "Arginine-aptamer"
     ]
   },
   {
@@ -4283,7 +4283,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Tyr-1-aptamer.md"
+      "Tyr-1-aptamer"
     ]
   },
   {
@@ -4296,7 +4296,7 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/Tyr-1-aptamer.md"
+      "Tyr-1-aptamer"
     ]
   },
   {
@@ -4309,7 +4309,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/DP3-aptamer.md"
+      "DP3-aptamer"
     ]
   },
   {
@@ -4322,7 +4322,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/DP3-aptamer.md"
+      "DP3-aptamer"
     ]
   },
   {
@@ -4335,7 +4335,7 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/DP3-aptamer.md"
+      "DP3-aptamer"
     ]
   },
   {
@@ -4348,7 +4348,7 @@
       "journal": "ACS sensors"
     },
     "posts": [
-      "_posts/DP3-aptamer.md"
+      "DP3-aptamer"
     ]
   },
   {
@@ -4361,7 +4361,7 @@
       "journal": "ACS sensors"
     },
     "posts": [
-      "_posts/DP3-aptamer.md"
+      "DP3-aptamer"
     ]
   },
   {
@@ -4429,7 +4429,7 @@
       "journal": "Neuron 8"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4442,7 +4442,7 @@
       "journal": "J. Neurosci"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4455,7 +4455,7 @@
       "journal": "J. Neurochem"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4468,7 +4468,7 @@
       "journal": "J. Neurosci"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4481,7 +4481,7 @@
       "journal": "J. Neurosci"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4494,7 +4494,7 @@
       "journal": "Neuron"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4507,7 +4507,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4520,7 +4520,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4533,7 +4533,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4546,7 +4546,7 @@
       "journal": "Neuropharmacology"
     },
     "posts": [
-      "_posts/AB9-aptamer.md"
+      "AB9-aptamer"
     ]
   },
   {
@@ -4559,7 +4559,7 @@
       "journal": "Biochemical and biophysical research communications"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4572,7 +4572,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4585,7 +4585,7 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4598,7 +4598,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4611,7 +4611,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4624,7 +4624,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4637,7 +4637,7 @@
       "journal": "Nature reviews. Molecular cell biology"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4650,7 +4650,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4663,7 +4663,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Aβ42-aptamer.md"
+      "Aβ42-aptamer"
     ]
   },
   {
@@ -4676,7 +4676,7 @@
       "journal": "Nature reviews. Immunology"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4689,7 +4689,7 @@
       "journal": "Immunity"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4702,7 +4702,7 @@
       "journal": "International journal of biomedical science : IJBS"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4715,7 +4715,7 @@
       "journal": "Blood"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4728,7 +4728,7 @@
       "journal": "Expert opinion on biological therapy"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4741,7 +4741,7 @@
       "journal": "Blood"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4754,7 +4754,7 @@
       "journal": "Nature reviews. Cancer"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4767,7 +4767,7 @@
       "journal": "Nucleic acid aptamers in cancer research"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4780,7 +4780,7 @@
       "journal": "American journal of hematology"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4793,7 +4793,7 @@
       "journal": "Cancer immunology research"
     },
     "posts": [
-      "_posts/IL2-CD25-aptermer.md"
+      "IL2-CD25-aptermer"
     ]
   },
   {
@@ -4806,7 +4806,7 @@
       "journal": "Mol. Cell"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4819,7 +4819,7 @@
       "journal": "Mol. Cell. Biol."
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4832,7 +4832,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4845,7 +4845,7 @@
       "journal": "Mol. Cell"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4858,7 +4858,7 @@
       "journal": "International journal of hematology"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4871,7 +4871,7 @@
       "journal": "Nat. Struct. Mol. Biol."
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4884,7 +4884,7 @@
       "journal": "Mol. Cell"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4897,7 +4897,7 @@
       "journal": "Nucleic Acids Res."
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4910,7 +4910,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4923,7 +4923,7 @@
       "journal": "Molecular cell"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4936,7 +4936,7 @@
       "journal": "Biomolecules & therapeutics"
     },
     "posts": [
-      "_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.md"
+      "Mixed-lineage-leukemia-proteins-(MLL)-aptermer"
     ]
   },
   {
@@ -4949,7 +4949,7 @@
       "journal": "Nucleic acids symposium series"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -4962,7 +4962,7 @@
       "journal": "The American journal of pathology"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -4975,7 +4975,7 @@
       "journal": "The Journal of pathology"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -4988,7 +4988,7 @@
       "journal": "Gut"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -5001,7 +5001,7 @@
       "journal": "Gut"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -5014,7 +5014,7 @@
       "journal": "Hepatology"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -5027,7 +5027,7 @@
       "journal": "Nat Commun"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -5040,7 +5040,7 @@
       "journal": "Scandinavian journal of immunology"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -5053,7 +5053,7 @@
       "journal": "Nephrology"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -5066,7 +5066,7 @@
       "journal": "The American journal of pathology"
     },
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
@@ -5079,7 +5079,7 @@
       "journal": "The Journal of biological chemistry"
     },
     "posts": [
-      "_posts/FC-RNA-aptamer.md"
+      "FC-RNA-aptamer"
     ]
   },
   {
@@ -5092,7 +5092,7 @@
       "journal": "Nature structural & molecular biology"
     },
     "posts": [
-      "_posts/FC-RNA-aptamer.md"
+      "FC-RNA-aptamer"
     ]
   },
   {
@@ -5105,7 +5105,7 @@
       "journal": "PloS one"
     },
     "posts": [
-      "_posts/FC-RNA-aptamer.md"
+      "FC-RNA-aptamer"
     ]
   },
   {
@@ -5118,7 +5118,7 @@
       "journal": "Transcription"
     },
     "posts": [
-      "_posts/FC-RNA-aptamer.md"
+      "FC-RNA-aptamer"
     ]
   },
   {
@@ -5131,7 +5131,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/Biotin-aptamer.md"
+      "Biotin-aptamer"
     ]
   },
   {
@@ -5144,7 +5144,7 @@
       "journal": "Acta crystallographica. Section D"
     },
     "posts": [
-      "_posts/Biotin-aptamer.md"
+      "Biotin-aptamer"
     ]
   },
   {
@@ -5157,7 +5157,7 @@
       "journal": "Journal of molecular biology"
     },
     "posts": [
-      "_posts/Biotin-aptamer.md"
+      "Biotin-aptamer"
     ]
   },
   {
@@ -5170,7 +5170,7 @@
       "journal": "Scientific reports"
     },
     "posts": [
-      "_posts/Biotin-aptamer.md"
+      "Biotin-aptamer"
     ]
   },
   {
@@ -5183,7 +5183,7 @@
       "journal": "Bio-protocol"
     },
     "posts": [
-      "_posts/Biotin-aptamer.md"
+      "Biotin-aptamer"
     ]
   },
   {
@@ -5196,8 +5196,8 @@
       "journal": "J Mol Biol"
     },
     "posts": [
-      "_posts/HIV-1-REV-peptide-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md"
+      "HIV-1-REV-peptide-aptamer",
+      "HIV-1-Rev-aptamer"
     ]
   },
   {
@@ -5210,7 +5210,7 @@
       "journal": "Chem Biol"
     },
     "posts": [
-      "_posts/HIV-1-REV-peptide-aptamer.md"
+      "HIV-1-REV-peptide-aptamer"
     ]
   },
   {
@@ -5223,8 +5223,8 @@
       "journal": "Structure"
     },
     "posts": [
-      "_posts/Rex-protein-aptamer.md",
-      "_posts/HIV-1-REV-peptide-aptamer.md"
+      "Rex-protein-aptamer",
+      "HIV-1-REV-peptide-aptamer"
     ]
   },
   {
@@ -5237,8 +5237,8 @@
       "journal": "Mol Cell"
     },
     "posts": [
-      "_posts/HIV-1-REV-peptide-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md"
+      "HIV-1-REV-peptide-aptamer",
+      "HIV-1-Rev-aptamer"
     ]
   },
   {
@@ -5251,8 +5251,8 @@
       "journal": "Biophys J"
     },
     "posts": [
-      "_posts/HIV-1-REV-peptide-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md"
+      "HIV-1-REV-peptide-aptamer",
+      "HIV-1-Rev-aptamer"
     ]
   },
   {
@@ -5265,8 +5265,8 @@
       "journal": "Elife"
     },
     "posts": [
-      "_posts/HIV-1-REV-peptide-aptamer.md",
-      "_posts/HIV-1-Rev-aptamer.md"
+      "HIV-1-REV-peptide-aptamer",
+      "HIV-1-Rev-aptamer"
     ]
   },
   {
@@ -5279,7 +5279,7 @@
       "journal": "Journal of virology"
     },
     "posts": [
-      "_posts/Rex-protein-aptamer.md"
+      "Rex-protein-aptamer"
     ]
   },
   {
@@ -5292,7 +5292,7 @@
       "journal": "Biopolymers"
     },
     "posts": [
-      "_posts/Rex-protein-aptamer.md"
+      "Rex-protein-aptamer"
     ]
   },
   {
@@ -5305,7 +5305,7 @@
       "journal": "Journal of peptide science : an official publication of the European Peptide Society"
     },
     "posts": [
-      "_posts/Rex-protein-aptamer.md"
+      "Rex-protein-aptamer"
     ]
   },
   {
@@ -5318,7 +5318,7 @@
       "journal": "Biochemical pharmacology"
     },
     "posts": [
-      "_posts/Rex-protein-aptamer.md"
+      "Rex-protein-aptamer"
     ]
   },
   {
@@ -5331,7 +5331,7 @@
       "journal": "Critical reviews in oncology/hematology"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5344,7 +5344,7 @@
       "journal": "Current opinion in molecular therapeutics"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5357,7 +5357,7 @@
       "journal": "Journal of biochemistry"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5370,7 +5370,7 @@
       "journal": "Biomaterials"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5383,7 +5383,7 @@
       "journal": "Cancer gene therapy"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5396,8 +5396,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md",
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer",
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5410,7 +5410,7 @@
       "journal": "Investigational new drugs"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5423,7 +5423,7 @@
       "journal": "Biomaterials science"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5436,7 +5436,7 @@
       "journal": "OncoTargets and therapy"
     },
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
@@ -5449,7 +5449,7 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5462,7 +5462,7 @@
       "journal": "Structure"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5475,7 +5475,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5488,8 +5488,8 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md",
-      "_posts/Ribostamycin-aptamer.md"
+      "NeomycinB-aptamer",
+      "Ribostamycin-aptamer"
     ]
   },
   {
@@ -5502,7 +5502,7 @@
       "journal": "Biosensors & bioelectronics"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5515,7 +5515,7 @@
       "journal": "Quarterly reviews of biophysics"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5528,7 +5528,7 @@
       "journal": "Chemical communications"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5541,7 +5541,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5554,8 +5554,8 @@
       "journal": "Angewandte Chemie"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md",
-      "_posts/Ribostamycin-aptamer.md"
+      "NeomycinB-aptamer",
+      "Ribostamycin-aptamer"
     ]
   },
   {
@@ -5568,7 +5568,7 @@
       "journal": "Analytical and bioanalytical chemistry"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5581,7 +5581,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5594,7 +5594,7 @@
       "journal": "Organic & biomolecular chemistry"
     },
     "posts": [
-      "_posts/NeomycinB-aptamer.md"
+      "NeomycinB-aptamer"
     ]
   },
   {
@@ -5607,7 +5607,7 @@
       "journal": "RNA (New York"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5620,7 +5620,7 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5633,7 +5633,7 @@
       "journal": "Current opinion in chemical biology"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5646,7 +5646,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5659,7 +5659,7 @@
       "journal": "RNA biology"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5672,7 +5672,7 @@
       "journal": "Combinatorial chemistry & high throughput screening"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5685,7 +5685,7 @@
       "journal": "Angewandte Chemie"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5698,7 +5698,7 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5711,7 +5711,7 @@
       "journal": "Talanta"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5724,7 +5724,7 @@
       "journal": "Journal of virology"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5737,7 +5737,7 @@
       "journal": "The journal of physical chemistry. B"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5750,7 +5750,7 @@
       "journal": "Biosensors & bioelectronics"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5763,7 +5763,7 @@
       "journal": "The Journal of chemical physics"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5776,7 +5776,7 @@
       "journal": "Journal of biomolecular structure & dynamics"
     },
     "posts": [
-      "_posts/Streptomycin-aptamer.md"
+      "Streptomycin-aptamer"
     ]
   },
   {
@@ -5789,7 +5789,7 @@
       "journal": "Bioorganic & medicinal chemistry"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5802,7 +5802,7 @@
       "journal": "Molecular microbiology"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5815,7 +5815,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5828,9 +5828,9 @@
       "journal": "Nature biotechnology"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md",
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Tetracycline-aptamer",
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -5843,7 +5843,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5856,7 +5856,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5869,7 +5869,7 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5882,7 +5882,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5895,7 +5895,7 @@
       "journal": "Molecular bioSystems"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5908,7 +5908,7 @@
       "journal": "Archaea (Vancouver"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5921,7 +5921,7 @@
       "journal": "Biophysical journal"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5934,7 +5934,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5947,7 +5947,7 @@
       "journal": "Nature methods"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5960,7 +5960,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5973,7 +5973,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5986,7 +5986,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -5999,7 +5999,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -6012,7 +6012,7 @@
       "journal": "Nature communications"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -6025,7 +6025,7 @@
       "journal": "RNA biology"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -6038,7 +6038,7 @@
       "journal": "Nature biotechnology"
     },
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
@@ -6051,9 +6051,9 @@
       "journal": "Science"
     },
     "posts": [
-      "_posts/Theophylline-aptamer.md",
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer",
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6066,9 +6066,9 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer.md",
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer",
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6081,8 +6081,8 @@
       "journal": "Nature structural biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6095,8 +6095,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6109,8 +6109,8 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6123,8 +6123,8 @@
       "journal": "Structure"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6137,8 +6137,8 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6151,8 +6151,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6165,8 +6165,8 @@
       "journal": "Bioorganic & medicinal chemistry letters"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6179,8 +6179,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6204,9 +6204,9 @@
       "journal": "Biosensors & bioelectronics"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md",
-      "_posts/FMN-aptamer.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2",
+      "FMN-aptamer"
     ]
   },
   {
@@ -6219,8 +6219,8 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6233,8 +6233,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6247,8 +6247,8 @@
       "journal": "PLoS computational biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6261,8 +6261,8 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6275,8 +6275,8 @@
       "journal": "Biomacromolecules"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6289,8 +6289,8 @@
       "journal": "Plant & cell physiology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6303,8 +6303,8 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6317,8 +6317,8 @@
       "journal": "Methods in enzymology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6331,8 +6331,8 @@
       "journal": "Journal of biological engineering"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6345,8 +6345,8 @@
       "journal": "Journal of chemical theory and computation"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6370,8 +6370,8 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6384,8 +6384,8 @@
       "journal": "Cell chemical biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6398,8 +6398,8 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6412,8 +6412,8 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
@@ -6426,7 +6426,7 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6439,7 +6439,7 @@
       "journal": "SChemistry & biology"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6452,7 +6452,7 @@
       "journal": "Nature structural biology"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6465,7 +6465,7 @@
       "journal": "Methods in molecular biology"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6478,7 +6478,7 @@
       "journal": "Journal of mass spectrometry : JMS"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6491,7 +6491,7 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6504,7 +6504,7 @@
       "journal": "Sensors"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6517,7 +6517,7 @@
       "journal": "Mikrochimica acta"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6530,7 +6530,7 @@
       "journal": "Scientific reports"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6543,7 +6543,7 @@
       "journal": "Biosensors & bioelectronics"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6556,7 +6556,7 @@
       "journal": "Methods in molecular biology"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6569,7 +6569,7 @@
       "journal": "Talanta"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6582,7 +6582,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Tobramycin-aptamer.md"
+      "Tobramycin-aptamer"
     ]
   },
   {
@@ -6595,8 +6595,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/A9g-RNA-aptamer.md",
-      "_posts/PSMA-aptamer.md"
+      "A9g-RNA-aptamer",
+      "PSMA-aptamer"
     ]
   },
   {
@@ -6609,8 +6609,8 @@
       "journal": "Cancer research"
     },
     "posts": [
-      "_posts/A9g-RNA-aptamer.md",
-      "_posts/PSMA-aptamer.md"
+      "A9g-RNA-aptamer",
+      "PSMA-aptamer"
     ]
   },
   {
@@ -6623,8 +6623,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/A9g-RNA-aptamer.md",
-      "_posts/PSMA-aptamer.md"
+      "A9g-RNA-aptamer",
+      "PSMA-aptamer"
     ]
   },
   {
@@ -6637,8 +6637,8 @@
       "journal": "ACS nano"
     },
     "posts": [
-      "_posts/A9g-RNA-aptamer.md",
-      "_posts/PSMA-aptamer.md"
+      "A9g-RNA-aptamer",
+      "PSMA-aptamer"
     ]
   },
   {
@@ -6651,8 +6651,8 @@
       "journal": "Nucleic acid therapeutics"
     },
     "posts": [
-      "_posts/A9g-RNA-aptamer.md",
-      "_posts/PSMA-aptamer.md"
+      "A9g-RNA-aptamer",
+      "PSMA-aptamer"
     ]
   },
   {
@@ -6665,8 +6665,8 @@
       "journal": "Journal of controlled release : official journal of the Controlled Release Society"
     },
     "posts": [
-      "_posts/A9g-RNA-aptamer.md",
-      "_posts/PSMA-aptamer.md"
+      "A9g-RNA-aptamer",
+      "PSMA-aptamer"
     ]
   },
   {
@@ -6679,8 +6679,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/A9g-RNA-aptamer.md",
-      "_posts/PSMA-aptamer.md"
+      "A9g-RNA-aptamer",
+      "PSMA-aptamer"
     ]
   },
   {
@@ -6693,8 +6693,8 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Citrulline-aptamer.md",
-      "_posts/Arginine-aptamer.md"
+      "Citrulline-aptamer",
+      "Arginine-aptamer"
     ]
   },
   {
@@ -6707,8 +6707,8 @@
       "journal": "Science"
     },
     "posts": [
-      "_posts/Citrulline-aptamer.md",
-      "_posts/Arginine-aptamer.md"
+      "Citrulline-aptamer",
+      "Arginine-aptamer"
     ]
   },
   {
@@ -6721,8 +6721,8 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/Citrulline-aptamer.md",
-      "_posts/Arginine-aptamer.md"
+      "Citrulline-aptamer",
+      "Arginine-aptamer"
     ]
   },
   {
@@ -6746,7 +6746,7 @@
       "journal": "Acta crystallographica"
     },
     "posts": [
-      "_posts/Vitamin-B12-aptamer.md"
+      "Vitamin-B12-aptamer"
     ]
   },
   {
@@ -6759,7 +6759,7 @@
       "journal": "Nature structural biology"
     },
     "posts": [
-      "_posts/Vitamin-B12-aptamer.md"
+      "Vitamin-B12-aptamer"
     ]
   },
   {
@@ -6772,7 +6772,7 @@
       "journal": "Structure"
     },
     "posts": [
-      "_posts/Vitamin-B12-aptamer.md"
+      "Vitamin-B12-aptamer"
     ]
   },
   {
@@ -6785,7 +6785,7 @@
       "journal": "Analytical chemistry"
     },
     "posts": [
-      "_posts/Vitamin-B12-aptamer.md"
+      "Vitamin-B12-aptamer"
     ]
   },
   {
@@ -6798,7 +6798,7 @@
       "journal": "Analytical biochemistry"
     },
     "posts": [
-      "_posts/Vitamin-B12-aptamer.md"
+      "Vitamin-B12-aptamer"
     ]
   },
   {
@@ -6811,7 +6811,7 @@
       "journal": "Nature biotechnology"
     },
     "posts": [
-      "_posts/Factor-Xa-aptamer.md"
+      "Factor-Xa-aptamer"
     ]
   },
   {
@@ -6824,7 +6824,7 @@
       "journal": "Nucleic acid therapeutics"
     },
     "posts": [
-      "_posts/Factor-Xa-aptamer.md"
+      "Factor-Xa-aptamer"
     ]
   },
   {
@@ -6837,7 +6837,7 @@
       "journal": "J Mol Biol"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6850,7 +6850,7 @@
       "journal": "Biopolymers"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6863,7 +6863,7 @@
       "journal": "Journal of biomolecular NMR"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6876,7 +6876,7 @@
       "journal": "Nucleic Acids Symp Ser"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6889,7 +6889,7 @@
       "journal": "Anal Chem"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6902,7 +6902,7 @@
       "journal": "Nucleic Acids Res"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6915,7 +6915,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6928,7 +6928,7 @@
       "journal": "J Photochem Photobiol B"
     },
     "posts": [
-      "_posts/FMN-aptamer.md"
+      "FMN-aptamer"
     ]
   },
   {
@@ -6941,7 +6941,7 @@
       "journal": "JACS"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -6954,7 +6954,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -6967,7 +6967,7 @@
       "journal": "Chemistry & biology"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -6980,7 +6980,7 @@
       "journal": "RNA biology"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -6993,7 +6993,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -7006,7 +7006,7 @@
       "journal": "Angewandte Chemie International Edition"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -7019,7 +7019,7 @@
       "journal": "Biomolecular NMR Assignments"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -7032,7 +7032,7 @@
       "journal": "ChemSystemsChem"
     },
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
@@ -7045,8 +7045,8 @@
       "journal": "J Biol Chem"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7059,8 +7059,8 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7073,8 +7073,8 @@
       "journal": "Nucleic Acids Res"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7087,8 +7087,8 @@
       "journal": "Comb Chem High Throughput Screen"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7101,8 +7101,8 @@
       "journal": "Nucleic Acids Res"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7115,8 +7115,8 @@
       "journal": "Nucleic Acids Res"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7129,8 +7129,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7143,8 +7143,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7157,8 +7157,8 @@
       "journal": "Org Biomol Chem"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7171,8 +7171,8 @@
       "journal": "Nucleic Acids Res"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7185,8 +7185,8 @@
       "journal": "Nucleic Acids Res"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7199,8 +7199,8 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/HIV-1-TAR-RNA-aptamer.md",
-      "_posts/LR06-aptamer.md"
+      "HIV-1-TAR-RNA-aptamer",
+      "LR06-aptamer"
     ]
   },
   {
@@ -7213,7 +7213,7 @@
       "journal": "Nature Biotechnology"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7226,7 +7226,7 @@
       "journal": "Nature Chemical Biology"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7239,7 +7239,7 @@
       "journal": "ACS chemical biology"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7252,7 +7252,7 @@
       "journal": "Nucleic Acids Research"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7265,7 +7265,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7278,7 +7278,7 @@
       "journal": "Cell Insight"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7291,7 +7291,7 @@
       "journal": "Nucleic Acids Research"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7304,7 +7304,7 @@
       "journal": "Biosensors & Bioelectronics"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7317,7 +7317,7 @@
       "journal": "Nucleic Acids Research"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7330,8 +7330,8 @@
       "journal": "Chemical Science"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md",
-      "_posts/Squash-aptamer.md"
+      "Pepper-aptamer",
+      "Squash-aptamer"
     ]
   },
   {
@@ -7344,7 +7344,7 @@
       "journal": "ACS chemical biology"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7357,7 +7357,7 @@
       "journal": "ACS synthetic biology"
     },
     "posts": [
-      "_posts/Pepper-aptamer.md"
+      "Pepper-aptamer"
     ]
   },
   {
@@ -7370,7 +7370,7 @@
       "journal": "Acta crystallographica. Section F"
     },
     "posts": [
-      "_posts/Hfq-aptamer.md"
+      "Hfq-aptamer"
     ]
   },
   {
@@ -7383,7 +7383,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Hfq-aptamer.md"
+      "Hfq-aptamer"
     ]
   },
   {
@@ -7396,7 +7396,7 @@
       "journal": "Structural mechanism of Staphylococcus aureus Hfq binding to an RNA A-tract. Nucleic acids research"
     },
     "posts": [
-      "_posts/Hfq-aptamer.md"
+      "Hfq-aptamer"
     ]
   },
   {
@@ -7409,7 +7409,7 @@
       "journal": "RNA biology"
     },
     "posts": [
-      "_posts/Hfq-aptamer.md"
+      "Hfq-aptamer"
     ]
   },
   {
@@ -7422,7 +7422,7 @@
       "journal": "Frontiers in cellular and infection microbiology"
     },
     "posts": [
-      "_posts/Hfq-aptamer.md"
+      "Hfq-aptamer"
     ]
   },
   {
@@ -7435,7 +7435,7 @@
       "journal": "FEBS Journal"
     },
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
@@ -7448,7 +7448,7 @@
       "journal": "Chembiochem : a European journal of chemical biology"
     },
     "posts": [
-      "_posts/TetR-aptamer.md"
+      "TetR-aptamer"
     ]
   },
   {
@@ -7461,7 +7461,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/TetR-aptamer.md"
+      "TetR-aptamer"
     ]
   },
   {
@@ -7474,7 +7474,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/TetR-aptamer.md"
+      "TetR-aptamer"
     ]
   },
   {
@@ -7487,7 +7487,7 @@
       "journal": "Structure"
     },
     "posts": [
-      "_posts/GRK2-aptamer.md"
+      "GRK2-aptamer"
     ]
   },
   {
@@ -7500,7 +7500,7 @@
       "journal": "Methods in molecular biology"
     },
     "posts": [
-      "_posts/GRK2-aptamer.md"
+      "GRK2-aptamer"
     ]
   },
   {
@@ -7513,7 +7513,7 @@
       "journal": "Bioelectrochemistry (Amsterdam"
     },
     "posts": [
-      "_posts/HIV-Tat-aptamer.md"
+      "HIV-Tat-aptamer"
     ]
   },
   {
@@ -7526,7 +7526,7 @@
       "journal": "Biosensors & bioelectronics"
     },
     "posts": [
-      "_posts/HIV-Tat-aptamer.md"
+      "HIV-Tat-aptamer"
     ]
   },
   {
@@ -7539,7 +7539,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/IgG-aptamer.md"
+      "IgG-aptamer"
     ]
   },
   {
@@ -7552,7 +7552,7 @@
       "journal": "Acta crystallographica. Section F"
     },
     "posts": [
-      "_posts/IgG-aptamer.md"
+      "IgG-aptamer"
     ]
   },
   {
@@ -7565,7 +7565,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/IgG-aptamer.md"
+      "IgG-aptamer"
     ]
   },
   {
@@ -7578,7 +7578,7 @@
       "journal": "Journal of the American Chemical Society"
     },
     "posts": [
-      "_posts/IgG-aptamer.md"
+      "IgG-aptamer"
     ]
   },
   {
@@ -7591,7 +7591,7 @@
       "journal": "Genetics and molecular research : GMR"
     },
     "posts": [
-      "_posts/IgG-aptamer.md"
+      "IgG-aptamer"
     ]
   },
   {
@@ -7604,7 +7604,7 @@
       "journal": "Biochemistry"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7617,7 +7617,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7630,7 +7630,7 @@
       "journal": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7643,7 +7643,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7656,7 +7656,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7669,7 +7669,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7682,7 +7682,7 @@
       "journal": "RNA (New York"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7695,7 +7695,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/NF-kappaB-aptamer.md"
+      "NF-kappaB-aptamer"
     ]
   },
   {
@@ -7708,7 +7708,7 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Thrombin-aptamer.md"
+      "Thrombin-aptamer"
     ]
   },
   {
@@ -7721,7 +7721,7 @@
       "journal": "Molecular therapy : the journal of the American Society of Gene Therapy"
     },
     "posts": [
-      "_posts/Thrombin-aptamer.md"
+      "Thrombin-aptamer"
     ]
   },
   {
@@ -7734,7 +7734,7 @@
       "journal": "Nature"
     },
     "posts": [
-      "_posts/Thrombin-aptamer.md"
+      "Thrombin-aptamer"
     ]
   },
   {
@@ -7747,7 +7747,7 @@
       "journal": "FEBS letters"
     },
     "posts": [
-      "_posts/Thrombin-aptamer.md"
+      "Thrombin-aptamer"
     ]
   },
   {
@@ -7760,7 +7760,7 @@
       "journal": "RNA"
     },
     "posts": [
-      "_posts/Thrombin-aptamer.md"
+      "Thrombin-aptamer"
     ]
   },
   {
@@ -7773,554 +7773,554 @@
       "journal": "Nucleic acids research"
     },
     "posts": [
-      "_posts/Thrombin-aptamer.md"
+      "Thrombin-aptamer"
     ]
   },
   {
     "pmid": "36097297",
     "publication": null,
     "posts": [
-      "_posts/FAD-aptamer.md",
-      "_posts/Riboflavin-aptamer.md"
+      "FAD-aptamer",
+      "Riboflavin-aptamer"
     ]
   },
   {
     "pmid": "12185247",
     "publication": null,
     "posts": [
-      "_posts/GTP-aptamer.md"
+      "GTP-aptamer"
     ]
   },
   {
     "pmid": "1697402",
     "publication": null,
     "posts": [
-      "_posts/B4-25-aptamer.md"
+      "B4-25-aptamer"
     ]
   },
   {
     "pmid": "27805569",
     "publication": null,
     "posts": [
-      "_posts/Tetracycline-aptamer.md"
+      "Tetracycline-aptamer"
     ]
   },
   {
     "pmid": "15687383",
     "publication": null,
     "posts": [
-      "_posts/eIF4A-aptamer.md"
+      "eIF4A-aptamer"
     ]
   },
   {
     "pmid": "28945234",
     "publication": null,
     "posts": [
-      "_posts/Corn-aptamer.md"
+      "Corn-aptamer"
     ]
   },
   {
     "pmid": "31631009",
     "publication": null,
     "posts": [
-      "_posts/Corn-aptamer.md"
+      "Corn-aptamer"
     ]
   },
   {
     "pmid": "34028262",
     "publication": null,
     "posts": [
-      "_posts/Corn-aptamer.md"
+      "Corn-aptamer"
     ]
   },
   {
     "pmid": "37171156",
     "publication": null,
     "posts": [
-      "_posts/Corn-aptamer.md"
+      "Corn-aptamer"
     ]
   },
   {
     "pmid": "23488798",
     "publication": null,
     "posts": [
-      "_posts/Spinach-RNA-aptamer.md"
+      "Spinach-RNA-aptamer"
     ]
   },
   {
     "pmid": "4507620",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "6897195",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "1469719",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "8440248",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "9469847",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "9461079",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "10606647",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "11162119",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "15496523",
     "publication": null,
     "posts": [
-      "_posts/bacteriophage-MS2-coat-protein-aptamer.md"
+      "bacteriophage-MS2-coat-protein-aptamer"
     ]
   },
   {
     "pmid": "17038331",
     "publication": null,
     "posts": [
-      "_posts/Codeine-aptamer.md"
+      "Codeine-aptamer"
     ]
   },
   {
     "pmid": "23678405",
     "publication": null,
     "posts": [
-      "_posts/Codeine-aptamer.md"
+      "Codeine-aptamer"
     ]
   },
   {
     "pmid": "23830440",
     "publication": null,
     "posts": [
-      "_posts/Codeine-aptamer.md"
+      "Codeine-aptamer"
     ]
   },
   {
     "pmid": "27336666",
     "publication": null,
     "posts": [
-      "_posts/Codeine-aptamer.md"
+      "Codeine-aptamer"
     ]
   },
   {
     "pmid": "29133961",
     "publication": null,
     "posts": [
-      "_posts/Codeine-aptamer.md"
+      "Codeine-aptamer"
     ]
   },
   {
     "pmid": "28845698",
     "publication": null,
     "posts": [
-      "_posts/AML1(RUNX1)-aptamer.md"
+      "AML1(RUNX1)-aptamer"
     ]
   },
   {
     "pmid": "16513347",
     "publication": null,
     "posts": [
-      "_posts/Theophylline-aptamer_back1.md",
-      "_posts/Theophylline-aptamer_back2.md"
+      "Theophylline-aptamer_back1",
+      "Theophylline-aptamer_back2"
     ]
   },
   {
     "pmid": "17625118",
     "publication": null,
     "posts": [
-      "_posts/L-CCL2-aptamer.md"
+      "L-CCL2-aptamer"
     ]
   },
   {
     "pmid": "9056763",
     "publication": null,
     "posts": [
-      "_posts/Ribosomal-protein-S8-aptamer.md"
+      "Ribosomal-protein-S8-aptamer"
     ]
   },
   {
     "pmid": "25140011",
     "publication": null,
     "posts": [
-      "_posts/Ribosomal-protein-S8-aptamer.md"
+      "Ribosomal-protein-S8-aptamer"
     ]
   },
   {
     "pmid": "29413905",
     "publication": null,
     "posts": [
-      "_posts/Ribosomal-protein-S8-aptamer.md"
+      "Ribosomal-protein-S8-aptamer"
     ]
   },
   {
     "pmid": "35320268",
     "publication": null,
     "posts": [
-      "_posts/Ribosomal-protein-S8-aptamer.md"
+      "Ribosomal-protein-S8-aptamer"
     ]
   },
   {
     "pmid": "36458023",
     "publication": null,
     "posts": [
-      "_posts/Ribosomal-protein-S8-aptamer.md"
+      "Ribosomal-protein-S8-aptamer"
     ]
   },
   {
     "pmid": "34937909",
     "publication": null,
     "posts": [
-      "_posts/Squash-aptamer.md"
+      "Squash-aptamer"
     ]
   },
   {
     "pmid": "34937911",
     "publication": null,
     "posts": [
-      "_posts/Squash-aptamer.md"
+      "Squash-aptamer"
     ]
   },
   {
     "pmid": "20306311",
     "publication": null,
     "posts": [
-      "_posts/Ribostamycin-aptamer.md"
+      "Ribostamycin-aptamer"
     ]
   },
   {
     "pmid": "20632338",
     "publication": null,
     "posts": [
-      "_posts/Ribostamycin-aptamer.md"
+      "Ribostamycin-aptamer"
     ]
   },
   {
     "pmid": "23303774",
     "publication": null,
     "posts": [
-      "_posts/Ribostamycin-aptamer.md"
+      "Ribostamycin-aptamer"
     ]
   },
   {
     "pmid": "39902969",
     "publication": null,
     "posts": [
-      "_posts/Ribostamycin-aptamer.md"
+      "Ribostamycin-aptamer"
     ]
   },
   {
     "pmid": "7687750",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "7521014",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "8700212",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "8756406",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "9081544",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "9384529",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "9257650",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "9159476",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "14624002",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "12873145",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "15237981",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "29248297",
     "publication": null,
     "posts": [
-      "_posts/ATP-aptamer.md"
+      "ATP-aptamer"
     ]
   },
   {
     "pmid": "30986047",
     "publication": null,
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
     "pmid": "33574610",
     "publication": null,
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
     "pmid": "35486532",
     "publication": null,
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
     "pmid": "36658339",
     "publication": null,
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
     "pmid": "38760339",
     "publication": null,
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
     "pmid": "39803439",
     "publication": null,
     "posts": [
-      "_posts/TMR-DN-aptamer.md",
-      "_posts/TMR-aptamer.md"
+      "TMR-DN-aptamer",
+      "TMR-aptamer"
     ]
   },
   {
     "pmid": "2459391",
     "publication": null,
     "posts": [
-      "_posts/GlnRs-aptamer.md"
+      "GlnRs-aptamer"
     ]
   },
   {
     "pmid": "2479982",
     "publication": null,
     "posts": [
-      "_posts/GlnRs-aptamer.md"
+      "GlnRs-aptamer"
     ]
   },
   {
     "pmid": "10881199",
     "publication": null,
     "posts": [
-      "_posts/GlnRs-aptamer.md"
+      "GlnRs-aptamer"
     ]
   },
   {
     "pmid": "10860750",
     "publication": null,
     "posts": [
-      "_posts/GlnRs-aptamer.md"
+      "GlnRs-aptamer"
     ]
   },
   {
     "pmid": "14681579",
     "publication": null,
     "posts": [
-      "_posts/GlnRs-aptamer.md"
+      "GlnRs-aptamer"
     ]
   },
   {
     "pmid": "24570482",
     "publication": null,
     "posts": [
-      "_posts/Lysozyme-aptamer.md"
+      "Lysozyme-aptamer"
     ]
   },
   {
     "pmid": "19246008",
     "publication": null,
     "posts": [
-      "_posts/TetR-aptamer.md"
+      "TetR-aptamer"
     ]
   },
   {
     "pmid": "31504742",
     "publication": null,
     "posts": [
-      "_posts/TetR-aptamer.md"
+      "TetR-aptamer"
     ]
   },
   {
     "pmid": "33148600",
     "publication": null,
     "posts": [
-      "_posts/TetR-aptamer.md"
+      "TetR-aptamer"
     ]
   },
   {
     "pmid": "28092358",
     "publication": null,
     "posts": [
-      "_posts/5HTP-aptamer.md"
+      "5HTP-aptamer"
     ]
   },
   {
     "pmid": "11800555",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "18029754",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "19098441",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "18776312",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "19666719",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "23180780",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "23104426",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "24803670",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "32188933",
     "publication": null,
     "posts": [
-      "_posts/Bovine-prion-protein-aptamer.md"
+      "Bovine-prion-protein-aptamer"
     ]
   },
   {
     "pmid": "20022942",
     "publication": null,
     "posts": [
-      "_posts/Factor-Xa-aptamer.md"
+      "Factor-Xa-aptamer"
     ]
   },
   {
     "pmid": "26584417",
     "publication": null,
     "posts": [
-      "_posts/Factor-Xa-aptamer.md"
+      "Factor-Xa-aptamer"
     ]
   }
 ]
