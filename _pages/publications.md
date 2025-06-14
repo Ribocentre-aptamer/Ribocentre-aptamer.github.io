@@ -35,6 +35,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 .data-table-section a:hover{text-decoration:underline;}
 #searchBox{padding:10px;font-size:16px;border:2px solid #ccc;border-radius:4px;width:300px;}
 #searchBox:focus{outline:none;border-color:#efefef;}
+#pagination button{
+  background-color:#f8f9fa;
+  border:1px solid #dee2e6;
+  color:#495057;
+  cursor:pointer;
+  border-radius:4px;
+}
+#pagination button:hover{
+  background-color:#e9ecef;
+  border-color:#adb5bd;
+}
 </style>
 
 </head>
@@ -44,6 +55,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 <div class="form-container" style="margin-bottom:15px;">
   <input type="text" id="searchBox" placeholder="Search...">
   <button id="exportBtn" class="button" style="margin-left:10px;">Export Selected</button>
+  <button id="selectAllBtn" class="button" style="margin-left:10px;">Select All</button>
+  <button id="deselectAllBtn" class="button" style="margin-left:10px;">Deselect All</button>
 </div>
 <section class="data-table-section">
   <table id="pubTable" class="table-style display" style="width:100%">
@@ -64,9 +77,107 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 
 let table;
 let tableData=[];
+
+let currentPage = 1;
+let rowsPerPage = 25;
+let filteredRows = [];
+let allRows = [];
+
+function initSimpleTable(rows) {
+  allRows = rows;
+  filteredRows = rows;
+  renderTable();
+  setupPagination();
+  
+  // 简单的搜索功能
+  $('#searchBox').on('input', function() {
+    const searchTerm = this.value.toLowerCase();
+    filteredRows = allRows.filter(row => {
+      return row.some(cell => cell.toString().toLowerCase().includes(searchTerm));
+    });
+    currentPage = 1;
+    renderTable();
+    setupPagination();
+  });
+}
+
+function renderTable() {
+  const tbody = document.querySelector('#pubTable tbody');
+  tbody.innerHTML = '';
+  
+  const startIndex = (currentPage - 1) * rowsPerPage;
+  const endIndex = startIndex + rowsPerPage;
+  const pageRows = filteredRows.slice(startIndex, endIndex);
+  
+  pageRows.forEach(row => {
+    const tr = document.createElement('tr');
+    row.forEach(cellData => {
+      const td = document.createElement('td');
+      td.innerHTML = cellData;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+}
+
+function setupPagination() {
+  const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
+  let paginationHtml = '<div id="pagination" style="margin-top: 20px; text-align: center;">';
+  
+  // 上一页按钮
+  if (currentPage > 1) {
+    paginationHtml += `<button onclick="changePage(${currentPage - 1})" style="margin: 0 5px; padding: 5px 10px;">上一页</button>`;
+  }
+  
+  // 页码按钮
+  for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) {
+    if (i === currentPage) {
+      paginationHtml += `<button style="margin: 0 5px; padding: 5px 10px; background-color: var(--primary-color); color: white;">${i}</button>`;
+    } else {
+      paginationHtml += `<button onclick="changePage(${i})" style="margin: 0 5px; padding: 5px 10px;">${i}</button>`;
+    }
+  }
+  
+  // 下一页按钮
+  if (currentPage < totalPages) {
+    paginationHtml += `<button onclick="changePage(${currentPage + 1})" style="margin: 0 5px; padding: 5px 10px;">下一页</button>`;
+  }
+  
+  paginationHtml += `<span style="margin-left: 20px;">显示 ${Math.min((currentPage - 1) * rowsPerPage + 1, filteredRows.length)}-${Math.min(currentPage * rowsPerPage, filteredRows.length)} 共 ${filteredRows.length} 条</span>`;
+  paginationHtml += '</div>';
+  
+  // 移除旧的分页器
+  const oldPagination = document.getElementById('pagination');
+  if (oldPagination) {
+    oldPagination.remove();
+  }
+  
+  // 添加新的分页器
+  document.querySelector('.data-table-section').insertAdjacentHTML('afterend', paginationHtml);
+}
+
+function changePage(page) {
+  currentPage = page;
+  renderTable();
+  setupPagination();
+}
+
 function buildRows(data){
   return data.map(d=>{
     const aptLinks=d.posts.map(p=>`<a href="${p.post_link}" target="_blank">${p.post_title}</a>`).join('<br>');
+    
+    // 处理 publication 为 null 的情况
+    if (d.publication === null) {
+      return [
+        '<input type="checkbox" class="row-select">',
+        `<a href="https://pubmed.ncbi.nlm.nih.gov/${d.pmid}/" target="_blank">${d.pmid}</a>`,
+        'N/A',
+        'N/A',
+        'N/A',
+        aptLinks
+      ];
+    }
+    
     return [
       '<input type="checkbox" class="row-select">',
       `<a href="https://pubmed.ncbi.nlm.nih.gov/${d.pmid}/" target="_blank">${d.publication.year}</a>`,
@@ -84,37 +195,92 @@ function loadData(){
     .then(json=>{
       tableData=json;
       const rows=buildRows(json);
-      table=$('#pubTable').DataTable({
-        data:rows,
-        columns:[
-          {title:'Select',orderable:false},
-          {title:'Year'},
-          {title:'Author'},
-          {title:'Title'},
-          {title:'Journal'},
-          {title:'Aptamer'}
-        ],
-        responsive:true,
-        pageLength:25,
-        dom:'Bfrtip',
-        buttons:['copy','csv','excel','pdf','print']
-      });
-      $('#searchBox').on('input',function(){table.search(this.value).draw();});
+      
+      // 确保 DataTable 函数存在
+      if (typeof $.fn.DataTable === 'undefined') {
+        console.error('DataTable is not loaded, trying alternative initialization');
+        // 如果 DataTable 没有加载，尝试简单的表格显示
+        initSimpleTable(rows);
+        return;
+      }
+      
+      try {
+        table=$('#pubTable').DataTable({
+          data:rows,
+          columns:[
+            {title:'Select',orderable:false},
+            {title:'Year'},
+            {title:'Author'},
+            {title:'Title'},
+            {title:'Journal'},
+            {title:'Aptamer'}
+          ],
+          responsive:true,
+          pageLength:25,
+          dom:'Bfrtip',
+          buttons:['copy','csv','excel','pdf','print']
+        });
+        $('#searchBox').on('input',function(){table.search(this.value).draw();});
+      } catch (error) {
+        console.error('DataTable initialization failed:', error);
+        initSimpleTable(rows);
+      }
+    })
+    .catch(error => {
+      console.error('Error loading data:', error);
     });
 }
 function exportSelected(){
   const selected=[];
-  table.rows().every(function(){
-    const node=this.node();
-    if($(node).find('input.row-select').prop('checked')){
-      selected.push(this.data());
+  let rows=[];
+  
+  if (table && typeof table.rows === 'function') {
+    // DataTable 模式
+    table.rows().every(function(){
+      const node=this.node();
+      if($(node).find('input.row-select').prop('checked')){
+        selected.push(this.data());
+      }
+    });
+    rows=selected.length?selected:table.rows().data().toArray();
+  } else {
+    // 简单表格模式
+    $('#pubTable tbody tr').each(function() {
+      if ($(this).find('input.row-select').prop('checked')) {
+        const rowData = [];
+        $(this).find('td').each(function() {
+          rowData.push($(this).html());
+        });
+        selected.push(rowData);
+      }
+    });
+    
+    if (selected.length === 0) {
+      // 如果没有选中任何行，导出所有可见行
+      $('#pubTable tbody tr').each(function() {
+        const rowData = [];
+        $(this).find('td').each(function() {
+          rowData.push($(this).html());
+        });
+        rows.push(rowData);
+      });
+    } else {
+      rows = selected;
     }
-  });
-  const rows=selected.length?selected:table.rows().data().toArray();
+  }
+  
   const headers=['Year','Author','Title','Journal','Aptamer'];
   const csv=[headers.join(',')];
   rows.forEach(r=>{
-    csv.push([r[1].replace(/<[^>]+>/g,''),r[2],`"${r[3].replace(/"/g,'""')}"`,r[4],r[5].replace(/<[^>]+>/g,'; ')].join(','));
+    // 跳过第一个复选框列
+    const exportRow = r.slice(1);
+    csv.push([
+      exportRow[0].replace(/<[^>]+>/g,''),
+      `"${exportRow[1].replace(/"/g,'""')}"`,
+      `"${exportRow[2].replace(/"/g,'""')}"`,
+      `"${exportRow[3].replace(/"/g,'""')}"`,
+      exportRow[4].replace(/<[^>]+>/g,'; ')
+    ].join(','));
   });
   const csvContent='data:text/csv;charset=utf-8,'+csv.join('\n');
   const link=document.createElement('a');
@@ -122,7 +288,23 @@ function exportSelected(){
   link.setAttribute('download','publications.csv');
   document.body.appendChild(link);link.click();document.body.removeChild(link);
 }
-$(document).ready(function(){loadData();$('#exportBtn').on('click',exportSelected);});
+function selectAll() {
+  $('#pubTable tbody tr:visible input.row-select').prop('checked', true);
+}
+
+function deselectAll() {
+  $('#pubTable tbody tr input.row-select').prop('checked', false);
+}
+
+$(document).ready(function(){
+  // 等待所有脚本加载完成
+  setTimeout(function() {
+    loadData();
+    $('#exportBtn').on('click',exportSelected);
+    $('#selectAllBtn').on('click',selectAll);
+    $('#deselectAllBtn').on('click',deselectAll);
+  }, 100);
+});
 </script>
 </body>
 </html>
