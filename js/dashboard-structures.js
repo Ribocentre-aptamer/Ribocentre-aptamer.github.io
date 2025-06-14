@@ -97,12 +97,11 @@
                 cell.style.cursor = 'pointer';
                 
                 cell.addEventListener('mouseenter', (e) => {
-                    console.log(`[Structure] 触发元素tooltip (${new Date().toISOString().split('T')[1].slice(0, -1)}): ${e.target.tagName}`);
-                    showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
+                    showAmirTooltip(htmlContent, e.clientX, e.clientY);
                 });
                 cell.addEventListener('mousemove', (e) => {
                     // 实时跟随鼠标移动
-                    showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
+                    showAmirTooltip(htmlContent, e.clientX, e.clientY);
                 });
                 cell.addEventListener('mouseleave', hideAmirTooltip);
             };
@@ -445,7 +444,8 @@
             hoverlabel: { 
                 bgcolor: 'white', 
                 bordercolor: morandiHighlight,
-                font: { size: 12, color: '#333' }
+                font: { size: 12, color: '#333' },
+                align: 'left'
             }
         };
         

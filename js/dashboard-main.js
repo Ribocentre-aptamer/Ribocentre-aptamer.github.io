@@ -486,16 +486,6 @@ const ChartModule = {
         
         Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
         
-        // 添加调试日志
-        console.log(`[饼图调试] 已完成Plotly.newPlot('ligandChart') - ${new Date().toISOString()}`);
-        
-        // 为饼图DOM元素添加自定义标记
-        const pieContainer = document.getElementById('ligandChart');
-        if (pieContainer) {
-            pieContainer.setAttribute('data-debug-id', 'ligandChart-container');
-            console.log('[饼图调试] 已为饼图添加标记');
-        }
-        
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;
             FilterModule.toggleCategoryFilter(category);

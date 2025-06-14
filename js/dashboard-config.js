@@ -24,13 +24,7 @@ const ignoreTooltipElements = [
     '#ligandChart', 
     '#ligandChart .plotly', 
     '#ligandChart .plotly .pie',
-    '#ligandChart .plotly .hoverlayer',
-    '#typeChart',
-    '#typeChart .plotly',
-    '#typeChart .plotly .pie',
-    '#typeChart .plotly .hoverlayer',
-    '.plotly .pielayer',
-    '.plotly .hoverlayer .hovertext'
+    '#ligandChart .plotly .hoverlayer'
 ];
 
 // 筛选条件
@@ -95,68 +89,26 @@ function getYearColor(year, yearRange) {
     return morandiColors[4];
 }
 
-// 调试模式 - 设为true显示详细日志
-const DEBUG_TOOLTIP = true; 
-
 // AMIR风格提示框 - 智能定位版本
 function showAmirTooltip(content, clientX, clientY, event) {
-    // 调试信息
-    if (DEBUG_TOOLTIP) {
-        console.log('-------------- Tooltip Debug --------------');
-        console.log('事件触发, clientX:', clientX, 'clientY:', clientY);
-        console.log('事件对象存在:', !!event);
-        
-        if (event && event.target) {
-            console.log('目标元素:', event.target.tagName, event.target.className);
-            console.log('目标ID:', event.target.id);
-            console.log('父元素ID:', event.target.parentElement?.id || 'none');
-            
-            // 显示元素的完整路径
-            let elementPath = [];
-            let currentElement = event.target;
-            while (currentElement) {
-                let elementInfo = currentElement.tagName;
-                if (currentElement.id) elementInfo += `#${currentElement.id}`;
-                if (currentElement.className) elementInfo += `.${currentElement.className.replace(/ /g, '.')}`;
-                elementPath.push(elementInfo);
-                currentElement = currentElement.parentElement;
-            }
-            console.log('元素路径:', elementPath.join(' > '));
-        }
-    }
-    
     // 检查事件源是否应该被忽略
     if (event && event.target) {
         const target = event.target;
         
         // 检查目标元素或其任何祖先元素是否在忽略列表中
-        const shouldIgnore = ignoreTooltipElements.some(selector => {
+        if (ignoreTooltipElements.some(selector => {
             // 检查元素是否匹配选择器
-            const matchesSelector = target.matches && target.matches(selector);
-            if (DEBUG_TOOLTIP && matchesSelector) {
-                console.log('元素匹配选择器:', selector);
+            if (target.matches && target.matches(selector)) {
+                return true;
             }
             
             // 检查元素的祖先是否匹配选择器
             const closestMatch = target.closest && target.closest(selector);
-            if (DEBUG_TOOLTIP && closestMatch) {
-                console.log('祖先元素匹配选择器:', selector);
-            }
-            
-            return matchesSelector || (closestMatch != null);
-        });
-        
-        if (shouldIgnore) {
-            if (DEBUG_TOOLTIP) {
-                console.log('=> 元素在忽略列表中，不显示自定义tooltip');
-                console.log('----------------------------------------');
-            }
+            return closestMatch != null;
+        })) {
+            // 如果元素应该被忽略，直接返回
             return;
-        } else if (DEBUG_TOOLTIP) {
-            console.log('=> 元素不在忽略列表中，显示自定义tooltip');
         }
-    } else if (DEBUG_TOOLTIP) {
-        console.log('=> 没有event对象或target，继续显示自定义tooltip');
     }
     
     const tooltip = document.getElementById('amirTooltip');
