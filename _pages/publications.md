@@ -31,8 +31,40 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 .table-style td{padding:12px;border-bottom:1px solid #e8e8e8;}
 .table-style tbody tr:nth-child(even){background:rgba(245,245,245,0.5);}
 .table-style tbody tr:hover{background:rgba(82,0,73,0.05);}
-.data-table-section a{color:#4A90E2;text-decoration:none;}
-.data-table-section a:hover{text-decoration:underline;}
+/* Dashboard数据详情表专用超链接样式 */
+.data-table-section .table a {
+    color: #520049 !important;
+    text-decoration: none !important;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.data-table-section .table a:hover {
+    color: #7a0070 !important;
+    text-decoration: underline !important;
+    background-color: rgba(82, 0, 73, 0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.data-table-section .table a:visited {
+    color: #520049 !important;
+}
+
+.data-table-section .table a:active {
+    color: #520049 !important;
+    background-color: rgba(82, 0, 73, 0.2);
+}
+
+.data-table-section .table td:nth-child(2) a {
+    color: #520049 !important;
+    font-weight: 700 !important;
+}
+
+.data-table-section .table td:nth-child(2) a:hover {
+    color: #7a0070 !important;
+    text-shadow: 0 1px 2px rgba(82, 0, 73, 0.3);
+}
 #searchBox{padding:10px;font-size:16px;border:2px solid #ccc;border-radius:4px;width:300px;}
 #searchBox:focus{outline:none;border-color:#efefef;}
 #pagination button{
@@ -59,7 +91,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
   <button id="deselectAllBtn" class="button" style="margin-left:10px;">Deselect All</button>
 </div>
 <section class="data-table-section">
-  <table id="pubTable" class="table-style display" style="width:100%">
+  <table id="pubTable" class="table table-style display" style="width:100%">
     <thead>
       <tr>
         <th>Select</th>
