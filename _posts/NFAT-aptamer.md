@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "NFAT aptamer"
 date:   2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang

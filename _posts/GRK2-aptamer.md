@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "GRK2 aptamer"
 date:   2024-04-19 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -68,12 +68,7 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */

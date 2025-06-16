@@ -3804,7 +3804,7 @@ index 3a9118c2c4d03c350d332dd202ee02ad693bceb8..18e8278c397413617cfcafda7c9aea20
  ---
 -layout: post
 +layout: aptamer_page
- title:  "Arginine aptamer"
+ title:  ""
  date:   2024-04-09 00:00:00
  author: Yuhang Luo, Linfei Li
  categories: Aptamer

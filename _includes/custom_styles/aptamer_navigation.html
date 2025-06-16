@@ -115,6 +115,44 @@
         }
       });
     });
+
+    /* 自动为每个一级标题生成卡片式 content-section
+       规则：
+       1. 只处理具有 id 的 h2 / .section-title 元素。
+       2. 若该标题已经被 .content-section 包含，则跳过。
+       3. 将标题开始直至下一个同级标题（或文档结束）的所有兄弟节点挪入新建的 div.content-section。
+    */
+    const sectionHeaders = Array.from(document.querySelectorAll('h2[id], .section-title[id], .header_box[id]'));
+    sectionHeaders.forEach((header, idx) => {
+      if (header.closest('.content-section')) return; // 已经包裹
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'content-section';
+
+      // 插入 wrapper 于 header 之前
+      header.parentNode.insertBefore(wrapper, header);
+
+      // 将当前 header 及随后到下一个 header 之前的节点全部移动进 wrapper
+      const nextHeader = sectionHeaders[idx + 1];
+      let node = header;
+      while (node) {
+        const next = node.nextSibling;
+        if (!next) {
+          wrapper.appendChild(node);
+          break;
+        }
+
+        // 如果即将移动的 next 节点本身或其后代包含 nextHeader，则停止（保持 nextHeader 及其容器在外部）
+        const willContainNextHeader = nextHeader && next.contains(nextHeader);
+
+        if (willContainNextHeader) {
+          break;
+        }
+
+        wrapper.appendChild(node);
+        node = next;
+      }
+    });
   });
 
   // Timeline动画效果

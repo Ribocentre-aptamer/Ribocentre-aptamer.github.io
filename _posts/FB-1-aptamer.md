@@ -5,41 +5,65 @@ date:   2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
-
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+</style>
+</head>
 <br>
 <br>
 
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+
+<p class="header_box" id="description">Description</p>
 <p>In 1998, Wilson, C. et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Fluorescein. The aptamer binds the fluorophore with high affinity, recognizing both the planar aromatic ring system and a negatively charged sulfonate, a rare example of anion recognition by RNA. In vitro tests showed that FB-1 can efficiently sequester fluorescein from solution and concentrate it, with minimal cross-binding to sulforhodamine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>SELEX was performed with a library containing ~5×10<sup>14</sup> random RNA molecules and selected RNAs for their ability to bind Fluorescein. After SELEX, researchers selected a number of sequences, including FB-1, to characterize their affinity for the dye and its spectral properties. It was isolated through mutagenesis of a sulforhodamine aptamer followed by re-selection. From this collection, FB-1 was identified as a clone that exhibited high-efficiency binding to fluorescein and minimal cross-binding to sulforhodamine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the article by online secondary structure prediction tool to draw. The figure shows the secondary structure prediction of the original aptamer sequence. The acquisition of this aptamer underwent a second round of screening. It consists of three stem loops of different lengths connected through junction. All three stem loops contain U-G non-classical pairings. The FB-1 aptamer was named by Wilson, C. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGACGGCACCACGGUCGGAUCCGUGAGUUGUGACAAUUUAGCGGGUGGUAUUAGAGCCUACUGCCACAGCAAUAGGAUCGAUACAGAUCU-3'</p>
 <img src="/images/2D/Fluorescein_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -47,12 +71,11 @@ categories: Aptamer
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-<div class="blowheader_box">SELEX ligand</div>
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>Fluorescein sodium is used extensively as a diagnostic tool in the field of ophthalmology. Fluorescein is a fluorescent compound or fluorophore having a maximum absorbance of 494 m and an emission maximum of 521 nm. The yellowish-green fluorescence of the compound can be used to demarcate the vascular area under observation, distinguishing it from adjacent areas. It is applied topically in the form of a drop or it can be injected intravenously to produce a fluorescein angiogram.-----From <a href="https://go.drugbank.com/drugs/DB00693" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -90,7 +113,9 @@ categories: Aptamer
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="blowheader_box">Similar compound(s)</div>                    
+
+
+<p class="blowheader_box">Similar compound(s)</p>                    
 <p>We screened the compounds with great similarity by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -176,15 +201,9 @@ categories: Aptamer
 <br>
 <br>
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] Isolation and characterization of fluorophore-binding RNA aptamers.</strong></font><br />
 Holeman, L. A., Robinson, S. L., Szostak, J. W., & Wilson, C.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/9889155/" target="_blank" style="color:#520049">Folding & design, 3(6), 423–431. (1998)</a>
 <br/>
-</div>
-

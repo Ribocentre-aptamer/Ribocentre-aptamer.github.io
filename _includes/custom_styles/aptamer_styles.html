@@ -282,12 +282,20 @@
     box-shadow: var(--box-shadow);
   }
 
-  .section-title {
+  .section-title,
+  .header_box {
     color: var(--primary-color);
     font-size: 24px;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--primary-color);
+    background: none;
+    font-weight: 600;
+  }
+
+  .header_box::before,
+  .header_box::after {
+    content: none !important;
   }
 
   .subsection-title {
@@ -676,6 +684,26 @@
     margin-top: 15px !important;
   }
 
+  /* 通用参考文献样式（当引用不位于 content-section 内时）*/
+  h2[id="references"] + a[id^="ref"],
+  a[id^="ref"] + a[id^="ref"] {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(82, 0, 73, 0.1);
+  }
+
+  a[id^="ref"]:nth-of-type(odd) {
+    background-color: rgba(245, 245, 245, 0.5);
+    padding: 10px;
+    border-radius: var(--border-radius);
+  }
+
+  a[id^="ref"] {
+    display: block !important;
+    margin-top: 15px !important;
+  }
+
   /* 响应式设计 */
   @media (max-width: 768px) {
     .side-nav ul {
@@ -753,4 +781,34 @@
       padding: 10px;
     }
   }
+
+  /* 页面外部框样式 */
+  .box_style {
+    background: #f4f4f4;
+  }
+
+  .wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .sectiontitle {
+    display: block;
+    max-width: 71%;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+  }
+
+  /* .well {
+    max-width: 71%;
+    margin: 0 auto;
+    border: 1px solid #C9C9C9;
+    background-color: #fff;
+  } */
 </style> 

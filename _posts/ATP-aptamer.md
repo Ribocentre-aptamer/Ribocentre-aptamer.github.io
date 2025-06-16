@@ -5,24 +5,48 @@ date:   2024-01-02 00:00:00
 author: Zhizhong Lu, Yangyi Ren
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
-
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+</style>
+</head>
 <br>
 <br>
 
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -31,6 +55,7 @@ categories: Aptamer
     <div class="body">
       <p>The aptamer was selected for the first time<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/7521014/" target="_blank" style="color:#520049">1994</a></h3>
@@ -38,6 +63,7 @@ categories: Aptamer
     <div class="body">
       <p>Used this aptamer to engineer ribozymes with polynucleotide kinase activity<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/8700212/" target="_blank" style="color:#520049">1996</a></h3>
@@ -45,6 +71,7 @@ categories: Aptamer
     <div class="body">
       <p>NMR structural of this aptamer in an AMP-RNA aptamer complex<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
+  </div>
     <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/8756406/" target="_blank" style="color:#520049">1996</a></h3>
@@ -52,6 +79,7 @@ categories: Aptamer
     <div class="body">
       <p>Another article, NMR structural of this aptamer in an AMP-RNA aptamer complex<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9081544/" target="_blank" style="color:#520049">1997</a></h3>
@@ -59,6 +87,7 @@ categories: Aptamer
     <div class="body">
       <p>Specific labeling approaches to guanine and adenine in the AMP-RNA aptamer complex<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9384529/" target="_blank" style="color:#520049">1997</a></h3>
@@ -66,6 +95,7 @@ categories: Aptamer
     <div class="body">
       <p>The comparison between the AMP-DNA aptamer and AMP-RNA aptamer complexes<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9159476/" target="_blank" style="color:#520049">1997</a></h3>
@@ -73,6 +103,7 @@ categories: Aptamer
     <div class="body">
       <p>Base-pair kinetics in the symmetrical AMP-RNA aptamer complex<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9257650/" target="_blank" style="color:#520049">1997</a></h3>
@@ -80,6 +111,7 @@ categories: Aptamer
     <div class="body">
       <p>A ribozyme was constructed by joining a hammerhead domain to an ATP-binding RNA aptamer<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
     </div>
+  </div>
 <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/14624002/" target="_blank" style="color:#520049">2003</a></h3>
@@ -87,6 +119,7 @@ categories: Aptamer
     <div class="body">
       <p>Evolution of aptamers with a new specificity and new secondary structures from an ATP aptamer<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12873145/" target="_blank" style="color:#520049">2003</a></h3>
@@ -94,6 +127,7 @@ categories: Aptamer
     <div class="body">
       <p>A novel, modification-dependent ATP-binding aptamer<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/15237981/" target="_blank" style="color:#520049">2004</a></h3>
@@ -101,6 +135,7 @@ categories: Aptamer
     <div class="body">
       <p>A new aptamer with strong and specific recognition of the triphosphate of ATP<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29248297/" target="_blank" style="color:#520049">2018</a></h3>
@@ -108,33 +143,34 @@ categories: Aptamer
     <div class="body">
       <p>Conversion of ATP-binding RNA aptamer to quencher-free molecular aptamer beacon<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup></p>
     </div>
+  </div>
+</div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+         
+<p class="header_box" id="description">Description</p>
 <p>In 1993, Szostak et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for ATP. Subsequently, they used this motif to design ribozymes displaying polynucleotide kinase activity. In 1996, Dinshaw J. Patel et al. elucidated the structure of the aptamer complexed with AMP using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>In 1993, Szostak et al. used the SELEX method to isolate a small RNA motif that bound ATP. They initiated the in vitro selection experiments by creating a large pool of random polynucleotide sequences, which were then subjected to repeated cycles of enrichment for those species that exhibited the desired characteristics, followed by amplification of the selected pool. The process began with a pool of 169-nucleotide-long RNAs, which consisted of approximately 10<sup>14</sup> distinct sequences. They isolated RNA molecules capable of binding ATP using affinity chromatography on ATP-agarose columns, where the ATP was attached to the agarose at its C8 position. The RNA molecules that were retained by the ATP-agarose matrix were then eluted with ATP. Following this, the eluted RNA was amplified through reverse transcription and polymerase chain reaction (PCR). They produced an enriched pool of RNAs for the next cycle of selection by in vitro transcription of the double-stranded DNA templates generated in this manner. After six rounds of selection and amplification, a population of RNAs that were specifically eluted with ATP was obtained. From the eighth cycle RNA population, 39 clones were sequenced, revealing 17 distinct sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
-<div class="blowheader_box">2D representation</div>
+
+<p class="header_box" id="Structure">Structure</p>
+<p class="blowheader_box">2D representation</p>
 <p>In 1993, Szostak et al. obtained 17 different sequences through SELEX, and designed a 40 nt sequence after comparing the information of 17 sequences. The 40-nt aptamer is characterized by a sequence that forms a distinct secondary structure, as illustrated in the subsequent diagram. Here we utilized RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>5'-GGGUUGGGAAGAAACUGUGGCACUUCGGUGCCAGCAACCC-3'</p>
 <img src="/images/2D/ATP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="blowheader_box">3D visualisation</div>             
+
+
+<p class="blowheader_box">3D visualisation</p>             
 <p>In 1996, Roger A. Jones & Dinshaw J. Patel et al. presented the solution structure of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations. The PDB ID is 1AM0. Subsequently, T Dieckmann & J Feigon et al. presented the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, which was determined from NMR-derived distance and dihedral angle restraints. The PDB ID is 1RAW. Here, only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -143,6 +179,8 @@ categories: Aptamer
   <img src="/images/3D/ATP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <html lang="en">
+    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -150,6 +188,41 @@ categories: Aptamer
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection1 {
+            padding-top: 0px;
+          }
+          .controlsSection1 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox1 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer1{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -216,15 +289,34 @@ categories: Aptamer
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    
+    </div>
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        url:'/pdbfiles/1RAW-3D.pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+    </script>
     </body>
+    </html>
     </td>
   </tr>
   </table>
   </div>
   
 
-<div class="blowheader_box">Binding pocket</div>             
+
+<p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1RAW by NMR. Adenosine monophosphate (AMP) shown in sticks. Right: The hydrogen bonds of binding sites of the aptamer bound with AMP<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -238,12 +330,11 @@ categories: Aptamer
   <br>
   <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
+
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
-<div class="blowheader_box">SELEX ligand</div>
+<p class="blowheader_box">SELEX ligand</p>
 <p>Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution. These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
 Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -272,7 +363,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
   <img src="/images/SELEX_ligand/ATP_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
-<div class="blowheader_box">Structure ligand</div>
+<p class="blowheader_box">Structure ligand</p>
 <p>Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.-----From <a href="https://go.drugbank.com/drugs/DB00131" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -310,7 +401,8 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="blowheader_box">Similar compound(s)</div>
+
+<p class="blowheader_box">Similar compound(s)</p>
 <p>We screened compounds with a significant resemblance to AMP utilizing the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and presented some of the compounds' structural diagrams. For instances where some CAS numbers were unavailable, we intended to complement them with PubChem CIDs.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -390,11 +482,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <br>
 
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] An RNA motif that binds ATP.</strong></font><br />
 Sassanfar, M., & Szostak, J. W.<br />
@@ -455,6 +543,3 @@ Sazani, P. L., Larralde, R., & Szostak, J. W.<br />
 Park, Y., Nim-Anussornkul, D., Vilaivan, T., Morii, T., & Kim, B. H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/29248297/" target="_blank" style="color:#520049">Bioorganic & medicinal chemistry letters, 28(2), 77–80. (2018)</a>
 <br />
-
-</div>
-

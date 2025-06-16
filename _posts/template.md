@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "标题"
 date:   2024-09-09 00:00:00
 author: 作者名

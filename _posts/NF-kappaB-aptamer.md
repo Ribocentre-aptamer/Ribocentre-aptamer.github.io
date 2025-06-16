@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "NF-kappaB P50 aptamer"
 date:   2024-03-01 00:00:00
 author: Zhizhong Lu, Ying Ao

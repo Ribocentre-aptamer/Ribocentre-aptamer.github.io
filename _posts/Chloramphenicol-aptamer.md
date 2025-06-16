@@ -5,50 +5,76 @@ date:   2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
-
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+</style>
+</head>
 <br>
 <br>
 
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+
+<p class="header_box" id="description">Description</p>
 <p>In 1997, Gold, L.et al. had been isolated mainly Cam-specific RNA aptamers to study RNA–antibiotic interactions. In 2011, Mehtaet al.engineered DNA aptamers that recognize Cam as their target, by conducting in vitro selections<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>Gold, L. et al. used SELEX to isolate two independent RNA populations with 70 or 80 random positions from random starting pools containing 10¹⁴-10¹⁵ sequences. After 12 cycles, 74 distinct sequences were identified among the 96 isolates sequenced, with 12 sequences found in pairs of identical or nearly identical isolates, 2 sequences found in three different isolates, and 2 sequences found in four different isolates. All other sequences were found only once<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. 70Cam6 aptamer was named by Gold, L<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGGAAAAGCGAAUCAUACACAAGAAUGAAAAGGGCUGGCGAGACAUAUCCGCUGGGCAAUCAGAUUCGGAGCCGCACCACCCUCGAAGUAGACAGGGCAUAAGGUAUUUAAUUCCAUA-3'</p>
 <img src="/images/2D/70cam6_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-<div class="blowheader_box">SELEX ligand</div>
+
+
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>Chloramphenicol is a broad spectrum antibiotic that is effective against a variety of susceptible and serious bacterial infections but is not frequently used because of its high risk of bone marrow toxicity.-----From <a href="https://en.wikipedia.org/wiki/Chloramphenicol" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -83,7 +109,9 @@ categories: Aptamer
 <img src="/images/SELEX_ligand/70cam6_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <br>
 
-<div class="blowheader_box">Similar compound(s)</div>                    
+
+
+<p class="blowheader_box">Similar compound(s)</p>                    
 <p>We screened the compounds with great similarity to by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -134,11 +162,7 @@ categories: Aptamer
 <br>
 <br>
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1]  RNA aptamers to the peptidyl transferase inhibitor chloramphenicol.</strong></font><br/>
 Burke, D. H., Hoffman, D. C., Brown, A., Hansen, M., Pardi, A., & Gold, L.<br/>
@@ -149,5 +173,3 @@ Burke, D. H., Hoffman, D. C., Brown, A., Hansen, M., Pardi, A., & Gold, L.<br/>
 Mehta, J., Van Dorst, B., Rouah-Martin, E., Herrebout, W., Scippo, M. L., Blust, R., & Robbens, J.<br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/21839787/" target="_blank" style="color:#520049">Journal of biotechnology, 155(4), 361–369 (2011)</a>
 <br/>
-</div>
-

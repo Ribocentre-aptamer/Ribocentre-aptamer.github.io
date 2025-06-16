@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Mango aptamer(TO1-biotin)"
 date:   2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
@@ -66,12 +66,7 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
 </style>
 </head>
 <br>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "ligand 1.1 aptamer"
 date:   2024-05-08 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -65,12 +65,7 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
 </style>
 </head>
 <br>

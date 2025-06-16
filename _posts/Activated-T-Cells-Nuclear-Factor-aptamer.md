@@ -5,41 +5,52 @@ date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
 
-<div class="content-section">
-
+</style>
+</head>
 <br>
 <br>
 
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+
+<p class="header_box" id="description">Description</p>
 <p>Lee, S. W. et al. reported aptamers with affinity for nuclear factor of activated T cells in their article published in 2002. The SE RNA #1 aptamer was named by Lee, S. W. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 2002, Lee, S. W. et al. used SELEX to isolate RNA aptamer sequences with affinity for nuclear factor of activated T cells from a nucleic acid library containing about 10<sup>14</sup> 94-nucleotides-long sequences after 10 rounds of selection process. To remove nonspecific RNAs with binding activity to agarose beads, the RNA library was pre-incubated with agarose beads<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the article by online secondary structure prediction tool to draw. The figure shows the secondary structure prediction of the original aptamer sequence. This aptamer contains three stem loops of different lengths with G-U non-canonical base pairings. Three stem loops are connected by two junctions. The 5' and 3' ends of aptamer each has an overhang<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGGAGAGCGGAAGCGUGCUGGGCCUCUGUUCCCAAGGGAAUACUGGUCGUGUUGGAUCAGGUUGGCAUAACCCAGAGGUCGAUGGAUCCCCCC-3'</p>
 <img src="/images/2D/SE-RNA1_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -47,12 +58,11 @@ categories: Aptamer
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-<div class="blowheader_box">SELEX ligand</div>
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>NFATC1 plays a role in the inducible expression of cytokine genes in T-cells, especially in the induction of the IL-2 or IL-4 gene transcription. NFATC1 also controls gene expression in embryonic cardiac cells. It could regulate not only the activation and proliferation but also the differentiation and programmed death of T-lymphocytes as well as lymphoid and non-lymphoid cells. It is also required for osteoclastogenesis and regulates many genes important for osteoclast differentiation and function.-----From <a href="https://www.uniprot.org/uniprotkb/O95644/entry" target="_blank" style="color:#520049; text-decoration: underline;"><b>Uniprot</b></a></p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
@@ -117,7 +127,9 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<div class="blowheader_box">Similar compound(s)</div>                    
+
+
+<p class="blowheader_box">Similar compound(s)</p>                    
 <p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
 
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
@@ -206,16 +218,36 @@ categories: Aptamer
 <br>
 <br>
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] In vitro selection of specific RNA inhibitors of NFATc.</strong></font><br />
 Bae, S. J., Oum, J. H., Sharma, S., Park, J., & Lee, S. W.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/12408978/" target="_blank" style="color:#520049">Biochemical and biophysical research communications, 298(4), 486–492. (2002)</a>
 <br/>
 
-</div>
 
+
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>

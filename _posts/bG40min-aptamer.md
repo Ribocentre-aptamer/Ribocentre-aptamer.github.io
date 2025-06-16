@@ -1,21 +1,10 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "bG40min aptamer"
 date:   2024-05-22 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
 <html>
 <head>
   <style>
@@ -76,12 +65,7 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
 </style>
 </head>
 <br>
@@ -97,28 +81,22 @@ categories: Aptamer
     </ul>
 </div>
 
-<font>
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2></font>
+
+<font><p class="header_box" id="description">Description</p></font>
 <font>Donald H Burke et al. screened Boron-containing aptamers to ATP, suggesting that boronated nucleotides could be used to develop boronated RNA ligands for boron neutron capture therapy with potential therapeutic applications<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>Burke DH et al. constructed an RNA library containing 70 random nucleotides by an in vitro transcription method and performed 7 to 10 rounds of screening using the SELEX technique for RNA aptamers capable of specifically binding ATP. During the screening process, some of the RNAs were synthesized with boron-containing nucleotide analogs, bG or bU, instead of normal GTP or UTP. Ultimately, the investigators identified aptamers containing the ζ-structure from the bU and control pools, while this structure was not found in the bG pool. In particular, the ATP-binding specificity of the bG40min aptamer was verified by affinity chromatography experiments, which involved the use of different concentrations of ATP and its analogs to assess its binding and elution properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw. bG40min aptamer binding to ATP.<br></font>
 <font><p>5'-GGGAAAAGCGAAUCAUACACAAGAUUCACUCUACACCCAUGUCCCUAGGACUACAGGUUAACUACAAACCUCGAUCCGGUGCUUAGGGUGUGCUGG-3'</p></font>
 <img src="/images/2D/bG40min_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -126,13 +104,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
-<font >
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2></font>  
 
-<div class="blowheader_box">SELEX ligand</div>
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+
+<p class="blowheader_box">SELEX ligand</p>
 <font>ATP is an adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways. It has a role as a nutraceutical, a micronutrient, a fundamental metabolite and a cofactor. It is an adenosine 5'-phosphate and a purine ribonucleoside 5'-triphosphate. It is a conjugate acid of an ATP(3-).-----From ChEBI</font>
 <br>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -163,7 +139,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/SELEX_ligand/bG40min_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <br>
 
-<div class="blowheader_box">Similar compound</div>                    
+
+
+<p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the PubChem database to screen compounds that were more similar to ATP, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
@@ -216,16 +194,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] Boron-containing aptamers to ATP.</strong></font><br/>
 Lato SM, Ozerova ND, He K, Sergueeva Z, Shaw BR, Burke DH<br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/11884639/" target="_blank" style="color:#520049">Nucleic acids research. 2002 Mar 15;30(6):1401-7. (2002)</a>
 <br/>
+
+
+
+
 
 <html lang="en">
     <head>
@@ -270,7 +248,21 @@ Lato SM, Ozerova ND, He K, Sergueeva Z, Shaw BR, Burke DH<br/>
           }
         </style>
     </head>
-    
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        url:'/pdbfiles/1RAW-3D.pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+    </script>
     </html>
-</div>
-

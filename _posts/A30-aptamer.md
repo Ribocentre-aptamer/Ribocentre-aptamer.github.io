@@ -5,25 +5,67 @@ date:   2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
 ---
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
 <!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
 <font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
 <br /-->
 
+<html>
+<head>
+  <style>
+    /* 按钮容器样式 */
+    .button-container {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 50px;
+    }
+    /* 按钮样式 */
+    .button {
+      display: block;
+      padding: 10px;
+      font-size:24px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #ffffff;
+      color: #520049;
+      text-decoration: none;
+      border: 1px solid #520049;
+      border-radius: 5px;
+    }
+    /* 鼠标悬停样式 */
+    .button:hover {
+      background-color: #c9c5c5;
+      cursor: pointer;
+    }
+  </style>
+</head>
+</html>
+
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
+  
+
+</style>
+</head>
+<br>
+<br>
+
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
   <div class="title">
@@ -32,6 +74,7 @@ categories: Aptamer
   <div class="body">
     <p>An aptamer called A30, which binds specifically to the HER3, was selected for the first time by the SELEX methodology<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -40,29 +83,25 @@ categories: Aptamer
   <div class="body">
     <p>Yu X et al. developed a three-in-one nucleic acid aptamer-small interfering RNA (siRNA) chimera<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
   </div>
-
-<font>
+ </div>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2></font>
+
+
+<font><p class="header_box" id="description">Description</p></font>
 <font>In 2003, Chen C.H and Chernis G.A had used the SELEX  methodology to select RNA aptamers against the oligomeric state of the extracellular domains of HER3. One of the aptamers, A30, binds with high affinity to a limited number of binding sites in the oligomeric state of the extracellular domains of HER3<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>In 2003, Chen C.H et al. chose to make a filter binding assay was used for the first eight rounds of selection.A gel-shift assay was used in the last seven rounds of selection. Then, the cDNA was PCR-amplified for the next round of selection. Finally,  Individual clones were obtained by ligation of the PCR product into either pGEM4 or pGEM3Z vectors after digestion with EcoRI and BamHI<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>5'-GGGAAUUCCGCGUGUGCCAGCGAAAGUUGCGUAUGGGUCACAUCGCAGGCACAUGUCAUCUGGGCGGUCCGUUCGGGAUCCUC-3'</p></font>
 <img src="/images/2D/A30_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -70,13 +109,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
-<font >
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2></font>  
 
-<div class="blowheader_box">SELEX ligand</div>
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>HER3 binds the neuregulin ligands, NRG1 and NRG2, and it relies on its heterodimerization partners for activity following ligand binding. The HER2-HER3 heterodimer constitutes a high affinity co-receptor capable of potent mitogenic signaling. HER3 participates in a signaling pathway involved in the proliferation, survival, adhesion, and motility of tumor cells.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -127,7 +164,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<div class="blowheader_box">Similar compound</div>                    
+
+<p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
@@ -213,12 +251,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
+
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] Inhibition of heregulin signaling by an aptamer that preferentially binds to the oligomeric form of human epidermal growth factor receptor-3.</strong></font><br />
 Chen CH, Chernis GA, Hoang VQ, Landgraf R.<br />
@@ -230,13 +265,99 @@ Yu X, Ghamande S, Liu H, Xue L, Zhao S, Tan W, Zhao L, Tang SC, Wu D, Korkaya H,
 <a href="https://pubmed.ncbi.nlm.nih.gov/29499944/" target="_blank" style="color:#520049">Mol Ther Nucleic Acids, 10:317-330. (2017)</a>
 <br/>
 
+
+
+<html lang="en">
+    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
-    
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection1 {
+            padding-top: 0px;
+          }
+          .controlsSection1 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox1 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer1{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+    </script>
 
-</div>
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var td = document.getElementsByName('td4')[0];
+      var maxLength = 100; // 设置最大长度
+      var originalText = td.innerHTML;
+      var displayedText = originalText.substring(0, maxLength);
+      
+      if (originalText.length > maxLength) {
+        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
+        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
+        td.innerHTML = displayedText;
+        
+        // 获取省略号按钮元素和隐藏的内容元素
+        var ellipsisBtn = td.querySelector('.ellipsis-btn');
+        var hiddenContent = td.querySelector('.hidden-content');
+        
+        // 添加点击事件监听器
+        ellipsisBtn.addEventListener('click', function() {
+          if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'inline'; // 展开内容
+            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          } else {
+            hiddenContent.style.display = 'none'; // 收起内容
+            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
+            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
+          }
+        });
+      }
+    });
+  </script>
 
+
+    </html>

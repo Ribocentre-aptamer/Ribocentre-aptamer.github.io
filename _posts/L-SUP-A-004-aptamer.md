@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "L-SUP-A-004 aptamer"
 date:   2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -65,12 +65,7 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
 </style>
 </head>
 <br>

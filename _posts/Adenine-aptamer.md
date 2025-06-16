@@ -5,50 +5,76 @@ date:   2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
-
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+</style>
+</head>
 <br>
 <br>
 
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+
+<p class="header_box" id="description">Description</p>
 <p>In 2002, Meli and Décout discovered that the adenine binding site consists of two separate secondary structure elements forming a two-part binding site that interacts with adenine in a novel manner of purine recognition<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>Meli and Décout used SELEX technology to screen for RNA aptamers capable of binding to adenine. They started with a pool of RNA containing a random sequence of 50 nucleotides. After 12 rounds of selection using an adenine-agarose affinity chromatography column, the RNA sequences that bound to adenine were eluted, and 18 different high-affinity RNA aptamers were identified through cloning and sequencing<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw. RNA 12 E4 aptamer binding to Adenine. RNA 12 E4 aptamer was named by Maurel, M. C<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGGAGAGGAUACUACACGUGAUAGGACGAUUAUCGAAAAUCACCAGAUUGGACCCUGGUUAACGAUCCAUUGCAUGUAGCAGAAGCUUCCG-3'</p>
 <img src="/images/2D/Adenine_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>  
 
-<div class="blowheader_box">SELEX ligand</div>
+
+
+<p class="header_box" id="ligand-recognition">Ligand information</p>  
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>Adenine is a purine base which forms a component of DNA among other functions and is present in many multivitamins.-----From <a href="https://go.drugbank.com/drugs/DB00173" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -84,7 +110,10 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<div class="blowheader_box">Similar compound(s)</div>                    
+
+
+
+<p class="blowheader_box">Similar compound(s)</p>                    
 <p>We screened the compounds with great similarity to by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -156,16 +185,9 @@ categories: Aptamer
 <br>
 <br>
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1]  Adenine-aptamer complexes: a bipartite RNA site that binds the adenine nucleic base.</strong></font><br/>
 Meli, M., Vergne, J., Décout, J. L., & Maurel, M. C.<br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/11705996/" target="_blank" style="color:#520049">The Journal of biological chemistry, 277(3), 2104–2111. (2002)</a>
 <br/>
-
-</div>
-

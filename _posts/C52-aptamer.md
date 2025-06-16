@@ -5,24 +5,40 @@ date:   2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
 
-<div class="content-section">
-
+</style>
+</head>
 <br>
 <br>
 
+
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
   <div class="title">
@@ -31,6 +47,7 @@ categories: Aptamer
   <div class="body">
     <p>Aptamers were found to be functionally equivalent to the RBE when the assay system was saturated with Rev and better than the wild-type element when Rev was limiting<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -39,6 +56,7 @@ categories: Aptamer
   <div class="body">
     <p>Using the SELEX method, Ellington, A. D. and colleagues obtained a series of anti-peptide aptamers that can recognize amino acid sequences<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -47,6 +65,7 @@ categories: Aptamer
   <div class="body">
     <p>HIV-1 17-mer rev peptide and RNA aptamer complex formation involves adaptive binding with the alpha-helical arginine-rich basic rev peptide targeting a widened RNA major groove centred about adjacent G.A and reversed A.A mismatches<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -55,6 +74,7 @@ categories: Aptamer
   <div class="body">
     <p>Specific inhibition of viral p24 production following co-transfection of the anti-HIV Rev-binding aptamer and HIV proviral DNAs was observed<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -63,6 +83,7 @@ categories: Aptamer
   <div class="body">
     <p>More than half of the residues have increased flexibility in the Rev-RNA aptamer complex that has a higher affinity. This further suggests that the retention of conformational flexibility may be important in high-affinity ARM-RNA recognition<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -71,26 +92,25 @@ categories: Aptamer
   <div class="body">
     <p>Wingfield, P. T. et al. present the crystal structure of Rev93:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
   </div>
+ </div>
+</div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+
+<p class="header_box" id="description">Description</p>
 <p>In 1996, Ellington, A. D. and colleagues used the SELEX method to isolate the anti-peptide aptamers with high affinity for the HIV-1 Rev protein. HIV-1 Rev protein were selected from a random sequence RNA pool. Several of the selected RNAs could bind the free peptide more tightly than a natural RNA ligand, the Rev-binding element. In accord with the hypothesis that protein and nucleic acid binding cusps are functionally similar, interactions between aptamers and the peptide target could be disrupted by sequence substitutions. Moreover, the aptamers appeared to be able to bind peptides with different solution conformations, implying an induced fit mechanism for binding. Just as anti-peptide antibodies can sometimes recognize the corresponding epitope when presented in a protein, the anti-peptide aptamers were found to specifically bind to Rev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>In 1996, Ellington, A. D. and colleagues used existing research to design the method required for the SELEX process. The RNA recognition domain of HIV-1 Rev is an ARM that spans residues 34-50. A 17-mer peptide (sRev) corresponding to this domain was used as a target for in vitro selection experiments. A RNA pool containing 71 random sequence positions was incubated with an affinity resin containing sRev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <p>C52 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Rev protein. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. The C52 aptamer was named by Ellington, A. D. et al. in the article<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>5'-GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU-3'</p>
 <img src="/images/2D/C52_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -98,12 +118,11 @@ categories: Aptamer
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-<div class="blowheader_box">SELEX ligand</div>
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----From <a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00424/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
@@ -182,7 +201,8 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<div class="blowheader_box">Similar compound(s)</div>                    
+
+<p class="blowheader_box">Similar compound(s)</p>                    
 <p>We used the RCSB PDB website's <a href="https://www.rcsb.org/docs/search-and-browse/advanced-search/structure-similarity-search" target="_blank" style="color:#520049; text-decoration: underline;"><b>similar structure search</b></a> to find the top 10 structures similar to HIV-1 REV PROTEIN (residues T34-R50), and calculated TM-socre values and RMSD values using the <a href="https://zhanggroup.org/TM-align/" target="_blank" style="color:#520049; text-decoration: underline;"><b>TM-align website</b></a>.</p>
 
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
@@ -264,12 +284,9 @@ categories: Aptamer
 <br>
 <br>
 
+
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] RNA aptamers selected to bind human immunodeficiency virus type 1 Rev in vitro are Rev responsive in vivo.</strong></font><br />
 Symensma, T. L., Giver, L., Zapp, M., Takle, G. B., & Ellington, A. D.<br />
@@ -301,5 +318,28 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
 <a href="https://pubmed.ncbi.nlm.nih.gov/30017564/" target="_blank" style="color:#520049">Structure (London, England : 1993), 26(9), 1187–1195.e4. (2018)</a>
 <br/>
 
-</div>
 
+<script>
+    function toggleSequence(event) {
+      const container = event.target.closest('.sequence-container');
+      container.classList.toggle('expanded');
+      const showMoreText = container.querySelector('.show-more');
+      
+      // 展开后按钮文本变化
+      if (container.classList.contains('expanded')) {
+        showMoreText.textContent = '...';  // 展开后显示 "..."
+      } else {
+        showMoreText.textContent = '......';  // 收起后显示 "......"
+      }
+    }
+
+    // 页面加载时，限制序列文本为50个字符
+    window.addEventListener('load', function() {
+      const sequenceContainers = document.querySelectorAll('.sequence-container');
+      sequenceContainers.forEach(container => {
+        const fullSeqText = container.querySelector('.full-sequence').textContent;
+        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        container.querySelector('.sequence-text').textContent = truncatedText;
+      });
+    });
+  </script>

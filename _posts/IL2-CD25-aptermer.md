@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "IL2-CD25 aptermer"
 date:   2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
@@ -65,12 +65,7 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
 </style>
 </head>
 <br>

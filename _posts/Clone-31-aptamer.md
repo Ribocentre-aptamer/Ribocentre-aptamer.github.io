@@ -5,28 +5,90 @@ date:   2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
 <!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
 <font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
 <br /-->
 
+<html>
+<head>
+  <style>
+    /* 按钮容器样式 */
+    .button-container {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 50px;
+    }
+    /* 按钮样式 */
+    .button {
+      display: block;
+      padding: 10px;
+      font-size:24px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #ffffff;
+      color: #520049;
+      text-decoration: none;
+      border: 1px solid #520049;
+      border-radius: 5px;
+    }
+    /* 鼠标悬停样式 */
+    .button:hover {
+      background-color: #c9c5c5;
+      cursor: pointer;
+    }
+  </style>
+</head>
+</html>
+
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
+   .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+      height:40px;
+  }
+
+</style>
+</head>
 <br>
 <br>
 
+
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
   <div class="title">
@@ -35,6 +97,7 @@ categories: Aptamer
   <div class="body">
     <p>Starting from a RNA pool that has a 120 base random sequence core, aptamers that bind specifically to the Tat protein were selected by repeating 11 rounds of selection and amplification<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -43,6 +106,7 @@ categories: Aptamer
   <div class="body">
     <p>Rika Yamamoto et al. used an in vitro selection method and isolated a novel aptamer RNATat, a 37-mer RNA oligomer, that binds efficiently to the Tat protein of HIV-1<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -51,6 +115,7 @@ categories: Aptamer
   <div class="body">
     <p>Junji Kawakami et al. used Zn<sup>2+</sup> for in vitro selecting to isolate novel RNA molecules that bind to the HIV-1 Tat protein, known as zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -59,6 +124,7 @@ categories: Aptamer
   <div class="body">
     <p>Akimasa Matsugami et al. determined the structure of an aptamer complexed with two argininamide molecules, two adjacent U:A:U base triples were formed<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -67,6 +133,7 @@ categories: Aptamer
   <div class="body">
     <p>Yudai Yamaoki et al. proposed an RNA aptamer that acquires binding capacity against HIV-1 Tat protein via G-quadruplex formation in response to potassium ions<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -75,6 +142,7 @@ categories: Aptamer
   <div class="body">
     <p>Mustafa Oguzhan Caglayan et al. reported the HIV-Tat protein detection performance of antiTat aptamers both for the spectroscopic ellipsometry (SE) and for the surface plasmon resonance enhanced total internal reflection ellipsometry (SPReTIRE) for the first time<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -83,29 +151,27 @@ categories: Aptamer
   <div class="body">
     <p>Using in vitro nuclear magnetic resonance (NMR), Omar Eladl et al. found that two U-A∗U base triples are formed in aptamer upon binding of Tat<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
   </div>
-
-<font>
+ </div>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2></font>
+
+
+
+
+<font><p class="header_box" id="description">Description</p></font>
 <font>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn<sup>2+</sup> to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn<sup>2+</sup>. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn<sup>2+</sup> and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn<sup>2+</sup> existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <font>Clone 31 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Tat protein. The 2D structure of the figures is based on the article by ribodraw tool to draw. These are two different prediction results in the article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
 <font><p>5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p></font>
  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
@@ -120,12 +186,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
-<font>
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-information">Ligand information</h2></font>  
-<div class="blowheader_box">SELEX ligand</div>
+
+<font><p class="header_box" id="ligand-information">Ligand information</p></font>  
+<p class="blowheader_box">SELEX ligand</p>
 <font>The retroviral Tat protein binds to the TAR RNA. This activates transcriptional initiation and elongation from the LTR promoter. Binding is mediated by an arginine rich region.-----From Pfam</font>
 <br>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -177,7 +241,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<div class="blowheader_box">Similar compound</div>                    
+
+
+<p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
@@ -254,12 +320,10 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
+
+
         
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] In vitro selection of RNA aptamers that can bind specifically to Tat protein of HIV-1.</strong></font><br />
 Yamamoto, R., Toyoda, S., Viljanen, P., Machida, K., Nishikawa, S., Murakami, K., Taira, K., & Kumar, P. K.<br />
@@ -296,13 +360,65 @@ Eladl, O., Yamaoki, Y., Kondo, K., Nagata, T., & Katahira, M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/37240414/" target="_blank" style="color:#520049">International journal of molecular sciences, 24(10), 9069. (2023)</a>
 <br/>
 
+
+<html lang="en">
+    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
-    
-
-</div>
-
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection1 {
+            padding-top: 0px;
+          }
+          .controlsSection1 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox1 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer1{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        url:'/pdbfiles/1RAW-3D.pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+    </script>
+    </html>

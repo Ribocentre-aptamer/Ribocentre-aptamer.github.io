@@ -5,24 +5,54 @@ date:   2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
 
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+</style>
+</head>
 <br>
 <br>
 
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
   <div class="title">
@@ -31,6 +61,7 @@ categories: Aptamer
   <div class="body">
     <p>A 49-nt aptamer, Broccoli, which binds and activates the fluorescence of (Z)-4-(3,5-difluoro-4-hydroxybenzylidene)-1,2-dimethyl-1Himidazol-5(4H)-one was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -39,6 +70,7 @@ categories: Aptamer
   <div class="body">
     <p>A natural threeway junction structure to generate alternative scaffold that used to create cassettes containing up to four Broccoli units and enables stable aptamer expression in cells was designed<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -47,6 +79,7 @@ categories: Aptamer
   <div class="body">
     <p>RNA imaging with dimeric Broccoli in live bacterial and mammalian cells<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -55,6 +88,7 @@ categories: Aptamer
   <div class="body">
     <p>Broccoli can be modified  to contain other base modifications<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -63,6 +97,7 @@ categories: Aptamer
   <div class="body">
     <p>The broccoli RNA structure was found to be very similar to baby spinach<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -71,6 +106,7 @@ categories: Aptamer
   <div class="body">
     <p>A study of the performance of distinct RNA Spinach and Broccoli aptamer sequences in isolation or inserted into the small subunit of the bacterial ribosome<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -79,6 +115,7 @@ categories: Aptamer
   <div class="body">
     <p>Split-Broccoli, which represents the first functional split-aptamer system to operate in vivo, was designed<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -87,6 +124,7 @@ categories: Aptamer
   <div class="body">
     <p>The development of an aptamer-initiated fluorescence complementation method for RNA imaging by engineering a GFP-mimicking turn-on RNA aptamer, Broccoli, into two split fragments that could tandemly bind to target mRNA was reported<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -95,6 +133,7 @@ categories: Aptamer
   <div class="body">
     <p>A dynamic systems for molecular computing which can be used to monitor real-time processes in cells and construct biocompatible logic gates was designed<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -103,6 +142,7 @@ categories: Aptamer
   <div class="body">
     <p>An expression system in which Broccoli can be introduced for achieving rapid RNA circularization, resulting in RNA aptamers with high stability and expression levels was designed<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -111,6 +151,7 @@ categories: Aptamer
   <div class="body">
     <p>Computational screening was used to identify a DFHBI derivative that binds Broccoli with higher affinity and leads to markedly higher fluorescence in cells compared to previous ligands<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -119,6 +160,7 @@ categories: Aptamer
   <div class="body">
     <p>A new fluorophore which binds Red Broccoli with high affinity and makes Red Broccoli resistant to thermal unfolding was developed<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -127,6 +169,7 @@ categories: Aptamer
   <div class="body">
     <p>A straightforward and cost-effective platform for assessing transcription in vitro which used the “Broccoli” RNA aptamer as a direct, real-time fluorescent transcript readout was developed<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -135,6 +178,7 @@ categories: Aptamer
   <div class="body">
     <p>Broccoli was introduced to serve as the substate of activated CRISPR-Cas13a to monitor the presence of pathogen RNAs<sup>[<a href="#ref14" style="color:#520049">14</a>]</sup></p>
   </div>
+ </div>
             
  <div class="entry">
   <div class="title">
@@ -143,35 +187,37 @@ categories: Aptamer
   <div class="body">
     <p>A novel fluorophore for the Broccoli fluorogenic aptamer, TBI, was described<sup>[<a href="#ref15" style="color:#520049">15</a>]</sup></p>
   </div>
+ </div>
+</div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+<p class="header_box" id="description">Description</p>
 <p>Jaffrey, S. R. et al. reported Broccoli, a 49-nt aptamer which binds and activates the fluorescence of (Z)-4-(3,5-difluoro-4-hydroxybenzylidene)-1,2-dimethyl-1Himidazol-5(4H)-one in their article published in 2002. Broccoli shows robust green fluorescence in cells, with increased fluorescence relative to other RNA aptamers like Spinach2. This enhanced brightness makes it more easily detectable in imaging applications. It has a high folding efficiency in vitro, similar to Spinach2, but with reduced dependence on magnesium for proper folding. This allows Broccoli to function well in the cellular environment where magnesium concentrations may vary<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+
+<p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 2014, Jaffrey, S. R. et al. used SELEX to isolate RNA aptamer Broccoli from a nucleic acid library containing about 10<sup>14</sup> sequences after 6 rounds of selection process. In each round, the RNA library is incubated with the target molecule. RNA sequences that bind to the target are separated and then amplified via RT-PCR to create a new library for the next round of selection. After several rounds, RNA sequences with high affinity for the target are enriched<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+
+<p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the article by online secondary structure prediction tool to draw. The Figure shows the secondary structure prediction of the Broccoli aptamer sequence. This aptamer is an optimized sequence. Its main part is just one stem loop with many bulges. The Broccoli aptamer was named by Jaffrey, S. R. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GAGACGGUCGGGUCCAGAUAUUCGUAUCUGUCGAGUAGAGUGUGGGCUC-3'</p>
 <img src="/images/2D/DFHBI-1T_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-<div class="blowheader_box">SELEX ligand</div>
+
+
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>DFHBI-1T is a membrane-permeable RNA aptamers-activated fluorescence probe. DFHBI-1T binds to RNA aptamers (Spinach, Spinach2, iSpinach, and Broccoli) and causes specific fluorescence and lower background fluorescence. DFHBI-1T is used to image RNA in live cells.-----From <a href="https://www.medchemexpress.cn/dfhbi-1t.html" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -228,7 +274,9 @@ categories: Aptamer
 	  </tbody>
   </table>
 
-<div class="blowheader_box">Similar compound(s)</div>                    
+
+
+<p class="blowheader_box">Similar compound(s)</p>                    
 <p>We screened the compounds with great similarity by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -314,11 +362,7 @@ categories: Aptamer
 <br>
 <br>
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] Broccoli: rapid selection of an RNA mimic of green fluorescent protein by fluorescence-based selection and directed evolution.</strong></font><br />
 Filonov, G. S., Moon, J. D., Svensen, N., & Jaffrey, S. R.<br />
@@ -394,5 +438,3 @@ Zhang, T., Zhou, W., Lin, X., Khan, M. R., Deng, S., Zhou, M., He, G., Wu, C., D
 Li, X., Wu, J., & Jaffrey, S. R.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/34490956/" target="_blank" style="color:#520049">Angewandte Chemie, 60(45), 24153–24161. (2021)</a>
 <br/>
-</div>
-

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "HIV Tat aptamer"
 date:   2024-04-20 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -8,34 +8,7 @@ categories: Aptamer
 <html>
 <head>
   <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
+
   </style>
 </head>
 </html>
@@ -68,12 +41,7 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */

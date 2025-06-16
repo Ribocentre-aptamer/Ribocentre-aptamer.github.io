@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "TbRIII-aptamer"
 date:   2024-05-20 00:00:00
 author: Bichun Wu, Jiaxin Zhao
@@ -41,36 +41,8 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+  
+
 </style>
 </head>
 <br>

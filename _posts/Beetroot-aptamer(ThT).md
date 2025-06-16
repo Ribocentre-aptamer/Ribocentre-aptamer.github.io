@@ -5,26 +5,88 @@ date:   2024-04-30 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
 <!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
+<html>
+<head>
+  <style>
+    /* 按钮容器样式 */
+    .button-container {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 50px;
+    }
+    /* 按钮样式 */
+    .button {
+      display: block;
+      padding: 10px;
+      font-size:24px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #ffffff;
+      color: #520049;
+      text-decoration: none;
+      border: 1px solid #520049;
+      border-radius: 5px;
+    }
+    /* 鼠标悬停样式 */
+    .button:hover {
+      background-color: #c9c5c5;
+      cursor: pointer;
+    }
+  </style>
+</head>
+</html>
 
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
+  .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+      height:40px;
+  }
+
+</style>
+</head>
 <br>
 <br>
 
+
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -33,6 +95,7 @@ categories: Aptamer
     <div class="body">
       <p>Corn aptamer competent for RNA polymerase III transcription imaging was developed<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31178406/" target="_blank" style="color:#520049">2019</a></h3>
@@ -40,6 +103,7 @@ categories: Aptamer
     <div class="body">
       <p>Co-crystal of homodimeric RNA Corn and ThT binding to G quadruplexes was determined<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37221204/" target="_blank" style="color:#520049">2023</a></h3>
@@ -47,38 +111,34 @@ categories: Aptamer
     <div class="body">
       <p>The structure of the complexes of Beetroot with Thioflavin-T is determined<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
-
-         
-<font>
+  </div>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2></font>
+
+         
+<font><p class="header_box" id="description">Description</p></font>
 <font>In 2022, Jiahui Wu, et al. developed Beetroot aptamer, which enables to bind DFAME and forms an RNA-fluorophore complex. In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-ThT complex through crystallization, diffraction data collection and NMR spectroscopy<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>About ~10<sup>14</sup> random RNA sequences was used in the systematic evolution of ligands by exponential enrichment approach to generated aptamers that bind DFHO. DFHO with an aminohexyl linker was synthesized so that this fluorophore could be attached to solid support. After eight rounds of SELEX, a single 119 nucleotides-long aptamer (aptamer 6-1) that induced the fluorescence of DFHO was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
-<div class="blowheader_box">2D representation</div>
+<p class="header_box" id="Structure">Structure</p>
+<p class="blowheader_box">2D representation</p>
 <font><p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
 <font><p>5'-GUUAGGCAGAGGUGGGUGGUGUGGAGGAGUAUCUGUC-3'</p></font>
 <img src="/images/2D/ThT_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<div class="blowheader_box">3D visualisation</div>             
+
+<p class="blowheader_box">3D visualisation</p>             
 <font>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
@@ -86,6 +146,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <img src="/images/3D/ThT_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <html lang="en">
+    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -93,6 +155,41 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection1 {
+            padding-top: 0px;
+          }
+          .controlsSection1 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox1 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer1{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -230,15 +327,35 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    
+    </div>
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        url:'/pdbfiles/8eyw.pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+    </script>
     </body>
+    </html>
     </td>
   </tr>
   </table>
   </div>
   
 
-<div class="blowheader_box">Binding pocket</div>             
+
+
+<p class="blowheader_box">Binding pocket</p>             
 <font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYW by X-ray crystallography. Thioflavin T(ThT)(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with ThT or other nucleotides surround small molecules.</font>
 <br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
@@ -253,13 +370,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <br>
   <br>
 
-<font >
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2></font>  
+
+
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
   
-<div class="blowheader_box">SELEX ligand</div>
+<p class="blowheader_box">SELEX ligand</p>
 <font>K<sub>d</sub> is calculated by both ITC and measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration (50 nM) of RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</font >
 <div style="display: flex; justify-content: center;">
 <br>
@@ -289,7 +405,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <img src="/images/SELEX_ligand/ThT_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
-<div class="blowheader_box">Structure ligand</div>
+<p class="blowheader_box">Structure ligand</p>
 <font><p>ThT (Thioflavin T) are fluorescent dyes used for histology staining and biophysical studies of protein aggregation and investigate amyloid formation. They are also used in biophysical studies of the electrophysiology of bacteria.-----From Wikipedia</p></font>
 
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -321,7 +437,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </table>
 <div style="display: flex; justify-content: center;"></div>
                     
-<div class="blowheader_box">Similar compound</div>
+<p class="blowheader_box">Similar compound</p>
 <font><p>We screened the compounds with great similarity to ThT by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -403,11 +519,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] Imaging RNA polymerase III transcription using a photostable RNA-fluorophore complex.</strong></font><br />
 Song, W., Filonov, G. S., Kim, H., Hirsch, M., Li, X., Moon, J. D., & Jaffrey, S. R.<br />
@@ -423,5 +535,3 @@ Sjekloća, L., & Ferré-D'Amaré, A. R.<br />
 Passalacqua, L. F. M., Starich, M. R., Link, K. A., Wu, J., Knutson, J. R., Tjandra, N., Jaffrey, S. R., & Ferré-D'Amaré, A. R.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/37221204/" target="_blank" style="color:#520049">Nature communications, 14(1), 2969. (2023)</a>
 <br />
-</div>
-

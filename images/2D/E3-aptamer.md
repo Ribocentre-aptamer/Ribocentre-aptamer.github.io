@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "E3 aptamer"
 date:   2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao

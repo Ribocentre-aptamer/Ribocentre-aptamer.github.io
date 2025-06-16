@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Gastrointestinal cancer antigen 50-aptamer"
 date:   2024-05-29 00:00:00
 author: Yangyi Ren, Chen Ke
@@ -69,12 +69,7 @@ categories: Aptamer
       width:170px;
      height:40px;
   }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
+
   .ellipsis-btn {
       color: #520049;
       cursor: pointer;

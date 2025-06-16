@@ -5,41 +5,65 @@ date:   2024-05-21 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
 
-<div class="content-section">
 
-<div class="content-section">
-
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+</style>
+</head>
 <br>
 <br>
 
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+
+<p class="header_box" id="description">Description</p>
 <p>In 2000, Piganeau and Jenne isolated RNA binding to some dyes through in vitro selection experiments. And they applied a novel in vitro selection strategy based on allosteric inhibition of a hammerhead ribozyme fused to a randomized RNA library by low concentrations of the antibiotic doxycycline. Selection for allosteric inhibition led to 10–50-fold responses, at nanomolar concentrations of a nontoxic, cell-permeable molecule of low molecular weight. When inserted into the mRNA of a certain target gene, allosteric molecular switches of this type may serve as a valuable tool for the development of tailored conditional gene expression systems that can be controlled by the presence or absence of any kind of small molecule<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>The researchers constructed an RNA library containing randomised sequences, which were then fused with the sequence of a hammerhead ribozyme. Through multiple rounds of selection, using doxycycline as a “switch molecule,” they identified ribozyme mutants that were inhibited by doxycycline. These mutants exhibited significant inhibition in the presence of doxycycline, but regained activity when doxycycline was absent. Using this approach, the researchers successfully isolated RNA aptamers with high affinity and specificity for doxycycline, with inhibition constants (Ki) as low as 20 nanomolar. These aptamers showed high specificity for doxycycline and did not react significantly with tetracycline, which has a similar structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
+<p class="header_box" id="Structure">Structure</p>
 <p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the left figure(1D16-05) is based on the article, and the right figure(1D16-13) is based on the prediction results of the RNA fold website. 1D16-05 aptamer and 1D16-13 aptamer binding to Doxycyline. 1D16-05 aptamer and 1D16-13 aptamer was named by Famulok, M<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>1D16-05 aptamer: 5'-GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUGGUACAGUCCAGGGUGAAGUUCCAAUUUUGAACACCUCCACGAAACUACCUCGAGACGU-3'</p>
 <img src="/images/2D/Doxycyline_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -50,12 +74,11 @@ categories: Aptamer
 <br>
 <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-<div class="blowheader_box">SELEX ligand</div>
+<p class="header_box" id="ligand-recognition">Ligand information</p>
+
+<p class="blowheader_box">SELEX ligand</p>
 <p>Doxycycline is a tetracycline antibiotic used to treat a wide variety of bacterial infections.-----From <a href="https://go.drugbank.com/drugs/DB00254" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -90,7 +113,8 @@ categories: Aptamer
 <img src="/images/SELEX_ligand/Doxycyline_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <br>
 
-<div class="blowheader_box">Similar compound(s)</div>                    
+
+<p class="blowheader_box">Similar compound(s)</p>                    
 <p>We screened the compounds with great similarity to by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -155,16 +179,9 @@ categories: Aptamer
 <br>
 <br>
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1]  An Allosteric Ribozyme Regulated by Doxycyline.</strong></font><br/>
 Piganeau, N., Jenne, A., Thuillier, V., & Famulok, M.<br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/29711918/" target="_blank" style="color:#520049">Angewandte Chemie (International ed. in English), 39(23), 4369–4373. (2000)</a>
 <br/>
-
-</div>
-

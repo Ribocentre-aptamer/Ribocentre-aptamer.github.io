@@ -5,24 +5,71 @@ date:   2024-03-29 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
+  .header_box {
+    display: block;
+    font-size: 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:190px;
+      height:40px;
+  }
 
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+</style>
+</head>
 <br>
 <br>
 
+
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -31,6 +78,7 @@ categories: Aptamer
     <div class="body">
       <p>Corn aptamer competent for RNA polymerase III transcription imaging was developed<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/28945234/" target="_blank" style="color:#520049">2017</a></h3>
@@ -38,6 +86,7 @@ categories: Aptamer
     <div class="body">
       <p>Corn-DFHO co-crystal structure was reported<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31178406/" target="_blank" style="color:#520049">2019</a></h3>
@@ -45,6 +94,7 @@ categories: Aptamer
     <div class="body">
       <p>Co-crystal of homodimeric RNA Corn and ThT binding to G quadruplexes  was determined<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
+  </div>
     <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31631009/" target="_blank" style="color:#520049">2019</a></h3>
@@ -52,6 +102,7 @@ categories: Aptamer
     <div class="body">
       <p>A strategy for converting Corn dimer into a biosensor that detects S-adenosylmethionine in vitro and in living cells<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34028262/" target="_blank" style="color:#520049">2021</a></h3>
@@ -59,6 +110,7 @@ categories: Aptamer
     <div class="body">
       <p>Utilization of Corn as a split aptamer system for monitoring RNA self-assembly and sensing microRNA<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35294188/" target="_blank" style="color:#520049">2022</a></h3>
@@ -66,6 +118,7 @@ categories: Aptamer
     <div class="body">
       <p>An approach for inducing RNA self-assembly using dimeric Corn and Beetroot aptamers, enable multiplexing of distinct RNA assemblies in cells<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37171156/" target="_blank" style="color:#520049">2023</a></h3>
@@ -73,6 +126,7 @@ categories: Aptamer
     <div class="body">
       <p>A fluorescent light-up biosensor for detection of lncRNAs by coupling target recycling amplification with transcription-driven synthesis of Corns<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37221204/" target="_blank" style="color:#520049">2023</a></h3>
@@ -80,33 +134,31 @@ categories: Aptamer
     <div class="body">
       <p>The Beetroot-DFAME co-crystal structure was determined, from whose guide a variant toward DFHO was generated<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
     </div>
+  </div>
+</div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+         
+<p class="header_box" id="description">Description</p>
 <p>In 2017, Wenjiao Song et al. developed DFHO aptamer, named Corn, which enables monitoring of Pol III transcript levels by forming a light-stable RNA-fluorophore complex with fluorophores. In the same year, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 <br>
 <br>
 
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 10<sup>14</sup> random RNA libraries that served as ligand systems. DFHO with aminohexyl linkers was synthesized for attachment to solid support. Boc-protected DFHO linker was synthesized followed by the removal of the Boc protecting group to generate DFHO linker. DFHO-binding aptamers were recovered on DFHO-derivatized agarose beads. After 8 rounds of SELEX, we identified a single 119 nt-long aptamer (Aptamer 6-1) that induced the fluorescence of DFHO, with an excitation maximum (ExMax) of 505 nm and an emission maximum (EmMax) of 545 nm. This aptamer was truncated to a 76 nt-long aptamer (T1) that retained the ability to induce DFHO fluorescence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
 
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
-<div class="blowheader_box">2D representation</div>
+<p class="header_box" id="Structure">Structure</p>
+<p class="blowheader_box">2D representation</p>
 <p>Then T1 performed further truncation analysis, resulting in the generation of T2, a 28-nt long aptamer that retained the ability to induce DFHO fluorescence. Because of the yellow fluorescence of this RNA-fluorophore complex, this aptamer was designated Corn. Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>5'-GGCGCGAGGAAGGAGGUCUGAGGAGGUCACUGCGCC-3'</p>
 <img src="/images/2D/DFHO_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="blowheader_box">3D visualisation</div>             
+
+<p class="blowheader_box">3D visualisation</p>             
 <p>In 2017, Warner, K. D. et al. determined the crystal structure of the Corn-DFHO complex at 2.51 Å resolution, discovering that the functional species is a quasisymmetric homodimer. The homodimer encapsulates one DFHO at its inter-protomer interface, sandwiching it with a G-quadruplex from each protomer. The PDB ID of this structure is 5BJP<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -115,6 +167,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <img src="/images/3D/DFHO_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <html lang="en">
+    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -122,6 +176,41 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection1 {
+            padding-top: 0px;
+          }
+          .controlsSection1 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox1 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer1{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -316,14 +405,34 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    
+    </div>
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        url:'/pdbfiles/5bjp.pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+</script>
 </body>
+</html>
 </td>
 </tr>
 </table>
 </div>
 
-<div class="blowheader_box">Binding pocket</div>             
+
+
+<p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5BJP by X-ray crystallography. DFHO(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHO or other nucleotides surround small molecules.</p>
 <br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
@@ -338,12 +447,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <br>
   <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
+
+<p class="header_box" id="ligand-recognition">Ligand information</p>
   
-<div class="blowheader_box">SELEX ligand</div>
+<p class="blowheader_box">SELEX ligand</p>
 <p>The K<sub>d</sub> was determined by both ITC and measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration (50 nM) of RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -372,7 +480,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <img src="/images/SELEX_ligand/DFHO_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
-<div class="blowheader_box">Structure ligand</div>
+<p class="blowheader_box">Structure ligand</p>
 <p>DFHO is a fluorogenic ligand of Corn fluorogenic aptamer. The RNA aptamer, Corn binds DFHO with a Kd value of 70 nM and converts it to a fluorescent form, enabling RNA imaging in cells. -----From <a href="https://www.medchemexpress.cn/dfho.html?src=bd-product" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -410,7 +518,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </table>
 <div style="display: flex; justify-content: center;"></div>
                     
-<div class="blowheader_box">Similar compound</div>
+<p class="blowheader_box">Similar compound</p>
 <p>We screened the compounds with great similarity to DFHO by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -489,12 +597,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
+
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] Imaging RNA polymerase III transcription using a photostable RNA–fluorophore complex.</strong></font><br />
 Song, W., Filonov, G. S., Kim, H., Hirsch, M., Li, X., Moon, J. D., & Jaffrey, S. R.<br />
@@ -535,6 +640,4 @@ Zhang, Q., Su, C., Tian, X., & Zhang, C. Y.<br />
 Passalacqua, L. F. M., Starich, M. R., Link, K. A., Wu, J., Knutson, J. R., Tjandra, N., Jaffrey, S. R., & Ferré-D'Amaré, A. R.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/37221204/" target="_blank" style="color:#520049">Nature communications, 14(1), 2969. (2023)</a>
 <br />
-
-</div>
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Theophylline aptamer_old"
 date:   2024-04-24 00:00:00
 author: Linfei Li, Jiali Wang

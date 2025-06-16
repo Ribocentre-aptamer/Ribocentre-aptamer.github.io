@@ -5,24 +5,72 @@ date:   2024-06-09 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
+<html>
+<head>
+  <style>
 
-<div class="content-section">
+  </style>
+</head>
+</html>
 
-<div class="content-section">
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"> 
+<style>
+ .header_box {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:190px;
+      height:40px;
+  }
 
-<div class="content-section">
-
-<div class="content-section">
-
-<div class="content-section">
-
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+</style>
+</head>
 <br>
 <br>
 
+
+<div class="side-nav">
+<ul>
+    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
+    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
+    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
+    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
+    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
+    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
+    </ul>
 </div>
 
-<div class="content-section">
-<h2 class="section-title" id="timeline">Timeline</h2>
+
+<p class="header_box" id="timeline">Timeline</p>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -31,6 +79,7 @@ categories: Aptamer
     <div class="body">
       <p>The Clivias, a series of small, monomeric and stable orange-to-red fluorescent RNAs with large Stokes shifts of up to 108 nm, was developed<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
+  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/38816645/" target="_blank" style="color:#520049">2024</a></h3>
@@ -38,33 +87,33 @@ categories: Aptamer
     <div class="body">
       <p>The tertiary structure of Clivia-NBSI was determined<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
+  </div>
+</div>
 
-<div class="content-section">
-<h2 class="section-title" id="description">Description</h2>
+
+         
+<p class="header_box" id="description">Description</p>
 <p>In a work published in 2023, Aiming Ren, Linyong Zhu and Yi Yang et al. isolated a series of RNA aptamers, named Clivias, which binds NBSI and transform its optical properties. Later, in a work published in 2024, the structure of the Clivia-NBSI derivates complex is analyzed by crystallization, diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <br>
 <br>
 
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="SELEX">SELEX</h2>
+<p class="header_box" id="SELEX">SELEX</p>
 <p>Aiming Ren, Linyong Zhu and Yi Yang et al. performed SELEX with a library containing ~4<sup>52</sup> random library members and selected RNA sequences for their ability to bind NBSI derivates. The selection process went through 8 rounds. After SELEX, researchers selected a number of sequences, including Clivias, to characterize their affinity for the dye and its spectral properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="Structure">Structure</h2>
-<div class="blowheader_box">2D representation</div>
+
+<p class="header_box" id="Structure">Structure</p>
+<p class="blowheader_box">2D representation</p>
 <p>Clivias aptamers were the aptamer sequences mainly studied in SELEX article. The predicted secondary structure of Clivia contains two stems, that are connected by one big internal loop. Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>5'-GAAGAUUGUAAACAUGCCGAAAGGCAGACACUUCC-3'</p>
 <img src="/images/2D/Clivia_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-<div class="blowheader_box">3D visualisation</div>             
+
+<p class="blowheader_box">3D visualisation</p>             
 <p>Aiming Ren, Linyong Zhu and Yi Yang et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivia-NBSI complex. The overall structure of the complex adopts a coaxial long helix fold and is stabilized by continuous stacking interactions from the bottom stem P1 to the apical stem P2 with the ligand NBSI intercalated in the zipped junction region at the interface of stems P1 and P2. The PDB ID of these structures are 8HZE (1.59 Å)<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -73,12 +122,49 @@ categories: Aptamer
   <img src="/images/3D/NBSI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <html lang="en">
+    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>PDBe Molstar</title>
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          .msp-plugin ::-webkit-scrollbar-thumb {
+              background-color: #474748  !important;
+          }
+          .msp-plugin .msp-layout-standard {
+              border: 1px solid #efefef;
+          }
+          .viewerSection1 {
+            padding-top: 0px;
+          }
+          .controlsSection1 {
+            width: 300px;
+              display: flex;
+              float:left;
+              padding: 0px 0 0 0;
+              height:25px;
+            }
+            .controlBox1 {
+              border: 0px solid lightgray;
+              padding: 0px;
+              margin-bottom: 0px;
+            }
+          #myViewer1{
+            float:left;
+            width:500px;
+            height: 500px;
+            position:relative;
+          }
+        </style>
+    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -143,14 +229,33 @@ categories: Aptamer
       </div>
     <div class="viewerSection1">
       <div id="myViewer1"></div>
-    
+    </div>
+    <script>
+      var viewerInstance1 = new PDBeMolstarPlugin();
+      var options1 = {
+        customData:{
+        url:'/pdbfiles/8hze.pdb',
+        format: 'pdb'},
+        expanded: false,
+        hideControls: true,
+        bgColor: {r:255, g:255, b:255},
+        }
+      var viewerContainer1 = document.getElementById('myViewer1');
+      viewerInstance1.render(viewerContainer1, options1);
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+</script>
 </body>
+</html>
 </td>
 </tr>
 </table>
 </div>
 
-<div class="blowheader_box">Binding pocket</div>             
+
+<p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8HZE by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -164,18 +269,17 @@ categories: Aptamer
   <br>
   <br>
 
-</div>
 
-<div class="content-section">
-<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 
-<div class="blowheader_box">SELEX ligand</div>
+<p class="blowheader_box">SELEX ligand</p>
 <p>To determine the dissociation constants of Clivia with different fluorophores, 20 nM Clivia RNA was incubated with increasing concentrations of the fluorophore (0–5 μM) and the fluorescence intensity at the corresponding spectra was measured using a Neo2 multi-mode microplate reader(BioTek). The resulting data were fitted to a curve based on the Hill equation: Y = Bmax · Xh/(Kd + Xh), where Bmax represents the maximum specific binding parameter in the same units as Y, h represents the Hill slope and Kd represents the concentration needed to achieve a half-maximum binding at equilibrium<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <img src="/images/SELEX_ligand/NBSI_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<div class="blowheader_box">Structure ligand</div>
+
+<p class="blowheader_box">Structure ligand</p>
 <p>NBSI is a typical chromophore structure consisting of an electron donor and an electron acceptor linked by π conjugation. NBSI exhibit a large Stokes shift of 80 nm when it was constrained in glycerol.-----From Nature methods, 20(10), 1563–1572.</p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -215,7 +319,8 @@ categories: Aptamer
   </tr>
   </table>
 
-<div class="blowheader_box">Similar compound(s)</div>
+
+<p class="blowheader_box">Similar compound(s)</p>
 <p>We screened the compounds with great similarity to NBSI581 by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -308,12 +413,9 @@ categories: Aptamer
 <br>
 <br>
 
+
                  
-
-</div>
-
-<div class="content-section">
-<h2 class="section-title" id="references">References</h2>
+<p class="header_box" id="references">References</p>
                 
 <a id="ref1"></a><font><strong>[1] Large Stokes shift fluorescent RNAs for dual-emission fluorescence and bioluminescence imaging in live cells.</strong></font><br />
 Jiang, L., Xie, X., Su, N., Zhang, D., Chen, X., Xu, X., Zhang, B., Huang, K., Yu, J., Fang, M., Bao, B., Zuo, F., Yang, L., Zhang, R., Li, H., Huang, X., Chen, Z., Zeng, Q., Liu, R., Lin, Q., … Yang, Y.<br />
@@ -324,5 +426,3 @@ Jiang, L., Xie, X., Su, N., Zhang, D., Chen, X., Xu, X., Zhang, B., Huang, K., Y
 Huang, K., Song, Q., Fang, M., Yao, D., Shen, X., Xu, X., Chen, X., Zhu, L., Yang, Y., & Ren, A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/38816645/" target="_blank" style="color:#520049">Nature chemical biology, 10.1038/s41589-024-01633-1. (2024)</a>
 <br />
-</div>
-
