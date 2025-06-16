@@ -5,6 +5,17 @@ date:   2024-05-13 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
 <font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
 <br /-->
@@ -90,22 +101,28 @@ categories: Aptamer
     </ul>
 </div>
 
+<font>
+</div>
 
-
-<font><p class="header_box" id="description">Description</p></font>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2></font>
 <font>In 1993, Jellinek, D. had isolated RNA ligands with low-nanomolar affinity and high specificity to basic fibroblast growth factor from a pool of 10<sup>14</sup> molecules containing 30 randomized positions by the systematic evolution of ligands by exponential enrichment (SELEX) procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>Two SELEX experiments (A and B) targeting bFGF were initiated with separate pools of randomized RNA, each consisting of 10^14 molecules. The constant sequence regions that flank the randomized region, along with the corresponding primers. Both SELEX experiments were done with PBS as the selection buffer except that the SELEX experiment B also contained heparin at the constant heparin/bFGF weight ratio of 1:100. Significant improvement in affinity of RNA ligands to bFGF was observed after 10 and 13 rounds of SELEX with template/primer sets A and B, respectively. Individual members of the enriched pools were then cloned and sequenced as described<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="Structure">Structure</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
 <font>The 2D structure of the figures is based on the article and the prediction results of the RNA fold website by ribodraw tool to draw. Here, only the aptamer with the best affinity was selected for painting 2D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>7A aptamer: 5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br>26A aptamer: 5'-AACGCUCAACGUCAGAAGGCAACGUAUAGGCAAGCACACUUCGACAUGAGGC-3'</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
@@ -120,11 +137,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
+<font >
+</div>
 
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2></font>  
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
-
-<p class="blowheader_box">SELEX ligand</p>
+<div class="blowheader_box">SELEX ligand</div>
 <p>Fibroblast growth factor 2, also known as basic fibroblast growth factor (bFGF) and FGF-β, is a growth factor and signaling protein encoded by the FGF2 gene. It binds to and exerts effects via specific fibroblast growth factor receptor (FGFR) proteins, themselves a family of closely related molecules. Fibroblast growth factor protein was first purified in 1975; soon thereafter three variants were isolated: 'basic FGF' (FGF2); Heparin-binding growth factor-2; and Endothelial cell growth factor-2. Gene sequencing revealed that this group is the same FGF2 protein and is a member of a family of FGF proteins.-----From Wiki</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -238,8 +257,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-
-<p class="blowheader_box">Similar compound</p>                    
+<div class="blowheader_box">Similar compound</div>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
@@ -325,17 +343,17 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
-
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] High-affinity RNA ligands to basic fibroblast growth factor inhibit receptor binding.</strong></font><br />
 Jellinek, D., Lynott, C. K., Rifkin, D. B., & Janjić, N.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/7504300/" target="_blank" style="color:#520049">Proceedings of the National Academy of Sciences of the United States of America, 90(23), 11227–11231. (1993)</a>
 <br/>
-
-
-
 
 <html lang="en">
     <head>
@@ -380,54 +398,9 @@ Jellinek, D., Lynott, C. K., Rifkin, D. B., & Janjić, N.<br />
           }
         </style>
     </head>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
-
+    
 
     </html>
+
+</div>
+

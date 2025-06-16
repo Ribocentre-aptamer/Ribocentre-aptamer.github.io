@@ -5,6 +5,17 @@ date:   2024-05-31 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <html>
 <head>
   <style>
@@ -104,32 +115,34 @@ categories: Aptamer
     </ul>
 </div>
 
-
-
-<p class="header_box" id="description">Description</p>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2>
 <p>In 2000, Koizumi, M. and Breaker, R. R. isolated RNA aptamers binding to cAMPs through in vitro selection experiment. Two classes of RNA aptamers that bind the second messenger adenosine 3',5'-cyclic monophosphate (cAMP; 1) were isolated from a random-sequence pool using in vitro selection. Class I and class II aptamers are formed by 33- and 31-nucleotide RNAs, respectively, and each is comprised of similar stem-loop and single-stranded structural elements. Class II aptamers, which dominate the final selected RNA population, require divalent cations for complex formation and display a dissociation constant (K(D)) for cAMP of approximately 10 microM<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>Koizumi, M. and Breaker, R. R. used SELEX to isolate two classes of RNA aptamers from a random-sequence pool containing 50 nucleotides of random sequence. After four rounds of selection, more than 20% of the RNA population bound to the cAMP-derivatized column matrix and was subsequently eluted with 4 mM cAMP. Further analysis revealed that the final selected RNA population was dominated by class II aptamers, which require divalent cations for complex formation and display a dissociation constant (KD) for cAMP of ∼10 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="Structure">Structure</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
 <p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw. cAMP-b aptamer was named by Koizumi, M. and Breaker, R. R<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGAAGAGAUGGCGACUAAAACGACUUGUCGC-3'</p>
 <img src="/images/2D/cAMP_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-
-<p class="header_box" id="ligand-recognition">Ligand information</p>
-
-<p class="blowheader_box">SELEX ligand</p>
+<div class="blowheader_box">SELEX ligand</div>
 <p>Cyclic adenosine monophosphate (cAMP, cyclic AMP, or 3',5'-cyclic adenosine monophosphate) is a second messenger, or cellular signal occurring within cells, that is important in many biological processes. cAMP is a derivative of adenosine triphosphate (ATP) and used for intracellular signal transduction in many different organisms, conveying the cAMP-dependent pathway.-----From <a href="https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -165,9 +178,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-
-
-<p class="blowheader_box">Similar compound(s)</p>                    
+<div class="blowheader_box">Similar compound(s)</div>                    
 <p>We screened the compounds with great similarity to by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -239,9 +250,15 @@ categories: Aptamer
 <br>
 <br>
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1]  Molecular recognition of cAMP by an RNA aptamer.</strong></font><br/>
 Koizumi, M., & Breaker, R. R.<br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/10913311/" target="_blank" style="color:#520049"> Biochemistry, 39(30), 8983–8992. (2000)</a>
 <br/>
+</div>
+

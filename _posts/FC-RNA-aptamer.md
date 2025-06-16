@@ -1,140 +1,28 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "FC RNA aptamer"
 date:   2024-05-03 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <br>
 <br>
 
-
-<div class="side-nav">
-<ul>
-    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
-    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
-    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
-    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
-    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
-    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
-    </ul>
 </div>
 
-
-<p class="header_box" id="timeline">Timeline</p>
+<div class="content-section">
+<h2 class="section-title" id="timeline">Timeline</h2>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -143,7 +31,6 @@ categories: Aptamer
     <div class="body">
       <p>Isolated  RNA molecules that selectively bind to yeast Pol II<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16341226/" target="_blank" style="color:#520049">2006</a></h3>
@@ -151,7 +38,6 @@ categories: Aptamer
     <div class="body">
       <p>Report the crystal structure of FC RNA (aptamer) bound to Pol II<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29570714/" target="_blank" style="color:#520049">2018</a></h3>
@@ -159,7 +45,6 @@ categories: Aptamer
     <div class="body">
       <p>RNA sequences with high affinity to RNA Pol by performing genomic SELEX in Escherichia coli genome<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
-  </div>
     <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/32663063/" target="_blank" style="color:#520049">2020</a></h3>
@@ -167,36 +52,33 @@ categories: Aptamer
     <div class="body">
       <p>Identified a variety of Pol II-binding aptamers, the nascent RNA binds Pol II to silence its own expression<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
-  </div>
-</div>
 
-
-         
-<p class="header_box" id="description">Description</p>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2>
 <p>In 1997, Thomas, M. et al. isolated RNA aptamers targeted yeast RNA polymerase II (Pol II), one selected RNA ligand was a specific inhibitor of Saccharomyces cerevisiae Pol II. In 2006, Kettenberger, H. et al. determined the crystal structure of FC RNA aptamer bound to Pol II. The noncoding RNA B2 and the RNA aptamer FC bind RNA polymerase (Pol) II and inhibit messenger RNA transcription initiation<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
+</div>
 
-
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>RNA aptamers that bind to S. cerevisiae Pol II were selected using the SELEX strategy. The starting RNA library comprised a randomised region of 40 nucleotides, flanked by defined sequences at the 5′- and 3′-ends. An excess of RNA (40 pmol) was incubated with a highly purified preparation of Pol II (5 pmol). The RNA-protein complexes were retained on a nitrocellulose filter through filtration, while free RNAs passed through the membrane. After extensive washing of the membrane, the RNA-protein complexes were dissociated by phenol extraction, and the RNA was amplified. This selection and amplification procedure was repeated nine times, ultimately yielding a new RNA pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>   
 
+</div>
 
-
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
+<div class="blowheader_box">2D representation</div>
 <p>Here we used ribodraw to complete the figure, through the 3D structure information. FC* RNA aptamer was named by Cramer, P. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>5'-ACAGCACUGAUUGCGGUCGAGGUAGCUUGAUGG-3'</p>
 <img src="/images/2D/FC_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-
-
-<p class="blowheader_box">3D visualisation</p>             
+<div class="blowheader_box">3D visualisation</div>             
 <p>The FC RNA was co-crystallised with the complete 12-subunit Pol II, and its X-ray structure was determined at a resolution of 3.8 Å. The molecular architecture revealed that the FC RNA molecule was strategically positioned within the polymerase's active centre cleft, situated above the bridge helix. The RNA established contact with both the clamp and fork domains, which are located on opposing sides of the cleft. This is consistent with the cross-linking evidence that FC RNA interacts with the two major subunits of Pol II. The PDB ID for this structure is 2B63<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -205,8 +87,6 @@ categories: Aptamer
   <img src="/images/3D/FC_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -214,41 +94,6 @@ categories: Aptamer
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -368,33 +213,14 @@ categories: Aptamer
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    </div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/FC-2B63-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-</script>
+    
 </body>
-</html>
 </td>
 </tr>
 </table>
 </div>
 
-
-<p class="blowheader_box">Binding pocket</p>             
+<div class="blowheader_box">Binding pocket</div>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2B63 at 3.8 Å resolution. RNA polymerase (Pol) II (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with RNA polymerase (Pol) II. The hydrogen bond interaction refers to pymol prediction and articles.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -408,11 +234,12 @@ categories: Aptamer
   <br>
   <br>
 
+</div>
 
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
 
-<p class="header_box" id="ligand-recognition">Ligand information</p>
-
-<p class="blowheader_box">SELEX ligand</p>
+<div class="blowheader_box">SELEX ligand</div>
 <p>Affinity determined by in vitro binding assays. For filter-binding competition assays, 5′ 32P-labeled RNA was incubated with 100 nM protein under the same conditions, adding increasing amounts (1–1,000 nM) of unlabeled RNA competitor and then incubating at 30 °C for 30 min<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -489,8 +316,7 @@ categories: Aptamer
   </table>
   </div>
 
-
-<p class="blowheader_box">Structure ligand</p>
+<div class="blowheader_box">Structure ligand</div>
 <p>DNA-directed RNA polymerases (also known as DNA-dependent RNA polymerases) are responsible for the polymerisation of ribonucleotides into a sequence complementary to the template DNA. In eukaryotes, there are three different forms of DNA-directed RNA polymerases transcribing different sets of genes. Eukaryotic nuclei contain three distinct types of RNA polymerases that differ in the RNA they synthesise: RNA polymerase I: located in the nucleoli, synthesises precursors of most ribosomal RNAs. RNA polymerase II: occurs in the nucleoplasm, synthesises mRNA precursors. RNA polymerase III: also occurs in the nucleoplasm, synthesises the precursors of 5S ribosomal RNA, the tRNAs, and a variety of other small nuclear and cytosolic RNAs.</p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
@@ -532,8 +358,7 @@ categories: Aptamer
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
-
-<p class="blowheader_box">Similar compound</p>
+<div class="blowheader_box">Similar compound</div>
 <p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
 
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
@@ -616,10 +441,12 @@ categories: Aptamer
 <br>
 <br>
 
-
-
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] Selective targeting and inhibition of yeast RNA polymerase II by RNA aptamers.</strong></font><br />
 Thomas, M., Chédin, S., Carles, C., Riva, M., Famulok, M., & Sentenac, A.<br />
@@ -641,29 +468,5 @@ Boots, J. L., von Pelchrzim, F., Weiss, A., Zimmermann, B., Friesacher, T., Radt
 <a href="https://pubmed.ncbi.nlm.nih.gov/32663063/" target="_blank" style="color:#520049">Transcription, 11(5), 217–229. (2020)</a>
 <br />
 
+</div>
 
-
-<script>
-    function toggleSequence(event) {
-      const container = event.target.closest('.sequence-container');
-      container.classList.toggle('expanded');
-      const showMoreText = container.querySelector('.show-more');
-      
-      // 展开后按钮文本变化
-      if (container.classList.contains('expanded')) {
-        showMoreText.textContent = '...';  // 展开后显示 "..."
-      } else {
-        showMoreText.textContent = '......';  // 收起后显示 "......"
-      }
-    }
-
-    // 页面加载时，限制序列文本为50个字符
-    window.addEventListener('load', function() {
-      const sequenceContainers = document.querySelectorAll('.sequence-container');
-      sequenceContainers.forEach(container => {
-        const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
-        container.querySelector('.sequence-text').textContent = truncatedText;
-      });
-    });
-  </script>

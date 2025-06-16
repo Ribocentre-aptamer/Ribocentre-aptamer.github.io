@@ -1,108 +1,28 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "FMN aptamer"
 date:   2024-03-28 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <br>
 <br>
 
-
-<div class="side-nav">
-<ul>
-    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
-    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
-    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
-    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
-    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
-    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
-    </ul>
 </div>
 
-
-
-<p class="header_box" id="timeline">Timeline</p>
+<div class="content-section">
+<h2 class="section-title" id="timeline">Timeline</h2>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -111,7 +31,6 @@ categories: Aptamer
     <div class="body">
       <p>The aptamer was isolated for the first time<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/8642604/" target="_blank" style="color:#520049">1996</a></h3>
@@ -119,7 +38,6 @@ categories: Aptamer
     <div class="body">
       <p>NMR structural of this aptamer in an FMN-RNA aptamer complex<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubs.acs.org/doi/10.1021/ja962918p" target="_blank" style="color:#520049">1997</a></h3>
@@ -127,7 +45,6 @@ categories: Aptamer
     <div class="body">
       <p>The FMN-2 RNA Aptamer was used to study the flavin-dependent photolysis of RNA at the G'U base<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
-  </div>
     <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10397790/" target="_blank" style="color:#520049">1999</a></h3>
@@ -135,7 +52,6 @@ categories: Aptamer
     <div class="body">
       <p>A molecular dynamics simulation of the flavin mononucleotide-RNA aptamer complex<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/12903340/" target="_blank" style="color:#520049">2000</a></h3>
@@ -143,7 +59,6 @@ categories: Aptamer
     <div class="body">
       <p>The contribution of substrate binding to cooperative regulation during ribonuclease catalysis was investigated using FMN RNA Aptamer<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/11377174/" target="_blank" style="color:#520049">2001</a></h3>
@@ -151,7 +66,6 @@ categories: Aptamer
     <div class="body">
       <p>The contribution of substrate binding to allosteric regulation in the ribozyme catalysis has been investigated using allosteric ribozymes consisting of the hammerhead ribozyme and a  ̄avin mononucleotide (FMN) aptamer<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/14588007/" target="_blank" style="color:#520049">2003</a></h3>
@@ -159,7 +73,6 @@ categories: Aptamer
     <div class="body">
       <p>Electrochromatographic Retention Studies on a Flavin-Binding RNA Aptamer Sorbent<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16377778/" target="_blank" style="color:#520049">2005</a></h3>
@@ -167,7 +80,6 @@ categories: Aptamer
     <div class="body">
       <p>Identification of a 14mer RNA that recognizes and binds flavin mononucleotide with high affinity<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
     </div>
-  </div>
 <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16199761/" target="_blank" style="color:#520049">2005</a></h3>
@@ -175,7 +87,6 @@ categories: Aptamer
     <div class="body">
       <p>Competitive regulation of modular allosteric aptazymes by FMN RNA Aptamer<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16996258/" target="_blank" style="color:#520049">2007</a></h3>
@@ -183,7 +94,6 @@ categories: Aptamer
     <div class="body">
       <p>Computational selection of nucleic acid biosensors via a slip structure model<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25173759/" target="_blank" style="color:#520049">2014</a></h3>
@@ -191,34 +101,33 @@ categories: Aptamer
     <div class="body">
       <p>Role of Mg<sup>2+</sup> ions in flavin recognition by FMN RNA aptamer<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup></p>
     </div>
-  </div>
-</div>
 
-
-         
-<p class="header_box" id="description">Description</p>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2>
 <p>In 1994, Famulok, M. et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Flavin mononucleotide (FMN). In 1996, Patel, D. J. et al. elucidated the structure of the aptamer complexed with FMN using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
+</div>
 
-
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>Famulok, M. et al. performed the screening using an RNA 113-mer library containing 10<sup>15</sup> different sequences, each consisting of 14 random nucleotides surrounded by two specific primer binding sites. Specifically bound RNAs (aptamers) were selected from the RNA pool by affinity chromatography with a given cofactor (FMN)-derivatized agarose. RNA sequences bound to agarose were subsequently eluted with a solution containing the appropriate ligand. After six rounds of screening, a large number of RNAs bound to FMN and NAD+ columns. From the pool of FMN-selected RNAs, the researchers cloned and sequenced 17 different clones that demonstrated the ability to specifically bind FMN. These FMN-binding RNAs contained two conserved regions with the sequences AGGNUAU and AGAAGG. 13 FMN-binding RNAs contained the two conserved regions described above, and these sequences were surrounded by variable nucleotides that were capable of pairing to form defined secondary structures. The dissociation constants of the FMN-2 aptamer/FMN complexes were determined by analytical affinity chromatography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
+<div class="blowheader_box">2D representation</div>
 <p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGCGUGUAGGAUAUGCUUCGGCAGAAGGACACGCC-3'</p>
 <img src="/images/2D/FMN_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-
-<p class="blowheader_box">3D visualisation</p>             
+<div class="blowheader_box">3D visualisation</div>             
 <p>Patel, D. J. et al. presented the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of the complex of FMN bound to the conserved internal loop segment of a 35 nucleotide RNA aptamer identified through in vitro selection. Their comprehensive study reveals the detailed interactions between FMN and the RNA aptamer, including base-pair mismatches, a base-triple formation, and the specific intercalation of FMN's isoalloxazine ring into the RNA helix, contributing to our understanding of RNA folding and molecular recognition principles. The PDB ID of this structure is 1FMN<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -227,8 +136,6 @@ categories: Aptamer
   <img src="/images/3D/FMN_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -236,41 +143,6 @@ categories: Aptamer
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -342,33 +214,14 @@ categories: Aptamer
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    </div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1FMN.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-</script>
+    
 </body>
-</html>
 </td>
 </tr>
 </table>
 </div>
 
-
-<p class="blowheader_box">Binding pocket</p>             
+<div class="blowheader_box">Binding pocket</div>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1FMN by NMR. FMN (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -382,11 +235,11 @@ categories: Aptamer
   <br>
   <br>
 
+</div>
 
-
-
-<p class="header_box" id="ligand-recognition">Ligand information</p> 
-<p class="blowheader_box">SELEX ligand</p>
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2> 
+<div class="blowheader_box">SELEX ligand</div>
 <p>The dissociation constant (K<sub>d</sub>) of the FMN-2 aptamer/FMN complex was determined using analytical affinity chromatography by Famulok, M. et al. The specificity of this RNA was quantified by elution with 7,8-dimethylisobeacodyl, Flavin adenine dinucleotide (FAD), Adenosine triphosphate (ATP) and Guanosine triphosphate (GTP)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -414,7 +267,7 @@ categories: Aptamer
   <img src="/images/SELEX_ligand/FMN_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:400px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
 
-<p class="blowheader_box">Structure ligand</p>
+<div class="blowheader_box">Structure ligand</div>
 <p>Flavin mononucleotide (FMN) is a form of vitamin B2 used to restore riboflavin in anemia, migraine, alcoholism, and hyperhomocysteinemia.-----From Drugbank</p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -450,7 +303,7 @@ categories: Aptamer
 </table>
 <div style="display: flex; justify-content: center;"></div>
                     
-<p class="blowheader_box">Similar compound(s)</p>
+<div class="blowheader_box">Similar compound(s)</div>
 <p>We screened the compounds with great similarity to Flavin mononucleotide (FMN) by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -529,9 +382,12 @@ categories: Aptamer
 <br>
 <br>
 
-
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] Isolation of RNA Aptamers for Biological Cofactors by In Vitro Selection†.</strong></font><br />
 Dipl.-Chem. Petra Burgstaller, Dr. Michael Famulok<br />
@@ -588,3 +444,5 @@ Sengupta A, Gavvala K, Koninti RK, Hazra P.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/25173759/" target="_blank" style="color:#520049">J Photochem Photobiol B. 2014 Nov;140:240-8. (2014)</a>
 <br />
                        
+</div>
+

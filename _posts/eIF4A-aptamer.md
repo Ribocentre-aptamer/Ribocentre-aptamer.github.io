@@ -5,6 +5,17 @@ date:   2024-04-9 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
 ---
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <html>
 <head>
   <style>
@@ -131,23 +142,26 @@ categories: Aptamer
     </ul>
 </div>
 
-         
-<p class="header_box" id="description">Description</p>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2>
 <p>In 2003, Nakamura, Y. et al. generated the RNA aptamers 4Apt with high affinity for human eIF4A by SELEX, then confirming the secondary structure. Afterwards, in 2005, Nakamura, Y. et al. determined the solution structure of two essential nucleotide loops (AUCGCA and ACAUAGA) within the aptamer 4Apt using nuclear magnetic resonance (NMR) spectroscopy, and proposed that the AUCGCA loop is directly involved in the interaction with eIF4A<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>In 2003, high-affinity RNA aptamers for eIF4A were generated via in vitro RNA selection by Nakamura, Y. et al. These RNAs possess different binding affinities for eIF4A, with dissociation constants ranging from 10 nM to 10 μM.. Representative RNA sequences selected from randomized RNA libraries using different selection procedures. In selection I(+) and I(−), RNAs were selected from N40 pool in the presence and absence of ATP, respectively, via affinity precipitation with Ni-NTA agarose. Selection II and III used N40 and N30 pools, respectively, and RNAs were selected in the absence of ATP via nitrocellulose membrane trapping<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>   
 
+</div>
 
-
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
+<div class="blowheader_box">2D representation</div>
 <p>In the previous SELEX experiment, Aptamer no.21 was islated. Aptamer no.21 showed highest binding affinity to eIF4A among the selected aptamers, the 58 nt core structure of this aptamer is required for efficient recognition of eIF4A. Furthermore, the aptamer binds only to an intact eIF4A, and not to either domain when split at the linker of the ‘dumbbell’ structure. APT58 (58 nt long), a variant of the aptamer no.21 core structure that sustained 4 nt substitutions (G3→A, C6→U, G10→A and C12→U) for NMR analysis<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>5'-GGAGAUCGCACUCCACAUGUGAGUGAGGCCGAAACAUAGAUUCGACAGGAGGCUCACA-3'</p>
 <img src="/images/2D/eIF4A_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -155,8 +169,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </div>
 <br>
 
-
-<p class="blowheader_box">3D visualisation</p>             
+<div class="blowheader_box">3D visualisation</div>             
 <p>Nakamura, Y. et al. determined the solution structure of two essential nucleotide loops (AUCGCA and ACAUAGA) within the aptamer APT58 aptamer using NMR spectroscopy, suggesting that the C7 and C9 of the AUCGCA loop directly interact with eIF4A. Due to the lack of complex structure of 4Apt aptamer and eIF4A. In the AUCGCA loop, C7 and C9 are marked for the directly interacted bases, while ACCGCA loop forms a similar conformation to U-turn motif and that the U-turn like conformation could be important for eIF4A binding without directly interacted bases<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -275,33 +288,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    </div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/elF4A-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-</script>
-</body>
-</html>
+    
 </td>
 </tr>
 </table>
 </div>
 
-
-<p class="blowheader_box">Binding pocket</p>             
+<div class="blowheader_box">Binding pocket</div>             
 <p>Due to the lack of complex structure of APT58 aptamer and eIF4A. Through experiments, it is proved that C7 and C9 are related to the binding of eIF4A. Left: The aptamer in the tertiary structure, it's labeled C7, C9 in orange. Right: eIF4A (shown in vacuumm electrostatics), blue is positive charge, red is negative charge.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -315,9 +308,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <br>
   <br>
 
+</div>
 
-<p class="header_box" id="ligand-recognition">Ligand information</p>
-<p class="blowheader_box">SELEX ligand</p>
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
+<div class="blowheader_box">SELEX ligand</div>
 <p> The apparent dissociation constant of recombinant eIF4A for some selected RNAs was assessed by a nitrocellulose retention assay in the absence of ATP. The formation of RNA no.21 complexes on the surface-coupled eIF4A was also monitored in the absence of ATP in real time with a BIACORE 2000 instrument based on the surface plasmon resonance (SPR) technique<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -364,8 +359,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
   </div>
 
-
-<p class="blowheader_box">Structure ligand</p>
+<div class="blowheader_box">Structure ligand</div>
 <p>ATP-dependent RNA helicase which is a subunit of the eIF4F complex involved in cap recognition and is required for mRNA binding to ribosome. In the current model of translation initiation, eIF4A unwinds RNA secondary structures in the 5'-UTR of mRNAs which is necessary to allow efficient binding of the small ribosomal subunit, and subsequent scanning for the initiator codon.-----From <a href="https://www.ebi.ac.uk/interpro/protein/UniProt/P10081/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
@@ -407,11 +401,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
-
-
-
-
-<p class="blowheader_box">Similar compound</p>
+<div class="blowheader_box">Similar compound</div>
 <p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and selected the previous information with high similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p>
 
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
@@ -495,7 +485,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] RNA aptamers to initiation factor 4A helicase hinder cap-dependent translation by blocking ATP hydrolysis.</strong></font><br />
 Oguro, A., Ohtsu, T., Svitkin, YV., Sonenberg, N., & Nakamura, Y.<br />
@@ -508,28 +502,5 @@ Sakamoto, T., Oguro, A., Kawai, G., Ohtsu, T., & Nakamura, Y.<br />
 <br />
 </html>
 
+</div>
 
-<script>
-    function toggleSequence(event) {
-      const container = event.target.closest('.sequence-container');
-      container.classList.toggle('expanded');
-      const showMoreText = container.querySelector('.show-more');
-      
-      // 展开后按钮文本变化
-      if (container.classList.contains('expanded')) {
-        showMoreText.textContent = '...';  // 展开后显示 "..."
-      } else {
-        showMoreText.textContent = '......';  // 收起后显示 "......"
-      }
-    }
-
-    // 页面加载时，限制序列文本为50个字符
-    window.addEventListener('load', function() {
-      const sequenceContainers = document.querySelectorAll('.sequence-container');
-      sequenceContainers.forEach(container => {
-        const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
-        container.querySelector('.sequence-text').textContent = truncatedText;
-      });
-    });
-  </script>

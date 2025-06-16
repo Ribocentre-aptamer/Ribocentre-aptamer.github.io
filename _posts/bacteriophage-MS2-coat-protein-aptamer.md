@@ -5,6 +5,17 @@ date:   2024-03-01 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
 ---
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <html>
 <head>
   <style>
@@ -89,7 +100,6 @@ categories: Aptamer
 <br>
 <br>
 
-
 <div class="side-nav">
 <ul>
     <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
@@ -101,8 +111,8 @@ categories: Aptamer
     </ul>
 </div>
 
-
-<p class="header_box" id="timeline">Timeline</p>
+<div class="content-section">
+<h2 class="section-title" id="timeline">Timeline</h2>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -111,7 +121,6 @@ categories: Aptamer
     <div class="body">
       <p>Natural RNA sequences that bind to bacteriophage coat protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/1469719/" target="_blank" style="color:#520049">1992</a></h3>
@@ -119,7 +128,6 @@ categories: Aptamer
     <div class="body">
       <p>The aptamer is initially acquired through the SELEX<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
-  </div>
     <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/8440248/" target="_blank" style="color:#520049">1993</a></h3>
@@ -127,7 +135,6 @@ categories: Aptamer
     <div class="body">
       <p>The coat protein of the RNA bacteriophage MS2 binds a specific stem-loop structure in viral RNA<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/9461079/" target="_blank" style="color:#520049">1998</a></h3>
@@ -135,7 +142,6 @@ categories: Aptamer
     <div class="body">
       <p>Crystal structure of an RNA aptamer-protein complex at 2.8 Å resolution<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10606647/" target="_blank" style="color:#520049">2000</a></h3>
@@ -143,7 +149,6 @@ categories: Aptamer
     <div class="body">
       <p>RNA aptamers for the MS2 bacteriophage coat protein and the wild-type RNA operator have similar solution behaviour<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/11162119/" target="_blank" style="color:#520049">2001</a></h3>
@@ -151,7 +156,6 @@ categories: Aptamer
     <div class="body">
       <p>Probing the kinetics of formation of the bacteriophage MS2 translational operator complex: identification of a protein conformer unable to bind RNA<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
     </div>
-  </div>
 <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/15496523/" target="_blank" style="color:#520049">2004</a></h3>
@@ -159,32 +163,34 @@ categories: Aptamer
     <div class="body">
       <p>The crystal structure of a high affinity RNA stem-loop complexed with the bacteriophage MS2 capsid: further challenges in the modeling of ligand-RNA interactions<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup></p>
     </div>
-  </div>
-</div>
 
-         
-<p class="header_box" id="description">Description</p>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2>
 <p>In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high compatibility for the Bacteriophage R17 Coat Protein. Sequences 1-38 were isolated from the sequence pool, where sequences 7, 12, and 22 detected affinity and Bacteriophage R17 coat proteins. Afterwards, In 1998, S E Phillips and P G Stockley et al. They obtained F6 aptamer by analyzing natural wild-type RNA and truncating the mutation, and determined the complex structure of this aptamer with wild type MS2 coat protein by X-ray crystallographic methods<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a>]</sup>. The F6 aptamer was named by Liljas et al. in the article<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br></p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>In 1992, Craig Tuerk and Larry Gold et al. isolated 47 specific sequences targeting R17 coat proteins from a 32nt sequence pool after 11 rounds of selection. The affinity had increased significantly. Unlabeled RNA was denatured at 70°C for 3 minutes and then renatured at 4°C for 5 minutes prior to each selection. Within a 100 μl reaction that contained 100mM KOAc, 10 mM DTT, and 50 mM Tris at pH 7.5, R17 coat protein was permitted to equilibrate with an excess of RNA for 3 minutes at 37°C. Selections 1 to 4 were conducted at a protein concentration of 125 nm, while selections 5 to 11 were at 40 nM. All selections took place at an RNA concentration of 30 μm. As the initial selection involved 3x10<sup>14</sup> different RNA molecules, an average of 6 copies of each sequence were sampled. Protein-bound RNA was separated from unbound RNA by filtration through a nitrocellulose disk that had been pre-wetted with 50 mM Tris-OAc at pH 7.7, followed by an immediate 5 ml rinse with the same solution. The RNA molecules were recovered from the filter. A background control, devoid of protein, was also implemented in each round<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br> 
 
+</div>
 
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
+<div class="blowheader_box">2D representation</div>
 <p>Here we use ribodraw to complete the figure, through the 3D structure information. F6 aptamer was the aptamer sequence mainly studied in Structure article<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
 <p>5'-CCACAGUCACUGGG-3'</p>
 <img src="/images/2D/MS2_coat_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   
 </div>
 
-<p class="blowheader_box">3D visualisation</p>             
+<div class="blowheader_box">3D visualisation</div>             
 <p>In 1998, Stockley PG and Liljas L et al. determined the crystal structure, resolved to 2.8 Å, of an RNA aptamer bound to bacteriophage MS2 coat protein. It provided an opportunity to compare the interactions of MS2 coat protein and wild type operator with those of an aptamer, whose secondary structure differed from the wild type RNA by having a three-base loop (as opposed to a tetraloop) and an additional base pair between this loop and the sequence-specific recognition element in the stem. The PDB ID of this structure is 6MSF<sup>[<a href="#ref5" style="color:#520049" >5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
@@ -272,33 +278,13 @@ categories: Aptamer
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    </div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/MS2_coat_6msf-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    </body>
-    </html>
+    
     </td>
   </tr>
   </table>
   </div>
 
-
-<p class="blowheader_box">Binding pocket</p>             
+<div class="blowheader_box">Binding pocket</div>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6MSF at 2.8 Å resolution. MS2 coat protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with MS2 coat protein.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -312,11 +298,12 @@ categories: Aptamer
   <br>
   <br>
 
+</div>
 
-
-<p class="header_box" id="ligand-recognition">Ligand information</p>
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
   
-<p class="blowheader_box">SELEX ligand</p>
+<div class="blowheader_box">SELEX ligand</div>
 <p>Craig Tuerk and Larry Gold determined the binding constant of the aptamer using nitrocellulose filtration. In the nitrocellulose filter binding assay, 100 μl reactions containing 50mM Tris-OAc at pH 7.7 were used, where 5 to 10 nCi (10 to 20 fmol) of internally labeled, gel-purified RNA, preheated for 3 minutes at 70°C, was allowed to equilibrate with variable (excess) concentrations of protein for 3 minutes at 37°C. Samples were filtered through a nitrocellulose disk that had been pre-wetted with 50 mM Tris-OAc at pH 7.7 and were immediately rinsed with 5 ml of the same solution. The filters were dried and counted with fluor in a scintillation counter. A least squares algorithm was employed to plot the percent of total RNA bound against the log of the protein concentration and to determine the dissociation constant from the generated curve. The F6 aptamer had not been tested for affinity<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
@@ -357,7 +344,7 @@ categories: Aptamer
   </table>
   </div>
 
-<p class="blowheader_box">Structure ligand</p>
+<div class="blowheader_box">Structure ligand</div>
 <font><p>The Levivirus coat protein forms the bacteriophage coat that encapsidates the viral RNA. 180 copies of this protein form the virion shell. The MS2 bacteriophage coat protein controls two distinct processes: sequence-specific RNA encapsidation and repression of replicase translation-by binding to an RNA stem-loop structure of 19 nucleotides containing the initiation codon of the replicase gene. The binding of a coat protein dimer to this hairpin shuts off synthesis of the viral replicase, switching the viral replication cycle to virion assembly rather than continued replication.-----From <a href="https://www.ebi.ac.uk/interpro/entry/pfam/PF01819/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a></p></font>
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
 <p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
@@ -394,7 +381,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
   
                     
-<p class="blowheader_box">Similar compound(s)</p>
+<div class="blowheader_box">Similar compound(s)</div>
 <font><p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p></font>
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
@@ -476,7 +463,11 @@ categories: Aptamer
 <br>
 
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] Nucleotide sequence at the binding site for coat protein on RNA of bacteriophage R17.</strong></font><br />
 Bernardi, A., & Spahr, P. F.<br />
@@ -525,3 +516,6 @@ Horn, W. T., Convery, M. A., Stonehouse, N. J., Adams, C. J., Liljas, L., Philli
                 
 
                        
+
+</div>
+

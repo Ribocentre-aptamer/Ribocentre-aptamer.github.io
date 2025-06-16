@@ -1,158 +1,45 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Angiopoietin-2 aptamer"
 date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-    * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <br>
 <br>
 
-<div class="side-nav">
-<ul>
-    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
-    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
-    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
-    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
-    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
-    </ul>
 </div>
 
-
-
-<p class="header_box" id="description">Description</p>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2>
 <p>Sullenger, B. A. et al. reported aptamers with affinity for angiopoietin-2 in their article published in 2003. The 11-1.41 aptamer was named by Sullenger, B. A. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>In their work published in 2003, Sullenger, B. A. et al. used SELEX to isolate RNA aptamer sequences with affinity for angiopoietin-2 from a nucleic acid library containing about 10<sup>14</sup> 80-nucleotides-long sequences after 11 rounds of selection process. RNAs bound to Ang2 were isolated via vacuum filtration through a 0.45 μm nitrocellulose membrane<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="Structure">Structure</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
 <p>The 2D structure of the figure is based on the article by online secondary structure prediction tool to draw. The figure shows the secondary structure prediction of the original aptamer sequence. This aptamer consists of a stem loop containing 3 bulges and 2 G-U non-canonical base pairings<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GAGGACGAUGCGGACUAGCCUCAUACUCCGAUGUGCCCCUC-3'</p>
 <img src="/images/2D/11-1.41_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -160,11 +47,12 @@ categories: Aptamer
 <br>
 <br>
 
+</div>
 
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2> 
 
-<p class="header_box" id="ligand-recognition">Ligand information</p> 
-
-<p class="blowheader_box">SELEX ligand</p>
+<div class="blowheader_box">SELEX ligand</div>
 <p>Angiopoietin-2 binds to TEK/TIE2, competing for the ANGPT1 binding site, and modulating ANGPT1 signaling. Can induce tyrosine phosphorylation of TEK/TIE2 in the absence of ANGPT1. In the absence of angiogenic inducers, such as VEGF, ANGPT2-mediated loosening of cell-matrix contacts may induce endothelial cell apoptosis with consequent vascular regression. In concert with VEGF, it may facilitate endothelial cell migration and proliferation, thus serving as a permissive angiogenic signal.-----From <a href="https://www.uniprot.org/uniprotkb/O15123/entry" target="_blank" style="color:#520049; text-decoration: underline;"><b>Uniprot</b></a></p>
 
 <p class="dot-paragraph"><b>UniProt ID:</b> uniquely identifies protein sequences in the <a href="https://www.uniprot.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>UniProt database</b></a>, a resource for protein information.</p>
@@ -237,9 +125,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-
-
-<p class="blowheader_box">Similar compound(s)</p>                    
+<div class="blowheader_box">Similar compound(s)</div>                    
 <p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation.</p>
 
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
@@ -328,34 +214,16 @@ categories: Aptamer
 <br>
 <br>
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] Inhibition of rat corneal angiogenesis by a nuclease-resistant RNA aptamer specific for angiopoietin-2.</strong></font><br />
 White, R. R., Shan, S., Rusconi, C. P., Shetty, G., Dewhirst, M. W., Kontos, C. D., & Sullenger, B. A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/12692304/" target="_blank" style="color:#520049">Proceedings of the National Academy of Sciences of the United States of America, 100(9), 5028–5033. (2003)</a>
 <br/>
 
-<script>
-    function toggleSequence(event) {
-      const container = event.target.closest('.sequence-container');
-      container.classList.toggle('expanded');
-      const showMoreText = container.querySelector('.show-more');
-      
-      // 展开后按钮文本变化
-      if (container.classList.contains('expanded')) {
-        showMoreText.textContent = '...';  // 展开后显示 "..."
-      } else {
-        showMoreText.textContent = '......';  // 收起后显示 "......"
-      }
-    }
+</div>
 
-    // 页面加载时，限制序列文本为50个字符
-    window.addEventListener('load', function() {
-      const sequenceContainers = document.querySelectorAll('.sequence-container');
-      sequenceContainers.forEach(container => {
-        const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
-        container.querySelector('.sequence-text').textContent = truncatedText;
-      });
-    });
-  </script>

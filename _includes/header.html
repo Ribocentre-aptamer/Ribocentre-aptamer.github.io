@@ -678,6 +678,7 @@
 </style>
 
 <!-- JavaScript -->
+<script src="{{ site.baseurl }}/js/search-utils.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // 初始化Simple Jekyll Search
@@ -736,56 +737,9 @@ document.addEventListener('DOMContentLoaded', function() {
       },
 
       processSearchResults(data, query) {
-        const results = [];
-        const queryLower = query.toLowerCase();
-        const queryTerms = queryLower.split(/\s+/).filter(term => term.length > 0);
-
-        // 遍历数据查找匹配项，处理null值
-        data.forEach(item => {
-          // 安全地获取字段值，处理null/undefined
-          const title = (item.title || '').toString();
-          const category = (item.category || '').toString(); 
-          const tags = (item.tags || '').toString();
-          const content = (item.content || '').toString();
-          
-          const titleLower = title.toLowerCase();
-          const categoryLower = category.toLowerCase();
-          const tagsLower = tags.toLowerCase();
-          const contentLower = content.toLowerCase();
-
-          let matched = false;
-
-          // 检查匹配
-          if (titleLower.includes(queryLower) || 
-              categoryLower.includes(queryLower) || 
-              tagsLower.includes(queryLower) || 
-              contentLower.includes(queryLower)) {
-            matched = true;
-          } else {
-            for (const term of queryTerms) {
-              if (titleLower.includes(term) || 
-                  categoryLower.includes(term) || 
-                  tagsLower.includes(term) || 
-                  contentLower.includes(term)) {
-                matched = true;
-                break;
-              }
-            }
-          }
-
-          if (matched) {
-            results.push({
-              title: title,
-              category: category, 
-              tags: tags,
-              content: content,
-              url: item.url || '#',
-              date: item.date || ''
-            });
-          }
-        });
-
+        
         // 限制结果数量
+        const results = SearchUtils.processResults(data, query);
         const limitedResults = results.slice(0, 1000);
         this.renderResults(limitedResults, query);
       },

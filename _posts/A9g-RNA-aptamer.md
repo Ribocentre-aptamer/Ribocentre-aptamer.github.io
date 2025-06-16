@@ -1,96 +1,28 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "A9g RNA aptamer"
 date:   2024-04-16 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <br>
 <br>
 
-
-<div class="side-nav">
-<ul>
-    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
-    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
-    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
-    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
-    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
-    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
-    </ul>
 </div>
 
-
-
-<p class="header_box" id="timeline">Timeline</p>
+<div class="content-section">
+<h2 class="section-title" id="timeline">Timeline</h2>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -99,7 +31,6 @@ categories: Aptamer
     <div class="body">
       <p>Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9, capable of inhibiting PSMA enzymatic activity and binding to PSMA-positive cells with low nanomolar affinity<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16740739/" target="_blank" style="color:#520049">2006</a></h3>
@@ -107,7 +38,6 @@ categories: Aptamer
     <div class="body">
       <p>The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
-  </div>
     <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/20550178/" target="_blank" style="color:#520049">2010</a></h3>
@@ -115,7 +45,6 @@ categories: Aptamer
     <div class="body">
       <p>A9 apatmer is used in A9-targeted gold nanoparticles for PCa imaging and delivery of doxorubicin payloads<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/22004414/" target="_blank" style="color:#520049">2011</a></h3>
@@ -123,7 +52,6 @@ categories: Aptamer
     <div class="body">
       <p>A9 aptamer was modified to prepare a minimal functional part, giving rise to A9g, its truncated 43-nucleotide variant<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25450401/" target="_blank" style="color:#520049">2014</a></h3>
@@ -131,31 +59,38 @@ categories: Aptamer
     <div class="body">
       <p>A9 apatmer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
-  </div>
-</div>
-
 
          
-<font ><p class="header_box" id="description">Description</p></font>
+<font >
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2></font>
 <font >In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 apatmer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></font>
 <br>
 <br>
 
-<p class="header_box" id="SELEX">SELEX</p>
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>Aptamers can be prepared by an in vitro selection process, termed SELEX (systematic evolution of ligands by exponential enrichment) and can be used in various biological/biotechnological settings, including the development of biomaterials , and as recognition molecules in biosensors and diagnostic, gene-regulatory, therapeutic and imaging applications<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>    
 
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
+<div class="blowheader_box">2D representation</div>
 <font><p>Here we used ribodraw to complete the figure, through the 3D structure information. A9g RNA aptamer was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
 <font><p>5'-GGGACCGAAAAAGACCUGACUUCUAUACUAAGUCUACGUUCCC-3'</p></font>
 <img src="/images/2D/A9g_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-<p class="blowheader_box">3D visualisation</p>             
+<div class="blowheader_box">3D visualisation</div>             
 <font >Ptacek J. et al.sovled the crystal structure, at 2.20 A resolution. The PDB ID of this structure is 6RTI<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
@@ -163,8 +98,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <img src="/images/3D/A9g_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;">
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -172,41 +105,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -302,33 +200,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    </div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/6RTI-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-</script>
+    
 </body>
-</html>
 </td>
 </tr>
 </table>
 </div>
 
-
-<p class="blowheader_box">Binding pocket</p>             
+<div class="blowheader_box">Binding pocket</div>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6RTI by X-ray diffraction. GCPII (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GCPII.</font>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
@@ -343,9 +222,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   <br>
   <br>
 
+<font >
+</div>
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
-<p class="blowheader_box">SELEX ligand</p>
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2></font>  
+<div class="blowheader_box">SELEX ligand</div>
 <font >Glutamate carboxypeptidase III (GCPIII), a close paralog of PSMA with high sequence similarity, is expressed in several human tissues. Many small-molecule ligands developed as PSMA-specific inhibitors bind to human GCPIII with nanomolar affinity , which could, in principle, hamper their use in clinical applications<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
 <br>
 <br>
@@ -370,8 +252,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
   </div>
 
-
-<p class="blowheader_box">Structure ligand</p>
+<div class="blowheader_box">Structure ligand</div>
 <font><p>TAH molecule, also known as N-acetyl-L-aspartyl-L-glutamate peptidase I (NAALADase I), NAAG peptidase, or prostate-specific membrane antigen (PSMA) is an enzyme that in humans is encoded by the FOLH1 (folate hydrolase 1) gene.[3] Human GCPII contains 750 amino acids and weighs approximately 84 kDa.-----from Wikipedia</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -401,8 +282,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </table>
 <div style="display: flex; justify-content: center;"></div>
 
-
-<p class="blowheader_box">Similar compound</p>
+<div class="blowheader_box">Similar compound</div>
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and selected the previous information with high similarity for presentation.The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -480,7 +360,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] Three small ribooligonucleotides with specific arginine sites.</strong></font><br />
 Connell, G. J., Illangesekare, M., & Yarus, M.<br />
@@ -516,3 +400,5 @@ Baek, S. E., Lee, K. H., Park, Y. S., Oh, D. K., Oh, S., Kim, K. S., & Kim, D. E
 Ptacek, J., Zhang, D., Qiu, L., Kruspe, S., Motlova, L., Kolenko, P., Novakova, Z., Shubham, S., Havlinova, B., Baranova, P., Chen, S. J., Zou, X., Giangrande, P., & Barinka, C.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/32525981/" target="_blank" style="color:#520049">Nucleic acids research, 48(19), 11130–11145. (2020)</a>
 <br />
+</div>
+

@@ -1,108 +1,28 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Biotin aptamer"
 date:   2024-05-08 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <br>
 <br>
 
-
-<div class="side-nav">
-<ul>
-    <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
-    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
-    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
-    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
-    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
-    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
-    </ul>
 </div>
 
-
-
-<p class="header_box" id="timeline">Timeline</p>
+<div class="content-section">
+<h2 class="section-title" id="timeline">Timeline</h2>
 <div class="timeline">
   <div class="entry">
     <div class="title">
@@ -111,7 +31,6 @@ categories: Aptamer
     <div class="body">
       <p>Biotin-binding RNAs and DNAs (aptamers) isolated by in vitro selection from random sequence pools<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/10698630/" target="_blank" style="color:#520049">2000</a></h3>
@@ -119,7 +38,6 @@ categories: Aptamer
     <div class="body">
       <p>Determined the 1.3 A crystal structure of the aptamer complexed with biotin<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
-  </div>
     <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/26903199/" target="_blank" style="color:#520049">2016</a></h3>
@@ -127,7 +45,6 @@ categories: Aptamer
     <div class="body">
       <p>Reported a replacement assay for the detection of biotin using a replaceable liposomal aptamer<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
-  </div>
   <div class="entry">
     <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35340298/" target="_blank" style="color:#520049">2022</a></h3>
@@ -135,35 +52,33 @@ categories: Aptamer
     <div class="body">
       <p>An RNA aptamer tag to RNA molecule is an effective method to explore the functional roles of RNA-protein networks in vivo<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
-  </div>
-</div>
 
-
-         
-<p class="header_box" id="description">Description</p>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2>
 <p>In 1998, Szostak, J employed in vitro selection techniques to isolate aptamers with affinity binding sites for biotin. In 2000, Nix, J. C. determined the 1.3 Å crystal structure of the aptamer complexed with biotin. Biotin is bound at the interface between the pseudoknot's stacked helices in a pocket defined almost entirely by base-paired nucleotides. The structure provides general insight into the mechanisms by which RNA function is mediated by divalent metals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>A randomized RNA library, consisting of approximately 10<sup>14</sup> molecules, was synthesized via in vitro transcription from a DNA template and resuspended in a selection buffer comprising 0.1 M KCl, 5 mM MgCl2, and 10 mM Na-HEPES at pH 7.4. Following equilibration at ambient temperature, the RNA pool was applied to a 500 μL biotin-agarose affinity column to selectively bind biotin-interacting RNAs. Non-specific binders were eliminated through a series of 15 washes with 500 μL of the selection buffer. The biotinylated RNAs were eluted using 5 volumes of 500 μL elution buffer, which was the selection buffer supplemented with 5 mM D-biotin at pH 7.4. The affinity-purified RNAs were then pooled, concentrated, and subjected to enzymatic amplification. The resulting enriched RNA pool underwent gel purification and was cycled through additional rounds of selection and amplification. Biotin-binding RNA species were first identified in the fourth selection round, and by the seventh round, these RNAs constituted over 50% of the total sequences present in the pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
+</div>
 
-
-<p class="header_box" id="Structure">Structure</p>
-<p class="blowheader_box">2D representation</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
+<div class="blowheader_box">2D representation</div>
 <p>Here we use ribodraw to complete the figure, through the 3D structure information. BB8-5 RNA aptamer was named by Szostak, J<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>5'-GGACCGUCAGAGGACACGGUUAAAAAGUCCUCU-3'</p>
 <img src="/images/2D/biotin_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
-
-
-<p class="blowheader_box">3D visualisation</p>             
+<div class="blowheader_box">3D visualisation</div>             
 <p>Nix et al. determined the structure of the biotin RNA aptamer using X-ray crystallography at a resolution of 1.3 Å. The aptamer structure revealed how a highly complementary binding pocket for an unusual ligand can be constructed by an RNA molecule, primarily using Watson-Crick base-paired nucleotides and a collection of bound solvent molecules. The PDB ID for this structure is 1F27<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -172,8 +87,6 @@ categories: Aptamer
   <img src="/images/3D/biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -181,41 +94,6 @@ categories: Aptamer
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/pdbe-molstar-plugin.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
@@ -274,34 +152,15 @@ categories: Aptamer
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
-    </div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1f27-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
+    
     </body>
-    </html>
     </td>
   </tr>
   </table>
   </div>
  
 
-
-<p class="blowheader_box">Binding pocket</p>             
+<div class="blowheader_box">Binding pocket</div>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F27 by X-ray crystallography. Biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Biotin.</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -315,11 +174,12 @@ categories: Aptamer
   <br>
   <br>
 
+</div>
 
-
-<p class="header_box" id="ligand-recognition">Ligand information</p>
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2>
   
-<p class="blowheader_box">SELEX ligand</p>
+<div class="blowheader_box">SELEX ligand</div>
 <p>The affinity of the aptamer for biotin was determined by measuring the fraction of RNA bound to biotin agarose at a range of immobilized ligand concentrations. The concentration of biotin available for binding was determined by saturating biotin agarose with excess labeled aptamer and measuring the amount of RNA specifically eluted following washing<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -347,8 +207,7 @@ categories: Aptamer
   <img src="/images/SELEX_ligand/biotin_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
   <br>
 
-
-<p class="blowheader_box">Structure ligand</p>
+<div class="blowheader_box">Structure ligand</div>
 <p>Biotin is one of the vitamin B groups, also known as vitamin H, vitamin B7, coenzyme R (Coenzyme R) and so on. Biotin is abundant in liver, kidney, yeast and milk, and it is an important factor for organisms to fix carbon dioxide. It is easy to combine with protein Avidin in egg white. Eating a large amount of raw protein can hinder the absorption of biotin and lead to biotin deficiency, such as depilation, weight loss and dermatitis. Because its deficiency rarely occurs, it is often called biotin directly.-----From <a href="https://en.wikipedia.org/wiki/Biotin" target="_blank" style="color:#520049; text-decoration: underline;"><b>Wiki</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
@@ -387,7 +246,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
                     
-<p class="blowheader_box">Similar compound(s)</p>
+<div class="blowheader_box">Similar compound(s)</div>
 <p>We screened the compounds with great similarity to biotin by using the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
@@ -467,7 +326,11 @@ categories: Aptamer
 <br>
 
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] Functional requirements for specific ligand recognition by a biotin-binding RNA pseudoknot.</strong></font><br />
 Wilson, C., Nix, J., & Szostak, J.<br />
@@ -494,3 +357,5 @@ Uppala, J. K., Ghosh, C., Sabat, G., & Dey, M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/35340298/" target="_blank" style="color:#520049">Bio-protocol, 12(4), e4331. (2022)</a>
 <br />
             
+</div>
+

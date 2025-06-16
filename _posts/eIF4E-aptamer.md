@@ -5,6 +5,17 @@ date:   2024-05-15 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
 ---
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
+<div class="content-section">
+
 <html>
 <head>
   <style>
@@ -76,7 +87,6 @@ categories: Aptamer
 <br>
 <br>
 
-
 <div class="side-nav">
 <ul>
     <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
@@ -87,22 +97,28 @@ categories: Aptamer
     </ul>
 </div>
 
+<font>
+</div>
 
-
-<font><p class="header_box" id="description">Description</p></font>
+<div class="content-section">
+<h2 class="section-title" id="description">Description</h2></font>
 <font>In 2005, Mochizuki, K., & Nakamura, Y. developed two RNA aptamers, aptamer 1 and aptamer 2, with high affinity for mammalian eIF4E by in vitro RNA selection-amplification. Aptamer 1 inhibits the cap binding to eIF4E more efficiently than the cap analog m7GpppN or aptamer 2. Consistently, aptamer 1 inhibits specifically cap-dependent in vitro translation while it does not inhibit cap-independent HCV IRES-directed translation initiation<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="SELEX">SELEX</p>
+<div class="content-section">
+<h2 class="section-title" id="SELEX">SELEX</h2>
 <p>In 2005, Mochizuki, K., & Nakamura, Y. cloned and sequenced 144 individual RNAs poolthrough 14 rounds of selection,revealing nine unique aptamers that did not share any common motifs .When these RNA species were labeled with [α-32P]CTP and examined for their ability to bind to eIF4E in a nitrocellulose filter retention assay, only two RNAs, no. 15 and no. 34, bound efficiently to eIF4E<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
 <br>
 <br>
 
+</div>
 
-<p class="header_box" id="Structure">Structure</p>
+<div class="content-section">
+<h2 class="section-title" id="Structure">Structure</h2>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>5'-GGGAGACAAGAAUAAACGCUCAAUGUUCAACCAGAGUGAAACCACUAACGGGUCAGAGCCCCUUCGACAGGAGGCUCACAACAGGC-3'</p></font>
 <img src="/images/2D/eIF4E_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
@@ -110,10 +126,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 
+<font >
+</div>
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<div class="content-section">
+<h2 class="section-title" id="ligand-recognition">Ligand information</h2></font>  
 
-<p class="blowheader_box">SELEX ligand</p>
+<div class="blowheader_box">SELEX ligand</div>
 <p>EIF4E-T is the transporter protein for shuttling the mRNA cap-binding protein EIF4E protein, targeting it for nuclear import. EIF4E-T contains several key binding domains including two functional leucine-rich NESs (nuclear export signals) between residues 438-447 and 613-638 in the human protein. The other two binding domains are an EIF4E-binding site, between residues 27-42 in Q9EST3, and a bipartite NLS (nuclear localisation signals) between 194-211, and these lie in family EIF4E-T_N. EIF4E is the eukaryotic translation initiation factor 4E that is the rate-limiting factor for cap-dependent translation initiation.-----from Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -164,9 +183,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
-
-
-<p class="blowheader_box">Similar compound</p>                    
+<div class="blowheader_box">Similar compound</div>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
 <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
       <thead>
@@ -252,13 +269,16 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
                  
-<p class="header_box" id="references">References</p>
+
+</div>
+
+<div class="content-section">
+<h2 class="section-title" id="references">References</h2>
                 
 <a id="ref1"></a><font><strong>[1] High affinity RNA for mammalian initiation factor 4E interferes with mRNA-cap binding and inhibits translation.</strong></font><br />
 Mochizuki,& Nakamura, Y.<br />
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1370693/" target="_blank" style="color:#520049">RNA (New York, N.Y.), 11(1), 77–89. (2005)</a>
 <br/>
-
 
 <html lang="en">
     <head>
@@ -303,52 +323,9 @@ Mochizuki,& Nakamura, Y.<br />
           }
         </style>
     </head>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1RAW-3D.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    <script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+    
+    
     </html>
+
+</div>
+
