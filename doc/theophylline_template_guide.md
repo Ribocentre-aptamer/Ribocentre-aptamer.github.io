@@ -124,7 +124,7 @@ categories: Aptamer
 #### 3D结构表格
 
 ```html
-<table class="structure-table" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="structure-table" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
   <tr>
     <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
       <img src="/images/3D/example.svg" alt="3D structure" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >

@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "YT1 aptamer"
 date:   2024-05-10 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -69,7 +69,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -116,7 +121,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Tax is a transcriptional activator. Its ability to modulate the expression and function of many cellular genes has been reasoned to be a major contributory mechanism explaining HTLV-I-mediated transformation of cells. In activating cellular gene expression, Tax impinges upon several cellular signal-transduction pathways, including those for CREB/ATF and NF-kappaB.-----From Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -141,7 +146,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>

@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "II-mini3-4 aptamer"
 date:   2024-06-17 00:00:00
 author: Bo Fu, Jiali Wang
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -110,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <font>Hoechst stains are part of a family of blue fluorescent dyes used to stain DNA. These bis-benzimides were originally developed by Hoechst AG, which numbered all their compounds so that the dye Hoechst 33342 is the 33,342nd compound made by the company. There are three related Hoechst stains: Hoechst 33258, Hoechst 33342, and Hoechst 34580.The dyes Hoechst 33258 and Hoechst 33342 are the ones most commonly used and they have similar excitation-emission spectra.-----From Wikipedia</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -138,7 +143,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/SELEX_ligand/Hoechst33258_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <br>
 <!--div style="display: flex; justify-content: center;"></div>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">Sequence</th>
@@ -160,7 +165,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We screened the compounds with great similarity by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">Zinc_id</th>

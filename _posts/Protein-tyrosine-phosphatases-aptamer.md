@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Protein tyrosine phosphatases aptamer"
 date:   2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
@@ -41,8 +41,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -87,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Yersinia outer protein H (YopH) belongs to the family of classical tyrosine-specific protein tyrosine phosphatases (PTPs). PTPs (EC 3.1.3.48) catalyze the dephosphorylation of phosphotyrosine peptides. YopH is an essential virulence determinant of the pathogenic bacterium by dephosphorylating several focal adhesion proteins including p130Cas in human epithelial cells, resulting in the disruption of focal adhesions and cell detachment from the extracellular matrix. It contains an N-terminal domain that contains signals required for TTSS-mediated delivery of YopH into host cells and a C-terminal catalytic PTP domain.-----from Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -113,7 +141,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
 <p>Affinity of anti-Yop51* Aptamers for Yop51*Δ162 was determined by nitrocellulose filter-binding assays. Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -146,7 +174,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>

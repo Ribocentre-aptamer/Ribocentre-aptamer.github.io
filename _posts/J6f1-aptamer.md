@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "J6f1 aptamer"
 date:   2024-05-20 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -17,8 +17,37 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-
-
+  .header_box {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:190px;
+      height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -81,7 +110,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -118,7 +147,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">ZINC ID</th>

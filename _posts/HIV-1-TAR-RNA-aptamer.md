@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "HIV-1 TAR RNA aptamer"
 date:   2024-05-04 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -17,16 +17,7 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
+ 
 .blowheader_box{
     display: block;
       padding: 6px;
@@ -41,7 +32,12 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -191,7 +187,7 @@ categories: Aptamer
 <p>Toulmé, J. J. and colleagues present the solution structure of the TAR/HIV-1 TAR RNA aptamer complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA is labeled in green, the HIV-1 TAR RNA aptamer is labeled in brownish red, and the interacting bases in the two sequences are labeled in magenta and orange, respectively. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/LR06_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -315,7 +311,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>           
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in sticks) is labeled in green and magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA. C25 and A26 are LNA residues in the HIV-1 TAR RNA aptamer.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/LR06_binding_pocker1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -331,7 +327,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Toulmé, J. J. and colleagues characterized the loop-loop complexes using thermal denaturation experiments monitored by UV spectroscopy. Subsequently, they determined the affinity between R06(GA) and TAR RNA by SPR method. At the same time, the affinity between the LNA-modified aptamer and TAR RNA was also determined. These methods were employed to comprehensively assess the stability and affinity of different aptamers interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA aptamer and TAR RNA in varied environments<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -371,7 +367,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass
 " target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -393,7 +389,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/LR06_stru_ligand1.svg" alt="drawing" style="width:800px;height:300px;"  px="" /></td>
 </tr>
 </table>

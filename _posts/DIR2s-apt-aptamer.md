@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "DIR2s-apt aptamer"
 date:   2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
@@ -42,7 +42,12 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -119,7 +124,7 @@ categories: Aptamer
 <p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/OTB-SO3_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -274,7 +279,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6DB8 by NMR and collecting small angle X-ray scattering data of crystals. OTB-SO3 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with OTB-SO3 or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/OTB_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -305,7 +310,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -329,7 +334,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/OTB_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/OTB_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -344,7 +349,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>

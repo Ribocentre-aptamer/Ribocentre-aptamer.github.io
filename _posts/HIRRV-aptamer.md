@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "HIRRV aptamer"
 date:   2024-05-06 00:00:00
 author: Jiali Wang, Bo Fu
@@ -17,8 +17,37 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-
-
+  .header_box {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:190px;
+      height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -66,7 +95,7 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figures are based on the article by ribodraw tool to draw. H1 and H2 aptamer bind to Hirame rhabdovirus (HIRRV). H1 and H2 aptamer was named by Aoki et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>H1 aptamer: 5'-GGGCCAGGCAGCGAGGGUGUAUAGGUAUUGAAUCAAUUGUUUUAGCGUUGUCUUACCGACCACACGCGUCCGAGA-3'<br>H2 aptamer: 5'-GGGCCAGGCAGCGAGGGAACGCGAGCUUAGAUUUCGGAGAACAGUUUGUAAUUGUUCCGACCACACGCGUCCGAGA-3'</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/H1-aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -83,7 +112,7 @@ categories: Aptamer
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -129,7 +158,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://ngdc.cncb.ac.cn/genbase/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBase protein</b></a> :</b> the protein sequence in the GenBank database, crucial for genetic studies.</p>
 <p class="dot-paragraph"><b>NCBI ID:</b> a unique identifier by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a> for biological entities in its databases.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>

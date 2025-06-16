@@ -16,7 +16,10 @@ categories: Aptamer
 <html lang="zh-cn">
 <head>
 <meta charset="utf-8"> 
+<style>
+  
 
+</style>
 </head>
 <br>
 <br>
@@ -59,7 +62,7 @@ categories: Aptamer
 <p>Batey, R. T. et al. obtained the structure of the 5HTP aptamer by X-ray crystallography, which was obtained after screening based on the in vitro selection of three-dimensional structurally important points (SELEX) method. This structure shows details of 5HTP binding to the RNA aptamer, including the 3D structure of the RNA and details of the interaction with 5HTP. The resolution of this structure is 2.0 Å. In the structure, 5HTP is localized in the three-dimensional junction structure of RNA, with which it hydrogen bonds and stacking interactions mainly through nucleotides in the J2/3 region. In addition, the recognition of 5HTP interacts with a specific T-loop in the RNA structure, which is essential for the high affinity and specific binding of 5HTP.The PDB ID of this structure is 5KPY<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/5HTP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -229,7 +232,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5KPY by X-ray crystallography. 5-HTP (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with 5HTP.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/5HTP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -246,7 +249,7 @@ categories: Aptamer
 <p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
 <p>Batey, R. T. et al. used isothermal titration calorimetry (ITC) to determine the binding affinity and specificity between 5-HTP and 5GR-II RNA Aptamers. This method accurately measures the amount of heat absorbed or released during the binding process to derive dissociation constants. The specificity of this RNA was quantified by elution with 5HTP, L-tryptophan, Serotonin (5-HT) and α-methyl 5-hydroxy-L-tryptophan (Me-5HTP)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -284,7 +287,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -308,7 +311,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/5HTP_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/5HTP_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -323,7 +326,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>

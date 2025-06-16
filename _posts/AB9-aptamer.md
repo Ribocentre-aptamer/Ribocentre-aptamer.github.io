@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "AB9 aptamer"
 date:   2024-05-22 00:00:00
 author: Baowei Huang
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -179,7 +184,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <p>The α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor (also known as AMPA receptor, AMPAR, or quisqualate receptor) is an ionotropic transmembrane receptor for glutamate (iGluR) and predominantly Na+ ion channel that mediates fast synaptic transmission in the central nervous system (CNS).</p>
 <p>Kainate receptors, or kainic acid receptors (KARs), are ionotropic receptors that respond to the neurotransmitter glutamate. They were first identified as a distinct receptor type through their selective activation by the agonist kainate, a drug first isolated from the algae Digenea simplex. They have been traditionally classified as a non-NMDA-type receptor, along with the AMPA receptor.-----from WIKI</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -210,7 +215,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>J. Jaremko and his colleague prepared 32P-labeled AB9s and ran a homologous binding assay with the GluA1/2R lipid membrane. Because AB9s exhibited full inhibitory activity against GluA1/2R to determine the binding affinity of AB9s, the shorter aptamer.Using the same homologous binding assay, they carried out the binding experiment with 32P-labeled AB9 and GluA1/2R lipid membrane<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -245,7 +250,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>

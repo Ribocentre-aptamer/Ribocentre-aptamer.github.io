@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "A9g RNA aptamer"
 date:   2024-04-16 00:00:00
 author: Jiaxin Zhao, Bichun Wu
@@ -41,8 +41,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-
-
+  .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -130,7 +158,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">3D visualisation</p>             
 <font >Ptacek J. et al.sovled the crystal structure, at 2.20 A resolution. The PDB ID of this structure is 6RTI<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/A9g_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;">
   </td>
@@ -303,7 +331,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Binding pocket</p>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6RTI by X-ray diffraction. GCPII (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GCPII.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/A9g_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -322,7 +350,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 <br>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -345,7 +373,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Structure ligand</p>
 <font><p>TAH molecule, also known as N-acetyl-L-aspartyl-L-glutamate peptidase I (NAALADase I), NAAG peptidase, or prostate-specific membrane antigen (PSMA) is an enzyme that in humans is encoded by the FOLH1 (folate hydrolase 1) gene.[3] Human GCPII contains 750 amino acids and weighs approximately 84 kDa.-----from Wikipedia</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -367,7 +395,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/A9g_aptamer_stru_ligand.svg" alt="drawing" style="width:800px;height:300px;"  px="" /></td>
 </tr>
 </table>
@@ -376,7 +404,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and selected the previous information with high similarity for presentation.The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

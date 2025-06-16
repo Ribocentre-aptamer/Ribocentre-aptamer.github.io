@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "TetR aptamer"
 date:   2024-04-10 00:00:00
 author: Qiaozhen Liu,Zhaoji Qiu
@@ -69,7 +69,12 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
    .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -204,7 +209,7 @@ categories: Aptamer
 <p>Florian C. Grau1 et al. sovled the crystal structure, at 2.7 Å resolution, of an RNA aptamer bound to the transcription repressor TetR has been determined. The fold of the RNA aptamer bears no resemblance to regular B-DNA, and neither does the thermodynamic characterization of the complex formation reaction. Nevertheless, the functional aptamer-binding epitope of TetR is fully contained within its DNA-binding epitope. The PDB ID of this structure is 6SY4<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TetR_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -368,7 +373,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: A surface representation of the binding pocket of the aptamer originating from PDB ID: 6SY4 at a resolution of 2.7 Å is presented. In the case of TetR (displayed with vacuum electrostatics), blue is indicative of a positive charge, whereas red represents a negative charge. Right: The hydrogen bonds at the binding sites where the aptamer binds to TetR are shown.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/TetR_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -386,7 +391,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Florian C. Grau et al. investigated the affinity of RNA aptamer K1 for TetR using EMSA (electrophoretic mobility shift assay) and ITC (isothermal titration calorimetry) experiments. EMSA gave a K₍D₎ of 80 nM; ITC recorded a K₍D₎ of 5.6 nM and confirmed a 1-to-1 stoichiometry. ITC also showed the complex formation is enthalpy-driven (ΔH = –156.0 kJ mol⁻¹) with large entropy reduction (TΔS = –108.8 kJ mol⁻¹)<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -415,7 +420,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -443,7 +448,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/TetR_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -458,7 +463,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

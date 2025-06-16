@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "HIV Tat aptamer"
 date:   2024-04-20 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -17,16 +17,7 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
+  
 .blowheader_box{
     display: block;
       padding: 6px;
@@ -41,7 +32,12 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -193,7 +189,7 @@ categories: Aptamer
 <p>Kumar, P. K., & Katahira, M. et al. determined  the Aptamer-Argininamide Complex structure by NMR. Unique structural features responsible for the high affinity have been found: the formation of two adjacent U:A:U base triples, the resultant widening of the major groove, the formation of hydrogen bonds between a G base and argininamide, and the stabilization of the binding through stacking interaction of a guanidinium group with bases. Structural characterization of the aptamer complexed with the RG peptide has also been carried out. Simultaneous interactions of the aptamer with two arginine residues of the RG peptide at two binding sites are strongly suggested. A combination of structural studies on the aptamer-argininamide and aptamer-RG peptide complexes provides a comprehensive explanation of the extremely high affinity of the aptamer to Tat<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Tat_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -347,7 +343,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1NBK. Argininamide (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with the argininamide. HIV-1 Tat peptides is a cell penetrating peptide rich in arginine.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Tat_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -364,7 +360,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>The affinity was determined by Gel-shift binding assay. Kumar, P. K. et al performed gel-shift assays at four concentrations of RNA with varying concentrations of CQ (0.1-64 nM).The TAR-1-CQ and aptamer-CQ complexes were resolved on nondenaturing gels and estimated the amount of each complexformed. The equilibrium  dissociation  constants  were calculated by nonlinear regression to fit the saturation radiolabelled  ligand-binding isotherm. CQ and Tat-1 protein have similar binding affinity for TAR RNA, used CQ instead of Tat-1 in binding kinetics experiments  mainly to avoidproblems with possible denaturation of Tat-1 protein during expression and purification. CQ: Tat-1-derived peptids (amino acid residues 37-72)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -399,7 +395,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -429,7 +425,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tat_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -444,7 +440,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

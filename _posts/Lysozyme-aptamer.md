@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Lysozyme aptamer"
 date:   2024-03-25 00:00:00
 author: Yuxuan Sun, Baowei Huang
@@ -17,16 +17,7 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
+ 
 .blowheader_box{
     display: block;
       padding: 6px;
@@ -41,7 +32,12 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -120,7 +116,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>In 2013, Girvin et al. utilized the SELEX method to isolate an RNA aptamer, Lys1.2minE, which demonstrated high affinity for hen egg white lysozyme. This 59-nucleotide aptamer effectively inhibited lysozyme's catalytic activity on large cell wall substrates but not on small model substrates. Subsequently, they shortened the aptamer to Lys1.2minF, a 45-nucleotide variant, which retained its high binding affinity and selective inhibition of lysozyme's activity on large substrates. Here we use ribodraw to complete the figures, through the 3D structure information. The Lys1.2minF aptamer and Lys1.2minE aptamer were named by M. E. Girvin et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Lys1.2minF: 5'-GGGCGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACGCCC-3'<br>Lys1.2minE: 5'-GGGUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAACCC-3'</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/Lys1.2minF_2D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -135,7 +131,7 @@ categories: Aptamer
 <p>Girvin et al. resolved the 2.68 Å resolution X-ray crystal structure of the aptamer minF-lysozyme complex. The structures showed that both aptamers interact with the enzyme's active site, inhibiting its catalytic activity. Specifically, Lys1.2minE, with its 59-nucleotide sequence, binds strongly and selectively to large substrates, while Lys1.2minF, a shorter 45-nucleotide variant, retains similar binding properties but with a more compact structure. The PDB ID of this structure is 4M6D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Lys1.2minF_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -290,7 +286,7 @@ categories: Aptamer
 <p>Girvin et al. resolved the 2.00 Å resolution X-ray crystal structure of the aptamer minE-lysozyme complex. The structures showed that both aptamers interact with the enzyme's active site, inhibiting its catalytic activity. Specifically, Lys1.2minE, with its 59-nucleotide sequence, binds strongly and selectively to large substrates, while Lys1.2minF, a shorter 45-nucleotide variant, retains similar binding properties but with a more compact structure. The PDB ID of this structure is 4M4O<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Lys1.2minE_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -446,7 +442,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4M6D at 2.68 Å resolution. Lysozymes(shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with Lysozymes.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Lys1.2minF_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -458,7 +454,7 @@ categories: Aptamer
   <br>
             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4M4O at 2 Å resolution. Lysozymes(shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with Lysozymes.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Lys1.2minE_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -478,7 +474,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>M. E. Girvin et al. distinguished structures Lys1.2 and Lys1. 3 by trimming nucleotides predicted by each to be largely unstructured. Removing different nucleotides to test whether it can binding with lysozyme, and testing its affinity. RNA aptamers were internally labeled with [α-32P]-GTP and allowed to bind to lysozyme for 1 h at room temperature. The bound complex was passed through a dual filter dot blot system attached to a vacuum manifold. The nitrocellulose membrane captures the aptamer–protein complexes while unbound aptamers are trapped by the nylon filter directly beneath. Both filters are visualized by phosphor storage imaging, and the fraction protein bound was calculated by determining the volume of radioactivity retained on the nitrocellulose divided by the total radioactivity retained by both filters<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -513,7 +509,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -541,7 +537,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/lysozyme_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -556,7 +552,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

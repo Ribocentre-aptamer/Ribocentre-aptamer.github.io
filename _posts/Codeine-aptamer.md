@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Codeine aptamer"
 date:   2024-06-10 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -45,8 +45,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -131,7 +159,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw. FC5L is the truncated sequence of full-length FC5. FC45L is the truncated sequence of full-length FC45<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <font><p>FC5L aptamer: 5'-GGGACAGGGCUAGCAGUAGGAUUGGGUGAGGGGAUGUGCUG-3'<br>FC45L aptamer: 5'-GGGACAGGGCUAGCUUAGUGCUAUGUGAGAAAAGGGUGUGGGGG-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/codeine_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -149,7 +177,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Codeine is an opiate and prodrug of morphine mainly used to treat pain, coughing, and diarrhea. It is also commonly used as a recreational drug. It is found naturally in the sap of the opium poppy, Papaver somniferum. It is typically used to treat mild to moderate degrees of pain.-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -175,7 +203,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <!--p>The aptamer bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -207,7 +235,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">Zinc_id</th>

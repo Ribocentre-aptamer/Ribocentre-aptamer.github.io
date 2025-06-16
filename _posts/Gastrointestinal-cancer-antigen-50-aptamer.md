@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Gastrointestinal cancer antigen 50-aptamer"
 date:   2024-05-29 00:00:00
 author: Yangyi Ren, Chen Ke
@@ -69,7 +69,12 @@ categories: Aptamer
       width:170px;
      height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .ellipsis-btn {
       color: #520049;
       cursor: pointer;
@@ -123,7 +128,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <font>Cancer antigen 50 (CA50) is a glycolipid that is similar to the tumor marker CA19-9; however, CA50 antibodies recognize both the fucosyl form of sialylated Lewis(a) carbohydrate moiety and sialylated Lewis(a) moiety.-----from Pfam</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -150,7 +155,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <font>Some isolated sequences bind to the affinity of the protein.</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -183,7 +188,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>

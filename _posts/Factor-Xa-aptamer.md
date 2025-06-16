@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Factor Xa aptamer"
 date:   2024-04-16 00:00:00
 author: Bichun Wu, Zhaoji Qiu
@@ -17,16 +17,7 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
+ 
 .blowheader_box{
     display: block;
       padding: 6px;
@@ -41,7 +32,12 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -160,7 +156,7 @@ categories: Aptamer
 <p>Sullenger, B. A. et al. able to crystallize and determine the structure of a ternary complex between GD-FXa_S195A, 11F7t, and rivaroxaban bound to the active site of the proteinase at 2.25 Å resolution. The PDB ID of this structure is 5VOF<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/FXa_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -332,7 +328,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5VOF by X-ray crystallography. GD-FXa<sup>S195A</sup> (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GD-FXa<sup>S195A</sup>.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/FXa_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -350,7 +346,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>The dependence of the initial rate of thrombin formation on increasing concentrations of factor Va at different fixed concentrations of aptamer was analyzed by assuming mutually exclusive binding interactions in rapid equilibrium between factor Va versus Xa and aptamer. Analysis according to the cubic equation of the reference yielded fitted values for Kd for the membrane-dependent interaction between Xa and Va (Kd Xa, Va), the number of moles of Va bound per mole of Xa at saturation, Kd for aptamer binding to Xa (Kd RNA, Xa), the number of moles of aptamer bound per mole of Xa at saturation, the rate at zero Va, and the rate at infinite Va<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -378,7 +374,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -402,7 +398,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/FXa_aptamer_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/FXa_aptamer_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -418,7 +414,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -446,7 +442,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/FXa_aptamer_stru_ligand3.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -462,7 +458,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

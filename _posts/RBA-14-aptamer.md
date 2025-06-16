@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "RBA-14 aptamer"
 date:   2024-04-19 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -173,7 +178,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">3D visualisation</p>             
 <font >Altaira D. Dearborn et al. present the crystal structure of Rev<sup>93</sup>:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray. They used Rev:scFv as a crystallization platform for studying nucleic acid binding and made a ternary complex of Rev<sup>93</sup>, scFv and RBA-14, where the single-chain antibody functions as an assembly inhibitor, crystallization chaperone, and initial model for molecular replacement. The PDB ID of this structure is 6CF2<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/RBA-14_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -334,7 +339,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Binding pocket</p>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6CF2. Rev<sup>93</sup> protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with Rev<sup>93</sup> protein.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/RBA-14_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -354,7 +359,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font >Altaira D. Dearborn et al. determined the affinity of RBA-14 and Rev by surface plasmon resonance (SPR) method, and also compared the affinity of Rev with hairpins with Stem IIB sequences. SPR was performed on a Biacore ×100 (GE Healthcare), in 30 μL/minute HBS-EP+ buffer (10 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, pH 7.4, 150 mM sodium chloride, 3 mM ethylenediaminetetraacetic acid, 0.05% polysorbate 20) (GE Healthcare) at 25°C<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</font >
 <br><br>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -382,7 +387,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Structure ligand</p>
 <font><p>Rev is a transactivating protein that is essential to the regulation of HIV-1 protein expression. A nuclear localization signal is encoded in the rev gene, which allows the Rev protein to be localized to the nucleus, where it is involved in the export of unspliced and incompletely spliced mRNAs. In the absence of Rev, mRNAs of the HIV-1 late (structural) genes are retained in the nucleus, preventing their translation.-----From Pfam</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -404,7 +409,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/RBA-14_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -413,7 +418,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>
 <font><p>We used the RCSB PDB website's similar structure search to find the top 10 structures similar to HIV-1 Rev protein (residues T34-R50), and calculated TM-socre values and RMSD values used the TM-align website.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

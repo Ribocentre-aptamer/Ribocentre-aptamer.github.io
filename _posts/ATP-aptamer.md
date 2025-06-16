@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "ATP aptamer"
 date:   2024-01-02 00:00:00
 author: Zhizhong Lu, Yangyi Ren
@@ -17,8 +17,37 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-
-
+  .header_box {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:190px;
+      height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -174,7 +203,7 @@ categories: Aptamer
 <p>In 1996, Roger A. Jones & Dinshaw J. Patel et al. presented the solution structure of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations. The PDB ID is 1AM0. Subsequently, T Dieckmann & J Feigon et al. presented the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, which was determined from NMR-derived distance and dihedral angle restraints. The PDB ID is 1RAW. Here, only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ATP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -318,7 +347,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1RAW by NMR. Adenosine monophosphate (AMP) shown in sticks. Right: The hydrogen bonds of binding sites of the aptamer bound with AMP<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ATP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -337,7 +366,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Szostak and colleagues utilized several methodologies including isocratic elution from ATP-agarose and equilibrium gel filtration techniques to determine the dissociation constant of the RNA-ATP complex both on the column and in solution. These methods were employed to comprehensively assess the stability and affinity of the RNA-ATP interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA molecules and ATP in varied environments.
 Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -370,7 +399,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -394,7 +423,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/ATP_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/ATP_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -409,7 +438,7 @@ Adenosine triphosphate (ATP), Deoxyadenosine triphosphate (dATP)<sup>[<a href="#
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>

@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "SPC-aptamer"
 date:   2024-04-30 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
@@ -41,8 +41,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -86,7 +114,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Sphingosylphosphocholine acid is a cationic phosphosphingolipid consisting of sphingosine having a phosphocholine moiety attached to its primary hydroxyl group. It is a phosphosphingolipid, a quaternary ammonium ion and a member of phosphocholines. It is functionally related to a sphingosine. It is a conjugate acid of a sphingosine-1-phosphocholine. It is a tautomer of a sphingosine-1-phosphocholine(1+).-----From WiKi</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -118,7 +146,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We screened the compounds with great similarity to SPC by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">Zinc_id</th>

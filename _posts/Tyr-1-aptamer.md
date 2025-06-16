@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Tyr 1 aptamer"
 date:   2024-05-29 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -111,7 +116,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <font>L-tyrosine is an optically active form of tyrosine having L-configuration. It has a role as an EC 1.3.1.43 (arogenate dehydrogenase) inhibitor, a nutraceutical, a micronutrient and a fundamental metabolite. It is an erythrose 4-phosphate/phosphoenolpyruvate family amino acid, a proteinogenic amino acid, a tyrosine and a L-alpha-amino acid. It is functionally related to a L-tyrosinal. It is a conjugate base of a L-tyrosinium. It is a conjugate acid of a L-tyrosinate(1-). It is an enantiomer of a D-tyrosine. It is a tautomer of a L-tyrosine zwitterion.-----From ChEBI</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -143,7 +148,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the PubChem database to screen compounds that were more similar to L-tyrosine,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>

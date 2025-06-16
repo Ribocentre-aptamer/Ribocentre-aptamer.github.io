@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Citrulline aptamer"
 date:   2024-04-09 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -17,16 +17,7 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
+  
 .blowheader_box{
     display: block;
       padding: 6px;
@@ -41,7 +32,12 @@ categories: Aptamer
       width:190px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -142,7 +138,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>Here we used ribodraw to complete the figure, through the 3D structure information. The L-citrulline aptamer aptamer was named by Famulok, M. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-CAGUGAGGAAGAGAAAGCUCGCUGGAUUGGCUG-3'</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <img src="/images/2D/Citrulline_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -152,7 +148,7 @@ categories: Aptamer
 <p>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Famulok, M. et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 1KOD<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Citrulline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -294,7 +290,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOD by NMR. Citrulline (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Citrulline.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Citrulline_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -311,7 +307,7 @@ categories: Aptamer
 <p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
 <p>Famulok, M. determined the dissociation constants Kd for L-citrulline RNA conjugates and L-arginine RNA conjugates in solution. The methods used for this purpose are isocratic elution chromatography and equilibrium gel filtration, which allow for a comprehensive assessment of the stability and affinity of the interactions under a variety of experimental conditions. These methods allow a robust assessment of the binding affinity dynamics of RNA with L-citrulline and L-arginine in different environments. The affinity of Citrulline RNA aptamer for L-Citrulline is 68 μM, and the rest demonstrates the affinity of Arginine RNA aptamer<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(2)">Aptamer</th>
@@ -369,7 +365,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
@@ -391,7 +387,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Citrulline_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Citrulline_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -407,7 +403,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>

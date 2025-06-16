@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Bacteriophage MS2 coat protein aptamer"
 date:   2024-03-01 00:00:00
 author: Zhizhong Lu
@@ -17,8 +17,37 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-
-
+  .header_box {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:190px;
+      height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -132,7 +161,7 @@ categories: Aptamer
 <p>In 1998, Stockley PG and Liljas L et al. determined the crystal structure, resolved to 2.8 Å, of an RNA aptamer bound to bacteriophage MS2 coat protein. It provided an opportunity to compare the interactions of MS2 coat protein and wild type operator with those of an aptamer, whose secondary structure differed from the wild type RNA by having a three-base loop (as opposed to a tetraloop) and an additional base pair between this loop and the sequence-specific recognition element in the stem. The PDB ID of this structure is 6MSF<sup>[<a href="#ref5" style="color:#520049" >5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MS2_coat_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -244,7 +273,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6MSF at 2.8 Å resolution. MS2 coat protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with MS2 coat protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/MS2_coat_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -263,7 +292,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Craig Tuerk and Larry Gold determined the binding constant of the aptamer using nitrocellulose filtration. In the nitrocellulose filter binding assay, 100 μl reactions containing 50mM Tris-OAc at pH 7.7 were used, where 5 to 10 nCi (10 to 20 fmol) of internally labeled, gel-purified RNA, preheated for 3 minutes at 70°C, was allowed to equilibrate with variable (excess) concentrations of protein for 3 minutes at 37°C. Samples were filtered through a nitrocellulose disk that had been pre-wetted with 50 mM Tris-OAc at pH 7.7 and were immediately rinsed with 5 ml of the same solution. The filters were dried and counted with fluor in a scintillation counter. A least squares algorithm was employed to plot the percent of total RNA bound against the log of the protein concentration and to determine the dissociation constant from the generated curve. The F6 aptamer had not been tested for affinity<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -307,7 +336,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -331,7 +360,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/MS2_coat_stru_ligand.svg" alt="drawing" style="width:800px;height:350px;"  px="" /></td>
 </tr>
 </table>
@@ -344,7 +373,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

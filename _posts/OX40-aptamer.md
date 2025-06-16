@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "OX40-aptamer"
 date:   2024-05-31 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
@@ -41,8 +41,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -87,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>TNFRSF4 (also known as OX40, ACT35, CD134, IMD16, TXGP1L) activates NF-kappaB through its interaction with adaptor proteins TRAF2 and TRAF5. It also promotes the expression of apoptosis inhibitors BCL2 and BCL2lL1/BCL2-XL, and thus suppresses apoptosis. It is primarily expressed on activated CD4+ and CD8+ T cells, where it is transiently expressed and upregulated on the most recently antigen-activated T cells within inflammatory lesions. This makes it an attractive target to modulate immune responses, i.e. TNFRSF4 (OX40) blocking agents to inhibit adverse inflammation or agonists to enhance immune responses. An artificially created biologic fusion protein, OX40-immunoglobulin (OX40-Ig), prevents OX40 from reaching the T-cell receptors, thus reducing the T-cell response. Some single nucleotide polymorphisms (SNPs) of its natural ligand OX40 ligand (OX40L, CD252), which is also found on activated T cells, have been associated with systemic lupus erythematosus.-----from Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -113,7 +141,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
 <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -146,7 +174,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>

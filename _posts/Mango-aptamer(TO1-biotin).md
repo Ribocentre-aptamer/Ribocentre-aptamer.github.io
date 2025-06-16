@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Mango aptamer(TO1-biotin)"
 date:   2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
@@ -66,7 +66,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -205,7 +210,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">3D visualisation</p>             
 <font>Robert J Trachman III and Natalia A Demeshkina et al. analyzed the RNA Mango-TO1-Biotin 1.7-Å-resolution co-crystal structure. The PDB ID of this structure is 1AM0<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TO1-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -385,7 +390,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Binding pocket</p>             
 <font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5V3F by X-ray crystallography. Thiazole orange-biotin(TO1-biotin) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with TO1-biotin or other nucleotides surround small molecules.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/TO1-biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -405,7 +410,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font>Binding Affinity was determined by fluorescence titration in the buffer and calculated by the concentration correlation function of ligand fluorescence molecules<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
 <div style="display: flex; justify-content: center;">
 <br>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -433,7 +438,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Structure ligand</p>
 <font><p>Thiazole Orange is an asymmetric anthocyanin dye that can be coupled with oligonucleotides (ONs) to prepare fluorescent hybridization probes.-----From MedChemExpress</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
@@ -455,7 +460,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/TO1_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/TO1_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -465,7 +470,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                     
 <p class="blowheader_box">Similar compound</p>
 <font><p>We screened the compounds with great similarity to TO1 by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">Zinc_id</th>

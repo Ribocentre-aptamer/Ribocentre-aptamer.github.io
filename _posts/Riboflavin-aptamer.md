@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Riboflavin aptamer"
 date:   2024-04-30 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -66,7 +66,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -110,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">3D visualisation</p>             
 <font>John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques.The NMR structure showed that the aptamer bound to FMN through π-π stacking and donor-π interactions, forming a specific binding pocket (binding pocket) and significantly affecting the redox potential of FMN.The FMN binding site is located in a platform structure of the aptamer X2B2-C14U and is stabilized by a base triad. Specific bases within the binding pocket form π-π stacking with the isoflavone ring of FMN as well as donor-π interactions, leading to significant changes in the redox potential of FMN. the interactions between the aptamers and the cofactors were concentrated on the isoalloxazine ring, the combination pockets of FMN and Riboflavin are consistent. The PDB ID of this structure is 7RWR<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Riboflavin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -239,7 +244,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Binding pocket</p>             
 <font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Riboflavin_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -259,7 +264,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font>John S. Samuelian et al. use isothermal titration calorimetry (ITC) to determine the binding affinity and specificity between Riboflavin and Riboflavin RNA Aptamers. This method accurately measures the amount of heat absorbed or released during the binding process to derive dissociation constants. The specificity of this RNA was quantified by elution with Flavin adenine dinucleotide (FAD),Flavin mononucleotide (FMN)and Riboflavin(Rb)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
 <br><br>
 <!--div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -287,7 +292,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Structure ligand</p>
 <font><p>Riboflavin is d-Ribitol in which the hydroxy group at position 5 is substituted by a 7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl moiety. It is a nutritional factor found in milk, eggs, malted barley, liver, kidney, heart, and leafy vegetables, but the richest natural source is yeast. The free form occurs only in the retina of the eye, in whey, and in urine; its principal forms in tissues and cells are as flavin mononucleotide and flavin-adenine dinucleotide. It has a role as a photosensitizing agent, a food colouring, an Escherichia coli metabolite, a mouse metabolite, a cofactor, a plant metabolite, a human urinary metabolite, an anti-inflammatory agent, a fundamental metabolite and an antioxidant. It is a vitamin B2 and a flavin. It is a conjugate acid of a riboflavin(1-).-----from ChEBI</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
@@ -309,7 +314,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Riboflavin_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Riboflavin_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -319,7 +324,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                     
 <p class="blowheader_box">Similar compound</p>
 <font><p>We screened the compounds with great similarity to 5-Hydroxytryptophan (5HTP) by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">Zinc_id</th>

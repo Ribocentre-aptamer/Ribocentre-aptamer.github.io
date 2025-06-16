@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Colicin E3 aptamer"
 date:   2024-05-27 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
@@ -45,8 +45,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -90,7 +118,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Colicins are classified according to the cell-surface receptor they bind to, colicin E3 binding to the BtuB receptor involved in vitamin B12 uptake. The lethal action of colicin E3 arises from its ability to inactivate the ribosome by site-specific RNase cleavage of the 16S ribosomal RNA, which is carried out by the catalytic, or ribonuclease domain. Colicin E3 is comprised of three domains, each domain being involved in a different stage of infection: receptor binding, translocation and cytotoxicity. Colicin E3 is a Y-shaped molecule with the receptor-binding middle domain forming the stalk, the N-terminal translocation domain forming the two globular heads, and the C-terminal catalytic domain forming the two globular arms. To neutralise the toxic effects of colicin E3, the host cell produces an immunity protein, which binds to the C-terminal end of the ribonuclease domain and effectively suppresses its activity.-----from Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -116,7 +144,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
 <p>Affinity of selected the aptamer for colicin E3 CRD was determined by nitrocellulose filter-binding assays.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -143,7 +171,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>

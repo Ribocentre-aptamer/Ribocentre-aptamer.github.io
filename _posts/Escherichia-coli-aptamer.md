@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Escherichia coli-aptamer"
 date:   2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
@@ -41,8 +41,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -87,7 +115,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Escherichia coli O157:H7 is a serotype of the bacterial species Escherichia coli and is one of the Shiga-like toxin–producing types of E. coli. It is a cause of disease, typically foodborne illness, through consumption of contaminated and raw food, including raw milk and undercooked ground beef. Infection with this type of pathogenic bacteria may lead to hemorrhagic diarrhea, and to kidney failure; these have been reported to cause the deaths of children younger than five years of age, of elderly patients, and of patients whose immune systems are otherwise compromised.-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -107,7 +135,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
 <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>

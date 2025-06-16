@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "IL2-CD25 aptermer"
 date:   2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -151,7 +156,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>The Interleukin-2 receptor alpha chain (also called TAC antigen, P55, and mainly CD25) is a protein involved in the assembly of the high-affinity Interleukin-2 receptor, consisting of alpha (IL2RA), beta (IL2RB) and the common gamma chain (IL2RG). As the name indicates, this receptor interacts with Interleukin-2, a pleiotropic cytokine which plays an important role in immune homeostasis.-----from WiKi</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -181,7 +186,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Binding kinetics of aptamers confirm differential binding to CD25 versus IL2-CD25 complex.The binding kinetics of the aptamers toward CD25 and the IL2-CD25 complex, including association and dissociation kinetics, were determined using biolayer interferometry. The Kd, Kon, and Kdis rates for aptamer binding are summarized in Table 1 and the sensorgram in Supplementary Fig. S2. Tr-1 and Tr-7 that bound preferentially to the complex displayed a stronger affinity (lower Kd) for the IL2-CD25 complex than for the unoccupied CD25, whereas Tr-6 and Tr-8 that bound preferentially to unoccupied CD25 showed weaker affinity (higher Kd) for the IL2-CD25 complex than for unoccupied CD25. The Tr-11 aptamer that bound to the receptor and the complex equally displayed similar affinities for both (Table 1). Thus, differential affinity of aptamers for IL2-CD25 complex versus unoccupied CD25 was consistent with their differential binding preferences<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -236,7 +241,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>

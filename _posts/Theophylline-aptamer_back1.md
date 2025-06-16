@@ -1062,7 +1062,7 @@ categories: Aptamer
 <p>In 1997, Pardi.A. et al. used NMR and X-PLOR 3.113 calculations to demonstrate the solution structure of a high-affinity RNA-theophylline complex, where the <span class="highlight-text">C27 nucleotide</span> was identified as the key residue for recognising theophylline and discriminating it from caffeine. The PDB ID for the NMR structure of the RNA-theophylline complex is <span class="highlight-text">1EHT</span>. In 2022, Rogers.J. et al. determined the crystal structure of an RNA aptamer-theophylline complex. Owing to the high similarity between the solved NMR 3D structure and the following crystal 3D structure, only the crystal 3D structure is presented here. The PDB ID for the crystal structure of the theophylline aptamer is <span class="highlight-text">8D28</span><sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref30" style="color:#520049">30</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="structure-table" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="structure-table" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Theophylline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -1229,7 +1229,7 @@ categories: Aptamer
 
 <div class="blowheader_box">Binding pocket</div>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: <span class="highlight-text">8D28</span> by X-ray Crystallography. <span class="highlight-text">Theophylline</span> (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Theophylline.</p>
-  <table class="binding-pocket-table" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="binding-pocket-table" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Theophylline_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

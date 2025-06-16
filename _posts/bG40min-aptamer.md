@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "bG40min aptamer"
 date:   2024-05-22 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -111,7 +116,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <font>ATP is an adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways. It has a role as a nutraceutical, a micronutrient, a fundamental metabolite and a cofactor. It is an adenosine 5'-phosphate and a purine ribonucleoside 5'-triphosphate. It is a conjugate acid of an ATP(3-).-----From ChEBI</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -143,7 +148,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the PubChem database to screen compounds that were more similar to ATP, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>

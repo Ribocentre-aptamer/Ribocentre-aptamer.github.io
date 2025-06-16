@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Vitamin B12-aptamer"
 date:   2024-04-18 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -165,7 +170,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">3D visualisation</p>             
 <font >Charles Wilson et al. determined the structure of the vitamin B12 RNA aptamer using X-ray crystallography. The structure was resolved at a high resolution of 2.3 Å.The vitamin B<sub>12</sub> RNA aptamer is characterized by a unique tertiary structure that includes a water-filled channel through the core of an RNA triplex. This triplex structure is notably stabilized by water molecules which form bridging hydrogen bonds across planar base triples that lack significant direct base-base contacts. This structural arrangement is critical for the aptamer’s stability and specificity in binding vitamin B12. The PDB ID of this structure is 1ET4<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/VB12_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -310,7 +315,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Binding pocket</p>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ET4 by X-ray crystallography. Cyanocobalamin (vitamin B<sub>12</sub>) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with vitamin B<sub>12</sub>.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/VB12_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -330,7 +335,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <font >Jack W. Szostak et al. used equilibrium dialysis to measure the dissociation constants (Kd) of the interaction between cyanocobalamin, cobinamide dicyanide, and a 35-nucleotide RNA aptamer. The dissociation constants were determined using a dialysis chamber setup, with the aptamer at a concentration of approximately 10 pM, and different concentrations of the ligands were tested to calculate the Kd values​<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
 <br><br>
 <div style="display: flex; justify-content: center;">
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -358,7 +363,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Structure ligand</p>
 <font><p>Cyanocobalamin (commonly known as Vitamin B<sub>12</sub>) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B<sub>12</sub> has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.-----From Drugbank</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
@@ -380,7 +385,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/VB12_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/VB12_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -390,7 +395,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
                     
 <p class="blowheader_box">Similar compound</p>
 <font><p>We used the PubChem database to screen compounds that were more similar to Cyanocobalamin (vitamin B<sub>12</sub>), and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(2)">Named</th>

@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Aβ42 aptamer"
 date:   2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -160,7 +165,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Amyloid-beta peptides are lipophilic metal chelators with metal-reducing activity. Bind transient metals such as copper, zinc and iron. In vitro, can reduce Cu2+ and Fe3+ to Cu+ and Fe2+, respectively. Amyloid-beta protein 42 is a more effective reductant than amyloid-beta protein 40. Amyloid-beta peptides bind to lipoproteins and apolipoproteins E and J in the CSF and to HDL particles in plasma, inhibiting metal-catalyzed oxidation of lipoproteins.-----from Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -191,7 +196,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
   <font>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42. Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -230,7 +235,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>

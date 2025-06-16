@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "D8 aptamer"
 date:   2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -111,7 +116,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <font>Streptavidin is an organochlorine compound.A 60-kDa extracellular protein of Streptomyces avidinii with four high-affinity biotin binding sites. Unlike AVIDIN, streptavidin has a near neutral isoelectric point and is free of carbohydrate side chains.-----From MeSH</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -143,7 +148,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the PubChem database to screen compounds that were more similar to Substance P,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>

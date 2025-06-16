@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "AML1 (RUNX1) aptamer"
 date:   2024-04-03 00:00:00
 author: Baowei Huang, Yuxun Sun
@@ -17,6 +17,7 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
+  
 
   .sequence-container {
       position: relative;
@@ -220,7 +221,7 @@ categories: Aptamer
 <p>Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1)-aptamer) using nuclear magnetic resonance(NMR). Although structure of the Runt domain-aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. The PDB ID of this structure is 2RRC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/AML1_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -365,7 +366,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>This aptamer lacks a three-dimensional structure of its complex with the protein, but its binding site is similar to that of the RDE element-binding protein. We chose the complex structure of double-stranded DNA element(RDE) and AML1 to show it. The structural PDB ID is 1HJC. AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. AML1/RUNX1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with AML1/RUNX1.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/AML1_aptamer_binding_pockets1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -382,7 +383,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Fukunaga and his colleagues performed SELEX to obtain RNA aptamers against the Runt domain of AML1. Fukunaga, J. employed the surface plasmon resonance (SPR) method to calculate the dissociation constant Kd, which is determined as the ratio of the dissociation rate constant Kd_off to the association rate constant K_on, expressed as K_off/Kd_on. The Apt1-S2 aptamer is a truncated sequence of Apt1-S<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -429,7 +430,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -457,7 +458,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/AML1_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px;height:300px;"  px="" /></td>
 </tr>
 </table>
@@ -472,7 +473,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>

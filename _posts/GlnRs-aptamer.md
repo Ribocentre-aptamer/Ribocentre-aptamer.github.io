@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "GlnRs aptamer"
 date:   2024-04-16 00:00:00
 author: Jiali Wang, Bo Fu
@@ -41,7 +41,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
   .dot-paragraph::before {
             content: "• "; /* 点号和空格 */
             color: black; /* 设置点号颜色 */
@@ -177,7 +182,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>Perona, J. J. et al. have determined the crystal structure of an RNA aptamer bound to glutaminyl-tRNA synthetase at 2.7 Å resolution. The structure, however, fails to clearly reveal the relationship between the interacting bases and amino acids. The article does not provide a detailed explanation of the hydrogen bonds between the aptamer and the modified protein. The hydrogen bonds shown in our figure are predicted using PyMOL. The PDB ID of this structure is 1EXD<sup>[<a href="#ref4" style="color:#520049">4</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GlnRs_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -325,7 +330,7 @@ struct_asym_id: 'B',
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1EXD at 2.7 Å resolution. GlnRs (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GlnRs.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GlnRs_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -343,7 +348,7 @@ struct_asym_id: 'B',
 <p class="blowheader_box">SELEX ligand</p>
 <p>Perona, J. J et al. determined the binding constant of the aptamer using a gel shift binding assay. Equal volumes of tRNA and GlnRS solutions were mixed and incubated for 15 minutes at room temperature. The mixtures were then loaded onto a 20% polyacrylamide gel at 4°C and run at 200 V for 5 hours. The gels were developed for 72 hours. Autoradiography and densitometry of the gels were performed using the Storm 840 phosphorimager (Molecular Dynamics). For AGGU and T1 tRNAs, the intensity of the shifted band was quantified to determine the relative amount of complex formed at each enzyme concentration. Equilibrium binding constants were determined by fitting the data to a standard hyperbolic curve using Kaleidagraph (Synergy Software)<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p >
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -384,7 +389,7 @@ struct_asym_id: 'B',
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -413,7 +418,7 @@ struct_asym_id: 'B',
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/GlnRs_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>

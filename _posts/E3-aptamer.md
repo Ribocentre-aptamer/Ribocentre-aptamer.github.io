@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "E3 aptamer"
 date:   2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -45,8 +45,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -91,7 +119,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Prostate cancer is the uncontrolled growth of cells in the prostate, a gland in the male reproductive system below the bladder. Abnormal growth of prostate tissue is usually detected through screening tests, typically blood tests that check for prostate-specific antigen (PSA) levels. Those with high levels of PSA in their blood are at increased risk for developing prostate cancer. Diagnosis requires a biopsy of the prostate. If cancer is present, the pathologist assigns a Gleason score, and a higher score represents a more dangerous tumor. Medical imaging is performed to look for cancer that has spread outside the prostate. Based on the Gleason score, PSA levels, and imaging results, a cancer case is assigned a stage 1 to 4. A higher stage signifies a more advanced, more dangerous disease.-----from Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -111,7 +139,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>

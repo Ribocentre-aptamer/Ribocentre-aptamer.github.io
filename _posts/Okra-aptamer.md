@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Okra aptamer"
 date:   2024-06-07 00:00:00
 author: Bo Fu, Jiali Wang
@@ -65,7 +65,12 @@ categories: Aptamer
       width:170px;
       height:40px;
   }
-
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -111,7 +116,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <font>3-(2,3,6,7-tetrahydro-1H,5H-pyrido(3,2,1-ij)quinolin-9-yl)acrylamide- 2-cyano-N-(2-(2-aminoethoxy) ethyl) (ACE) was a non-GFP-like fluorophore, a hydrophilic derivative of  9-(2-carboxy-2-cyanovinyl) julolidine molecule rotor that has low fluorescence in solution.-----From <a href="https://doi.org/10.1038/s41589-024-01629-x" target="_blank">PMID: 38783134</a></font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -139,7 +144,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <img src="/images/SELEX_ligand/ACE_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">Sequence</th>
@@ -161,7 +166,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We screened the compounds with great similarity by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">Zinc_id</th>

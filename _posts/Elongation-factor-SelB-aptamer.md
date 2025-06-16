@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "Elongation factor SelB aptamer"
 date:   2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
@@ -41,8 +41,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -77,7 +105,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <font>The RNA aptamers all have highly conserved regions that correspond to the apical stem-loop structure of wild-type fdhF mRNA hairpins. The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
 <font><p>488 aptamer: 5'-GCCAUAAGUUGUCCCAAGUCUUGGGCGCAAAUACAUCCC-3'<br>945 aptamer: 5'-GUCACUGACCAUCUGUCGCAGGUCUGCGCACAUCGGUCGUU-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/SelB_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -94,7 +122,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>SelB (Selenocysteine-specific elongation factor) is a transcription factor necessary for the incorporation of selenocysteine into proteins and binds both transfer RNA (tRNA) and mRNA. This entry represents a domain that adopts a winged-helix fold, with an alpha/beta structure consisting of three alpha-helices and a twisted three-stranded antiparallel beta-sheet, with an alpha-beta-alpha-alpha-beta-beta connectivity. In SelB, the winged helix domains recognise RNA, allowing the complex to wrap around the small ribosomal subunit.-----from Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -120,7 +148,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
 <p>Affinity of selected RNA molecules for SelB was determined by nitrocellulose filter-binding assays.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -159,7 +187,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>

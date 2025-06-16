@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "HIV-1 CA aptamer"
 date:   2024-05-22 00:00:00
 author: Jiali Wang, Bo Fu
@@ -17,9 +17,84 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
- 
-
-
+   .header_box {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:190px;
+      height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
+  .dot-paragraph::before {
+            content: "• "; /* 点号和空格 */
+            color: black; /* 设置点号颜色 */
+            font-size: 20px; /* 调整点号大小 */
+        }
+  .dot-paragraph {
+            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
+            line-height: 1.2; /* 调整带有点的段落的行高 */
+        }
+  .sequence-container {
+      position: relative;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    .sequence-text {
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .show-more {
+      display: inline-block;
+      color: #520049;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .full-sequence {
+      display: none;
+    }
+    .sequence-container.expanded .sequence-text {
+      display: none;
+    }
+    .sequence-container.expanded .full-sequence {
+      display: inline;
+    }
+    .sequence-container.collapsed .sequence-text {
+      white-space: normal;
+      display: inline-block;
+      max-width: 100%;
+    }
+    * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
 </style>
 </head>
 <br>
@@ -62,7 +137,7 @@ categories: Aptamer
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -95,7 +170,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -135,7 +210,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>

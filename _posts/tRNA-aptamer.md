@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "tRNA aptamer"
 date:   2024-06-18 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -45,8 +45,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -91,7 +119,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Transfer RNA (abbreviated tRNA and formerly referred to as sRNA, for soluble RNA) is an adaptor molecule composed of RNA, typically 76 to 90 nucleotides in length (in eukaryotes), that serves as the physical link between the mRNA and the amino acid sequence of proteins. Transfer RNA (tRNA) does this by carrying an amino acid to the protein-synthesizing machinery of a cell called the ribosome. Complementation of a 3-nucleotide codon in a messenger RNA (mRNA) by a 3-nucleotide anticodon of the tRNA results in protein synthesis based on the mRNA code. As such, tRNAs are a necessary component of translation, the biological synthesis of new proteins in accordance with the genetic code.-----From Rfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -115,7 +143,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the nucleic acid.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -169,7 +197,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Similar compound</p>                    
 <font><p>Researchers generate a mapping between European Nucleotide Archive (ENA), Protein Data Bank (PDB) and Rfam coordinate systems for those sequences which have a structure in the PDB. The ENA provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation. Bit score is a relative score used to measure the similarity of a sequence alignment. It is calculated based on a comparison between the score of the alignment sequence and the expected score of the random model. A higher Bit score means that the comparison results are more similar and likely to be more reliable. The list of neighbours is sorted by Bit score.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>

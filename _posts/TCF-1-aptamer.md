@@ -1,5 +1,5 @@
 ---
-layout: theophylline_style
+layout: post
 title:  "TCF-1 aptamer"
 date:   2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
@@ -45,8 +45,36 @@ categories: Aptamer
 <head>
 <meta charset="utf-8"> 
 <style>
-  
-
+    .header_box {
+    display: block;
+    font-size: 24px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 1px;
+    width: 500px;
+    border-width: 1px 1px 2px 1px;
+    border-color: #ffffff #ffffff #ffffff #ffffff;
+}
+.blowheader_box{
+    display: block;
+      padding: 6px;
+      font-size:20px;
+      margin-right: 10px;
+      text-align: center;
+      background-color: #efefef;
+      color: #000000;
+      text-decoration: none;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width:170px;
+	    height:40px;
+  }
+  .box_style{
+    background: #ffffff;
+  }
+  blockquote {
+  margin: 0 0 0px;
+  }
 </style>
 </head>
 <br>
@@ -133,7 +161,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>The TCF7-like family includes TCF-7, TCF7-like 1 (TF7L1), lymphoid enhancer-binding factor 1 (LEF-1), and similar proteins. TCF-7, also called T-cell-specific transcription factor 1, or T-cell factor 1 (TCF-1), is a T lymphocyte-specific transcriptional activator involved in T-cell lymphocyte differentiation.-----From Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -158,7 +186,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 <p>The aptamer bind to the affinity of the ligand.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
