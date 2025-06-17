@@ -46,7 +46,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2003, Akihiro Oguro and Takashi Ohtsu had used the SELEX  methodology to select RNA aptamers with high affinity for eIF4A by in vitro RNA selection-amplification<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2003, Akihiro Oguro and Takashi Ohtsu had used the SELEX  methodology to select RNA aptamers with high affinity for eIF4A by in vitro RNA selection-amplification<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -55,7 +55,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAGACAAGAAUAAACGCUCAAGGGGACCGCGCCCCACAUGUGAGUGAGGCCGAAACAUAGAUUCGACAGGAGGCUCACAACAGGC-3'</p>
 <img src="/images/2D/no.21_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

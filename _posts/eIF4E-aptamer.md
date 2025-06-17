@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2005, Mochizuki, K., & Nakamura, Y. developed two RNA aptamers, aptamer 1 and aptamer 2, with high affinity for mammalian eIF4E by in vitro RNA selection-amplification. Aptamer 1 inhibits the cap binding to eIF4E more efficiently than the cap analog m7GpppN or aptamer 2. Consistently, aptamer 1 inhibits specifically cap-dependent in vitro translation while it does not inhibit cap-independent HCV IRES-directed translation initiation<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2005, Mochizuki, K., & Nakamura, Y. developed two RNA aptamers, aptamer 1 and aptamer 2, with high affinity for mammalian eIF4E by in vitro RNA selection-amplification. Aptamer 1 inhibits the cap binding to eIF4E more efficiently than the cap analog m7GpppN or aptamer 2. Consistently, aptamer 1 inhibits specifically cap-dependent in vitro translation while it does not inhibit cap-independent HCV IRES-directed translation initiation<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAGACAAGAAUAAACGCUCAAUGUUCAACCAGAGUGAAACCACUAACGGGUCAGAGCCCCUUCGACAGGAGGCUCACAACAGGC-3'</p>
 <img src="/images/2D/eIF4E_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

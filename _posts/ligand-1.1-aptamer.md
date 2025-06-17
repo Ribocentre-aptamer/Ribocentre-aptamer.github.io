@@ -83,8 +83,8 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="description">Description</p>
-<font >In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high affinity for the HIV-1 RT. When the aptamer binds to HIV-1 RT, it reduces the activity of the target protein, thereby preventing RT from catalysing the synthesis of the proviral genome and affecting subsequent integration into the host cell genome<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p><p class="header_box" id="description">Description</p>
+<font >In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high affinity for the HIV-1 RT. When the aptamer binds to HIV-1 RT, it reduces the activity of the target protein, thereby preventing RT from catalysing the synthesis of the proviral genome and affecting subsequent integration into the host cell genome<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -93,7 +93,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>Ligand 1.1 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 RT. The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>Ligand 1.1 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 RT. The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAGCAUCAGACUUUUAAUCUGACAAUCAAGAAUUCCGUUUUCAGUCGGGAAAAACUGAACAAUCUAUGAAAGAAUUUUAUAUCUCUAUUGAAAC-3'</p>
 <img src="/images/2D/ligand1.1_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   

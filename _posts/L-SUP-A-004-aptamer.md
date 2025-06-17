@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2005, Sven Klussmann et al. screened RNA aptamers against mirror-image conformation (d-peptide) substance P and used this aptamer (SUP-A-004) to bind naturally-occurring l-substance P, showing a binding affinity (K(d)) of 40 nM and inhibiting l-substance P-mediated Ca2+ release in cell culture experiments with an inhibitory concentration (IC50) of 45 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2005, Sven Klussmann et al. screened RNA aptamers against mirror-image conformation (d-peptide) substance P and used this aptamer (SUP-A-004) to bind naturally-occurring l-substance P, showing a binding affinity (K(d)) of 40 nM and inhibiting l-substance P-mediated Ca2+ release in cell culture experiments with an inhibitory concentration (IC50) of 45 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used Isothermal Titration Calorimetry (ITC) to determine the affinity of L-SUP-A-004 aptamer and substance P. This method was used to determine the affinity of the two aptamers. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 40 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. L-SUP-A-004 aptamer binding to Substance P.<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used Isothermal Titration Calorimetry (ITC) to determine the affinity of L-SUP-A-004 aptamer and substance P. This method was used to determine the affinity of the two aptamers. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 40 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. L-SUP-A-004 aptamer binding to Substance P.<br></p>
 <p>5'-GGCGCAGGUGGGUAAAGGGGUGUGAUCGAGGGUCGAGAGGCGCC-3'</p>
 <img src="/images/2D/SubstanceP_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

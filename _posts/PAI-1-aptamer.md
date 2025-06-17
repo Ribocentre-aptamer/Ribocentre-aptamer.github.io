@@ -82,7 +82,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2009, Charlene M Blake et al. used the SELEX method to isolate the aptamer with high compatibility for the serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1). They determined that aptamers WT-15 binds to PAI-1 in a region that spans the heparin- and vitronectin-binding domains, inhibiting the PAI-1/vitronectin interaction. The PAI-1 aptamer WT-15 demonstrates therapeutic potential as an antimetastatic agent and could possibly be used as an adjuvant to traditional chemotherapy for breast cancer<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
+<p>In 2009, Charlene M Blake et al. used the SELEX method to isolate the aptamer with high compatibility for the serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1). They determined that aptamers WT-15 binds to PAI-1 in a region that spans the heparin- and vitronectin-binding domains, inhibiting the PAI-1/vitronectin interaction. The PAI-1 aptamer WT-15 demonstrates therapeutic potential as an antimetastatic agent and could possibly be used as an adjuvant to traditional chemotherapy for breast cancer<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -91,7 +91,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></font>
+<p>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></p>
 <p>5'-GGGAGGACGAUGCGGAUCAACUCACCGUAGGUCUAGUGAGAACUUCAAGUCUACUCAGACGACUCGCUGAGGAUCC-3'</p>
 <img src="/images/2D/WT-15_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

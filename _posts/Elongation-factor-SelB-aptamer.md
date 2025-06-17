@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1997, Stefanie J. Klug and colleagues used in vitro selection to isolate RNA aptamers that bind to the special elongation factor SelB. SelB-binding variants of the SelB-responsive wild-type fdhF mRNA hairpin, which allow for the dissection of SelB binding from the overall biological function of this mRNA secondary structure. In 1999, Stefanie J. Klug and colleagues used in vitro selection to isolate RNA aptamers that bind to the special elongation factor SelB. They found that the vast majority of aptamers bound to the ultimate C-terminus of SelB, the domain responsible for mRNA hairpin binding<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<p>In 1997, Stefanie J. Klug and colleagues used in vitro selection to isolate RNA aptamers that bind to the special elongation factor SelB. SelB-binding variants of the SelB-responsive wild-type fdhF mRNA hairpin, which allow for the dissection of SelB binding from the overall biological function of this mRNA secondary structure. In 1999, Stefanie J. Klug and colleagues used in vitro selection to isolate RNA aptamers that bind to the special elongation factor SelB. They found that the vast majority of aptamers bound to the ultimate C-terminus of SelB, the domain responsible for mRNA hairpin binding<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The RNA aptamers all have highly conserved regions that correspond to the apical stem-loop structure of wild-type fdhF mRNA hairpins. The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<p>The RNA aptamers all have highly conserved regions that correspond to the apical stem-loop structure of wild-type fdhF mRNA hairpins. The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 <p>488 aptamer: </p>
 <p>5'-GCCAUAAGUUGUCCCAAGUCUUGGGCGCAAAUACAUCCC-3'<br></p>
 <p>945 aptamer: </p>

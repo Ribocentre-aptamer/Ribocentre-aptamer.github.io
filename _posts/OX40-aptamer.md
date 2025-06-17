@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2013, Pratico et al. isolated the human OX40 (hOX40) aptamer using systematic evolution of ligands by exponential enrichment. This aptamer binds the target purified protein with high affinity [dissociation constants (Kd)<10 nM]<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2013, Pratico et al. isolated the human OX40 (hOX40) aptamer using systematic evolution of ligands by exponential enrichment. This aptamer binds the target purified protein with high affinity [dissociation constants (Kd)<10 nM]<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>9C7 was the aptamer sequence mainly studied in the article, which had a high affinity with OX40. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>9C7 was the aptamer sequence mainly studied in the article, which had a high affinity with OX40. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-AAAAAAGAACACUUCCGAUUAGGGCCCACCCUAACGGCCGCAG-3'</p>
 <img src="/images/2D/OX40_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

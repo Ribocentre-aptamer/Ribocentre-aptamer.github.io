@@ -26,7 +26,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw.  D-R16c aptamer binding to D-Arginine. L-R16c aptamer and ag.06 aptamer binding to L-Arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw.  D-R16c aptamer binding to D-Arginine. L-R16c aptamer and ag.06 aptamer binding to L-Arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 <p>D-R16c aptamer: </p>
 <p>5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br></p>
 <p>L-R16c aptamer: </p>

@@ -119,7 +119,7 @@ categories: Aptamer
 
          
 <p class="header_box" id="description">Description</p>
-<font>In 2014, Elena V. Dolgosheina et al. isolated RNA aptamer Mango that binds a series of thiazole orange (fluorophore) using in vitro screening techniques. In 2017, Robert J Trachman III et al. determined the Mango-TO1-Biotin co-crystal structure of 1.7-Å-resolution RNA. A method to improve the tool for RNA visualization in vivo is also proposed<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<p>In 2014, Elena V. Dolgosheina et al. isolated RNA aptamer Mango that binds a series of thiazole orange (fluorophore) using in vitro screening techniques. In 2017, Robert J Trachman III et al. determined the Mango-TO1-Biotin co-crystal structure of 1.7-Å-resolution RNA. A method to improve the tool for RNA visualization in vivo is also proposed<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>

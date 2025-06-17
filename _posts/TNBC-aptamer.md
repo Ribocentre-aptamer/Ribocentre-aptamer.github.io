@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2020, Camorani, S. et al. identified a panel of nuclease-resistant RNA aptamers that bind to target cells by integrating a cell-SELEX method for the specific recognition of TNBC cells with high-throughput sequencing technology and their cisplatin- and doxorubicin-resistant derivatives,  and distinguish TNBC cells from both normal breast cells and non-TNBC breast cancer cells. Further, these aptamers interfere with the TNBC cells capacity of growing in vitro as mammospheres, a feature associated with the malignant phenotype, thus indicating they could be employed as important anti-tumor agents<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2020, Camorani, S. et al. identified a panel of nuclease-resistant RNA aptamers that bind to target cells by integrating a cell-SELEX method for the specific recognition of TNBC cells with high-throughput sequencing technology and their cisplatin- and doxorubicin-resistant derivatives,  and distinguish TNBC cells from both normal breast cells and non-TNBC breast cancer cells. Further, these aptamers interfere with the TNBC cells capacity of growing in vitro as mammospheres, a feature associated with the malignant phenotype, thus indicating they could be employed as important anti-tumor agents<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw. We chose the minimum free energy (MFE) structure and used ribodraw tool to draw the figure.<br></font>
+<p>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw. We chose the minimum free energy (MFE) structure and used ribodraw tool to draw the figure.<br></p>
 <p>5'-UAGGGAAGAGAAGGACAUAUGAUCCUGCCCCAACCAUCGCUUCCUCGACGCGCGUUGUCGGCAUUGACUAGUACAUGACCACUUGA-3'</p>
 <img src="/images/2D/TNBC_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

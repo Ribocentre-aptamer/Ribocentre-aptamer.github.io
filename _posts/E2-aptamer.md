@@ -73,7 +73,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2009, Tsuyoshi Takahashi et al. used the SELEX method to isolate the aptamer with high compatibility for the Amyloid beta-peptide (Aβ). Transmission electron micrographs indicated that E2 can stop the fibrillization of Ab1-40. The selected RNA aptamer has potential as therapeutic agents for AD pathogenesis<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br></font>
+<p>In 2009, Tsuyoshi Takahashi et al. used the SELEX method to isolate the aptamer with high compatibility for the Amyloid beta-peptide (Aβ). Transmission electron micrographs indicated that E2 can stop the fibrillization of Ab1-40. The selected RNA aptamer has potential as therapeutic agents for AD pathogenesis<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -82,7 +82,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></font>
+<p>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></p>
 <p>5'-GGGAUGUUCUAGGCGGUUGAUGAUUUGGGGUGUCGGGCGAUUUUUAGGGUUGGGCCAGGCCGUCAUCCAGAGUAGCAUAAUUGAUCCGA-3'</p>
 <img src="/images/2D/E2_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

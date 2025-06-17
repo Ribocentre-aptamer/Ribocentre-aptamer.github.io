@@ -20,7 +20,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2011, Ishiguro et al. used the SELEX method to isolate IL-17A-aptamer, after 21 rounds of selection. Apt21-2 is composed of 13 ribose 2-fluoropyrimidines and 20 unmodified purines<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2011, Ishiguro et al. used the SELEX method to isolate IL-17A-aptamer, after 21 rounds of selection. Apt21-2 is composed of 13 ribose 2-fluoropyrimidines and 20 unmodified purines<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -29,7 +29,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>Apt21-2 was the aptamer sequence mainly studied in the article, which had a high affinity with hIL-17A. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>Apt21-2 was the aptamer sequence mainly studied in the article, which had a high affinity with hIL-17A. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGUCUAGCCGGAGGAGUCAGUAAUCGGUAGACC-3'</p>
 <img src="/images/2D/IL-17A_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

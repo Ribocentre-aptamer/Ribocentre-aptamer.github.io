@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2008, Shinsuke Sando and Atsushi Narita et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Hoechst derivatives. The aptamer binds the fluorophore with high affinity. The light-up RNA aptamer-Hoechst pair can be used as a fluorescent tag to monitor transcription processes<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2008, Shinsuke Sando and Atsushi Narita et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Hoechst derivatives. The aptamer binds the fluorophore with high affinity. The light-up RNA aptamer-Hoechst pair can be used as a fluorescent tag to monitor transcription processes<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>II-mini3-4 aptamer: </p>
 <p>5'-GCCAAGCAGGUUCGUUUUCGAAGCUUGGA-3'<br></p>
 <p>aptamer II: 5'-GGGUGAUCAGAUUCUGAUCCAGGUUACCAAGCAGGUUCGGCCUCGUCUGAGGUGAAGCUUGGAUCCGUCGC-3'</p>

@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2006, Rentmeister, A., & Famulok, M. describe the isolation and characterization of RNA aptamers that selectively target the B1-CT. They show that these RNAs bind to authentic BACE1 and provide evidence that the binding site is restricted to the membrane-proximal half of the C terminus<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2006, Rentmeister, A., & Famulok, M. describe the isolation and characterization of RNA aptamers that selectively target the B1-CT. They show that these RNAs bind to authentic BACE1 and provide evidence that the binding site is restricted to the membrane-proximal half of the C terminus<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAUAGGAUCCACAUCUACGUAUUACGCAACGCCGGGCCACTACGCGAATGGCAAGCCCGTCGACUUCACUGCAGACUUGACGAAGCUU-3'</p>
 <img src="/images/2D/B1_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

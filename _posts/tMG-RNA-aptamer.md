@@ -46,7 +46,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2003, Hwang B and  Han K had used the methodology which is in vitro transcription of synthetic DNA templates, radiolabeled, and isolated as described to select RNA aptamers against mAb198 . The aptamers, tMG RNA , binds with high afﬁnity to speciﬁcally recognize mAb198<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2003, Hwang B and  Han K had used the methodology which is in vitro transcription of synthetic DNA templates, radiolabeled, and isolated as described to select RNA aptamers against mAb198 . The aptamers, tMG RNA , binds with high afﬁnity to speciﬁcally recognize mAb198<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -55,7 +55,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'GGGCCGGAGGUUAGCUUGCCCAUGGCAAGCAGGGCGCCACGGACCC3'</p>
 <img src="/images/2D/tMG_RNA_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

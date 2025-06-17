@@ -73,7 +73,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2007, Lee, K. H. et al.used the SELEX method to isolate the aptamer with high compatibility for the The protein calsenilin. As a functional protein, the biochemical role played by calsenilin may be a consequence of its different conformations. Intrinsically flexible proteins have several energetically degenerate conformations and the active conformation must be induced by binding of a signaling molecule. In the case of calsenilin, calcium ion is the signaling agent<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
+<p>In 2007, Lee, K. H. et al.used the SELEX method to isolate the aptamer with high compatibility for the The protein calsenilin. As a functional protein, the biochemical role played by calsenilin may be a consequence of its different conformations. Intrinsically flexible proteins have several energetically degenerate conformations and the active conformation must be induced by binding of a signaling molecule. In the case of calsenilin, calcium ion is the signaling agent<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -82,7 +82,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 <p>5'-UUUAUGUAGGGAUGUAAGGGAUGGGCAAUGUGGCGA-3'</p>
 <img src="/images/2D/The_protein_calsenilin-aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

@@ -22,8 +22,8 @@ categories: Aptamer
 </div>
 
 
-<font ><p class="header_box" id="description">Description</p>
-<font >In 1995, Yu Tian and colleagues used the SELEX method to isolate the aptamer with high affinity for the HTLV-1 Tax protein. It prevents the Tax protein from forming complexes with cellular transcription factors, thereby exerting its inhibitory effect<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p><p class="header_box" id="description">Description</p>
+<font >In 1995, Yu Tian and colleagues used the SELEX method to isolate the aptamer with high affinity for the HTLV-1 Tax protein. It prevents the Tax protein from forming complexes with cellular transcription factors, thereby exerting its inhibitory effect<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -32,7 +32,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>YT1 was the aptamer sequence mainly studied in the article, which had a high affinity with HTLV-1 Tax protein. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>YT1 was the aptamer sequence mainly studied in the article, which had a high affinity with HTLV-1 Tax protein. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAGAAUUCCGACCAGAAGCUUGGACUUAUUCUCGAGCCUGCAUGUGCUAGUCGACGUUGUUUCUGCAUCUUGAAAGAUGGGGCUGUGGGUGUGGUUACUUCUACGCGGUAUGCACUGUACGCCAUCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
 <img src="/images/2D/YT1_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   

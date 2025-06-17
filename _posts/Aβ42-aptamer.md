@@ -72,7 +72,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
+<p>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -81,7 +81,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
 <p>E22P-AbD43: GGGACGAAGACCAACUGAACUUUGUGGUGGCGGCUACUCGUGUUCUUUUGACUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD4: GGGACGAAGACCAACUGAACUUUAGGAGGGGGCAUUUGGACCAGUUUGUGUCUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD31: GGGACGAAGACCAACUGAACUUUUGGGUGGUAACAGGUAGCUCCGGUUGUCCUUUGUCCGUGCUGCCACCUUACUUC</p>
 <img src="/images/2D/EP22_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

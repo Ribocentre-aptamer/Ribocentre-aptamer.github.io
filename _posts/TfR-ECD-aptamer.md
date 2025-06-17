@@ -64,7 +64,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2008, Chi-hong B Chen et al. used the SELEX method to isolate the aptamer with high compatibility for the Mouse transferrin receptor (TfR-ECD). Their target molecule for aptamer selection was the extracellular domain of the mouse transferrin receptor (TfR). This receptor, ubiquitous in mammalian cells, is essential for the delivery of iron to cells via binding and endocytosis of transferrin-Fe+3, release of iron in endosomes, and dissociation of apotransferrin at the cell surface<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<p>In 2008, Chi-hong B Chen et al. used the SELEX method to isolate the aptamer with high compatibility for the Mouse transferrin receptor (TfR-ECD). Their target molecule for aptamer selection was the extracellular domain of the mouse transferrin receptor (TfR). This receptor, ubiquitous in mammalian cells, is essential for the delivery of iron to cells via binding and endocytosis of transferrin-Fe+3, release of iron in endosomes, and dissociation of apotransferrin at the cell surface<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -73,7 +73,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 <p>FB4: 5'-GGGCGAAUUCCGCGUGUGCUGAGGGCGGAAGAACUAAUUUGGGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCGGG-3'<br></p>
 <p>FB4 (truncated version): 5'-GGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>

@@ -64,7 +64,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2002，Bhattacharyya et al. utilized SELEX to select a diverse set of highly efficient mitochondrial import aptamers from a random sequence library. These aptamers are then referenced against the tRNA sequence database to identify potential import signals within various domains of the tRNA. In 2010, Kolesnikova, O. et al. tried SELEX to mitochondria to improve the efficacy of importable yeast and human tRNA by changing a part of sequence in natural tRNA<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
+<p>In 2002，Bhattacharyya et al. utilized SELEX to select a diverse set of highly efficient mitochondrial import aptamers from a random sequence library. These aptamers are then referenced against the tRNA sequence database to identify potential import signals within various domains of the tRNA. In 2010, Kolesnikova, O. et al. tried SELEX to mitochondria to improve the efficacy of importable yeast and human tRNA by changing a part of sequence in natural tRNA<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -73,7 +73,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>C1 aptamer: </p>
 <p>5'-GGGACGCAGGGACUGUACCUUCUAGGCUGGGUCAUGUGACUGUAGCGG-3'<br></p>
 <p>C32 aptamer: </p>

@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2008, Goers, E. S. et al. reported the characterization of RNA binding properties of the Drosophila muscleblind protein Mbl. Systematic evolution of ligands by exponential enrichment (SELEX) was used to isolated RNA aptamers that bind Mbl with much higher affinity than CUG repeats. Characterization of the RNA binding properties of Drosophila Mbl will lead to a better understanding of its role in alternative splicing and the role of MBNL in DM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2008, Goers, E. S. et al. reported the characterization of RNA binding properties of the Drosophila muscleblind protein Mbl. Systematic evolution of ligands by exponential enrichment (SELEX) was used to isolated RNA aptamers that bind Mbl with much higher affinity than CUG repeats. Characterization of the RNA binding properties of Drosophila Mbl will lead to a better understanding of its role in alternative splicing and the role of MBNL in DM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAAUGGAUCCACAUCUACGAAUUCACCGUAGAUGAUGGAUGUGCGGUAGAGUCUUUCACUGCAGACUUGACGAAGCUU-3'</p>
 <img src="/images/2D/mbl_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

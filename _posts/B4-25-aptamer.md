@@ -25,7 +25,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1990, Andrew D. Ellington & Jack W. Szostak isolated RNA binding to some dyes through in vitro selection experiments, and named these RNA specifically binding as aptamers. Subpopulations of RNA molecules that bind specifically to a variety of organic dyes have been isolated from a population of random sequence RNA molecules. Started the earliest example of aptamer selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 1990, Andrew D. Ellington & Jack W. Szostak isolated RNA binding to some dyes through in vitro selection experiments, and named these RNA specifically binding as aptamers. Subpopulations of RNA molecules that bind specifically to a variety of organic dyes have been isolated from a population of random sequence RNA molecules. Started the earliest example of aptamer selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -34,7 +34,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition, an analytical affinity column was run under isocratic conditions to determine an approximate dissociation constant (Kd) for the RNA-ligand interaction. The 2D structure of the left figure is based on the literature, and the right figure is based on the prediction results of the RNA fold website. We used the minimum free energy (MFE) structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition, an analytical affinity column was run under isocratic conditions to determine an approximate dissociation constant (Kd) for the RNA-ligand interaction. The 2D structure of the left figure is based on the literature, and the right figure is based on the prediction results of the RNA fold website. We used the minimum free energy (MFE) structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>B4-25 aptamer: </p>
 <p>5'-GGGAGAAUUCCCGCGGCGUUGGCCCAGGAUAAUAGGACGAAAUCCGAAAAAUCCGUACCCAACAUAGAACCCCCCCAGCGCUCACACGGACGCCCCAUUACGGCUAACCGAACGCCUGCAGCCCGGGAAGCUU-3'<br></p>
 <p>CB-42 aptamer: </p>

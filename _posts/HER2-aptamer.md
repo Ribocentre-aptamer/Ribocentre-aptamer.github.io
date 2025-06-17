@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2015, Moosavian, S. A. et al. isolate RNA aptamers that specifically bind to HER2 overexpressing TUBO cell line. Among them TSA14 aptamer had the most affinity for target cells. Different experiments showed that the interaction of TSA14 aptamer with TUBO cells is mediated by binding to the extracellular domain of HER2<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2015, Moosavian, S. A. et al. isolate RNA aptamers that specifically bind to HER2 overexpressing TUBO cell line. Among them TSA14 aptamer had the most affinity for target cells. Different experiments showed that the interaction of TSA14 aptamer with TUBO cells is mediated by binding to the extracellular domain of HER2<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures are based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figures are based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>TSA14 aptamer: </p>
 <p>5'-GCUGGAGCAUUUAUGGAUGAACCUUGGACGGAA-3'<br></p>
 <p>TSA12 aptamer: </p>

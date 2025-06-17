@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2001,Yu J et al. screened an RNA aptamer targeting Sialyl Lewis X (sLeX) and determined its affinity and specificity by surface plasmon resonance technique, and found that its affinity was about 1000-fold higher than that of the original RNA library, and verified the aptamer's application in inhibiting adhesion of sLeX-expressing HL60 cells to E- and P-selectin by static in vitro experiments<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2001,Yu J et al. screened an RNA aptamer targeting Sialyl Lewis X (sLeX) and determined its affinity and specificity by surface plasmon resonance technique, and found that its affinity was about 1000-fold higher than that of the original RNA library, and verified the aptamer's application in inhibiting adhesion of sLeX-expressing HL60 cells to E- and P-selectin by static in vitro experiments<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Clone 5 aptamer binding to Sialyl Lewis X (sLeX).<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Clone 5 aptamer binding to Sialyl Lewis X (sLeX).<br></p>
 <p>5'-CCGUAAUACGACUCACUAUAGGGGAGCUCGGUACCGAAUUCAAGGYACUCUGUGCUUGUCGAUGUGYAUUGAUGGCACUUUCGAGUCAACGAGUUGACAGRACAAGUAGUCAAGCUUUGCAGAGAGGAUCCUU-3'</p>
 <img src="/images/2D/Sialyl_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

@@ -20,7 +20,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1994, Conrad, R. et al. have used vitro selection technology to isolate RNA aptamers from a random sequence pool that can bind to, and specifically inhibit, protein kinase C beta II. Two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities and inhibit activation with unprecedented selectivity. In 1996, they used a simple filter binding assay, the aptamers have been used to detect protein kinase C (PKC) introduced into a cell extract<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 1994, Conrad, R. et al. have used vitro selection technology to isolate RNA aptamers from a random sequence pool that can bind to, and specifically inhibit, protein kinase C beta II. Two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities and inhibit activation with unprecedented selectivity. In 1996, they used a simple filter binding assay, the aptamers have been used to detect protein kinase C (PKC) introduced into a cell extract<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -29,7 +29,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>PKC-6: 5'-GGGAGAAUUCCGACCAGAGGCUUACAGAGUGUGCGUAAUGGCGUUCCCAAAUUCGGGCUGGGAACCGUUCGUUCGUGUUAUGCCCGUAGAUAUGGCAAGUCGCGGAUGCUCAGUACUACACUCUUGUGGUCAGUCACAUAUGUGCGUCUACAUGGAUCCUCA-3'<br></p>
 <p>PKC-10: 5'-GGGAGAAUUCCGACCAGAGGUUGUUAAGUGCGAGUGUGUUUUACUCCGAUGAUACGGGGAGCGUUAGAGUCUUAUGACCUUGUUACUCCACGUCACUGUCCAAGUCACUCCGCGUCAUAGCAGUCGGAUCCUGUACAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>

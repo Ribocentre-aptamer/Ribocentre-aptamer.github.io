@@ -78,7 +78,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2004, Jung-Sun Cho and colleagues used an In vitro selection strategy to isolate high affinity RNA aptamers that bind to NFAT DNA binding domain.  The aptamers have a specific and high affinity (apparent KD~10 to 100 nM) for the NFAT DBD<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2004, Jung-Sun Cho and colleagues used an In vitro selection strategy to isolate high affinity RNA aptamers that bind to NFAT DNA binding domain.  The aptamers have a specific and high affinity (apparent KD~10 to 100 nM) for the NFAT DBD<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -87,7 +87,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAGAGCGGAAGCGUGCUGGGCCGAUAUGAAGGAGUGGAGAGGGUGGCAGCAUGGUCCGGAUCCAUAACCCAGAGGUCGAUGGAUCCU-3'</p>
 <img src="/images/2D/1_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

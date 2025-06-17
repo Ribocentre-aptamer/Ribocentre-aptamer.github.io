@@ -20,7 +20,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2012, Suenaga et al. selected an aptamer (8-3) from a completely random RNA pool that binds with high affinity (∼KD 170 pM) to the hemagglutinins (HAs) derived from HPAI H5N1 (A/H5N1/Vietnam/1194/2004 and A/H5N1/Indonesia/05/2005) and H7N7 (A/H7N7/Netherlands/219/2003) influenza A viruses. Aptamer 8-3 was analyzed further to assess its ability to interfere with HA–glycan interactions using our previously established SPR-based competitive assay<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2012, Suenaga et al. selected an aptamer (8-3) from a completely random RNA pool that binds with high affinity (∼KD 170 pM) to the hemagglutinins (HAs) derived from HPAI H5N1 (A/H5N1/Vietnam/1194/2004 and A/H5N1/Indonesia/05/2005) and H7N7 (A/H7N7/Netherlands/219/2003) influenza A viruses. Aptamer 8-3 was analyzed further to assess its ability to interfere with HA–glycan interactions using our previously established SPR-based competitive assay<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -29,7 +29,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>8-3 was the aptamer sequence mainly studied in the article, which had a high affinity with HA of H5N1 and H7N7. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>8-3 was the aptamer sequence mainly studied in the article, which had a high affinity with HA of H5N1 and H7N7. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGAGCUCAGCCUUCACUGCGAGAUUGUUCUGACCGAGUUGCCUAGCAGGGCAACCGCUGGAACUUGAAGUCGGUAAUGCGAGCGGAAAGCCUUGGCACCACGGUCGGAUCCAC-3'</p>
 <img src="/images/2D/HPAI_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

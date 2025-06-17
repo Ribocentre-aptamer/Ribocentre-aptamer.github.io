@@ -23,7 +23,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2012, Ray et al. identified the M9-5 aptamer using an in vitro positive/negative selection strategy to identify RNA ligands (aptamers) that could detect structural differences between the secretomes of pancreatic cancer and non-cancerous cells. In 2013, Ray et al. discovered the potential M9-5 selectivity which was the post-translational modifications on cyclophilin B<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<p>In 2012, Ray et al. identified the M9-5 aptamer using an in vitro positive/negative selection strategy to identify RNA ligands (aptamers) that could detect structural differences between the secretomes of pancreatic cancer and non-cancerous cells. In 2013, Ray et al. discovered the potential M9-5 selectivity which was the post-translational modifications on cyclophilin B<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -32,7 +32,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>M9-5 was the aptamer sequence mainly studied in the article, which had a high affinity with CypB. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>M9-5 was the aptamer sequence mainly studied in the article, which had a high affinity with CypB. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGACCUAUGCAGUAGCCAGUGUGGACUGGGCUGCCCCCCC-3'</p>
 <img src="/images/2D/cypB_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

@@ -73,7 +73,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2006, RNA aptamers that bind the opium alkaloid codeine were generated using an iterative in vitro selection process. Two highest binding aptamer sequences, FC5 and FC45 with Kd values of 2.50 and 4.00 μM, respectively, were extensively studied. Corresponding mini-aptamers for FC5 and FC45 were subsequently identified through the described direct coupling Biacore assays<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2006, RNA aptamers that bind the opium alkaloid codeine were generated using an iterative in vitro selection process. Two highest binding aptamer sequences, FC5 and FC45 with Kd values of 2.50 and 4.00 μM, respectively, were extensively studied. Corresponding mini-aptamers for FC5 and FC45 were subsequently identified through the described direct coupling Biacore assays<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -82,7 +82,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw. FC5L is the truncated sequence of full-length FC5. FC45L is the truncated sequence of full-length FC45<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw. FC5L is the truncated sequence of full-length FC5. FC45L is the truncated sequence of full-length FC45<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>FC5L aptamer: </p>
 <p>5'-GGGACAGGGCUAGCAGUAGGAUUGGGUGAGGGGAUGUGCUG-3'<br></p>
 <p>FC45L aptamer: </p>

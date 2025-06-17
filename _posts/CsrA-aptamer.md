@@ -23,7 +23,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2005, Ashok K. Dubey and colleagues used in vitro selection to isolate RNA aptamers that bind to CsrA. CsrA of Escherichia coli is an RNA binding protein that plays a central role in repressing several stationary phase processes and activating certain exponential phase functions. Both the primary sequence and secondary structure of selected RNA ligands are important for high-affinity CsrA interaction<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2005, Ashok K. Dubey and colleagues used in vitro selection to isolate RNA aptamers that bind to CsrA. CsrA of Escherichia coli is an RNA binding protein that plays a central role in repressing several stationary phase processes and activating certain exponential phase functions. Both the primary sequence and secondary structure of selected RNA ligands are important for high-affinity CsrA interaction<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -32,7 +32,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The aptamers containing single high affinity CsrA binding sites. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The aptamers containing single high affinity CsrA binding sites. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAAUUCAACUCCAUCUAGGCACAAGGAUGUGCCAUAGUACUACAAGCU-3'</p>
 <img src="/images/2D/CsrA_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

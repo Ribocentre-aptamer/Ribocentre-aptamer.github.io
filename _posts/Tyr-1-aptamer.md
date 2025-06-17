@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2000,G P Tocchini-Valentini et al. screened in vitro for RNA aptamers that specifically bind the free amino acid tyrosine from a degraded pool derived from dopamine aptamers and used these aptamers to study their highly L-stereoselective binding properties to tyrosine and its related ligands<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2000,G P Tocchini-Valentini et al. screened in vitro for RNA aptamers that specifically bind the free amino acid tyrosine from a degraded pool derived from dopamine aptamers and used these aptamers to study their highly L-stereoselective binding properties to tyrosine and its related ligands<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Try1 aptamer binding to L-tyrosine.<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Try1 aptamer binding to L-tyrosine.<br></p>
 <p>5'-GGGAAGCUUGUACAGGGGGCAGUCAACUCGUGCGAUCGUGAAAACGGGGCAAGAUGGCCUUACAGCGGUCAAUACGGGGGUCAUCAGAUAGGGAGGCCCUCCUGGUGGUCCGUUCGGGAUCCUC-3'</p>
 <img src="/images/2D/Try1_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

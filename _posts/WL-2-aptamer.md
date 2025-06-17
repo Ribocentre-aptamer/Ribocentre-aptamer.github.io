@@ -73,7 +73,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2007, David H J Bunka et al. used the SELEX method to isolate the aptamer with high compatibility for the Amyloid-like fibrils formed in vitro from monomeric beta-2-microglobulin (β2m). WL-2 binds to WL and LS fibrils with an on-rate that is much faster than the binding of LS-5 to the same fibrillar targets , suggesting that although these aptamers recognize an epitope present in both WL and LS fibrils, the epitope for each aptamer must be either distinct or differentially accessible in the different fibril forms<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
+<p>In 2007, David H J Bunka et al. used the SELEX method to isolate the aptamer with high compatibility for the Amyloid-like fibrils formed in vitro from monomeric beta-2-microglobulin (β2m). WL-2 binds to WL and LS fibrils with an on-rate that is much faster than the binding of LS-5 to the same fibrillar targets , suggesting that although these aptamers recognize an epitope present in both WL and LS fibrils, the epitope for each aptamer must be either distinct or differentially accessible in the different fibril forms<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -82,7 +82,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw.<br></p>
 <p>5'-GGGCCAAGCUUGCAUGCCUGCAGAAAAAUAAAGUGUGUACACUAAAUUGCUAGCCCCCGGAAAGAAGGUCAACAAAAGUCAGUGGUACCGAGCUCAGGUUCCC-3'</p>
 <img src="/images/2D/WL-2_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

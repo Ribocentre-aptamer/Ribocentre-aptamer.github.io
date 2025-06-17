@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2012, Xu et al. identified three high affinity aptamers and characterized one of the AptER-1 in detail. This aptamer interacted with ERα in a way not affected by the presence or absence of either the steroidal ligands or the estrogen response DNA elements, and effectively inhibited ER-mediated transcriptional activation in a breast cancer cell line<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2012, Xu et al. identified three high affinity aptamers and characterized one of the AptER-1 in detail. This aptamer interacted with ERα in a way not affected by the presence or absence of either the steroidal ligands or the estrogen response DNA elements, and effectively inhibited ER-mediated transcriptional activation in a breast cancer cell line<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>AptER-1 was the aptamer sequence mainly studied in the article, which had a high affinity with ERα. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>AptER-1 was the aptamer sequence mainly studied in the article, which had a high affinity with ERα. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-CCACAGUUCAGAGGCACCGCGAACAAAACGCAAGACAGAGUGCCGACAAGAGC-3'</p>
 <img src="/images/2D/ER_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2005, Qin Pan and colleagues have applied a systematic evolution of ligands by exponential enrichment approach to select oligonucleotides (aptamers) as ligands that specifically bind to type IVB pili. The selected aptamer could significantly inhibit the entry of the piliated strain (but not that of the nonpiliated strain) into human THP-1 cells<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2005, Qin Pan and colleagues have applied a systematic evolution of ligands by exponential enrichment approach to select oligonucleotides (aptamers) as ligands that specifically bind to type IVB pili. The selected aptamer could significantly inhibit the entry of the piliated strain (but not that of the nonpiliated strain) into human THP-1 cells<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The aptamers could significantly inhibit the entry of the piliated strain (but not that of the nonpiliated strain) into humanTHP-1 cells. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The aptamers could significantly inhibit the entry of the piliated strain (but not that of the nonpiliated strain) into humanTHP-1 cells. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-UCACUGUUAUCCGAUAGCAGCGCGGGAUGA-3'</p>
 <img src="/images/2D/IVB_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

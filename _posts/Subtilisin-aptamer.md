@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1999, Hiroshi Takeno and colleagues used in vitro selection to isolate RNA aptamers that bind to protease subtilisin. The RNA aptamer displayed specific inhibition toward the subtilisin activity and almost no inhibitory activity toward trypsin and chymotrypsin, although these enzymes are serine proteases similar to subtilisin<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 1999, Hiroshi Takeno and colleagues used in vitro selection to isolate RNA aptamers that bind to protease subtilisin. The RNA aptamer displayed specific inhibition toward the subtilisin activity and almost no inhibitory activity toward trypsin and chymotrypsin, although these enzymes are serine proteases similar to subtilisin<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The RNA aptamers were directly bound to subtilin. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The RNA aptamers were directly bound to subtilin. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GCCACUCGCUCAACACGGUAAGUAGAGACCUAGUGGUACAUAAAGGA-3'</p>
 <img src="/images/2D/Subtilisin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

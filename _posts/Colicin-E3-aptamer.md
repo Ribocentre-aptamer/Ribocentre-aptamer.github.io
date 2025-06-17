@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2004, Ichiro Hirao and colleagues used in vitro selection to isolate RNA aptamers that bind to the C-terminal ribonuclease domain of colicin E3. They specifically bound to the protein and prevented the 16S rRNA cleavage by the C-terminal ribonuclease domain<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2004, Ichiro Hirao and colleagues used in vitro selection to isolate RNA aptamers that bind to the C-terminal ribonuclease domain of colicin E3. They specifically bound to the protein and prevented the 16S rRNA cleavage by the C-terminal ribonuclease domain<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The aptamers have sequences similar to the region of residues 1484-1506, which includes the E. coli 16S rRNA cleavage site. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The aptamers have sequences similar to the region of residues 1484-1506, which includes the E. coli 16S rRNA cleavage site. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-UCCCUGGCCCAAGAUCCUAAUAAAGUUUUUUCGGACCGGAGCGAAACCACUAUCCUCUUAAGCAAUCUGU-3'</p>
 <img src="/images/2D/E3_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

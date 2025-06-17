@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2024, Fangting Zuo and Li Jiang et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for ACE. The aptamer binds the fluorophore with high affinity. Favorable features of ACE together contribute to the high photostability of Okra-ACE complex<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2024, Fangting Zuo and Li Jiang et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for ACE. The aptamer binds the fluorophore with high affinity. Favorable features of ACE together contribute to the high photostability of Okra-ACE complex<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw.<br></p>
 <p>5'-CGGGGACCAUCCAGCGAUGGAUACUGCUGCUUCGGCAGAGCAAGGAUAAUAUCUAGAACGACCAUCCG-3'</p>
 <img src="/images/2D/ACE_aptamer_2D.svg" alt="drawing" style="width:800px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

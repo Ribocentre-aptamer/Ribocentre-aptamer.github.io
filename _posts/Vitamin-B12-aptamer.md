@@ -77,8 +77,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p>
-<font >In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B<sub>12</sub> RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p><p class="header_box" id="description">Description</p>
+<font >In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B<sub>12</sub> RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 

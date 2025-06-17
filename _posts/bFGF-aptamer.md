@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1993, Jellinek, D. had isolated RNA ligands with low-nanomolar affinity and high specificity to basic fibroblast growth factor from a pool of 10<sup>14</sup> molecules containing 30 randomized positions by the systematic evolution of ligands by exponential enrichment (SELEX) procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 1993, Jellinek, D. had isolated RNA ligands with low-nanomolar affinity and high specificity to basic fibroblast growth factor from a pool of 10<sup>14</sup> molecules containing 30 randomized positions by the systematic evolution of ligands by exponential enrichment (SELEX) procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article and the prediction results of the RNA fold website by ribodraw tool to draw. Here, only the aptamer with the best affinity was selected for painting 2D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article and the prediction results of the RNA fold website by ribodraw tool to draw. Here, only the aptamer with the best affinity was selected for painting 2D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>7A aptamer: </p>
 <p>5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br></p>
 <p></p>

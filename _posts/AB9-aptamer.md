@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2007, Huang and his collegeague used the systematic evolution of ligands by exponential enrichment (SELEX) to selecte a group of RNA aptamers against the recombinant GluR2Qflip AMPA receptor transiently expressed in HEK-293 (human embryonic kidney) cells. In 2017, J. Jaremko and his colleagues used homologous binding and whole-cell recording assays to find an RNA aptamer most likely binds to the receptor’s regulatory site and in- hibits it noncompetitively<sup>[<a href="#ref8" style="color:#520049">8</a>,<a href="#ref12" style="color:#520049">12</a>]</sup>.<br></font>
+<p>In 2007, Huang and his collegeague used the systematic evolution of ligands by exponential enrichment (SELEX) to selecte a group of RNA aptamers against the recombinant GluR2Qflip AMPA receptor transiently expressed in HEK-293 (human embryonic kidney) cells. In 2017, J. Jaremko and his colleagues used homologous binding and whole-cell recording assays to find an RNA aptamer most likely binds to the receptor’s regulatory site and in- hibits it noncompetitively<sup>[<a href="#ref8" style="color:#520049">8</a>,<a href="#ref12" style="color:#520049">12</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -99,7 +99,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.<br></p>
 <p>5'-GGGAGAAUUCAACUGCCAUCUAGGCAGAUCACGAAAAAGCGGAAUUGAGGUACCCAAGAGCUAAAAAAAGACAUCCAGUACUACAAGCUUCUGGACUCGGU-3'</p>
 <img src="/images/2D/AB9_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

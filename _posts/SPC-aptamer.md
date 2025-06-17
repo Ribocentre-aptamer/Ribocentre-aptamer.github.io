@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2010, Horii et al. have generated RNA aptamers that bind to SPC with high affinity using an in vitro selection procedure and developed an enzyme-linked aptamer assay system using the minimized SPC aptamer that can successfully distinguish SPC from the structurally related sphingosine 1-phosphate (S1P)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2010, Horii et al. have generated RNA aptamers that bind to SPC with high affinity using an in vitro selection procedure and developed an enzyme-linked aptamer assay system using the minimized SPC aptamer that can successfully distinguish SPC from the structurally related sphingosine 1-phosphate (S1P)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>A unique stem-loop conformation was conserved in the m012 aptamer, suggesting that this region is critical for binding to SPC. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>A unique stem-loop conformation was conserved in the m012 aptamer, suggesting that this region is critical for binding to SPC. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGCGAAUUCUUCCGUUAUUGGAGCCAAGUCGCC-3'</p>
 <img src="/images/2D/SPC_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

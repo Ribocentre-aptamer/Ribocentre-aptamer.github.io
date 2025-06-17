@@ -23,7 +23,7 @@ categories: Aptamer
 
          
 <p class="header_box" id="description">Description</p>
-<font>Through an in vitro screening method, John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques. The binding pocket of the aptamer with FMN demonstrates in detail the potential role of RNA in redox reactions<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>Through an in vitro screening method, John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques. The binding pocket of the aptamer with FMN demonstrates in detail the potential role of RNA in redox reactions<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>

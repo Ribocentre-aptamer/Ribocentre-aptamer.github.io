@@ -46,7 +46,7 @@ categories: Aptamer
 
          
 <p class="header_box" id="description">Description</p>
-<font>In 2022, Jiahui Wu, et al. developed Beetroot aptamer, which enables to bind DFAME and forms an RNA-fluorophore complex. In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization and diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
+<p>In 2022, Jiahui Wu, et al. developed Beetroot aptamer, which enables to bind DFAME and forms an RNA-fluorophore complex. In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization and diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>

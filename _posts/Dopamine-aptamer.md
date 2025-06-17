@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1997, G P Tocchini-Valentini et al. screened dopa2/c.1 aptamer that specifically bind dopamine, revealed structural features of their binding sites, and found that ligand binding may cause RNA conformational changes. In 2011, Insook Rhee Paeng et al. development of a Direct Competitive Enzyme-Linked Aptamer Assay for the Determination of Dopamine Levels in Serum. In 2015, Elena E Ferapontova et al. investigated the specific analysis of dopamine by electrochemical aptasensor via electrostatic adsorption of RNA aptamers onto cystamine-modified electrodes, found that the aptamer surface density affects dopamine binding in a bell-shaped curve, and achieved robust monitoring in the range of 0.01-1 μM dopamine fluctuations through optimization of the conditions, which improved the sensitivity and specificity of dopamine detection in biological systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 1997, G P Tocchini-Valentini et al. screened dopa2/c.1 aptamer that specifically bind dopamine, revealed structural features of their binding sites, and found that ligand binding may cause RNA conformational changes. In 2011, Insook Rhee Paeng et al. development of a Direct Competitive Enzyme-Linked Aptamer Assay for the Determination of Dopamine Levels in Serum. In 2015, Elena E Ferapontova et al. investigated the specific analysis of dopamine by electrochemical aptasensor via electrostatic adsorption of RNA aptamers onto cystamine-modified electrodes, found that the aptamer surface density affects dopamine binding in a bell-shaped curve, and achieved robust monitoring in the range of 0.01-1 μM dopamine fluctuations through optimization of the conditions, which improved the sensitivity and specificity of dopamine detection in biological systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -99,7 +99,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAAUUCCGCGUGUGCGCCGCGGAAGACGUUGGAAGGAUAGAUACCUACAACGGGGAAUAUAGAGGCCAGCACAUAGUGAGGCCCUCCUCCC-3'</p>
 <img src="/images/2D/Dopamine_aptamer_2D.svg" alt="drawing" style="width:800px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

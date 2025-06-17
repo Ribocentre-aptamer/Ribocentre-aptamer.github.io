@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2000, Fukusho, S. et al. performed an in vitro selection of RNA aptamer on a 27 MHz quartz-crystal microbalance (QCM) for a simple R5 helix peptide  as a model of N peptide from bacteriophade lambda. In 2014，In vitro selection of RNA (30 random-nucleotide region) was carried out with N-model-peptide immobilized on a 27 MHz quartz-crystal microbalance (QCM), and the RNA recognition specificity of the peptide was studied<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
+<p>In 2000, Fukusho, S. et al. performed an in vitro selection of RNA aptamer on a 27 MHz quartz-crystal microbalance (QCM) for a simple R5 helix peptide  as a model of N peptide from bacteriophade lambda. In 2014，In vitro selection of RNA (30 random-nucleotide region) was carried out with N-model-peptide immobilized on a 27 MHz quartz-crystal microbalance (QCM), and the RNA recognition specificity of the peptide was studied<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <p>B-2 RNA aptamer: </p>
 <p>5'-GGGAAACUGGAUGGAAUGGGCUCGAUGAAAAUCGACCGUGCGCUGAAAAGCACGCGAGGUCCUGCUGUAAGUGUGCCA-3'<br></p>
 <p>B-6 RNA aptamer: </p>

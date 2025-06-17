@@ -20,7 +20,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2007, Sando et al. selected the class II-1 aptamer against gel-immobilized Escherichia coli release factor 1 (RF-1) responsible for translation termination at amber (UAG) stop codon using a pool of 84-nt RNAs containing a randomized sequence of 50 nt<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2007, Sando et al. selected the class II-1 aptamer against gel-immobilized Escherichia coli release factor 1 (RF-1) responsible for translation termination at amber (UAG) stop codon using a pool of 84-nt RNAs containing a randomized sequence of 50 nt<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -29,7 +29,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>Class II-1 was the aptamer sequence mainly studied in the article, which had a high affinity with RF 1. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>Class II-1 was the aptamer sequence mainly studied in the article, which had a high affinity with RF 1. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGACCGAGAAGUUACCCUGUAAUCUUAGGAUGAAUCGCAUGCUCUAGCGACCUUUUCGGCUUCGGCGUACGCACAUCGCAGCAAC-3'</p>
 <img src="/images/2D/RF1_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

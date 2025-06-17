@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2010, Huang et al. used the SELEX method to isolate ZAP-binding RNAaptamers. After 21 rounds of selection, ZAP-binding aptamers were isolated. Sequence analysis revealed that they are G-rich RNAs with predicted stem-loop structures containing conserved “GGGUGG” and “GAGGG” motifs in the loop region<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2010, Huang et al. used the SELEX method to isolate ZAP-binding RNAaptamers. After 21 rounds of selection, ZAP-binding aptamers were isolated. Sequence analysis revealed that they are G-rich RNAs with predicted stem-loop structures containing conserved “GGGUGG” and “GAGGG” motifs in the loop region<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>21E was the aptamer sequence mainly studied in the article, which had a high affinity with ZAP. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>21E was the aptamer sequence mainly studied in the article, which had a high affinity with ZAP. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAACAGUCCGAGCCUGCGUGCGAGGAGGUGGAGAGGGUGGGUGUGCGUGGCGUGGGGUGAAUUCGUCAUA-3'</p>
 <img src="/images/2D/ZAP_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

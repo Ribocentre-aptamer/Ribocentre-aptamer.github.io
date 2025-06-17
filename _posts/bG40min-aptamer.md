@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>Donald H Burke et al. screened Boron-containing aptamers to ATP, suggesting that boronated nucleotides could be used to develop boronated RNA ligands for boron neutron capture therapy with potential therapeutic applications<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>Donald H Burke et al. screened Boron-containing aptamers to ATP, suggesting that boronated nucleotides could be used to develop boronated RNA ligands for boron neutron capture therapy with potential therapeutic applications<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw. bG40min aptamer binding to ATP.<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw. bG40min aptamer binding to ATP.<br></p>
 <p>5'-GGGAAAAGCGAAUCAUACACAAGAUUCACUCUACACCCAUGUCCCUAGGACUACAGGUUAACUACAAACCUCGAUCCGGUGCUUAGGGUGUGCUGG-3'</p>
 <img src="/images/2D/bG40min_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

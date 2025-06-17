@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1998, Sabine D. Bell and colleagues used in vitro selection to isolate RNA aptamers that bind to the Protein tyrosine phosphatases. The aptamers localize to the protein active site and inhibit enzymatic activity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 1998, Sabine D. Bell and colleagues used in vitro selection to isolate RNA aptamers that bind to the Protein tyrosine phosphatases. The aptamers localize to the protein active site and inhibit enzymatic activity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The anti-Yop51* aptamers bind at or near the protein active site. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The anti-Yop51* aptamers bind at or near the protein active site. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAGATACCAGCTTATTCAATTCTGGCAATGGGTTATCCCAAGTGCTAAGCTTCAGGGAGCGAGGACCAGACGACGTACCTAACCCTAAGGTGAGATAGTAAGTGCAATCT-3'</p>
 <img src="/images/2D/NC17yc16_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

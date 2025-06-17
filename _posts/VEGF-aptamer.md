@@ -134,7 +134,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 1994, Jellinek, D. et al. used SELEX to identify RNA ligands that bind to VEGF in a specific manner with affinities in the low nanomolar range. In 1995, followed by the use of F-substituted nucleotides to further improve affinity. In 1998, three stable, high-affinity candidate anti-VEGF aptamers were characterized. In 1999, Pegaptanib was further characterized in experiments with cultured endothelial cells. In subsequent work, pegaptanib was found to be stable in human plasma at ambient temperatures for more than 18 hours, dthe pharmacokinetics of pegaptanib were evaluated following  in rhesus monkeys. In 2004, The safety and efficacy of pegaptanib in the treatment of choroidal neovascularization secondary to AMD were tested in two clinical trials.In December 2004, the US FDA approved pegaptanib sodium (Macugen), an anti-vascular endothelial growth factor (anti-VEGF) RNA aptamer, for the treatment of all types of neovascular age-related macular degeneration (AMD)<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>,<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>,<a href="#ref5" style="color:#520049">5</a>,<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
+<p>In 1994, Jellinek, D. et al. used SELEX to identify RNA ligands that bind to VEGF in a specific manner with affinities in the low nanomolar range. In 1995, followed by the use of F-substituted nucleotides to further improve affinity. In 1998, three stable, high-affinity candidate anti-VEGF aptamers were characterized. In 1999, Pegaptanib was further characterized in experiments with cultured endothelial cells. In subsequent work, pegaptanib was found to be stable in human plasma at ambient temperatures for more than 18 hours, dthe pharmacokinetics of pegaptanib were evaluated following  in rhesus monkeys. In 2004, The safety and efficacy of pegaptanib in the treatment of choroidal neovascularization secondary to AMD were tested in two clinical trials.In December 2004, the US FDA approved pegaptanib sodium (Macugen), an anti-vascular endothelial growth factor (anti-VEGF) RNA aptamer, for the treatment of all types of neovascular age-related macular degeneration (AMD)<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>,<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>,<a href="#ref5" style="color:#520049">5</a>,<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -143,7 +143,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <p>5'-GCGGAAUCAGUGAAUGCUUAUACAUCCGC-3'</p>
 <img src="/images/2D/VEGF_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

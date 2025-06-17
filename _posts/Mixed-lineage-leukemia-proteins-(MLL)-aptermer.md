@@ -81,7 +81,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2008, Southall, S.M. and his colleagues determined the crystal structure of the MLL1 SET domain in complex with cofactor product AdoHcy and a histone H3 peptide. In 2019, Ul-Haq and his colleagues screened and isolated MLL1-binding ssRNAs using SELEX (Systemic Evolution of Ligands by Exponential enrichment) technology<sup>[<a href="#ref9" style="color:#520049">9</a>,<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
+<p>In 2008, Southall, S.M. and his colleagues determined the crystal structure of the MLL1 SET domain in complex with cofactor product AdoHcy and a histone H3 peptide. In 2019, Ul-Haq and his colleagues screened and isolated MLL1-binding ssRNAs using SELEX (Systemic Evolution of Ligands by Exponential enrichment) technology<sup>[<a href="#ref9" style="color:#520049">9</a>,<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
 <p>5'-GGCUCGAGGAACGUACAGAGGGUGGAGAGUGGGUGGAAGCUUACGGUACCUAGC-3'</p>
 <img src="/images/2D/MLL_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

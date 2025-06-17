@@ -94,7 +94,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn<sup>2+</sup> to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
+<p>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn<sup>2+</sup> to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -103,7 +103,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>Clone 31 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Tat protein. The 2D structure of the figures is based on the article by ribodraw tool to draw. These are two different prediction results in the article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
+<p>Clone 31 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Tat protein. The 2D structure of the figures is based on the article by ribodraw tool to draw. These are two different prediction results in the article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 <p>5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">

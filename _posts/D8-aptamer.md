@@ -22,7 +22,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2001,D R Engelke et al. obtained RNA aptamers for binding Sephadex by an in vitro screen, which were divided into two groups based on consensus sequences, and both showed strong binding to Sephadex G-100. The high-affinity D8 aptamer specifically bound dextran B512, the base material of Sephadex, but not isomaltose and its derivatives, suggesting that its optimal binding site contains more than four glucose residues linked by α-1,6 glycosidic bonds.The D8 aptamer was highly specific for the Sephadex substrate, and did not significantly bind other substrates. Using Sephadex G-100, this aptamer can be purified from complex cellular RNA mixtures up to 60,000-fold enrichment. These RNA aptamers can be used as affinity tags for rapid purification from complex RNA mixtures<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2001,D R Engelke et al. obtained RNA aptamers for binding Sephadex by an in vitro screen, which were divided into two groups based on consensus sequences, and both showed strong binding to Sephadex G-100. The high-affinity D8 aptamer specifically bound dextran B512, the base material of Sephadex, but not isomaltose and its derivatives, suggesting that its optimal binding site contains more than four glucose residues linked by α-1,6 glycosidic bonds.The D8 aptamer was highly specific for the Sephadex substrate, and did not significantly bind other substrates. Using Sephadex G-100, this aptamer can be purified from complex cellular RNA mixtures up to 60,000-fold enrichment. These RNA aptamers can be used as affinity tags for rapid purification from complex RNA mixtures<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -31,7 +31,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. D8 aptamer binding to Sephadex G-100.<br></font>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. D8 aptamer binding to Sephadex G-100.<br></p>
 <p>5'-GGGAGUCGACCGACCAGAAGUCCGAGUAAUUUACGUUUUGAUACGGUUGCGGAACUUGCUAUGUGCGUCUACAUCUAGACUCAU-3'</p>
 <img src="/images/2D/G-100_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

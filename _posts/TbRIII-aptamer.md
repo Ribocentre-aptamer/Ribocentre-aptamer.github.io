@@ -21,7 +21,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2006, Ohuchi, S. P., Ohtsu, T., & Nakamura, Y. developed a novel SELEX procedure (referred to as TECS-SELEX) in which cell-surface displayed recombinant protein is directly used as the selection target. Using this method, they isolated RNA aptamers against transforming growth factor-beta type III receptor expressed on Chinese hamster ovary (CHO) cells. One of the RNA aptamers has a dissociation constant in the 1 nM range and competed with transforming growth factor-beta to bind to the cell surface receptor in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>In 2006, Ohuchi, S. P., Ohtsu, T., & Nakamura, Y. developed a novel SELEX procedure (referred to as TECS-SELEX) in which cell-surface displayed recombinant protein is directly used as the selection target. Using this method, they isolated RNA aptamers against transforming growth factor-beta type III receptor expressed on Chinese hamster ovary (CHO) cells. One of the RNA aptamers has a dissociation constant in the 1 nM range and competed with transforming growth factor-beta to bind to the cell surface receptor in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -30,7 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGCCAGGCAGCGAGAGATAAGCAGAAGAAGTATGTGACCATGCTCCAGAGAGCAACTTCACATGCGTAGCCAAACCGACCACACGCGTCCGAGA-3'</p>
 <img src="/images/2D/TbRIII_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
