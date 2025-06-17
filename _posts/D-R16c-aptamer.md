@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "D-R16c aptamer, L-Arginine aptamer"
 date:   2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -88,9 +88,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jens P. Fürste et al. used standard in vitro screening methods to isolate aptamers that bind D-arginine. Sequencing of 55 clones revealed 41 distinct sequences. (Computer sequence analysis showed that two highly conserved motifs appeared in almost 60% of the sequences, and RNAs containing these two conserved sequences could fold into similar secondary structures according to Zuker's energy minimization algorithm.) This truncated version of the aptamer is called D-Rl6c, and it contains the structural elements necessary for specific binding to arginine.The dissociation constant (K) of D-R16c from D-arginine was 135 + 25 μM.The L-enantiomer corresponding to D-Rl6c (termed L-Rl6c) was obtained by standard RNA solid-phase synthesis using modified nucleotides.Circular dichroism (CD) spectroscopic analysis of D-Rl6c and ,-Rl6c showed that the spectra of the two were mirror images of each other, thus providing physical evidence that the chemically synthesized L-RNA (L-Rl6c) is the corresponding D-RNA (D- R16c), providing physical evidence that L-Rl6c is capable of binding to L-arginine with a K value of 129 + 18 μM.Famulok M et al. used completely randomized RNA libraries as well as a degraded library consisting of RNA sequences capable of binding to citrulline to select RNA aptamers that bind tightly to arginine (arginine) by an in vitro screening protocol.After 20 rounds of screening, the majority of the libraries contained RNAs that could specifically, even in the presence of non-specific amino acids binding to arginine substrates. The screened RNA aptamers were cloned and sequenced, and the dissociation constant of one of the sequences (clone ag.06) was determined by equilibrium dialysis and found to bind to arginine with a binding constant of 330 nM. this is nearly a 200-fold improvement over the most tightly binding arginine RNA known. The RNA is highly enantioselective for L-arginine and has a 12,000-fold higher binding capacity compared to D-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Jens P. Fürste et al. used standard in vitro screening methods to isolate aptamers that bind D-arginine. Sequencing of 55 clones revealed 41 distinct sequences. (Computer sequence analysis showed that two highly conserved motifs appeared in almost 60% of the sequences, and RNAs containing these two conserved sequences could fold into similar secondary structures according to Zuker's energy minimization algorithm.) This truncated version of the aptamer is called D-Rl6c, and it contains the structural elements necessary for specific binding to arginine.The dissociation constant (K) of D-R16c from D-arginine was 135 + 25 μM.The L-enantiomer corresponding to D-Rl6c (termed L-Rl6c) was obtained by standard RNA solid-phase synthesis using modified nucleotides.Circular dichroism (CD) spectroscopic analysis of D-Rl6c and ,-Rl6c showed that the spectra of the two were mirror images of each other, thus providing physical evidence that the chemically synthesized L-RNA (L-Rl6c) is the corresponding D-RNA (D- R16c), providing physical evidence that L-Rl6c is capable of binding to L-arginine with a K value of 129 + 18 μM.Famulok M et al. used completely randomized RNA libraries as well as a degraded library consisting of RNA sequences capable of binding to citrulline to select RNA aptamers that bind tightly to arginine (arginine) by an in vitro screening protocol.After 20 rounds of screening, the majority of the libraries contained RNAs that could specifically, even in the presence of non-specific amino acids binding to arginine substrates. The screened RNA aptamers were cloned and sequenced, and the dissociation constant of one of the sequences (clone ag.06) was determined by equilibrium dialysis and found to bind to arginine with a binding constant of 330 nM. this is nearly a 200-fold improvement over the most tightly binding arginine RNA known. The RNA is highly enantioselective for L-arginine and has a 12,000-fold higher binding capacity compared to D-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.
 <br>
 
 
@@ -245,7 +243,7 @@ Geiger A, Burgstaller P, von der Eltz H, Roeder A, Famulok M<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

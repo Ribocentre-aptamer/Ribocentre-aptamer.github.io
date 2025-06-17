@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "FC RNA aptamer"
 date:   2024-05-03 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -145,7 +145,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>RNA aptamers that bind to S. cerevisiae Pol II were selected using the SELEX strategy. The starting RNA library comprised a randomised region of 40 nucleotides, flanked by defined sequences at the 5′- and 3′-ends. An excess of RNA (40 pmol) was incubated with a highly purified preparation of Pol II (5 pmol). The RNA-protein complexes were retained on a nitrocellulose filter through filtration, while free RNAs passed through the membrane. After extensive washing of the membrane, the RNA-protein complexes were dissociated by phenol extraction, and the RNA was amplified. This selection and amplification procedure was repeated nine times, ultimately yielding a new RNA pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>   
 
@@ -164,7 +164,7 @@ categories: Aptamer
 <p>The FC RNA was co-crystallised with the complete 12-subunit Pol II, and its X-ray structure was determined at a resolution of 3.8 Å. The molecular architecture revealed that the FC RNA molecule was strategically positioned within the polymerase's active centre cleft, situated above the bridge helix. The RNA established contact with both the clamp and fork domains, which are located on opposing sides of the cleft. This is consistent with the cross-linking evidence that FC RNA interacts with the two major subunits of Pol II. The PDB ID for this structure is 2B63<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/FC_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -177,7 +177,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -360,7 +360,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2B63 at 3.8 Å resolution. RNA polymerase (Pol) II (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with RNA polymerase (Pol) II. The hydrogen bond interaction refers to pymol prediction and articles.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/FC_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

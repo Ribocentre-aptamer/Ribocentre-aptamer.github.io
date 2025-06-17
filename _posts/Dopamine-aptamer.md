@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Dopamine aptamer"
 date:   2024-06-04 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -163,9 +163,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Tocchini-Valentini GP et al. successfully selected RNA aptamers specifically binding to dopamine using in vitro selection (SELEX) from an initial pool containing 3.4 × 10<sup>14</sup> different RNA molecules. After nine rounds of affinity chromatography, the most abundant sequence, dopa2, was selected for primary study. The binding affinity (Kd) of dopa2 for dopamine was determined to be 2.8 µM using equilibrium dialysis and iso-concentration elution methods. Further secondary screening and structural analysis revealed a consensus structural motif among the aptamers, consisting of two stem-loop structures that form a stable framework through tertiary interactions. Finally, through mutational analysis and the design of small functional aptamers, the minimal active sequence and key nucleotides for constructing the dopamine-binding pocket were identified. The refined aptamer, dopa2/c.1, exhibited an improved binding affinity of 1.6 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Tocchini-Valentini GP et al. successfully selected RNA aptamers specifically binding to dopamine using in vitro selection (SELEX) from an initial pool containing 3.4 × 10<sup>14</sup> different RNA molecules. After nine rounds of affinity chromatography, the most abundant sequence, dopa2, was selected for primary study. The binding affinity (Kd) of dopa2 for dopamine was determined to be 2.8 µM using equilibrium dialysis and iso-concentration elution methods. Further secondary screening and structural analysis revealed a consensus structural motif among the aptamers, consisting of two stem-loop structures that form a stable framework through tertiary interactions. Finally, through mutational analysis and the design of small functional aptamers, the minimal active sequence and key nucleotides for constructing the dopamine-binding pocket were identified. The refined aptamer, dopa2/c.1, exhibited an improved binding affinity of 1.6 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -318,7 +316,7 @@ Harbaugh SV, Silverman AD, Chushak YG, Zimlich K, Wolfe M, Thavarajah W, Jewett 
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

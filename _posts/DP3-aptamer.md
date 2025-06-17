@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "DP3 aptamer"
 date:   2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
@@ -145,9 +145,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Michael Famulok et al. used an RNA library with a complexity of 9 x 10<sup>14</sup> different sequences, with all pyrimidine residues replaced by 2'-amino-2'-deoxy derivatives to enhance nuclease tolerance. NPY was immobilized on streptavidin-agarose by N-terminal biotinylation, to ensure maximum accessibility of its C-terminus for aptamer in vitro screening experiments. After 12 rounds of screening, 30 clones were cloned and sequenced, with 80% of the major sequence families, 7% of the minor sequence families, and the rest of the sequences occurring individually. Finally, the aptamer that specifically binds NPY, aptamer DP3, was obtained. The study used several methods to determine the affinity of the screened target aptamer and the target: calculation of the dissociation constant (Kd): the Kd value of the aptamer to NPY was calculated by a concentration-dependent binding assay. The Kd value of the aptamer DP3 to NPY was 370 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Michael Famulok et al. used an RNA library with a complexity of 9 x 10<sup>14</sup> different sequences, with all pyrimidine residues replaced by 2'-amino-2'-deoxy derivatives to enhance nuclease tolerance. NPY was immobilized on streptavidin-agarose by N-terminal biotinylation, to ensure maximum accessibility of its C-terminus for aptamer in vitro screening experiments. After 12 rounds of screening, 30 clones were cloned and sequenced, with 80% of the major sequence families, 7% of the minor sequence families, and the rest of the sequences occurring individually. Finally, the aptamer that specifically binds NPY, aptamer DP3, was obtained. The study used several methods to determine the affinity of the screened target aptamer and the target: calculation of the dissociation constant (Kd): the Kd value of the aptamer to NPY was calculated by a concentration-dependent binding assay. The Kd value of the aptamer DP3 to NPY was 370 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -288,7 +286,7 @@ Fernández-Vega L, Meléndez-Rodríguez DE, Ospina-Alejandro M, Casanova K, Váz
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

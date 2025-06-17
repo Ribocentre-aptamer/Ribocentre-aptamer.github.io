@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "NFAT aptamer"
 date:   2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
@@ -88,9 +88,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2004, Jung-Sun Cho and Young Ju Lee used existing research to design the method required for the in vitro genetic-selection. Starting from a RNA pool that had a sequence of 40 random nucleotide positions, aptamers that bind specifically to NFAT DBD were selected after 10 rounds of selection and amplification. The aptamer, RNA aptamer #1, can bind specifically to NFAT DBD were selected with high affinity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2004, Jung-Sun Cho and Young Ju Lee used existing research to design the method required for the in vitro genetic-selection. Starting from a RNA pool that had a sequence of 40 random nucleotide positions, aptamers that bind specifically to NFAT DBD were selected after 10 rounds of selection and amplification. The aptamer, RNA aptamer #1, can bind specifically to NFAT DBD were selected with high affinity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -282,7 +280,7 @@ Yun Y, Zhang Y, Zhang C, Huang L, Tan S, Wang P, Vilariño-Gúell C, Song W, Sun
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

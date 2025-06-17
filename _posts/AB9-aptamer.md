@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "AB9 aptamer"
 date:   2024-05-22 00:00:00
 author: Baowei Huang
@@ -163,9 +163,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2017, To select RNA aptamers, J. Jaremko and his colleague used SELEX (31, 32), which involves multiple cycles or rounds. Each round consists of RNA-receptor binding, RNA elution, RT-PCR amplification, followed by enzymatic transcription from the DNA library to regenerate a new RNA library or pool<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2017, To select RNA aptamers, J. Jaremko and his colleague used SELEX (31, 32), which involves multiple cycles or rounds. Each round consists of RNA-receptor binding, RNA elution, RT-PCR amplification, followed by enzymatic transcription from the DNA library to regenerate a new RNA library or pool<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.<p>
 <br>
 
 
@@ -414,7 +412,7 @@ Huang, Z., & Niu, L.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

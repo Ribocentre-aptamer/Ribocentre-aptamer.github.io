@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "3Dpol-aptamer"
 date:   2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
@@ -9,76 +9,7 @@ categories: Aptamer
 <font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
 <br /-->
 
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -101,9 +32,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2006, Ellingham, M., & Stonehouse, N. J. undertaken Fifteen rounds of selection using a degenerate library of ∼1015 sequences, consisting of an N30 random region flanked by primer sequences for amplification and in vitro transcription.  As expected, the selected pool displayed increased affinity for 3Dpol compared with the naive RNA population as assessed by electrophoretic mobility shift assays . Fifty-two cDNA clones were prepared from the round 15 selected pool, of which 25 were selected at random for detailed analysis and sequencing . Selection resulted in some of the aptamers incorporating N30 regions smaller than the original 30 nucleotides. The greatest reductions were seen with aptamers F4, F6, F12, and F38<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2006, Ellingham, M., & Stonehouse, N. J. undertaken Fifteen rounds of selection using a degenerate library of ∼1015 sequences, consisting of an N30 random region flanked by primer sequences for amplification and in vitro transcription.  As expected, the selected pool displayed increased affinity for 3Dpol compared with the naive RNA population as assessed by electrophoretic mobility shift assays . Fifty-two cDNA clones were prepared from the round 15 selected pool, of which 25 were selected at random for detailed analysis and sequencing . Selection resulted in some of the aptamers incorporating N30 regions smaller than the original 30 nucleotides. The greatest reductions were seen with aptamers F4, F6, F12, and F38<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<p>
 <br>
 
 

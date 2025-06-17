@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "J6f1 aptamer"
 date:   2024-05-20 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Rando, R. R. et al. used SELEX to isolate high-affinity RNA aptamers that specifically bind the aminoglycoside tobramycin. Starting from a 109-nucleotide aptamer (J6) with a dissociation constant of 0.77 ± 0.03 nM for tobramycin, they simplified the construct to a 39-nucleotide aptamer (J6e) that retained high affinity (KD = 58.2 ± 13.1 nM) and specificity for tobramycin. Further modifications led to a 40-nucleotide aptamer (J6f1) with a KD of 5.15 ± 1.52 nM, demonstrating that simplified RNA constructs can maintain high-affinity and specific aminoglycoside binding<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

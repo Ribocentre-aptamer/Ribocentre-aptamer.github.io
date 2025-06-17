@@ -1,66 +1,12 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "ATP aptamer"
 date:   2024-01-02 00:00:00
 author: Zhizhong Lu, Yangyi Ren
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -184,7 +130,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1993, Szostak et al. used the SELEX method to isolate a small RNA motif that bound ATP. They initiated the in vitro selection experiments by creating a large pool of random polynucleotide sequences, which were then subjected to repeated cycles of enrichment for those species that exhibited the desired characteristics, followed by amplification of the selected pool. The process began with a pool of 169-nucleotide-long RNAs, which consisted of approximately 10<sup>14</sup> distinct sequences. They isolated RNA molecules capable of binding ATP using affinity chromatography on ATP-agarose columns, where the ATP was attached to the agarose at its C8 position. The RNA molecules that were retained by the ATP-agarose matrix were then eluted with ATP. Following this, the eluted RNA was amplified through reverse transcription and polymerase chain reaction (PCR). They produced an enriched pool of RNAs for the next cycle of selection by in vitro transcription of the double-stranded DNA templates generated in this manner. After six rounds of selection and amplification, a population of RNAs that were specifically eluted with ATP was obtained. From the eighth cycle RNA population, 39 clones were sequenced, revealing 17 distinct sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 
@@ -203,7 +149,7 @@ categories: Aptamer
 <p>In 1996, Roger A. Jones & Dinshaw J. Patel et al. presented the solution structure of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations. The PDB ID is 1AM0. Subsequently, T Dieckmann & J Feigon et al. presented the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, which was determined from NMR-derived distance and dihedral angle restraints. The PDB ID is 1RAW. Here, only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ATP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -216,7 +162,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -347,7 +293,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1RAW by NMR. Adenosine monophosphate (AMP) shown in sticks. Right: The hydrogen bonds of binding sites of the aptamer bound with AMP<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ATP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

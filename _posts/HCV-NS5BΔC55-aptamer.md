@@ -1,104 +1,11 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "HCV NS5BΔC55 aptamer"
 date:   2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-    * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -175,7 +82,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2002, Tomei, L. and colleagues selected a structurally constrained combinatorial RNA library by using the SELEX procedure to isolate high affinity RNA ligands for the HCV NS5B polymerase (HCV NS5BΔC55 protein). The library contained 35-nt random sequences in two segments of 25 and 10 nt, divided by a constant core sequence of 10 nt. This was in turn flanked by 18-nt constant regions at the 5' and 3' ends, respectively. Initially, the randomized RNA pool was challenged with streptavidin beads coated with biotinylated NS5BΔC55 protein (NS5BΔC55bio), and the complexed RNA was eluted, amplified (reverse transcription and PCR), and in vitro transcribed by using T7 RNA polymerase in the presence of a labeled nucleotide tracer. The products of transcription were used as an RNA pool for the next cycle of selection. At the fourth selection cycle, the RNA pool was roughly 140-fold enriched in the molecules with high binding affinity for NS5BΔC55bio. As already noticed, in the case of structurally constrained RNA libraries additional selection cycles failed to increase the amount of the selected RNA. Therefore, the PCR DNA from the fourth cycle was cloned, the nucleotide sequences of 15 individual clones were determined, and their structural motifs were analyzed. Based on the presence of common sequence motifs, the clones were grouped in three families<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

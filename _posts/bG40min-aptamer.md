@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "bG40min aptamer"
 date:   2024-05-22 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -95,9 +95,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Burke DH et al. constructed an RNA library containing 70 random nucleotides by an in vitro transcription method and performed 7 to 10 rounds of screening using the SELEX technique for RNA aptamers capable of specifically binding ATP. During the screening process, some of the RNAs were synthesized with boron-containing nucleotide analogs, bG or bU, instead of normal GTP or UTP. Ultimately, the investigators identified aptamers containing the ζ-structure from the bU and control pools, while this structure was not found in the bG pool. In particular, the ATP-binding specificity of the bG40min aptamer was verified by affinity chromatography experiments, which involved the use of different concentrations of ATP and its analogs to assess its binding and elution properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Burke DH et al. constructed an RNA library containing 70 random nucleotides by an in vitro transcription method and performed 7 to 10 rounds of screening using the SELEX technique for RNA aptamers capable of specifically binding ATP. During the screening process, some of the RNAs were synthesized with boron-containing nucleotide analogs, bG or bU, instead of normal GTP or UTP. Ultimately, the investigators identified aptamers containing the ζ-structure from the bU and control pools, while this structure was not found in the bG pool. In particular, the ATP-binding specificity of the bG40min aptamer was verified by affinity chromatography experiments, which involved the use of different concentrations of ATP and its analogs to assess its binding and elution properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -217,7 +215,7 @@ Lato SM, Ozerova ND, He K, Sergueeva Z, Shaw BR, Burke DH<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

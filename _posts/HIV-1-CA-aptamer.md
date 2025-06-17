@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "HIV-1 CA aptamer"
 date:   2024-05-22 00:00:00
 author: Jiali Wang, Bo Fu
@@ -120,7 +120,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2022, Lange, M. J et al. uesd the RNA library began with a randomised region consisting of 56 nucleotides (denoted as 56N), which was estimated to encompass approximately 10<sub>15</sub> unique sequences. Through a meticulous screening process spanning 15 rounds, the CA15-2 RNA aptamer, capable of specifically binding to the CA lattice, was successfully identified. Subsequent analysis via Sanger sequencing technology revealed multiple cloned sequences, with CA15-2 being among the most prominent<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

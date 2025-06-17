@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "GTP aptamer"
 date:   2024-03-31 00:00:00
 author: Yangyi Ren, Ke Chen
@@ -152,7 +152,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>A selection process for GTP-binding aptamers was carried out using a mixture of fully random and partially structured libraries. Given that stem-loops are common motifs in previously characterised aptamers, the partially structured library was designed to include a centrally positioned stable stem-loop. An off-rate selection protocol was employed to maximise the enrichment of high-affinity aptamers. This selection process yielded an unexpectedly diverse array of sequence motifs and secondary structures, including seven distinct aptamers with dissociation constants (Kd) ranging from 500 to 25 nanomolar. The engineered stem-loop was present in the three highest-affinity aptamers and in 12 of the 13 independent isolates sharing a single consensus sequence, suggesting that its incorporation increased the prevalence of high-affinity aptamers in the initial pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -173,7 +173,7 @@ categories: Aptamer
 <p>Szostak, J. W. et al. elucidated the solution structure of the 41-nt Class I GTP aptamer (Kd=75 nM) using multidimensional nuclear magnetic resonance (NMR) spectroscopy and molecular dynamics calculations. The PDB ID of this structure is 2AU4<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GTP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -186,7 +186,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -306,7 +306,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2AU4 by NMR. GTP (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with GTP.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GTP_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Tetracycline aptamer"
 date:   2024-03-26 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -272,7 +272,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2001, Berens C and colleagues utilised an in vitro selection strategy to selex RNA aptamers with a high affinity for tetracycline. They constructed an RNA library consisting of a 113-nucleotide sequence that included a 74-nucleotide random region, employing tetracycline-agarose as an affinity column to filter RNA molecules capable of binding tetracycline, with tetracycline attached to the agarose via the cb28 site. By increasing the number of column washes (from 5 to 8, 12, and ultimately to 20 column volumes) and reducing the concentration of tetracycline in the affinity buffer to 10 mM from the ninth round onwards, they intensified the selective pressure. After 15 rounds of selection and amplification, the RNA pool that demonstrated high-affinity binding to tetracycline was able to interact specifically with the tetracycline affinity column and could be eluted with tetracycline. They amplified the eluted RNA through PCR and reverse transcription, subjected cb28 to phosphorylation treatment, utilised Pb2+-induced cutting of RNA to observe changes in RNA cleavage patterns in the presence of tetracycline, determined the binding sites of tetracycline on RNA using UV, and employed DMA modification to probe the RNA secondary structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>   
 
@@ -290,7 +290,7 @@ categories: Aptamer
 <p>In 2008, Xiao and colleagues determined the tertiary structure of the tetracycline aptamer using X-ray crystallography at 2.2 Å resolution. This structure is characterised by a pseudoknot-like fold formed through tertiary interactions between an 11-nucleotide loop (L3) and the minor groove of an irregular helix, comprising three helices (P1, P2, and P3) that form an H-shaped architecture. The tetracycline binding site is located at the junction of two helical stacks, formed by the minor grooves of L3 and helices J1/2 and J2/3. The PDB ID of this structure is 3EGZ<sup>[<a href="#ref8" style="color:#520049" >8</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/tetracycline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -303,7 +303,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -443,7 +443,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3EGZ by X-ray. Tetracycline(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with tetracycline.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/tetracycline_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

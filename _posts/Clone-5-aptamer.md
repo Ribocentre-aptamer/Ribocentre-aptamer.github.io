@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Clone 5 aptamer"
 date:   2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -95,9 +95,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jaehoon Yu et al. screened RNA aptamers against Sialyl Lewis X (sLeX), mainly by screening Clone 5 RNA aptamers from a random RNA library containing 70 random nucleotides by an in vitro screening program, and after 17 rounds of screening, a final aptamer sequence was obtained that had a high affinity and high specificity. The affinity of the aptamer for sLeX was determined using surface plasmon resonance, and the KD value for Clone 5 was 0.085 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Jaehoon Yu et al. screened RNA aptamers against Sialyl Lewis X (sLeX), mainly by screening Clone 5 RNA aptamers from a random RNA library containing 70 random nucleotides by an in vitro screening program, and after 17 rounds of screening, a final aptamer sequence was obtained that had a high affinity and high specificity. The affinity of the aptamer for sLeX was determined using surface plasmon resonance, and the KD value for Clone 5 was 0.085 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -222,7 +220,7 @@ Jeong S, Eom T, Kim S, Lee S, Yu J<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Rex protein aptamer"
 date:   2024-04-17 00:00:00
 author: Ziyu Guo, Jiali Wang
@@ -119,7 +119,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1999, Ellington, A. D. et al. isolated high-affinity RNA aptamers targeting the Rex protein from a pool of conformationally constrained random sequence RNAs through multiple rounds of selection. The binding affinity of the selected aptamers was significantly enhanced compared to that of the initial pool. Before each selection round, the RNA pool was denatured at 90°C for 2 minutes and then cooled to ambient temperature over 10 minutes to facilitate proper structure formation. The selection process was conducted in a 30 μl reaction containing 50 mM Tris-HCl (pH 8.0) and 50 mM KCl, with the Rex fusion protein incubated with the RNA pool. In the initial rounds, the protein concentration was higher, but it was reduced in later rounds to increase selection stringency. Specifically, selections 1 to 4 were conducted at a protein concentration of 1.8 pmol, while selections 5 to 11 were performed at lower concentrations. The RNA concentration was maintained at around 1.3 μM in the early rounds and adjusted in later rounds. The initial selection involved approximately 10<sup>13</sup>different RNA molecules, ensuring a diverse sampling of sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>   
 
@@ -137,7 +137,7 @@ categories: Aptamer
 <p>The solution structure of the Rex peptide–RNA aptamer complex was determined by Patel, D. J. et al. using multidimensional nuclear magnetic resonance (NMR) spectroscopy. The Rex peptide, in a predominantly extended conformation, threads through a channel formed by the shallow and widened RNA major groove and a looped-out guanine. The PDB ID for this structure is 1EXY<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Rex16_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -150,7 +150,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -270,7 +270,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1EXY. HTLV-1 arginine-rich Rex peptide (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with HTLV-1 arginine-rich Rex peptide. The C7 and C23 bases in the RNA aptamer do indeed interact with amino acids in the HTLV-1 Rex peptide (primarily Arg5 and Arg7), though the text does not explicitly state whether these interactions involve hydrogen bonds. We used PYMOL predicted the hydrogen bond between C23 and Arg7.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Rex16_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

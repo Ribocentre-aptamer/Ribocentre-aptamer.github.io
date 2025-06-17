@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "L-CCL2 aptamer"
 date:   2024-05-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
@@ -177,7 +177,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2007, Anders, H. J. et al. generated the Spiegelmer mNOX-E36 through a rigorous in vitro selection process. A DNA library with 40 internal random positions was used to facilitate the identification of high-affinity Spiegelmers. The library underwent 11 rounds of selection, which allowed for the systematic enrichment of RNA sequences with high binding affinity for murine D-CCL2. Following these selection rounds, the most prevalent and effective RNA sequence was identified. This sequence was then truncated to obtain the final candidate, mNOX-E36. The selection process was crucial in ensuring that mNOX-E36 possessed the desired properties for therapeutic applications, particularly in the context of lupus nephritis. The successful identification of mNOX-E36 highlights the potential of Spiegelmers as a novel class of therapeutic agents<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>    
 
@@ -194,7 +194,7 @@ categories: Aptamer
 <p>NOX-E36 L-aptamer is a Spiegelmer designed to bind to L-CCL2. To elucidate its crsytal structure, they employed single-wavelength anomalous diffraction (SAD) and refined the structure to a resolution of 2.05 Å. This technique allowed them to gain detailed insights into the interactions between the L-aptamer and its target protein. The resulting structural data provided a comprehensive understanding of the binding interface and the conformational details of the L-aptamer. The PDB ID of this structure is 4R8I<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/L-CCL2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -207,7 +207,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -408,7 +408,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4R8I. L-CCL2 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with L-CCL2.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/L-CCL2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

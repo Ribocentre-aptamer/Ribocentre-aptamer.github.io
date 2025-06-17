@@ -43,10 +43,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Batey, R. T. et al. used RNA libraries constructed on the basis of three different riboswitch and ribozyme backbones that include the xpt-pbuX guanine riboswitch from Bacillus subtilis, the Vc2 cyclic di-guanosine riboswitch from Vibrio cholerae, and the Schistosoma mansoni's hammerhead ribozyme. After seven rounds of screening, and through these screening rounds, RNA aptamers were identified that were able to specifically bind 5HTP. By this method, and in particular by using the GR backbone, it was possible to screen for at least three major families of RNA aptamers, designated 5GR-I, 5GR-II, and 5GR-III, respectively.They determined the consensus secondary structures of six major clusters from the two selections against 5HTP<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br> 
+<p>Batey, R. T. et al. used RNA libraries constructed on the basis of three different riboswitch and ribozyme backbones that include the xpt-pbuX guanine riboswitch from Bacillus subtilis, the Vc2 cyclic di-guanosine riboswitch from Vibrio cholerae, and the Schistosoma mansoni's hammerhead ribozyme. After seven rounds of screening, and through these screening rounds, RNA aptamers were identified that were able to specifically bind 5HTP. By this method, and in particular by using the GR backbone, it was possible to screen for at least three major families of RNA aptamers, designated 5GR-I, 5GR-II, and 5GR-III, respectively.They determined the consensus secondary structures of six major clusters from the two selections against 5HTP<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p> 
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -62,7 +59,7 @@ categories: Aptamer
 <p>Batey, R. T. et al. obtained the structure of the 5HTP aptamer by X-ray crystallography, which was obtained after screening based on the in vitro selection of three-dimensional structurally important points (SELEX) method. This structure shows details of 5HTP binding to the RNA aptamer, including the 3D structure of the RNA and details of the interaction with 5HTP. The resolution of this structure is 2.0 Å. In the structure, 5HTP is localized in the three-dimensional junction structure of RNA, with which it hydrogen bonds and stacking interactions mainly through nucleotides in the J2/3 region. In addition, the recognition of 5HTP interacts with a specific T-loop in the RNA structure, which is essential for the high affinity and specific binding of 5HTP.The PDB ID of this structure is 5KPY<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/5HTP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -75,7 +72,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -232,7 +229,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5KPY by X-ray crystallography. 5-HTP (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with 5HTP.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/5HTP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

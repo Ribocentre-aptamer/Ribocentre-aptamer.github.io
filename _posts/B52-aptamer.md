@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "B52-aptamer"
 date:   2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -9,76 +9,7 @@ categories: Aptamer
 <font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
 <br /-->
 
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -140,9 +71,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>They used, with some modification, an in vitro selection and amplification scheme (SELEX). And adapted the template-primer system to produce RNA molecules had a stretch of 40 random bases sandwiched between 59 and 39 constant regions for primer annealing. The 59 constant sequence included a promoter for T7 RNA polymerase. Synthetic oligodeoxynucleotide template (20 mg of a 108-mer) was amplified by PCR to make the original pool. This pool contained 3.4 * 10<sup>13</sup> different sequences. The pool of random RNA was carried through nine rounds of selection and amplification. RNA-protein complexes were selected by binding to nitrocellulose filters. Observed a significant increase of the pool’s affinity for B52 as the selection progressed. Fractions of two final pools were cloned and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>They used, with some modification, an in vitro selection and amplification scheme (SELEX). And adapted the template-primer system to produce RNA molecules had a stretch of 40 random bases sandwiched between 59 and 39 constant regions for primer annealing. The 59 constant sequence included a promoter for T7 RNA polymerase. Synthetic oligodeoxynucleotide template (20 mg of a 108-mer) was amplified by PCR to make the original pool. This pool contained 3.4 * 10<sup>13</sup> different sequences. The pool of random RNA was carried through nine rounds of selection and amplification. RNA-protein complexes were selected by binding to nitrocellulose filters. Observed a significant increase of the pool’s affinity for B52 as the selection progressed. Fractions of two final pools were cloned and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -337,7 +266,7 @@ Xu, D., & Shi, H.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

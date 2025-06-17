@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "HIV Tat aptamer"
 date:   2024-04-20 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -170,7 +170,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Kumar, P. K. et al. conducted a study involving a series of selection cycles. Initially, a binding buffer containing 5.0 mM RNA and 0.5 mM Tat protein was used to facilitate the first cycle of selection. Subsequent cycles involved varying the RNA pool concentrations and conducting competition assays with both nonspecific RNA (E. coli tRNA) and specific competitor RNA (TAR RNA). Additionally, from cycles 7 to 11, competition with another specific pool of competitor RNAs (the 12-18N pool) was introduced. The final two cycles featured a significant reduction in the concentration of Tat protein. The binding buffer consisted of 50 mM Tris-HCl (pH 7.8) and 50 mM KCl. Pre-filtering through a nitrocellulose acetate filter was performed to eliminate RNAs that selectively bound to the filter. After each cycle, the Tat-RNA complexes were collected on a filter and eluted using a solution of sodium acetate, EDTA, and urea. Reverse transcription and PCR amplification were then carried out following elution. Mutagenic PCR was employed during cycles 9 to 11. Following the 11th cycle, the PCR products were ligated into the pCRII vector. Individual clones were subsequently sequenced for analysis<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -189,7 +189,7 @@ categories: Aptamer
 <p>Kumar, P. K., & Katahira, M. et al. determined  the Aptamer-Argininamide Complex structure by NMR. Unique structural features responsible for the high affinity have been found: the formation of two adjacent U:A:U base triples, the resultant widening of the major groove, the formation of hydrogen bonds between a G base and argininamide, and the stabilization of the binding through stacking interaction of a guanidinium group with bases. Structural characterization of the aptamer complexed with the RG peptide has also been carried out. Simultaneous interactions of the aptamer with two arginine residues of the RG peptide at two binding sites are strongly suggested. A combination of structural studies on the aptamer-argininamide and aptamer-RG peptide complexes provides a comprehensive explanation of the extremely high affinity of the aptamer to Tat<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Tat_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -202,7 +202,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -343,7 +343,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1NBK. Argininamide (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with the argininamide. HIV-1 Tat peptides is a cell penetrating peptide rich in arginine.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Tat_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

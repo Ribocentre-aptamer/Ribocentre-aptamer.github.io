@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "L-SUP-A-004 aptamer"
 date:   2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -95,9 +95,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Sven Klussmann et al. use a single-stranded DNA library (ssDNA library) that contains about 10^15 different molecules. These molecules are enzymatically converted from the synthetic DNA library and transcribed into RNA for subsequent screening. The screening process uses the automated SELEEX (Systematic Evolution of Ligands by EXponential enrichment) technology. This technique allows the execution of in vitro screening cycles without direct human intervention. The initial three screening cycles were performed manually, and from the fourth cycle onwards, automated equipment was used. Throughout the screening process, RNA binds to the target molecule D-substance P. Unbound RNA is discarded, while bound RNA is amplified by PCR for the next round of screening. In total, about 14 rounds of screening were performed and 24 different sequences were obtained from the screening process. The final identified and frequent haptamer sequence was reduced to the 44 nucleotide long sequence SUP-A-004<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Sven Klussmann et al. use a single-stranded DNA library (ssDNA library) that contains about 10^15 different molecules. These molecules are enzymatically converted from the synthetic DNA library and transcribed into RNA for subsequent screening. The screening process uses the automated SELEEX (Systematic Evolution of Ligands by EXponential enrichment) technology. This technique allows the execution of in vitro screening cycles without direct human intervention. The initial three screening cycles were performed manually, and from the fourth cycle onwards, automated equipment was used. Throughout the screening process, RNA binds to the target molecule D-substance P. Unbound RNA is discarded, while bound RNA is amplified by PCR for the next round of screening. In total, about 14 rounds of screening were performed and 24 different sequences were obtained from the screening process. The final identified and frequent haptamer sequence was reduced to the 44 nucleotide long sequence SUP-A-004<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -217,7 +215,7 @@ Eulberg D, Buchner K, Maasch C, Klussmann S<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

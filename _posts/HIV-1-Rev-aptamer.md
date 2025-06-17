@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "HIV-1 Rev aptamer"
 date:   2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -185,9 +185,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1993, Ellington, A. D. et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, polymerasevchain reaction (PCR) amplification, in vitro T7 transcription, and allowed to again compete for binding to HIV-1 Rev protein. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 1993, Ellington, A. D. et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, polymerasevchain reaction (PCR) amplification, in vitro T7 transcription, and allowed to again compete for binding to HIV-1 Rev protein. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -204,7 +202,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>Wingfield, P. T. et al. present the crystal structure of Rev93:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray. They used Rev:scFv as a crystallization platform for studying nucleic acid binding and made a ternary complex of Rev93, scFv and RBA-14, where the single-chain antibody functions as an assembly inhibitor, crystallization chaperone, and initial model for molecular replacement. The PDB ID of this structure is 6CF2<sup>[<a href="#ref12" style="color:#520049">12</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/HIV-1_Rev_aptamer_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -217,7 +215,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -370,7 +368,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6CF2. HIV-1 Rev93 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with HIV-1 Rev93 protein. Due to the large number of interactions involved, we only show some of the more critical interactions here, and the complete content can be read in reference 12.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HIV-1_Rev_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

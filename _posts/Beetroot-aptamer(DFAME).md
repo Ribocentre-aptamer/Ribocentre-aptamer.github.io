@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Beetroot aptamer(DFAME)"
 date:   2024-04-21 00:00:00
 author: Bo Fu, Jiali Wang
@@ -119,9 +119,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>This work generated aptamers that bind DFAME using SELEX. A DNA library containing ∼10<sup>14</sup>  random library members was used and DFAME was conjugated to agarose beads using an aminohexyl linker as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence by threefold was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>This work generated aptamers that bind DFAME using SELEX. A DNA library containing ∼10<sup>14</sup>  random library members was used and DFAME was conjugated to agarose beads using an aminohexyl linker as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence by threefold was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -138,7 +136,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">3D visualisation</p>             
 <font>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFAME_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -151,7 +149,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -342,7 +340,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Binding pocket</p>             
 <font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYU by X-ray crystallography. DFAME (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFAME or other nucleotides surround small molecules.</font>
 <br>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DFAME_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

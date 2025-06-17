@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Conventional SELEX"
 date:   2024-05-08 00:00:00
 author: Bo Fu

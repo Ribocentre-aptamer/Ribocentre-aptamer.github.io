@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "AML1 (RUNX1) aptamer"
 date:   2024-04-03 00:00:00
 author: Baowei Huang, Yuxun Sun
@@ -204,7 +204,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2013, Junichi Fukunaga and his colleagues performed SELEX to obtain RNA aptamers that bind specifically to the AML1 protein. These aptamers were used as tools to enhance understanding of AML1 and its potential applications in the diagnosis and treatment of AML1-related diseases. After nine rounds of selection, the 30N and 40N random RNA pools converged into eight and four independent sequences, respectively. Surface plasmon resonance (SPR) assays were employed to test the formation of the aptamer–Runt–CBFβ ternary complex<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>    
 
@@ -221,7 +221,7 @@ categories: Aptamer
 <p>Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1)-aptamer) using nuclear magnetic resonance(NMR). Although structure of the Runt domain-aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. The PDB ID of this structure is 2RRC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/AML1_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -234,7 +234,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -366,7 +366,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>This aptamer lacks a three-dimensional structure of its complex with the protein, but its binding site is similar to that of the RDE element-binding protein. We chose the complex structure of double-stranded DNA element(RDE) and AML1 to show it. The structural PDB ID is 1HJC. AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. AML1/RUNX1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with AML1/RUNX1.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/AML1_aptamer_binding_pockets1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

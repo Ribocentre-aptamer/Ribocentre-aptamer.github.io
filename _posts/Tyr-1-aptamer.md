@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Tyr 1 aptamer"
 date:   2024-05-29 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -95,9 +95,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>G P Tocchini-Valentini et al. obtained Tyr 1 aptamer by in vitro selection and amplification from a partially randomized RNA pool of the dopamine aptamer dopa2/c+1. After 13 rounds of screening, six unique sequences were identified from 63 clones, among which Tyr 1 showed the highest L-tyrosine binding affinity, which was determined by isothermal ligand elution with a dissociation constant (Kd) of 35 μM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>G P Tocchini-Valentini et al. obtained Tyr 1 aptamer by in vitro selection and amplification from a partially randomized RNA pool of the dopamine aptamer dopa2/c+1. After 13 rounds of screening, six unique sequences were identified from 63 clones, among which Tyr 1 showed the highest L-tyrosine binding affinity, which was determined by isothermal ligand elution with a dissociation constant (Kd) of 35 μM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -227,7 +225,7 @@ Abatemarco J, Sarhan MF, Wagner JM, Lin JL, Liu L, Hassouneh W, Yuan SF, Alper H
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

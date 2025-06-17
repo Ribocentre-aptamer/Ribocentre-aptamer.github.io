@@ -1,66 +1,11 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "TMR-DN aptamer"
 date:   2024-01-02 00:00:00
 author: Bo Fu
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -161,7 +106,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>This work generated aptamers that bind TMR-DN using SELEX. An library consisting of a 15% doped 54-nucleotide SRB-2 sequence which containing ~3×10<sup>14</sup> random library members was used and TMR-SS-Biotin was used as positive target. RhoBAST bound to TMR-DN was isolated from random RNA nucleic acid libraries by in vitro selection. The crystal structure of the RhoBAST-TMR-DN complex was reported in subsequent work<sup>[<a href="#ref5" style="color:#520049">5</a>,<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 
@@ -180,7 +125,7 @@ categories: Aptamer
 <p>​In 2024, Xianyang Fang and Xing Li et al. determined the crystal structure of the RhoBAST aptamer bound to the fluorophore-quencher conjugate TMR-DN. The aptamer adopts an asymmetric "A"-shaped architecture featuring a four-way junction. The fluorophore-binding core is formed by the four-nucleotide capping loop L4 (G46–G47–U48–U49) and an underlying A32•A50•A45 base triple, creating a semi-open rectangular pocket. G47's orientation is stabilised by a hydrogen bond between its N7 and the O2' of G46, and by two hydrogen bonds involving U49's O4 and N3 with G47's N3 and N2. Notably, the DN quencher remains partially stacked over the phenyl ring of TMR, indicating an incompletely unquenched state. The PDB ID of the structure is 8JY0 (2.75 Å)​<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TMR-DN_aptamer_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -193,7 +138,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -353,7 +298,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8JY0 by small-angle X-ray scattering. TMR-DN (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TMR-DN or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/TMR-DN_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

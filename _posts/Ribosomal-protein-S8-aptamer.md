@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Ribosomal protein S8-aptamer"
 date:   2024-04-10 00:00:00
 author: Qiaozhen Liu, Zhaoji Qiu
@@ -137,7 +137,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2014, Milya Davlieva et al. identified RNA sequences that lacked the conserved features of helix 21 but could bind the S8 protein with high affinity and specificity. The starting library had molecules with 16 randomized nucleotides in an RNA hairpin stem. After 10 rounds of selection, the RNA pool was cloned and 40 inserts sequenced. Alignment showed native-like and non-natural binding sites<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>   
 
@@ -155,7 +155,7 @@ categories: Aptamer
 <p>Milya Davlieva et al. sovled the crystal structure, at 2.69 Å resolution, of an RNA aptamer bound to Bacillus ribosomal S8 protein has been determined. In the free state, the internal loop of the ribosomal protein S8 aptamer hairpin stem encompasses G-A, U-U and A-A mismatches, adopting an overall helical A-form geometry. For the purpose of binding Ribosomal protein S8, the internal loop undergoes a significant rearrangement of its secondary structure, giving rise to the formation of a base triple and a base quartet. The PDB ID of this structure is 4PDB<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ribosomal_protein_S8_aptamer_3D1.svg" alt="drawing" style="width:500px;height:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -168,7 +168,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -294,7 +294,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4PDB at 2.69 Å resolution. ribosomal S8 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with ribosomal S8 protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ribosomal_protein_S8_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

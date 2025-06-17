@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Squash aptamer"
 date:   2024-06-30 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -104,7 +104,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>To evolve the adenine aptamer into a fluorogenic aptamer, they selected for aptamers that bind to agarose-immobilized DFHBI. By the seventh round of SELEX, the pool exhibited fluorescence upon incubation with DFHBI-1T. At this point, the library was cloned into a bacterial expression vector, transformed into E. coli, and fluorescent aptamers were identified by sorting cells based on DFHBI-1T-induced fluorescence. After recovery of plasmids from the brightest cells, they found three library members which induced fluorescence activation of DFHBI-1T. For directed evolution, they synthesized a DNA library of 9–1 aptamer mutants such that each nucleotide in the ligand-binding pocket had a controlled probability of being converted into one of the other three nucleotides<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 
@@ -121,7 +121,7 @@ categories: Aptamer
 <p>Determined the co-crystal structures of Squash bound to DFHBI-1T and DFHO. The structures reveal that the fluorescence turn-on aptamer retains the overall fold of the adenine riboswitch, and that the fluorophores were recognized in a binding site lacking a G-quadruplex.This showed Squash-DFHBI-1T 2.7 Å resolution co-crystal structure in here. The PDB ID of the structure is 7KVU<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/squash_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -134,7 +134,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -267,7 +267,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>              
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7KVU by X-ray crystallography. DFHBI-1T(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI-1T.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/squash_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

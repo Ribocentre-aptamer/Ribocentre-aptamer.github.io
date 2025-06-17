@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "TetR aptamer"
 date:   2024-04-10 00:00:00
 author: Qiaozhen Liu,Zhaoji Qiu
@@ -191,7 +191,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2009, Anke Hunsicker et al. isolated sequences that bind TetR through 12 rounds of selection. They used a two-step approach to identify RNA aptamers that induce the transcriptional regulator TetR in vivo. First, an automated in vitro selection protocol was employed to isolate RNA aptamers that bind TetR. After 12 rounds of selection, a significant enrichment of TetR-binding RNA was detected and its specificity of binding was verified by a filter-retention assay<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -209,7 +209,7 @@ categories: Aptamer
 <p>Florian C. Grau1 et al. sovled the crystal structure, at 2.7 Å resolution, of an RNA aptamer bound to the transcription repressor TetR has been determined. The fold of the RNA aptamer bears no resemblance to regular B-DNA, and neither does the thermodynamic characterization of the complex formation reaction. Nevertheless, the functional aptamer-binding epitope of TetR is fully contained within its DNA-binding epitope. The PDB ID of this structure is 6SY4<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TetR_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -222,7 +222,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -373,7 +373,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: A surface representation of the binding pocket of the aptamer originating from PDB ID: 6SY4 at a resolution of 2.7 Å is presented. In the case of TetR (displayed with vacuum electrostatics), blue is indicative of a positive charge, whereas red represents a negative charge. Right: The hydrogen bonds at the binding sites where the aptamer binds to TetR are shown.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/TetR_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

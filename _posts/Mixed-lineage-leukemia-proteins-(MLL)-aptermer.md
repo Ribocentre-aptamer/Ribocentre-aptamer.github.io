@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Mixed lineage leukemia proteins (MLL) aptermer"
 date:   2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
@@ -154,9 +154,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2019, Ul-Haq and his colleagues screened and isolated MLL1-binding ssRNAs using SELEX (Systemic Evolution of Ligands by Exponential enrichment)<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2019, Ul-Haq and his colleagues screened and isolated MLL1-binding ssRNAs using SELEX (Systemic Evolution of Ligands by Exponential enrichment)<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<p>
 <br>
 
 
@@ -387,7 +385,7 @@ Ul-Haq, A., Jin, M. L., Jeong, K. W., Kim, H. M., & Chun, K. H.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

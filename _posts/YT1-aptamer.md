@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "YT1 aptamer"
 date:   2024-05-10 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -99,9 +99,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1995, Yu Tian et al. started from a pool of greater than 10<sup>13</sup> different RNAs with a core of 120 random sequence positions. After five cycles of selection and amplification, a single nucleic acid species remained. This aptamer was found to bind Tax with high affinity and specificity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 1995, Yu Tian et al. started from a pool of greater than 10<sup>13</sup> different RNAs with a core of 120 random sequence positions. After five cycles of selection and amplification, a single nucleic acid species remained. This aptamer was found to bind Tax with high affinity and specificity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -192,7 +190,7 @@ Tian, Y., Adya, N., Wagner, S., Giam, C. Z., Green, M. R., & Ellington, A. D.<br
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

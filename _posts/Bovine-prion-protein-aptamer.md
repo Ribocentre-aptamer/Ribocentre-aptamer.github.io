@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Bovine prion protein aptamer"
 date:   2024-03-29 00:00:00
 author: Zhijie Tan, Zhaoji Qiu
@@ -163,7 +163,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2008, Nishikawa et al. used the SELEX method to isolate aptamers and identified four consecutive GGA triplet repeats (GGA<sup>4</sup>) in the major RNA aptamers obtained. They carried out SELEX using 97-nt RNA pool that has 55-nt randomized sequences. To increase the selection stringency, they applied the following selection pressures: (1) decreased protein concentration and reaction time, and increased washing volumes; (2) increased tRNA concentration as a non-specific competitor; and (3) increased concentration of anti-mPrP RNA aptamer16 as a specific competitor<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</P>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>    
 
@@ -182,7 +182,7 @@ categories: Aptamer
 <P>Mashima et al. utilised NMR spectroscopy to determine the first high-resolution three-dimensional structure of the complex formed between the N-terminal PrP peptides (P1 and P16) and the R12 aptamer. There are the similar structures between 2RQJ，2RSK and 2RU7, so only the 2RU7 with last literature is chosen<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</P>
 <P>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</P>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/prion_protein_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -195,7 +195,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -318,7 +318,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <P>Left: A surface representation of the aptamer’s binding pocket, generated from PDB ID: 2RU7 at a resolution of 2.8 Å. The bovine prion protein is depicted with vacuum electrostatics, where blue represents positive charges and red represents negative charges. Right: Hydrogen bonds at the binding sites of the aptamer bound to the bovine prion protein.</P>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/prion_protein_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

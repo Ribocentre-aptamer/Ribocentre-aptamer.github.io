@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "β55 aptamer"
 date:   2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -154,9 +154,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jens Peter Fu¨rste et al. isolated a high-affinity RNA aptamer for β-amyloid peptide (βA4(1-40)) targeting Alzheimer's disease from a combinatorial library containing about 10^15 different molecules by an in vitro screening technique (SELEX). A DNA library containing 70 random nucleotide sequences was used, amplified by PCR and transcribed into an RNA library. β amyloid peptide was covalently coupled at the N-terminus via an additional cysteine residue to thiopropyl-activated Sepharose 6B, and the specifically bound RNA was eluted by DTT, reverse transcribed into cDNA and amplified by PCR for eight rounds of screening. The screened RNA aptamers were cloned, amplified, and sequenced, and four major conserved secondary structure modalities were found, of which the β55 aptamer had the lowest dissociation constant (Kd) of 29 nM. The dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Jens Peter Fu¨rste et al. isolated a high-affinity RNA aptamer for β-amyloid peptide (βA4(1-40)) targeting Alzheimer's disease from a combinatorial library containing about 10^15 different molecules by an in vitro screening technique (SELEX). A DNA library containing 70 random nucleotide sequences was used, amplified by PCR and transcribed into an RNA library. β amyloid peptide was covalently coupled at the N-terminus via an additional cysteine residue to thiopropyl-activated Sepharose 6B, and the specifically bound RNA was eluted by DTT, reverse transcribed into cDNA and amplified by PCR for eight rounds of screening. The screened RNA aptamers were cloned, amplified, and sequenced, and four major conserved secondary structure modalities were found, of which the β55 aptamer had the lowest dissociation constant (Kd) of 29 nM. The dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -297,7 +295,7 @@ Murakami K, Obata Y, Sekikawa A, Ueda H, Izuo N, Awano T, Takabe K, Shimizu T, I
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

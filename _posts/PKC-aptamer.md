@@ -1,80 +1,11 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "PKC aptamer"
 date:   2024-05-14 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -95,9 +26,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The RNA pool used in these selections contained a 120-nucleotide randomized region.  RNA was eluted from filters with 400 pl of 4 M guanidine thiocyanate, precipitated, and amplified by reverse transcription, polymerase chain reaction, and T7 transcription as described previously. After rounds 3,6,9,12, and 14 of selection, radiolabeled RNA pools were assayed for their ability to be co-retained with PKC PI1 on filters. A gel shift selection was carried out in cycles 10 and 13.  After 14 cycles of selection and amplification, two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>The RNA pool used in these selections contained a 120-nucleotide randomized region.  RNA was eluted from filters with 400 pl of 4 M guanidine thiocyanate, precipitated, and amplified by reverse transcription, polymerase chain reaction, and T7 transcription as described previously. After rounds 3,6,9,12, and 14 of selection, radiolabeled RNA pools were assayed for their ability to be co-retained with PKC PI1 on filters. A gel shift selection was carried out in cycles 10 and 13.  After 14 cycles of selection and amplification, two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -286,7 +215,7 @@ Conrad, R., & Ellington, A. D.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

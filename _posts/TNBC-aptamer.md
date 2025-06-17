@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "TNBC aptamer"
 date:   2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -9,76 +9,7 @@ categories: Aptamer
 <font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
 <br /-->
 
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -99,9 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Started from a library of nuclease-resistant 2′fluoro-pyrimidines (2′F-Py) RNAs and performed a total of 14 consecutive rounds of positive selection on human MDA-MB-231 cells (ER−, PR−, HER2−), with increasing selection stringency. Choose to include into the selection cycle, starting from the fifth SELEX round, a second counterselection against EGFR-overexpressing epidermoid carcinoma A431 cells, to avoid that sequences against EGFR could dominate the selection. Ten selection rounds (0, 3, 5, 7, 9, 10, 11, 12, 13, and 14) were analyzed by Illumina NGS, and data were compared with those obtained by classical cloning of the last selected pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Started from a library of nuclease-resistant 2′fluoro-pyrimidines (2′F-Py) RNAs and performed a total of 14 consecutive rounds of positive selection on human MDA-MB-231 cells (ER−, PR−, HER2−), with increasing selection stringency. Choose to include into the selection cycle, starting from the fifth SELEX round, a second counterselection against EGFR-overexpressing epidermoid carcinoma A431 cells, to avoid that sequences against EGFR could dominate the selection. Ten selection rounds (0, 3, 5, 7, 9, 10, 11, 12, 13, and 14) were analyzed by Illumina NGS, and data were compared with those obtained by classical cloning of the last selected pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -214,7 +143,7 @@ Camorani, S., Granata, I., Collina, F., Leonetti, F., Cantile, M., Botti, G., Fe
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

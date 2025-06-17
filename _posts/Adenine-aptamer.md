@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Adenine aptamer"
 date:   2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Meli and Décout used SELEX technology to screen for RNA aptamers capable of binding to adenine. They started with a pool of RNA containing a random sequence of 50 nucleotides. After 12 rounds of selection using an adenine-agarose affinity chromatography column, the RNA sequences that bound to adenine were eluted, and 18 different high-affinity RNA aptamers were identified through cloning and sequencing<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

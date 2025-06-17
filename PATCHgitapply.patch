@@ -133,7 +133,7 @@ index c96803232333bf02d7893676ef1e5bf2b5984e40..830dde2bde952d5faec379c2e171faf7
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2003, Chen C.H et al. chose to make a filter binding assay was used for the first eight rounds of selection.A gel-shift assay was used in the last seven rounds of selection. Then, the cDNA was PCR-amplified for the next round of selection. Finally,  Individual clones were obtained by ligation of the PCR product into either pGEM4 or pGEM3Z vectors after digestion with EcoRI and BamHI<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -521,7 +521,7 @@ index 2ad33419bb53c533a2393b380af5664ec50f4e93..13ee91400cc9966e63a118e330c055e1
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Aptamers can be prepared by an in vitro selection process, termed SELEX (systematic evolution of ligands by exponential enrichment) and can be used in various biological/biotechnological settings, including the development of biomaterials , and as recognition molecules in biosensors and diagnostic, gene-regulatory, therapeutic and imaging applications<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>    
  
@@ -537,7 +537,7 @@ index 2ad33419bb53c533a2393b380af5664ec50f4e93..13ee91400cc9966e63a118e330c055e1
  <p class="blowheader_box">3D visualisation</p>             
 -<font >Ptacek J. et al.sovled the crystal structure, at 2.20 A resolution. The PDB ID of this structure is 6RTI<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
  <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/A9g_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;">
    </td>
@@ -672,7 +672,7 @@ index 2ad33419bb53c533a2393b380af5664ec50f4e93..13ee91400cc9966e63a118e330c055e1
  <p class="blowheader_box">Binding pocket</p>             
  <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6RTI by X-ray diffraction. GCPII (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GCPII.</font>
 -<br><br>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/A9g_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -937,7 +937,7 @@ index daf9dffa4686ab1ab7f9a29d913eded0acf504a5..d54d3f4812e736e24098b461cc32f505
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2017, To select RNA aptamers, J. Jaremko and his colleague used SELEX (31, 32), which involves multiple cycles or rounds. Each round consists of RNA-receptor binding, RNA elution, RT-PCR amplification, followed by enzymatic transcription from the DNA library to regenerate a new RNA library or pool<sup>[<a href="#ref12" style="color:#520049">12</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -1434,7 +1434,7 @@ index 85c4448e0312ce23197ab46ef2db588e849fc0f7..218022adf4920d7e8312e115ff0e066f
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In 2013, Junichi Fukunaga and his colleagues performed SELEX to obtain RNA aptamers that bind specifically to the AML1 protein. These aptamers were used as tools to enhance understanding of AML1 and its potential applications in the diagnosis and treatment of AML1-related diseases. After nine rounds of selection, the 30N and 40N random RNA pools converged into eight and four independent sequences, respectively. Surface plasmon resonance (SPR) assays were employed to test the formation of the aptamer–Runt–CBFβ ternary complex<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>    
  
@@ -1452,7 +1452,7 @@ index 85c4448e0312ce23197ab46ef2db588e849fc0f7..218022adf4920d7e8312e115ff0e066f
  <p>Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1)-aptamer) using nuclear magnetic resonance(NMR). Although structure of the Runt domain-aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. The PDB ID of this structure is 2RRC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/AML1_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -1586,7 +1586,7 @@ index 85c4448e0312ce23197ab46ef2db588e849fc0f7..218022adf4920d7e8312e115ff0e066f
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>This aptamer lacks a three-dimensional structure of its complex with the protein, but its binding site is similar to that of the RDE element-binding protein. We chose the complex structure of double-stranded DNA element(RDE) and AML1 to show it. The structural PDB ID is 1HJC. AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. AML1/RUNX1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with AML1/RUNX1.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/AML1_aptamer_binding_pockets1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -1829,7 +1829,7 @@ index ca5ba6104eb865427e3759f83608ff36b6da3d82..f8b2af3f7188d9b25501bfd9cbf8cc31
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2006, Du, M., Ulrich, H., Zhao, X., Aronowski, J., & Jayaraman, V. incubated the 2'-F-RNA pool with GluR2-S1S2 protein, and the bound RNA was separated from the unbound RNA by using a nitrocellulose filter and a 96-well Minifold filtration apparatus. After washing the complexes with buffer, the protein-bound RNA was displaced with 500 μM glutamate. The collected supernatant containing the displaced RNA was phenol and chloroform-extracted, and the purified RNA was used as template for reverse-transcription (RT) PCR amplification to obtain the DNA pool for the next SELEX round. Since the RNA aptamers were being selected based on their affinity to the isolated ligand binding domain, a negative selection was performed after two initial SELEX rounds using membranes of non-transfected HEK 293 cells. The RNA molecules that did not bind to the non-transfected HEK 293 cell membranes were then used for subsequent selection rounds towards GluR2-S1S2.After eight repetitive selection rounds, the affinity of the RNA pool 8 for binding to GluR2-S1S2 was determined using a radioligand-receptor binding assay<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -2222,7 +2222,7 @@ index 217bac8925ba29c4fb84021469ad15e310c28d6d..6e7e49bbc225dbe132a0f1c62cc38bc3
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2007, using the systematic evolution of ligands by exponential enrichment (SELEX), Zhen Huang et al. have selected a group of RNA aptamers against the recombinant GluR2Qflip AMPA receptor transiently expressed in HEK-293 (human embryonic kidney) cells<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -2653,7 +2653,7 @@ index 6f0e246a119695e2d97d39ed36468509411c7f88..5a6fb33b0b20da1deee42f020fc89915
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In 1993, Szostak et al. used the SELEX method to isolate a small RNA motif that bound ATP. They initiated the in vitro selection experiments by creating a large pool of random polynucleotide sequences, which were then subjected to repeated cycles of enrichment for those species that exhibited the desired characteristics, followed by amplification of the selected pool. The process began with a pool of 169-nucleotide-long RNAs, which consisted of approximately 10<sup>14</sup> distinct sequences. They isolated RNA molecules capable of binding ATP using affinity chromatography on ATP-agarose columns, where the ATP was attached to the agarose at its C8 position. The RNA molecules that were retained by the ATP-agarose matrix were then eluted with ATP. Following this, the eluted RNA was amplified through reverse transcription and polymerase chain reaction (PCR). They produced an enriched pool of RNAs for the next cycle of selection by in vitro transcription of the double-stranded DNA templates generated in this manner. After six rounds of selection and amplification, a population of RNAs that were specifically eluted with ATP was obtained. From the eighth cycle RNA population, 39 clones were sequenced, revealing 17 distinct sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -2673,7 +2673,7 @@ index 6f0e246a119695e2d97d39ed36468509411c7f88..5a6fb33b0b20da1deee42f020fc89915
  <p>In 1996, Roger A. Jones & Dinshaw J. Patel et al. presented the solution structure of both uniformly and specifically C13, N15-labelled 40-mer RNA containing the ATP-binding motif complexed with AMP, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations. The PDB ID is 1AM0. Subsequently, T Dieckmann & J Feigon et al. presented the three-dimensional solution structure of a 36-nucleotide ATP-binding RNA aptamer complexed with AMP, which was determined from NMR-derived distance and dihedral angle restraints. The PDB ID is 1RAW. Here, only the structural diagram of 1RAW is shown. There is no obvious difference between the structures of 1AM0 and 1RAW<sup>[<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/ATP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -2808,7 +2808,7 @@ index 6f0e246a119695e2d97d39ed36468509411c7f88..5a6fb33b0b20da1deee42f020fc89915
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1RAW by NMR. Adenosine monophosphate (AMP) shown in sticks. Right: The hydrogen bonds of binding sites of the aptamer bound with AMP<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/ATP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -3092,7 +3092,7 @@ index 264f7cc461ec1e6b28c1771381ed7352e1a0410d..fa4ca585f78f2b6ff656f505bbe2b3bc
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In their work published in 2002, Lee, S. W. et al. used SELEX to isolate RNA aptamer sequences with affinity for nuclear factor of activated T cells from a nucleic acid library containing about 10<sup>14</sup> 94-nucleotides-long sequences after 10 rounds of selection process. To remove nonspecific RNAs with binding activity to agarose beads, the RNA library was pre-incubated with agarose beads<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -3374,7 +3374,7 @@ index 20a81a92cb10576bb5adc3b37890448d22ca6adb..79542fb84bd378f4c8c252aad40c6888
 +
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>Meli and Décout used SELEX technology to screen for RNA aptamers capable of binding to adenine. They started with a pool of RNA containing a random sequence of 50 nucleotides. After 12 rounds of selection using an adenine-agarose affinity chromatography column, the RNA sequences that bound to adenine were eluted, and 18 different high-affinity RNA aptamers were identified through cloning and sequencing<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -3645,7 +3645,7 @@ index 503cdd5b88b800b1ee3bdee01df4d8692fa6e02d..9145199001c1c7358f065f0f305f6338
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In their work published in 2003, Sullenger, B. A. et al. used SELEX to isolate RNA aptamer sequences with affinity for angiopoietin-2 from a nucleic acid library containing about 10<sup>14</sup> 80-nucleotides-long sequences after 11 rounds of selection process. RNAs bound to Ang2 were isolated via vacuum filtration through a 0.45 μm nitrocellulose membrane<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -3973,7 +3973,7 @@ index 3a9118c2c4d03c350d332dd202ee02ad693bceb8..18e8278c397413617cfcafda7c9aea20
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>The SELEX began with an initial RNA pool consisting of approximately 10<sup>15</sup> different RNA molecules.This pool was subjected to in vitro selection targeting specific binding to L-citrulline. RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled. After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets. This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed. Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -4000,7 +4000,7 @@ index 3a9118c2c4d03c350d332dd202ee02ad693bceb8..18e8278c397413617cfcafda7c9aea20
  <p>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Famulok, M. et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 1KOC<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/Arginine_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -4137,7 +4137,7 @@ index 3a9118c2c4d03c350d332dd202ee02ad693bceb8..18e8278c397413617cfcafda7c9aea20
  
  <p class="blowheader_box">Binding pocket</p>              
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOC by NMR. Arginine (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with L-Arginine.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/Arginine_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -4443,7 +4443,7 @@ index 545f5cbac1c759986ca51fc14365f88a78d8d6df..fc26ae222e1bec9f7e8aa8b2f51f0aee
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -4837,7 +4837,7 @@ index 7a4cd58c1ab793a666417e263b15202d6747e0e0..957e72c0ad50694cd0b34044ede320e4
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2006, Rentmeister, A., & Famulok, M. used SELEX  to select for aptamers that recognize the cytoplasmic tail of BACE (B1-CT). The 24 amino acid peptide representing the entire cytoplasmic domain of the transmembrane protein BACE1 was attached to cyanogen bromide (CNBr)-activated Sepharose via an N-terminal linker. A DNA library with a diversity of 1014 comprising a 40-nt random region flanked by two primer binding sites was in vitro transcribed to yield the respective RNA library. RNA was incubated with the selection matrix and after removal of nonbinding sequences by washing with binding buffer, remaining species were eluted, reverse-transcribed, and used as input DNA for the next transcription and a new selection cycle.  B1-CT binding species were enriched after six cycles of selection, reverse-transcribed, cloned, and sequenced. From this first selection the monoclone K11 exhibited the best binding properties in column assays being the only clone that bound better to the B1-CT-Sepharose than the enriched pool from cycle 6 . A dissociation constant of 4.1 μM for the binding of K11 to the free B1-CT peptide was determined using surface plasmon resonance (SPR) measurements<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -5171,7 +5171,7 @@ index f2652e41988fc2adf2250ea36cb82412fc90a9df..cc4b57f8ce1177f4a63620122898735c
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Andrew D. Ellington & Jack W. Szostak used the in vitro selection system to isolate RNAs that bind to several dyes that appear to mimic metabolic cofactors. After the sixth round of selection, sequenced 17 clones from the CB(Cibacron Blue 3GA) pool, three of which were identical, and 14 clones from the B4(Reactive Blue 4) pool, all of which were different<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -5517,7 +5517,7 @@ index 569bbd0974a82d17cbbfe24f1c477c80b4d8d9be..c2f48e570a0fd61eb91fba391ebd77b4
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>They used, with some modification, an in vitro selection and amplification scheme (SELEX). And adapted the template-primer system to produce RNA molecules had a stretch of 40 random bases sandwiched between 59 and 39 constant regions for primer annealing. The 59 constant sequence included a promoter for T7 RNA polymerase. Synthetic oligodeoxynucleotide template (20 mg of a 108-mer) was amplified by PCR to make the original pool. This pool contained 3.4 * 10<sup>13</sup> different sequences. The pool of random RNA was carried through nine rounds of selection and amplification. RNA-protein complexes were selected by binding to nitrocellulose filters. Observed a significant increase of the pool’s affinity for B52 as the selection progressed. Fractions of two final pools were cloned and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -5921,7 +5921,7 @@ index af9fe791a337be769998fe4def5716779f862fc2..dcefd891261456dd7f836adb66f61044
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In their work published in 1998, Ellington, A. D. et al. used SELEX to isolate RNA aptamer sequences with affinity for bFGF from a nucleic acid library containing about 5×10<sup>12</sup> sequences after 11 rounds of selection process. Human recombinant bFGF was purified from yeast expressing artificial bFGF cDNA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -6203,7 +6203,7 @@ index f497412a820f477dbe4320abfce6eda16e65f0c1..57da4ca7d18c17ab05d54609e97c3072
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>This work generated aptamers that bind DFAME using SELEX. A DNA library containing ∼10<sup>14</sup>  random library members was used and DFAME was conjugated to agarose beads using an aminohexyl linker as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence by threefold was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -6222,7 +6222,7 @@ index f497412a820f477dbe4320abfce6eda16e65f0c1..57da4ca7d18c17ab05d54609e97c3072
  <p class="blowheader_box">3D visualisation</p>             
 -<font>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
  <div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/DFAME_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -6358,7 +6358,7 @@ index f497412a820f477dbe4320abfce6eda16e65f0c1..57da4ca7d18c17ab05d54609e97c3072
  <p class="blowheader_box">Binding pocket</p>             
  <font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYU by X-ray crystallography. DFAME (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with DFAME or other nucleotides surround small molecules.</font>
 -<br>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/DFAME_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -6615,7 +6615,7 @@ index dac108e48fab002ab2e6b612b33006cbe19831ce..f58a598504167c136ad8d9a8c0ad67b3
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>About ~10<sup>14</sup> random RNA sequences was used in the systematic evolution of ligands by exponential enrichment approach to generated aptamers that bind DFHO. DFHO with an aminohexyl linker was synthesized so that this fluorophore could be attached to solid support. After eight rounds of SELEX, a single 119 nucleotides-long aptamer (aptamer 6-1) that induced the fluorescence of DFHO was identified<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -6633,7 +6633,7 @@ index dac108e48fab002ab2e6b612b33006cbe19831ce..f58a598504167c136ad8d9a8c0ad67b3
  <p class="blowheader_box">3D visualisation</p>             
 -<font>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
  <div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/ThT_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -6770,7 +6770,7 @@ index dac108e48fab002ab2e6b612b33006cbe19831ce..f58a598504167c136ad8d9a8c0ad67b3
  <p class="blowheader_box">Binding pocket</p>             
  <font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYW by X-ray crystallography. Thioflavin T(ThT)(shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with ThT or other nucleotides surround small molecules.</font>
 -<br>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/ThT_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -7053,7 +7053,7 @@ index 4b6ea354f18ecf299e31f20c390bb944b5b97bac..16a0e0416a858ca55c6ab8ca229d1cf4
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>About ~10<sup>14</sup> random RNA sequences was used in the systematic evolution of ligands by exponential enrichment approach to generated aptamers that bind DFHO. DFHO with an aminohexyl linker was synthesized so that this fluorophore could be attached to solid support. After eight rounds of SELEX, a single 119 nucleotides-long aptamer (aptamer 6-1) that induced the fluorescence of DFHO was identified. Afterwards, an RNA library containing ∼10<sup>14</sup> random library members was used and DFAME was conjugated to agarose beads using an aminohexyl linker as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence by threefold was identified<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -7079,7 +7079,7 @@ index 4b6ea354f18ecf299e31f20c390bb944b5b97bac..16a0e0416a858ca55c6ab8ca229d1cf4
  <p>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The overall structure of Beetroot bound to different fluorescent molecules closely resembles that of the wild-type Beetroot fluorophore complex. These small molecules bind at both ends of the eight-tiered quadruplex at the Beetroot dimer interface, occupying the same pocket and adopting a nearly planar conformation. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO) with resolutions of 1.95 Å, 2.55 Å, 2.1 Å and 2.85 Å respectively<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/ThT_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -7214,7 +7214,7 @@ index 4b6ea354f18ecf299e31f20c390bb944b5b97bac..16a0e0416a858ca55c6ab8ca229d1cf4
  <p>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The overall structure of Beetroot bound to different fluorescent molecules closely resembles that of the wild-type Beetroot fluorophore complex. These small molecules bind at both ends of the eight-tiered quadruplex at the Beetroot dimer interface, occupying the same pocket and adopting a nearly planar conformation. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/DFAME_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -7348,7 +7348,7 @@ index 4b6ea354f18ecf299e31f20c390bb944b5b97bac..16a0e0416a858ca55c6ab8ca229d1cf4
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYW by X-ray crystallography. Thioflavin T (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with ThT or other nucleotides surround small molecules.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/ThT_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -7359,7 +7359,7 @@ index 4b6ea354f18ecf299e31f20c390bb944b5b97bac..16a0e0416a858ca55c6ab8ca229d1cf4
    </table>
  
    <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYU by X-ray crystallography. DFAME (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFAME or other nucleotides surround small molecules.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/DFAME_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -7619,7 +7619,7 @@ index 48ac0167117c156143a806c2de61769024d3197a..34b26a182288190b766ca8c0e19544fc
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>A randomized RNA library, consisting of approximately 10<sup>14</sup> molecules, was synthesized via in vitro transcription from a DNA template and resuspended in a selection buffer comprising 0.1 M KCl, 5 mM MgCl2, and 10 mM Na-HEPES at pH 7.4. Following equilibration at ambient temperature, the RNA pool was applied to a 500 μL biotin-agarose affinity column to selectively bind biotin-interacting RNAs. Non-specific binders were eliminated through a series of 15 washes with 500 μL of the selection buffer. The biotinylated RNAs were eluted using 5 volumes of 500 μL elution buffer, which was the selection buffer supplemented with 5 mM D-biotin at pH 7.4. The affinity-purified RNAs were then pooled, concentrated, and subjected to enzymatic amplification. The resulting enriched RNA pool underwent gel purification and was cycled through additional rounds of selection and amplification. Biotin-binding RNA species were first identified in the fourth selection round, and by the seventh round, these RNAs constituted over 50% of the total sequences present in the pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -7639,7 +7639,7 @@ index 48ac0167117c156143a806c2de61769024d3197a..34b26a182288190b766ca8c0e19544fc
  <p>Nix et al. determined the structure of the biotin RNA aptamer using X-ray crystallography at a resolution of 1.3 Å. The aptamer structure revealed how a highly complementary binding pocket for an unusual ligand can be constructed by an RNA molecule, primarily using Watson-Crick base-paired nucleotides and a collection of bound solvent molecules. The PDB ID for this structure is 1F27<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -7774,7 +7774,7 @@ index 48ac0167117c156143a806c2de61769024d3197a..34b26a182288190b766ca8c0e19544fc
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F27 by X-ray crystallography. Biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Biotin.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -8010,7 +8010,7 @@ index ede65e36968eae3332e031b0bb43505c0ad65afe..819a9db2934ec10aec4eeedaba10963b
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2006, Gopinath, S. C., & Mizuno, H. selected an anti–bovine factor IX RNA aptamer with the starting RNA repertoire with randomized region over a 74-nucleotide. For each selection, the RNA pool and bovine factor IX were mixed and allowed to incubate for about 10 min, and then the bound oligonucleotide (Bovine factor IX–RNA complexes) are separated from the unbound oligonucleotides, either by filtration or xenoplate. Bound RNAs were recovered with hot 7 M urea and subsequently amplified by reverse transcription followed by PCR, and then the PCR products were transcribedin vitro. After five rounds of selection and amplification, about 54% of the RNA pool was bound to bovine IX<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -8401,7 +8401,7 @@ index f1557bc0fef3e98b1a5ffdd0b1238711615a3c1f..58470740d50155629f848e4103fb5144
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In 2008, Nishikawa et al. used the SELEX method to isolate aptamers and identified four consecutive GGA triplet repeats (GGA<sup>4</sup>) in the major RNA aptamers obtained. They carried out SELEX using 97-nt RNA pool that has 55-nt randomized sequences. To increase the selection stringency, they applied the following selection pressures: (1) decreased protein concentration and reaction time, and increased washing volumes; (2) increased tRNA concentration as a non-specific competitor; and (3) increased concentration of anti-mPrP RNA aptamer16 as a specific competitor<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</P>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>    
  
@@ -8421,7 +8421,7 @@ index f1557bc0fef3e98b1a5ffdd0b1238711615a3c1f..58470740d50155629f848e4103fb5144
  <P>Mashima et al. utilised NMR spectroscopy to determine the first high-resolution three-dimensional structure of the complex formed between the N-terminal PrP peptides (P1 and P16) and the R12 aptamer. There are the similar structures between 2RQJ，2RSK and 2RU7, so only the 2RU7 with last literature is chosen<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</P>
  <P>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</P>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/prion_protein_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -8555,7 +8555,7 @@ index f1557bc0fef3e98b1a5ffdd0b1238711615a3c1f..58470740d50155629f848e4103fb5144
  
  <p class="blowheader_box">Binding pocket</p>             
  <P>Left: A surface representation of the aptamer’s binding pocket, generated from PDB ID: 2RU7 at a resolution of 2.8 Å. The bovine prion protein is depicted with vacuum electrostatics, where blue represents positive charges and red represents negative charges. Right: Hydrogen bonds at the binding sites of the aptamer bound to the bovine prion protein.</P>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/prion_protein_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -8765,7 +8765,7 @@ index 18847d42d270ab246e26670a184d2221475136e9..ab877761d26fe28db0906f057402c034
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2003, Liu and colleagues used SELEX. Starting from a pool of DNA templates, after transcription, aptamers that bind specifically to bovine thrombin were selected after 7 rounds of selection and amplification<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -9207,7 +9207,7 @@ index 5050c74a3af2072852855bf1749a0b90f97bf50c..c86d995a05a3d81eb480e6991f3f5900
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In 1996, Ellington, A. D. and colleagues used existing research to design the method required for the SELEX process. The RNA recognition domain of HIV-1 Rev is an ARM that spans residues 34-50. A 17-mer peptide (sRev) corresponding to this domain was used as a target for in vitro selection experiments. A RNA pool containing 71 random sequence positions was incubated with an affinity resin containing sRev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -9470,7 +9470,7 @@ index e6c21e8b53e799999f1069c804e2cfa3779cd0ae..8bee7eadfe407b5630cc27f910037f73
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Using Lipofectamine 2000, the C-terminally His-tagged CD133 was transfected into HEK293T cells and allowed to express for 72 h prior to SELEX experiments, with expression confirmed by AC133 antibody staining. Similar to previous SELEX experiments, a random RNA library of approximately 1 × 10<sup>14</sup> species containing 2′-fluoro-modified ribose on all pyrimidines was incubated with HEK293T cells expressing human CD133. Unbound RNA was removed via several washing steps prior to RT-PCR, and the process was repeated for a total of 12 rounds<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -9867,7 +9867,7 @@ index c16722dc964d3a0c6874fdf05868750be4f7a3b6..f4125094ea13f1cc346c363562743504
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>An RNA library was generated in vitro using an oligonucleotide library that contains a central region of 49 randomized nucleotides flanked at both ends by constant sequences and a bacterial T7 promoter for in vitro transcription. For the first round of SELEX ∼10<sup>15</sup> unique sequences were represented. Each round of SELEX consisted of the following steps. CED-9/RNA complexes were recovered and reverse transcribed to cDNAs, which were then PCR-amplified to generate a new oligonucleotide library enriched in DNAs encoding RNAs with higher binding affinity for CED-9. After nine rounds of SELEX, obtained a pool of RNA molecules that bound CED-9 with high affinity. From the last two rounds of SELEX, identified a total of 12 different aptamers that bind CED-9<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -10217,7 +10217,7 @@ index b5b9bbac3c7a1f3df653f0a83c109b46807dc663..7afd9d1ab908cafb301c872fde158617
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2018, Qing Pan, Carmen O. K. Law , et al. isolated 6 specific sequences targeting gastrointestinal cancer biomarkers CEA , CA50 and CA72-4 protein after 15 rounds of selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -10652,7 +10652,7 @@ index 2a288055d1ae5832c51a54f991eeea7f892ede56..c1ab483c40fa50b37ac427a7de5c2ba8
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2018, Lorenz Fülle and Nancy Steiner et al. isolated 2 specific sequences for targeting Chemokine CCL17 in 10 rounds of selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -11032,7 +11032,7 @@ index 4634d6355559837023613d80ebc91acb3a09fd2e..10026e31986139377a124ef9597a733c
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>This work generated aptamers that bind DMHBI using SELEX. A DNA library containing ~5×10<sup>13</sup> random sequence members was used and DMHBI was conjugated to agarose beads as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence was identified. These RNA mimics of GFP provide a useable approach for the genetic encoding of fluorescent RNAs<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>  
  
@@ -11051,7 +11051,7 @@ index 4634d6355559837023613d80ebc91acb3a09fd2e..10026e31986139377a124ef9597a733c
  <p>In 2021, Claudia Höbartner et al. analyzed the structure of the Chili-DMHBI's derivatives complexs through crystallization, diffraction data collection and NMR spectroscopy. The Chili RNA adopts a single coaxial helical stack (~70 Å in length), comprising two A-form duplexes (P1 and P2) flanking the central fluorophore-binding domain. The basal stem P1 forms an 8 bp duplex (nucleotides 1-8 and 45-52), while the apical stem P2 (5 bp, nt 17-21 and 26-30) is capped by the UUCG tetraloop L2 (nt 22–25). The FBD spans nucleotides 9-16 and 31-44, forming the ligand-binding pocket. Structural data obtained by X-ray crystallography were deposited in the Protein Data Bank and are available with the following accession codes: 7OAW (2.95 Å), 7OAX (2.24 Å), 7OA3 (2.8 Å), 7OAV (2.99 Å)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/DMHBI+_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -11186,7 +11186,7 @@ index 4634d6355559837023613d80ebc91acb3a09fd2e..10026e31986139377a124ef9597a733c
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7OAW by NMR and X-ray crystallography. DMHBI+ (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DMHBI+ or other nucleotides surround small molecules.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/DMHBI+_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -11424,7 +11424,7 @@ index 7415e6c376b7e05d29c873fed9e438dcc829c11d..f9c990475bbafa48be001f6327cd089a
 +
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>Gold, L. et al. used SELEX to isolate two independent RNA populations with 70 or 80 random positions from random starting pools containing 10¹⁴-10¹⁵ sequences. After 12 cycles, 74 distinct sequences were identified among the 96 isolates sequenced, with 12 sequences found in pairs of identical or nearly identical isolates, 2 sequences found in three different isolates, and 2 sequences found in four different isolates. All other sequences were found only once<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -11720,7 +11720,7 @@ index 3a4c4284f42d7837c33a2a273c0be713e8fe9363..99579d8df2e9f01dbdc163075a45cc60
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>The SELEX began with an initial RNA pool consisting of approximately 10<sup>15</sup> different RNA molecules.This pool was subjected to in vitro selection targeting specific binding to L-citrulline. RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled. After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets. This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed. Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -11741,7 +11741,7 @@ index 3a4c4284f42d7837c33a2a273c0be713e8fe9363..99579d8df2e9f01dbdc163075a45cc60
  <p>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Famulok, M. et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 1KOD<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/Citrulline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -11877,7 +11877,7 @@ index 3a4c4284f42d7837c33a2a273c0be713e8fe9363..99579d8df2e9f01dbdc163075a45cc60
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOD by NMR. Citrulline (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Citrulline.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/Citrulline_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -12168,7 +12168,7 @@ index 73b1e94f42d13502f5b60e016f7111d9dba1cace..70e238b555570e10be9a195da7aa7110
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>Aiming Ren, Linyong Zhu and Yi Yang et al. performed SELEX with a library containing ~4<sup>52</sup> random library members and selected RNA sequences for their ability to bind NBSI derivates. The selection process went through 8 rounds. After SELEX, researchers selected a number of sequences, including Clivias, to characterize their affinity for the dye and its spectral properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>    
  
@@ -12187,7 +12187,7 @@ index 73b1e94f42d13502f5b60e016f7111d9dba1cace..70e238b555570e10be9a195da7aa7110
  <p>Aiming Ren, Linyong Zhu and Yi Yang et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivia-NBSI complex. The overall structure of the complex adopts a coaxial long helix fold and is stabilized by continuous stacking interactions from the bottom stem P1 to the apical stem P2 with the ligand NBSI intercalated in the zipped junction region at the interface of stems P1 and P2. The PDB ID of these structures are 8HZE (1.59 Å)<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/NBSI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -12319,7 +12319,7 @@ index 73b1e94f42d13502f5b60e016f7111d9dba1cace..70e238b555570e10be9a195da7aa7110
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8HZE by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/NBSI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -12573,7 +12573,7 @@ index 4f7919946f65bcdc0686db56437d1b8d59edc078..b798af017ef43053eaa761fd77dd6541
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn<sup>2+</sup>. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn<sup>2+</sup> and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn<sup>2+</sup> existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -12582,7 +12582,7 @@ index 4f7919946f65bcdc0686db56437d1b8d59edc078..b798af017ef43053eaa761fd77dd6541
 -<font>Clone 31 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Tat protein. The 2D structure of the figures is based on the article by ribodraw tool to draw. These are two different prediction results in the article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
 +<h2 class="section-title" id="Structure">Structure</h2>
  <font><p>5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/2D/clone31_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -12912,7 +12912,7 @@ index f0589b792722fbb071a60268739ee129c2709e04..5fd8ff0faab26e64b76052ae88ee9c7b
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Jaehoon Yu et al. screened RNA aptamers against Sialyl Lewis X (sLeX), mainly by screening Clone 5 RNA aptamers from a random RNA library containing 70 random nucleotides by an in vitro screening program, and after 17 rounds of screening, a final aptamer sequence was obtained that had a high affinity and high specificity. The affinity of the aptamer for sLeX was determined using surface plasmon resonance, and the KD value for Clone 5 was 0.085 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -13251,7 +13251,7 @@ index 7215244b06654464f0e5e7d9e280cfeaa478da1a..44a46cd78f095e0a4f0e950a2e845280
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>A slightly modified in vitro selection procedure was used to isolate codeine-binding RNA aptamers from a library of RNA molecules containing a 30 nt random region flanked by constant primer-binding sequences. Aptamers were selected on a codeine affinity column, which was made by immobilizing codeine to the epoxy-activated agarose through its hydroxyl group. To enhance the stringency of the selection process, the wash volume was increased incrementally from cycles 6 to 15. To increase the specificity of the selected pool, a counter-selection with a 5 mM morphine solution was performed at cycle 10 prior to elution with codeine. After cycle 15, the enriched pool was cloned and approximately 60 colonies were sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -13618,7 +13618,7 @@ index 22acfa6357e2db3b5e6855d6f09c6a3e2d206489..c8f051c6fe0132bd2b5762e35ac38113
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2004, Ichiro Hirao et al. isolated specific sequences which bind colicin E3 CRD by 12 cycles of iterative selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -13999,7 +13999,7 @@ index 292c932e8b68295883dd489b6336097a0f7d7482..3fb3e30fb541ff85ba3f9861bbe8dc04
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In their work published in 2002, Lee, Y. et al. used SELEX to isolate RNA aptamer sequences with affinity for complement component 5 from a nucleic acid library containing about 5×10<sup>14</sup> 30-nucleotides-long sequences after 15 rounds of selection process. C5 protein was expressed in E. coli as a fusion with maltose-binding protein.<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -14421,7 +14421,7 @@ index c65bf47a545b0fd1f9266d2846a70a52bad1540c..337618039d14a6d4cd383ef4c5962e44
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 10<sup>14</sup> random RNA libraries that served as ligand systems. DFHO with aminohexyl linkers was synthesized for attachment to solid support. Boc-protected DFHO linker was synthesized followed by the removal of the Boc protecting group to generate DFHO linker. DFHO-binding aptamers were recovered on DFHO-derivatized agarose beads. After 8 rounds of SELEX, we identified a single 119 nt-long aptamer (Aptamer 6-1) that induced the fluorescence of DFHO, with an excitation maximum (ExMax) of 505 nm and an emission maximum (EmMax) of 545 nm. This aptamer was truncated to a 76 nt-long aptamer (T1) that retained the ability to induce DFHO fluorescence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>    
  
@@ -14438,7 +14438,7 @@ index c65bf47a545b0fd1f9266d2846a70a52bad1540c..337618039d14a6d4cd383ef4c5962e44
  <p>In 2017, Warner, K. D. et al. determined the crystal structure of the Corn-DFHO complex at 2.51 Å resolution, discovering that the functional species is a quasisymmetric homodimer. The homodimer encapsulates one DFHO at its inter-protomer interface, sandwiching it with a G-quadruplex from each protomer. The PDB ID of this structure is 5BJP<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/DFHO_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -14574,7 +14574,7 @@ index c65bf47a545b0fd1f9266d2846a70a52bad1540c..337618039d14a6d4cd383ef4c5962e44
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5BJP by X-ray crystallography. DFHO(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHO or other nucleotides surround small molecules.</p>
 -<br>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/DFHO_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -14813,7 +14813,7 @@ index b615b99032ba920d4d63cedea2eb842342ec8634..8188f5abf976636b955532392f935ef6
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2005, Ashok K. Dubey et al. isolated high-affinity RNA ligands containing single CsrA binding sites by 12 cycles of iterative selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -15118,7 +15118,7 @@ index f6f149e1fd54e054874b4d9e347be2584d0d57d1..c6863b672493ecd21b662fd3b0c2b298
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2012, Ray et al. identified the M9-5 aptamer used the SELEX method to isolate the aptamer after 9 rounds of selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -15492,7 +15492,7 @@ index 03eb368a59480898c1d4dcf25fca3774a07d02e7..f3a9b9ef8d40515b85f5faac69f6d9e1
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2004, Theis MG and colleagues used existing research to design the method required for the in vitro genetic-selection. Starting from a RNA pool that had a sequence of 40 random nucleotide positions, aptamers that bind specifically to cytohesin-2 were selected after 15 rounds of selection and amplification. The aptamer, K61, can bind specifically to cytohesin-2 were selected with high affinity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -15830,7 +15830,7 @@ index c29917bf3660005d5dc97387a99a77a7ed1f0785..e42f3356120c280e5dc0dcb834f1e451
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Jens P. Fürste et al. used standard in vitro screening methods to isolate aptamers that bind D-arginine. Sequencing of 55 clones revealed 41 distinct sequences. (Computer sequence analysis showed that two highly conserved motifs appeared in almost 60% of the sequences, and RNAs containing these two conserved sequences could fold into similar secondary structures according to Zuker's energy minimization algorithm.) This truncated version of the aptamer is called D-Rl6c, and it contains the structural elements necessary for specific binding to arginine.The dissociation constant (K) of D-R16c from D-arginine was 135 + 25 μM.The L-enantiomer corresponding to D-Rl6c (termed L-Rl6c) was obtained by standard RNA solid-phase synthesis using modified nucleotides.Circular dichroism (CD) spectroscopic analysis of D-Rl6c and ,-Rl6c showed that the spectra of the two were mirror images of each other, thus providing physical evidence that the chemically synthesized L-RNA (L-Rl6c) is the corresponding D-RNA (D- R16c), providing physical evidence that L-Rl6c is capable of binding to L-arginine with a K value of 129 + 18 μM.Famulok M et al. used completely randomized RNA libraries as well as a degraded library consisting of RNA sequences capable of binding to citrulline to select RNA aptamers that bind tightly to arginine (arginine) by an in vitro screening protocol.After 20 rounds of screening, the majority of the libraries contained RNAs that could specifically, even in the presence of non-specific amino acids binding to arginine substrates. The screened RNA aptamers were cloned and sequenced, and the dissociation constant of one of the sequences (clone ag.06) was determined by equilibrium dialysis and found to bind to arginine with a binding constant of 330 nM. this is nearly a 200-fold improvement over the most tightly binding arginine RNA known. The RNA is highly enantioselective for L-arginine and has a 12,000-fold higher binding capacity compared to D-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -16126,7 +16126,7 @@ index 755464a485ecffdfbae4d86191dbf7004d9bf74c..a76a1083d035d8d32779a13d2f89b69a
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Jens P. Fürste et al. used standard in vitro screening methods to isolate aptamers that bind D-arginine. Sequencing of 55 clones revealed 41 distinct sequences. (Computer sequence analysis showed that two highly conserved motifs appeared in almost 60% of the sequences, and RNAs containing these two conserved sequences could fold into similar secondary structures according to Zuker's energy minimization algorithm.) This truncated version of the aptamer is called D-Rl6c, and it contains the structural elements necessary for specific binding to arginine.The dissociation constant (K) of D-R16c from D-arginine was 135 + 25 μM.The L-enantiomer corresponding to D-Rl6c (termed L-Rl6c) was obtained by standard RNA solid-phase synthesis using modified nucleotides.Circular dichroism (CD) spectroscopic analysis of D-Rl6c and ,-Rl6c showed that the spectra of the two were mirror images of each other, thus providing physical evidence that the chemically synthesized L-RNA (L-Rl6c) is the corresponding D-RNA (D- R16c), providing physical evidence that L-Rl6c is capable of binding to L-arginine with a K value of 129 + 18 μM.Famulok M et al. used completely randomized RNA libraries as well as a degraded library consisting of RNA sequences capable of binding to citrulline to select RNA aptamers that bind tightly to arginine (arginine) by an in vitro screening protocol.After 20 rounds of screening, the majority of the libraries contained RNAs that could specifically, even in the presence of non-specific amino acids binding to arginine substrates. The screened RNA aptamers were cloned and sequenced, and the dissociation constant of one of the sequences (clone ag.06) was determined by equilibrium dialysis and found to bind to arginine with a binding constant of 330 nM. this is nearly a 200-fold improvement over the most tightly binding arginine RNA known. The RNA is highly enantioselective for L-arginine and has a 12,000-fold higher binding capacity compared to D-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -16430,7 +16430,7 @@ index 85cf25c9f372d9b61e0c6f2570b2c0866e6f7a0d..65b18467d7348bcee7f7ffeff81c373c
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>D. R. Engelke et al. conducted in vitro screening of RNA aptamers for Sephadex. The D8 aptamer was obtained through 11 rounds of systematic evolution of ligands by exponential enrichment (SELEX) from an RNA library comprising approximately 7 x 10^16 distinct sequences. In the final screening phase, a total of 15 RNA aptamers were assessed for their ability to effectively bind to Sephadex, with D8 exhibiting the highest affinity. The aptamers were synthesized via PCR amplification and subsequent in vitro transcription, and their binding affinity was determined using a radiolabeled binding assay. The binding affinity of the D8 aptamer for Sephadex G-100 was measured at 9 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -16802,7 +16802,7 @@ index 2e296192ebc0247fc4bf51136b1de7a304c40849..055b5a6a9dc568e7e5f1eba14b91962b
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In their work published in 2014, Jaffrey, S. R. et al. used SELEX to isolate RNA aptamer Broccoli from a nucleic acid library containing about 10<sup>14</sup> sequences after 6 rounds of selection process. In each round, the RNA library is incubated with the target molecule. RNA sequences that bind to the target are separated and then amplified via RT-PCR to create a new library for the next round of selection. After several rounds, RNA sequences with high affinity for the target are enriched<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -17045,7 +17045,7 @@ index 424701a8e329f2bfc2a160a5ab8d7b635ac90f23..0e9672a25816651ca945f520faef6640
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>Biotinylated DIR was used as Positive target to facilitate the enrichment process. The RNA pool used for this selection contained ~10<sup>14</sup> unique sequences and universal, stem-loop forming sequence flanked by randomized region. RNA pool was asymmetric, with the putative stem-loop shifted toward the 5'-end of the sequence. The aptamer from the asymmetric pool was  abundantly represented after 14 rounds of selection. After sequence minimization  and optimization, a 57 nucleotide anti-DIR RNA aptamer (DIR2s-apt) which can bind and activate DIR fluorescence was obtained<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -17064,7 +17064,7 @@ index 424701a8e329f2bfc2a160a5ab8d7b635ac90f23..0e9672a25816651ca945f520faef6640
  <p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/OTB-SO3_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -17199,7 +17199,7 @@ index 424701a8e329f2bfc2a160a5ab8d7b635ac90f23..0e9672a25816651ca945f520faef6640
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6DB8 by NMR and collecting small angle X-ray scattering data of crystals. OTB-SO3 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with OTB-SO3 or other nucleotides surround small molecules.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/OTB_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -17447,7 +17447,7 @@ index aa93073ee7711be85ac08c5b6146da4558ef0ade..881aab2f42d46517bcf66907c0bac071
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Michael Famulok et al. used an RNA library with a complexity of 9 x 10<sup>14</sup> different sequences, with all pyrimidine residues replaced by 2'-amino-2'-deoxy derivatives to enhance nuclease tolerance. NPY was immobilized on streptavidin-agarose by N-terminal biotinylation, to ensure maximum accessibility of its C-terminus for aptamer in vitro screening experiments. After 12 rounds of screening, 30 clones were cloned and sequenced, with 80% of the major sequence families, 7% of the minor sequence families, and the rest of the sequences occurring individually. Finally, the aptamer that specifically binds NPY, aptamer DP3, was obtained. The study used several methods to determine the affinity of the screened target aptamer and the target: calculation of the dissociation constant (Kd): the Kd value of the aptamer to NPY was calculated by a concentration-dependent binding assay. The Kd value of the aptamer DP3 to NPY was 370 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -17800,7 +17800,7 @@ index b543c5e9aebcaa8e83e9521e0141abcd0b754b38..851f8d32978defc6f88e987df3238814
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Tocchini-Valentini GP et al. successfully selected RNA aptamers specifically binding to dopamine using in vitro selection (SELEX) from an initial pool containing 3.4 × 10<sup>14</sup> different RNA molecules. After nine rounds of affinity chromatography, the most abundant sequence, dopa2, was selected for primary study. The binding affinity (Kd) of dopa2 for dopamine was determined to be 2.8 µM using equilibrium dialysis and iso-concentration elution methods. Further secondary screening and structural analysis revealed a consensus structural motif among the aptamers, consisting of two stem-loop structures that form a stable framework through tertiary interactions. Finally, through mutational analysis and the design of small functional aptamers, the minimal active sequence and key nucleotides for constructing the dopamine-binding pocket were identified. The refined aptamer, dopa2/c.1, exhibited an improved binding affinity of 1.6 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -18141,7 +18141,7 @@ index 8e16bd563bdf297b00a90a14384a601de72f0580..8c35f44c9c1f6b8e91953fc038c972e5
 +
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>The researchers constructed an RNA library containing randomised sequences, which were then fused with the sequence of a hammerhead ribozyme. Through multiple rounds of selection, using doxycycline as a “switch molecule,” they identified ribozyme mutants that were inhibited by doxycycline. These mutants exhibited significant inhibition in the presence of doxycycline, but regained activity when doxycycline was absent. Using this approach, the researchers successfully isolated RNA aptamers with high affinity and specificity for doxycycline, with inhibition constants (Ki) as low as 20 nanomolar. These aptamers showed high specificity for doxycycline and did not react significantly with tetracycline, which has a similar structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -18420,7 +18420,7 @@ index 70a8cb4a303241fa3a14b1141b8612061bc3324f..7ba1c5104144ff4b64fb95ae107206c8
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2009, Tsuyoshi Takahashi et al. use a systematic evolution of ligands using the exponential enrichment (SELEX) procedure, and have constructed RNA aptamers that bind to Ab1-40 and inhibit aggregation<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -18826,7 +18826,7 @@ index 817e8f47a449b5341d241fc1da3515c30ed2399c..33020c2d3f0387544f7d7335d501ebef
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>In their work published in 1996, Sullenger, B. A. Nevins et al. used SELEX to isolate RNA aptamer sequences with affinity for E2F1 from a nucleic acid library containing about 10<sup>15</sup> sequences. Protein-RNA complexes were filtered through a wet nitrocellulose filter in a pop-top filter holder then washed using binding buffer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -19086,7 +19086,7 @@ index eab43c451a6c8ac407fae2a66619a9bc6b75ed32..9e7bf74920b86a4fda0e975cc8d81755
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>Performed two Cell-Internalization SELEX using a 2′fluoro pyrimidine modified RNA library comprising a modified, nuclease-resistant RNA pool of ∼10<sup>14</sup> different RNAs. Two different selection strategies were employed. In the first, positive selections targeting PC-3 prostate cancer cells were combined with a strong negative selection against normal prostate epithelial cells (PrEC) to deplete RNA molecules capable of internalizing into noncancerous cells. In the second, the cell target for the positive selection was varied and included toggling between the LNCaP, PC-3, DU 145, and 22Rv1 cell lines. Additionally, to exclude PSMA as a target, chose to select against both PSMA-positive (LNCaP and 22Rv1) and PSMA-negative (PC-3 and DU 145) cell lines. Here again, positive rounds of selection targeting these cells were combined with a strong negative selection against PrECs. For both selections, after incubating cells with the library of RNA variants and washing away nonbinding aptamers, cell-surface-bound RNA was degraded via treatment with a harsh RNase mixture that degrades 2′fluoro modified RNA, leaving only RNAs that had internalized into cells. Subsequent reverse transcription, PCR amplification, and transcription of the internalized RNA completed a round of internalization selection. After nine rounds of selection against PC-3 cells, 12 unique RNAs were evaluated<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -19362,7 +19362,7 @@ index e74d6751b26b9f749306b50a3ac138425093074c..04055422562bdc9eef475215cc4d6ac7
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 2012, Xu et al. identified isolated 3 specific sequences for targeting ERα in a 50nt sequence poolthrough 7 rounds of selection<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -19694,7 +19694,7 @@ index 438ff0dab1ad53cf848fe2e296efad6d971542f9..897b1a9476b96f64fe86691994ea502d
 -<p class="header_box" id="SELEX">SELEX</p>
 -<p>In 1997, Stefanie J. Klug et al. isolated specific sequences  with the ability to compete with wild-type fdhF mRNA for SelB binding by four rounds of selection. In 1999, Stefanie J. Klug et al. isolated new variant RNA sequences that bind to SelB with high affinity by four rounds of selection<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -20046,7 +20046,7 @@ index 69479736a0279cb1a62e5deedf99e1af78b7db5a..3cd30bf6027e1291bd5386a8275b3515
 +
 +
 +<h2 class="section-title" id="SELEX">SELEX</h2>
- Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ 
 -<br>
 -<br>
  
@@ -20299,7 +20299,7 @@ index a90accca081caf48e8f083b44f0bd49ac42a41a6..61390eab1dbe42c41e58ac7748bcd839
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>John S. Samuelian et al. enriched an RNA library, comprising N42 random sequences, through 12 rounds of in vitro selection, culminating in the identification of four RNA aptamers. Among these, aptamer 12.29 was optimised and truncated to yield X2B2, which was subsequently refined to X2B2-C14U. The binding affinity of X2B2-C14U for ligands, including flavin mononucleotide (FMN), was ascertained using isothermal titration calorimetry (ITC), revealing a dissociation constant as low as 243 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -20317,7 +20317,7 @@ index a90accca081caf48e8f083b44f0bd49ac42a41a6..61390eab1dbe42c41e58ac7748bcd839
  <p>In 2022, John S. Samuelian et al. isolated the aptamer and elucidated the structure of its complex with FMN using NMR structure resolution techniques. The NMR-derived structure revealed that the aptamer engages with FMN through π-π stacking and donor-π interactions, creating a specific binding pocket that markedly influences the redox potential of FMN. The FMN binding site is nestled within a platform structure of the aptamer X2B2-C14U and is stabilised by a base triad. Certain bases within the binding pocket participate in π-π stacking with the isoalloxazine ring of FMN and donor-π interactions, leading to substantial alterations in the redox potential of FMN. The interactions between the aptamer and the cofactor are focused on the isoalloxazine ring, with the binding pockets for FMN and riboflavin being consistent. The PDB ID for this structure is 7RWR<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/FAD_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -20445,7 +20445,7 @@ index a90accca081caf48e8f083b44f0bd49ac42a41a6..61390eab1dbe42c41e58ac7748bcd839
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/FAD_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -20649,7 +20649,7 @@ index 743c3bbc3c9baf2422e00f399f20fface7fb6ef1..731faf97d1992578cdce8634d5748941
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>SELEX was performed with a library containing ~5×10<sup>14</sup> random RNA molecules and selected RNAs for their ability to bind Fluorescein. After SELEX, researchers selected a number of sequences, including FB-1, to characterize their affinity for the dye and its spectral properties. It was isolated through mutagenesis of a sulforhodamine aptamer followed by re-selection. From this collection, FB-1 was identified as a clone that exhibited high-efficiency binding to fluorescein and minimal cross-binding to sulforhodamine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -20986,7 +20986,7 @@ index 6da49a05a8b295105465a125035678882d2a26f7..c1c00c393cefaeee6807f6079bea73f2
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>RNA aptamers that bind to S. cerevisiae Pol II were selected using the SELEX strategy. The starting RNA library comprised a randomised region of 40 nucleotides, flanked by defined sequences at the 5′- and 3′-ends. An excess of RNA (40 pmol) was incubated with a highly purified preparation of Pol II (5 pmol). The RNA-protein complexes were retained on a nitrocellulose filter through filtration, while free RNAs passed through the membrane. After extensive washing of the membrane, the RNA-protein complexes were dissociated by phenol extraction, and the RNA was amplified. This selection and amplification procedure was repeated nine times, ultimately yielding a new RNA pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>   
  
@@ -21006,7 +21006,7 @@ index 6da49a05a8b295105465a125035678882d2a26f7..c1c00c393cefaeee6807f6079bea73f2
  <p>The FC RNA was co-crystallised with the complete 12-subunit Pol II, and its X-ray structure was determined at a resolution of 3.8 Å. The molecular architecture revealed that the FC RNA molecule was strategically positioned within the polymerase's active centre cleft, situated above the bridge helix. The RNA established contact with both the clamp and fork domains, which are located on opposing sides of the cleft. This is consistent with the cross-linking evidence that FC RNA interacts with the two major subunits of Pol II. The PDB ID for this structure is 2B63<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/FC_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -21140,7 +21140,7 @@ index 6da49a05a8b295105465a125035678882d2a26f7..c1c00c393cefaeee6807f6079bea73f2
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2B63 at 3.8 Å resolution. RNA polymerase (Pol) II (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with RNA polymerase (Pol) II. The hydrogen bond interaction refers to pymol prediction and articles.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/FC_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -21414,7 +21414,7 @@ index 976d3ae5fa6a421035e4416485fa5fc12f79acf7..0a3489bd65dbb083f09752f454f0e2fb
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>Famulok, M. et al. performed the screening using an RNA 113-mer library containing 10<sup>15</sup> different sequences, each consisting of 14 random nucleotides surrounded by two specific primer binding sites. Specifically bound RNAs (aptamers) were selected from the RNA pool by affinity chromatography with a given cofactor (FMN)-derivatized agarose. RNA sequences bound to agarose were subsequently eluted with a solution containing the appropriate ligand. After six rounds of screening, a large number of RNAs bound to FMN and NAD+ columns. From the pool of FMN-selected RNAs, the researchers cloned and sequenced 17 different clones that demonstrated the ability to specifically bind FMN. These FMN-binding RNAs contained two conserved regions with the sequences AGGNUAU and AGAAGG. 13 FMN-binding RNAs contained the two conserved regions described above, and these sequences were surrounded by variable nucleotides that were capable of pairing to form defined secondary structures. The dissociation constants of the FMN-2 aptamer/FMN complexes were determined by analytical affinity chromatography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>
  
@@ -21432,7 +21432,7 @@ index 976d3ae5fa6a421035e4416485fa5fc12f79acf7..0a3489bd65dbb083f09752f454f0e2fb
  <p>Patel, D. J. et al. presented the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of the complex of FMN bound to the conserved internal loop segment of a 35 nucleotide RNA aptamer identified through in vitro selection. Their comprehensive study reveals the detailed interactions between FMN and the RNA aptamer, including base-pair mismatches, a base-triple formation, and the specific intercalation of FMN's isoalloxazine ring into the RNA helix, contributing to our understanding of RNA folding and molecular recognition principles. The PDB ID of this structure is 1FMN<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/FMN_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -21566,7 +21566,7 @@ index 976d3ae5fa6a421035e4416485fa5fc12f79acf7..0a3489bd65dbb083f09752f454f0e2fb
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1FMN by NMR. FMN (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/FMN_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -21881,7 +21881,7 @@ index 078eea0cfa5856eb5ca053b8bb50ade524047f5c..13d079ce54b443d4d658143e7cb72217
 -<p class="header_box" id="SELEX">SELEX</p>
 +<h2 class="section-title" id="SELEX">SELEX</h2>
  <p>Krishnaswamy, S. et al. presented the characterization of an RNA aptamer (RNA11f7t) which had been developed by cyclical screening of a combinatorial library against factor Xa. They showed that the potent inhibition of thrombin formation, catalyzed by prothrombinase, unexpectedly resulted from the ability of RNA11f7t to bind factor Xa with high affinity and inhibit its interaction with factor Va on the membrane surface. After 11 rounds of selection, the products were digested with EcoR1 and BamH1 (New England Biolabs) and directionally cloned into pUC19 that had been linearized with the same enzymes. Individual clones were sequenced, and clonal RNA transcripts were analyzed in filter-binding assays. The lead molecule was systematically shortened to obtain a truncated version (RNA11F7t) that retained binding activity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
- <p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+ <p>
 -<br>
 -<br>  
  
@@ -21900,7 +21900,7 @@ index 078eea0cfa5856eb5ca053b8bb50ade524047f5c..13d079ce54b443d4d658143e7cb72217
  <p>Sullenger, B. A. et al. able to crystallize and determine the structure of a ternary complex between GD-FXa_S195A, 11F7t, and rivaroxaban bound to the active site of the proteinase at 2.25 Å resolution. The PDB ID of this structure is 5VOF<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
  <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
  <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/3D/FXa_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>
@@ -22034,7 +22034,7 @@ index 078eea0cfa5856eb5ca053b8bb50ade524047f5c..13d079ce54b443d4d658143e7cb72217
  
  <p class="blowheader_box">Binding pocket</p>             
  <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5VOF by X-ray crystallography. GD-FXa<sup>S195A</sup> (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GD-FXa<sup>S195A</sup>.</p>
-   <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+   <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
    <img src="/images/Binding_pocket/FXa_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
    </td>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Theophylline aptamer"
 date:   2024-04-24 00:00:00
 author: Linfei Li, Jiali Wang
@@ -1048,7 +1048,7 @@ categories: Aptamer
 <div class="content-section">
   <h2 class="section-title" id="SELEX">SELEX</h2>
 <p>In <span class="highlight-text">1994</span>, Polisky, B et al. used <span class="highlight-text">SELEX</span> to identify RNA molecules with an affinity for theophylline. They created a pool of <span class="highlight-text">10<sup>14</sup> RNA molecules</span>, each comprising a <span class="highlight-text">40-nucleotide region</span> of random sequence. The RNA pool was then introduced to a <span class="highlight-text">Sepharose column</span> that had <span class="highlight-text">1-carboxypropyl theophylline</span> covalently cross-linked to it. The bound RNA was subsequently eluted by adding <span class="highlight-text">0.1 M theophylline</span>. The eluted RNA was then converted to DNA and amplified via <span class="highlight-text">polymerase chain reaction (PCR)</span>, following the described procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 </div>
 
 <div class="content-section">
@@ -1075,7 +1075,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

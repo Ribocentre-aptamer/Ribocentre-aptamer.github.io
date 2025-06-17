@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "eIF4A aptamer"
 date:   2024-04-9 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
@@ -103,9 +103,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2003, high-affinity RNA aptamers for eIF4A were generated via in vitro RNA selection by Nakamura, Y. et al. These RNAs possess different binding affinities for eIF4A, with dissociation constants ranging from 10 nM to 10 μM.. Representative RNA sequences selected from randomized RNA libraries using different selection procedures. In selection I(+) and I(−), RNAs were selected from N40 pool in the presence and absence of ATP, respectively, via affinity precipitation with Ni-NTA agarose. Selection II and III used N40 and N30 pools, respectively, and RNAs were selected in the absence of ATP via nitrocellulose membrane trapping<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2003, high-affinity RNA aptamers for eIF4A were generated via in vitro RNA selection by Nakamura, Y. et al. These RNAs possess different binding affinities for eIF4A, with dissociation constants ranging from 10 nM to 10 μM.. Representative RNA sequences selected from randomized RNA libraries using different selection procedures. In selection I(+) and I(−), RNAs were selected from N40 pool in the presence and absence of ATP, respectively, via affinity precipitation with Ni-NTA agarose. Selection II and III used N40 and N30 pools, respectively, and RNAs were selected in the absence of ATP via nitrocellulose membrane trapping<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>   
 
 
@@ -124,7 +122,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>Nakamura, Y. et al. determined the solution structure of two essential nucleotide loops (AUCGCA and ACAUAGA) within the aptamer APT58 aptamer using NMR spectroscopy, suggesting that the C7 and C9 of the AUCGCA loop directly interact with eIF4A. Due to the lack of complex structure of 4Apt aptamer and eIF4A. In the AUCGCA loop, C7 and C9 are marked for the directly interacted bases, while ACCGCA loop forms a similar conformation to U-turn motif and that the U-turn like conformation could be important for eIF4A binding without directly interacted bases<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/eIF4A_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -137,7 +135,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -267,7 +265,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Due to the lack of complex structure of APT58 aptamer and eIF4A. Through experiments, it is proved that C7 and C9 are related to the binding of eIF4A. Left: The aptamer in the tertiary structure, it's labeled C7, C9 in orange. Right: eIF4A (shown in vacuumm electrostatics), blue is positive charge, red is negative charge.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/eIF4A_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

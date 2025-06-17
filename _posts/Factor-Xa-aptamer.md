@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Factor Xa aptamer"
 date:   2024-04-16 00:00:00
 author: Bichun Wu, Zhaoji Qiu
@@ -138,7 +138,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Krishnaswamy, S. et al. presented the characterization of an RNA aptamer (RNA11f7t) which had been developed by cyclical screening of a combinatorial library against factor Xa. They showed that the potent inhibition of thrombin formation, catalyzed by prothrombinase, unexpectedly resulted from the ability of RNA11f7t to bind factor Xa with high affinity and inhibit its interaction with factor Va on the membrane surface. After 11 rounds of selection, the products were digested with EcoR1 and BamH1 (New England Biolabs) and directionally cloned into pUC19 that had been linearized with the same enzymes. Individual clones were sequenced, and clonal RNA transcripts were analyzed in filter-binding assays. The lead molecule was systematically shortened to obtain a truncated version (RNA11F7t) that retained binding activity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -156,7 +156,7 @@ categories: Aptamer
 <p>Sullenger, B. A. et al. able to crystallize and determine the structure of a ternary complex between GD-FXa_S195A, 11F7t, and rivaroxaban bound to the active site of the proteinase at 2.25 Å resolution. The PDB ID of this structure is 5VOF<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/FXa_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -169,7 +169,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -328,7 +328,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5VOF by X-ray crystallography. GD-FXa<sup>S195A</sup> (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GD-FXa<sup>S195A</sup>.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/FXa_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

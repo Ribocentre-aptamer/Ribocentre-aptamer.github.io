@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "DIR2s-apt aptamer"
 date:   2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
@@ -106,7 +106,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Biotinylated DIR was used as Positive target to facilitate the enrichment process. The RNA pool used for this selection contained ~10<sup>14</sup> unique sequences and universal, stem-loop forming sequence flanked by randomized region. RNA pool was asymmetric, with the putative stem-loop shifted toward the 5'-end of the sequence. The aptamer from the asymmetric pool was  abundantly represented after 14 rounds of selection. After sequence minimization  and optimization, a 57 nucleotide anti-DIR RNA aptamer (DIR2s-apt) which can bind and activate DIR fluorescence was obtained<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 
@@ -124,7 +124,7 @@ categories: Aptamer
 <p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/OTB-SO3_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -137,7 +137,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -279,7 +279,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6DB8 by NMR and collecting small angle X-ray scattering data of crystals. OTB-SO3 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with OTB-SO3 or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/OTB_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

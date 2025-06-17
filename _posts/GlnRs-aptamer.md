@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "GlnRs aptamer"
 date:   2024-04-16 00:00:00
 author: Jiali Wang, Bo Fu
@@ -161,9 +161,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2000, Perona, J. J. et al. used Stubenrauch's tRNAGln library, which featured randomised nucleotides at positions 15–21, 47–48, and 53–61. RNAs capable of binding GlnRS were isolated through nitrocellulose filtration. After six rounds of screening, 46 sequences with a four-nucleotide replacement of the wild-type five-nucleotide variable loop (5'-CAUUC-3') were identified, 33 of which had the sequence 5'-AGGU-3'<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2000, Perona, J. J. et al. used Stubenrauch's tRNAGln library, which featured randomised nucleotides at positions 15–21, 47–48, and 53–61. RNAs capable of binding GlnRS were isolated through nitrocellulose filtration. After six rounds of screening, 46 sequences with a four-nucleotide replacement of the wild-type five-nucleotide variable loop (5'-CAUUC-3') were identified, 33 of which had the sequence 5'-AGGU-3'<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.<p>
 <br>    
 
 
@@ -182,7 +180,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>Perona, J. J. et al. have determined the crystal structure of an RNA aptamer bound to glutaminyl-tRNA synthetase at 2.7 Å resolution. The structure, however, fails to clearly reveal the relationship between the interacting bases and amino acids. The article does not provide a detailed explanation of the hydrogen bonds between the aptamer and the modified protein. The hydrogen bonds shown in our figure are predicted using PyMOL. The PDB ID of this structure is 1EXD<sup>[<a href="#ref4" style="color:#520049">4</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GlnRs_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -195,7 +193,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -330,7 +328,7 @@ struct_asym_id: 'B',
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1EXD at 2.7 Å resolution. GlnRs (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GlnRs.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GlnRs_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "B4-25 aptamer, CB-42 aptamer"
 date:   2024-03-02 00:00:00
 author: Zhizhong Lu
@@ -100,9 +100,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Andrew D. Ellington & Jack W. Szostak used the in vitro selection system to isolate RNAs that bind to several dyes that appear to mimic metabolic cofactors. After the sixth round of selection, sequenced 17 clones from the CB(Cibacron Blue 3GA) pool, three of which were identical, and 14 clones from the B4(Reactive Blue 4) pool, all of which were different<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Andrew D. Ellington & Jack W. Szostak used the in vitro selection system to isolate RNAs that bind to several dyes that appear to mimic metabolic cofactors. After the sixth round of selection, sequenced 17 clones from the CB(Cibacron Blue 3GA) pool, three of which were identical, and 14 clones from the B4(Reactive Blue 4) pool, all of which were different<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -287,7 +285,7 @@ Ellington, A. D., & Szostak, J. W.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Clivias aptamer"
 date:   2024-06-09 00:00:00
 author: Bo Fu, Jiali Wang
@@ -104,7 +104,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Aiming Ren, Linyong Zhu and Yi Yang et al. performed SELEX with a library containing ~4<sup>52</sup> random library members and selected RNA sequences for their ability to bind NBSI derivates. The selection process went through 8 rounds. After SELEX, researchers selected a number of sequences, including Clivias, to characterize their affinity for the dye and its spectral properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>    
 
@@ -122,7 +122,7 @@ categories: Aptamer
 <p>Aiming Ren, Linyong Zhu and Yi Yang et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivia-NBSI complex. The overall structure of the complex adopts a coaxial long helix fold and is stabilized by continuous stacking interactions from the bottom stem P1 to the apical stem P2 with the ligand NBSI intercalated in the zipped junction region at the interface of stems P1 and P2. The PDB ID of these structures are 8HZE (1.59 Å)<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/NBSI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -134,7 +134,7 @@ categories: Aptamer
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>PDBe Molstar</title>
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -262,7 +262,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8HZE by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/NBSI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

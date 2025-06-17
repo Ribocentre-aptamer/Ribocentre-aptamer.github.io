@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Spinach aptamer"
 date:   2024-04-23 00:00:00
 author: Bo Fu, Jiali Wang
@@ -269,7 +269,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>SELEX was performed with a library containing ~5×10<sup>13</sup> RNA molecules and selected RNAs for their ability to bind DMHBI-agarose. The selection process went through 10 rounds. After SELEX, researchers selected a number of sequences, including Spinach, to characterize their affinity for the dye and its spectral properties. Spinach is notably resistant to photobleaching, and Spinach fusion RNAs can be imaged in living cells<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -287,7 +287,7 @@ categories: Aptamer
 <p>Adrian R Ferré-D'Amaré et al. present the solution structure, as determined by multidimensional NMR spectroscopy, molecular dynamics calculations, crystallization and diffraction data collection of Spinach-DFHBI complex. The Spinach chromophore, adopting a conformation with coplanar imidazolone and phenyl rings, was positioned between G26 and G65 of the top G-quartet and the Hoogsteen-paired U61 and A64 of the base triple in J2-3. DFHBI interacted extensively within the plane of its rings. The PDB ID of these structures are 4TS0 (2.8 Å) and 4TS2 (2.88 Å)<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFHBI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -300,7 +300,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -491,7 +491,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DFHBI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

@@ -1,80 +1,11 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "B1-CT aptamer"
 date:   2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -96,9 +27,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2006, Rentmeister, A., & Famulok, M. used SELEX  to select for aptamers that recognize the cytoplasmic tail of BACE (B1-CT). The 24 amino acid peptide representing the entire cytoplasmic domain of the transmembrane protein BACE1 was attached to cyanogen bromide (CNBr)-activated Sepharose via an N-terminal linker. A DNA library with a diversity of 1014 comprising a 40-nt random region flanked by two primer binding sites was in vitro transcribed to yield the respective RNA library. RNA was incubated with the selection matrix and after removal of nonbinding sequences by washing with binding buffer, remaining species were eluted, reverse-transcribed, and used as input DNA for the next transcription and a new selection cycle.  B1-CT binding species were enriched after six cycles of selection, reverse-transcribed, cloned, and sequenced. From this first selection the monoclone K11 exhibited the best binding properties in column assays being the only clone that bound better to the B1-CT-Sepharose than the enriched pool from cycle 6 . A dissociation constant of 4.1 μM for the binding of K11 to the free B1-CT peptide was determined using surface plasmon resonance (SPR) measurements<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2006, Rentmeister, A., & Famulok, M. used SELEX  to select for aptamers that recognize the cytoplasmic tail of BACE (B1-CT). The 24 amino acid peptide representing the entire cytoplasmic domain of the transmembrane protein BACE1 was attached to cyanogen bromide (CNBr)-activated Sepharose via an N-terminal linker. A DNA library with a diversity of 1014 comprising a 40-nt random region flanked by two primer binding sites was in vitro transcribed to yield the respective RNA library. RNA was incubated with the selection matrix and after removal of nonbinding sequences by washing with binding buffer, remaining species were eluted, reverse-transcribed, and used as input DNA for the next transcription and a new selection cycle.  B1-CT binding species were enriched after six cycles of selection, reverse-transcribed, cloned, and sequenced. From this first selection the monoclone K11 exhibited the best binding properties in column assays being the only clone that bound better to the B1-CT-Sepharose than the enriched pool from cycle 6 . A dissociation constant of 4.1 μM for the binding of K11 to the free B1-CT peptide was determined using surface plasmon resonance (SPR) measurements<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -266,7 +195,7 @@ Rentmeister, & Famulok, M.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

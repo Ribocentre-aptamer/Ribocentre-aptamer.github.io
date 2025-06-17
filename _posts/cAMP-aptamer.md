@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "cAMP aptamer"
 date:   2024-05-31 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Koizumi, M. and Breaker, R. R. used SELEX to isolate two classes of RNA aptamers from a random-sequence pool containing 50 nucleotides of random sequence. After four rounds of selection, more than 20% of the RNA population bound to the cAMP-derivatized column matrix and was subsequently eluted with 4 mM cAMP. Further analysis revealed that the final selected RNA population was dominated by class II aptamers, which require divalent cations for complex formation and display a dissociation constant (KD) for cAMP of ∼10 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

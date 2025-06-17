@@ -1,80 +1,11 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Trypanosome VSG aptamer"
 date:   2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -155,9 +86,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In the process of selection, they initiated with a vast pool comprising 10^16 RNA molecules, which was calculated to encompass around 2 × 10^15 distinct sequences. This collection featured a segment of 40 nucleotides with variability, surrounded by primer binding sites that were 21 and 24 nucleotides in length respectively. These primer binding sites, in conjunction, helped to confine the molecular weight of the chosen aptamers to a range of approximately 25 to 27 kilodaltons. In both experiments, 13 rounds of selective binding and subsequent amplification were performed. Maximal enrichment of trypanosome-interacting RNAs was achieved in both selections in round 12 at which time ∼18% of the input RNAs was associated with the parasite cells. DNA templates from RNA pools of round 12 were cloned and the sequences of 53 clones from each selection experiment were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In the process of selection, they initiated with a vast pool comprising 10^16 RNA molecules, which was calculated to encompass around 2 × 10^15 distinct sequences. This collection featured a segment of 40 nucleotides with variability, surrounded by primer binding sites that were 21 and 24 nucleotides in length respectively. These primer binding sites, in conjunction, helped to confine the molecular weight of the chosen aptamers to a range of approximately 25 to 27 kilodaltons. In both experiments, 13 rounds of selective binding and subsequent amplification were performed. Maximal enrichment of trypanosome-interacting RNAs was achieved in both selections in round 12 at which time ∼18% of the input RNAs was associated with the parasite cells. DNA templates from RNA pools of round 12 were cloned and the sequences of 53 clones from each selection experiment were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -361,7 +290,7 @@ Zelada-Guillén, G. A., Tweed-Kent, A., Niemann, M., Göringer, H. U., Riu, J., 
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

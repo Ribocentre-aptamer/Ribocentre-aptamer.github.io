@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "DFHBI-1T aptamer"
 date:   2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
@@ -234,7 +234,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 2014, Jaffrey, S. R. et al. used SELEX to isolate RNA aptamer Broccoli from a nucleic acid library containing about 10<sup>14</sup> sequences after 6 rounds of selection process. In each round, the RNA library is incubated with the target molecule. RNA sequences that bind to the target are separated and then amplified via RT-PCR to create a new library for the next round of selection. After several rounds, RNA sequences with high affinity for the target are enriched<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Mbl-aptamer"
 date:   2024-05-19 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -9,76 +9,7 @@ categories: Aptamer
 <font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
 <br /-->
 
-<html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -99,9 +30,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The template for the SELEX (systematic evolution of ligands by exponential enrichment) experiment was the 80-mer DNA oligonucleotide. The initial PCRs were amplified by eight rounds of PCR and calculated to a concentration of 1×10<sup>14</sup> molecules. For each round, the appropriate concentration of Mbl (1-105) was bound to 20 μL of glutathione-agarose beads at 4°C for 15 min, then washed three times. The DNA was amplified by 11 PCR cycles. The DNA was transcribed and the SELEX cycle repeated six times with the concentration of RNA. After the rounds were completed, individual clones were isolated by TOPO cloning and then sequenced. SELEX was performed using Mbl and a random pool of 10<sup>14</sup> RNA oligonucleotides. Each RNA consisted of a 30-nucleotide randomized region flanked by shorter constant regions, creating an 80-nucleotide RNA. Twenty-five unique RNA sequences were identified (five sequences were found multiple times) after six rounds of SELEX<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>The template for the SELEX (systematic evolution of ligands by exponential enrichment) experiment was the 80-mer DNA oligonucleotide. The initial PCRs were amplified by eight rounds of PCR and calculated to a concentration of 1×10<sup>14</sup> molecules. For each round, the appropriate concentration of Mbl (1-105) was bound to 20 μL of glutathione-agarose beads at 4°C for 15 min, then washed three times. The DNA was amplified by 11 PCR cycles. The DNA was transcribed and the SELEX cycle repeated six times with the concentration of RNA. After the rounds were completed, individual clones were isolated by TOPO cloning and then sequenced. SELEX was performed using Mbl and a random pool of 10<sup>14</sup> RNA oligonucleotides. Each RNA consisted of a 30-nucleotide randomized region flanked by shorter constant regions, creating an 80-nucleotide RNA. Twenty-five unique RNA sequences were identified (five sequences were found multiple times) after six rounds of SELEX<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -294,7 +223,7 @@ Goers, E. S., Voelker, R. B., Gates, D. P., & Berglund, J. A.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

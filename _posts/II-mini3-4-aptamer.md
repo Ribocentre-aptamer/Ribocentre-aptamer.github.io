@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "II-mini3-4 aptamer"
 date:   2024-06-17 00:00:00
 author: Bo Fu, Jiali Wang
@@ -95,9 +95,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>SELEX was performed with a library containing ~10<sup>15</sup> random RNA molecules and for their ability to bind and activate the fuorophore ligand Hoechst derivatives. After six rounds of screening, researchers selected a number of sequences, including aptamer II, to characterize their affinity for the dye and its spectral properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>SELEX was performed with a library containing ~10<sup>15</sup> random RNA molecules and for their ability to bind and activate the fuorophore ligand Hoechst derivatives. After six rounds of screening, researchers selected a number of sequences, including aptamer II, to characterize their affinity for the dye and its spectral properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -266,7 +264,7 @@ Sando, S., Narita, A., Hayami, M., & Aoyama, Y.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "rafl7s aptamer"
 date:   2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Ellington, A. D. et al. used SELEX to select fluorescently labelled aptamers from a pool skewed to contain very few fluoresceinated uridines. After 11 rounds of selection and amplification, the primary family of aptamers exhibited a doubling of relative fluorescence intensity at saturating concentrations of ATP and could sense ATP concentrations as low as 25 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

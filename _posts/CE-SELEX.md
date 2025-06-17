@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Capillary electrophoresis-SELEX(CE-SELEX)"
 date:   2024-05-08 00:00:00
 author: Bo Fu

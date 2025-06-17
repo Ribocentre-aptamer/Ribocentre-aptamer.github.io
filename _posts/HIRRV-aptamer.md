@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "HIRRV aptamer"
 date:   2024-05-06 00:00:00
 author: Jiali Wang, Bo Fu
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2012, Aoki et al. used an ssDNA library containing approximately 5 × 10<sup>16</sup> different sequences. After nine rounds of SELEX, they isolated 45 RNA aptamers. Four of these (H1, H2, H3, and H4) were found to specifically bind to HIRRV<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

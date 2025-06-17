@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Chloramphenicol aptamer"
 date:   2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Gold, L. et al. used SELEX to isolate two independent RNA populations with 70 or 80 random positions from random starting pools containing 10¹⁴-10¹⁵ sequences. After 12 cycles, 74 distinct sequences were identified among the 96 isolates sequenced, with 12 sequences found in pairs of identical or nearly identical isolates, 2 sequences found in three different isolates, and 2 sequences found in four different isolates. All other sequences were found only once<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

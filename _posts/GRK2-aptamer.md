@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "GRK2 aptamer"
 date:   2024-04-19 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -132,9 +132,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2008, Blind, M. et al. used a structurally constrained RNA library in vitro selection. They followed a different approach and designed a RNA library that has a stable stem structure 13 nucleotides (nt) in length, flanked by two restriction sites (5′-Pst1 and a 3′-HindII) and additional primer binding sites that allow reverse transcription and PCR amplification. The region comprising 20 random nucleotides resides as loop structure on top of the stem motif. After 12 selection cycles the enriched RNA library was analyzed for GRK2 binding. The enriched RNA library was cloned and the sequences of 18 monoclones were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2008, Blind, M. et al. used a structurally constrained RNA library in vitro selection. They followed a different approach and designed a RNA library that has a stable stem structure 13 nucleotides (nt) in length, flanked by two restriction sites (5′-Pst1 and a 3′-HindII) and additional primer binding sites that allow reverse transcription and PCR amplification. The region comprising 20 random nucleotides resides as loop structure on top of the stem motif. After 12 selection cycles the enriched RNA library was analyzed for GRK2 binding. The enriched RNA library was cloned and the sequences of 18 monoclones were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>    
 
 
@@ -143,7 +141,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">2D representation</p>
 <p>C13.18 and C13.28 are truncated sequences of the aptamer C13, which was originally enriched and isolated for its high affinity. The orange represents the bases that interact with the protein, while the grey indicates parts of the 3D structure that remain unresolved. Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>C13.18 aptamer: 5'-GGCAGACCAUACGGGAGAGAAACUUGCC-3'<br>C13.28 aptamer: 5'-CCAUACGGGAGAGAAACU-3'</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/GRK2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -158,7 +156,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>Mayer, G., & Tesmer, J. J. determined the crystal structure of C13.18 aptamer bound to the GRK2 protein at 3.51 Å resolution and C13.28 aptamer bound to the GRK2 protein at 4.52 Å resolution. The PDB ID of the two aptamers are 3UZT and 3UZS<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>. Only the structure of 3ZUS is shown here.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GRK2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -171,7 +169,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -298,7 +296,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3UZS at 4.52 Å resolution. The GRK2 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with the GRK2 protein. Hydrogen bonds was predicted by Pymol.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GRK2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

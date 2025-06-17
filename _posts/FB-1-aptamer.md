@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "FB-1 aptamer"
 date:   2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>SELEX was performed with a library containing ~5×10<sup>14</sup> random RNA molecules and selected RNAs for their ability to bind Fluorescein. After SELEX, researchers selected a number of sequences, including FB-1, to characterize their affinity for the dye and its spectral properties. It was isolated through mutagenesis of a sulforhodamine aptamer followed by re-selection. From this collection, FB-1 was identified as a clone that exhibited high-efficiency binding to fluorescein and minimal cross-binding to sulforhodamine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Mango-III aptamer"
 date:   2024-04-22 00:00:00
 author: Bo Fu, Jiali Wang
@@ -121,7 +121,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>This work generated aptamers that bind TO1-biotin using SELEX. An RNA library containing ∼3×10<sup>13</sup> random library members was used and TO1-Biotin was conjugated to streptavidin magnetic as positive target. After 12 rounds of SELEX, one RNA family that exhibited both tight binding and a high fluorescent enhancement was identified from 7 distinct families. This work also proposed a novel fluorescence-based selection approach, which simplifies the generation of aptamers optimised for expression and performance in living cells<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 
@@ -138,7 +138,7 @@ categories: Aptamer
 <p>In 2021, Peter J. Unrau et al. analyzed the structure of the Mango-YO3-biotin complexs through crystallization and X-ray diffraction data collection. Mango-I connected its fluorophore-binding quadruplex module to an external helix via a partially crystallographically disordered GAAA tetraloop-like junction, whereas the corresponding helix–quadruplex junction in Mango-III formed a well-defined coaxially stacked triplex. In contrast, the fluorophore-binding pocket of Spinach-class aptamers was positioned between two coaxially stacked paired elements with variable sequences and lengths. Coordinates and structure factors have been deposited to the Protein Database under accession codes PDB: 6UP0 (2.80 Å)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/YO3-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -151,7 +151,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -329,7 +329,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6UP0 by X-ray crystallography. YO3-biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with YO3-biotin or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/YO3-biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

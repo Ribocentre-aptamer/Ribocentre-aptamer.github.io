@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Aβ42 aptamer"
 date:   2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
@@ -145,9 +145,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<p>
 <br>
 
 
@@ -387,7 +385,7 @@ Murakami, K., Obata, Y., Sekikawa, A., Ueda, H., Izuo, N., Awano, T., Takabe, K.
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

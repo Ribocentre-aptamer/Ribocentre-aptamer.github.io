@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Lysozyme aptamer"
 date:   2024-03-25 00:00:00
 author: Yuxuan Sun, Baowei Huang
@@ -106,7 +106,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>RNA aptamers were internally labeled with [α32P]-GTP and allowed to bind to lysozyme for 1h at room temperature. The bound complex was passed through a dual filter dot blot system attached to a vacuum manifold. The nitrocellulose membrane captures the aptamer–protein complexes while unbound aptamers are trapped by the nylon filter directly beneath. Both filters are visualized by phosphor storage imaging, and the fraction protein bound was calculated  by determining the volume of radioactivity retained on the nitrocellulose divided by the total radioactivity retained by both filters. Sedimentation velocity experiments were performed on a Beckman XL-I using a standard procedure. Determining the S20, w and D20, w values of the RNA aptamers under each buffer condition specified by analytical ultracentrifugation. A standard lysozyme activity assay was used to determine the enzymatic activity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>   
 
@@ -116,7 +116,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>In 2013, Girvin et al. utilized the SELEX method to isolate an RNA aptamer, Lys1.2minE, which demonstrated high affinity for hen egg white lysozyme. This 59-nucleotide aptamer effectively inhibited lysozyme's catalytic activity on large cell wall substrates but not on small model substrates. Subsequently, they shortened the aptamer to Lys1.2minF, a 45-nucleotide variant, which retained its high binding affinity and selective inhibition of lysozyme's activity on large substrates. Here we use ribodraw to complete the figures, through the 3D structure information. The Lys1.2minF aptamer and Lys1.2minE aptamer were named by M. E. Girvin et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Lys1.2minF: 5'-GGGCGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACGCCC-3'<br>Lys1.2minE: 5'-GGGUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAACCC-3'</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/Lys1.2minF_2D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -131,7 +131,7 @@ categories: Aptamer
 <p>Girvin et al. resolved the 2.68 Å resolution X-ray crystal structure of the aptamer minF-lysozyme complex. The structures showed that both aptamers interact with the enzyme's active site, inhibiting its catalytic activity. Specifically, Lys1.2minE, with its 59-nucleotide sequence, binds strongly and selectively to large substrates, while Lys1.2minF, a shorter 45-nucleotide variant, retains similar binding properties but with a more compact structure. The PDB ID of this structure is 4M6D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Lys1.2minF_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -144,7 +144,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -286,7 +286,7 @@ categories: Aptamer
 <p>Girvin et al. resolved the 2.00 Å resolution X-ray crystal structure of the aptamer minE-lysozyme complex. The structures showed that both aptamers interact with the enzyme's active site, inhibiting its catalytic activity. Specifically, Lys1.2minE, with its 59-nucleotide sequence, binds strongly and selectively to large substrates, while Lys1.2minF, a shorter 45-nucleotide variant, retains similar binding properties but with a more compact structure. The PDB ID of this structure is 4M4O<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Lys1.2minE_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -299,7 +299,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -442,7 +442,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4M6D at 2.68 Å resolution. Lysozymes(shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with Lysozymes.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Lys1.2minF_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -454,7 +454,7 @@ categories: Aptamer
   <br>
             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4M4O at 2 Å resolution. Lysozymes(shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with Lysozymes.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Lys1.2minE_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

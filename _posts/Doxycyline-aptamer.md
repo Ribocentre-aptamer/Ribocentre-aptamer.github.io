@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Doxycyline aptamer"
 date:   2024-05-21 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>The researchers constructed an RNA library containing randomised sequences, which were then fused with the sequence of a hammerhead ribozyme. Through multiple rounds of selection, using doxycycline as a “switch molecule,” they identified ribozyme mutants that were inhibited by doxycycline. These mutants exhibited significant inhibition in the presence of doxycycline, but regained activity when doxycycline was absent. Using this approach, the researchers successfully isolated RNA aptamers with high affinity and specificity for doxycycline, with inhibition constants (Ki) as low as 20 nanomolar. These aptamers showed high specificity for doxycycline and did not react significantly with tetracycline, which has a similar structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

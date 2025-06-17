@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Clone 31 aptamer"
 date:   2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
@@ -170,9 +170,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn<sup>2+</sup>. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn<sup>2+</sup> and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn<sup>2+</sup> existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn<sup>2+</sup>. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn<sup>2+</sup> and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn<sup>2+</sup> existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<p>
 <br>
 
 
@@ -373,7 +371,7 @@ Eladl, O., Yamaoki, Y., Kondo, K., Nagata, T., & Katahira, M.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "Raf-1 aptamer"
 date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
@@ -144,7 +144,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 1998, Yokoyama, S. et al. used SELEX to isolate RNA aptamer sequences with affinity for Raf-1 from a nucleic acid library containing about 8×10<sup>13</sup> 108-nucleotide sequences after 13 rounds of selection process. The RNAs bound to Raf-1 GST-RBD were separated from the unbound RNAs using filtration through a nitrocellulose filter<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 

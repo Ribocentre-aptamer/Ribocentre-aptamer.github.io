@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "D8 aptamer"
 date:   2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
@@ -95,9 +95,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>D. R. Engelke et al. conducted in vitro screening of RNA aptamers for Sephadex. The D8 aptamer was obtained through 11 rounds of systematic evolution of ligands by exponential enrichment (SELEX) from an RNA library comprising approximately 7 x 10^16 distinct sequences. In the final screening phase, a total of 15 RNA aptamers were assessed for their ability to effectively bind to Sephadex, with D8 exhibiting the highest affinity. The aptamers were synthesized via PCR amplification and subsequent in vitro transcription, and their binding affinity was determined using a radiolabeled binding assay. The binding affinity of the D8 aptamer for Sephadex G-100 was measured at 9 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>D. R. Engelke et al. conducted in vitro screening of RNA aptamers for Sephadex. The D8 aptamer was obtained through 11 rounds of systematic evolution of ligands by exponential enrichment (SELEX) from an RNA library comprising approximately 7 x 10^16 distinct sequences. In the final screening phase, a total of 15 RNA aptamers were assessed for their ability to effectively bind to Sephadex, with D8 exhibiting the highest affinity. The aptamers were synthesized via PCR amplification and subsequent in vitro transcription, and their binding affinity was determined using a radiolabeled binding assay. The binding affinity of the D8 aptamer for Sephadex G-100 was measured at 9 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -225,7 +223,7 @@ Lee T, Mohammadniaei M, Zhang H, Yoon J, Choi HK, Guo S, Guo P, Choi JW<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;

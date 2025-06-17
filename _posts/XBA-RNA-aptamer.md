@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "XBA RNA aptamer"
 date:   2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
@@ -87,7 +87,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Kiga, D., Futamura, Y., Sakamoto, K., and Yokoyama, S. used SELEX to isolate RNA aptamers that bind to xanthine from a population of 10¹² random sequences. After multiple rounds of selection, a representative xanthine-binding RNA (designated as XBA) was identified with a dissociation constant (Kd) of 3.3 µM for xanthine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>
 
