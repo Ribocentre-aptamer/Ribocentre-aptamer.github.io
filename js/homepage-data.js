@@ -5,7 +5,7 @@ window.aptamerData = [
     {
         name: "Thrombin aptamer",
         filename: "Thrombin-aptamer.md",
-        url: "/_posts/Thrombin-aptamer/",
+        url: "/_posts/Thrombin-aptamer.html",
         molstarUrl: "/pdbfiles/3dd2-3D.pdb",
         pdbId: "3DD2",
         target: "Human Thrombin",
@@ -17,7 +17,7 @@ window.aptamerData = [
     {
         name: "Tetracycline aptamer",
         filename: "Tetracycline-aptamer.md",
-        url: "/_posts/Tetracycline-aptamer/",
+        url: "/_posts/Tetracycline-aptamer.html",
         molstarUrl: "/pdbfiles/3EGZ.pdb",
         pdbId: "3EGZ",
         target: "Tetracycline",
@@ -29,7 +29,7 @@ window.aptamerData = [
     {
         name: "Theophylline aptamer",
         filename: "Theophylline-aptamer.md",
-        url: "/_posts/Theophylline-aptamer/",
+        url: "/_posts/Theophylline-aptamer.html",
         molstarUrl: "/pdbfiles/1THE.pdb",
         pdbId: "1THE",
         target: "Theophylline",
@@ -41,7 +41,7 @@ window.aptamerData = [
     {
         name: "Tobramycin aptamer",
         filename: "Tobramycin-aptamer.md",
-        url: "/_posts/Tobramycin-aptamer/",
+        url: "/_posts/Tobramycin-aptamer.html",
         molstarUrl: "/pdbfiles/1TOB.pdb",
         pdbId: "1TOB",
         target: "Tobramycin",
@@ -53,7 +53,7 @@ window.aptamerData = [
     {
         name: "FMN Riboswitch",
         filename: "FMN-aptamer.md", 
-        url: "/_posts/FMN-aptamer/",
+        url: "/_posts/FMN-aptamer.html",
         molstarUrl: "/pdbfiles/1FMN.pdb",
         pdbId: "1FMN",
         target: "FMN (Flavin mononucleotide)",
@@ -65,7 +65,7 @@ window.aptamerData = [
     {
         name: "Arginine aptamer",
         filename: "Arginine-aptamer.md",
-        url: "/_posts/Arginine-aptamer/",
+        url: "/_posts/Arginine-aptamer.html",
         molstarUrl: "/pdbfiles/1KOC-3D-ARG.pdb",
         pdbId: "1KOC",
         target: "L-Arginine",
@@ -77,7 +77,7 @@ window.aptamerData = [
     {
         name: "eIF4A aptamer",
         filename: "eIF4A-aptamer.md",
-        url: "/_posts/eIF4A-aptamer/",
+        url: "/_posts/eIF4A-aptamer.html",
         molstarUrl: "/pdbfiles/elF4A-3D.pdb",
         pdbId: "3EIF",
         target: "eIF4A protein",
@@ -89,7 +89,7 @@ window.aptamerData = [
     {
         name: "MS2 coat protein aptamer",
         filename: "bacteriophage-MS2-coat-protein-aptamer.md",
-        url: "/_posts/bacteriophage-MS2-coat-protein-aptamer/",
+        url: "/_posts/bacteriophage-MS2-coat-protein-aptamer.html",
         molstarUrl: "/pdbfiles/MS2_coat_6msf-3D.pdb",
         pdbId: "6MSF",
         target: "MS2 coat protein",

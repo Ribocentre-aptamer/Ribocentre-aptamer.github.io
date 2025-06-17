@@ -310,7 +310,7 @@ const SearchModule = {
     renderResults(searchTime) {
         if (this.allSearchResults.length === 0) {
             this.searchResultsCount.textContent = '找到 0 个结果';
-            this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">没有找到相关结果，请尝试其他关键词。</div>';
+            this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">No relevant results found, please try other keywords。</div>';
             return;
         }
 

@@ -753,7 +753,7 @@ document.addEventListener('DOMContentLoaded', function() {
          this.currentPage = 1;
          
          if (results.length === 0) {
-           resultsContainer.innerHTML = '<div class="no-results-message">没有找到相关结果，请尝试其他关键词</div>';
+           resultsContainer.innerHTML = '<div class="no-results-message">No relevant results found, please try other keywords/div>';
            return;
          }
 
@@ -815,7 +815,7 @@ document.addEventListener('DOMContentLoaded', function() {
            
            // 添加结果统计
            html += `<div class="search-stats">
-             显示第 ${startIndex + 1}-${endIndex} 项，共 ${this.allResults.length} 项结果
+             Showing items ${startIndex + 1}-${endIndex} , total ${this.allResults.length} results
            </div>`;
          }
 
