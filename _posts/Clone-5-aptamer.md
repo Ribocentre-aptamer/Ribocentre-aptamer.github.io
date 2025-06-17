@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Sialyl-Lewis X (sLeX) is a salivarylated polytetrasaccharide, an endogenous antigen.Sialyl-Lewis X is a high-affinity ligand for the selectins E-, P-, and L-.Sialyl-Lewis X binds to ELAM-1 and CD62 and has the ability to inhibit CD62-mediated neutrophil recruitment at sites of inflammation. Sialyl-Lewis X binds to ELAM-1 and CD62 and has the ability to inhibit CD62-mediated neutrophil recruitment at sites of inflammation.-----From ChEBI</font>
@@ -74,7 +74,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Sialyl Lewis X (sLeX),  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<p>We used the PubChem database to screen compounds that were more similar to Sialyl Lewis X (sLeX),  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

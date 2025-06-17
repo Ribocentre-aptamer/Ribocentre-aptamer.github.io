@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Prostate cancer is the uncontrolled growth of cells in the prostate, a gland in the male reproductive system below the bladder. Abnormal growth of prostate tissue is usually detected through screening tests, typically blood tests that check for prostate-specific antigen (PSA) levels. Those with high levels of PSA in their blood are at increased risk for developing prostate cancer. Diagnosis requires a biopsy of the prostate. If cancer is present, the pathologist assigns a Gleason score, and a higher score represents a more dangerous tumor. Medical imaging is performed to look for cancer that has spread outside the prostate. Based on the Gleason score, PSA levels, and imaging results, a cancer case is assigned a stage 1 to 4. A higher stage signifies a more advanced, more dangerous disease.-----from Wiki</p>

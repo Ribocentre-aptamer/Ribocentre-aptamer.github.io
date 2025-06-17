@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>3-(2,3,6,7-tetrahydro-1H,5H-pyrido(3,2,1-ij)quinolin-9-yl)acrylamide- 2-cyano-N-(2-(2-aminoethoxy) ethyl) (ACE) was a non-GFP-like fluorophore, a hydrophilic derivative of  9-(2-carboxy-2-cyanovinyl) julolidine molecule rotor that has low fluorescence in solution.-----From <a href="https://doi.org/10.1038/s41589-024-01629-x" target="_blank">PMID: 38783134</a></font>
@@ -92,7 +92,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We screened the compounds with great similarity by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
+<p>We screened the compounds with great similarity by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

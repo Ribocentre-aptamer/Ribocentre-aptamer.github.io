@@ -37,7 +37,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Cancer antigen 50 (CA50) is a glycolipid that is similar to the tumor marker CA19-9; however, CA50 antibodies recognize both the fucosyl form of sialylated Lewis(a) carbohydrate moiety and sialylated Lewis(a) moiety.-----from Pfam</font>
@@ -99,7 +99,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

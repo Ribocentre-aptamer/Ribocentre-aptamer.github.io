@@ -39,7 +39,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Receptor for glutamate that functions as a ligand-gated ion channel in the central nervous system. It plays an important role in excitatory synaptic transmission. L-glutamate acts as an excitatory neurotransmitter at many synapses in the central nervous system. Binding of the excitatory neurotransmitter L-glutamate induces a conformation change, leading to the opening of the cation channel, and thereby converts the chemical signal to an electrical impulse. The receptor then desensitizes rapidly and enters a transient inactive state, characterized by the presence of bound agonist. In the presence of CACNG4 or CACNG7 or CACNG8, shows resensitization which is characterized by a delayed accumulation of current flux upon continued application of glutamate. Through complex formation with NSG1, GRIP1 and STX12 controls the intracellular fate of AMPAR and the endosomal sorting of the GRIA2 subunit toward recycling and membrane targeting (By similarity).-----from InterPro</p>
@@ -93,7 +93,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

@@ -47,7 +47,7 @@ categories: Aptamer
 <br>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 <p class="blowheader_box">SELEX ligand</p>
 <p>Cell death abnormality gene 9 (CED-9), also known as apoptosis regulator CED-9, is a gene found in Caenorhabditis elegans that inhibits/represses programmed cell death (apoptosis). The gene was discovered while searching for mutations in the apoptotic pathway after the discovery of the apoptosis promoting genes CED-3 and CED-4. The gene gives rise to the apoptosis regulator CED-9 protein found as an Integral membrane protein in the mitochondrial membrane. The protein is homologous to the human apoptotic regulator Bcl-2 as well as all other proteins in the Bcl-2 protein family. CED-9 is involved in the inhibition of CED-4 which is the activator of the CED-3 caspase. Because of the pathway homology with humans as well as the specific protein homology, CED-9 has been used to represent the human cell apoptosis interactions of Bcl-2 in research.-----From WiKi</p>
 
@@ -107,7 +107,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

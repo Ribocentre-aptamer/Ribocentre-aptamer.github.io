@@ -36,7 +36,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Escherichia coli O157:H7 is a serotype of the bacterial species Escherichia coli and is one of the Shiga-like toxin–producing types of E. coli. It is a cause of disease, typically foodborne illness, through consumption of contaminated and raw food, including raw milk and undercooked ground beef. Infection with this type of pathogenic bacteria may lead to hemorrhagic diarrhea, and to kidney failure; these have been reported to cause the deaths of children younger than five years of age, of elderly patients, and of patients whose immune systems are otherwise compromised.-----From Wiki</p>

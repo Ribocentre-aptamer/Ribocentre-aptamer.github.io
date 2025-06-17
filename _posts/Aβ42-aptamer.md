@@ -82,13 +82,13 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
-<font><p>E22P-AbD43: GGGACGAAGACCAACUGAACUUUGUGGUGGCGGCUACUCGUGUUCUUUUGACUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD4: GGGACGAAGACCAACUGAACUUUAGGAGGGGGCAUUUGGACCAGUUUGUGUCUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD31: GGGACGAAGACCAACUGAACUUUUGGGUGGUAACAGGUAGCUCCGGUUGUCCUUUGUCCGUGCUGCCACCUUACUUC</p></font>
+<p>E22P-AbD43: GGGACGAAGACCAACUGAACUUUGUGGUGGCGGCUACUCGUGUUCUUUUGACUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD4: GGGACGAAGACCAACUGAACUUUAGGAGGGGGCAUUUGGACCAGUUUGUGUCUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD31: GGGACGAAGACCAACUGAACUUUUGGGUGGUAACAGGUAGCUCCGGUUGUCCUUUGUCCGUGCUGCCACCUUACUUC</p>
 <img src="/images/2D/EP22_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Amyloid-beta peptides are lipophilic metal chelators with metal-reducing activity. Bind transient metals such as copper, zinc and iron. In vitro, can reduce Cu2+ and Fe3+ to Cu+ and Fe2+, respectively. Amyloid-beta protein 42 is a more effective reductant than amyloid-beta protein 40. Amyloid-beta peptides bind to lipoproteins and apolipoproteins E and J in the CSF and to HDL particles in plasma, inhibiting metal-catalyzed oxidation of lipoproteins.-----from Pfam</p>
@@ -159,7 +159,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

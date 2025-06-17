@@ -32,12 +32,12 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>II-mini3-4 aptamer: 5'-GCCAAGCAGGUUCGUUUUCGAAGCUUGGA-3'<br>aptamer II: 5'-GGGUGAUCAGAUUCUGAUCCAGGUUACCAAGCAGGUUCGGCCUCGUCUGAGGUGAAGCUUGGAUCCGUCGC-3'</p>
+<p>II-mini3-4 aptamer: 5'-GCCAAGCAGGUUCGUUUUCGAAGCUUGGA-3'<br>aptamer II: 5'-GGGUGAUCAGAUUCUGAUCCAGGUUACCAAGCAGGUUCGGCCUCGUCUGAGGUGAAGCUUGGAUCCGUCGC-3'</p>
 <img src="/images/2D/Hoechst33258_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Hoechst stains are part of a family of blue fluorescent dyes used to stain DNA. These bis-benzimides were originally developed by Hoechst AG, which numbered all their compounds so that the dye Hoechst 33342 is the 33,342nd compound made by the company. There are three related Hoechst stains: Hoechst 33258, Hoechst 33342, and Hoechst 34580.The dyes Hoechst 33258 and Hoechst 33342 are the ones most commonly used and they have similar excitation-emission spectra.-----From Wikipedia</font>
@@ -91,7 +91,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We screened the compounds with great similarity by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
+<p>We screened the compounds with great similarity by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

@@ -40,7 +40,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Receptor for TNFSF11/RANKL/TRANCE/OPGL; essential for RANKL-mediated osteoclastogenesis. Its interaction with EEIG1 promotes osteoclastogenesis via facilitating the transcription of NFATC1 and activation of PLCG2. Involved in the regulation of interactions between T-cells and dendritic cells.-----From Pfam</p>

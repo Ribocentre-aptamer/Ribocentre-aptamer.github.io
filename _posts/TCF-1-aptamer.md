@@ -80,7 +80,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>The TCF7-like family includes TCF-7, TCF7-like 1 (TF7L1), lymphoid enhancer-binding factor 1 (LEF-1), and similar proteins. TCF-7, also called T-cell-specific transcription factor 1, or T-cell factor 1 (TCF-1), is a T lymphocyte-specific transcriptional activator involved in T-cell lymphocyte differentiation.-----From Pfam</p>

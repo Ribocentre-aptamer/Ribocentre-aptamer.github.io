@@ -78,7 +78,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information. A9g RNA aptamer was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
+<p>Here we used ribodraw to complete the figure, through the 3D structure information. A9g RNA aptamer was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGGACCGAAAAAGACCUGACUUCUAUACUAAGUCUACGUUCCC-3'</p>
 <img src="/images/2D/A9g_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -86,7 +86,7 @@ categories: Aptamer
 
 <p class="blowheader_box">3D visualisation</p>             
 <font >Ptacek J. et al.sovled the crystal structure, at 2.20 A resolution. The PDB ID of this structure is 6RTI<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/A9g_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;">
@@ -273,7 +273,7 @@ categories: Aptamer
   <br>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 <p class="blowheader_box">SELEX ligand</p>
 <font >Glutamate carboxypeptidase III (GCPIII), a close paralog of PSMA with high sequence similarity, is expressed in several human tissues. Many small-molecule ligands developed as PSMA-specific inhibitors bind to human GCPIII with nanomolar affinity , which could, in principle, hamper their use in clinical applications<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
 <div style="display: flex; justify-content: center;">
@@ -299,7 +299,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>TAH molecule, also known as N-acetyl-L-aspartyl-L-glutamate peptidase I (NAALADase I), NAAG peptidase, or prostate-specific membrane antigen (PSMA) is an enzyme that in humans is encoded by the FOLH1 (folate hydrolase 1) gene.[3] Human GCPII contains 750 amino acids and weighs approximately 84 kDa.-----from Wikipedia</p></font>
+<p>TAH molecule, also known as N-acetyl-L-aspartyl-L-glutamate peptidase I (NAALADase I), NAAG peptidase, or prostate-specific membrane antigen (PSMA) is an enzyme that in humans is encoded by the FOLH1 (folate hydrolase 1) gene.[3] Human GCPII contains 750 amino acids and weighs approximately 84 kDa.-----from Wikipedia</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -330,7 +330,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and selected the previous information with high similarity for presentation.The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and selected the previous information with high similarity for presentation.The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB).</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

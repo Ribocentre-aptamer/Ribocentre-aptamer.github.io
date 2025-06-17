@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Triple-negative breast cancer (TNBC) is any breast cancer that either lacks or shows low levels of estrogen receptor (ER), progesterone receptor (PR) and human epidermal growth factor receptor 2 (HER2) overexpression and/or gene amplification (i.e. the tumor is negative on all three tests giving the name triple-negative). Triple-negative is sometimes used as a surrogate term for basal-like.-----From Wiki</p>

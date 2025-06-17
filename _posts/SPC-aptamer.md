@@ -37,7 +37,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Sphingosylphosphocholine acid is a cationic phosphosphingolipid consisting of sphingosine having a phosphocholine moiety attached to its primary hydroxyl group. It is a phosphosphingolipid, a quaternary ammonium ion and a member of phosphocholines. It is functionally related to a sphingosine. It is a conjugate acid of a sphingosine-1-phosphocholine. It is a tautomer of a sphingosine-1-phosphocholine(1+).-----From WiKi</p>
@@ -72,7 +72,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We screened the compounds with great similarity to SPC by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<p>We screened the compounds with great similarity to SPC by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

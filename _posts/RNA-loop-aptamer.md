@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>The target stem-loop RNA was designed by the authors themselves. The target stem-loop RNA designed by the author includes the stem sequence is the same as that of Bacillus subtilis RNase P RNA P5.1 domain. Although the stem-loop RNA is 3 nt longer than the latter.</p>
@@ -140,7 +140,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>Researchers generate a mapping between European Nucleotide Archive (ENA), Protein Data Bank (PDB) and Rfam coordinate systems for those sequences which have a structure in the PDB. The ENA provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation. Bit score is a relative score used to measure the similarity of a sequence alignment. It is calculated based on a comparison between the score of the alignment sequence and the expected score of the random model. A higher Bit score means that the comparison results are more similar and likely to be more reliable. The list of neighbours is sorted by Bit score.</p></font>
+<p>Researchers generate a mapping between European Nucleotide Archive (ENA), Protein Data Bank (PDB) and Rfam coordinate systems for those sequences which have a structure in the PDB. The ENA provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation. Bit score is a relative score used to measure the similarity of a sequence alignment. It is calculated based on a comparison between the score of the alignment sequence and the expected score of the random model. A higher Bit score means that the comparison results are more similar and likely to be more reliable. The list of neighbours is sorted by Bit score.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

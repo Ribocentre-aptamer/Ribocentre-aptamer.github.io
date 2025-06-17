@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Substance P is a neuropeptide consisting of 11-amino acids. It preferentially activates neurokinin-1 receptors, exterting excitatory effects on central and peripheral neurons and involved in pain transmission. It has a role as a neurotransmitter, a vasodilator agent and a neurokinin-1 receptor agonist. It is a conjugate base of a substance P(3+).-----From ChEBI.</font>
@@ -74,7 +74,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Substance P,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<p>We used the PubChem database to screen compounds that were more similar to Substance P,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

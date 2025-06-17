@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>ATP is an adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways. It has a role as a nutraceutical, a micronutrient, a fundamental metabolite and a cofactor. It is an adenosine 5'-phosphate and a purine ribonucleoside 5'-triphosphate. It is a conjugate acid of an ATP(3-).-----From ChEBI</font>
@@ -74,7 +74,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to ATP, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<p>We used the PubChem database to screen compounds that were more similar to ATP, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

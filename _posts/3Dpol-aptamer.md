@@ -34,7 +34,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>F47-aptamer: 5'-GGGAAGGGAUCCAAUCUACAAAUUCGUUAACAGAAAACCUCAGUUGCUGGGUUGUUUCACUGCAAACUUGACAAAGCUA-3'<br>F47tr-aptamer: 5'-GGGUUAACAGAAAACCUCAGUUGCUGGGUUGU-3'</p>
+<p>F47-aptamer: 5'-GGGAAGGGAUCCAAUCUACAAAUUCGUUAACAGAAAACCUCAGUUGCUGGGUUGUUUCACUGCAAACUUGACAAAGCUA-3'<br>F47tr-aptamer: 5'-GGGUUAACAGAAAACCUCAGUUGCUGGGUUGU-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/3Dpol_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -46,7 +46,7 @@ categories: Aptamer
   </table>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>RNA-dependent RNA polymerase (RdRp) or RNA replicase is an enzyme that catalyzes the replication of RNA from an RNA template. Specifically, it catalyzes synthesis of the RNA strand complementary to a given RNA template. This is in contrast to typical DNA-dependent RNA polymerases, which all organisms use to catalyze the transcription of RNA from a DNA template.-----from Wikipedia</p>
@@ -108,7 +108,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
@@ -193,7 +193,7 @@ categories: Aptamer
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Structure of foot-and-mouth disease virus RNA-dependent RNA polymerase and its complex with a template-primer RNA.</strong></font><br />
+<a id="ref1"></a><p><strong>[1] Structure of foot-and-mouth disease virus RNA-dependent RNA polymerase and its complex with a template-primer RNA.</strong></font><br />
 Ferrer-Orta,& Verdaguer, N.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/15294895/" target="_blank" style="color:#520049">The Journal of biological chemistry, 279(45), 47212–47221. (2004)</a>
 <br/>

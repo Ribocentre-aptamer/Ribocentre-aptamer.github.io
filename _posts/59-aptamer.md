@@ -41,7 +41,7 @@ categories: Aptamer
  
 
 
-<font ><p class="header_box" id="ligand-information">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-information">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----From Pfam</p>

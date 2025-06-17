@@ -98,7 +98,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information. RBA-14 was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p></font>
+<p>Here we use ribodraw to complete the figure, through the 3D structure information. RBA-14 was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
 <p>5'-GGCUGGACUCGUACUUCGGUACUGGAGAAACAGCC-3'</p>
 <img src="/images/2D/RBA-14_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -106,7 +106,7 @@ categories: Aptamer
 
 <p class="blowheader_box">3D visualisation</p>             
 <P>Altaira D. Dearborn et al. present the crystal structure of Rev<sup>93</sup>:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray. They used Rev:scFv as a crystallization platform for studying nucleic acid binding and made a ternary complex of Rev<sup>93</sup>, scFv and RBA-14, where the single-chain antibody functions as an assembly inhibitor, crystallization chaperone, and initial model for molecular replacement. The PDB ID of this structure is 6CF2<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/RBA-14_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -316,7 +316,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Rev is a transactivating protein that is essential to the regulation of HIV-1 protein expression. A nuclear localization signal is encoded in the rev gene, which allows the Rev protein to be localized to the nucleus, where it is involved in the export of unspliced and incompletely spliced mRNAs. In the absence of Rev, mRNAs of the HIV-1 late (structural) genes are retained in the nucleus, preventing their translation.-----From Pfam</p></font>
+<p>Rev is a transactivating protein that is essential to the regulation of HIV-1 protein expression. A nuclear localization signal is encoded in the rev gene, which allows the Rev protein to be localized to the nucleus, where it is involved in the export of unspliced and incompletely spliced mRNAs. In the absence of Rev, mRNAs of the HIV-1 late (structural) genes are retained in the nucleus, preventing their translation.-----From Pfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -347,7 +347,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the RCSB PDB website's similar structure search to find the top 10 structures similar to HIV-1 Rev protein (residues T34-R50), and calculated TM-socre values and RMSD values used the TM-align website.</p></font>
+<p>We used the RCSB PDB website's similar structure search to find the top 10 structures similar to HIV-1 Rev protein (residues T34-R50), and calculated TM-socre values and RMSD values used the TM-align website.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

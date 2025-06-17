@@ -36,7 +36,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Yersinia outer protein H (YopH) belongs to the family of classical tyrosine-specific protein tyrosine phosphatases (PTPs). PTPs (EC 3.1.3.48) catalyze the dephosphorylation of phosphotyrosine peptides. YopH is an essential virulence determinant of the pathogenic bacterium by dephosphorylating several focal adhesion proteins including p130Cas in human epithelial cells, resulting in the disruption of focal adhesions and cell detachment from the extracellular matrix. It contains an N-terminal domain that contains signals required for TTSS-mediated delivery of YopH into host cells and a C-terminal catalytic PTP domain.-----from Pfam</p>
@@ -96,7 +96,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

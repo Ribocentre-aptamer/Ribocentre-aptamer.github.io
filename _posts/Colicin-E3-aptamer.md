@@ -37,7 +37,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Colicins are classified according to the cell-surface receptor they bind to, colicin E3 binding to the BtuB receptor involved in vitamin B12 uptake. The lethal action of colicin E3 arises from its ability to inactivate the ribosome by site-specific RNase cleavage of the 16S ribosomal RNA, which is carried out by the catalytic, or ribonuclease domain. Colicin E3 is comprised of three domains, each domain being involved in a different stage of infection: receptor binding, translocation and cytotoxicity. Colicin E3 is a Y-shaped molecule with the receptor-binding middle domain forming the stalk, the N-terminal translocation domain forming the two globular heads, and the C-terminal catalytic domain forming the two globular arms. To neutralise the toxic effects of colicin E3, the host cell produces an immunity protein, which binds to the C-terminal end of the ribonuclease domain and effectively suppresses its activity.-----from Pfam</p>
@@ -91,7 +91,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

@@ -129,7 +129,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
+<p>Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GUGCGAAGGGACGGUGCGGAGAGGAGAGCAC-3'</p>
 <img src="/images/2D/TO1-Biotin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -138,7 +138,7 @@ categories: Aptamer
 
 <p class="blowheader_box">3D visualisation</p>             
 <font>Robert J Trachman III and Natalia A Demeshkina et al. analyzed the RNA Mango-TO1-Biotin 1.7-Å-resolution co-crystal structure. The PDB ID of this structure is 1AM0<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TO1-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -333,7 +333,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
 <font>Binding Affinity was determined by fluorescence titration in the buffer and calculated by the concentration correlation function of ligand fluorescence molecules<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
@@ -366,7 +366,7 @@ categories: Aptamer
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Thiazole Orange is an asymmetric anthocyanin dye that can be coupled with oligonucleotides (ONs) to prepare fluorescent hybridization probes.-----From MedChemExpress</p></font>
+<p>Thiazole Orange is an asymmetric anthocyanin dye that can be coupled with oligonucleotides (ONs) to prepare fluorescent hybridization probes.-----From MedChemExpress</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -398,7 +398,7 @@ categories: Aptamer
   </div>
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to TO1 by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p></font>
+<p>We screened the compounds with great similarity to TO1 by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

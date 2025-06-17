@@ -27,7 +27,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw.  D-R16c aptamer binding to D-Arginine. L-R16c aptamer and ag.06 aptamer binding to L-Arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>D-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>L-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>ag.06 aptamer: 5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p>
+<p>D-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>L-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>ag.06 aptamer: 5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/dl-Arginine_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -40,7 +40,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>D-arginine is a D-alpha-amino acid that is the D-isomer of arginine. It has a role as an EC 4.1.1.19 (arginine decarboxylase) inhibitor and a mouse metabolite. It is a D-alpha-amino acid and an arginine. It is a conjugate base of a D-argininium(1+). It is a conjugate acid of a D-argininate. It is an enantiomer of a L-arginine.-----From ChEBI</p>
@@ -85,7 +85,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
+<p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

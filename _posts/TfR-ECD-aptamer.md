@@ -74,7 +74,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
-<font><p>FB4: 5'-GGGCGAAUUCCGCGUGUGCUGAGGGCGGAAGAACUAAUUUGGGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCGGG-3'<br>FB4 (truncated version): 5'-GGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCG-3'</p>
+<p>FB4: 5'-GGGCGAAUUCCGCGUGUGCUGAGGGCGGAAGAACUAAUUUGGGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCGGG-3'<br>FB4 (truncated version): 5'-GGACGGAUUGCGGCCGUUGUCUGUGGCGUCCGUUCG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/FB4_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -87,7 +87,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>TfR1 is a transmembrane glycoprotein composed of two disulfide-linked monomers joined by two disulfide bonds. Each monomer binds one holo-transferrin molecule creating an iron-Tf-TfR complex which enters the cell by endocytosis.-----From Wiki</p>
@@ -148,7 +148,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

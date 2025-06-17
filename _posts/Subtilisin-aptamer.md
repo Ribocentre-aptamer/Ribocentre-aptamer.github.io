@@ -36,7 +36,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Subtilisin is a serine endopeptidase in peptidase family S8, subfamily S8A. Characterized peptidases in this entry include subtilisin Carlsberg (S08.001), TK-subtilisin (S08.129), subtilisin PB92 (S08.003) and subtilisin BPN' (S08.034). TK-subtilisin is secreted from the hyperthermophilic archaeon Thermococcus kodakaraensis as an inactive precursor. TK-subtilisin is matured from pro-TK-subtilisin upon autoprocessing and degradation of the propeptide. Unlike other subtilisins, the folding of the unprocessed form of pro-TK-subtilisin is induced by Ca2+binding which is almost completed prior to autoprocessing. Ca2+is required for activity, unlike the bacterial subtilisins. The propeptide is not required for folding of the mature domain, unlike the bacterial subtilases, because of the stability produced from Ca2+binding. Subtilisin BPN'/Novo is extremely similar in structure to subtilisin Carlsberg though it has a 30% difference in amino acid sequence. The substrate binding regions are also similar and two possible Ca2+binding sites have been identified.-----from Pfam</p>
@@ -90,7 +90,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

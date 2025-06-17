@@ -97,7 +97,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Amyloid-beta polypeptide 40 is a beta-amyloid that is a 40 amino acid polypeptide of sequence Asp Ala Glu Phe Arg His Asp Ser Gly Tyr Glu Val His His Gln Lys Leu Val Phe Phe Ala Glu Asp Val Gly Ser Asn Lys Gly Ala Ile Ile Gly Leu Met Val Gly Gly Val Val.-----From ChEBI</font>
@@ -133,7 +133,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Amyloid beta-peptide,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
+<p>We used the PubChem database to screen compounds that were more similar to Amyloid beta-peptide,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

@@ -35,7 +35,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>This entry represents the haemagglutinin-neuraminidase (HN) glycoprotein found in a variety of paramyxoviruses (negative-stranded RNA viruses), including Mumps virus, Human parainfluenza virus 3, and the avian pathogen Newcastle disease virus. It also includes hemagglutinin glycoproteins from Morbiliviruses, a genus belonging to the Paramyxoviridae family that includes the Measles virus. Morbiliviruses hemagglutinins have no neuraminidase activity.<br>HN is a multi-functional protein with three distinct functions: a receptor-binding (haemagglutinin) activity, a receptor-destroying (neuraminidase) activity, and a membrane fusion activity that fuses the viral envelope to the host cell membrane in order to infect the cell.-----from Pfam</p>p
@@ -159,7 +159,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

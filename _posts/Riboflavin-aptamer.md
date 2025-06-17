@@ -33,8 +33,8 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information
- <sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
+<p>Here we use ribodraw to complete the figure, through the 3D structure information
+ <sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGAUACACAAGAGUGAUUGAAACUAAGUCUGUGUAUCC-3'</p>
 <img src="/images/2D/Riboflavin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -43,7 +43,7 @@ categories: Aptamer
 
 <p class="blowheader_box">3D visualisation</p>             
 <font>John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques.The NMR structure showed that the aptamer bound to FMN through π-π stacking and donor-π interactions, forming a specific binding pocket (binding pocket) and significantly affecting the redox potential of FMN.The FMN binding site is located in a platform structure of the aptamer X2B2-C14U and is stabilized by a base triad. Specific bases within the binding pocket form π-π stacking with the isoflavone ring of FMN as well as donor-π interactions, leading to significant changes in the redox potential of FMN. the interactions between the aptamers and the cofactors were concentrated on the isoalloxazine ring, the combination pockets of FMN and Riboflavin are consistent. The PDB ID of this structure is 7RWR<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Riboflavin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -187,7 +187,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
 <font>John S. Samuelian et al. use isothermal titration calorimetry (ITC) to determine the binding affinity and specificity between Riboflavin and Riboflavin RNA Aptamers. This method accurately measures the amount of heat absorbed or released during the binding process to derive dissociation constants. The specificity of this RNA was quantified by elution with Flavin adenine dinucleotide (FAD),Flavin mononucleotide (FMN)and Riboflavin(Rb)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font>
@@ -220,7 +220,7 @@ categories: Aptamer
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Riboflavin is d-Ribitol in which the hydroxy group at position 5 is substituted by a 7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl moiety. It is a nutritional factor found in milk, eggs, malted barley, liver, kidney, heart, and leafy vegetables, but the richest natural source is yeast. The free form occurs only in the retina of the eye, in whey, and in urine; its principal forms in tissues and cells are as flavin mononucleotide and flavin-adenine dinucleotide. It has a role as a photosensitizing agent, a food colouring, an Escherichia coli metabolite, a mouse metabolite, a cofactor, a plant metabolite, a human urinary metabolite, an anti-inflammatory agent, a fundamental metabolite and an antioxidant. It is a vitamin B2 and a flavin. It is a conjugate acid of a riboflavin(1-).-----from ChEBI</p></font>
+<p>Riboflavin is d-Ribitol in which the hydroxy group at position 5 is substituted by a 7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl moiety. It is a nutritional factor found in milk, eggs, malted barley, liver, kidney, heart, and leafy vegetables, but the richest natural source is yeast. The free form occurs only in the retina of the eye, in whey, and in urine; its principal forms in tissues and cells are as flavin mononucleotide and flavin-adenine dinucleotide. It has a role as a photosensitizing agent, a food colouring, an Escherichia coli metabolite, a mouse metabolite, a cofactor, a plant metabolite, a human urinary metabolite, an anti-inflammatory agent, a fundamental metabolite and an antioxidant. It is a vitamin B2 and a flavin. It is a conjugate acid of a riboflavin(1-).-----from ChEBI</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -252,7 +252,7 @@ categories: Aptamer
 
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We screened the compounds with great similarity to 5-Hydroxytryptophan (5HTP) by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p></font>
+<p>We screened the compounds with great similarity to 5-Hydroxytryptophan (5HTP) by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available,we will supplement them with Pubchem CID.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

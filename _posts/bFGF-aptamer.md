@@ -32,7 +32,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article and the prediction results of the RNA fold website by ribodraw tool to draw. Here, only the aptamer with the best affinity was selected for painting 2D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>7A aptamer: 5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br>26A aptamer: 5'-AACGCUCAACGUCAGAAGGCAACGUAUAGGCAAGCACACUUCGACAUGAGGC-3'</p>
+<p>7A aptamer: 5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br>26A aptamer: 5'-AACGCUCAACGUCAGAAGGCAACGUAUAGGCAAGCACACUUCGACAUGAGGC-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/bFGF_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -45,7 +45,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Fibroblast growth factor 2, also known as basic fibroblast growth factor (bFGF) and FGF-β, is a growth factor and signaling protein encoded by the FGF2 gene. It binds to and exerts effects via specific fibroblast growth factor receptor (FGFR) proteins, themselves a family of closely related molecules. Fibroblast growth factor protein was first purified in 1975; soon thereafter three variants were isolated: 'basic FGF' (FGF2); Heparin-binding growth factor-2; and Endothelial cell growth factor-2. Gene sequencing revealed that this group is the same FGF2 protein and is a member of a family of FGF proteins.-----From Wiki</p>
@@ -163,7 +163,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>

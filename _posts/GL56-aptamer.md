@@ -38,7 +38,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>The insulin receptor (IR) is a transmembrane receptor that is activated by insulin, IGF-I, IGF-II and belongs to the large class of receptor tyrosine kinase. Metabolically, the insulin receptor plays a key role in the regulation of glucose homeostasis; a functional process that under degenerate conditions may result in a range of clinical manifestations including diabetes and cancer. Insulin signalling controls access to blood glucose in body cells. When insulin falls, especially in those with high insulin sensitivity, body cells begin only to have access to lipids that do not require transport across the membrane. So, in this way, insulin is the key regulator of fat metabolism as well. Biochemically, the insulin receptor is encoded by a single gene INSR, from which alternate splicing during transcription results in either IR-A or IR-B isoforms.-----from Wiki</p>

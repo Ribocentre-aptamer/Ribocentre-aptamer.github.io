@@ -132,7 +132,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information. LR06(GA) was the aptamer sequence mainly studied in the article where structural selecting is performed<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p></font>
+<p>Here we used ribodraw to complete the figure, through the 3D structure information. LR06(GA) was the aptamer sequence mainly studied in the article where structural selecting is performed<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <p>5'-CACGGUCCCAGACGUG-3'</p>
 <img src="/images/2D/LR06_aptamer_2D.svg" alt="drawing" style="width:800px;height:375px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -141,7 +141,7 @@ categories: Aptamer
 
 <p class="blowheader_box">3D visualisation</p>             
 <font >Lebars I and colleagues present the solution structure of TAR/LR06(GA) complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA sequence is labeled in forest, the LR06(GA) sequence is labeled in cyan, and the interacting bases in the two sequences are labeled in magenta. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
+<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/LR06_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -283,7 +283,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>Lebars I and colleagues characterized the loop-loop complexes using thermal denaturation experiments monitored by UV spectroscopy. Subsequently, they determined the affinity between LR06(GA) and TAR RNA by SPR method. At the same time, the affinity between the LNA-modified aptamer and TAR RNA was also determined. These methods were employed to comprehensively assess the stability and affinity of different aptamers interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA aptamer and TAR RNA in varied environments<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
@@ -322,7 +322,7 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.-----From Rfam</p></font>
+<p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.-----From Rfam</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>

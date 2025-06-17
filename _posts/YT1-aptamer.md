@@ -41,7 +41,7 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Tax is a transcriptional activator. Its ability to modulate the expression and function of many cellular genes has been reasoned to be a major contributory mechanism explaining HTLV-I-mediated transformation of cells. In activating cellular gene expression, Tax impinges upon several cellular signal-transduction pathways, including those for CREB/ATF and NF-kappaB.-----From Pfam</p>
@@ -93,7 +93,7 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>Due to the lack of complete or large fragments of the protein structure, no similar compounds have been listed in this part.</p></font>
+<p>Due to the lack of complete or large fragments of the protein structure, no similar compounds have been listed in this part.</p>
 
                  
 <p class="header_box" id="references">References</p>
