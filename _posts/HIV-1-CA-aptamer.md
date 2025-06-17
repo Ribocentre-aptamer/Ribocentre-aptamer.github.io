@@ -6,99 +6,6 @@ author: Jiali Wang, Bo Fu
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-   .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-    * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -114,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2022, Gruenke PR, Aneja R, Welbourn S, et al. selexed for an RNA aptamer called CA15-2. The function of this aptamer is to specifically bind to the capsid lattice structure of HIV-1 and inhibit virus replication. Research has shown that CA15-2 selectively binds to the CA lattice rather than the CA monomer or CA hexamer, indicating that it may target an interface that exists only on the CA lattice and is easily accessible. In addition, the expression of CA15-2 in virus producing cells can inhibit the replication of HIV-1, but not in target cells, indicating that it may bind to a biologically relevant and accessible site during virus production, which may not be reachable in the subsequent replication step or remain unchanged after binding to the aptamer. Importantly, CA15-2 is the first identified aptamer that can specifically recognize the HIV-1 CA lattice<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2022, Lange, M. J et al. uesd the RNA library began with a randomised region consisting of 56 nucleotides (denoted as 56N), which was estimated to encompass approximately 10<sub>15</sub> unique sequences. Through a meticulous screening process spanning 15 rounds, the CA15-2 RNA aptamer, capable of specifically binding to the CA lattice, was successfully identified. Subsequent analysis via Sanger sequencing technology revealed multiple cloned sequences, with CA15-2 being among the most prominent<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -130,8 +33,6 @@ categories: Aptamer
 <p>5'-GGAAGAAGAGAAUCAUACACAAGAUCGACGUACCUCAGGGUGGUGUAUGACUGAGGUGAAGACUGUGAACCAUGGCAUGCGGGCAUAAGGUAGGUAAGUCCAUA-3'</p>
 <img src="/images/2D/CA15_2_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 <p class="header_box" id="ligand-recognition">Ligand information</p>
 
@@ -282,8 +183,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -313,7 +212,7 @@ Gruenke, P. R., Aneja, R., Welbourn, S., Ukah, O. B., Sarafianos, S. G., Burke, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

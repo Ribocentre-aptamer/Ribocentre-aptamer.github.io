@@ -6,60 +6,6 @@ author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -171,8 +117,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2007, Anders, H. J. isolated the L-enantiomeric RNA oligonucleotide mNOX-E36, a so-called Spiegelmer that binds murine CCL2 with high affinity and neutralizes its action in vitro and in vivo. In 2015, Betzel C et al. chemically synthesized the NOX-E36 L-aptamer, a Spiegelmer designed to bind to L-CCL2. To elucidate its structure, they employed single-wavelength anomalous diffraction (SAD) and refined the structure to a resolution of 2.05 Å. This technique allowed them to gain detailed insights into the interactions between the L-aptamer and its target protein. The resulting structural data provided a comprehensive understanding of the binding interface and the conformational details of the L-aptamer. This high-resolution structure was crucial for understanding the molecular basis of the L-aptamer's high affinity and specificity for L-CCL2. Such detailed structural information is essential for optimizing the design of Spiegelmers as potential therapeutic agents<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref8" style="color:#520049">8</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -194,7 +138,7 @@ categories: Aptamer
 <p>NOX-E36 L-aptamer is a Spiegelmer designed to bind to L-CCL2. To elucidate its crsytal structure, they employed single-wavelength anomalous diffraction (SAD) and refined the structure to a resolution of 2.05 Å. This technique allowed them to gain detailed insights into the interactions between the L-aptamer and its target protein. The resulting structural data provided a comprehensive understanding of the binding interface and the conformational details of the L-aptamer. The PDB ID of this structure is 4R8I<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/L-CCL2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -408,7 +352,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4R8I. L-CCL2 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with L-CCL2.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/L-CCL2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -563,8 +507,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

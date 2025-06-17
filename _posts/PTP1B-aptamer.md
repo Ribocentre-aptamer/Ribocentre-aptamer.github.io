@@ -5,9 +5,7 @@ date:   2024-05-27 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2010, Brent Townshend et al. used the SELEX method to isolate the aptamer with high compatibility for the protein tyrosine phosphatase 1B (PTP1B). The C13 RNA aptamer identified in this work by using the SELEX procedure not only binds tightly to PTP1B, but also inhibits its phosphatase activity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,11 +32,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-GGGAAUGGAUCCACAUCUACUGUGAUCAAUUUGGCAAUCCGCCACACGAGACUGCAGACUUGACGAAGCUU-3'</p></font>
+<p>5'-GGGAAUGGAUCCACAUCUACUGUGAUCAAUUUGGCAAUCCGCCACACGAGACUGCAGACUUGACGAAGCUU-3'</p>
 <img src="/images/2D/PTP1B_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -181,8 +175,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

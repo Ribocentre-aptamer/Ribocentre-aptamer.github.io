@@ -5,9 +5,7 @@ date:   2024-05-18 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,20 +21,19 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2006, Yang, C. et al. used a technique known as Systematic Evolution of Ligands by Exponential Enrichment (SELEX), RNA molecules with high affinity and specificity for the Caenorhabditis elegans Bcl-2 family member CED-9 were successfully isolated. Subsequent studies were conducted to evaluate the impact of these RNA aptamers on the regulation of programmed cell death within the C. elegans model organism<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2006, Yang, C. et al. used a technique known as Systematic Evolution of Ligands by Exponential Enrichment (SELEX), RNA molecules with high affinity and specificity for the Caenorhabditis elegans Bcl-2 family member CED-9 were successfully isolated. Subsequent studies were conducted to evaluate the impact of these RNA aptamers on the regulation of programmed cell death within the C. elegans model organism<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>An RNA library was generated in vitro using an oligonucleotide library that contains a central region of 49 randomized nucleotides flanked at both ends by constant sequences and a bacterial T7 promoter for in vitro transcription. For the first round of SELEX ∼10<sup>15</sup> unique sequences were represented. Each round of SELEX consisted of the following steps. CED-9/RNA complexes were recovered and reverse transcribed to cDNAs, which were then PCR-amplified to generate a new oligonucleotide library enriched in DNAs encoding RNAs with higher binding affinity for CED-9. After nine rounds of SELEX, obtained a pool of RNA molecules that bound CED-9 with high affinity. From the last two rounds of SELEX, identified a total of 12 different aptamers that bind CED-9<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
-<br>
+<p>An RNA library was generated in vitro using an oligonucleotide library that contains a central region of 49 randomized nucleotides flanked at both ends by constant sequences and a bacterial T7 promoter for in vitro transcription. For the first round of SELEX ∼10<sup>15</sup> unique sequences were represented. Each round of SELEX consisted of the following steps. CED-9/RNA complexes were recovered and reverse transcribed to cDNAs, which were then PCR-amplified to generate a new oligonucleotide library enriched in DNAs encoding RNAs with higher binding affinity for CED-9. After nine rounds of SELEX, obtained a pool of RNA molecules that bound CED-9 with high affinity. From the last two rounds of SELEX, identified a total of 12 different aptamers that bind CED-9<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+
+
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>R9-2 aptamer: 5'-AGGGAGGACGAUGCGGGGUGCUUCGAGCGUAGGAAGAAAGCCGGGGGCUGCAGAUAAUGUAUAGCCAGACGACGGA-3'<br>R9-7 aptamer: 5'-AGGGAGGACGAUGCGGGAUGGACGCUUAUCCGCAUAGAGGUUUACUACUUCGGAGACUGCCGAUACAGACGACGGA-3'</p></font>
+<p>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>R9-2 aptamer: 5'-AGGGAGGACGAUGCGGGGUGCUUCGAGCGUAGGAAGAAAGCCGGGGGCUGCAGAUAAUGUAUAGCCAGACGACGGA-3'<br>R9-7 aptamer: 5'-AGGGAGGACGAUGCGGGAUGGACGCUUAUCCGCAUAGAGGUUUACUACUUCGGAGACUGCCGAUACAGACGACGGA-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/CED_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -50,11 +47,10 @@ categories: Aptamer
 <br>
 
 
-
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
-
 <p class="blowheader_box">SELEX ligand</p>
 <p>Cell death abnormality gene 9 (CED-9), also known as apoptosis regulator CED-9, is a gene found in Caenorhabditis elegans that inhibits/represses programmed cell death (apoptosis). The gene was discovered while searching for mutations in the apoptotic pathway after the discovery of the apoptosis promoting genes CED-3 and CED-4. The gene gives rise to the apoptosis regulator CED-9 protein found as an Integral membrane protein in the mitochondrial membrane. The protein is homologous to the human apoptotic regulator Bcl-2 as well as all other proteins in the Bcl-2 protein family. CED-9 is involved in the inhibition of CED-4 which is the activator of the CED-3 caspase. Because of the pathway homology with humans as well as the specific protein homology, CED-9 has been used to represent the human cell apoptosis interactions of Bcl-2 in research.-----From WiKi</p>
+
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
@@ -195,8 +191,6 @@ categories: Aptamer
   </table>
 <br>
 <br>
-
-
 
 
 

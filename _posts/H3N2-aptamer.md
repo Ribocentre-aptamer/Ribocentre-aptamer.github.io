@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2006, Kumar, P. K. R et al. used the SELEX method to select the aptamer binds specifically to the haemagglutinin (HA) region of the target strain A/Panama/2007/1999 (H3N2) and failed to recognize other human influenza viruses, including another strain with the same subtype, H3N2. This study demonstrates the potential application of aptamers in influenza virus genotyping and functional research, and may be helpful for developing new antiviral strategies<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2006, Kumar, P. K. R et al. derived aptamers from a random RNA sequence library via the SELEX technique. From the tenth screening round, 17 clones were sequenced and their sequences categorised into three main groups. They also employed surface plasmon resonance (SPR) to pinpoint the phosphate groups in the ligand vital for HA binding, and mapped the smallest RNA motif capable of binding to the A/Panama virus HA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-GGGAGAAUUCCGACCAGAAGGGUUAGCAGUCGGCAUGCGGUACAGACAGACCUUUCCUCUCUCCUUCCUCUUCU-3'</p>
 <img src="/images/2D/P30_10_16_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p>
@@ -103,8 +97,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -134,7 +126,7 @@ Gopinath, S. C. B., Misono, T. S., Kawasaki, K., Mizuno, T., Imai, M., Odagiri, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

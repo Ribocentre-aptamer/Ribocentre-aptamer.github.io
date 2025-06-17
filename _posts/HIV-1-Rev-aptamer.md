@@ -5,65 +5,10 @@ date:   2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-   .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -180,8 +125,6 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high affinity for the HIV-1 Rev protein. It can competitively bind Rev protein with RRE, thereby preventing RRE from interacting with Rev protein. Refer to the RBA-14 aptamer page for specific aptamer<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref12" style="color:#520049">12</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -202,7 +145,7 @@ categories: Aptamer
 <p>Wingfield, P. T. et al. present the crystal structure of Rev93:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray. They used Rev:scFv as a crystallization platform for studying nucleic acid binding and made a ternary complex of Rev93, scFv and RBA-14, where the single-chain antibody functions as an assembly inhibitor, crystallization chaperone, and initial model for molecular replacement. The PDB ID of this structure is 6CF2<sup>[<a href="#ref12" style="color:#520049">12</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/HIV-1_Rev_aptamer_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -368,7 +311,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6CF2. HIV-1 Rev93 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with HIV-1 Rev93 protein. Due to the large number of interactions involved, we only show some of the more critical interactions here, and the complete content can be read in reference 12.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HIV-1_Rev_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

@@ -173,16 +173,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>Dilara Grate and Charles Wilson reported and characterized MG-binding RNA motifs obtained by SELEX in a work published in 1999. In 2000, Charles Wilson et al. determined the 2.8 A crystal structure of the aptamer bound to tetramethylrosamine, a high-affinity MG analog. Later, Jeremy Flinders et al. resolved the structure of the MG-RNA complex by NMR spectroscopy in a work they published in 2004<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>MG-specific RNA aptamers was selected and amplified from a pool containing approximately 5×10<sup>15</sup> different random sequence molecules. MG agarose affinity chromatography was used as a basis for enrichment. The fraction of MG agarose-binding RNAs appeared to plateau after eight cycles. Final pool was dominated by 30-40 major species and sequences for 14 unique clones were obtained and their ability to bind MG agarose determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -202,7 +198,7 @@ categories: Aptamer
 <p>Folding of the asymmetric loop is stabilized by a variety of stacking and base-pairing interactions that together combine effectively to encapsulate the ligand. The PDB ID of this structure is 1F1T (2.8 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MG_aptamer(1F1T)_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -341,7 +337,7 @@ categories: Aptamer
 <p>Jeremy Flinders et al. resolved the structure of the MG-RNA complex to by NMR spectroscopy in a work they published in 2004. The PDB ID of this structure is 1Q8N<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MG_aptamer(1Q8N)_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -460,7 +456,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F1T by X-ray crystallography. MG (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with MG or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/MG_aptamer(1F1T)_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -471,7 +467,7 @@ categories: Aptamer
   </table>
 
   <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1Q8N by NMR. MG (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with MG or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/MG_aptamer(1Q8N)_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -652,8 +648,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 

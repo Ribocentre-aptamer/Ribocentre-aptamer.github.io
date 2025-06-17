@@ -5,9 +5,7 @@ date:   2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -64,10 +62,8 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 1997, Shi, H. et al. isolated B52-binding RNAs through selection and amplification from a pool of random RNA sequences, using the full-length B52 protein as the target. These RNAs contained a conserved consensus motif forming the core of a secondary structural element predicted by energy minimization. Deletion and substitution mutations defined the B52-binding site on these RNAs as a hairpin loop structure encompassing approximately 20 nucleotides. Subsequently they demonstrated inhibitory aptamer RNA binds B52 avidly and inhibits B52-stimulated pre-mRNA splicing. In 1999, Xu, D. & Shi, H. demonstrated that the performance of this 'aptabody' rivals that of a monoclonal antibody against B52<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -77,11 +73,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-GGGAGAAUUCAACUGCCAUCUAGGCUGGUCAACCAGGCGACCGCCACCCGCGCGCGCAAUACCUAGUACUACAAGCUUCUGGACUCGGU-3'</p></font>
+<p>5'-GGGAGAAUUCAACUGCCAUCUAGGCUGGUCAACCAGGCGACCGCCACCCGCGCGCGCAAUACCUAGUACUACAAGCUUCUGGACUCGGU-3'</p>
 <img src="/images/2D/B52_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -228,8 +222,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 

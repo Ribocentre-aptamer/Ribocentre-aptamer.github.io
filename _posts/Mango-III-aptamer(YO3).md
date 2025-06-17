@@ -13,54 +13,7 @@ categories: Aptamer
 </head>
 </html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -115,15 +68,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2014, Peter J. Unrau et al. employed in vitro selection techniques to isolate Mango aptamers with high-affinity binding sites for TO1-biotin. Subsequently, they used this motif to design ribozymes displaying polynucleotide kinase activity. In 2021, Peter J. Unrau et al. elucidated the structure of the Mango-III fluorescent aptamer bound to YO3-biotin by X-ray diffraction<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>This work generated aptamers that bind TO1-biotin using SELEX. An RNA library containing ∼3×10<sup>13</sup> random library members was used and TO1-Biotin was conjugated to streptavidin magnetic as positive target. After 12 rounds of SELEX, one RNA family that exhibited both tight binding and a high fluorescent enhancement was identified from 7 distinct families. This work also proposed a novel fluorescence-based selection approach, which simplifies the generation of aptamers optimised for expression and performance in living cells<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -138,7 +87,7 @@ categories: Aptamer
 <p>In 2021, Peter J. Unrau et al. analyzed the structure of the Mango-YO3-biotin complexs through crystallization and X-ray diffraction data collection. Mango-I connected its fluorophore-binding quadruplex module to an external helix via a partially crystallographically disordered GAAA tetraloop-like junction, whereas the corresponding helix–quadruplex junction in Mango-III formed a well-defined coaxially stacked triplex. In contrast, the fluorophore-binding pocket of Spinach-class aptamers was positioned between two coaxially stacked paired elements with variable sequences and lengths. Coordinates and structure factors have been deposited to the Protein Database under accession codes PDB: 6UP0 (2.80 Å)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/YO3-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -329,7 +278,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6UP0 by X-ray crystallography. YO3-biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with YO3-biotin or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/YO3-biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -418,8 +367,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

@@ -6,57 +6,6 @@ author: Zhizhong Lu, Ziyu Guo
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- 
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -142,16 +91,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1993, A D Ellington. et al. RNA molecules that can bind to the Rev protein of HIV-1 have been isolated from random sequence nucleic acid pools based on a minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE). In 1994, Tuerk C. et al. produced small RNA ligands with high affinity for HIV-1 Rev protein by SELEX in vitro evolution method for a series of chemical modification studies. In 1996, Dinshaw J. Patel et al. combined NMR molecular dynamics method have been applied to determine the solution structure of the HIV-1 17-mer rev peptide binding to its 35-mer high affinity RNA aptamer binding site<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1993, A D Ellington. et al. designed random sequence library to construct 76.6 pool. Sequencing selected clones PCR DNA (1 μg) was isolated following round 4 of the 76.6 pool selection and selected Rev aptamers (binding sequences; 29) from RBE pools containing limited (10-18 nt) random sequence tracts. In 1994, Tuerk C. et al. produced small RNA ligands with high affinity for HIV-1 Rev protein by SELEX in vitro evolution method for a series of chemical modification studies<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -166,7 +111,7 @@ categories: Aptamer
 <p class="blowheader_box">3D visualisation</p>             
 <p>Dinshaw J. Patel et al. determined the solution structure of the 35-mer high-affinity RNA aptamer binding site of HIV-1 17-mer rev peptide by NMR molecular dynamics. Complex formation involves adaptive binding with the alpha-helical arginine-rich basic rev peptide targeting a widened RNA major groove centred about adjacent G.A and reversed A.A mismatches. The PDB ID of this structure is 1ULL<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Rev_RNA_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -327,7 +272,7 @@ color:{r:133,g:39,b:181}
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ULL by NMR. HIV-1 REV peptide (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with HIV-1 REV peptide.</p>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Rev_RNA_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -488,8 +433,6 @@ color:{r:133,g:39,b:181}
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

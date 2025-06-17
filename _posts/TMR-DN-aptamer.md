@@ -5,7 +5,7 @@ date:   2024-01-02 00:00:00
 author: Bo Fu
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -100,15 +100,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2021, G. Ulrich Nienhaus and Andres Jaschke et al. isolated aptamer with rapid binding and dissociation kinetics for rhodamine dye through in vitro selection technology. In 2024, Xianyang Fang and Xing Li et al determined the co-crystal structure of RhoBAST in complex with tetramethylrhodamine-dinitroaniline by small-angle X-ray scattering. This RhoBAST-tetramethylrhodamine-dinitroaniline complex adopts an asymmetrical “A”-like architecture organized with a four-way<sup>[<a href="#ref5" style="color:#520049">5</a>,<a href="#ref8" style="color:#520049">8</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>This work generated aptamers that bind TMR-DN using SELEX. An library consisting of a 15% doped 54-nucleotide SRB-2 sequence which containing ~3×10<sup>14</sup> random library members was used and TMR-SS-Biotin was used as positive target. RhoBAST bound to TMR-DN was isolated from random RNA nucleic acid libraries by in vitro selection. The crystal structure of the RhoBAST-TMR-DN complex was reported in subsequent work<sup>[<a href="#ref5" style="color:#520049">5</a>,<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -125,7 +121,7 @@ categories: Aptamer
 <p>​In 2024, Xianyang Fang and Xing Li et al. determined the crystal structure of the RhoBAST aptamer bound to the fluorophore-quencher conjugate TMR-DN. The aptamer adopts an asymmetric "A"-shaped architecture featuring a four-way junction. The fluorophore-binding core is formed by the four-nucleotide capping loop L4 (G46–G47–U48–U49) and an underlying A32•A50•A45 base triple, creating a semi-open rectangular pocket. G47's orientation is stabilised by a hydrogen bond between its N7 and the O2' of G46, and by two hydrogen bonds involving U49's O4 and N3 with G47's N3 and N2. Notably, the DN quencher remains partially stacked over the phenyl ring of TMR, indicating an incompletely unquenched state. The PDB ID of the structure is 8JY0 (2.75 Å)​<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TMR-DN_aptamer_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -298,7 +294,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8JY0 by small-angle X-ray scattering. TMR-DN (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TMR-DN or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/TMR-DN_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -401,8 +397,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2015, Prasad, V. R et al. isolated several RNA aptamers targeting the human immunodeficiency virus type 1 (HIV-1) protease (PR) using a method called Systematic Evolution of Ligands by Exponential Enrichment (SELEX). The function of these aptamers is to bind to HIV-1 PR, inhibit its activity, and thus prevent the replication cycle of the HIV virus. Research has shown that these RNA aptamers have high affinity and specificity, and can non competitively inhibit the protease activity of HIV-1 PR. Through further mutation analysis, researchers identified the secondary structural elements of the ligands crucial for PR binding and demonstrated their ability to inhibit HIV replication in vitro<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2015, Prasad, V. R et al. used an RNA library of 10<sub>14</sub> unique species to isolated aptamers. They improved binding to HIV-1 PR via nine SELEX rounds. After the 10th round, sequencing of 48 clones revealed four sequence families. To enhance the first generation RNA aptamers' binding affinity, they screened variants from a partially randomised pool and performed eight more selection rounds. Several variants were found in the 8th round pool of PR10.1 and PR10.9 RNA aptamers. These second-generation PR RNA aptamers exhibited significantly improved binding affinity. Through site-specific mutation analysis, researchers studied the predicted secondary structure of the second-generation PR10.1-8E RNA aptamer to identify key structural elements for PR binding<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-GGGUUACCUAGGAGGAGAUGCUCUUAAGUGUAACUUCUCAUAACAUCCGGAGGCUUUUACUUCCGGGGACCUAAGUGACGUCUGAACUGCUUCGAA-3'</p>
 <img src="/images/2D/PR10.1_8E_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -214,8 +208,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -245,7 +237,7 @@ Duclair, S., Gautam, A., Ellington, A., & Prasad, V. R.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

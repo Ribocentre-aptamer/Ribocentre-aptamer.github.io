@@ -5,7 +5,7 @@ date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>Nishikawa, S. et al. reported aptamers with affinity for APC-167 in their article published in 1998. The APC-99 aptamer was named by Nishikawa, S. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 1998, Nishikawa, S. et al. used SELEX to isolate RNA aptamer sequences with affinity for APC-167 from a nucleic acid library containing about 10<sup>13</sup> sequences after 8 rounds of selection process. Protein-RNA complexes were filtered through a wet nitrocellulose filter in a pop-top filter holder, subsequently washed with 5 mL of binding buffer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-GUGAGACCAGCCGAGUGGUGUCUGGCUAUUCACUGGAGCGUGGGUGGAACCCCUGCGCACUCGUUUGGCUGUCCGGGCCUUCGGGCCGGGAUUAUCUCU-3'</p>
 <img src="/images/2D/APC-99_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -195,8 +189,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -225,7 +217,7 @@ Gal, S. W., Amontov, S., Urvil, P. T., Vishnuvardhan, D., Nishikawa, F., Kumar, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

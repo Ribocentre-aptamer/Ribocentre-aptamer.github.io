@@ -5,7 +5,7 @@ date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>Jacquemin-Sablon, H. et al. reported aptamers with affinity for Unr in their article published in 1999. The 77 aptamer was named by Jacquemin-Sablon, H. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 1999, Jacquemin-Sablon, H. et al. used SELEX to isolate RNA aptamer sequences with affinity for Unr from a nucleic acid library containing about 3×10<sup>12</sup> unique sequences after 5 rounds of selection process. Before selection, 5 μg of purified His-UNR protein were combined with 25 μl of agarose pre-equilibrated with RNA selection buffer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-CCCGGUGGUUGCUGUAAUUAAGAAAGAACGGAACCAUGGUCAACUAUAUUUAUCACGGGU-3'</p>
 <img src="/images/2D/77_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p>
@@ -206,8 +200,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -236,7 +228,7 @@ Triqueneaux, G., Velten, M., Franzon, P., Dautry, F., & Jacquemin-Sablon, H.<br 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

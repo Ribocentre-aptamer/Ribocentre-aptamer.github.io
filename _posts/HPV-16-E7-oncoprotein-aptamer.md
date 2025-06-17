@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2011, Alvarez-Salas, L. M et al. isolated an RNA aptamer targeting HPV-16 E7 protein from a randomized oligonucleotide library using an improved SELEX method. This aptamer is named G5a3N.4, which has high affinity and specificity for binding specifically to HPV-16 E7 protein. The discovery of this aptamer may provide a valuable tool for detecting papillomavirus infection and cervical cancer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2011, Alvarez-Salas, L. M et al. used a synthetic single stranded DNA (ssDNA) library called APTLIB, which contains 15 randomized nucleotide positions (approximately 10<sub>9</sub> variants). The APTLIB RNA library is first subjected to three rounds of counter selection to remove aptamers that may bind to purified GST proteins. Then, the library was mixed with glutathione agarose beads coupled with the GST-E7 fusion protein and subjected to ten rounds of SELEX selection. After 10 rounds of selection, sequence analysis revealed the presence of a major motif in the selected library, namely 50-TSTTGTGTK-3, which mainly binds specifically to GST proteins. After removing the sequence binding to GST, an additional four rounds of SELEX were performed, including reverse selection rounds, to generate a G5α3N library, ultimately resulting in the RNA aptamer G5α3N.4 that specifically binds to HPV-16 E7 protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-GGAGACCCAAGCCGAUUUAUUUUGUGCAGCUUUUGUUCCCUUUAGUGAGGGUUAAUU-3'</p>
 <img src="/images/2D/G5α3N.4_apatamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -108,8 +102,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -138,7 +130,7 @@ Toscano-Garibay, J. D., Benítez-Hess, M. L., & Alvarez-Salas, L. M.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

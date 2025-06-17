@@ -5,9 +5,7 @@ date:   2024-05-20 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -25,10 +23,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2006, Du, M., Ulrich, H., Zhao, X., Aronowski, J., & Jayaraman, V. have characterized the functional consequences of a representative aptamer from this class and show that it is a competitive antagonist of AMPA receptors and in the concentration range where it acts as an inhibitor of the AMPA receptor the RNA has no effect on the GluR6 homomeric kainate receptors, using whole-cell current recordings<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -38,11 +34,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-ACCGAGUCCAGAAGCUUGUAGUACUCGGCGAACUACCUAACCCCCCACAAUUGUAUUAUCGCCCGCCUAGAUGGCAGUUGAAUUCUCCCUAUAGUGAGUCGUAUUAC-3'</p></font>
+<p>5'-ACCGAGUCCAGAAGCUUGUAGUACUCGGCGAACUACCUAACCCCCCACAAUUGUAUUAUCGCCCGCCUAGAUGGCAGUUGAAUUCUCCCUAUAGUGAGUCGUAUUAC-3'</p>
 <img src="/images/2D/AMPA_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -96,8 +90,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/AMPA_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -183,8 +175,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

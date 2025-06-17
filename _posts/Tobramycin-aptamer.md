@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -138,8 +136,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>Tobramycin aptamers, a class of high-affinity RNA molecules obtained through in vitro selection, were found to exhibit specific recognition of the aminoglycoside antibiotic tobramycin. Research demonstrated that these aptamers formed binding pockets via distinctive stem-loop structures. These structures adopted a “zipper-like” fold, which broadened the RNA’s major groove geometry through the synergistic arrangement of mismatched base pairs (e.g., G•U, U•U) and Watson-Crick base pairs (e.g., U•A). Tobramycin was positioned within the RNA’s major groove, partially encapsulated between the groove’s base and protruding bases (e.g., G15 or C15), forming a semi-enclosed chamber. Its binding was stabilised by hydrogen bonding and electrostatic interactions. For instance, the amino groups (NH₃⁺) of tobramycin could form hydrogen-bond networks with RNA base edges (e.g., N7, O4) or the phosphate backbone, while its aminosugar ring III enhanced binding through hydrophobic interactions with non-polar pyrimidine rings. Selection experiments revealed that high-affinity aptamers (with Kd values in the nM range) possessed highly conserved sequences. Their core binding domains were concentrated within predicted stem-loop regions, with affinity directly correlated to stem-loop stability. Quantitative analyses using fluorescently labelled tobramycin analogues (e.g., PYT) indicated that aptamers exhibited cross-binding capability with structurally similar aminoglycosides (e.g., neomycin), but no significant interaction with non-aminoglycoside antibiotics (e.g., erythromycin), underscoring their specificity. These studies not only elucidated the molecular mechanisms underlying RNA-aminoglycoside interactions but also provided critical insights for antibiotic optimisation and the design of novel RNA-targeted therapeutics informed by structural data<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
@@ -171,7 +167,7 @@ categories: Aptamer
 <p>Patel, D. J. et al. described a solution-structure determination of the tobramycin-RNA aptamer I complex, obtained using nuclear magnetic resonance (NMR) and molecular dynamics. The PDB ID of this structure is 1TOB<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Tobramycin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -321,7 +317,7 @@ categories: Aptamer
 <p>Patel, D. J. et al. described the structure of the complex was calculated by NMR and the X-PLOR programme, and molecular dynamics constraints were performed to demonstrate the solution structure of the complex of the aminoglycoside antibiotic tobramycin in conjunction with stem-loop RNA aptamer II. The PDB ID of this structure is 2TOB<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Tobramycin_aptamer_3D2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -457,7 +453,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1TOB by NMR. TOB (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TOB.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -469,7 +465,7 @@ categories: Aptamer
   <br>
             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2TOB by NMR. TOB (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TOB.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker3.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -614,8 +610,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 

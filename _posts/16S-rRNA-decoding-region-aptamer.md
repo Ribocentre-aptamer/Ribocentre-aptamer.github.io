@@ -5,7 +5,7 @@ date:   2024-06-19 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2000, Rando, R. R. and colleagues employed in vitro selection to identify RNA sequences that bind with high affinity to the A-site of the 16S rRNA decoding region. While the A and P sites of the decoding region constitute only a small fraction of 16S rRNA, mini constructs of the decoding region are biochemically active, suggesting that the structure of the decoding region is preserved in the absence of the remainder of the RNA molecule<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Rando, R. R. and colleagues chose to apply two pools of random RNA library to the target 27-nt A-site of the 16S rRNA decoding region. Each of the pools comprised a stretch of 20 and 60 random nucleotides, respectively, which were flanked by the appropriate primers with a promoter site for T7 polymerase<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>
-<br>
-<br>
+
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,16 +33,12 @@ categories: Aptamer
 <p>5'-GGGAGAAUUCCGACCAGAAGCUUCUCCUGCCGCGCGAUUUUACGCCGACAAGGGUGGCAUGAUGAUGUGUCUNUAUAUAGGGGGGGCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
 <img src="/images/2D/109.2-3_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p>
-
 <p class="blowheader_box">SELEX ligand</p>
 <p>Ribosomal ribonucleic acid (rRNA) is a type of non-coding RNA which is the primary component of ribosomes, essential to all cells. rRNA is a ribozyme which carries out protein synthesis in ribosomes. Ribosomal RNA is transcribed from ribosomal DNA (rDNA) and then bound to ribosomal proteins to form small and large ribosome subunits. rRNA is the physical and mechanical factor of the ribosome that forces transfer RNA (tRNA) and messenger RNA (mRNA) to process and translate the latter into proteins. Ribosomal RNA is the predominant form of RNA found in most cells; it makes up about 80% of cellular RNA despite never being translated into proteins itself.-----From <a href="https://rfam.org/family/RF00177" target="_blank" style="color:#520049; text-decoration: underline;"><b>Rfam</b></a></p>
-
 <p class="dot-paragraph"><b>SO ID:</b> <a href="http://www.sequenceontology.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Sequence Ontology</b></a> (SO) is a vocabulary used to control the content of genome sequences, aiming to unify the way genome annotation.</p>
 <p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
@@ -191,8 +183,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

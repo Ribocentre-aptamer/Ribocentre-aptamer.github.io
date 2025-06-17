@@ -5,9 +5,7 @@ date:   2024-05-27 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2004, Ichiro Hirao and colleagues used in vitro selection to isolate RNA aptamers that bind to the C-terminal ribonuclease domain of colicin E3. They specifically bound to the protein and prevented the 16S rRNA cleavage by the C-terminal ribonuclease domain<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,11 +32,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The aptamers have sequences similar to the region of residues 1484-1506, which includes the E. coli 16S rRNA cleavage site. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-UCCCUGGCCCAAGAUCCUAAUAAAGUUUUUUCGGACCGGAGCGAAACCACUAUCCUCUUAAGCAAUCUGU-3'</p></font>
+<p>5'-UCCCUGGCCCAAGAUCCUAAUAAAGUUUUUUCGGACCGGAGCGAAACCACUAUCCUCUUAAGCAAUCUGU-3'</p>
 <img src="/images/2D/E3_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -94,8 +88,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/E3_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -181,8 +173,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

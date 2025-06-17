@@ -61,15 +61,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2022, Jiahui Wu, et al. developed Beetroot aptamer, which enables to bind DFAME and forms an RNA-fluorophore complex. In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-ThT complex through crystallization, diffraction data collection and NMR spectroscopy. Beetroot and its variant form heterodimers, serving as the starting point for engineered tags, whose through-space inter-fluorophore interactions can be used to monitor RNA dimerisation<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>About ~10<sup>14</sup> random RNA sequences was used in the systematic evolution of ligands by exponential enrichment approach to generated aptamers that bind DFHO. DFHO with an aminohexyl linker was synthesized so that this fluorophore could be attached to solid support. After eight rounds of SELEX, a single 119 nucleotides-long aptamer (aptamer 6-1) that induced the fluorescence of DFHO was identified. Afterwards, an RNA library containing ∼10<sup>14</sup> random library members was used and DFAME was conjugated to agarose beads using an aminohexyl linker as positive target. After 10 rounds of SELEX, an RNA aptamer that binds DFAME and activates its fluorescence by threefold was identified<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -92,7 +88,7 @@ categories: Aptamer
 <p>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The overall structure of Beetroot bound to different fluorescent molecules closely resembles that of the wild-type Beetroot fluorophore complex. These small molecules bind at both ends of the eight-tiered quadruplex at the Beetroot dimer interface, occupying the same pocket and adopting a nearly planar conformation. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO) with resolutions of 1.95 Å, 2.55 Å, 2.1 Å and 2.85 Å respectively<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ThT_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -307,7 +303,7 @@ categories: Aptamer
 <p>In 2023, Luiz F. M. Passalacqua et al. analyzed the structure of the Beetroot-DFAME complex through crystallization, diffraction data collection, structure determination and refinement. The overall structure of Beetroot bound to different fluorescent molecules closely resembles that of the wild-type Beetroot fluorophore complex. These small molecules bind at both ends of the eight-tiered quadruplex at the Beetroot dimer interface, occupying the same pocket and adopting a nearly planar conformation. The atomic coordinates and structure factor amplitudes have been deposited with Protein Data bank under accession codes 8EYU (Beetroot-DFAME), 8EYV (Beetroot-DFHO), 8EYW (Beetroot-ThT), and 8F0N (Beetroot A16U, U38G-DFHO)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFAME_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -521,7 +517,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYW by X-ray crystallography. Thioflavin T (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with ThT or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ThT_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -532,7 +528,7 @@ categories: Aptamer
   </table>
 
   <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8EYU by X-ray crystallography. DFAME (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFAME or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DFAME_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -735,8 +731,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

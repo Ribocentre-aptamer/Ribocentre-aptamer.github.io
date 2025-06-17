@@ -5,7 +5,7 @@ date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -21,14 +21,10 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>Lee, S. W. et al. reported aptamers with affinity for nuclear factor of activated T cells in their article published in 2002. The SE RNA #1 aptamer was named by Lee, S. W. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 2002, Lee, S. W. et al. used SELEX to isolate RNA aptamer sequences with affinity for nuclear factor of activated T cells from a nucleic acid library containing about 10<sup>14</sup> 94-nucleotides-long sequences after 10 rounds of selection process. To remove nonspecific RNAs with binding activity to agarose beads, the RNA library was pre-incubated with agarose beads<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -36,8 +32,6 @@ categories: Aptamer
 <p>5'-GGGAGAGCGGAAGCGUGCUGGGCCUCUGUUCCCAAGGGAAUACUGGUCGUGUUGGAUCAGGUUGGCAUAACCCAGAGGUCGAUGGAUCCCCCC-3'</p>
 <img src="/images/2D/SE-RNA1_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -196,8 +190,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -227,7 +219,7 @@ Bae, S. J., Oum, J. H., Sharma, S., Park, J., & Lee, S. W.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

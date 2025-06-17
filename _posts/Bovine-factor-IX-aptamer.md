@@ -5,9 +5,7 @@ date:   2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2006, Gopinath, S. C., & Mizuno, H. selected an RNA aptamer by SELEX against bovine factor IX using an RNA pool containing 74-nucleotides randomized region. Selected RNA aptamer (Clone 5) could discriminate bovine factor IX effectively from human factor IX<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,11 +32,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGAGCUCAGCCUUCACUGCCUACGCGGGCGUUUACGUAACGGCUUAUGGGGAGCUGAGCGCUUGACCGUGGUAGUGCUAAGCAGUAAACGAGGGCACCACGGUCGGAUCCAC-3'</p></font>
+<p>5'-GGGAGCUCAGCCUUCACUGCCUACGCGGGCGUUUACGUAACGGCUUAUGGGGAGCUGAGCGCUUGACCGUGGUAGUGCUAAGCAGUAAACGAGGGCACCACGGUCGGAUCCAC-3'</p>
 <img src="/images/2D/IX_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -132,8 +126,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

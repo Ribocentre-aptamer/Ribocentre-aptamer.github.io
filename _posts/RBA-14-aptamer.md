@@ -6,75 +6,8 @@ author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -152,10 +85,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
+<font ><p class="header_box" id="description">Description</p>
 <font >In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high compatibility for the HIV-1 Rev protein. Afterwards, in 2018, Altaira D. Dearborn et al. determined the X-ray crystal structure of an RNA aptamer (RBA-14), bound to a C-terminally truncated variant of Rev (Rev<sup>93</sup>), and a single-chain variable fragment antibody (scFv) crystallization chaperone<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br></font>
-<br>
-<br>
 
 
 
@@ -168,15 +99,15 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we use ribodraw to complete the figure, through the 3D structure information. RBA-14 was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p></font>
-<font><p>5'-GGCUGGACUCGUACUUCGGUACUGGAGAAACAGCC-3'</p></font>
+<p>5'-GGCUGGACUCGUACUUCGGUACUGGAGAAACAGCC-3'</p>
 <img src="/images/2D/RBA-14_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Altaira D. Dearborn et al. present the crystal structure of Rev<sup>93</sup>:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray. They used Rev:scFv as a crystallization platform for studying nucleic acid binding and made a ternary complex of Rev<sup>93</sup>, scFv and RBA-14, where the single-chain antibody functions as an assembly inhibitor, crystallization chaperone, and initial model for molecular replacement. The PDB ID of this structure is 6CF2<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
+<P>Altaira D. Dearborn et al. present the crystal structure of Rev<sup>93</sup>:scFv:RBA-14 Ternary Complex at 3.0 Å through X-ray. They used Rev:scFv as a crystallization platform for studying nucleic acid binding and made a ternary complex of Rev<sup>93</sup>, scFv and RBA-14, where the single-chain antibody functions as an assembly inhibitor, crystallization chaperone, and initial model for molecular replacement. The PDB ID of this structure is 6CF2<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/RBA-14_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -337,7 +268,7 @@ categories: Aptamer
 <p class="blowheader_box">Binding pocket</p>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6CF2. Rev<sup>93</sup> protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with Rev<sup>93</sup> protein.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/RBA-14_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -352,9 +283,9 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<font >Altaira D. Dearborn et al. determined the affinity of RBA-14 and Rev by surface plasmon resonance (SPR) method, and also compared the affinity of Rev with hairpins with Stem IIB sequences. SPR was performed on a Biacore ×100 (GE Healthcare), in 30 μL/minute HBS-EP+ buffer (10 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, pH 7.4, 150 mM sodium chloride, 3 mM ethylenediaminetetraacetic acid, 0.05% polysorbate 20) (GE Healthcare) at 25°C<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</font >
+<p>Altaira D. Dearborn et al. determined the affinity of RBA-14 and Rev by surface plasmon resonance (SPR) method, and also compared the affinity of Rev with hairpins with Stem IIB sequences. SPR was performed on a Biacore ×100 (GE Healthcare), in 30 μL/minute HBS-EP+ buffer (10 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, pH 7.4, 150 mM sodium chloride, 3 mM ethylenediaminetetraacetic acid, 0.05% polysorbate 20) (GE Healthcare) at 25°C<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
 <br><br>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
@@ -382,6 +313,7 @@ categories: Aptamer
 	  </tbody>
   </table>
   </div>
+
 
 <p class="blowheader_box">Structure ligand</p>
 <font><p>Rev is a transactivating protein that is essential to the regulation of HIV-1 protein expression. A nuclear localization signal is encoded in the rev gene, which allows the Rev protein to be localized to the nucleus, where it is involved in the export of unspliced and incompletely spliced mRNAs. In the absence of Rev, mRNAs of the HIV-1 late (structural) genes are retained in the nucleus, preventing their translation.-----From Pfam</p></font>
@@ -488,8 +420,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

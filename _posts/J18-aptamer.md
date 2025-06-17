@@ -5,9 +5,7 @@ date:   2024-05-25 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2009, Na Li et al. used the SELEX method to isolate the aptamer with high compatibility for the Epithelial Growth Factor Receptor (EGFR). The anti-EGFR aptamer J18 was extended at its 3′ end with either 5′-UUGUGUUGGUCCUAAAUGCAAAUG-3′ (Aptamer J18.A′) or with 5′-UAAGUAGAAGUGGUGAUGAUCGGU-3′ (Aptamer J18.B′). Some 10 nM extended J18 aptamers were hybridized with an equal amount of the fluorescein-labeled template. Nucleic acids were heated to 70 °C for 3 min in binding buffer, and cooled to 25 °C at 1 °C/s<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,11 +32,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></font>
-<font><p>5'-GGCGCUCCGACCUUAGUCUCUGCAAGAUAAACCGUGCUAUUGACCACCCUCAACACACUUAUUUAAUGUAUUGAACGGACCUACGAACCGUGUAGCACAGCAGA-3'</p></font>
+<p>5'-GGCGCUCCGACCUUAGUCUCUGCAAGAUAAACCGUGCUAUUGACCACCCUCAACACACUUAUUUAAUGUAUUGAACGGACCUACGAACCGUGUAGCACAGCAGA-3'</p>
 <img src="/images/2D/J18_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -181,8 +175,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

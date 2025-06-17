@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2005, Kumar, P. K et al. used Surface Plasma Resonance (SPR) technology, also known as Biocore technology, to select and analyze RNA aptamers with high affinity for human influenza virus hemagglutinin (HA). The Kd value of wild-type aptamer clone A for HA is approximately 200 pM, while the newly discovered sequence clone B has a Kd value of 115 ± 23 pM for HA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2005, Kumar, P. K et al. began with an RNA library of around 10<sup>13</sup> sequences. After five rounds of screening, they obtained multiple high-affinity RNA aptamer clone sequences. Around 50% of these showed strong binding to the target protein. Of these, approximately 35% were wild-type and 16% were newly identified sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -112,8 +108,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -142,7 +136,7 @@ Misono, T. S., & Kumar, P. K.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

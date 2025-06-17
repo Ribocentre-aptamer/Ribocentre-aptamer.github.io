@@ -5,9 +5,7 @@ date:   2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -25,10 +23,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2006, Ellingham, M., & Stonehouse, N. J.  report the selection and characterization of RNA aptamers to the 3D RdRp, a key part of the FMDV replication complex. This is the first report of aptamer selection to any protein of this economically important animal pathogen. They have characterized three aptamers (F38, F47, and F52) that inhibit the in vitro activity of the enzyme with IC50 values of 15.8 nM, 10.6 nM, and 16.4 nM, respectively. One aptamer retains this inhibitory ability when truncated to a 32mer (F47tr) with an IC50 of 10.2 nM<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -38,8 +34,8 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>F47-aptamer: 5'-GGGAAGGGAUCCAAUCUACAAAUUCGUUAACAGAAAACCUCAGUUGCUGGGUUGUUUCACUGCAAACUUGACAAAGCUA-3'<br>F47tr-aptamer: 5'-GGGUUAACAGAAAACCUCAGUUGCUGGGUUGU-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+<font><p>F47-aptamer: 5'-GGGAAGGGAUCCAAUCUACAAAUUCGUUAACAGAAAACCUCAGUUGCUGGGUUGUUUCACUGCAAACUUGACAAAGCUA-3'<br>F47tr-aptamer: 5'-GGGUUAACAGAAAACCUCAGUUGCUGGGUUGU-3'</p>
+<table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/3Dpol_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -48,8 +44,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -196,8 +190,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

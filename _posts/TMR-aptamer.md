@@ -101,16 +101,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2010, Jay D. Keasling et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for TMR. Subsequently, Jens Wohnert et al. elucidated the structure of the TMR3 aptamer/TMR complex by NMR-spectroscopy in their work published in 2020. The high-resolution structure, solved by NMR spectroscopy in solution, revealed binding features that were both common and distinct from the binding modes of other aptamers with affinity for ligands carrying planar aromatic ring systems<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>This work generated aptamers that bind TMR using SELEX. An RNA library containing ~10<sup>14</sup> random library members was used and 5-carboxy TMR was conjugated to NovaBiochem Amino PEGA resin as positive target. After 10 rounds of SELEX, four of the TMR aptamers (TMR1, TMR2, TMR3 and TMR4) that exhibited substantial activity in the column-binding assays were identified. The crystal structure of the TMR3-TMR complex was reported in subsequent work<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -126,7 +122,7 @@ categories: Aptamer
 <p>Jens Wohnert et al. solved the structure of the TMR3 aptamer/TMR complex by NMR-spectroscopy in their work published in 2020. The ligand-binding pocket of TMR3 was lined by the C7:G41 Watson–Crick base pair, which closed stem P1, the trans Watson–Crick/Watson–Crick G25:G40 base pair of P3, and the unpaired U24 that closed stem P2. The 5-TAMRA fluorophore intercalated its planar xanthene ring system between the C7:G41 base pair of P1 and the G25:G40 base pair of P3. The PDB ID of the structures are 6GZK and 6GZR<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/5-TAMRA_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -256,7 +252,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6GZK by NMR. 5'-TAMRA (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with 5'-TAMRA or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/5-TAMRA_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

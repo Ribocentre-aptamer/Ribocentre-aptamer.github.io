@@ -5,7 +5,7 @@ date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>Sullenger, B. A. et al. reported aptamers with affinity for E2F1 in their article published in 1996. The E2F-E1 aptamer was named by Sullenger, B. A. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 1996, Sullenger, B. A. Nevins et al. used SELEX to isolate RNA aptamer sequences with affinity for E2F1 from a nucleic acid library containing about 10<sup>15</sup> sequences. Protein-RNA complexes were filtered through a wet nitrocellulose filter in a pop-top filter holder then washed using binding buffer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-AGAGCGGAAGCGUGCUGGGCCAUGGAGUCGAUGUGAUAAGUAGGACGGAGGUGGUCGAUAGGGGGGAUCCAUCGACCUCUGGGUUAUG-3'</p>
 <img src="/images/2D/E2F-E1_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p> 
@@ -195,8 +189,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -225,7 +217,7 @@ Ishizaki, J., Nevins, J. R., & Sullenger, B. A.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

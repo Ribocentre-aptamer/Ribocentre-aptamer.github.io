@@ -6,121 +6,6 @@ author: Qiaozhen Liu,Zhaoji Qiu
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-   h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-     font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-   .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -184,8 +69,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2009, Anke Hunsicker and colleagues identified an RNA aptamer by means of in vitro screening for TetR binding and in vivo screening for TetR inducible binding, which induces tet-controlled gene expression in E. coli. In 2020, Florian C. Grau and co-workers presented the crystal structure of the TetR-RNA aptamer complex at a resolution of 2.7 Å<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
@@ -209,7 +92,7 @@ categories: Aptamer
 <p>Florian C. Grau1 et al. sovled the crystal structure, at 2.7 Å resolution, of an RNA aptamer bound to the transcription repressor TetR has been determined. The fold of the RNA aptamer bears no resemblance to regular B-DNA, and neither does the thermodynamic characterization of the complex formation reaction. Nevertheless, the functional aptamer-binding epitope of TetR is fully contained within its DNA-binding epitope. The PDB ID of this structure is 6SY4<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TetR_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -373,7 +256,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: A surface representation of the binding pocket of the aptamer originating from PDB ID: 6SY4 at a resolution of 2.7 Å is presented. In the case of TetR (displayed with vacuum electrostatics), blue is indicative of a positive charge, whereas red represents a negative charge. Right: The hydrogen bonds at the binding sites where the aptamer binds to TetR are shown.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/TetR_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -592,7 +475,7 @@ Mol, A. A., Vogel, M., & Suess, B.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

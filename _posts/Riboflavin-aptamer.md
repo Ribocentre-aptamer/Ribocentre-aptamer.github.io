@@ -7,75 +7,8 @@ categories: Aptamer
 ---
 <!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -89,10 +22,8 @@ categories: Aptamer
 
 
          
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>Through an in vitro screening method, John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques. The binding pocket of the aptamer with FMN demonstrates in detail the potential role of RNA in redox reactions<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -104,7 +35,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we use ribodraw to complete the figure, through the 3D structure information
  <sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
-<font><p>5'-GGAUACACAAGAGUGAUUGAAACUAAGUCUGUGUAUCC-3'</p></font>
+<p>5'-GGAUACACAAGAGUGAUUGAAACUAAGUCUGUGUAUCC-3'</p>
 <img src="/images/2D/Riboflavin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
@@ -113,7 +44,7 @@ categories: Aptamer
 <p class="blowheader_box">3D visualisation</p>             
 <font>John S. Samuelian et al. 2022 screened the FMN aptamer and determined the structure of the binding complex it forms with FMN by NMR structure resolution techniques.The NMR structure showed that the aptamer bound to FMN through π-π stacking and donor-π interactions, forming a specific binding pocket (binding pocket) and significantly affecting the redox potential of FMN.The FMN binding site is located in a platform structure of the aptamer X2B2-C14U and is stabilized by a base triad. Specific bases within the binding pocket form π-π stacking with the isoflavone ring of FMN as well as donor-π interactions, leading to significant changes in the redox potential of FMN. the interactions between the aptamers and the cofactors were concentrated on the isoalloxazine ring, the combination pockets of FMN and Riboflavin are consistent. The PDB ID of this structure is 7RWR<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Riboflavin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -242,7 +173,7 @@ categories: Aptamer
 <p class="blowheader_box">Binding pocket</p>             
 <font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7RWR by NMR. Flavin mononucleotide (FMN) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Riboflavin_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -391,8 +322,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

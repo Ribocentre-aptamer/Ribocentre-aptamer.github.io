@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2009, Oh, J. W et al. used the SELEX method to select the aptamer with high compatibility for the SARS-CoV nucleocapsid (N) protein. The aptamer antibody mixed immunoassay method they studied may be used for rapid and sensitive detection of SARS-CoV N protein, which has potential application value for improving the treatment and prognosis of SARS<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2009, Oh, J. W et al. and colleagues carried out SELEX screening of an RNA aptamer pool containing approximately 10 <sub>14</sub> random, 40-nt long aptamers to isolate those binding to the SARS-CoV N protein. The process involved nine rounds of SELEX: five preliminary rounds and four further rounds under more stringent conditions (with a fivefold reduction in the amount of N protein). After nine rounds of screening, the cDNA of the selected RNA population was cloned, and 17 independent clones were randomly selected for sequencing. The team further verified the binding specificity and affinity of the selected aptamers to the N protein using electrophoretic mobility shift assays (EMSAs) and surface plasmon resonance (SPR) analysis<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -198,8 +194,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -230,7 +224,7 @@ Ahn, D. G., Jeon, I. J., Kim, J. D., Song, M. S., Han, S. R., Lee, S. W., Jung, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

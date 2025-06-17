@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -164,15 +162,11 @@ categories: Aptamer
 </div>
 
 <p class="header_box" id="description">Description</p>
-<p>In 1999, Toulmé, J. J. et al. used in vitro selecting techniques to isolate aptamers with high affinity binding TAR RNA sites. This 59 nt imperfect stem-loop is at the 5'-end of HIV-1 transcriptIn. In 2007, Toulmé, J. J. et al. used NMR systems and molecular dynamics methods to determine the structure of the complex formed by the locked nucleic acid (LNA)-modified aptamer and TAR RNA. LNA are nucleic acids analogues containing 2'-O, 4'-C methylene linkage, which can enhance the thermal stability of duplexes<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a>]</sup>.<br></p>
-<br>
-<br>
+<p>In 1999, Toulmé, J. J. et al. used in vitro selecting techniques to isolate aptamers with high affinity binding TAR RNA sites. This 59 nt imperfect stem-loop is at the 5'-end of HIV-1 transcriptIn. In 2007, Toulmé, J. J. et al. used NMR systems and molecular dynamics methods to determine the structure of the complex formed by the locked nucleic acid (LNA)-modified aptamer and TAR RNA. LNA are nucleic acids analogues containing 2'-O, 4'-C methylene linkage, which can enhance the thermal stability of duplexes<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>The in vitro selection experiment designed by Toulmé, J. J. and colleagues in 1999 mainly consisted of RNA pool ampplification and subsequent selection processes. RNAs were obtained by in vitro transcription of the polymerase chain reaction (PCR)-amplified library with T7 RNA polymerase. The aptamer with high affinity was selected by eight rounds and the washing times were increased in the sixth to eighth rounds<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
@@ -187,7 +181,7 @@ categories: Aptamer
 <p>Toulmé, J. J. and colleagues present the solution structure of the TAR/HIV-1 TAR RNA aptamer complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA is labeled in green, the HIV-1 TAR RNA aptamer is labeled in brownish red, and the interacting bases in the two sequences are labeled in magenta and orange, respectively. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/LR06_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -311,7 +305,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>           
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in sticks) is labeled in green and magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA. C25 and A26 are LNA residues in the HIV-1 TAR RNA aptamer.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/LR06_binding_pocker1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -394,8 +388,6 @@ categories: Aptamer
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 <p class="header_box" id="references">References</p>
 

@@ -5,9 +5,7 @@ date:   2024-05-16 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2000, Fukusho, S. et al. performed an in vitro selection of RNA aptamer on a 27 MHz quartz-crystal microbalance (QCM) for a simple R5 helix peptide  as a model of N peptide from bacteriophade lambda. In 2014，In vitro selection of RNA (30 random-nucleotide region) was carried out with N-model-peptide immobilized on a 27 MHz quartz-crystal microbalance (QCM), and the RNA recognition specificity of the peptide was studied<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,7 +32,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<font><p>B-2 RNA aptamer: 5'-GGGAAACUGGAUGGAAUGGGCUCGAUGAAAAUCGACCGUGCGCUGAAAAGCACGCGAGGUCCUGCUGUAAGUGUGCCA-3'<br>B-6 RNA aptamer: 5'-GGGAAACUGGAUGGAAUGGGCUCGCAAGGCCCCCUGAGCUGCACAAGUUCAUGGCGAGGUCCUGCUGUAAGUGUGCCA-3'</p></font>
+<font><p>B-2 RNA aptamer: 5'-GGGAAACUGGAUGGAAUGGGCUCGAUGAAAAUCGACCGUGCGCUGAAAAGCACGCGAGGUCCUGCUGUAAGUGUGCCA-3'<br>B-6 RNA aptamer: 5'-GGGAAACUGGAUGGAAUGGGCUCGCAAGGCCCCCUGAGCUGCACAAGUUCAUGGCGAGGUCCUGCUGUAAGUGUGCCA-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/R5_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -46,8 +42,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
@@ -173,8 +167,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 

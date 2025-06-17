@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -121,16 +119,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <P>In 1994, Famulok, M. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for L-Citrulline. Subsequently, following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The capability to shift binding specificity from L-citrulline to L-arginine was demonstrated. In 1996, Famulok, M. et al. elucidated the structure of the aptamer complexed with L-Citrulline and L-arginine using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculation<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>The SELEX began with an initial RNA pool consisting of approximately 10<sup>15</sup> different RNA molecules.This pool was subjected to in vitro selection targeting specific binding to L-citrulline. RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled. After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets. This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed. Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -154,7 +148,7 @@ categories: Aptamer
 <p>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Famulok, M. et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 1KOC<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Arginine_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -297,7 +291,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>              
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOC by NMR. Arginine (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with L-Arginine.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Arginine_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -452,8 +446,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

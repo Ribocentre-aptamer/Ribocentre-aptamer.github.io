@@ -6,72 +6,7 @@ author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -227,16 +162,12 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>Jaffrey, S. R. et al. reported Broccoli, a 49-nt aptamer which binds and activates the fluorescence of (Z)-4-(3,5-difluoro-4-hydroxybenzylidene)-1,2-dimethyl-1Himidazol-5(4H)-one in their article published in 2002. Broccoli shows robust green fluorescence in cells, with increased fluorescence relative to other RNA aptamers like Spinach2. This enhanced brightness makes it more easily detectable in imaging applications. It has a high folding efficiency in vitro, similar to Spinach2, but with reduced dependence on magnesium for proper folding. This allows Broccoli to function well in the cellular environment where magnesium concentrations may vary<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 2014, Jaffrey, S. R. et al. used SELEX to isolate RNA aptamer Broccoli from a nucleic acid library containing about 10<sup>14</sup> sequences after 6 rounds of selection process. In each round, the RNA library is incubated with the target molecule. RNA sequences that bind to the target are separated and then amplified via RT-PCR to create a new library for the next round of selection. After several rounds, RNA sequences with high affinity for the target are enriched<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -393,8 +324,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

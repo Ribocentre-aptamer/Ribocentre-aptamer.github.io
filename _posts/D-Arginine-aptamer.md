@@ -6,75 +6,8 @@ author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -94,7 +27,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw.  D-R16c aptamer binding to D-Arginine. L-R16c aptamer and ag.06 aptamer binding to L-Arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>D-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>L-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>ag.06 aptamer: 5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p></font>
+<font><p>D-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>L-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>ag.06 aptamer: 5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/dl-Arginine_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -104,8 +37,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
@@ -217,8 +148,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1995, Gold, L. and colleagues were able to isolate high-affinity RNAs from a random pool that binds to integrase protein from the human immunodeficiency virus-type 1 using the procedure now known as SELEX. Generally, the RNAs fell into three different classes in binding buffer containing 250 mM NaCl: group I class of molecules binds integrase with a dissociation constant (Kd) on the order of 10 nM, group II molecules had a Kd of about 80 nM, and group III about 800 nM. The RNA with the highest affinity from the group I class of molecules, designated P5, was characterized using computer modeling, chemical and enzymatic probing, and deletion analysis<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1995, Gold, L. et al. constructed a random pool, the random pool of DNA oligomers was synthesized in which the 5'- and 3'-proximal ends were fixed sequences used for amplification and the central region consisted of 30 randomized positions. After 18 rounds of SELEX, RNA sequences with high specificity were selected<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-GGGAGCUCAGAAUAAACGCUCAACCAGUCUUGUGGCUUUGAAAGAGAGGAGUGUUCGACAUGAGGCCCGGAUCCGGC-3'</p>
 <img src="/images/2D/P5_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -196,8 +190,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -228,7 +220,7 @@ Allen, P., Worland, S., & Gold, L.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

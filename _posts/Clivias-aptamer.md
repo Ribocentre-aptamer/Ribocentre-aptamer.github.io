@@ -13,54 +13,7 @@ categories: Aptamer
 </head>
 </html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -99,8 +52,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In a work published in 2023, Aiming Ren, Linyong Zhu and Yi Yang et al. isolated a series of RNA aptamers, named Clivias, which binds NBSI and transform its optical properties. Later, in a work published in 2024, the structure of the Clivia-NBSI derivates complex is analyzed by crystallization, diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
-<br>
-<br>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Aiming Ren, Linyong Zhu and Yi Yang et al. performed SELEX with a library containing ~4<sup>52</sup> random library members and selected RNA sequences for their ability to bind NBSI derivates. The selection process went through 8 rounds. After SELEX, researchers selected a number of sequences, including Clivias, to characterize their affinity for the dye and its spectral properties<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
@@ -122,7 +73,7 @@ categories: Aptamer
 <p>Aiming Ren, Linyong Zhu and Yi Yang et al. present the solution structure, as determined by crystallization and diffraction data collection of Clivia-NBSI complex. The overall structure of the complex adopts a coaxial long helix fold and is stabilized by continuous stacking interactions from the bottom stem P1 to the apical stem P2 with the ligand NBSI intercalated in the zipped junction region at the interface of stems P1 and P2. The PDB ID of these structures are 8HZE (1.59 Å)<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/NBSI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -262,7 +213,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8HZE by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/NBSI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -415,8 +366,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

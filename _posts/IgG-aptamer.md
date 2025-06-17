@@ -82,8 +82,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -146,8 +144,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In June 2008, Matsumura, H. et al selected RNA aptamers targeting the Fc portion of the human IgG1 subclass (hIgG1 - Fc) from an RNA sequence library. This selection process employed a modified Systematic Evolution of Ligands by EXponential enrichment (SELEX) method, incorporating 2′-fluoro pyrimidines. Subsequently, in October 2008, Nakamura, Y., and Matsumura, H. successfully resolved the crystal structure of an RNA aptamer bound to hIgG1-Fc. The X-rays diffracted to a resolution of 2.2 Å. Moreover, in 2010, they determined the 2.15 Å crystal structure of the Fc fragment of human IgG1 (hFc1) in complex with an anti-Fc RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
@@ -170,7 +166,7 @@ categories: Aptamer
 <p>Nakamura, Y., and Matsumura, H. determined the crystal structure of the Apt8-2 aptamer bound to the Fc fragment of human IgG1 at a resolution of 2.15 Å. The Protein Data Bank (PDB) ID for this structure is 3AGV. The final model within an asymmetric unit consists of homodimeric hFc1 residues: for chain A, residues 241–262, 272–296, 302–321, and 334–443; for chain B, residues 237–444. Additionally, it includes two RNA aptamer molecules (with sequences G1-C11, G16-C23, and G1-A24), two carbohydrate chains, two Ca²⁺ ions, and 254 water molecules<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/IgG_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -380,7 +376,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3AGV at 2.15 Å resolution. the Fc fragment of human IgG1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with the Fc fragment of human IgG1.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/IgG_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -566,8 +562,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -620,7 +614,7 @@ Ma, J., Wang, M. G., Mao, A. H., Zeng, J. Y., Liu, Y. Q., Wang, X. Q., Ma, J., T
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

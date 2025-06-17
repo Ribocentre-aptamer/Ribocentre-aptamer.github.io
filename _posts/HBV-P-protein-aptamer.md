@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2011, Hu, K. H et al. isolated aptamers targeting human hepatitis B virus (HBV) RNA packaging signals using the SELEX method. These aptamers can mimic the specific interaction between HBV polymerase (P protein) and the ε RNA stem ring structure on pgRNA, but do not support viral replication. Especially, the S9 aptamer has shown high affinity and specificity for recombinant truncated HBV P protein (miniP) in vitro experiments, and does not support viral replication when used as part of the complete HBV genome. Introducing S9 RNA into HepG2 cells that briefly produce HBV strongly inhibited the packaging and DNA synthesis of pgRNA, indicating that S9 RNA can act as an ε bait to competitively inhibit the binding of P protein to the real ε signal on pgRNA. This study demonstrates the successful identification of human HBV ε - aptamers using the in vitro SELEX method, and that S9 aptamers effectively inhibit HBV replication, providing a theoretical basis for the formation of ε - bait RNA interference virus P - ε complexes, and suggesting that S9 class RNA may be further developed as a useful therapeutic tool for chronic hepatitis B<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2011, Hu, K. H et al. used an in-vitro reconstruction system based on recombinant truncated HBV P protein (miniP) to select potential e-structure aptamers from two large, randomised upper stem e-RNA pools. After three rounds of screening, these RNA pools were rich in RNAs with a strong affinity for miniPs. Around 500 RT-PCR product clones were generated, and 45 were randomly sequenced. Most (43) had upper stem sequences rich in adenosine (A). The selected adaptors, S6 and S9, showed high affinity and specificity for miniPs in vitro. Notably, S9 RNA effectively inhibited pgRNA packaging and DNA synthesis, suggesting it could act as a decoy for the e structure by competitively blocking the P protein’s binding to the authentic e signal on pgRNA<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -102,8 +98,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -134,7 +128,7 @@ Feng, H., Beck, J., Nassal, M., & Hu, K. H.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

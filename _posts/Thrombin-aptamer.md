@@ -82,8 +82,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -163,8 +161,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1994, Tasset, D. et al. used the Systematic Evolution of Ligands by Exponential Enrichment (SELEX) method to isolate two classes of high-affinity RNAs from a population of 10<sup>13</sup> RNA molecules. These RNAs specifically bound to human α-thrombin. In 2001, Sullenger, B. obtained human and porcine thrombin RNA aptamers through alternating rounds of selection. In 2008, Sullenger, B. A. et al. presented the crystal structure of an RNA aptamer bound to human thrombin, a protein that does not naturally bind nucleic acids. The X-rays of this complex were diffracted to a resolution of 1.9 Å<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
@@ -196,7 +192,7 @@ categories: Aptamer
 <p>In 2008，Sullenger, B. A. et al. determined the crystal structure of Toggle-25t aptamer bound to α-thrombin at 1.9 Å resolution. The PDB ID of this structure is 3DD2. In 2016，Xianbin Yang et al. determined the crystal structure of AF113-18 aptamer (phosphorodithioate (PS2) substitution) bound to α-thrombin at 1.86 Å resolution. The PDB ID of this structure is 5DO4. Here only the structural diagram of 3DD2 is shown. There is no obvious difference between the structures of 5DO4 and 3DD2<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/thrombin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -390,7 +386,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3DD2 at 1.90 Å resolution. Human thrombin protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with human thrombin protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/thrombin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -621,7 +617,7 @@ Abeydeera, N. D., Egli, M., Cox, N., Mercier, K., Conde, J. N., Pallan, P. S., M
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

@@ -109,8 +109,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -126,8 +124,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2008, Blind, M. et al. employed the SELEX (systematic evolution of ligands by exponential enrichment) strategy to develop RNA aptamers capable of potent and selective inhibition of GRK2. This endeavour resulted in the identification of an aptamer, designated C13, which demonstrated a high affinity for binding to GRK2. Subsequently, in 2012, Tesmer, J. J. elucidated the crystallographic structures of GRK2 in complex with an RNA aptamer that potently and selectively inhibits the kinase activity. These findings have significantly contributed to the understanding of the molecular interactions between GRK2 and its RNA-based inhibitors<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
@@ -141,7 +137,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>C13.18 and C13.28 are truncated sequences of the aptamer C13, which was originally enriched and isolated for its high affinity. The orange represents the bases that interact with the protein, while the grey indicates parts of the 3D structure that remain unresolved. Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>C13.18 aptamer: 5'-GGCAGACCAUACGGGAGAGAAACUUGCC-3'<br>C13.28 aptamer: 5'-CCAUACGGGAGAGAAACU-3'</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/GRK2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -156,7 +152,7 @@ categories: Aptamer
 <p>Mayer, G., & Tesmer, J. J. determined the crystal structure of C13.18 aptamer bound to the GRK2 protein at 3.51 Å resolution and C13.28 aptamer bound to the GRK2 protein at 4.52 Å resolution. The PDB ID of the two aptamers are 3UZT and 3UZS<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>. Only the structure of 3ZUS is shown here.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GRK2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -296,7 +292,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3UZS at 4.52 Å resolution. The GRK2 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with the GRK2 protein. Hydrogen bonds was predicted by Pymol.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GRK2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -470,8 +466,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -512,7 +506,7 @@ Tesmer J. J.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

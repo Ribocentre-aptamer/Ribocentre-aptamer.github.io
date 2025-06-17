@@ -13,54 +13,7 @@ categories: Aptamer
 </head>
 </html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -172,15 +125,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2014, Peter J. Unrau et al. isolated RNA aptamer Mango that binds a series of thiazole orange (fluorophore) using in vitro screening techniques. In 2017, Adrian R Ferré-D’Amaré et al. determined the Mango-TO1-biotin co-crystal structure of 1.7-Å-resolution RNA. A method to improve the tool for RNA visualization in vivo is also proposed. Adrian R Ferré-D’Amaré et al. also found that minimizing the angle between the two heterocycles formed by TO increased quantum yields, thereby improving the tool's utility for in vivo RNA visualization<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>An RNA pool containing ∼3×10<sup>13</sup> distinct sequences was obtained by in vitro transcription of the corresponding random sequence DNA pool and was subjected to multiple rounds of high affinity selection. Streptavidin magnetic beads were derivatized with TO1-biotin to facilitate the enrichment of sequences with affinity. 12 rounds of selection were performed and twenty-four isolates from the final round of selection were sequenced and fell into a total of 7 distinct RNA families which exhibited both tight binding and a high fluorescent enhancement<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -196,7 +145,7 @@ categories: Aptamer
 <p>Robert J Trachman III and Natalia A Demeshkina et al. analyzed the RNA Mango-TO1-Biotin 1.7-Å-resolution co-crystal structure. The PDB ID of this structure is 1AM0<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/TO1-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -405,7 +354,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5V3F by X-ray crystallography. Thiazole orange-biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TO1-biotin or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/TO1-biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -551,8 +500,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

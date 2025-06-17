@@ -5,9 +5,7 @@ date:   2024-05-13 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 1993, Jellinek, D. had isolated RNA ligands with low-nanomolar affinity and high specificity to basic fibroblast growth factor from a pool of 10<sup>14</sup> molecules containing 30 randomized positions by the systematic evolution of ligands by exponential enrichment (SELEX) procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,7 +32,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article and the prediction results of the RNA fold website by ribodraw tool to draw. Here, only the aptamer with the best affinity was selected for painting 2D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>7A aptamer: 5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br>26A aptamer: 5'-AACGCUCAACGUCAGAAGGCAACGUAUAGGCAAGCACACUUCGACAUGAGGC-3'</p></font>
+<font><p>7A aptamer: 5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br>26A aptamer: 5'-AACGCUCAACGUCAGAAGGCAACGUAUAGGCAAGCACACUUCGACAUGAGGC-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/bFGF_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -46,8 +42,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
@@ -251,8 +245,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

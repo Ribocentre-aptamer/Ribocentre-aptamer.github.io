@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2003, Lai, M. M et al. used the SELEX method to select the aptamer with high compatibility for the Hepatitis C virus NS5B protein. They found that the aptamers can act as templates for HCV polymerase, but others can interfere with the activity of the viral enzyme. These findings suggest that these RNA aptamers may be useful for further characterization of the binding properties of NS5B, and with further modifications, may have potential therapeutic value<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2003, Lai, M. M et al. used an RNA library containing an estimated 10<sup>12</sup> distinct RNA species. After 20 screening rounds, the highest RNA enrichment occurred between rounds 18 and 20. Through the SELEX process, 37 ligands were identified and grouped into eight categories (A-H) based on sequence homology<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -208,8 +204,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -239,7 +233,7 @@ Vo, N. V., Oh, J. W., & Lai, M. M.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

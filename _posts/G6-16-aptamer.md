@@ -102,15 +102,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1997, Nishikawa, S. and colleagues used a genetic selection strategy in vitro to isolate, from a pool of completely random RNA (120 random bases), those RNA aptamers that could bind to NS3. After six cycles of selection and amplification, 14% of the pooled RNAs could bind specifically to the NS3 protein. When the aptamers in the pool (cycle 6) were analyzed for binding and inhibition of the proteolytic activity of NS3 with the NS5A/NS5B peptide as substrate (S1), two aptamers, designated G6-16 and G6-19 RNA, were found to inhibit NS3 in vitro. Kinetic studies of the inhibition revealed that the aptamer G6-16 inhibited the NS3 protease with an inhibitory constant (Ki) of 3 microM<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1997, Nishikawa, S. and colleagues designed a selecting method based on existing research. They used a genetic selection strategy in vitro to isolate, from a pool of completely random RNA (120 random bases), those RNA aptamers that could bind to NS3. After six cycles of selection and amplification, 14% of the pooled RNAs could bind specifically to the NS3 protein. When the aptamers in the pool (cycle 6) were analyzed for binding and inhibition of the proteolytic activity of NS3 with the NS5A/NS5B peptide as substrate (S1), two aptamers, designated G6-16 and G6-19 RNA, were found to inhibit NS3 in vitro<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -118,8 +114,6 @@ categories: Aptamer
 <p>5'-GGGAGAAUUCCGACCAGAAGGCUUGCUGUUGUUUCCCUGUUGUUUUGUCUCUCAACUUUAUUGUGGUAAAGAUCACUGGGUUGAUAAGGGCUAACUCUAAUUUGACUACAUGGUCGGACCAAUCAGUUCUUAUGGGAGAUGCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
 <img src="/images/2D/G6-16_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -285,8 +279,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -352,7 +344,7 @@ Vaughan, R., Li, Y., Fan, B., Ranjith-Kumar, C. T., & Kao, C. C.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

@@ -6,66 +6,7 @@ author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -81,15 +22,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1998,Daisuke Kiga et al.isolated RNAs that bind to xanthine (2,6-dioxypurine) from a population of 1012 random sequences by in vitro selection,he xanthine/guanine-binding RNAs is the same as a sequence in one of the internalloops of the hairpin ribozyme, except for a substitution that is neutral with respect to xanthine/guanine binding<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Kiga, D., Futamura, Y., Sakamoto, K., and Yokoyama, S. used SELEX to isolate RNA aptamers that bind to xanthine from a population of 10¹² random sequences. After multiple rounds of selection, a representative xanthine-binding RNA (designated as XBA) was identified with a dissociation constant (Kd) of 3.3 µM for xanthine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -244,8 +181,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

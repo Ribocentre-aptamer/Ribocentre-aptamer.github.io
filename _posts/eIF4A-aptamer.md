@@ -82,8 +82,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -98,8 +96,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2003, Nakamura, Y. et al. generated the RNA aptamers 4Apt with high affinity for human eIF4A by SELEX, then confirming the secondary structure. Afterwards, in 2005, Nakamura, Y. et al. determined the solution structure of two essential nucleotide loops (AUCGCA and ACAUAGA) within the aptamer 4Apt using nuclear magnetic resonance (NMR) spectroscopy, and proposed that the AUCGCA loop is directly involved in the interaction with eIF4A<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -122,7 +118,7 @@ categories: Aptamer
 <p>Nakamura, Y. et al. determined the solution structure of two essential nucleotide loops (AUCGCA and ACAUAGA) within the aptamer APT58 aptamer using NMR spectroscopy, suggesting that the C7 and C9 of the AUCGCA loop directly interact with eIF4A. Due to the lack of complex structure of 4Apt aptamer and eIF4A. In the AUCGCA loop, C7 and C9 are marked for the directly interacted bases, while ACCGCA loop forms a similar conformation to U-turn motif and that the U-turn like conformation could be important for eIF4A binding without directly interacted bases<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/eIF4A_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -265,7 +261,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Due to the lack of complex structure of APT58 aptamer and eIF4A. Through experiments, it is proved that C7 and C9 are related to the binding of eIF4A. Left: The aptamer in the tertiary structure, it's labeled C7, C9 in orange. Right: eIF4A (shown in vacuumm electrostatics), blue is positive charge, red is negative charge.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/eIF4A_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -453,8 +449,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -490,7 +484,7 @@ Sakamoto, T., Oguro, A., Kawai, G., Ohtsu, T., & Nakamura, Y.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

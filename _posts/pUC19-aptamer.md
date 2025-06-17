@@ -20,10 +20,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2006, Lee, H. K., & Jeong, S. selected a high-affinity RNA aptamer that associated with beta-catenin in vivo. Nuclear localized aptamer inhibited beta-catenin-dependent transcription of cyclin D1 and c-myc in colon cancer cells; thus, cells stably expressing the aptamer exhibited cell cycle arrest and reduced tumor forming potential. Most significantly, the aptamer prevented the alternative splicing induced by stabilized beta-catenin<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -33,11 +31,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGACGCGUGGUACCAGGCCGAUCUAUGGACGCUAUAGGCACACCGGAUACUUUAACGAUUGGCUAAGCUUCCGCGGGGAUC-3'</p></font>
+<p>5'-GGACGCGUGGUACCAGGCCGAUCUAUGGACGCUAUAGGCACACCGGAUACUUUAACGAUUGGCUAAGCUUCCGCGGGGAUC-3'</p>
 <img src="/images/2D/pUC19_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -91,8 +87,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/pUC19_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -178,8 +172,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

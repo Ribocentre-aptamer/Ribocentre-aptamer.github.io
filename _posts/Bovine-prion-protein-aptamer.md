@@ -82,8 +82,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 
 
@@ -156,8 +154,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <P>In 2008, Nishikawa et al. employed the SELEX method to isolate aptamers and identified four consecutive GGA triplet repeats (GGA<sup>4</sup>) in the major RNA aptamers obtained. Subsequently, in 2013, Mashima et al. utilised NMR spectroscopy to determine the first high-resolution three-dimensional structure of the complex formed by the N-terminal PrP peptides (P1 and P16) and the R12 aptamer<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>]</sup>.<br></P>
-<br>
-<br>
 
 
 
@@ -182,7 +178,7 @@ categories: Aptamer
 <P>Mashima et al. utilised NMR spectroscopy to determine the first high-resolution three-dimensional structure of the complex formed between the N-terminal PrP peptides (P1 and P16) and the R12 aptamer. There are the similar structures between 2RQJ，2RSK and 2RU7, so only the 2RU7 with last literature is chosen<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</P>
 <P>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</P>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/prion_protein_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -318,7 +314,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <P>Left: A surface representation of the aptamer’s binding pocket, generated from PDB ID: 2RU7 at a resolution of 2.8 Å. The bovine prion protein is depicted with vacuum electrostatics, where blue represents positive charges and red represents negative charges. Right: Hydrogen bonds at the binding sites of the aptamer bound to the bovine prion protein.</P>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/prion_protein_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -489,8 +485,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -568,7 +562,7 @@ Mashima, T., Lee, JH., Kamatari, YO., Hayashi, T., Nagata, T., Nishikawa, F., Ni
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

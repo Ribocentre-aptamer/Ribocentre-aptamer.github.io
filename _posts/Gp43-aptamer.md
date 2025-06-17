@@ -5,9 +5,7 @@ date:   2024-05-10 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 1990, Tuerk C and Gold L. have developed a novel method for rapidly selecting preferred binding sequences from a population of random sequences. And call this method systematic evolution of ligands by exponential enrichment (SELEX). Then, RNA aptamers that bind T4 DNA polymerase were isolated by this method. Two different sequences were selected by this procedure from the calculated pool of 65,536 species. One is the wild-type sequence found in the bacteriophage mRNA; one is varied from wild type at four positions. The binding constants of these two RNA's to T4 DNA polymerase are equivalent. They are the pioneers of SELEX technology and began to use this technology to isolate aptamers early<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,7 +32,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></font>
-<font><p>Wild type aptamer: 5'-UAAUAUAUCAAGAGCCUAAUAACUCGGGCUAUAAACUAAGGAAUAUCUAUG-3'<br>Major variant aptamer: 5'-UAAUAUAUCAAGAGCCUAGCAACCUGGGCUAUAAACUAAGGAAUAUCUAUG-3'</p></font>
+<font><p>Wild type aptamer: 5'-UAAUAUAUCAAGAGCCUAAUAACUCGGGCUAUAAACUAAGGAAUAUCUAUG-3'<br>Major variant aptamer: 5'-UAAUAUAUCAAGAGCCUAGCAACCUGGGCUAUAAACUAAGGAAUAUCUAUG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/T4_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -46,8 +42,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
@@ -194,8 +188,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

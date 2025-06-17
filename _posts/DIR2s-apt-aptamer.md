@@ -13,54 +13,7 @@ categories: Aptamer
 </head>
 </html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -99,16 +52,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2017, Bruce A. Armitage and Xiaohong Tan et al. screened out aptamer, which has affinity to both dimethylindole red and oxazole thiazole blue and could give two well-resolved emission colors. In 2018, Joseph A. Piccirilli and Sandip A. Shelke et al. solved the overall structure of OTB-SO3-bound DIR2s aptamer-Fab complex by collecting Small Angle X-ray Scattering data of crystals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Biotinylated DIR was used as Positive target to facilitate the enrichment process. The RNA pool used for this selection contained ~10<sup>14</sup> unique sequences and universal, stem-loop forming sequence flanked by randomized region. RNA pool was asymmetric, with the putative stem-loop shifted toward the 5'-end of the sequence. The aptamer from the asymmetric pool was  abundantly represented after 14 rounds of selection. After sequence minimization  and optimization, a 57 nucleotide anti-DIR RNA aptamer (DIR2s-apt) which can bind and activate DIR fluorescence was obtained<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -124,7 +73,7 @@ categories: Aptamer
 <p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/OTB-SO3_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -279,7 +228,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6DB8 by NMR and collecting small angle X-ray scattering data of crystals. OTB-SO3 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with OTB-SO3 or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/OTB_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -425,8 +374,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

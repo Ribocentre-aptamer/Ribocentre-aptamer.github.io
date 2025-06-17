@@ -5,7 +5,7 @@ date:   2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -83,15 +83,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1997, Nishikawa, S. and colleagues used an in vitro genetic-selection strategy to isolate high-affinity RNA aptamers that bind to the NS3 protein, especially to its protease domain. Starting from a RNA pool that had a random sequence core of 12-18 nucleotides, aptamers that bind specifically to the NS3 protein were selected after 10 rounds of selection and amplification. A single aptamer, 10G-1, was found predominantly (71%) in the selected pool. This aptamer could bind to the NS3 protein with a binding constant of 650 nM and inhibit the proteolytic activity in vitro. By phosphate-modification-interference analysis we showed that the phosphate residues that are critical for the binding of 10G-1 to NS3 lie within the selected regions of the aptamer and that binding involves electrostatic contacts with the phosphates of regions G28-U34 and A47-A55<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1997, Nishikawa, S. and colleagues used existing research to design the method required for the in vitro genetic-selection. Starting from a RNA pool that had a random sequence core of 12-18 nucleotides, aptamers that bind specifically to the NS3 protein were selected after 10 rounds of selection and amplification. A single aptamer, 10G-1, was found predominantly (71%) in the selected pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -99,8 +95,6 @@ categories: Aptamer
 <p>5'-GGGAACUCGAUGAAGCGAAUUCUGUUGGCGAACUGUACGCAAGUACACUGGAUGACAGCCUAUCUAUCGGAUCCACG-3'</p>
 <img src="/images/2D/10G-1_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p> 
@@ -262,8 +256,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -322,7 +314,7 @@ Vaughan, R., Li, Y., Fan, B., Ranjith-Kumar, C. T., & Kao, C. C.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

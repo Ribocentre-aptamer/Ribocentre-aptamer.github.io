@@ -5,80 +5,10 @@ date:   2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-   .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -163,10 +93,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn<sup>2+</sup> to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -176,7 +104,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>Clone 31 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Tat protein. The 2D structure of the figures is based on the article by ribodraw tool to draw. These are two different prediction results in the article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<font><p>5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p></font>
+<p>5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
  <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/clone31_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -186,12 +114,10 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
-<font><p class="header_box" id="ligand-information">Ligand information</p></font>  
+<p class="header_box" id="ligand-information">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
 <font>The retroviral Tat protein binds to the TAR RNA. This activates transcriptional initiation and elongation from the LTR promoter. Binding is mediated by an arginine rich region.-----From Pfam</font>
 <br>
@@ -320,8 +246,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 

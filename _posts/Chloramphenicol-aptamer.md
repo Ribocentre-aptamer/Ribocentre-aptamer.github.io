@@ -6,66 +6,7 @@ author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -81,15 +22,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1997, Gold, L.et al. had been isolated mainly Cam-specific RNA aptamers to study RNA–antibiotic interactions. In 2011, Mehtaet al.engineered DNA aptamers that recognize Cam as their target, by conducting in vitro selections<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Gold, L. et al. used SELEX to isolate two independent RNA populations with 70 or 80 random positions from random starting pools containing 10¹⁴-10¹⁵ sequences. After 12 cycles, 74 distinct sequences were identified among the 96 isolates sequenced, with 12 sequences found in pairs of identical or nearly identical isolates, 2 sequences found in three different isolates, and 2 sequences found in four different isolates. All other sequences were found only once<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -188,8 +125,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

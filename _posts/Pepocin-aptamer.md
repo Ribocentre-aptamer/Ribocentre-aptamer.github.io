@@ -5,9 +5,7 @@ date:   2024-05-16 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2000, Hirao, I. et al. had isolated aptamers that target pepocin from a degenerate RNA pool through in vitro selection. These aptamers selectively bind to pepocin with dissociation constants ranging from 20 to 30 nM. Furthermore, they are capable of inhibiting the N-glycosidase activity of pepocin on rat liver 28 S rRNA<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,11 +32,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-CAAGUCUAAUGUCGGACUCGAUAUCAAUUCACUGCAGACUUG-3'</p></font>
+<p>5'-CAAGUCUAAUGUCGGACUCGAUAUCAAUUCACUGCAGACUUG-3'</p>
 <img src="/images/2D/pepocin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -194,8 +188,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 

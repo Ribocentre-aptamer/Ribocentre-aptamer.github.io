@@ -6,75 +6,6 @@ author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -190,11 +121,8 @@ categories: Aptamer
 </div>
 
 
-         
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1999, Ducongé F et al. used in vitro selecting techniques to isolate aptamers with high affinity binding TAR RNA sites. This 59-nt imperfect stem-loop is at the 5' end of HIV-1 transcriptIn. In 2007, Lebars I et al. used NMR systems and molecular dynamics methods to determine the structure of the complex formed by the LNA-modified aptamer and TAR RNA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 1999, Ducongé F et al. used in vitro selecting techniques to isolate aptamers with high affinity binding TAR RNA sites. This 59-nt imperfect stem-loop is at the 5' end of HIV-1 transcriptIn. In 2007, Lebars I et al. used NMR systems and molecular dynamics methods to determine the structure of the complex formed by the LNA-modified aptamer and TAR RNA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -205,7 +133,7 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we used ribodraw to complete the figure, through the 3D structure information. LR06(GA) was the aptamer sequence mainly studied in the article where structural selecting is performed<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p></font>
-<font><p>5'-CACGGUCCCAGACGUG-3'</p></font>
+<p>5'-CACGGUCCCAGACGUG-3'</p>
 <img src="/images/2D/LR06_aptamer_2D.svg" alt="drawing" style="width:800px;height:375px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -214,7 +142,7 @@ categories: Aptamer
 <p class="blowheader_box">3D visualisation</p>             
 <font >Lebars I and colleagues present the solution structure of TAR/LR06(GA) complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA sequence is labeled in forest, the LR06(GA) sequence is labeled in cyan, and the interacting bases in the two sequences are labeled in magenta. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/LR06_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -339,7 +267,7 @@ categories: Aptamer
 <p class="blowheader_box">Binding pocket</p>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in surface) is labeled in gray. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/LR06(GA)_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -420,8 +348,6 @@ categories: Aptamer
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 

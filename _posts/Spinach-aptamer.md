@@ -13,54 +13,7 @@ categories: Aptamer
 </head>
 </html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -262,8 +215,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In a work published in 2011, Samie R. Jaffrey et al. isolated an RNA aptamer, named Spinach, which binds DFHBI and enhances its optical properties. Later, in a work published in 2014 by Adrian R Ferré-D’Amaré et al., the structure of the Spinach-DFHBI complex was analyzed by crystallization, diffraction data collection, structure determination and refinement<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
@@ -287,7 +238,7 @@ categories: Aptamer
 <p>Adrian R Ferré-D'Amaré et al. present the solution structure, as determined by multidimensional NMR spectroscopy, molecular dynamics calculations, crystallization and diffraction data collection of Spinach-DFHBI complex. The Spinach chromophore, adopting a conformation with coplanar imidazolone and phenyl rings, was positioned between G26 and G65 of the top G-quartet and the Hoogsteen-paired U61 and A64 of the base triple in J2-3. DFHBI interacted extensively within the plane of its rings. The PDB ID of these structures are 4TS0 (2.8 Å) and 4TS2 (2.88 Å)<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFHBI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -491,7 +442,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DFHBI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -637,8 +588,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

@@ -82,8 +82,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -266,8 +264,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2001, Berens and colleagues utilised in vitro selection techniques to isolate aptamers with high-affinity binding sites for tetracycline. They identified that cb28 exhibited a notably high affinity. In 2003, Suess and team introduced a conditional gene expression system in Saccharomyces cerevisiae, which capitalises on direct RNA-metabolite interactions as a means of genetic regulation. Concurrently, Hanson and colleagues elucidated post-transcriptional gene regulation in yeast, predicated on direct RNA-ligand interactions. Advancing to 2008, Hong and associates unveiled the co-crystal structure of the aptamer at a resolution of 2.2 Å. In 2011, Wittmann and colleagues detailed the extensive application of the tetracycline aptamer in a diverse array of ribozyme designs<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>,<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -290,7 +286,7 @@ categories: Aptamer
 <p>In 2008, Xiao and colleagues determined the tertiary structure of the tetracycline aptamer using X-ray crystallography at 2.2 Å resolution. This structure is characterised by a pseudoknot-like fold formed through tertiary interactions between an 11-nucleotide loop (L3) and the minor groove of an irregular helix, comprising three helices (P1, P2, and P3) that form an H-shaped architecture. The tetracycline binding site is located at the junction of two helical stacks, formed by the minor grooves of L3 and helices J1/2 and J2/3. The PDB ID of this structure is 3EGZ<sup>[<a href="#ref8" style="color:#520049" >8</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/tetracycline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -443,7 +439,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3EGZ by X-ray. Tetracycline(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with tetracycline.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/tetracycline_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>

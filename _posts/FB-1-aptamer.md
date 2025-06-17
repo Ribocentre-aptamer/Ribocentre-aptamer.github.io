@@ -6,66 +6,7 @@ author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -81,15 +22,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1998, Wilson, C. et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Fluorescein. The aptamer binds the fluorophore with high affinity, recognizing both the planar aromatic ring system and a negatively charged sulfonate, a rare example of anion recognition by RNA. In vitro tests showed that FB-1 can efficiently sequester fluorescein from solution and concentrate it, with minimal cross-binding to sulforhodamine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>SELEX was performed with a library containing ~5×10<sup>14</sup> random RNA molecules and selected RNAs for their ability to bind Fluorescein. After SELEX, researchers selected a number of sequences, including FB-1, to characterize their affinity for the dye and its spectral properties. It was isolated through mutagenesis of a sulforhodamine aptamer followed by re-selection. From this collection, FB-1 was identified as a clone that exhibited high-efficiency binding to fluorescein and minimal cross-binding to sulforhodamine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -97,8 +34,6 @@ categories: Aptamer
 <p>5'-GGACGGCACCACGGUCGGAUCCGUGAGUUGUGACAAUUUAGCGGGUGGUAUUAGAGCCUACUGCCACAGCAAUAGGAUCGAUACAGAUCU-3'</p>
 <img src="/images/2D/Fluorescein_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -227,8 +162,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

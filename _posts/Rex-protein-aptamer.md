@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -113,8 +111,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1999, Ellington, A. D. et al. employed RNA selection techniques to identify RNA molecules that bind tightly to REX-fusion proteins from a pool of randomly sequenced RNA with conformational constraints. These RNA molecules, termed anti-Rex aptamers, were suggested to function as RNA decoys for Rex proteins and hold potential for antiviral applications. In the same year, Patel, D. J. et al. determined the solution structure of the binding site of the Rex peptide RNA aptamer complex using a combination of nuclear magnetic resonance (NMR) and molecular dynamics methods<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -137,7 +133,7 @@ categories: Aptamer
 <p>The solution structure of the Rex peptide–RNA aptamer complex was determined by Patel, D. J. et al. using multidimensional nuclear magnetic resonance (NMR) spectroscopy. The Rex peptide, in a predominantly extended conformation, threads through a channel formed by the shallow and widened RNA major groove and a looped-out guanine. The PDB ID for this structure is 1EXY<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Rex16_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -270,7 +266,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1EXY. HTLV-1 arginine-rich Rex peptide (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with HTLV-1 arginine-rich Rex peptide. The C7 and C23 bases in the RNA aptamer do indeed interact with amino acids in the HTLV-1 Rex peptide (primarily Arg5 and Arg7), though the text does not explicitly state whether these interactions involve hydrogen bonds. We used PYMOL predicted the hydrogen bond between C23 and Arg7.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Rex16_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -421,8 +417,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 

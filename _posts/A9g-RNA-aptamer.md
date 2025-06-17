@@ -6,75 +6,8 @@ author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -136,10 +69,8 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
+<font ><p class="header_box" id="description">Description</p>
 <font >In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 apatmer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></font>
-<br>
-<br>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Aptamers can be prepared by an in vitro selection process, termed SELEX (systematic evolution of ligands by exponential enrichment) and can be used in various biological/biotechnological settings, including the development of biomaterials , and as recognition molecules in biosensors and diagnostic, gene-regulatory, therapeutic and imaging applications<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<p>
@@ -148,7 +79,7 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <font><p>Here we used ribodraw to complete the figure, through the 3D structure information. A9g RNA aptamer was the aptamer sequence mainly studied in SELEX article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p></font>
-<font><p>5'-GGGACCGAAAAAGACCUGACUUCUAUACUAAGUCUACGUUCCC-3'</p></font>
+<p>5'-GGGACCGAAAAAGACCUGACUUCUAUACUAAGUCUACGUUCCC-3'</p>
 <img src="/images/2D/A9g_aptamer_2D.svg" alt="drawing" style="width:800px;height:300px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
@@ -156,7 +87,7 @@ categories: Aptamer
 <p class="blowheader_box">3D visualisation</p>             
 <font >Ptacek J. et al.sovled the crystal structure, at 2.20 A resolution. The PDB ID of this structure is 6RTI<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
 <div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/A9g_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;">
   </td>
@@ -329,7 +260,7 @@ categories: Aptamer
 <p class="blowheader_box">Binding pocket</p>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6RTI by X-ray diffraction. GCPII (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GCPII.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/A9g_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -345,8 +276,6 @@ categories: Aptamer
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
 <p class="blowheader_box">SELEX ligand</p>
 <font >Glutamate carboxypeptidase III (GCPIII), a close paralog of PSMA with high sequence similarity, is expressed in several human tissues. Many small-molecule ligands developed as PSMA-specific inhibitors bind to human GCPIII with nanomolar affinity , which could, in principle, hamper their use in clinical applications<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
-<br>
-<br>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -474,8 +403,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

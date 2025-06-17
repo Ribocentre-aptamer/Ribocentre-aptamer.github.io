@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -162,16 +160,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1994, Famulok, M. et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Flavin mononucleotide (FMN). In 1996, Patel, D. J. et al. elucidated the structure of the aptamer complexed with FMN using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Famulok, M. et al. performed the screening using an RNA 113-mer library containing 10<sup>15</sup> different sequences, each consisting of 14 random nucleotides surrounded by two specific primer binding sites. Specifically bound RNAs (aptamers) were selected from the RNA pool by affinity chromatography with a given cofactor (FMN)-derivatized agarose. RNA sequences bound to agarose were subsequently eluted with a solution containing the appropriate ligand. After six rounds of screening, a large number of RNAs bound to FMN and NAD+ columns. From the pool of FMN-selected RNAs, the researchers cloned and sequenced 17 different clones that demonstrated the ability to specifically bind FMN. These FMN-binding RNAs contained two conserved regions with the sequences AGGNUAU and AGAAGG. 13 FMN-binding RNAs contained the two conserved regions described above, and these sequences were surrounded by variable nucleotides that were capable of pairing to form defined secondary structures. The dissociation constants of the FMN-2 aptamer/FMN complexes were determined by analytical affinity chromatography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -186,7 +180,7 @@ categories: Aptamer
 <p>Patel, D. J. et al. presented the solution structure, as determined by multidimensional NMR spectroscopy and molecular dynamics calculations, of the complex of FMN bound to the conserved internal loop segment of a 35 nucleotide RNA aptamer identified through in vitro selection. Their comprehensive study reveals the detailed interactions between FMN and the RNA aptamer, including base-pair mismatches, a base-triple formation, and the specific intercalation of FMN's isoalloxazine ring into the RNA helix, contributing to our understanding of RNA folding and molecular recognition principles. The PDB ID of this structure is 1FMN<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/FMN_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -334,7 +328,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1FMN by NMR. FMN (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with FMN.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/FMN_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -490,8 +484,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

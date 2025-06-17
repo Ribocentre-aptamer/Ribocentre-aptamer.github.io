@@ -54,8 +54,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -127,8 +125,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 apatmer is used in generation of A9-bound drug-loaded liposomes. In 2020, Barinka C et al. published on the crystal structure of human prostate-specific membrane antigen (PSMA) in complex with A9g, a 43-bp PSMA-specific RNA aptamer. This structure was determined to a resolution limit of 2.2 Å<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2002, Lupold et al. used the extracellular moiety of PSMA as a target to isolate for RNA aptamer A9 that can inhibit PSMA enzyme activity and bind to PSMA-positive cells by SELEX technology. The aptamer underwent multiple rounds of screening and amplification to obtain a binding molecule with high affinity and specificity. Two specific aptamers were selected from an initial 40-mer library of approximately 6 × 10¹⁴ random-sequence RNA molecules for their ability to bind to a recombinant protein representing the extracellular 706 amino acids of prostate-specific membrane antigen (PSMA), termed xPSM. Six rounds of in vitro selection were conducted, enriching for xPSM binding as monitored by the aptamers' inhibition of xPSM's N-acetyl-alpha-linked acid dipeptidase (NAALADase) enzymatic activity. By the sixth round, 95% of the aptamer pool consisted of just two sequences. These two aptamers, designated xPSM-A9 and xPSM-A10, were cloned and found to be unique, sharing no consensus sequences<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
@@ -148,7 +144,7 @@ categories: Aptamer
 <p>The complex is the crystal structure of human PSMA in complex with A9g, a 43-bp PSMA-specific RNA aptamer, that was determined to the 2.2 Å resolution limit. GCPII is a close homology of PSMA. A9g aptamer inhibits the enzyme activity of PSMA residing in the central/peripheral nervous system (also known as glutamate carboxypeptidase II, GCPII). The experimentally determined fold of the 43-nucleotide A9g aptamer in its PSMA-bound state is a relatively simple stem-loop structure that includes two stems termed S1 (7-base pairs) and S2 (4-base pairs), a 4 × 1 internal loop 1 (L1; 4 unpaired adenines A8–A11 on the 5′-side and an unpaired nucleotide A36 on the 3′-side) and a 16-nucleotide long hairpin loop 2 The PDB ID of this structure is 6RTI<sup>[<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GCP2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;">
   </td>
@@ -331,7 +327,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6MSF. GCPII (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GCPII.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GCP2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -347,8 +343,6 @@ categories: Aptamer
 <p class="header_box" id="ligand-recognition">Ligand information</p>  
 <p class="blowheader_box">SELEX ligand</p>
 <p>For surface plasmon resonance (SPR) measurements using the BIACore 3000 device, the KD value was calculated by global fitting of six concentrations of PSMA on a constant density A9g aptamer. The data were fitted 1:1 with the mass transfer model to calculate the kinetic parameters. The binding parameter KD of A9 aptamer was determined by filtration membrane binding assay<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
-<br>
-<br>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -500,8 +494,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -561,7 +553,7 @@ Ptacek, J., Zhang, D., Qiu, L., Kruspe, S., Motlova, L., Kolenko, P., Novakova, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

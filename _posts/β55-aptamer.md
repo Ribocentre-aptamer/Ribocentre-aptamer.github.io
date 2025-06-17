@@ -6,75 +6,8 @@ author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -147,10 +80,8 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>Starting in 2002, Jens Peter Fürste et al. screened high-affinity RNA aptamers against betaA4(1-40), providing a potential tool for applications in the analysis and diagnosis of Alzheimer's disease. Subsequently, in 2009, Hisakazu Mihara et al. screened RNA aptamers against Abeta1-40 using the systematic evolutionary ligand's exponential enrichment (SELEX) procedure, which were effective in inhibiting the aggregation of Abeta and preventing its fibrillization, demonstrating the potential to be used as therapeutic agents for Alzheimer's disease. In the same year, Gal Bitan et al. screened aptamers that, although unable to specifically recognize Abeta40 oligomers, were responsive to a wide range of amyloid fibrils and showed a high degree of sensitivity for the detection of amyloid β-fold structures, suggesting that they have the potential to be used as a highly efficient amyloid recognition tool. This series of research advances not only deepens our understanding of the application of aptamers in amyloid research, but also provides new ideas and approaches for the diagnosis and treatment of Alzheimer's disease<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -160,7 +91,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used the dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 29-48 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure.  β55 aptameraptamer binding to Amyloid beta-peptide(βA4(1-40))<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGAAUUCGAGCUCGGUACCUUUACCGUAAGGCCUGUCUUCGUUUGACAGCGGCUUGUUGACCCUCACACUUUGUACCUGCUGCCAACUGCAGGCAUGCAAGCUUGG-3'</p></font>
+<p>5'-GGGAAUUCGAGCUCGGUACCUUUACCGUAAGGCCUGUCUUCGUUUGACAGCGGCUUGUUGACCCUCACACUUUGUACCUGCUGCCAACUGCAGGCAUGCAAGCUUGG-3'</p>
 <img src="/images/2D/β55_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -251,8 +182,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

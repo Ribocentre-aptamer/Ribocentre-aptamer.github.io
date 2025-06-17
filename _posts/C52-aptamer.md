@@ -81,15 +81,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1996, Ellington, A. D. and colleagues used the SELEX method to isolate the anti-peptide aptamers with high affinity for the HIV-1 Rev protein. HIV-1 Rev protein were selected from a random sequence RNA pool. Several of the selected RNAs could bind the free peptide more tightly than a natural RNA ligand, the Rev-binding element. In accord with the hypothesis that protein and nucleic acid binding cusps are functionally similar, interactions between aptamers and the peptide target could be disrupted by sequence substitutions. Moreover, the aptamers appeared to be able to bind peptides with different solution conformations, implying an induced fit mechanism for binding. Just as anti-peptide antibodies can sometimes recognize the corresponding epitope when presented in a protein, the anti-peptide aptamers were found to specifically bind to Rev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1996, Ellington, A. D. and colleagues used existing research to design the method required for the SELEX process. The RNA recognition domain of HIV-1 Rev is an ARM that spans residues 34-50. A 17-mer peptide (sRev) corresponding to this domain was used as a target for in vitro selection experiments. A RNA pool containing 71 random sequence positions was incubated with an affinity resin containing sRev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -97,8 +93,6 @@ categories: Aptamer
 <p>5'-GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU-3'</p>
 <img src="/images/2D/C52_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -263,8 +257,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -320,7 +312,7 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

@@ -5,7 +5,7 @@ date:   2024-06-06 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -26,14 +26,12 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Using Lipofectamine 2000, the C-terminally His-tagged CD133 was transfected into HEK293T cells and allowed to express for 72 h prior to SELEX experiments, with expression confirmed by AC133 antibody staining. Similar to previous SELEX experiments, a random RNA library of approximately 1 × 10<sup>14</sup> species containing 2′-fluoro-modified ribose on all pyrimidines was incubated with HEK293T cells expressing human CD133. Unbound RNA was removed via several washing steps prior to RT-PCR, and the process was repeated for a total of 12 rounds<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures are based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>CD133-A15 aptamer: 5'-CCCUCCUACAUAGGG-3'<br>CD133-B19 aptamer: 5'-CAGAACGUAUACUAUUCUG-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<font><p>CD133-A15 aptamer: 5'-CCCUCCUACAUAGGG-3'<br>CD133-B19 aptamer: 5'-CAGAACGUAUACUAUUCUG-3'</p>
+<table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/CD133_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -42,8 +40,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
@@ -100,8 +96,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

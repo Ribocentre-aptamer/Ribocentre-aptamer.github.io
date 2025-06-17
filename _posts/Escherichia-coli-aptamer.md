@@ -20,10 +20,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2012, Lee et al. identified a RNA aptamer-based ligand which can specifically distinguish the pathogen E. coli O157:H7 from others was developed by a subtractive cell-SELEX method. The isolated RNA aptamer that distinguishes between the virulent serotype and the nonpathogenic strain specifically bound to an O157:H7-specific lipopolysaccharide which includes the O antigen<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -33,11 +31,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>I-1 was the aptamer sequence mainly studied in the article, which had a high affinity with Escherichia coli O157H7. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-UGAUUCCAUCUUCCUGGACUGUCGAAAAUUCAGUAUCGGGAGGUUACGUAUUUGGUUUAU-3'</p></font>
+<p>5'-UGAUUCCAUCUUCCUGGACUGUCGAAAAUUCAGUAUCGGGAGGUUACGUAUUUGGUUUAU-3'</p>
 <img src="/images/2D/Ecoli_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -85,8 +81,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/Ecoil_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

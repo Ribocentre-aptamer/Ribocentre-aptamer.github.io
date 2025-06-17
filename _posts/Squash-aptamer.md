@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -98,15 +96,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2022, Jaffrey, S. R. et al. evolved a naturally occurring well-folded adenine riboswitch into a fluorogenic aptamer-Squash，Squash exhibits markedly improved in-cell folding and highly efficient metabolite-dependent folding when fused to a S-adenosylmethionine (SAM)-binding aptamer. The same year, Jaffrey, S. R., & Ferré-D'Amaré, A. R. et al. reported the 2.7 Å-resolution co-crystal structure of fluorophore-bound Squash. Squash did not harbor a G-quadruplex, sandwiching its fluorophore between a base triple and a non-canonical base quadruple in a largely apolar pocket<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>To evolve the adenine aptamer into a fluorogenic aptamer, they selected for aptamers that bind to agarose-immobilized DFHBI. By the seventh round of SELEX, the pool exhibited fluorescence upon incubation with DFHBI-1T. At this point, the library was cloned into a bacterial expression vector, transformed into E. coli, and fluorescent aptamers were identified by sorting cells based on DFHBI-1T-induced fluorescence. After recovery of plasmids from the brightest cells, they found three library members which induced fluorescence activation of DFHBI-1T. For directed evolution, they synthesized a DNA library of 9–1 aptamer mutants such that each nucleotide in the ligand-binding pocket had a controlled probability of being converted into one of the other three nucleotides<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -121,7 +115,7 @@ categories: Aptamer
 <p>Determined the co-crystal structures of Squash bound to DFHBI-1T and DFHO. The structures reveal that the fluorescence turn-on aptamer retains the overall fold of the adenine riboswitch, and that the fluorophores were recognized in a binding site lacking a G-quadruplex.This showed Squash-DFHBI-1T 2.7 Å resolution co-crystal structure in here. The PDB ID of the structure is 7KVU<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/Structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/squash_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -267,7 +261,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>              
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7KVU by X-ray crystallography. DFHBI-1T(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI-1T.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/squash_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -276,8 +270,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
@@ -391,8 +383,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 

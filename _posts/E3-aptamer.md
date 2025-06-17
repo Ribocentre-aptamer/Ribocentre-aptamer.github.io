@@ -5,9 +5,7 @@ date:   2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2018, Powell Gray, B. et al. used cell selection for aptamers with prostate cancer specificity yielded the E3 aptamer, which internalizes into prostate cancer cells without targeting normal prostate cells. Chemical conjugation of E3 to the drugs monomethyl auristatin E (MMAE) and monomethyl auristatin F (MMAF) yields a potent cytotoxic agent that efficiently kills prostate cancer cells in vitro but does not affect normal prostate epithelial cells. Importantly, the E3 aptamer targets tumors in vivo and treatment with the MMAF-E3 conjugate significantly inhibits prostate cancer growth in mice, demonstrating the in vivo utility of aptamer–drug conjugates<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,11 +32,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-GGCUUUCGGGCUUUCGGCAACAUCAGCCCCUCAGCC-3'</p></font>
+<p>5'-GGCUUUCGGGCUUUCGGCAACAUCAGCCCCUCAGCC-3'</p>
 <img src="/images/2D/E3_aptamer1_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -86,8 +80,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

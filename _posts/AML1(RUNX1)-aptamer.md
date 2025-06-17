@@ -54,8 +54,6 @@ categories: Aptamer
     }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -198,8 +196,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2000, J. Warren et al. reported the crystal structure of the complex between the AML1 Runt domain and CBF at a resolution of 2.6 Å. In 2003, Asou et al. inferred that pathways associated with AML1 could be significant targets for the development of new therapeutic agents. In 2009, L. Barton et al. isolated high-affinity aptamers that modulate the affinity of RUNX1 for DNA and examined their effects on DNA binding and CBF complex formation. In 2013, Nomura et al. used nuclear magnetic resonance to elucidate the structural basis of Runt domain recognition by the aptamer motif, while Fukunaga et al. conducted SELEX to obtain RNA aptamers that bind specifically to the AML1 protein, thereby enhancing understanding of AML1 and its potential applications in the diagnosis and treatment of AML1-related diseases. In 2016, Amano et al. obtained high-affinity RNA aptamers against the Runt domain under highly stringent conditions. In 2019, Yang et al. developed a modified approach to rapidly screen for reliable, stable, and high-binding-affinity aptamers for precise cancer treatment, successfully obtaining the CD33-targeting aptamer S30, which demonstrated high recognition of the C2 domain of the CD33 antigen both in vitro and in vivo<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -221,7 +217,7 @@ categories: Aptamer
 <p>Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1)-aptamer) using nuclear magnetic resonance(NMR). Although structure of the Runt domain-aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. The PDB ID of this structure is 2RRC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/AML1_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -366,7 +362,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>This aptamer lacks a three-dimensional structure of its complex with the protein, but its binding site is similar to that of the RDE element-binding protein. We chose the complex structure of double-stranded DNA element(RDE) and AML1 to show it. The structural PDB ID is 1HJC. AML1/RUNX1 is an essential transcription factor involved in the differentiation of hematopoietic cells. AML1 binds to the Runt-binding double-stranded DNA element (RDE) of target genes through its N- terminal Runt domain. Left: Surface representation of the binding pocket. AML1/RUNX1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the DNA element bound with AML1/RUNX1.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/AML1_aptamer_binding_pockets1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -545,8 +541,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -646,7 +640,7 @@ Tan, Y., Li, Y., & Tang, F<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

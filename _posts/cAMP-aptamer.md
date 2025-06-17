@@ -6,66 +6,7 @@ author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -81,15 +22,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2000, Koizumi, M. and Breaker, R. R. isolated RNA aptamers binding to cAMPs through in vitro selection experiment. Two classes of RNA aptamers that bind the second messenger adenosine 3',5'-cyclic monophosphate (cAMP; 1) were isolated from a random-sequence pool using in vitro selection. Class I and class II aptamers are formed by 33- and 31-nucleotide RNAs, respectively, and each is comprised of similar stem-loop and single-stranded structural elements. Class II aptamers, which dominate the final selected RNA population, require divalent cations for complex formation and display a dissociation constant (K(D)) for cAMP of approximately 10 microM<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Koizumi, M. and Breaker, R. R. used SELEX to isolate two classes of RNA aptamers from a random-sequence pool containing 50 nucleotides of random sequence. After four rounds of selection, more than 20% of the RNA population bound to the cAMP-derivatized column matrix and was subsequently eluted with 4 mM cAMP. Further analysis revealed that the final selected RNA population was dominated by class II aptamers, which require divalent cations for complex formation and display a dissociation constant (KD) for cAMP of ∼10 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -209,8 +146,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

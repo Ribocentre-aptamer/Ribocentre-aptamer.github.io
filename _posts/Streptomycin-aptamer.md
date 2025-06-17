@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -146,15 +144,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1998, Schroeder, R. et al. used in vitro selection techniques to isolate aptamers with high-affinity binding sites for Streptomycin. In 2003, Ellington, A. D et al. determined the tertiary structure of the aptamer for the first time. In 2007, Schroeder, R et al. introduced a label free modified RNA aptasensor for detecting small molecules in biological samples<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Starting with a pool of 10<sup>15</sup> different DNA molecules, in vitro selection procedures were carried out to select RNAs with a high affinity for streptomycin. Affinity chromatography was performed using dihydrostreptomycin coupled to sepharose. RNA from the starting pool was applied to the dihydrostreptomycin column and specifically eluted. RNAs from the three final pools were reverse-transcribed, PCR amplified, cloned, and subjected to sequence analysis. Among the 99 clones sequenced (33 from each selection procedure), 43 were unique<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -169,7 +163,7 @@ categories: Aptamer
 <p>Ellington, A. D et al. determined the structures of complexes formed by the Streptomycin RNA aptamer at high resolution using X-ray crystallography. The structure of the Streptomycin RNA-aptamer complex was refined to a high resolution of 2.9 Å. The PDB ID for this structure is 1NTA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Streptomycin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -337,7 +331,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1NTA by X-ray. Streptomycin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with streptomycin<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Streptomycin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -491,8 +485,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 

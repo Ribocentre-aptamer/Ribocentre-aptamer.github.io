@@ -6,66 +6,7 @@ author: Jiali Wang, Bo Fu
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-    * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -81,15 +22,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2012, Aoki et al. et al. used selexed RNA aptamers (H1, H2, H3, and H4) targeting Hirome rhabdovirus (HIRRV) through an in vitro process called Systematic Evolution of Ligands by Exponential Enrichment (SELEX). These RNA aptamers are able to specifically bind to HIRRV, and when used to treat Hirome natural embryo (HINAE) cells in contact with the virus, the appearance of cytopathic effect (CPE) is reduced compared to the control group that only treated the virus. This indicates that these RNA aptamers can inhibit the growth of HIRRV. In addition, by transforming RNA aptamer genes into Rhodovulum sulfidophilum and secreting these aptamers into the culture medium, the recombinant R Sulfidophilum may be a powerful tool for preventing HIRRV infection in the aquaculture industry<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2012, Aoki et al. used an ssDNA library containing approximately 5 × 10<sup>16</sup> different sequences. After nine rounds of SELEX, they isolated 45 RNA aptamers. Four of these (H1, H2, H3, and H4) were found to specifically bind to HIRRV<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -104,8 +41,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p>  
@@ -179,8 +114,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/Structure_ligand/HIRRV_stru_ligand.svg" alt="drawing" style="width:1000px;height:300px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
          
 <p class="header_box" id="references">References</p>

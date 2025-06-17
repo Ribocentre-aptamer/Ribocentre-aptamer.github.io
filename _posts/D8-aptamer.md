@@ -6,75 +6,8 @@ author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -88,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2001,D R Engelke et al. obtained RNA aptamers for binding Sephadex by an in vitro screen, which were divided into two groups based on consensus sequences, and both showed strong binding to Sephadex G-100. The high-affinity D8 aptamer specifically bound dextran B512, the base material of Sephadex, but not isomaltose and its derivatives, suggesting that its optimal binding site contains more than four glucose residues linked by α-1,6 glycosidic bonds.The D8 aptamer was highly specific for the Sephadex substrate, and did not significantly bind other substrates. Using Sephadex G-100, this aptamer can be purified from complex cellular RNA mixtures up to 60,000-fold enrichment. These RNA aptamers can be used as affinity tags for rapid purification from complex RNA mixtures<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -101,11 +32,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. D8 aptamer binding to Sephadex G-100.<br></font>
-<font><p>5'-GGGAGUCGACCGACCAGAAGUCCGAGUAAUUUACGUUUUGAUACGGUUGCGGAACUUGCUAUGUGCGUCUACAUCUAGACUCAU-3'</p></font>
+<p>5'-GGGAGUCGACCGACCAGAAGUCCGAGUAAUUUACGUUUUGAUACGGUUGCGGAACUUGCUAUGUGCGUCUACAUCUAGACUCAU-3'</p>
 <img src="/images/2D/G-100_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -192,8 +121,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

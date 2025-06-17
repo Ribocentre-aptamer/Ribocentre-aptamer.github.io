@@ -20,10 +20,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2002, Karol Szkaradkiewicz and colleagues used in vitro selection to isolate RNA aptamers that bind to the Thermus thermophilus release factor 1 (RF1). T. thermophilus RF1 recognizes UAG stop codons in an Escherichia coli in vitro translation system. Aptamers inhibited this RF1 activity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -33,11 +31,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The minimal structures of RNA aptamers that confer binding to RF1 consist of a hairpin with the unpaired RF1-interacting sequence. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GUGUGUCAAGCCAGCCCUAGCUUGCUACCUGGGGGCCACUGACCUAU-3'</p></font>
+<p>5'-GUGUGUCAAGCCAGCCCUAGCUUGCUACCUGGGGGCCACUGACCUAU-3'</p>
 <img src="/images/2D/RNA5_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -91,8 +87,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/RNA5_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -179,8 +173,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

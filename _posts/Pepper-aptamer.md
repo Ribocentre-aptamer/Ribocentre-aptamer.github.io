@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -169,15 +167,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2019, Yang, Y et al. used the SELEX method to select aptamers that bind to HBC, identifying an RNA aptamer named 'Pepper' with its HBC complex dubbed 'Pepper530'. In 2021, Ren, A et al. determined the high-resolution X-ray crystal structures of Pepper-HBC and Pepper-HBC-like fluorophore complexes. In 2022, Piccirilli, J. A et al. employed antibody-assisted crystallography to reveal the structures of Pepper bound to HBC530 and HBC599 at 2.3 Å and 2.7 Å resolutions, respectively. Despite variations in space groups and lattice packing, the overall structures reported by both Piccirilli, J. A et al. and Yang, Y et al. show strong similarity. The analysed structures by Piccirilli, J. A et al. underscore the functional significance of the observed 3D architecture. HBC530 and HBC599 are analogues of the fluorescent molecule HBC<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In vitro selection experiments involve constructing a single-stranded (ssDNA) library that contains two 26-base random stretches, separated by a 12-base fixed sequence and flanked by constant regions at the 5' and 3' ends for PCR amplification and in vitro transcription. This ssDNA library was then used in a PCR reaction to gently amplify the library and create double-stranded DNA (dsDNA) templates for in vitro RNA synthesis. Phenol-chloroform extraction and ethanol precipitation were used to purify the RNA transcripts. RNA binding to HBC was achieved through affinity chromatography. After eight rounds, the complementary DNA was cloned into the pGEM-T Easy vector (Promega) and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -193,7 +187,7 @@ categories: Aptamer
 <p>Ren, A. et al. determined the structures of complexes formed by the Pepper aptamer bound with its cognate HBC or HBC-like fluorophores at high resolution using X-ray crystallography. The structure of the Pepper-HBC complex was refined to a high resolution of 1.64 Å. The PDB ID for this structure is 7EOH<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/HBC_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -338,7 +332,7 @@ struct_asym_id: 'A',
 <p>Piccirilli, J.A. et al. determined the structures of complexes formed by the Pepper aptamer bound with its cognate HBC530 or HBC599 at high resolution using X-ray crystallography. The structure of the Pepper aptamer binding to both HBC530 and HBC599 is identical, yet the binding ligands differ. BL3-6 Fab serves as a molecular chaperone protein for assisting in crystallization. The structure of the Pepper-HBC599 complex was refined to a high resolution of 2.7 Å. The PDB ID for this structure is 7U0Y<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/HBC599_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -533,7 +527,7 @@ struct_asym_id: 'R',
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7EOH with 1.64 Å resolution, as determined by X-ray crystallography. (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile (HBC) (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HBC_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -545,7 +539,7 @@ struct_asym_id: 'R',
   <br>
             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7U0Y with 2.7 Å resolution, as determined by X-ray crystallography. HBC599 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC599.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HBC599_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -708,8 +702,6 @@ struct_asym_id: 'R',
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

@@ -6,75 +6,8 @@ author: Baowei Huang, Yuxuan Sun
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -129,10 +62,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2019, RNA aptamer-based assay platform designated as the "LIgand-REceptor Complex-binding APtamer," or "LIRECAP," assay that allows for quantification of the fraction of receptors occupied by a ligand was developed and used to measure the fraction of soluble CD25 occupied by IL2 in the serum of subjects with B-cell lymphoma<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<font>In 2019, RNA aptamer-based assay platform designated as the "LIgand-REceptor Complex-binding APtamer," or "LIRECAP," assay that allows for quantification of the fraction of receptors occupied by a ligand was developed and used to measure the fraction of soluble CD25 occupied by IL2 in the serum of subjects with B-cell lymphoma<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -141,12 +72,10 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.<br></font>
-<font><p>5'-GGGAGGACGAUGCGGUGAGUCGUUCCCUUCGUCCCCAGACGACUCGCCCGA-3'</p></font>
+<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
+<p>5'-GGGAGGACGAUGCGGUGAGUCGUUCCCUUCGUCCCCAGACGACUCGCCCGA-3'</p>
 <img src="/images/2D/CD25_apatamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -233,8 +162,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/CD25_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -320,8 +247,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

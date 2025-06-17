@@ -5,7 +5,7 @@ date:   2024-05-01 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -20,15 +20,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2005, Coen, D. M et al. used the SELEX method to select RNA aptamers that could specifically bind to the US11 protein of Herpes simplex virus-1 (HSV-1). These aptamers were selected from 80 base sequences with 30 random base regions. These findings contribute to a further understanding of the RNA binding characteristics of HSV-1 US11 protein and may provide clues for studying how viruses regulate gene expression in host cells<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2005, Coen, D. M et al. conducted an in vitro selection of RNA aptamers binding to US11 from an RNA library comprising over 10<sup>14</sup> 80-nucleotide sequences, which varied in a 30-base randomised region. They carried out 12 rounds of automated selection for aptamers that bound MBP-US11. A total of 23 selected aptamers were cloned and sequenced, and a consensus emerged from these sequences: UUCGCAAUYCUGCAYUG (where Y denotes a pyrimidine base)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -128,8 +124,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 <p class="header_box" id="references">References</p>
@@ -159,7 +153,7 @@ Bryant, K. F., Cox, J. C., Wang, H., Hogle, J. M., Ellington, A. D., & Coen, D. 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

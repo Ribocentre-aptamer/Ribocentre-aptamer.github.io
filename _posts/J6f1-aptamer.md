@@ -6,66 +6,7 @@ author: Linfei Li, Yuhang Luo
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -81,15 +22,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1995, Wang, Y., & Rando, R. R. reported on the selection of RNA aptamers which were directed against the aminoglycoside tobramycin. In 1998, Hamasaki and Rando were reported here which are designed to reveal the nature of the tobramycin binding domain of J6. Experiments was reported here which was designed to reveal the nature of the tobramycin binding domain of J6 aptamer. A small (40 nts) stem-loop derivative of J6 aptamer, containing a 3 nt and a 1 nt bulge, stoichiometrically binds tobramycin with a dissociation constant of approximately 5 nM. These studies demonstrated that simplified RNA molecules can be generated which bind aminoglycosides specifically and with high affinities. J6f1 is a truncated mutant of J6 aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Rando, R. R. et al. used SELEX to isolate high-affinity RNA aptamers that specifically bind the aminoglycoside tobramycin. Starting from a 109-nucleotide aptamer (J6) with a dissociation constant of 0.77 ± 0.03 nM for tobramycin, they simplified the construct to a 39-nucleotide aptamer (J6e) that retained high affinity (KD = 58.2 ± 13.1 nM) and specificity for tobramycin. Further modifications led to a 40-nucleotide aptamer (J6f1) with a KD of 5.15 ± 1.52 nM, demonstrating that simplified RNA constructs can maintain high-affinity and specific aminoglycoside binding<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -216,8 +153,6 @@ categories: Aptamer
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

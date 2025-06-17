@@ -76,15 +76,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2002, Tomei, L. and colleagues isolated RNA aptamers that bind specifically to the HCV NS5B polymerase (HCV NS5BΔC55 protein). It is worth mentioning that the full-length purified enzyme has a very poor catalytic activity. Deletions of the C-terminal membrane localization signal have allowed the production of proteins with enhanced solubility and activity. Therefore, the NS5B protein lacking of the C-terminal 55 amino acids was used in this study<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2002, Tomei, L. and colleagues selected a structurally constrained combinatorial RNA library by using the SELEX procedure to isolate high affinity RNA ligands for the HCV NS5B polymerase (HCV NS5BΔC55 protein). The library contained 35-nt random sequences in two segments of 25 and 10 nt, divided by a constant core sequence of 10 nt. This was in turn flanked by 18-nt constant regions at the 5' and 3' ends, respectively. Initially, the randomized RNA pool was challenged with streptavidin beads coated with biotinylated NS5BΔC55 protein (NS5BΔC55bio), and the complexed RNA was eluted, amplified (reverse transcription and PCR), and in vitro transcribed by using T7 RNA polymerase in the presence of a labeled nucleotide tracer. The products of transcription were used as an RNA pool for the next cycle of selection. At the fourth selection cycle, the RNA pool was roughly 140-fold enriched in the molecules with high binding affinity for NS5BΔC55bio. As already noticed, in the case of structurally constrained RNA libraries additional selection cycles failed to increase the amount of the selected RNA. Therefore, the PCR DNA from the fourth cycle was cloned, the nucleotide sequences of 15 individual clones were determined, and their structural motifs were analyzed. Based on the presence of common sequence motifs, the clones were grouped in three families<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -260,8 +256,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -316,7 +310,7 @@ Kim, T. H., & Lee, S. W.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

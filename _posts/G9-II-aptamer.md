@@ -87,16 +87,12 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2000, Nishikawa, S. and colleagues isolated RNA aptamers that bind specifically to the NS3 protease active site in the truncated polypeptide DeltaNS3. RNA aptamers were selected in vitro by systematic evolution of ligands by exponential enrichment (SELEX). The RNA pool for SELEX had a 30-nucleotide randomized core region. After nine selection cycles, a pool of DeltaNS3-specific RNA aptamers were obtained. This RNA pool included 45 clones that divided into three main classes (G9-I, II and III). These classes include the conserved sequence GA(A/U)UGGGAC. These aptamers bind to DeltaNS3 with a binding constant of about 10 nM and inhibit approximately 90% of the protease activity of DeltaNS3 and MBP-NS3 (full-length of NS3 fused with maltose binding protein). In addition, these aptamers inhibited approximately 70% of the MBP-NS3 protease activity in the presence of the NS4A peptide P41. G9-I aptamer appeared to be a noncompetitive inhibitor for DeltaNS3 with a Ki approximately 100 nM in the presence of P41. These results suggest that the pool of selected aptamers have potential as anti-HCV compounds<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Nishikawa, S. and colleagues designed a selecting method based on existing research. The RNA pool for SELEX had a 30-nucleotide randomized core region. After nine selection cycles, a pool of ΔNS3-specific RNA aptamers were obtained. This RNA pool included 45 clones that divided into three main classes (G9-I, II and III). These classes include the conserved sequence GA(A/U)UGGGAC<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -104,8 +100,6 @@ categories: Aptamer
 <p>5'-GGGAGAAUUCCGACCAGAAGUGCUCUUAGAAUGGGACUAAGACACGGGACCCUUUCCUCUCUCCUUCCUCUUCU-3'</p>
 <img src="/images/2D/G9-II_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -270,8 +264,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -331,7 +323,7 @@ Vaughan, R., Li, Y., Fan, B., Ranjith-Kumar, C. T., & Kao, C. C.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

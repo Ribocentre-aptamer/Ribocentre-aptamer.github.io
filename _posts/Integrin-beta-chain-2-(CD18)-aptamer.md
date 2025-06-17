@@ -5,7 +5,7 @@ date:   2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -21,15 +21,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>Famulok, M. et al. reported aptamers with affinity for CD18 in their article published in 1998. The TR-D28 aptamer was named by Famulok, M. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In their work published in 1999, Famulok, M. et al. used SELEX to isolate RNA aptamer sequences with affinity for CD18 from a nucleic acid library containing about 5×10<sup>14</sup> sequences after 11 rounds of selection process. Proteins was pre-linked with agarose beads before co-incubation with nucleic acid libraries<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -37,8 +33,6 @@ categories: Aptamer
 <p>5'-GGGCGCUAAGUCCUCGCUCAUACAACGAGGGGUCGUGUAGGGAUGUAUGGGCUUGGACACACGCGCGACUCGGAUCCUAC-3'</p>
 <img src="/images/2D/TR-D28_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -199,8 +193,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -229,7 +221,7 @@ Blind, M., Kolanus, W., & Famulok, M.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

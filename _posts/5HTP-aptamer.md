@@ -21,8 +21,6 @@ categories: Aptamer
 
 </style>
 </head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -38,8 +36,6 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2017, Batey, R. T. et al. exploits the secondary and tertiary structural architecture of naturally evolved riboswitches and ribozymes to scaffold small molecule binding pockets raised through in vitro selection. This method was applied to neurotransmitter precursors 5-hydroxytryptophan and 3,4-dihydroxyphenylalanine, yielding aptamers that are easy to recognize and characterize. Additionally, nucleic acid sensing devices were designed to function both in vitro and in cellular environments. Moreover, the crystal structure of the complex between 5-hydroxytryptophan and the selected aptamer was resolved at a resolution of 2 Å using X-ray crystallography<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -59,7 +55,7 @@ categories: Aptamer
 <p>Batey, R. T. et al. obtained the structure of the 5HTP aptamer by X-ray crystallography, which was obtained after screening based on the in vitro selection of three-dimensional structurally important points (SELEX) method. This structure shows details of 5HTP binding to the RNA aptamer, including the 3D structure of the RNA and details of the interaction with 5HTP. The resolution of this structure is 2.0 Å. In the structure, 5HTP is localized in the three-dimensional junction structure of RNA, with which it hydrogen bonds and stacking interactions mainly through nucleotides in the J2/3 region. In addition, the recognition of 5HTP interacts with a specific T-loop in the RNA structure, which is essential for the high affinity and specific binding of 5HTP.The PDB ID of this structure is 5KPY<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/5HTP_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -229,7 +225,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5KPY by X-ray crystallography. 5-HTP (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with 5HTP.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/5HTP_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -392,8 +388,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

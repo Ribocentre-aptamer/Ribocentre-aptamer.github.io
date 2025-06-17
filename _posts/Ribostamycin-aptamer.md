@@ -5,7 +5,7 @@ date:   2025-03-17 00:00:00
 author: Jiali Wang, Ke Chen
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -76,14 +76,10 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2008, Suess, B. et al. developed a two-stage strategy of in vitro selection followed by a genetic screen and identified several artificial small molecule-binding riboswitches that respond to the aminoglycoside neomycin. They display no sequence similarities to in vitro selected neomycin aptamers but contain parts of the decoding site that is the binding site for neomycin on the ribosomal RNA. In 2016, Wöhnert, J. et al. explored the mechanism of ligand discrimination (neomycin, paromomycin, ribostamycin) by neomycin synthetic riboswitches at atomic resolution and determined the structures of the 27 nucleotides engineered neomycin sensing riboswitch RNA-ribostamycin complex and the neomycin sensing riboswitch RNA bound to paromomycin using NMR, but failed to resolve the structure of the neomycin synthetic riboswitch<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref5" style="color:#520049">5</a>]</sup>.<br></p>
-<br>
-<br>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2008, Suess, B. et al. used an in vitro selection (Systematic Evolution of Ligands by EXponential enrichment, SELEX) method and in vivo genetic screen to identify neomycin riboswitches controlling translation initiation. They enriched an RNA pool for neomycin B binding through six in vitro selection cycles. This pool had a 74-nucleotide random region between constant parts and was inserted before a gfp reporter gene in a yeast vector, generating 5 × 10⁴ sequences for in vivo screening. Yeast cells were transformed and screened in two steps: first for gene expression without ligand, then for neomycin-dependent regulation. This yielded 30 candidates with neomycin-dependent fluorescence decrease. Sequence analysis found 10 unique candidates with a fully conserved 16-nucleotide sequence in the top two and partially in others. The sequences of Ribomycin aptamer and Paromycin aptamer come from here<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -100,7 +96,7 @@ categories: Aptamer
 <p>The solution structure of the 27 nucleotides engineered neomycin sensing riboswitch RNA-ribostamycin complex was determined by Suess, B. et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 2N0J<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Ribostamycin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -234,7 +230,7 @@ categories: Aptamer
 <p>The solution structure of the neomycin sensing riboswitch RNA bound to paromomycin was determined by Michael Famulok et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 2MXS<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Paromomycin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -369,7 +365,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2N0J by NMR. Ribostamycin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with ribostamycin.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Ribostamycin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -381,7 +377,7 @@ categories: Aptamer
   <br>
             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2MXS by NMR. Paromomycin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with paromomycin.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Paromomycin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -546,8 +542,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

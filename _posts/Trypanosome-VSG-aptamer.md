@@ -5,7 +5,7 @@ date:   2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -79,10 +79,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 1999, Homann, M., & Göringer, H. U. described the selection of three classes of RNA aptamers that crosslink to a single 42 kDa protein located within the flagellar pocket of the parasite. The RNAs associate rapidly and with high affinity. In 2003, Göringer, H. U. had employed a systematic method known as SELEX to identify compact RNA molecules, termed aptamers, which exhibit a strong binding affinity for VSGs, reaching subnanomolar levels. These RNA molecules possess the ability to distinguish between various VSG types and can adhere to the exterior of active trypanosome cells. Furthermore, when these aptamers are attached to a specific antigenic component, they can facilitate the targeting of antibodies to the parasite's surface in laboratory settings<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -91,17 +89,14 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-CGUCCAUCGGGUGGCCCGUGUCUGAGCGGGGACGGGGACUUGAGCGCCGCUGUCCGACUGAAUU-3'</p></font>
+<font>The 2D structure of the figures is based on the article by ribodraw tool to draw.</font>
+<p>5'-CGUCCAUCGGGUGGCCCGUGUCUGAGCGGGGACGGGGACUUGAGCGCCGCUGUCCGACUGAAUU-3'</p>
 <img src="/images/2D/2-16_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
-
+<p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
 <p>Variant surface glycoprotein (VSG) is a ~60kDa protein which densely packs the cell surface of protozoan parasites belonging to the genus Trypanosoma. This genus is notable for their cell surface proteins. They were first isolated from Trypanosoma brucei in 1975 by George Cross. VSG allows the trypanosomatid parasites to evade the mammalian host's immune system by extensive antigenic variation. They form a 12–15 nm surface coat. VSG dimers make up ~90% of all cell surface protein and ~10% of total cell protein.-----From WiKi</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
@@ -236,8 +231,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 

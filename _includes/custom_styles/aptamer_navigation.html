@@ -50,6 +50,8 @@
 
   // 自动生成导航菜单
   document.addEventListener('DOMContentLoaded', function() {
+    console.time('aptamer_init');
+    console.log('aptamer_navigation init');
     // 查找页面中的所有一级标题
     const headers = document.querySelectorAll('.header_box[id], h2[id], .section-title[id]');
     const navItemsContainer = document.getElementById('navItems');
@@ -132,6 +134,14 @@
       // 插入 wrapper 于 header 之前
       header.parentNode.insertBefore(wrapper, header);
 
+      // 若 header 前连续存在 <br>，一起移入 wrapper，避免残留
+      let prevNode = wrapper.previousSibling;
+      while (prevNode && prevNode.nodeType === 1 && prevNode.tagName === 'BR') {
+        const move = prevNode;
+        prevNode = move.previousSibling;
+        wrapper.insertBefore(move, wrapper.firstChild);
+      }
+
       // 将当前 header 及随后到下一个 header 之前的节点全部移动进 wrapper
       const nextHeader = sectionHeaders[idx + 1];
       let node = header;
@@ -153,6 +163,122 @@
         node = next;
       }
     });
+
+    /* ---------- 自动识别并包裹序列段落 ---------- */
+    const seqRegex = /^\s*5[''']-[AUCGaucg\s]+-3[''']\s*$/;
+    document.querySelectorAll('.post-content p').forEach(p => {
+      if (p.classList.contains('sequence')) return;
+      if (seqRegex.test(p.textContent)) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'sequence';
+        p.parentNode.insertBefore(wrapper, p);
+        wrapper.appendChild(p);
+
+        // 彩色并分组显示
+        const raw = p.textContent.trim();
+        const colorMap = { 'A':'base-A', 'U':'base-U', 'T':'base-U', 'C':'base-C', 'G':'base-G' };
+        let html=''; let count=0;
+        for(const ch of raw){
+          if(/['-\d]/.test(ch)){
+            if(html.endsWith(' ')) html = html.slice(0,-1);
+            html+=ch;
+            continue;
+          }
+          const cls = colorMap[ch.toUpperCase()]||'';
+          html += cls?`<span class="${cls}">${ch}</span>`:ch;
+          count++;
+          if(count%5===0) html+=' ';
+        }
+        p.innerHTML = html;
+      }
+    });
+
+    /* ---------- 表格序列列启用 tooltip 与复制 ---------- */
+    const tables = document.querySelectorAll('table');
+    tables.forEach(tb => {
+      const headerCells = Array.from(tb.querySelectorAll('thead th'));
+      let seqCol = -1;
+      headerCells.forEach((th, idx) => {
+        const text = th.textContent.toLowerCase();
+        if (text.includes('sequence')) {
+          seqCol = idx;
+        }
+      });
+      if (seqCol === -1) return;
+
+      const rows = tb.querySelectorAll('tbody tr');
+      rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        if (cells.length <= seqCol) return;
+        const cell = cells[seqCol];
+        const fullSeqRaw = cell.textContent.trim();
+        const fullSeq = fullSeqRaw.replace(/\s+/g, '');
+        if (fullSeq.length <= 40) return; // 短序列不用截断
+
+        cell.dataset.fullSeq = fullSeq;
+        const shortText = fullSeq.slice(0, 20) + '…';
+        cell.textContent = shortText;
+
+        cell.style.cursor = 'pointer';
+
+        // 生成着色 HTML
+        const colorMapNuc = { 'A':'base-A', 'U':'base-U', 'T':'base-U', 'C':'base-C', 'G':'base-G' };
+        const colorMapAA = { 'A':'base-G', 'V':'base-G', 'I':'base-G', 'L':'base-G', 'M':'base-G', /* 非极性绿系 */
+                            'F':'base-U', 'Y':'base-U', 'W':'base-U', /* 芳香蓝系 */
+                            'S':'base-C', 'T':'base-C', 'N':'base-C', 'Q':'base-C', /* 极性黄系 */
+                            'K':'base-A', 'R':'base-A', 'H':'base-A', /* 正电红系 */
+                            'D':'base-U', 'E':'base-U', /* 负电蓝系 */
+                            'C':'base-C', 'P':'base-C' };
+
+        const isNuc = /^[AUCGTaucgt\s'-]+$/.test(fullSeqRaw);
+        const buildColored = (seq) => {
+          let html = '';
+          for (const ch of seq) {
+            if (ch === "'" || ch === '-' ) { html += ch; continue; }
+            const cls = (isNuc ? colorMapNuc[ch.toUpperCase()] : colorMapAA[ch.toUpperCase()]) || '';
+            html += cls ? `<span class="${cls}">${ch}</span>` : ch;
+          }
+          return html;
+        };
+
+        const tooltipHtml = `${buildColored(fullSeqRaw)}<br><em style='font-size:12px;'>Click to copy</em>`;
+
+        const showTip = (e) => {
+          if (window.showAmirTooltip) {
+            window.showAmirTooltip(tooltipHtml, e.clientX, e.clientY, e);
+          } else {
+            cell.title = fullSeq; // fallback
+          }
+        };
+        const hideTip = () => {
+          if (window.hideAmirTooltip) window.hideAmirTooltip();
+        };
+        cell.addEventListener('mouseenter', showTip);
+        cell.addEventListener('mousemove', showTip);
+        cell.addEventListener('mouseleave', hideTip);
+        cell.addEventListener('click', (evt) => {
+          navigator.clipboard.writeText(fullSeq).then(()=>{
+            const toast = document.createElement('div');
+            toast.textContent = 'Copied!';
+            toast.style.position = 'fixed';
+            toast.style.top = (evt.clientY - 40) + 'px';
+            toast.style.left = (evt.clientX - 20) + 'px';
+            toast.style.padding = '4px 8px';
+            toast.style.background = 'rgba(0,0,0,0.8)';
+            toast.style.color = '#fff';
+            toast.style.borderRadius = '4px';
+            toast.style.fontSize = '12px';
+            toast.style.zIndex = 2000;
+            document.body.appendChild(toast);
+            setTimeout(()=>toast.remove(), 1500);
+          }).catch(()=>{});
+        });
+      });
+    });
+
+    // 提示：如需序列着色，可在此处重新启用相应代码。
+
+    console.timeEnd('aptamer_init');
   });
 
   // Timeline动画效果

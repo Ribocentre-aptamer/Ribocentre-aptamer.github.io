@@ -5,9 +5,7 @@ date:   2024-05-22 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -83,10 +81,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2007, Zhen Huang et al. used the SELEX method to isolate the aptamer with high compatibility for the Recombinant GluR2Qflip AMPA receptor transiently expressed in HEK-293 (human embryonic kidney) cells. The excessive activation of AMPA (α-amino-3-hydroxy-5-methyl-4-isoxazole propionic acid) receptors, a subtype of glutamate ion channels, has been implicated in various neurological diseases such as cerebral ischemeia and amyotrophic lateral sclerosis. Inhibitors of AMPA receptors are drug candidates for potential treatment of these diseases. One of the aptamers, AN58, is shown to competitively inhibit the receptor. The nanomolar affinity of AN58 rivals that of NBQX (6-nitro-7-sulfamoyl-benzo[f]quinoxaline-2,3-dione), one of the best competitive inhibitors<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -96,11 +92,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-GGGCGAAUUCAACUGCCAUCUAGGCAGUAACCAGGAGUUAGUAGGACAAGUUUCGUCC-3'</p></font>
+<p>5'-GGGCGAAUUCAACUGCCAUCUAGGCAGUAACCAGGAGUUAGUAGGACAAGUUUCGUCC-3'</p>
 <img src="/images/2D/AN58_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -241,8 +235,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

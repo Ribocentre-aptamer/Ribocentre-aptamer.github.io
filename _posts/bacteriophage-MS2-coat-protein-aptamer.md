@@ -83,8 +83,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1992, Craig Tuerk and Larry Gold et al. used the SELEX method to isolate the aptamer with high compatibility for the Bacteriophage R17 Coat Protein. Sequences 1-38 were isolated from the sequence pool, where sequences 7, 12, and 22 detected affinity and Bacteriophage R17 coat proteins. Afterwards, In 1998, S E Phillips and P G Stockley et al. They obtained F6 aptamer by analyzing natural wild-type RNA and truncating the mutation, and determined the complex structure of this aptamer with wild type MS2 coat protein by X-ray crystallographic methods<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a>]</sup>. The F6 aptamer was named by Liljas et al. in the article<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -106,7 +104,7 @@ categories: Aptamer
 <p>In 1998, Stockley PG and Liljas L et al. determined the crystal structure, resolved to 2.8 Å, of an RNA aptamer bound to bacteriophage MS2 coat protein. It provided an opportunity to compare the interactions of MS2 coat protein and wild type operator with those of an aptamer, whose secondary structure differed from the wild type RNA by having a three-base loop (as opposed to a tetraloop) and an additional base pair between this loop and the sequence-specific recognition element in the stem. The PDB ID of this structure is 6MSF<sup>[<a href="#ref5" style="color:#520049" >5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MS2_coat_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -218,7 +216,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6MSF at 2.8 Å resolution. MS2 coat protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with MS2 coat protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/MS2_coat_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -390,8 +388,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

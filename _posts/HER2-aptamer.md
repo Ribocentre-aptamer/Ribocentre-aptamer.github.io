@@ -5,9 +5,7 @@ date:   2024-06-06 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -23,10 +21,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2015, Moosavian, S. A. et al. isolate RNA aptamers that specifically bind to HER2 overexpressing TUBO cell line. Among them TSA14 aptamer had the most affinity for target cells. Different experiments showed that the interaction of TSA14 aptamer with TUBO cells is mediated by binding to the extracellular domain of HER2<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -36,7 +32,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures are based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>TSA14 aptamer: 5'-GCUGGAGCAUUUAUGGAUGAACCUUGGACGGAA-3'<br>TSA12 aptamer: 5'-GAAAGUGAGAGUCGAUUUAGCAACAGAGAGUGAGG-3'</p></font>
+<font><p>TSA14 aptamer: 5'-GCUGGAGCAUUUAUGGAUGAACCUUGGACGGAA-3'<br>TSA12 aptamer: 5'-GAAAGUGAGAGUCGAUUUAGCAACAGAGAGUGAGG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/her2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -46,8 +42,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
@@ -193,8 +187,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 

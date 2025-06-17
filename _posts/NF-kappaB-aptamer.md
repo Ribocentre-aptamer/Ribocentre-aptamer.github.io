@@ -20,8 +20,6 @@ categories: Aptamer
   /* 移除重复的样式定义，使用header.html中的统一样式 */
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -108,8 +106,6 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1999, L.J.Maher 3rd isolated an aptamer that binds to NF-kappaB p50, and its crystal structure was determined in 2003. The results of competition experiments demonstrated that the binding of the RNA aptamer blocked the ability of NF-kappa B to bind to duplex DNA. Expression of this aptamer structure within heterologous nuclear RNA transcripts may provide a novel strategy to inhibit NF-kappa B function in vivo. In 2008, He selected an RNA aptamer against NF-kappaB p65 and reported the characterisation of these aptamers with respect to NF-kappaB target specificity, affinity, minimal sequence requirements, secondary structure, and competition with DNA kappaB sites<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -133,7 +129,7 @@ categories: Aptamer
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div>
 <p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/NF-kB_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -263,7 +259,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1OOA at 2.45 Å resolution. NF-kB(p50)  protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with NF-kB(p50) protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/NF-kB_aptamer_bingding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -456,8 +452,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -524,7 +518,7 @@ Wurster, S. E., Bida, J. P., Her, Y. F., & Maher, L. J., 3rd.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

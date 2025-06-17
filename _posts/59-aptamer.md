@@ -5,9 +5,7 @@ date:   2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -24,10 +22,8 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="description">Description</p></font>
+<font ><p class="header_box" id="description">Description</p>
 <font >In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high affinity for the HIV-1 Rev protein. It can competitively bind Rev protein with RRE, thereby preventing RRE from interacting with Rev protein. Refer to the RBA-14 aptamer page for specific aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -37,7 +33,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>59 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Rev protein. The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-AUUCUGGCUUCGUACGCAAGUAUGAUGAUACAG-3'</p></font>
+<p>5'-AUUCUGGCUUCGUACGCAAGUAUGAUGAUACAG-3'</p>
 <img src="/images/2D/59_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   
 </div>
@@ -111,8 +107,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/59_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 

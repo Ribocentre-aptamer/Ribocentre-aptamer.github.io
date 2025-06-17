@@ -49,8 +49,6 @@ categories: Aptamer
         }
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -106,15 +104,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1998, Szostak, J employed in vitro selection techniques to isolate aptamers with affinity binding sites for biotin. In 2000, Nix, J. C. determined the 1.3 Å crystal structure of the aptamer complexed with biotin. Biotin is bound at the interface between the pseudoknot's stacked helices in a pocket defined almost entirely by base-paired nucleotides. The structure provides general insight into the mechanisms by which RNA function is mediated by divalent metals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>A randomized RNA library, consisting of approximately 10<sup>14</sup> molecules, was synthesized via in vitro transcription from a DNA template and resuspended in a selection buffer comprising 0.1 M KCl, 5 mM MgCl2, and 10 mM Na-HEPES at pH 7.4. Following equilibration at ambient temperature, the RNA pool was applied to a 500 μL biotin-agarose affinity column to selectively bind biotin-interacting RNAs. Non-specific binders were eliminated through a series of 15 washes with 500 μL of the selection buffer. The biotinylated RNAs were eluted using 5 volumes of 500 μL elution buffer, which was the selection buffer supplemented with 5 mM D-biotin at pH 7.4. The affinity-purified RNAs were then pooled, concentrated, and subjected to enzymatic amplification. The resulting enriched RNA pool underwent gel purification and was cycled through additional rounds of selection and amplification. Biotin-binding RNA species were first identified in the fourth selection round, and by the seventh round, these RNAs constituted over 50% of the total sequences present in the pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>
-<br>
-<br>
 
 
 
@@ -131,7 +125,7 @@ categories: Aptamer
 <p>Nix et al. determined the structure of the biotin RNA aptamer using X-ray crystallography at a resolution of 1.3 Å. The aptamer structure revealed how a highly complementary binding pocket for an unusual ligand can be constructed by an RNA molecule, primarily using Watson-Crick base-paired nucleotides and a collection of bound solvent molecules. The PDB ID for this structure is 1F27<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -267,7 +261,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F27 by X-ray crystallography. Biotin (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Biotin.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/biotin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -427,8 +421,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

@@ -19,10 +19,8 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2017, Jung Hoon Lee and colleagues used SELEX (Systematic Evolution of Ligands by Exponential enrichment) technique to isolate high affinity RNA aptamers that bind to the UCH37 protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -32,11 +30,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGUUCACUGCAGACUUGACGAAGCUUGGAGGGCAUGCUUCGGGCAAACCUGUAGGGGUGCGGCUCUAAUGGAUCCACAUCUACGAAUUC-3'</p></font>
+<p>5'-GGGUUCACUGCAGACUUGACGAAGCUUGGAGGGCAUGCUUCGGGCAAACCUGUAGGGGUGCGGCUCUAAUGGAUCCACAUCUACGAAUUC-3'</p>
 <img src="/images/2D/UCH37_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -90,8 +86,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/UCH37_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -177,8 +171,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

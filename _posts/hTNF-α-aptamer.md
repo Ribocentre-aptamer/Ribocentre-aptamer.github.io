@@ -5,9 +5,7 @@ date:   2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 
 
@@ -56,10 +54,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 2004, Xinrui Yan and Zhang Z used the SELEX (systematic evolution of ligands by exponential enrichment) process, we isolated oligonucleotide ligands (aptamers) with high affinities for hTNFalpha. Aptamers were selected from a starting pool of 40 randomized sequences composed of about 10(15) RNA molecules<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -69,11 +65,9 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGAGGACGAUGUUACGCAUCGUUUGCGUGGCGUGUCCGGGCGCAAGAAGACUCGCAAGA-3'</p></font>
+<p>5'-GGGAGGACGAUGUUACGCAUCGUUUGCGUGGCGUGUCCGGGCGCAAGAAGACUCGCAAGA-3'</p>
 <img src="/images/2D/T1.7.5_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -347,8 +341,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

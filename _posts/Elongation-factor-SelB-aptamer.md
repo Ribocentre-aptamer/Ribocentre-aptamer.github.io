@@ -20,10 +20,8 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
+<p class="header_box" id="description">Description</p>
 <font>In 1997, Stefanie J. Klug and colleagues used in vitro selection to isolate RNA aptamers that bind to the special elongation factor SelB. SelB-binding variants of the SelB-responsive wild-type fdhF mRNA hairpin, which allow for the dissection of SelB binding from the overall biological function of this mRNA secondary structure. In 1999, Stefanie J. Klug and colleagues used in vitro selection to isolate RNA aptamers that bind to the special elongation factor SelB. They found that the vast majority of aptamers bound to the ultimate C-terminus of SelB, the domain responsible for mRNA hairpin binding<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></font>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -33,7 +31,7 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The RNA aptamers all have highly conserved regions that correspond to the apical stem-loop structure of wild-type fdhF mRNA hairpins. The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>488 aptamer: 5'-GCCAUAAGUUGUCCCAAGUCUUGGGCGCAAAUACAUCCC-3'<br>945 aptamer: 5'-GUCACUGACCAUCUGUCGCAGGUCUGCGCACAUCGGUCGUU-3'</p></font>
+<font><p>488 aptamer: 5'-GCCAUAAGUUGUCCCAAGUCUUGGGCGCAAAUACAUCCC-3'<br>945 aptamer: 5'-GUCACUGACCAUCUGUCGCAGGUCUGCGCACAUCGGUCGUU-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/SelB_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
@@ -43,8 +41,6 @@ categories: Aptamer
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 <font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
@@ -110,8 +106,6 @@ categories: Aptamer
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/SelB_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
@@ -197,8 +191,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 

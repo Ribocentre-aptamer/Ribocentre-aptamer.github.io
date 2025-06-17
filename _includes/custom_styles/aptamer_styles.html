@@ -21,9 +21,27 @@
 
   /* 段落样式优化 */
   p {
-    margin-bottom: 18px;
+    margin-bottom: 0px;
     text-align: justify;
     text-justify: inter-word;
+  }
+
+  /* 段落首字母样式 (正文全部段落) */
+  .post-content p::first-letter,
+  .content-section p::first-letter {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--primary-color);
+  }
+
+  /* 追加：当首字母被 <font> / <span> 等包裹 */
+  .post-content p > font ::first-letter,
+  .content-section p > font ::first-letter,
+  .post-content p > span::first-letter,
+  .content-section p > span::first-letter {  
+      font-weight: 700;
+      font-size: 1.2em;
+      color: var(--primary-color);
   }
 
   /* 首字母加粗效果 */
@@ -48,9 +66,12 @@
   }
 
   .blowheader_box::before {
-    content: '▶';
+    content: '';
+    display: inline-block;
     margin-right: 10px;
-    font-size: 0.9em;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 8px solid #ffffff;
   }
 
   .blowheader_box::after {
@@ -461,7 +482,7 @@
   /* 调整Similar compound表格列宽 */
   .table th:nth-child(1), 
   .table td:nth-child(1) {
-    width: 12%;
+    width: 18%;
   }
   
   .table th:nth-child(2), 
@@ -476,7 +497,7 @@
   
   .table th:nth-child(4), 
   .table td:nth-child(4) {
-    width: 12%;
+    width: 18%;
   }
   
   .table th:nth-child(5), 
@@ -810,4 +831,10 @@
     border: 1px solid #C9C9C9;
     background-color: #fff;
   } */
+
+  /* 核苷酸颜色 */
+  .base-A { color: #c0392b; } /* 深红 */
+  .base-U { color: #1565c0; } /* 深蓝 */
+  .base-C { color: #d4ac0d; } /* 深黄 */
+  .base-G { color: #1b5e20; } /* 深绿 */
 </style> 
