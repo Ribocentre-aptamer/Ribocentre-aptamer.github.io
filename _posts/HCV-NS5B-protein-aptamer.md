@@ -30,7 +30,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figures are based on the article by ribodraw tool to draw. R20-43 apatamer and R20-15 aptamer bind to hepatitis C virus NS5B protein (HCV NS5B protein). R20-43 and R20-15 aptamer was named by  Lai, M. M et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>R20-43 aptamer: 5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGAGACUUUUCGAAAAGCGUGUUCCCAAUGAGUCUAUGCAUGCAUGAGGCCCGGAUCCGGC-3'<br>R20-15 aptamer: 5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGGCUAGUACCGACCUGCGUGCCUCGCUCCUUUUCAUGCAUGCAUGAGGCCCGGAUCCGGC-3'</p>
+<p>R20-43 aptamer: </p>
+<p>5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGAGACUUUUCGAAAAGCGUGUUCCCAAUGAGUCUAUGCAUGCAUGAGGCCCGGAUCCGGC-3'<br></p>
+<p>R20-15 aptamer: </p>
+<p>5'-GGGAGCUCAGAAUAAACGCUCAAUGUAGGCUAGUACCGACCUGCGUGCCUCGCUCCUUUUCAUGCAUGCAUGAGGCCCGGAUCCGGC-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/R20_43_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

@@ -32,7 +32,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></font>
-<p>Wild type aptamer: 5'-UAAUAUAUCAAGAGCCUAAUAACUCGGGCUAUAAACUAAGGAAUAUCUAUG-3'<br>Major variant aptamer: 5'-UAAUAUAUCAAGAGCCUAGCAACCUGGGCUAUAAACUAAGGAAUAUCUAUG-3'</p>
+<p>Wild type aptamer: </p>
+<p>5'-UAAUAUAUCAAGAGCCUAAUAACUCGGGCUAUAAACUAAGGAAUAUCUAUG-3'<br></p>
+<p>Major variant aptamer: </p>
+<p>5'-UAAUAUAUCAAGAGCCUAGCAACCUGGGCUAUAAACUAAGGAAUAUCUAUG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/T4_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

@@ -31,7 +31,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figures are based on the article by ribodraw tool to draw. H1 and H2 aptamer bind to Hirame rhabdovirus (HIRRV). H1 and H2 aptamer was named by Aoki et al<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>H1 aptamer: 5'-GGGCCAGGCAGCGAGGGUGUAUAGGUAUUGAAUCAAUUGUUUUAGCGUUGUCUUACCGACCACACGCGUCCGAGA-3'<br>H2 aptamer: 5'-GGGCCAGGCAGCGAGGGAACGCGAGCUUAGAUUUCGGAGAACAGUUUGUAAUUGUUCCGACCACACGCGUCCGAGA-3'</p>
+<p>H1 aptamer: </p>
+<p>5'-GGGCCAGGCAGCGAGGGUGUAUAGGUAUUGAAUCAAUUGUUUUAGCGUUGUCUUACCGACCACACGCGUCCGAGA-3'<br></p>
+<p>H2 aptamer: </p>
+<p>5'-GGGCCAGGCAGCGAGGGAACGCGAGCUUAGAUUUCGGAGAACAGUUUGUAAUUGUUCCGACCACACGCGUCCGAGA-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/H1-aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

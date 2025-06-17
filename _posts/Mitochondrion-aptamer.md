@@ -74,7 +74,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<p>C1 aptamer: 5'-GGGACGCAGGGACUGUACCUUCUAGGCUGGGUCAUGUGACUGUAGCGG-3'<br>C32 aptamer: 5'-GGGACGCAGGGACUGUACGGAUCAGAGUCUCCUAUGUGACUGUAGCGG-3'</p>
+<p>C1 aptamer: </p>
+<p>5'-GGGACGCAGGGACUGUACCUUCUAGGCUGGGUCAUGUGACUGUAGCGG-3'<br></p>
+<p>C32 aptamer: </p>
+<p>5'-GGGACGCAGGGACUGUACGGAUCAGAGUCUCCUAUGUGACUGUAGCGG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/mitoch_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

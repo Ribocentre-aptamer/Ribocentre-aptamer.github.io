@@ -32,7 +32,11 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article and the prediction results of the RNA fold website by ribodraw tool to draw. Here, only the aptamer with the best affinity was selected for painting 2D<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<p>7A aptamer: 5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br>26A aptamer: 5'-AACGCUCAACGUCAGAAGGCAACGUAUAGGCAAGCACACUUCGACAUGAGGC-3'</p>
+<p>7A aptamer: </p>
+<p>5'-AACGCUCAAUCGGCGAGCUAACCAAGACACUCGCUGCACUUCGACAUG-3'<br></p>
+<p></p>
+<p>26A aptamer: </p>
+<p>5'-AACGCUCAACGUCAGAAGGCAACGUAUAGGCAAGCACACUUCGACAUGAGGC-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/bFGF_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

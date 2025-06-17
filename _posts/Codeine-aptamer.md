@@ -83,7 +83,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw. FC5L is the truncated sequence of full-length FC5. FC45L is the truncated sequence of full-length FC45<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<p>FC5L aptamer: 5'-GGGACAGGGCUAGCAGUAGGAUUGGGUGAGGGGAUGUGCUG-3'<br>FC45L aptamer: 5'-GGGACAGGGCUAGCUUAGUGCUAUGUGAGAAAAGGGUGUGGGGG-3'</p>
+<p>FC5L aptamer: </p>
+<p>5'-GGGACAGGGCUAGCAGUAGGAUUGGGUGAGGGGAUGUGCUG-3'<br></p>
+<p>FC45L aptamer: </p>
+<p>5'-GGGACAGGGCUAGCUUAGUGCUAUGUGAGAAAAGGGUGUGGGGG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/codeine_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

@@ -111,7 +111,8 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>In 2013, Girvin et al. utilized the SELEX method to isolate an RNA aptamer, Lys1.2minE, which demonstrated high affinity for hen egg white lysozyme. This 59-nucleotide aptamer effectively inhibited lysozyme's catalytic activity on large cell wall substrates but not on small model substrates. Subsequently, they shortened the aptamer to Lys1.2minF, a 45-nucleotide variant, which retained its high binding affinity and selective inhibition of lysozyme's activity on large substrates. Here we use ribodraw to complete the figures, through the 3D structure information. The Lys1.2minF aptamer and Lys1.2minE aptamer were named by M. E. Girvin et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Lys1.2minF: 5'-GGGCGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACGCCC-3'<br>Lys1.2minE: 5'-GGGUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAACCC-3'</p>
+<p>Lys1.2minF: 5'-GGGCGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACGCCC-3'<br></p>
+<p>Lys1.2minE: 5'-GGGUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAACCC-3'</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/Lys1.2minF_2D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >

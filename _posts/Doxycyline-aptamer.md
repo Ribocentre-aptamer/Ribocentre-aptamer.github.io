@@ -31,10 +31,12 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the left figure(1D16-05) is based on the article, and the right figure(1D16-13) is based on the prediction results of the RNA fold website. 1D16-05 aptamer and 1D16-13 aptamer binding to Doxycyline. 1D16-05 aptamer and 1D16-13 aptamer was named by Famulok, M<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>1D16-05 aptamer: 5'-GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUGGUACAGUCCAGGGUGAAGUUCCAAUUUUGAACACCUCCACGAAACUACCUCGAGACGU-3'</p>
+<p>1D16-05 aptamer: </p>
+<p>5'-GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUGGUACAGUCCAGGGUGAAGUUCCAAUUUUGAACACCUCCACGAAACUACCUCGAGACGU-3'</p>
 <img src="/images/2D/Doxycyline_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<p>1D16-13 aptamer: 5'-GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUCCUCGGUAAUCGCCGUAUCAAAAGUCGGAAUGGAGGGUCGACGAAACUACCUCGAGACGU-3'</p>
+<p>1D16-13 aptamer: </p>
+<p>5'-GGAGCUCGGUAGUGACGCGUUGUGUUUACGCGUCUGAUGAGUCCUCGGUAAUCGCCGUAUCAAAAGUCGGAAUGGAGGGUCGACGAAACUACCUCGAGACGU-3'</p>
 <img src="/images/2D/Doxycyline_aptamer_2D2.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 

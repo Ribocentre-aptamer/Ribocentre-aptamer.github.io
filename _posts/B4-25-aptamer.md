@@ -35,7 +35,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition, an analytical affinity column was run under isocratic conditions to determine an approximate dissociation constant (Kd) for the RNA-ligand interaction. The 2D structure of the left figure is based on the literature, and the right figure is based on the prediction results of the RNA fold website. We used the minimum free energy (MFE) structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<p>B4-25 aptamer: 5'-GGGAGAAUUCCCGCGGCGUUGGCCCAGGAUAAUAGGACGAAAUCCGAAAAAUCCGUACCCAACAUAGAACCCCCCCAGCGCUCACACGGACGCCCCAUUACGGCUAACCGAACGCCUGCAGCCCGGGAAGCUU-3'<br>CB-42 aptamer: 5'-GGGAGAAUUCCCGCGGCAGAAGCCCACCUGGCUUUGAACUCUAUGUUAUUGGGUGGGGGAAACUUAAGAAAACUACCACCCUUCAACAUUACCGCCCUUCAGCCUGCCAGCGCCCUGCAGCCCGGGAAGCUU-3'</p>
+<p>B4-25 aptamer: </p>
+<p>5'-GGGAGAAUUCCCGCGGCGUUGGCCCAGGAUAAUAGGACGAAAUCCGAAAAAUCCGUACCCAACAUAGAACCCCCCCAGCGCUCACACGGACGCCCCAUUACGGCUAACCGAACGCCUGCAGCCCGGGAAGCUU-3'<br></p>
+<p>CB-42 aptamer: </p>
+<p>5'-GGGAGAAUUCCCGCGGCAGAAGCCCACCUGGCUUUGAACUCUAUGUUAUUGGGUGGGGGAAACUUAAGAAAACUACCACCCUUCAACAUUACCGCCCUUCAGCCUGCCAGCGCCCUGCAGCCCGGGAAGCUU-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/dye_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

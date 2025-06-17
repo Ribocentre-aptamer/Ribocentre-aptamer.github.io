@@ -27,7 +27,11 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw.  D-R16c aptamer binding to D-Arginine. L-R16c aptamer and ag.06 aptamer binding to L-Arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<p>D-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>L-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>ag.06 aptamer: 5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p>
+<p>D-R16c aptamer: </p>
+<p>5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br></p>
+<p>L-R16c aptamer: </p>
+<p>5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>ag.06 aptamer: </p>
+<p>5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/dl-Arginine_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

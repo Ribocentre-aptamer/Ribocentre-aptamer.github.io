@@ -30,7 +30,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures are based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<p>CD133-A15 aptamer: 5'-CCCUCCUACAUAGGG-3'<br>CD133-B19 aptamer: 5'-CAGAACGUAUACUAUUCUG-3'</p>
+<p>CD133-A15 aptamer: </p>
+<p>5'-CCCUCCUACAUAGGG-3'<br></p>
+<p>CD133-B19 aptamer: </p>
+<p>5'-CAGAACGUAUACUAUUCUG-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/CD133_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

@@ -32,7 +32,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<p>B-2 RNA aptamer: 5'-GGGAAACUGGAUGGAAUGGGCUCGAUGAAAAUCGACCGUGCGCUGAAAAGCACGCGAGGUCCUGCUGUAAGUGUGCCA-3'<br>B-6 RNA aptamer: 5'-GGGAAACUGGAUGGAAUGGGCUCGCAAGGCCCCCUGAGCUGCACAAGUUCAUGGCGAGGUCCUGCUGUAAGUGUGCCA-3'</p>
+<p>B-2 RNA aptamer: </p>
+<p>5'-GGGAAACUGGAUGGAAUGGGCUCGAUGAAAAUCGACCGUGCGCUGAAAAGCACGCGAGGUCCUGCUGUAAGUGUGCCA-3'<br></p>
+<p>B-6 RNA aptamer: </p>
+<p>5'-GGGAAACUGGAUGGAAUGGGCUCGCAAGGCCCCCUGAGCUGCACAAGUUCAUGGCGAGGUCCUGCUGUAAGUGUGCCA-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/R5_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

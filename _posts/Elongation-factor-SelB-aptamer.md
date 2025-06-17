@@ -31,7 +31,10 @@ categories: Aptamer
 
 <p class="header_box" id="Structure">Structure</p>
 <font>The RNA aptamers all have highly conserved regions that correspond to the apical stem-loop structure of wild-type fdhF mRNA hairpins. The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<p>488 aptamer: 5'-GCCAUAAGUUGUCCCAAGUCUUGGGCGCAAAUACAUCCC-3'<br>945 aptamer: 5'-GUCACUGACCAUCUGUCGCAGGUCUGCGCACAUCGGUCGUU-3'</p>
+<p>488 aptamer: </p>
+<p>5'-GCCAUAAGUUGUCCCAAGUCUUGGGCGCAAAUACAUCCC-3'<br></p>
+<p>945 aptamer: </p>
+<p>5'-GUCACUGACCAUCUGUCGCAGGUCUGCGCACAUCGGUCGUU-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/SelB_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

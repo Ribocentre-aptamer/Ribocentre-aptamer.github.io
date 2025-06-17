@@ -154,7 +154,8 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>In 2003,  Ellington, A. D et al. obtained the crystallographic structure of a streptomycin  aptamer through X-ray diffraction techniques, and detailed the molecular recognition principles after analyzing the structural data. The RNA aptamer is characterised by an L-shaped architecture that forms a distinct binding pocket for streptomycin, as illustrated in the subsequent diagrams. Here we utilized RiboDraw to complete the figure, based the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>Chain A: 5'-GGAUCGCAUUUGGACUUCUGCC-3'<br>Chain B: 5'-CGGCACCACGGUCGGAUC-3'</p>
+<p>Chain A: 5'-GGAUCGCAUUUGGACUUCUGCC-3'<br></p>
+<p>Chain B: 5'-CGGCACCACGGUCGGAUC-3'</p>
 <img src="/images/2D/Streptomycin_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
