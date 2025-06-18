@@ -17,9 +17,9 @@ permalink: /sequences/
   --primary-color:#520049;
 }
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;line-height:1.7;color:#333;font-size:16px;letter-spacing:.3px;}
-.table-style{width:100%;margin:20px 0;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);}
-.table-style th{background:var(--primary-color);color:#fff;padding:12px;text-align:left;white-space:nowrap;}
-.table-style td{padding:12px;border-bottom:1px solid #e8e8e8;}
+.table-style{width:100%;margin:20px 0;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;}
+.table-style th{background:var(--primary-color);color:#fff;padding:12px;text-align:left;white-space:nowrap;font-size:16px;}
+.table-style td{padding:12px;border-bottom:1px solid #e8e8e8;white-space:nowrap;font-size:16px;}
 .table-style tbody tr:nth-child(even){background:rgba(245,245,245,0.5);}
 .table-style tbody tr:hover{background:rgba(82,0,73,0.05);}
 /* Dashboard数据详情表专用超链接样式 */
@@ -30,6 +30,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
     transition: all 0.2s ease;
     padding: 2px 4px;
     border-radius: 3px;
+    white-space: nowrap;
+    font-size: 16px;
 }
 
 .data-table-section .table a:hover {
@@ -56,7 +58,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
     color: #7a0070 !important;
     text-shadow: 0 1px 2px rgba(82, 0, 73, 0.3);
 }
-#searchBox{padding:10px;font-size:16px;border:2px solid #ccc;border-radius:4px;width:300px;}
+#searchBox{padding:10px;font-size:16px;border:2px solid #ccc;border-radius:4px;width:300px;white-space:nowrap;}
 #searchBox:focus{outline:none;border-color:#efefef;}
 #pagination button{
   background-color:#f8f9fa;
@@ -72,9 +74,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 /* 序列样式 */
 .sequence-cell {
   font-family: 'Courier New', monospace;
-  font-size: 12px;
-  word-break: break-all;
-  max-width: 200px;
+  font-size: 16px;
+  white-space: nowrap;
 }
 /* 按钮样式 */
 .button {
@@ -85,11 +86,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
   background-color: #ffffff;
   color: #520049;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   border: 1px solid #520049;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 .button:hover {
   background-color: #520049;
@@ -135,6 +137,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 .truncated-text {
   cursor: pointer;
   position: relative;
+  white-space: nowrap;
+  font-size: 16px;
 }
 /* 表格容器样式 */
 .data-table-section > div {
@@ -155,7 +159,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 </div>
 <section class="data-table-section">
   <div style="display: flex; overflow: auto;">
-    <table id="seqTable" class="table table-style display" style="flex: 1;">
+    <table id="seqTable" class="table table-style display" style="flex: 1;margin-top: 0px;margin-bottom: 0px;">
       <thead>
         <tr>
           <th>Select</th>
@@ -429,7 +433,15 @@ function loadData(){
     .then(r=>r.json())
     .then(json=>{
       // 处理数据结构，如果数据在Sheet1中
-      const data = json.Sheet1 || json;
+      let data = json.Sheet1 || json;
+      
+      // 检查URL参数，如果有id参数则过滤数据
+      const urlParams = new URLSearchParams(window.location.search);
+      const targetId = urlParams.get('id');
+      if (targetId) {
+        data = data.filter(item => item.ID === targetId);
+      }
+      
       tableData=data;
       const rows=buildRows(data);
       
