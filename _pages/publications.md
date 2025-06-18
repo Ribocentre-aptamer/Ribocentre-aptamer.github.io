@@ -175,7 +175,7 @@ function setupPagination() {
     paginationHtml += `<button onclick="changePage(${currentPage + 1})" style="margin: 0 5px; padding: 5px 10px;">Next Page</button>`;
   }
   
-  paginationHtml += `<span style="margin-left: 20px;">显示 ${Math.min((currentPage - 1) * rowsPerPage + 1, filteredRows.length)}-${Math.min(currentPage * rowsPerPage, filteredRows.length)} 共 ${filteredRows.length} 条</span>`;
+  paginationHtml += `<span style="margin-left: 20px;">Showing ${Math.min((currentPage - 1) * rowsPerPage + 1, filteredRows.length)}-${Math.min(currentPage * rowsPerPage, filteredRows.length)} of ${filteredRows.length} entries</span>`;
   paginationHtml += '</div>';
   
   // 移除旧的分页器
