@@ -415,9 +415,8 @@ class SequenceTableManager {
     }
 
     initDataTable() {
-        // 使用jQuery的noConflict()避免冲突
         const jQuery = window.jQuery;
-        if (!jQuery || !jQuery.fn.DataTable) {
+        if (!jQuery || !(jQuery.fn.DataTable || jQuery.fn.dataTable)) {
             console.error("jQuery或DataTables未正确加载!");
             return;
         }
