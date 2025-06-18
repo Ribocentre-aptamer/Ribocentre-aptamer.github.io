@@ -12,15 +12,6 @@ permalink: /publications/
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 <title>Ribocentre-aptamer publications</title>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
 <style>
 :root{
   --primary-color:#520049;
@@ -37,14 +28,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
     text-decoration: none !important;
     font-weight: 600;
     transition: all 0.2s ease;
+    padding: 2px 4px;
+    border-radius: 3px;
 }
 
 .data-table-section .table a:hover {
     color: #7a0070 !important;
     text-decoration: underline !important;
     background-color: rgba(82, 0, 73, 0.1);
-    padding: 2px 4px;
-    border-radius: 3px;
 }
 
 .data-table-section .table a:visited {
@@ -249,8 +240,7 @@ function loadData(){
           ],
           responsive:true,
           pageLength:25,
-          dom:'Bfrtip',
-          buttons:['copy','csv','excel','pdf','print']
+          dom:'lrtip'
         });
         $('#searchBox').on('input',function(){table.search(this.value).draw();});
       } catch (error) {

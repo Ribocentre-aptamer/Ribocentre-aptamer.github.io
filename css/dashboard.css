@@ -556,14 +556,14 @@ body[data-page="aptamer"] .amir-tooltip {
     text-decoration: none !important;
     font-weight: 600;
     transition: all 0.2s ease;
+    padding: 2px 4px;
+    border-radius: 3px;
 }
 
 .data-table-section .table a:hover {
     color: #7a0070 !important;
     text-decoration: underline !important;
     background-color: rgba(82, 0, 73, 0.1);
-    padding: 2px 4px;
-    border-radius: 3px;
 }
 
 .data-table-section .table a:visited {

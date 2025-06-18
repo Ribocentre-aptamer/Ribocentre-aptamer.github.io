@@ -700,5 +700,63 @@
         TableModule.updateDataTable();
     };
 
+    // --- 仅限结构页面：重写 FilterModule.updateFilterTags，使年份标签显示为 "Methods:" ---
+    if (typeof FilterModule !== 'undefined') {
+        const originalUpdateFilterTags = FilterModule.updateFilterTags;
+        FilterModule.updateFilterTags = function() {
+            const tagsContainer = document.getElementById('filterTags');
+            if (!tagsContainer) {
+                console.warn('filterTags 容器缺失');
+                return;
+            }
+            tagsContainer.innerHTML = '';
+
+            // 将年份筛选标签前缀改为 Methods
+            activeFilters.years.forEach(year => {
+                const tag = createFilterTag(`Methods: ${year}`, () => this.toggleYearFilter(year));
+                tagsContainer.appendChild(tag);
+            });
+
+            // 类别筛选标签保持不变
+            activeFilters.categories.forEach(category => {
+                const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category));
+                tagsContainer.appendChild(tag);
+            });
+
+            // 散点图筛选标签
+            if (activeFilters.scatterSelection) {
+                const sel = activeFilters.scatterSelection;
+                const text = `Range: ${sel.xrange[0].toFixed(0)}-${sel.xrange[1].toFixed(0)}bp, ${sel.yrange[0].toFixed(1)}-${sel.yrange[1].toFixed(1)}%`;
+                const tag = createFilterTag(text, () => this.clearScatterSelection());
+                tagsContainer.appendChild(tag);
+            }
+
+            // 显示/隐藏筛选控制区域，与原逻辑保持一致
+            const hasActiveFilters = activeFilters.years.size > 0 || 
+                                   activeFilters.categories.size > 0 || 
+                                   activeFilters.scatterSelection;
+            const filterSection = document.querySelector('.filter-controls');
+            if (filterSection) {
+                filterSection.style.display = hasActiveFilters ? 'block' : 'none';
+            }
+
+            // 更新 Reset 按钮状态
+            const activeFilterCount = (activeFilters.years.size > 0 ? 1 : 0) + 
+                                     (activeFilters.categories.size > 0 ? 1 : 0) + 
+                                     (activeFilters.scatterSelection ? 1 : 0);
+            const resetBtn = document.getElementById('resetAllFilters');
+            if (resetBtn) {
+                resetBtn.textContent = `Reset All (${activeFilterCount})`;
+                resetBtn.disabled = !hasActiveFilters;
+                resetBtn.style.opacity = hasActiveFilters ? '1' : '0.5';
+            }
+
+            // 保留节点状态指示器逻辑
+            if (typeof this.updateNodeStateIndicators === 'function') {
+                this.updateNodeStateIndicators();
+            }
+        };
+    }
+
     console.log('dashboard-structures.js 补丁已应用');
 })();

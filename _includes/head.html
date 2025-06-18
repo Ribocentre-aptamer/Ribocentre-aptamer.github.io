@@ -10,6 +10,9 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico">
 
+  <!-- 全站统一加载 jQuery（3.5.1），避免重复加载导致插件失效 -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
 {% if jekyll.environment == 'production' %}
 {% include analytics.html %}
 {% endif %}

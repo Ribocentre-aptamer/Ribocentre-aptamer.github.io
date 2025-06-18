@@ -245,14 +245,14 @@ class SequenceTableManager {
                 text-decoration: none !important;
                 font-weight: 600;
                 transition: all 0.2s ease;
+                padding: 2px 4px;
+                border-radius: 3px;
             }
             
             .data-table-section .table a:hover {
                 color: #7a0070 !important;
                 text-decoration: underline !important;
                 background-color: rgba(82, 0, 73, 0.1);
-                padding: 2px 4px;
-                border-radius: 3px;
             }
             
             .data-table-section .table a:visited {
@@ -425,10 +425,9 @@ class SequenceTableManager {
         try {
             // 初始化DataTable
             this.table = jQuery('#sequences-datatable').DataTable({
-                dom: 'Bfrtip',
-                buttons: [
-                    'copy', 'csv', 'excel', 'pdf', 'print'
-                ],
+                // 删除导出按钮，使用默认 dom 布局（l-长度选择器 f-搜索框 r-处理信息 t-表格 i-信息 p-分页），
+                // 由于页面自带自定义搜索框，这里选择 "lrtip" 隐藏内置搜索框(f)。
+                dom: 'lrtip',
                 pageLength: 25,
                 lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
                 scrollX: true,
@@ -438,9 +437,6 @@ class SequenceTableManager {
                 ]
             });
             
-            // 隐藏DataTable默认搜索框，使用自定义搜索框
-            jQuery('.dataTables_filter').hide();
-
             // 绑定自定义搜索框事件
             jQuery('#searchBox').on('keyup', (e) => {
                 this.table.search(e.target.value).draw();

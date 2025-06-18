@@ -34,7 +34,24 @@
 	</div>
   </div>
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--
+    Conditionally load jQuery (一次只加载一个版本)。
+    如果页面已经在其他位置加载了 jQuery，则不会重复加载，避免与 DataTables 等插件冲突。
+  -->
+  <script>
+    (function() {
+      if (!window.jQuery) {
+        var script = document.createElement('script');
+        script.src = 'https://code.jquery.com/jquery-3.5.1.min.js';
+        script.onload = function() {
+          console.log('jQuery 3.5.1 已按需加载');
+        };
+        document.head.appendChild(script);
+      }
+    })();
+  </script>
+
+  <!-- Bootstrap 依赖于 jQuery，应放在 jQuery 之后加载 -->
   <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
 
   
