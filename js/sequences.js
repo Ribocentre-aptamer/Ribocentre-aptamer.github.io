@@ -423,20 +423,22 @@ class SequenceTableManager {
         }
         
         try {
-            // 初始化DataTable
-            this.table = jQuery('#sequences-datatable').DataTable({
-                dom: 'Bfrtip',
-                buttons: [
-                    'copy', 'csv', 'excel', 'pdf', 'print'
-                ],
+            const hasButtons = jQuery.fn.dataTable && jQuery.fn.dataTable.Buttons;
+            const options = {
+                dom: hasButtons ? 'Bfrtip' : 'frtip',
                 pageLength: 25,
                 lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
                 scrollX: true,
                 searching: true,
                 columnDefs: [
-                    { orderable: false, targets: 0 } // 禁止第一列（复选框）排序
+                    { orderable: false, targets: 0 }
                 ]
-            });
+            };
+            if (hasButtons) {
+                options.buttons = ['copy', 'csv', 'excel', 'pdf', 'print'];
+            }
+            // 初始化DataTable
+            this.table = jQuery('#sequences-datatable').DataTable(options);
             
             // 隐藏DataTable默认搜索框，使用自定义搜索框
             jQuery('.dataTables_filter').hide();
