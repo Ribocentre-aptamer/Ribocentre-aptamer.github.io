@@ -5,8 +5,7 @@ date:   2024-05-07 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
 ---
-
-
+<html>
 
 <div class="side-nav">
 <ul>
@@ -92,7 +91,7 @@ categories: Aptamer
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Nishikawa, S. and colleagues designed a selecting method based on existing research. The RNA pool for SELEX had a 30-nucleotide randomized core region. After nine selection cycles, a pool of ΔNS3-specific RNA aptamers were obtained. This RNA pool included 45 clones that divided into three main classes (G9-I, II and III). These classes include the conserved sequence GA(A/U)UGGGAC<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
-<p>
+
 
 
 <p class="header_box" id="Structure">Structure</p>
