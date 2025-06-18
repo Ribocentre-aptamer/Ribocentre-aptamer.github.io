@@ -8,6 +8,7 @@ class SequenceTableManager {
         this.dataPath = '/apidata/sequences_cleaned.json';
         this.table = null;
         this.rawData = [];
+        this.targetId = new URLSearchParams(window.location.search).get('id');
     }
 
     async init() {
@@ -342,6 +343,9 @@ class SequenceTableManager {
             
             // 获取Sheet1的数据并保存
             this.rawData = jsonData.Sheet1 || [];
+            if (this.targetId) {                      // 仅显示单条
+                this.rawData = this.rawData.filter(r => String(r.ID) === String(this.targetId));
+              }
             this.renderTable(this.rawData);
         } catch (error) {
             console.error(`加载sequences数据失败:`, error);

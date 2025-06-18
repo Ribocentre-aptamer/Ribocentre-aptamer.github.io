@@ -84,6 +84,21 @@ class AdvancedSearchModule {
             }
             
             console.log(`Successfully loaded ${this.searchData.length} records from: ${successfulPath}`);
+            
+            // Also load sequences_cleaned.json data and merge into searchData
+            try {
+                const seqRes = await fetch('/apidata/sequences_cleaned.json');
+                if (seqRes.ok) {
+                    const seqJson = await seqRes.json();
+                    if (seqJson && Array.isArray(seqJson.Sheet1) && typeof SearchUtils.transformSequenceRecord === 'function') {
+                        const sequenceData = seqJson.Sheet1.map(SearchUtils.transformSequenceRecord);
+                        this.searchData.push(...sequenceData);
+                        console.log(`Added ${sequenceData.length} sequence records to search data`);
+                    }
+                }
+            } catch (e) { 
+                console.warn('Failed to load sequences data for advanced search:', e); 
+            }
         } catch (error) {
             console.error('Error loading search data:', error);
             console.log('Using mock data as fallback');

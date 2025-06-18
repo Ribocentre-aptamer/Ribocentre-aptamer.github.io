@@ -23,7 +23,7 @@
     "Category": "Other",
     "Named": "Mitochondria_C16",
     "Article name": "C16",
-    "ligandA p ta me r": "Mitochondria",
+    "ligandAptamerType": "Mitochondria",
     "ligand Description": "Mitochondria are membrane bound organelles found in most eukaryotic cells that are responsible for generating energy in the form of ATP through cellular respiration.",
     "CAS": null,
     "Sequence": "GGAAUUCUAAUACGACUCACUAUAGGGACGCAGGGACUGUACGGUAAGUCCCCGGGCAUGUGACUGUAGCGG",

@@ -98,3 +98,81 @@ const SearchUtils = {
     return this.highlightKeywords(content.substring(0, before) + '...', query);
   }
 };
+
+// ===== Extension: integrate sequences_cleaned.json =====
+(function () {
+  if (SearchUtils.__seqExt) return;          // 防止重复执行
+  SearchUtils.__seqExt = true;
+
+  /* 把 sequences_cleaned.json 的一条记录转换成与 search.json 相同的数据结构 */
+  SearchUtils.transformSequenceRecord = function (r) {
+    if (!r) return {};
+    /* 把类似 “Kd: 4.8 nM / 14 μM ...” 转成 nM 数值，便于高级筛选 */
+    const kd = (() => {
+      const m = String(r.Affinity || '').match(/Kd\s*[:\s]*[~<>]?\s*([\d\.]+)\s*([pnuµμmM]+)?/i);
+      if (!m) return NaN;
+      const v = parseFloat(m[1]);
+      const u = (m[2] || '').toLowerCase();
+      if (u.startsWith('pm')) return v / 1e3;
+      if (u.startsWith('nm')) return v;
+      if (u.includes('µ') || u.startsWith('um') || u.includes('u')) return v * 1e3;
+      if (u.startsWith('mm')) return v * 1e6;
+      return v;
+    })();
+
+    const len = Number(r.Length) || undefined;
+    const gc  = r['GC Content'] !== undefined ? parseFloat(r['GC Content']) * 100 : undefined;
+    const yr  = r.Year ? String(r.Year) : '';
+
+    return {
+      title  : r.Named || r.ID || 'Unnamed Sequence',
+      category: `sequence${r.Type ? ' - ' + r.Type : ''}`,
+      tags   : [r.Type, r.Category, `Length:${len}`, `GC:${gc}`, `Year:${yr}`].filter(Boolean).join(', '),
+      url    : r.Linker && r.Linker.trim() && r.Linker !== 'null'
+                 ? r.Linker
+                 : `/sequences/?id=${encodeURIComponent(r.ID)}`,
+      date   : yr ? `${yr}-01-01` : '',
+      content: [
+        r.Sequence ? `Sequence: ${r.Sequence}` : '',
+        r.Ligand ? `Ligand: ${r.Ligand}` : '', 
+        r.Affinity ? `Affinity: ${r.Affinity}` : ''
+      ].filter(Boolean).join(' | '),
+      /* 高级搜索筛选字段 */
+      sequence_length: len,
+      gc_content     : gc,
+      kd_value       : kd,
+      is_sequence    : true,
+      id             : r.ID
+    };
+  };
+
+  /* 重写 fetchData：聚合 search.json + sequences_cleaned.json */
+  const origFetch = SearchUtils.fetchData.bind(SearchUtils);
+  SearchUtils.fetchData = async function (paths = []) {
+    const result = [];
+
+    const push = (arr) => Array.isArray(arr) && result.push(...arr);
+
+    /* 1. 先拉取传入的 search.json */
+    try { push(await origFetch(paths)); } catch (e) { console.warn(e); }
+
+    /* 2. 再尝试加载 sequences_cleaned.json */
+    for (const p of ['/apidata/sequences_cleaned.json',
+                     './apidata/sequences_cleaned.json',
+                     'apidata/sequences_cleaned.json']) {
+      try {
+        const res = await fetch(p);
+        if (res.ok) {
+          const json = await res.json();
+          if (json && Array.isArray(json.Sheet1)) {
+            push(json.Sheet1.map(SearchUtils.transformSequenceRecord));
+            break;                                  // 第一处成功即可
+          }
+        }
+      } catch (e) { console.warn('load seq json fail', p); }
+    }
+
+    if (!result.length) throw new Error('All search data paths failed');
+    return result;
+  };
+})();

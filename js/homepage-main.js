@@ -427,7 +427,7 @@ const homepageSearchModule = {
         const currentResults = this.allSearchResults.slice(startIndex, endIndex);
 
         let html = `<div style="padding: 10px 15px; border-bottom: 1px solid #eee; color: #70757a; font-size: 14px;">
-            找到 ${this.allSearchResults.length} 个结果 (用时 ${searchTime} 毫秒)
+            Found ${this.allSearchResults.length} results (in ${searchTime} ms)
         </div>`;
 
         currentResults.forEach(item => {

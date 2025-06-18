@@ -81,7 +81,7 @@ const SearchModule = {
             this.searchResultsCount = document.createElement('span');
             this.searchResultsCount.id = 'searchResultsCount';
             this.searchResultsCount.className = 'search-results-count';
-            this.searchResultsCount.textContent = '找到 0 个结果';
+            this.searchResultsCount.textContent = 'Found 0 results';
             header.appendChild(this.searchResultsCount);
             
             const closeBtn = document.createElement('button');
@@ -309,7 +309,7 @@ const SearchModule = {
     // 渲染搜索结果
     renderResults(searchTime) {
         if (this.allSearchResults.length === 0) {
-            this.searchResultsCount.textContent = '找到 0 个结果';
+            this.searchResultsCount.textContent = 'Found 0 results';
             this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">No relevant results found, please try other keywords.</div>';
             return;
         }
@@ -319,8 +319,8 @@ const SearchModule = {
         const endIndex = Math.min(startIndex + this.resultsPerPage, this.allSearchResults.length);
         const currentResults = this.allSearchResults.slice(startIndex, endIndex);
 
-        // 更新结果计数
-        this.searchResultsCount.textContent = `找到 ${this.allSearchResults.length} 个结果 (用时 ${searchTime} 毫秒)`;
+        // Update result count 更新结果计数
+        this.searchResultsCount.textContent = `Found ${this.allSearchResults.length} results (in ${searchTime} ms)`;
 
         // 构建结果HTML
         let html = '';
