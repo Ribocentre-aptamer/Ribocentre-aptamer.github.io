@@ -391,7 +391,7 @@ const homepageSearchModule = {
             return;
         }
 
-        this.mainSearchResults.innerHTML = '<div style="padding: 15px; text-align: center; color: #666;">正在搜索...</div>';
+        this.mainSearchResults.innerHTML = '<div style="padding: 15px; text-align: center; color: #666;">Searching...</div>';
         this.mainSearchResults.style.display = 'block';
 
         const searchPaths = ['./search.json', '/search.json', 'search.json'];
@@ -418,7 +418,7 @@ const homepageSearchModule = {
 
     renderResults(searchTime) {
         if (this.allSearchResults.length === 0) {
-            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">No relevant results found, please try other keywords。</div>';
+            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">No relevant results found, please try other keywords.</div>';
             return;
         }
 

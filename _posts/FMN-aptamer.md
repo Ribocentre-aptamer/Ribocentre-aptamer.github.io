@@ -6,20 +6,8 @@ author: Yuhang Luo, Linfei Li
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
  
-
-
 <div class="side-nav">
 <ul>
     <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
