@@ -699,7 +699,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // 显示加载状态
-        resultsContainer.innerHTML = '<div class="no-results-message">正在搜索...</div>';
+        resultsContainer.innerHTML = '<div class="no-results-message">Searching...</div>';
         resultsContainer.style.display = 'block';
 
         // 尝试不同路径加载search.json
@@ -753,7 +753,7 @@ document.addEventListener('DOMContentLoaded', function() {
          this.currentPage = 1;
          
          if (results.length === 0) {
-           resultsContainer.innerHTML = '<div class="no-results-message">No relevant results found, please try other keywords/div>';
+           resultsContainer.innerHTML = '<div class="no-results-message">No relevant results found, please try other keywords.</div>';
            return;
          }
 

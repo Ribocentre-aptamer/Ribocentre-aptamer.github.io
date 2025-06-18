@@ -6,17 +6,7 @@ author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
   
 
 <div class="side-nav">

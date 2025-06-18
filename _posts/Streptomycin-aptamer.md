@@ -6,17 +6,7 @@ author: Linfei Li, Jiali Wang
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
 
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
   
 
 
