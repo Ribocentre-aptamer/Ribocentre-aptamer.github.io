@@ -5,7 +5,7 @@ date:   2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 ---
-
+<html>
 
 
 
@@ -26,15 +26,17 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Started from a library of nuclease-resistant 2′fluoro-pyrimidines (2′F-Py) RNAs and performed a total of 14 consecutive rounds of positive selection on human MDA-MB-231 cells (ER−, PR−, HER2−), with increasing selection stringency. Choose to include into the selection cycle, starting from the fifth SELEX round, a second counterselection against EGFR-overexpressing epidermoid carcinoma A431 cells, to avoid that sequences against EGFR could dominate the selection. Ten selection rounds (0, 3, 5, 7, 9, 10, 11, 12, 13, and 14) were analyzed by Illumina NGS, and data were compared with those obtained by classical cloning of the last selected pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
-<br>
+<p>Started from a library of nuclease-resistant 2′fluoro-pyrimidines (2′F-Py) RNAs and performed a total of 14 consecutive rounds of positive selection on human MDA-MB-231 cells (ER−, PR−, HER2−), with increasing selection stringency. Choose to include into the selection cycle, starting from the fifth SELEX round, a second counterselection against EGFR-overexpressing epidermoid carcinoma A431 cells, to avoid that sequences against EGFR could dominate the selection. Ten selection rounds (0, 3, 5, 7, 9, 10, 11, 12, 13, and 14) were analyzed by Illumina NGS, and data were compared with those obtained by classical cloning of the last selected pool<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+
 
 
 <p class="header_box" id="Structure">Structure</p>
-<p>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw. We chose the minimum free energy (MFE) structure and used ribodraw tool to draw the figure.<br></p>
+<p class="blowheader_box">2D representation</p>
+<p>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw. We chose the minimum free energy (MFE) structure and used ribodraw tool to draw the figure.</p>
 <p>5'-UAGGGAAGAGAAGGACAUAUGAUCCUGCCCCAACCAUCGCUUCCUCGACGCGCGUUGUCGGCAUUGACUAGUACAUGACCACUUGA-3'</p>
 <img src="/images/2D/TNBC_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
+<br>
 
 
 
@@ -219,6 +221,4 @@ Camorani, S., Granata, I., Collina, F., Leonetti, F., Cantile, M., Botti, G., Fe
       }
     });
   </script>
-
-
-    </html>
+</html>

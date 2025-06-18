@@ -70,7 +70,7 @@ categories: Aptamer
 
          
 <p><p class="header_box" id="description">Description</p>
-<font >In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 apatmer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
+<P>In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 apatmer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>Aptamers can be prepared by an in vitro selection process, termed SELEX (systematic evolution of ligands by exponential enrichment) and can be used in various biological/biotechnological settings, including the development of biomaterials , and as recognition molecules in biosensors and diagnostic, gene-regulatory, therapeutic and imaging applications<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<p>

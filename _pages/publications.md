@@ -158,7 +158,7 @@ function setupPagination() {
   
   // 上一页按钮
   if (currentPage > 1) {
-    paginationHtml += `<button onclick="changePage(${currentPage - 1})" style="margin: 0 5px; padding: 5px 10px;">上一页</button>`;
+    paginationHtml += `<button onclick="changePage(${currentPage - 1})" style="margin: 0 5px; padding: 5px 10px;">Previous Page</button>`;
   }
   
   // 页码按钮
@@ -172,7 +172,7 @@ function setupPagination() {
   
   // 下一页按钮
   if (currentPage < totalPages) {
-    paginationHtml += `<button onclick="changePage(${currentPage + 1})" style="margin: 0 5px; padding: 5px 10px;">下一页</button>`;
+    paginationHtml += `<button onclick="changePage(${currentPage + 1})" style="margin: 0 5px; padding: 5px 10px;">Next Page</button>`;
   }
   
   paginationHtml += `<span style="margin-left: 20px;">显示 ${Math.min((currentPage - 1) * rowsPerPage + 1, filteredRows.length)}-${Math.min(currentPage * rowsPerPage, filteredRows.length)} 共 ${filteredRows.length} 条</span>`;
