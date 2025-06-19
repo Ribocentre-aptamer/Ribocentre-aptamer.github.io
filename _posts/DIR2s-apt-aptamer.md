@@ -6,14 +6,6 @@ author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
 <html>
-<head>
-  <style>
-
-  </style>
-</head>
-</html>
-
-
 
 
 <div class="side-nav">

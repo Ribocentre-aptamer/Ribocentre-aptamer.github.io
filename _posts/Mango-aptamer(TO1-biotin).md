@@ -133,191 +133,188 @@ categories: Aptamer
 <p>5'-GUGCGAAGGGACGGUGCGGAGAGGAGAGCAC-3'</p>
 <img src="/images/2D/TO1-Biotin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-
 
 <p class="blowheader_box">3D visualisation</p>             
-<font>Robert J Trachman III and Natalia A Demeshkina et al. analyzed the RNA Mango-TO1-Biotin 1.7-Å-resolution co-crystal structure. The PDB ID of this structure is 1AM0<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
-  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/3D/TO1-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
-  </td>
-  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
-      <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
+  <p>Robert J Trachman III and Natalia A Demeshkina et al. analyzed the RNA Mango-TO1-Biotin 1.7-Å-resolution co-crystal structure. The PDB ID of this structure is 1AM0<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+  <div ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
+    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+    <img src="/images/3D/TO1-biotin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+    </td>
+    <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PDBe Molstar</title>
+        <!-- Molstar CSS & JS -->
+        <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
+        <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+          <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .msp-plugin ::-webkit-scrollbar-thumb {
+                background-color: #474748  !important;
+            }
+            .msp-plugin .msp-layout-standard {
+                border: 1px solid #efefef;
+            }
+            .viewerSection1 {
+              padding-top: 0px;
+            }
+            .controlsSection1 {
+              width: 300px;
+                display: flex;
+                float:left;
+                padding: 0px 0 0 0;
+                height:25px;
+              }
+              .controlBox1 {
+                border: 0px solid lightgray;
+                padding: 0px;
+                margin-bottom: 0px;
+              }
+            #myViewer1{
               float:left;
-              padding: 0px 0 0 0;
-              height:25px;
+              width:500px;
+              height: 500px;
+              position:relative;
             }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
-    <body onload="customize()">
-        <div class="controlsSection1">
-            <button onclick="
-              var selectSections1 = [
-                {
-  struct_asym_id: 'A', 
-  start_residue_number:104, 
-  end_residue_number:104, 
-  color:{r:255,g:255,b:0}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:11, 
-  end_residue_number:12, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:16, 
-  end_residue_number:17, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:20, 
-  end_residue_number:22, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:25, 
-  end_residue_number:26, 
-  color:{r:9,g:254,b:254}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:1, 
-  end_residue_number:4, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:28, 
-  end_residue_number:31, 
-  color:{r:128,g:219,b:158}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:10, 
-  end_residue_number:10, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:15, 
-  end_residue_number:15, 
-  color:{r:255,g:0,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:8, 
-  end_residue_number:9, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:13, 
-  end_residue_number:14, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:18, 
-  end_residue_number:19, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:23, 
-  end_residue_number:24, 
-  color:{r:10,g:11,b:255}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:5, 
-  end_residue_number:7, 
-  color:{r:255,g:135,b:10}
-},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:27, 
-  end_residue_number:27, 
-  color:{r:255,g:135,b:10}
-}
-             ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+          </style>
+      </head>
+      <body onload="customize()">
+          <div class="controlsSection1">
+              <button onclick="
+                var selectSections1 = [
+                  {
+    struct_asym_id: 'A', 
+    start_residue_number:104, 
+    end_residue_number:104, 
+    color:{r:255,g:255,b:0}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:11, 
+    end_residue_number:12, 
+    color:{r:9,g:254,b:254}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:16, 
+    end_residue_number:17, 
+    color:{r:9,g:254,b:254}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:20, 
+    end_residue_number:22, 
+    color:{r:9,g:254,b:254}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:25, 
+    end_residue_number:26, 
+    color:{r:9,g:254,b:254}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:1, 
+    end_residue_number:4, 
+    color:{r:128,g:219,b:158}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:28, 
+    end_residue_number:31, 
+    color:{r:128,g:219,b:158}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:10, 
+    end_residue_number:10, 
+    color:{r:255,g:0,b:255}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:15, 
+    end_residue_number:15, 
+    color:{r:255,g:0,b:255}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:8, 
+    end_residue_number:9, 
+    color:{r:10,g:11,b:255}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:13, 
+    end_residue_number:14, 
+    color:{r:10,g:11,b:255}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:18, 
+    end_residue_number:19, 
+    color:{r:10,g:11,b:255}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:23, 
+    end_residue_number:24, 
+    color:{r:10,g:11,b:255}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:5, 
+    end_residue_number:7, 
+    color:{r:255,g:135,b:10}
+  },
+  {
+    struct_asym_id: 'A', 
+    start_residue_number:27, 
+    end_residue_number:27, 
+    color:{r:255,g:135,b:10}
+  }
+              ]
+              viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+            <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+        </div>
+      <div class="viewerSection1">
+      <!-- Molstar container -->
+        <div id="myViewer1"></div>
       </div>
-    <div class="viewerSection1">
-    <!-- Molstar container -->
-      <div id="myViewer1"></div>
-    </div>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/5v3f.pdb',
-        format: 'pdb'},
-        expanded: false,
-        hideControls: true,
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-</script>
-</body>
-</html>
-</td>
-</tr>
-</table>
+      <script>
+        var viewerInstance1 = new PDBeMolstarPlugin();
+        var options1 = {
+          customData:{
+          url:'/pdbfiles/5v3f.pdb',
+          format: 'pdb'},
+          expanded: false,
+          hideControls: true,
+          bgColor: {r:255, g:255, b:255},
+          }
+        var viewerContainer1 = document.getElementById('myViewer1');
+        viewerInstance1.render(viewerContainer1, options1);
+    window.addEventListener('load', function() {
+      var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+      colorSelectionButton1.click();
+    });
+  </script>
+  </body>
+  </html>
+  </td>
+  </tr>
+  </table>
 </div>
-<br>
 
 
 <p class="blowheader_box">Binding pocket</p>             
-<font>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5V3F by X-ray crystallography. Thiazole orange-biotin(TO1-biotin) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with TO1-biotin or other nucleotides surround small molecules.</font>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5V3F by X-ray crystallography. Thiazole orange-biotin(TO1-biotin) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with TO1-biotin or other nucleotides surround small molecules.</p>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">

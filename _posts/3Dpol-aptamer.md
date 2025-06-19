@@ -212,7 +212,7 @@ type: Proteins
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><p><strong>[1] Structure of foot-and-mouth disease virus RNA-dependent RNA polymerase and its complex with a template-primer RNA.</strong></font><br />
+<a id="ref1"></a><p><strong>[1] Structure of foot-and-mouth disease virus RNA-dependent RNA polymerase and its complex with a template-primer RNA.</strong><br />
 Ferrer-Orta,& Verdaguer, N.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/15294895/" target="_blank" style="color:#520049">The Journal of biological chemistry, 279(45), 47212–47221. (2004)</a>
 <br/>
@@ -282,38 +282,3 @@ Ellingham, M., & Stonehouse, N. J.<br />
     colorSelectionButton1.click();
   });
     </script>
-
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
-
-
-    </html>

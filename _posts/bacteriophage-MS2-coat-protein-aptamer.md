@@ -114,7 +114,7 @@ type: Proteins
 <p class="blowheader_box">3D visualisation</p>             
 <p>In 1998, Stockley PG and Liljas L et al. determined the crystal structure, resolved to 2.8 Å, of an RNA aptamer bound to bacteriophage MS2 coat protein. It provided an opportunity to compare the interactions of MS2 coat protein and wild type operator with those of an aptamer, whose secondary structure differed from the wild type RNA by having a three-base loop (as opposed to a tetraloop) and an additional base pair between this loop and the sequence-specific recognition element in the stem. The PDB ID of this structure is 6MSF<sup>[<a href="#ref5" style="color:#520049" >5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
-<div><font><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MS2_coat_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -403,47 +403,47 @@ type: Proteins
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Nucleotide sequence at the binding site for coat protein on RNA of bacteriophage R17.</strong></font><br />
+<a id="ref1"></a><p><strong>[1] Nucleotide sequence at the binding site for coat protein on RNA of bacteriophage R17.</strong></p><br />
 Bernardi, A., & Spahr, P. F.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/4507620/" target="_blank" style="color:#520049" >Proceedings of the National Academy of Sciences of the United States of America, 69(10), 3033–3037. (1972).</a>
 <br />
                 
-<a id="ref2"></a><font><strong>[2] Enzymatic synthesis of a 21-nucleotide coat protein binding fragment of R17 ribonucleic acid.</strong></font><br />
+<a id="ref2"></a><p><strong>[2] Enzymatic synthesis of a 21-nucleotide coat protein binding fragment of R17 ribonucleic acid.</strong></p><br />
 Krug, M., de Haseth, P. L., & Uhlenbeck, O. C.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/6897195/" target="_blank" style="color:#520049">Biochemistry, 21(19), 4713–4720. (1982).</a>
 <br />
                 
-<a id="ref3"></a><font><strong>[3] Selection of high affinity RNA ligands to the bacteriophage R17 coat protein.</strong></font><br />
+<a id="ref3"></a><p><strong>[3] Selection of high affinity RNA ligands to the bacteriophage R17 coat protein.</strong></p><br />
 Schneider, D., Tuerk, C., & Gold, L.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/1469719/" target="_blank" style="color:#520049">Journal of molecular biology, 228(3), 862–869. (1992).</a>
 <br />
                 
-<a id="ref4"></a><font><strong>[4] The RNA binding site of bacteriophage MS2 coat protein.</strong></font><br />
+<a id="ref4"></a><p><strong>[4] The RNA binding site of bacteriophage MS2 coat protein.</strong></p><br />
 Peabody DS.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/8440248/" target="_blank" style="color:#520049">The EMBO journal ,12(2), 595–600. (1993).</a>
 <br />
                 
-<a id="ref5"></a><font><strong>[5] Crystal structures of MS2 coat protein mutants in complex with wild-type RNA operator fragments.</strong></font><br />
+<a id="ref5"></a><p><strong>[5] Crystal structures of MS2 coat protein mutants in complex with wild-type RNA operator fragments.</strong></p><br />
 van den Worm, S. H., Stonehouse, N. J., Valegârd, K., Murray, J. B., Walton, C., Fridborg, K., Stockley, P. G., & Liljas, L.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/9469847/" target="_blank" style="color:#520049">Nucleic acids research, 26(5), 1345–1351. (1998).</a>
 <br />
                 
-<a id="ref6"></a><font><strong>[6] Crystal structure of an RNA aptamer-protein complex at 2.8 A resolution.</strong></font><br />
+<a id="ref6"></a><p><strong>[6] Crystal structure of an RNA aptamer-protein complex at 2.8 A resolution.</strong></p><br />
 Convery, M. A., Rowsell, S., Stonehouse, N. J., Ellington, A. D., Hirao, I., Murray, J. B., Peabody, D. S., Phillips, S. E., & Stockley, P. G.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/9461079/" target="_blank" style="color:#520049">Nature structural biology, 5(2), 133–139. (1998).</a>
 <br />
                 
-<a id="ref7"></a><font><strong>[7] RNA aptamers for the MS2 bacteriophage coat protein and the wild-type RNA operator have similar solution behaviour.</strong></font><br />
+<a id="ref7"></a><p><strong>[7] RNA aptamers for the MS2 bacteriophage coat protein and the wild-type RNA operator have similar solution behaviour.</strong></p><br />
 Parrott, A. M., Lago, H., Adams, C. J., Ashcroft, A. E., Stonehouse, N. J., & Stockley, P. G.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10606647/" target="_blank" style="color:#520049">Nucleic acids research, 28(2), 489–497. (2000).</a>
 <br />
                 
-<a id="ref8"></a><font><strong>[8] Probing the kinetics of formation of the bacteriophage MS2 translational operator complex: identification of a protein conformer unable to bind RNA.</strong></font><br />
+<a id="ref8"></a><p><strong>[8] Probing the kinetics of formation of the bacteriophage MS2 translational operator complex: identification of a protein conformer unable to bind RNA.</strong></p><br />
 Lago, H., Parrott, A. M., Moss, T., Stonehouse, N. J., & Stockley, P. G.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/11162119/" target="_blank" style="color:#520049">Journal of molecular biology, 305(5), 1131–1144. (2001).</a>
 <br />
                 
-<a id="ref9"></a><font><strong>[9] The crystal structure of a high affinity RNA stem-loop complexed with the bacteriophage MS2 capsid: further challenges in the modeling of ligand-RNA interactions..</strong></font><br />
+<a id="ref9"></a><p><strong>[9] The crystal structure of a high affinity RNA stem-loop complexed with the bacteriophage MS2 capsid: further challenges in the modeling of ligand-RNA interactions..</strong></p><br />
 Horn, W. T., Convery, M. A., Stonehouse, N. J., Adams, C. J., Liljas, L., Phillips, S. E., & Stockley, P. G.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/15496523/" target="_blank" style="color:#520049">RNA (New York, N.Y.), 10(11), 1776–1782. (2004).</a>
 <br />

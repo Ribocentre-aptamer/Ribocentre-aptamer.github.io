@@ -272,7 +272,7 @@ type: Proteins
 </td>
 </tr>
 </table>
-</div>
+
 
 
 <p class="blowheader_box">Binding pocket</p>             

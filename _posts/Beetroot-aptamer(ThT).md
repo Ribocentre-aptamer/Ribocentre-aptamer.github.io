@@ -5,7 +5,6 @@ date:   2024-04-30 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 ---
-<!--p style="font-size: 24px"><strong>Keywords: <br /></p-->
 <html>
 
 
@@ -284,7 +283,6 @@ categories: Aptamer
     </td>
   </tr>
   </table>
-  </div>
   
 
 

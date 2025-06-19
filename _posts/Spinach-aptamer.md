@@ -14,15 +14,6 @@ tags:
 type: Small molecules
 ---
 <html>
-<head>
-  <style>
-
-  </style>
-</head>
-</html>
-
-
-
 
 <div class="side-nav">
 <ul>

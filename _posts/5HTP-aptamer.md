@@ -15,10 +15,6 @@ type: Small molecules
 ---
 <html>
 
-  
-
-</style>
-</head>
 
 <div class="side-nav">
 <ul>

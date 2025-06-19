@@ -22,6 +22,12 @@
   </ul>
 </div>
 
+<!-- 悬浮提示框 -->
+<div class="amir-tooltip" id="amirTooltip">
+  <div class="tooltip-content"></div>
+  <div class="tooltip-arrow"></div>
+</div>
+
 <script>
   // 导航球切换
   const navBall = document.getElementById('navBall');
@@ -219,6 +225,10 @@
         const shortText = fullSeq.slice(0, 20) + '…';
         cell.textContent = shortText;
 
+        // 可点击提示
+        cell.classList.add('seq-clickable');
+        cell.setAttribute('title', '点击查看完整序列');
+
         cell.style.cursor = 'pointer';
 
         // 生成着色 HTML
@@ -241,42 +251,156 @@
           return html;
         };
 
-        const tooltipHtml = `${buildColored(fullSeqRaw)}<br><em style='font-size:12px;'>Click to copy</em>`;
+        // 生成着色 HTML 并构建完整tooltip
+        const buildTooltip = () => {
+          const coloredSeq = buildColored(fullSeqRaw);
+          const seqLen = fullSeq.length;
+          return `
+            <div class='seq-info'>Length: ${seqLen} nt</div>
+            <pre class='sequence-display'>${coloredSeq}</pre>
+            <div class='seq-copy-tip'>Click tooltip to copy</div>`;
+        };
+
+        const tooltipHtml = buildTooltip();
 
         const showTip = (e) => {
           if (window.showAmirTooltip) {
-            window.showAmirTooltip(tooltipHtml, e.clientX, e.clientY, e);
-          } else {
-            cell.title = fullSeq; // fallback
+            window.showAmirTooltip(tooltipHtml, cell);
           }
         };
-        const hideTip = () => {
-          if (window.hideAmirTooltip) window.hideAmirTooltip();
-        };
-        cell.addEventListener('mouseenter', showTip);
-        cell.addEventListener('mousemove', showTip);
-        cell.addEventListener('mouseleave', hideTip);
-        cell.addEventListener('click', (evt) => {
-          navigator.clipboard.writeText(fullSeq).then(()=>{
-            const toast = document.createElement('div');
-            toast.textContent = 'Copied!';
-            toast.style.position = 'fixed';
-            toast.style.top = (evt.clientY - 40) + 'px';
-            toast.style.left = (evt.clientX - 20) + 'px';
-            toast.style.padding = '4px 8px';
-            toast.style.background = 'rgba(0,0,0,0.8)';
-            toast.style.color = '#fff';
-            toast.style.borderRadius = '4px';
-            toast.style.fontSize = '12px';
-            toast.style.zIndex = 2000;
-            document.body.appendChild(toast);
-            setTimeout(()=>toast.remove(), 1500);
-          }).catch(()=>{});
-        });
+        cell.addEventListener('click', showTip);
+
+        // 当鼠标离开tooltip自身且不回到cell时隐藏
+        const tooltip = document.getElementById('amirTooltip');
+        if (tooltip) {
+          tooltip.addEventListener('mouseleave', (ev)=>{
+            if(ev && cell.contains(ev.relatedTarget)) return;
+            hideTip(ev);
+          });
+          // 点击tooltip复制
+          tooltip.addEventListener('click', ()=>{
+            navigator.clipboard.writeText(fullSeq).then(()=>{
+              const toast = document.createElement('div');
+              toast.textContent = 'Copied!';
+              toast.style.position = 'fixed';
+              const rectT = tooltip.getBoundingClientRect();
+              toast.style.top = (rectT.top - 30) + 'px';
+              toast.style.left = (rectT.left + rectT.width/2 - 30) + 'px';
+              toast.style.padding = '4px 8px';
+              toast.style.background = 'rgba(0,0,0,0.8)';
+              toast.style.color = '#fff';
+              toast.style.borderRadius = '4px';
+              toast.style.fontSize = '12px';
+              toast.style.zIndex = 2000;
+              document.body.appendChild(toast);
+              setTimeout(()=>toast.remove(), 1500);
+            }).catch(()=>{});
+          });
+        }
       });
     });
 
     // 提示：如需序列着色，可在此处重新启用相应代码。
+
+    /* --------- 自定义Tooltip函数（仅当不存在时注入）--------- */
+    if (typeof window.showAmirTooltip === 'undefined') {
+      let currentAnchor = null;
+
+      window.showAmirTooltip = function(content, anchorEl) {
+        const tooltip = document.getElementById('amirTooltip');
+        if (!tooltip || !anchorEl) return;
+
+        // 若点击同一元素，则切换隐藏
+        if (currentAnchor === anchorEl) {
+          window.hideAmirTooltip();
+          return;
+        }
+
+        currentAnchor = anchorEl;
+
+        const tooltipContent = tooltip.querySelector('.tooltip-content');
+        tooltipContent.innerHTML = content;
+
+        // 添加关闭按钮（若尚未添加）
+        let closeBtn = tooltip.querySelector('.tooltip-close');
+        if (!closeBtn) {
+          closeBtn = document.createElement('span');
+          closeBtn.className = 'tooltip-close';
+          closeBtn.innerHTML = '&times;';
+          closeBtn.addEventListener('click', () => {
+            window.hideAmirTooltip();
+          });
+          tooltip.appendChild(closeBtn);
+        }
+
+        tooltip.style.opacity = '0';
+        tooltip.style.display = 'block';
+
+        // 计算锚定位置
+        const rect = anchorEl.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+
+        // 确保先获取尺寸
+        const tRect = tooltip.getBoundingClientRect();
+        let left = rect.left + rect.width/2 - tRect.width/2;
+        let top = rect.top - tRect.height - 10;
+        let arrowDir = 'bottom';
+
+        if (left < 10) left = 10;
+        if (left + tRect.width > viewportWidth - 10) left = viewportWidth - tRect.width - 10;
+
+        if (top < 10) {
+          top = rect.bottom + 10;
+          arrowDir = 'top';
+        }
+        if (top + tRect.height > viewportHeight - 10) {
+          top = rect.top - tRect.height - 10;
+          arrowDir = 'bottom';
+        }
+
+        const arrow = tooltip.querySelector('.tooltip-arrow');
+        if (arrow) {
+          if (arrowDir === 'bottom') {
+            arrow.style.bottom = '-5px';
+            arrow.style.top = 'auto';
+            arrow.style.borderTop = '5px solid #ffffff';
+            arrow.style.borderBottom = 'none';
+          } else {
+            arrow.style.top = '-5px';
+            arrow.style.bottom = 'auto';
+            arrow.style.borderBottom = '5px solid #ffffff';
+            arrow.style.borderTop = 'none';
+          }
+          const arrowLeft = rect.left + rect.width/2 - left - 5;
+          const finalLeft = Math.max(5, Math.min(arrowLeft, tRect.width - 15));
+          arrow.style.left = finalLeft + 'px';
+        }
+
+        tooltip.style.left = left + 'px';
+        tooltip.style.top = top + 'px';
+        tooltip.style.opacity = '1';
+
+        // 点击页面其他地方关闭
+        const clickOutsideHandler = (ev) => {
+          if (!tooltip.contains(ev.target) && ev.target !== anchorEl) {
+            window.hideAmirTooltip();
+          }
+        };
+        setTimeout(() => {
+          document.addEventListener('click', clickOutsideHandler, { once: true });
+        }, 0);
+      };
+
+      window.hideAmirTooltip = function() {
+        const tooltip = document.getElementById('amirTooltip');
+        if (tooltip) {
+          tooltip.style.opacity = '0';
+          tooltip.style.display = 'none';
+        }
+        currentAnchor = null;
+      };
+    }
 
     console.timeEnd('aptamer_init');
   });

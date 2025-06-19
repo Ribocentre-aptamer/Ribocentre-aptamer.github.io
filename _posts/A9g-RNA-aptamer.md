@@ -19,8 +19,6 @@ type: Proteins
 <html>
 
 
-
-
 <div class="side-nav">
 <ul>
     <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
@@ -265,7 +263,7 @@ type: Proteins
 </td>
 </tr>
 </table>
-</div>
+
 
 
 <p class="blowheader_box">Binding pocket</p>             

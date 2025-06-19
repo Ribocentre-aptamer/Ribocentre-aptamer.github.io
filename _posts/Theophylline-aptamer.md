@@ -174,14 +174,14 @@ type: Small molecules
 
 <div class="content-section">
   <h2 class="section-title" id="description">Description</h2>
-<p>In <span class="highlight-text">1994</span>, Polisky, B. et al. used <span class="highlight-text">SELEX</span> to screen for high-affinity RNA aptamers with theophylline-binding solution structures. In <span class="highlight-text">1997</span>, <span class="highlight-text">NMR techniques</span> visualised the interaction of RNA structures in the ligand-binding site. In <span class="highlight-text">1998</span>, it was found that <span class="highlight-text">U27 and G27 RNAs</span> bound theophylline with low-affinity (Kd values > 4 μM). NMR spectroscopy of U27 RNA revealed an <span class="highlight-text">A7-U27 base pair</span> in the free RNA, which prevented the formation of a key structural motif in the critical base platform and thus inhibited theophylline binding. In <span class="highlight-text">2022</span>, the crystal structure of the theophylline aptamer was resolved<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref30" style="color:#520049">30</a></sup><sup>]</sup>.</p>
+<p>In 1994, Polisky, B. et al. used SELEX to screen for high-affinity RNA aptamers with theophylline-binding solution structures. In 1997, NMR techniques visualised the interaction of RNA structures in the ligand-binding site. In 1998, it was found that U27 and G27 RNAs bound theophylline with low-affinity (Kd values > 4 μM). NMR spectroscopy of U27 RNA revealed an A7-U27 base pair in the free RNA, which prevented the formation of a key structural motif in the critical base platform and thus inhibited theophylline binding. In 2022, the crystal structure of the theophylline aptamer was resolved<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref30" style="color:#520049">30</a></sup><sup>]</sup>.</p>
 </div>
 
 <div class="content-section">
   <h2 class="section-title" id="SELEX">SELEX</h2>
-<p>In <span class="highlight-text">1994</span>, Polisky, B et al. used <span class="highlight-text">SELEX</span> to identify RNA molecules with an affinity for theophylline. They created a pool of <span class="highlight-text">10<sup>14</sup> RNA molecules</span>, each comprising a <span class="highlight-text">40-nucleotide region</span> of random sequence. The RNA pool was then introduced to a <span class="highlight-text">Sepharose column</span> that had <span class="highlight-text">1-carboxypropyl theophylline</span> covalently cross-linked to it. The bound RNA was subsequently eluted by adding <span class="highlight-text">0.1 M theophylline</span>. The eluted RNA was then converted to DNA and amplified via <span class="highlight-text">polymerase chain reaction (PCR)</span>, following the described procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>
+<p>In 1994, Polisky, B et al. used SELEX to identify RNA molecules with an affinity for theophylline. They created a pool of 10<sup>14</sup> RNA molecules, each comprising a 40-nucleotide region of random sequence. The RNA pool was then introduced to a Sepharose column that had 1-carboxypropyl theophylline covalently cross-linked to it. The bound RNA was subsequently eluted by adding 0.1 M theophylline. The eluted RNA was then converted to DNA and amplified via polymerase chain reaction (PCR), following the described procedure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 </div>
+
 
 <div class="content-section">
   <h2 class="section-title" id="Structure">Structure</h2>
@@ -191,7 +191,7 @@ type: Small molecules
 <img src="/images/2D/Theophylline_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 
 <div class="blowheader_box">3D visualisation</div>             
-<p>In 1997, Pardi.A. et al. used NMR and X-PLOR 3.113 calculations to demonstrate the solution structure of a high-affinity RNA-theophylline complex, where the <span class="highlight-text">C27 nucleotide</span> was identified as the key residue for recognising theophylline and discriminating it from caffeine. The PDB ID for the NMR structure of the RNA-theophylline complex is <span class="highlight-text">1EHT</span>. In 2022, Rogers.J. et al. determined the crystal structure of an RNA aptamer-theophylline complex. Owing to the high similarity between the solved NMR 3D structure and the following crystal 3D structure, only the crystal 3D structure is presented here. The PDB ID for the crystal structure of the theophylline aptamer is <span class="highlight-text">8D28</span><sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref30" style="color:#520049">30</a></sup><sup>]</sup>.</p>
+<p>In 1997, Pardi.A. et al. used NMR and X-PLOR 3.113 calculations to demonstrate the solution structure of a high-affinity RNA-theophylline complex, where the C27 nucleotide was identified as the key residue for recognising theophylline and discriminating it from caffeine. The PDB ID for the NMR structure of the RNA-theophylline complex is 1EHT. In 2022, Rogers.J. et al. determined the crystal structure of an RNA aptamer-theophylline complex. Owing to the high similarity between the solved NMR 3D structure and the following crystal 3D structure, only the crystal 3D structure is presented here. The PDB ID for the crystal structure of the theophylline aptamer is 8D28<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref30" style="color:#520049">30</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="structure-table" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
@@ -360,7 +360,7 @@ type: Small molecules
 </div>
 
 <div class="blowheader_box">Binding pocket</div>             
-<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: <span class="highlight-text">8D28</span> by X-ray Crystallography. <span class="highlight-text">Theophylline</span> (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Theophylline.</p>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 8D28 by X-ray Crystallography. Theophylline (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Theophylline.</p>
   <table class="binding-pocket-table" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Theophylline_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -378,18 +378,18 @@ type: Small molecules
   <h2 class="section-title" id="ligand-recognition">Ligand information</h2>
   
   <div class="blowheader_box">SELEX ligand</div>
-  <p>To determine the dissociation constants (Kd) of the theophylline aptamer and its ligands, the RNA was synthesised with a <span class="highlight-text">Cy5 fluorophore</span> at the 3' end. Strand invasion assays were conducted by incubating the labelled aptamer with a complementary oligonucleotide carrying a fluorescence quencher. The fluorescence changes were measured upon the addition of various compounds, and the data were fitted to determine the <span class="highlight-text">IC50 values</span>, which served as an estimate of Kd. <span class="highlight-text">Surface plasmon resonance (SPR)</span> was used for precise Kd determination, where the RNA aptamer was immobilised on a CM5 sensor chip via biotin and NeutrAvidin. The ligands were injected at varying concentrations, and the binding data were analysed to obtain Kd values. The compounds <span class="highlight-text">TAL1, TAL2, TAL3, and TAL4</span> were found to have Kd values of <span class="highlight-text">0.0020, 0.0091, 0.023, and 0.28 µM</span>, respectively, demonstrating higher affinity than theophylline (0.67 µM). Theophylline aptamer ligand 1 (TAL1), is an aminomethyl-substituted pteridinone that has a similar molecular weight as that of theophylline. The other three (TAL2, TAL3, and TAL4) have higher molecular weights, with differing substitutions of a common quinazolinone ring system<sup>[<a href="#ref30">30</a>]</sup>.</p>
+  <p>To determine the dissociation constants (Kd) of the theophylline aptamer and its ligands, the RNA was synthesised with a Cy5 fluorophore at the 3' end. Strand invasion assays were conducted by incubating the labelled aptamer with a complementary oligonucleotide carrying a fluorescence quencher. The fluorescence changes were measured upon the addition of various compounds, and the data were fitted to determine the IC50 values, which served as an estimate of Kd. Surface plasmon resonance (SPR) was used for precise Kd determination, where the RNA aptamer was immobilised on a CM5 sensor chip via biotin and NeutrAvidin. The ligands were injected at varying concentrations, and the binding data were analysed to obtain Kd values. The compounds TAL1, TAL2, TAL3, and TAL4 were found to have Kd values of 0.0020, 0.0091, 0.023, and 0.28 µM, respectively, demonstrating higher affinity than theophylline (0.67 µM). Theophylline aptamer ligand 1 (TAL1), is an aminomethyl-substituted pteridinone that has a similar molecular weight as that of theophylline. The other three (TAL2, TAL3, and TAL4) have higher molecular weights, with differing substitutions of a common quinazolinone ring system<sup>[<a href="#ref30">30</a>]</sup>.</p>
   
   <img src="/images/SELEX_ligand/Theophylline_SELEX_ligand.svg" alt="SELEX ligands" class="img-responsive">
 
   <div class="blowheader_box">Structure ligand</div>
-  <p>A methylxanthine derivative from tea with diuretic, smooth muscle relaxant, bronchial dilation, cardiac and central nervous system stimulant activities. Mechanistically, theophylline acts as a <span class="highlight-text">phosphodiesterase inhibitor</span>, <span class="highlight-text">adenosine receptor blocker</span>, and <span class="highlight-text">histone deacetylase activator</span>. Theophylline is marketed under several brand names such as <span class="highlight-text">Uniphyl and Theochron</span>, and it is indicated mainly for <span class="highlight-text">asthma, bronchospasm, and COPD</span>.-----From<a href="https://go.drugbank.com/drugs/DB00277" target="_blank"><b>Drugbank</b></a></p>
+  <p>A methylxanthine derivative from tea with diuretic, smooth muscle relaxant, bronchial dilation, cardiac and central nervous system stimulant activities. Mechanistically, theophylline acts as a phosphodiesterase inhibitor, adenosine receptor blocker, and histone deacetylase activator. Theophylline is marketed under several brand names such as Uniphyl and Theochron, and it is indicated mainly for asthma, bronchospasm, and COPD.-----From<a href="https://go.drugbank.com/drugs/DB00277" target="_blank"><b>Drugbank</b></a></p>
 
-  <div class="info-box">
+
     <p><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank"><b>PubChem database</b></a>.</p>
     <p><b><a href="https://commonchemistry.cas.org/" target="_blank"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
     <p><b><a href="https://go.drugbank.com/" target="_blank"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
-  </div>
+
 
   <table class="table">
   <thead>
@@ -422,13 +422,13 @@ type: Small molecules
   </div>
 
   <div class="blowheader_box">Similar compound(s)</div>
-  <p>We screened the compounds with great similarity to theophylline by using the <a href="https://zinc15.docking.org/" target="_blank"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with <span class="highlight-text">Pubchem CID</span>.</p>
+  <p>We screened the compounds with great similarity to theophylline by using the <a href="https://zinc15.docking.org/" target="_blank"><b>ZINC database</b></a> and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID.</p>
 
-  <div class="info-box">
+
     <p><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
     <p><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank"><b>PubChem database</b></a>.</p>
     <p><b><a href="https://commonchemistry.cas.org/" target="_blank"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
-  </div>
+
 
   <table class="table">
   <thead>
@@ -658,11 +658,3 @@ Wrist, A., Sun, W., & Summers, R. M.<br />
 
 <a id="ref30"></a><font><strong>[30] Discovery of small molecules that target a tertiary-structured RNA.</strong></font><br />
 Menichelli, E., Lam, B. J., Wang, Y., Wang, V. S., Shaffer, J., Tjhung, K. F., Bursulaya, B., Nguyen, T. N., Vo, T., Alper, P. B., McAllister, C. S., Jones, D. H., Spraggon, G., Michellys, P. Y., Joslin, J., Joyce, G. F., & Rogers, J.<br />
-<<<<<<< HEAD:_posts/Theophylline-aptamer.md
-  <a href="https://pubmed.ncbi.nlm.nih.gov/36413497/" target="_blank" style="color:#520049" >Proceedings of the National Academy of Sciences of the United States of America, 119(48), e2213117119. (2022)</a>
-<br />
-</div>
-=======
-<a href="https://pubmed.ncbi.nlm.nih.gov/36413497/" target="_blank" style="color:#520049" >Proceedings of the National Academy of Sciences of the United States of America, 119(48), e2213117119. (2022)</a>
-<br />
->>>>>>> f61fe444c599dd8b992a63bfcf84339d08f7a859:_posts/Theophylline-aptamer_old.md

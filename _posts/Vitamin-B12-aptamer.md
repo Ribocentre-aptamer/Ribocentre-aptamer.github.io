@@ -111,8 +111,8 @@ type: Small molecules
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Charles Wilson et al. determined the structure of the vitamin B12 RNA aptamer using X-ray crystallography. The structure was resolved at a high resolution of 2.3 Å.The vitamin B<sub>12</sub> RNA aptamer is characterized by a unique tertiary structure that includes a water-filled channel through the core of an RNA triplex. This triplex structure is notably stabilized by water molecules which form bridging hydrogen bonds across planar base triples that lack significant direct base-base contacts. This structural arrangement is critical for the aptamer’s stability and specificity in binding vitamin B12. The PDB ID of this structure is 1ET4<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Charles Wilson et al. determined the structure of the vitamin B12 RNA aptamer using X-ray crystallography. The structure was resolved at a high resolution of 2.3 Å.The vitamin B<sub>12</sub> RNA aptamer is characterized by a unique tertiary structure that includes a water-filled channel through the core of an RNA triplex. This triplex structure is notably stabilized by water molecules which form bridging hydrogen bonds across planar base triples that lack significant direct base-base contacts. This structural arrangement is critical for the aptamer’s stability and specificity in binding vitamin B12. The PDB ID of this structure is 1ET4<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/VB12_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -256,7 +256,7 @@ type: Small molecules
 </div>
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ET4 by X-ray crystallography. Cyanocobalamin (vitamin B<sub>12</sub>) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with vitamin B<sub>12</sub>.</font>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ET4 by X-ray crystallography. Cyanocobalamin (vitamin B<sub>12</sub>) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with vitamin B<sub>12</sub>.</p>
 <br><br>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -272,10 +272,10 @@ type: Small molecules
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
+<p><p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Jack W. Szostak et al. used equilibrium dialysis to measure the dissociation constants (Kd) of the interaction between cyanocobalamin, cobinamide dicyanide, and a 35-nucleotide RNA aptamer. The dissociation constants were determined using a dialysis chamber setup, with the aptamer at a concentration of approximately 10 pM, and different concentrations of the ligands were tested to calculate the Kd values​<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
+<p>Jack W. Szostak et al. used equilibrium dialysis to measure the dissociation constants (Kd) of the interaction between cyanocobalamin, cobinamide dicyanide, and a 35-nucleotide RNA aptamer. The dissociation constants were determined using a dialysis chamber setup, with the aptamer at a concentration of approximately 10 pM, and different concentrations of the ligands were tested to calculate the Kd values​<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <br><br>
 <div style="display: flex; justify-content: center;">
 <!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
@@ -403,32 +403,32 @@ type: Small molecules
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] In vitro selection of RNA aptamers specific for cyanocobalamin.</strong></font><br />
+<a id="ref1"></a><p><strong>[1] In vitro selection of RNA aptamers specific for cyanocobalamin.</strong></p><br />
 Lorsch JR, Szostak JW<br />
 <a href="https://onlinelibrary.wiley.com/doi/10.1002/anie.199410841" target="_blank" style="color:#520049" >Biochemistry. 1994 Feb 1;33(4):973-82. (1994)</a>
 <br />
                 
-<a id="ref2"></a><font><strong>[2] Preliminary characterization of crystals of an in vitro evolved cyanocobalamin (vitamin B12) binding RNA.</strong></font><br />
+<a id="ref2"></a><p><strong>[2] Preliminary characterization of crystals of an in vitro evolved cyanocobalamin (vitamin B12) binding RNA.</strong></p><br />
 Sussman D, Greensides D, Reilly K, Wilson C<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10089440/" target="_blank" style="color:#520049">Acta crystallographica. Section D, Biological crystallography. 1999 Jan;55(Pt 1):326-8. (1999)</a>
 <br />
                 
-<a id="ref3"></a><font><strong>[3] The structural basis for molecular recognition by the vitamin B 12 RNA aptamer.</strong></font><br />
+<a id="ref3"></a><p><strong>[3] The structural basis for molecular recognition by the vitamin B 12 RNA aptamer.</strong></p><br />
 Sussman D, Nix JC, Wilson C<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10625428/" target="_blank" style="color:#520049">Nature structural biology. 2000 Jan;7(1):53-7. (2000)</a>
 <br />
                 
-<a id="ref4"></a><font><strong>[4] A water channel in the core of the vitamin B(12) RNA aptamer.</strong></font><br />
+<a id="ref4"></a><p><strong>[4] A water channel in the core of the vitamin B(12) RNA aptamer.</strong></p><br />
 Sussman D, Wilson C<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10903943/" target="_blank" style="color:#520049">Structure. 2000 Jul 15;8(7):719-27. (2000)</a>
 <br />
                 
-<a id="ref5"></a><font><strong>[5] Influence of nanometric holes on the sensitivity of a waveguide-mode sensor: label-free nanosensor for the analysis of RNA aptamer-ligand interactions.</strong></font><br />
+<a id="ref5"></a><p><strong>[5] Influence of nanometric holes on the sensitivity of a waveguide-mode sensor: label-free nanosensor for the analysis of RNA aptamer-ligand interactions.</strong></p><br />
 Gopinath SC, Awazu K, Fujimaki M, Sugimoto K, Ohki Y, Komatsubara T, Tominaga J, Gupta KC, Kumar PK<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/18672888/" target="_blank" style="color:#520049">Analytical chemistry. 2008 Sep 1;80(17):6602-9. (2008)</a>
 <br />
                 
-<a id="ref6"></a><font><strong>[6] Nano RNA aptamer wire for analysis of vitamin B₁₂.</strong></font><br />
+<a id="ref6"></a><p><strong>[6] Nano RNA aptamer wire for analysis of vitamin B₁₂.</strong></p><br />
 Selvakumar LS, Thakur MS<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/22658959/" target="_blank" style="color:#520049">Analytical biochemistry. 2012 Aug 15;427(2):151-7. (2012)</a>
 <br />
