@@ -1007,12 +1007,18 @@ class AdvancedSearchModule {
                             const lenDisplay = item.sequence_length_range || item.sequence_length || '-';
                             const gcDisplay = item.gc_content_range || (item.gc_content !== undefined ? item.gc_content : '-');
 
+                            // Multi-aptamer badge
+                            const multiBadge = (item.result_type === 'page' && item.aptamer_count && item.aptamer_count > 1)
+                                ? `<span class="multi-aptamer-badge" data-tooltip="Multiple aptamers (${item.aptamer_count})">${item.aptamer_count}×</span>`
+                                : '';
+
                             return `
                             <tr class="${typeClass}">
                                 <td class="table-name">
                                     <a href="${item.url}" target="_blank" class="data-table-link">
                                         ${this.truncateText(item.title || 'Unknown', 40)}
                                     </a>
+                                    ${multiBadge}
                                 </td>
                                 <td>${typeInfo || 'Unknown'}</td>
                                 <td>
@@ -1720,6 +1726,48 @@ const resultStyles = `
 .table-name .data-table-link:hover {
     color: #7a0070 !important;
     text-shadow: 0 1px 2px rgba(82, 0, 73, 0.3);
+}
+
+/* Multi-aptamer badge */
+.multi-aptamer-badge {
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    margin-left: 4px;
+    vertical-align: middle;
+    cursor: default;
+    line-height: 1;
+}
+
+/* Multi-aptamer badge tooltip */
+.multi-aptamer-badge[data-tooltip] {
+    position: relative;
+}
+
+.multi-aptamer-badge[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.1s;
+    z-index: 9999;
+}
+
+.multi-aptamer-badge[data-tooltip]:hover::after {
+    opacity: 1;
 }
 </style>
 `;
