@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "LR06(GA) aptamer"
-date:   2024-04-5 00:00:00
+title: LR06(GA) aptamer
+date: 2024-04-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:52.81
+- GC:56.67
+- Length:89
+- Length:90
+- Named:Amyloid beta-peptide (Aβ)_E2
+- Named:Amyloid beta-peptide (Aβ)_N2
+- Type:Proteins
+- Year:2009
+type: Proteins
 ---
 <html>
 

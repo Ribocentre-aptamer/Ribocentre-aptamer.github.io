@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "IL-17A aptamer"
-date:   2024-05-31 00:00:00
+title: IL-17A aptamer
+date: 2024-05-31 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:54.169999999999995
+- GC:57.99999999999999
+- Length:33
+- Length:96
+- Named:Proinflammatory cytokine interleukin-17A (IL-17A)_Apt21-2 aptamer(truncation)
+- Named:Proinflammatory cytokine interleukin-17A (IL-17A)_Apt21‐2
+- Type:Proteins
+- Year:2011
+type: Proteins
 ---
 <html>
 

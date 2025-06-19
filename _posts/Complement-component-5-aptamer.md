@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Complement component 5 aptamer"
-date:   2024-05-22 00:00:00
+title: Complement component 5 aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:55.00000000000001
+- Length:40
+- Named:C5 (Complement component 5) protein_W2
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
 

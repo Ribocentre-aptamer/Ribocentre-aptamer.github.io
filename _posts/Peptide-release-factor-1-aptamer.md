@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Peptide release factor 1-aptamer"
-date:   2024-05-08 00:00:00
+title: Peptide release factor 1-aptamer
+date: 2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:50.54
+- GC:56.52
+- Length:92
+- Length:93
+- Named:Release factor 1 (RF1),(T. thermophilus)_RNA5
+- Named:Release factor 1 (RF1),(T. thermophilus)_RNA7
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
 

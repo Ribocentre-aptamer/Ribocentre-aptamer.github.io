@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "5HTP aptamer"
-date:   2024-04-20 00:00:00
+title: 5HTP aptamer
+date: 2024-04-20 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:49.0
+- Length:71
+- Named:5-Hydroxytryptophan (5HTP)_5GR-II RNA aptamer
+- Type:Small molecules
+- Year:2017
+type: Small molecules
 ---
 <html>
 

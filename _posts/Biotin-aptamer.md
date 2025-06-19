@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Biotin aptamer"
-date:   2024-05-08 00:00:00
+title: Biotin aptamer
+date: 2024-05-08 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:52.0
+- Length:33
+- Named:Biotin_BB8-5 RNA aptamer
+- Type:Small molecules
+- Year:1998
+type: Small molecules
 ---
 <html>
 

@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Protein tyrosine phosphatases aptamer"
-date:   2024-05-08 00:00:00
+title: Protein tyrosine phosphatases aptamer
+date: 2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:50.0
+- GC:51.24999999999999
+- Length:112
+- Length:80
+- Named:Protein tyrosine phosphatases (PTPase,Yersinia)_N30yc5
+- Named:Protein tyrosine phosphatases (PTPase,Yersinia)_N71yc16
+- Type:Proteins
+- Year:1998
+type: Proteins
 ---
 <html>
 

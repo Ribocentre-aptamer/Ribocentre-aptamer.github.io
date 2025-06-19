@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Human activated protein C aptamer"
-date:   2024-05-22 00:00:00
+title: Human activated protein C aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:55.69
+- GC:62.629999999999995
+- Length:167
+- Length:99
+- Named:Human activated protein C (APC)_APC-167
+- Named:Human activated protein C (APC)_APC-99
+- Type:Proteins
+- Year:1998
+type: Proteins
 ---
 <html>
 

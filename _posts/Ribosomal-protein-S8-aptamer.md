@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Ribosomal protein S8-aptamer"
-date:   2024-04-10 00:00:00
+title: Ribosomal protein S8-aptamer
+date: 2024-04-10 00:00:00
 author: Qiaozhen Liu, Zhaoji Qiu
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:57.99999999999999
+- Length:38
+- Named:Ribosomal protein S8_RNA-2 aptamer
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "L-selectin aptamer"
-date:   2024-05-22 00:00:00
+title: L-selectin aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:59.150000000000006
+- GC:61.970000000000006
+- Length:71
+- Named:L-selectin_13.32
+- Named:L-selectin_14.12
+- Type:Proteins
+- Year:1996
+type: Proteins
 ---
 <html>
 

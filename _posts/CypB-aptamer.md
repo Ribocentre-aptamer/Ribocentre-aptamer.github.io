@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "CypB-aptamer"
-date:   2024-06-01 00:00:00
+title: CypB-aptamer
+date: 2024-06-01 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:51.2
+- Length:78
+- Named:Cyclophilin B (CypB)_M9-5
+- Type:Proteins
+- Year:2012
+type: Proteins
 ---
 <html>
 

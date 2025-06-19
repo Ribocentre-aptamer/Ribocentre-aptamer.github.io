@@ -1,9 +1,29 @@
 ---
 layout: theophylline_style
-title:  "Colicin E3 aptamer"
-date:   2024-05-27 00:00:00
+title: Colicin E3 aptamer
+date: 2024-05-27 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:47.06
+- GC:50.83
+- GC:51.25999999999999
+- GC:52.1
+- GC:56.2
+- GC:58.68
+- Length:119
+- Length:120
+- Length:121
+- Named:Colicin E3_F1-1
+- Named:Colicin E3_F2-1
+- Named:Colicin E3_F3-1
+- Named:Colicin E3_F4-1
+- Named:Colicin E3_F4-2
+- Named:Colicin E3_F5-1
+- Type:Proteins
+- Year:2004
+type: Proteins
 ---
 <html>
 

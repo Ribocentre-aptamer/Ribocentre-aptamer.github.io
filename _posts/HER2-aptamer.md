@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "HER2 aptamer"
-date:   2024-06-06 00:00:00
+title: HER2 aptamer
+date: 2024-06-06 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:cell
+- GC:46.0
+- GC:48.0
+- Length:100
+- Length:33
+- Length:35
+- Named:HER2-positive breast cancer cells_TSA12 aptamer
+- Named:HER2-positive breast cancer cells_TSA14
+- Named:HER2-positive breast cancer cells_TSA14 aptamer(truncation)
+- Type:Cells
+- Year:2015
+type: Cells
 ---
 <html>
 

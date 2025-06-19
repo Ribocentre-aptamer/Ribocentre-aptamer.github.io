@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Thrombin aptamer"
-date:   2024-04-03 00:00:00
+title: Thrombin aptamer
+date: 2024-04-03 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.0
+- GC:51.24999999999999
+- Length:25
+- Length:80
+- Named:Human thrombin_Toggle-25
+- Named:Human thrombin_Toggle-25t RNA aptamer
+- Type:Proteins
+- Year:2001
+type: Proteins
 ---
 <html>
 

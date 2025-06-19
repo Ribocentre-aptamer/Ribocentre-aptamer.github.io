@@ -1,9 +1,24 @@
 ---
 layout: theophylline_style
-title:  "Tetracycline aptamer"
-date:   2024-03-26 00:00:00
+title: Tetracycline aptamer
+date: 2024-03-26 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:49.62
+- GC:50.0
+- GC:51.0
+- Length:131
+- Length:60
+- Length:65
+- Named:Tetracycline_Tetracycline aptamer
+- Named:Tetracycline_cb28 aptamer
+- Named:Tetracycline_cb28 minimer
+- Type:Small molecules
+- Year:2001
+- Year:2008
+type: Small molecules
 ---
 <html>
 

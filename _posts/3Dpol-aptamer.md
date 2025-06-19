@@ -1,9 +1,26 @@
 ---
 layout: theophylline_style
-title:  "3Dpol-aptamer"
-date:   2024-05-17 00:00:00
+title: 3Dpol-aptamer
+date: 2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:41.25
+- GC:46.88
+- GC:48.0
+- GC:49.370000000000005
+- Length:32
+- Length:75
+- Length:79
+- Length:80
+- Named:RNA-dependent RNA polymerase (3Dpol)_F38
+- Named:RNA-dependent RNA polymerase (3Dpol)_F47
+- Named:RNA-dependent RNA polymerase (3Dpol)_F47tr
+- Named:RNA-dependent RNA polymerase (3Dpol)_F52
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

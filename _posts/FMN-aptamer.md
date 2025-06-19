@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "FMN aptamer"
-date:   2024-03-28 00:00:00
+title: FMN aptamer
+date: 2024-03-28 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:60.0
+- Length:35
+- Named:Flavin mononucleotide (FMN)_35 nucleotide RNA aptamer
+- Type:Small molecules
+- Year:1996
+type: Small molecules
 ---
 <html>
 

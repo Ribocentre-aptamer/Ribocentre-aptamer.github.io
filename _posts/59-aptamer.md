@@ -1,9 +1,84 @@
 ---
 layout: theophylline_style
-title:  "59 aptamer"
-date:   2024-05-05 00:00:00
+title: 59 aptamer
+date: 2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:38.89
+- GC:41.03
+- GC:41.46
+- GC:42.11
+- GC:42.42
+- GC:44.12
+- GC:44.440000000000005
+- GC:45.95
+- GC:47.06
+- GC:47.22
+- GC:47.370000000000005
+- GC:47.5
+- GC:48.480000000000004
+- GC:48.65
+- GC:48.72
+- GC:50.0
+- GC:51.349999999999994
+- GC:51.43
+- GC:52.629999999999995
+- GC:52.78
+- GC:53.33
+- GC:55.00000000000001
+- GC:55.26
+- GC:57.89
+- GC:60.529999999999994
+- GC:63.160000000000004
+- Length:30
+- Length:33
+- Length:34
+- Length:35
+- Length:36
+- Length:37
+- Length:38
+- Length:39
+- Length:40
+- Length:41
+- Named:HIV-1 Rev protein_1
+- Named:HIV-1 Rev protein_116
+- Named:HIV-1 Rev protein_126
+- Named:HIV-1 Rev protein_13
+- Named:HIV-1 Rev protein_14
+- Named:HIV-1 Rev protein_15
+- Named:HIV-1 Rev protein_17
+- Named:HIV-1 Rev protein_18
+- Named:HIV-1 Rev protein_19
+- Named:HIV-1 Rev protein_2
+- Named:HIV-1 Rev protein_20
+- Named:HIV-1 Rev protein_22
+- Named:HIV-1 Rev protein_23
+- Named:HIV-1 Rev protein_4
+- Named:HIV-1 Rev protein_50
+- Named:HIV-1 Rev protein_51
+- Named:HIV-1 Rev protein_53
+- Named:HIV-1 Rev protein_58
+- Named:HIV-1 Rev protein_59
+- Named:HIV-1 Rev protein_6
+- Named:HIV-1 Rev protein_61
+- Named:HIV-1 Rev protein_63
+- Named:HIV-1 Rev protein_72
+- Named:HIV-1 Rev protein_73
+- Named:HIV-1 Rev protein_74
+- Named:HIV-1 Rev protein_75
+- Named:HIV-1 Rev protein_76
+- Named:HIV-1 Rev protein_79
+- Named:HIV-1 Rev protein_83
+- Named:HIV-1 Rev protein_86
+- Named:HIV-1 Rev protein_87
+- Named:HIV-1 Rev protein_88
+- Named:HIV-1 Rev protein_9
+- Named:HIV-1 Rev protein_92
+- Type:Proteins
+- Year:1993
+type: Proteins
 ---
 <html>
 

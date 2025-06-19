@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Subtilisin aptamer"
-date:   2024-05-08 00:00:00
+title: Subtilisin aptamer
+date: 2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:51.0
+- Length:51
+- Named:Subtilisin_RNA-1
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
 

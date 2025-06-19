@@ -1,9 +1,49 @@
 ---
 layout: theophylline_style
-title:  "VEGF-aptamer"
-date:   2024-05-14 00:00:00
+title: VEGF-aptamer
+date: 2024-05-14 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.0
+- GC:56.25
+- GC:57.14
+- GC:58.440000000000005
+- GC:58.620000000000005
+- GC:58.75
+- GC:59.040000000000006
+- GC:61.040000000000006
+- GC:61.11
+- GC:62.86000000000001
+- GC:64.47
+- GC:65.52
+- GC:77.42
+- Length:29
+- Length:31
+- Length:35
+- Length:36
+- Length:76
+- Length:77
+- Length:80
+- Length:83
+- Named:Vascular Endothelial Growth Factor (VEGF)_100
+- Named:Vascular Endothelial Growth Factor (VEGF)_100t
+- Named:Vascular Endothelial Growth Factor (VEGF)_12
+- Named:Vascular Endothelial Growth Factor (VEGF)_126
+- Named:Vascular Endothelial Growth Factor (VEGF)_126t
+- Named:Vascular Endothelial Growth Factor (VEGF)_12t
+- Named:Vascular Endothelial Growth Factor (VEGF)_40
+- Named:Vascular Endothelial Growth Factor (VEGF)_40t
+- Named:Vascular Endothelial Growth Factor (VEGF)_44
+- Named:Vascular Endothelial Growth Factor (VEGF)_44t
+- Named:Vascular Endothelial Growth Factor (VEGF)_84
+- Named:Vascular Endothelial Growth Factor (VEGF)_84t
+- Named:Vascular Endothelial Growth Factor (VEGF)_t44-OMe
+- Type:Proteins
+- Year:1994
+- Year:1998
+type: Proteins
 ---
 <html>
 

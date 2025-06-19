@@ -107,7 +107,7 @@ const SearchUtils = {
   /* 把 sequences_cleaned.json 的一条记录转换成与 search.json 相同的数据结构 */
   SearchUtils.transformSequenceRecord = function (r) {
     if (!r) return {};
-    /* 把类似 “Kd: 4.8 nM / 14 μM ...” 转成 nM 数值，便于高级筛选 */
+    /* 把类似 "Kd: 4.8 nM / 14 μM ..." 转成 nM 数值，便于高级筛选 */
     const kd = (() => {
       const m = String(r.Affinity || '').match(/Kd\s*[:\s]*[~<>]?\s*([\d\.]+)\s*([pnuµμmM]+)?/i);
       if (!m) return NaN;
@@ -121,13 +121,25 @@ const SearchUtils = {
     })();
 
     const len = Number(r.Length) || undefined;
-    const gc  = r['GC Content'] !== undefined ? parseFloat(r['GC Content']) * 100 : undefined;
+    // const gc  = r['GC Content'] !== undefined ? parseFloat(r['GC Content']) * 100 : undefined;
+    const gc = r['GC Content'] !== undefined
+           ? Number((parseFloat(r['GC Content']) * 100).toFixed(2))  // 50.57
+           : undefined;
     const yr  = r.Year ? String(r.Year) : '';
+
+    // 组装标准标签，包括 Type, Category, Length, GC Content, Year 等
+    const standardTags = [
+      r.Type ? `Type:${r.Type}` : '',
+      r.Category ? `Category:${r.Category}` : '',
+      len !== undefined ? `Length:${len}` : '',
+      gc !== undefined ? `GC:${gc}` : '',
+      yr ? `Year:${yr}` : ''
+    ].filter(Boolean).join(', ');
 
     return {
       title  : r.Named || r.ID || 'Unnamed Sequence',
       category: `sequence${r.Type ? ' - ' + r.Type : ''}`,
-      tags   : [r.Type, r.Category, `Length:${len}`, `GC:${gc}`, `Year:${yr}`].filter(Boolean).join(', '),
+      tags   : standardTags,
       url    : r.Linker && r.Linker.trim() && r.Linker !== 'null'
                  ? r.Linker
                  : `/sequences/?id=${encodeURIComponent(r.ID)}`,
@@ -142,7 +154,11 @@ const SearchUtils = {
       gc_content     : gc,
       kd_value       : kd,
       is_sequence    : true,
-      id             : r.ID
+      id             : r.ID,
+      /* 附加字段 */
+      target_type    : r.Type || '',
+      target         : r.Ligand || r.Target || '',
+      pub_year       : yr ? parseInt(yr) : undefined
     };
   };
 

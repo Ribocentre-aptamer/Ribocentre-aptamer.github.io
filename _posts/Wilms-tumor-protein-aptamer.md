@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "Wilms tumor protein aptamer"
-date:   2024-05-22 00:00:00
+title: Wilms tumor protein aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:52.559999999999995
+- GC:58.440000000000005
+- GC:59.74
+- Length:77
+- Length:78
+- Named:Wilms tumor protein (WT1)_RNA20
+- Named:Wilms tumor protein (WT1)_RNA22
+- Named:Wilms tumor protein (WT1)_RNA38
+- Type:Proteins
+- Year:2001
+type: Proteins
 ---
 <html>
 

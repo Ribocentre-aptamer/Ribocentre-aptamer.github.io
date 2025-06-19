@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "10G-1 aptamer"
-date:   2024-05-05 00:00:00
+title: 10G-1 aptamer
+date: 2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:51.28
+- Length:78
+- Named:NS3 protease of hepatitis C virus (HCV)_10G-1
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
 <html>
 

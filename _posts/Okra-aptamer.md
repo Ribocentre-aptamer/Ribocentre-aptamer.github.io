@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Okra aptamer"
-date:   2024-06-07 00:00:00
+title: Okra aptamer
+date: 2024-06-07 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:54.0
+- Length:68
+- Named:ACE_Okra aptamer
+- Type:Small molecules
+- Year:2024
+type: Small molecules
 ---
 <html>
 

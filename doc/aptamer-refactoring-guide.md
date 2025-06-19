@@ -38,8 +38,8 @@
 - **数据文件**: `apidata/aptamer-tables-data.json`
 - **功能**: 四个主要数据表格
 - **包含**: 
-  - Small molecules (小分子)
-  - Proteins (蛋白质)
+   (小分子)
+   (蛋白质)
   - Amino acids (氨基酸)
   - Sugars (糖类)
 

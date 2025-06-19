@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "ERα-aptamer"
-date:   2024-06-02 00:00:00
+title: ERα-aptamer
+date: 2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:54.64
+- GC:58.42
+- GC:58.46
+- Length:101
+- Length:65
+- Length:97
+- Named:Estrogen receptor α (ERα)_AptER-1
+- Named:Estrogen receptor α (ERα)_AptER-2
+- Named:Estrogen receptor α (ERα)_AptER-3
+- Type:Proteins
+- Year:2014
+type: Proteins
 ---
 <html>
 

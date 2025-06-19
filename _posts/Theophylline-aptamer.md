@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "Theophylline aptamer"
-date:   2024-04-24 00:00:00
+title: Theophylline aptamer
+date: 2024-04-24 00:00:00
 author: Linfei Li, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:50.0
+- GC:52.629999999999995
+- GC:67.0
+- Length:32
+- Length:38
+- Length:42
+- Named:Theophyline_TCT8-4
+- Named:Theophyline_Theophyline aptamer
+- Named:Theophyline_mTCT8-4
+- Type:Small molecules
+- Year:1994
+type: Small molecules
 ---
 <html>
 

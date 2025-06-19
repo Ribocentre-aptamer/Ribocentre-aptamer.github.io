@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "TfR-ECD aptamer"
-date:   2024-05-23 00:00:00
+title: TfR-ECD aptamer
+date: 2024-05-23 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:62.029999999999994
+- GC:66.67
+- Length:36
+- Length:79
+- Named:Mouse transferrin receptor (TfR-ECD)_FB4
+- Named:Mouse transferrin receptor (TfR-ECD)_FB4 (truncated version)
+- Type:Proteins
+- Year:2008
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Chili aptamer"
-date:   2024-04-22 00:00:00
+title: Chili aptamer
+date: 2024-04-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:71.0
+- Length:52
+- Named:DMHBO+, DMHBI_Chili aptamer
+- Type:Small molecules
+- Year:2019
+type: Small molecules
 ---
 <html>
 <head>

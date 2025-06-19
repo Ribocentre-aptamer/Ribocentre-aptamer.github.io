@@ -1,9 +1,24 @@
 ---
 layout: theophylline_style
-title:  "OX40-aptamer"
-date:   2024-05-31 00:00:00
+title: OX40-aptamer
+date: 2024-05-31 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:56.99999999999999
+- GC:63.21
+- GC:69.37
+- Length:106
+- Length:111
+- Length:54
+- Named:OX40_11F11
+- Named:OX40_9C7
+- Named:OX40_9C7 aptamer (truncation)
+- Type:Proteins
+- Year:2012
+- Year:2013
+type: Proteins
 ---
 <html>
 

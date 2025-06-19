@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "CED-9 aptamer"
-date:   2024-05-18 00:00:00
+title: CED-9 aptamer
+date: 2024-05-18 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:55.26
+- GC:59.209999999999994
+- Length:76
+- Named:Cell death abnormality gene 9 (CED-9)_R9-2
+- Named:Cell death abnormality gene 9 (CED-9)_R9-7
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

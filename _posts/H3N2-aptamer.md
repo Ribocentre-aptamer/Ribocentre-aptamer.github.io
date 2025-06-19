@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "H3N2 aptamer"
-date:   2024-05-05 00:00:00
+title: H3N2 aptamer
+date: 2024-05-05 00:00:00
 author: Jiali Wang, Fu Bo
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:53.33
+- Length:75
+- Named:Haemagglutinin (HA) region of the target strain A/Panama/2007/1999(H3N2)_P30-10-16
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

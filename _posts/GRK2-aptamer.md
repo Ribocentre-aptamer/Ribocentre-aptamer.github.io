@@ -1,9 +1,28 @@
 ---
 layout: theophylline_style
-title:  "GRK2 aptamer"
-date:   2024-04-19 00:00:00
+title: GRK2 aptamer
+date: 2024-04-19 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:50.0
+- GC:57.89
+- GC:58.81999999999999
+- Length:18
+- Length:20
+- Length:28
+- Length:51
+- Length:57
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.18 aptamer
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.20 aptamer
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.28 aptamer
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.51
+- Type:Proteins
+- Year:2008
+- Year:2012
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,47 @@
 ---
 layout: theophylline_style
-title:  "hTNF α aptamer"
-date:   2024-06-05 00:00:00
+title: hTNF α aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:40.849999999999994
+- GC:45.07
+- GC:46.77
+- GC:47.89
+- GC:49.3
+- GC:50.7
+- GC:52.11
+- GC:53.52
+- GC:56.34
+- GC:60.0
+- Length:60
+- Length:62
+- Length:71
+- Named:Tumor necrosis factor alpha (hTNFα)_1
+- Named:Tumor necrosis factor alpha (hTNFα)_10
+- Named:Tumor necrosis factor alpha (hTNFα)_11.7
+- Named:Tumor necrosis factor alpha (hTNFα)_12
+- Named:Tumor necrosis factor alpha (hTNFα)_13.2
+- Named:Tumor necrosis factor alpha (hTNFα)_14.8
+- Named:Tumor necrosis factor alpha (hTNFα)_15
+- Named:Tumor necrosis factor alpha (hTNFα)_16.3
+- Named:Tumor necrosis factor alpha (hTNFα)_17.9
+- Named:Tumor necrosis factor alpha (hTNFα)_18.1
+- Named:Tumor necrosis factor alpha (hTNFα)_2
+- Named:Tumor necrosis factor alpha (hTNFα)_20.4
+- Named:Tumor necrosis factor alpha (hTNFα)_3.1
+- Named:Tumor necrosis factor alpha (hTNFα)_4
+- Named:Tumor necrosis factor alpha (hTNFα)_6
+- Named:Tumor necrosis factor alpha (hTNFα)_7.5
+- Named:Tumor necrosis factor alpha (hTNFα)_8.6
+- Named:Tumor necrosis factor alpha (hTNFα)_9
+- Named:Tumor necrosis factor alpha (hTNFα)_T1.7.5
+- Named:Tumor necrosis factor alpha (hTNFα)_T4.14.8
+- Type:Proteins
+- Year:2004
+type: Proteins
 ---
 <html>
 

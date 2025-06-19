@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "FC RNA aptamer"
-date:   2024-05-03 00:00:00
+title: FC RNA aptamer
+date: 2024-05-03 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Other
+- GC:62.5
+- Length:80
+- Named:RNA polymerase II (Pol II), Saccharomyces cerevisiae (S. cerevisiae)_FC
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
 <html>
 

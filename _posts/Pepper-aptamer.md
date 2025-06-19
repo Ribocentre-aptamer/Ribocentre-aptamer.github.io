@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Pepper aptamer"
-date:   2024-03-26 00:00:00
+title: Pepper aptamer
+date: 2024-03-26 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:76.0
+- Length:49
+- Named:HBC_Pepper aptamer
+- Type:Small molecules
+- Year:2019
+type: Small molecules
 ---
 <html>
 

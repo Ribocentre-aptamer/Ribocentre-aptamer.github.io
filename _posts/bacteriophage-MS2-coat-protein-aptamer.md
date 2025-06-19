@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Bacteriophage MS2 coat protein aptamer"
-date:   2024-03-01 00:00:00
+title: Bacteriophage MS2 coat protein aptamer
+date: 2024-03-01 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
+tags:
+- Category:Other
+- GC:50.0
+- GC:64.0
+- Length:14
+- Length:32
+- Named:Bacteriophage MS2 coat protein_F6 aptamer
+- Named:Bacteriophage MS2 coat protein_Sequence 12 aptamer
+- Type:Proteins
+- Year:1992
+type: Proteins
 ---
 <html>
 

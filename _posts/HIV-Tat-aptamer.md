@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "HIV Tat aptamer"
-date:   2024-04-20 00:00:00
+title: HIV Tat aptamer
+date: 2024-04-20 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:64.0
+- Length:34
+- Named:HIV Tat peptides_RNA Tat aptamer
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
 <html>
 

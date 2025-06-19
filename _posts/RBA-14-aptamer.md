@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "RBA-14 aptamer"
-date:   2024-04-19 00:00:00
+title: RBA-14 aptamer
+date: 2024-04-19 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:56.99999999999999
+- Length:35
+- Named:C-terminally truncated variant of Rev (Rev93)_RBA14 aptamer
+- Type:Proteins
+- Year:2018
+type: Proteins
 ---
 <html>
 
@@ -86,7 +94,7 @@ categories: Aptamer
 
          
 <p><p class="header_box" id="description">Description</p>
-<font >In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high compatibility for the HIV-1 Rev protein. Afterwards, in 2018, Altaira D. Dearborn et al. determined the X-ray crystal structure of an RNA aptamer (RBA-14), bound to a C-terminally truncated variant of Rev (Rev<sup>93</sup>), and a single-chain variable fragment antibody (scFv) crystallization chaperone<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br></p>
+<p>In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high compatibility for the HIV-1 Rev protein. Afterwards, in 2018, Altaira D. Dearborn et al. determined the X-ray crystal structure of an RNA aptamer (RBA-14), bound to a C-terminally truncated variant of Rev (Rev<sup>93</sup>), and a single-chain variable fragment antibody (scFv) crystallization chaperone<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br></p>
 
 
 

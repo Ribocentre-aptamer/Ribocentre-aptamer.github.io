@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Type IVB Pili aptamer"
-date:   2024-05-27 00:00:00
+title: Type IVB Pili aptamer
+date: 2024-05-27 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:59.0
+- Length:58
+- Named:Type IVB pili(S. enterica)_S-PS8.4
+- Type:Proteins
+- Year:2005
+type: Proteins
 ---
 <html>
 

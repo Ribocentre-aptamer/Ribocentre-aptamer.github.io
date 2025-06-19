@@ -1,9 +1,41 @@
 ---
 layout: theophylline_style
-title:  "tRNA aptamer"
-date:   2024-06-18 00:00:00
+title: tRNA aptamer
+date: 2024-06-18 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Mammalian
+- Category:RNA
+- GC:52.81
+- GC:53.21
+- GC:54.05
+- GC:56.67
+- GC:57.02
+- GC:57.269999999999996
+- GC:60.18
+- GC:60.709999999999994
+- Length:109
+- Length:110
+- Length:111
+- Length:112
+- Length:113
+- Length:114
+- Length:89
+- Length:90
+- Named:Amyloid beta-peptide (Aβ)_E2
+- Named:Amyloid beta-peptide (Aβ)_N2
+- Named:Yeast phenylalanine tRNA_B1
+- Named:Yeast phenylalanine tRNA_B2
+- Named:Yeast phenylalanine tRNA_B3
+- Named:Yeast phenylalanine tRNA_B4
+- Named:Yeast phenylalanine tRNA_B6
+- Named:Yeast phenylalanine tRNA_B7
+- Type:Nucleic acids
+- Type:Proteins
+- Year:1999
+- Year:2009
+type: Nucleic acids
 ---
 <html>
 

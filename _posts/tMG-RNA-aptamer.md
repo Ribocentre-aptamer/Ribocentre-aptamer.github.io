@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "tMG RNA aptamer"
-date:   2024-06-05 00:00:00
+title: tMG RNA aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:71.74000000000001
+- Length:46
+- Named:Rat monoclonal antibody (mAb198)_tMG RNA
+- Type:Proteins
+- Year:2003
+type: Proteins
 ---
 <html>
 

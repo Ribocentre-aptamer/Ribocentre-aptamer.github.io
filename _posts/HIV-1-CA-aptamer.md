@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "HIV-1 CA aptamer"
-date:   2024-05-22 00:00:00
+title: HIV-1 CA aptamer
+date: 2024-05-22 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:48.08
+- Length:104
+- Named:HIV-1 capsid (CA) protein_CA15-2
+- Type:Proteins
+- Year:2022
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Adenine aptamer"
-date:   2024-05-10 00:00:00
+title: Adenine aptamer
+date: 2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Nucleosides & Nucleotides
+- GC:47.25
+- Length:91
+- Named:Adenine_RNA 12 E4
+- Type:Small molecules
+- Year:2001
+type: Small molecules
 ---
 <html>
 

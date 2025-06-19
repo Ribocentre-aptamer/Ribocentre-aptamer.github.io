@@ -1,9 +1,27 @@
 ---
 layout: theophylline_style
-title:  "Gastrointestinal carcinoembryonic antigen (CEA)-aptamer"
-date:   2024-05-29 00:00:00
-author: Yangyi Ren, Chen Ke 
+title: Gastrointestinal carcinoembryonic antigen (CEA)-aptamer
+date: 2024-05-29 00:00:00
+author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.78
+- GC:52.81
+- GC:56.67
+- GC:56.92
+- Length:65
+- Length:82
+- Length:89
+- Length:90
+- Named:Amyloid beta-peptide (Aβ)_E2
+- Named:Amyloid beta-peptide (Aβ)_N2
+- Named:Gastrointestinal carcinoembryonic antigen (CEA)_CEA A01
+- Named:Gastrointestinal carcinoembryonic antigen (CEA)_CEA A02
+- Type:Proteins
+- Year:2009
+- Year:2018
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,25 @@
 ---
 layout: theophylline_style
-title:  "Streptomycin aptamer"
-date:   2024-04-20 00:00:00
+title: Streptomycin aptamer
+date: 2024-04-20 00:00:00
 author: Linfei Li, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:43.9
+- GC:53.1
+- GC:54.87
+- GC:63.04
+- Length:113
+- Length:41
+- Length:46
+- 'Named:Streptomycin_B # 84'
+- 'Named:Streptomycin_B #84 (41 mer)'
+- 'Named:Streptomycin_C #128'
+- 'Named:Streptomycin_C #128 (46 mer)'
+- Type:Small molecules
+- Year:1998
+type: Small molecules
 ---
 <html>
 

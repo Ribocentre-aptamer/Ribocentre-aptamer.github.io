@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "PAI-1 aptamer"
-date:   2024-05-24 00:00:00
+title: PAI-1 aptamer
+date: 2024-05-24 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:53.949999999999996
+- GC:57.89
+- Length:76
+- Named:Serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1)_SM-20
+- Named:Serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1)_WT-15
+- Type:Proteins
+- Year:2009
+type: Proteins
 ---
 <html>
 

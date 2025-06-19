@@ -1,9 +1,27 @@
 ---
 layout: theophylline_style
-title:  "HIV-1 PR aptamer"
-date:   2024-05-06 00:00:00
+title: HIV-1 PR aptamer
+date: 2024-05-06 00:00:00
 author: Jiali Wang, Chen Ke
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:44.79
+- GC:46.88
+- GC:47.870000000000005
+- GC:47.92
+- GC:50.529999999999994
+- Length:94
+- Length:95
+- Length:96
+- Named:HIV-1 aspartyl protease (PR)_PR10.1
+- Named:HIV-1 protease (PR)_PR10.1-8A
+- Named:HIV-1 protease (PR)_PR10.1-8E
+- Named:HIV-1 protease (PR)_PR10.9
+- Named:HIV-1 protease (PR)_PR10.9-8N
+- Type:Proteins
+- Year:2015
+type: Proteins
 ---
 <html>
 

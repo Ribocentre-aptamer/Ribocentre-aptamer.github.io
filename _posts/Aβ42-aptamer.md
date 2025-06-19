@@ -1,9 +1,21 @@
 ---
 layout: theophylline_style
-title:  "Aβ42 aptamer"
-date:   2024-05-15 00:00:00
+title: Aβ42 aptamer
+date: 2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:51.949999999999996
+- GC:52.0
+- GC:53.0
+- Length:77
+- Named:β-amyloid 42 (Aβ42)_E22P-AbD31
+- Named:β-amyloid 42 (Aβ42)_E22P-AbD4
+- Named:β-amyloid 42 (Aβ42)_E22P–AbD43
+- Type:Proteins
+- Year:2020
+type: Proteins
 ---
 <html>
 

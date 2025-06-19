@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "HSV-1 US11 aptamer"
-date:   2024-05-01 00:00:00
+title: HSV-1 US11 aptamer
+date: 2024-05-01 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:42.5
+- Length:80
+- Named:Herpes simplex virus-1 (HSV-1) US11_C17
+- Type:Proteins
+- Year:2005
+type: Proteins
 ---
 <html>
 

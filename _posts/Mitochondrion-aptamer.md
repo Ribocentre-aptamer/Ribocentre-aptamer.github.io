@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "Mitochondrion aptamer"
-date:   2024-05-17 00:00:00
+title: Mitochondrion aptamer
+date: 2024-05-17 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Other
+- GC:47.22
+- GC:50.0
+- GC:51.39
+- GC:54.169999999999995
+- Length:72
+- Named:Mitochondria_C1
+- Named:Mitochondria_C16
+- Named:Mitochondria_C20
+- Named:Mitochondria_C32
+- Type:Cells
+- Year:2002
+type: Cells
 ---
 <html>
 

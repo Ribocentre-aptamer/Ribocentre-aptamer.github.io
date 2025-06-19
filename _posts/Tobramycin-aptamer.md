@@ -1,9 +1,30 @@
 ---
 layout: theophylline_style
-title:  "Tobramycin aptamer"
-date:   2024-04-24 00:00:00
+title: Tobramycin aptamer
+date: 2024-04-24 00:00:00
 author: Linfei Li, Ke Chen
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:45.87
+- GC:47.0
+- GC:50.0
+- GC:50.46000000000001
+- GC:51.38
+- GC:59.0
+- Length:109
+- Length:23
+- Length:27
+- Length:30
+- Named:Tobramycin_J6
+- Named:Tobramycin_J6sl (Tobramycin aptamer I)
+- Named:Tobramycin_Tobramycin aptamer II
+- Named:Tobramycin_W13 (clone 8)
+- Named:Tobramycin_X1
+- Named:Tobramycin_X1sl
+- Type:Small molecules
+- Year:1995
+type: Small molecules
 ---
 <html>
 

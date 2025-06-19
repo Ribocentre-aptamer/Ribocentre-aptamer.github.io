@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "Bovine thrombin aptamer"
-date:   2024-06-05 00:00:00
+title: Bovine thrombin aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:44.12
+- GC:54.410000000000004
+- Length:68
+- Named:Bovine thrombin_T705
+- Named:Bovine thrombin_T710
+- Type:Proteins
+- Year:2003
+type: Proteins
 ---
 <html>
 

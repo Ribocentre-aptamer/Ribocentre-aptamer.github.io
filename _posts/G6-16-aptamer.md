@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "G6-16 aptamer"
-date:   2024-05-07 00:00:00
+title: G6-16 aptamer
+date: 2024-05-07 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:43.71
+- GC:45.68
+- Length:162
+- Length:167
+- Named:NS3 Protein of Hepatitis C Virus (HCV)_G6–16
+- Named:NS3 Protein of Hepatitis C Virus (HCV)_G6–19
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
 <html>
 

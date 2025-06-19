@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Mbl-aptamer"
-date:   2024-05-19 00:00:00
+title: Mbl-aptamer
+date: 2024-05-19 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Other
+- GC:47.5
+- Length:80
+- Named:Drosophila muscleblind protein (Mbl)_RNA 20
+- Type:Proteins
+- Year:2008
+type: Proteins
 ---
 <html>
 

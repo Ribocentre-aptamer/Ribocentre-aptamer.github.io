@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Codeine aptamer"
-date:   2024-06-10 00:00:00
+title: Codeine aptamer
+date: 2024-06-10 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:57.63
+- GC:60.34
+- Length:58
+- Length:59
+- Named:Codeine_FC45
+- Named:Codeine_FC5
+- Type:Small molecules
+- Year:2006
+type: Small molecules
 ---
 <html>
 

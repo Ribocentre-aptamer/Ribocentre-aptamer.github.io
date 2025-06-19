@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "CsrA-aptamer"
-date:   2024-05-27 00:00:00
+title: CsrA-aptamer
+date: 2024-05-27 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:45.68
+- Length:81
+- Named:Carbon storage regulation protein A, Escherichia coli (CsrA)_R9-43
+- Type:Proteins
+- Year:2005
+type: Proteins
 ---
 <html>
 

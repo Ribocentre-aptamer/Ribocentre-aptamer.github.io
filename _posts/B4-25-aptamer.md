@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "B4-25 aptamer, CB-42 aptamer"
-date:   2024-03-02 00:00:00
+title: B4-25 aptamer, CB-42 aptamer
+date: 2024-03-02 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
+tags:
+- Category:Synthetic
+- GC:59.4
+- Length:133
+- Named:Reactive Blue 4_B4-25
+- Type:Small molecules
+- Year:1990
+type: Small molecules
 ---
 
 

@@ -1,9 +1,25 @@
 ---
 layout: theophylline_style
-title:  "Chloramphenicol aptamer"
-date:   2024-05-10 00:00:00
+title: Chloramphenicol aptamer
+date: 2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:39.32
+- GC:48.309999999999995
+- GC:50.849999999999994
+- GC:51.88
+- Length:117
+- Length:118
+- Length:133
+- Named:Chloramphenicol (Cam)_70cam53
+- Named:Chloramphenicol (Cam)_70cam6
+- Named:Chloramphenicol (Cam)_70cam9
+- Named:Chloramphenicol (Cam)_80Cm50*
+- Type:Small molecules
+- Year:1997
+type: Small molecules
 ---
 <html>
 

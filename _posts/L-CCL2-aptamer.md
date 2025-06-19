@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "L-CCL2 aptamer"
-date:   2024-05-05 00:00:00
+title: L-CCL2 aptamer
+date: 2024-05-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:67.0
+- Length:40
+- Named:C-C motif chemokine 2 (L-CCL2)_NOX-E36 L-aptamer
+- Type:Proteins
+- Year:2007
+type: Proteins
 ---
 <html>
 

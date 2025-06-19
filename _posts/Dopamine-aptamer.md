@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Dopamine aptamer"
-date:   2024-06-04 00:00:00
+title: Dopamine aptamer
+date: 2024-06-04 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:58.56
+- Length:93
+- Named:Dopamine_dopa2
+- Type:Small molecules
+- Year:1997
+type: Small molecules
 ---
 <html>
 

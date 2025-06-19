@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "RANK aptamer"
-date:   2024-06-05 00:00:00
+title: RANK aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.57
+- GC:53.620000000000005
+- GC:56.52
+- Length:69
+- Length:70
+- Named:Receptor activator of NF-kappaB (RANK)_apt1
+- Named:Receptor activator of NF-kappaB (RANK)_apt2
+- Named:Receptor activator of NF-kappaB (RANK)_apt3
+- Type:Proteins
+- Year:2004
+type: Proteins
 ---
 <html>
 

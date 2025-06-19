@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "PSMA aptamer"
-date:   2024-04-16 00:00:00
+title: PSMA aptamer
+date: 2024-04-16 00:00:00
 author: Jiaxin Zhao,Zhizhong Lu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:47.0
+- GC:56.99999999999999
+- Length:43
+- Length:65
+- Named:Prostate-specific membrane antigen (PSMA)_A9 RNA aptamer
+- Named:Prostate-specific membrane antigen (PSMA)_A9g aptamer
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
 

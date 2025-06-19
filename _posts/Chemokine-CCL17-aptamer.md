@@ -1,9 +1,25 @@
 ---
 layout: theophylline_style
-title:  "Chemokine CCL17-aptamer"
-date:   2024-05-31 00:00:00
+title: Chemokine CCL17-aptamer
+date: 2024-05-31 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:55.379999999999995
+- GC:56.25
+- GC:60.0
+- GC:65.71000000000001
+- Length:32
+- Length:65
+- Length:70
+- Named:Chemokine CCL17_MF11
+- Named:Chemokine CCL17_MF11.46
+- Named:Chemokine CCL17_MF35
+- Named:Chemokine CCL17_MF35.47
+- Type:Proteins
+- Year:2018
+type: Proteins
 ---
 <html>
 

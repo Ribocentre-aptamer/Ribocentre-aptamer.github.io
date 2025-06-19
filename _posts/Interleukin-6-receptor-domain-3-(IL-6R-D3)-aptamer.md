@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "Interleukin-6 receptor domain 3 (IL-6R D3)-aptamer"
-date:   2024-05-31 00:00:00
+title: Interleukin-6 receptor domain 3 (IL-6R D3)-aptamer
+date: 2024-05-31 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:47.27
+- GC:51.0
+- GC:51.38
+- Length:106
+- Length:109
+- Length:110
+- Named:Interleukin-6 receptor domain 3 (IL-6R D3)_F2
+- Named:Interleukin-6 receptor domain 3 (IL-6R D3)_F3
+- Named:Interleukin-6 receptor domain 3 (IL-6R D3)_F4
+- Type:Proteins
+- Year:2015
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "MG aptamer"
-date:   2024-03-29 00:00:00
+title: MG aptamer
+date: 2024-03-29 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:61.0
+- Length:38
+- Named:Malachite green (MG),Tetramethylrhodamine (TMR)_MG aptamer
+- Type:Small molecules
+- Year:1999
+type: Small molecules
 ---
 <html>
 

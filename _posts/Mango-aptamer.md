@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Mango aptamer"
-date:   2024-04-10 00:00:00
+title: Mango aptamer
+date: 2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:68.0
+- Length:31
+- Named:Thiazole Orange-biotin (TO1-biotin)_Mango aptamer(TO1-Biotin)
+- Type:Small molecules
+- Year:2014
+type: Small molecules
 ---
 <html>
 <head>

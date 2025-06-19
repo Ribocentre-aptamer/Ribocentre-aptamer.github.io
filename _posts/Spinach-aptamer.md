@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Spinach aptamer"
-date:   2024-04-23 00:00:00
+title: Spinach aptamer
+date: 2024-04-23 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:56.00000000000001
+- Length:98
+- Named:DFHBI_Spinach aptamer
+- Type:Small molecules
+- Year:2011
+type: Small molecules
 ---
 <html>
 <head>

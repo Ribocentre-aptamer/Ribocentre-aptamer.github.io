@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "G9-II aptamer"
-date:   2024-05-07 00:00:00
+title: G9-II aptamer
+date: 2024-05-07 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:50.68
+- GC:51.349999999999994
+- GC:52.7
+- Length:73
+- Length:74
+- Named:HCV NS3 protease (ΔNS3)_G9-I
+- Named:HCV NS3 protease (ΔNS3)_G9-II
+- Named:HCV NS3 protease (ΔNS3)_G9-III
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
 <html>
 

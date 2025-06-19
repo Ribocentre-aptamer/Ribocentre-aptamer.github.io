@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "SRB-2 aptamer"
-date:   2024-05-13 00:00:00
+title: SRB-2 aptamer
+date: 2024-05-13 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:52.21
+- Length:113
+- Named:Sulforhodamine B_SRB-2
+- Type:Small molecules
+- Year:1998
+type: Small molecules
 ---
 <html>
 

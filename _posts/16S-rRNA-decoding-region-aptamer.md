@@ -1,9 +1,27 @@
 ---
 layout: theophylline_style
-title:  "16S rRNA decoding region aptamer"
-date:   2024-06-19 00:00:00
+title: 16S rRNA decoding region aptamer
+date: 2024-06-19 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:RNA
+- GC:50.94
+- GC:51.4
+- GC:53.73
+- GC:55.22
+- GC:57.010000000000005
+- Length:106
+- Length:107
+- Length:67
+- Named:16S ribosomal RNA (rRNA) decoding region_109.1-7
+- Named:16S ribosomal RNA (rRNA) decoding region_109.2-15
+- Named:16S ribosomal RNA (rRNA) decoding region_109.2-3
+- Named:16S ribosomal RNA (rRNA) decoding region_69.1-11
+- Named:16S ribosomal RNA (rRNA) decoding region_69.1-4
+- Type:Nucleic acids
+- Year:2000
+type: Nucleic acids
 ---
 <html>
 

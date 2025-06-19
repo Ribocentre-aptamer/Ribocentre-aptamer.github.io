@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "ZAP-aptamer"
-date:   2024-05-29 00:00:00
+title: ZAP-aptamer
+date: 2024-05-29 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:63.89
+- GC:64.0
+- Length:72
+- Length:75
+- Named:Zinc-finger antiviral protein (ZAP)_21-E
+- Named:Zinc-finger antiviral protein (ZAP)_21-K
+- Type:Proteins
+- Year:2010
+type: Proteins
 ---
 <html>
 
@@ -260,4 +271,5 @@ Huang, Z., Wang, X., & Gao, G.<br />
       }
     });
   </script>
-    </html>
+
+

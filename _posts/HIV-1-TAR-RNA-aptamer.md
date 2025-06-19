@@ -1,9 +1,30 @@
 ---
 layout: theophylline_style
-title:  "HIV-1 TAR RNA aptamer"
-date:   2024-05-04 00:00:00
+title: HIV-1 TAR RNA aptamer
+date: 2024-05-04 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:RNA
+- GC:54.169999999999995
+- GC:60.81999999999999
+- GC:62.0
+- GC:62.239999999999995
+- GC:68.0
+- Length:100
+- Length:16
+- Length:24
+- Length:97
+- Length:98
+- Named:HIV-1 TAR RNA_LR06(GA) aptamer
+- Named:HIV-1 TAR RNA_R-06
+- Named:HIV-1 TAR RNA_R-06 24
+- Named:HIV-1 TAR RNA_R-39
+- Named:HIV-1 TAR RNA_R-42
+- Type:Nucleic acids
+- Year:1999
+- Year:2007
+type: Nucleic acids
 ---
 <html>
 

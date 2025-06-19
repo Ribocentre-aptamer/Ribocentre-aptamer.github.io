@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Clivias aptamer"
-date:   2024-06-09 00:00:00
+title: Clivias aptamer
+date: 2024-06-09 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:45.7
+- Length:36
+- Named:NBSI_Clivias aptamer
+- Type:Small molecules
+- Year:2024
+type: Small molecules
 ---
 <html>
 <head>

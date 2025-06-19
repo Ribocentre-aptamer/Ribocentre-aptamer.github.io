@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "IgG aptamer"
-date:   2024-04-18 00:00:00
+title: IgG aptamer
+date: 2024-04-18 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:40.0
+- GC:61.0
+- GC:70.0
+- Length:23
+- Length:30
+- Length:40
+- Named:Human immunoglobulin G_apt2 aptamer
+- Named:Human immunoglobulin G_apt7 aptamer
+- Named:Human immunoglobulin G_apt8 aptamer
+- Type:Proteins
+- Year:2008
+type: Proteins
 ---
 <html>
 

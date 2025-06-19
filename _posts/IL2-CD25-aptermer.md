@@ -63,7 +63,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="description">Description</p>
-<font>In 2019, RNA aptamer-based assay platform designated as the "LIgand-REceptor Complex-binding APtamer," or "LIRECAP," assay that allows for quantification of the fraction of receptors occupied by a ligand was developed and used to measure the fraction of soluble CD25 occupied by IL2 in the serum of subjects with B-cell lymphoma<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
+<p>In 2019, RNA aptamer-based assay platform designated as the "LIgand-REceptor Complex-binding APtamer," or "LIRECAP," assay that allows for quantification of the fraction of receptors occupied by a ligand was developed and used to measure the fraction of soluble CD25 occupied by IL2 in the serum of subjects with B-cell lymphoma<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -72,7 +72,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <p>5'-GGGAGGACGAUGCGGUGAGUCGUUCCCUUCGUCCCCAGACGACUCGCCCGA-3'</p>
 <img src="/images/2D/CD25_apatamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>

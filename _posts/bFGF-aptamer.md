@@ -1,9 +1,40 @@
 ---
 layout: theophylline_style
-title:  "bFGF aptamer"
-date:   2024-05-13 00:00:00
+title: bFGF aptamer
+date: 2024-05-13 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:51.9
+- GC:52.0
+- GC:52.94
+- GC:54.0
+- GC:55.7
+- GC:56.96
+- GC:58.230000000000004
+- GC:58.440000000000005
+- GC:61.040000000000006
+- Length:34
+- Length:48
+- Length:52
+- Length:77
+- Length:79
+- Named:Basic fibroblast growth factor (bFGF)_12A
+- Named:Basic fibroblast growth factor (bFGF)_13A
+- Named:Basic fibroblast growth factor (bFGF)_14A
+- Named:Basic fibroblast growth factor (bFGF)_21A
+- Named:Basic fibroblast growth factor (bFGF)_22B
+- Named:Basic fibroblast growth factor (bFGF)_26A
+- Named:Basic fibroblast growth factor (bFGF)_26A aptamer(truncation)
+- Named:Basic fibroblast growth factor (bFGF)_26At
+- Named:Basic fibroblast growth factor (bFGF)_28B
+- Named:Basic fibroblast growth factor (bFGF)_5A
+- Named:Basic fibroblast growth factor (bFGF)_7A
+- Named:Basic fibroblast growth factor (bFGF)_7A aptamer(truncation)
+- Type:Proteins
+- Year:1993
+type: Proteins
 ---
 <html>
 

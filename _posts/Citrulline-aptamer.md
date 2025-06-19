@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Citrulline aptamer"
-date:   2024-04-09 00:00:00
+title: Citrulline aptamer
+date: 2024-04-09 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:52.27
+- GC:54.0
+- Length:33
+- Length:44
+- Named:Citrulline_44.Cit11
+- Named:Citrulline_L-citrulline aptamer
+- Type:Small molecules
+- Year:1994
+type: Small molecules
 ---
 <html>
 

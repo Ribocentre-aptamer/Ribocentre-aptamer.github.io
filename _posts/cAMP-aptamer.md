@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "cAMP aptamer"
-date:   2024-05-31 00:00:00
+title: cAMP aptamer
+date: 2024-05-31 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Nucleosides & Nucleotides
+- GC:51.61
+- GC:61.53999999999999
+- Length:31
+- Length:78
+- Named:3',5'-cyclic adenosine monophosphate (cAMP)_cAMP - b
+- Named:3',5'-cyclic adenosine monophosphate (cAMP)_cAMP - b (parent)
+- Type:Small molecules
+- Year:2000
+type: Small molecules
 ---
 <html>
 

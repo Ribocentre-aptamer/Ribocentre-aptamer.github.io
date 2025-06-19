@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "β55 aptamer"
-date:   2024-05-15 00:00:00
+title: β55 aptamer
+date: 2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:51.519999999999996
+- Length:66
+- Named:Amyloid beta-peptide(βA4(1-40))_Beta 55
+- Type:Small molecules
+- Year:2002
+type: Small molecules
 ---
 <html>
 

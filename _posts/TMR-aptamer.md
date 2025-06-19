@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "TMR aptamer"
-date:   2024-04-23 00:00:00
+title: TMR aptamer
+date: 2024-04-23 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:58.330000000000005
+- Length:48
+- Named:TMR (Tetramethylrhodamine)_TMR3 aptamer
+- Type:Small molecules
+- Year:2017
+type: Small molecules
 ---
 <html>
 

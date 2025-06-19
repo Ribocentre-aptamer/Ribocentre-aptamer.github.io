@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Factor Xa aptamer"
-date:   2024-04-16 00:00:00
+title: Factor Xa aptamer
+date: 2024-04-16 00:00:00
 author: Bichun Wu, Zhaoji Qiu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:57.99999999999999
+- Length:36
+- Named:Factor Xa_11F7t aptamer
+- Type:Proteins
+- Year:2009
+type: Proteins
 ---
 <html>
 

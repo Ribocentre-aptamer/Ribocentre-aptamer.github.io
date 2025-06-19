@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Glycoprotein 2 (GP2) protein-aptamer"
-date:   2024-05-29 00:00:00
-author: Yangyi Ren, Chen Ke 
+title: Glycoprotein 2 (GP2) protein-aptamer
+date: 2024-05-29 00:00:00
+author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.65
+- Length:74
+- Named:Glycoprotein 2 (GP2) protein_Apt1
+- Type:Proteins
+- Year:2014
+type: Proteins
 ---
 <html>
 

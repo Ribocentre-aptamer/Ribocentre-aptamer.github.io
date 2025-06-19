@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "XBA RNA aptamer"
-date:   2024-05-10 00:00:00
+title: XBA RNA aptamer
+date: 2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Nucleosides & Nucleotides
+- GC:59.38
+- Length:32
+- Named:Guanine,Xanthine (2,6-dioxypurine)_XBA RNA
+- Type:Small molecules
+- Year:1998
+type: Small molecules
 ---
 <html>
 

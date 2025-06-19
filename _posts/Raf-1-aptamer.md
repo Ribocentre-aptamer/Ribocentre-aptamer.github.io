@@ -1,9 +1,18 @@
 ---
 layout: theophylline_style
-title:  "Raf-1 aptamer"
-date:   2024-05-22 00:00:00
+title: Raf-1 aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:50.0
+- Length:108
+- Named:Ras-binding domain (Raf-1 RBD)_21.01
+- Named:Ras-binding domain (Raf-1 RBD)_21.07
+- Type:Proteins
+- Year:1998
+type: Proteins
 ---
 <html>
 

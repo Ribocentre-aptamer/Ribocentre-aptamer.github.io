@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Hfq aptamer"
-date:   2024-03-26 00:00:00
+title: Hfq aptamer
+date: 2024-03-26 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:40.0
+- GC:54.0
+- Length:10
+- Length:63
+- Named:Hfq (host factor required for phage Qβ RNA replication)_AGr aptamer
+- Named:Hfq (host factor required for phage Qβ RNA replication)_m49f aptamer
+- Type:Proteins
+- Year:2012
+type: Proteins
 ---
 <html>
 

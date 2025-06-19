@@ -1,9 +1,18 @@
 ---
 layout: theophylline_style
-title:  "FAD aptamer"
-date:   2024-04-30 00:00:00
+title: FAD aptamer
+date: 2024-04-30 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:39.0
+- Length:38
+- Named:Flavin adenine dinucleotide (FAD), Flavin mononucleotide(FMN), Riboflavin(Rb)_X2B2-C14U
+  aptamer
+- Type:Small molecules
+- Year:2022
+type: Small molecules
 ---
 <html>
 

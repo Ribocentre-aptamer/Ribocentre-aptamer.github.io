@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "AB9 aptamer"
-date:   2024-05-22 00:00:00
+title: AB9 aptamer
+date: 2024-05-22 00:00:00
 author: Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:45.5
+- GC:47.0
+- Length:101
+- Length:55
+- Named:AMPA and kainate receptors_AB9
+- Named:AMPA and kainate receptors_AB9s
+- Type:Proteins
+- Year:2017
+type: Proteins
 ---
 <html>
 

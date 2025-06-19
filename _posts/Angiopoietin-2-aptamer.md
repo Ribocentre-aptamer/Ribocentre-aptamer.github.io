@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Angiopoietin-2 aptamer"
-date:   2024-05-22 00:00:00
+title: Angiopoietin-2 aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:61.0
+- GC:62.5
+- Length:41
+- Length:80
+- Named:Angiopoietin-2 (Ang2)_11-1
+- Named:Angiopoietin-2 (Ang2)_11-1.41 aptamer
+- Type:Proteins
+- Year:2003
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "E2F1 aptamer"
-date:   2024-05-22 00:00:00
+title: E2F1 aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:59.0
+- Length:91
+- Named:E2F transcription factor (E2F1)_E1 RNA aptamer
+- Type:Proteins
+- Year:1996
+type: Proteins
 ---
 <html>
 

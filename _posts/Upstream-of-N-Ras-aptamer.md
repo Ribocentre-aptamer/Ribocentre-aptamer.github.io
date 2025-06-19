@@ -1,9 +1,29 @@
 ---
 layout: theophylline_style
-title:  "Upstream of N-Ras aptamer"
-date:   2024-05-22 00:00:00
+title: Upstream of N-Ras aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:38.6
+- GC:42.11
+- GC:44.64
+- GC:46.550000000000004
+- GC:47.370000000000005
+- Length:56
+- Length:57
+- Length:58
+- Named:Upstream of N-Ras (Unr) protein_58
+- Named:Upstream of N-Ras (Unr) protein_76
+- Named:Upstream of N-Ras (Unr) protein_77
+- Named:Upstream of N-Ras (Unr) protein_78
+- Named:Upstream of N-Ras (Unr) protein_85
+- Named:Upstream of N-Ras (Unr) protein_88
+- Named:Upstream of N-Ras (Unr) protein_98
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
 

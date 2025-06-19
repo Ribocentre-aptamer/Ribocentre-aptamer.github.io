@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "eIF4E-aptamer"
-date:   2024-05-15 00:00:00
+title: eIF4E-aptamer
+date: 2024-05-15 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:52.33
+- GC:55.169999999999995
+- Length:86
+- Length:87
+- Named:Eukaryotic translation initiation factor 4E (eIF4E)_Aptamer 1
+- Named:Eukaryotic translation initiation factor 4E (eIF4E)_Aptamer 2
+- Type:Proteins
+- Year:2005
+type: Proteins
 ---
 <html>
 

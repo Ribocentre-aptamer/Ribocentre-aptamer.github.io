@@ -1,9 +1,24 @@
 ---
 layout: theophylline_style
-title:  "bG40min aptamer"
-date:   2024-05-22 00:00:00
+title: bG40min aptamer
+date: 2024-05-22 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Nucleosides & Nucleotides
+- GC:42.02
+- GC:44.07
+- GC:49.0
+- Length:118
+- Length:119
+- Length:96
+- Named:Adenosine triphosphate (ATP)_bG40min
+- Named:Adenosine triphosphate (ATP)_bU118
+- Named:Adenosine triphosphate (ATP)_bU320
+- Named:Adenosine triphosphate (ATP)_bU321
+- Type:Small molecules
+- Year:2002
+type: Small molecules
 ---
 <html>
 

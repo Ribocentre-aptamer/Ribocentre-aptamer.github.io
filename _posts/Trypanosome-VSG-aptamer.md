@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Trypanosome VSG aptamer"
-date:   2024-05-15 00:00:00
+title: Trypanosome VSG aptamer
+date: 2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Parasite
+- GC:63.74999999999999
+- Length:80
+- Named:Trypanosome variant surface glycoprotein (VSG)_2-16
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
 

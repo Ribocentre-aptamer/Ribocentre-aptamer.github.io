@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "CD133 aptamer"
-date:   2024-06-06 00:00:00
+title: CD133 aptamer
+date: 2024-06-06 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:cell
+- GC:36.84
+- GC:60.0
+- Length:15
+- Length:19
+- Named:CD133-positive on cell line HT-29_CD133-A15
+- Named:CD133-positive on cell line HT-29_CD133-B19
+- Named:CD133-positive on cell line Hep3B_CD133-A15
+- Named:CD133-positive on cell line Hep3B_CD133-B19
+- Type:Cells
+- Year:2013
+type: Cells
 ---
 <html>
 

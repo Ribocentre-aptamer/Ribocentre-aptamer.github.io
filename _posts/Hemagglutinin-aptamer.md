@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "Hemagglutinin aptamer"
-date:   2024-05-01 00:00:00
+title: Hemagglutinin aptamer
+date: 2024-05-01 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:48.65
+- GC:54.05
+- Length:74
+- Named:Hemagglutinin (HA)_clone A (wild type)
+- Named:Hemagglutinin (HA)_clone B
+- Type:Proteins
+- Year:2005
+type: Proteins
 ---
 <html>
 

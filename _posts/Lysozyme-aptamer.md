@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Lysozyme aptamer"
-date:   2024-03-25 00:00:00
+title: Lysozyme aptamer
+date: 2024-03-25 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Other
+- GC:49.0
+- GC:56.00000000000001
+- Length:45
+- Length:59
+- Named:Hen Egg White Lysozyme_Lys1.2minE aptamer
+- Named:Hen Egg White Lysozyme_Lys1.2minF aptamer
+- Type:Proteins
+- Year:2013
+type: Proteins
 ---
 <html>
 

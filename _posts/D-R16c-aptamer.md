@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "D-R16c aptamer, L-Arginine aptamer"
-date:   2024-05-27 00:00:00
+title: D-R16c aptamer, L-Arginine aptamer
+date: 2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:55.26
+- Length:38
+- Named:D-arginine_D-R16c
+- Type:Small molecules
+- Year:1996
+type: Small molecules
 ---
 <html>
 

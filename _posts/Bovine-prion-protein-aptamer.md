@@ -1,9 +1,21 @@
 ---
 layout: theophylline_style
-title:  "Bovine prion protein aptamer"
-date:   2024-03-29 00:00:00
+title: Bovine prion protein aptamer
+date: 2024-03-29 00:00:00
 author: Zhijie Tan, Zhaoji Qiu
 categories: Aptamer
+tags:
+- Category:Prion
+- GC:52.580000000000005
+- GC:66.0
+- Length:12
+- Length:97
+- 'Named:Bovine prion protein (bPrP)_Apt #1'
+- Named:Bovine prion protein_R12 aptamer
+- Type:Proteins
+- Year:2007
+- Year:2008
+type: Proteins
 ---
 <html>
 

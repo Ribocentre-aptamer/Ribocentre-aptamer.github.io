@@ -1,9 +1,34 @@
 ---
 layout: theophylline_style
-title:  "SPC-aptamer"
-date:   2024-04-30 00:00:00
+title: SPC-aptamer
+date: 2024-04-30 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:44.3
+- GC:44.440000000000005
+- GC:45.57
+- GC:46.339999999999996
+- GC:47.5
+- GC:49.09
+- GC:54.55
+- Length:33
+- Length:41
+- Length:54
+- Length:55
+- Length:79
+- Length:80
+- Named:Sphingosylphosphorylcholine (SPC)_C1
+- Named:Sphingosylphosphorylcholine (SPC)_C2
+- Named:Sphingosylphosphorylcholine (SPC)_C8
+- Named:Sphingosylphosphorylcholine (SPC)_m009
+- Named:Sphingosylphosphorylcholine (SPC)_m010
+- Named:Sphingosylphosphorylcholine (SPC)_m011
+- Named:Sphingosylphosphorylcholine (SPC)_m012
+- Type:Proteins
+- Year:2010
+type: Proteins
 ---
 <html>
 

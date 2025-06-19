@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Bovine factor IX aptamer"
-date:   2024-05-17 00:00:00
+title: Bovine factor IX aptamer
+date: 2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:60.18
+- Length:114
+- Named:Bovine factor IX_clone 5
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

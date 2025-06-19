@@ -1,9 +1,36 @@
 ---
 layout: theophylline_style
-title:  "GTP aptamer"
-date:   2024-03-31 00:00:00
+title: GTP aptamer
+date: 2024-03-31 00:00:00
 author: Yangyi Ren, Ke Chen
 categories: Aptamer
+tags:
+- Category:Nucleosides & Nucleotides
+- GC:46.46
+- GC:47.17
+- GC:47.54
+- GC:48.06
+- GC:48.15
+- GC:50.480000000000004
+- GC:63.0
+- Length:105
+- Length:106
+- Length:108
+- Length:122
+- Length:129
+- Length:41
+- Length:99
+- Named:Guanosine triphosphate (GTP)_Aptamer 10-10
+- Named:Guanosine triphosphate (GTP)_Aptamer 10-24
+- Named:Guanosine triphosphate (GTP)_Aptamer 10-59
+- Named:Guanosine triphosphate (GTP)_Aptamer 10-6
+- Named:Guanosine triphosphate (GTP)_Aptamer 9-12
+- Named:Guanosine triphosphate (GTP)_Class I
+- Named:Guanosine triphosphate (GTP)_Class I aptamer(truncation)
+- Type:Small molecules
+- Year:2002
+- Year:2004
+type: Small molecules
 ---
 <html>
 

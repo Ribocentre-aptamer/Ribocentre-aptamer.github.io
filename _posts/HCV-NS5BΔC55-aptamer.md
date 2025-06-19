@@ -1,9 +1,28 @@
 ---
 layout: theophylline_style
-title:  "HCV NS5BΔC55 aptamer"
-date:   2024-05-05 00:00:00
+title: HCV NS5BΔC55 aptamer
+date: 2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:59.78
+- GC:65.22
+- GC:67.39
+- GC:70.59
+- Length:34
+- Length:92
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  A.2
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.2
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.2 SLII
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.3
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
 

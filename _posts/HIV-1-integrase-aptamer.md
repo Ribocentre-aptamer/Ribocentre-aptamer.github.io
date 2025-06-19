@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "HIV-1 integrase aptamer"
-date:   2024-05-09 00:00:00
+title: HIV-1 integrase aptamer
+date: 2024-05-09 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:54.55
+- Length:77
+- Named:Human immunodeficiency virus (HIV-1) integrase_P5
+- Type:Proteins
+- Year:1995
+type: Proteins
 ---
 <html>
 

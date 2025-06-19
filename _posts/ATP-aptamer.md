@@ -1,9 +1,33 @@
 ---
 layout: theophylline_style
-title:  "ATP aptamer"
-date:   2024-01-02 00:00:00
+title: ATP aptamer
+date: 2024-01-02 00:00:00
 author: Zhizhong Lu, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Nucleosides & Nucleotides
+- GC:42.370000000000005
+- GC:46.72
+- GC:56.18
+- GC:60.0
+- GC:63.89
+- GC:66.0
+- Length:118
+- Length:122
+- Length:36
+- Length:40
+- Length:72
+- Length:89
+- Named:Adenosine triphosphate (ATP)_ATP binding aptamer
+- Named:Adenosine triphosphate (ATP)_V2 Hammerhead Ribozyme
+- Named:Adenosine triphosphate (ATP)_V2 trans Hammerhead Ribozyme
+- Named:Adenosine triphosphate (ATP)_aptRNA1
+- Named:Adenosine triphosphate (ATP)_pRNAwt
+- Type:Small molecules
+- Year:1993
+- Year:1997
+- Year:2003
+type: Small molecules
 ---
 <html>
 

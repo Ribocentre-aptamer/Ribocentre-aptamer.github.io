@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "Elongation factor SelB aptamer"
-date:   2024-05-08 00:00:00
+title: Elongation factor SelB aptamer
+date: 2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:58.089999999999996
+- GC:59.209999999999994
+- Length:136
+- Length:76
+- Named:Elongation factor SelB_clone 488
+- Named:Elongation factor SelB_clone 922
+- Named:Elongation factor SelB_clone 945
+- Type:Proteins
+- Year:1997
+- Year:1999
+type: Proteins
 ---
 <html>
 

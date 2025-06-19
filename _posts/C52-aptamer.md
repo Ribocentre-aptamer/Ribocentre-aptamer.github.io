@@ -1,9 +1,42 @@
 ---
 layout: theophylline_style
-title:  "C52 aptamer"
-date:   2024-05-06 00:00:00
+title: C52 aptamer
+date: 2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:40.18
+- GC:43.120000000000005
+- GC:43.75
+- GC:44.04
+- GC:44.64
+- GC:45.45
+- GC:45.87
+- GC:46.85
+- GC:47.22
+- GC:50.470000000000006
+- Length:107
+- Length:108
+- Length:109
+- Length:110
+- Length:111
+- Length:112
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C1
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C15
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C17
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C18
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C24
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C33
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C34
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C37
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C5
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C52
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C8
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C9
+- Type:Proteins
+- Year:1996
+type: Proteins
 ---
 <html>
 

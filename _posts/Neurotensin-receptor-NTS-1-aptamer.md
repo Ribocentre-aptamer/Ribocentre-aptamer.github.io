@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Neurotensin receptor NTS-1 aptamer"
-date:   2024-05-22 00:00:00
+title: Neurotensin receptor NTS-1 aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:58.8
+- Length:68
+- Named:Neurotensin receptor NTS-1 (NTR)_P19
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
 

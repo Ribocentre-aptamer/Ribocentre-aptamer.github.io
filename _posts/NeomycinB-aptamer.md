@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "NeomycinB aptamer"
-date:   2024-04-22 00:00:00
+title: NeomycinB aptamer
+date: 2024-04-22 00:00:00
 author: Linfei Li，Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:56.99999999999999
+- Length:23
+- Named:Neomycin B_NeomycinB aptamer
+- Type:Small molecules
+- Year:1995
+type: Small molecules
 ---
 <html>
 

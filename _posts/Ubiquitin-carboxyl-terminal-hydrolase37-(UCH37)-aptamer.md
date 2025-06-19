@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Ubiquitin carboxyl-terminal hydrolase37 (UCH37)-aptamer"
-date:   2024-05-31 00:00:00
+title: Ubiquitin carboxyl-terminal hydrolase37 (UCH37)-aptamer
+date: 2024-05-31 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:54.44
+- Length:90
+- Named:Ubiquitin carboxyl-terminal hydrolase37 (UCH37)_UCH37‐1
+- Type:Proteins
+- Year:2016
+type: Proteins
 ---
 <html>
 

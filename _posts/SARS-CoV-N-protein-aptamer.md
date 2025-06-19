@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "SARS-CoV N protein aptamer"
-date:   2024-05-06 00:00:00
+title: SARS-CoV N protein aptamer
+date: 2024-05-06 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:56.00000000000001
+- GC:59.040000000000006
+- Length:83
+- Length:84
+- Named:SARS-CoV nucleocapsid (N) protein_aptamer 1
+- Named:SARS-CoV nucleocapsid (N) protein_aptamer 2
+- Type:Proteins
+- Year:2009
+type: Proteins
 ---
 <html>
 

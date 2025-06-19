@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "NFAT aptamer"
-date:   2024-06-05 00:00:00
+title: NFAT aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:63.04
+- Length:92
+- 'Named:Nuclear factor of activated T cells (NFAT) DNA binding domain_RNA aptamer
+  #1'
+- 'Named:Nuclear factor of activated T cells (NFAT) DNA binding domain_RNA aptamer
+  #2'
+- Type:Proteins
+- Year:2004
+type: Proteins
 ---
 
 

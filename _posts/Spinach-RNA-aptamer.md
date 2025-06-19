@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)"
-date:   2024-04-07 00:00:00
+title: Spinach RNA aptamer, Aptamer 24-2-min(Spinach)
+date: 2024-04-07 00:00:00
 author: Jiaxin Zhao, Ke Chen
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:52.94
+- GC:54.39000000000001
+- GC:55.1
+- Length:102
+- Length:114
+- Length:98
+- Named:DFHBI and Fab_13-2
+- Named:DFHBI and Fab_24-2 (Spinach)
+- Named:DFHBI and Fab_44626
+- Type:Small molecules
+- Year:2011
+type: Small molecules
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Cytohesin-2 aptamer"
-date:   2024-06-05 00:00:00
+title: Cytohesin-2 aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:49.38
+- Length:81
+- Named:Cytohesin-2_K61
+- Type:Proteins
+- Year:2004
+type: Proteins
 ---
 <html>
 

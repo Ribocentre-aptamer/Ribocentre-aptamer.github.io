@@ -1,9 +1,28 @@
 ---
 layout: theophylline_style
-title:  "eIF4A aptamer"
-date:   2024-04-9 00:00:00
+title: eIF4A aptamer
+date: 2024-04-09 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:46.150000000000006
+- GC:53.0
+- GC:53.410000000000004
+- GC:55.67999999999999
+- GC:56.82000000000001
+- Length:58
+- Length:78
+- Length:88
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#1
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#11
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#20
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#30
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_APT58 aptamer
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_no.21
+- Type:Proteins
+- Year:2003
+type: Proteins
 ---
 <html>
 
@@ -375,7 +394,7 @@ Oguro, A., Ohtsu, T., Svitkin, YV., Sonenberg, N., & Nakamura, Y.<br />
 Sakamoto, T., Oguro, A., Kawai, G., Ohtsu, T., & Nakamura, Y.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/15687383/" target="_blank" style="color:#520049">Nucleic Acids Research, 33(2):745-54. (2005)</a>
 <br />
-</html>
+
 
 
 <script>

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Squash aptamer"
-date:   2024-06-30 00:00:00
+title: Squash aptamer
+date: 2024-06-30 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:45.0
+- Length:83
+- Named:DFHBI-1T_Squash aptamer
+- Type:Small molecules
+- Year:2022
+type: Small molecules
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "J6f1 aptamer"
-date:   2024-05-20 00:00:00
+title: J6f1 aptamer
+date: 2024-05-20 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:52.5
+- Length:40
+- Named:Tobramycin_J6f1
+- Type:Small molecules
+- Year:1998
+type: Small molecules
 ---
 <html>
 

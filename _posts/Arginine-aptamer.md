@@ -1,9 +1,27 @@
 ---
 layout: theophylline_style
-title:  "Arginine aptamer"
-date:   2024-04-09 00:00:00
+title: Arginine aptamer
+date: 2024-04-09 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:55.26
+- GC:55.669999999999995
+- GC:56.82000000000001
+- GC:60.0
+- Length:33
+- Length:38
+- Length:44
+- Length:97
+- Named:L-arginine_44.Arg11
+- Named:L-arginine_L-R16c
+- Named:L-arginine_ag.06
+- Named:L-arginine_ag.06_1
+- Type:Small molecules
+- Year:1994
+- Year:1996
+type: Small molecules
 ---
 <html>
 

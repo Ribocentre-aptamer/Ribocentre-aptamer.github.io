@@ -1,9 +1,18 @@
 ---
 layout: theophylline_style
-title:  "The protein calsenilin aptamer"
-date:   2024-05-20 00:00:00
+title: The protein calsenilin aptamer
+date: 2024-05-20 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:60.49
+- Length:81
+- Named:The protein calsenilin_aptamer-12
+- Named:The protein calsenilin_aptamer-2
+- Type:Proteins
+- Year:2007
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "Vitamin B12-aptamer"
-date:   2024-04-18 00:00:00
+title: Vitamin B12-aptamer
+date: 2024-04-18 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:53.21
+- GC:53.33
+- GC:60.0
+- Length:109
+- Length:35
+- Length:75
+- Named:Cyanocobalamin (vitamin B12)_35-mer aptamer
+- Named:Cyanocobalamin (vitamin B12)_B12.9
+- Named:Cyanocobalamin (vitamin B12)_DOPE. 40
+- Type:Small molecules
+- Year:1994
+type: Small molecules
 ---
 <html>
 
@@ -78,7 +92,7 @@ categories: Aptamer
 
          
 <p><p class="header_box" id="description">Description</p>
-<font >In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B<sub>12</sub> RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B<sub>12</sub> RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 

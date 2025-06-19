@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "HBV P protein aptamer"
-date:   2024-05-06 00:00:00
+title: HBV P protein aptamer
+date: 2024-05-06 00:00:00
 author: Jiali Wang, Fu Bo
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:36.07
+- GC:39.34
+- Length:61
+- Named:Hepatitis B virus (HBV) polymerase (P protein) (miniP)_S6
+- Named:Hepatitis B virus (HBV) polymerase (P protein) (miniP)_S9
+- Type:Proteins
+- Year:2011
+type: Proteins
 ---
 <html>
 

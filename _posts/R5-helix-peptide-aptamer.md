@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "R5 helix peptide-aptamer"
-date:   2024-05-16 00:00:00
+title: R5 helix peptide-aptamer
+date: 2024-05-16 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Other
+- GC:55.13
+- GC:58.97
+- Length:78
+- Named:R5 helix peptide_B-2
+- Named:R5 helix peptide_B-6
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
 <html>
 

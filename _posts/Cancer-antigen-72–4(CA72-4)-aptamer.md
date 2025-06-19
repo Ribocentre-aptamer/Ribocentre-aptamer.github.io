@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Cancer antigen 72–4(CA72-4)-aptamer"
-date:   2024-06-06 00:00:00
-author: Yangyi Ren, Chen Ke 
+title: Cancer antigen 72–4(CA72-4)-aptamer
+date: 2024-06-06 00:00:00
+author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.78
+- GC:56.92
+- Length:65
+- Length:82
+- Named:Cancer antigen 72–4(CA72-4)_CA72-4 A01
+- Named:Cancer antigen 72–4(CA72-4)_CA72-4 A02
+- Type:Proteins
+- Year:2018
+type: Proteins
 ---
 <html>
 

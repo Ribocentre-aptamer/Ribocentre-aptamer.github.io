@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "RF-1-aptamer"
-date:   2024-06-02 00:00:00
+title: RF-1-aptamer
+date: 2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:56.10000000000001
+- Length:82
+- Named:Escherichia coli release factor 1_Class II-1
+- Type:Proteins
+- Year:2007
+type: Proteins
 ---
 <html>
 

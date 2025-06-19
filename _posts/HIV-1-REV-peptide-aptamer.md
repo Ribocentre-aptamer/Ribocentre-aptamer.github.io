@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "HIV-1 REV peptide apatmer"
-date:   2024-04-8 00:00:00
+title: HIV-1 REV peptide apatmer
+date: 2024-04-08 00:00:00
 author: Zhizhong Lu, Ziyu Guo
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:56.99999999999999
+- Length:35
+- Named:HIV-1 REV peptide_35-mer HIV rev RNA aptamer
+- Type:Proteins
+- Year:1994
+type: Proteins
 ---
 <html>
 

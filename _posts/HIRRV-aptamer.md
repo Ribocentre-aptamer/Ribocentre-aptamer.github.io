@@ -1,9 +1,31 @@
 ---
 layout: theophylline_style
-title:  "HIRRV aptamer"
-date:   2024-05-06 00:00:00
+title: HIRRV aptamer
+date: 2024-05-06 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:32.5
+- GC:41.46
+- GC:50.0
+- GC:52.0
+- GC:52.5
+- GC:56.00000000000001
+- Length:38
+- Length:40
+- Length:41
+- Length:75
+- Length:76
+- Named:Hirame rhabdovirus (HIRRV)_H1
+- Named:Hirame rhabdovirus (HIRRV)_H1 aptamer(truncation)
+- Named:Hirame rhabdovirus (HIRRV)_H2
+- Named:Hirame rhabdovirus (HIRRV)_H2 aptamer(truncation)
+- Named:Hirame rhabdovirus (HIRRV)_H3
+- Named:Hirame rhabdovirus (HIRRV)_H4
+- Type:Proteins
+- Year:2012
+type: Proteins
 ---
 <html>
 

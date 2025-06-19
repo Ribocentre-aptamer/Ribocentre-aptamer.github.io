@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Escherichia coli-aptamer"
-date:   2024-06-02 00:00:00
+title: Escherichia coli-aptamer
+date: 2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:38.379999999999995
+- Length:99
+- Named:Escherichia coli (E. coli) O157:H7_I-1
+- Type:Proteins
+- Year:2011
+type: Proteins
 ---
 <html>
 

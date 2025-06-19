@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "TCF-1 aptamer"
-date:   2024-06-05 00:00:00
+title: TCF-1 aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:61.0
+- Length:100
+- Named:T cytokine 1 (TCF-1)_#10
+- Type:Proteins
+- Year:2004
+type: Proteins
 ---
 <html>
 

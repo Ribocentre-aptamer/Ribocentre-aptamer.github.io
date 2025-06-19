@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Lividomycin aptamer"
-date:   2024-05-10 00:00:00
+title: Lividomycin aptamer
+date: 2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:48.75
+- GC:51.9
+- Length:79
+- Length:80
+- Named:Lividomycin_SLB10-1
+- Named:Lividomycin_SLB10-34
+- Type:Small molecules
+- Year:1996
+type: Small molecules
 ---
 <html>
 

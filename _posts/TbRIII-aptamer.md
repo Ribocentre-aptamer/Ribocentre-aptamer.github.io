@@ -1,9 +1,18 @@
 ---
 layout: theophylline_style
-title:  "TbRIII-aptamer"
-date:   2024-05-20 00:00:00
+title: TbRIII-aptamer
+date: 2024-05-20 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:55.78999999999999
+- Length:95
+- Named:Transforming growth factor-β type III receptor expressed on Chinese hamster
+  ovary (CHO) cells(TbRIII)_A07
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

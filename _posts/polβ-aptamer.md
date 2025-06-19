@@ -1,9 +1,28 @@
 ---
 layout: theophylline_style
-title:  "polβ-aptamer"
-date:   2024-05-17 00:00:00
+title: polβ-aptamer
+date: 2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:46.25
+- GC:47.5
+- GC:48.75
+- GC:50.0
+- GC:52.5
+- Length:80
+- Named:DNA polymerase beta (polβ)_Aptamer 25
+- Named:DNA polymerase beta (polβ)_Aptamer 31
+- Named:DNA polymerase beta (polβ)_Aptamer 32
+- Named:DNA polymerase beta (polβ)_Aptamer 45
+- Named:DNA polymerase beta (polβ)_Aptamer 53
+- Named:DNA polymerase kappa (polκ)_Aptamer 25
+- Named:DNA polymerase kappa (polκ)_Aptamer 32
+- Named:DNA polymerase kappa (polκ)_Aptamer 45
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

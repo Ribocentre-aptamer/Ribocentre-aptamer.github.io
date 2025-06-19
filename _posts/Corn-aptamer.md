@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Corn aptamer"
-date:   2024-03-29 00:00:00
+title: Corn aptamer
+date: 2024-03-29 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:69.0
+- Length:36
+- Named:DFHO_Corn aptamer
+- Type:Small molecules
+- Year:2017
+type: Small molecules
 ---
 <html>
 

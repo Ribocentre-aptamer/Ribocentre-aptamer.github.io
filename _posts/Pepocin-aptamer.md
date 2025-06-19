@@ -1,9 +1,25 @@
 ---
 layout: theophylline_style
-title:  "Pepocin aptamer"
-date:   2024-05-16 00:00:00
+title: Pepocin aptamer
+date: 2024-05-16 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Toxin
+- GC:43.0
+- GC:43.75
+- GC:45.0
+- GC:46.339999999999996
+- Length:41
+- Length:42
+- Length:80
+- Named:Pepocin_08-09
+- Named:Pepocin_8-09 aptamer
+- Named:Pepocin_8-14
+- Named:Pepocin_9-41U22
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
 <html>
 

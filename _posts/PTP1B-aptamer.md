@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "PTP1B aptamer"
-date:   2024-05-27 00:00:00
+title: PTP1B aptamer
+date: 2024-05-27 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:46.150000000000006
+- GC:46.48
+- GC:49.3
+- Length:39
+- Length:71
+- Named:Protein tyrosine phosphatase 1B (PTP1B)_C13
+- Named:Protein tyrosine phosphatase 1B (PTP1B)_C13M21
+- Named:Protein tyrosine phosphatase 1B (PTP1B)_C9
+- Type:Proteins
+- Year:2010
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,24 @@
 ---
 layout: theophylline_style
-title:  "rafl7s aptamer"
-date:   2024-05-10 00:00:00
+title: rafl7s aptamer
+date: 2024-05-10 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Nucleosides & Nucleotides
+- GC:63.1
+- GC:64.29
+- GC:67.86
+- GC:68.85
+- Length:61
+- Length:84
+- Named:Adenosine triphosphate (ATP)_rafl28
+- Named:Adenosine triphosphate (ATP)_rafl7
+- Named:Adenosine triphosphate (ATP)_rafl7-U61C
+- Named:Adenosine triphosphate (ATP)_rafl7s
+- Type:Small molecules
+- Year:2000
+type: Small molecules
 ---
 <html>
 

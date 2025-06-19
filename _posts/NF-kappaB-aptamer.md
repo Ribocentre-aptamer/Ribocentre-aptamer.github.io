@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "NF-kappaB P50 aptamer"
-date:   2024-03-01 00:00:00
+title: NF-kappaB P50 aptamer
+date: 2024-03-01 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:40.82
+- GC:41.0
+- Length:29
+- Length:98
+- Named:NF-kappaB P50_RNA aptamer 3
+- Named:NF-kappaB P50_α-p50 RNA aptamer
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
 <head>

@@ -1,9 +1,27 @@
 ---
 layout: theophylline_style
-title:  "TNBC aptamer"
-date:   2024-06-07 00:00:00
+title: TNBC aptamer
+date: 2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:cell
+- GC:46.51
+- GC:48.84
+- GC:51.160000000000004
+- GC:52.33
+- GC:57.14
+- Length:63
+- Length:86
+- Named:Triple-negative breast cancer (TNBC)_TN145
+- Named:Triple-negative breast cancer (TNBC)_TN2
+- Named:Triple-negative breast cancer (TNBC)_TN20
+- Named:Triple-negative breast cancer (TNBC)_TN29
+- Named:Triple-negative breast cancer (TNBC)_TN3
+- Named:Triple-negative breast cancer (TNBC)_TN58
+- Type:Cells
+- Year:2020
+type: Cells
 ---
 <html>
 

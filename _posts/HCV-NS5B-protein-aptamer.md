@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "HCV NS5B protein aptamer"
-date:   2024-05-02 00:00:00
+title: HCV NS5B protein aptamer
+date: 2024-05-02 00:00:00
 author: Jiali Wang, Fu Bo
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:50.57000000000001
+- GC:56.98
+- GC:57.47
+- Length:86
+- Length:87
+- Named:Hepatitis C virus NS5B protein (HCV NS5B protein)_R1-1
+- Named:Hepatitis C virus NS5B protein (HCV NS5B protein)_R20-15
+- Named:Hepatitis C virus NS5B protein (HCV NS5B protein)_R20-43
+- Type:Proteins
+- Year:2003
+type: Proteins
 ---
 <html>
 

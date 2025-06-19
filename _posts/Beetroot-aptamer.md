@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Beetroot aptamer"
-date:   2024-04-30 00:00:00
+title: Beetroot aptamer
+date: 2024-04-30 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:67.0
+- Length:49
+- Named:Thioflavin T (ThT), DFHO, DFAME_Beetroot aptamer
+- Type:Small molecules
+- Year:2022
+type: Small molecules
 ---
 <html>
 

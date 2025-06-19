@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "HPV-16 E7 oncoprotein aptamer"
-date:   2024-05-09 00:00:00
+title: HPV-16 E7 oncoprotein aptamer
+date: 2024-05-09 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:42.0
+- Length:57
+- Named:Human papillomavirus type 16 (HPV-16) E7 oncoprotein_G5α3N.4
+- Type:Proteins
+- Year:2011
+type: Proteins
 ---
 <html>
 

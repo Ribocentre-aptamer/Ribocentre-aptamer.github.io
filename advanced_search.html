@@ -30,7 +30,7 @@ permalink: /advanced-search/
     <!-- 顶部标题区 -->
     <header class="bento-header">
         <h1 class="bento-title">Intelligent Aptamer Search</h1>
-        <p class="bento-subtitle">Discover, filter and analyze aptamers with a beautiful, modern interface.</p>
+        <p class="bento-subtitle">Discover, filter and analyze aptamers with a beautiful, modern interface</p>
     </header>
 
     <!-- 主体Bento区块 -->
@@ -64,18 +64,20 @@ permalink: /advanced-search/
                     <input type="number" id="lengthTo" placeholder="Max">
                 </div>
                 <div class="filter-group">
-                    <label>GC %</label>
+                    <label>GC Content %</label>
                     <input type="number" id="gcFrom" placeholder="Min">
                     <span>—</span>
                     <input type="number" id="gcTo" placeholder="Max">
                 </div>
                 <div class="filter-group">
-                    <label>Target</label>
-                    <input type="text" id="targetType" placeholder="Type">
-                </div>
-                <div class="filter-group">
-                    <label>Application</label>
-                    <input type="text" id="applicationField" placeholder="Field">
+                    <label>Target Type</label>
+                    <select id="targetType">
+                        <option value="">All</option>
+                        <option value="Proteins">Proteins</option>
+                        <option value="Small molecules">Small molecules</option>
+                        <option value="Cells">Cells</option>
+                        <option value="Nucleic acids">Nucleic acids</option>
+                    </select>
                 </div>
                 <div class="filter-group">
                     <label>Affinity</label>
@@ -85,6 +87,14 @@ permalink: /advanced-search/
                         <option value="nM">nM</option>
                         <option value="μM">μM</option>
                         <option value="mM">mM</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Result Type</label>
+                    <select id="resultType">
+                        <option value="">All</option>
+                        <option value="sequence">Sequence</option>
+                        <option value="page">Page</option>
                     </select>
                 </div>
                 <div class="filter-actions">
@@ -100,15 +110,17 @@ permalink: /advanced-search/
                 <span id="resultsCount">0 results</span>
                 <span id="searchTime"></span>
                 <div class="results-controls">
-                    <select id="sortBy">
-                        <option value="relevance">Relevance</option>
-                        <option value="year">Year</option>
-                        <option value="length">Length</option>
-                        <option value="gc-content">GC %</option>
-                        <option value="affinity">Affinity</option>
-                    </select>
+                    <div class="sort-controls">
+                        <label for="sortBy">Sort by:</label>
+                        <select id="sortBy">
+                            <option value="relevance">Relevance</option>
+                            <option value="year">Year</option>
+                            <option value="length">Length</option>
+                            <option value="gc-content">GC Content</option>
+                            <option value="affinity">Affinity</option>
+                        </select>
+                    </div>
                     <button class="view-btn active" data-view="list"><i class="fas fa-list"></i></button>
-                    <button class="view-btn" data-view="grid"><i class="fas fa-th"></i></button>
                     <button class="view-btn" data-view="table"><i class="fas fa-table"></i></button>
                 </div>
             </div>
@@ -121,14 +133,9 @@ permalink: /advanced-search/
 
     <!-- 浮动操作按钮 -->
     <div class="bento-fab-group">
-        <!-- 瀑布流进度条 -->
-        <div class="masonry-progress-bar-apple" id="masonryProgressBar" style="display: none;">
-            <div class="masonry-progress-inner" id="masonryProgressInner"></div>
-        </div>
-        
-        <button class="bento-fab bento-fab-top" id="backToTop" title="回到顶部">
+        <button class="bento-fab bento-fab-top" id="backToTop" title="Back to top">
             <i class="fas fa-arrow-up"></i>
-            <span class="fab-tooltip">回到顶部</span>
+            <span class="fab-tooltip">Back to top</span>
         </button>
     </div>
 </div>
@@ -376,5 +383,25 @@ permalink: /advanced-search/
     .bento-main { gap: 18px; }
     .bento-card { padding: 18px 8px; }
     .bento-fab-group { right: 12px; bottom: 12px; }
+}
+
+/* 排序控件样式 */
+.sort-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sort-controls label {
+    font-weight: 500;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .results-controls {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
 }
 </style> 

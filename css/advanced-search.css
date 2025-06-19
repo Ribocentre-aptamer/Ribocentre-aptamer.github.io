@@ -1046,11 +1046,156 @@
 
 /* 关键词高亮样式 */
 .keyword-highlight {
-    background: linear-gradient(45deg, #fff3cd, #ffeaa7);
+    background-color: #fff3cd;
+    color: #856404;
     font-weight: bold;
-    padding: 2px 4px;
-    border-radius: 3px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 2px 1px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* 序列内容样式 */
+.sequence-content {
+    margin-top: 8px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    line-height: 1.5;
+}
+
+.sequence-text {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.5px;
+    background-color: #f8f9fa;
+    padding: 4px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 4px 0;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.btn-toggle-sequence {
+    background: #520049;
+    color: white;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: all 0.2s;
+}
+
+.btn-toggle-sequence:hover {
+    background: #6c006c;
+}
+
+/* Result description with highlighted content */
+.result-description {
+    color: #444;
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result-description strong {
+    color: #222;
+}
+
+/* Enhanced tag styles */
+.tag.tag-type {
+    background: #520049;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+/* 结果类型样式 */
+.result-item-list.result-sequence {
+    border-left: 4px solid #0066cc; /* 蓝色边框表示序列 */
+}
+
+.result-item-list.result-page {
+    border-left: 4px solid #520049; /* 紫色边框表示页面 */
+}
+
+.result-type {
+    font-weight: 600;
+}
+
+/* 结果类型标识 */
+.type-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+.type-badge.sequence {
+    background: linear-gradient(135deg, #0066cc, #3a89e6);
+}
+
+.type-badge.page {
+    background: linear-gradient(135deg, #520049, #8a3b7f);
+}
+
+.type-badge i {
+    margin-right: 5px;
+}
+
+/* 表格结果类型样式 */
+.result-type-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+}
+
+.result-type-badge.sequence {
+    background: #0066cc;
+}
+
+.result-type-badge.page {
+    background: #520049;
+}
+
+/* 表格行样式 */
+.sequence-row {
+    background-color: #f0f7ff !important;
+}
+
+.sequence-row:hover {
+    background-color: #e6f2ff !important;
+}
+
+.page-row {
+    background-color: #faf5fa !important;
+}
+
+.page-row:hover {
+    background-color: #f5ebf5 !important;
+}
+
+/* 瀑布流项目样式 */
+.masonry-sequence .masonry-card {
+    border-top: 4px solid #0066cc;
+}
+
+.masonry-page .masonry-card {
+    border-top: 4px solid #520049;
 }
 
 /* Particles Container */
@@ -1452,4 +1597,33 @@
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+/* Result item styles */
+.result-item-list {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-left: 4px solid #520049;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Enhanced sequence preview container */
+.sequence-preview, .sequence-full {
+    max-width: 100%;
+    position: relative;
+}
+
+/* Sequence matches highlight */
+.sequence-match {
+    background-color: #ffecb3;
+    color: #856404;
+    font-weight: bold;
+    padding: 0 1px;
+    border-radius: 2px;
 } 

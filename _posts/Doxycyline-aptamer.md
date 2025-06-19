@@ -1,9 +1,24 @@
 ---
 layout: theophylline_style
-title:  "Doxycyline aptamer"
-date:   2024-05-21 00:00:00
+title: Doxycyline aptamer
+date: 2024-05-21 00:00:00
 author: Linfei Li, Yuhang Luo
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:49.02
+- GC:50.0
+- GC:51.49
+- GC:53.92
+- Length:101
+- Length:102
+- Named:Doxycyline_1D13-01
+- Named:Doxycyline_1D16-05
+- Named:Doxycyline_1D16-06
+- Named:Doxycyline_1D16-13
+- Type:Small molecules
+- Year:2000
+type: Small molecules
 ---
 <html>
 

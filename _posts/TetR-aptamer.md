@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "TetR aptamer"
-date:   2024-04-10 00:00:00
+title: TetR aptamer
+date: 2024-04-10 00:00:00
 author: Qiaozhen Liu,Zhaoji Qiu
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:57.99999999999999
+- Length:43
+- Named:Transcription repressor TetR_TetR-RNA aptamer
+- Type:Proteins
+- Year:2009
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Clone 31 aptamer"
-date:   2024-05-06 00:00:00
+title: Clone 31 aptamer
+date: 2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:50.0
+- Length:78
+- Named:HIV-1 Tat protein_clone 31
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
 
 

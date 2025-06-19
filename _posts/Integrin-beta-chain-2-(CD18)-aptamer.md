@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "Integrin beta chain-2 (CD18) aptamer"
-date:   2024-05-22 00:00:00
+title: Integrin beta chain-2 (CD18) aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:59.489999999999995
+- GC:60.0
+- GC:64.0
+- Length:75
+- Length:79
+- Length:80
+- Named:Integrin beta chain-2 (CD18)_D20
+- Named:Integrin beta chain-2 (CD18)_D28
+- Named:Integrin beta chain-2 (CD18)_D31
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
 

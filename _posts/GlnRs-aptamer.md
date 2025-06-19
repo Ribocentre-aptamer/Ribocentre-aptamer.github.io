@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "GlnRs aptamer"
-date:   2024-04-16 00:00:00
+title: GlnRs aptamer
+date: 2024-04-16 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:59.0
+- Length:74
+- Named:Glutaminyl-tRNA synthetase_var-AGGU RNA aptamer
+- Type:Proteins
+- Year:1996
+type: Proteins
 ---
 <html>
 

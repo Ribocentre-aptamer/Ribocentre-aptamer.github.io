@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "T4 gp43-aptamer"
-date:   2024-05-10 00:00:00
+title: T4 gp43-aptamer
+date: 2024-05-10 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Other
+- GC:33.629999999999995
+- Length:113
+- Named:T4 DNA polymerase (gp43)_wild type
+- Type:Proteins
+- Year:1990
+type: Proteins
 ---
 <html>
 

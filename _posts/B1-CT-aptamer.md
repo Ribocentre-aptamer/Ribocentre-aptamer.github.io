@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "B1-CT aptamer"
-date:   2024-05-17 00:00:00
+title: B1-CT aptamer
+date: 2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:50.0
+- GC:55.559999999999995
+- Length:90
+- Named:Cytoplasmic tail of BACE (B1-CT)_S10
+- Named:Cytoplasmic tail of BACE (B1-CT)_TH14
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

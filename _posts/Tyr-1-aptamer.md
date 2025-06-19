@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Tyr 1 aptamer"
-date:   2024-05-29 00:00:00
+title: Tyr 1 aptamer
+date: 2024-05-29 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:59.68
+- Length:124
+- Named:L-tyrosine_Tyr 1
+- Type:Small molecules
+- Year:2000
+type: Small molecules
 ---
 <html>
 
