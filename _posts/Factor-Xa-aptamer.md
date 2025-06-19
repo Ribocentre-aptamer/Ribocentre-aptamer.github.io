@@ -352,8 +352,7 @@ categories: Aptamer
         <td name="td2">28.51 kDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">IVGGQECKDGECPWQALLINEENEGFCGGTILSEFYILTAAHCLYQAKRFKVRVGDRNTEQEEGGEAVHEVEVVIKHNRFTKETYDFDIAVLRLKTPITFRMNVAPACLPERDWAESTLMTQKTGIVSGFGRTHEKGRQSTRLKMLEVPYVDRNSCKLSSSFIITQNMFCAGYDTKQEDACQGDSGGPHVTRFKDTYFVTGIVSWGEGCARKGKYGIYTKVTAFLKWIDRSMKTRGLPKAKSHAPEVITSSPLK</span>
         </div>
       </td>
