@@ -330,21 +330,10 @@ class AdvancedSearchModule {
                     const searchCardRect = searchCard.getBoundingClientRect();
                     const filterCardRect = filterCard.getBoundingClientRect();
                     
-                    // 当搜索框和过滤器完全滚出视图时
-                    if (st > lastScrollTop && searchCardRect.bottom < 0 && !isSliding) {
-                        isSliding = true;
-                        searchCard.classList.add('slide-left');
-                        filterCard.classList.add('slide-left');
-                        
-                        // 动画结束后移除类
-                        setTimeout(() => {
-                            searchCard.classList.remove('slide-left');
-                            filterCard.classList.remove('slide-left');
-                            isSliding = false;
-                        }, 800);
-                    } 
+                    // 以前的 slide-left 动画已移除，避免刷新后上滑出现侧滑效果
+                    
                     // 当回到顶部时
-                    else if (st < lastScrollTop && st < 100) {
+                    if (st < lastScrollTop && st < 100) {
                         searchCard.classList.remove('sticky');
                         filterCard.classList.remove('sticky');
                         resultsCard.classList.remove('sticky');
@@ -397,8 +386,8 @@ class AdvancedSearchModule {
             });
         }
 
-        // 监听滚动事件
-        window.addEventListener('scroll', handleScroll);
+        // 监听滚动事件（passive，提高性能）
+        window.addEventListener('scroll', handleScroll, { passive: true });
 
         // 其他事件监听器保持不变
         if (resetBtn) {
@@ -438,6 +427,14 @@ class AdvancedSearchModule {
         if (exportBtn) {
             exportBtn.addEventListener('click', () => {
                 this.exportResults();
+            });
+        }
+
+        // Save JSON button
+        const saveBtn = document.getElementById('saveResults');
+        if (saveBtn) {
+            saveBtn.addEventListener('click', () => {
+                this.saveResultsJSON();
             });
         }
     }
@@ -1113,7 +1110,6 @@ class AdvancedSearchModule {
         this.currentPage = page;
         this.renderResults();
         this.setupPagination();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     showPlaceholder() {
@@ -1259,6 +1255,24 @@ class AdvancedSearchModule {
         const url = URL.createObjectURL(blob);
         link.setAttribute('href', url);
         link.setAttribute('download', `aptamer_search_results_${new Date().toISOString().split('T')[0]}.csv`);
+        link.style.visibility = 'hidden';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    saveResultsJSON() {
+        if (!this.filteredData.length) {
+            alert('No data to save');
+            return;
+        }
+
+        const jsonStr = JSON.stringify(this.filteredData, null, 2);
+        const blob = new Blob([jsonStr], { type: 'application/json;charset=utf-8;' });
+        const link = document.createElement('a');
+        const url = URL.createObjectURL(blob);
+        link.setAttribute('href', url);
+        link.setAttribute('download', `aptamer_search_results_${new Date().toISOString().split('T')[0]}.json`);
         link.style.visibility = 'hidden';
         document.body.appendChild(link);
         link.click();
