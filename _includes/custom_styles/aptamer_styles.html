@@ -911,4 +911,29 @@
     color: #520049;
     font-size: 12px;
   }
+
+  /* Hover hint tooltip on seq-clickable */
+  .seq-clickable[data-hint] {
+    position: relative;
+  }
+  .seq-clickable[data-hint]::after {
+    content: attr(data-hint);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -4px);
+    bottom: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    z-index: 10000;
+  }
+  .seq-clickable[data-hint]:hover::after {
+    opacity: 1;
+  }
 </style> 
