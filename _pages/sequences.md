@@ -445,25 +445,58 @@ function loadData(){
         data = data.filter(item => item.ID === targetId);
       }
       
-      // 如果请求JSON格式，直接返回数据
-      if (formatParam === 'json') {
-        let responseData = data;
-        
-        // 如果有搜索参数，进行搜索过滤
-        if (searchQuery) {
-          responseData = data.filter(item => {
-            return Object.values(item).some(value => 
-              value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
-            );
-          });
+              // 如果请求JSON格式，直接返回数据
+        if (formatParam === 'json') {
+          let responseData = data;
+          let originalCount = data.length;
+          
+          // 如果有搜索参数，进行搜索过滤
+          if (searchQuery) {
+            responseData = data.filter(item => {
+              return Object.values(item).some(value => 
+                value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
+              );
+            });
+          }
+          
+          // 构建完整的API响应
+          const apiResponse = {
+            success: true,
+            message: responseData.length === 0 ? "No results found" : `Found ${responseData.length} result(s)`,
+            query: {
+              search: searchQuery || null,
+              id: targetId || null,
+              timestamp: new Date().toISOString(),
+              endpoint: "/sequences/"
+            },
+            statistics: {
+              total_in_database: originalCount,
+              filtered_results: responseData.length,
+              search_performed: !!searchQuery,
+              id_filter_applied: !!targetId
+            },
+            data: responseData.length === 0 ? [] : responseData
+          };
+          
+          // 如果没有结果，添加建议
+          if (responseData.length === 0 && searchQuery) {
+            apiResponse.suggestions = [
+              "Try a broader search term",
+              "Check spelling of your search query",
+              "Use partial matching (e.g., 'ATP' instead of 'ATP-binding')",
+              "Browse all data: /sequences/ or /api/"
+            ];
+          }
+          
+          // 返回JSON数据
+          document.body.innerHTML = '<pre style="background: #f8f9fa; padding: 20px; border-radius: 5px; border: 1px solid #dee2e6; color: #495057;">' + 
+            JSON.stringify(apiResponse, null, 2) + '</pre>';
+          document.body.style.fontFamily = 'Monaco, "Lucida Console", monospace';
+          document.body.style.padding = '20px';
+          document.body.style.margin = '0';
+          document.body.style.backgroundColor = '#ffffff';
+          return;
         }
-        
-        // 返回JSON数据
-        document.body.innerHTML = '<pre>' + JSON.stringify(responseData, null, 2) + '</pre>';
-        document.body.style.fontFamily = 'monospace';
-        document.body.style.padding = '20px';
-        return;
-      }
       
       tableData=data;
       const rows=buildRows(data);

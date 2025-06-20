@@ -29,26 +29,44 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(json => {
             let data = json.Sheet1 || json;
+            const originalCount = data.length;
+            
             let responseData = {
                 success: true,
-                total: data.length,
-                data: data,
+                message: "",
                 query: {
                     search: searchQuery,
                     id: idQuery,
                     category: categoryQuery,
                     type: typeQuery,
                     limit: limitQuery,
-                    offset: offsetQuery
-                }
+                    offset: offsetQuery,
+                    timestamp: new Date().toISOString(),
+                    endpoint: "/api/"
+                },
+                statistics: {
+                    total_in_database: originalCount,
+                    filters_applied: [],
+                    filtered_results: 0,
+                    returned_results: 0
+                },
+                pagination: {
+                    has_pagination: limitQuery > 0,
+                    limit: limitQuery,
+                    offset: offsetQuery,
+                    has_next_page: false,
+                    has_previous_page: offsetQuery > 0
+                },
+                data: []
             };
 
             try {
-                // 应用过滤器
+                // 应用过滤器并记录调试信息
                 if (idQuery) {
                     data = data.filter(item => 
                         item.ID && item.ID.toString().toLowerCase().includes(idQuery.toLowerCase())
                     );
+                    responseData.statistics.filters_applied.push(`ID contains "${idQuery}"`);
                 }
 
                 if (searchQuery) {
@@ -57,36 +75,79 @@ document.addEventListener('DOMContentLoaded', function() {
                             value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
                         );
                     });
+                    responseData.statistics.filters_applied.push(`Search for "${searchQuery}"`);
                 }
 
                 if (categoryQuery) {
                     data = data.filter(item => 
                         item.Category && item.Category.toString().toLowerCase().includes(categoryQuery.toLowerCase())
                     );
+                    responseData.statistics.filters_applied.push(`Category contains "${categoryQuery}"`);
                 }
 
                 if (typeQuery) {
                     data = data.filter(item => 
                         item.Type && item.Type.toString().toLowerCase().includes(typeQuery.toLowerCase())
                     );
+                    responseData.statistics.filters_applied.push(`Type contains "${typeQuery}"`);
                 }
 
-                // 应用分页
+                // 记录过滤后的结果数
                 const totalFiltered = data.length;
+                responseData.statistics.filtered_results = totalFiltered;
+
+                // 应用分页
                 if (limitQuery > 0) {
                     const start = offsetQuery;
                     const end = start + limitQuery;
                     data = data.slice(start, end);
+                    
+                    // 更新分页信息
+                    responseData.pagination.has_next_page = (offsetQuery + limitQuery) < totalFiltered;
                 }
 
-                responseData.filtered = totalFiltered;
-                responseData.returned = data.length;
+                responseData.statistics.returned_results = data.length;
                 responseData.data = data;
+
+                // 设置响应消息
+                if (totalFiltered === 0) {
+                    responseData.message = "No results found";
+                    responseData.suggestions = [];
+                    
+                    if (searchQuery || idQuery || categoryQuery || typeQuery) {
+                        responseData.suggestions = [
+                            "Try a broader search term",
+                            "Check spelling of your search query",
+                            "Use partial matching instead of exact terms",
+                            "Remove some filters to see more results",
+                            "Browse all data: /api/ (no parameters)"
+                        ];
+                    } else {
+                        responseData.suggestions = ["Database might be empty or unavailable"];
+                    }
+                } else {
+                    if (limitQuery > 0) {
+                        responseData.message = `Found ${totalFiltered} result(s), showing ${data.length} (page ${Math.floor(offsetQuery/limitQuery) + 1})`;
+                    } else {
+                        responseData.message = `Found ${totalFiltered} result(s)`;
+                    }
+                }
+
+                // 如果没有应用任何过滤器，说明是获取所有数据
+                if (responseData.statistics.filters_applied.length === 0) {
+                    responseData.statistics.filters_applied.push("None (showing all data)");
+                }
 
             } catch (error) {
                 responseData = {
                     success: false,
+                    message: "Error processing request",
                     error: error.message,
+                    query: responseData.query,
+                    statistics: {
+                        total_in_database: originalCount,
+                        error_occurred: true
+                    },
                     data: []
                 };
             }
@@ -98,10 +159,27 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => {
             const errorResponse = {
                 success: false,
-                error: 'Failed to load data: ' + error.message,
+                message: "Failed to load aptamer database",
+                error: error.message,
+                query: {
+                    search: searchQuery,
+                    id: idQuery,
+                    category: categoryQuery,
+                    type: typeQuery,
+                    limit: limitQuery,
+                    offset: offsetQuery,
+                    timestamp: new Date().toISOString(),
+                    endpoint: "/api/"
+                },
+                suggestions: [
+                    "Check your internet connection",
+                    "Verify the API endpoint is accessible",
+                    "Try again in a few moments",
+                    "Contact support if the problem persists"
+                ],
                 data: []
             };
-            document.body.innerHTML = '<pre style="white-space: pre-wrap; word-wrap: break-word; font-family: monospace; padding: 20px; margin: 0; background: #f5f5f5; border: none;">' + 
+            document.body.innerHTML = '<pre style="white-space: pre-wrap; word-wrap: break-word; font-family: Monaco, \'Lucida Console\', monospace; padding: 20px; margin: 0; background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; border-radius: 5px;">' + 
                 JSON.stringify(errorResponse, null, 2) + '</pre>';
         });
 });
@@ -200,12 +278,41 @@ curl "https://aptamer.ribocentre.org/api/?search=ATP"
 
 ### Response Format
 
-The API returns data in HTML format with structured table content. The response includes:
+#### HTML Response (Default)
+The API returns data in HTML format with structured table content including complete aptamer information.
 
-- **Sequence Data**: Complete aptamer sequence information
-- **Metadata**: Aptamer properties including length, GC content, affinity
-- **Literature References**: Associated publications and PubMed links
-- **Functional Information**: Target ligands and binding characteristics
+#### JSON Response Format
+When using `format=json` parameter or the `/api/` endpoint, the response includes enhanced debugging information:
+
+```json
+{
+  "success": true,
+  "message": "Found 5 result(s)" | "No results found",
+  "query": {
+    "search": "ATP",
+    "id": null,
+    "category": null,
+    "type": null,
+    "timestamp": "2025-01-01T12:00:00.000Z",
+    "endpoint": "/api/"
+  },
+  "statistics": {
+    "total_in_database": 250,
+    "filters_applied": ["Search for \"ATP\""],
+    "filtered_results": 5,
+    "returned_results": 5
+  },
+  "suggestions": [...],  // Only when no results found
+  "data": [...]
+}
+```
+
+#### Enhanced Features
+- **Clear Status Messages**: "No results found" when search yields no results
+- **Debugging Information**: Detailed query statistics and applied filters
+- **Helpful Suggestions**: Guidance when no results are returned
+- **Timestamp Tracking**: Request timing for debugging
+- **Filter Tracking**: Shows exactly which filters were applied
 
 ### Data Fields
 
