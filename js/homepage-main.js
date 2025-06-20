@@ -430,18 +430,16 @@ const homepageSearchModule = {
             Found ${this.allSearchResults.length} results (in ${searchTime} ms)
         </div>`;
 
-        currentResults.forEach(item => {
+        currentResults.forEach((item, i) => {
             const query = this.mainSearchInput.value.trim();
             const highlightedTitle = this.highlightKeywords(item.title, query);
             
-            html += `<div class="search-result-item" style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer;" data-url="${item.url}">
-                <h4 style="margin: 0 0 5px 0; color: #1a73e8; font-size: 18px; font-weight: 500;">${highlightedTitle}</h4>
-                ${item.category ? `<div style="color: #70757a; font-size: 12px; margin-bottom: 5px;">${this.highlightKeywords(item.category, query)}</div>` : ''}
-                <div style="margin: 5px 0; color: #4d5156; font-size: 14px; line-height: 1.58;">${this.getContentPreview(item.content, query)}</div>
-                <div style="display: flex; justify-content: space-between; margin-top: 5px; font-size: 12px; color: #70757a;">
-                    ${item.tags ? `<div style="color: #520049;">${this.highlightKeywords(item.tags, query)}</div>` : '<div></div>'}
-                    ${item.date ? `<div>${item.date}</div>` : '<div></div>'}
+            html += `<div class="result-item-list search-result-item result-page" data-url="${item.url}" style="cursor:pointer;">
+                <div class="result-header">
+                    <span class="result-index">${startIndex + i + 1}</span>
+                    <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
                 </div>
+                <div class="result-description">${this.getContentPreview(item.content, query)}</div>
             </div>`;
         });
 

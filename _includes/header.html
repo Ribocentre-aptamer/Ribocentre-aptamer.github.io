@@ -772,14 +772,12 @@ document.addEventListener('DOMContentLoaded', function() {
            const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
            const contentPreview = this.getContentPreview(item.content || '', query);
            
-           html += `<div class="search-result-item" onclick="window.open('${item.url}', '_blank')">
-             <h4>${highlightedTitle}</h4>
-             ${item.category ? `<div class="category">分类: ${this.highlightKeywords(item.category, query)}</div>` : ''}
-             <div class="content-preview">${contentPreview}</div>
-             <div class="search-result-meta">
-               ${item.tags ? `<div class="tags" style="color: #520049;">${this.highlightKeywords(item.tags, query)}</div>` : '<div></div>'}
-               ${item.date ? `<div class="date">${item.date}</div>` : '<div></div>'}
+           html += `<div class="result-item-list search-result-item result-page" onclick="window.open('${item.url}', '_blank')">
+             <div class="result-header">
+               <span class="result-index">${startIndex + index + 1}</span>
+               <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
              </div>
+             <div class="result-description">${contentPreview}</div>
            </div>`;
          });
 

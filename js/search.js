@@ -326,17 +326,15 @@ const SearchModule = {
         let html = '';
         const query = this.mainSearchInput.value.trim();
 
-        currentResults.forEach(item => {
+        currentResults.forEach((item, idx) => {
             const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
             
-            html += `<div class="search-result-item" data-url="${item.url || '#'}">
-                <div class="search-result-title">${highlightedTitle}</div>
-                ${item.category ? `<div style="color: #70757a; font-size: 12px; margin-bottom: 5px;">${this.highlightKeywords(item.category, query)}</div>` : ''}
-                <div class="search-result-description">${this.getContentPreview(item.content || '', query)}</div>
-                <div style="display: flex; justify-content: space-between; margin-top: 5px; font-size: 12px; color: #70757a;">
-                    ${item.tags ? `<div style="color: #520049;">${this.highlightKeywords(item.tags, query)}</div>` : '<div></div>'}
-                    ${item.date ? `<div>${item.date}</div>` : '<div></div>'}
+            html += `<div class="result-item-list search-result-item result-page" data-url="${item.url || '#'}">
+                <div class="result-header">
+                    <span class="result-index">${startIndex + idx + 1}</span>
+                    <h3 class="result-title"><a href="${item.url || '#'}" target="_blank">${highlightedTitle}</a></h3>
                 </div>
+                <div class="result-description">${this.getContentPreview(item.content || '', query)}</div>
             </div>`;
         });
 
