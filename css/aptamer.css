@@ -134,7 +134,27 @@ textarea {
   background-color: #999;
 }
 
-/* 主表格样式 */
+/* Aptamer Squared Table - 统一的配色表格样式 */
+.aptamer-squared-table {
+  width: 100%;
+  max-width: 100%;
+  margin: 5px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #fff;
+  table-layout: fixed;
+}
+
+.aptamer-squared-table td {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+/* 保持原有的table类为向后兼容 */
 .table {
   width: 100%;
   max-width: 100%;
@@ -154,7 +174,18 @@ textarea {
   white-space: normal;
 }
 
-/* 表格行1的背景颜色 */
+/* Aptamer Squared Table - 统一的行颜色配置 */
+.aptamer-squared-table .row1 td:nth-child(1) { background-color: #FFA07A; }
+.aptamer-squared-table .row1 td:nth-child(2) { background-color: #FFA07A; }
+.aptamer-squared-table .row1 td:nth-child(3) { background-color: #385dbf; }
+.aptamer-squared-table .row1 td:nth-child(4) { background-color: #385dbf; }
+.aptamer-squared-table .row1 td:nth-child(5) { background-color: #385dbf; }
+.aptamer-squared-table .row1 td:nth-child(6) { background-color: #385dbf; }
+.aptamer-squared-table .row1 td:nth-child(7) { background-color: #385dbf; }
+.aptamer-squared-table .row1 td:nth-child(8) { background-color: #385dbf; }
+.aptamer-squared-table .row1 td:nth-child(9) { background-color: #385dbf; }
+
+/* 保持原有的row1样式为向后兼容 */
 .row1 td:nth-child(1) { background-color: #FFA07A; }
 .row1 td:nth-child(2) { background-color: #FFA07A; }
 .row1 td:nth-child(3) { background-color: #385dbf; }
@@ -164,6 +195,16 @@ textarea {
 .row1 td:nth-child(7) { background-color: #385dbf; }
 .row1 td:nth-child(8) { background-color: #385dbf; }
 .row1 td:nth-child(9) { background-color: #385dbf; }
+
+.aptamer-squared-table .row2 td:nth-child(1) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(2) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(3) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(4) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(5) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(6) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(7) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(8) { background-color: #f0a570; }
+.aptamer-squared-table .row2 td:nth-child(9) { background-color: #f0a570; }
 
 /* 表格行2的背景颜色 */
 .row2 td:nth-child(1) { background-color: #385dbf; }
@@ -403,32 +444,214 @@ textarea {
   text-decoration: none !important;
 }
 
-/* 统计面板样式 */
+/* Aptamer Squared Table 面板样式 */
 .stat-panel {
   margin-bottom: 30px;
+  border: 2px solid #520049;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .stat-header {
   cursor: pointer;
-  padding: 10px;
-  background-color: #f2f2f2;
-  border-radius: 5px;
+  padding: 15px;
+  background: linear-gradient(135deg, #520049 0%, #6b1650 100%);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: background 0.3s ease;
+}
+
+.stat-header:hover {
+  background: linear-gradient(135deg, #6b1650 0%, #520049 100%);
 }
 
 .stat-header span {
   font-weight: bold;
-  color: #520049;
+  color: white;
+  font-size: 16px;
 }
 
 #statsContent {
   display: block;
-  padding-top: 15px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-top: 1px solid #e0e0e0;
+}
+
+#statsContent font {
+  font-weight: 600;
+  color: #520049;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: white;
+  border-left: 4px solid #520049;
+  border-radius: 4px;
 }
 
 /* 折叠容器样式 */
 .collapsible-container {
   margin: 20px 0;
+}
+
+/* ===== Aptamer Squared Table - 完整统一样式配置 ===== */
+/* 这是为"Aptamer Squared Table"区域设计的统一样式 */
+
+/* Aptamer Squared Table 色彩变量定义 */
+:root {
+  --apt-color-salmon: #FFA07A;
+  --apt-color-blue: #385dbf;
+  --apt-color-orange: #f0a570;
+  --apt-color-pink: #d75369;
+  --apt-color-dark-blue: #3c58a5;
+  --apt-color-light-blue: #14a0ec;
+  --apt-color-rose: #e97e8d;
+  --apt-color-green: #ade48b;
+  --apt-color-purple: #9841da;
+  --apt-color-lime: #77c670;
+  --apt-color-crimson: #ab233a;
+  --apt-color-teal: #2a5c76;
+  --apt-color-aqua: #6ed9cd;
+  --apt-color-forest: #396120;
+  --apt-color-lavender: #bf97d1;
+}
+
+/* 表格行3-15的背景颜色配置 */
+.aptamer-squared-table .row3 td:nth-child(1) { background-color: #f0a570; }
+.aptamer-squared-table .row3 td:nth-child(2) { background-color: #f0a570; }
+.aptamer-squared-table .row3 td:nth-child(3) { background-color: #f0a570; }
+.aptamer-squared-table .row3 td:nth-child(4) { background-color: #d75369; }
+.aptamer-squared-table .row3 td:nth-child(5) { background-color: #d75369; }
+.aptamer-squared-table .row3 td:nth-child(6) { background-color: #d75369; }
+.aptamer-squared-table .row3 td:nth-child(7) { background-color: #d75369; }
+.aptamer-squared-table .row3 td:nth-child(8) { background-color: #d75369; }
+.aptamer-squared-table .row3 td:nth-child(9) { background-color: #d75369; }
+
+.aptamer-squared-table .row4 td:nth-child(1) { background-color: #d75369; }
+.aptamer-squared-table .row4 td:nth-child(2) { background-color: #d75369; }
+.aptamer-squared-table .row4 td:nth-child(3) { background-color: #d75369; }
+.aptamer-squared-table .row4 td:nth-child(4) { background-color: #d75369; }
+.aptamer-squared-table .row4 td:nth-child(5) { background-color: #3c58a5; }
+.aptamer-squared-table .row4 td:nth-child(6) { background-color: #3c58a5; }
+.aptamer-squared-table .row4 td:nth-child(7) { background-color: #14a0ec; }
+.aptamer-squared-table .row4 td:nth-child(8) { background-color: #14a0ec; }
+.aptamer-squared-table .row4 td:nth-child(9) { background-color: #14a0ec; }
+
+.aptamer-squared-table .row5 td:nth-child(1) { background-color: #14a0ec; }
+.aptamer-squared-table .row5 td:nth-child(2) { background-color: #14a0ec; }
+.aptamer-squared-table .row5 td:nth-child(3) { background-color: #e97e8d; }
+.aptamer-squared-table .row5 td:nth-child(4) { background-color: #e97e8d; }
+.aptamer-squared-table .row5 td:nth-child(5) { background-color: #e97e8d; }
+.aptamer-squared-table .row5 td:nth-child(6) { background-color: #e97e8d; }
+.aptamer-squared-table .row5 td:nth-child(7) { background-color: #ade48b; }
+.aptamer-squared-table .row5 td:nth-child(8) { background-color: #ade48b; }
+.aptamer-squared-table .row5 td:nth-child(9) { background-color: #ade48b; }
+
+.aptamer-squared-table .row6 td:nth-child(1) { background-color: #ade48b; }
+.aptamer-squared-table .row6 td:nth-child(2) { background-color: #9841da; }
+.aptamer-squared-table .row6 td:nth-child(3) { background-color: #77c670; }
+.aptamer-squared-table .row6 td:nth-child(4) { background-color: #d75369; }
+.aptamer-squared-table .row6 td:nth-child(5) { background-color: #d75369; }
+.aptamer-squared-table .row6 td:nth-child(6) { background-color: #d75369; }
+.aptamer-squared-table .row6 td:nth-child(7) { background-color: #d75369; }
+.aptamer-squared-table .row6 td:nth-child(8) { background-color: #d75369; }
+.aptamer-squared-table .row6 td:nth-child(9) { background-color: #d75369; }
+
+.aptamer-squared-table .row7 td:nth-child(1) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(2) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(3) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(4) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(5) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(6) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(7) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(8) { background-color: #d75369; }
+.aptamer-squared-table .row7 td:nth-child(9) { background-color: #d75369; }
+
+.aptamer-squared-table .row8 td:nth-child(1) { background-color: #d75369; }
+.aptamer-squared-table .row8 td:nth-child(2) { background-color: #3c58a5; }
+.aptamer-squared-table .row8 td:nth-child(3) { background-color: #3c58a5; }
+.aptamer-squared-table .row8 td:nth-child(4) { background-color: #3c58a5; }
+.aptamer-squared-table .row8 td:nth-child(5) { background-color: #3c58a5; }
+.aptamer-squared-table .row8 td:nth-child(6) { background-color: #3c58a5; }
+.aptamer-squared-table .row8 td:nth-child(7) { background-color: #14a0ec; }
+.aptamer-squared-table .row8 td:nth-child(8) { background-color: #14a0ec; }
+.aptamer-squared-table .row8 td:nth-child(9) { background-color: #14a0ec; }
+
+.aptamer-squared-table .row9 td:nth-child(1) { background-color: #14a0ec; }
+.aptamer-squared-table .row9 td:nth-child(2) { background-color: #14a0ec; }
+.aptamer-squared-table .row9 td:nth-child(3) { background-color: #14a0ec; }
+.aptamer-squared-table .row9 td:nth-child(4) { background-color: #e97e8d; }
+.aptamer-squared-table .row9 td:nth-child(5) { background-color: #e97e8d; }
+.aptamer-squared-table .row9 td:nth-child(6) { background-color: #e97e8d; }
+.aptamer-squared-table .row9 td:nth-child(7) { background-color: #e97e8d; }
+.aptamer-squared-table .row9 td:nth-child(8) { background-color: #e97e8d; }
+.aptamer-squared-table .row9 td:nth-child(9) { background-color: #e97e8d; }
+
+.aptamer-squared-table .row10 td:nth-child(1) { background-color: #e97e8d; }
+.aptamer-squared-table .row10 td:nth-child(2) { background-color: #e97e8d; }
+.aptamer-squared-table .row10 td:nth-child(3) { background-color: #e97e8d; }
+.aptamer-squared-table .row10 td:nth-child(4) { background-color: #ade48b; }
+.aptamer-squared-table .row10 td:nth-child(5) { background-color: #ade48b; }
+.aptamer-squared-table .row10 td:nth-child(6) { background-color: #ade48b; }
+.aptamer-squared-table .row10 td:nth-child(7) { background-color: #ade48b; }
+.aptamer-squared-table .row10 td:nth-child(8) { background-color: #ade48b; }
+.aptamer-squared-table .row10 td:nth-child(9) { background-color: #ade48b; }
+
+.aptamer-squared-table .row11 td:nth-child(1) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(2) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(3) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(4) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(5) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(6) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(7) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(8) { background-color: #ade48b; }
+.aptamer-squared-table .row11 td:nth-child(9) { background-color: #ade48b; }
+
+.aptamer-squared-table .row12 td:nth-child(1) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(2) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(3) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(4) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(5) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(6) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(7) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(8) { background-color: #ade48b; }
+.aptamer-squared-table .row12 td:nth-child(9) { background-color: #9841da; }
+
+.aptamer-squared-table .row13 td:nth-child(1) { background-color: #9841da; }
+.aptamer-squared-table .row13 td:nth-child(2) { background-color: #9841da; }
+.aptamer-squared-table .row13 td:nth-child(3) { background-color: #ab233a; }
+.aptamer-squared-table .row13 td:nth-child(4) { background-color: #2a5c76; }
+.aptamer-squared-table .row13 td:nth-child(5) { background-color: #2a5c76; }
+.aptamer-squared-table .row13 td:nth-child(6) { background-color: #2a5c76; }
+.aptamer-squared-table .row13 td:nth-child(7) { background-color: #6ed9cd; }
+.aptamer-squared-table .row13 td:nth-child(8) { background-color: #6ed9cd; }
+.aptamer-squared-table .row13 td:nth-child(9) { background-color: #6ed9cd; }
+
+.aptamer-squared-table .row14 td:nth-child(1) { background-color: #396120; }
+.aptamer-squared-table .row14 td:nth-child(2) { background-color: #396120; }
+.aptamer-squared-table .row14 td:nth-child(3) { background-color: #77c670; }
+.aptamer-squared-table .row14 td:nth-child(4) { background-color: #77c670; }
+.aptamer-squared-table .row14 td:nth-child(5) { background-color: #bf97d1; }
+.aptamer-squared-table .row14 td:nth-child(6) { background-color: #bf97d1; }
+.aptamer-squared-table .row14 td:nth-child(7) { background-color: #bf97d1; }
+.aptamer-squared-table .row14 td:nth-child(8) { background-color: #bf97d1; }
+.aptamer-squared-table .row14 td:nth-child(9) { background-color: #bf97d1; }
+
+.aptamer-squared-table .row15 td:nth-child(1) { background-color: #bf97d1; }
+
+/* 统一悬停效果和链接样式 */
+.aptamer-squared-table td:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.aptamer-squared-table a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.aptamer-squared-table a:hover {
+  color: white !important;
+  text-decoration: none !important;
 } 

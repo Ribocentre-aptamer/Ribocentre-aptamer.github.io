@@ -32,6 +32,15 @@ p {
   margin-bottom: 18px;
   text-align: justify;
   text-justify: inter-word;
+  }
+  /* 统一首字母放大加粗 */
+.content-section p::first-letter,
+.post-content    p::first-letter,
+.fluor-body-section p::first-letter{
+  font-weight:700;
+  font-size:1.2em;
+  color:var(--primary-color);
+}
 .purple-list {
   list-style-type: none;
   padding: 0;

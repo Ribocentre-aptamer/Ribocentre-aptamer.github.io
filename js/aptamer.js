@@ -72,11 +72,11 @@ function renderPieChart() {
 function renderTableLists() {
     if (!tableListsData) return;
     
-    // 渲染有3D结构的表格
-    renderTable('with3DStructure', 'table', tableListsData.with3DStructure);
+    // 渲染有3D结构的表格 - 使用统一的Aptamer Squared Table样式
+    renderTable('with3DStructure', 'aptamer-squared-table', tableListsData.with3DStructure);
     
-    // 渲染无3D结构的表格
-    renderTable('without3DStructure', 'table2', tableListsData.without3DStructure);
+    // 渲染无3D结构的表格 - 使用统一的Aptamer Squared Table样式
+    renderTable('without3DStructure', 'aptamer-squared-table', tableListsData.without3DStructure);
 }
 
 // 渲染单个表格

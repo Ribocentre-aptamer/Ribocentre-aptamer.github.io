@@ -29,6 +29,12 @@ permalink: /Ribocentre-aptamer/
     .amir-tooltip {
       z-index: 9999;
     }
+    /* 统一首字母放大加粗（仅限 aptamer 主页面） */
+    body[data-page="aptamer"] p::first-letter{
+      font-weight:700;
+      font-size:1.2em;
+      color:#520049;
+    }
   </style>
 </head>
 
@@ -43,9 +49,8 @@ permalink: /Ribocentre-aptamer/
     </p>
     
     <!-- 统计信息部分 -->
-    <p class="header_box">Statistical information</p>
-    
-    <div class="collapsible-container">
+    <p class="header_box" style="margin-bottom: 0px;padding-bottom: 0px;">Statistical information</p>
+    <div class="collapsible-container" style="margin-top: 0px;">
       <p>
         The aptamer database encompasses both aptamers with known 3D structures and those without. The following table
         lists the ligands of all aptamers in this database. The color coding of the table matches the hues of the pie
@@ -164,14 +169,15 @@ permalink: /Ribocentre-aptamer/
       </div>
       
       <div id="sheet1" class="sheet">
-        <!-- 统计信息折叠面板 -->
+        <!-- Aptamer Squared Table 区域 -->
         <div class="stat-panel">
           <div class="stat-header" onclick="toggleStats()">
-            <span>▶ Aptamer Statistics Panel (click to toggle)</span>
+            <span>▶ Aptamer Squared Table | 配色表格概览 (click to toggle)</span>
             <span id="toggleIcon">-</span>
           </div>
           <div id="statsContent">
-            <!-- 表格内容将通过JavaScript动态生成 -->
+            <!-- Aptamer Squared Table 内容将通过JavaScript动态生成 -->
+            <!-- 这里展示的是有结构和无结构aptamer的统一配色表格 -->
           </div>
         </div>
       </div>
