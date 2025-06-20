@@ -438,8 +438,31 @@ function loadData(){
       // 检查URL参数，如果有id参数则过滤数据
       const urlParams = new URLSearchParams(window.location.search);
       const targetId = urlParams.get('id');
+      const searchQuery = urlParams.get('search');
+      const formatParam = urlParams.get('format');
+      
       if (targetId) {
         data = data.filter(item => item.ID === targetId);
+      }
+      
+      // 如果请求JSON格式，直接返回数据
+      if (formatParam === 'json') {
+        let responseData = data;
+        
+        // 如果有搜索参数，进行搜索过滤
+        if (searchQuery) {
+          responseData = data.filter(item => {
+            return Object.values(item).some(value => 
+              value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
+            );
+          });
+        }
+        
+        // 返回JSON数据
+        document.body.innerHTML = '<pre>' + JSON.stringify(responseData, null, 2) + '</pre>';
+        document.body.style.fontFamily = 'monospace';
+        document.body.style.padding = '20px';
+        return;
       }
       
       tableData=data;
@@ -481,9 +504,23 @@ function loadData(){
           }
         });
         $('#searchBox').on('input',function(){table.search(this.value).draw();});
+        
+        // 如果URL中有search参数，自动执行搜索
+        if (searchQuery) {
+          $('#searchBox').val(searchQuery);
+          if (table && typeof table.search === 'function') {
+            table.search(searchQuery).draw();
+          }
+        }
       } catch (error) {
         console.error('DataTable initialization failed:', error);
         initSimpleTable(rows);
+        
+        // 如果URL中有search参数，自动执行搜索（简单表格模式）
+        if (searchQuery) {
+          $('#searchBox').val(searchQuery);
+          $('#searchBox').trigger('input');
+        }
       }
     })
     .catch(error => {
