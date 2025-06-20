@@ -172,12 +172,12 @@ TableModule.updateDataTable = function() {
         indexCell.textContent = index + 1;
         row.appendChild(indexCell);
 
-        // 2. Aptamer name - 使用Article name字段
+        // 2. Aptamer name - 使用 Named 字段
         const nameCell = document.createElement('td');
-        let nameHTML = item['Article name'] || '';
+        let nameHTML = item['Named'] || '';
         // 如果有链接，创建超链接
         if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
-            nameHTML = `<a href="${item.Linker}" target="_blank">${item['Article name'] || ''}</a>`;
+            nameHTML = `<a href="${item.Linker}" target="_blank">${item['Named'] || ''}</a>`;
         }
         nameCell.innerHTML = nameHTML;
         row.appendChild(nameCell);
@@ -208,18 +208,7 @@ TableModule.updateDataTable = function() {
         categoryCell.textContent = item.Category || '';
         row.appendChild(categoryCell);
 
-        // 6. CAS - 使用CAS字段，限制最多显示前20个字符
-        const casCell = document.createElement('td');
-        const casFullHTML = item['CAS'] || '';
-        // 截取前20个字符作为简短显示
-        const casHTML = casFullHTML.length > 20
-            ? casFullHTML.substring(0, 20) + '...'
-            : casFullHTML;
-        casCell.textContent = casHTML;
-        row.appendChild(casCell);
-        addTooltip(casCell, casFullHTML);
-
-        // 7. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
+        // 6. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
         const affinityCell = document.createElement('td');
         const affinityFull = item.Affinity || '';
         // 截取第一个逗号前的内容
@@ -228,7 +217,7 @@ TableModule.updateDataTable = function() {
         row.appendChild(affinityCell);
         addTooltip(affinityCell, affinityFull);
 
-        // 8. Sequence (5'-3') - 使用Sequence字段
+        // 7. Sequence (5'-3') - 使用Sequence字段
         const seqCell = document.createElement('td');
         const sequence = item.Sequence || '';
         const seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
@@ -236,7 +225,7 @@ TableModule.updateDataTable = function() {
         row.appendChild(seqCell);
         addTooltip(seqCell, colorizeSequence(sequence));
 
-        // 9. Description - 使用Ligand Description字段
+        // 8. Description - 使用Ligand Description字段
         const descCell = document.createElement('td');
         const descFull = item['Ligand Description'] || '';
         const descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;

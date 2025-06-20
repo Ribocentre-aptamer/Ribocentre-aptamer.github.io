@@ -596,7 +596,13 @@
       "title": "In vitro selection of aptamers that act with Zn2+",
       "journal": "Journal of inorganic biochemistry"
     },
-    "posts": []
+    "posts": [
+      {
+        "source_file": "_posts/Clone-31-aptamer.md",
+        "post_title": "Clone 31 aptamer",
+        "post_link": "/_posts/Clone-31-aptamer"
+      }
+    ]
   },
   {
     "pmid": "12737819",

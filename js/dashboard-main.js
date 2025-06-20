@@ -1217,12 +1217,11 @@ const TableModule = {
             const row = document.createElement('tr');
             row.style.whiteSpace = 'nowrap';
 
-            // 1. Aptamer name - 使用Article name字段
-            // 获取aptamer名称，优先使用Article name
-            let nameHTML = item['Article name'] || '';
+            // 1. Aptamer name - 使用 Named 字段
+            let nameHTML = item['Named'] || '';
             // 如果有链接，创建超链接
             if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
-                nameHTML = `<a href="${item.Linker}" target="_blank">${item['Article name'] || ''}</a>`;
+                nameHTML = `<a href="${item.Linker}" target="_blank">${item['Named'] || ''}</a>`;
             }
 
             // 2. Ligand - 使用Ligand字段，限制最多显示2个单词
@@ -1243,25 +1242,18 @@ const TableModule = {
             // 4. Category - 使用Category字段
             const categoryHTML = item.Category || '';
 
-            // 5. CAS - 使用CAS字段，限制最多显示前20个字符
-            const casFullHTML = item['CAS'] || '';
-            // 截取前20个字符作为简短显示
-            const casHTML = casFullHTML.length > 20
-                ? casFullHTML.substring(0, 20) + '...'
-                : casFullHTML;
-
-            // 6. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
+            // 5. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
             const affinityFull = item.Affinity || '';
             // 截取第一个逗号前的内容
             const affinityHTML = affinityFull.split(',')[0].trim();
 
-            // 7. Sequence (5'-3') - 使用Sequence字段
+            // 6. Sequence (5'-3') - 使用Sequence字段
             // 获取序列信息，只显示前10个字符，鼠标悬停时显示完整彩色序列
             const sequence = item.Sequence || '';
             const seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
             const seqFullColored = colorizeSequence(sequence);
 
-            // 8. Description - 使用Ligand Description字段
+            // 7. Description - 使用Ligand Description字段
             // 获取描述信息，截取前20个字符作为简短显示
             const descFull = item['Ligand Description'] || '';
             const descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;
@@ -1273,7 +1265,6 @@ const TableModule = {
                 <td>${ligandShort}</td>
                 <td>${yearHTML}</td>
                 <td>${categoryHTML}</td>
-                <td>${casHTML}</td>
                 <td>${affinityHTML}</td>
                 <td>${seqShort}</td>
                 <td>${descShort}</td>
@@ -1283,10 +1274,9 @@ const TableModule = {
             // 为各字段添加tooltip，鼠标悬停时显示完整内容
             const cells = row.querySelectorAll('td');
             addTooltip(cells[2], ligandFull); // ligand完整内容
-            addTooltip(cells[5], casFullHTML); // CAS完整内容
-            addTooltip(cells[6], affinityFull); // Affinity完整内容
-            addTooltip(cells[7], seqFullColored); // 序列完整彩色内容
-            addTooltip(cells[8], descFull); // 描述完整内容
+            addTooltip(cells[5], affinityFull); // Affinity完整内容
+            addTooltip(cells[6], seqFullColored); // 序列完整彩色内容
+            addTooltip(cells[7], descFull); // 描述完整内容
         });
     }
 };

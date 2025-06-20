@@ -302,6 +302,9 @@
     font-size: 13px;
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
+    margin: 0;
+    border: 0;
 }
 
 .table th {
@@ -320,6 +323,10 @@
     padding: 8px;
     vertical-align: middle;
     border-top: 1px solid #dee2e6;
+    white-space: normal;
+    word-break: break-word;
+    text-align: inherit;
+    vertical-align: middle !important;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -352,7 +359,32 @@
 .table td:nth-child(6),
 .table th:nth-child(6) {
     text-align: center;
-    width: 100px;
+    width: 120px; /* Ligand */
+    width: 120px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+/* 新增：序列与描述列宽度设置 */
+.table td:nth-child(7),
+.table th:nth-child(7) {
+    text-align: center;
+    width: 100px; /* Sequence */
+    width: 100px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.table td:nth-child(8),
+.table th:nth-child(8) {
+    text-align: center;
+    width: 120px; /* Description */
+    width: 120px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 
 /* 提示框样式 - 智能定位版本 */
@@ -584,4 +616,14 @@ body[data-page="aptamer"] .amir-tooltip {
 .data-table-section .table td:nth-child(2) a:hover {
     color: #7a0070 !important;
     text-shadow: 0 1px 2px rgba(82, 0, 73, 0.3);
+}
+
+/* 与首页保持一致的列宽与文本截断 */
+.table td:nth-child(3),  /* Ligand */
+.table th:nth-child(3) {
+    max-width: 120px;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 } 
