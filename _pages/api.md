@@ -6,6 +6,22 @@ permalink: /api/
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchQuery = urlParams.get('search');
+    const idQuery = urlParams.get('id');
+    const categoryQuery = urlParams.get('category');
+    const typeQuery = urlParams.get('type');
+    const limitQuery = parseInt(urlParams.get('limit')) || 0;
+    const offsetQuery = parseInt(urlParams.get('offset')) || 0;
+    
+    // 只有当有查询参数时，才返回JSON数据
+    const hasQueryParams = searchQuery || idQuery || categoryQuery || typeQuery || limitQuery > 0;
+    
+    if (!hasQueryParams) {
+        // 没有查询参数，显示正常的文档页面
+        return;
+    }
+    
     // 设置正确的Content-Type
     if (document.querySelector('meta[http-equiv="Content-Type"]')) {
         document.querySelector('meta[http-equiv="Content-Type"]').setAttribute('content', 'application/json; charset=utf-8');
@@ -15,14 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
         meta.setAttribute('content', 'application/json; charset=utf-8');
         document.head.appendChild(meta);
     }
-
-    const urlParams = new URLSearchParams(window.location.search);
-    const searchQuery = urlParams.get('search');
-    const idQuery = urlParams.get('id');
-    const categoryQuery = urlParams.get('category');
-    const typeQuery = urlParams.get('type');
-    const limitQuery = parseInt(urlParams.get('limit')) || 0;
-    const offsetQuery = parseInt(urlParams.get('offset')) || 0;
 
     // 加载数据并返回JSON
     fetch('{{ site.baseurl }}/apidata/sequences_cleaned.json')
@@ -191,12 +199,73 @@ body {
     padding: 0;
     font-family: monospace;
 }
+
+/* 文档页面样式 */
+.api-docs {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.api-docs h1 {
+    color: #520049;
+    border-bottom: 2px solid #520049;
+    padding-bottom: 10px;
+}
+
+.api-docs h2 {
+    color: #520049;
+    margin-top: 30px;
+}
+
+.api-docs h3 {
+    color: #666;
+}
+
+.api-docs code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Monaco', 'Lucida Console', monospace;
+}
+
+.api-docs pre {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.api-docs table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.api-docs th, .api-docs td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.api-docs th {
+    background-color: #520049;
+    color: white;
+}
 </style>
 
 
 
+<div class="api-docs">
+
+# Ribocentre-Aptamer API Documentation
+
 **Version:** 1.0  
-**Last Updated:** January 1, 2025
+**Last Updated:** June 20, 2025
 
 ## Overview
 
@@ -367,7 +436,52 @@ https://aptamer.ribocentre.org/api/?search=ATP
 ### Filtered Query
 
 Retrieve specific aptamer by ID:
+```
 https://aptamer.ribocentre.org/sequences/?id=ATP_Szostak_1
+```
+
+## CLI-Friendly Usage
+
+### Using curl with enhanced debugging
+
+```bash
+# Search with detailed debugging info
+curl -s "https://aptamer.ribocentre.org/api/?search=123" | jq .
+
+# Check if search has results
+curl -s "https://aptamer.ribocentre.org/api/?search=nonexistent" | jq '.message'
+# Output: "No results found"
+
+# Get statistics about your search
+curl -s "https://aptamer.ribocentre.org/api/?search=ATP" | jq '.statistics'
+# Shows: total_in_database, filters_applied, filtered_results, etc.
+
+# Get suggestions when no results found
+curl -s "https://aptamer.ribocentre.org/api/?search=xyz123" | jq '.suggestions'
+```
+
+### Response Status Check
+
+```bash
+# Check if request was successful
+curl -s "https://aptamer.ribocentre.org/api/?search=ATP" | jq '.success'
+
+# Get human-readable message
+curl -s "https://aptamer.ribocentre.org/api/?search=ATP" | jq '.message'
+
+# Count results
+curl -s "https://aptamer.ribocentre.org/api/?search=ATP" | jq '.statistics.filtered_results'
+```
+
+### Error Handling Examples
+
+```bash
+# Handle no results case
+result=$(curl -s "https://aptamer.ribocentre.org/api/?search=notfound")
+if [[ $(echo "$result" | jq -r '.statistics.filtered_results') -eq 0 ]]; then
+    echo "No aptamers found. Suggestions:"
+    echo "$result" | jq -r '.suggestions[]'
+fi
 ```
 
 ### Integration Example
@@ -566,4 +680,6 @@ We encourage the research community to:
 
 ---
 
-*This API documentation is designed to support the global research community in advancing aptamer science through programmatic data access.* 
+*本API文档旨在通过程序化数据访问支持全球研究社区推进适配体科学发展。*
+
+</div> 

@@ -8,8 +8,8 @@ permalink: /terms/
 
 # Terms of Use
 
-**Effective Date:** January 1, 2025  
-**Last Updated:** January 1, 2025
+**Effective Date:** To be determined (not yet officially released)  
+**Last Updated:** June 1, 2025
 
 ## Agreement to Terms
 
