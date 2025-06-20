@@ -1,0 +1,438 @@
+---
+title: "Page Not Found - RNA Explorer"
+layout: default
+excerpt: "Page not found, but you can explore the mysteries of RNA here!"
+sitemap: false
+permalink: /404.html
+---
+
+<style>
+.game-container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.game-title {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.game-subtitle {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#gameCanvas {
+    border: 3px solid #34495e;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 15px;
+    background: #ecf0f1;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.sequence-display {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 1.1em;
+    margin: 10px 0;
+    min-height: 30px;
+}
+
+.controls {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.nucleotide {
+    display: inline-block;
+    padding: 2px 6px;
+    margin: 0 2px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nucleotide.A { background: #e74c3c; color: white; }
+.nucleotide.U { background: #3498db; color: white; }
+.nucleotide.C { background: #f39c12; color: white; }
+.nucleotide.G { background: #27ae60; color: white; }
+
+.function-sequence {
+    background: #9b59b6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.back-home {
+    margin-top: 30px;
+}
+
+.back-home a {
+    background: #3498db;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.back-home a:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+</style>
+
+<div class="game-container">
+    <h1 class="game-title">🧬 RNA Explorer 🧬</h1>
+    <p class="game-subtitle">The page got lost, but you discovered the mysterious world of RNA! Collect bases and build functional sequences!</p>
+    
+    <div class="game-info">
+        <div>Score: <span id="score">0</span></div>
+        <div>Lives: <span id="lives">3</span></div>
+        <div>Level: <span id="level">1</span></div>
+    </div>
+    
+    <div class="sequence-display">
+        Current Sequence: <span id="currentSequence"></span>
+    </div>
+    
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    
+    <div class="controls">
+        <strong>Game Instructions:</strong><br>
+        ⬅️➡️ Arrow keys to move | ⬆️ Jump | Collect <span class="nucleotide A">A</span><span class="nucleotide U">U</span><span class="nucleotide C">C</span><span class="nucleotide G">G</span> nucleotides<br>
+        <div style="margin-top: 10px;">
+            <span class="function-sequence">AUG</span> Start codon (speed boost) |
+            <span class="function-sequence">UAA/UAG/UGA</span> Stop codon (level complete) |
+            <span class="function-sequence">GC palindrome</span> Teleporter
+        </div>
+    </div>
+    
+    <div class="back-home">
+        <a href="{{ site.url }}{{ site.baseurl }}/">🏠 Back to Home & Continue Exploring</a>
+    </div>
+</div>
+
+<script>
+class RNAGame {
+    constructor() {
+        this.canvas = document.getElementById('gameCanvas');
+        this.ctx = this.canvas.getContext('2d');
+        this.score = 0;
+        this.lives = 3;
+        this.level = 1;
+        this.sequence = [];
+        this.player = { x: 50, y: 300, width: 30, height: 30, velY: 0, jumping: false, speed: 3 };
+        this.nucleotides = [];
+        this.platforms = [];
+        this.keys = {};
+        this.gameSpeed = 1;
+        this.lastNucleotideTime = 0;
+        
+        this.initPlatforms();
+        this.bindEvents();
+        this.gameLoop();
+    }
+    
+    initPlatforms() {
+        this.platforms = [
+            { x: 0, y: 350, width: 800, height: 50 }, // Ground
+            { x: 200, y: 280, width: 100, height: 20 },
+            { x: 400, y: 220, width: 100, height: 20 },
+            { x: 600, y: 160, width: 100, height: 20 }
+        ];
+    }
+    
+    bindEvents() {
+        document.addEventListener('keydown', (e) => {
+            // Prevent default behavior for arrow keys to avoid page scrolling
+            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
+                e.preventDefault();
+            }
+            this.keys[e.code] = true;
+        });
+        
+        document.addEventListener('keyup', (e) => {
+            // Prevent default behavior for arrow keys
+            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
+                e.preventDefault();
+            }
+            this.keys[e.code] = false;
+        });
+    }
+    
+    spawnNucleotide() {
+        const nucleotides = ['A', 'U', 'C', 'G'];
+        const colors = { A: '#e74c3c', U: '#3498db', C: '#f39c12', G: '#27ae60' };
+        const type = nucleotides[Math.floor(Math.random() * nucleotides.length)];
+        
+        this.nucleotides.push({
+            x: this.canvas.width + Math.random() * 200,
+            y: Math.random() * 200 + 50,
+            type: type,
+            color: colors[type],
+            collected: false
+        });
+    }
+    
+    updatePlayer() {
+        // Gravity
+        this.player.velY += 0.8;
+        this.player.y += this.player.velY;
+        
+        // Movement
+        if (this.keys['ArrowLeft'] && this.player.x > 0) {
+            this.player.x -= this.player.speed;
+        }
+        if (this.keys['ArrowRight'] && this.player.x < this.canvas.width - this.player.width) {
+            this.player.x += this.player.speed;
+        }
+        
+        // Jumping
+        if (this.keys['ArrowUp'] && !this.player.jumping) {
+            this.player.velY = -15;
+            this.player.jumping = true;
+        }
+        
+        // Platform collision detection
+        for (let platform of this.platforms) {
+            if (this.player.x < platform.x + platform.width &&
+                this.player.x + this.player.width > platform.x &&
+                this.player.y < platform.y + platform.height &&
+                this.player.y + this.player.height > platform.y) {
+                
+                if (this.player.velY > 0) {
+                    this.player.y = platform.y - this.player.height;
+                    this.player.velY = 0;
+                    this.player.jumping = false;
+                }
+            }
+        }
+        
+        // Boundary detection
+        if (this.player.y > this.canvas.height) {
+            this.resetPlayer();
+        }
+    }
+    
+    updateNucleotides() {
+        for (let i = this.nucleotides.length - 1; i >= 0; i--) {
+            let nucleotide = this.nucleotides[i];
+            nucleotide.x -= 2 * this.gameSpeed;
+            
+            // Collision detection
+            if (!nucleotide.collected &&
+                this.player.x < nucleotide.x + 20 &&
+                this.player.x + this.player.width > nucleotide.x &&
+                this.player.y < nucleotide.y + 20 &&
+                this.player.y + this.player.height > nucleotide.y) {
+                
+                nucleotide.collected = true;
+                this.collectNucleotide(nucleotide.type);
+            }
+            
+            // Remove off-screen nucleotides
+            if (nucleotide.x < -20) {
+                this.nucleotides.splice(i, 1);
+            }
+        }
+    }
+    
+    collectNucleotide(type) {
+        this.sequence.push(type);
+        this.score += 10;
+        this.updateSequenceDisplay();
+        this.checkFunctionalSequences();
+    }
+    
+    checkFunctionalSequences() {
+        const seqStr = this.sequence.join('');
+        
+        // Start codon AUG
+        if (seqStr.includes('AUG')) {
+            this.gameSpeed += 0.5;
+            this.showMessage('Start codon activated! Speed boost!');
+            this.clearSequencePattern('AUG');
+        }
+        
+        // Stop codons
+        if (seqStr.includes('UAA') || seqStr.includes('UAG') || seqStr.includes('UGA')) {
+            this.levelUp();
+            return;
+        }
+        
+        // GC palindrome sequences (simplified)
+        if (seqStr.includes('GCGC') || seqStr.includes('CGCG')) {
+            this.teleportPlayer();
+            this.clearSequencePattern('GCGC') || this.clearSequencePattern('CGCG');
+        }
+        
+        // Keep sequence length reasonable
+        if (this.sequence.length > 12) {
+            this.sequence = this.sequence.slice(-8);
+        }
+    }
+    
+    clearSequencePattern(pattern) {
+        const seqStr = this.sequence.join('');
+        const index = seqStr.indexOf(pattern);
+        if (index !== -1) {
+            this.sequence.splice(index, pattern.length);
+            this.score += 50;
+            return true;
+        }
+        return false;
+    }
+    
+    teleportPlayer() {
+        this.player.x = Math.random() * (this.canvas.width - this.player.width);
+        this.player.y = 100;
+        this.showMessage('Teleport successful!');
+    }
+    
+    levelUp() {
+        this.level++;
+        this.score += 100;
+        this.sequence = [];
+        this.gameSpeed = 1;
+        this.showMessage(`Level ${this.level} reached!`);
+        this.updateSequenceDisplay();
+    }
+    
+    resetPlayer() {
+        this.lives--;
+        this.player = { x: 50, y: 300, width: 30, height: 30, velY: 0, jumping: false, speed: 3 };
+        this.sequence = [];
+        this.updateSequenceDisplay();
+        
+        if (this.lives <= 0) {
+            this.gameOver();
+        }
+    }
+    
+    gameOver() {
+        this.showMessage('Game Over! Your RNA exploration score: ' + this.score);
+        // Reset game
+        setTimeout(() => {
+            this.score = 0;
+            this.lives = 3;
+            this.level = 1;
+            this.sequence = [];
+            this.gameSpeed = 1;
+            this.nucleotides = [];
+            this.updateUI();
+        }, 3000);
+    }
+    
+    showMessage(text) {
+        // Display message on canvas
+        this.ctx.fillStyle = 'rgba(0,0,0,0.8)';
+        this.ctx.fillRect(0, 150, this.canvas.width, 100);
+        this.ctx.fillStyle = 'white';
+        this.ctx.font = '20px Courier New';
+        this.ctx.textAlign = 'center';
+        this.ctx.fillText(text, this.canvas.width/2, 200);
+        this.ctx.textAlign = 'left';
+    }
+    
+    updateSequenceDisplay() {
+        const sequenceHtml = this.sequence.map(n => 
+            `<span class="nucleotide ${n}">${n}</span>`
+        ).join('');
+        document.getElementById('currentSequence').innerHTML = sequenceHtml;
+    }
+    
+    updateUI() {
+        document.getElementById('score').textContent = this.score;
+        document.getElementById('lives').textContent = this.lives;
+        document.getElementById('level').textContent = this.level;
+    }
+    
+    draw() {
+        // Clear canvas
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        
+        // Draw background gradient
+        const gradient = this.ctx.createLinearGradient(0, 0, 0, this.canvas.height);
+        gradient.addColorStop(0, '#667eea');
+        gradient.addColorStop(1, '#764ba2');
+        this.ctx.fillStyle = gradient;
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+        
+        // Draw platforms
+        this.ctx.fillStyle = '#2c3e50';
+        for (let platform of this.platforms) {
+            this.ctx.fillRect(platform.x, platform.y, platform.width, platform.height);
+        }
+        
+        // Draw player
+        this.ctx.fillStyle = '#e74c3c';
+        this.ctx.fillRect(this.player.x, this.player.y, this.player.width, this.player.height);
+        
+        // Draw eyes
+        this.ctx.fillStyle = 'white';
+        this.ctx.fillRect(this.player.x + 5, this.player.y + 5, 6, 6);
+        this.ctx.fillRect(this.player.x + 19, this.player.y + 5, 6, 6);
+        this.ctx.fillStyle = 'black';
+        this.ctx.fillRect(this.player.x + 7, this.player.y + 7, 2, 2);
+        this.ctx.fillRect(this.player.x + 21, this.player.y + 7, 2, 2);
+        
+        // Draw nucleotides
+        for (let nucleotide of this.nucleotides) {
+            if (!nucleotide.collected) {
+                this.ctx.fillStyle = nucleotide.color;
+                this.ctx.fillRect(nucleotide.x, nucleotide.y, 20, 20);
+                this.ctx.fillStyle = 'white';
+                this.ctx.font = '14px Courier New';
+                this.ctx.fillText(nucleotide.type, nucleotide.x + 6, nucleotide.y + 14);
+            }
+        }
+    }
+    
+    gameLoop() {
+        this.updatePlayer();
+        this.updateNucleotides();
+        
+        // Periodically spawn nucleotides
+        if (Date.now() - this.lastNucleotideTime > 1500 / this.gameSpeed) {
+            this.spawnNucleotide();
+            this.lastNucleotideTime = Date.now();
+        }
+        
+        this.draw();
+        this.updateUI();
+        
+        requestAnimationFrame(() => this.gameLoop());
+    }
+}
+
+// Start the game
+window.addEventListener('load', () => {
+    new RNAGame();
+});
+</script>
+
+

@@ -77,7 +77,7 @@ for r in post_refs:
     })
 
 
-(Path('apidata/combineRef.json')).write_text(
+(Path('apidata/combineRef_updated.json')).write_text(
     json.dumps(list(combined.values()), indent=2, ensure_ascii=False),
     encoding='utf-8'
 )

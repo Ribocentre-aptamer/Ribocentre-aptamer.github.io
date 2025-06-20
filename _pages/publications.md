@@ -56,23 +56,109 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
     color: #7a0070 !important;
     text-shadow: 0 1px 2px rgba(82, 0, 73, 0.3);
 }
+
+/* 内容截断和展开功能 */
+.cell-content {
+    position: relative;
+    max-height: 3em;
+    overflow: hidden;
+    line-height: 1.5em;
+    transition: max-height 0.3s ease;
+}
+
+.cell-content.expanded {
+    max-height: none;
+}
+
+.expand-btn {
+    color: #520049;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 6px;
+    border: 1px solid #520049;
+    border-radius: 3px;
+    background: white;
+    margin-top: 4px;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.expand-btn:hover {
+    background: #520049;
+    color: white;
+}
+
+.table-style td {
+    vertical-align: top;
+    max-width: 300px;
+}
 #searchBox{padding:10px;font-size:16px;border:2px solid #ccc;border-radius:4px;width:300px;}
 #searchBox:focus{outline:none;border-color:#efefef;}
-#pagination button{
-  background-color:#f8f9fa;
-  border:1px solid #dee2e6;
-  color:#495057;
-  cursor:pointer;
-  border-radius:4px;
+/* 分页器美化 */
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
-#pagination button:hover{
-  background-color:#e9ecef;
-  border-color:#adb5bd;
+
+#pagination button {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  color: #495057;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pagination button:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+  color: #495057;
+}
+
+#pagination button.current {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+#pagination button.current:hover {
+  background-color: #6b0062;
+  border-color: #6b0062;
+}
+
+#pagination button:disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  cursor: not-allowed;
+  border-color: #dee2e6;
+}
+
+#pagination button:disabled:hover {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-color: #dee2e6;
+}
+
+.pagination-info {
+  color: #6c757d;
+  font-size: 14px;
+  margin-left: 15px;
 }
 </style>
 
 </head>
-<body>
+<body style="padding-top: 0px;">
 <h1 class="post-title">Publications</h1>
 <p>This page lists the reviews and articles about RNA aptamers.</p>
 <div class="form-container" style="margin-bottom:15px;">
@@ -134,39 +220,107 @@ function renderTable() {
   
   pageRows.forEach(row => {
     const tr = document.createElement('tr');
-    row.forEach(cellData => {
+    row.forEach((cellData, index) => {
       const td = document.createElement('td');
-      td.innerHTML = cellData;
+      
+      // Add truncation functionality for longer content cells (author, title, journal, aptamer columns)
+      if (index >= 2 && index <= 5) {
+        const wrappedContent = wrapContentWithExpand(cellData);
+        td.innerHTML = wrappedContent;
+      } else {
+        td.innerHTML = cellData;
+      }
       tr.appendChild(td);
     });
     tbody.appendChild(tr);
   });
 }
 
-function setupPagination() {
-  const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
-  let paginationHtml = '<div id="pagination" style="margin-top: 20px; text-align: center;">';
-  
-  // 上一页按钮
-  if (currentPage > 1) {
-    paginationHtml += `<button onclick="changePage(${currentPage - 1})" style="margin: 0 5px; padding: 5px 10px;">Previous Page</button>`;
+function wrapContentWithExpand(content) {
+  if (!content || content === 'N/A') {
+    return content;
   }
   
-  // 页码按钮
-  for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) {
-    if (i === currentPage) {
-      paginationHtml += `<button style="margin: 0 5px; padding: 5px 10px; background-color: var(--primary-color); color: white;">${i}</button>`;
-    } else {
-      paginationHtml += `<button onclick="changePage(${i})" style="margin: 0 5px; padding: 5px 10px;">${i}</button>`;
+     // Check if content needs truncation (based on text length or multiple br tags)
+  const textContent = content.replace(/<[^>]+>/g, '');
+  const hasManyLines = (content.match(/<br>/gi) || []).length > 1;
+  
+  if (textContent.length < 80 && !hasManyLines) {
+    return content;
+  }
+  
+  const contentId = 'content_' + Math.random().toString(36).substr(2, 9);
+  return `
+    <div class="cell-content" id="${contentId}">
+      ${content}
+    </div>
+    <div class="expand-btn" onclick="toggleContent('${contentId}', this)">
+      Show More
+    </div>
+  `;
+}
+
+function toggleContent(contentId, button) {
+  const content = document.getElementById(contentId);
+  if (content.classList.contains('expanded')) {
+    content.classList.remove('expanded');
+    button.textContent = 'Show More';
+  } else {
+    content.classList.add('expanded');
+    button.textContent = 'Show Less';
+  }
+}
+
+function setupPagination() {
+  const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
+  let paginationHtml = '<div id="pagination">';
+  
+  // First page button
+  if (currentPage > 1) {
+    paginationHtml += `<button onclick="changePage(1)" title="First Page">1</button>`;
+    if (currentPage > 4) {
+      paginationHtml += `<span style="margin: 0 8px; color: #6c757d;">...</span>`;
     }
   }
   
-  // 下一页按钮
-  if (currentPage < totalPages) {
-    paginationHtml += `<button onclick="changePage(${currentPage + 1})" style="margin: 0 5px; padding: 5px 10px;">Next Page</button>`;
+  // Previous page button
+  if (currentPage > 1) {
+    paginationHtml += `<button onclick="changePage(${currentPage - 1})" title="Previous Page">‹</button>`;
+  } else {
+    paginationHtml += `<button disabled title="Previous Page">‹</button>`;
   }
   
-  paginationHtml += `<span style="margin-left: 20px;">Showing ${Math.min((currentPage - 1) * rowsPerPage + 1, filteredRows.length)}-${Math.min(currentPage * rowsPerPage, filteredRows.length)} of ${filteredRows.length} entries</span>`;
+  // Page number buttons around current page
+  const startPage = Math.max(1, Math.min(currentPage - 2, totalPages - 4));
+  const endPage = Math.min(totalPages, Math.max(currentPage + 2, 5));
+  
+  for (let i = startPage; i <= endPage; i++) {
+    if (i === 1 && currentPage <= 4) continue; // Avoid duplicate first page
+    if (i === totalPages && currentPage >= totalPages - 3) continue; // Avoid duplicate last page
+    
+    if (i === currentPage) {
+      paginationHtml += `<button class="current">${i}</button>`;
+    } else {
+      paginationHtml += `<button onclick="changePage(${i})">${i}</button>`;
+    }
+  }
+  
+  // Next page button
+  if (currentPage < totalPages) {
+    paginationHtml += `<button onclick="changePage(${currentPage + 1})" title="Next Page">›</button>`;
+  } else {
+    paginationHtml += `<button disabled title="Next Page">›</button>`;
+  }
+  
+  // Last page button
+  if (currentPage < totalPages) {
+    if (currentPage < totalPages - 3) {
+      paginationHtml += `<span style="margin: 0 8px; color: #6c757d;">...</span>`;
+    }
+    paginationHtml += `<button onclick="changePage(${totalPages})" title="Last Page">${totalPages}</button>`;
+  }
+  
+  paginationHtml += `<span class="pagination-info">Showing ${Math.min((currentPage - 1) * rowsPerPage + 1, filteredRows.length)}-${Math.min(currentPage * rowsPerPage, filteredRows.length)} of ${filteredRows.length} entries</span>`;
   paginationHtml += '</div>';
   
   // 移除旧的分页器
@@ -204,16 +358,16 @@ function buildRows(data){
     return [
       '<input type="checkbox" class="row-select">',
       `<a href="https://pubmed.ncbi.nlm.nih.gov/${d.pmid}/" target="_blank">${d.publication.year}</a>`,
-      d.publication.authors,
-      d.publication.title,
-      d.publication.journal,
+      d.publication.authors || 'N/A',
+      d.publication.title || 'N/A',
+      d.publication.journal || 'N/A',
       aptLinks
     ];
 
   });
 }
 function loadData(){
-  fetch('{{ site.baseurl }}/apidata/combineRef.json')
+  fetch('{{ site.baseurl }}/apidata/combineRef_updated.json')
     .then(r=>r.json())
     .then(json=>{
       tableData=json;
@@ -330,3 +484,4 @@ $(document).ready(function(){
 </script>
 </body>
 </html>
+
