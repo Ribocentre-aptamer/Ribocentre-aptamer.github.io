@@ -507,7 +507,10 @@
     color: #520049 !important;
     text-decoration: none;
   }
-  
+  /* 新增：如果按钮本身没被 hover，则保持白色 */
+  .dropdown.open > .nav-link-1:not(:hover) {
+    color: #ffffff !important;
+  }
   .dropdown:not(.open) > .nav-link-1:not(:hover) {
     color: #ffffff !important;
   }
