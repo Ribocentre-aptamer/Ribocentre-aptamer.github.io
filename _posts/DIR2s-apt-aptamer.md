@@ -375,7 +375,7 @@ Tan, X., Constantin, T. P., Sloane, K. L., Waggoner, A. S., Bruchez, M. P., & Ar
 <a href="https://pubmed.ncbi.nlm.nih.gov/28644615/" target="_blank" style="color:#520049">Journal of the American Chemical Society, 139(26), 9001–9009. (2017)</a>
 <br />
                 
-<a id="ref2"></a><font><strong>[2] Structural basis for activation of fluorogenic dyes by an RNA aptamer lacking a G-quadruplex motif.</strong></font><br />
+<a id="ref2"></a><font><strong>[2] .</strong></font><br />
 Shelke, S. A., Shao, Y., Laski, A., Koirala, D., Weissman, B. P., Fuller, J. R., Tan, X., Constantin, T. P., Waggoner, A. S., Bruchez, M. P., Armitage, B. A., & Piccirilli, J. A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30382099/" target="_blank" style="color:#520049">Nature communications, 9(1), 4542. (2018)</a>
 <br />

@@ -118,6 +118,8 @@
                 // Name 列 - 使用 Name 字段，加上站内链接
                 const nameCell = document.createElement('td');
                 const nameLink = document.createElement('a');
+                const nameFull = item.Name || '';
+                const nameDisplay = nameFull.length > 25 ? nameFull.substring(0, 25) + '...' : nameFull;
                 nameLink.href = item.internal_url || '#';
                 nameLink.style.color = '#520049';
                 nameLink.style.textDecoration = 'none';
@@ -125,7 +127,7 @@
                 nameLink.style.transition = 'all 0.2s ease';
                 nameLink.onmouseover = function() { this.style.color = '#880074'; };
                 nameLink.onmouseout = function() { this.style.color = '#520049'; };
-                nameLink.textContent = item.Name || '';
+                nameLink.textContent = nameDisplay;
                 nameCell.appendChild(nameLink);
                 row.appendChild(nameCell);
 
@@ -148,21 +150,8 @@
                     ndbFull = item.ndb;
                     const ndbDisplayText = ndbFull.length > 15 ? ndbFull.substring(0, 15) + '...' : ndbFull;
                     
-                    if (item.ndbUrl) {
-                        const ndbLink = document.createElement('a');
-                        ndbLink.href = item.ndbUrl;
-                        ndbLink.target = '_blank';
-                        ndbLink.style.color = '#520049';
-                        ndbLink.style.textDecoration = 'none';
-                        ndbLink.style.borderBottom = '1px dashed #520049';
-                        ndbLink.style.transition = 'all 0.2s ease';
-                        ndbLink.onmouseover = function() { this.style.color = '#880074'; };
-                        ndbLink.onmouseout = function() { this.style.color = '#520049'; };
-                        ndbLink.textContent = ndbDisplayText;
-                        ndbCell.appendChild(ndbLink);
-                    } else {
-                        ndbCell.textContent = ndbDisplayText;
-                    }
+                    // 取消NDB列的超链接，直接显示文本
+                    ndbCell.textContent = ndbDisplayText;
                 }
                 row.appendChild(ndbCell);
 
@@ -186,6 +175,9 @@
 
                 // 添加 tooltip
                 addTooltip(ligandCell, ligandFull);
+                if (nameFull.length > 25) {
+                    addTooltip(nameCell, nameFull);
+                }
                 if (ndbFull && ndbFull.length > 15) {
                     addTooltip(ndbCell, ndbFull);
                 }

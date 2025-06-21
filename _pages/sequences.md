@@ -496,7 +496,7 @@ function loadData(){
           document.body.style.margin = '0';
           document.body.style.backgroundColor = '#ffffff';
           return;
-        }
+      }
       
       tableData=data;
       const rows=buildRows(data);
