@@ -203,8 +203,8 @@ textarea {
 .aptamer-squared-table .row2 td:nth-child(5) { background-color: #385dbf; }
 .aptamer-squared-table .row2 td:nth-child(6) { background-color: #385dbf; }
 .aptamer-squared-table .row2 td:nth-child(7) { background-color: #385dbf; }
-.aptamer-squared-table .row2 td:nth-child(8) { background-color: #f0a570; }
-.aptamer-squared-table .row2 td:nth-child(9) { background-color: #f0a570; }
+.aptamer-squared-table .row2 td:nth-child(8) { background-color: #385dbf; }
+.aptamer-squared-table .row2 td:nth-child(9) { background-color: #385dbf; }
 
 /* 表格行2的背景颜色 */
 .row2 td:nth-child(1) { background-color: #385dbf; }
@@ -214,8 +214,8 @@ textarea {
 .row2 td:nth-child(5) { background-color: #385dbf; }
 .row2 td:nth-child(6) { background-color: #385dbf; }
 .row2 td:nth-child(7) { background-color: #385dbf; }
-.row2 td:nth-child(8) { background-color: #f0a570; }
-.row2 td:nth-child(9) { background-color: #f0a570; }
+.row2 td:nth-child(8) { background-color: #385dbf; }
+.row2 td:nth-child(9) { background-color: #385dbf; }
 
 /* 表格行3的背景颜色 */
 .row3 td:nth-child(1) { background-color: #f0a570; }
@@ -654,4 +654,12 @@ textarea {
 .aptamer-squared-table a:hover {
   color: white !important;
   text-decoration: none !important;
+}
+
+/* 强制表格内上标、下标字体为白色 */
+.aptamer-squared-table sup,
+.aptamer-squared-table sub,
+.table2 sup,
+.table2 sub {
+  color: #ffffff !important;
 } 

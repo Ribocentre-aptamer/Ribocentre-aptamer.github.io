@@ -373,8 +373,8 @@ class ApplicationTableManager {
                 return '';
                 
             case 'Sequence':
-                if (value && value.length > 20) {
-                    const shortValue = value.substring(0, 20) + '...';
+                if (value && value.length > 10) {
+                    const shortValue = value.substring(0, 10) + '...';
                     return `<span class="truncated-text" data-full-text="${this.escapeHtml(value)}" data-is-sequence="true">${shortValue}</span>`;
                 }
                 return value || '';
@@ -387,8 +387,8 @@ class ApplicationTableManager {
                 
             default:
                 // 处理长文本
-                if (typeof value === 'string' && value.length > 30) {
-                    const shortValue = value.substring(0, 30) + '...';
+                if (typeof value === 'string' && value.length > 10) {
+                    const shortValue = value.substring(0, 10) + '...';
                     return `<span class="truncated-text" data-full-text="${this.escapeHtml(value)}">${shortValue}</span>`;
                 }
                 return value || '';

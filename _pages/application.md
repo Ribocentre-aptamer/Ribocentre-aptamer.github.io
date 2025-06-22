@@ -99,6 +99,16 @@ p {
   padding-bottom: 10px;
   border-bottom: 2px solid var(--primary-color);
 }
+
+/* 一级标题样式 */
+.post-title {
+  color: var(--primary-color);
+  font-size: 32px;
+  margin: 40px 0 25px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--primary-color);
+  font-weight: 700;
+}
 .blowheader_box {
   background: linear-gradient(135deg, var(--primary-color), rgba(82,0,73,0.8));
   color: white;
@@ -132,6 +142,15 @@ div.content-section a[id^="ref"]:nth-of-type(odd) {
 div.content-section a[id^="ref"] {
   display: block !important;
   margin-top: 15px !important;
+}
+
+/* ===== 表格边框覆盖，去除黑色细线 ===== */
+.table,
+table,
+.table-bordered,
+table.dataTable,
+.table2 {
+  border: none !important;
 }
 </style>
 <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
@@ -172,6 +191,7 @@ div.content-section a[id^="ref"] {
 </style>
 </head>
 <body>
+<div class="content-section">
 <h1 class="post-title" itemprop="name headline">Applications</h1>
 <p>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -179,7 +199,6 @@ div.content-section a[id^="ref"] {
 <br>
 <p>RNA aptamers offer several advantages over traditional antibodies and other molecular recognition elements<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>:</p>
 
-<div class="content-section">
 <ul class="purple-list">
     <li><b>Versatility</b> &nbsp;&nbsp;&nbsp; Aptamers can be engineered to target a wide range of molecules, including proteins, small molecules, ions, and even whole cells.</li>
     <li><b>High Affinity and Specificity</b> &nbsp;&nbsp;&nbsp; They can exhibit binding affinities and specificities comparable to monoclonal antibodies.</li>
@@ -189,16 +208,11 @@ div.content-section a[id^="ref"] {
     <li><b>Ease of Modification</b> &nbsp;&nbsp;&nbsp; RNA aptamers can be chemically modified to improve their properties, such as stability, solubility, and resistance to nucleases.</li>
     <li><b>Multivalency</b> &nbsp;&nbsp;&nbsp; They can be designed to bind multiple targets or to carry multiple functionalities, such as drug delivery or imaging agents.</li>
 </ul>
-<br>
-<br>
 </div>
 
 
-
-
-
 <div class="content-section">
-<h2 class="section-title" id="Diagnosis-detection">Diagnosis and detection</h2>
+<h2 class="section-title" id="Diagnosis-detection" style="margin-top: 0px;">Diagnosis and detection</h2>
 <p>In the diagnostic arena, RNA aptamers have been employed as molecular probes for the detection of various biomarkers. Their high affinity and specificity for target molecules allow for the development of sensitive and selective assays. For example, aptamers have been used to detect cancer biomarkers in blood samples, enabling early diagnosis and treatment of malignancies. Additionally, aptamers have been utilized in the development of biosensors for the detection of pathogens, toxins, and other harmful substances, providing a rapid and reliable means of monitoring environmental and food safety. In addition, they can detect and image various biomolecules or cellular processes, enhancing the sensitivity and specificity of diagnostic assays<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <div class="blowheader_box">Diagnosis of infectious diseases and pathogens</div>      
 <p>In the evolving field of diagnostics for infectious diseases, RNA aptamers have emerged as a powerful tool for the detection of parasites, bacteria, prion protein, and viruses. In the context of viral detection, RNA aptamers have been developed to target conserved regions of viral genomes. These aptamers can be used in diagnostic assays such as reverse transcription-polymerase chain reaction (RT-PCR) or isothermal amplification techniques, enhancing the sensitivity and specificity of viral detection. The ability to rapidly detect viral infections, especially those caused by emerging or re-emerging viruses, is crucial for effective disease control and management. Another important application is in infectious disease diagnostics. RNA aptamers can be designed to recognize viral proteins, enabling the rapid and precise detection of viral pathogens such as HIV, hepatitis C virus (HCV), and influenza. These aptamer-based diagnostic tools can be particularly valuable in resource-limited settings where quick and accurate detection is crucial for disease management and control<sup>[<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
@@ -233,9 +247,6 @@ div.content-section a[id^="ref"] {
 <div id="section3-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
 
         
 </div>
@@ -259,9 +270,7 @@ div.content-section a[id^="ref"] {
 <div id="section5-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
+
 
 
 </div>
@@ -274,10 +283,6 @@ div.content-section a[id^="ref"] {
 <div id="section6-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
-
 
 
 </div>
@@ -291,9 +296,7 @@ div.content-section a[id^="ref"] {
 <div id="section7-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
+
 
 
 </div>
@@ -420,155 +423,9 @@ Spöring, M., Finke, M., & Hartig, J. S.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/31811992/" target="_blank" style="color:#520049">Current opinion in biotechnology, 63, 34–40. (2020)</a>
 <br/>
 
-                    
-  
-</div>
-<script>
-var tables = [];
-    var currentSheet = 'sheet1';
-     $(document).ready(function() {
-    $.noConflict();
-    tables.push($('#reviewtable').DataTable({
-      dom: 'Bfrtip',
-      buttons: [
-        'copy', 'csv', 'excel', 'pdf', 'print'
-      ]
-    }));
 
-    tables.push($('#researchtable').DataTable({
-      dom: 'Bfrtip',
-      buttons: [
-        'copy', 'csv', 'excel', 'pdf', 'print'
-      ]
-    }));
 
-    tables.push($('#rnapretable').DataTable({
-      dom: 'Bfrtip',
-      buttons: [
-        'copy', 'csv', 'excel', 'pdf', 'print'
-      ]
-    }));
-    // Hide the search box for DataTables
-      $('#reviewtable_filter').css('display', 'none');
-      $('#researchtable_filter').css('display', 'none');
-      $('#rnapretable_filter').css('display', 'none');
-       
 
-      // Show the initial sheet (sheet1) and hide others
-    showSheet('sheet1');
-    hideAllSheetsExcept('sheet1');
-  });
-
-  function sortTable(columnIndex) {
-    // TODO: Add sorting logic based on the columnIndex
-  }
-
-  
-
-function downloadExcel() {
-  var selectElement = document.getElementById('downloadOptions');
-  var selectedValue = selectElement.value;
-
-  // Check if a valid option was selected
-  if (selectedValue !== '') {
-    // Create a temporary link element with the download URL
-    var link = document.createElement('a');
-    link.href = selectedValue;
-    link.download = selectedValue.split('/').pop(); // Set the filename to the last part of the URL
-    document.body.appendChild(link);
-
-    // Trigger a click event on the link to start the download
-    link.click();
-
-    // Remove the link from the DOM
-    document.body.removeChild(link);
-  }
-}
-  
-  
-  function showSheet(sheetId) {
-// add .button.clicked  style in the begining style
-    // Hide the current sheet
-    if (currentSheet) {
-        var currentSheetElement = document.getElementById(currentSheet);
-        currentSheetElement.style.display = 'none';
-    }
-
-    // Show the selected sheet
-    var sheet = document.getElementById(sheetId);
-    sheet.style.display = 'block';
-
-    // Update the current sheet
-    currentSheet = sheetId;
-
-    // Get all buttons
-    var buttons = document.querySelectorAll('.button');
-
-    // Remove clicked class from all buttons
-    buttons.forEach(function(btn) {
-        btn.classList.remove('clicked');
-    });
-
-    // Add clicked class to the clicked button using event.target
-    event.target.classList.add('clicked');
-}
-
-  function hideAllSheetsExcept(sheetId) {
-    var sheets = document.getElementsByClassName('sheet');
-    for (var i = 0; i < sheets.length; i++) {
-      var sheet = sheets[i];
-      if (sheet.id !== sheetId) {
-        sheet.style.display = 'none';
-      }
-    }
-    }
-
-    function showAllSheets() {
-      var sheets = document.getElementsByClassName('sheet');
-      for (var i = 0; i < sheets.length; i++) {
-        sheets[i].style.display = 'block';
-      }
-    }
-
-    function searchTables() {
-      var keyword = $('#searchBox').val().toLowerCase();
-
-      tables.forEach(function(table) {
-        table.search(keyword).draw();
-      });
-      // Filter the sheets based on search results
-    filterSheets();
-  }
-
-  function filterSheets() {
-    var keyword = $('#searchBox').val().toLowerCase();
-    var sheets = document.getElementsByClassName('sheet');
-
-    for (var i = 0; i < sheets.length; i++) {
-      var sheet = sheets[i];
-      var table = tables[i];
-
-      var displaySheet = false;
-
-      table.rows().eq(0).each(function(index) {
-        var row = table.row(index);
-        var rowData = row.data().join(' ').toLowerCase();
-        var display = rowData.includes(keyword) ? '' : 'none';
-        row.nodes().to$().css('display', display);
-
-        if (display !== 'none') {
-          displaySheet = true;
-        }
-      });
-
-      if (displaySheet) {
-        $('#' + sheet.id).show();
-      } else {
-        $('#' + sheet.id).hide();
-      }
-    }
-  }  
-</script>
 
 </body>
 </html>
