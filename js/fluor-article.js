@@ -189,7 +189,7 @@
         // 创建带箭头的标题
         const blowheader = document.createElement('div');
         blowheader.className = 'blowheader_box';
-        blowheader.innerHTML = `▶ ${heading.textContent}`;
+        blowheader.innerHTML = `${heading.textContent}`;
         blowheader.style.background = 'linear-gradient(135deg, #520049, rgba(82, 0, 73, 0.8))';
         blowheader.style.color = 'white';
         blowheader.style.padding = '12px 20px';

@@ -47,24 +47,31 @@ p {
   margin: 0;
 }
 .purple-list li {
-  background-color: #efefef;
-  margin-bottom: 10px;
-  border-radius: 1px;
-  padding: 15px;
+  background-color: #fafafa;
+  color: var(--text-color);
+  background-clip: text;
+  -webkit-background-clip: text; /* 兼容 WebKit */
+  animation: moveGradient 8s ease infinite;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  padding: 12px 15px 12px 18px;
   position: relative;
+  border-left: 6px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 .purple-list li::before {
   content: "";
-  position: absolute;
-  width: 10px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #996699;
-  border-radius: 1px 0 0 1px;
+  display: none; /* 用左侧彩色边替代原有色块 */
 }
 .purple-list li b {
-  color: #996699;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveGradient 8s ease infinite;
 }
 .purple-list li p {
   color: #333;
@@ -151,6 +158,36 @@ table,
 table.dataTable,
 .table2 {
   border: none !important;
+}
+
+/* ===== Purple list dynamic gradient ===== */
+@keyframes moveGradient {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.purple-list li {
+  background-color: #fafafa;
+  color: var(--text-color);
+  background-clip: text;
+  -webkit-background-clip: text; /* 兼容 WebKit */
+  animation: moveGradient 8s ease infinite;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  padding: 12px 15px 12px 18px;
+  position: relative;
+  border-left: 6px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.purple-list li b {
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveGradient 8s ease infinite;
 }
 </style>
 <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">

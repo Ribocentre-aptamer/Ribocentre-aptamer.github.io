@@ -60,7 +60,7 @@
 } */
 
 .blowheader_box::after {
-  content: '';
+  /* content: ''; */
   position: absolute;
   bottom: -8px;
   left: 20px;
