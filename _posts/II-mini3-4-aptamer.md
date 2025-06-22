@@ -186,8 +186,7 @@ tags:
 
 <p class="header_box" id="references">References</p>
 
-<a id="ref1"></a>
-<p><strong>[1] Transcription monitoring using fused RNA with a dye-binding light-up aptamer as a tag: a blue fluorescent RNA..</strong></p><br />
+<a id="ref1"></a><font><strong>[1] Transcription monitoring using fused RNA with a dye-binding light-up aptamer as a tag: a blue fluorescent RNA..</strong></font><br />
 Sando, S., Narita, A., Hayami, M., & Aoyama, Y.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/18726014/" target="_blank">Chemical communications, (33), 3858–3860. (2008)</a>
 <br />
