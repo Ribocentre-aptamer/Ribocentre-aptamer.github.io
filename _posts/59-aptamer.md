@@ -96,7 +96,7 @@ type: Proteins
 
 
 
-<p><p class="header_box" id="description">Description</p>
+<p class="header_box" id="description">Description</p>
 <font >In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high affinity for the HIV-1 Rev protein. It can competitively bind Rev protein with RRE, thereby preventing RRE from interacting with Rev protein. Refer to the RBA-14 aptamer page for specific aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 

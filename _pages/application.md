@@ -111,7 +111,6 @@ p {
   box-shadow: 0 4px 15px rgba(82,0,73,0.2);
 }
 .blowheader_box::before {
-  content: '▶';
   margin-right: 10px;
   font-size: 0.9em;
 }
