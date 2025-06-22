@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: TMR aptamer
+title:  TMR aptamer
 date: 2024-04-23 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
