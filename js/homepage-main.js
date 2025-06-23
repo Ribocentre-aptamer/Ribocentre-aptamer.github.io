@@ -572,7 +572,8 @@ const MolstarModule = {
                     const options = {
                         customData: {
                             url: data.molstarUrl,
-                            format: 'pdb'
+                            format: 'cif',
+                            binary: true,
                         },
                         moleculeId: data.pdbId || 'structure',
                         expanded: false,

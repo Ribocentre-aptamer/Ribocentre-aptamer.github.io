@@ -15,6 +15,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# 压缩文件和构建输出
+js/dist/
+css/dist/
+*.min.js
+*.min.css
+
 # IDE 和编辑器文件
 .idea/
 .vscode/
