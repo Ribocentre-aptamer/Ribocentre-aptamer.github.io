@@ -54,9 +54,9 @@ type: Proteins
 <p class="blowheader_box">2D representation</p>
 <p>C13.18 and C13.28 are truncated sequences of the aptamer C13, which was originally enriched and isolated for its high affinity. The orange represents the bases that interact with the protein, while the grey indicates parts of the 3D structure that remain unresolved. Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>C13.18 aptamer: </p>
-<p>5'-GGCAGACCAUACGGGAGAGAAACUUGCC-3'<br></p>
-<p>C13.28 aptamer: </p>
 <p>5'-CCAUACGGGAGAGAAACU-3'</p>
+<p>C13.28 aptamer: </p>
+<p>5'-GGCAGACCAUACGGGAGAGAAACUUGCC-3'<br></p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/GRK2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >

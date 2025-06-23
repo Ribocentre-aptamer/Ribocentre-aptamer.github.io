@@ -268,7 +268,7 @@ type: Small molecules
 	  </tbody>
   </table-->
   <div style="display: flex; justify-content: center;"></div>
-  <img src="/images/SELEX_ligand/biotin_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
+  <img src="/images/SELEX_ligand/biotin_aptamer_SELEX_ligand-01.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
   <br>
 
 

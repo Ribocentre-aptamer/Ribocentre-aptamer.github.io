@@ -94,9 +94,17 @@ type: Proteins
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
     </head>
@@ -121,11 +129,13 @@ type: Proteins
   start_residue_number:7, 
   end_residue_number:7, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
   struct_asym_id: 'C', 
   start_residue_number:5, 
   end_residue_number:6, 
   color:{r:133,g:39,b:181}
+},
 {
   struct_asym_id: 'C', 
   start_residue_number:9, 
