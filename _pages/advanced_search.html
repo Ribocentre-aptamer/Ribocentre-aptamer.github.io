@@ -148,14 +148,15 @@ permalink: /advanced-search/
 <!-- Apple风格Bento UI核心样式 -->
 <style>
 .bento-search-page {
-    min-height: 100vh;
+    min-height: calc(100vh - 200px);
     background: linear-gradient(135deg, #f8fafc 0%, #e9e9f3 100%);
-    padding: 0;
+    padding: 20px 0;
+    margin-top: 20px;
     font-family: 'SF Pro Display', 'Segoe UI', Arial, sans-serif;
 }
 .bento-header {
     text-align: center;
-    padding: 60px 20px 30px 20px;
+    padding: 40px 20px 30px 20px;
 }
 .bento-title {
     font-size: 2.8rem;
@@ -344,7 +345,7 @@ permalink: /advanced-search/
     display: flex;
     flex-direction: column;
     gap: 18px;
-    z-index: 100;
+    z-index: 50;
 }
 .bento-fab {
     width: 54px;
@@ -404,5 +405,17 @@ permalink: /advanced-search/
         justify-content: center;
         gap: 12px;
     }
+}
+
+/* 默认：两张卡片都与普通内容同层级 */
+.search-card,
+.filter-card{
+    z-index:1 !important;          /* 不再是 –1，也不会压住 header 结果 */
+}
+
+/* 获得焦点或 sticky 时：把 search-card 抬高 */
+.search-card.focused,
+.search-card.sticky{
+    z-index:1100 !important;       /* 高于 header 1020，始终在最上方 */
 }
 </style> 

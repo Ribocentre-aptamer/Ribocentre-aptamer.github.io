@@ -98,9 +98,21 @@ class AdvancedSearchModule {
                     // Extract common filter fields from tags
                     item.target_type = tagMap['Type'] || '';
                     item.sequence_length = tagMap['Length'] ? parseInt(tagMap['Length']) : undefined;
+                    
+                    // 为页面类型数据创建 basicTags，排除数字类标签避免搜索干扰
+                    const originalTags = item.tags;
+                    if (typeof originalTags === 'string') {
+                        const tagList = originalTags.split(/[\n,]+/).map(tag => tag.trim()).filter(Boolean);
+                        const basicTagList = tagList.filter(tag => {
+                            return !tag.match(/^(Length|GC|Year):/i);
+                        });
+                        item.tags = basicTagList.join(', ');
+                        item.meta_tags = originalTags;
+                    }
                     // GC content handling (could be multiple values)
-                    if (item.tags) {
-                        const gcMatches = item.tags.match(/GC\s*:\s*([\d\.]+)/gi);
+                    if (item.meta_tags || originalTags) {
+                        const tagsToSearch = item.meta_tags || originalTags;
+                        const gcMatches = tagsToSearch.match(/GC\s*:\s*([\d\.]+)/gi);
                         if (gcMatches && gcMatches.length) {
                             const gcValues = gcMatches.map(m => parseFloat(m.split(':')[1])).filter(v => !isNaN(v));
                             if (gcValues.length) {
@@ -113,8 +125,9 @@ class AdvancedSearchModule {
                         }
                     }
                     // Length handling (could be multiple values)
-                    if (item.tags) {
-                        const lenMatches = item.tags.match(/Length\s*:\s*(\d+)/gi);
+                    if (item.meta_tags || originalTags) {
+                        const tagsToSearch = item.meta_tags || originalTags;
+                        const lenMatches = tagsToSearch.match(/Length\s*:\s*(\d+)/gi);
                         if (lenMatches && lenMatches.length) {
                             const lenValues = lenMatches.map(m => parseInt(m.split(':')[1])).filter(v => !isNaN(v));
                             if (lenValues.length) {
@@ -129,7 +142,7 @@ class AdvancedSearchModule {
                     item.category_value = tagMap['Category'] || '';
 
                     // 记录页面是否包含多个 aptamer (根据 Named: 标签计数)
-                    const namedMatches = item.tags.match(/Named\s*:/gi);
+                    const namedMatches = (item.meta_tags || originalTags).match(/Named\s*:/gi);
                     if (namedMatches && namedMatches.length) {
                         item.aptamer_count = namedMatches.length;
                     }
@@ -157,7 +170,9 @@ class AdvancedSearchModule {
                             }
                             
                             // Parse tags field, extract structured data
-                            if (record.tags) {
+                            if (record.meta_tags) {
+                                record.structured_tags = this.parseTagsToMap(record.meta_tags);
+                            } else if (record.tags) {
                                 record.structured_tags = this.parseTagsToMap(record.tags);
                             }
                             

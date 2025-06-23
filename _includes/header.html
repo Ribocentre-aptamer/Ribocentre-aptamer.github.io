@@ -44,7 +44,7 @@
 </div>
 
 <!-- 首页搜索区域 -->
-{% unless page.url == '/advanced-search/' or page.permalink == '/advanced-search/' %}
+<!-- 原本设计高级搜索界面没有header，现在放出来。 -->
 <div class="full-width-image">
   <div class="search-box">
     <div class="search">
@@ -81,7 +81,6 @@
     </div>
   </div>
 </div>
-{% endunless %}
 
 <!-- 内部导航栏 (Aptamer) -->
 <div class="navbar navbar-expand-lg navbar-dark bg-primary" style='border-radius: 0; border: 0;' role="navigation">
@@ -257,7 +256,7 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
     z-index: 1020; /* 确保高于导航菜单 */
     margin-top: 5px;
-    max-height: 400px;
+    max-height: 80vh;
     overflow-y: auto;
   }
 
@@ -736,7 +735,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // 如果所有路径都失败
-        resultsContainer.innerHTML = '<div class="no-results-message">无法加载搜索数据，请尝试独立搜索页面</div>';
+        resultsContainer.innerHTML = '<div class="no-results-message">Unable to load search data, please try the standalone search page</div>';
       },
 
       processSearchResults(data, query) {

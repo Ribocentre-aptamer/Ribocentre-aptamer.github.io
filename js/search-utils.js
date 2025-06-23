@@ -14,16 +14,25 @@ const SearchUtils = {
     throw new Error('All search data paths failed');
   },
 
-  processResults(data, query) {
-    const queryLower = query.toLowerCase();
-    const terms = queryLower.split(/\s+/).filter(t => t.length > 0);
-    const results = [];
-    data.forEach(item => {
-      const titleLower = (item.title || '').toLowerCase();
-      const categoryLower = (item.category || '').toLowerCase();
-      const tagsLower = (item.tags || '').toLowerCase();
-      const contentLower = (item.content || '').toLowerCase();
-      let matched = false;
+    /* === 新增：统一的数值标签清洗函数 === */
+    sanitizeMeta(str = '') {
+      return String(str)
+        .replace(/Length\s*:\s*\d+/gi, '')
+        .replace(/GC\s*:\s*[\d.]+/gi, '')
+        .replace(/Year\s*:\s*\d+/gi, '')
+        .replace(/Kd\s*:\s*[~<>]?\s*[\d.]+\s*[pnuµμumM]+/gi, '')
+        .replace(/\s*,\s*,*/g, ' ')
+        .trim();
+    },
+    processResults(data, query) {
+      const queryLower = query.toLowerCase();
+      const terms = queryLower.split(/\s+/).filter(t => t.length > 0);
+      const results = [];
+      data.forEach(item => {
+        const titleLower    = (item.title    || '').toLowerCase();
+        const categoryLower = (item.category || '').toLowerCase();
+        const tagsLower     = this.sanitizeMeta(item.tags).toLowerCase();
+        const contentLower  = this.sanitizeMeta(item.content).toLowerCase();      let matched = false;
       if (titleLower.includes(queryLower) ||
           categoryLower.includes(queryLower) ||
           tagsLower.includes(queryLower) ||
@@ -51,12 +60,14 @@ const SearchUtils = {
 
   calculateRelevanceScore(item, query) {
     let score = 0;
-    const terms = query.toLowerCase().split(/\s+/).filter(t => t.length > 0);
+    const terms     = query.toLowerCase().split(/\s+/).filter(Boolean);
     const fullQuery = query.toLowerCase();
-    const title = (item.title || '').toLowerCase();
+
+    const title    = (item.title    || '').toLowerCase();
     const category = (item.category || '').toLowerCase();
-    const tags = (item.tags || '').toLowerCase();
-    const content = (item.content || '').toLowerCase();
+    const tags     = this.sanitizeMeta(item.tags).toLowerCase();
+    const content  = this.sanitizeMeta(item.content).toLowerCase();
+    // const content = (item.content || '').toLowerCase();
     if (title.includes(fullQuery)) score += 200;
     if (content.includes(fullQuery)) score += 100;
     if (category.includes(fullQuery)) score += 80;
@@ -136,10 +147,16 @@ const SearchUtils = {
       yr ? `Year:${yr}` : ''
     ].filter(Boolean).join(', ');
 
+    const basicTags = [
+      // r.Type ? `Type:${r.Type}` : '',
+      // r.Category ? `Category:${r.Category}` : ''
+    ].filter(Boolean).join(', ');
+
     return {
       title  : r.Named || r.ID || 'Unnamed Sequence',
       category: `sequence${r.Type ? ' - ' + r.Type : ''}`,
-      tags   : standardTags,
+      tags   : basicTags,
+      meta_tags: standardTags,  // 完整标签，供高级搜索使用
       url    : r.Linker && r.Linker.trim() && r.Linker !== 'null'
                  ? r.Linker
                  : `/sequences/?id=${encodeURIComponent(r.ID)}`,
@@ -191,4 +208,5 @@ const SearchUtils = {
     if (!result.length) throw new Error('All search data paths failed');
     return result;
   };
+
 })();
