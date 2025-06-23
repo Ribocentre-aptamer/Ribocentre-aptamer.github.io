@@ -339,7 +339,7 @@ type: Small molecules
   end_residue_number:65, 
   color:{r:184,g:51,b:50}
 },{
-  struct_asym_id: 'C', 
+  struct_asym_id: 'B', 
   start_residue_number:601, 
   end_residue_number:601, 
   color:{r:255,g:0,b:255}
@@ -358,8 +358,7 @@ type: Small molecules
         customData:{
         url:'/pdbfiles/3EGZ.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

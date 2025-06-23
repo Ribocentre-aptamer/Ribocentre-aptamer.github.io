@@ -117,74 +117,74 @@ type: Proteins
             <button onclick="
               var selectSections1 = [
 {
-  struct_asym_id: 'C',  
+  struct_asym_id: 'F',  
   start_residue_number:1, 
   end_residue_number:129, 
   color:{r:133,g:39,b:181}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E',  
   start_residue_number:9, 
   end_residue_number:15, 
   color:{r:184,g:51,b:50}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E', 
   start_residue_number:45, 
   end_residue_number:50, 
   color:{r:184,g:51,b:50}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E',
   start_residue_number:16, 
   end_residue_number:22, 
   color:{r:194,g:182,b:23}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E', 
   start_residue_number:23, 
   end_residue_number:26, 
   color:{r:8,g:69,b:149}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E', 
   start_residue_number:41, 
   end_residue_number:44, 
   color:{r:8,g:69,b:149}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E', 
   start_residue_number:27, 
   end_residue_number:29, 
   color:{r:46,g:161,b:3}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E',  
   start_residue_number:31, 
   end_residue_number:34, 
   color:{r:46,g:161,b:3}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E', 
   start_residue_number:37, 
   end_residue_number:40, 
   color:{r:46,g:161,b:3}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E',  
   start_residue_number:30, 
   end_residue_number:30, 
   color:{r:241,g:125,b:7}
 }, 
 {
-  struct_asym_id: 'D',  
+  struct_asym_id: 'E',
   start_residue_number:35, 
   end_residue_number:36, 
   color:{r:241,g:125,b:7}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+          <button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection1">
     <!-- Molstar container -->
@@ -196,8 +196,7 @@ type: Proteins
         customData:{
         url:'/pdbfiles/4M6D-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -223,6 +222,8 @@ type: Proteins
   <img src="/images/3D/Lys1.2minE_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+
+<!-- Molstar 容器 1-->
   <html lang="en">
     <head>
       <meta charset="utf-8" />
@@ -339,7 +340,7 @@ type: Proteins
 }
               ]
             viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
+          <button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection2">
     <!-- Molstar container -->
@@ -351,8 +352,7 @@ type: Proteins
         customData:{
         url:'/pdbfiles/4M4O-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer2 = document.getElementById('myViewer2');
@@ -468,10 +468,14 @@ type: Proteins
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
-<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/lysozyme_stru_ligand.svg" alt="drawing" style="width:800px"  px="" /></td>
-</tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
+  <tr>
+    <td style="text-align:center;padding:0;">
+      <img src="/images/Structure_ligand/lysozyme_stru_ligand.svg" alt="Lysozyme structure ligand" style="width:800px" class="img-responsive">
+    </td>
+  </tr>
 </table>
+
 <div style="display: flex; justify-content: center;"></div>
 
 
@@ -495,8 +499,8 @@ type: Proteins
     <tbody>
       <tr>
         <td name="td1">4WM6-A</td>
-        <td name="td2">0</td>
-        <td name="td3">1</td>
+        <td name="td2">26</td>
+        <td name="td3">0</td>
         <td name="td4">Hen Egg White Lysozyme</td>
       </tr>
       <tr>
@@ -571,29 +575,3 @@ Padlan, C. S., Malashkevich, V. N., Almo, S. C., Levy, M., Brenowitz, M., & Girv
 <a href="https://pubmed.ncbi.nlm.nih.gov/24570482/" target="_blank" style="color:#520049" >RNA, 20(4), 447–461. (2013)</a>
 <br />
                 
-
-
-<script>
-    function toggleSequence(event) {
-      const container = event.target.closest('.sequence-container');
-      container.classList.toggle('expanded');
-      const showMoreText = container.querySelector('.show-more');
-      
-      // 展开后按钮文本变化
-      if (container.classList.contains('expanded')) {
-        showMoreText.textContent = '...';  // 展开后显示 "..."
-      } else {
-        showMoreText.textContent = '......';  // 收起后显示 "......"
-      }
-    }
-
-    // 页面加载时，限制序列文本为50个字符
-    window.addEventListener('load', function() {
-      const sequenceContainers = document.querySelectorAll('.sequence-container');
-      sequenceContainers.forEach(container => {
-        const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
-        container.querySelector('.sequence-text').textContent = truncatedText;
-      });
-    });
-  </script>

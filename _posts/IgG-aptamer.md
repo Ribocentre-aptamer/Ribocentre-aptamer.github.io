@@ -96,7 +96,7 @@ type: Proteins
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>Here we use ribodraw to complete the figure, through the 3D structure information. Apt8 aptamer was the aptamer sequence studied in SELEX article. And it was named by Matsumura, H<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
-<p>5'-GGGAACAAAGCUGAAGUACUUACCC-3'</p>
+<p>5'-GGAGGUGCUCCGAAAGGAACUCC'</p>
 <img src="/images/2D/IgG_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -294,8 +294,7 @@ type: Proteins
         customData:{
         url:'/pdbfiles/3agv-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

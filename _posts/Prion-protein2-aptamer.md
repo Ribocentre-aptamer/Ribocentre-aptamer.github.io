@@ -230,8 +230,7 @@ Mercey, R., Lantier, I., Maurel, M. C., Grosclaude, J., Lantier, F., & Marc, D.<
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

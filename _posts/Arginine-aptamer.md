@@ -255,8 +255,7 @@ type: Small molecules
         customData:{
         url:'/pdbfiles/1KOC-arg.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

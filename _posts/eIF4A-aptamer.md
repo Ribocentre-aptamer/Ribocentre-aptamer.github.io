@@ -131,6 +131,12 @@ type: Proteins
   color:{r:241,g:125,b:7}
 },
 {
+struct_asym_id: 'C',
+start_residue_number:8,
+end_residue_number:8,
+color:{r:133,g:39,b:181}
+},
+{
   struct_asym_id: 'C', 
   start_residue_number:5, 
   end_residue_number:6, 
@@ -183,8 +189,7 @@ type: Proteins
         customData:{
         url:'/pdbfiles/elF4A-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

@@ -19,7 +19,6 @@ type: Proteins
 <html>
 
 
-
 <div class="side-nav">
 <ul>
     <div class="side-nav-item"><li><a href="#timeline" style="color: #000000;">Timeline</a></li></div>
@@ -139,6 +138,7 @@ type: Proteins
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
@@ -171,44 +171,53 @@ type: Proteins
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+         /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
-    </head>
+</head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
-              var selectSections1 = [
-                {
+var selectSections1 = [
+               {
   struct_asym_id: 'B', 
   start_residue_number:1, 
   end_residue_number:3, 
   color:{r:184,g:51,b:50}
-},
+},               
 {
   struct_asym_id: 'B', 
   start_residue_number:4, 
   end_residue_number:5, 
   color:{r:46,g:161,b:3}
-},
-{
+},{
   struct_asym_id: 'B', 
   start_residue_number:6, 
   end_residue_number:7, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:8, 
   end_residue_number:10, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:11, 
   end_residue_number:11, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:12, 
   end_residue_number:12, 
@@ -237,17 +246,20 @@ type: Proteins
   start_residue_number:18, 
   end_residue_number:18, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:19, 
   end_residue_number:21, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:22, 
   end_residue_number:22, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:23, 
   end_residue_number:25, 
@@ -258,11 +270,10 @@ type: Proteins
   start_residue_number:16, 
   end_residue_number:246, 
   color:{r:207,g:62, b:125}
-},
-{
+},{
   struct_asym_id: 'L', 
-  start_residue_number:1D, 
-  end_residue_number:1A, 
+  start_residue_number:'1D', 
+  end_residue_number:'1A', 
   color:{r:207,g:62, b:125}
 },{
   struct_asym_id: 'L', 
@@ -271,24 +282,22 @@ type: Proteins
   color:{r:207,g:62, b:125}
 },{
   struct_asym_id: 'L', 
-  start_residue_number:14A, 
-  end_residue_number:14L, 
+  start_residue_number:'14A', 
+  end_residue_number:'14L', 
   color:{r:207,g:62, b:125}
-},
-{
+},{
   struct_asym_id: 'B', 
   start_residue_number:1000, 
   end_residue_number:1000, 
   color:{r:0,g:128,b:0}
-},
-{
+},{
   struct_asym_id: 'H', 
   start_residue_number:1002, 
   end_residue_number:1002, 
   color:{r:0,g:128,b:0}
 }
               ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection1">
@@ -301,15 +310,20 @@ type: Proteins
         customData:{
         url:'/pdbfiles/3dd2-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        layoutIsExpanded: false,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
       viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
+  // 确保插件加载完成后再执行选择
+  viewerInstance1.events.loadComplete.subscribe(() => {
+    setTimeout(() => {
+      var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+      if (colorSelectionButton1) {
+        colorSelectionButton1.click();
+      }
+    }, 1000);
   });
 </script>
 </body>
@@ -557,3 +571,4 @@ Abeydeera, N. D., Egli, M., Cox, N., Mercier, K., Conde, J. N., Pallan, P. S., M
       });
     });
   </script>
+

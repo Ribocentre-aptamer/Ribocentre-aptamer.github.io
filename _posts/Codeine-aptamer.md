@@ -311,8 +311,7 @@ Bing, T., Zheng, W., Zhang, X., Shen, L., Liu, X., Wang, F., Cui, J., Cao, Z., &
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
