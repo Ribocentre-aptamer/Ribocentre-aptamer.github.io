@@ -112,7 +112,7 @@ type: Small molecules
 
          
 <p class="header_box" id="description">Description</p>
-<p>Tobramycin aptamers, a class of high-affinity RNA molecules obtained through in vitro selection, were found to exhibit specific recognition of the aminoglycoside antibiotic tobramycin. Research demonstrated that these aptamers formed binding pockets via distinctive stem-loop structures. These structures adopted a “zipper-like” fold, which broadened the RNA’s major groove geometry through the synergistic arrangement of mismatched base pairs (e.g., G•U, U•U) and Watson-Crick base pairs (e.g., U•A). Tobramycin was positioned within the RNA’s major groove, partially encapsulated between the groove’s base and protruding bases (e.g., G15 or C15), forming a semi-enclosed chamber. Its binding was stabilised by hydrogen bonding and electrostatic interactions. For instance, the amino groups (NH₃⁺) of tobramycin could form hydrogen-bond networks with RNA base edges (e.g., N7, O4) or the phosphate backbone, while its aminosugar ring III enhanced binding through hydrophobic interactions with non-polar pyrimidine rings. Selection experiments revealed that high-affinity aptamers (with Kd values in the nM range) possessed highly conserved sequences. Their core binding domains were concentrated within predicted stem-loop regions, with affinity directly correlated to stem-loop stability. Quantitative analyses using fluorescently labelled tobramycin analogues (e.g., PYT) indicated that aptamers exhibited cross-binding capability with structurally similar aminoglycosides (e.g., neomycin), but no significant interaction with non-aminoglycoside antibiotics (e.g., erythromycin), underscoring their specificity. These studies not only elucidated the molecular mechanisms underlying RNA-aminoglycoside interactions but also provided critical insights for antibiotic optimisation and the design of novel RNA-targeted therapeutics informed by structural data<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
+<p>Tobramycin aptamers, a class of high-affinity RNA molecules obtained through in vitro selection, were found to exhibit specific recognition of the aminoglycoside antibiotic tobramycin. Research demonstrated that these aptamers formed binding pockets via distinctive stem-loop structures. These structures adopted a "zipper-like" fold, which broadened the RNA's major groove geometry through the synergistic arrangement of mismatched base pairs (e.g., G•U, U•U) and Watson-Crick base pairs (e.g., U•A). Tobramycin was positioned within the RNA's major groove, partially encapsulated between the groove's base and protruding bases (e.g., G15 or C15), forming a semi-enclosed chamber. Its binding was stabilised by hydrogen bonding and electrostatic interactions. For instance, the amino groups (NH₃⁺) of tobramycin could form hydrogen-bond networks with RNA base edges (e.g., N7, O4) or the phosphate backbone, while its aminosugar ring III enhanced binding through hydrophobic interactions with non-polar pyrimidine rings. Selection experiments revealed that high-affinity aptamers (with Kd values in the nM range) possessed highly conserved sequences. Their core binding domains were concentrated within predicted stem-loop regions, with affinity directly correlated to stem-loop stability. Quantitative analyses using fluorescently labelled tobramycin analogues (e.g., PYT) indicated that aptamers exhibited cross-binding capability with structurally similar aminoglycosides (e.g., neomycin), but no significant interaction with non-aminoglycoside antibiotics (e.g., erythromycin), underscoring their specificity. These studies not only elucidated the molecular mechanisms underlying RNA-aminoglycoside interactions but also provided critical insights for antibiotic optimisation and the design of novel RNA-targeted therapeutics informed by structural data<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 
 
 
@@ -150,11 +150,7 @@ type: Small molecules
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
@@ -187,86 +183,84 @@ type: Small molecules
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
-            <button onclick="
-              var selectSections1 = [
-{
-  struct_asym_id: 'A',    
-  start_residue_number:1, 
-  end_residue_number:5, 
-  color:{R:184,G:51,B:50}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:6, 
-  end_residue_number:6, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:7, 
-  end_residue_number:7, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:8, 
-  end_residue_number:8, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:9, 
-  end_residue_number:9, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:10, 
-  end_residue_number:11, 
-  color:{r:46,g:161,b:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:12, 
-  end_residue_number:12, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:13, 
-  end_residue_number:14, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:15, 
-  end_residue_number:15, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:16, 
-  end_residue_number:18, 
-  color:{R:46,G:163,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:19, 
-  end_residue_number:27, 
-  color:{R:184,G:51,B:50}
-},{
-  struct_asym_id: 'C', 
-  start_residue_number:28, 
-  end_residue_number:30, 
-  color:{R:255,G:0,B:255}
-}
-              ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+            <button onclick="viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
     </div>
     <script>
+      // 预定义选色数据
+      const selectSections1 = [
+        {
+          struct_asym_id: 'A',    
+          start_residue_number:1, 
+          end_residue_number:6, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:7, 
+          end_residue_number:7, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:8, 
+          end_residue_number:8, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:9, 
+          end_residue_number:9, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:10, 
+          end_residue_number:11, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:12, 
+          end_residue_number:12, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:13, 
+          end_residue_number:14, 
+          color:{r:46,g:161,b:3}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:15, 
+          end_residue_number:15, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:16, 
+          end_residue_number:27, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'C', 
+          start_residue_number:28, 
+          end_residue_number:30, 
+          color:{r:255,g:0,b:255}
+        }
+      ];
+
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
@@ -276,11 +270,15 @@ type: Small molecules
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
+      viewerInstance1.render(viewerContainer1, options1).then(() => {
+        // 等待结构加载完成后自动应用颜色
+        setTimeout(() => {
+          viewerInstance1.visual.select({ 
+            data: selectSections1, 
+            nonSelectedColor: {r:255,g:255,b:255}
+          });
+        }, 1000);
+      });
 </script>
 </body>
 </html>
@@ -299,11 +297,6 @@ type: Small molecules
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
@@ -341,66 +334,69 @@ type: Small molecules
             position:relative;
           }
         </style>
-    </head>
+
     <body onload="customize()">
         <div class="controlsSection2">
-            <button onclick="
-              var selectSections2 = [
-{
-  struct_asym_id: 'A',    
-  start_residue_number:4, 
-  end_residue_number:6, 
-  color:{r:184,g:51,b:50},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:7, 
-  end_residue_number:12, 
-  color:{r:241,g:125,b:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:13, 
-  end_residue_number:14, 
-  color:{r:46,g:161,b:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:15, 
-  end_residue_number:15, 
-  color:{r:241,g:125,b:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:16, 
-  end_residue_number:18, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:19, 
-  end_residue_number:19, 
-  color:{r:241,g:125,b:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:20, 
-  end_residue_number:20, 
-  color:{r:46,g:161,b:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:21, 
-  end_residue_number:23, 
-  color:{r:184,g:51,b:50}
-},{
-  struct_asym_id: 'C', 
-  start_residue_number:100, 
-  end_residue_number:102, 
-  color:{r:255,g:0,b:255}
-}
-              ]
-            viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
+            <button onclick="viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection2">
     <!-- Molstar container -->
       <div id="myViewer2"></div>
     </div>
     <script>
+      // 预定义选色数据
+      const selectSections2 = [
+        {
+          struct_asym_id: 'A',    
+          start_residue_number:4, 
+          end_residue_number:6, 
+          color:{r:184,g:51,b:50}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:7, 
+          end_residue_number:12, 
+          color:{r:241,g:125,b:7}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:13, 
+          end_residue_number:14, 
+          color:{r:46,g:161,b:3}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:15, 
+          end_residue_number:15, 
+          color:{r:241,g:125,b:7}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:16, 
+          end_residue_number:18, 
+          color:{r:184,g:51,b:50}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:19, 
+          end_residue_number:19, 
+          color:{r:241,g:125,b:7}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:20, 
+          end_residue_number:23, 
+          color:{r:184,g:51,b:50}
+        },
+        {
+          struct_asym_id: 'C', 
+          start_residue_number:100, 
+          end_residue_number:102, 
+          color:{r:255,g:0,b:255}
+        }
+      ];
+
       var viewerInstance2 = new PDBeMolstarPlugin();
       var options2 = {
         customData:{
@@ -410,11 +406,15 @@ type: Small molecules
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer2 = document.getElementById('myViewer2');
-      viewerInstance2.render(viewerContainer2, options2);
-  window.addEventListener('load', function() {
-    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
-    colorSelectionButton2.click();
-  });
+      viewerInstance2.render(viewerContainer2, options2).then(() => {
+        // 等待结构加载完成后自动应用颜色
+        setTimeout(() => {
+          viewerInstance2.visual.select({ 
+            data: selectSections2, 
+            nonSelectedColor: {r:255,g:255,b:255}
+          });
+        }, 1000);
+      });
 </script>
 </body>
 </html>
@@ -464,7 +464,7 @@ type: Small molecules
 
 
 <p class="blowheader_box">Structure ligand</p>
-<p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From <a href="https://go.drugbank.com/drugs/DB00684" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
+<p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From <a href="https://go.drugbank.com/drugs/DB00684" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
@@ -608,7 +608,7 @@ Jiang, L., & Patel, D. J. <br />
                 
 <a id="ref4"></a><font><strong>[4] Tobramycin affinity tag purification of spliceosomes.</strong></font><br />
 Hartmuth, K., Vornlocher, H. P., & Lührmann, R. <br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/14769995/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 257, 47–64. (2004)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/14769995/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 257, 47–64. (2004)</a>
 <br />
                 
 <a id="ref5"></a><font><strong>[5] Electrospray ionization of nucleic acid aptamer/small molecule complexes for screening aptamer selectivity.</strong></font><br />

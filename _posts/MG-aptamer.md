@@ -192,12 +192,14 @@ type: Small molecules
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>The secondary structure of the aptamer, defined  by two Watson-Crick helices flanking an asymmetric loop. Here we used Ribodraw to complete the figures, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>MG aptamer (1F1T): 5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
+<p>MG aptamer (1F1T): </p>
+<p>5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
 <img src="/images/2D/MG_aptamer(1F1T)_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 <p>Aptamer contains a binding pocket that binds the ligand, which interacts with the ligand and folds into specific secondary structure. Here we used Ribodraw to complete the figures, through the 3D structure information<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
-<p>MG aptamer (1Q8N): 5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
+<p>MG aptamer (1Q8N): </p>
+<p>5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
 <img src="/images/2D/MG_aptamer(1Q8N)_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -324,7 +326,7 @@ type: Small molecules
         customData:{
         url:'/pdbfiles/1f1t.pdb',
         format: 'pdb'},
-        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', 'controlInfo'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -441,7 +443,7 @@ type: Small molecules
         customData:{
         url:'/pdbfiles/1q8n.pdb',
         format: 'pdb'},
-        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', 'controlInfo'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer2 = document.getElementById('myViewer2');

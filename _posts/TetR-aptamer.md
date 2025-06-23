@@ -364,7 +364,7 @@ type: Proteins
     <tbody>
       <tr>
         <td name="td1">6YS4-A</td>
-        <td name="td2">8.6</td>
+        <td name="td2">28.6</td>
         <td name="td3">0</td>
         <td name="td4">Original chain</td>
       </tr>

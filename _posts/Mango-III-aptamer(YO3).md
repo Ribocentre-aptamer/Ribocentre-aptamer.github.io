@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title:  "Mango-III aptamer"
+title:  "mango-III aptamer & mango IV aptamer"
 date:   2024-04-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
@@ -70,8 +70,21 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>The structures of Mango-I and Mango-IV suggest considerable flexibility at the junction between the fluorophore-binding pocket and the variable helix. The fluorophore-binding pocket of the Spinach-class aptamers resides between two coaxially stacked paired elements, characterised by variable sequence and length. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>5'-GCUACGAAGGAAGGAUUGGUAUGUGGUAUAUUCGUAGC-3'</p>
-<img src="/images/2D/YO3-biotin_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>Mango-III aptamer:  </p>
+<p>5'-GCUACGAAGGAAGGAUUGGUAUGUGGUAUAUUCGUAGC-3' </p>
+
+<p>Mango-IV aptamer:  </p>
+<p>5'-GGCACGUACCGAGGGAGUGGUGAGGAUGAGGCGAGUACGUGC-3' </p>
+
+<table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+<img src="/images/2D/Mango-III_aptamer_2D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+</td>
+<td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+<img src="/images/2D/Mango IV_aptamer_2D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+</td>
+</tr>
+</table>
 <div style="display: flex; justify-content: center;"></div>
 
 

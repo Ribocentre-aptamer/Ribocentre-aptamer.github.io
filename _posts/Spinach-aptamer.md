@@ -227,8 +227,7 @@ type: Small molecules
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>Spinach folds into a single coaxial helical stack, composed of three canonical A-form duplexes (paired regions P1, P2, and P3), which are separated by two irregular junctions. Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>5'-GACGCGACCGAAUGAAAUGGUGAAGGACGGGUCCAGCCGGCUGC-3'<br></p>
-<p>5'-GCAGCCGGCUUGUUGAGUAGAGUGUGAGCUCCGUAACUGGUCGCGUC-3'</p>
+<p>5'-GACGCGACCGAAUGAAAUGGUGAAGGACGGGUCCAGCCGGCUGCUUCGGCAGCCGGCUUGUUGAGUAGAGUGUGAGCUCCGUAACUGGUCGCGUC-3'<br></p>
 <img src="/images/2D/DFHBI_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -405,6 +404,12 @@ type: Small molecules
   start_residue_number:64, 
   end_residue_number:64, 
   color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:206, 
+  end_residue_number:206, 
+  color:{r:255,g:0,b:255}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>

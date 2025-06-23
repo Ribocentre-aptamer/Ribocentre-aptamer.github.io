@@ -62,24 +62,26 @@
         "class": "row5",
         "cells": [
           {"name": "Neomycin B", "url": "https://aptamer.ribocentre.org/_posts/NeomycinB-aptamer.html"},
-          {"name": "Streptomycin", "url": "https://aptamer.ribocentre.org/_posts/Streptomycin-RNA-Aptamer"},
+          {"name": "Streptomycin", "url": "https://aptamer.ribocentre.org/_posts/Streptomycin-aptamer.html"},
           {"name": "Theophylline", "url": "https://aptamer.ribocentre.org/_posts/Theophylline-aptamer"},
-          {"name": "Tobramycin", "url": "https://aptamer.ribocentre.org/_posts/Tobramycin-RNA-aptamer"},
+          {"name": "Tobramycin", "url": "https://aptamer.ribocentre.org/_posts/Tobramycin-aptamer.html"},
+          {"name": "Ribostamycin aptamer", "url": "https://aptamer.ribocentre.org/_posts/Ribostamycin-aptamer.html"},
+          {"name": "Paromomycin aptamer", "url": "https://aptamer.ribocentre.org/_posts/Paromomycin-aptamer.html"},
           {"name": "Hfq", "url": "https://aptamer.ribocentre.org/_posts/Hfq-aptamer"},
           {"name": "ribosomal protein S8", "url": "https://aptamer.ribocentre.org/_posts/Ribosomal-protein-S8-aptamer"},
-          {"name": "TetR", "url": "https://aptamer.ribocentre.org/_posts/TetR-aptamer"},
-          {"name": "RNA polymerase (Pol) II", "url": "https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer"},
-          {"name": "HIV-1 REV peptide", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-REV-peptide-aptamer"}
+          {"name": "TetR", "url": "https://aptamer.ribocentre.org/_posts/TetR-aptamer"}
         ]
       },
       {
         "class": "row6",
         "cells": [
-          {"name": "Tat peptides", "url": "https://aptamer.ribocentre.org/_posts/Tat-aptamer"},
-          {"name": "HTLV-1 arginine-rich Rex peptide", "url": "https://aptamer.ribocentre.org/_posts/REX16-aptamer"},
-          {"name": "HIV-1 TAR RNA", "url": "https://aptamer.ribocentre.org/_posts/LR06-aptamer"},
+          {"name": "RNA polymerase (Pol) II", "url": "https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer"},
+          {"name": "HIV-1 REV peptide", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-REV-peptide-aptamer"},
+          {"name": "HIV-1 Tat protein", "url": "https://aptamer.ribocentre.org/_posts/HIV-Tat-aptamer.html"},
+          {"name": "HTLV-1 arginine-rich Rex peptide", "url": "https://aptamer.ribocentre.org/_posts/Rex-protein-aptamer.html"},
+          {"name": "HIV-1 TAR RNA", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer.html"},
           {"name": "Bacteriophage MS2 coat protein", "url": "https://aptamer.ribocentre.org/_posts/bacteriophage-MS2-coat-protein-aptamer"},
-          {"name": "Bovine prion", "url": "https://aptamer.ribocentre.org/_posts/Bovine-prion-protein(bPrP)-aptamer"}
+          {"name": "Bovine prion", "url": "https://aptamer.ribocentre.org/_posts/Bovine-prion-protein-aptamer.html"}
         ]
       }
     ]

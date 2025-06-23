@@ -266,7 +266,7 @@ type: Proteins
 <p class="header_box" id="ligand-recognition">Ligand information</p> 
   
 <p class="blowheader_box">SELEX ligand</p>
-<P>Radioisotope labeling of RNA by in vitro transcription was carried out using α-32P-ATP.  Refolded 32P labeled aptamer (10 nM) was mixed with varying concentrations of bPrP, or its derivatives, to a total volume of 25 µl in reaction buffer [20 mM Tris-HCl (pH 7.5), 100 mM NaCl or 10 mM KCl].   After 20 min incubation, the mixture was passed through a nitrocellulose filter and washed with 500 µl of the reaction buffer.   The amount of bound RNA was measured with BAS 2500, and binding activities were calculated as the percentage of input RNA retained on the filter in the protein-RNA complex.   We determined the equilibrium dissociation constant (Kd) using GraphPad PRISM using non-linear regression curve fitting<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</P>
+<P>Radioisotope labeling of RNA by in vitro transcription was carried out using α-32P-ATP.  Refolded 32P labeled aptamer (10 nM) was mixed with varying concentrations of bPrP, or its derivatives, to a total volume of 25 µl in reaction buffer [20 mM Tris-HCl (pH 7.5), 100 mM NaCl or 10 mM KCl].   After 20 min incubation, the mixture was passed through a nitrocellulose filter and washed with 500 µl of the reaction buffer.   The amount of bound RNA was measured with BAS 2500, and binding activities were calculated as the percentage of input RNA retained on the filter in the protein-RNA complex.   We determined the equilibrium dissociation constant (Kd) using GraphPad PRISM using non-linear regression curve fitting<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>. R12 aptamer is a truncated form of apt #1 aptamer.</P>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
@@ -289,6 +289,12 @@ type: Proteins
         <td name="td1">5′-ACCUUCUGUUCAUCGUGACCAACCCAAUAGAUUGUGAUAAAGGAGGAGGAGGA-3′</td>
         <td name="td3">bovine prion protein (bPrP)</td>
         <td name="td4">166 nM</td>
+      </tr>
+      <tr>
+        <td name="td0">R12 aptamer</td>
+        <td name="td1">5′-GGAGGAGGAGGA-3′</td>
+        <td name="td3">bovine prion protein (bPrP)</td>
+        <td name="td4">NA</td>
       </tr>
 	  </tbody>
   </table>

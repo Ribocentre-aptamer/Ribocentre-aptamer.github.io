@@ -117,67 +117,67 @@ type: Proteins
             <button onclick="
               var selectSections1 = [
 {
-  struct_asym_id: 'F',  
+  struct_asym_id: 'E',  
   start_residue_number:1, 
   end_residue_number:129, 
   color:{r:133,g:39,b:181}
 }, 
 {
-  struct_asym_id: 'E',  
+  struct_asym_id: 'F',  
   start_residue_number:9, 
   end_residue_number:15, 
   color:{r:184,g:51,b:50}
 }, 
 {
-  struct_asym_id: 'E', 
+  struct_asym_id: 'F', 
   start_residue_number:45, 
   end_residue_number:50, 
   color:{r:184,g:51,b:50}
 }, 
 {
-  struct_asym_id: 'E',
+  struct_asym_id: 'F',
   start_residue_number:16, 
   end_residue_number:22, 
   color:{r:194,g:182,b:23}
 }, 
 {
-  struct_asym_id: 'E', 
+  struct_asym_id: 'F', 
   start_residue_number:23, 
   end_residue_number:26, 
   color:{r:8,g:69,b:149}
 }, 
 {
-  struct_asym_id: 'E', 
+  struct_asym_id: 'F', 
   start_residue_number:41, 
   end_residue_number:44, 
   color:{r:8,g:69,b:149}
 }, 
 {
-  struct_asym_id: 'E', 
+  struct_asym_id: 'F', 
   start_residue_number:27, 
   end_residue_number:29, 
   color:{r:46,g:161,b:3}
 }, 
 {
-  struct_asym_id: 'E',  
+  struct_asym_id: 'F',  
   start_residue_number:31, 
   end_residue_number:34, 
   color:{r:46,g:161,b:3}
 }, 
 {
-  struct_asym_id: 'E', 
+  struct_asym_id: 'F', 
   start_residue_number:37, 
   end_residue_number:40, 
   color:{r:46,g:161,b:3}
 }, 
 {
-  struct_asym_id: 'E',  
+  struct_asym_id: 'F',  
   start_residue_number:30, 
   end_residue_number:30, 
   color:{r:241,g:125,b:7}
 }, 
 {
-  struct_asym_id: 'E',
+  struct_asym_id: 'F',
   start_residue_number:35, 
   end_residue_number:36, 
   color:{r:241,g:125,b:7}
@@ -355,10 +355,10 @@ type: Proteins
         hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
-      var viewerContainer2 = document.getElementById('myViewer2');
+var viewerContainer2 = document.getElementById('myViewer2');
       viewerInstance2.render(viewerContainer2, options2);
-  window.addEventListener('load', function() {
-    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
+window.addEventListener('load', function() {
+var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
     colorSelectionButton2.click();
   });
 </script>

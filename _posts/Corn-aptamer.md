@@ -352,7 +352,163 @@ type: Small molecules
   start_residue_number:14, 
   end_residue_number:14, 
   color:{r:194,g:182,b:23}
-}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:0,b:255}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:17, 
+  end_residue_number:19, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:17, 
+  end_residue_number:19, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:194,g:182,b:23}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:194,g:182,b:23}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:194,g:182,b:23}
+  }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>

@@ -88,12 +88,7 @@ type: Proteins
   <img src="/images/3D/ribosomal_protein_S8_aptamer_3D1.svg" alt="drawing" style="width:500px;height:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
       <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
@@ -126,9 +121,17 @@ type: Proteins
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
     </head>
@@ -136,7 +139,7 @@ type: Proteins
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:27, 
   end_residue_number:155, 
@@ -171,24 +174,33 @@ type: Proteins
   start_residue_number:18, 
   end_residue_number:23, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'I', 
   start_residue_number:24, 
   end_residue_number:27, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
   struct_asym_id: 'I', 
   start_residue_number:28, 
   end_residue_number:29, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'I', 
-  start_residue_number:38, 
+  start_residue_number:30, 
+  end_residue_number:39, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'I', 
+  start_residue_number:1, 
   end_residue_number:9, 
   color:{r:184,g:51,b:50}
 }
-              ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+]
+viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection1">
@@ -204,9 +216,9 @@ type: Proteins
         hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
-      var viewerContainer1 = document.getElementById('myViewer1');
+var viewerContainer1 = document.getElementById('myViewer1');
       viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
+window.addEventListener('load', function() {
     var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
     colorSelectionButton1.click();
   });

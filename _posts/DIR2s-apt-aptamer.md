@@ -70,15 +70,10 @@ categories: Aptamer
   <img src="/images/3D/OTB-SO3_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
+<script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -106,19 +101,25 @@ categories: Aptamer
               padding: 0px;
               margin-bottom: 0px;
             }
-          #myViewer1{
+                    #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
-            <button onclick="
-              var selectSections1 = [
-                {
+            <button onclick="var selectSections1 = [
+{
   struct_asym_id: 'R', 
   start_residue_number:101, 
   end_residue_number:101, 
@@ -177,7 +178,7 @@ categories: Aptamer
   start_residue_number:37, 
   end_residue_number:38, 
   color:{r:46,g:161,b:3}
-}’
+},
 {
   struct_asym_id: 'R', 
   start_residue_number:40, 
@@ -202,14 +203,13 @@ categories: Aptamer
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
+viewerInstance1.render(viewerContainer1, options1);
+window.addEventListener('load', function() {
     var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
     colorSelectionButton1.click();
   });
     </script>
     </body>
-    </html>
     </td>
   </tr>
   </table>
