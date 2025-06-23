@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title:  "Mango aptamer(TO1-biotin)"
+title:  "mango aptamer & mango-II aptamer"
 date:   2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
@@ -130,9 +130,19 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>5'-GUGCGAAGGGACGGUGCGGAGAGGAGAGCAC-3'</p>
-<img src="/images/2D/TO1-Biotin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
-<div style="display: flex; justify-content: center;"></div>
+<p>Mango aptamer: </p>
+<p>5'-GUGCGAAGGGACGGUGCGGAGAGGAGAGCAC-3'<br></p>
+<p>Mango-II aptamer:  </p>
+<p>5'-GGCACGUACGAAGGGACGGUGCGGAGAGGAGAGUACGUGC-3'<br></p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
+  <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/Mango_aptamer_2D.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
+  <img src="/images/2D/Mango-II_aptamer_2D.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  </td>
+  </tr>
+  </table>
 
 <p class="blowheader_box">3D visualisation</p>             
   <p>Robert J Trachman III and Natalia A Demeshkina et al. analyzed the RNA Mango-TO1-Biotin 1.7-Å-resolution co-crystal structure. The PDB ID of this structure is 1AM0<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
@@ -191,95 +201,125 @@ categories: Aptamer
               <button onclick="
                 var selectSections1 = [
                   {
-    struct_asym_id: 'A', 
-    start_residue_number:104, 
-    end_residue_number:104, 
-    color:{r:255,g:255,b:0}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:11, 
-    end_residue_number:12, 
-    color:{r:9,g:254,b:254}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:16, 
-    end_residue_number:17, 
-    color:{r:9,g:254,b:254}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:20, 
-    end_residue_number:22, 
-    color:{r:9,g:254,b:254}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:25, 
-    end_residue_number:26, 
-    color:{r:9,g:254,b:254}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:1, 
-    end_residue_number:4, 
-    color:{r:128,g:219,b:158}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:28, 
-    end_residue_number:31, 
-    color:{r:128,g:219,b:158}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:10, 
-    end_residue_number:10, 
-    color:{r:255,g:0,b:255}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:15, 
-    end_residue_number:15, 
-    color:{r:255,g:0,b:255}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:8, 
-    end_residue_number:9, 
-    color:{r:10,g:11,b:255}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:13, 
-    end_residue_number:14, 
-    color:{r:10,g:11,b:255}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:18, 
-    end_residue_number:19, 
-    color:{r:10,g:11,b:255}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:23, 
-    end_residue_number:24, 
-    color:{r:10,g:11,b:255}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:5, 
-    end_residue_number:7, 
-    color:{r:255,g:135,b:10}
-  },
-  {
-    struct_asym_id: 'A', 
-    start_residue_number:27, 
-    end_residue_number:27, 
-    color:{r:255,g:135,b:10}
-  }
+  struct_asym_id: 'A', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:0,b:255}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:1, 
+  end_residue_number:4, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:28, 
+  end_residue_number:31, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:5, 
+  end_residue_number:7, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:27, 
+  end_residue_number:27, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:8, 
+  end_residue_number:9, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:13, 
+  end_residue_number:14, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:18, 
+  end_residue_number:19, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:23, 
+  end_residue_number:24, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:16, 
+  end_residue_number:16, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:21, 
+  end_residue_number:21, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:26, 
+  end_residue_number:26, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:12, 
+  end_residue_number:12, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:17, 
+  end_residue_number:17, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:22, 
+  end_residue_number:22, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:20, 
+  end_residue_number:20, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:25, 
+  end_residue_number:25, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:10, 
+  end_residue_number:10, 
+  color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:15, 
+  end_residue_number:15, 
+  color:{r:241,g:125,b:7}
+}
               ]
               viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
             <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>

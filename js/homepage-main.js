@@ -475,9 +475,19 @@ const MolstarModule = {
         this.aptamerData = window.aptamerData || [];
         if (this.aptamerData.length > 0) {
             this.currentAptamerIndex = Math.floor(Math.random() * this.aptamerData.length);
+            
+            // 优化：立即显示基本信息，然后异步加载3D结构
+            const data = this.aptamerData[this.currentAptamerIndex];
+            this.updateInfoCards(data);
+            
+            // 首先显示加载状态
+            this.showLoadingState();
+            
+            // 异步加载Molstar，不阻塞页面其他内容
             this.loadMolstarLibrary()
                 .then(() => {
-                    setTimeout(() => this.loadAptamerStructure(this.currentAptamerIndex), 500);
+                    // 延迟加载3D结构，让页面首先展示重要内容
+                    setTimeout(() => this.loadAptamerStructure(this.currentAptamerIndex), 100);
                 })
                 .catch(error => {
                     console.error('Molstar库加载失败:', error);
@@ -498,16 +508,30 @@ const MolstarModule = {
 
     loadMolstarLibrary() {
         return new Promise((resolve, reject) => {
+            // 检查Molstar是否已经加载
             if (window.PDBeMolstarPlugin) {
                 resolve();
                 return;
             }
 
-            const script = document.createElement('script');
-            script.src = (window.DASHBOARD_CONFIG?.baseurl || '') + '/js/mol/pdbe-molstar-plugin.js';
-            script.onload = resolve;
-            script.onerror = () => reject(new Error('Failed to load Molstar library'));
-            document.head.appendChild(script);
+            // 等待CDN的异步加载完成
+            const checkMolstarLoaded = () => {
+                if (window.PDBeMolstarPlugin) {
+                    resolve();
+                } else {
+                    // 每50ms检查一次，最多等待10秒
+                    setTimeout(checkMolstarLoaded, 50);
+                }
+            };
+
+            // 设置超时机制，10秒后放弃等待
+            setTimeout(() => {
+                if (!window.PDBeMolstarPlugin) {
+                    reject(new Error('Molstar library loading timeout'));
+                }
+            }, 10000);
+
+            checkMolstarLoaded();
         });
     },
 
@@ -654,6 +678,36 @@ const MolstarModule = {
                 </div>
             `;
         }
+    },
+
+    showLoadingState() {
+        const molstarViewer = document.getElementById('molstar-viewer');
+        if (molstarViewer) {
+            molstarViewer.innerHTML = `
+                <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #4a5568; text-align: center; padding: 20px;">
+                    <div>
+                        <div style="font-size: 2.5rem; margin-bottom: 15px; animation: pulse 2s infinite;">⚛️</div>
+                        <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 8px;">正在加载3D结构</div>
+                        <div style="font-size: 0.9rem; opacity: 0.8;">Loading Molecular Structure...</div>
+                        <div style="margin-top: 10px;">
+                            <div style="width: 40px; height: 4px; background: #e2e8f0; border-radius: 2px; margin: 0 auto; overflow: hidden;">
+                                <div style="width: 100%; height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); animation: loading 2s infinite;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    @keyframes pulse {
+                        0%, 100% { opacity: 1; }
+                        50% { opacity: 0.5; }
+                    }
+                    @keyframes loading {
+                        0% { transform: translateX(-100%); }
+                        100% { transform: translateX(100%); }
+                    }
+                </style>
+            `;
+        }
     }
 };
 
@@ -673,10 +727,29 @@ document.addEventListener('DOMContentLoaded', function() {
     CarouselModule.init();
     homepageSearchModule.init();
     
-    // 延迟初始化Molstar以避免阻塞其他功能
-    setTimeout(() => {
-        MolstarModule.init();
-    }, 1000);
+    // 优化：使用IntersectionObserver在用户滚动到Hero区域时才初始化Molstar
+    const heroSection = document.querySelector('.hero-section');
+    if (heroSection) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // 当Hero区域进入视窗时才初始化Molstar
+                    setTimeout(() => {
+                        MolstarModule.init();
+                    }, 200);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { 
+            rootMargin: '100px' // 提前100px开始加载
+        });
+        observer.observe(heroSection);
+    } else {
+        // 如果找不到Hero区域，则延迟初始化
+        setTimeout(() => {
+            MolstarModule.init();
+        }, 1500);
+    }
     
     console.log('Homepage modules loaded successfully');
 }); 

@@ -107,7 +107,10 @@ type: Small molecules
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>Here we used ribodraw to complete the figure, through the 3D structure information. The L-arginine aptamer and ag.06 aptamer were named by Famulok, M. in the article. The ag.06 aptamer was subsequently isolated in 1996 and showed higher affinity, but its structure has not been resolved yet<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
-<p>5'-CAGCGAGGAAGAGAAAGCUCGCUGGAUGGGCUG-3'</p>
+<p>L-arginine aptamer: </p>
+<p>5'-CAGCGAGGAAGAGAAAGCUCGCUGGAUGGGCUG-3'<br></p>
+<p>ag.06 aptamer: </p>
+<p>5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'<br></p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/Arginine_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
@@ -167,9 +170,17 @@ type: Small molecules
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
     </head>
@@ -225,10 +236,11 @@ type: Small molecules
   color:{r:8,g:69,b:149}
 },
 {
-  struct_asym_id: 'C', 
+  struct_asym_id: 'B', 
   start_residue_number:1, 
   end_residue_number:1, 
   color:{r:255,g:0,b:255}
+}
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>

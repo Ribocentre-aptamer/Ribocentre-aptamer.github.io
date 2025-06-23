@@ -163,7 +163,7 @@ type: Small molecules
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:5, 
   end_residue_number:12, 
@@ -211,10 +211,11 @@ type: Small molecules
   color:{r:8,g:69,b:149}
 },
 {
-  struct_asym_id: 'C', 
+  struct_asym_id: 'B', 
   start_residue_number:1, 
   end_residue_number:1, 
   color:{r:255,g:0,b:255}
+}
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>

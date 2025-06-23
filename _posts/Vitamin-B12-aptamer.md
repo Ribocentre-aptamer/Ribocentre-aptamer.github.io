@@ -160,68 +160,73 @@ type: Small molecules
             height: 500px;
             position:relative;
           }
+
         </style>
     </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:201, 
   end_residue_number:210, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:184,g:51,b:50}
+},{
   struct_asym_id: 'A', 
   start_residue_number:211, 
   end_residue_number:211, 
-  color:{r:255,g:0,b:255}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:212, 
   end_residue_number:213, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'A', 
   start_residue_number:214, 
   end_residue_number:214, 
-  color:{r:255,g:0,b:255}
-},
-{
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'A', 
   start_residue_number:215, 
   end_residue_number:215, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:46,g:161,b:3}
+},{
   struct_asym_id: 'A', 
   start_residue_number:216, 
   end_residue_number:216, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:217, 
+  end_residue_number:227, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:228, 
   end_residue_number:228, 
-  color:{r:128,g:219,b:158}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:229, 
   end_residue_number:230, 
-  color:{r:255,g:0,b:255}
-},
-{
+  color:{r:241,g:125,b:7}
+},{
   struct_asym_id: 'A', 
   start_residue_number:231, 
+  end_residue_number:231, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:232, 
   end_residue_number:235, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'A', 
   start_residue_number:701, 
   end_residue_number:701, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>

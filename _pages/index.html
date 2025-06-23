@@ -7,7 +7,8 @@ permalink: /
 ---
 
 <!-- External CSS -->
-<link rel="stylesheet" type="text/css" href="./css/mol/pdbe-molstar.css">
+<!-- 使用CDN加速的Molstar CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar.css" />
 <link rel="stylesheet" type="text/css" href="./css/homepage.css">
 <!-- 引入dashboard专用CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/dashboard.css">
@@ -37,6 +38,9 @@ permalink: /
     
     // 如果您想完全禁用hero section高度调整功能，请将上面的 disableHeroHeightFix 设置为 true
 </script>
+
+<!-- 异步加载CDN Molstar JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js" async></script>
 
 <!-- Hero Section -->
 <div class="hero-section">
