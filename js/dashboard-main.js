@@ -116,9 +116,9 @@ const DataModule = {
                 text-align: center;
             `;
             errorDiv.innerHTML = `
-                <h4>数据加载失败</h4>
-                <p>无法加载适配体数据。请检查网络连接或联系管理员。</p>
-                <small>错误详情: ${errorMessage}</small>
+                <h4>Data Loading Failed</h4>
+                <p>Unable to load aptamer data. Please check your network connection or contact the administrator.</p>
+                <small>Error details: ${errorMessage}</small>
             `;
             container.insertBefore(errorDiv, container.firstChild);
         }
