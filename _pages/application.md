@@ -459,10 +459,3 @@ Felletti, M., & Hartig, J. S.<br />
 Spöring, M., Finke, M., & Hartig, J. S.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/31811992/" target="_blank" style="color:#520049">Current opinion in biotechnology, 63, 34–40. (2020)</a>
 <br/>
-
-
-
-
-
-</body>
-</html>

@@ -24,7 +24,9 @@ permalink: /helps/
 <meta name="google-site-verification" content="uLZVKfay17Zcx_rzSlECNKhxf9gpvF4jLw3Zsa4agTs" />
 <body onload="showSheet('sheet1')">
 {% include custom_styles/aptamer_navigation.html %}
+<!-- Removed duplicate header
 <h1 class="post-title" itemprop="name headline">Helps</h1>
+-->
 
 
 

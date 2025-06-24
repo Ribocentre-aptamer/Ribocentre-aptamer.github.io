@@ -325,7 +325,7 @@ class ApplicationTableManager {
             'Length': 'Length',
             'GC content': 'GC Content',
             'Affinity': 'Affinity',
-            'References': 'References',
+            'References': 'PMID',
             'Biomarkers': 'Biomarkers',
             'Cancer Type': 'Cancer Type',
             'Clinical sample': 'Clinical Sample',
@@ -348,42 +348,94 @@ class ApplicationTableManager {
 
     // 序列染色函数 - 完全迁移自aptamer dashboard
     colorizeSequence(seq) {
-        const colorMap = { 'A': '#d9534f', 'T': '#f0ad4e', 'U': '#f0ad4e', 'C': '#5bc0de', 'G': '#5cb85c' };
-        return (seq || '').split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
+        if (!seq) return '';
+
+        // HTML 转义，避免注入
+        const escapeHtml = (text) => {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        };
+
+        // 核苷酸颜色映射
+        const colorMap = {
+            'A': '#d9534f', // 红色
+            'T': '#f0ad4e', // 橙色
+            'U': '#f0ad4e',
+            'C': '#5bc0de', // 蓝色
+            'G': '#5cb85c'  // 绿色
+        };
+
+        // 对单一序列进行颜色包裹
+        const wrapSequence = (sequence) => {
+            return sequence.split('').map(ch => {
+                const color = colorMap[ch.toUpperCase()] || '#ffffff';
+                return `<span style="color:${color}">${ch}</span>`;
+            }).join('');
+        };
+
+        // 处理文本，染色 5'-xxx-3' 之间的碱基序列
+        let escaped = escapeHtml(seq);
+
+        const regex = /(5[\'′]-)([A-Za-z]+)(-3[\'′])/g;
+        escaped = escaped.replace(regex, (match, prefix, sequence, suffix) => {
+            return `${prefix}${wrapSequence(sequence)}${suffix}`;
+        });
+
+        // 保留换行
+        escaped = escaped.replace(/\n/g, '<br/>');
+
+        return escaped;
     }
 
     formatCellData(item, field) {
         let value = item[field];
-        
+
+        // 若值为空、null、undefined 或字符串 'null'，统一显示为 "NA"
+        const isValueEmpty = (
+            value === null ||
+            value === undefined ||
+            (typeof value === 'string' && value.trim() === '') ||
+            value === 'null'
+        );
+
+        if (isValueEmpty) {
+            return 'NA';
+        }
+
         // 处理特殊字段
         switch (field) {
             case 'new Linker name':
             case 'New Linker name':
                 // 将linker链接赋值给name
                 if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
-                    return `<a href="${item.Linker}" target="_blank">${value || ''}</a>`;
+                    return `<a href="${item.Linker}" target="_blank">${value}</a>`;
                 }
-                return value || '';
+                return value;
                 
             case 'References':
-                if (value && value.trim() !== '') {
+                if (!isValueEmpty) {
                     const pubmedId = this.extractPubMedIdFromUrl(value);
-                    return `<a href="${value}" target="_blank">${pubmedId || 'Link'}</a>`;
+                    if (pubmedId) {
+                        const pubmedUrl = `https://pubmed.ncbi.nlm.nih.gov/${pubmedId}/`;
+                        return `<a href="${pubmedUrl}" target="_blank">${pubmedId}</a>`;
+                    }
+                    return value;
                 }
-                return '';
+                return 'NA';
                 
             case 'Sequence':
-                if (value && value.length > 10) {
+                if (value.length > 10) {
                     const shortValue = value.substring(0, 10) + '...';
                     return `<span class="truncated-text" data-full-text="${this.escapeHtml(value)}" data-is-sequence="true">${shortValue}</span>`;
                 }
-                return value || '';
+                return value;
                 
             case 'GC content':
                 if (typeof value === 'number') {
                     return (value * 100).toFixed(1) + '%';
                 }
-                return value || '';
+                return value;
                 
             default:
                 // 处理长文本
@@ -391,7 +443,7 @@ class ApplicationTableManager {
                     const shortValue = value.substring(0, 10) + '...';
                     return `<span class="truncated-text" data-full-text="${this.escapeHtml(value)}">${shortValue}</span>`;
                 }
-                return value || '';
+                return value;
         }
     }
 

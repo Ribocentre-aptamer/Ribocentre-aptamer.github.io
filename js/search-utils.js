@@ -157,9 +157,7 @@ const SearchUtils = {
       category: `sequence${r.Type ? ' - ' + r.Type : ''}`,
       tags   : basicTags,
       meta_tags: standardTags,  // 完整标签，供高级搜索使用
-      url    : r.Linker && r.Linker.trim() && r.Linker !== 'null'
-                 ? r.Linker
-                 : `/sequences/?id=${encodeURIComponent(r.ID)}`,
+      url    : `/sequences/?id=${encodeURIComponent(r.ID)}`,
       date   : yr ? `${yr}-01-01` : '',
       content: [
         r.Sequence ? `Sequence: ${r.Sequence}` : '',

@@ -14,20 +14,6 @@
     "remarks": ""
   },
   {
-    "name": "Sulforhodamine B aptamer",
-    "ligand": "SRB, PBV, PBVF",
-    "mechanisms": "CQ",
-    "sequence": "GGAACCUCGCUUCGGCGAUGAUGGAGAGGCGCAAGGUUAACCGCCUCAGGUUCC",
-    "length": 54,
-    "gc_content": 0.6111111111111112,
-    "year": 2003,
-    "citation": "Babendure, J. R., Adams, S. R., & Tsien, R. Y. (2003). Aptamers switch on fluorescence of triphenylmethane dyes. Journal of the American Chemical Society, 125(48), 14716–14717.",
-    "structures": "",
-    "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/14640641/",
-    "more_info": "",
-    "remarks": ""
-  },
-  {
     "name": "Malachite Green aptamer",
     "ligand": "MG, IMG",
     "mechanisms": "TICT",
@@ -150,7 +136,7 @@
     "citation": "Carothers, J. M., Goler, J. A., Kapoor, Y., Lara, L., & Keasling, J. D. (2010). Selecting RNA aptamers for synthetic biology: investigating magnesium dependence and predicting binding affinity. Nucleic acids research, 38(8), 2736–2747.",
     "structures": "",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-    "more_info": "",
+    "more_info": "https://aptamer.ribocentre.org/_posts/TMR-aptamer.html",
     "remarks": ""
   },
   {
@@ -402,7 +388,7 @@
     "citation": "Sunbul, M., & Jäschke, A. (2018). SRB-2: a promiscuous rainbow aptamer for live-cell RNA imaging. Nucleic acids research, 46(18), e110.",
     "structures": "",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/29931157/",
-    "more_info": "",
+    "more_info": "https://aptamer.ribocentre.org/_posts/SRB-2-aptamer.html",
     "remarks": ""
   },
   {
@@ -556,7 +542,7 @@
     "citation": "Sunbul, M., Lackner, J., Martin, A., Englert, D., Hacene, B., Grün, F., Nienhaus, K., Nienhaus, G. U., & Jäschke, A. (2021). Super-resolution RNA imaging using a rhodamine-binding aptamer with fast exchange kinetics. Nature biotechnology, 39(6), 686–690.",
     "structures": "8JY0",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/33574610/",
-    "more_info": "",
+    "more_info": "https://aptamer.ribocentre.org/_posts/RhoBAST-aptamer.html",
     "remarks": ""
   },
   {
