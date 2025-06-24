@@ -50,7 +50,6 @@
 <polygon points="171.8,190.1 182.1,221.7 181.2,222 180.4,222.3 170.1,190.7 170.9,190.4 "/>
 <line class="st4" x1="152.1" y1="190.1" x2="159.4" y2="190.1"/>
 <line class="st4" x1="155.8" y1="186.5" x2="155.8" y2="193.7"/>
-<text transform="matrix(1 0 0 1 148.68 57.49)" class="st1 st5">Thioflavin</text>
-<text transform="matrix(1 0 0 1 234.28 57.49)" class="st1 st5"> T</text>
+<text transform="matrix(1 0 0 1 148.68 57.49)" class="st1 st5">Thioflavin T</text>
 <text transform="matrix(1 0 0 1 175.56 81.49)" class="st1 st5">(ThT)</text>
 </svg>

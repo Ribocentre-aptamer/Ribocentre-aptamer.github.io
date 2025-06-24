@@ -636,4 +636,15 @@ body[data-page="aptamer"] .amir-tooltip {
 #dataTable td {
     width: auto !important;
     max-width: none !important;
+}
+
+/* Structure表 No.列不换行 */
+#dataTable td:first-child,
+#dataTable th:first-child {
+    white-space: nowrap !important;
+}
+
+/* 解决: 禁用数据详情表格单元格 hover 放大效果，防止与粘性表头冲突导致闪烁 */
+.data-table-section .table td:hover {
+    transform: none !important; /* 取消缩放 */
 } 

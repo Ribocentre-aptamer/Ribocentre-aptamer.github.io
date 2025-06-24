@@ -132,7 +132,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/27591602/" target="_blank" style="color:#520049">2016</a></h3>
     </div>
     <div class="body">
-      <p>A simple way was developed to stabilize the apparent of malachite green-aptamer binding over 24 h, which may be beneficial in stabilizing other triphenylmethane or carbocation ligand-aptamer interactions<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
+      <p>A simple way was developed to stabilize the apparent of malachite green-aptamer binding over 24 h, which may be beneficial in stabilizing other triphenylmethane or carbocation ligand-aptamer interactions<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -263,54 +263,63 @@ type: Small molecules
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
-  start_residue_number:101, 
-  end_residue_number:101, 
-  color:{r:255,g:0,b:255}
-},{
-  struct_asym_id: 'A', 
   start_residue_number:1, 
   end_residue_number:6, 
   color:{r:184,g:51,b:50}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:33, 
   end_residue_number:38, 
   color:{r:184,g:51,b:50}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:10, 
   end_residue_number:23, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:9, 
   color:{r:24,g:152,b:140}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:26, 
   end_residue_number:27, 
   color:{r:24,g:152,b:140}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:32, 
   end_residue_number:32, 
   color:{r:194,g:182,b:23}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:8, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:24, 
   end_residue_number:25, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:28, 
   end_residue_number:31, 
   color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:101, 
+  end_residue_number:101, 
+  color:{r:255,g:0,b:255}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -324,7 +333,7 @@ type: Small molecules
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/1f1t.pdb',
+        url:'/pdbfiles/1f1t_no ions.pdb',
         format: 'pdb'},
         hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle',],
         bgColor: {r:255, g:255, b:255},
@@ -393,19 +402,14 @@ type: Small molecules
             height: 500px;
             position:relative;
           }
+
         </style>
     </head>
-    <body onload="customize()">
+<body onload="customize()">
         <div class="controlsSection2">
             <button onclick="
               var selectSections2 = [
-              {
-  struct_asym_id: 'A', 
-  start_residue_number:39, 
-  end_residue_number:39, 
-  color:{r:255,g:0,b:255}
-},
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:9, 
@@ -434,9 +438,15 @@ type: Small molecules
   start_residue_number:10, 
   end_residue_number:25, 
   color:{r:8,g:69,b:149}
-}
-             ]
-            viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:39, 
+  end_residue_number:39, 
+  color:{r:255,g:0,b:255}
+}]
+
+viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection2">
@@ -444,20 +454,20 @@ type: Small molecules
       <div id="myViewer2"></div>
     </div>
     <script>
-      var viewerInstance2 = new PDBeMolstarPlugin();
-      var options2 = {
+var viewerInstance2 = new PDBeMolstarPlugin();
+var options2 = {
         customData:{
-        url:'/pdbfiles/1q8n.pdb',
+        url:'/pdbfiles/1q8n_no ions.pdb',
         format: 'pdb'},
         hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', ],
         bgColor: {r:255, g:255, b:255},
         }
-      var viewerContainer2 = document.getElementById('myViewer2');
-      viewerInstance2.render(viewerContainer2, options2);
-  window.addEventListener('load', function() {
-    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
+var viewerContainer2 = document.getElementById('myViewer2');
+viewerInstance2.render(viewerContainer2, options2);
+setTimeout(function() {
+var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
     colorSelectionButton2.click();
-  });
+  }, 800);
 </script>
 </body>
 </html>
