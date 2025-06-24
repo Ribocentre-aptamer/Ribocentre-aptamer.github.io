@@ -278,7 +278,7 @@ type: Small molecules
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/7oaw.pdb',
+        url:'/pdbfiles/7oaw_no ions.pdb',
         format: 'pdb'},
         hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},

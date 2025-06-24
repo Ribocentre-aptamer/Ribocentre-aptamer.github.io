@@ -332,7 +332,7 @@ categories: Aptamer
         var viewerInstance1 = new PDBeMolstarPlugin();
         var options1 = {
           customData:{
-          url:'/pdbfiles/5v3f.pdb',
+          url:'/pdbfiles/5v3f_no ions.pdb',
           format: 'pdb'},
           expanded: false,
           hideControls: true,

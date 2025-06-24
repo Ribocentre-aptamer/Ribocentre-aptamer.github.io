@@ -521,7 +521,7 @@ type: Small molecules
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/5bjp.pdb',
+        url:'/pdbfiles/5bjp_no ions.pdb',
         format: 'pdb'},
         hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},

@@ -197,7 +197,7 @@ categories: Aptamer
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/6db8.pdb',
+        url:'/pdbfiles/6db8_no ions.pdb',
         format: 'pdb'},
         hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
