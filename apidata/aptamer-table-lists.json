@@ -53,14 +53,15 @@
           {"name": "lysozyme", "url": "https://aptamer.ribocentre.org/_posts/Lysozyme-aptamer"},
           {"name": "GlnRs", "url": "https://aptamer.ribocentre.org/_posts/GlnRs-aptamer"},
           {"name": "Factor Xa", "url": "https://aptamer.ribocentre.org/_posts/Factor-Xa-aptamer"},
+          {"name": "L-CCL2", "url": "https://aptamer.ribocentre.org/_posts/L-CCL2-aptamer.html"},
           {"name": "ATP", "url": "https://aptamer.ribocentre.org/_posts/ATP-aptamer"},
-          {"name": "GTP", "url": "https://aptamer.ribocentre.org/_posts/GTP-aptamer"},
-          {"name": "Tetracycline", "url": "https://aptamer.ribocentre.org/_posts/Tetracycline-aptamer"}
+          {"name": "GTP", "url": "https://aptamer.ribocentre.org/_posts/GTP-aptamer"}
         ]
       },
       {
         "class": "row5",
         "cells": [
+          {"name": "Tetracycline", "url": "https://aptamer.ribocentre.org/_posts/Tetracycline-aptamer"},
           {"name": "Neomycin B", "url": "https://aptamer.ribocentre.org/_posts/NeomycinB-aptamer.html"},
           {"name": "Streptomycin", "url": "https://aptamer.ribocentre.org/_posts/Streptomycin-aptamer.html"},
           {"name": "Theophylline", "url": "https://aptamer.ribocentre.org/_posts/Theophylline-aptamer"},
@@ -68,13 +69,13 @@
           {"name": "Ribostamycin aptamer", "url": "https://aptamer.ribocentre.org/_posts/Ribostamycin-aptamer.html"},
           {"name": "Paromomycin aptamer", "url": "https://aptamer.ribocentre.org/_posts/Paromomycin-aptamer.html"},
           {"name": "Hfq", "url": "https://aptamer.ribocentre.org/_posts/Hfq-aptamer"},
-          {"name": "ribosomal protein S8", "url": "https://aptamer.ribocentre.org/_posts/Ribosomal-protein-S8-aptamer"},
-          {"name": "TetR", "url": "https://aptamer.ribocentre.org/_posts/TetR-aptamer"}
+          {"name": "ribosomal protein S8", "url": "https://aptamer.ribocentre.org/_posts/Ribosomal-protein-S8-aptamer"}
         ]
       },
       {
         "class": "row6",
         "cells": [
+          {"name": "TetR", "url": "https://aptamer.ribocentre.org/_posts/TetR-aptamer"},
           {"name": "RNA polymerase (Pol) II", "url": "https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer"},
           {"name": "HIV-1 REV peptide", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-REV-peptide-aptamer"},
           {"name": "HIV-1 Tat protein", "url": "https://aptamer.ribocentre.org/_posts/HIV-Tat-aptamer.html"},

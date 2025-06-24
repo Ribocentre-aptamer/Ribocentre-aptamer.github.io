@@ -326,7 +326,7 @@ type: Small molecules
         customData:{
         url:'/pdbfiles/1f1t.pdb',
         format: 'pdb'},
-        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', 'controlInfo'],
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle',],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -399,6 +399,12 @@ type: Small molecules
         <div class="controlsSection2">
             <button onclick="
               var selectSections2 = [
+              {
+  struct_asym_id: 'A', 
+  start_residue_number:39, 
+  end_residue_number:39, 
+  color:{r:255,g:0,b:255}
+},
                 {
   struct_asym_id: 'A', 
   start_residue_number:7, 
@@ -443,7 +449,7 @@ type: Small molecules
         customData:{
         url:'/pdbfiles/1q8n.pdb',
         format: 'pdb'},
-        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', 'controlInfo'],
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', ],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer2 = document.getElementById('myViewer2');
