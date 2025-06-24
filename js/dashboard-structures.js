@@ -45,11 +45,18 @@
                             d.ndbUrl = `https://www.rcsb.org/structure/${firstPdbId}`;
                         }
                     }
+                } else if (d['NDB_text']) {
+                    // 兼容新的字段命名：NDB_text / NDB_url
+                    d.ndb = d['NDB_text'];
+                    d.ndbUrl = d['NDB_url'];
                 }
                 
                 d.resolution = d['Resolution(Å)'];
                 
                 // 确保站内链接字段存在
+                if (d.AptamerLinker) {
+                    d.internal_url = d.AptamerLinker;
+                }
                 if (!d.internal_url) {
                     // 如果没有提供内部链接，创建一个基于Name的默认链接
                     const slugName = d.Name.toLowerCase()
@@ -149,9 +156,18 @@
                 if (item.ndb) {
                     ndbFull = item.ndb;
                     const ndbDisplayText = ndbFull.length > 15 ? ndbFull.substring(0, 15) + '...' : ndbFull;
-                    
-                    // 取消NDB列的超链接，直接显示文本
-                    ndbCell.textContent = ndbDisplayText;
+                    if (item.ndbUrl) {
+                        const ndbLink = document.createElement('a');
+                        ndbLink.href = item.ndbUrl;
+                        ndbLink.textContent = ndbDisplayText;
+                        ndbLink.style.color = '#520049';
+                        ndbLink.style.textDecoration = 'none';
+                        ndbLink.style.borderBottom = '1px dashed #520049';
+                        ndbLink.target = '_blank';
+                        ndbCell.appendChild(ndbLink);
+                    } else {
+                        ndbCell.textContent = ndbDisplayText;
+                    }
                 }
                 row.appendChild(ndbCell);
 
@@ -168,7 +184,44 @@
 
                 // Year 列
                 const yearCell = document.createElement('td');
-                yearCell.textContent = item.Year || '';
+                const yearStr = (item.Year || '').toString();
+                if (yearStr) {
+                    const yearParts = yearStr.split(',').map(s => s.trim()).filter(s => s);
+                    yearParts.forEach((yr, idx) => {
+                        // 查找与该年份匹配的 PubmedX_url
+                        let linkUrl = null;
+                        for (let i = 1; i <= 4; i++) {
+                            const textField = item[`Pubmed${i}_text`];
+                            const urlField = item[`Pubmed${i}_url`];
+                            if (textField && urlField) {
+                                // 提取四位数年份用于匹配
+                                const textYear = (textField.toString().match(/\d{4}/) || [])[0];
+                                const yrDigits = (yr.match(/\d{4}/) || [])[0];
+                                if (textYear && yrDigits && textYear === yrDigits) {
+                                    linkUrl = urlField;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (linkUrl) {
+                            const yearLink = document.createElement('a');
+                            yearLink.href = linkUrl;
+                            yearLink.textContent = yr;
+                            yearLink.target = '_blank';
+                            yearLink.style.color = '#520049';
+                            yearLink.style.textDecoration = 'none';
+                            yearLink.style.borderBottom = '1px dashed #520049';
+                            yearCell.appendChild(yearLink);
+                        } else {
+                            yearCell.appendChild(document.createTextNode(yr));
+                        }
+
+                        if (idx < yearParts.length - 1) {
+                            yearCell.appendChild(document.createTextNode(', '));
+                        }
+                    });
+                }
                 row.appendChild(yearCell);
                 
                 tableBody.appendChild(row);

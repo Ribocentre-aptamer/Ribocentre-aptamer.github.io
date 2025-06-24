@@ -669,6 +669,16 @@ mark {
     height: 70px;
     margin-bottom: 25px;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.resource-icon:hover {
+    transform: scale(1.1);
 }
 
 .resource-title {

@@ -150,7 +150,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 </head>
 <body>
 <h1 class="post-title">Sequences</h1>
-<p>This page shows the sequence of RNA aptamers. We keep the U in the partial sequence because it is consistent with the sequence information in the fasta file. ( We provide the script could change T into U on the page). <a href="https://www.ribocentre.org/downloads/sequence-T2U.ipynb" target="_blank" download="sequence-T2U.ipynb"><button class="btn btn-secondary"><span class="glyphicon glyphicon-download-alt"></span>&nbsp;&nbsp;Download Script</button></a></p>
+<p>Named here is composed of ligand + underscore + article name, which belongs to a unique name. For RNA aptamers isolated from the same ligand in the same article, we only selected 1-2 of them to draw the details page.</p>
 <div class="form-container" style="margin-bottom:15px;">
   <input type="text" id="searchBox" placeholder="Search...">
   <button id="exportBtn" class="button" style="margin-left:10px;">Export Selected</button>
@@ -170,7 +170,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
           <th>Article name</th>
           <th>Ligand</th>
           <th>Ligand Description</th>
-          <th>CAS</th>
           <th>Sequence</th>
           <th>Length</th>
           <th>GC Content</th>
@@ -400,9 +399,6 @@ function buildRows(data){
     // 处理PubMed链接
     const yearLink = d['Link to PubMed Entry'] ? `<a href="${d['Link to PubMed Entry']}" target="_blank">${d.Year || 'N/A'}</a>` : (d.Year || 'N/A');
     
-    // 处理CAS字段 - 使用tooltip显示完整内容
-    const casField = d.CAS ? `<span class="truncated-text" data-full-text="${escapeHtml(d.CAS)}" data-is-sequence="false">${truncateText(d.CAS, 20)}</span>` : 'N/A';
-    
     // 处理序列字段 - 使用tooltip显示完整序列并染色
     const sequenceField = d.Sequence ? `<span class="truncated-text sequence-cell" data-full-text="${escapeHtml(d.Sequence)}" data-is-sequence="true">${truncateText(d.Sequence, 6)}</span>` : 'N/A';
     
@@ -418,10 +414,9 @@ function buildRows(data){
       d['Article name'] || 'N/A',
       d.Ligand || 'N/A',
       ligandDesc,
-      casField,
       sequenceField,
       d.Length || 'N/A',
-      d['GC Content'] || 'N/A',
+      d['GC Content'] && !isNaN(parseFloat(d['GC Content'])) ? (parseFloat(d['GC Content']) * 100).toFixed(1) + '%' : 'N/A',
       d.Affinity || 'N/A',
       yearLink
     ];
@@ -521,7 +516,6 @@ function loadData(){
             {title:'Article name'},
             {title:'Ligand'},
             {title:'Ligand Description'},
-            {title:'CAS'},
             {title:'Sequence'},
             {title:'Length'},
             {title:'GC Content'},
@@ -600,7 +594,7 @@ function exportSelected(){
     }
   }
   
-  const headers=['ID','Type','Category','Named','Article name','Ligand','Ligand Description','CAS','Sequence','Length','GC Content','Affinity','Year'];
+  const headers=['ID','Type','Category','Named','Article name','Ligand','Ligand Description','Sequence','Length','GC Content','Affinity','Year'];
   const csv=[headers.join(',')];
   rows.forEach(r=>{
     // 跳过第一个复选框列
@@ -614,11 +608,10 @@ function exportSelected(){
       `"${exportRow[5].replace(/"/g,'""')}"`,
       `"${exportRow[6].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
       `"${exportRow[7].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
-      `"${exportRow[8].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
+      exportRow[8].replace(/<[^>]+>/g,''),
       exportRow[9].replace(/<[^>]+>/g,''),
-      exportRow[10].replace(/<[^>]+>/g,''),
-      `"${exportRow[11].replace(/"/g,'""')}"`,
-      exportRow[12].replace(/<[^>]+>/g,'')
+      `"${exportRow[10].replace(/"/g,'""')}"`,
+      exportRow[11].replace(/<[^>]+>/g,'')
     ].join(','));
   });
   const csvContent='data:text/csv;charset=utf-8,'+csv.join('\n');

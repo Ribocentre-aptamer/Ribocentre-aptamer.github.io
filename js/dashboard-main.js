@@ -1190,10 +1190,24 @@ const TableModule = {
         tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
         tableBody.innerHTML = '';
 
+        // 辅助函数：处理空值，统一显示为 NA
+        const handleEmptyValue = (value) => {
+            if (value === null || value === undefined || value === '' || 
+                value === 'null' || value === 'NULL' || 
+                value === 'na' || value === 'NA' || value === 'N/A' ||
+                value === 'nan' || value === 'NaN' || value === 'NAN' ||
+                (typeof value === 'string' && value.trim() === '')) {
+                return 'NA';
+            }
+            return value;
+        };
+
         // 辅助函数：序列着色
         const colorizeSequence = (seq) => {
+            const processedSeq = handleEmptyValue(seq);
+            if (processedSeq === 'NA') return 'NA';
             const colorMap = { 'A': '#d9534f', 'T': '#f0ad4e', 'U': '#f0ad4e', 'C': '#5bc0de', 'G': '#5cb85c' };
-            return (seq || '').split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
+            return processedSeq.split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
         };
 
         // 辅助函数：tooltip - 使用clientX/clientY坐标，支持智能定位
@@ -1218,45 +1232,62 @@ const TableModule = {
             row.style.whiteSpace = 'nowrap';
 
             // 1. Aptamer name - 使用 Named 字段
-            let nameHTML = item['Named'] || '';
-            // 如果有链接，创建超链接
-            if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
-                nameHTML = `<a href="${item.Linker}" target="_blank">${item['Named'] || ''}</a>`;
+            const processedName = handleEmptyValue(item['Named']);
+            let nameHTML = processedName;
+            // 如果有链接且名称不为空，创建超链接
+            const processedLinker = handleEmptyValue(item.Linker);
+            if (processedLinker !== 'NA' && processedName !== 'NA') {
+                nameHTML = `<a href="${processedLinker}" target="_blank">${processedName}</a>`;
             }
 
             // 2. Ligand - 使用Ligand字段，限制最多显示2个单词
-            const ligandFull = item.Ligand || '';
-            // 截取前两个单词作为简短显示
-            const ligandWords = ligandFull.split(' ');
-            const ligandShort = ligandWords.length > 2 
-                ? ligandWords.slice(0, 2).join(' ') + '...' 
-                : ligandFull;
+            const ligandFull = handleEmptyValue(item.Ligand);
+            let ligandShort = ligandFull;
+            if (ligandFull !== 'NA') {
+                // 截取前两个单词作为简短显示
+                const ligandWords = ligandFull.split(' ');
+                ligandShort = ligandWords.length > 2 
+                    ? ligandWords.slice(0, 2).join(' ') + '...' 
+                    : ligandFull;
+            }
 
             // 3. Year - 使用Year字段
             // 获取年份信息，如果有PubMed链接则创建超链接
-            let yearHTML = `${item.Year || ''}`;
-            if (item['Link to PubMed Entry'] && item['Link to PubMed Entry'].trim() !== '' && item['Link to PubMed Entry'] !== 'null') {
-                yearHTML = `<a href="${item['Link to PubMed Entry']}" target="_blank">${item.Year || ''}</a>`;
+            const processedYear = handleEmptyValue(item.Year);
+            let yearHTML = processedYear;
+            const processedPubMedLink = handleEmptyValue(item['Link to PubMed Entry']);
+            if (processedPubMedLink !== 'NA' && processedYear !== 'NA') {
+                yearHTML = `<a href="${processedPubMedLink}" target="_blank">${processedYear}</a>`;
             }
 
             // 4. Category - 使用Category字段
-            const categoryHTML = item.Category || '';
+            const categoryHTML = handleEmptyValue(item.Category);
 
             // 5. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
-            const affinityFull = item.Affinity || '';
-            // 截取第一个逗号前的内容
-            const affinityHTML = affinityFull.split(',')[0].trim();
+            const affinityFull = handleEmptyValue(item.Affinity);
+            let affinityHTML = affinityFull;
+            if (affinityFull !== 'NA') {
+                // 截取第一个逗号前的内容
+                affinityHTML = affinityFull.split(',')[0].trim();
+                if (!affinityHTML) affinityHTML = 'NA';
+            }
 
             // 6. Sequence (5'-3') - 使用Sequence字段
             // 获取序列信息，只显示前10个字符，鼠标悬停时显示完整彩色序列
-            const sequence = item.Sequence || '';
-            const seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
+            const sequence = handleEmptyValue(item.Sequence);
+            let seqShort = sequence;
+            if (sequence !== 'NA') {
+                seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
+            }
             const seqFullColored = colorizeSequence(sequence);
 
             // 7. Description - 使用Ligand Description字段
             // 获取描述信息，截取前20个字符作为简短显示
-            const descFull = item['Ligand Description'] || '';
-            const descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;
+            const descFull = handleEmptyValue(item['Ligand Description']);
+            let descShort = descFull;
+            if (descFull !== 'NA') {
+                descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;
+            }
 
             // 构建表格行HTML
             row.innerHTML = `
@@ -1273,10 +1304,11 @@ const TableModule = {
 
             // 为各字段添加tooltip，鼠标悬停时显示完整内容
             const cells = row.querySelectorAll('td');
-            addTooltip(cells[2], ligandFull); // ligand完整内容
-            addTooltip(cells[5], affinityFull); // Affinity完整内容
-            addTooltip(cells[6], seqFullColored); // 序列完整彩色内容
-            addTooltip(cells[7], descFull); // 描述完整内容
+            // 只有当内容不是 'NA' 时才添加 tooltip
+            if (ligandFull !== 'NA') addTooltip(cells[2], ligandFull); // ligand完整内容
+            if (affinityFull !== 'NA') addTooltip(cells[5], affinityFull); // Affinity完整内容
+            if (sequence !== 'NA') addTooltip(cells[6], seqFullColored); // 序列完整彩色内容
+            if (descFull !== 'NA') addTooltip(cells[7], descFull); // 描述完整内容
         });
     }
 };
