@@ -626,4 +626,14 @@ body[data-page="aptamer"] .amir-tooltip {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
+}
+
+/* ====== Structure page table 自适应列宽 ====== */
+#dataTable {
+    table-layout: auto !important;
+}
+#dataTable th,
+#dataTable td {
+    width: auto !important;
+    max-width: none !important;
 } 

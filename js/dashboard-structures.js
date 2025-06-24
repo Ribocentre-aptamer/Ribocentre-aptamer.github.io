@@ -30,23 +30,25 @@
                 d.name = d.Name;
                 d.ligand = d.Ligand;
                 
-                // 处理NDB字段，可能是字符串或对象
-                if (d.NDB) {
-                    if (typeof d.NDB === 'object') {
-                        // 新格式，NDB是一个对象
-                        d.ndb = d.NDB.id;
-                        d.ndbUrl = d.NDB.url;
+                // 处理NDB字段，可能是字符串、对象或成对字段
+                if (d.NDB && typeof d.NDB === 'object') {
+                    d.ndb = d.NDB.id;
+                    d.ndbUrl = d.NDB.url;
+                } else if (d.NDB && typeof d.NDB === 'string') {
+                    // 2) NDB 为字符串，可能形如 "ID1,ID2: url" 或 "ID1 ID2 : url"
+                    const parts = d.NDB.split(':');
+                    if (parts.length >= 2) {
+                        d.ndb = parts[0].trim();
+                        d.ndbUrl = parts.slice(1).join(':').trim();
                     } else {
-                        // 旧格式，NDB是字符串
-                        d.ndb = d.NDB;
-                        // 创建默认链接
-                        const firstPdbId = d.NDB.split(' ')[0].trim();
-                        if (firstPdbId && firstPdbId !== 'NA') {
-                            d.ndbUrl = `https://www.rcsb.org/structure/${firstPdbId}`;
+                        d.ndb = d.NDB.trim();
+                        const firstId = d.ndb.split(/[ ,]+/)[0];
+                        if (firstId && firstId !== 'NA') {
+                            d.ndbUrl = `https://www.rcsb.org/structure/${firstId}`;
                         }
                     }
                 } else if (d['NDB_text']) {
-                    // 兼容新的字段命名：NDB_text / NDB_url
+                    // 3) 分离字段形式 NDB_text / NDB_url
                     d.ndb = d['NDB_text'];
                     d.ndbUrl = d['NDB_url'];
                 }
@@ -63,6 +65,28 @@
                         .replace(/[\s-]+/g, '-')
                         .replace(/[^\w-]/g, '');
                     d.internal_url = `/aptamers/${slugName}`;
+                }
+
+                // ---- 处理 PubMed 映射，方便后续快速链接 ----
+                d.pubmedMap = {};
+                for (let i = 1; i <= 4; i++) {
+                    // 3.1 字符串形式，如 "2022: https://pubmed..."
+                    const combined = d[`Pubmed${i}`];
+                    if (combined && typeof combined === 'string') {
+                        const [yearPart, urlPart] = combined.split(':');
+                        if (urlPart) {
+                            const yrDigits = (yearPart.match(/\d{4}/) || [])[0];
+                            if (yrDigits) d.pubmedMap[yrDigits] = urlPart.trim();
+                        }
+                    }
+
+                    // 3.2 分离字段形式 Pubmed1_text / Pubmed1_url
+                    const textField = d[`Pubmed${i}_text`];
+                    const urlField = d[`Pubmed${i}_url`];
+                    if (textField && urlField) {
+                        const yrDigits = (textField.toString().match(/\d{4}/) || [])[0];
+                        if (yrDigits) d.pubmedMap[yrDigits] = urlField;
+                    }
                 }
             });
 
@@ -115,7 +139,7 @@
 
             filteredData.forEach((item, index) => {
                 const row = document.createElement('tr');
-                row.style.whiteSpace = 'nowrap';
+                row.style.whiteSpace = 'normal';
 
                 // 第一列：序号
                 const indexCell = document.createElement('td');
@@ -177,9 +201,30 @@
                 phaseCell.textContent = phaseFull.length > 25 ? phaseFull.substring(0, 25) + '...' : phaseFull;
                 row.appendChild(phaseCell);
 
-                // Resolution 列
+                // Resolution 列（支持多值，每个值tooltip显示对应NDB）
                 const resolutionCell = document.createElement('td');
-                resolutionCell.textContent = item['Resolution(Å)'] || '';
+                const resStr = (item['Resolution(Å)'] || '').toString();
+                if (resStr) {
+                    const trimmed = resStr.trim();
+                    if (trimmed.toUpperCase() === 'NA') {
+                        // 直接显示NA，不做拆分，也不绑定tooltip
+                        resolutionCell.textContent = trimmed;
+                    } else {
+                        const resParts = trimmed.split(/[ ,]+/).map(s => s.trim()).filter(s => s);
+                        const ndbParts = (item.ndb || '').split(/[ ,]+/).map(s => s.trim()).filter(s => s);
+                        resParts.forEach((resVal, rIdx) => {
+                            const span = document.createElement('span');
+                            span.textContent = resVal;
+                            if (ndbParts[rIdx] && resVal.toUpperCase() !== 'NA') {
+                                addTooltip(span, `NDB ID: ${ndbParts[rIdx]}`);
+                            }
+                            resolutionCell.appendChild(span);
+                            if (rIdx < resParts.length - 1) {
+                                resolutionCell.appendChild(document.createTextNode(', '));
+                            }
+                        });
+                    }
+                }
                 row.appendChild(resolutionCell);
 
                 // Year 列
@@ -188,20 +233,11 @@
                 if (yearStr) {
                     const yearParts = yearStr.split(',').map(s => s.trim()).filter(s => s);
                     yearParts.forEach((yr, idx) => {
-                        // 查找与该年份匹配的 PubmedX_url
+                        // 直接从 pubmedMap 中查找
+                        const yrDigits = (yr.match(/\d{4}/) || [])[0];
                         let linkUrl = null;
-                        for (let i = 1; i <= 4; i++) {
-                            const textField = item[`Pubmed${i}_text`];
-                            const urlField = item[`Pubmed${i}_url`];
-                            if (textField && urlField) {
-                                // 提取四位数年份用于匹配
-                                const textYear = (textField.toString().match(/\d{4}/) || [])[0];
-                                const yrDigits = (yr.match(/\d{4}/) || [])[0];
-                                if (textYear && yrDigits && textYear === yrDigits) {
-                                    linkUrl = urlField;
-                                    break;
-                                }
-                            }
+                        if (yrDigits && item.pubmedMap && item.pubmedMap[yrDigits]) {
+                            linkUrl = item.pubmedMap[yrDigits];
                         }
 
                         if (linkUrl) {
