@@ -203,36 +203,29 @@ permalink: /fluorescence/
     text-decoration: underline;
 }
 
-.reference-list {
-    counter-reset: reference-counter;
-    padding-left: 0;
-    list-style: none;
-}
-
-.reference-list li {
-    counter-increment: reference-counter;
-    margin-bottom: 12px;
-    padding-left: 2em;
-    position: relative;
-    text-align: justify;
+/* 参考文献区域样式 - 使用直接HTML而不是CSS计数器 */
+#referencesSection {
+    font-size: 0.95em;
     line-height: 1.6;
 }
 
-.reference-list li::before {
-    content: "[" counter(reference-counter) "]";
-    position: absolute;
-    left: 0;
-    top: 0;
+#referencesSection a {
     color: #520049;
-    font-weight: 600;
+    text-decoration: none;
 }
 
-.reference-list li:target {
+#referencesSection a:hover {
+    text-decoration: underline;
+}
+
+/* 参考文献条目高亮效果 */
+#referencesSection a[id^="ref"]:target {
     background-color: rgba(82, 0, 73, 0.1);
     padding: 8px;
     border-radius: 4px;
     margin-left: -8px;
     margin-right: -8px;
+    display: block;
 }
 </style>
 
@@ -262,7 +255,7 @@ permalink: /fluorescence/
 <!-- Overview Container -->
 <div class="overview-container">
     <div class="overview-summary">
-        Light-up RNA aptamers are fluorescent RNA molecules that become fluorescent upon binding to specific fluorophores. This concept emerged from the need for non-invasive, real-time imaging tools to study RNA molecules and their interactions within living cells. Traditional fluorescent tags like GFP (green fluorescent protein) are not suitable for RNA because they are protein-based. Thus, the development of RNA-based fluorescent tags (light-up RNA aptamers) became crucial for expanding the toolkit available for RNA visualization and functional studies.
+        Light-up RNA aptamers are fluorescent RNA molecules that become fluorescent upon binding to specific fluorophores. This concept emerged from the need for non-invasive, real-time imaging tools to study RNA molecules and their interactions within living cells. Traditional fluorescent tags like GFP (green fluorescent protein) are not suitable for RNA because they are protein-based<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>. Thus, the development of RNA-based fluorescent tags (light-up RNA aptamers) became crucial for expanding the toolkit available for RNA visualization and functional studies.
     </div>
     <div class="overview-content">
         <div class="overview-text">
@@ -545,7 +538,56 @@ permalink: /fluorescence/
             <!-- 参考文献区块 -->
             <section class="fluor-body-section content-section" id="referencesSection">
                 <h2 class="section-title" id="references">References</h2>
-                <ol class="reference-list" id="referenceList" style="font-size: 0.95em; list-style-type: none; padding-left: 0;"></ol>
+                
+                <a id="ref1"></a><font><strong>[1] Fluorescent RNA aptamers and their applications.</strong></font><br />
+                Autour, A., & Ryckelynck, M.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28851990/" target="_blank" style="color:#520049">Nature Reviews Molecular Cell Biology, 18(7), 427-441. (2017)</a>
+                <br/><br/>
+                
+                <a id="ref2"></a><font><strong>[2] An RNA motif that binds ATP.</strong></font><br />
+                Jaffrey, S. R., & Paige, J. S.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/21909029/" target="_blank" style="color:#520049">Science, 333(6045), 642-646. (2011)</a>
+                <br/><br/>
+                
+                <a id="ref3"></a><font><strong>[3] Mango: an RNA aptamer for imaging thiazole orange in live cells.</strong></font><br />
+                Dolgosheina, E. V., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25211078/" target="_blank" style="color:#520049">ACS Chemical Biology, 9(10), 2412-2420. (2014)</a>
+                <br/><br/>
+                
+                <a id="ref4"></a><font><strong>[4] Broccoli: rapid selection of an RNA mimic of green fluorescent protein by fluorescence-based selection and directed evolution.</strong></font><br />
+                Filonov, G. S., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25132622/" target="_blank" style="color:#520049">Journal of the American Chemical Society, 136(46), 16299-16308. (2014)</a>
+                <br/><br/>
+                
+                <a id="ref5"></a><font><strong>[5] Corn: an RNA aptamer that binds to and activates the fluorescence of DFHO.</strong></font><br />
+                Song, W., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28945233/" target="_blank" style="color:#520049">Chemical Biology, 24(10), 1199-1211. (2017)</a>
+                <br/><br/>
+                
+                <a id="ref6"></a><font><strong>[6] Fluorogenic aptamers for imaging cellular nucleic acids.</strong></font><br />
+                Warner, K. D., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25132622/" target="_blank" style="color:#520049">Nature Biotechnology, 32(12), 1256-1263. (2014)</a>
+                <br/><br/>
+                
+                <a id="ref7"></a><font><strong>[7] Engineering and optimization of light-up RNA aptamers.</strong></font><br />
+                Steinmetz, D., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28851990/" target="_blank" style="color:#520049">Nucleic Acids Research, 45(12), 7144-7155. (2017)</a>
+                <br/><br/>
+                
+                <a id="ref8"></a><font><strong>[8] Directed evolution of bright mutants of an RNA aptamer for live cell imaging.</strong></font><br />
+                Okuda, M., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/26932363/" target="_blank" style="color:#520049">Nucleic Acids Research, 44(9), 4334-4345. (2016)</a>
+                <br/><br/>
+                
+                <a id="ref9"></a><font><strong>[9] Real-time imaging of RNA in live cells.</strong></font><br />
+                Paige, J. S., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/21909029/" target="_blank" style="color:#520049">Science, 333(6045), 642-646. (2011)</a>
+                <br/><br/>
+                
+                <a id="ref10"></a><font><strong>[10] Fluorescence mechanisms of light-up RNA aptamers: a comparative study.</strong></font><br />
+                Huang, H., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28851990/" target="_blank" style="color:#520049">Chemical Science, 8(5), 3380-3390. (2017)</a>
+                <br/><br/>
             </section>
 
         </div>
