@@ -182,6 +182,58 @@ permalink: /fluorescence/
 #fluorPairsTable td:nth-child(3) {
     white-space: nowrap !important;
 }
+
+/* 参考文献样式 */
+.fluor-body-section sup {
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+.fluor-body-section sup a {
+    color: #520049 !important;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1px 2px;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.fluor-body-section sup a:hover {
+    background-color: rgba(82, 0, 73, 0.1);
+    text-decoration: underline;
+}
+
+.reference-list {
+    counter-reset: reference-counter;
+    padding-left: 0;
+    list-style: none;
+}
+
+.reference-list li {
+    counter-increment: reference-counter;
+    margin-bottom: 12px;
+    padding-left: 2em;
+    position: relative;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.reference-list li::before {
+    content: "[" counter(reference-counter) "]";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #520049;
+    font-weight: 600;
+}
+
+.reference-list li:target {
+    background-color: rgba(82, 0, 73, 0.1);
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
 </style>
 
 <!-- 全局配置变量 -->
@@ -426,11 +478,11 @@ permalink: /fluorescence/
             <section class="fluor-body-section content-section" id="fluorBody" style="margin-top: 60px;">
                 <!-- 一级标题 -->
                 <h2 class="section-title" id="lightup">Light-up RNA aptamers</h2>
-                <p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP 2. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties 3, 4, 5. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer's performance for better performance in cellular environments 6, 7, 8.<br/>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells 9.</p>
+                <p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer's performance for better performance in cellular environments<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br/>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup>.</p>
 
                 <!-- 二级标题1 -->
                 <h3 id="mechanisms">Fluorogenic mechanisms</h3>
-                <p>Light-up RNA aptamers contain specific binding sites that interact with small-molecule fluorophores. These fluorophores are non-fluorescent or weakly fluorescent in the absence of the aptamer. Upon binding to the aptamer, the fluorophore undergoes a conformational change that enhances its fluorescence properties. This binding typically occurs through a combination of hydrogen bonding, Van der Waals interactions, and stacking interactions within the RNA's three-dimensional structure.<br/>Understanding their mechanism of action involves exploring how these aptamers interact with their fluorophores to produce fluorescence, the structural basis of their function, and the principles guiding their design and optimization 10.</p>
+                <p>Light-up RNA aptamers contain specific binding sites that interact with small-molecule fluorophores. These fluorophores are non-fluorescent or weakly fluorescent in the absence of the aptamer. Upon binding to the aptamer, the fluorophore undergoes a conformational change that enhances its fluorescence properties. This binding typically occurs through a combination of hydrogen bonding, Van der Waals interactions, and stacking interactions within the RNA's three-dimensional structure.<br/>Understanding their mechanism of action involves exploring how these aptamers interact with their fluorophores to produce fluorescence, the structural basis of their function, and the principles guiding their design and optimization<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
                 <!-- 图0 -->
                 <figure style="text-align:center;">

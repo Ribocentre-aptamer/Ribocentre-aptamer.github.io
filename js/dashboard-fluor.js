@@ -63,7 +63,10 @@
             tableBody.innerHTML = '';
 
             // 辅助函数
+            const safe = (v) => (v !== undefined && v !== null && String(v).trim() !== '' ? v : 'NA');
+
             const colorizeSequence = (seq) => {
+                if (!seq) return 'NA';
                 const colorMap = { 'A': '#d9534f', 'T': '#f0ad4e', 'U': '#f0ad4e', 'C': '#5bc0de', 'G': '#5cb85c' };
                 return seq.split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
             };
@@ -87,38 +90,43 @@
                 row.style.whiteSpace = 'nowrap';
 
                 // Aptamer name 列
-                let nameHTML = item.name;
+                let nameHTML = safe(item.name);
                 if (item.more_info && item.more_info.trim() !== '') {
-                    nameHTML = `<a href="${item.more_info}" target="_blank">${item.name}</a>`;
+                    nameHTML = `<a href="${item.more_info}" target="_blank">${safe(item.name)}</a>`;
                 }
 
                 // Ligand
-                const ligandShort = item.ligand.split(',')[0].trim();
-                const ligandFull = item.ligand;
+                const ligandRaw = item.ligand ?? '';
+                const ligandShort = ligandRaw ? ligandRaw.split(',')[0].trim() : 'NA';
+                const ligandFull = ligandRaw || 'NA';
 
                 // Year
-                let yearHTML = `${item.year}`;
+                let yearHTML = safe(item.year);
                 if (item.pubmed_link && item.pubmed_link.trim() !== '') {
-                    yearHTML = `<a href="${item.pubmed_link}" target="_blank">${item.year}</a>`;
+                    yearHTML = `<a href="${item.pubmed_link}" target="_blank">${safe(item.year)}</a>`;
                 }
 
                 // Mechanisms
-                const mechHTML = item.mechanisms || '';
+                const mechHTML = safe(item.mechanisms);
 
                 // Sequence
-                const seqShort = (item.sequence || '').substring(0, 10) + '...';
-                const seqFullColored = colorizeSequence(item.sequence || '');
+                const seqRaw = item.sequence ?? '';
+                const seqShort = seqRaw ? seqRaw.substring(0, 10) + '...' : 'NA';
+                const seqFullColored = colorizeSequence(seqRaw);
 
                 // Citation
-                const citationParts = (item.citation || '').split(',');
-                let citationShort = item.citation || '';
+                const citationRaw = item.citation ?? '';
+                const citationParts = citationRaw.split(',');
+                let citationShort = citationRaw;
                 if (citationParts.length >= 2) {
                     citationShort = citationParts[0] + ',' + citationParts[1];
                 }
+                if (citationShort === '') citationShort = 'NA';
 
                 // Structures
-                const structShort = (item.structures || '').split(',')[0].trim();
-                const structFull = item.structures || '';
+                const structRaw = item.structures ?? '';
+                const structShort = structRaw ? structRaw.split(',')[0].trim() : 'NA';
+                const structFull = structRaw || 'NA';
 
                 row.innerHTML = `
                     <td>${index + 1}</td>
@@ -136,7 +144,7 @@
                 // 依次添加 tooltip
                 addTooltip(cells[2], ligandFull); // ligand
                 addTooltip(cells[5], seqFullColored); // sequence
-                addTooltip(cells[6], item.citation); // citation full
+                addTooltip(cells[6], citationRaw || 'NA'); // citation full
                 addTooltip(cells[7], structFull); // structures full
             });
         };
