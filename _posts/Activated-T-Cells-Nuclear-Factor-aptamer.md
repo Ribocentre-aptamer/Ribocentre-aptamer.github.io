@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Activated T Cells' Nuclear Factor aptamer"
-date:   2024-05-22 00:00:00
+title: Activated T Cells' Nuclear Factor aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:60.870000000000005
+- Length:92
+- 'Named:Nuclear factor of activated T cells (NFATC)_SE RNA #1'
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
 

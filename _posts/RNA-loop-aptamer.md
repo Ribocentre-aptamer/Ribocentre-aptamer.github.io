@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "RNA loop aptamer"
-date:   2024-06-18 00:00:00
+title: RNA loop aptamer
+date: 2024-06-18 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:RNA
+- GC:57.58
+- Length:99
+- Named:RNA stem-loop_g18_4.seq
+- Type:Nucleic acids
+- Year:1997
+type: Nucleic acids
 ---
 <html>
 

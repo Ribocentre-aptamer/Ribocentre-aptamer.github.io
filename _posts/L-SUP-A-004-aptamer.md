@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "L-SUP-A-004 aptamer"
-date:   2024-05-15 00:00:00
+title: L-SUP-A-004 aptamer
+date: 2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:60.24
+- GC:68.17999999999999
+- Length:44
+- Length:83
+- Named:Substance P_A11
+- Named:Substance P_SUP-A-004
+- Type:Small molecules
+- Year:2005
+type: Small molecules
 ---
 <html>
 

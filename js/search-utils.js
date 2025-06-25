@@ -152,18 +152,35 @@ const SearchUtils = {
       // r.Category ? `Category:${r.Category}` : ''
     ].filter(Boolean).join(', ');
 
+    // 优先使用 'Linker name(page name)' 作为title，这样搜索完整aptamer名称时能匹配到
+    const linkerName = r['Linker name(page name)'] || '';
+    const primaryTitle = linkerName || r.Named || r.ID || 'Unnamed Sequence';
+
+    // 构建content，确保包含Linker name以便搜索
+    const contentParts = [
+      r.Sequence ? `Sequence: ${r.Sequence}` : '',
+      r.Ligand ? `Ligand: ${r.Ligand}` : '', 
+      r.Affinity ? `Affinity: ${r.Affinity}` : ''
+    ];
+    
+    // 如果Linker name与title不同，也添加到content中确保可搜索
+    if (linkerName && linkerName !== r.Named && linkerName !== r.ID) {
+      contentParts.unshift(`Name: ${linkerName}`);
+    }
+    
+    // 如果有Named字段且与Linker name不同，也添加到content中
+    if (r.Named && r.Named !== linkerName) {
+      contentParts.push(`Variant: ${r.Named}`);
+    }
+
     return {
-      title  : r.Named || r.ID || 'Unnamed Sequence',
+      title  : primaryTitle,
       category: `sequence${r.Type ? ' - ' + r.Type : ''}`,
       tags   : basicTags,
       meta_tags: standardTags,  // 完整标签，供高级搜索使用
       url    : `/sequences/?id=${encodeURIComponent(r.ID)}`,
       date   : yr ? `${yr}-01-01` : '',
-      content: [
-        r.Sequence ? `Sequence: ${r.Sequence}` : '',
-        r.Ligand ? `Ligand: ${r.Ligand}` : '', 
-        r.Affinity ? `Affinity: ${r.Affinity}` : ''
-      ].filter(Boolean).join(' | '),
+      content: contentParts.filter(Boolean).join(' | '),
       /* 高级搜索筛选字段 */
       sequence_length: len,
       gc_content     : gc,
@@ -173,7 +190,9 @@ const SearchUtils = {
       /* 附加字段 */
       target_type    : r.Type || '',
       target         : r.Ligand || r.Target || '',
-      pub_year       : yr ? parseInt(yr) : undefined
+      pub_year       : yr ? parseInt(yr) : undefined,
+      linker_name    : linkerName,  // 保存原始的Linker name字段供参考
+      named          : r.Named || ''  // 添加Named字段供搜索结果显示使用
     };
   };
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "J18 aptamer"
-date:   2024-05-25 00:00:00
+title: J18 aptamer
+date: 2024-05-25 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.08
+- Length:104
+- Named:Epithelial Growth Factor Receptor (EGFR)_J18
+- Type:Proteins
+- Year:2009
+type: Proteins
 ---
 <html>
 

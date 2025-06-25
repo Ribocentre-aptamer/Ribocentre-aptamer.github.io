@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "YT1 aptamer"
-date:   2024-05-10 00:00:00
+title: YT1 aptamer
+date: 2024-05-10 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:51.32
+- Length:152
+- Named:Human T-cell lymphomatic virus (HTLV-1) tax protein_YT1
+- Type:Proteins
+- Year:1995
+type: Proteins
 ---
 
 

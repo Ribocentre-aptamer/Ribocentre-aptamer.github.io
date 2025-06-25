@@ -1,9 +1,25 @@
 ---
 layout: theophylline_style
-title:  "Prion protein 1 aptamer"
-date:   2024-05-08 00:00:00
+title: Prion protein 1 aptamer
+date: 2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Prion
+- GC:53.0
+- GC:57.66
+- GC:58.18
+- GC:59.089999999999996
+- Length:110
+- Length:111
+- Length:57
+- Named:Hamster prion protein_Apt1
+- Named:Hamster prion protein_Apt1 aptamer(truncation)
+- Named:Hamster prion protein_Apt2
+- Named:Hamster prion protein_Apt3
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
 <html>
 

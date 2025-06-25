@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "A30 aptamer"
-date:   2024-06-05 00:00:00
+title: A30 aptamer
+date: 2024-06-05 00:00:00
 author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:60.24
+- Length:83
+- Named:Extracellular domains of HER3_A30
+- Type:Proteins
+- Year:2003
+type: Proteins
 ---
 <html>
 

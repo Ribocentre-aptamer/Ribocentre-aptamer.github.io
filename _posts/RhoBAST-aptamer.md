@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "RhoBAST aptamer"
-date:   2025-04-18 00:00:00
+title: RhoBAST aptamer
+date: 2025-04-18 00:00:00
 author: Bo Fu
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:61.82
+- Length:55
+- Named:RhoBAST aptamer
+- Type:Small molecules
+- Year:2021
+type: Small molecules
 ---
 
 

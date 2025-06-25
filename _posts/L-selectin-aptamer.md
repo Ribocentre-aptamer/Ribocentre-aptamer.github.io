@@ -6,8 +6,9 @@ author: Bo Fu, Jiali Wang
 categories: Aptamer
 tags:
 - Category:Mammalian
-- GC:59.150000000000006
+- GC:50.0
 - GC:61.970000000000006
+- Length:40
 - Length:71
 - Named:L-selectin_13.32
 - Named:L-selectin_14.12

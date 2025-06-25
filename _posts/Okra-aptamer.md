@@ -7,9 +7,13 @@ categories: Aptamer
 tags:
 - Category:Fluorophores
 - GC:54.0
+- GC:61.33
+- Length:150
 - Length:68
 - Named:ACE_Okra aptamer
+- Named:Gemini-561o-Coral
 - Type:Small molecules
+- Year:2020
 - Year:2024
 type: Small molecules
 ---

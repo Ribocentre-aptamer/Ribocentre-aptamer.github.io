@@ -1,9 +1,24 @@
 ---
 layout: theophylline_style
-title:  "Restriction endonucleases (REases) KpnI-aptamer"
-date:   2024-05-31 00:00:00
+title: Restriction endonucleases (REases) KpnI-aptamer
+date: 2024-05-31 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:37.31
+- GC:41.18
+- GC:44.78
+- GC:46.27
+- Length:67
+- Length:68
+- Named:Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 20
+- Named:Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 24
+- Named:Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 29
+- Named:Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 30
+- Type:Proteins
+- Year:2015
+type: Proteins
 ---
 <html>
 

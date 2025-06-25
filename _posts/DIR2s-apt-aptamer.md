@@ -1,9 +1,21 @@
 ---
 layout: theophylline_style
-title:  "DIR2s-apt aptamer"
-date:   2024-04-10 00:00:00
+title: DIR2s-apt aptamer
+date: 2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:49.5
+- GC:57.99999999999999
+- Length:101
+- Length:57
+- Named:DIRDIR-Apt1
+- Named:OTB-SO3, Fab_DIR2s-apt aptamer
+- Type:Small molecules
+- Year:2008
+- Year:2017
+type: Small molecules
 ---
 <html>
 

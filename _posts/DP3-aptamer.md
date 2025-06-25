@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "DP3 aptamer"
-date:   2024-05-14 00:00:00
+title: DP3 aptamer
+date: 2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:57.14
+- Length:91
+- Named:Neuropeptide Y (NPY)_DP3
+- Type:Small molecules
+- Year:2002
+type: Small molecules
 ---
 <html>
 

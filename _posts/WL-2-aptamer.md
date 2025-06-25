@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "WL-2 aptamer"
-date:   2024-05-20 00:00:00
+title: WL-2 aptamer
+date: 2024-05-20 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:49.51
+- GC:55.910000000000004
+- GC:60.4
+- Length:101
+- Length:103
+- Length:93
+- Named:Monomeric beta-2-microglobulin (β2m) fibrils_LS-5
+- Named:Monomeric beta-2-microglobulin (β2m) fibrils_M-2
+- Named:Monomeric beta-2-microglobulin (β2m) fibrils_WL-2
+- Type:Proteins
+- Year:2007
+type: Proteins
 ---
 <html>
 

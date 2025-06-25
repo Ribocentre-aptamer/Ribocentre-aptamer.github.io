@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "GL56 aptamer"
-date:   2024-06-07 00:00:00
+title: GL56 aptamer
+date: 2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:42.699999999999996
+- Length:89
+- Named:Insulin receptor (glioma cells)_GL56
+- Type:Proteins
+- Year:2016
+type: Proteins
 ---
 <html>
 

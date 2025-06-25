@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Gastrointestinal cancer antigen 50-aptamer"
-date:   2024-05-29 00:00:00
+title: Gastrointestinal cancer antigen 50-aptamer
+date: 2024-05-29 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.78
+- GC:52.52
+- Length:69
+- Length:80
+- Named:Gastrointestinal cancer antigen 50_CA50 A01
+- Named:Gastrointestinal cancer antigen 50_CA50 A02
+- Type:Proteins
+- Year:2018
+type: Proteins
 ---
 <html>
 

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Prion protein 2 aptamer"
-date:   2024-05-08 00:00:00
+title: Prion protein 2 aptamer
+date: 2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer
+tags:
+- Category:Prion
+- GC:59.0
+- Length:47
+- Named:Sheep prion protein_RM312 aptamer
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

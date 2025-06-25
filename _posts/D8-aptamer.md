@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "D8 aptamer"
-date:   2024-05-27 00:00:00
+title: D8 aptamer
+date: 2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Synthetic
+- GC:47.620000000000005
+- Length:84
+- Named:Sephadex G-100_D8
+- Type:Small molecules
+- Year:2001
+type: Small molecules
 ---
 <html>
 

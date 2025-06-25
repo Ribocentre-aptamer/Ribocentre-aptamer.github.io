@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "HIV-1 Rev aptamer"
-date:   2024-05-05 00:00:00
+title: HIV-1 Rev aptamer
+date: 2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:56.99999999999999
+- Length:35
+- Named:C-terminally truncated variant of Rev (Rev93)_RBA14 aptamer
+- Type:Proteins
+- Year:2018
+type: Proteins
 ---
 
 

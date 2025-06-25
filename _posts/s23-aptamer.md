@@ -1,9 +1,23 @@
 ---
 layout: theophylline_style
-title:  "s23 aptamer"
-date:   2025-06-08 00:00:00
+title: s23 aptamer
+date: 2025-06-08 00:00:00
 author: Yuxuan Sun
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:51.49
+- GC:55.559999999999995
+- GC:58.330000000000005
+- Length:101
+- Length:36
+- Length:45
+- Named:TFKBP*3R-2G (cell surface protein)_T1 s23
+- Named:TFKBP*3R-2G (cell surface protein)_T2 s23
+- Named:TFKBP*3R-2G (cell surface protein)_s23
+- Type:Proteins
+- Year:2005
+type: Proteins
 ---
 
 

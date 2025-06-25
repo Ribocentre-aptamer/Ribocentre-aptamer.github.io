@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Basic fibroblast growth factor aptamer"
-date:   2024-05-22 00:00:00
+title: Basic fibroblast growth factor aptamer
+date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:47.5
+- Length:80
+- Named:Basic fibroblast growth factor (bFGF)_ps11-20
+- Type:Proteins
+- Year:1998
+type: Proteins
 ---
 <html>
 

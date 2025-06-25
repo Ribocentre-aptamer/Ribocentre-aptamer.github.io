@@ -6,23 +6,32 @@ author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 tags:
 - Category:Bacteria
+- Category:cell
 - GC:47.06
 - GC:50.83
 - GC:51.25999999999999
 - GC:52.1
 - GC:56.2
+- GC:56.96
 - GC:58.68
+- GC:64.0
 - Length:119
 - Length:120
 - Length:121
+- Length:36
+- Length:79
 - Named:Colicin E3_F1-1
 - Named:Colicin E3_F2-1
 - Named:Colicin E3_F3-1
 - Named:Colicin E3_F4-1
 - Named:Colicin E3_F4-2
 - Named:Colicin E3_F5-1
+- Named:Prostate cancer cell_E3 aptamer
+- Named:Prostate cancer cell_E3 aptamer (truncation)
+- Type:Cells
 - Type:Proteins
 - Year:2004
+- Year:2018
 type: Proteins
 ---
 <html>

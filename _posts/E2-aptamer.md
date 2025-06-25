@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "E2 aptamer"
-date:   2024-05-23 00:00:00
+title: E2 aptamer
+date: 2024-05-23 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:52.81
+- GC:56.67
+- Length:89
+- Length:90
+- Named:Amyloid beta-peptide (Aβ)_E2
+- Named:Amyloid beta-peptide (Aβ)_N2
+- Type:Proteins
+- Year:2009
+type: Proteins
 ---
 <html>
 

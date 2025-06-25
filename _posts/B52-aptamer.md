@@ -1,9 +1,24 @@
 ---
 layout: theophylline_style
-title:  "B52-aptamer"
-date:   2024-05-15 00:00:00
+title: B52-aptamer
+date: 2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Other
+- GC:52.22
+- GC:52.81
+- GC:55.559999999999995
+- GC:58.43000000000001
+- Length:89
+- Length:90
+- 'Named:SR Protein B52 (SRp55)_BBS #11'
+- 'Named:SR Protein B52 (SRp55)_BBS #23'
+- 'Named:SR Protein B52 (SRp55)_BBS #4,14,15'
+- 'Named:SR Protein B52 (SRp55)_BBS #8'
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
 <html>
 

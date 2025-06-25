@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "AN58 aptamer"
-date:   2024-05-22 00:00:00
+title: AN58 aptamer
+date: 2024-05-22 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:50.0
+- Length:58
+- Named:GluR2 AMPA receptors_AN58
+- Type:Proteins
+- Year:2007
+type: Proteins
 ---
 <html>
 

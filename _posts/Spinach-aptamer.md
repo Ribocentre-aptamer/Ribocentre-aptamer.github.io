@@ -6,11 +6,18 @@ author: Bo Fu, Jiali Wang
 categories: Aptamer
 tags:
 - Category:Fluorophores
+- GC:54.790000000000006
 - GC:56.00000000000001
+- GC:63.33
+- Length:60
+- Length:73
 - Length:98
 - Named:DFHBI_Spinach aptamer
+- Named:DFHBIiSpinach
+- Named:DMHBI (3,5-Dimethyl-4-hydroxybenzylidene imidazolinone)13-2min
 - Type:Small molecules
 - Year:2011
+- Year:2016
 type: Small molecules
 ---
 <html>

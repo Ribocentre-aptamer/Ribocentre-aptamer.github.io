@@ -20,6 +20,7 @@ tags:
 - Named:RNA-dependent RNA polymerase (3Dpol)_F52
 - Type:Proteins
 - Year:2006
+type: Proteins
 ---
 <html>
 

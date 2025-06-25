@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "C.albicans aptamer"
-date:   2024-05-17 00:00:00
+title: C.albicans aptamer
+date: 2024-05-17 00:00:00
 author: Zhizhong Lu, Ao Ying
 categories: Aptamer
+tags:
+- Category:Other
+- GC:56.47
+- GC:59.519999999999996
+- Length:84
+- Length:85
+- Named:C. albicans_Ca-apt-1
+- Named:C. albicans_Ca-apt-12
+- Type:Cells
+- Year:2019
+type: Cells
 ---
 
 

@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "HIV-1 RT aptamer"
-date:   2025-04-30 00:00:00
+title: HIV-1 RT aptamer
+date: 2025-04-30 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:33.33
+- GC:38.95
+- Length:95
+- Length:96
+- Named:Human imunnodeficiency virus type 1 reverse transcriptase (HIV-1 RT)_ligand
+  1.1
+- Named:Human imunnodeficiency virus type 1 reverse transcriptase (HIV-1 RT)_ligand
+  1.3a
+- Type:Proteins
+- Year:1992
+type: Proteins
 ---
 
 

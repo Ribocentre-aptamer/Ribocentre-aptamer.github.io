@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "pUC19-aptamer"
-date:   2024-05-20 00:00:00
+title: pUC19-aptamer
+date: 2024-05-20 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:56.79
+- Length:81
+- Named:β-catenin_pUC19
+- Type:Proteins
+- Year:2006
+type: Proteins
 ---
 <html>
 

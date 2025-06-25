@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "HPAI H5N1-aptamer"
-date:   2024-06-02 00:00:00
+title: HPAI H5N1-aptamer
+date: 2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:54.55
+- GC:58.330000000000005
+- Length:132
+- Named:Hemagglutinin (HA) of H5N1 and H7N7_8-1
+- Named:Hemagglutinin (HA) of H5N1 and H7N7_8-10
+- Named:Hemagglutinin (HA) of H5N1 and H7N7_8-3
+- Type:Proteins
+- Year:2014
+type: Proteins
 ---
 <html>
 

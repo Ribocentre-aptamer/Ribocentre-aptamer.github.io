@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Rex protein aptamer"
-date:   2024-04-17 00:00:00
+title: Rex protein aptamer
+date: 2024-04-17 00:00:00
 author: Ziyu Guo, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:70.0
+- Length:33
+- Named:HTLV-1 Rex protein_39B aptamer
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
 

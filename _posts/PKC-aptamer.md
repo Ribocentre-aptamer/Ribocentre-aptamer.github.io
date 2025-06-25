@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "PKC aptamer"
-date:   2024-05-14 00:00:00
+title: PKC aptamer
+date: 2024-05-14 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:49.69
+- GC:51.849999999999994
+- Length:159
+- Length:162
+- Named:Protein kinase C beta II_PKC 10
+- Named:Protein kinase C beta II_PKC 6
+- Type:Proteins
+- Year:1994
+type: Proteins
 ---
 <html>
 

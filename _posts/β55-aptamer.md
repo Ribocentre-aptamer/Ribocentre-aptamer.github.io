@@ -6,9 +6,25 @@ author: Yuhang Luo, Linfei Li
 categories: Aptamer
 tags:
 - Category:Amino Acids & Peptides
+- Category:Viral
 - GC:51.519999999999996
+- GC:59.78
+- GC:65.22
+- GC:67.39
+- GC:70.59
+- Length:34
 - Length:66
+- Length:92
 - Named:Amyloid beta-peptide(βA4(1-40))_Beta 55
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  A.2
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.2
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.2 SLII
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.3
+- Type:Proteins
 - Type:Small molecules
 - Year:2002
 type: Small molecules

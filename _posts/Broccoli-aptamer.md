@@ -1,9 +1,36 @@
 ---
 layout: theophylline_style
-title:  "Broccoli aptamer"
-date:   2025-05-08 00:00:00
+title: Broccoli aptamer
+date: 2025-05-08 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:52.53
+- GC:55.1
+- GC:56.00000000000001
+- GC:60.709999999999994
+- GC:60.89
+- GC:61.150000000000006
+- GC:62.28
+- Length:100
+- Length:114
+- Length:157
+- Length:179
+- Length:49
+- Length:56
+- Length:99
+- Named:DFHBI-1T_29-1
+- Named:DFHBI-1T_Broccoli–DFHBI-1T(29-1-3-1)
+- Named:DFHBI-1T_tBroccoli
+- Named:DFHBI-1T_tRNA-Broccoli-c-diGMP sensor
+- Named:DFHBI-1T_tdBroccoli
+- Named:DFHOOrange Broccoli
+- Named:DFHORed Broccoli
+- Type:Small molecules
+- Year:2014
+- Year:2017
+type: Small molecules
 ---
 
 

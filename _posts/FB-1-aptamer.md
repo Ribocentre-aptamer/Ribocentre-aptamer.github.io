@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "FB-1 aptamer"
-date:   2024-05-14 00:00:00
+title: FB-1 aptamer
+date: 2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:52.22
+- Length:90
+- Named:Fluorescein_FB-1
+- Type:Small molecules
+- Year:1998
+type: Small molecules
 ---
 <html>
 

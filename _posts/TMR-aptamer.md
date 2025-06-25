@@ -1,15 +1,34 @@
 ---
 layout: theophylline_style
-title:  TMR aptamer
+title: TMR aptamer
 date: 2024-04-23 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 tags:
 - Category:Fluorophores
+- GC:54.410000000000004
 - GC:58.330000000000005
+- GC:60.760000000000005
+- GC:62.96000000000001
+- GC:63.04
+- GC:64.1
+- GC:65.79
+- Length:38
+- Length:39
+- Length:46
 - Length:48
+- Length:54
+- Length:68
+- Length:79
+- Named:TMR (Tetramethylrhodamine)TMR1
+- Named:TMR (Tetramethylrhodamine)TMR2
+- Named:TMR (Tetramethylrhodamine)TMR3
+- Named:TMR (Tetramethylrhodamine)TMR4
 - Named:TMR (Tetramethylrhodamine)_TMR3 aptamer
+- Named:p-amino phenylalanine (pAF)pAF-4Z1
+- Named:p-amino phenylalanine (pAF)pAF-R1-1
 - Type:Small molecules
+- Year:2010
 - Year:2017
 type: Small molecules
 ---

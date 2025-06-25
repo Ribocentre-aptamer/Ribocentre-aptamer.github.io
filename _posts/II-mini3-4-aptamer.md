@@ -1,16 +1,20 @@
 ---
 layout: theophylline_style
-title:  II-mini3-4 aptamer
-date:   2024-06-07 00:00:00
+title: II-mini3-4 aptamer
+date: 2024-06-07 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
 tags:
 - Category:Fluorophores
 - GC:52.0
+- GC:56.34
 - Length:29
+- Length:71
+- Named:Hoechst 1captamer II
 - Named:Hoechst 33258_II-mini3-4 aptamer
 - Type:Small molecules
 - Year:2008
+type: Small molecules
 ---
 
 

@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Hemagglutinin (HA) protein-aptamer"
-date:   2024-05-29 00:00:00
+title: Hemagglutinin (HA) protein-aptamer
+date: 2024-05-29 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:51.06
+- GC:54.0
+- Length:44
+- Length:94
+- Named:Hemagglutinin (HA) protein_HA12-16
+- Named:Hemagglutinin (HA) protein_HA12-16 aptamer (truncation)
+- Type:Proteins
+- Year:2014
+type: Proteins
 ---
 <html>
 

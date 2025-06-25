@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Clone 5 aptamer"
-date:   2024-05-27 00:00:00
+title: Clone 5 aptamer
+date: 2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:46.62
+- Length:130
+- Named:Sialyl Lewis X (sLeX)_Clone 5
+- Type:Small molecules
+- Year:2001
+type: Small molecules
 ---
 <html>
 

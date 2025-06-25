@@ -7,10 +7,14 @@ categories: Aptamer
 tags:
 - Category:Fluorophores
 - GC:52.21
+- GC:60.0
 - Length:113
+- Length:55
 - Named:Sulforhodamine B_SRB-2
+- Named:TMR-DN, Pyronin B, ATTO495SRB-3
 - Type:Small molecules
 - Year:1998
+- Year:2018
 type: Small molecules
 ---
 <html>

@@ -1,9 +1,32 @@
 ---
 layout: theophylline_style
-title:  "Yeast phenylalanine tRNA aptamer"
-date:   2025-04-24 00:00:00
+title: Yeast phenylalanine tRNA aptamer
+date: 2025-04-24 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:RNA
+- GC:53.21
+- GC:54.05
+- GC:57.02
+- GC:57.269999999999996
+- GC:60.18
+- GC:60.709999999999994
+- Length:109
+- Length:110
+- Length:111
+- Length:112
+- Length:113
+- Length:114
+- Named:Yeast phenylalanine tRNA_B1
+- Named:Yeast phenylalanine tRNA_B2
+- Named:Yeast phenylalanine tRNA_B3
+- Named:Yeast phenylalanine tRNA_B4
+- Named:Yeast phenylalanine tRNA_B6
+- Named:Yeast phenylalanine tRNA_B7
+- Type:Nucleic acids
+- Year:1999
+type: Nucleic acids
 ---
 
 

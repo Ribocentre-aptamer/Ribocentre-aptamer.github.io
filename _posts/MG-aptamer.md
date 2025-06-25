@@ -6,9 +6,12 @@ author: Bo Fu, Jiali Wang
 categories: Aptamer
 tags:
 - Category:Fluorophores
+- GC:55.75
 - GC:61.0
+- Length:113
 - Length:38
 - Named:Malachite green (MG),Tetramethylrhodamine (TMR)_MG aptamer
+- Named:Malachite green (MG)MG4
 - Type:Small molecules
 - Year:1999
 type: Small molecules

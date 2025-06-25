@@ -460,7 +460,9 @@ class AdvancedSearchModule {
         const shareSearch = document.getElementById('shareSearch');
 
         if (backToTop) {
-            backToTop.addEventListener('click', () => {
+            backToTop.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
 
@@ -831,7 +833,7 @@ class AdvancedSearchModule {
                                 
                                 contentPreview = `
                                     <div class="sequence-content">
-                                        <div class="sequence-matched">
+                                        <div class="sequence-info-row">
                                             <strong>Sequence Match:</strong> 
                                             <span class="sequence-text">${displaySequence}</span>
                                             <button class="btn-toggle-sequence" data-full="${sequence}">Show full</button>
@@ -843,7 +845,7 @@ class AdvancedSearchModule {
                                 if (sequence.length > maxVisibleLength) {
                                     contentPreview = `
                                         <div class="sequence-content">
-                                            <div class="sequence-preview">
+                                            <div class="sequence-info-row">
                                                 <strong>Sequence:</strong> 
                                                 <span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span>
                                                 <button class="btn-toggle-sequence" data-full="${sequence}">Show more</button>
@@ -853,7 +855,7 @@ class AdvancedSearchModule {
                                 } else {
                                     contentPreview = `
                                         <div class="sequence-content">
-                                            <div class="sequence-full">
+                                            <div class="sequence-info-row">
                                                 <strong>Sequence:</strong> 
                                                 <span class="sequence-text">${sequence}</span>
                                             </div>
@@ -866,7 +868,7 @@ class AdvancedSearchModule {
                             if (sequence.length > maxVisibleLength) {
                                 contentPreview = `
                                     <div class="sequence-content">
-                                        <div class="sequence-preview">
+                                        <div class="sequence-info-row">
                                             <strong>Sequence:</strong> 
                                             <span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span>
                                             <button class="btn-toggle-sequence" data-full="${sequence}">Show more</button>
@@ -876,7 +878,7 @@ class AdvancedSearchModule {
                             } else {
                                 contentPreview = `
                                     <div class="sequence-content">
-                                        <div class="sequence-full">
+                                        <div class="sequence-info-row">
                                             <strong>Sequence:</strong> 
                                             <span class="sequence-text">${sequence}</span>
                                         </div>
@@ -885,18 +887,38 @@ class AdvancedSearchModule {
                             }
                         }
                         
-                        // Add other important content like Ligand and Affinity
+                        // Add other important content like Named, Ligand and Affinity
+                        const additionalInfo = [];
+                        
+                        // Add sequence name if available
+                        if (item.named && item.named.trim()) {
+                            additionalInfo.push(`<strong>Sequence Name:</strong> ${SearchUtils.highlightKeywords(item.named.trim(), currentQuery)}`);
+                        }
+                        
+                        // Add ligand info
                         if (item.content.includes('Ligand:')) {
                             const ligandMatch = item.content.match(/Ligand:\s*([^|]+)/i);
                             if (ligandMatch && ligandMatch[1]) {
-                                contentPreview += `<div><strong>Ligand:</strong> ${SearchUtils.highlightKeywords(ligandMatch[1].trim(), currentQuery)}</div>`;
+                                additionalInfo.push(`<strong>Ligand:</strong> ${SearchUtils.highlightKeywords(ligandMatch[1].trim(), currentQuery)}`);
                             }
                         }
                         
+                        // Display sequence name and ligand in the same row if both exist
+                        if (additionalInfo.length >= 2) {
+                            contentPreview += `<div class="sequence-info-row">${additionalInfo.slice(0, 2).join(' | ')}</div>`;
+                            // Add remaining info in separate rows
+                            for (let i = 2; i < additionalInfo.length; i++) {
+                                contentPreview += `<div class="sequence-info-row">${additionalInfo[i]}</div>`;
+                            }
+                        } else if (additionalInfo.length === 1) {
+                            contentPreview += `<div class="sequence-info-row">${additionalInfo[0]}</div>`;
+                        }
+                        
+                        // Add affinity in a separate row
                         if (item.content.includes('Affinity:')) {
                             const affinityMatch = item.content.match(/Affinity:\s*([^|]+)/i);
                             if (affinityMatch && affinityMatch[1]) {
-                                contentPreview += `<div><strong>Affinity:</strong> ${SearchUtils.highlightKeywords(affinityMatch[1].trim(), currentQuery)}</div>`;
+                                contentPreview += `<div class="sequence-info-row"><strong>Affinity:</strong> ${SearchUtils.highlightKeywords(affinityMatch[1].trim(), currentQuery)}</div>`;
                             }
                         }
         }
@@ -937,7 +959,7 @@ class AdvancedSearchModule {
                     const isMatchView = this.closest('.sequence-matched') !== null;
                     
                     sequenceContent.innerHTML = `
-                        <div class="sequence-full">
+                        <div class="sequence-info-row">
                             <strong>Sequence:</strong> 
                             <span class="sequence-text">${fullSequence}</span>
                             <button class="btn-toggle-sequence" data-mode="${isMatchView ? 'match' : 'truncate'}">Show less</button>
@@ -953,7 +975,7 @@ class AdvancedSearchModule {
                             // Return to match view (this requires query context which we don't have here)
                             // So we'll just go to truncated view instead
                             sequenceContent.innerHTML = `
-                                <div class="sequence-preview">
+                                <div class="sequence-info-row">
                                     <strong>Sequence:</strong> 
                                     <span class="sequence-text">${fullSequence.substring(0, maxVisible)}...</span>
                                     <button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button>
@@ -962,7 +984,7 @@ class AdvancedSearchModule {
                         } else {
                             // Return to truncated view
                             sequenceContent.innerHTML = `
-                                <div class="sequence-preview">
+                                <div class="sequence-info-row">
                                     <strong>Sequence:</strong> 
                                     <span class="sequence-text">${fullSequence.substring(0, maxVisible)}...</span>
                                     <button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button>
@@ -1797,6 +1819,89 @@ const resultStyles = `
 
 .multi-aptamer-badge[data-tooltip]:hover::after {
     opacity: 1;
+}
+
+/* Sequence info row styling - 蓝色主题，与sequence结果类型一致 */
+.sequence-info-row {
+    margin: 4px 0;
+    padding: 6px 12px;
+    background: rgba(0, 102, 204, 0.05);
+    border-radius: 6px;
+    border-left: 3px solid #0066cc;
+    font-size: 14px;
+    line-height: 1.4;
+    display: block; /* 改为block，避免flex布局导致的换行问题 */
+    min-height: 20px;
+}
+
+.sequence-info-row strong {
+    color: #0066cc;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/* 调整sequence-text样式，确保与sequence-info-row对齐，使用蓝色主题 */
+.sequence-text {
+    font-family: 'Courier New', monospace !important;
+    letter-spacing: 0.5px !important;
+    background-color: rgba(0, 102, 204, 0.1) !important;
+    padding: 4px 8px !important;
+    border-radius: 3px !important;
+    display: inline-block !important;
+    margin: 0 4px 0 0 !important;
+    max-width: calc(100% - 120px) !important;
+    overflow-x: auto !important;
+    white-space: normal !important;
+    word-break: break-all !important;
+    line-height: 1.4 !important;
+    vertical-align: middle !important;
+    border: 1px solid rgba(0, 102, 204, 0.2) !important;
+    color: #333 !important;
+}
+
+/* 序列内容容器，确保与其他元素对齐 */
+.sequence-content {
+    margin-top: 6px !important;
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    line-height: 1.4 !important;
+}
+
+/* 优化按钮样式，改为蓝色主题 */
+.btn-toggle-sequence {
+    background: #0066cc !important;
+    color: white !important;
+    border: none !important;
+    padding: 3px 8px !important;
+    border-radius: 3px !important;
+    font-size: 11px !important;
+    cursor: pointer !important;
+    margin-left: 8px !important;
+    transition: all 0.2s !important;
+    vertical-align: middle !important;
+    line-height: 1.2 !important;
+}
+
+.btn-toggle-sequence:hover {
+    background: #0052a3 !important;
+}
+
+/* 确保sequence name和ligand的行内显示不会因为flex导致问题 */
+.sequence-info-row .inline-info {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 序列匹配高亮样式，改为蓝色主题 */
+.sequence-match {
+    background-color: #cce7ff !important;
+    color: #0066cc !important;
+    font-weight: bold !important;
+    padding: 0 2px !important;
+    border-radius: 2px !important;
 }
 </style>
 `;

@@ -1,9 +1,20 @@
 ---
 layout: theophylline_style
-title:  "Vascular endothelial growth factor aptamer"
-date:   2024-05-19 00:00:00
+title: Vascular endothelial growth factor aptamer
+date: 2024-05-19 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:57.89
+- GC:67.0
+- Length:24
+- Length:76
+- Named:Vascular Endothelial Growth Factor (VEGF)_24A
+- Named:Vascular Endothelial Growth Factor (VEGF)_NX-213 aptamer
+- Type:Proteins
+- Year:1995
+type: Proteins
 ---
 <html>
 

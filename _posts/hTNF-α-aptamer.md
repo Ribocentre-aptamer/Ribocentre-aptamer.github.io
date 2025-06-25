@@ -12,13 +12,16 @@ tags:
 - GC:47.89
 - GC:49.3
 - GC:50.7
+- GC:51.519999999999996
 - GC:52.11
 - GC:53.52
 - GC:56.34
 - GC:60.0
+- Length:33
 - Length:60
 - Length:62
 - Length:71
+- Named:E2F transcription factor (E2F1)_E2F-E1
 - Named:Tumor necrosis factor alpha (hTNFα)_1
 - Named:Tumor necrosis factor alpha (hTNFα)_10
 - Named:Tumor necrosis factor alpha (hTNFα)_11.7
@@ -40,6 +43,7 @@ tags:
 - Named:Tumor necrosis factor alpha (hTNFα)_T1.7.5
 - Named:Tumor necrosis factor alpha (hTNFα)_T4.14.8
 - Type:Proteins
+- Year:2002
 - Year:2004
 type: Proteins
 ---
