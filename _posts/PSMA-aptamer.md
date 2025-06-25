@@ -55,7 +55,7 @@ type: Proteins
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/20550178/" target="_blank" style="color:#520049">2010</a></h3>
     </div>
     <div class="body">
-      <p>A9 apatmer is used in A9-targeted gold nanoparticles for PCa imaging and delivery of doxorubicin payloads<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
+      <p>A9 aptamer is used in A9-targeted gold nanoparticles for PCa imaging and delivery of doxorubicin payloads<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -71,7 +71,7 @@ type: Proteins
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25450401/" target="_blank" style="color:#520049">2014</a></h3>
     </div>
     <div class="body">
-      <p>A9 apatmer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
+      <p>A9 aptamer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -87,7 +87,7 @@ type: Proteins
 
          
 <p class="header_box" id="description">Description</p>
-<p>In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 apatmer is used in generation of A9-bound drug-loaded liposomes. In 2020, Barinka C et al. published on the crystal structure of human prostate-specific membrane antigen (PSMA) in complex with A9g, a 43-bp PSMA-specific RNA aptamer. This structure was determined to a resolution limit of 2.2 Å<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
+<p>In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 aptamer is used in generation of A9-bound drug-loaded liposomes. In 2020, Barinka C et al. published on the crystal structure of human prostate-specific membrane antigen (PSMA) in complex with A9g, a 43-bp PSMA-specific RNA aptamer. This structure was determined to a resolution limit of 2.2 Å<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2002, Lupold et al. used the extracellular moiety of PSMA as a target to isolate for RNA aptamer A9 that can inhibit PSMA enzyme activity and bind to PSMA-positive cells by SELEX technology. The aptamer underwent multiple rounds of screening and amplification to obtain a binding molecule with high affinity and specificity. Two specific aptamers were selected from an initial 40-mer library of approximately 6 × 10¹⁴ random-sequence RNA molecules for their ability to bind to a recombinant protein representing the extracellular 706 amino acids of prostate-specific membrane antigen (PSMA), termed xPSM. Six rounds of in vitro selection were conducted, enriching for xPSM binding as monitored by the aptamers' inhibition of xPSM's N-acetyl-alpha-linked acid dipeptidase (NAALADase) enzymatic activity. By the sixth round, 95% of the aptamer pool consisted of just two sequences. These two aptamers, designated xPSM-A9 and xPSM-A10, were cloned and found to be unique, sharing no consensus sequences<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>

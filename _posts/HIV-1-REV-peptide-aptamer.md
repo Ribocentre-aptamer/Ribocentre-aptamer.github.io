@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: HIV-1 REV peptide apatmer
+title: HIV-1 REV peptide aptamer
 date: 2024-04-08 00:00:00
 author: Zhizhong Lu, Ziyu Guo
 categories: Aptamer

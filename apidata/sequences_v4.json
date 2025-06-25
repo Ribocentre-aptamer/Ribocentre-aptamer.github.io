@@ -1136,7 +1136,7 @@
     },
     {
       "ID": "HIV-1 Rev_Tuerk _1",
-      "Linker name (page name)": "HIV-1 REV peptide apatmer",
+      "Linker name (page name)": "HIV-1 REV peptide aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 REV peptide_35-mer HIV rev RNA aptamer",
@@ -1150,7 +1150,7 @@
       "Affinity": "Kd: NA",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8289245/",
-      "Linker": "/_posts/HIV-1-REV-peptide-apatmer.html"
+      "Linker": "/_posts/HIV-1-REV-peptide-aptamer.html"
     },
     {
       "ID": "PKC βII_Newton_1",
@@ -5981,8 +5981,8 @@
       "Linker name (page name)": "Sheep prion protein",
       "Type": "Proteins",
       "Category": "Prion",
-      "Named": "Sheep prion protein_RM312 apatmer",
-      "Article name": "RM312 apatmer",
+      "Named": "Sheep prion protein_RM312 aptamer",
+      "Article name": "RM312 aptamer",
       "Ligand": "Sheep prion protein",
       "Ligand Description": "Sheep prion protein is a native protein in sheep that, when misfolded, can cause diseases like scrapie, which affects the nervous system of sheep.",
       "CAS": "GQGGGTHNQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPMMHFGNDWEDRYYRENMNRYPNQVYYRPVDQYNNQNNFVHDCVNITIKQHTVTTTTKGENFTETDIKIMERVVEQMCTTQYQKESQAYYDGRRS",
