@@ -163,10 +163,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
       <thead>
         <tr>
           <th>Select</th>
-          <th>ID</th>
-          <th>Type</th>
+          <th>Sequence Name</th>
+          <th>Aptamer Name</th>
           <th>Category</th>
-          <th>Named</th>
+          <th>Type</th>
           <th>Article name</th>
           <th>Ligand</th>
           <th>Ligand Description</th>
@@ -179,6 +179,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
       </thead>
       <tbody></tbody>
     </table>
+  </div>
+  <div style="text-align: center; margin-top: 10px; color: #666; font-size: 14px; font-style: italic;">
+    💡 Tip: Scroll horizontally to view more columns
   </div>
 </section>
 
@@ -393,8 +396,8 @@ function addTooltipListeners() {
 
 function buildRows(data){
   return data.map(d=>{
-    // 处理链接
-    const aptamerLink = d.Linker ? `<a href="${d.Linker}" target="_blank">${d.Named || 'N/A'}</a>` : (d.Named || 'N/A');
+    // 处理链接 - 现在使用Linker name(page name)作为显示文本
+    const aptamerLink = d.Linker ? `<a href="${d.Linker}" target="_blank">${d['Linker name(page name)'] || 'N/A'}</a>` : (d['Linker name(page name)'] || 'N/A');
     
     // 处理PubMed链接
     const yearLink = d['Link to PubMed Entry'] ? `<a href="${d['Link to PubMed Entry']}" target="_blank">${d.Year || 'N/A'}</a>` : (d.Year || 'N/A');
@@ -407,10 +410,10 @@ function buildRows(data){
     
     return [
       '<input type="checkbox" class="row-select">',
-      d.ID || 'N/A',
-      d.Type || 'N/A',
-      d.Category || 'N/A',
+      d.Named || 'N/A',
       aptamerLink,
+      d.Category || 'N/A',
+      d.Type || 'N/A',
       d['Article name'] || 'N/A',
       d.Ligand || 'N/A',
       ligandDesc,
@@ -509,10 +512,10 @@ function loadData(){
           data:rows,
           columns:[
             {title:'Select',orderable:false},
-            {title:'ID'},
-            {title:'Type'},
+            {title:'Sequence Name'},
+            {title:'Aptamer Name'},
             {title:'Category'},
-            {title:'Named'},
+            {title:'Type'},
             {title:'Article name'},
             {title:'Ligand'},
             {title:'Ligand Description'},
@@ -594,7 +597,7 @@ function exportSelected(){
     }
   }
   
-  const headers=['ID','Type','Category','Named','Article name','Ligand','Ligand Description','Sequence','Length','GC Content','Affinity','Year'];
+  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Ligand','Ligand Description','Sequence','Length','GC Content','Affinity','Year'];
   const csv=[headers.join(',')];
   rows.forEach(r=>{
     // 跳过第一个复选框列

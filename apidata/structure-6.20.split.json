@@ -1,6 +1,6 @@
 [
   {
-    " ": 1,
+    "No.": 1,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/FMN-aptamer.html",
     "Name": "FMN aptamer",
     "Ligand": "FMN",
@@ -17,7 +17,7 @@
     "Pubmed4": null
   },
   {
-    " ": 2,
+    "No.": 2,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Arginine-aptamer.html",
     "Name": "Arginine aptamer",
     "Ligand": "Arginine",
@@ -34,7 +34,7 @@
     "Pubmed4": null
   },
   {
-    " ": 3,
+    "No.": 3,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Citrulline-aptamer.html",
     "Name": "Citrulline aptamer",
     "Ligand": "Citrulline",
@@ -51,14 +51,14 @@
     "Pubmed4": null
   },
   {
-    " ": 4,
+    "No.": 4,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Vitamin-B12-aptamer.html",
     "Name": "Vitamin B12-aptamer",
     "Ligand": "Vitamin B12",
     "Structure Determination": "X-ray",
     "NDB_text": "1ET4 1DDY",
     "NDB_url": "https://www.rcsb.org/structure/1ET4",
-    "Phase Determination": "Co ",
+    "Phase Determination": "Co (Phase analysis of heavy atoms，cobalt)",
     "Resolution(Å)": "2.3, >3.0",
     "Year": 2000,
     "Pubmed1_text": "2000",
@@ -68,14 +68,14 @@
     "Pubmed4": null
   },
   {
-    " ": 5,
+    "No.": 5,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Biotin-aptamer.html",
     "Name": "Biotin aptamer",
     "Ligand": "Biotin",
     "Structure Determination": "X-ray",
     "NDB_text": "1F27",
     "NDB_url": "https://www.rcsb.org/structure/1F27",
-    "Phase Determination": "Se  ",
+    "Phase Determination": "Se  (Phase analysis of heavy atoms, selenium)",
     "Resolution(Å)": 1.3,
     "Year": 2000,
     "Pubmed1_text": "2000",
@@ -85,14 +85,14 @@
     "Pubmed4": null
   },
   {
-    " ": 6,
+    "No.": 6,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/5HTP-aptamer.html",
-    "Name": "5HTP-aptamer",
+    "Name": "5HTP aptamer",
     "Ligand": "5-HTP",
     "Structure Determination": "X-ray",
     "NDB_text": "5KPY",
     "NDB_url": "https://www.rcsb.org/structure/5KPY",
-    "Phase Determination": "Ir  ",
+    "Phase Determination": "Ir  (Phase analysis of heavy atoms, iridium)",
     "Resolution(Å)": 2,
     "Year": 2017,
     "Pubmed1_text": "2017",
@@ -102,7 +102,7 @@
     "Pubmed4": null
   },
   {
-    " ": 7,
+    "No.": 7,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/FAD-aptamer.html",
     "Name": "FAD aptamer",
     "Ligand": "FMN",
@@ -119,7 +119,7 @@
     "Pubmed4": null
   },
   {
-    " ": 8,
+    "No.": 8,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Theophylline-aptamer.html",
     "Name": "Theophylline aptamer",
     "Ligand": "TAL3,theophylline,apo,TAL2,TAL1,TAL4",
@@ -136,14 +136,14 @@
     "Pubmed4": null
   },
   {
-    " ": 9,
+    "No.": 9,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/MG-aptamer.html",
     "Name": "MG aptamer",
     "Ligand": "Tetramethylrosamine,Malachite green",
     "Structure Determination": "X-ray",
     "NDB_text": "1F1T",
     "NDB_url": "https://www.rcsb.org/structure/1F1T",
-    "Phase Determination": "Br  ",
+    "Phase Determination": "Br  (Phase analysis of heavy atoms, bromine)",
     "Resolution(Å)": 2.8,
     "Year": 2000,
     "Pubmed1_text": "2000",
@@ -153,14 +153,14 @@
     "Pubmed4": null
   },
   {
-    " ": 10,
+    "No.": 10,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Spinach-aptamer.html",
     "Name": "Spinach aptamer",
     "Ligand": "DFHBI-1T, DFHBI, Fab",
     "Structure Determination": "X-ray",
     "NDB_text": "4TS0, 4TS2, 5OB3, 4Q9R, 4KZD, 4Q9Q",
     "NDB_url": "https://www.rcsb.org/structure/4TS0",
-    "Phase Determination": "Ba  ",
+    "Phase Determination": "Ba  (Phase analysis of heavy atoms, barium)",
     "Resolution(Å)": "2.8, 2.88, 2.0, 3.12, 2.19, 2.45",
     "Year": "2014, 2017",
     "Pubmed1_text": "2014",
@@ -171,7 +171,7 @@
     "Pubmed4": null
   },
   {
-    " ": 11,
+    "No.": 11,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/GTP-aptamer.html",
     "Name": "GTP aptamer",
     "Ligand": "GTP",
@@ -189,14 +189,14 @@
     "Pubmed4": null
   },
   {
-    " ": 12,
+    "No.": 12,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Corn-aptamer.html",
     "Name": "Corn aptamer",
     "Ligand": "DFHO, ThT, TO, apo",
     "Structure Determination": "X-ray",
     "NDB_text": "5BJP, 5BJO, 6E81,6E82, 6E84, 6E80",
     "NDB_url": "https://www.rcsb.org/structure/5BJP",
-    "Phase Determination": "Ir  ",
+    "Phase Determination": "Ir  (Phase analysis of heavy atoms, iridium)",
     "Resolution(Å)": "2.51, 2.35, 2.721, 3.1, 2.9, 2.9",
     "Year": "2017, 2019",
     "Pubmed1_text": "2017",
@@ -207,14 +207,14 @@
     "Pubmed4": null
   },
   {
-    " ": 13,
-    "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Mango-aptamer.html",
-    "Name": "Mango aptamer",
+    "No.": 13,
+    "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Mango-aptamer(TO1-biotin).html",
+    "Name": "Mango aptamer & mango-II aptamer",
     "Ligand": "TO1-Biotin, TO3-Biotin",
     "Structure Determination": "X-ray",
     "NDB_text": "5V3F, 6C63, 6C64, 6C65, 6V9B, 6V9D",
     "NDB_url": "https://www.rcsb.org/structure/5V3F",
-    "Phase Determination": "Ir  ",
+    "Phase Determination": "Ir  (Phase analysis of heavy atoms, iridium)",
     "Resolution(Å)": "1.7, 2.9, 3.0, 2.8, 2.4, 2.8",
     "Year": "2017, 2018, 2020",
     "Pubmed1_text": "2017",
@@ -226,9 +226,9 @@
     "Pubmed4": null
   },
   {
-    " ": 14,
+    "No.": 14,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/DIR2s-apt-aptamer.html",
-    "Name": "DIR2s-apt aptamer",
+    "Name": "DIR2s aptamer",
     "Ligand": "Oxazole thiazole blue (OTB)",
     "Structure Determination": "X-ray",
     "NDB_text": "6DB9, 6DB8",
@@ -243,14 +243,14 @@
     "Pubmed4": null
   },
   {
-    " ": 15,
+    "No.": 15,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Mango-III-aptamer(YO3).html",
-    "Name": "Mango-III aptamer(YO3)",
+    "Name": "mango-III aptamer & mango IV aptamer",
     "Ligand": "TO1-Biotin, TO3-Biotin, DFHBI-1T",
     "Structure Determination": "X-ray",
     "NDB_text": "6E8S, 6E8T, 6E8U, 6QP7, 6UP0, 7LZ0",
     "NDB_url": "https://www.rcsb.org/structure/6E8S",
-    "Phase Determination": "Ir ",
+    "Phase Determination": "Ir  (Phase analysis of heavy atoms, iridium)",
     "Resolution(Å)": "2.35, 2.9, 1.55, 3.0, 2.8, 2.1",
     "Year": "2019, 2021",
     "Pubmed1_text": "2019a",
@@ -261,7 +261,7 @@
     "Pubmed4": null
   },
   {
-    " ": 16,
+    "No.": 16,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/TMR-aptamer.html",
     "Name": "TMR aptamer",
     "Ligand": "Tetramethylrhodamine",
@@ -278,14 +278,14 @@
     "Pubmed4": null
   },
   {
-    " ": 17,
+    "No.": 17,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Chili-aptamer.html",
     "Name": "Chili aptamer",
     "Ligand": "DMHBI+, DMHBO+",
     "Structure Determination": "X-ray",
     "NDB_text": "7OAW, 7OA3, 7OAV, 7OVX",
     "NDB_url": "https://www.rcsb.org/structure/7OAW",
-    "Phase Determination": "Ir  ",
+    "Phase Determination": "Ir  (Phase analysis of heavy atoms, iridium)",
     "Resolution(Å)": "2.95, 2.8, 2.99, 2.24",
     "Year": 2021,
     "Pubmed1_text": "2021",
@@ -295,14 +295,14 @@
     "Pubmed4": null
   },
   {
-    " ": 18,
+    "No.": 18,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Pepper-aptamer.html",
     "Name": "Pepper aptamer",
     "Ligand": "HBC, HBC485, HBC497, HBC508, HBC514, HBC525, HBC620, HBC599 and Fab BL3-6, HBC and Fab BL3-6",
     "Structure Determination": "X-ray",
     "NDB_text": "7EOH, 7EOG, 7EOI, 7EOJ, 7EOK, 7EOL, 7EOM, 7EON, 7EOO, 7EOP, 7U0Y, 7SZU",
     "NDB_url": "https://www.rcsb.org/structure/7EOH",
-    "Phase Determination": "Ir  ",
+    "Phase Determination": "Ir  (Phase analysis of heavy atoms, iridium)",
     "Resolution(Å)": "1.64, 1.5, 1.92, 1.77, 2.7, 2.31, 2.7, 2.3, 2.23, 1.8, 2.66, 2.24",
     "Year": "2021, 2022",
     "Pubmed1_text": "2021",
@@ -313,14 +313,14 @@
     "Pubmed4": null
   },
   {
-    " ": 19,
+    "No.": 19,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Squash-aptamer.html",
     "Name": "Squash aptamer",
     "Ligand": "DFHBI-1T",
     "Structure Determination": "X-ray",
     "NDB_text": "7KVT, 7KVU, 7KVV",
     "NDB_url": "https://www.rcsb.org/structure/7KVT",
-    "Phase Determination": "Ir  ",
+    "Phase Determination": "Ir  (Phase analysis of heavy atoms, iridium)",
     "Resolution(Å)": "2.73, 2.68, 2.85",
     "Year": 2022,
     "Pubmed1_text": "2022",
@@ -330,7 +330,7 @@
     "Pubmed4": null
   },
   {
-    " ": 20,
+    "No.": 20,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Beetroot-aptamer.html",
     "Name": "Beetroot aptamer",
     "Ligand": "DFAME, ThT, DFHO",
@@ -347,7 +347,7 @@
     "Pubmed4": null
   },
   {
-    " ": 21,
+    "No.": 21,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/ATP-aptamer.html",
     "Name": "ATP aptamer",
     "Ligand": "AMP",
@@ -364,9 +364,9 @@
     "Pubmed4": null
   },
   {
-    " ": 22,
+    "No.": 22,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/ATP-aptamer.html",
-    "Name": "ATP-TTR-3 aptamer",
+    "Name": "ATP aptamer",
     "Ligand": "AMP, apo",
     "Structure Determination": "EM",
     "NDB_text": "6WLJ, 6WLK",
@@ -381,7 +381,7 @@
     "Pubmed4": null
   },
   {
-    " ": 23,
+    "No.": 23,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Tobramycin-aptamer.html",
     "Name": "Tobramycin aptamer",
     "Ligand": "Tobramycin",
@@ -399,7 +399,7 @@
     "Pubmed4": null
   },
   {
-    " ": 24,
+    "No.": 24,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Theophylline-aptamer.html",
     "Name": "Theophylline aptamer",
     "Ligand": "Theophylline",
@@ -417,7 +417,7 @@
     "Pubmed4": null
   },
   {
-    " ": 25,
+    "No.": 25,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/NeomycinB-aptamer.html",
     "Name": "NeomycinB aptamer",
     "Ligand": "Neomycin B",
@@ -434,7 +434,7 @@
     "Pubmed4": null
   },
   {
-    " ": 26,
+    "No.": 26,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Streptomycin-aptamer.html",
     "Name": "Streptomycin aptamer",
     "Ligand": "Streptomycin",
@@ -451,7 +451,7 @@
     "Pubmed4": null
   },
   {
-    " ": 27,
+    "No.": 27,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Tetracycline-aptamer.html",
     "Name": "Tetracycline aptamer",
     "Ligand": "Tetracycline",
@@ -468,7 +468,7 @@
     "Pubmed4": null
   },
   {
-    " ": 28,
+    "No.": 28,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Hfq-aptamer.html",
     "Name": "Hfq aptamer",
     "Ligand": "YmaH (Hfq)",
@@ -485,7 +485,7 @@
     "Pubmed4": null
   },
   {
-    " ": 29,
+    "No.": 29,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Ribosomal-protein-S8-aptamer.html",
     "Name": "Ribosomal protein S8-aptamer",
     "Ligand": "Ribosomal protein S8",
@@ -502,7 +502,7 @@
     "Pubmed4": null
   },
   {
-    " ": 30,
+    "No.": 30,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/TetR-aptamer.html",
     "Name": "TetR aptamer",
     "Ligand": "Transcription repressor TetR",
@@ -519,7 +519,7 @@
     "Pubmed4": null
   },
   {
-    " ": 31,
+    "No.": 31,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/GlnRs-aptamer.html",
     "Name": "GlnRs aptamer",
     "Ligand": "GlnRS, Gln",
@@ -536,7 +536,7 @@
     "Pubmed4": null
   },
   {
-    " ": 32,
+    "No.": 32,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/NF-kappaB-aptamer.html",
     "Name": "NF-kappaB P50 aptamer",
     "Ligand": "NF-kappaB",
@@ -553,9 +553,9 @@
     "Pubmed4": null
   },
   {
-    " ": 33,
+    "No.": 33,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/eIF4A-aptamer.html",
-    "Name": "(eIF4A)-aptamer",
+    "Name": "eIF4A aptamer",
     "Ligand": "Initiation factor 4A (eIF4A)",
     "Structure Determination": "NMR",
     "NDB_text": "1XWP, 1XWU",
@@ -570,14 +570,14 @@
     "Pubmed4": null
   },
   {
-    " ": 34,
+    "No.": 34,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer.html",
     "Name": "FC RNA aptamer",
     "Ligand": "RNA polymerase (Pol) II",
     "Structure Determination": "X-ray",
     "NDB_text": "2B63",
     "NDB_url": "https://www.rcsb.org/structure/2B63",
-    "Phase Determination": "Br  ",
+    "Phase Determination": "Br  (Phase analysis of heavy atoms, bromine)",
     "Resolution(Å)": 3.8,
     "Year": 2005,
     "Pubmed1_text": "2005",
@@ -587,7 +587,7 @@
     "Pubmed4": null
   },
   {
-    " ": 35,
+    "No.": 35,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Thrombin-aptamer.html",
     "Name": "Thrombin aptamer",
     "Ligand": "Human thrombin",
@@ -604,7 +604,7 @@
     "Pubmed4": null
   },
   {
-    " ": 36,
+    "No.": 36,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/IgG-aptamer.html",
     "Name": "IgG aptamer",
     "Ligand": "Human IgG",
@@ -621,7 +621,7 @@
     "Pubmed4": null
   },
   {
-    " ": 37,
+    "No.": 37,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/GRK2-aptamer.html",
     "Name": "GRK2 aptamer",
     "Ligand": "G protein-coupled receptor kinase 2",
@@ -638,7 +638,7 @@
     "Pubmed4": null
   },
   {
-    " ": 38,
+    "No.": 38,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Lysozyme-aptamer.html",
     "Name": "lysozyme aptamer",
     "Ligand": "Lysozyme",
@@ -655,14 +655,14 @@
     "Pubmed4": null
   },
   {
-    " ": 39,
+    "No.": 39,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/L-CCL2-aptamer.html",
     "Name": "L-CLL2 aptamer",
     "Ligand": "L-CLL2",
     "Structure Determination": "X-ray",
     "NDB_text": "4R8I",
     "NDB_url": "https://www.rcsb.org/structure/4R8I",
-    "Phase Determination": "Se  ",
+    "Phase Determination": "Se  (Phase analysis of heavy atoms, selenium)",
     "Resolution(Å)": 2.05,
     "Year": 2015,
     "Pubmed1_text": "2015",
@@ -672,9 +672,9 @@
     "Pubmed4": null
   },
   {
-    " ": 40,
+    "No.": 40,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Factor-Xa-aptamer.html",
-    "Name": "Factor Xa-aptamer",
+    "Name": "Factor Xa aptamer",
     "Ligand": "Factor Xa (FXa), factor Xa and Rivaroxaban",
     "Structure Determination": "X-ray",
     "NDB_text": "5VOE, 5VOF",
@@ -689,7 +689,7 @@
     "Pubmed4": null
   },
   {
-    " ": 41,
+    "No.": 41,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/PSMA-aptamer.html",
     "Name": "PSMA aptamer",
     "Ligand": "Prostate-specific membrane antigen",
@@ -706,9 +706,9 @@
     "Pubmed4": null
   },
   {
-    " ": 42,
+    "No.": 42,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/bacteriophage-MS2-coat-protein-aptamer.html",
-    "Name": "Bacteriophage MS2 coat protein-aptamer",
+    "Name": "Bacteriophage MS2 coat protein aptamer",
     "Ligand": "Bacteriophage MS2 coat protein",
     "Structure Determination": "X-ray",
     "NDB_text": "6MSF 5MSF , 7MSF, 1U1Y",
@@ -724,7 +724,7 @@
     "Pubmed4": null
   },
   {
-    " ": 43,
+    "No.": 43,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Bovine-prion-protein-aptamer.html",
     "Name": "Bovine prion protein(bPrP) aptamer",
     "Ligand": "Prion",
@@ -744,9 +744,9 @@
     "Pubmed4_url": "https://pubmed.ncbi.nlm.nih.gov/32188933/"
   },
   {
-    " ": 44,
+    "No.": 44,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/HIV-1-REV-peptide-aptamer.html",
-    "Name": "HIV-1 REV peptide-aptamer",
+    "Name": "HIV-1 REV peptide aptamer",
     "Ligand": "REV peptide",
     "Structure Determination": "NMR",
     "NDB_text": "1ULL, 484D",
@@ -762,7 +762,7 @@
     "Pubmed4": null
   },
   {
-    " ": 45,
+    "No.": 45,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Rex-protein-aptamer.html",
     "Name": "Rex protein aptamer",
     "Ligand": "HTLV-1 arginine-rich Rex peptide",
@@ -779,7 +779,7 @@
     "Pubmed4": null
   },
   {
-    " ": 46,
+    "No.": 46,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/HIV-Tat-aptamer.html",
     "Name": "HIV Tat aptamer",
     "Ligand": "HIV-1 Tat protein",
@@ -796,9 +796,9 @@
     "Pubmed4": null
   },
   {
-    " ": 47,
+    "No.": 47,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/AML1(RUNX1)-aptamer.html",
-    "Name": "AML1 (RUNX1)-aptamer",
+    "Name": "AML1 (RUNX1) aptamer",
     "Ligand": "AML1 Runt domain",
     "Structure Determination": "NMR",
     "NDB_text": "2RRC",
@@ -813,14 +813,14 @@
     "Pubmed4": null
   },
   {
-    " ": 48,
+    "No.": 48,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer.html",
     "Name": "HIV-1 TAR RNA aptamer",
     "Ligand": "TAR RNA",
     "Structure Determination": "X-ray",
     "NDB_text": "2JLT",
     "NDB_url": "https://www.rcsb.org/structure/2JLT",
-    "Phase Determination": "Br ",
+    "Phase Determination": "Br  (Phase analysis of heavy atoms, bromine)",
     "Resolution(Å)": 2.9,
     "Year": 2008,
     "Pubmed1_text": "2008b",
@@ -830,7 +830,7 @@
     "Pubmed4": null
   },
   {
-    " ": 49,
+    "No.": 49,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/HIV-1-Rev-aptamer.html",
     "Name": "HIV-1 Rev aptamer",
     "Ligand": "REV93 peptide",
@@ -847,14 +847,14 @@
     "Pubmed4": null
   },
   {
-    " ": 50,
+    "No.": 50,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Spinach-RNA-aptamer.html",
-    "Name": "24-2-min aptamer",
+    "Name": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
     "Ligand": "DFHBI, Fab BL3-6S97N",
     "Structure Determination": "X-ray",
     "NDB_text": "6B14, 6B3K",
     "NDB_url": "https://www.rcsb.org/structure/6B14",
-    "Phase Determination": "molecular replacement(MR)",
+    "Phase Determination": "Molecular replacement(MR)",
     "Resolution(Å)": "1.64, 2.09",
     "Year": 2018,
     "Pubmed1_text": "2018",
@@ -864,7 +864,7 @@
     "Pubmed4": null
   },
   {
-    " ": 51,
+    "No.": 51,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Ribostamycin-aptamer.html",
     "Name": "Ribostamycin aptamer",
     "Ligand": "Ribostamycin",
@@ -873,14 +873,14 @@
     "Phase Determination": "NA",
     "Resolution(Å)": "NA",
     "Year": 2016,
-    "Pubmed1_text": "2016",
+	"Pubmed1_text": 2016,
     "Pubmed1_url": "https://pubmed.ncbi.nlm.nih.gov/26661511/",
     "Pubmed2": null,
     "Pubmed3": null,
     "Pubmed4": null
   },
   {
-    " ": 52,
+    "No.": 52,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Ribostamycin-aptamer.html",
     "Name": "Paromomycin aptamer",
     "Ligand": "Paromomycin",
@@ -889,7 +889,7 @@
     "Phase Determination": "NA",
     "Resolution(Å)": "NA",
     "Year": 2016,
-    "Pubmed1_text": "2016",
+	"Pubmed1_text": "2016", 
     "Pubmed1_url": "https://pubmed.ncbi.nlm.nih.gov/26661511/",
     "Pubmed2": null,
     "Pubmed3": null,
