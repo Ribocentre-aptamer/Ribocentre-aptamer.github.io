@@ -948,56 +948,8 @@ class AdvancedSearchModule {
 
         container.innerHTML = html;
         
-        // Add event listeners for sequence toggle buttons
-        container.querySelectorAll('.btn-toggle-sequence').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const fullSequence = this.getAttribute('data-full');
-                const sequenceContent = this.closest('.sequence-content');
-                
-                if (this.textContent === 'Show more' || this.textContent === 'Show full') {
-                    // Determine if this was a match view or just truncated view
-                    const isMatchView = this.closest('.sequence-matched') !== null;
-                    
-                    sequenceContent.innerHTML = `
-                        <div class="sequence-info-row">
-                            <strong>Sequence:</strong> 
-                            <span class="sequence-text">${fullSequence}</span>
-                            <button class="btn-toggle-sequence" data-mode="${isMatchView ? 'match' : 'truncate'}">Show less</button>
-                            </div>
-                    `;
-                    
-                    // Re-add event listener to new button
-                    sequenceContent.querySelector('.btn-toggle-sequence').addEventListener('click', function() {
-                        const mode = this.getAttribute('data-mode') || 'truncate';
-                        const maxVisible = 40;
-                        
-                        if (mode === 'match') {
-                            // Return to match view (this requires query context which we don't have here)
-                            // So we'll just go to truncated view instead
-                            sequenceContent.innerHTML = `
-                                <div class="sequence-info-row">
-                                    <strong>Sequence:</strong> 
-                                    <span class="sequence-text">${fullSequence.substring(0, maxVisible)}...</span>
-                                    <button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button>
-                                    </div>
-                            `;
-                        } else {
-                            // Return to truncated view
-                            sequenceContent.innerHTML = `
-                                <div class="sequence-info-row">
-                                    <strong>Sequence:</strong> 
-                                    <span class="sequence-text">${fullSequence.substring(0, maxVisible)}...</span>
-                                    <button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button>
-            </div>
-        `;
-                        }
-                        
-                        // Re-add event listener
-                        sequenceContent.querySelector('.btn-toggle-sequence').addEventListener('click', arguments.callee);
-                    });
-                }
-            });
-        });
+        // Add event listeners for sequence toggle buttons using event delegation
+        this.setupSequenceToggleHandlers(container);
     }
 
     renderTableView(container, data) {
@@ -1379,6 +1331,60 @@ class AdvancedSearchModule {
         if (!text) return '';
         if (text.length <= maxLength) return text;
         return text.substr(0, maxLength) + '...';
+    }
+
+    // Setup sequence toggle handlers using event delegation
+    setupSequenceToggleHandlers(container) {
+        // Remove any existing listener first
+        container.removeEventListener('click', this.sequenceToggleHandler);
+        
+        // Create bound handler
+        this.sequenceToggleHandler = (event) => {
+            if (!event.target.classList.contains('btn-toggle-sequence')) {
+                return;
+            }
+
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const btn = event.target;
+            const sequenceContent = btn.closest('.sequence-content');
+            const isShowingMore = btn.textContent.includes('Show more') || btn.textContent.includes('Show full');
+            
+            if (isShowingMore) {
+                // Show full sequence
+                const fullSequence = btn.getAttribute('data-full');
+                if (!fullSequence) return;
+                
+                const isMatchView = btn.closest('.sequence-matched') !== null;
+                
+                sequenceContent.innerHTML = `
+                    <div class="sequence-info-row">
+                        <strong>Sequence:</strong> 
+                        <span class="sequence-text">${fullSequence}</span>
+                        <button class="btn-toggle-sequence" data-full="${fullSequence}" data-mode="${isMatchView ? 'match' : 'truncate'}">Show less</button>
+                    </div>
+                `;
+            } else {
+                // Show truncated sequence
+                const fullSequence = btn.getAttribute('data-full');
+                if (!fullSequence) return;
+                
+                const maxVisible = 40;
+                const truncatedSequence = fullSequence.substring(0, maxVisible);
+                
+                sequenceContent.innerHTML = `
+                    <div class="sequence-info-row">
+                        <strong>Sequence:</strong> 
+                        <span class="sequence-text">${truncatedSequence}...</span>
+                        <button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button>
+                    </div>
+                `;
+            }
+        };
+        
+        // Add event listener with delegation
+        container.addEventListener('click', this.sequenceToggleHandler);
     }
 
     // 解析 tags 字符串为结构化的 Map
