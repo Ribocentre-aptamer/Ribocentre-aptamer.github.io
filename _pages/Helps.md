@@ -87,6 +87,84 @@ permalink: /helps/
 <br>
 
 
+<p class="header_box" id="api">API Access</p>
+<p>The Ribocentre-Aptamer platform provides a robust API for programmatic access to our aptamer database. This API enables researchers to integrate our data into automated workflows, perform batch queries, and access comprehensive aptamer information in a structured format.</p>
+
+<p class="blowheader_box">API Endpoints</p>
+<p>Our API offers multiple access points for retrieving aptamer data:</p>
+<ul style="padding-left: 20px;">
+  <li><strong>Sequences Page:</strong> <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">https://aptamer.ribocentre.org/sequences/</code> - Returns HTML by default, JSON with <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">format=json</code> parameter</li>
+  <li><strong>JSON API:</strong> <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">https://aptamer.ribocentre.org/api/</code> - Always returns JSON format</li>
+</ul>
+
+<p class="blowheader_box">Query Parameters</p>
+<p>The API supports various query parameters for filtering and searching:</p>
+<ul style="padding-left: 20px;">
+  <li><strong>search:</strong> Search across all aptamer fields (sequence, ligand, name, etc.)</li>
+  <li><strong>id:</strong> Filter results by specific aptamer ID</li>
+  <li><strong>category:</strong> Filter by aptamer category</li>
+  <li><strong>type:</strong> Filter by aptamer type (RNA, DNA)</li>
+  <li><strong>format:</strong> Request data in JSON format (only for <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">/sequences/</code> endpoint)</li>
+  <li><strong>limit:</strong> Limit the number of results returned (only for <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">/api/</code> endpoint)</li>
+  <li><strong>offset:</strong> Specify pagination offset (only for <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">/api/</code> endpoint)</li>
+</ul>
+
+<p class="blowheader_box">Usage Examples</p>
+<p>Here are some common API usage patterns:</p>
+
+<pre style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 5px; padding: 15px; overflow-x: auto; font-family: Monaco, 'Lucida Console', monospace;">
+# Search for ATP-related aptamers (JSON API - always returns JSON)
+curl "https://aptamer.ribocentre.org/api/?search=ATP"
+
+# Get specific aptamer by ID (JSON API)
+curl "https://aptamer.ribocentre.org/api/?id=ATP_Szostak_1"
+
+# Get results with pagination (JSON API supports limit/offset)
+curl "https://aptamer.ribocentre.org/api/?search=DNA&limit=10&offset=0"
+
+# Search via sequences page with JSON format
+curl "https://aptamer.ribocentre.org/sequences/?search=thrombin&format=json"
+
+# Search via sequences page (returns HTML by default)
+curl "https://aptamer.ribocentre.org/sequences/?search=thrombin"
+</pre>
+
+<p class="blowheader_box">Response Format</p>
+<p>API responses include comprehensive debugging information and statistics:</p>
+
+<pre style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 5px; padding: 15px; overflow-x: auto; font-family: Monaco, 'Lucida Console', monospace;">
+{
+  "success": true,
+  "message": "Found 5 result(s)",
+  "query": {
+    "search": "ATP",
+    "timestamp": "2025-01-01T12:00:00.000Z"
+  },
+  "statistics": {
+    "total_in_database": 250,
+    "filtered_results": 5,
+    "returned_results": 5
+  },
+  "data": [...]
+}
+</pre>
+
+<p class="blowheader_box">Data Fields</p>
+<p>Each aptamer entry contains comprehensive information including sequence, target ligand, binding affinity, structure details, and publication references. The API provides access to all fields available in the web interface, enabling complete data integration.</p>
+
+<p class="blowheader_box">Best Practices</p>
+<p>For optimal API usage, we recommend:</p>
+<ul style="padding-left: 20px;">
+  <li>Implement reasonable delays between requests to avoid overwhelming the server</li>
+  <li>Cache frequently accessed data locally to reduce server load</li>
+  <li>Include proper error handling for network issues</li>
+  <li>Always cite our database when using data in publications</li>
+</ul>
+
+<p>For detailed API documentation and technical specifications, please visit our dedicated <a href="/api/" style="color:#520049"><strong>API Documentation page</strong></a>.</p>
+<br>
+
+
 <p class="header_box" id="contact">How to contact us</p>
 <p>For any inquiries or concerns regarding the database, please reach out to <a style="color:#520049"><b><i>2112240208@gdpu.edu.cn</i></b></a>.</p>
 

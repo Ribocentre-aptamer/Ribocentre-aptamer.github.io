@@ -443,19 +443,20 @@ function loadData(){
         data = data.filter(item => item.ID === targetId);
       }
       
+      // 如果有搜索参数，无论是否为JSON格式都要进行过滤
+      if (searchQuery) {
+        data = data.filter(item => {
+          return Object.values(item).some(value => 
+            value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
+          );
+        });
+      }
+      
               // 如果请求JSON格式，直接返回数据
         if (formatParam === 'json') {
-          let responseData = data;
-          let originalCount = data.length;
-          
-          // 如果有搜索参数，进行搜索过滤
-          if (searchQuery) {
-            responseData = data.filter(item => {
-              return Object.values(item).some(value => 
-                value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
-              );
-            });
-          }
+          // 保存原始数据总数（在所有过滤之前）
+          const originalCount = json.Sheet1 ? json.Sheet1.length : json.length;
+          let responseData = data; // 数据已经被上面的逻辑过滤过了
           
           // 构建完整的API响应
           const apiResponse = {
@@ -499,11 +500,26 @@ function loadData(){
       tableData=data;
       const rows=buildRows(data);
       
+      // 如果有搜索参数，显示搜索结果提示
+      if (searchQuery) {
+        const originalCount = json.Sheet1 ? json.Sheet1.length : json.length;
+        const searchResultsInfo = document.createElement('div');
+        searchResultsInfo.style.cssText = 'background: #e8f4fd; border: 1px solid #bee5eb; color: #0c5460; padding: 10px; margin-bottom: 15px; border-radius: 5px; font-size: 14px;';
+        searchResultsInfo.innerHTML = `<strong>Search Results for "${searchQuery}":</strong> Found ${data.length} result(s) out of ${originalCount} total entries. <a href="/sequences/" style="color: #520049; text-decoration: underline;">Clear search</a>`;
+        document.querySelector('h1.post-title').insertAdjacentElement('afterend', searchResultsInfo);
+      }
+      
       // 确保 DataTable 函数存在
       if (typeof $.fn.DataTable === 'undefined') {
         console.error('DataTable is not loaded, trying alternative initialization');
         // 如果 DataTable 没有加载，尝试简单的表格显示
         initSimpleTable(rows);
+        
+        // 如果URL中有search参数，自动执行搜索（简单表格模式）
+        if (searchQuery) {
+          $('#searchBox').val(searchQuery);
+          $('#searchBox').trigger('input');
+        }
         return;
       }
       
