@@ -164,8 +164,7 @@ textarea {
 /* 通用表格基础样式 */
 /* ============================================ */
 .table,
-.table2,
-.aptamer-squared-table {
+.table2 {
   width: 100%;
   max-width: 100%;
   margin: 5px auto;
@@ -176,8 +175,7 @@ textarea {
 }
 
 .table td,
-.table2 td,
-.aptamer-squared-table td {
+.table2 td {
   padding: 10px;
   text-align: center;
   color: white;
@@ -187,22 +185,19 @@ textarea {
 }
 
 .table td:hover,
-.table2 td:hover,
-.aptamer-squared-table td:hover {
+.table2 td:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
 
 .table a,
-.table2 a,
-.aptamer-squared-table a {
+.table2 a {
   color: white !important;
   text-decoration: none !important;
 }
 
 .table a:hover,
-.table2 a:hover,
-.aptamer-squared-table a:hover {
+.table2 a:hover {
   color: white !important;
   text-decoration: none !important;
 }
@@ -305,79 +300,53 @@ textarea {
 .table2 .row15 td:nth-child(1) { background-color: var(--lavender); }
 
 /* ============================================ */
-/* 向后兼容的aptamer-squared-table样式 */
+/* Descriptive text styling for table sections */
 /* ============================================ */
 
-/* 第一个aptamer-squared-table (有3D结构) */
-.aptamer-squared-table:first-of-type .row1 td:nth-child(-n+2) { background-color: var(--salmon); }
-.aptamer-squared-table:first-of-type .row1 td:nth-child(n+3) { background-color: var(--blue); }
+.aptamer-table-description {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049) !important;
+  background-size: 400% 400% !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  animation: moveGradient 8s ease infinite !important;
+  padding: 15px 20px !important;
+  margin: 20px 0 15px 0 !important;
+  border-left: 5px solid #520049 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(82, 0, 73, 0.1) !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  letter-spacing: 0.3px !important;
+  line-height: 1.4 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  background-color: #fafafa !important;
+}
 
-.aptamer-squared-table:first-of-type .row2 td { background-color: var(--blue); }
+.aptamer-table-description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  /* background: linear-gradient(180deg, #520049 0%, #c050d0 100%); */
+}
 
-.aptamer-squared-table:first-of-type .row3 td:nth-child(-n+5) { background-color: var(--orange); }
-.aptamer-squared-table:first-of-type .row3 td:nth-child(n+6) { background-color: var(--pink); }
+.aptamer-table-description:hover {
+  transform: translateX(2px) !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 15px rgba(82, 0, 73, 0.2) !important;
+}
 
-.aptamer-squared-table:first-of-type .row4 td:nth-child(-n+7) { background-color: var(--pink); }
-.aptamer-squared-table:first-of-type .row4 td:nth-child(8), 
-.aptamer-squared-table:first-of-type .row4 td:nth-child(9) { background-color: var(--dark-blue); }
-
-.aptamer-squared-table:first-of-type .row5 td:nth-child(-n+7) { background-color: var(--light-blue); }
-.aptamer-squared-table:first-of-type .row5 td:nth-child(8), .aptamer-squared-table:first-of-type .row5 td:nth-child(9) { background-color: var(--rose); }
-
-.aptamer-squared-table:first-of-type .row6 td:nth-child(1), .aptamer-squared-table:first-of-type .row6 td:nth-child(2) { background-color: var(--rose); }
-.aptamer-squared-table:first-of-type .row6 td:nth-child(n+3):nth-child(-n+6) { background-color: var(--green); }
-.aptamer-squared-table:first-of-type .row6 td:nth-child(7) { background-color: var(--purple); }
-.aptamer-squared-table:first-of-type .row6 td:nth-child(8) { background-color: var(--lime); }
-
-/* 第二个aptamer-squared-table (无3D结构) */
-.aptamer-squared-table:last-of-type .row1 td:nth-child(-n+2) { background-color: var(--salmon); }
-.aptamer-squared-table:last-of-type .row1 td:nth-child(n+3) { background-color: var(--blue); }
-
-.aptamer-squared-table:last-of-type .row2 td { background-color: var(--blue); }
-
-.aptamer-squared-table:last-of-type .row3 td:nth-child(-n+3) { background-color: var(--salmon); }
-.aptamer-squared-table:last-of-type .row3 td:nth-child(n+4) { background-color: var(--pink); }
-
-.aptamer-squared-table:last-of-type .row4 td:nth-child(-n+7) { background-color: var(--pink); }
-.aptamer-squared-table:last-of-type .row4 td:nth-child(n+8) { background-color: var(--light-blue-230); }
-
-.aptamer-squared-table:last-of-type .row5 td:nth-child(-n+2) { background-color: var(--light-blue-250); }
-.aptamer-squared-table:last-of-type .row5 td:nth-child(n+3):nth-child(-n+6) { background-color: var(--rose-142); }
-.aptamer-squared-table:last-of-type .row5 td:nth-child(n+7) { background-color: var(--lime); }
-
-.aptamer-squared-table:last-of-type .row6 td:nth-child(1) { background-color: var(--green); }
-.aptamer-squared-table:last-of-type .row6 td:nth-child(2) { background-color: var(--purple); }
-.aptamer-squared-table:last-of-type .row6 td:nth-child(3) { background-color: var(--lime); }
-.aptamer-squared-table:last-of-type .row6 td:nth-child(n+4) { background-color: var(--pink); }
-
-.aptamer-squared-table:last-of-type .row7 td { background-color: var(--pink); }
-
-.aptamer-squared-table:last-of-type .row8 td:nth-child(1) { background-color: var(--pink); }
-.aptamer-squared-table:last-of-type .row8 td:nth-child(n+2):nth-child(-n+6) { background-color: var(--dark-blue); }
-.aptamer-squared-table:last-of-type .row8 td:nth-child(n+7) { background-color: var(--light-blue); }
-
-.aptamer-squared-table:last-of-type .row9 td:nth-child(-n+3) { background-color: var(--light-blue); }
-.aptamer-squared-table:last-of-type .row9 td:nth-child(n+4) { background-color: var(--rose); }
-
-.aptamer-squared-table:last-of-type .row10 td:nth-child(-n+3) { background-color: var(--rose); }
-.aptamer-squared-table:last-of-type .row10 td:nth-child(n+4) { background-color: var(--green); }
-
-.aptamer-squared-table:last-of-type .row11 td { background-color: var(--green); }
-
-.aptamer-squared-table:last-of-type .row12 td:nth-child(-n+8) { background-color: var(--green); }
-.aptamer-squared-table:last-of-type .row12 td:nth-child(9) { background-color: var(--purple); }
-
-.aptamer-squared-table:last-of-type .row13 td:nth-child(-n+2) { background-color: var(--purple); }
-.aptamer-squared-table:last-of-type .row13 td:nth-child(3) { background-color: var(--crimson); }
-.aptamer-squared-table:last-of-type .row13 td:nth-child(n+4):nth-child(-n+6) { background-color: var(--teal); }
-.aptamer-squared-table:last-of-type .row13 td:nth-child(n+7) { background-color: var(--aqua); }
-
-.aptamer-squared-table:last-of-type .row14 td:nth-child(-n+2) { background-color: var(--forest); }
-.aptamer-squared-table:last-of-type .row14 td:nth-child(3), 
-.aptamer-squared-table:last-of-type .row14 td:nth-child(4) { background-color: var(--lime); }
-.aptamer-squared-table:last-of-type .row14 td:nth-child(n+5) { background-color: var(--lavender); }
-
-.aptamer-squared-table:last-of-type .row15 td:nth-child(1) { background-color: var(--lavender); }
+/* Animation for purple gradient text */
+@keyframes moveGradient {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
 
 /* ============================================ */
 /* 其他组件样式 */
@@ -465,8 +434,66 @@ textarea {
 .table sup,
 .table sub,
 .table2 sup,
-.table2 sub,
-.aptamer-squared-table sup,
-.aptamer-squared-table sub {
+.table2 sub {
   color: #ffffff !important;
+}
+
+/* ============================================ */
+/* 3D结构适配体表格字体颜色优化 */
+/* ============================================ */
+
+/* 为3D结构适配体表格中的浅色背景设置深色字体 */
+[data-table-type="3d"] .aptamer-cell {
+  /* 默认白色字体保持不变 */
+  color: white;
+}
+
+/* 浅黄色背景（抗生素） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#FFEAA7"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#FFEAA7"] a {
+  color: #2c3e50 !important;
+}
+
+/* 浅绿色背景（蛋白质） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#96CEB4"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#96CEB4"] a {
+  color: #2c3e50 !important;
+}
+
+/* 浅紫色背景（转录因子/病毒与核酸/朊病毒） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#DDA0DD"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#DDA0DD"] a {
+  color: #2c3e50 !important;
+}
+
+/* 中蓝色背景（小分子化合物） - 使用白色字体增强对比 */
+[data-table-type="3d"] .aptamer-cell[style*="#45B7D1"] {
+  color: white !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#45B7D1"] a {
+  color: white !important;
+}
+
+/* 青色背景（荧光适配体第二种颜色） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#4ECDC4"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#4ECDC4"] a {
+  color: #2c3e50 !important;
 } 

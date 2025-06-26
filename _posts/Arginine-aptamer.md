@@ -14,7 +14,6 @@ tags:
 - Length:38
 - Length:44
 - Length:97
-- Named:D-arginine_D-R16c
 - Named:L-arginine_44.Arg11
 - Named:L-arginine_L-R16c
 - Named:L-arginine_ag.06

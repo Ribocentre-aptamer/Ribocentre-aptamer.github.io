@@ -94,7 +94,7 @@ type: Proteins
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw.<br></p>
 <p>5'-GGGAUGUUCUAGGCGGUUGAUGAUUUGGGGUGUCGGGCGAUUUUUAGGGUUGGGCCAGGCCGUCAUCCAGAGUAGCAUAAUUGAUCCGA-3'</p>
-<img src="/images/2D/E2_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/E2_aptamer_2D1.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 

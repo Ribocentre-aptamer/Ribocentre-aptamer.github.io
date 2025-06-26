@@ -6,25 +6,9 @@ author: Yuhang Luo, Linfei Li
 categories: Aptamer
 tags:
 - Category:Amino Acids & Peptides
-- Category:Viral
 - GC:51.519999999999996
-- GC:59.78
-- GC:65.22
-- GC:67.39
-- GC:70.59
-- Length:34
 - Length:66
-- Length:92
 - Named:Amyloid beta-peptide(βA4(1-40))_Beta 55
-- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
-  A.2
-- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
-  B.2
-- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
-  B.2 SLII
-- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
-  B.3
-- Type:Proteins
 - Type:Small molecules
 - Year:2002
 type: Small molecules
@@ -116,7 +100,7 @@ type: Small molecules
 <p class="header_box" id="Structure">Structure</p>
 <p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used the dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 29-48 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure.  β55 aptameraptamer binding to Amyloid beta-peptide(βA4(1-40))<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 <p>5'-GGGAAUUCGAGCUCGGUACCUUUACCGUAAGGCCUGUCUUCGUUUGACAGCGGCUUGUUGACCCUCACACUUUGUACCUGCUGCCAACUGCAGGCAUGCAAGCUUGG-3'</p>
-<img src="/images/2D/β55_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/β55_aptamer_2D1.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 

@@ -1,9 +1,18 @@
 ---
 layout: theophylline_style
-title:  "Ribostamycin aptamer, Paromomycin aptamer"
-date:   2025-03-17 00:00:00
+title: Ribostamycin aptamer, Paromomycin aptamer
+date: 2025-03-17 00:00:00
 author: Jiali Wang, Ke Chen
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:51.800000000000004
+- Length:27
+- Named:Paromomycin_Neomycin sensing riboswitch
+- Named:Ribostamycin_Neomycin sensing riboswitch
+- Type:Small molecules
+- Year:2008
+type: Small molecules
 ---
 
 <html>

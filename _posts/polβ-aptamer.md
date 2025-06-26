@@ -6,18 +6,11 @@ author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
 tags:
 - Category:Mammalian
-- GC:41.25
 - GC:46.25
-- GC:46.88
 - GC:47.5
-- GC:48.0
 - GC:48.75
-- GC:49.370000000000005
 - GC:50.0
 - GC:52.5
-- Length:32
-- Length:75
-- Length:79
 - Length:80
 - Named:DNA polymerase beta (polβ)_Aptamer 25
 - Named:DNA polymerase beta (polβ)_Aptamer 31
@@ -27,10 +20,6 @@ tags:
 - Named:DNA polymerase kappa (polκ)_Aptamer 25
 - Named:DNA polymerase kappa (polκ)_Aptamer 32
 - Named:DNA polymerase kappa (polκ)_Aptamer 45
-- Named:RNA-dependent RNA polymerase (3Dpol)_F38
-- Named:RNA-dependent RNA polymerase (3Dpol)_F47
-- Named:RNA-dependent RNA polymerase (3Dpol)_F47tr
-- Named:RNA-dependent RNA polymerase (3Dpol)_F52
 - Type:Proteins
 - Year:2006
 type: Proteins

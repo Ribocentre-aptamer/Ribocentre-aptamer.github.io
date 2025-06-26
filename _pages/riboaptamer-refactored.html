@@ -14,22 +14,22 @@ permalink: /Ribocentre-aptamer/
 
   <script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
 
-  <!-- 引入专用CSS -->
+  <!-- Import specialized CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/aptamer.css">
-  <!-- 引入dashboard专用CSS -->
+  <!-- Import dashboard specialized CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/dashboard.css">
   
   <style>
-    /* 修复表格字体颜色问题 */
+    /* Fix table font color issues */
     .table td {
       color: #333 !important;
     }
     
-    /* 增强悬停提示效果 */
+    /* Enhance hover tooltip effects */
     .amir-tooltip {
       z-index: 9999;
     }
-    /* 统一首字母放大加粗（仅限 aptamer 主页面） */
+    /* Unified first letter capitalization and bold (aptamer main page only) */
     body[data-page="aptamer"] p::first-letter{
       font-weight:700;
       font-size:1.2em;
@@ -48,7 +48,7 @@ permalink: /Ribocentre-aptamer/
       vitro and can be tailored for a specific target.
     </p>
     
-    <!-- 统计信息部分 -->
+    <!-- Statistical information section -->
     <p class="header_box" style="margin-bottom: 0px;padding-bottom: 0px;">Statistical information</p>
     <div class="collapsible-container" style="margin-top: 0px;">
       <p>
@@ -61,7 +61,7 @@ permalink: /Ribocentre-aptamer/
     <!-- Dashboard Section -->
       <div class="dashboard-section" style="background: #f8f9fa; padding: 0px 0; margin-top: 0px;">
         <div class="amir-container">
-          <!-- 类型分布图表 - 移至顶部并增加宽度 -->
+          <!-- Type distribution chart - moved to top with increased width -->
           <div class="chart-wrapper" style="width: 100%; margin-bottom: 20px;">
             <div class="chart-header">
               <h4 class="chart-title">Distribution of Aptamer Types</h4>
@@ -78,7 +78,7 @@ permalink: /Ribocentre-aptamer/
           </div>
 
           <div class="chart-container">
-            <!-- 年份分布图表 -->
+            <!-- Year distribution chart -->
             <div class="chart-wrapper">
               <div class="chart-header">
                 <h4 class="chart-title">Publication Trends by Year</h4>
@@ -91,7 +91,7 @@ permalink: /Ribocentre-aptamer/
               </div>
             </div>
             
-            <!-- 类别分布图表 -->
+            <!-- Category distribution chart -->
             <div class="chart-wrapper">
               <div class="chart-header">
                 <h4 class="chart-title">Distribution of Aptamer Categories</h4>
@@ -105,7 +105,7 @@ permalink: /Ribocentre-aptamer/
             </div>
           </div>
 
-          <!-- 数据筛选条 -->
+          <!-- Data filtering controls -->
           <section class="filter-controls">
             <div class="filter-header">
               <h4 class="filter-title">Data Filtering</h4>
@@ -115,11 +115,11 @@ permalink: /Ribocentre-aptamer/
               </div>
             </div>
             <div class="filter-tags" id="filterTags">
-              <!-- 筛选标签会动态显示在这里 -->
+              <!-- Filter tags will be dynamically displayed here -->
             </div>
           </section>
 
-          <!-- 数据表格 -->
+          <!-- Data table -->
           <section class="data-table-section">
             <div class="chart-header">
               <h4 class="chart-title">RNA Aptamers Data</h4>
@@ -142,14 +142,14 @@ permalink: /Ribocentre-aptamer/
                     </tr>
                   </thead>
                   <tbody id="tableBody">
-                    <!-- 表格数据将通过JavaScript动态填充 -->
+                    <!-- Table data will be dynamically populated via JavaScript -->
                   </tbody>
                 </table>
               </div>
             </div>
           </section>
 
-          <!-- 详细数据计数 -->
+          <!-- Detailed data counts -->
           <section class="data-summary">
             <div class="summary-cards">
               <div class="summary-card">
@@ -168,29 +168,45 @@ permalink: /Ribocentre-aptamer/
       </div>
       
       <div id="sheet1" class="sheet">
-        <!-- Aptamer Squared Table 区域 -->
+        <!-- Aptamer Squared Table Area -->
         <div class="stat-panel">
           <div class="stat-header" onclick="toggleStats()">
             <span>▶ Aptamer Squared Table (click to toggle)</span>
             <span id="toggleIcon">-</span>
           </div>
           <div id="statsContent">
-            <!-- Aptamer Squared Table 内容将通过JavaScript动态生成 -->
-            <!-- 这里展示的是有结构和无结构aptamer的统一配色表格 -->
+            <!-- 3D structure aptamer table with descriptive text -->
+            <div class="aptamer-table-description">
+              This table lists the ligands of aptamers with identified 3D structures:
+            </div>
+            <div id="aptamer3DTableContainer" style="margin-bottom: 40px;">
+              <!-- 3D structure aptamer table will be dynamically generated via JavaScript -->
+            </div>
+            
+            <!-- Non-3D structure aptamer table with descriptive text -->
+            <div class="aptamer-table-description">
+              This table lists the ligands of aptamers with unknown 3D structures:
+            </div>
+            <div id="aptamerTableContainer">
+              <!-- Non-3D structure aptamer table will be dynamically generated via JavaScript -->
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- 悬浮提示框 -->
+  <!-- Floating tooltip -->
   <div class="amir-tooltip" id="amirTooltip">
     <div class="tooltip-content"></div>
     <div class="tooltip-arrow"></div>
     </div>
 
-  <!-- 引入专用JavaScript -->
+  <!-- Import specialized JavaScript -->
   <script src="{{ site.baseurl }}/js/aptamer.js"></script>
+  
+  <!-- Aptamer table generator -->
+  <script src="{{ site.baseurl }}/js/aptamer-table-generator.js"></script>
   
   <!-- Dashboard JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -200,20 +216,74 @@ permalink: /Ribocentre-aptamer/
 
 
   <script>
-    // 全局配置变量
+    // Global configuration variables
     window.DASHBOARD_CONFIG = {
       baseurl: '{{ site.baseurl }}',
       dataPath: '{{ site.baseurl }}/apidata/sequences_cleaned.json'
     };
     
-    // 页面加载完成后初始化dashboard
+    // Global variables to store table manager and generator instances
+    let multiTableManager = null;
+    let aptamer3DTableGenerator = null;
+    let aptamerTableGenerator = null;
+
+    // Toggle statistics panel display state
+    function toggleStats() {
+      const content = document.getElementById('statsContent');
+      const icon = document.getElementById('toggleIcon');
+      
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        icon.textContent = '-';
+      } else {
+        content.style.display = 'none';
+        icon.textContent = '+';
+      }
+    }
+
+    // Initialize all modules after page loading is complete
     document.addEventListener('DOMContentLoaded', function() {
-      // 初始化Dashboard
+      // Initialize Dashboard
       if (typeof DataModule !== 'undefined' && typeof DataModule.loadData === 'function') {
         DataModule.loadData();
       }
       
-      // 绑定导出和重置按钮事件
+      // Initialize aptamer table generators
+      if (typeof AptamerTableGenerator !== 'undefined' && typeof MultiAptamerTableManager !== 'undefined') {
+        
+        // Create multi-table manager
+        multiTableManager = new MultiAptamerTableManager();
+        
+        // Create 3D structure aptamer table
+        aptamer3DTableGenerator = multiTableManager.createTable('aptamer3DTableContainer', '3d', {
+          columnsPerRow: 9,
+          enableTooltips: true,
+          enableHover: true
+        });
+        
+        // Create non-3D structure aptamer table
+        aptamerTableGenerator = multiTableManager.createTable('aptamerTableContainer', 'no3d', {
+          columnsPerRow: 9,
+          enableTooltips: true,
+          enableHover: true
+        });
+        
+        // Load all table data
+        multiTableManager.loadAllTables().then(() => {
+          console.log('🎉 All aptamer tables initialized successfully');
+          
+          // Display statistics
+          const allStats = multiTableManager.getAllStats();
+          console.log('📊 Table statistics:', allStats);
+        }).catch(error => {
+          console.error('❌ Table initialization failed:', error);
+        });
+        
+      } else {
+        console.warn('⚠️ AptamerTableGenerator or MultiAptamerTableManager not found. Please check if the script is loaded correctly.');
+      }
+      
+      // Bind export and reset button events
       const exportBtn = document.getElementById('exportData');
       const resetBtn = document.getElementById('resetAllFilters');
       

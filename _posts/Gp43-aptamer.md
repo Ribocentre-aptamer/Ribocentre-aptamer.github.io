@@ -6,8 +6,15 @@ author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 tags:
 - Category:Other
+- GC:31.0
 - GC:33.629999999999995
+- GC:35.0
+- GC:35.4
 - Length:113
+- Length:51
+- Named:T4 DNA polymerase (gp43)_Major variant aptamer(truncation)
+- Named:T4 DNA polymerase (gp43)_Wild type aptamer(truncation)
+- Named:T4 DNA polymerase (gp43)_major variant
 - Named:T4 DNA polymerase (gp43)_wild type
 - Type:Proteins
 - Year:1990

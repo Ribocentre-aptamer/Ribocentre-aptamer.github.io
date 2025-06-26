@@ -401,8 +401,8 @@ const homepageSearchModule = {
             const data = await SearchUtils.fetchData(searchPaths);
             this.processSearchResults(data, query);
         } catch (e) {
-            console.error('搜索数据加载失败', e);
-            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">无法加载搜索数据，请稍后再试。</div>';
+            console.error('Failed to load search data', e);
+            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">Unable to load search data, please try again later.</div>';
         }
     },
 

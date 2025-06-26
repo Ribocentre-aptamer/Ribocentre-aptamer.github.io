@@ -68,15 +68,12 @@ function renderPieChart() {
     Plotly.newPlot('pie-chart', data, layout);
 }
 
-// 渲染表格列表
+// 渲染表格列表 - DEPRECATED: Now using dynamic table generator
 function renderTableLists() {
-    if (!tableListsData) return;
-    
-    // 渲染有3D结构的表格 - 使用统一的Aptamer Squared Table样式
-    renderTable('with3DStructure', 'aptamer-squared-table', tableListsData.with3DStructure);
-    
-    // 渲染无3D结构的表格 - 使用统一的Aptamer Squared Table样式
-    renderTable('without3DStructure', 'aptamer-squared-table', tableListsData.without3DStructure);
+    // This function is deprecated as tables are now generated dynamically
+    // via aptamer-table-generator.js. Keeping for backward compatibility.
+    console.log('Legacy table rendering function called - now using dynamic generation');
+    return;
 }
 
 // 渲染单个表格

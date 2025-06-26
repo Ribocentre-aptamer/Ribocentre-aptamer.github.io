@@ -6,8 +6,11 @@ author: Zhizhong Lu
 categories: Aptamer
 tags:
 - Category:Synthetic
+- GC:56.06
 - GC:59.4
+- Length:132
 - Length:133
+- Named:Cibacron Blue 3GA_CB-42
 - Named:Reactive Blue 4_B4-25
 - Type:Small molecules
 - Year:1990

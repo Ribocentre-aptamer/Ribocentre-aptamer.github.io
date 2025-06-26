@@ -6,20 +6,14 @@ author: Zhizhong Lu
 categories: Aptamer
 tags:
 - Category:Mammalian
-- GC:44.12
 - GC:48.0
 - GC:51.24999999999999
-- GC:54.410000000000004
 - Length:25
-- Length:68
 - Length:80
-- Named:Bovine thrombin_T705
-- Named:Bovine thrombin_T710
 - Named:Human thrombin_Toggle-25
 - Named:Human thrombin_Toggle-25t RNA aptamer
 - Type:Proteins
 - Year:2001
-- Year:2003
 type: Proteins
 ---
 <html>

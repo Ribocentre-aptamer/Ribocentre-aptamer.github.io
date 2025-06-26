@@ -29,23 +29,155 @@ SEQ_JSON_PATH = os.path.join(PROJECT_ROOT, "apidata", "sequences_cleaned.json")
 
 # ---------- 工具函数 ----------
 
-def normalize(text: str) -> str:
+def normalize(text) -> str:
     """将文本转成统一格式用于标题匹配"""
     if not text:
         return ""
-    return re.sub(r"[^a-z0-9]", "", text.lower())
+    # 确保转换为字符串
+    text_str = str(text)
+    return re.sub(r"[^a-z0-9]", "", text_str.lower())
+
+
+def extract_aptamer_names(linker_name_field: str) -> list:
+    """从 Linker name(page name) 字段中提取所有aptamer名称"""
+    if not linker_name_field:
+        return []
+    
+    # 按逗号分割，然后清理每个名称
+    names = []
+    for name in linker_name_field.split(','):
+        cleaned = name.strip()
+        if cleaned:
+            names.append(cleaned)
+    return names
+
+
+def extract_filename_from_linker(linker_path: str) -> str:
+    """从Linker路径中提取文件名"""
+    if not linker_path:
+        return ""
+    
+    # 提取文件名部分，去掉路径和扩展名
+    filename = os.path.basename(linker_path)
+    if filename.endswith('.html'):
+        filename = filename[:-5]  # 去掉.html
+    elif filename.endswith('.md'):
+        filename = filename[:-3]  # 去掉.md
+    
+    return filename
+
+
+def is_fuzzy_match(text1: str, text2: str, threshold: float = 0.7) -> bool:
+    """检查两个归一化文本是否模糊匹配"""
+    if not text1 or not text2:
+        return False
+    
+    # 完全匹配
+    if text1 == text2:
+        return True
+    
+    # 包含关系
+    if text1 in text2 or text2 in text1:
+        return True
+    
+    # 计算相似度（简单的字符匹配）
+    shorter, longer = (text1, text2) if len(text1) < len(text2) else (text2, text1)
+    common_chars = sum(1 for c in shorter if c in longer)
+    similarity = common_chars / len(longer) if longer else 0
+    
+    return similarity >= threshold
 
 
 def load_sequence_records(path=SEQ_JSON_PATH):
+    """加载序列记录并建立多种映射"""
     with open(path, "r", encoding="utf-8") as f:
         obj = json.load(f)
     sheet = obj.get("Sheet1") or []
-    name_map = defaultdict(list)
+    
+    # 建立多种映射
+    mappings = {
+        'linker_name': defaultdict(list),      # 基于 Linker name(page name)
+        'linker_path': defaultdict(list),      # 基于 Linker 路径
+        'named': defaultdict(list),            # 基于 Named 字段
+        'article_name': defaultdict(list)      # 基于 Article name 字段
+    }
+    
     for rec in sheet:
-        name = normalize(rec.get("Named") or rec.get("ID") or "")
-        if name:
-            name_map[name].append(rec)
-    return name_map
+        # 1. 基于 Linker name(page name) 字段
+        linker_name = rec.get("Linker name(page name)") or ""
+        if linker_name:
+            # 处理多个aptamer名称（逗号分隔）
+            aptamer_names = extract_aptamer_names(linker_name)
+            for name in aptamer_names:
+                normalized = normalize(name)
+                if normalized:
+                    mappings['linker_name'][normalized].append(rec)
+        
+        # 2. 基于 Linker 路径
+        linker_path = rec.get("Linker") or ""
+        if linker_path:
+            filename = extract_filename_from_linker(linker_path)
+            normalized = normalize(filename)
+            if normalized:
+                mappings['linker_path'][normalized].append(rec)
+        
+        # 3. 基于 Named 字段
+        named = rec.get("Named") or ""
+        if named:
+            normalized = normalize(named)
+            if normalized:
+                mappings['named'][normalized].append(rec)
+        
+        # 4. 基于 Article name 字段
+        article_name = rec.get("Article name") or ""
+        if article_name:
+            normalized = normalize(article_name)
+            if normalized:
+                mappings['article_name'][normalized].append(rec)
+    
+    return mappings
+
+
+def find_matching_records(filename_slug: str, title_slug: str, mappings: dict):
+    """查找匹配的记录，使用多种策略"""
+    found_records = []
+    
+    # 策略1: 精确匹配 Linker name
+    for key, records in mappings['linker_name'].items():
+        if key == filename_slug or key == title_slug:
+            found_records.extend(records)
+    
+    # 策略2: 精确匹配 Linker 路径
+    for key, records in mappings['linker_path'].items():
+        if key == filename_slug or key == title_slug:
+            found_records.extend(records)
+    
+    # 如果已找到记录，返回
+    if found_records:
+        return list({id(r): r for r in found_records}.values())
+    
+    # 策略3: 模糊匹配 Linker name
+    for key, records in mappings['linker_name'].items():
+        if is_fuzzy_match(key, filename_slug) or is_fuzzy_match(key, title_slug):
+            found_records.extend(records)
+    
+    # 策略4: 模糊匹配 Linker 路径
+    for key, records in mappings['linker_path'].items():
+        if is_fuzzy_match(key, filename_slug) or is_fuzzy_match(key, title_slug):
+            found_records.extend(records)
+    
+    # 策略5: 检查 Named 字段
+    for key, records in mappings['named'].items():
+        if is_fuzzy_match(key, filename_slug) or is_fuzzy_match(key, title_slug):
+            found_records.extend(records)
+    
+    # 策略6: 检查 Article name 字段
+    for key, records in mappings['article_name'].items():
+        if is_fuzzy_match(key, filename_slug) or is_fuzzy_match(key, title_slug):
+            found_records.extend(records)
+    
+    # 去重并返回
+    return list({id(r): r for r in found_records}.values())
 
 
 def extract_front_matter(content: str):
@@ -68,20 +200,13 @@ def rebuild_post(path: str, meta: dict, body: str):
 # ---------- 主流程 ----------
 
 def main():
-    # ---------- 建立 post 映射：根据 Linker name (page name) 字段 ----------
-    linker_map = defaultdict(list)
-    all_recs = load_sequence_records()
-    for recs in all_recs.values():
-        for r in recs:
-            page_name = r.get("Linker name (page name)") or r.get("Linker") or ""
-            if not page_name:
-                continue
-            slug = normalize(page_name)
-            if slug:
-                linker_map[slug].append(r)
-
+    print("加载序列记录...")
+    mappings = load_sequence_records()
+    
     unmatched = []
-
+    matched_count = 0
+    
+    print("处理aptamer文件...")
     for md_path in glob.glob(os.path.join(POSTS_DIR, "*aptamer.md")):
         try:
             with open(md_path, "r", encoding="utf-8") as f:
@@ -98,22 +223,24 @@ def main():
         meta = yaml.safe_load(yaml_part) or {}
 
         # 通过标题 & 文件名两种归一化后匹配
-        slug1 = normalize(os.path.splitext(os.path.basename(md_path))[0])
-        title_norm = normalize(meta.get("title") or "")
+        filename = os.path.splitext(os.path.basename(md_path))[0]
+        filename_slug = normalize(filename)
+        title_slug = normalize(meta.get("title") or "")
+        
+        print(f"处理文件: {filename}")
+        print(f"  - 文件名归一化: {filename_slug}")
+        print(f"  - 标题归一化: {title_slug}")
 
-        recs = linker_map.get(slug1, []) + linker_map.get(title_norm, [])
-
-        # 若仍未匹配，尝试模糊包含：只要 key 是 title_norm 的子串或相反
-        if not recs:
-            for key, lst in linker_map.items():
-                if key in title_norm or title_norm in key:
-                    recs.extend(lst)
-        if recs:
-            # 去重
-            recs = list({id(r): r for r in recs}.values())
+        # 查找匹配的记录
+        recs = find_matching_records(filename_slug, title_slug, mappings)
+        
         if not recs:
             unmatched.append(md_path)
-            continue  # 不写回，保持原样
+            print(f"  - 未找到匹配记录")
+            continue
+        
+        matched_count += 1
+        print(f"  - 找到 {len(recs)} 条匹配记录")
 
         # 1. 构建 tag 集合，先剔除旧的自动标签
         old_tags = meta.get("tags", []) or []
@@ -154,10 +281,15 @@ def main():
 
         # 4. 写回
         rebuild_post(md_path, meta, body)
+        print(f"  - 已更新标签")
 
-    # 输出未匹配列表
+    # 输出统计结果
+    print(f"\n=== 处理完成 ===")
+    print(f"成功匹配: {matched_count} 个文件")
+    print(f"未匹配: {len(unmatched)} 个文件")
+    
     if unmatched:
-        print("以下页面在 sequences_cleaned.json 中找不到对应记录：")
+        print("\n以下页面在 sequences_cleaned.json 中找不到对应记录：")
         for p in unmatched:
             print("  -", os.path.relpath(p, PROJECT_ROOT))
     else:
