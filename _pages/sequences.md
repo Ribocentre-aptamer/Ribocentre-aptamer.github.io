@@ -405,6 +405,10 @@ function buildRows(data){
           aptamerName = 'CB-42 aptamer';
         } else if (seqName.includes('B4-25')) {
           aptamerName = 'B4-25 aptamer';
+        } else if (seqName.includes('Ribostamycin')) {
+          aptamerName = 'Ribostamycin aptamer';
+        } else if (seqName.includes('Paromomycin')) {
+          aptamerName = 'Paromomycin aptamer';
         }
         // 可以在这里添加更多特殊情况的处理
       }

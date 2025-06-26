@@ -1253,6 +1253,10 @@ const TableModule = {
                         processedAptamerName = 'CB-42 aptamer';
                     } else if (seqName.includes('B4-25')) {
                         processedAptamerName = 'B4-25 aptamer';
+                    } else if (seqName.includes('Ribostamycin')) {
+                        processedAptamerName = 'Ribostamycin aptamer';
+                    } else if (seqName.includes('Paromomycin')) {
+                        processedAptamerName = 'Paromomycin aptamer';
                     }
                     // 可以在这里添加更多特殊情况的处理
                 }

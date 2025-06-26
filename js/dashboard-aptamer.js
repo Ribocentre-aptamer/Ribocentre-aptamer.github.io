@@ -197,6 +197,10 @@ TableModule.updateDataTable = function() {
                     aptamerNameHTML = 'CB-42 aptamer';
                 } else if (seqName.includes('B4-25')) {
                     aptamerNameHTML = 'B4-25 aptamer';
+                } else if (seqName.includes('Ribostamycin')) {
+                    aptamerNameHTML = 'Ribostamycin aptamer';
+                } else if (seqName.includes('Paromomycin')) {
+                    aptamerNameHTML = 'Paromomycin aptamer';
                 }
                 // 可以在这里添加更多特殊情况的处理
             }
