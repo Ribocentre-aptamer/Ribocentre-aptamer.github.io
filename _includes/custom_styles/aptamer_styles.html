@@ -140,6 +140,88 @@
     background: rgba(82, 0, 73, 0.9);
   }
 
+  /* 序列访问球样式 */
+  .sequence-ball {
+    position: fixed;
+    top: calc(50% + 70px);
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: #28a745;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+  }
+
+  .sequence-ball:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+  }
+
+  .sequence-ball-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .sequence-ball-icon .seq-bar {
+    background: white;
+    width: 2px;
+    border-radius: 1px;
+    transition: var(--transition);
+  }
+
+  /* 不同高度的条形，模拟序列数据 */
+  .sequence-ball-icon .seq-bar:nth-child(1) {
+    height: 10px;
+  }
+
+  .sequence-ball-icon .seq-bar:nth-child(2) {
+    height: 14px;
+  }
+
+  .sequence-ball-icon .seq-bar:nth-child(3) {
+    height: 8px;
+  }
+
+  .sequence-ball-icon .seq-bar:nth-child(4) {
+    height: 16px;
+  }
+
+  .sequence-ball-icon .seq-bar:nth-child(5) {
+    height: 12px;
+  }
+
+  /* 悬浮动画效果 - 条形上下跳动 */
+  .sequence-ball:hover .sequence-ball-icon .seq-bar:nth-child(1) {
+    transform: translateY(-1px);
+  }
+
+  .sequence-ball:hover .sequence-ball-icon .seq-bar:nth-child(2) {
+    transform: translateY(1px);
+  }
+
+  .sequence-ball:hover .sequence-ball-icon .seq-bar:nth-child(3) {
+    transform: translateY(-2px);
+  }
+
+  .sequence-ball:hover .sequence-ball-icon .seq-bar:nth-child(4) {
+    transform: translateY(1px);
+  }
+
+  .sequence-ball:hover .sequence-ball-icon .seq-bar:nth-child(5) {
+    transform: translateY(-1px);
+  }
+
   .nav-ball-icon {
     width: 24px;
     height: 24px;
@@ -737,6 +819,53 @@
       overflow-x: auto;
     }
 
+    /* 移动端导航球和序列球样式 */
+    .nav-ball {
+      right: 20px;
+      width: 45px;
+      height: 45px;
+    }
+
+    .sequence-ball {
+      right: 20px;
+      top: calc(50% + 60px);
+      width: 45px;
+      height: 45px;
+    }
+
+    .sequence-ball-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    .sequence-ball-icon {
+      gap: 1px;
+    }
+
+    .sequence-ball-icon .seq-bar {
+      width: 2px;
+    }
+
+    .sequence-ball-icon .seq-bar:nth-child(1) {
+      height: 8px;
+    }
+
+    .sequence-ball-icon .seq-bar:nth-child(2) {
+      height: 12px;
+    }
+
+    .sequence-ball-icon .seq-bar:nth-child(3) {
+      height: 6px;
+    }
+
+    .sequence-ball-icon .seq-bar:nth-child(4) {
+      height: 14px;
+    }
+
+    .sequence-ball-icon .seq-bar:nth-child(5) {
+      height: 10px;
+    }
+
     /* 3D可视化移动端样式 */
     .structure-table {
       width: 100% !important;
@@ -941,4 +1070,6 @@
     font-size:1.2em;
     color:#520049;
   }
+
+
 </style> 

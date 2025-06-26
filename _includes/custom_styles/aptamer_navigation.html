@@ -12,6 +12,17 @@
   </div>
 </div>
 
+<!-- 序列访问球 -->
+<div class="sequence-ball" id="sequenceBtn" title="View related sequences">
+  <div class="sequence-ball-icon">
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+  </div>
+</div>
+
 <!-- 遮罩层 -->
 <div class="overlay" id="overlay"></div>
 
@@ -400,6 +411,51 @@
         }
         currentAnchor = null;
       };
+    }
+
+    /* ============ Aptamer序列访问按钮事件处理 ============ */
+    // 处理序列访问按钮点击
+    const sequenceBtn = document.getElementById('sequenceBtn');
+    if (sequenceBtn) {
+      sequenceBtn.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        // 从页面标题生成搜索查询 - 使用document.title获取准确的页面标题
+        let titleText = document.title.trim();
+        
+        // 如果document.title包含站点名称，去除它
+        if (titleText.includes(' | ') || titleText.includes(' - ')) {
+          titleText = titleText.split(/\s+[\|\-]\s+/)[0].trim();
+        }
+        
+        // 如果还是没有获取到，尝试从h1获取
+        if (!titleText) {
+          const pageTitle = document.querySelector('h1');
+          titleText = pageTitle ? pageTitle.textContent.trim() : '';
+        }
+        
+        let searchQuery = '';
+        
+        if (titleText) {
+          console.log('Original title:', titleText);
+          
+          // 直接使用完整的页面标题进行搜索
+          // 因为同事们混用dash符号，完整标题搜索更准确
+          searchQuery = titleText.trim();
+          
+          console.log('Using full title as search query:', searchQuery);
+        }
+        
+        // 如果没有获取到标题，使用默认搜索词
+        if (!searchQuery) {
+          searchQuery = 'aptamer';
+        }
+        
+        // 跳转到sequences页面并执行搜索
+        const sequencesUrl = `/sequences/?search=${encodeURIComponent(searchQuery)}`;
+        console.log('Navigating to sequences page with query:', searchQuery);
+        window.open(sequencesUrl, '_blank');
+      });
     }
 
     console.timeEnd('aptamer_init');

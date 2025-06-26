@@ -271,6 +271,12 @@ body {
 
 The Ribocentre-Aptamer platform provides a simple yet powerful API for programmatic access to our aptamer database. Our API is designed to support researchers in automated data retrieval and integration with existing research workflows.
 
+**Key Features:**
+- **Real-time Search Filtering**: Both HTML and JSON endpoints support URL-based search parameters
+- **Dual Access Modes**: Interactive web interface (`/sequences/`) and dedicated JSON API (`/api/`)
+- **Enhanced Debugging**: JSON responses include comprehensive query statistics and suggestions
+- **Flexible Output**: HTML for human browsing, JSON for programmatic access
+
 ## Base URL
 
 ```
@@ -281,26 +287,30 @@ https://aptamer.ribocentre.org
 
 The primary API endpoint is built around our sequences page, which provides access to comprehensive aptamer sequence data.
 
-### Endpoint
+### Primary Endpoints
 
 ```
-GET /sequences/
+GET /sequences/          # Interactive web interface with search filtering
+GET /api/               # Dedicated JSON API endpoint
 ```
 
 ### Query Parameters
 
 #### Search Functionality
 
-Search across all fields in the aptamer database using a single search term.
+Search across all fields in the aptamer database using a single search term. Both endpoints support real-time search filtering.
 
 **Parameter:** `search`  
 **Type:** String  
 **Description:** Search across all aptamer fields (sequence, ligand, name, etc.)  
-**Example:** `?search=123`
+**Example:** `?search=thrombin`
 
 ```bash
-# Example: Search for "123" across all fields
-curl "https://aptamer.ribocentre.org/sequences/?search=123"
+# Example: Search for "thrombin" across all fields (HTML interface)
+curl "https://aptamer.ribocentre.org/sequences/?search=thrombin"
+
+# Example: Search via dedicated JSON API
+curl "https://aptamer.ribocentre.org/api/?search=thrombin"
 ```
 
 #### ID-based Filtering
@@ -310,11 +320,14 @@ Filter the database to show only specific aptamer entries by their unique identi
 **Parameter:** `id`  
 **Type:** String  
 **Description:** Filter results to show only the aptamer with the specified ID  
-**Example:** `?id=123`
+**Example:** `?id=ATP_Szostak_1`
 
 ```bash
-# Example: Get aptamer with ID "123"
-curl "https://aptamer.ribocentre.org/sequences/?id=123"
+# Example: Get specific aptamer by ID (HTML interface)
+curl "https://aptamer.ribocentre.org/sequences/?id=ATP_Szostak_1"
+
+# Example: Get specific aptamer via JSON API
+curl "https://aptamer.ribocentre.org/api/?id=ATP_Szostak_1"
 ```
 
 #### JSON API Response
@@ -334,21 +347,24 @@ curl "https://aptamer.ribocentre.org/sequences/?search=ATP&format=json"
 
 #### Dedicated JSON API Endpoint
 
-Access the dedicated JSON API endpoint for programmatic access.
+Access the dedicated JSON API endpoint for programmatic access with enhanced debugging information.
 
 **Endpoint:** `/api/`  
-**Parameters:** All same parameters as `/sequences/` endpoint  
-**Format:** Always returns JSON
+**Parameters:** All same parameters as `/sequences/` endpoint (search, id, category, type, limit, offset)  
+**Format:** Always returns JSON with comprehensive response metadata
 
 ```bash
 # Example: Search for ATP-related aptamers via JSON API
 curl "https://aptamer.ribocentre.org/api/?search=ATP"
+
+# Example: Get paginated results
+curl "https://aptamer.ribocentre.org/api/?search=DNA&limit=10&offset=0"
 ```
 
 ### Response Format
 
 #### HTML Response (Default)
-The API returns data in HTML format with structured table content including complete aptamer information.
+The sequences endpoint returns data in HTML format with structured table content including complete aptamer information. When search parameters are provided, the HTML interface displays filtered results with a clear indication of the search query and result count, plus a link to clear the search and return to all data.
 
 #### JSON Response Format
 When using `format=json` parameter or the `/api/` endpoint, the response includes enhanced debugging information:
@@ -407,37 +423,45 @@ Each aptamer entry contains the following fields:
 
 ### Basic Query
 
-Retrieve all aptamer data:
+Retrieve all aptamer data (HTML interface):
 ```
 https://aptamer.ribocentre.org/sequences/
 ```
 
-### Search Query
+### Search Queries
 
-Search for aptamers containing "123":
+Search for aptamers containing "thrombin" (returns filtered HTML results):
 ```
-https://aptamer.ribocentre.org/sequences/?search=123
+https://aptamer.ribocentre.org/sequences/?search=thrombin
 ```
 
-### Search with JSON Response
-
-Get search results in JSON format:
+Search with JSON response (sequences endpoint):
 ```
 https://aptamer.ribocentre.org/sequences/?search=ATP&format=json
 ```
 
 ### JSON API Endpoint
 
-Use the dedicated JSON API:
+Use the dedicated JSON API (always returns JSON):
 ```
 https://aptamer.ribocentre.org/api/?search=ATP
 ```
 
-### Filtered Query
+Get paginated results:
+```
+https://aptamer.ribocentre.org/api/?search=DNA&limit=10&offset=0
+```
 
-Retrieve specific aptamer by ID:
+### Filtered Queries
+
+Retrieve specific aptamer by ID (HTML):
 ```
 https://aptamer.ribocentre.org/sequences/?id=ATP_Szostak_1
+```
+
+Retrieve specific aptamer by ID (JSON):
+```
+https://aptamer.ribocentre.org/api/?id=ATP_Szostak_1
 ```
 
 ## CLI-Friendly Usage

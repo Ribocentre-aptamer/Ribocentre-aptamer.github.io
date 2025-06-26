@@ -20,6 +20,10 @@ class AdvancedSearchModule {
         this.masonryPageSize = 30;
         this.masonryData = [];
         
+        // Performance optimizations
+        this.searchCache = new Map();
+        this.debounceDelay = 300;
+        
         this.init();
     }
 
@@ -253,13 +257,10 @@ class AdvancedSearchModule {
                 }, 300);
             });
 
-            searchInput.addEventListener('focus', () => {
+            searchInput.addEventListener('focus', (e) => {
                 this.showSuggestions();
             });
 
-            searchInput.addEventListener('blur', () => {
-                setTimeout(() => this.hideSuggestions(), 200);
-            });
         }
 
         if (clearBtn) {
@@ -321,10 +322,10 @@ class AdvancedSearchModule {
         let isSliding = false;
 
         function updateStickyState() {
-            const isSearchFocused = searchCard.classList.contains('focused');
             const isFilterOpen = !filtersContent.classList.contains('collapsed');
             
-            if (isSearchFocused) {
+            // Focus状态检查已移除，不再添加sticky类
+            if (false) {
                 searchCard.classList.add('sticky');
                 if (isFilterOpen) {
                     filterCard.classList.add('sticky');
@@ -493,8 +494,8 @@ class AdvancedSearchModule {
 
         this.showLoadingState();
 
-        // Simulated search delay
-        await new Promise(resolve => setTimeout(resolve, 500));
+        // Reduced simulated search delay for better UX
+        await new Promise(resolve => setTimeout(resolve, 100));
 
         const startTime = performance.now();
 
@@ -754,9 +755,12 @@ class AdvancedSearchModule {
                 }
             }
             
-            // If multiple aptamers in the page,添加额外标签
+            // If multiple aptamers in the page,添加可点击的序列访问按钮
             if (item.result_type === 'page' && item.aptamer_count && item.aptamer_count > 1) {
-                tags.push(`<span class="tag tag-app">Multiple Aptamers (${item.aptamer_count})</span>`);
+                const searchQuery = this.generateSequenceSearchQuery(item);
+                tags.push(`<button class="tag tag-sequences-btn" data-search-query="${searchQuery}" title="View all ${item.aptamer_count} sequences from this page">
+                    <i class="fas fa-dna"></i> ${item.aptamer_count} Sequences
+                </button>`);
             }
             
             // Meta information
@@ -950,6 +954,12 @@ class AdvancedSearchModule {
         
         // Add event listeners for sequence toggle buttons using event delegation
         this.setupSequenceToggleHandlers(container);
+        
+        // Add event listeners for sequences access buttons
+        this.setupSequencesAccessHandlers(container);
+        
+        // Add global click handler to prevent unwanted scrolling
+        this.setupGlobalClickHandler(container);
     }
 
     renderTableView(container, data) {
@@ -993,10 +1003,14 @@ class AdvancedSearchModule {
                             const lenDisplay = item.sequence_length_range || item.sequence_length || '-';
                             const gcDisplay = item.gc_content_range || (item.gc_content !== undefined ? item.gc_content : '-');
 
-                            // Multi-aptamer badge
-                            const multiBadge = (item.result_type === 'page' && item.aptamer_count && item.aptamer_count > 1)
-                                ? `<span class="multi-aptamer-badge" data-tooltip="Multiple aptamers (${item.aptamer_count})">${item.aptamer_count}×</span>`
-                                : '';
+                            // Multi-aptamer badge - 改为可点击按钮
+                            let multiBadge = '';
+                            if (item.result_type === 'page' && item.aptamer_count && item.aptamer_count > 1) {
+                                const searchQuery = this.generateSequenceSearchQuery(item);
+                                multiBadge = `<button class="multi-aptamer-btn" data-search-query="${searchQuery}" title="View all ${item.aptamer_count} sequences from this page">
+                                    <i class="fas fa-dna"></i> ${item.aptamer_count}×
+                                </button>`;
+                            }
 
                             return `
                             <tr class="${typeClass}">
@@ -1023,6 +1037,12 @@ class AdvancedSearchModule {
         `;
 
         container.innerHTML = html;
+        
+        // Add event listeners for sequences access buttons in table view
+        this.setupSequencesAccessHandlers(container);
+        
+        // Add global click handler to prevent unwanted scrolling
+        this.setupGlobalClickHandler(container);
     }
 
     setupPagination() {
@@ -1314,6 +1334,15 @@ class AdvancedSearchModule {
         }
     }
 
+    hideSuggestions() {
+        const suggestions = document.getElementById('searchSuggestions');
+        if (suggestions && suggestions.style.display !== 'none') {
+            suggestions.style.display = 'none';
+            // 防止任何可能的滚动行为
+            suggestions.scrollTop = 0;
+        }
+    }
+
     highlightKeywords(text, query) {
         return SearchUtils.highlightKeywords(text, query);
     }
@@ -1331,6 +1360,87 @@ class AdvancedSearchModule {
         if (!text) return '';
         if (text.length <= maxLength) return text;
         return text.substr(0, maxLength) + '...';
+    }
+
+    // Generate search query for accessing sequences from a page
+    generateSequenceSearchQuery(item) {
+        // 尝试从页面信息生成合适的搜索查询
+        // 优先使用更具体的标识符
+        
+        // 1. 如果页面有明确的配体信息，使用配体名称
+        if (item.structured_tags && item.structured_tags['Ligand']) {
+            return item.structured_tags['Ligand'];
+        }
+        
+        // 2. 从content中提取配体信息
+        if (item.content && item.content.includes('Ligand:')) {
+            const ligandMatch = item.content.match(/Ligand:\s*([^|,]+)/i);
+            if (ligandMatch && ligandMatch[1]) {
+                return ligandMatch[1].trim();
+            }
+        }
+        
+        // 3. 从标题中提取关键词（去除常见的aptamer、binding等词汇）
+        if (item.title) {
+            let titleQuery = item.title
+                .replace(/\s*aptamer\s*/gi, ' ')
+                .replace(/\s*binding\s*/gi, ' ')
+                .replace(/\s*RNA\s*/gi, ' ')
+                .replace(/\s*DNA\s*/gi, ' ')
+                .replace(/\s*sequence\s*/gi, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+            
+            // 取前1-2个重要词汇
+            const words = titleQuery.split(' ').filter(word => word.length > 2);
+            if (words.length > 0) {
+                return words.slice(0, 2).join(' ');
+            }
+        }
+        
+        // 4. fallback - 使用页面类别信息
+        if (item.structured_tags && item.structured_tags['Type']) {
+            return item.structured_tags['Type'];
+        }
+        
+        // 5. 最后fallback - 使用部分标题
+        return item.title ? item.title.split(' ').slice(0, 2).join(' ') : 'aptamer';
+    }
+
+    // Setup sequences access button handlers using event delegation
+    setupSequencesAccessHandlers(container) {
+        // Remove any existing listener first
+        if (this.sequencesAccessHandler) {
+            container.removeEventListener('click', this.sequencesAccessHandler);
+        }
+        
+        // Create bound handler
+        this.sequencesAccessHandler = (event) => {
+            // 检查是否点击了任一类型的序列访问按钮
+            const sequencesBtn = event.target.closest('.tag-sequences-btn');
+            const multiAptamerBtn = event.target.closest('.multi-aptamer-btn');
+            
+            if (!sequencesBtn && !multiAptamerBtn) {
+                return;
+            }
+
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const btn = sequencesBtn || multiAptamerBtn;
+            const searchQuery = btn.getAttribute('data-search-query');
+            
+            if (searchQuery) {
+                // 构建sequences页面的URL，带上搜索参数
+                const sequencesUrl = `/sequences/?search=${encodeURIComponent(searchQuery)}`;
+                
+                // 在新窗口中打开
+                window.open(sequencesUrl, '_blank');
+            }
+        };
+        
+        // Add event listener with delegation
+        container.addEventListener('click', this.sequencesAccessHandler);
     }
 
     // Setup sequence toggle handlers using event delegation
@@ -1385,6 +1495,80 @@ class AdvancedSearchModule {
         
         // Add event listener with delegation
         container.addEventListener('click', this.sequenceToggleHandler);
+    }
+
+    // Setup global click handler to debug and prevent unwanted scrolling
+    setupGlobalClickHandler(container) {
+        // Remove any existing listener first
+        container.removeEventListener('click', this.globalClickHandler);
+        
+        // Create bound handler
+        this.globalClickHandler = (event) => {
+            console.log('Click detected on:', event.target, 'Tag:', event.target.tagName, 'Classes:', event.target.classList);
+            
+            // Check for problematic elements that might cause scrolling
+            const target = event.target;
+            
+            // If it's a link with href="#" or empty href, prevent default
+            if (target.tagName === 'A') {
+                const href = target.getAttribute('href');
+                if (!href || href === '#' || href === 'javascript:void(0)') {
+                    console.log('Preventing default for problematic link:', href);
+                    event.preventDefault();
+                    event.stopPropagation();
+                    return;
+                }
+            }
+            
+            // Check for buttons without proper type
+            if (target.tagName === 'BUTTON' && !target.getAttribute('type')) {
+                console.log('Button without type attribute detected');
+                // Don't prevent default for buttons, just log
+            }
+            
+            // Check for elements with onclick handlers
+            if (target.onclick || target.getAttribute('onclick')) {
+                console.log('Element with onclick detected:', target.onclick || target.getAttribute('onclick'));
+            }
+        };
+        
+        // Add event listener with delegation
+        container.addEventListener('click', this.globalClickHandler);
+    }
+
+    // 生成缓存键
+    generateCacheKey(query, filters, searchType) {
+        const filterString = JSON.stringify(filters);
+        return `${query}_${searchType}_${btoa(filterString)}`;
+    }
+
+    // 缓存搜索结果
+    cacheSearchResults(cacheKey, results, searchTime) {
+        // 限制缓存大小，只保留最近的20个搜索结果
+        if (this.searchCache.size >= 20) {
+            const firstKey = this.searchCache.keys().next().value;
+            this.searchCache.delete(firstKey);
+        }
+        
+        this.searchCache.set(cacheKey, {
+            results: [...results], // 创建副本避免引用问题
+            searchTime,
+            timestamp: Date.now()
+        });
+    }
+
+    // 更新结果信息
+    updateResultsInfo(resultCount, searchTime) {
+        const resultsCount = document.getElementById('resultsCount');
+        const searchTimeSpan = document.getElementById('searchTime');
+        
+        if (resultsCount) {
+            resultsCount.textContent = resultCount;
+        }
+        
+        if (searchTimeSpan) {
+            searchTimeSpan.textContent = `in ${searchTime} seconds`;
+        }
     }
 
     // 解析 tags 字符串为结构化的 Map
@@ -1513,6 +1697,43 @@ const resultStyles = `
 
 .tag-app {
     background: #28a745;
+}
+
+/* 序列访问按钮样式 */
+.tag-sequences-btn {
+    background: #28a745 !important;
+    color: white !important;
+    border: none !important;
+    padding: 6px 12px !important;
+    border-radius: 15px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.2) !important;
+}
+
+.tag-sequences-btn:hover {
+    background: #218838 !important;
+    color: white !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3) !important;
+}
+
+.tag-sequences-btn:active {
+    background: #1e7e34 !important;
+    transform: translateY(0) !important;
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.4) !important;
+}
+
+.tag-sequences-btn i {
+    font-size: 11px !important;
+    margin-right: 2px !important;
 }
 
 .result-meta {
@@ -1798,6 +2019,45 @@ const resultStyles = `
     vertical-align: middle;
     cursor: default;
     line-height: 1;
+}
+
+/* 表格中的多aptamer按钮样式 */
+.multi-aptamer-btn {
+    display: inline-block !important;
+    background: #28a745 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    padding: 3px 8px !important;
+    margin-left: 4px !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    line-height: 1 !important;
+    transition: all 0.3s ease !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: 0 1px 3px rgba(40, 167, 69, 0.2) !important;
+    white-space: nowrap !important;
+}
+
+.multi-aptamer-btn:hover {
+    background: #218838 !important;
+    color: #fff !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 2px 6px rgba(40, 167, 69, 0.3) !important;
+}
+
+.multi-aptamer-btn:active {
+    background: #1e7e34 !important;
+    transform: translateY(0) !important;
+    box-shadow: 0 1px 3px rgba(40, 167, 69, 0.4) !important;
+}
+
+.multi-aptamer-btn i {
+    font-size: 9px !important;
+    margin-right: 2px !important;
 }
 
 /* Multi-aptamer badge tooltip */

@@ -397,7 +397,12 @@ function addTooltipListeners() {
 function buildRows(data){
   return data.map(d=>{
     // 处理链接 - 现在使用Linker name(page name)作为显示文本
-    const aptamerLink = d.Linker ? `<a href="${d.Linker}" target="_blank">${d['Linker name(page name)'] || 'N/A'}</a>` : (d['Linker name(page name)'] || 'N/A');
+    // 修复链接路径问题：确保以斜杠开头
+    let linkerUrl = d.Linker;
+    if (linkerUrl && !linkerUrl.startsWith('/')) {
+      linkerUrl = '/' + linkerUrl;
+    }
+    const aptamerLink = linkerUrl ? `<a href="${linkerUrl}" target="_blank">${d['Linker name(page name)'] || 'N/A'}</a>` : (d['Linker name(page name)'] || 'N/A');
     
     // 处理PubMed链接
     const yearLink = d['Link to PubMed Entry'] ? `<a href="${d['Link to PubMed Entry']}" target="_blank">${d.Year || 'N/A'}</a>` : (d.Year || 'N/A');

@@ -88,13 +88,13 @@ permalink: /helps/
 
 
 <p class="header_box" id="api">API Access</p>
-<p>The Ribocentre-Aptamer platform provides a robust API for programmatic access to our aptamer database. This API enables researchers to integrate our data into automated workflows, perform batch queries, and access comprehensive aptamer information in a structured format.</p>
+<p>The Ribocentre-Aptamer platform provides a robust API for programmatic access to our aptamer database. This API enables researchers to integrate our data into automated workflows, perform batch queries, and access comprehensive aptamer information in a structured format. Both web interface and programmatic access support URL-based search parameters for real-time data filtering.</p>
 
 <p class="blowheader_box">API Endpoints</p>
 <p>Our API offers multiple access points for retrieving aptamer data:</p>
 <ul style="padding-left: 20px;">
-  <li><strong>Sequences Page:</strong> <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">https://aptamer.ribocentre.org/sequences/</code> - Returns HTML by default, JSON with <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">format=json</code> parameter</li>
-  <li><strong>JSON API:</strong> <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">https://aptamer.ribocentre.org/api/</code> - Always returns JSON format</li>
+  <li><strong>Sequences Page:</strong> <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">https://aptamer.ribocentre.org/sequences/</code> - Interactive web interface with search support; returns filtered HTML by default, JSON with <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">format=json</code> parameter</li>
+  <li><strong>JSON API:</strong> <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">https://aptamer.ribocentre.org/api/</code> - Dedicated API endpoint, always returns JSON format with enhanced debugging information</li>
 </ul>
 
 <p class="blowheader_box">Query Parameters</p>
@@ -125,8 +125,11 @@ curl "https://aptamer.ribocentre.org/api/?search=DNA&limit=10&offset=0"
 # Search via sequences page with JSON format
 curl "https://aptamer.ribocentre.org/sequences/?search=thrombin&format=json"
 
-# Search via sequences page (returns HTML by default)
+# Search via sequences page (returns filtered HTML results)
 curl "https://aptamer.ribocentre.org/sequences/?search=thrombin"
+
+# Visit sequences page with search results in browser
+# https://aptamer.ribocentre.org/sequences/?search=thrombin
 </pre>
 
 <p class="blowheader_box">Response Format</p>
