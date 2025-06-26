@@ -31,7 +31,7 @@ type: Proteins
 
 
 <p class="header_box" id="description">Description</p>
-<p>In 2011, Ishiguro et al. used the SELEX method to isolate IL-17A-aptamer, after 21 rounds of selection. Apt21-2 is composed of 13 ribose 2-fluoropyrimidines and 20 unmodified purines<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>In 2011, Ishiguro et al. used the SELEX method to isolate IL-17A aptamer, after 21 rounds of selection. Apt21-2 is composed of 13 ribose 2-fluoropyrimidines and 20 unmodified purines<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>

@@ -514,7 +514,7 @@ Sugiyama, S., Nomura, Y., Sakamoto, T., Kitatani, T., Kobayashi, A., Miyakawa, S
 <a href="https://pubmed.ncbi.nlm.nih.gov/18931441/" target="_blank" style="color:#520049">Acta crystallographica. Section F, Structural biology and crystallization communications, 64(Pt 10), 942–944. (2008)</a>
 <br />
                 
-<a id="ref3"></a><font><strong>[3] Conformational plasticity of RNA for target recognition as revealed by the 2.15 A crystal structure of a human IgG-aptamer complex.</strong></font><br />
+<a id="ref3"></a><font><strong>[3] Conformational plasticity of RNA for target recognition as revealed by the 2.15 A crystal structure of a human IgG aptamer complex.</strong></font><br />
 Nomura, Y., Sugiyama, S., Sakamoto, T., Miyakawa, S., Adachi, H., Takano, K., Murakami, S., Inoue, T., Mori, Y., Nakamura, Y., & Matsumura, H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/20675355/" target="_blank" style="color:#520049"> Nucleic acids research, 38(21), 7822–7829. (2010)</a>
 <br />

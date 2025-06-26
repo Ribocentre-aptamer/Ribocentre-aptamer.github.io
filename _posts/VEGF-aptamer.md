@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: VEGF-aptamer
+title: VEGF aptamer
 date: 2024-05-14 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
@@ -94,7 +94,7 @@ type: Proteins
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16357200/" target="_blank" style="color:#520049">2005</a></h3>
   </div>
   <div class="body">
-    <p>Comparison of NMR spectra revealed that structural features of the smaller HBD-aptamer complex are present in the full-length VEGF(164)-aptamer complex<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
+    <p>Comparison of NMR spectra revealed that structural features of the smaller HBD aptamer complex are present in the full-length VEGF(164) aptamer complex<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
   </div>
  </div>
             
@@ -330,7 +330,7 @@ Bell, C., Lynam, E., Landfair, D. J., Janjic, N., & Wiles, M. E.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10548435/" target="_blank" style="color:#520049">In vitro cellular & developmental biology. Animal, 35(9), 533–542. (1999)</a>
 <br/>
             
-<a id="ref5"></a><font><strong>[5] Detection and plasma pharmacokinetics of an anti-vascular endothelial growth factor oligonucleotide-aptamer (NX1838) in rhesus monkeys.</strong></font><br />
+<a id="ref5"></a><font><strong>[5] Detection and plasma pharmacokinetics of an anti-vascular endothelial growth factor oligonucleotide aptamer (NX1838) in rhesus monkeys.</strong></font><br />
 Tucker, C. E., Chen, L. S., Judkins, M. B., Farmer, J. A., Gill, S. C., & Drolet, D. W.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10517237/" target="_blank" style="color:#520049">Journal of chromatography. B, Biomedical sciences and applications, 732(1), 203–212. (1999)</a>
 <br/>
@@ -355,7 +355,7 @@ Trujillo, C. A., Nery, A. A., Alves, J. M., Martins, A. H., & Ulrich, H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/19668516/" target="_blank" style="color:#520049">Clinical ophthalmology (Auckland, N.Z.), 1(4), 393–402. (2007)</a>
 <br/>
             
-<a id="ref10"></a><font><strong>[10] Wirkung von VEGF165 und dem VEGF-Aptamer Pegaptanib (Macugen) auf die Zusammensetzung der Tight Junctions mikrovaskulärer Endothelzellen aus der Retina [Effect of VEGF165 and the VEGF aptamer pegaptanib (Macugen) on the protein composition of tight junctions in microvascular endothelial cells of the retina].</strong></font><br />
+<a id="ref10"></a><font><strong>[10] Wirkung von VEGF165 und dem VEGF aptamer Pegaptanib (Macugen) auf die Zusammensetzung der Tight Junctions mikrovaskulärer Endothelzellen aus der Retina [Effect of VEGF165 and the VEGF aptamer pegaptanib (Macugen) on the protein composition of tight junctions in microvascular endothelial cells of the retina].</strong></font><br />
 Deissler, H. L., & Lang, G. E.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/18951306/" target="_blank" style="color:#520049">Klinische Monatsblatter fur Augenheilkunde, 225(10), 863–867. (2008)</a>
 <br/>

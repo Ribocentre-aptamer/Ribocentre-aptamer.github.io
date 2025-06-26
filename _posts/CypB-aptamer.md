@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: CypB-aptamer
+title: CypB aptamer
 date: 2024-06-01 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer

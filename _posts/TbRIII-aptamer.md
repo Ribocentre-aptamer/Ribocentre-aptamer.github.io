@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: TbRIII-aptamer
+title: TbRIII aptamer
 date: 2024-05-20 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer

@@ -410,7 +410,7 @@ type: Small molecules
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Molecular Recognition of Amino Acids by RNA-Aptamers: An L-Citrulline Binding RNA Motif and Its Evolution into an L-Arginine Binder.</strong></font><br />
+<a id="ref1"></a><font><strong>[1] Molecular Recognition of Amino Acids by RNA aptamers: An L-Citrulline Binding RNA Motif and Its Evolution into an L-Arginine Binder.</strong></font><br />
 Michael Famulok<br />
 <a href="https://pubs.acs.org/doi/10.1021/ja00084a010" target="_blank" style="color:#520049" >Journal of the American Chemical Society 1994 116 (5), 1698-1706 (1994)</a>
 <br />

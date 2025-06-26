@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: HPAI H5N1-aptamer
+title: HPAI H5N1 aptamer
 date: 2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer

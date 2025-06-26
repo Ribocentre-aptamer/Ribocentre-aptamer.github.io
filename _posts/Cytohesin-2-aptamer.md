@@ -236,7 +236,7 @@ Mayer G, Lohberger A, Butzen S, Pofahl M, Blind M, Heckel A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/19854646/" target="_blank" style="color:#520049">Bioorg Med Chem Lett. 19(23):6561-4. (2009)</a>
 <br/>
             
-<a id="ref3"></a><font><strong>[3] RNA-aptamers that modulate the RhoGEF activity of Tiam1.</strong></font><br />
+<a id="ref3"></a><font><strong>[3] RNA aptamers that modulate the RhoGEF activity of Tiam1.</strong></font><br />
 Niebel B, Wosnitza CI, Famulok M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/23757206/" target="_blank" style="color:#520049">Bioorg Med Chem. 21(20):6239-46. (2013)</a>
 <br/>

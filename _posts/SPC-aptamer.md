@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: SPC-aptamer
+title: SPC aptamer
 date: 2024-04-30 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer

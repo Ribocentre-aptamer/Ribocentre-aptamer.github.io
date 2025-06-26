@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: 3Dpol-aptamer
+title: 3Dpol aptamer
 date: 2024-05-17 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
@@ -50,9 +50,9 @@ type: Proteins
 
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
-<p>F47-aptamer: </p>
+<p>F47 aptamer: </p>
 <p>5'-GGGAAGGGAUCCAAUCUACAAAUUCGUUAACAGAAAACCUCAGUUGCUGGGUUGUUUCACUGCAAACUUGACAAAGCUA-3'<br></p>
-<p>F47tr-aptamer: </p>
+<p>F47tr aptamer: </p>
 <p>5'-GGGUUAACAGAAAACCUCAGUUGCUGGGUUGU-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
@@ -106,13 +106,13 @@ type: Proteins
   </thead>
     <tbody>
       <tr>
-        <td name="td0">F47-aptamer</td>
+        <td name="td0">F47 aptamer</td>
         <td name="td1">5'-GGGAAGGGAUCCAAUCUACAAAUUCGUUAACAGAAAACCUCAGUUGCUGGGUUGUUUCACUGCAAACUUGACAAAGCUA-3'</td>
         <td name="td2">3Dpol</td>
         <td name="td3">18 nM</td>
       </tr>
       <tr>
-        <td name="td0">F47tr-aptamer</td>
+        <td name="td0">F47tr aptamer</td>
         <td name="td1">5'-GGGUUAACAGAAAACCUCAGUUGCUGGGUUGU-3'</td>
         <td name="td2">3Dpol</td>
         <td name="td3">14 nM</td>

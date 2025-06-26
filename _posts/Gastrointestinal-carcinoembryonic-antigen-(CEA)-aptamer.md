@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Gastrointestinal carcinoembryonic antigen (CEA)-aptamer
+title: Gastrointestinal carcinoembryonic antigen (CEA) aptamer
 date: 2024-05-29 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer

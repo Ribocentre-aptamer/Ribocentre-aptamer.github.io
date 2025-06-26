@@ -8,7 +8,7 @@ tags:
 - Category:Mammalian
 - GC:67.0
 - Length:40
-- Named:C-C motif chemokine 2 (L-CCL2)_NOX-E36 L-aptamer
+- Named:C-C motif chemokine 2 (L-CCL2)_NOX-E36 L aptamer
 - Type:Proteins
 - Year:2007
 type: Proteins
@@ -124,7 +124,7 @@ type: Proteins
 
          
 <p class="header_box" id="description">Description</p>
-<p>In 2007, Anders, H. J. isolated the L-enantiomeric RNA oligonucleotide mNOX-E36, a so-called Spiegelmer that binds murine CCL2 with high affinity and neutralizes its action in vitro and in vivo. In 2015, Betzel C et al. chemically synthesized the NOX-E36 L-aptamer, a Spiegelmer designed to bind to L-CCL2. To elucidate its structure, they employed single-wavelength anomalous diffraction (SAD) and refined the structure to a resolution of 2.05 Å. This technique allowed them to gain detailed insights into the interactions between the L-aptamer and its target protein. The resulting structural data provided a comprehensive understanding of the binding interface and the conformational details of the L-aptamer. This high-resolution structure was crucial for understanding the molecular basis of the L-aptamer's high affinity and specificity for L-CCL2. Such detailed structural information is essential for optimizing the design of Spiegelmers as potential therapeutic agents<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref8" style="color:#520049">8</a>]</sup>.<br></p>
+<p>In 2007, Anders, H. J. isolated the L-enantiomeric RNA oligonucleotide mNOX-E36, a so-called Spiegelmer that binds murine CCL2 with high affinity and neutralizes its action in vitro and in vivo. In 2015, Betzel C et al. chemically synthesized the NOX-E36 L aptamer, a Spiegelmer designed to bind to L-CCL2. To elucidate its structure, they employed single-wavelength anomalous diffraction (SAD) and refined the structure to a resolution of 2.05 Å. This technique allowed them to gain detailed insights into the interactions between the L aptamer and its target protein. The resulting structural data provided a comprehensive understanding of the binding interface and the conformational details of the L aptamer. This high-resolution structure was crucial for understanding the molecular basis of the L aptamer's high affinity and specificity for L-CCL2. Such detailed structural information is essential for optimizing the design of Spiegelmers as potential therapeutic agents<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref8" style="color:#520049">8</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
@@ -136,14 +136,14 @@ type: Proteins
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<p>In 2007, Anders, H. J. et al. employed an in vitro selection process to generate the Spiegelmer mNOX-E36. mNOX-E36 is a 45-nucleotide and mouse-CCL2-specific Spiegelmer aptamer. NOX-E36 L-aptamer is a 40-nucleotide and Human-CCL2-specific Spiegelmer aptamer. Here we use ribodraw to complete the figure, through the 3D structure information. The NOX-E36 L-aptamer was named by Anders, H. J. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>In 2007, Anders, H. J. et al. employed an in vitro selection process to generate the Spiegelmer mNOX-E36. mNOX-E36 is a 45-nucleotide and mouse-CCL2-specific Spiegelmer aptamer. NOX-E36 L aptamer is a 40-nucleotide and Human-CCL2-specific Spiegelmer aptamer. Here we use ribodraw to complete the figure, through the 3D structure information. The NOX-E36 L aptamer was named by Anders, H. J. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GCACGUCCCUCACCGGUGCAAGUGAAGCCGAGGCUCUGCG-3'</p>
 <img src="/images/2D/L-CCL2_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<p>NOX-E36 L-aptamer is a Spiegelmer designed to bind to L-CCL2. To elucidate its crsytal structure, they employed single-wavelength anomalous diffraction (SAD) and refined the structure to a resolution of 2.05 Å. This technique allowed them to gain detailed insights into the interactions between the L-aptamer and its target protein. The resulting structural data provided a comprehensive understanding of the binding interface and the conformational details of the L-aptamer. The PDB ID of this structure is 4R8I<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.</p>
+<p>NOX-E36 L aptamer is a Spiegelmer designed to bind to L-CCL2. To elucidate its crsytal structure, they employed single-wavelength anomalous diffraction (SAD) and refined the structure to a resolution of 2.05 Å. This technique allowed them to gain detailed insights into the interactions between the L aptamer and its target protein. The resulting structural data provided a comprehensive understanding of the binding interface and the conformational details of the L aptamer. The PDB ID of this structure is 4R8I<sup>[<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
@@ -375,7 +375,7 @@ type: Proteins
 
 <p class="header_box" id="ligand-recognition">Ligand information</p> 
 <p class="blowheader_box">SELEX ligand</p>
-<p>Betzel, C. et al. investigated the ion dependence of L-aptamer binding using surface plasmon resonance (SPR), revealing a strong dependence on Ca2+, which appears to be important for proper folding of the L-aptamer and will likely occupy the position of Sr2+ observed in the structure. And they also studied the effect of the mutations on L-aptamer affinity and measured the L-aptamer’s affinity using SPR<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
+<p>Betzel, C. et al. investigated the ion dependence of L aptamer binding using surface plasmon resonance (SPR), revealing a strong dependence on Ca2+, which appears to be important for proper folding of the L aptamer and will likely occupy the position of Sr2+ observed in the structure. And they also studied the effect of the mutations on L aptamer affinity and measured the L aptamer’s affinity using SPR<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>

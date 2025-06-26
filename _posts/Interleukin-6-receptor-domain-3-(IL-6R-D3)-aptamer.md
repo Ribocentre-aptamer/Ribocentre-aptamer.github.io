@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Interleukin-6 receptor domain 3 (IL-6R D3)-aptamer
+title: Interleukin-6 receptor domain 3 (IL-6R D3) aptamer
 date: 2024-05-31 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer

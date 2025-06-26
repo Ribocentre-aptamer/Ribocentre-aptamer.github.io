@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Mbl-aptamer
+title: Mbl aptamer
 date: 2024-05-19 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer

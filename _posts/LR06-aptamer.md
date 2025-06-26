@@ -383,7 +383,7 @@ Darfeuille, F., Sekkai, D., Dausse, E., Kolb, G., Yurchenko, L., Boiziau, C., & 
 <a href="https://pubmed.ncbi.nlm.nih.gov/12052182/" target="_blank" style="color:#520049">Comb Chem High Throughput Screen, 5(4), 313-25. (2002)</a>
 <br />
                 
-<a id="ref5"></a><font><strong>[5] Molecular dynamics reveals the stabilizing role of loop closing residues in kissing interactions: comparison between TAR-TAR* and TAR-aptamer.</strong></font><br />
+<a id="ref5"></a><font><strong>[5] Molecular dynamics reveals the stabilizing role of loop closing residues in kissing interactions: comparison between TAR-TAR* and TAR aptamer.</strong></font><br />
 Beaurain, F., Di Primo, C., Toulmé, J. J., & Laguerre, M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/12853646/" target="_blank" style="color:#520049">Nucleic Acids Res, 31(14), 4275-84. (2003)</a>
 <br />

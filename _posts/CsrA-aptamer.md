@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: CsrA-aptamer
+title: CsrA aptamer
 date: 2024-05-27 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer

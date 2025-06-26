@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Ribosomal protein S8-aptamer
+title: Ribosomal protein S8 aptamer
 date: 2024-04-10 00:00:00
 author: Qiaozhen Liu, Zhaoji Qiu
 categories: Aptamer

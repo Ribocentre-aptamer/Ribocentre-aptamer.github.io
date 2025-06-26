@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Peptide release factor 1-aptamer
+title: Peptide release factor 1 aptamer
 date: 2024-05-08 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer

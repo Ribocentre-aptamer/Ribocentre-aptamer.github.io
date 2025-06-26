@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: eIF4E-aptamer
+title: eIF4E aptamer
 date: 2024-05-15 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer

@@ -135,7 +135,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/27591602/" target="_blank" style="color:#520049">2016</a></h3>
     </div>
     <div class="body">
-      <p>A simple way was developed to stabilize the apparent of malachite green-aptamer binding over 24 h, which may be beneficial in stabilizing other triphenylmethane or carbocation ligand-aptamer interactions<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
+      <p>A simple way was developed to stabilize the apparent of malachite green aptamer binding over 24 h, which may be beneficial in stabilizing other triphenylmethane or carbocation ligand aptamer interactions<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -756,7 +756,7 @@ Yerramilli, V. S., & Kim, K. H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/29513000/" target="_blank" style="color:#520049">ACS synthetic biology, 7(3), 758–766. (2018)</a>
 <br />
 
-<a id="ref16"></a><font><strong>[16] Exploiting the application of l-aptamer with excellent stability: an efficient sensing platform for malachite green in fish samples.</strong></font><br />
+<a id="ref16"></a><font><strong>[16] Exploiting the application of l aptamer with excellent stability: an efficient sensing platform for malachite green in fish samples.</strong></font><br />
 Luo, X., Chen, Z., Li, H., Li, W., Cui, L., & Huang, J.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/31187804/" target="_blank" style="color:#520049">The Analyst, 144(14), 4204–4209. (2019)</a>
 <br />

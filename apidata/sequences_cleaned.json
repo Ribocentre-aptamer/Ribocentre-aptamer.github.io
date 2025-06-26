@@ -1244,7 +1244,7 @@
     },
     {
       "ID": "VB12_Szostak_1",
-      "Linker name(page name)": "Vitamin B12-aptamer",
+      "Linker name(page name)": "Vitamin B12 aptamer",
       "Type": "Small molecules",
       "Category": "Biologics & Signaling Molecules",
       "Named": "Cyanocobalamin (vitamin B12)_DOPE. 40",
@@ -1262,7 +1262,7 @@
     },
     {
       "ID": "VB12_Szostak_2",
-      "Linker name(page name)": "Vitamin B12-aptamer",
+      "Linker name(page name)": "Vitamin B12 aptamer",
       "Type": "Small molecules",
       "Category": "Biologics & Signaling Molecules",
       "Named": "Cyanocobalamin (vitamin B12)_B12.9",
@@ -1280,7 +1280,7 @@
     },
     {
       "ID": "VB12_Szostak_3",
-      "Linker name(page name)": "Vitamin B12-aptamer",
+      "Linker name(page name)": "Vitamin B12 aptamer",
       "Type": "Small molecules",
       "Category": "Biologics & Signaling Molecules",
       "Named": "Cyanocobalamin (vitamin B12)_35-mer aptamer",
@@ -1298,7 +1298,7 @@
     },
     {
       "ID": "VEGF_Janjić_1",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_100",
@@ -1316,7 +1316,7 @@
     },
     {
       "ID": "VEGF_Janjić_10",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_100t",
@@ -1334,7 +1334,7 @@
     },
     {
       "ID": "VEGF_Janjić_11",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_44t",
@@ -1352,7 +1352,7 @@
     },
     {
       "ID": "VEGF_Janjić_12",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_12t",
@@ -1370,7 +1370,7 @@
     },
     {
       "ID": "VEGF_Janjić_2",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_40t",
@@ -1388,7 +1388,7 @@
     },
     {
       "ID": "VEGF_Janjić_3",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_84t",
@@ -1406,7 +1406,7 @@
     },
     {
       "ID": "VEGF_Janjić_4",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_126t",
@@ -1424,7 +1424,7 @@
     },
     {
       "ID": "VEGF_Janjić_5",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_44",
@@ -1442,7 +1442,7 @@
     },
     {
       "ID": "VEGF_Janjić_6",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_12",
@@ -1460,7 +1460,7 @@
     },
     {
       "ID": "VEGF_Janjić_7",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_40",
@@ -1478,7 +1478,7 @@
     },
     {
       "ID": "VEGF_Janjić_8",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_84",
@@ -1496,7 +1496,7 @@
     },
     {
       "ID": "VEGF_Janjić_9",
-      "Linker name(page name)": "VEGF-aptamer",
+      "Linker name(page name)": "VEGF aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Vascular Endothelial Growth Factor (VEGF)_126",
@@ -2162,7 +2162,7 @@
     },
     {
       "ID": "B52_Lis_1",
-      "Linker name(page name)": "B52-aptamer",
+      "Linker name(page name)": "B52 aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "SR Protein B52 (SRp55)_BBS #4,14,15",
@@ -2180,7 +2180,7 @@
     },
     {
       "ID": "B52_Lis_2",
-      "Linker name(page name)": "B52-aptamer",
+      "Linker name(page name)": "B52 aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "SR Protein B52 (SRp55)_BBS #8",
@@ -2198,7 +2198,7 @@
     },
     {
       "ID": "B52_Lis_3",
-      "Linker name(page name)": "B52-aptamer",
+      "Linker name(page name)": "B52 aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "SR Protein B52 (SRp55)_BBS #11",
@@ -2216,7 +2216,7 @@
     },
     {
       "ID": "B52_Lis_4",
-      "Linker name(page name)": "B52-aptamer",
+      "Linker name(page name)": "B52 aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "SR Protein B52 (SRp55)_BBS #23",
@@ -2468,7 +2468,7 @@
     },
     {
       "ID": "Ribosomal protein S8_Ehresmann_1",
-      "Linker name(page name)": "Ribosomal protein S8-aptamer",
+      "Linker name(page name)": "Ribosomal protein S8 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Ribosomal protein S8_RNA-2 aptamer",
@@ -3782,7 +3782,7 @@
     },
     {
       "ID": "R5 helix peptide_Okahata_1",
-      "Linker name(page name)": "R5 helix peptide-aptamer",
+      "Linker name(page name)": "R5 helix peptide aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "R5 helix peptide_B-2",
@@ -3800,7 +3800,7 @@
     },
     {
       "ID": "R5 helix peptide_Okahata_2",
-      "Linker name(page name)": "R5 helix peptide-aptamer",
+      "Linker name(page name)": "R5 helix peptide aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "R5 helix peptide_B-6",
@@ -4448,7 +4448,7 @@
     },
     {
       "ID": "T. thermophilus RF1_Sprinzl_1",
-      "Linker name(page name)": "Peptide release factor 1-aptamer",
+      "Linker name(page name)": "Peptide release factor 1 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Release factor 1 (RF1),(T. thermophilus)_RNA5",
@@ -4466,7 +4466,7 @@
     },
     {
       "ID": "T. thermophilus RF1_Sprinzl_2",
-      "Linker name(page name)": "Peptide release factor 1-aptamer",
+      "Linker name(page name)": "Peptide release factor 1 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Release factor 1 (RF1),(T. thermophilus)_RNA7",
@@ -5402,7 +5402,7 @@
     },
     {
       "ID": "CsrA_Babitzke_1",
-      "Linker name(page name)": "CsrA-aptamer",
+      "Linker name(page name)": "CsrA aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Carbon storage regulation protein A, Escherichia coli (CsrA)_R9-43",
@@ -5420,7 +5420,7 @@
     },
     {
       "ID": "eIF4E_Nakamura_1",
-      "Linker name(page name)": "eIF4E-aptamer",
+      "Linker name(page name)": "eIF4E aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Eukaryotic translation initiation factor 4E (eIF4E)_Aptamer 1",
@@ -5438,7 +5438,7 @@
     },
     {
       "ID": "eIF4E_Nakamura_2",
-      "Linker name(page name)": "eIF4E-aptamer",
+      "Linker name(page name)": "eIF4E aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Eukaryotic translation initiation factor 4E (eIF4E)_Aptamer 2",
@@ -5618,7 +5618,7 @@
     },
     {
       "ID": "3Dpol_Stonehouse_1",
-      "Linker name(page name)": "3Dpol-aptamer",
+      "Linker name(page name)": "3Dpol aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "RNA-dependent RNA polymerase (3Dpol)_F38",
@@ -5636,7 +5636,7 @@
     },
     {
       "ID": "3Dpol_Stonehouse_2",
-      "Linker name(page name)": "3Dpol-aptamer",
+      "Linker name(page name)": "3Dpol aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "RNA-dependent RNA polymerase (3Dpol)_F47",
@@ -5654,7 +5654,7 @@
     },
     {
       "ID": "3Dpol_Stonehouse_3",
-      "Linker name(page name)": "3Dpol-aptamer",
+      "Linker name(page name)": "3Dpol aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "RNA-dependent RNA polymerase (3Dpol)_F52",
@@ -5672,7 +5672,7 @@
     },
     {
       "ID": "3Dpol_Stonehouse_4",
-      "Linker name(page name)": "3Dpol-aptamer",
+      "Linker name(page name)": "3Dpol aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "RNA-dependent RNA polymerase (3Dpol)_F47tr",
@@ -5834,7 +5834,7 @@
     },
     {
       "ID": "polβ_Miller_1",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase beta (polβ)_Aptamer 32",
@@ -5853,7 +5853,7 @@
     },
     {
       "ID": "polβ_Miller_3",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase beta (polβ)_Aptamer 25",
@@ -5871,7 +5871,7 @@
     },
     {
       "ID": "polβ_Miller_5",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase beta (polβ)_Aptamer 53",
@@ -5889,7 +5889,7 @@
     },
     {
       "ID": "polβ_Miller_6",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase beta (polβ)_Aptamer 45",
@@ -5907,7 +5907,7 @@
     },
     {
       "ID": "polβ_Miller_8",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase beta (polβ)_Aptamer 31",
@@ -5925,7 +5925,7 @@
     },
     {
       "ID": "polκ_Miller_2",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase kappa (polκ)_Aptamer 32",
@@ -5943,7 +5943,7 @@
     },
     {
       "ID": "polκ_Miller_4",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase kappa (polκ)_Aptamer 25",
@@ -5961,7 +5961,7 @@
     },
     {
       "ID": "polκ_Miller_7",
-      "Linker name(page name)": "polβ-aptamer",
+      "Linker name(page name)": "polβ aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "DNA polymerase kappa (polκ)_Aptamer 45",
@@ -5997,7 +5997,7 @@
     },
     {
       "ID": "TbRIII_Nakamura_1",
-      "Linker name(page name)": "TbRIII-aptamer",
+      "Linker name(page name)": "TbRIII aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Transforming growth factor-β type III receptor expressed on Chinese hamster ovary (CHO) cells(TbRIII)_A07",
@@ -6015,7 +6015,7 @@
     },
     {
       "ID": "S37A-β-catenin_Jeong_1",
-      "Linker name(page name)": "pUC19-aptamer",
+      "Linker name(page name)": "pUC19 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "β-catenin_pUC19",
@@ -6180,8 +6180,8 @@
       "Linker name(page name)": "L-CCL2 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
-      "Named": "C-C motif chemokine 2 (L-CCL2)_NOX-E36 L-aptamer",
-      "Article name": "NOX-E36 L-aptamer",
+      "Named": "C-C motif chemokine 2 (L-CCL2)_NOX-E36 L aptamer",
+      "Article name": "NOX-E36 L aptamer",
       "Ligand": "C-C motif chemokine 2 (L-CCL2)",
       "Ligand Description": "C-C motif chemokine 2 (L-CCL2), also referred to as monocyte chemoattractant protein 1 (MCP1) or small inducible cytokine A2 (SCYA2), is a protein categorized as a chemotactic cytokine or chemokine. CCL2, a member of the CC chemokine family, is composed of small soluble proteins that primarily function to regulate cell trafficking.",
       "Ligand Information \n(CAS/sequence)": "MQPDAINAPVTCCYNFTNRKISVQRLASYRRITSSKCPKEAVIFKTIVAKEICADPKQKWVQDSMDHLDKQTQTPKT",
@@ -6213,7 +6213,7 @@
     },
     {
       "ID": "RF-1_Aoyama_1",
-      "Linker name(page name)": "RF-1-aptamer",
+      "Linker name(page name)": "RF-1 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Escherichia coli release factor 1_Class II-1",
@@ -6375,7 +6375,7 @@
     },
     {
       "ID": "Mbl_Berglund_1",
-      "Linker name(page name)": "Mbl-aptamer",
+      "Linker name(page name)": "Mbl aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "Drosophila muscleblind protein (Mbl)_RNA 20",
@@ -6645,7 +6645,7 @@
     },
     {
       "ID": "SPC_Waga_1",
-      "Linker name(page name)": "SPC-aptamer",
+      "Linker name(page name)": "SPC aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_C1",
@@ -6663,7 +6663,7 @@
     },
     {
       "ID": "SPC_Waga_2",
-      "Linker name(page name)": "SPC-aptamer",
+      "Linker name(page name)": "SPC aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_C2",
@@ -6681,7 +6681,7 @@
     },
     {
       "ID": "SPC_Waga_3",
-      "Linker name(page name)": "SPC-aptamer",
+      "Linker name(page name)": "SPC aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_C8",
@@ -6699,7 +6699,7 @@
     },
     {
       "ID": "SPC_Waga_4",
-      "Linker name(page name)": "SPC-aptamer",
+      "Linker name(page name)": "SPC aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m009",
@@ -6717,7 +6717,7 @@
     },
     {
       "ID": "SPC_Waga_5",
-      "Linker name(page name)": "SPC-aptamer",
+      "Linker name(page name)": "SPC aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m010",
@@ -6735,7 +6735,7 @@
     },
     {
       "ID": "SPC_Waga_6",
-      "Linker name(page name)": "SPC-aptamer",
+      "Linker name(page name)": "SPC aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m011",
@@ -6753,7 +6753,7 @@
     },
     {
       "ID": "SPC_Waga_7",
-      "Linker name(page name)": "SPC-aptamer",
+      "Linker name(page name)": "SPC aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m012",
@@ -6771,7 +6771,7 @@
     },
     {
       "ID": "ZAP_Gao_1",
-      "Linker name(page name)": "ZAP-aptamer",
+      "Linker name(page name)": "ZAP aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Zinc-finger antiviral protein (ZAP)_21-E",
@@ -6789,7 +6789,7 @@
     },
     {
       "ID": "ZAP_Gao_2",
-      "Linker name(page name)": "ZAP-aptamer",
+      "Linker name(page name)": "ZAP aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Zinc-finger antiviral protein (ZAP)_21-K",
@@ -6807,7 +6807,7 @@
     },
     {
       "ID": "E.coli_O157:H7_Lee_1",
-      "Linker name(page name)": "Escherichia coli-aptamer",
+      "Linker name(page name)": "Escherichia coli aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Escherichia coli (E. coli) O157:H7_I-1",
@@ -6987,7 +6987,7 @@
     },
     {
       "ID": "CypB_White_1",
-      "Linker name(page name)": "CypB-aptamer",
+      "Linker name(page name)": "CypB aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Cyclophilin B (CypB)_M9-5",
@@ -7203,7 +7203,7 @@
     },
     {
       "ID": "OX40_Nair_1",
-      "Linker name(page name)": "OX40-aptamer",
+      "Linker name(page name)": "OX40 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "OX40_9C7",
@@ -7221,7 +7221,7 @@
     },
     {
       "ID": "OX40_Nair_2",
-      "Linker name(page name)": "OX40-aptamer",
+      "Linker name(page name)": "OX40 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "OX40_11F11",
@@ -7383,7 +7383,7 @@
     },
     {
       "ID": "OX40_Nair_3",
-      "Linker name(page name)": "OX40-aptamer",
+      "Linker name(page name)": "OX40 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "OX40_9C7 aptamer (truncation)",
@@ -7491,7 +7491,7 @@
     },
     {
       "ID": "ERα_Shi_1",
-      "Linker name(page name)": "ERα-aptamer",
+      "Linker name(page name)": "ERα aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Estrogen receptor α (ERα)_AptER-1",
@@ -7509,7 +7509,7 @@
     },
     {
       "ID": "ERα_Shi_2",
-      "Linker name(page name)": "ERα-aptamer",
+      "Linker name(page name)": "ERα aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Estrogen receptor α (ERα)_AptER-2",
@@ -7527,7 +7527,7 @@
     },
     {
       "ID": "ERα_Shi_3",
-      "Linker name(page name)": "ERα-aptamer",
+      "Linker name(page name)": "ERα aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Estrogen receptor α (ERα)_AptER-3",
@@ -7545,7 +7545,7 @@
     },
     {
       "ID": "HA_Kim_1",
-      "Linker name(page name)": "Hemagglutinin (HA) protein-aptamer",
+      "Linker name(page name)": "Hemagglutinin (HA) protein aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Hemagglutinin (HA) protein_HA12-16",
@@ -7563,7 +7563,7 @@
     },
     {
       "ID": "HA_Kim_2",
-      "Linker name(page name)": "Hemagglutinin (HA) protein-aptamer",
+      "Linker name(page name)": "Hemagglutinin (HA) protein aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Hemagglutinin (HA) protein_HA12-16 aptamer (truncation)",
@@ -7581,7 +7581,7 @@
     },
     {
       "ID": "GP2_Ohno_1",
-      "Linker name(page name)": "Glycoprotein 2 (GP2) protein-aptamer",
+      "Linker name(page name)": "Glycoprotein 2 (GP2) protein aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Glycoprotein 2 (GP2) protein_Apt1",
@@ -7599,7 +7599,7 @@
     },
     {
       "ID": "H5N1_Kumar_1",
-      "Linker name(page name)": "HPAI H5N1-aptamer",
+      "Linker name(page name)": "HPAI H5N1 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Hemagglutinin (HA) of H5N1 and H7N7_8-1",
@@ -7617,7 +7617,7 @@
     },
     {
       "ID": "H5N1_Kumar_2",
-      "Linker name(page name)": "HPAI H5N1-aptamer",
+      "Linker name(page name)": "HPAI H5N1 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Hemagglutinin (HA) of H5N1 and H7N7_8-3",
@@ -7635,7 +7635,7 @@
     },
     {
       "ID": "H5N1_Kumar_3",
-      "Linker name(page name)": "HPAI H5N1-aptamer",
+      "Linker name(page name)": "HPAI H5N1 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Hemagglutinin (HA) of H5N1 and H7N7_8-10",
@@ -7815,7 +7815,7 @@
     },
     {
       "ID": "IL-6R D3_Hahn_1",
-      "Linker name(page name)": "Interleukin-6 receptor domain 3 (IL-6R D3)-aptamer",
+      "Linker name(page name)": "Interleukin-6 receptor domain 3 (IL-6R D3) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Interleukin-6 receptor domain 3 (IL-6R D3)_F2",
@@ -7833,7 +7833,7 @@
     },
     {
       "ID": "IL-6R D3_Hahn_2",
-      "Linker name(page name)": "Interleukin-6 receptor domain 3 (IL-6R D3)-aptamer",
+      "Linker name(page name)": "Interleukin-6 receptor domain 3 (IL-6R D3) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Interleukin-6 receptor domain 3 (IL-6R D3)_F3",
@@ -7851,7 +7851,7 @@
     },
     {
       "ID": "IL-6R D3_Hahn_3",
-      "Linker name(page name)": "Interleukin-6 receptor domain 3 (IL-6R D3)-aptamer",
+      "Linker name(page name)": "Interleukin-6 receptor domain 3 (IL-6R D3) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Interleukin-6 receptor domain 3 (IL-6R D3)_F4",
@@ -7869,7 +7869,7 @@
     },
     {
       "ID": "REase_Maher_1",
-      "Linker name(page name)": "Restriction endonucleases (REases) KpnI-aptamer",
+      "Linker name(page name)": "Restriction endonucleases (REases) KpnI aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 20",
@@ -7887,7 +7887,7 @@
     },
     {
       "ID": "REase_Maher_2",
-      "Linker name(page name)": "Restriction endonucleases (REases) KpnI-aptamer",
+      "Linker name(page name)": "Restriction endonucleases (REases) KpnI aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 24",
@@ -7905,7 +7905,7 @@
     },
     {
       "ID": "REase_Maher_3",
-      "Linker name(page name)": "Restriction endonucleases (REases) KpnI-aptamer",
+      "Linker name(page name)": "Restriction endonucleases (REases) KpnI aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 29",
@@ -7923,7 +7923,7 @@
     },
     {
       "ID": "REase_Maher_4",
-      "Linker name(page name)": "Restriction endonucleases (REases) KpnI-aptamer",
+      "Linker name(page name)": "Restriction endonucleases (REases) KpnI aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Restriction endonucleases (REases) KpnI_Anti-KpnI RNA Aptamer 30",
@@ -7977,7 +7977,7 @@
     },
     {
       "ID": "UCH37_Lee_1",
-      "Linker name(page name)": "Ubiquitin carboxyl-terminal hydrolase37 (UCH37)-aptamer",
+      "Linker name(page name)": "Ubiquitin carboxyl-terminal hydrolase37 (UCH37) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Ubiquitin carboxyl-terminal hydrolase37 (UCH37)_UCH37‐1",
@@ -8103,7 +8103,7 @@
     },
     {
       "ID": "CA50_Lau_1",
-      "Linker name(page name)": "Gastrointestinal cancer antigen 50-aptamer",
+      "Linker name(page name)": "Gastrointestinal cancer antigen 50 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Gastrointestinal cancer antigen 50_CA50 A01",
@@ -8121,7 +8121,7 @@
     },
     {
       "ID": "CA50_Lau_2",
-      "Linker name(page name)": "Gastrointestinal cancer antigen 50-aptamer",
+      "Linker name(page name)": "Gastrointestinal cancer antigen 50 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Gastrointestinal cancer antigen 50_CA50 A02",
@@ -8139,7 +8139,7 @@
     },
     {
       "ID": "CA72-4_Lau_1",
-      "Linker name(page name)": "Cancer antigen 72–4(CA72-4)-aptamer",
+      "Linker name(page name)": "Cancer antigen 72–4(CA72-4) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Cancer antigen 72–4(CA72-4)_CA72-4 A01",
@@ -8157,7 +8157,7 @@
     },
     {
       "ID": "CA72-4_Lau_2",
-      "Linker name(page name)": "Cancer antigen 72–4(CA72-4)-aptamer",
+      "Linker name(page name)": "Cancer antigen 72–4(CA72-4) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Cancer antigen 72–4(CA72-4)_CA72-4 A02",
@@ -8247,7 +8247,7 @@
     },
     {
       "ID": "CEA_Lau_1",
-      "Linker name(page name)": "Gastrointestinal carcinoembryonic antigen (CEA)-aptamer",
+      "Linker name(page name)": "Gastrointestinal carcinoembryonic antigen (CEA) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Gastrointestinal carcinoembryonic antigen (CEA)_CEA A01",
@@ -8265,7 +8265,7 @@
     },
     {
       "ID": "CEA_Lau_2",
-      "Linker name(page name)": "Gastrointestinal carcinoembryonic antigen (CEA)-aptamer",
+      "Linker name(page name)": "Gastrointestinal carcinoembryonic antigen (CEA) aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Gastrointestinal carcinoembryonic antigen (CEA)_CEA A02",

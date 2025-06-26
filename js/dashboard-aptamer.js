@@ -172,27 +172,31 @@ TableModule.updateDataTable = function() {
         indexCell.textContent = index + 1;
         row.appendChild(indexCell);
 
-        // 2. Aptamer name - 使用 Named 字段
-        const nameCell = document.createElement('td');
-        let nameHTML = item['Named'] || '';
-        // 如果有链接，创建超链接
-        if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
-            nameHTML = `<a href="${item.Linker}" target="_blank">${item['Named'] || ''}</a>`;
+        // 2. Sequence Name - 使用 Named 字段，构造到sequence界面的链接
+        const seqNameCell = document.createElement('td');
+        let seqNameHTML = item['Named'] || '';
+        if (seqNameHTML) {
+            // 构造到sequences页面的链接，使用Named作为搜索查询
+            const searchQuery = encodeURIComponent(seqNameHTML);
+            seqNameHTML = `<a href="/sequences/?search=${searchQuery}" target="_blank">${seqNameHTML}</a>`;
         }
-        nameCell.innerHTML = nameHTML;
-        row.appendChild(nameCell);
+        seqNameCell.innerHTML = seqNameHTML;
+        row.appendChild(seqNameCell);
 
-        // 3. Ligand - 使用Ligand字段，限制最多显示2个单词
-        const ligandCell = document.createElement('td');
-        const ligandFull = item.Ligand || '';
-        // 截取前两个单词作为简短显示
-        const ligandWords = ligandFull.split(' ');
-        const ligandShort = ligandWords.length > 2 
-            ? ligandWords.slice(0, 2).join(' ') + '...' 
-            : ligandFull;
-        ligandCell.textContent = ligandShort;
-        row.appendChild(ligandCell);
-        addTooltip(ligandCell, ligandFull);
+        // 3. Aptamer Name - 使用 Linker name(page name) 字段，使用Linker的链接
+        const aptamerNameCell = document.createElement('td');
+        let aptamerNameHTML = item['Linker name(page name)'] || '';
+        // 如果有链接且aptamer名称不为空，创建超链接
+        if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null' && aptamerNameHTML) {
+            // 确保链接以斜杠开头
+            let linkerUrl = item.Linker;
+            if (!linkerUrl.startsWith('/')) {
+                linkerUrl = '/' + linkerUrl;
+            }
+            aptamerNameHTML = `<a href="${linkerUrl}" target="_blank">${aptamerNameHTML}</a>`;
+        }
+        aptamerNameCell.innerHTML = aptamerNameHTML;
+        row.appendChild(aptamerNameCell);
 
         // 4. Year - 使用Year字段
         const yearCell = document.createElement('td');
@@ -208,16 +212,7 @@ TableModule.updateDataTable = function() {
         categoryCell.textContent = item.Category || '';
         row.appendChild(categoryCell);
 
-        // 6. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
-        const affinityCell = document.createElement('td');
-        const affinityFull = item.Affinity || '';
-        // 截取第一个逗号前的内容
-        const affinityHTML = affinityFull.split(',')[0].trim();
-        affinityCell.textContent = affinityHTML;
-        row.appendChild(affinityCell);
-        addTooltip(affinityCell, affinityFull);
-
-        // 7. Sequence (5'-3') - 使用Sequence字段
+        // 6. Sequence (5'-3') - 使用Sequence字段
         const seqCell = document.createElement('td');
         const sequence = item.Sequence || '';
         const seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
@@ -225,7 +220,7 @@ TableModule.updateDataTable = function() {
         row.appendChild(seqCell);
         addTooltip(seqCell, colorizeSequence(sequence));
 
-        // 8. Description - 使用Ligand Description字段
+        // 7. Description - 使用Ligand Description字段
         const descCell = document.createElement('td');
         const descFull = item['Ligand Description'] || '';
         const descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;

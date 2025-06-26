@@ -1231,24 +1231,26 @@ const TableModule = {
             const row = document.createElement('tr');
             row.style.whiteSpace = 'nowrap';
 
-            // 1. Aptamer name - 使用 Named 字段
-            const processedName = handleEmptyValue(item['Named']);
-            let nameHTML = processedName;
-            // 如果有链接且名称不为空，创建超链接
-            const processedLinker = handleEmptyValue(item.Linker);
-            if (processedLinker !== 'NA' && processedName !== 'NA') {
-                nameHTML = `<a href="${processedLinker}" target="_blank">${processedName}</a>`;
+            // 1. Sequence Name - 使用 Named 字段，构造到sequence界面的链接
+            const processedSeqName = handleEmptyValue(item['Named']);
+            let seqNameHTML = processedSeqName;
+            if (processedSeqName !== 'NA') {
+                // 构造到sequences页面的链接，使用Named作为搜索查询
+                const searchQuery = encodeURIComponent(processedSeqName);
+                seqNameHTML = `<a href="/sequences/?search=${searchQuery}" target="_blank">${processedSeqName}</a>`;
             }
 
-            // 2. Ligand - 使用Ligand字段，限制最多显示2个单词
-            const ligandFull = handleEmptyValue(item.Ligand);
-            let ligandShort = ligandFull;
-            if (ligandFull !== 'NA') {
-                // 截取前两个单词作为简短显示
-                const ligandWords = ligandFull.split(' ');
-                ligandShort = ligandWords.length > 2 
-                    ? ligandWords.slice(0, 2).join(' ') + '...' 
-                    : ligandFull;
+            // 2. Aptamer Name - 使用 Linker name(page name) 字段，使用Linker的链接
+            const processedAptamerName = handleEmptyValue(item['Linker name(page name)']);
+            let aptamerNameHTML = processedAptamerName;
+            const processedLinker = handleEmptyValue(item.Linker);
+            if (processedLinker !== 'NA' && processedAptamerName !== 'NA') {
+                // 确保链接以斜杠开头
+                let linkerUrl = processedLinker;
+                if (!linkerUrl.startsWith('/')) {
+                    linkerUrl = '/' + linkerUrl;
+                }
+                aptamerNameHTML = `<a href="${linkerUrl}" target="_blank">${processedAptamerName}</a>`;
             }
 
             // 3. Year - 使用Year字段
@@ -1263,16 +1265,7 @@ const TableModule = {
             // 4. Category - 使用Category字段
             const categoryHTML = handleEmptyValue(item.Category);
 
-            // 5. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
-            const affinityFull = handleEmptyValue(item.Affinity);
-            let affinityHTML = affinityFull;
-            if (affinityFull !== 'NA') {
-                // 截取第一个逗号前的内容
-                affinityHTML = affinityFull.split(',')[0].trim();
-                if (!affinityHTML) affinityHTML = 'NA';
-            }
-
-            // 6. Sequence (5'-3') - 使用Sequence字段
+            // 5. Sequence (5'-3') - 使用Sequence字段
             // 获取序列信息，只显示前10个字符，鼠标悬停时显示完整彩色序列
             const sequence = handleEmptyValue(item.Sequence);
             let seqShort = sequence;
@@ -1281,7 +1274,7 @@ const TableModule = {
             }
             const seqFullColored = colorizeSequence(sequence);
 
-            // 7. Description - 使用Ligand Description字段
+            // 6. Description - 使用Ligand Description字段
             // 获取描述信息，截取前20个字符作为简短显示
             const descFull = handleEmptyValue(item['Ligand Description']);
             let descShort = descFull;
@@ -1292,11 +1285,10 @@ const TableModule = {
             // 构建表格行HTML
             row.innerHTML = `
                 <td>${index + 1}</td>
-                <td>${nameHTML}</td>
-                <td>${ligandShort}</td>
+                <td>${seqNameHTML}</td>
+                <td>${aptamerNameHTML}</td>
                 <td>${yearHTML}</td>
                 <td>${categoryHTML}</td>
-                <td>${affinityHTML}</td>
                 <td>${seqShort}</td>
                 <td>${descShort}</td>
             `;
@@ -1305,10 +1297,8 @@ const TableModule = {
             // 为各字段添加tooltip，鼠标悬停时显示完整内容
             const cells = row.querySelectorAll('td');
             // 只有当内容不是 'NA' 时才添加 tooltip
-            if (ligandFull !== 'NA') addTooltip(cells[2], ligandFull); // ligand完整内容
-            if (affinityFull !== 'NA') addTooltip(cells[5], affinityFull); // Affinity完整内容
-            if (sequence !== 'NA') addTooltip(cells[6], seqFullColored); // 序列完整彩色内容
-            if (descFull !== 'NA') addTooltip(cells[7], descFull); // 描述完整内容
+            if (sequence !== 'NA') addTooltip(cells[5], seqFullColored); // 序列完整彩色内容
+            if (descFull !== 'NA') addTooltip(cells[6], descFull); // 描述完整内容
         });
     }
 };

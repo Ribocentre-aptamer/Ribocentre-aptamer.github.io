@@ -159,7 +159,7 @@ type: Small molecules
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1]  Adenine-aptamer complexes: a bipartite RNA site that binds the adenine nucleic base.</strong></font><br/>
+<a id="ref1"></a><font><strong>[1]  Adenine aptamer complexes: a bipartite RNA site that binds the adenine nucleic base.</strong></font><br/>
 Meli, M., Vergne, J., Décout, J. L., & Maurel, M. C.<br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/11705996/" target="_blank" style="color:#520049">The Journal of biological chemistry, 277(3), 2104–2111. (2002)</a>
 <br/>

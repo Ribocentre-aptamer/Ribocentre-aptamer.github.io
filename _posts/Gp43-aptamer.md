@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: T4 gp43-aptamer
+title: T4 gp43 aptamer
 date: 2024-05-10 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer

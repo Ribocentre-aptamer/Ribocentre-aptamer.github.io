@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Cancer antigen 72–4(CA72-4)-aptamer
+title: Cancer antigen 72–4(CA72-4) aptamer
 date: 2024-06-06 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer

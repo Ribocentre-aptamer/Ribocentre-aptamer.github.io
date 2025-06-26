@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: RF-1-aptamer
+title: RF-1 aptamer
 date: 2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer

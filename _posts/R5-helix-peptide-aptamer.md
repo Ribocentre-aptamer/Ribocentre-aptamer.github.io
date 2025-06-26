@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: R5 helix peptide-aptamer
+title: R5 helix peptide aptamer
 date: 2024-05-16 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer

@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: pUC19-aptamer
+title: pUC19 aptamer
 date: 2024-05-20 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
@@ -33,7 +33,7 @@ type: Proteins
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2006, Lee, H. K., & Jeong, S. used an RNA library of random 50-nucleotide sequences (1 × 1014 different molecules, IDT) as starting material for the SELEX procedure . In each cycle, RNA was preincubated with glutathione S-transferase (GST) protein in binding buffer [25 mmol/L HEPES (pH 7.5), 150 mmol/L NaCl, 1 mmol/L MgCl2, 2 mmol/L DTT, and 40 units RNase inhibitor]. GST-bound RNA was discarded, and RNA bound to GST-Arm 1-12 was selected with glutathione-Sepharose beads. After four and eight cycles of selection, the selected sequences were cloned into pUC19 (pUC19-Aptamer) and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
+<p>In 2006, Lee, H. K., & Jeong, S. used an RNA library of random 50-nucleotide sequences (1 × 1014 different molecules, IDT) as starting material for the SELEX procedure . In each cycle, RNA was preincubated with glutathione S-transferase (GST) protein in binding buffer [25 mmol/L HEPES (pH 7.5), 150 mmol/L NaCl, 1 mmol/L MgCl2, 2 mmol/L DTT, and 40 units RNase inhibitor]. GST-bound RNA was discarded, and RNA bound to GST-Arm 1-12 was selected with glutathione-Sepharose beads. After four and eight cycles of selection, the selected sequences were cloned into pUC19 (pUC19 aptamer) and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
@@ -85,7 +85,7 @@ type: Proteins
   </thead>
     <tbody>
       <tr>
-        <td name="td0">pUC19-aptamer</td>
+        <td name="td0">pUC19 aptamer</td>
         <td name="td1">5'-GGACGCGUGGUACCAGGCCGAUCUAUGGACGCUAUAGGCACACCGGAUACUUUAACGAUUGGCUAAGCUUCCGCGGGGAUC-3'</td>
         <td name="td2">β-catenin</td>
         <td name="td3">5 nM</td>

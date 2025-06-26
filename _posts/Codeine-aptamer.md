@@ -83,7 +83,7 @@ type: Small molecules
 
 
 <p class="header_box" id="description">Description</p>
-<p>In 2006, RNA aptamers that bind the opium alkaloid codeine were generated using an iterative in vitro selection process. Two highest binding aptamer sequences, FC5 and FC45 with Kd values of 2.50 and 4.00 μM, respectively, were extensively studied. Corresponding mini-aptamers for FC5 and FC45 were subsequently identified through the described direct coupling Biacore assays<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>In 2006, RNA aptamers that bind the opium alkaloid codeine were generated using an iterative in vitro selection process. Two highest binding aptamer sequences, FC5 and FC45 with Kd values of 2.50 and 4.00 μM, respectively, were extensively studied. Corresponding mini aptamers for FC5 and FC45 were subsequently identified through the described direct coupling Biacore assays<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>

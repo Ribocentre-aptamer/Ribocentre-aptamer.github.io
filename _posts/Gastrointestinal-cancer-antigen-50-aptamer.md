@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Gastrointestinal cancer antigen 50-aptamer
+title: Gastrointestinal cancer antigen 50 aptamer
 date: 2024-05-29 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer

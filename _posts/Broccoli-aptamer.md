@@ -101,7 +101,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/28548488/" target="_blank" style="color:#520049">2017</a></h3>
     </div>
     <div class="body">
-      <p>Split-Broccoli, which represents the first functional split-aptamer system to operate in vivo, was designed.<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
+      <p>Split-Broccoli, which represents the first functional split aptamer system to operate in vivo, was designed.<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
     </div>
   </div>
   <div class="entry">

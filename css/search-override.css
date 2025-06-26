@@ -40,26 +40,27 @@
   box-shadow: 0 5px 20px rgba(0,0,0,0.25) !important;
 }
 
-/* --- 旧版搜索项样式（已弃用，防止覆盖新版卡片） ---
+/* 旧版搜索项样式（已弃用，防止覆盖新版卡片） */
+/*
 .search-result-item {
-  /* background-color: white !important; */
-  /* border-bottom: 1px solid #eee !important; */
-  /* padding: 10px !important; */
-  /* position: relative !important; */
-  /* z-index: 999999 !important; */
+  background-color: white !important;
+  border-bottom: 1px solid #eee !important;
+  padding: 10px !important;
+  position: relative !important;
+  z-index: 999999 !important;
 }
 
 .search-result-item h4 a {
-  /* color: #520049 !important; */
-  /* font-weight: bold !important; */
-  /* text-decoration: none !important; */
-  /* display: block !important; */
+  color: #520049 !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  display: block !important;
 }
 
 .search-result-item:hover {
-  /* background-color: #f8f9fa !important; */
+  background-color: #f8f9fa !important;
 }
---- */
+*/
 
 /* 确保搜索框和结果容器在其他元素之上 */
 .custom-search-container {

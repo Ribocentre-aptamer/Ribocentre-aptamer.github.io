@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Chemokine CCL17-aptamer
+title: Chemokine CCL17 aptamer
 date: 2024-05-31 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer

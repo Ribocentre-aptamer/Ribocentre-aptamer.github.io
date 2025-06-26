@@ -79,7 +79,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31754719/" target="_blank" style="color:#520049">2020</a></h3>
     </div>
     <div class="body">
-      <p>The atomic resolution structure of an RNA-aptamer binding to the fluorescent xanthene dye tetramethylrhodamine was present<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
+      <p>The atomic resolution structure of an RNA aptamer binding to the fluorescent xanthene dye tetramethylrhodamine was present<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
   </div>
   <div class="entry">

@@ -82,7 +82,7 @@ type: Small molecules
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30605601/" target="_blank" style="color:#520049">2019</a></h3>
   </div>
   <div class="body">
-    <p>Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA-Aptamer Electrode<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
+    <p>Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA aptamer Electrode<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
   </div>
  </div>
             
@@ -232,7 +232,7 @@ Farjami E, Campos R, Nielsen JS, Gothelf KV, Kjems J, Ferapontova EE<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/26916821/" target="_blank" style="color:#520049">Analytical chemistry. 2016 Apr 5;88(7):3608-16. (2016)</a>
 <br/>
             
-<a id="ref7"></a><font><strong>[7] Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA-Aptamer Electrode.</strong></font><br />
+<a id="ref7"></a><font><strong>[7] Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA aptamer Electrode.</strong></font><br />
 Álvarez-Martos I, Møller A, Ferapontova EE<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30605601/" target="_blank" style="color:#520049">ACS chemical neuroscience. 2019 Mar 20;10(3):1706-1715. (2019)</a>
 <br/>

@@ -721,7 +721,7 @@ Yin, P., Ge, M., Xie, S., Zhang, L., Kuang, S., Nie, Z.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/38098702/" target="_blank" style="color:#520049">Chemical Science, 14(48) , 14131-14139. (2023)</a>
 <br />
                 
-<a id="ref11"></a><font><strong>[11] An RNA Methylation-Sensitive AIEgen-Aptamer reporting system for quantitatively evaluating m6A methylase and demethylase activities.</strong></font><br />
+<a id="ref11"></a><font><strong>[11] An RNA Methylation-Sensitive AIEgen aptamer reporting system for quantitatively evaluating m6A methylase and demethylase activities.</strong></font><br />
 Ying, X., Huang, C., Li, T., Li, T., Gao, M., Wang, F., Cao, J., Liu, J.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/38105499/" target="_blank" style="color:#520049">ACS chemical biology, 19(1) , 162-172. (2024)</a>
 <br />

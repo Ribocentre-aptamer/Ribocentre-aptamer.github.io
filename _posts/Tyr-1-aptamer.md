@@ -144,7 +144,7 @@ Mannironi C, Scerch C, Fruscoloni P, Tocchini-Valentini GP<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10786843/" target="_blank" style="color:#520049">RNA. 2000 Apr;6(4):520-7. (2000)</a>
 <br/>
             
-<a id="ref2"></a><font><strong>[2] NA-aptamers-in-droplets (RAPID) high-throughput screening for secretory phenotypes.</strong></font><br />
+<a id="ref2"></a><font><strong>[2] NA aptamers-in-droplets (RAPID) high-throughput screening for secretory phenotypes.</strong></font><br />
 Abatemarco J, Sarhan MF, Wagner JM, Lin JL, Liu L, Hassouneh W, Yuan SF, Alper HS, Abate AR<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/28835641/" target="_blank" style="color:#520049">Nature communications. 2017 Aug 23;8(1):332. (2017)</a>
 <br/>

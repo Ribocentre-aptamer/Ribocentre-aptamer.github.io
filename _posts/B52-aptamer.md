@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: B52-aptamer
+title: B52 aptamer
 date: 2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer

@@ -243,7 +243,7 @@ Sunbul, M., & Jäschke, A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/29931157/" target="_blank" style="color:#520049">Nucleic acids research, 46(18), e110. (2018)</a>
 <br/>
             
-<a id="ref6"></a><font><strong>[6] A dimerization-based fluorogenic dye-aptamer module for RNA imaging in live cells.</strong></font><br />
+<a id="ref6"></a><font><strong>[6] A dimerization-based fluorogenic dye aptamer module for RNA imaging in live cells.</strong></font><br />
 Bouhedda, F., Fam, K. T., Collot, M., Autour, A., Marzi, S., Klymchenko, A., & Ryckelynck, M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/31636432/" target="_blank" style="color:#520049">Nature chemical biology, 16(1), 69–76.  (2020)</a>
 <br/>

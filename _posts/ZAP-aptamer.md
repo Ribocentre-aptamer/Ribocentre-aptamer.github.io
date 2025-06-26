@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: ZAP-aptamer
+title: ZAP aptamer
 date: 2024-05-29 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer

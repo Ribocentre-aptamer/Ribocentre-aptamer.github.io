@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Restriction endonucleases (REases) KpnI-aptamer
+title: Restriction endonucleases (REases) KpnI aptamer
 date: 2024-05-31 00:00:00
 author: Yangyi Ren, Chen Ke
 categories: Aptamer

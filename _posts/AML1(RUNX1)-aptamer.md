@@ -135,7 +135,7 @@ type: Proteins
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/28845698/" target="_blank" style="color:#520049">2017</a></h3>
     </div>
     <div class="body">
-      <p>Developed the first CD123 (AML tumor marker) aptamers and designed a novel CD123-aptamer-mediated targeted drug train (TDT) with effective, economical, biocompatible and high drug-loading capacity<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
+      <p>Developed the first CD123 (AML tumor marker) aptamers and designed a novel CD123 aptamer-mediated targeted drug train (TDT) with effective, economical, biocompatible and high drug-loading capacity<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -178,7 +178,7 @@ type: Proteins
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<p>Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1)-aptamer) using nuclear magnetic resonance(NMR). Although structure of the Runt domain-aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. The PDB ID of this structure is 2RRC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
+<p>Nomura and his colleague determined the solution structure of a 22-mer RNA (AML1 (RUNX1) aptamer) using nuclear magnetic resonance(NMR). Although structure of the Runt domain aptamer complex could not be determined, comparison of the aptamer structure with RDE and dsRNA suggested that the aptamer motif binds to the Runt domain by mimicking the RDE sequence and structure. The PDB ID of this structure is 2RRC<sup>[<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
@@ -567,7 +567,7 @@ Amano, R., Takada, K., Tanaka, Y., Nakamura, Y., Kawai, G., Kozu, T., & Sakamoto
 <a href="https://pubmed.ncbi.nlm.nih.gov/27766833/" target="_blank" style="color:#520049">Biochemistry, 55(45), 6221–6229 (2016)</a>
 <br />
 
-<a id="ref13"></a><font><strong>[13] Novel CD123-aptamer-originated targeted drug trains for selectively delivering cytotoxic agent to tumor cells in acute myeloid leukemia theranostics.</strong></font><br />
+<a id="ref13"></a><font><strong>[13] Novel CD123 aptamer-originated targeted drug trains for selectively delivering cytotoxic agent to tumor cells in acute myeloid leukemia theranostics.</strong></font><br />
 Wu, H., Wang, M., Dai, B., Zhang, Y., Yang, Y., Li, Q., Duan, M., Zhang, X., Wang, X., Li, A., & Zhang, L<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/28845698/" target="_blank" style="color:#520049">Drug delivery, 24(1), 1216–1229 (2017)</a>
 <br />

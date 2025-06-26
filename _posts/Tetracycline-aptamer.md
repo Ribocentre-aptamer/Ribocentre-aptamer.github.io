@@ -395,7 +395,7 @@ type: Small molecules
 
 <p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
-<p>Xiao and colleagues employed several methods, including isocratic elution from tetracycline-agarose and RNA elution, to determine the dissociation constant of the tetracycline-aptamer complex both on the column and in solution. These approaches were utilised to thoroughly assess the affinity and stability of the tetracycline-aptamer interaction under various experimental conditions, thereby providing a robust evaluation of the binding affinity and dynamics between RNA molecules and tetracycline in diverse environments<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
+<p>Xiao and colleagues employed several methods, including isocratic elution from tetracycline-agarose and RNA elution, to determine the dissociation constant of the tetracycline aptamer complex both on the column and in solution. These approaches were utilised to thoroughly assess the affinity and stability of the tetracycline aptamer interaction under various experimental conditions, thereby providing a robust evaluation of the binding affinity and dynamics between RNA molecules and tetracycline in diverse environments<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
 <!--div style="display: flex; justify-content: center;">
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
@@ -575,7 +575,7 @@ Suess, B., Hanson, S., Berens, C., Fink, B., Schroeder, R., & Hillen, W<br />
 <a href=" https://pubmed.ncbi.nlm.nih.gov/12655001/" target="_blank" style="color:#520049">Nucleic acids research, 31(7), 1853-1858 (2003)</a>
 <br />
                 
-<a id="ref3"></a><font><strong>[3] Tetracycline-aptamer-mediated translational regulation in yeast.</strong></font><br />
+<a id="ref3"></a><font><strong>[3] Tetracycline aptamer-mediated translational regulation in yeast.</strong></font><br />
 Hanson, S., Berthelot, K., Fink, B., McCarthy, J. E. G. & Suess, B.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/12950926/" target="_blank" style="color:#520049"> Molecular microbiology, 49(6), 1627–1637 (2003)</a>
 <br />

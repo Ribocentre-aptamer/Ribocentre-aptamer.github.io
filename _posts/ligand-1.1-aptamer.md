@@ -65,7 +65,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31943114/" target="_blank" style="color:#520049">2020</a></h3>
   </div>
   <div class="body">
-    <p>Features at the RT-aptamer interface that govern recognition specificity by a broad-spectrum antiviral aptamer, and they open new possibilities for accelerating RT maturation and interfering with viral replication<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
+    <p>Features at the RT aptamer interface that govern recognition specificity by a broad-spectrum antiviral aptamer, and they open new possibilities for accelerating RT maturation and interfering with viral replication<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
   </div>
  </div>
             
@@ -264,7 +264,7 @@ Joshi, P., & Prasad, V. R.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/12050367/" target="_blank" style="color:#520049">Journal of virology, 76(13), 6545–6557. (2002)</a>
 <br/>
             
-<a id="ref4"></a><font><strong>[4] Insight into HIV-1 reverse transcriptase-aptamer interaction from molecular dynamics simulations.</strong></font><br />
+<a id="ref4"></a><font><strong>[4] Insight into HIV-1 reverse transcriptase aptamer interaction from molecular dynamics simulations.</strong></font><br />
 Aeksiri, N., Songtawee, N., Gleeson, M. P., Hannongbua, S., & Choowongkomon, K.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/25073457/" target="_blank" style="color:#520049">Journal of molecular modeling, 20(8), 2380. (2014)</a>
 <br/>

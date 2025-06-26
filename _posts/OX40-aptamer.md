@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: OX40-aptamer
+title: OX40 aptamer
 date: 2024-05-31 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer

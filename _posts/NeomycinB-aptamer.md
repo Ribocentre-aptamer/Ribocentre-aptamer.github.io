@@ -477,7 +477,7 @@ Wilhelmsson L. M.  Quarterly reviews of biophysics, 43(2), 159–183.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/20478079/" target="_blank" style="color:#520049">Quarterly reviews of biophysics, 43(2), 159–183 (2010)</a>
 <br />
                 
-<a id="ref7"></a><font><strong>[7] A strategy to enhance the binding affinity of fluorophore-aptamer pairs for RNA tagging with neomycin conjugation.</strong></font><br />
+<a id="ref7"></a><font><strong>[7] A strategy to enhance the binding affinity of fluorophore aptamer pairs for RNA tagging with neomycin conjugation.</strong></font><br />
 Jeon, J., Lee, K. H., & Rao, J.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/22951899/" target="_blank" style="color:#520049"> Chemical communications (Cambridge, England), 48(80), 10034–10036. (2012)</a>
 <br />

@@ -110,7 +110,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31030336/" target="_blank" style="color:#520049">2019</a></h3>
     </div>
     <div class="body">
-      <p>The NMR-based structure determination of the high-affinity binding GTP-aptamer 9-12<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
+      <p>The NMR-based structure determination of the high-affinity binding GTP aptamer 9-12<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
     </div>
   </div>
 <div class="entry">

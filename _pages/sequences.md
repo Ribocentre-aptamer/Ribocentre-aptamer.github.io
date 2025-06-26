@@ -148,7 +148,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 </style>
 
 </head>
-<body>
+<body style="padding-top: 0px;">
 <h1 class="post-title">Sequences</h1>
 <p>Named here is composed of ligand + underscore + article name, which belongs to a unique name. For RNA aptamers isolated from the same ligand in the same article, we only selected 1-2 of them to draw the details page.</p>
 <div class="form-container" style="margin-bottom:15px;">
@@ -168,13 +168,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
           <th>Category</th>
           <th>Type</th>
           <th>Article name</th>
-          <th>Ligand</th>
-          <th>Ligand Description</th>
           <th>Sequence</th>
           <th>Length</th>
           <th>GC Content</th>
-          <th>Affinity</th>
           <th>Year</th>
+          <th>Description</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -420,13 +418,11 @@ function buildRows(data){
       d.Category || 'N/A',
       d.Type || 'N/A',
       d['Article name'] || 'N/A',
-      d.Ligand || 'N/A',
-      ligandDesc,
       sequenceField,
       d.Length || 'N/A',
       d['GC Content'] && !isNaN(parseFloat(d['GC Content'])) ? (parseFloat(d['GC Content']) * 100).toFixed(1) + '%' : 'N/A',
-      d.Affinity || 'N/A',
-      yearLink
+      yearLink,
+      ligandDesc
     ];
   });
 }
@@ -538,13 +534,11 @@ function loadData(){
             {title:'Category'},
             {title:'Type'},
             {title:'Article name'},
-            {title:'Ligand'},
-            {title:'Ligand Description'},
             {title:'Sequence'},
             {title:'Length'},
             {title:'GC Content'},
-            {title:'Affinity'},
-            {title:'Year'}
+            {title:'Year'},
+            {title:'Description'}
           ],
           responsive:true,
           pageLength:25,
@@ -618,7 +612,7 @@ function exportSelected(){
     }
   }
   
-  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Ligand','Ligand Description','Sequence','Length','GC Content','Affinity','Year'];
+  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Year','Description'];
   const csv=[headers.join(',')];
   rows.forEach(r=>{
     // 跳过第一个复选框列
@@ -629,13 +623,11 @@ function exportSelected(){
       `"${exportRow[2].replace(/"/g,'""')}"`,
       `"${exportRow[3].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
       `"${exportRow[4].replace(/"/g,'""')}"`,
-      `"${exportRow[5].replace(/"/g,'""')}"`,
-      `"${exportRow[6].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
-      `"${exportRow[7].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
+      `"${exportRow[5].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
+      exportRow[6].replace(/<[^>]+>/g,''),
+      exportRow[7].replace(/<[^>]+>/g,''),
       exportRow[8].replace(/<[^>]+>/g,''),
-      exportRow[9].replace(/<[^>]+>/g,''),
-      `"${exportRow[10].replace(/"/g,'""')}"`,
-      exportRow[11].replace(/<[^>]+>/g,'')
+      `"${exportRow[9].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
     ].join(','));
   });
   const csvContent='data:text/csv;charset=utf-8,'+csv.join('\n');

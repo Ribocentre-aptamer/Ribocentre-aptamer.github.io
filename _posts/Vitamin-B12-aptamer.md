@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Vitamin B12-aptamer
+title: Vitamin B12 aptamer
 date: 2024-04-18 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer

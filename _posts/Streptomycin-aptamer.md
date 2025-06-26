@@ -136,7 +136,7 @@ type: Small molecules
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<p>Ellington, A. D et al. determined the structures of complexes formed by the Streptomycin RNA aptamer at high resolution using X-ray crystallography. The structure of the Streptomycin RNA-aptamer complex was refined to a high resolution of 2.9 Å. The PDB ID for this structure is 1NTA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
+<p>Ellington, A. D et al. determined the structures of complexes formed by the Streptomycin RNA aptamer at high resolution using X-ray crystallography. The structure of the Streptomycin RNA aptamer complex was refined to a high resolution of 2.9 Å. The PDB ID for this structure is 1NTA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
