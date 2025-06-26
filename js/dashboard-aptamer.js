@@ -186,11 +186,27 @@ TableModule.updateDataTable = function() {
         // 3. Aptamer Name - 使用 Linker name(page name) 字段，使用Linker的链接
         const aptamerNameCell = document.createElement('td');
         let aptamerNameHTML = item['Linker name(page name)'] || '';
+        
+        // 特殊处理：根据sequence name确定正确的aptamer name
+        const seqName = item['Named'] || '';
+        if (seqName && aptamerNameHTML) {
+            // 检查是否是合并的aptamer（包含逗号）
+            if (aptamerNameHTML.includes(',')) {
+                // 从sequence name中提取对应的aptamer部分
+                if (seqName.includes('CB-42')) {
+                    aptamerNameHTML = 'CB-42 aptamer';
+                } else if (seqName.includes('B4-25')) {
+                    aptamerNameHTML = 'B4-25 aptamer';
+                }
+                // 可以在这里添加更多特殊情况的处理
+            }
+        }
+        
         // 如果有链接且aptamer名称不为空，创建超链接
         if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null' && aptamerNameHTML) {
             // 确保链接以斜杠开头
             let linkerUrl = item.Linker;
-            if (!linkerUrl.startsWith('/')) {
+            if (!linkerUrl.startsWith('/') ) {
                 linkerUrl = '/' + linkerUrl;
             }
             aptamerNameHTML = `<a href="${linkerUrl}" target="_blank">${aptamerNameHTML}</a>`;

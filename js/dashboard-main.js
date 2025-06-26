@@ -1241,7 +1241,23 @@ const TableModule = {
             }
 
             // 2. Aptamer Name - 使用 Linker name(page name) 字段，使用Linker的链接
-            const processedAptamerName = handleEmptyValue(item['Linker name(page name)']);
+            let processedAptamerName = handleEmptyValue(item['Linker name(page name)']);
+            
+            // 特殊处理：根据sequence name确定正确的aptamer name
+            const seqName = handleEmptyValue(item['Named']);
+            if (seqName !== 'NA' && processedAptamerName !== 'NA') {
+                // 检查是否是合并的aptamer（包含逗号）
+                if (processedAptamerName.includes(',')) {
+                    // 从sequence name中提取对应的aptamer部分
+                    if (seqName.includes('CB-42')) {
+                        processedAptamerName = 'CB-42 aptamer';
+                    } else if (seqName.includes('B4-25')) {
+                        processedAptamerName = 'B4-25 aptamer';
+                    }
+                    // 可以在这里添加更多特殊情况的处理
+                }
+            }
+            
             let aptamerNameHTML = processedAptamerName;
             const processedLinker = handleEmptyValue(item.Linker);
             if (processedLinker !== 'NA' && processedAptamerName !== 'NA') {

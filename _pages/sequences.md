@@ -394,13 +394,29 @@ function addTooltipListeners() {
 
 function buildRows(data){
   return data.map(d=>{
-    // 处理链接 - 现在使用Linker name(page name)作为显示文本
+    // 特殊处理：根据sequence name确定正确的aptamer name
+    let aptamerName = d['Linker name(page name)'] || 'N/A';
+    const seqName = d.Named || '';
+    if (seqName && aptamerName !== 'N/A') {
+      // 检查是否是合并的aptamer（包含逗号）
+      if (aptamerName.includes(',')) {
+        // 从sequence name中提取对应的aptamer部分
+        if (seqName.includes('CB-42')) {
+          aptamerName = 'CB-42 aptamer';
+        } else if (seqName.includes('B4-25')) {
+          aptamerName = 'B4-25 aptamer';
+        }
+        // 可以在这里添加更多特殊情况的处理
+      }
+    }
+    
+    // 处理链接 - 使用处理后的aptamerName作为显示文本
     // 修复链接路径问题：确保以斜杠开头
     let linkerUrl = d.Linker;
     if (linkerUrl && !linkerUrl.startsWith('/')) {
       linkerUrl = '/' + linkerUrl;
     }
-    const aptamerLink = linkerUrl ? `<a href="${linkerUrl}" target="_blank">${d['Linker name(page name)'] || 'N/A'}</a>` : (d['Linker name(page name)'] || 'N/A');
+    const aptamerLink = linkerUrl ? `<a href="${linkerUrl}" target="_blank">${aptamerName}</a>` : aptamerName;
     
     // 处理PubMed链接
     const yearLink = d['Link to PubMed Entry'] ? `<a href="${d['Link to PubMed Entry']}" target="_blank">${d.Year || 'N/A'}</a>` : (d.Year || 'N/A');
