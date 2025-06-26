@@ -293,7 +293,7 @@ table.dataTable,
 <p>RNA aptamers can be used as therapeutic agents to modulate the activity of proteins or other targets involved in disease pathways. RNA aptamers have shown great promise as therapeutic agents, primarily due to their high specificity and low immunogenicity compared to antibodies. The therapeutic potential of RNA aptamers is particularly promising. Their ability to bind tightly and specifically to target proteins has enabled the development of aptamer-based therapeutics that can inhibit the function of disease-causing proteins. Aptamers have been used to target a wide range of proteins, including growth factors, receptors, enzymes, and transcription factors, with the potential to treat a variety of diseases, including cancer, inflammatory disorders, and infectious diseases. Furthermore, aptamers can be conjugated to therapeutic payloads, such as cytotoxic drugs or radioactive isotopes, enabling targeted delivery of therapeutics to diseased cells while minimizing systemic toxicity<sup>[<a href="#ref7" style="color:#520049">7</a></sup><sup>,<a href="#ref13" style="color:#520049">13</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>,<a href="#ref15" style="color:#520049">15</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/ͼ4.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/applications/ͼ4.svg" alt="drawing" style="height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div id="section4-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
