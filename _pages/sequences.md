@@ -208,9 +208,21 @@ function initSimpleTable(rows) {
   // 简单的搜索功能
   $('#searchBox').on('input', function() {
     const searchTerm = this.value.toLowerCase();
-    filteredRows = allRows.filter(row => {
-      return row.some(cell => cell.toString().toLowerCase().includes(searchTerm));
-    });
+    
+    // 检查是否包含逗号，如果包含则分割为多个搜索词进行OR搜索
+    if (searchTerm.includes(',')) {
+      const searchTerms = searchTerm.split(',').map(term => term.trim());
+      filteredRows = allRows.filter(row => {
+        return searchTerms.some(term => 
+          row.some(cell => cell.toString().toLowerCase().includes(term))
+        );
+      });
+    } else {
+      filteredRows = allRows.filter(row => {
+        return row.some(cell => cell.toString().toLowerCase().includes(searchTerm));
+      });
+    }
+    
     currentPage = 1;
     renderTable();
     setupPagination();
@@ -466,11 +478,27 @@ function loadData(){
       
       // 如果有搜索参数，无论是否为JSON格式都要进行过滤
       if (searchQuery) {
-        data = data.filter(item => {
-          return Object.values(item).some(value => 
-            value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
-          );
-        });
+        // 解码URL编码的字符（如%2C变成逗号）
+        let decodedSearchQuery = decodeURIComponent(searchQuery);
+        
+        // 检查是否包含逗号，如果包含则分割为多个搜索词进行OR搜索
+        if (decodedSearchQuery.includes(',')) {
+          const searchTerms = decodedSearchQuery.split(',').map(term => term.trim().toLowerCase());
+          data = data.filter(item => {
+            return searchTerms.some(searchTerm => 
+              Object.values(item).some(value => 
+                value && value.toString().toLowerCase().includes(searchTerm)
+              )
+            );
+          });
+        } else {
+          // 普通搜索逻辑
+          data = data.filter(item => {
+            return Object.values(item).some(value => 
+              value && value.toString().toLowerCase().includes(decodedSearchQuery.toLowerCase())
+            );
+          });
+        }
       }
       
               // 如果请求JSON格式，直接返回数据
@@ -524,9 +552,10 @@ function loadData(){
       // 如果有搜索参数，显示搜索结果提示
       if (searchQuery) {
         const originalCount = json.Sheet1 ? json.Sheet1.length : json.length;
+        const decodedSearchQuery = decodeURIComponent(searchQuery);
         const searchResultsInfo = document.createElement('div');
         searchResultsInfo.style.cssText = 'background: #e8f4fd; border: 1px solid #bee5eb; color: #0c5460; padding: 10px; margin-bottom: 15px; border-radius: 5px; font-size: 14px;';
-        searchResultsInfo.innerHTML = `<strong>Search Results for "${searchQuery}":</strong> Found ${data.length} result(s) out of ${originalCount} total entries. <a href="/sequences/" style="color: #520049; text-decoration: underline;">Clear search</a>`;
+        searchResultsInfo.innerHTML = `<strong>Search Results for "${decodedSearchQuery}":</strong> Found ${data.length} result(s) out of ${originalCount} total entries. <a href="/sequences/" style="color: #520049; text-decoration: underline;">Clear search</a>`;
         document.querySelector('h1.post-title').insertAdjacentElement('afterend', searchResultsInfo);
       }
       
@@ -538,7 +567,8 @@ function loadData(){
         
         // 如果URL中有search参数，自动执行搜索（简单表格模式）
         if (searchQuery) {
-          $('#searchBox').val(searchQuery);
+          const decodedSearchQuery = decodeURIComponent(searchQuery);
+          $('#searchBox').val(decodedSearchQuery);
           $('#searchBox').trigger('input');
         }
         return;
@@ -568,13 +598,19 @@ function loadData(){
             addTooltipListeners();
           }
         });
-        $('#searchBox').on('input',function(){table.search(this.value).draw();});
+        $('#searchBox').on('input',function(){
+          const searchTerm = this.value.toLowerCase();
+          // 对于DataTable，使用内置搜索，但对于包含逗号的搜索，显示所有结果
+          // 因为用户可能想要看到所有相关的aptamer
+          table.search(this.value).draw();
+        });
         
         // 如果URL中有search参数，自动执行搜索
         if (searchQuery) {
-          $('#searchBox').val(searchQuery);
+          const decodedSearchQuery = decodeURIComponent(searchQuery);
+          $('#searchBox').val(decodedSearchQuery);
           if (table && typeof table.search === 'function') {
-            table.search(searchQuery).draw();
+            table.search(decodedSearchQuery).draw();
           }
         }
       } catch (error) {
@@ -583,7 +619,8 @@ function loadData(){
         
         // 如果URL中有search参数，自动执行搜索（简单表格模式）
         if (searchQuery) {
-          $('#searchBox').val(searchQuery);
+          const decodedSearchQuery = decodeURIComponent(searchQuery);
+          $('#searchBox').val(decodedSearchQuery);
           $('#searchBox').trigger('input');
         }
       }
