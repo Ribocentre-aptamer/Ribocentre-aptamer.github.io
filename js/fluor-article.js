@@ -253,7 +253,7 @@
     
     // 再次确保样式被应用
     window.addEventListener('load', function() {
-      console.log('页面完全加载，最终应用样式');
+              console.log('Page fully loaded, applying final styles');
       setTimeout(() => {
         applyHeaderStyles();
         emphasizeWordsDirectly();

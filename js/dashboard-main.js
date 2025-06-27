@@ -21,11 +21,11 @@ const DataModule = {
             if (responseData.Sheet1 && Array.isArray(responseData.Sheet1)) {
                 // 如果数据在 Sheet1 键下
                 processedData = responseData.Sheet1;
-                console.log('从 Sheet1 字段读取数据');
+                console.log('Reading data from Sheet1 field');
             } else if (Array.isArray(responseData)) {
                 // 如果直接是数组
                 processedData = responseData;
-                console.log('直接从响应中读取数组数据');
+                console.log('Reading array data directly from response');
             } else {
                 // 尝试其他可能的数据格式
                 const possibleArrayField = Object.keys(responseData).find(
@@ -34,15 +34,15 @@ const DataModule = {
                 
                 if (possibleArrayField) {
                     processedData = responseData[possibleArrayField];
-                    console.log(`从 ${possibleArrayField} 字段读取数据`);
+                    console.log(`Reading data from ${possibleArrayField} field`);
                 } else {
-                    console.warn('未找到有效的数据数组，使用空数组');
+                    console.warn('No valid data array found, using empty array');
                     processedData = [];
                 }
             }
             
             // 确保数据中的字段兼容性，处理类型和大小写差异
-            processedData = processedData.map(item => {
+            processedData = processedData.map((item, index) => {
                 // 确保基本字段存在
                 const processedItem = { ...item };
                 
@@ -81,13 +81,36 @@ const DataModule = {
                     processedItem.affinity = processedItem.Affinity;
                 }
                 
+                // 处理 name 字段 - 尝试多种可能的字段名
+                if (!processedItem.name) {
+                    if (processedItem.Name) {
+                        processedItem.name = processedItem.Name;
+                    } else if (processedItem['Sequence Name']) {
+                        processedItem.name = processedItem['Sequence Name'];
+                    } else if (processedItem.sequence_name) {
+                        processedItem.name = processedItem.sequence_name;
+                    } else if (processedItem['序列名称']) {
+                        processedItem.name = processedItem['序列名称'];
+                    } else if (processedItem.aptamer_name) {
+                        processedItem.name = processedItem.aptamer_name;
+                    } else if (processedItem['Aptamer Name']) {
+                        processedItem.name = processedItem['Aptamer Name'];
+                    } else if (processedItem.ligand) {
+                        // 如果没有名称字段，使用配体名称作为后备
+                        processedItem.name = processedItem.ligand;
+                    } else {
+                        // 最后的后备：使用索引号
+                        processedItem.name = `Aptamer ${index + 1}`;
+                    }
+                }
+                
                 return processedItem;
             });
             
             originalData = processedData;
             filteredData = [...processedData];
             
-            console.log('数据加载成功，共', processedData.length, '条记录');
+            console.log('Data loaded successfully, total', processedData.length, 'records');
             
             this.updateStatistics();
             ChartModule.createAllCharts();
@@ -95,7 +118,7 @@ const DataModule = {
             FilterModule.updateFilterTags();
             TableModule.updateDataTable();
         } catch (error) {
-            console.error('数据加载失败:', error);
+            console.error('Data loading failed:', error);
             // 显示错误信息给用户
             this.showLoadingError(error.message);
         }
@@ -128,12 +151,12 @@ const DataModule = {
     updateStatistics() {
         // 确保数据已加载
         if (!originalData || originalData.length === 0) {
-            console.warn('原始数据未加载或为空');
+            console.warn('Original data not loaded or empty');
             return;
         }
         
         if (!filteredData) {
-            console.warn('筛选数据未初始化');
+            console.warn('Filtered data not initialized');
             return;
         }
         
@@ -157,9 +180,9 @@ const DataModule = {
         if (yearSpanEl) {
             if (years.length > 0) {
                 const yearSpan = Math.max(...years) - Math.min(...years);
-                yearSpanEl.textContent = yearSpan + '年';
+                                    yearSpanEl.textContent = yearSpan + ' years';
             } else {
-                yearSpanEl.textContent = '0年';
+                yearSpanEl.textContent = '0 years';
             }
         }
         
@@ -367,12 +390,12 @@ const ChartModule = {
         
         // 如果可视化数据源为空，显示提示
         if (dataForVisualization.length === 0) {
-            console.warn('可视化数据源为空，显示空状态');
+                            console.warn('Visualization data source is empty, showing empty state');
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
                 margin: { l: 20, r: 20, t: 20, b: 20 },
                 annotations: [{
-                    text: '筛选中... 请尝试其他筛选条件',
+                    text: 'Filtering... Please try other filter criteria',
                     xref: 'paper',
                     yref: 'paper',
                     x: 0.5,
@@ -393,12 +416,12 @@ const ChartModule = {
         
         // 如果筛选后没有数据，显示错误
         if (displayCategories.length === 0) {
-            console.warn('筛选后没有类别数据，显示空状态');
+            console.warn('No category data after filtering, showing empty state');
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
                 margin: { l: 20, r: 20, t: 20, b: 20 },
                 annotations: [{
-                    text: '没有匹配的类别数据',
+                    text: 'No matching category data',
                     xref: 'paper',
                     yref: 'paper',
                     x: 0.5,
@@ -633,7 +656,7 @@ const ChartModule = {
                 font: { size: 12, color: '#333' },
                 align: 'left'
             },
-            text: dataForVisualization.map(d => d.name),
+            text: dataForVisualization.map((d, i) => d.name || d.ligand || `Entry ${i + 1}`),
             customdata: dataForVisualization.map(d => [
                 d.year,
                 d.category

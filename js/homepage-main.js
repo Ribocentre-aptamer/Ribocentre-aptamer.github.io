@@ -149,9 +149,9 @@ const homepageSearchModule = {
         const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
         const searchModuleActive = typeof SearchModule !== 'undefined' && SearchModule.mainSearchInput;
         
-        // 在index页面，并且SearchModule已激活，则不初始化本模块的搜索功能
+        // Skip initialization if SearchModule already exists on index page
         if (isIndexPage && searchModuleActive) {
-            console.log('homepageSearchModule: 检测到SearchModule已存在，跳过搜索功能初始化');
+            console.log('homepageSearchModule: SearchModule already exists, skipping search functionality initialization');
             return;
         }
         
@@ -490,7 +490,7 @@ const MolstarModule = {
                     setTimeout(() => this.loadAptamerStructure(this.currentAptamerIndex), 100);
                 })
                 .catch(error => {
-                    console.error('Molstar库加载失败:', error);
+                    console.error('Molstar library loading failed:', error);
                     this.showFallback();
                 });
         } else {
@@ -498,10 +498,10 @@ const MolstarModule = {
             this.updateInfoCards({
                 name: 'Ribocentre Aptamer',
                 url: '#',
-                target: '多种生物分子',
+                target: 'Various Biomolecules',
                 firstYear: '1990-2024',
                 pdbId: 'N/A',
-                description: 'Ribocentre-Aptamer是一个综合性的适配体数据库与研究平台，致力于为研究人员提供全面、准确的适配体信息资源。'
+                description: 'Ribocentre-Aptamer is a comprehensive aptamer database and research platform dedicated to providing researchers with comprehensive and accurate aptamer information resources.'
             });
         }
     },
@@ -615,11 +615,11 @@ const MolstarModule = {
                     this.molstarInstance = new PDBeMolstarPlugin();
                     this.molstarInstance.render(molstarViewer, options)
                         .then(() => {
-                            console.log('Molstar渲染成功');
+                            console.log('Molstar rendering successful');
                             this.enableRotation();
                         })
                         .catch(error => {
-                            console.error('Molstar渲染失败:', error);
+                            console.error('Molstar rendering failed:', error);
                             this.showFallback();
                         });
                 } else {
@@ -657,7 +657,7 @@ const MolstarModule = {
                 }
             }
         } catch (error) {
-            console.log('启用旋转时出错:', error);
+            console.log('Error enabling rotation:', error);
             const molstarViewer = document.getElementById('molstar-viewer');
             if (molstarViewer) {
                 molstarViewer.style.animation = 'molstarSpin 15s linear infinite';
@@ -672,8 +672,8 @@ const MolstarModule = {
                 <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #4a5568; text-align: center; padding: 20px;">
                     <div>
                         <div style="font-size: 3rem; margin-bottom: 10px;">🧬</div>
-                        <div style="font-size: 1.2rem; font-weight: bold;">3D 分子结构</div>
-                        <div style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;">真实适配体三维结构展示</div>
+                        <div style="font-size: 1.2rem; font-weight: bold;">3D Molecular Structure</div>
+                        <div style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;">Real Aptamer 3D Structure Display</div>
                     </div>
                 </div>
             `;
@@ -687,7 +687,7 @@ const MolstarModule = {
                 <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #4a5568; text-align: center; padding: 20px;">
                     <div>
                         <div style="font-size: 2.5rem; margin-bottom: 15px; animation: pulse 2s infinite;">⚛️</div>
-                        <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 8px;">正在加载3D结构</div>
+                        <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 8px;">Loading 3D Structure</div>
                         <div style="font-size: 0.9rem; opacity: 0.8;">Loading Molecular Structure...</div>
                         <div style="margin-top: 10px;">
                             <div style="width: 40px; height: 4px; background: #e2e8f0; border-radius: 2px; margin: 0 auto; overflow: hidden;">

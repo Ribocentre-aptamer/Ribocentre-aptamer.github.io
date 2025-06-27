@@ -95,6 +95,6 @@ window.currentSlide = (index) => FluorescenceCarousel.currentSlide(index);
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Fluorescence页面加载完成，初始化轮播图...');
+    console.log('Fluorescence page loaded, initializing carousel...');
     FluorescenceCarousel.init();
 }); 

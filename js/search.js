@@ -387,6 +387,6 @@ const SearchModule = {
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('页面加载完成，初始化搜索模块...');
+    console.log('Page loaded, initializing search module...');
     SearchModule.init();
 }); 

@@ -348,7 +348,7 @@ class SequenceTableManager {
               }
             this.renderTable(this.rawData);
         } catch (error) {
-            console.error(`加载sequences数据失败:`, error);
+            console.error(`Failed to load sequences data:`, error);
             const container = document.getElementById('sequences-table');
             if (container) {
                 container.innerHTML = '<div class="loading">Failed to load sequences data.</div>';
@@ -422,7 +422,7 @@ class SequenceTableManager {
         // 使用jQuery的noConflict()避免冲突
         const jQuery = window.jQuery;
         if (!jQuery || !jQuery.fn.DataTable) {
-            console.error("jQuery或DataTables未正确加载!");
+            console.error("jQuery or DataTables not loaded correctly!");
             return;
         }
         
@@ -596,7 +596,7 @@ class SequenceTableManager {
 
 // 页面加载完成后初始化
 jQuery(document).ready(function($) {
-    console.log('Sequences页面加载完成，初始化表格...');
+    console.log('Sequences page loaded, initializing table...');
     window.sequenceManager = new SequenceTableManager();
     window.sequenceManager.init();
 }); 

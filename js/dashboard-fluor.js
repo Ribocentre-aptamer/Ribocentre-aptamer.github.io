@@ -34,7 +34,7 @@
             originalData = data;
             filteredData = [...data];
 
-            console.log('荧光数据加载成功，共', data.length, '条记录');
+            console.log('Fluorescence data loaded successfully, total', data.length, 'records');
 
             // 初始化各模块
             this.updateStatistics();
@@ -43,7 +43,7 @@
             FilterModule.updateFilterTags();
             TableModule.updateDataTable();
         } catch (error) {
-            console.error('荧光数据加载失败:', error);
+            console.error('Fluorescence data loading failed:', error);
             this.showLoadingError(error.message);
         }
     };

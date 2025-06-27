@@ -276,7 +276,7 @@ class ApplicationTableManager {
             const data = await response.json();
             this.renderTable(config, data);
         } catch (error) {
-            console.error(`加载${config.jsonFile}失败:`, error);
+            console.error(`Failed to load ${config.jsonFile}:`, error);
         }
     }
 
@@ -507,7 +507,7 @@ class ApplicationTableManager {
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Applications页面加载完成，初始化表格...');
+    console.log('Applications page loaded, initializing table...');
     const tableManager = new ApplicationTableManager();
     tableManager.init();
 }); 

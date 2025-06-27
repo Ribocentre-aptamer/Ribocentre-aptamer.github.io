@@ -56,7 +56,7 @@ class AptamerTableGenerator {
             this.generateTable();
             
             const tableTypeDesc = this.options.tableType === '3d' ? '有3D结构' : '无3D结构';
-            console.log(`✅ ${tableTypeDesc}适配体表格数据加载成功`);
+            console.log(`✅ ${tableTypeDesc} aptamer table data loaded successfully`);
             console.log(`📊 Total items: ${this.data.metadata.total_items}`);
             console.log(`🏷️ Categories: ${this.data.metadata.categories}`);
             
@@ -477,9 +477,9 @@ class MultiAptamerTableManager {
         
         try {
             await Promise.all(promises);
-            console.log('🎉 所有适配体表格加载完成');
+            console.log('🎉 All aptamer tables loaded successfully');
         } catch (error) {
-            console.error('❌ 部分表格加载失败:', error);
+            console.error('❌ Some tables failed to load:', error);
         }
     }
 

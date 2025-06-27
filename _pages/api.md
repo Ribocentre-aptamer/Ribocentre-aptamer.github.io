@@ -161,6 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // 清空页面内容并显示JSON
+            document.body.className = 'json-output';
             document.body.innerHTML = '<pre style="white-space: pre-wrap; word-wrap: break-word; font-family: monospace; padding: 20px; margin: 0; background: #f5f5f5; border: none;">' + 
                 JSON.stringify(responseData, null, 2) + '</pre>';
         })
@@ -187,6 +188,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 ],
                 data: []
             };
+            document.body.className = 'json-output';
             document.body.innerHTML = '<pre style="white-space: pre-wrap; word-wrap: break-word; font-family: Monaco, \'Lucida Console\', monospace; padding: 20px; margin: 0; background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; border-radius: 5px;">' + 
                 JSON.stringify(errorResponse, null, 2) + '</pre>';
         });
@@ -194,7 +196,8 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
-body {
+/* JSON 输出时的body样式，只在JavaScript动态设置JSON内容时生效 */
+.json-output {
     margin: 0;
     padding: 0;
     font-family: monospace;
@@ -205,7 +208,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #333;
 }
@@ -696,7 +699,7 @@ We encourage the research community to:
 
 ## Changelog
 
-### Version 1.0 (January 2025)
+### Version 1.0 (06-27-2025)
 - Initial API documentation
 - Basic URL parameter filtering
 - Search and export functionality
@@ -704,6 +707,6 @@ We encourage the research community to:
 
 ---
 
-*本API文档旨在通过程序化数据访问支持全球研究社区推进适配体科学发展。*
+*This API documentation aims to advance aptamer science by supporting the global research community through programmatic data access.*
 
 </div> 
