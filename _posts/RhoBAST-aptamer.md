@@ -34,7 +34,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/20159999/" target="_blank" style="color:#520049">2010</a></h3>
     </div>
     <div class="body">
-      <p>Aptamers bind tetramethylrhodamine was generated using in vitro selection.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>Aptamers bind tetramethylrhodamine was generated using in vitro selection.<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -42,7 +42,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/27730489/" target="_blank" style="color:#520049">2017</a></h3>
     </div>
     <div class="body">
-      <p>The NMR resonance assignment of an RNA aptamer binding to the fluorescent ligand tetramethylrhodamine TMR was present.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>The NMR resonance assignment of an RNA aptamer binding to the fluorescent ligand tetramethylrhodamine TMR was present.<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -50,7 +50,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30986047/" target="_blank" style="color:#520049">2019</a></h3>
     </div>
     <div class="body">
-      <p>A light-up RNA aptamer binding to silicon rhodamines was developed.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>A light-up RNA aptamer binding to silicon rhodamines was developed.<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -58,7 +58,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31754719/" target="_blank" style="color:#520049">2020</a></h3>
     </div>
     <div class="body">
-      <p>The atomic resolution structure of an RNA aptamer binding to the fluorescent xanthene dye tetramethylrhodamine was present.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>The atomic resolution structure of an RNA aptamer binding to the fluorescent xanthene dye tetramethylrhodamine was present.<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -66,7 +66,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33574610/" target="_blank" style="color:#520049">2021</a></h3>
     </div>
     <div class="body">
-      <p>RhoBAST bound to tetramethylrhodamine-dinitroaniline was isolated from random RNA nucleic acid libraries by in vitro selection.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>RhoBAST bound to tetramethylrhodamine-dinitroaniline was isolated from random RNA nucleic acid libraries by in vitro selection.<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -74,7 +74,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35486532/" target="_blank" style="color:#520049">2022</a></h3>
     </div>
     <div class="body">
-      <p>A fluorogenic self-quenched dimer based on rhodamine whose cognate aptamer is o-Coral was rationally designed.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>A fluorogenic self-quenched dimer based on rhodamine whose cognate aptamer is o-Coral was rationally designed.<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -82,7 +82,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/36658339/" target="_blank" style="color:#520049">2023</a></h3>
     </div>
     <div class="body">
-      <p>By embedding biRhoBAST and biSiRA into RNA scaffolds, Fluorescent light-up aptamers with higher fluorogenicity and more remarkable photostability were obtained.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>By embedding biRhoBAST and biSiRA into RNA scaffolds, Fluorescent light-up aptamers with higher fluorogenicity and more remarkable photostability were obtained.<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -90,7 +90,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/38760339/" target="_blank" style="color:#520049">2024</a></h3>
     </div>
     <div class="body">
-      <p>The co-crystal structure of RhoBAST in complex with tetramethylrhodamine-dinitroaniline was determined to elucidate the molecular basis for ligand binding and fluorescence activation.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>The co-crystal structure of RhoBAST in complex with tetramethylrhodamine-dinitroaniline was determined to elucidate the molecular basis for ligand binding and fluorescence activation.<sup>[<a href="#ref8" style="color:#520049">8</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -98,7 +98,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39803439/" target="_blank" style="color:#520049">2024</a></h3>
     </div>
     <div class="body">
-      <p>Crystal structures of RhoBAST in complex with 5-carboxytetramethylrhodamine and a SpyRho555 analogue, MaP555 were determined.<sup>[<a href="#ref" style="color:#520049"></a>]</sup></p>
+      <p>Crystal structures of RhoBAST in complex with 5-carboxytetramethylrhodamine and a SpyRho555 analogue, MaP555 were determined.<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup></p>
     </div>
   </div>
 </div>
@@ -151,9 +151,96 @@ type: Small molecules
     </head>
     <body>
         <div class="controlsSection1">
-            <button onclick="viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255} })" style="float:right;height:25px;width:120px;">Color Selection</button>
-            <button onclick="viewerInstance1.visual.clearSelection()" style="float:left;height:25px;width:120px;">Clear Selection</button>
-        </div>
+            <button onclick="
+              var selectSections1 = [
+                {
+  struct_asym_id: 'B', 
+  start_residue_number:204, 
+  end_residue_number:206, 
+  color:{r:255,g:0,b:255}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:1, 
+  end_residue_number:7, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:59, 
+  end_residue_number:65, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:203, 
+  end_residue_number:203, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:8, 
+  end_residue_number:29, 
+  color:{r:8,g:69,b:149}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:53, 
+  end_residue_number:58, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:37, 
+  end_residue_number:42, 
+  color:{r:24,g:152,b:140}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:30, 
+  end_residue_number:31, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:33, 
+  end_residue_number:36, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:43, 
+  end_residue_number:44, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:51, 
+  end_residue_number:52, 
+  color:{r:194,g:182,b:23}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:32, 
+  end_residue_number:32, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:45, 
+  end_residue_number:50, 
+  color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:47, 
+  end_residue_number:47, 
+  color:{r:241,g:125,b:7}
+}
+             ]
+            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+      </div>
     <div class="viewerSection1">
       <div id="myViewer1"></div>
     </div>
@@ -165,12 +252,13 @@ type: Small molecules
         hideControls:true,
         bgColor:{r:255, g:255, b:255},
       };
-      var selectSections1 = [];
       var viewerContainer = document.getElementById('myViewer1');
       viewerInstance1.render(viewerContainer, options1);
-      // 自动着色
-      viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255} });
-    </script>
+  window.addEventListener('load', function() {
+    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+    colorSelectionButton1.click();
+  });
+</script>
     </body>
     </html>
     </td>

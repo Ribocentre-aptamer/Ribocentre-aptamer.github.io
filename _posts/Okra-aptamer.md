@@ -120,63 +120,63 @@ type: Small molecules
         <td name="td0">NA</td>
         <td name="td1">N-(2-(2-Aminoethoxy)ethyl)-2-cyano-3-(1,2,3,5,6,7-hexahydropyrido[3,2,1-ij]quinolin-9-yl)acrylamide</td>
         <td name="td2">NA</td>
-        <td name="td3">170898143</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/170898143" target="_blank" style="color:#520049"><b>170898143</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td0">NA</td>
         <td name="td1">(E)-3-(1-azatricyclo[7.3.1.05,13]trideca-5,7,9(13)-trien-7-yl)-2-cyano-N-[2-[(2,2,2-trifluoroacetyl)amino]oxyethyl]prop-2-enamide</td>
         <td name="td2">NA</td>
-        <td name="td3">156684979</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/156684979" target="_blank" style="color:#520049"><b>156684979</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC14879905</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC14879905/" target="_blank" style="color:#520049"><b>ZINC14879905</b></a></td>
         <td name="td1">N-[(1-methyl-1,2,3,4-tetrahydro-6-quinolinyl)methyl]-6-(4-morpholinylmethyl)-2-oxo-1,2-dihydro-3-pyridinecarboxamide</td>
         <td name="td2">NA</td>
-        <td name="td3">26275887</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/26275887" target="_blank" style="color:#520049"><b>26275887</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC209173648</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC209173648/" target="_blank" style="color:#520049"><b>ZINC209173648</b></a></td>
         <td name="td1">(E)-3-(1-azatricyclo[7.3.1.05,13]trideca-5,7,9(13)-trien-7-yl)-2-cyano-N-methylprop-2-enamide</td>
         <td name="td2">NA</td>
-        <td name="td3">59401066</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/59401066" target="_blank" style="color:#520049"><b>59401066</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td0">ZINC202676737</td>
+        <td name="td0"><a href="https://zinc15.docking.org/substances/ZINC202676737/" target="_blank" style="color:#520049"><b>ZINC202676737</b></a></td>
         <td name="td1">6-Methyl-1-(2-morpholin-4-ylethyl)-2-oxo-4-piperazin-1-ylquinoline-3-carbonitrile</td>
         <td name="td2">NA</td>
-        <td name="td3">59740520</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/59740520" target="_blank" style="color:#520049"><b>59740520</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td0">NA</td>
         <td name="td1">3-acetamidopropyl (E)-3-(1-azatricyclo[7.3.1.05,13]trideca-5,7,9(13)-trien-7-yl)-2-cyanoprop-2-enoate</td>
         <td name="td2">NA</td>
-        <td name="td3">121464698</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/121464698" target="_blank" style="color:#520049"><b>121464698</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td0">NA</td>
         <td name="td1">(E)-3-(1-azatricyclo[7.3.1.05,13]trideca-5,7,9(13)-trien-7-yl)-2-cyano-N-pentylprop-2-enamide</td>
         <td name="td2">NA</td>
-        <td name="td3">121464699</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/121464699" target="_blank" style="color:#520049"><b>121464699</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td0">NA</td>
         <td name="td1">(E)-3-(1-azatricyclo[7.3.1.05,13]trideca-5,7,9(13)-trien-7-yl)-N-[2-[2-(6-chlorohexoxy)ethoxy]ethyl]-2-cyanoprop-2-enamide</td>
         <td name="td2">NA</td>
-        <td name="td3">154615008</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/154615008" target="_blank" style="color:#520049"><b>154615008</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td0">NA</td>
         <td name="td1">tert-butyl N-[2-[[(E)-3-(1-azatricyclo[7.3.1.05,13]trideca-5,7,9(13)-trien-7-yl)-2-cyanoprop-2-enoyl]amino]ethoxy]carbamate</td>
         <td name="td2">NA</td>
-        <td name="td3">156376202</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/156376202" target="_blank" style="color:#520049"><b>156376202</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/ACE_Simi_compound9.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
     </tbody>
