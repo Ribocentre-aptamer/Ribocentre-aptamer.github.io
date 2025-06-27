@@ -232,6 +232,7 @@ function exportData() {
     csvRows.push(headers.map(h => `"${h}"`).join(','));
     
     // 数据行 - 严格按照TableModule.updateDataTable()的逻辑处理
+    // 注意：除了PubMed Link列（仅在导出中包含），其他所有列都与表格显示保持一致
     filteredData.forEach((item, index) => {
         // 1. No. - 行号
         const no = index + 1;
@@ -259,6 +260,7 @@ function exportData() {
         const year = (item['Year'] || 'N/A').toString().replace(/<[^>]*>/g, '');
         
         // 5. PubMed Link - 使用Link to PubMed Entry字段
+        // 注意：此列仅在导出中包含，网页表格中不显示（保持界面简洁）
         const pubmedLink = (item['Link to PubMed Entry'] || 'N/A').toString().replace(/<[^>]*>/g, '');
         
         // 6. Category - 使用Category字段

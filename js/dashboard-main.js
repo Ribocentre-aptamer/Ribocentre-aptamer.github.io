@@ -1213,22 +1213,22 @@ const TableModule = {
         tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
         tableBody.innerHTML = '';
 
-        // 辅助函数：处理空值，统一显示为 NA
+        // 辅助函数：处理空值，统一显示为 N/A（与导出逻辑保持一致）
         const handleEmptyValue = (value) => {
             if (value === null || value === undefined || value === '' || 
                 value === 'null' || value === 'NULL' || 
                 value === 'na' || value === 'NA' || value === 'N/A' ||
                 value === 'nan' || value === 'NaN' || value === 'NAN' ||
                 (typeof value === 'string' && value.trim() === '')) {
-                return 'NA';
+                return 'N/A';
             }
             return value;
         };
 
-        // 辅助函数：序列着色
+        // 辅助函数：序列着色（与导出逻辑保持一致）
         const colorizeSequence = (seq) => {
             const processedSeq = handleEmptyValue(seq);
-            if (processedSeq === 'NA') return 'NA';
+            if (processedSeq === 'N/A') return 'N/A';
             const colorMap = { 'A': '#d9534f', 'T': '#f0ad4e', 'U': '#f0ad4e', 'C': '#5bc0de', 'G': '#5cb85c' };
             return processedSeq.split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
         };
@@ -1257,18 +1257,18 @@ const TableModule = {
             // 1. Sequence Name - 使用 Named 字段，构造到sequence界面的链接
             const processedSeqName = handleEmptyValue(item['Named']);
             let seqNameHTML = processedSeqName;
-            if (processedSeqName !== 'NA') {
+            if (processedSeqName !== 'N/A') {
                 // 构造到sequences页面的链接，使用Named作为搜索查询
                 const searchQuery = encodeURIComponent(processedSeqName);
                 seqNameHTML = `<a href="/sequences/?search=${searchQuery}" target="_blank">${processedSeqName}</a>`;
             }
 
-            // 2. Aptamer Name - 使用 Linker name(page name) 字段，使用Linker的链接
+            // 2. Aptamer Name - 使用 Linker name(page name) 字段，使用Linker的链接（与导出逻辑保持一致）
             let processedAptamerName = handleEmptyValue(item['Linker name(page name)']);
             
-            // 特殊处理：根据sequence name确定正确的aptamer name
+            // 特殊处理：根据sequence name确定正确的aptamer name（与导出逻辑保持一致）
             const seqName = handleEmptyValue(item['Named']);
-            if (seqName !== 'NA' && processedAptamerName !== 'NA') {
+            if (seqName !== 'N/A' && processedAptamerName !== 'N/A') {
                 // 检查是否是合并的aptamer（包含逗号）
                 if (processedAptamerName.includes(',')) {
                     // 从sequence name中提取对应的aptamer部分
@@ -1287,7 +1287,7 @@ const TableModule = {
             
             let aptamerNameHTML = processedAptamerName;
             const processedLinker = handleEmptyValue(item.Linker);
-            if (processedLinker !== 'NA' && processedAptamerName !== 'NA') {
+            if (processedLinker !== 'N/A' && processedAptamerName !== 'N/A') {
                 // 确保链接以斜杠开头
                 let linkerUrl = processedLinker;
                 if (!linkerUrl.startsWith('/')) {
@@ -1296,32 +1296,28 @@ const TableModule = {
                 aptamerNameHTML = `<a href="${linkerUrl}" target="_blank">${processedAptamerName}</a>`;
             }
 
-            // 3. Year - 使用Year字段
-            // 获取年份信息，如果有PubMed链接则创建超链接
+            // 3. Discovery Year - 使用Year字段（只显示年份，不包含PubMed链接）
+            // 注意：PubMed链接在导出时单独处理，表格显示中不显示
             const processedYear = handleEmptyValue(item.Year);
-            let yearHTML = processedYear;
-            const processedPubMedLink = handleEmptyValue(item['Link to PubMed Entry']);
-            if (processedPubMedLink !== 'NA' && processedYear !== 'NA') {
-                yearHTML = `<a href="${processedPubMedLink}" target="_blank">${processedYear}</a>`;
-            }
+            const yearHTML = processedYear;
 
             // 4. Category - 使用Category字段
             const categoryHTML = handleEmptyValue(item.Category);
 
-            // 5. Sequence (5'-3') - 使用Sequence字段
+            // 5. Sequence (5'-3') - 使用Sequence字段（与导出逻辑保持一致）
             // 获取序列信息，只显示前10个字符，鼠标悬停时显示完整彩色序列
             const sequence = handleEmptyValue(item.Sequence);
             let seqShort = sequence;
-            if (sequence !== 'NA') {
+            if (sequence !== 'N/A') {
                 seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
             }
             const seqFullColored = colorizeSequence(sequence);
 
-            // 6. Description - 使用Ligand Description字段
+            // 6. Description - 使用Ligand Description字段（与导出逻辑保持一致）
             // 获取描述信息，截取前20个字符作为简短显示
             const descFull = handleEmptyValue(item['Ligand Description']);
             let descShort = descFull;
-            if (descFull !== 'NA') {
+            if (descFull !== 'N/A') {
                 descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;
             }
 
@@ -1337,11 +1333,11 @@ const TableModule = {
             `;
             tableBody.appendChild(row);
 
-            // 为各字段添加tooltip，鼠标悬停时显示完整内容
+            // 为各字段添加tooltip，鼠标悬停时显示完整内容（与导出逻辑保持一致）
             const cells = row.querySelectorAll('td');
-            // 只有当内容不是 'NA' 时才添加 tooltip
-            if (sequence !== 'NA') addTooltip(cells[5], seqFullColored); // 序列完整彩色内容
-            if (descFull !== 'NA') addTooltip(cells[6], descFull); // 描述完整内容
+            // 只有当内容不是 'N/A' 时才添加 tooltip
+            if (sequence !== 'N/A') addTooltip(cells[5], seqFullColored); // 序列完整彩色内容
+            if (descFull !== 'N/A') addTooltip(cells[6], descFull); // 描述完整内容
         });
     }
 };

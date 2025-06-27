@@ -53,7 +53,7 @@
     if (typeof TableModule !== 'undefined') {
         const originalUpdateDataTable = TableModule.updateDataTable;
         TableModule.updateDataTable = function () {
-            console.log('[Fluorescence] 使用自定义的表格渲染逻辑（9列，无Description列）');
+            console.log('[Fluorescence] 使用自定义的表格渲染逻辑（8列，PubMed Link仅在导出时包含）');
             
             const tableBody = document.getElementById('tableBody');
             const tableInfo = document.getElementById('tableInfo');
@@ -63,11 +63,11 @@
                 return;
             }
 
-            // 检查表格列数，确保是9列
+            // 检查表格列数，确保是8列（移除了PubMed Link列）
             const headerCells = document.querySelectorAll('#dataTable thead th');
             console.log(`[Fluorescence] 表格标题列数: ${headerCells.length}`);
-            if (headerCells.length !== 9) {
-                console.warn(`[Fluorescence] 警告：表格标题列数不是9列，而是${headerCells.length}列`);
+            if (headerCells.length !== 8) {
+                console.warn(`[Fluorescence] 警告：表格标题列数不是8列，而是${headerCells.length}列`);
             }
 
             tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
@@ -111,14 +111,10 @@
                 const ligandShort = ligandRaw ? ligandRaw.split(',')[0].trim() : 'NA';
                 const ligandFull = ligandRaw || 'NA';
 
-                // Year (现在只显示年份，不包含链接)
+                // Year (现在只显示年份，不包含链接 - 与主页逻辑一致)
                 const yearHTML = safe(item.year);
 
-                // PubMed Link (新增列)
-                let pubmedHTML = 'N/A';
-                if (item.pubmed_link && item.pubmed_link.trim() !== '') {
-                    pubmedHTML = `<a href="${item.pubmed_link}" target="_blank">PubMed ${safe(item.year)}</a>`;
-                }
+                // 注意：PubMed Link列在导出时单独处理，表格显示中不包含（保持界面简洁）
 
                 // Mechanisms
                 const mechHTML = safe(item.mechanisms);
@@ -147,7 +143,6 @@
                     <td>${nameHTML}</td>
                     <td>${ligandShort}</td>
                     <td>${yearHTML}</td>
-                    <td>${pubmedHTML}</td>
                     <td>${mechHTML}</td>
                     <td>${seqShort}</td>
                     <td>${citationShort}</td>
@@ -156,11 +151,11 @@
                 tableBody.appendChild(row);
 
                 const cells = row.querySelectorAll('td');
-                // 依次添加 tooltip（注意：由于新增了PubMed Link列，索引需要调整）
+                // 依次添加 tooltip（与荧光表格显示保持一致 - 8列）
                 addTooltip(cells[2], ligandFull); // ligand
-                addTooltip(cells[6], seqFullColored); // sequence (索引从5变为6)
-                addTooltip(cells[7], citationRaw || 'NA'); // citation full (索引从6变为7)
-                addTooltip(cells[8], structFull); // structures full (索引从7变为8)
+                addTooltip(cells[5], seqFullColored); // sequence
+                addTooltip(cells[6], citationRaw || 'NA'); // citation full
+                addTooltip(cells[7], structFull); // structures full
             });
         };
     }
@@ -292,7 +287,7 @@
         // 创建CSV内容 - 严格按照fluorescence表格显示的列来导出
         const csvRows = [];
         
-        // 标题行 - 与fluorescence表格显示完全一致
+        // 标题行 - 导出专用（比表格显示多一列PubMed Link）
         const headers = [
             'No.',
             'Aptamer name',
@@ -327,7 +322,7 @@
             // 4. Year - 去除HTML标签
             const year = (item.year || 'N/A').toString().replace(/<[^>]*>/g, '');
             
-            // 5. PubMed Link - 提取PubMed链接
+            // 5. PubMed Link - 提取PubMed链接（仅在导出中包含，网页表格中不显示）
             const pubmedLink = (item.pubmed_link || 'N/A').toString().replace(/<[^>]*>/g, '');
             
             // 6. Mechanisms
@@ -366,7 +361,7 @@
         link.click();
         document.body.removeChild(link);
         
-        console.log(`✅ 已导出荧光页面数据 ${currentData.length} 条记录，包含 ${headers.length} 个字段（包括新增的PubMed Link列）`);
+        console.log(`✅ 已导出荧光页面数据 ${currentData.length} 条记录，包含 ${headers.length} 个字段（表格显示8列，导出增加PubMed Link列）`);
     };
 
     // --- 确保覆盖在页面完全加载后生效 ---
@@ -380,7 +375,7 @@
             
             // 如果数据已加载，立即更新表格
             if (typeof filteredData !== 'undefined' && filteredData && filteredData.length > 0) {
-                console.log('[Fluorescence] 数据已加载，立即应用荧光表格渲染');
+                console.log('[Fluorescence] 数据已加载，立即应用荧光表格渲染（8列，PubMed Link仅在导出时包含）');
                 TableModule.updateDataTable();
             }
         } else {

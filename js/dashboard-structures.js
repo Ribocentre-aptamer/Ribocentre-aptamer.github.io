@@ -227,7 +227,7 @@
                 }
                 row.appendChild(resolutionCell);
 
-                // Year 列（现在只显示年份，不包含链接）
+                // Year 列（现在只显示年份，不包含链接 - 与主页逻辑一致）
                 const yearCell = document.createElement('td');
                 const yearStr = (item.Year || '').toString();
                 if (yearStr) {
@@ -241,41 +241,7 @@
                 }
                 row.appendChild(yearCell);
                 
-                // PubMed Link 列（新增）
-                const pubmedCell = document.createElement('td');
-                if (yearStr) {
-                    const yearParts = yearStr.split(',').map(s => s.trim()).filter(s => s);
-                    const pubmedLinks = [];
-                    
-                    yearParts.forEach((yr, idx) => {
-                        const yrDigits = (yr.match(/\d{4}/) || [])[0];
-                        if (yrDigits && item.pubmedMap && item.pubmedMap[yrDigits]) {
-                            const linkUrl = item.pubmedMap[yrDigits];
-                            const pubmedLink = document.createElement('a');
-                            pubmedLink.href = linkUrl;
-                            pubmedLink.textContent = `PubMed ${yrDigits}`;
-                            pubmedLink.target = '_blank';
-                            pubmedLink.style.color = '#520049';
-                            pubmedLink.style.textDecoration = 'none';
-                            pubmedLink.style.borderBottom = '1px dashed #520049';
-                            pubmedLinks.push(pubmedLink);
-                        }
-                    });
-                    
-                    if (pubmedLinks.length > 0) {
-                        pubmedLinks.forEach((link, idx) => {
-                            pubmedCell.appendChild(link);
-                            if (idx < pubmedLinks.length - 1) {
-                                pubmedCell.appendChild(document.createTextNode(', '));
-                            }
-                        });
-                    } else {
-                        pubmedCell.textContent = 'N/A';
-                    }
-                } else {
-                    pubmedCell.textContent = 'N/A';
-                }
-                row.appendChild(pubmedCell);
+                // 注意：PubMed Link列在导出时单独处理，表格显示中不包含（保持界面简洁）
                 
                 tableBody.appendChild(row);
 
@@ -868,7 +834,7 @@
             // 创建CSV内容 - 严格按照structure表格显示的列来导出
             const csvRows = [];
             
-            // 标题行 - 与structure表格显示完全一致
+            // 标题行 - 导出专用（比表格显示多一列PubMed Link）
             const headers = [
                 'No.',
                 'Name',
@@ -908,7 +874,7 @@
                 // 8. Year - 去除HTML标签
                 const year = (item.Year || 'N/A').toString().replace(/<[^>]*>/g, '');
                 
-                // 9. PubMed Link - 提取PubMed链接
+                // 9. PubMed Link - 提取PubMed链接（仅在导出中包含，网页表格中不显示）
                 let pubmedLink = 'N/A';
                 if (item.Year) {
                     const yearStr = item.Year.toString();
@@ -951,7 +917,7 @@
             link.click();
             document.body.removeChild(link);
             
-            console.log(`✅ 已导出结构页面数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段（包括新增的PubMed Link列）`);
+            console.log(`✅ 已导出结构页面数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段（表格显示8列，导出增加PubMed Link列）`);
         };
     }
 
