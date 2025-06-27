@@ -97,6 +97,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
   background-color: #520049;
   color: white;
 }
+.button:disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-color: #dee2e6;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.button:disabled:hover {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-color: #dee2e6;
+}
 /* Tooltip样式 */
 .amir-tooltip {
   position: fixed;
@@ -153,9 +165,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 <p>Named here is composed of ligand + underscore + article name, which belongs to a unique name. For RNA aptamers isolated from the same ligand in the same article, we only selected 1-2 of them to draw the details page.</p>
 <div class="form-container" style="margin-bottom:15px;">
   <input type="text" id="searchBox" placeholder="Search...">
-  <button id="exportBtn" class="button" style="margin-left:10px;">Export Selected</button>
-  <button id="selectAllBtn" class="button" style="margin-left:10px;">Select All</button>
-  <button id="deselectAllBtn" class="button" style="margin-left:10px;">Deselect All</button>
+  <button id="exportSelectedBtn" class="button" style="margin-left:10px;" disabled>Export Selected (<span id="selectedCount">0</span>)</button>
+  <button id="exportAllBtn" class="button" style="margin-left:10px;">Export All Results</button>
+  <button id="selectCurrentPageBtn" class="button" style="margin-left:10px;">Select Current Page</button>
+  <button id="selectAllResultsBtn" class="button" style="margin-left:10px;">Select All Results</button>
+  <button id="clearSelectionBtn" class="button" style="margin-left:10px;">Clear Selection</button>
 </div>
 <section class="data-table-section">
   <div style="display: flex; overflow: auto;">
@@ -171,7 +185,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
           <th>Sequence</th>
           <th>Length</th>
           <th>GC Content</th>
-          <th>Year</th>
+          <th>Discovery Year</th>
           <th>Description</th>
         </tr>
       </thead>
@@ -180,6 +194,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
   </div>
   <div style="text-align: center; margin-top: 10px; color: #666; font-size: 14px; font-style: italic;">
     💡 Tip: Scroll horizontally to view more columns
+  </div>
+  <div id="selectionStatus" style="text-align: center; margin-top: 15px; color: #520049; font-size: 14px; font-weight: 600;">
+    <!-- 选择状态信息将在这里显示 -->
   </div>
 </section>
 
@@ -198,6 +215,7 @@ let currentPage = 1;
 let rowsPerPage = 10;
 let filteredRows = [];
 let allRows = [];
+let selectedRowIds = new Set(); // 存储选中行的唯一标识符
 
 function initSimpleTable(rows) {
   allRows = rows;
@@ -208,9 +226,21 @@ function initSimpleTable(rows) {
   // 简单的搜索功能
   $('#searchBox').on('input', function() {
     const searchTerm = this.value.toLowerCase();
-    filteredRows = allRows.filter(row => {
-      return row.some(cell => cell.toString().toLowerCase().includes(searchTerm));
-    });
+    
+    // 检查是否包含逗号，如果包含则分割为多个搜索词进行OR搜索
+    if (searchTerm.includes(',')) {
+      const searchTerms = searchTerm.split(',').map(term => term.trim());
+      filteredRows = allRows.filter(row => {
+        return searchTerms.some(term => 
+          row.some(cell => cell.toString().toLowerCase().includes(term))
+        );
+      });
+    } else {
+      filteredRows = allRows.filter(row => {
+        return row.some(cell => cell.toString().toLowerCase().includes(searchTerm));
+      });
+    }
+    
     currentPage = 1;
     renderTable();
     setupPagination();
@@ -225,18 +255,33 @@ function renderTable() {
   const endIndex = startIndex + rowsPerPage;
   const pageRows = filteredRows.slice(startIndex, endIndex);
   
-  pageRows.forEach(row => {
+  pageRows.forEach((row, index) => {
     const tr = document.createElement('tr');
-    row.forEach(cellData => {
+    // 从row[1]中提取sequence name作为唯一标识
+    const seqName = row[1] ? row[1].replace(/<[^>]+>/g, '') : `row_${startIndex + index}`;
+    const rowId = `seq_${seqName}`;
+    
+    row.forEach((cellData, cellIndex) => {
       const td = document.createElement('td');
-      td.innerHTML = cellData;
+      
+      if (cellIndex === 0) {
+        // 复选框列，检查是否应该被选中
+        const isChecked = selectedRowIds.has(rowId);
+        td.innerHTML = `<input type="checkbox" class="row-select" data-row-id="${rowId}" ${isChecked ? 'checked' : ''}>`;
+      } else {
+        td.innerHTML = cellData;
+      }
       tr.appendChild(td);
     });
     tbody.appendChild(tr);
   });
   
+  // 添加复选框事件监听器
+  addCheckboxListeners();
   // 添加tooltip监听器
   addTooltipListeners();
+  // 更新选中计数
+  updateSelectedCount();
 }
 
 function setupPagination() {
@@ -279,6 +324,50 @@ function changePage(page) {
   currentPage = page;
   renderTable();
   setupPagination();
+}
+
+function addCheckboxListeners() {
+  document.querySelectorAll('.row-select').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+      const rowId = this.getAttribute('data-row-id');
+      if (this.checked) {
+        selectedRowIds.add(rowId);
+      } else {
+        selectedRowIds.delete(rowId);
+      }
+      updateSelectedCount();
+    });
+  });
+}
+
+function updateSelectedCount() {
+  const count = selectedRowIds.size;
+  document.getElementById('selectedCount').textContent = count;
+  const exportSelectedBtn = document.getElementById('exportSelectedBtn');
+  exportSelectedBtn.disabled = count === 0;
+  exportSelectedBtn.style.opacity = count === 0 ? '0.5' : '1';
+  
+  // 更新选择状态信息
+  const statusDiv = document.getElementById('selectionStatus');
+  if (statusDiv) {
+    let totalRows = 0;
+    if (table && typeof table.rows === 'function') {
+      totalRows = table.rows().data().length;
+    } else {
+      totalRows = filteredRows.length;
+    }
+    
+    if (count === 0) {
+      statusDiv.innerHTML = '';
+      statusDiv.style.color = '#6c757d';
+    } else if (count === totalRows) {
+      statusDiv.innerHTML = `✓ Selected all ${count} rows`;
+      statusDiv.style.color = '#28a745';
+    } else {
+      statusDiv.innerHTML = `Selected ${count} / ${totalRows} rows`;
+      statusDiv.style.color = '#520049';
+    }
+  }
 }
 
 // 辅助函数：截断文本
@@ -447,6 +536,201 @@ function buildRows(data){
   });
 }
 
+// 根据sequence name从原始数据中获取行
+function getOriginalDataBySequenceName(seqName) {
+  return tableData.find(item => item.Named === seqName);
+}
+
+// 安全字符串处理函数
+function safeString(value) {
+  if (value === null || value === undefined) {
+    return '';
+  }
+  return String(value);
+}
+
+// 选择当前页面所有行
+function selectCurrentPage() {
+  if (table && typeof table.rows === 'function') {
+    // DataTable 模式 - 选择当前页面显示的行
+    $('#seqTable tbody tr .row-select').each(function() {
+      $(this).prop('checked', true);
+      const rowId = $(this).attr('data-row-id');
+      if (rowId) {
+        selectedRowIds.add(rowId);
+      }
+    });
+  } else {
+    // 简单表格模式 - 选择当前页面的复选框
+    const currentPageCheckboxes = document.querySelectorAll('#seqTable tbody .row-select');
+    currentPageCheckboxes.forEach(checkbox => {
+      checkbox.checked = true;
+      const rowId = checkbox.getAttribute('data-row-id');
+      if (rowId) {
+        selectedRowIds.add(rowId);
+      }
+    });
+  }
+  updateSelectedCount();
+}
+
+// 选择所有搜索结果
+function selectAllResults() {
+  if (table && typeof table.rows === 'function') {
+    // DataTable 模式 - 基于当前显示的数据
+    table.rows().data().each(function(rowData) {
+      const seqName = rowData[1] ? rowData[1].replace(/<[^>]+>/g, '') : 'unknown';
+      const rowId = `seq_${seqName}`;
+      selectedRowIds.add(rowId);
+    });
+    // 更新所有复选框状态
+    $('#seqTable .row-select').prop('checked', true);
+  } else {
+    // 简单表格模式 - 选择所有filteredRows
+    filteredRows.forEach((row, index) => {
+      const seqName = row[1] ? row[1].replace(/<[^>]+>/g, '') : `row_${index}`;
+      const rowId = `seq_${seqName}`;
+      selectedRowIds.add(rowId);
+    });
+    // 更新当前页面显示
+    document.querySelectorAll('#seqTable tbody tr .row-select').forEach(checkbox => {
+      checkbox.checked = true;
+    });
+  }
+  updateSelectedCount();
+}
+
+// 清除所有选择
+function clearSelection() {
+  selectedRowIds.clear();
+  // 清除所有复选框的选中状态
+  $('#seqTable .row-select').prop('checked', false);
+  document.querySelectorAll('.row-select').forEach(checkbox => {
+    checkbox.checked = false;
+  });
+  updateSelectedCount();
+}
+
+// 导出选中的行
+function exportSelected(){
+  const selected = [];
+  
+  // 从原始数据中获取选中的行
+  selectedRowIds.forEach(rowId => {
+    // 从rowId中提取sequence name（格式：seq_sequenceName）
+    const seqName = rowId.replace('seq_', '');
+    const originalData = getOriginalDataBySequenceName(seqName);
+    if (originalData) {
+      selected.push(originalData);
+    }
+  });
+  
+  if (selected.length === 0) {
+    alert('Please select rows to export first!');
+    return;
+  }
+  
+  exportOriginalDataToCSV(selected, `selected_sequences_${selected.length}_rows.csv`);
+}
+
+// 导出所有结果
+function exportAllResults() {
+  // 获取当前过滤后的原始数据
+  let originalRows = [];
+  
+  if (table && typeof table.rows === 'function') {
+    // DataTable 模式 - 获取当前显示的所有行对应的原始数据
+    table.rows().data().each(function(rowData) {
+      const seqName = rowData[1] ? rowData[1].replace(/<[^>]+>/g, '') : null;
+      if (seqName) {
+        const originalData = getOriginalDataBySequenceName(seqName);
+        if (originalData) {
+          originalRows.push(originalData);
+        }
+      }
+    });
+  } else {
+    // 简单表格模式 - 从filteredRows对应的原始数据
+    filteredRows.forEach(row => {
+      const seqName = row[1] ? row[1].replace(/<[^>]+>/g, '') : null;
+      if (seqName) {
+        const originalData = getOriginalDataBySequenceName(seqName);
+        if (originalData) {
+          originalRows.push(originalData);
+        }
+      }
+    });
+  }
+  
+  exportOriginalDataToCSV(originalRows, `all_sequences_${originalRows.length}_rows.csv`);
+}
+
+// 导出原始数据的CSV函数
+function exportOriginalDataToCSV(dataRows, filename) {
+  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Year','Description','PubMed Link'];
+  const csv=[headers.join(',')];
+  
+  dataRows.forEach((data, index) => {
+    try {
+      // 处理aptamer name
+      let aptamerName = data['Linker name(page name)'] || 'N/A';
+      const seqName = data.Named || '';
+      if (seqName && aptamerName !== 'N/A') {
+        // 检查是否是合并的aptamer（包含逗号）
+        if (aptamerName.includes(',')) {
+          // 从sequence name中提取对应的aptamer部分
+          if (seqName.includes('CB-42')) {
+            aptamerName = 'CB-42 aptamer';
+          } else if (seqName.includes('B4-25')) {
+            aptamerName = 'B4-25 aptamer';
+          } else if (seqName.includes('Ribostamycin')) {
+            aptamerName = 'Ribostamycin aptamer';
+          } else if (seqName.includes('Paromomycin')) {
+            aptamerName = 'Paromomycin aptamer';
+          }
+        }
+      }
+      
+      // 处理GC Content
+      let gcContent = 'N/A';
+      if (data['GC Content'] && !isNaN(parseFloat(data['GC Content']))) {
+        gcContent = (parseFloat(data['GC Content']) * 100).toFixed(1) + '%';
+      }
+      
+      // 处理PubMed链接
+      let pubmedLink = 'N/A';
+      if (data['Link to PubMed Entry']) {
+        pubmedLink = data['Link to PubMed Entry'];
+      }
+      
+      csv.push([
+        `"${safeString(data.Named || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(aptamerName).replace(/"/g, '""')}"`,
+        `"${safeString(data.Category || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data.Type || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data['Article name'] || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data.Sequence || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data.Length || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(gcContent).replace(/"/g, '""')}"`,
+        `"${safeString(data.Year || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data['Ligand Description'] || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(pubmedLink).replace(/"/g, '""')}"`,
+      ].join(','));
+    } catch (error) {
+      console.error(`Error processing data row ${index}:`, error, data);
+      // 跳过有问题的行
+    }
+  });
+  
+  const csvContent='data:text/csv;charset=utf-8,'+csv.join('\n');
+  const link=document.createElement('a');
+  link.setAttribute('href',encodeURI(csvContent));
+  link.setAttribute('download', filename);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 function loadData(){
   fetch('{{ site.baseurl }}/apidata/sequences_cleaned.json')
     .then(r=>r.json())
@@ -466,11 +750,26 @@ function loadData(){
       
       // 如果有搜索参数，无论是否为JSON格式都要进行过滤
       if (searchQuery) {
-        data = data.filter(item => {
-          return Object.values(item).some(value => 
-            value && value.toString().toLowerCase().includes(searchQuery.toLowerCase())
-          );
-        });
+        // URL解码搜索查询（处理%2C等编码字符）
+        const decodedQuery = decodeURIComponent(searchQuery).toLowerCase();
+        
+        // 检查是否包含逗号，如果包含则分割为多个搜索词进行OR搜索
+        if (decodedQuery.includes(',')) {
+          const searchTerms = decodedQuery.split(',').map(term => term.trim());
+          data = data.filter(item => {
+            return searchTerms.some(term => 
+              Object.values(item).some(value => 
+                value && value.toString().toLowerCase().includes(term)
+              )
+            );
+          });
+        } else {
+          data = data.filter(item => {
+            return Object.values(item).some(value => 
+              value && value.toString().toLowerCase().includes(decodedQuery)
+            );
+          });
+        }
       }
       
               // 如果请求JSON格式，直接返回数据
@@ -521,12 +820,16 @@ function loadData(){
       tableData=data;
       const rows=buildRows(data);
       
+      // 初始化选择状态显示
+      updateSelectedCount();
+      
       // 如果有搜索参数，显示搜索结果提示
       if (searchQuery) {
         const originalCount = json.Sheet1 ? json.Sheet1.length : json.length;
+        const decodedQuery = decodeURIComponent(searchQuery);
         const searchResultsInfo = document.createElement('div');
         searchResultsInfo.style.cssText = 'background: #e8f4fd; border: 1px solid #bee5eb; color: #0c5460; padding: 10px; margin-bottom: 15px; border-radius: 5px; font-size: 14px;';
-        searchResultsInfo.innerHTML = `<strong>Search Results for "${searchQuery}":</strong> Found ${data.length} result(s) out of ${originalCount} total entries. <a href="/sequences/" style="color: #520049; text-decoration: underline;">Clear search</a>`;
+        searchResultsInfo.innerHTML = `<strong>Search Results for "${decodedQuery}":</strong> Found ${data.length} result(s) out of ${originalCount} total entries. <a href="/sequences/" style="color: #520049; text-decoration: underline;">Clear search</a>`;
         document.querySelector('h1.post-title').insertAdjacentElement('afterend', searchResultsInfo);
       }
       
@@ -538,7 +841,8 @@ function loadData(){
         
         // 如果URL中有search参数，自动执行搜索（简单表格模式）
         if (searchQuery) {
-          $('#searchBox').val(searchQuery);
+          const decodedQuery = decodeURIComponent(searchQuery);
+          $('#searchBox').val(decodedQuery);
           $('#searchBox').trigger('input');
         }
         return;
@@ -564,17 +868,20 @@ function loadData(){
           pageLength:25,
           dom:'lrtip',
           drawCallback: function() {
-            // 每次重绘表格后添加tooltip监听器
+            // 每次重绘表格后添加事件监听器
+            addDataTableCheckboxListeners();
             addTooltipListeners();
+            updateSelectedCount();
           }
         });
         $('#searchBox').on('input',function(){table.search(this.value).draw();});
         
         // 如果URL中有search参数，自动执行搜索
         if (searchQuery) {
-          $('#searchBox').val(searchQuery);
+          const decodedQuery = decodeURIComponent(searchQuery);
+          $('#searchBox').val(decodedQuery);
           if (table && typeof table.search === 'function') {
-            table.search(searchQuery).draw();
+            table.search(decodedQuery).draw();
           }
         }
       } catch (error) {
@@ -583,7 +890,8 @@ function loadData(){
         
         // 如果URL中有search参数，自动执行搜索（简单表格模式）
         if (searchQuery) {
-          $('#searchBox').val(searchQuery);
+          const decodedQuery = decodeURIComponent(searchQuery);
+          $('#searchBox').val(decodedQuery);
           $('#searchBox').trigger('input');
         }
       }
@@ -593,76 +901,27 @@ function loadData(){
     });
 }
 
-function exportSelected(){
-  const selected=[];
-  let rows=[];
-  
-  if (table && typeof table.rows === 'function') {
-    // DataTable 模式
-    table.rows().every(function(){
-      const node=this.node();
-      if($(node).find('input.row-select').prop('checked')){
-        selected.push(this.data());
-      }
-    });
-    rows=selected.length?selected:table.rows().data().toArray();
-  } else {
-    // 简单表格模式
-    $('#seqTable tbody tr').each(function() {
-      if ($(this).find('input.row-select').prop('checked')) {
-        const rowData = [];
-        $(this).find('td').each(function() {
-          rowData.push($(this).html());
-        });
-        selected.push(rowData);
-      }
-    });
+function addDataTableCheckboxListeners() {
+  // 为DataTable中的复选框添加事件监听器
+  $('#seqTable tbody').off('change', '.row-select').on('change', '.row-select', function() {
+    const rowId = $(this).attr('data-row-id');
     
-    if (selected.length === 0) {
-      // 如果没有选中任何行，导出所有可见行
-      $('#seqTable tbody tr').each(function() {
-        const rowData = [];
-        $(this).find('td').each(function() {
-          rowData.push($(this).html());
-        });
-        rows.push(rowData);
-      });
+    if (this.checked) {
+      selectedRowIds.add(rowId);
     } else {
-      rows = selected;
+      selectedRowIds.delete(rowId);
     }
-  }
-  
-  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Year','Description'];
-  const csv=[headers.join(',')];
-  rows.forEach(r=>{
-    // 跳过第一个复选框列
-    const exportRow = r.slice(1);
-    csv.push([
-      exportRow[0].replace(/<[^>]+>/g,''),
-      `"${exportRow[1].replace(/"/g,'""')}"`,
-      `"${exportRow[2].replace(/"/g,'""')}"`,
-      `"${exportRow[3].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
-      `"${exportRow[4].replace(/"/g,'""')}"`,
-      `"${exportRow[5].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
-      exportRow[6].replace(/<[^>]+>/g,''),
-      exportRow[7].replace(/<[^>]+>/g,''),
-      exportRow[8].replace(/<[^>]+>/g,''),
-      `"${exportRow[9].replace(/<[^>]+>/g,'').replace(/"/g,'""')}"`,
-    ].join(','));
+    updateSelectedCount();
   });
-  const csvContent='data:text/csv;charset=utf-8,'+csv.join('\n');
-  const link=document.createElement('a');
-  link.setAttribute('href',encodeURI(csvContent));
-  link.setAttribute('download','sequences.csv');
-  document.body.appendChild(link);link.click();document.body.removeChild(link);
 }
 
+// 保留旧的函数用于向后兼容
 function selectAll() {
-  $('#seqTable tbody tr:visible input.row-select').prop('checked', true);
+  selectCurrentPage();
 }
 
 function deselectAll() {
-  $('#seqTable tbody tr input.row-select').prop('checked', false);
+  clearSelection();
 }
 
 $(document).ready(function(){
@@ -682,9 +941,11 @@ $(document).ready(function(){
   // 等待所有脚本加载完成
   setTimeout(function() {
     loadData();
-    $('#exportBtn').on('click',exportSelected);
-    $('#selectAllBtn').on('click',selectAll);
-    $('#deselectAllBtn').on('click',deselectAll);
+    $('#exportSelectedBtn').on('click',exportSelected);
+    $('#exportAllBtn').on('click',exportAllResults);
+    $('#selectCurrentPageBtn').on('click',selectCurrentPage);
+    $('#selectAllResultsBtn').on('click',selectAllResults);
+    $('#clearSelectionBtn').on('click',clearSelection);
   }, 100);
 });
 </script>
