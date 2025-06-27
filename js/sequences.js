@@ -480,7 +480,7 @@ class SequenceTableManager {
             'Length': 'Length',
             'GC Content': 'GC Content',
             'Affinity': 'Affinity',
-            'Year': 'Discovery Year',
+            'Year': 'Year',
             'Link to PubMed Entry': 'PubMed Link'
         };
         return headerMap[field] || field;

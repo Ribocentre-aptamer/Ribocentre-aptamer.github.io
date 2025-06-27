@@ -227,13 +227,28 @@
                 }
                 row.appendChild(resolutionCell);
 
-                // Year 列（现在只显示年份，不包含链接 - 与主页逻辑一致）
+                // Year 列 - 显示为PubMed链接
                 const yearCell = document.createElement('td');
                 const yearStr = (item.Year || '').toString();
                 if (yearStr) {
                     const yearParts = yearStr.split(',').map(s => s.trim()).filter(s => s);
+                    const pubmedMap = item.pubmedMap || {};
+                    
                     yearParts.forEach((yr, idx) => {
-                        yearCell.appendChild(document.createTextNode(yr));
+                        if (pubmedMap[yr]) {
+                            // 如果该年份有对应的PubMed链接，创建链接
+                            const yearLink = document.createElement('a');
+                            yearLink.href = pubmedMap[yr];
+                            yearLink.target = '_blank';
+                            yearLink.textContent = yr;
+                            yearLink.style.color = '#520049';
+                            yearLink.style.textDecoration = 'none';
+                            yearCell.appendChild(yearLink);
+                        } else {
+                            // 没有链接就显示普通文本
+                            yearCell.appendChild(document.createTextNode(yr));
+                        }
+                        
                         if (idx < yearParts.length - 1) {
                             yearCell.appendChild(document.createTextNode(', '));
                         }

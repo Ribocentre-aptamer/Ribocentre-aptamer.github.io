@@ -111,8 +111,14 @@
                 const ligandShort = ligandRaw ? ligandRaw.split(',')[0].trim() : 'NA';
                 const ligandFull = ligandRaw || 'NA';
 
-                // Year (现在只显示年份，不包含链接 - 与主页逻辑一致)
-                const yearHTML = safe(item.year);
+                // Year - 显示为PubMed链接
+                const yearVal = safe(item.year);
+                const pubmedLink = safe(item.pubmed_link);
+                let yearHTML = yearVal;
+                
+                if (yearVal !== 'N/A' && yearVal !== 'NA' && pubmedLink !== 'N/A' && pubmedLink !== 'NA') {
+                    yearHTML = `<a href="${pubmedLink}" target="_blank" style="color: #520049; text-decoration: none;">${yearVal}</a>`;
+                }
 
                 // 注意：PubMed Link列在导出时单独处理，表格显示中不包含（保持界面简洁）
 

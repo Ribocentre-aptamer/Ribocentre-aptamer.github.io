@@ -1296,10 +1296,14 @@ const TableModule = {
                 aptamerNameHTML = `<a href="${linkerUrl}" target="_blank">${processedAptamerName}</a>`;
             }
 
-            // 3. Discovery Year - 使用Year字段（只显示年份，不包含PubMed链接）
-            // 注意：PubMed链接在导出时单独处理，表格显示中不显示
+            // 3. Discovery Year - 显示为PubMed链接
             const processedYear = handleEmptyValue(item.Year);
-            const yearHTML = processedYear;
+            const pubmedLink = handleEmptyValue(item['Link to PubMed Entry']);
+            let yearHTML = processedYear;
+            
+            if (processedYear !== 'N/A' && pubmedLink !== 'N/A') {
+                yearHTML = `<a href="${pubmedLink}" target="_blank" style="color: #520049; text-decoration: none;">${processedYear}</a>`;
+            }
 
             // 4. Category - 使用Category字段
             const categoryHTML = handleEmptyValue(item.Category);
