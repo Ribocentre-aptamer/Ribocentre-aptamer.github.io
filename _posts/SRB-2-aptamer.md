@@ -103,9 +103,19 @@ type: Small molecules
 
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the article by online secondary structure prediction tool to draw. The figure shows the secondary structure prediction of the original aptamer sequence. The secondary structure of SRB-2 aptamer is relatively complex. It contains four stem loops of different lengths connected through junctions. The longest complementary pairing region, which contains the terminal sequences of nucleic acid chains, constitutes the main part of the aptamer as part of the longest stem loop. In contrast, the structures of the other three stem loops are relatively simple. The SRB-2 aptamer was named by Wilson, C. et al. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>SRB-2 aptamer:</p>
 <p>5'-GGAACACUAUCCGACUGGCACCUGUGCUCUAUAGCAGAAUGCUAACAUUAGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGUACAUCGGUGCCUUGGUCAUUAGGAUCCCG-3'</p>
 <img src="/images/2D/Sulforhodamine_B_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
+
+<p>Following the SELEX procedure, the enriched nucleic acid library was subjected to high-throughput sequencing, generating a substantial population of raw sequence reads. The sequences presented herein represent additional high-affinity aptamers identified from this dataset<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+
+<p>Sulforhodamine B aptamer:</p>
+<p>5'-GGAACCUCGCUUCGGCGAUGAUGGAGAGGCGCAAGGUUAACCGCCUCAGGUUCC-3'</p>
+<p>SRB-2 aptamer:</p>
+<p>5'-GGAACCUCGCUUCGGCGAUGAUGGAGAGGCGCAAGGUUAACCGCCUCAGGUUCC-3'</p>
+<p>SRB-3 aptamer:</p>
+<p>5'-GGAACCUUCGCUUCGGCGAUGAAGGAGAGGCGCAAGGUUAACCGCCUCAGGUUCC-3'</p>
 
 
 
@@ -113,6 +123,38 @@ type: Small molecules
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>The Kd for sulforhodamine was determined both in solution and following immobilization on a solid support. The increase in fluorophore anisotropy, presumed to result from the change in rotational diffusion accompanying complex formation, may be accurately modeled using a simple hyperbolic function. The amount of aptamer bound as a function of ligand concentration (accessible packed bead concentration corrected for dilution) was fit by a non-linear least squares method using Kaliedagraph (Abelbeck Software) to a function of the form: % bound = f × [SR] / (KD + [SR]), where f is the fraction of RNA properly folded, [SR] is the accessible immobilized fluorophore concentration, and Kd is the dissociation constant for binding immobilized ligand<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
+  <thead>
+      <tr>
+        <th onclick="sortTable(0)">Name</th>
+        <th onclick="sortTable(1)">Molecular Formula</th>
+        <th onclick="sortTable(2)">MW</th>
+        <th onclick="sortTable(3)">CAS</th>
+        <th onclick="sortTable(4)">Solubility</th>
+        <th onclick="sortTable(5)">PubChem CID</th>
+        <th onclick="sortTable(6)">MCE Cat. No.</th>
+        <th onclick="sortTable(7)">Ligand</th>
+        <th onclick="sortTable(8)">Sequence</th>
+        <th onclick="sortTable(9)">Affinity</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td name="td0">Sulforhodamine B</td>
+      <td name="td1">C<sub>27</sub>H<sub>30</sub>N<sub>2</sub>O<sub>7</sub>S<sub>2</sub></td>
+      <td name="td2">558.7 g/mol</td>
+      <td name="td3"><a href="https://commonchemistry.cas.org/detail?cas_rn=2609-88-3" target="_blank" style="color:#520049"><b>2609-88-3</b></a></td>
+      <td name="td4">50 mg/mL in H2O, 62.5 mg/mL in DMSO</td>
+      <td name="td5"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/65191" target="_blank" style="color:#520049"><b>65191</b></a></td>
+      <td name="td6"><a href="https://www.medchemexpress.cn/Sulforhodamine_B_sodium_salt.html" target="_blank" style="color:#520049"><b>HY-D0974</b></a></td>
+      <td name="td7">Sulforhodamine B</td>
+      <td name="td8">5'-GGAACACUAUCCGACUGGCACCUGUGCUCUAUAGCAGAAUGCUAACAUUAGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGUACAUCGGUGCCUUGGUCAUUAGGAUCCCG-3'</td>
+      <td name="td9">310 ± 60 nM</td>
+    </tr>
+  </tbody>
+</table>
+
 <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/Sulforhodamine_B_SELEX_ligand.svg" alt="drawing" style="width:1000px;height:350px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
