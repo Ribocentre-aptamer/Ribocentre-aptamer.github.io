@@ -208,7 +208,7 @@
       "Ligand": "Adenosine triphosphate (ATP)",
       "Ligand Description": "ATP (Adenosine 6'-triphosphate) is an important substance for energy storage and metabolism in the body, which provides energy for metabolism and plays a role as a coenzyme in cells. ATP is an important endogenous signal molecule in immunity and inflammation.",
       "Ligand Information \n(CAS/sequence)": "61-19-9",
-      "Sequence": "GGGAAGGGAAGAAACUGCGGCUUCGGCCGGCUUCCC-4'",
+      "Sequence": "GGGAAGGGAAGAAACUGCGGCUUCGGCCGGCUUCCC",
       "Length": 36,
       "GC Content": 0.66,
       "Affinity": "Kd: 14 μM",

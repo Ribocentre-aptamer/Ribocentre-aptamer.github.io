@@ -255,11 +255,22 @@ function renderTable() {
   const endIndex = startIndex + rowsPerPage;
   const pageRows = filteredRows.slice(startIndex, endIndex);
   
+  // 检查当前页面的rowId生成
+  const currentPageRowIds = new Set();
+  let duplicateInPageCount = 0;
+  
   pageRows.forEach((row, index) => {
     const tr = document.createElement('tr');
-    // 从row[1]中提取sequence name作为唯一标识
+    // 从row[1]中提取sequence name，并使用全局索引确保唯一性
     const seqName = row[1] ? row[1].replace(/<[^>]+>/g, '') : `row_${startIndex + index}`;
-    const rowId = `seq_${seqName}`;
+    const globalIndex = startIndex + index; // 在filteredRows中的实际索引
+    const rowId = `seq_${seqName}_${globalIndex}`;
+    
+    // 检查当前页面是否有重复的rowId
+    if (currentPageRowIds.has(rowId)) {
+      duplicateInPageCount++;
+    }
+    currentPageRowIds.add(rowId);
     
     row.forEach((cellData, cellIndex) => {
       const td = document.createElement('td');
@@ -275,6 +286,8 @@ function renderTable() {
     });
     tbody.appendChild(tr);
   });
+  
+
   
   // 添加复选框事件监听器
   addCheckboxListeners();
@@ -351,9 +364,12 @@ function updateSelectedCount() {
   const statusDiv = document.getElementById('selectionStatus');
   if (statusDiv) {
     let totalRows = 0;
+    
     if (table && typeof table.rows === 'function') {
-      totalRows = table.rows().data().length;
+      // DataTable模式：获取当前搜索/过滤后的行数
+      totalRows = table.rows({ search: 'applied' }).data().length;
     } else {
+      // 简单表格模式：使用filteredRows的长度
       totalRows = filteredRows.length;
     }
     
@@ -520,9 +536,12 @@ function buildRows(data){
     // 处理配体描述字段 - 使用tooltip显示完整内容
     const ligandDesc = d['Ligand Description'] ? `<span class="truncated-text" data-full-text="${escapeHtml(d['Ligand Description'])}" data-is-sequence="false">${truncateText(d['Ligand Description'], 20)}</span>` : 'N/A';
     
+    // 处理Named字段
+    const namedField = d.Named || 'N/A';
+    
     return [
       '<input type="checkbox" class="row-select">',
-      d.Named || 'N/A',
+      namedField,
       aptamerLink,
       d.Category || 'N/A',
       d.Type || 'N/A',
@@ -538,7 +557,24 @@ function buildRows(data){
 
 // 根据sequence name从原始数据中获取行
 function getOriginalDataBySequenceName(seqName) {
-  return tableData.find(item => item.Named === seqName);
+  // 首先尝试精确匹配
+  let found = tableData.find(item => item.Named === seqName);
+  
+  if (!found) {
+    // 如果精确匹配失败，尝试清理HTML标签后匹配
+    const cleanSeqName = seqName.replace(/<[^>]+>/g, '').trim();
+    found = tableData.find(item => {
+      const cleanItemName = (item.Named || '').replace(/<[^>]+>/g, '').trim();
+      return cleanItemName === cleanSeqName;
+    });
+  }
+  
+  if (!found) {
+    console.warn(`无法找到sequence name的匹配项: "${seqName}"`);
+    console.log('可用的前10个sequence names:', tableData.slice(0, 10).map(item => item.Named));
+  }
+  
+  return found;
 }
 
 // 安全字符串处理函数
@@ -576,22 +612,36 @@ function selectCurrentPage() {
 
 // 选择所有搜索结果
 function selectAllResults() {
+  // 清空现有选择
+  selectedRowIds.clear();
+  
   if (table && typeof table.rows === 'function') {
-    // DataTable 模式 - 基于当前显示的数据
-    table.rows().data().each(function(rowData) {
-      const seqName = rowData[1] ? rowData[1].replace(/<[^>]+>/g, '') : 'unknown';
-      const rowId = `seq_${seqName}`;
+    // DataTable 模式 - 基于当前搜索/过滤后的所有数据
+    const filteredData = [];
+    let rowIndex = 0;
+    table.rows({ search: 'applied' }).data().each(function(rowData) {
+      const seqName = rowData[1] ? rowData[1].replace(/<[^>]+>/g, '') : `row_${rowIndex}`;
+      // 使用索引确保唯一性
+      const rowId = `seq_${seqName}_${rowIndex}`;
       selectedRowIds.add(rowId);
+      filteredData.push(seqName);
+      rowIndex++;
     });
+    console.log(`DataTable模式：选择了 ${filteredData.length} 行数据，实际选中 ${selectedRowIds.size} 行`);
     // 更新所有复选框状态
     $('#seqTable .row-select').prop('checked', true);
   } else {
     // 简单表格模式 - 选择所有filteredRows
+    // 为了确保每行都有唯一ID，我们使用索引作为后缀
     filteredRows.forEach((row, index) => {
       const seqName = row[1] ? row[1].replace(/<[^>]+>/g, '') : `row_${index}`;
-      const rowId = `seq_${seqName}`;
+      // 使用索引确保唯一性
+      const rowId = `seq_${seqName}_${index}`;
       selectedRowIds.add(rowId);
     });
+    
+    console.log(`简单表格模式：选择了 ${filteredRows.length} 行数据，实际选中 ${selectedRowIds.size} 行`);
+    
     // 更新当前页面显示
     document.querySelectorAll('#seqTable tbody tr .row-select').forEach(checkbox => {
       checkbox.checked = true;
@@ -617,11 +667,30 @@ function exportSelected(){
   
   // 从原始数据中获取选中的行
   selectedRowIds.forEach(rowId => {
-    // 从rowId中提取sequence name（格式：seq_sequenceName）
-    const seqName = rowId.replace('seq_', '');
-    const originalData = getOriginalDataBySequenceName(seqName);
-    if (originalData) {
-      selected.push(originalData);
+    // 新的rowId格式：seq_sequenceName_index
+    const parts = rowId.split('_');
+    const index = parseInt(parts[parts.length - 1]); // 最后一部分是索引
+    
+    if (!isNaN(index) && index >= 0 && index < filteredRows.length) {
+      // 直接从filteredRows获取对应行，然后查找原始数据
+      const correspondingRow = filteredRows[index];
+      const seqName = correspondingRow[1] ? correspondingRow[1].replace(/<[^>]+>/g, '') : '';
+      
+      if (seqName && seqName !== 'N/A') {
+        const originalData = getOriginalDataBySequenceName(seqName);
+        if (originalData) {
+          selected.push(originalData);
+        }
+      } else {
+        // 对于没有sequence name的行，尝试通过其他字段匹配
+        const matchedData = tableData.find(item => 
+          (item.Category === (correspondingRow[3] && correspondingRow[3].replace(/<[^>]+>/g, ''))) &&
+          (item.Type === (correspondingRow[4] && correspondingRow[4].replace(/<[^>]+>/g, '')))
+        );
+        if (matchedData) {
+          selected.push(matchedData);
+        }
+      }
     }
   });
   
@@ -630,6 +699,7 @@ function exportSelected(){
     return;
   }
   
+  console.log(`导出选中行：选中 ${selectedRowIds.size} 行，找到 ${selected.length} 行原始数据`);
   exportOriginalDataToCSV(selected, `selected_sequences_${selected.length}_rows.csv`);
 }
 
@@ -639,36 +709,59 @@ function exportAllResults() {
   let originalRows = [];
   
   if (table && typeof table.rows === 'function') {
-    // DataTable 模式 - 获取当前显示的所有行对应的原始数据
-    table.rows().data().each(function(rowData) {
+    // DataTable 模式 - 获取当前搜索/过滤后的所有行对应的原始数据
+    let rowIndex = 0;
+    table.rows({ search: 'applied' }).data().each(function(rowData) {
       const seqName = rowData[1] ? rowData[1].replace(/<[^>]+>/g, '') : null;
-      if (seqName) {
+      if (seqName && seqName !== 'N/A') {
         const originalData = getOriginalDataBySequenceName(seqName);
         if (originalData) {
           originalRows.push(originalData);
+        } else {
+          console.warn(`未找到原始数据: ${seqName}`);
         }
       }
+      rowIndex++;
     });
   } else {
     // 简单表格模式 - 从filteredRows对应的原始数据
-    filteredRows.forEach(row => {
+    let processedCount = 0;
+    let notFoundCount = 0;
+    let emptySeqNameCount = 0;
+    
+    filteredRows.forEach((row, index) => {
       const seqName = row[1] ? row[1].replace(/<[^>]+>/g, '') : null;
-      if (seqName) {
+      if (seqName && seqName !== 'N/A') {
         const originalData = getOriginalDataBySequenceName(seqName);
         if (originalData) {
           originalRows.push(originalData);
+          processedCount++;
+        } else {
+          console.warn(`未找到原始数据: ${seqName}`);
+          notFoundCount++;
         }
+      } else {
+        console.warn(`第${index}行sequence name为空或无效:`, row[1]);
+        emptySeqNameCount++;
       }
     });
+    
+    console.log(`简单表格模式导出：处理 ${processedCount} 行，未找到 ${notFoundCount} 行，空名称 ${emptySeqNameCount} 行`);
   }
   
+  console.log(`导出所有结果：找到 ${originalRows.length} 行原始数据`);
   exportOriginalDataToCSV(originalRows, `all_sequences_${originalRows.length}_rows.csv`);
 }
 
 // 导出原始数据的CSV函数
 function exportOriginalDataToCSV(dataRows, filename) {
-  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Year','Description','PubMed Link'];
+  console.log(`开始导出CSV文件: ${filename}，包含 ${dataRows.length} 行数据`);
+  
+  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Discovery Year','Description','PubMed Link'];
   const csv=[headers.join(',')];
+  
+  let processedCount = 0;
+  let errorCount = 0;
   
   dataRows.forEach((data, index) => {
     try {
@@ -716,19 +809,36 @@ function exportOriginalDataToCSV(dataRows, filename) {
         `"${safeString(data['Ligand Description'] || 'N/A').replace(/"/g, '""')}"`,
         `"${safeString(pubmedLink).replace(/"/g, '""')}"`,
       ].join(','));
+      
+      processedCount++;
     } catch (error) {
       console.error(`Error processing data row ${index}:`, error, data);
-      // 跳过有问题的行
+      errorCount++;
     }
   });
   
-  const csvContent='data:text/csv;charset=utf-8,'+csv.join('\n');
-  const link=document.createElement('a');
-  link.setAttribute('href',encodeURI(csvContent));
-  link.setAttribute('download', filename);
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+  console.log(`CSV处理完成：成功处理 ${processedCount} 行，错误 ${errorCount} 行，总CSV行数 ${csv.length}（包含标题行）`);
+  
+  const csvContent = 'data:text/csv;charset=utf-8,\uFEFF' + csv.join('\n');
+  const blob = new Blob([csv.join('\n')], { type: 'text/csv;charset=utf-8;' });
+  
+  // 使用现代方法创建下载
+  if (navigator.msSaveBlob) {
+    // IE 10+
+    navigator.msSaveBlob(blob, filename);
+  } else {
+    const link = document.createElement('a');
+    if (link.download !== undefined) {
+      const url = URL.createObjectURL(blob);
+      link.setAttribute('href', url);
+      link.setAttribute('download', filename);
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    }
+  }
 }
 
 function loadData(){
@@ -818,6 +928,9 @@ function loadData(){
       }
       
       tableData=data;
+      
+      console.log(`加载数据：总共 ${data.length} 条记录`);
+      
       const rows=buildRows(data);
       
       // 初始化选择状态显示
