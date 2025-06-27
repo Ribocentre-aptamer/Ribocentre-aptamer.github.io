@@ -245,6 +245,11 @@ permalink: /fluorescence/
     
     // 如果您想完全禁用hero section高度调整功能，请将上面的 disableHeroHeightFix 设置为 true
     // 这都是为了防止闪烁。
+    
+    // 为CSS样式识别添加页面标识
+    document.addEventListener('DOMContentLoaded', function() {
+        document.body.setAttribute('data-page', 'fluorescence');
+    });
 </script>
 
 <!-- Hero Section -->

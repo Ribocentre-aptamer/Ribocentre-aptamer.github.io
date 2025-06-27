@@ -243,6 +243,9 @@ permalink: /Ribocentre-aptamer/
 
     // Initialize all modules after page loading is complete
     document.addEventListener('DOMContentLoaded', function() {
+      // 为CSS样式识别添加页面标识
+      document.body.setAttribute('data-page', 'riboaptamer');
+      
       // Initialize Dashboard
       if (typeof DataModule !== 'undefined' && typeof DataModule.loadData === 'function') {
         DataModule.loadData();

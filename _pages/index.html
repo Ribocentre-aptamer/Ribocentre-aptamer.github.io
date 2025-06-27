@@ -37,6 +37,11 @@ permalink: /
     };
     
     // 如果您想完全禁用hero section高度调整功能，请将上面的 disableHeroHeightFix 设置为 true
+    
+    // 为CSS样式识别添加页面标识
+    document.addEventListener('DOMContentLoaded', function() {
+        document.body.setAttribute('data-page', 'index');
+    });
 </script>
 
 <!-- 异步加载CDN Molstar JS -->
@@ -277,7 +282,7 @@ permalink: /
                                     <th>No.</th>
                                     <th>Sequence Name</th>
                                     <th>Aptamer Name</th>
-                                    <th></th>
+                                    <th>Discovery Year</th>
                                     <th>Category</th>
                                     <th>Sequence (5'-3')</th>
                                     <th>Description</th>

@@ -580,6 +580,38 @@ body[data-page="aptamer"] .amir-tooltip {
     }
 }
 
+/* ====== Dashboard年份列专用样式 ====== */
+
+/* 年份列（第4列）专用样式 - 确保不换行并有合适的列宽 */
+.data-table-section .table td:nth-child(4),
+.data-table-section .table th:nth-child(4) {
+    white-space: nowrap !important;
+    min-width: 100px !important;
+    width: 100px !important;
+    max-width: 100px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 8px 4px !important;
+}
+
+/* 年份列超链接样式 */
+.data-table-section .table td:nth-child(4) a {
+    color: #520049 !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    display: inline-block !important;
+    padding: 2px 4px !important;
+    border-radius: 3px !important;
+    transition: all 0.2s ease !important;
+}
+
+.data-table-section .table td:nth-child(4) a:hover {
+    color: #7a0070 !important;
+    text-decoration: underline !important;
+    background-color: rgba(82, 0, 73, 0.1) !important;
+}
+
 /* ====== Dashboard数据详情表专用超链接样式 ====== */
 
 /* 通用数据详情表超链接样式 - 适用于所有dashboard页面 */
@@ -642,6 +674,36 @@ body[data-page="aptamer"] .amir-tooltip {
 #dataTable td:first-child,
 #dataTable th:first-child {
     white-space: nowrap !important;
+}
+
+/* Structure页面年份列（第8列）专用样式 - 确保不换行 */
+body[data-page="structure"] .data-table-section .table td:nth-child(8),
+body[data-page="structure"] .data-table-section .table th:nth-child(8) {
+    white-space: nowrap !important;
+    min-width: 80px !important;
+    width: 80px !important;
+    max-width: 80px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 8px 4px !important;
+}
+
+/* Structure页面年份列超链接样式 */
+body[data-page="structure"] .data-table-section .table td:nth-child(8) a {
+    color: #520049 !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    display: inline-block !important;
+    padding: 2px 4px !important;
+    border-radius: 3px !important;
+    transition: all 0.2s ease !important;
+}
+
+body[data-page="structure"] .data-table-section .table td:nth-child(8) a:hover {
+    color: #7a0070 !important;
+    text-decoration: underline !important;
+    background-color: rgba(82, 0, 73, 0.1) !important;
 }
 
 /* 解决: 禁用数据详情表格单元格 hover 放大效果，防止与粘性表头冲突导致闪烁 */
