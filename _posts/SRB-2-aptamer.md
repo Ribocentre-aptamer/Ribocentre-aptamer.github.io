@@ -127,16 +127,15 @@ type: Small molecules
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
-        <th onclick="sortTable(0)">Name</th>
+        <th onclick="sortTable(0)">Ligand</th>
         <th onclick="sortTable(1)">Molecular Formula</th>
         <th onclick="sortTable(2)">MW</th>
         <th onclick="sortTable(3)">CAS</th>
         <th onclick="sortTable(4)">Solubility</th>
         <th onclick="sortTable(5)">PubChem CID</th>
         <th onclick="sortTable(6)">MCE Cat. No.</th>
-        <th onclick="sortTable(7)">Ligand</th>
-        <th onclick="sortTable(8)">Sequence</th>
-        <th onclick="sortTable(9)">Affinity</th>
+        <th onclick="sortTable(7)">Sequence</th>
+        <th onclick="sortTable(8)">Affinity</th>
       </tr>
   </thead>
   <tbody>
@@ -148,9 +147,8 @@ type: Small molecules
       <td name="td4">50 mg/mL in H2O, 62.5 mg/mL in DMSO</td>
       <td name="td5"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/65191" target="_blank" style="color:#520049"><b>65191</b></a></td>
       <td name="td6"><a href="https://www.medchemexpress.cn/Sulforhodamine_B_sodium_salt.html" target="_blank" style="color:#520049"><b>HY-D0974</b></a></td>
-      <td name="td7">Sulforhodamine B</td>
-      <td name="td8">5'-GGAACACUAUCCGACUGGCACCUGUGCUCUAUAGCAGAAUGCUAACAUUAGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGUACAUCGGUGCCUUGGUCAUUAGGAUCCCG-3'</td>
-      <td name="td9">310 ± 60 nM</td>
+      <td name="td7">5'-GGAACACUAUCCGACUGGCACCUGUGCUCUAUAGCAGAAUGCUAACAUUAGAUGAUGGAGGGGCGCAAGGUUAACCGCCUCAGUACAUCGGUGCCUUGGUCAUUAGGAUCCCG-3'</td>
+      <td name="td8">310 ± 60 nM</td>
     </tr>
   </tbody>
 </table>

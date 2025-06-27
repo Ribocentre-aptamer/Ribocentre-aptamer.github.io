@@ -356,7 +356,7 @@ type: Small molecules
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
-      </div>
+        </div>
     <div class="viewerSection1">
       <div id="myViewer1"></div>
     </div>
@@ -374,7 +374,7 @@ type: Small molecules
     var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
     colorSelectionButton1.click();
   });
-</script>
+    </script>
     </body>
     </html>
     </td>
