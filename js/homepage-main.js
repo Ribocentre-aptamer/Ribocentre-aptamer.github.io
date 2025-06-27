@@ -546,7 +546,7 @@ const MolstarModule = {
             aptamerName.href = data.url || '#';
         }
         if (aptamerTarget) aptamerTarget.textContent = `Target: ${data.target || 'Unknown'}`;
-        if (aptamerYear) aptamerYear.textContent = `Discovery Year: ${data.firstYear || data.date || 'Unknown'}`;
+        if (aptamerYear) aptamerYear.textContent = `Year: ${data.firstYear || data.date || 'Unknown'}`;
 
         // 结构信息卡片
         const pdbLink = document.getElementById('pdbLink');
