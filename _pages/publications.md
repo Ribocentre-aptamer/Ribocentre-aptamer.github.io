@@ -92,6 +92,39 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
     vertical-align: top;
     max-width: 300px;
 }
+
+/* 按钮样式 */
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #520049;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #520049;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: #520049;
+  color: white;
+}
+.button:disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-color: #dee2e6;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.button:disabled:hover {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-color: #dee2e6;
+}
 #searchBox{padding:10px;font-size:16px;border:2px solid #ccc;border-radius:4px;width:300px;}
 #searchBox:focus{outline:none;border-color:#efefef;}
 /* 分页器美化 */
@@ -202,9 +235,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 
 <div class="form-container" style="margin-bottom:15px;">
   <input type="text" id="searchBox" placeholder="Search...">
-  <button id="exportBtn" class="button" style="margin-left:10px;">Export Selected</button>
-  <button id="selectAllBtn" class="button" style="margin-left:10px;">Select All</button>
-  <button id="deselectAllBtn" class="button" style="margin-left:10px;">Deselect All</button>
+  <button id="exportSelectedBtn" class="button" style="margin-left:10px;" disabled>Export Selected (<span id="selectedCount">0</span>)</button>
+  <button id="exportAllBtn" class="button" style="margin-left:10px;">Export All Results</button>
+  <button id="selectCurrentPageBtn" class="button" style="margin-left:10px;">Select Current Page</button>
+  <button id="selectAllResultsBtn" class="button" style="margin-left:10px;">Select All Results</button>
+  <button id="clearSelectionBtn" class="button" style="margin-left:10px;">Clear Selection</button>
 </div>
 <section class="data-table-section">
   <table id="pubTable" class="table table-style display" style="width:100%">
@@ -220,6 +255,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
     </thead>
     <tbody></tbody>
   </table>
+  <div id="selectionStatus" style="text-align: center; margin-top: 15px; color: #520049; font-size: 14px; font-weight: 600;">
+    <!-- 选择状态信息将在这里显示 -->
+  </div>
 </section>
 <script>
 
@@ -232,6 +270,7 @@ let filteredRows = [];
 let allRows = [];
 let sortColumn = -1; // 当前排序列，-1表示无排序
 let sortDirection = 'asc'; // 排序方向：'asc' 或 'desc'
+let selectedRowIds = new Set(); // 存储选中行的唯一标识符
 
 function initSimpleTable(rows) {
   allRows = rows;
@@ -242,9 +281,21 @@ function initSimpleTable(rows) {
   // 简单的搜索功能
   $('#searchBox').on('input', function() {
     const searchTerm = this.value.toLowerCase();
-    filteredRows = allRows.filter(row => {
-      return row.some(cell => cell.toString().toLowerCase().includes(searchTerm));
-    });
+    
+    // 检查是否包含逗号，如果包含则分割为多个搜索词进行OR搜索
+    if (searchTerm.includes(',')) {
+      const searchTerms = searchTerm.split(',').map(term => term.trim());
+      filteredRows = allRows.filter(row => {
+        return searchTerms.some(term => 
+          row.some(cell => cell.toString().toLowerCase().includes(term))
+        );
+      });
+    } else {
+      filteredRows = allRows.filter(row => {
+        return row.some(cell => cell.toString().toLowerCase().includes(searchTerm));
+      });
+    }
+    
     applySorting(); // 搜索后重新应用排序
     currentPage = 1;
     renderTable();
@@ -260,22 +311,83 @@ function renderTable() {
   const endIndex = startIndex + rowsPerPage;
   const pageRows = filteredRows.slice(startIndex, endIndex);
   
-  pageRows.forEach(row => {
+  pageRows.forEach((row, index) => {
     const tr = document.createElement('tr');
-    row.forEach((cellData, index) => {
+    // 从row[1]中提取PMID作为唯一标识（Year列包含PMID链接）
+    const yearHTML = row[1] || '';
+    const pmidMatch = yearHTML.match(/\/(\d+)\//);
+    const pmid = pmidMatch ? pmidMatch[1] : `row_${startIndex + index}`;
+    const rowId = `pub_${pmid}`;
+    
+    row.forEach((cellData, cellIndex) => {
       const td = document.createElement('td');
       
-      // Add truncation functionality for longer content cells (author, title, journal, aptamer columns)
-      if (index >= 2 && index <= 5) {
-        const wrappedContent = wrapContentWithExpand(cellData);
-        td.innerHTML = wrappedContent;
+      if (cellIndex === 0) {
+        // 复选框列，检查是否应该被选中
+        const isChecked = selectedRowIds.has(rowId);
+        td.innerHTML = `<input type="checkbox" class="row-select" data-row-id="${rowId}" ${isChecked ? 'checked' : ''}>`;
       } else {
-        td.innerHTML = cellData;
+        // Add truncation functionality for longer content cells (author, title, journal, aptamer columns)
+        if (cellIndex >= 2 && cellIndex <= 5) {
+          const wrappedContent = wrapContentWithExpand(cellData);
+          td.innerHTML = wrappedContent;
+        } else {
+          td.innerHTML = cellData;
+        }
       }
       tr.appendChild(td);
     });
     tbody.appendChild(tr);
   });
+  
+  // 添加复选框事件监听器
+  addCheckboxListeners();
+  // 更新选中计数
+  updateSelectedCount();
+}
+
+function addCheckboxListeners() {
+  document.querySelectorAll('.row-select').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+      const rowId = this.getAttribute('data-row-id');
+      if (this.checked) {
+        selectedRowIds.add(rowId);
+      } else {
+        selectedRowIds.delete(rowId);
+      }
+      updateSelectedCount();
+    });
+  });
+}
+
+function updateSelectedCount() {
+  const count = selectedRowIds.size;
+  document.getElementById('selectedCount').textContent = count;
+  const exportSelectedBtn = document.getElementById('exportSelectedBtn');
+  exportSelectedBtn.disabled = count === 0;
+  exportSelectedBtn.style.opacity = count === 0 ? '0.5' : '1';
+  
+  // 更新选择状态信息
+  const statusDiv = document.getElementById('selectionStatus');
+  if (statusDiv) {
+    let totalRows = 0;
+    if (table && typeof table.rows === 'function') {
+      totalRows = table.rows().data().length;
+    } else {
+      totalRows = filteredRows.length;
+    }
+    
+    if (count === 0) {
+      statusDiv.innerHTML = '';
+      statusDiv.style.color = '#6c757d';
+    } else if (count === totalRows) {
+      statusDiv.innerHTML = `✓ Selected all ${count} rows`;
+      statusDiv.style.color = '#28a745';
+    } else {
+      statusDiv.innerHTML = `Selected ${count} / ${totalRows} rows`;
+      statusDiv.style.color = '#520049';
+    }
+  }
 }
 
 function wrapContentWithExpand(content) {
@@ -384,11 +496,13 @@ function changePage(page) {
 function buildRows(data){
   return data.map(d=>{
     const aptLinks=d.posts.map(p=>`<a href="${p.post_link}" target="_blank">${p.post_title}</a>`).join('<br>');
+    const pmid = d.pmid || 'unknown';
+    const rowId = `pub_${pmid}`;
     
     // 处理 publication 为 null 的情况
     if (d.publication === null) {
       return [
-        '<input type="checkbox" class="row-select">',
+        `<input type="checkbox" class="row-select" data-row-id="${rowId}">`,
         `<a href="https://pubmed.ncbi.nlm.nih.gov/${d.pmid}/" target="_blank">N/A</a>`,
         aptLinks || '<span style="color:#6c757d;font-style:italic;">No aptamer</span>',
         'N/A',
@@ -410,7 +524,7 @@ function buildRows(data){
     }
     
     return [
-      '<input type="checkbox" class="row-select">',
+      `<input type="checkbox" class="row-select" data-row-id="${rowId}">`,
       `<a href="https://pubmed.ncbi.nlm.nih.gov/${d.pmid}/" target="_blank">${year}</a>`,
       aptLinks || '<span style="color:#6c757d;font-style:italic;">No aptamer</span>',
       d.publication.authors || 'N/A',
@@ -426,6 +540,9 @@ function loadData(){
     .then(json=>{
       tableData=json;
       const rows=buildRows(json);
+      
+      // 初始化选择状态显示
+      updateSelectedCount();
       
       // 确保 DataTable 函数存在
       if (typeof $.fn.DataTable === 'undefined') {
@@ -448,7 +565,12 @@ function loadData(){
           ],
           responsive:true,
           pageLength:25,
-          dom:'lrtip'
+          dom:'lrtip',
+          drawCallback: function() {
+            // 每次重绘表格后添加事件监听器
+            addDataTableCheckboxListeners();
+            updateSelectedCount();
+          }
         });
         $('#searchBox').on('input',function(){table.search(this.value).draw();});
       } catch (error) {
@@ -460,70 +582,220 @@ function loadData(){
       console.error('Error loading data:', error);
     });
 }
-function exportSelected(){
-  const selected=[];
-  let rows=[];
-  
-  if (table && typeof table.rows === 'function') {
-    // DataTable 模式
-    table.rows().every(function(){
-      const node=this.node();
-      if($(node).find('input.row-select').prop('checked')){
-        selected.push(this.data());
-      }
-    });
-    rows=selected.length?selected:table.rows().data().toArray();
-  } else {
-    // 简单表格模式
-    $('#pubTable tbody tr').each(function() {
-      if ($(this).find('input.row-select').prop('checked')) {
-        const rowData = [];
-        $(this).find('td').each(function() {
-          rowData.push($(this).html());
-        });
-        selected.push(rowData);
-      }
-    });
+
+function addDataTableCheckboxListeners() {
+  // 为DataTable中的复选框添加事件监听器
+  $('#pubTable tbody').off('change', '.row-select').on('change', '.row-select', function() {
+    const rowId = $(this).attr('data-row-id');
     
-    if (selected.length === 0) {
-      // 如果没有选中任何行，导出所有可见行
-      $('#pubTable tbody tr').each(function() {
-        const rowData = [];
-        $(this).find('td').each(function() {
-          rowData.push($(this).html());
-        });
-        rows.push(rowData);
-      });
+    if (this.checked) {
+      selectedRowIds.add(rowId);
     } else {
-      rows = selected;
+      selectedRowIds.delete(rowId);
     }
+    updateSelectedCount();
+  });
+}
+// 根据PMID从原始数据中获取行
+function getOriginalDataByPMID(pmid) {
+  return tableData.find(item => item.pmid === pmid);
+}
+
+// 安全字符串处理函数
+function safeString(value) {
+  if (value === null || value === undefined) {
+    return '';
+  }
+  return String(value);
+}
+
+// 选择当前页面所有行
+function selectCurrentPage() {
+  if (table && typeof table.rows === 'function') {
+    // DataTable 模式 - 选择当前页面显示的行
+    $('#pubTable tbody tr .row-select').each(function() {
+      $(this).prop('checked', true);
+      const rowId = $(this).attr('data-row-id');
+      if (rowId) {
+        selectedRowIds.add(rowId);
+      }
+    });
+  } else {
+    // 简单表格模式 - 选择当前页面的复选框
+    const currentPageCheckboxes = document.querySelectorAll('#pubTable tbody .row-select');
+    currentPageCheckboxes.forEach(checkbox => {
+      checkbox.checked = true;
+      const rowId = checkbox.getAttribute('data-row-id');
+      if (rowId) {
+        selectedRowIds.add(rowId);
+      }
+    });
+  }
+  updateSelectedCount();
+}
+
+// 选择所有搜索结果
+function selectAllResults() {
+  if (table && typeof table.rows === 'function') {
+    // DataTable 模式 - 基于当前显示的数据
+    table.rows().data().each(function(rowData) {
+      const yearHTML = rowData[1] || '';
+      const pmidMatch = yearHTML.match(/\/(\d+)\//);
+      const pmid = pmidMatch ? pmidMatch[1] : 'unknown';
+      const rowId = `pub_${pmid}`;
+      selectedRowIds.add(rowId);
+    });
+    // 更新所有复选框状态
+    $('#pubTable .row-select').prop('checked', true);
+  } else {
+    // 简单表格模式 - 选择所有filteredRows
+    filteredRows.forEach((row, index) => {
+      const yearHTML = row[1] || '';
+      const pmidMatch = yearHTML.match(/\/(\d+)\//);
+      const pmid = pmidMatch ? pmidMatch[1] : `row_${index}`;
+      const rowId = `pub_${pmid}`;
+      selectedRowIds.add(rowId);
+    });
+    // 更新当前页面显示
+    document.querySelectorAll('#pubTable tbody tr .row-select').forEach(checkbox => {
+      checkbox.checked = true;
+    });
+  }
+  updateSelectedCount();
+}
+
+// 清除所有选择
+function clearSelection() {
+  selectedRowIds.clear();
+  // 清除所有复选框的选中状态
+  $('#pubTable .row-select').prop('checked', false);
+  document.querySelectorAll('.row-select').forEach(checkbox => {
+    checkbox.checked = false;
+  });
+  updateSelectedCount();
+}
+
+// 导出选中的行
+function exportSelected(){
+  const selected = [];
+  
+  // 从原始数据中获取选中的行
+  selectedRowIds.forEach(rowId => {
+    // 从rowId中提取PMID（格式：pub_pmid）
+    const pmid = rowId.replace('pub_', '');
+    const originalData = getOriginalDataByPMID(pmid);
+    if (originalData) {
+      selected.push(originalData);
+    }
+  });
+  
+  if (selected.length === 0) {
+    alert('Please select rows to export first!');
+    return;
   }
   
-  const headers=['Year','Aptamer','Author','Title','Journal'];
+  exportOriginalDataToCSV(selected, `selected_publications_${selected.length}_rows.csv`);
+}
+
+// 导出所有结果
+function exportAllResults() {
+  // 获取当前过滤后的原始数据
+  let originalRows = [];
+  
+  if (table && typeof table.rows === 'function') {
+    // DataTable 模式 - 获取当前显示的所有行对应的原始数据
+    table.rows().data().each(function(rowData) {
+      const yearHTML = rowData[1] || '';
+      const pmidMatch = yearHTML.match(/\/(\d+)\//);
+      const pmid = pmidMatch ? pmidMatch[1] : null;
+      if (pmid) {
+        const originalData = getOriginalDataByPMID(pmid);
+        if (originalData) {
+          originalRows.push(originalData);
+        }
+      }
+    });
+  } else {
+    // 简单表格模式 - 从filteredRows对应的原始数据
+    filteredRows.forEach(row => {
+      const yearHTML = row[1] || '';
+      const pmidMatch = yearHTML.match(/\/(\d+)\//);
+      const pmid = pmidMatch ? pmidMatch[1] : null;
+      if (pmid) {
+        const originalData = getOriginalDataByPMID(pmid);
+        if (originalData) {
+          originalRows.push(originalData);
+        }
+      }
+    });
+  }
+  
+  exportOriginalDataToCSV(originalRows, `all_publications_${originalRows.length}_rows.csv`);
+}
+
+// 导出原始数据的CSV函数
+function exportOriginalDataToCSV(dataRows, filename) {
+  const headers=['Year','Aptamer','Author','Title','Journal','PubMed Link'];
   const csv=[headers.join(',')];
-  rows.forEach(r=>{
-    // 跳过第一个复选框列
-    const exportRow = r.slice(1);
-    csv.push([
-      exportRow[0].replace(/<[^>]+>/g,''),
-      exportRow[1].replace(/<[^>]+>/g,'; '),
-      `"${exportRow[2].replace(/"/g,'""')}"`,
-      `"${exportRow[3].replace(/"/g,'""')}"`,
-      `"${exportRow[4].replace(/"/g,'""')}"`
-    ].join(','));
+  
+  dataRows.forEach((data, index) => {
+    try {
+      // 处理aptamer链接 - 提取aptamer名称
+      let aptamerNames = 'No aptamer';
+      if (data.posts && data.posts.length > 0) {
+        aptamerNames = data.posts.map(p => p.post_title).join('; ');
+      }
+      
+      // 处理年份
+      let year = 'N/A';
+      if (data.publication && data.publication.year) {
+        year = data.publication.year;
+        // 如果年份是8位数字（如20221101），提取前4位作为年份
+        if (/^\d{8}$/.test(year)) {
+          year = year.substring(0, 4);
+        }
+        // 如果年份不是4位数字，设为N/A
+        else if (!/^\d{4}$/.test(year)) {
+          year = 'N/A';
+        }
+      }
+      
+      // 处理PubMed链接
+      let pubmedLink = 'N/A';
+      if (data.pmid) {
+        pubmedLink = `https://pubmed.ncbi.nlm.nih.gov/${data.pmid}/`;
+      }
+      
+      csv.push([
+        `"${safeString(year).replace(/"/g, '""')}"`,
+        `"${safeString(aptamerNames).replace(/"/g, '""')}"`,
+        `"${safeString(data.publication ? data.publication.authors || 'N/A' : 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data.publication ? data.publication.title || 'N/A' : 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data.publication ? data.publication.journal || 'N/A' : 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(pubmedLink).replace(/"/g, '""')}"`,
+      ].join(','));
+    } catch (error) {
+      console.error(`Error processing data row ${index}:`, error, data);
+      // 跳过有问题的行
+    }
   });
+  
   const csvContent='data:text/csv;charset=utf-8,'+csv.join('\n');
   const link=document.createElement('a');
   link.setAttribute('href',encodeURI(csvContent));
-  link.setAttribute('download','publications.csv');
-  document.body.appendChild(link);link.click();document.body.removeChild(link);
+  link.setAttribute('download', filename);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
+
+// 保留旧的函数用于向后兼容
 function selectAll() {
-  $('#pubTable tbody tr:visible input.row-select').prop('checked', true);
+  selectCurrentPage();
 }
 
 function deselectAll() {
-  $('#pubTable tbody tr input.row-select').prop('checked', false);
+  clearSelection();
 }
 
 // 排序功能
@@ -658,9 +930,11 @@ $(document).ready(function(){
   setTimeout(function() {
     loadData();
     loadWordCloud();
-    $('#exportBtn').on('click',exportSelected);
-    $('#selectAllBtn').on('click',selectAll);
-    $('#deselectAllBtn').on('click',deselectAll);
+    $('#exportSelectedBtn').on('click',exportSelected);
+    $('#exportAllBtn').on('click',exportAllResults);
+    $('#selectCurrentPageBtn').on('click',selectCurrentPage);
+    $('#selectAllResultsBtn').on('click',selectAllResults);
+    $('#clearSelectionBtn').on('click',clearSelection);
   }, 100);
   
   // 窗口大小变化时重新渲染词云

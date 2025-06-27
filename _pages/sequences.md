@@ -869,7 +869,7 @@ function safeString(value) {
 
 // 导出原始数据的CSV函数
 function exportOriginalDataToCSV(dataRows, filename) {
-  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Year','Description'];
+  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Year','PubMed Link','Description'];
   const csv=[headers.join(',')];
   
   dataRows.forEach((data, index) => {
@@ -897,6 +897,12 @@ function exportOriginalDataToCSV(dataRows, filename) {
         gcContent = (parseFloat(data['GC Content']) * 100).toFixed(1) + '%';
       }
       
+      // 处理PubMed链接
+      let pubmedLink = 'N/A';
+      if (data['Link to PubMed Entry']) {
+        pubmedLink = data['Link to PubMed Entry'];
+      }
+      
       csv.push([
         `"${safeString(data.Named || 'N/A').replace(/"/g, '""')}"`,
         `"${safeString(aptamerName).replace(/"/g, '""')}"`,
@@ -907,6 +913,7 @@ function exportOriginalDataToCSV(dataRows, filename) {
         `"${safeString(data.Length || 'N/A').replace(/"/g, '""')}"`,
         `"${safeString(gcContent).replace(/"/g, '""')}"`,
         `"${safeString(data.Year || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(pubmedLink).replace(/"/g, '""')}"`,
         `"${safeString(data['Ligand Description'] || 'N/A').replace(/"/g, '""')}"`,
       ].join(','));
     } catch (error) {

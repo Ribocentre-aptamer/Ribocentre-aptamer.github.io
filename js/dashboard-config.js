@@ -211,43 +211,86 @@ function createFilterTag(text, onRemove) {
 function exportData() {
     // 检查是否有数据可导出
     if (!filteredData || filteredData.length === 0) {
-        alert("No data available to export.");
+        alert("暂无数据可导出。");
         return;
     }
     
-    // 从第一条数据获取所有字段名
-    const firstItem = filteredData[0];
-    const headers = Object.keys(firstItem);
+    // 创建CSV内容 - 严格按照表格显示的列来导出
+    const csvRows = [];
     
-    // 创建CSV标题行
-    const headerRow = headers.join(",");
+    // 标题行 - 与表格显示完全一致
+    const headers = [
+        'No.',
+        'Sequence Name', 
+        'Aptamer Name',
+        'Discovery Year',
+        'Category',
+        'Sequence (5\'-3\')',
+        'Description'
+    ];
+    csvRows.push(headers.map(h => `"${h}"`).join(','));
     
-    // 创建数据行
-    const dataRows = filteredData.map(item => {
-        return headers.map(header => {
-            // 处理可能包含逗号的字段，用引号包裹
-            let value = item[header] !== undefined ? item[header] : "";
-            // 如果值包含逗号、引号或换行符，则用引号包裹并处理内部引号
-            if (typeof value === 'string' && (value.includes(',') || value.includes('"') || value.includes('\n'))) {
-                value = '"' + value.replace(/"/g, '""') + '"';
+    // 数据行 - 严格按照TableModule.updateDataTable()的逻辑处理
+    filteredData.forEach((item, index) => {
+        // 1. No. - 行号
+        const no = index + 1;
+        
+        // 2. Sequence Name - 使用Named字段，去除HTML标签
+        const sequenceName = (item['Named'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 3. Aptamer Name - 处理合并的aptamer名称
+        let aptamerName = item['Linker name(page name)'] || 'N/A';
+        const seqName = item['Named'] || '';
+        if (seqName && aptamerName !== 'N/A' && aptamerName.includes(',')) {
+            if (seqName.includes('CB-42')) {
+                aptamerName = 'CB-42 aptamer';
+            } else if (seqName.includes('B4-25')) {
+                aptamerName = 'B4-25 aptamer';
+            } else if (seqName.includes('Ribostamycin')) {
+                aptamerName = 'Ribostamycin aptamer';
+            } else if (seqName.includes('Paromomycin')) {
+                aptamerName = 'Paromomycin aptamer';
             }
-            return value;
-        }).join(",");
-    }).join("\n");
+        }
+        aptamerName = aptamerName.toString().replace(/<[^>]*>/g, '');
+        
+        // 4. Discovery Year - 使用Year字段
+        const year = (item['Year'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 5. Category - 使用Category字段
+        const category = (item['Category'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 6. Sequence (5'-3') - 使用完整序列
+        const sequence = (item['Sequence'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 7. Description - 使用完整描述
+        const description = (item['Ligand Description'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 构建行数据
+        const rowData = [no, sequenceName, aptamerName, year, category, sequence, description];
+        const csvRow = rowData.map(val => {
+            const strVal = String(val).replace(/"/g, '""'); // 转义双引号
+            return `"${strVal}"`;
+        }).join(',');
+        
+        csvRows.push(csvRow);
+    });
     
-    // 组合完整CSV内容
-    const csvContent = "data:text/csv;charset=utf-8," + headerRow + "\n" + dataRows;
+    // 创建CSV内容
+    const csvContent = csvRows.join('\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     
     // 创建下载链接
-    const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "aptamer_data_export.csv");
+    const url = URL.createObjectURL(blob);
+    link.setAttribute("href", url);
+    link.setAttribute("download", `dashboard_export_${filteredData.length}_rows.csv`);
+    link.style.visibility = 'hidden';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
     
-    console.log(`Exported ${filteredData.length} records with ${headers.length} fields.`);
+    console.log(`✅ 已导出 ${filteredData.length} 条记录，包含 ${headers.length} 个字段`);
 }
 
 // 重置所有筛选

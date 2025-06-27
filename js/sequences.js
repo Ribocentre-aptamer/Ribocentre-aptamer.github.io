@@ -368,9 +368,24 @@ class SequenceTableManager {
             return;
         }
 
-        // 获取所有字段（除了Linker）
-        const excludeFields = ['Linker'];
-        const allFields = Object.keys(data[0]).filter(key => !excludeFields.includes(key));
+        // 定义要显示的字段（仅显示重要字段，与dashboard保持一致）
+        const displayFields = [
+            'ID',
+            'Linker name(page name)', // Aptamer Name
+            'Type',
+            'Category', 
+            'Named', // Sequence Name
+            'Article name',
+            'Ligand',
+            'Ligand Description',
+            'Sequence',
+            'Length',
+            'GC Content',
+            'Affinity',
+            'Year',
+            'Link to PubMed Entry'
+        ];
+        const allFields = displayFields.filter(field => data[0].hasOwnProperty(field));
         
         // 构建表格数据
         const tableData = data.map(item => {
@@ -451,22 +466,22 @@ class SequenceTableManager {
     }
 
     formatHeaderName(field) {
-        // 格式化表头名称
+        // 格式化表头名称（与dashboard保持一致）
         const headerMap = {
             'ID': 'ID',
+            'Linker name(page name)': 'Aptamer Name',
             'Type': 'Type',
             'Category': 'Category',
-            'Named': 'Name',
+            'Named': 'Sequence Name',
             'Article name': 'Article Name',
             'Ligand': 'Ligand',
-            'Ligand Description': 'Ligand Description',
-            'CAS': 'CAS',
+            'Ligand Description': 'Description',
             'Sequence': 'Sequence (5\'-3\')',
             'Length': 'Length',
             'GC Content': 'GC Content',
             'Affinity': 'Affinity',
-            'Year': 'Year',
-            'Link to PubMed Entry': 'References'
+            'Year': 'Discovery Year',
+            'Link to PubMed Entry': 'PubMed Link'
         };
         return headerMap[field] || field;
     }
@@ -482,6 +497,30 @@ class SequenceTableManager {
                     return `<a href="${item.Linker}" target="_blank">${value || ''}</a>`;
                 }
                 return value || '';
+                
+            case 'Linker name(page name)':
+                // 处理aptamer名称，根据sequence name确定正确的aptamer name
+                let aptamerName = value || 'N/A';
+                const seqName = item['Named'] || '';
+                if (seqName && aptamerName !== 'N/A' && aptamerName.includes(',')) {
+                    // 检查是否是合并的aptamer（包含逗号）
+                    if (seqName.includes('CB-42')) {
+                        aptamerName = 'CB-42 aptamer';
+                    } else if (seqName.includes('B4-25')) {
+                        aptamerName = 'B4-25 aptamer';
+                    } else if (seqName.includes('Ribostamycin')) {
+                        aptamerName = 'Ribostamycin aptamer';
+                    } else if (seqName.includes('Paromomycin')) {
+                        aptamerName = 'Paromomycin aptamer';
+                    }
+                }
+                
+                // 如果有Linker链接，将aptamer名称设为链接
+                if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
+                    const linkerUrl = item.Linker.startsWith('/') ? item.Linker : '/' + item.Linker;
+                    return `<a href="${linkerUrl}" target="_blank">${aptamerName}</a>`;
+                }
+                return aptamerName;
                 
             case 'Link to PubMed Entry':
                 if (value && value.trim() !== '') {
