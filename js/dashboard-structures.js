@@ -839,5 +839,84 @@
         };
     }
 
+    // --- 覆写导出功能：确保structure页面导出与表格显示一致 ---
+    if (typeof exportData !== 'undefined') {
+        window.exportData = function() {
+            // 检查是否有数据可导出
+            if (!filteredData || filteredData.length === 0) {
+                alert("暂无数据可导出。");
+                return;
+            }
+            
+            // 创建CSV内容 - 严格按照structure表格显示的列来导出
+            const csvRows = [];
+            
+            // 标题行 - 与structure表格显示完全一致
+            const headers = [
+                'No.',
+                'Name',
+                'Ligand',
+                'Structure determination',
+                'NDB',
+                'Phase determination',
+                'Resolution (Å)',
+                'Year'
+            ];
+            csvRows.push(headers.map(h => `"${h}"`).join(','));
+            
+            // 数据行 - 严格按照structure表格逻辑处理
+            filteredData.forEach((item, index) => {
+                // 1. No. - 行号
+                const no = index + 1;
+                
+                // 2. Name - 去除HTML标签
+                const name = (item.Name || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 3. Ligand - 去除HTML标签
+                const ligand = (item.Ligand || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 4. Structure determination
+                const structureDetermination = (item['Structure Determination'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 5. NDB - 去除HTML标签
+                const ndb = (item.ndb || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 6. Phase determination - 去除HTML标签
+                const phaseDetermination = (item['Phase Determination'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 7. Resolution (Å) - 去除HTML标签
+                const resolution = (item['Resolution(Å)'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 8. Year - 去除HTML标签
+                const year = (item.Year || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 构建行数据
+                const rowData = [no, name, ligand, structureDetermination, ndb, phaseDetermination, resolution, year];
+                const csvRow = rowData.map(val => {
+                    const strVal = String(val).replace(/"/g, '""'); // 转义双引号
+                    return `"${strVal}"`;
+                }).join(',');
+                
+                csvRows.push(csvRow);
+            });
+            
+            // 创建CSV内容
+            const csvContent = csvRows.join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            
+            // 创建下载链接
+            const link = document.createElement("a");
+            const url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", `structure_export_${filteredData.length}_rows.csv`);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            console.log(`✅ 已导出结构页面数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段`);
+        };
+    }
+
     console.log('dashboard-structures.js 补丁已应用');
 })();

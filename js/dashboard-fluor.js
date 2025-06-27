@@ -251,5 +251,85 @@
         };
     }
 
+    // --- 覆写导出功能：确保fluorescence页面导出与表格显示一致 ---
+    if (typeof exportData !== 'undefined') {
+        window.exportData = function() {
+            // 检查是否有数据可导出
+            if (!filteredData || filteredData.length === 0) {
+                alert("暂无数据可导出。");
+                return;
+            }
+            
+            // 创建CSV内容 - 严格按照fluorescence表格显示的列来导出
+            const csvRows = [];
+            
+            // 标题行 - 与fluorescence表格显示完全一致
+            const headers = [
+                'No.',
+                'Aptamer name',
+                'Ligand',
+                'Year',
+                'Mechanisms',
+                'Sequence (5\'-3\')',
+                'Citation',
+                'Relevant 3D structures'
+            ];
+            csvRows.push(headers.map(h => `"${h}"`).join(','));
+            
+            // 数据行 - 严格按照fluorescence表格逻辑处理
+            filteredData.forEach((item, index) => {
+                // 1. No. - 行号
+                const no = index + 1;
+                
+                // 2. Aptamer name - 去除HTML标签
+                const aptamerName = (item.name || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 3. Ligand - 取第一个逗号前的部分
+                const ligandRaw = item.ligand || '';
+                const ligand = ligandRaw ? ligandRaw.split(',')[0].trim() : 'N/A';
+                
+                // 4. Year - 去除HTML标签
+                const year = (item.year || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 5. Mechanisms
+                const mechanisms = (item.mechanisms || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 6. Sequence (5'-3') - 使用完整序列
+                const sequence = (item.sequence || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 7. Citation - 使用完整引用
+                const citation = (item.citation || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 8. Relevant 3D structures - 使用完整结构信息
+                const structures = (item.structures || 'N/A').toString().replace(/<[^>]*>/g, '');
+                
+                // 构建行数据
+                const rowData = [no, aptamerName, ligand, year, mechanisms, sequence, citation, structures];
+                const csvRow = rowData.map(val => {
+                    const strVal = String(val).replace(/"/g, '""'); // 转义双引号
+                    return `"${strVal}"`;
+                }).join(',');
+                
+                csvRows.push(csvRow);
+            });
+            
+            // 创建CSV内容
+            const csvContent = csvRows.join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            
+            // 创建下载链接
+            const link = document.createElement("a");
+            const url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", `fluorescence_export_${filteredData.length}_rows.csv`);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            console.log(`✅ 已导出荧光页面数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段`);
+        };
+    }
+
     console.log('dashboard-fluor.js 补丁已应用');
 })(); 

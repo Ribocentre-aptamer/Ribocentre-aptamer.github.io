@@ -224,6 +224,7 @@ function exportData() {
         'Sequence Name', 
         'Aptamer Name',
         'Discovery Year',
+        'PubMed Link',
         'Category',
         'Sequence (5\'-3\')',
         'Description'
@@ -257,17 +258,20 @@ function exportData() {
         // 4. Discovery Year - 使用Year字段
         const year = (item['Year'] || 'N/A').toString().replace(/<[^>]*>/g, '');
         
-        // 5. Category - 使用Category字段
+        // 5. PubMed Link - 使用Link to PubMed Entry字段
+        const pubmedLink = (item['Link to PubMed Entry'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 6. Category - 使用Category字段
         const category = (item['Category'] || 'N/A').toString().replace(/<[^>]*>/g, '');
         
-        // 6. Sequence (5'-3') - 使用完整序列
+        // 7. Sequence (5'-3') - 使用完整序列
         const sequence = (item['Sequence'] || 'N/A').toString().replace(/<[^>]*>/g, '');
         
-        // 7. Description - 使用完整描述
+        // 8. Description - 使用完整描述
         const description = (item['Ligand Description'] || 'N/A').toString().replace(/<[^>]*>/g, '');
         
         // 构建行数据
-        const rowData = [no, sequenceName, aptamerName, year, category, sequence, description];
+        const rowData = [no, sequenceName, aptamerName, year, pubmedLink, category, sequence, description];
         const csvRow = rowData.map(val => {
             const strVal = String(val).replace(/"/g, '""'); // 转义双引号
             return `"${strVal}"`;
