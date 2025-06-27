@@ -10,7 +10,6 @@ class AptamerTableGenerator {
         this.container = document.getElementById(containerId);
         this.options = {
             columnsPerRow: 9,
-            enableTooltips: true,
             enableHover: true,
             animationDuration: 300,
             tableType: 'no3d', // 'no3d' or '3d'
@@ -207,24 +206,6 @@ class AptamerTableGenerator {
                         color: #666;
                     }
                     
-                    .aptamer-tooltip {
-                        position: absolute;
-                        background: rgba(0,0,0,0.9);
-                        color: white;
-                        padding: 8px 12px;
-                        border-radius: 4px;
-                        font-size: 12px;
-                        z-index: 1000;
-                        opacity: 0;
-                        pointer-events: none;
-                        transition: opacity 0.3s;
-                        white-space: nowrap;
-                    }
-                    
-                    .aptamer-tooltip.show {
-                        opacity: 1;
-                    }
-                    
                     @media (max-width: 768px) {
                         .aptamer-cell {
                             font-size: 10px;
@@ -367,54 +348,9 @@ class AptamerTableGenerator {
         link.title = `${item.name} (${item.category})`;
 
         cell.appendChild(link);
-
-        // 添加悬停提示
-        if (this.options.enableTooltips) {
-            this.addTooltip(cell, item);
-        }
     }
 
-    /**
-     * 添加悬停提示
-     */
-    addTooltip(cell, item) {
-        let tooltip = null;
 
-        cell.addEventListener('mouseenter', (e) => {
-            tooltip = document.createElement('div');
-            tooltip.className = 'aptamer-tooltip';
-            
-            const tableTypeDesc = this.options.tableType === '3d' ? '有3D结构' : '无3D结构';
-            tooltip.innerHTML = `
-                <strong>${item.name}</strong><br>
-                Category: ${item.category}<br>
-                ${item.category_info.description}<br>
-                <small>${tableTypeDesc}</small>
-            `;
-            
-            document.body.appendChild(tooltip);
-            
-            // 定位提示框
-            const rect = cell.getBoundingClientRect();
-            tooltip.style.left = (rect.left + rect.width / 2) + 'px';
-            tooltip.style.top = (rect.top - tooltip.offsetHeight - 5) + 'px';
-            tooltip.style.transform = 'translateX(-50%)';
-            
-            // 显示提示框
-            setTimeout(() => tooltip.classList.add('show'), 10);
-        });
-
-        cell.addEventListener('mouseleave', () => {
-            if (tooltip) {
-                tooltip.classList.remove('show');
-                setTimeout(() => {
-                    if (tooltip && tooltip.parentNode) {
-                        tooltip.parentNode.removeChild(tooltip);
-                    }
-                }, 300);
-            }
-        });
-    }
 
     /**
      * 创建统计信息

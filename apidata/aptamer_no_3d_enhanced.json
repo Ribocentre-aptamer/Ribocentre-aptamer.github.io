@@ -3,7 +3,7 @@
     "description": "增强的无3D模型适配体表格数据",
     "version": "2.0",
     "last_updated": "2024-06-26",
-    "total_items": 127,
+    "total_items": 128,
     "categories": 7
   },
   "category_config": {
@@ -234,7 +234,7 @@
     },
     {
       "name": "Chloramphenicol",
-      "link": "https://aptamer.ribocentre.org/_posts/70cam6-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Chloramphenicol-aptamer",
       "background_color": "#14a0ec",
       "position": {
         "row": 8,
@@ -384,7 +384,7 @@
     },
     {
       "name": "L-selectin",
-      "link": "https://aptamer.ribocentre.org/_posts/14.12-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/L-selectin-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 2,
@@ -399,7 +399,7 @@
     },
     {
       "name": "E2F",
-      "link": "https://aptamer.ribocentre.org/_posts/E2F-E1-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/E2F1-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 2,
@@ -413,8 +413,8 @@
       }
     },
     {
-      "name": "RAF1",
-      "link": "https://aptamer.ribocentre.org/_posts/21.01-aptamer",
+      "name": "Complement component 5",
+      "link": "https://aptamer.ribocentre.org/_posts/Complement-component-5-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 2,
@@ -428,8 +428,8 @@
       }
     },
     {
-      "name": "Human activated protein C",
-      "link": "https://aptamer.ribocentre.org/_posts/APC-99-aptamer",
+      "name": "RAF1",
+      "link": "https://aptamer.ribocentre.org/_posts/Raf-1-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 2,
@@ -443,8 +443,23 @@
       }
     },
     {
+      "name": "Human activated protein C",
+      "link": "https://aptamer.ribocentre.org/_posts/Human-activated-protein-C-aptamer",
+      "background_color": "#d75369",
+      "position": {
+        "row": 2,
+        "column": 10
+      },
+      "category": "Proteins",
+      "category_info": {
+        "name": "Proteins",
+        "primary_color": "#d75369",
+        "description": "蛋白质"
+      }
+    },
+    {
       "name": "CSDE1",
-      "link": "https://aptamer.ribocentre.org/_posts/77-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Upstream-of-N-Ras-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 3,
@@ -459,7 +474,7 @@
     },
     {
       "name": "CD18",
-      "link": "https://aptamer.ribocentre.org/_posts/TR-D28-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Integrin-beta-chain-2-(CD18)-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 3,
@@ -474,7 +489,7 @@
     },
     {
       "name": "Neurotensin receptor",
-      "link": "https://aptamer.ribocentre.org/_posts/P19-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Neurotensin-receptor-NTS-1-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 3,
@@ -489,7 +504,7 @@
     },
     {
       "name": "Angiopoietin-2",
-      "link": "https://aptamer.ribocentre.org/_posts/11-1.41-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Angiopoietin-2-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 3,
@@ -639,7 +654,7 @@
     },
     {
       "name": "Engineered FKBP protein",
-      "link": "https://aptamer.ribocentre.org/_posts/tFKBP*3R-2G-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/s23-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 4,
@@ -1059,7 +1074,7 @@
     },
     {
       "name": "Cancer antigen 72–4",
-      "link": "https://aptamer.ribocentre.org/_posts/Cancer-antigen-72-4(CA72-4)-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Cancer-antigen-72–4(CA72-4)-aptamer",
       "background_color": "#d75369",
       "position": {
         "row": 7,
@@ -1374,7 +1389,7 @@
     },
     {
       "name": "HIV-1 RT",
-      "link": "https://aptamer.ribocentre.org/_posts/ligand-1.1-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-RT-aptamer",
       "background_color": "#ade48b",
       "position": {
         "row": 10,
@@ -1419,7 +1434,7 @@
     },
     {
       "name": "HIV-1 integrase",
-      "link": "https://aptamer.ribocentre.org/_posts/P5-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-integrase-aptamer",
       "background_color": "#ade48b",
       "position": {
         "row": 10,
@@ -1509,7 +1524,7 @@
     },
     {
       "name": "Wilms tumor protein",
-      "link": "https://aptamer.ribocentre.org/_posts/RNA22-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Wilms-tumor-protein-aptamer",
       "background_color": "#ade48b",
       "position": {
         "row": 11,
@@ -1524,7 +1539,7 @@
     },
     {
       "name": "HCV NS5B (1)",
-      "link": "https://aptamer.ribocentre.org/_posts/B.2-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HCV-NS5B-protein-aptamer",
       "background_color": "#ade48b",
       "position": {
         "row": 11,
@@ -1539,7 +1554,7 @@
     },
     {
       "name": "HCV NS5B (2)",
-      "link": "https://aptamer.ribocentre.org/_posts/HCV-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HCV-NS5BΔC55-aptamer",
       "background_color": "#ade48b",
       "position": {
         "row": 11,
@@ -1629,7 +1644,7 @@
     },
     {
       "name": "HBV P protein",
-      "link": "https://aptamer.ribocentre.org/_posts/HBV-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HBV-P-protein-aptamer",
       "background_color": "#ade48b",
       "position": {
         "row": 12,
@@ -1719,7 +1734,7 @@
     },
     {
       "name": "16S rRNA decoding region",
-      "link": "https://aptamer.ribocentre.org/_posts/109.2-3-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/16S-rRNA-decoding-region-aptamer",
       "background_color": "#6ed9cd",
       "position": {
         "row": 13,

@@ -31,10 +31,18 @@ async function loadData() {
             console.log('Pie chart could not be rendered, but this will not affect other functionality');
         }
         
-        // 加载表格数据
-        const tablesResponse = await fetch('/apidata/aptamer-tables-data.json');
-        tablesData = await tablesResponse.json();
-        renderTables();
+        // // 加载表格数据（旧版功能，仅在文件存在时才加载）
+        // try {
+        //     const tablesResponse = await fetch('/apidata/aptamer-tables-data.json');
+        //     if (tablesResponse.ok) {
+        //         tablesData = await tablesResponse.json();
+        //         renderTables();
+        //     } else {
+        //         console.log('Legacy tables data file not found, skipping legacy table rendering');
+        //     }
+        // } catch (tableErr) {
+        //     console.log('Legacy tables data load skipped:', tableErr.message);
+        // }
         
         console.log('Aptamer data loaded successfully');
     } catch (error) {

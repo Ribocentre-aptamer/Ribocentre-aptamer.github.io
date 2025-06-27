@@ -39,7 +39,7 @@ type: Proteins
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the article by online secondary structure prediction tool to draw. The figure shows the secondary structure prediction of the original aptamer sequence. The structure of this aptamer is relatively simple, consisting of only one stem loop with one bulge. The 5' and 3' ends of aptamer each has an overhang<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-CGUCCCUUCGCAACCCUUUAAGACUUGGGACCCUGCUCUU-3'</p>
-<img src="/images/2D/W2_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/Complement component 5_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 

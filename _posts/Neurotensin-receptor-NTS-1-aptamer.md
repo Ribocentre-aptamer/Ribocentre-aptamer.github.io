@@ -39,7 +39,7 @@ type: Proteins
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the prediction results of the RNA fold website by online secondary structure prediction tool to draw. The figure shows the secondary structure prediction of the original aptamer sequence. This aptamer contains two stem loops of different lengths. Overall, the predicted secondary structure of this aptamer has quite a number of nucleotides that are not in the classic pairing state<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-AGGACGATGCGGACAGATACGGAACTACAGAGGTCAATTACGGTGGCCACGCCAGACGACTCGCCCGA-3'</p>
-<img src="/images/2D/P19_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/Neurotensin receptor NTS-1_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 

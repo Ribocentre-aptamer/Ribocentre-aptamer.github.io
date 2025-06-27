@@ -44,7 +44,7 @@ type: Proteins
 <p class="header_box" id="Structure">Structure</p>
 <p>The 2D structure of the figure is based on the article by online secondary structure prediction tool to draw. The figure shows the secondary structure prediction of the original aptamer sequence. This aptamer contains two stem loops of different lengths. It is speculated that the two paired regions closer to the two ends of the nucleic acid chain are coaxial<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGGGCCACCAACGACAUUGAUAUGGUGACCACCCCGGCGUUGAUAUAAAAUAGUGCCCAUGGAUCCGCGGGUGUCGGG-3'</p>
-<img src="/images/2D/RNA22_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/2D/Wilms tumor protein_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
