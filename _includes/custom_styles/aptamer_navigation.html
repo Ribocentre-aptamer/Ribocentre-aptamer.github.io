@@ -182,10 +182,27 @@
     });
 
     /* ---------- 自动识别并包裹序列段落 ---------- */
-    const seqRegex = /^\s*5[''']-[AUCGaucg\s]+-3[''']\s*$/;
-    document.querySelectorAll('.post-content p').forEach(p => {
+    // 修改选择器以适应content-section包装后的结构
+    document.querySelectorAll('.post-content p, .content-section p').forEach(p => {
       if (p.classList.contains('sequence')) return;
-      if (seqRegex.test(p.textContent)) {
+      const text = p.textContent.trim();
+      
+      // 使用简单高效的检测方法，避免长序列的正则回溯问题
+      const isSequence = (str) => {
+        // 检查长度范围
+        if (str.length < 10 || str.length > 500) return false;
+        
+        // 检查开头和结尾
+        if (!/^5[''']-/.test(str) || !/-3[''']$/.test(str)) return false;
+        
+        // 提取中间部分（去掉5'-和-3'）
+        const middle = str.replace(/^5[''']-/, '').replace(/-3[''']$/, '');
+        
+        // 检查中间部分是否只包含核苷酸字符和空格
+        return /^[AUCGTaucgt\s]+$/.test(middle);
+      };
+      
+      if (isSequence(text)) {
         const wrapper = document.createElement('div');
         wrapper.className = 'sequence';
         p.parentNode.insertBefore(wrapper, p);

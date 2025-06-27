@@ -40,14 +40,14 @@ type: Proteins
 
 
 <p class="header_box" id="Structure">Structure</p>
-<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p class="blowheader_box">2D representation</p>
+<p>The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-GGGAUAGGAUCCACAUCUACGUAUUACGCAACGCCGGGCCACTACGCGAATGGCAAGCCCGTCGACUUCACUGCAGACUUGACGAAGCUU-3'</p>
 <img src="/images/2D/B1_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
-
+<p class="header_box" id="ligand-recognition">Ligand information</p>  
 <p class="blowheader_box">SELEX ligand</p>
 <p>Together, BACE1 and BACE2 define a novel family of aspartyl proteases [4]. Both enzymes share significant sequence similarity with other members of the pepsin family of aspartyl proteases and contain the two characteristic D(T/S)G(T/S) motifs that form the catalytic site. However, by contrast with other aspartyl proteases, BACE1 and BACE2 are type I TM proteins. Each protein comprises a large lumenal domain containing the active centre, a single TM domain and a small cytoplasmic tail.-----from InterPro</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
@@ -190,64 +190,3 @@ Rentmeister, & Famulok, M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/16888322/" target="_blank" style="color:#520049">RNA (New York, N.Y.), 12(9), 1650–1660. (2006)</a>
 <br/>
 
-<html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
-        <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-          .msp-plugin ::-webkit-scrollbar-thumb {
-              background-color: #474748  !important;
-          }
-          .msp-plugin .msp-layout-standard {
-              border: 1px solid #efefef;
-          }
-          .viewerSection1 {
-            padding-top: 0px;
-          }
-          .controlsSection1 {
-            width: 300px;
-              display: flex;
-              float:left;
-              padding: 0px 0 0 0;
-              height:25px;
-            }
-            .controlBox1 {
-              border: 0px solid lightgray;
-              padding: 0px;
-              margin-bottom: 0px;
-            }
-          #myViewer1{
-            float:left;
-            width:500px;
-            height: 500px;
-            position:relative;
-          }
-        </style>
-    </head>
-    <script>
-      var viewerInstance1 = new PDBeMolstarPlugin();
-      var options1 = {
-        customData:{
-        url:'/pdbfiles/1RAW-3D.pdb',
-        format: 'pdb'},
-        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
-        bgColor: {r:255, g:255, b:255},
-        }
-      var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
-    </script>
-    
-    </html>
