@@ -227,38 +227,55 @@
                 }
                 row.appendChild(resolutionCell);
 
-                // Year 列
+                // Year 列（现在只显示年份，不包含链接）
                 const yearCell = document.createElement('td');
                 const yearStr = (item.Year || '').toString();
                 if (yearStr) {
                     const yearParts = yearStr.split(',').map(s => s.trim()).filter(s => s);
                     yearParts.forEach((yr, idx) => {
-                        // 直接从 pubmedMap 中查找
-                        const yrDigits = (yr.match(/\d{4}/) || [])[0];
-                        let linkUrl = null;
-                        if (yrDigits && item.pubmedMap && item.pubmedMap[yrDigits]) {
-                            linkUrl = item.pubmedMap[yrDigits];
-                        }
-
-                        if (linkUrl) {
-                            const yearLink = document.createElement('a');
-                            yearLink.href = linkUrl;
-                            yearLink.textContent = yr;
-                            yearLink.target = '_blank';
-                            yearLink.style.color = '#520049';
-                            yearLink.style.textDecoration = 'none';
-                            yearLink.style.borderBottom = '1px dashed #520049';
-                            yearCell.appendChild(yearLink);
-                        } else {
-                            yearCell.appendChild(document.createTextNode(yr));
-                        }
-
+                        yearCell.appendChild(document.createTextNode(yr));
                         if (idx < yearParts.length - 1) {
                             yearCell.appendChild(document.createTextNode(', '));
                         }
                     });
                 }
                 row.appendChild(yearCell);
+                
+                // PubMed Link 列（新增）
+                const pubmedCell = document.createElement('td');
+                if (yearStr) {
+                    const yearParts = yearStr.split(',').map(s => s.trim()).filter(s => s);
+                    const pubmedLinks = [];
+                    
+                    yearParts.forEach((yr, idx) => {
+                        const yrDigits = (yr.match(/\d{4}/) || [])[0];
+                        if (yrDigits && item.pubmedMap && item.pubmedMap[yrDigits]) {
+                            const linkUrl = item.pubmedMap[yrDigits];
+                            const pubmedLink = document.createElement('a');
+                            pubmedLink.href = linkUrl;
+                            pubmedLink.textContent = `PubMed ${yrDigits}`;
+                            pubmedLink.target = '_blank';
+                            pubmedLink.style.color = '#520049';
+                            pubmedLink.style.textDecoration = 'none';
+                            pubmedLink.style.borderBottom = '1px dashed #520049';
+                            pubmedLinks.push(pubmedLink);
+                        }
+                    });
+                    
+                    if (pubmedLinks.length > 0) {
+                        pubmedLinks.forEach((link, idx) => {
+                            pubmedCell.appendChild(link);
+                            if (idx < pubmedLinks.length - 1) {
+                                pubmedCell.appendChild(document.createTextNode(', '));
+                            }
+                        });
+                    } else {
+                        pubmedCell.textContent = 'N/A';
+                    }
+                } else {
+                    pubmedCell.textContent = 'N/A';
+                }
+                row.appendChild(pubmedCell);
                 
                 tableBody.appendChild(row);
 
@@ -860,7 +877,8 @@
                 'NDB',
                 'Phase determination',
                 'Resolution (Å)',
-                'Year'
+                'Year',
+                'PubMed Link'
             ];
             csvRows.push(headers.map(h => `"${h}"`).join(','));
             
@@ -890,8 +908,27 @@
                 // 8. Year - 去除HTML标签
                 const year = (item.Year || 'N/A').toString().replace(/<[^>]*>/g, '');
                 
+                // 9. PubMed Link - 提取PubMed链接
+                let pubmedLink = 'N/A';
+                if (item.Year) {
+                    const yearStr = item.Year.toString();
+                    const yearParts = yearStr.split(',').map(s => s.trim()).filter(s => s);
+                    const pubmedLinks = [];
+                    
+                    yearParts.forEach(yr => {
+                        const yrDigits = (yr.match(/\d{4}/) || [])[0];
+                        if (yrDigits && item.pubmedMap && item.pubmedMap[yrDigits]) {
+                            pubmedLinks.push(item.pubmedMap[yrDigits]);
+                        }
+                    });
+                    
+                    if (pubmedLinks.length > 0) {
+                        pubmedLink = pubmedLinks.join(', ');
+                    }
+                }
+                
                 // 构建行数据
-                const rowData = [no, name, ligand, structureDetermination, ndb, phaseDetermination, resolution, year];
+                const rowData = [no, name, ligand, structureDetermination, ndb, phaseDetermination, resolution, year, pubmedLink];
                 const csvRow = rowData.map(val => {
                     const strVal = String(val).replace(/"/g, '""'); // 转义双引号
                     return `"${strVal}"`;
@@ -914,7 +951,7 @@
             link.click();
             document.body.removeChild(link);
             
-            console.log(`✅ 已导出结构页面数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段`);
+            console.log(`✅ 已导出结构页面数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段（包括新增的PubMed Link列）`);
         };
     }
 
