@@ -49,14 +49,25 @@
     };
 
     // --- 重写 TableModule.updateDataTable ---
+    // 强制覆盖默认的表格渲染逻辑，确保荧光页面使用9列而不是7列（移除Description列）
     if (typeof TableModule !== 'undefined') {
+        const originalUpdateDataTable = TableModule.updateDataTable;
         TableModule.updateDataTable = function () {
+            console.log('[Fluorescence] 使用自定义的表格渲染逻辑（9列，无Description列）');
+            
             const tableBody = document.getElementById('tableBody');
             const tableInfo = document.getElementById('tableInfo');
 
             if (!tableBody || !tableInfo) {
                 console.warn('表格元素缺失，无法更新数据表');
                 return;
+            }
+
+            // 检查表格列数，确保是9列
+            const headerCells = document.querySelectorAll('#dataTable thead th');
+            console.log(`[Fluorescence] 表格标题列数: ${headerCells.length}`);
+            if (headerCells.length !== 9) {
+                console.warn(`[Fluorescence] 警告：表格标题列数不是9列，而是${headerCells.length}列`);
             }
 
             tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
@@ -100,10 +111,13 @@
                 const ligandShort = ligandRaw ? ligandRaw.split(',')[0].trim() : 'NA';
                 const ligandFull = ligandRaw || 'NA';
 
-                // Year
-                let yearHTML = safe(item.year);
+                // Year (现在只显示年份，不包含链接)
+                const yearHTML = safe(item.year);
+
+                // PubMed Link (新增列)
+                let pubmedHTML = 'N/A';
                 if (item.pubmed_link && item.pubmed_link.trim() !== '') {
-                    yearHTML = `<a href="${item.pubmed_link}" target="_blank">${safe(item.year)}</a>`;
+                    pubmedHTML = `<a href="${item.pubmed_link}" target="_blank">PubMed ${safe(item.year)}</a>`;
                 }
 
                 // Mechanisms
@@ -133,6 +147,7 @@
                     <td>${nameHTML}</td>
                     <td>${ligandShort}</td>
                     <td>${yearHTML}</td>
+                    <td>${pubmedHTML}</td>
                     <td>${mechHTML}</td>
                     <td>${seqShort}</td>
                     <td>${citationShort}</td>
@@ -141,11 +156,11 @@
                 tableBody.appendChild(row);
 
                 const cells = row.querySelectorAll('td');
-                // 依次添加 tooltip
+                // 依次添加 tooltip（注意：由于新增了PubMed Link列，索引需要调整）
                 addTooltip(cells[2], ligandFull); // ligand
-                addTooltip(cells[5], seqFullColored); // sequence
-                addTooltip(cells[6], citationRaw || 'NA'); // citation full
-                addTooltip(cells[7], structFull); // structures full
+                addTooltip(cells[6], seqFullColored); // sequence (索引从5变为6)
+                addTooltip(cells[7], citationRaw || 'NA'); // citation full (索引从6变为7)
+                addTooltip(cells[8], structFull); // structures full (索引从7变为8)
             });
         };
     }
@@ -283,6 +298,7 @@
             'Aptamer name',
             'Ligand',
             'Year',
+            'PubMed Link',
             'Mechanisms',
             'Sequence (5\'-3\')',
             'Citation',
@@ -311,20 +327,23 @@
             // 4. Year - 去除HTML标签
             const year = (item.year || 'N/A').toString().replace(/<[^>]*>/g, '');
             
-            // 5. Mechanisms
+            // 5. PubMed Link - 提取PubMed链接
+            const pubmedLink = (item.pubmed_link || 'N/A').toString().replace(/<[^>]*>/g, '');
+            
+            // 6. Mechanisms
             const mechanisms = (item.mechanisms || 'N/A').toString().replace(/<[^>]*>/g, '');
             
-            // 6. Sequence (5'-3') - 使用完整序列
+            // 7. Sequence (5'-3') - 使用完整序列
             const sequence = (item.sequence || 'N/A').toString().replace(/<[^>]*>/g, '');
             
-            // 7. Citation - 使用完整引用
+            // 8. Citation - 使用完整引用
             const citation = (item.citation || 'N/A').toString().replace(/<[^>]*>/g, '');
             
-            // 8. Relevant 3D structures - 使用完整结构信息
+            // 9. Relevant 3D structures - 使用完整结构信息
             const structures = (item.structures || 'N/A').toString().replace(/<[^>]*>/g, '');
             
             // 构建行数据
-            const rowData = [no, aptamerName, ligand, year, mechanisms, sequence, citation, structures];
+            const rowData = [no, aptamerName, ligand, year, pubmedLink, mechanisms, sequence, citation, structures];
             const csvRow = rowData.map(val => {
                 const strVal = String(val).replace(/"/g, '""'); // 转义双引号
                 return `"${strVal}"`;
@@ -347,8 +366,27 @@
         link.click();
         document.body.removeChild(link);
         
-        console.log(`✅ 已导出荧光页面数据 ${currentData.length} 条记录，包含 ${headers.length} 个字段`);
+        console.log(`✅ 已导出荧光页面数据 ${currentData.length} 条记录，包含 ${headers.length} 个字段（包括新增的PubMed Link列）`);
     };
+
+    // --- 确保覆盖在页面完全加载后生效 ---
+    // 延迟执行，确保所有模块都已加载
+    setTimeout(() => {
+        console.log('[Fluorescence] 延迟检查和强制应用表格覆盖');
+        
+        // 检查当前表格渲染函数是否被正确覆盖
+        if (typeof TableModule !== 'undefined' && typeof TableModule.updateDataTable === 'function') {
+            console.log('[Fluorescence] TableModule.updateDataTable 函数存在，强制更新表格');
+            
+            // 如果数据已加载，立即更新表格
+            if (typeof filteredData !== 'undefined' && filteredData && filteredData.length > 0) {
+                console.log('[Fluorescence] 数据已加载，立即应用荧光表格渲染');
+                TableModule.updateDataTable();
+            }
+        } else {
+            console.warn('[Fluorescence] TableModule.updateDataTable 函数不存在或未被正确覆盖');
+        }
+    }, 1000); // 延迟1秒执行
 
     console.log('dashboard-fluor.js 补丁已应用');
 })(); 

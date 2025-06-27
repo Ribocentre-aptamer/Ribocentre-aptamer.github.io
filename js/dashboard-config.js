@@ -207,7 +207,7 @@ function createFilterTag(text, onRemove) {
     return tag;
 }
 
-// 导出数据
+// 导出数据 - 注意：导出比表格显示多一列PubMed Link
 function exportData() {
     // 检查是否有数据可导出
     if (!filteredData || filteredData.length === 0) {
@@ -215,10 +215,10 @@ function exportData() {
         return;
     }
     
-    // 创建CSV内容 - 严格按照表格显示的列来导出
+    // 创建CSV内容 - 导出8列（表格显示7列 + PubMed Link列）
     const csvRows = [];
     
-    // 标题行 - 与表格显示完全一致
+    // 标题行 - 导出专用（比表格显示多一列PubMed Link）
     const headers = [
         'No.',
         'Sequence Name', 
@@ -294,7 +294,7 @@ function exportData() {
     link.click();
     document.body.removeChild(link);
     
-    console.log(`✅ 已导出 ${filteredData.length} 条记录，包含 ${headers.length} 个字段`);
+    console.log(`✅ 已导出主页数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段（表格显示7列，导出增加PubMed Link列）`);
 }
 
 // 重置所有筛选
