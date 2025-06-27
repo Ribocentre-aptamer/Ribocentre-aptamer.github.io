@@ -407,7 +407,7 @@ type: Small molecules
   end_residue_number:31, 
   color:{r:241,g:125,b:7}
 },{
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:64, 
   end_residue_number:64, 
   color:{r:241,g:125,b:7}

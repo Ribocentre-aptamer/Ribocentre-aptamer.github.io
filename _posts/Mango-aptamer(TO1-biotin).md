@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title:  "mango aptamer & mango-II aptamer"
+title:  "Mango aptamer & Mango-II aptamer"
 date:   2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
@@ -448,63 +448,63 @@ categories: Aptamer
   </thead>
     <tbody>
       <tr>
-        <td name="td1">ZINC1081175</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1081175/" target="_blank" style="color:#520049"><b>ZINC1081175</b></a></td>
         <td name="td2">(2E)-3-methyl-2-[(1-methylquinolin-1-ium-4-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">107091-89-4</td>
-        <td name="td4">1268073</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1268073" target="_blank" style="color:#520049"><b>1268073</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC253615069</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC253615069/" target="_blank" style="color:#520049"><b>ZINC253615069</b></a></td>
         <td name="td2">(2Z)-5-fluoro-3-methyl-2-[(1-methylquinolin-1-ium-4-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
-        <td name="td4">134093721</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/134093721" target="_blank" style="color:#520049"><b>134093721</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC138776193</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC138776193/" target="_blank" style="color:#520049"><b>ZINC138776193</b></a></td>
         <td name="td2">(2E)-6-chloro-3-methyl-2-[(1-methylquinolin-1-ium-4-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
-        <td name="td4">11532835</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11532835" target="_blank" style="color:#520049"><b>11532835</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC202369662</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC202369662/" target="_blank" style="color:#520049"><b>ZINC202369662</b></a></td>
         <td name="td2">(2E)-2-[(1-ethylquinolin-1-ium-4-yl)methylidene]-3-methyl-1,3-benzothiazole</td>
         <td name="td3">NA</td>
-        <td name="td4">58436249</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/58436249" target="_blank" style="color:#520049"><b>58436249</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC263621892</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC263621892/" target="_blank" style="color:#520049"><b>ZINC263621892</b></a></td>
         <td name="td2">(2Z)-3-methyl-2-[(4-methylquinolin-1-ium-1-yl)methylidene]-1,3-benzothiazole</td>
         <td name="td3">NA</td>
-        <td name="td4">122174062</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/122174062" target="_blank" style="color:#520049"><b>122174062</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC2040469426</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC2040469426/" target="_blank" style="color:#520049"><b>ZINC2040469426</b></a></td>
         <td name="td2">2-(naphthalen-1-ylmethylidene)-1-benzothiophen-3-one</td>
         <td name="td3">NA</td>
-        <td name="td4">3330972</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/3330972" target="_blank" style="color:#520049"><b>3330972</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1465938</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1465938/" target="_blank" style="color:#520049"><b>ZINC1465938</b></a></td>
         <td name="td2">(2Z)-2-(naphthalen-1-ylmethylidene)-1-benzothiophen-3-one</td>
         <td name="td3">NA</td>
-        <td name="td4">1537162</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1537162" target="_blank" style="color:#520049"><b>1537162</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC6441438</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC6441438/" target="_blank" style="color:#520049"><b>ZINC6441438</b></a></td>
         <td name="td2">(2Z)-2-[(4-methoxynaphthalen-1-yl)methylidene]-1-benzothiophen-3-one</td>
         <td name="td3">NA</td>
-        <td name="td4">124312875</td>
+        <td name="td4"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/124312875" target="_blank" style="color:#520049"><b>124312875</b></a></td>
         <td name="td5"><img src="/images/Similar_compound/TO1_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
-        <td name="td1">ZINC1616176047</td>
+        <td name="td1"><a href="https://zinc15.docking.org/substances/ZINC1616176047/" target="_blank" style="color:#520049"><b>ZINC1616176047</b></a></td>
         <td name="td2">NA</td>
         <td name="td3">NA</td>
         <td name="td4">NA</td>

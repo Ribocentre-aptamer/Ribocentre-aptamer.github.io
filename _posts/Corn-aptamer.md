@@ -650,56 +650,56 @@ type: Small molecules
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2-[(E)-hydroxyiminomethyl]-3-methylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">168266216</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/168266216" target="_blank" style="color:#520049"><b>168266216</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2-[(Z)-hydroxyiminomethyl]-3-methylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">168010756</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/168010756" target="_blank" style="color:#520049"><b>168010756</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-2-(aminomethyl)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-3-methylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">162396648</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/162396648" target="_blank" style="color:#520049"><b>162396648</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2-methyl-3-(2,2,2-trifluoroethyl)imidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">155920151</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/155920151" target="_blank" style="color:#520049"><b>155920151</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5"><a href="https://zinc15.docking.org/substances/ZINC218483872/" target="_blank" style="color:#520049"><b>ZINC218483872</b></a></td>
         <td name="td1">(z)-4-(3,5-Difluoro-4-hydroxybenzylidene)-1-methyl-5-oxo-1h-imidazole-2-carbaldehyde oxime</td>
         <td name="td2">NA</td>
-        <td name="td3">140649354</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/140649354" target="_blank" style="color:#520049"><b>140649354</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2,3-dimethylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">134814233</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/134814233" target="_blank" style="color:#520049"><b>134814233</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(E)-1-(6-aminohexyl)-4-((Z)-3,5-difluoro-4-hydroxybenzylidene)-5-oxo-4,5-dihydro-1H-imidazole-2-carbaldehyde oxime</td>
         <td name="td2">NA</td>
-        <td name="td3">129627026</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/129627026" target="_blank" style="color:#520049"><b>129627026</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(2-difluoroboranyl-5-fluoro-4-hydroxyphenyl)methylidene]-3-methyl-2-methylideneimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">123805052</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/123805052" target="_blank" style="color:#520049"><b>123805052</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>

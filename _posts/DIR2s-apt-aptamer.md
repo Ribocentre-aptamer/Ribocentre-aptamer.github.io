@@ -36,10 +36,18 @@ type: Small molecules
 <div class="timeline">
   <div class="entry">
     <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/18338898/" target="_blank" style="color:#520049">2008</a></h3>
+    </div>
+    <div class="body">
+      <p>Synthesis of new fluorogenic cyanine dyes and incorporation into RNA fluoromodules<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/28644615/" target="_blank" style="color:#520049">2017</a></h3>
     </div>
     <div class="body">
-      <p>An RNA aptamer selected for binding to the fluorogenic cyanine dye dimethylindole red (DIR), also binds oxazole thiazole blue (OTB)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>An RNA aptamer selected for binding to the fluorogenic cyanine dye dimethylindole red (DIR), also binds oxazole thiazole blue (OTB)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -47,7 +55,7 @@ type: Small molecules
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30382099/" target="_blank" style="color:#520049">2018</a></h3>
     </div>
     <div class="body">
-      <p>The crystal structures of both the apo and OTB-SO3 bound forms of DIR2s at 2.0 Å and 1.8 Å resolution respectively was solved<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+      <p>The crystal structures of both the apo and OTB-SO3 bound forms of DIR2s at 2.0 Å and 1.8 Å resolution respectively was solved<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
   </div>
 </div>
@@ -55,18 +63,18 @@ type: Small molecules
 
          
 <p class="header_box" id="description">Description</p>
-<p>In 2017, Bruce A. Armitage and Xiaohong Tan et al. screened out aptamer, which has affinity to both dimethylindole red and oxazole thiazole blue and could give two well-resolved emission colors. In 2018, Joseph A. Piccirilli and Sandip A. Shelke et al. solved the overall structure of OTB-SO3-bound DIR2s aptamer-Fab complex by collecting Small Angle X-ray Scattering data of crystals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
+<p>In 2017, Bruce A. Armitage and Xiaohong Tan et al. screened out aptamer, which has affinity to both dimethylindole red and oxazole thiazole blue and could give two well-resolved emission colors. In 2018, Joseph A. Piccirilli and Sandip A. Shelke et al. solved the overall structure of OTB-SO3-bound DIR2s aptamer-Fab complex by collecting Small Angle X-ray Scattering data of crystals<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Biotinylated DIR was used as Positive target to facilitate the enrichment process. The RNA pool used for this selection contained ~10<sup>14</sup> unique sequences and universal, stem-loop forming sequence flanked by randomized region. RNA pool was asymmetric, with the putative stem-loop shifted toward the 5'-end of the sequence. The aptamer from the asymmetric pool was  abundantly represented after 14 rounds of selection. After sequence minimization  and optimization, a 57 nucleotide anti-DIR RNA aptamer (DIR2s-apt) which can bind and activate DIR fluorescence was obtained<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Biotinylated DIR was used as Positive target to facilitate the enrichment process. The RNA pool used for this selection contained ~10<sup>14</sup> unique sequences and universal, stem-loop forming sequence flanked by randomized region. RNA pool was asymmetric, with the putative stem-loop shifted toward the 5'-end of the sequence. The aptamer from the asymmetric pool was  abundantly represented after 14 rounds of selection. After sequence minimization  and optimization, a 57 nucleotide anti-DIR RNA aptamer (DIR2s-apt) which can bind and activate DIR fluorescence was obtained<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<p>The RNA aptamer construct adopts an elongated structure composed of four helices (P1, P2, P3, and P4) and three loops (L1, L3, and the Fab BL3-6 binding loop, L2). The stem-loop P4-L3 coaxially stacks on the helix P1 while loop L1 and its associated  short stem P2 orients parallel to and interacts with the loop L3 through base pairing and tertiary interactions. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>The RNA aptamer construct adopts an elongated structure composed of four helices (P1, P2, P3, and P4) and three loops (L1, L3, and the Fab BL3-6 binding loop, L2). The stem-loop P4-L3 coaxially stacks on the helix P1 while loop L1 and its associated  short stem P2 orients parallel to and interacts with the loop L3 through base pairing and tertiary interactions. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>5'-GGAUGCGCCUUGAAAAGCCUGCGAAACACGCAGCUGGUGAAUGACAGCUAUGGCGCAUCC-3'</p>
 <img src="/images/2D/OTB-SO3_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -74,7 +82,7 @@ type: Small molecules
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
@@ -249,7 +257,7 @@ window.addEventListener('load', function() {
 <p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<p>Binding affinity was determined by fluorescence titration in the buffer and calculated by the concentration correlation function between aptamer concentration and fluorescence intensity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Binding affinity was determined by fluorescence titration in the buffer and calculated by the concentration correlation function between aptamer concentration and fluorescence intensity<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
   <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/OTB_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
@@ -381,12 +389,17 @@ window.addEventListener('load', function() {
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Fluoromodules consisting of a promiscuous RNA aptamer and red or blue fluorogenic cyanine dyes: Selection, characterization, and bioimaging.</strong></font><br />
+<a id="ref1"></a><font><strong>[1] Synthesis of new fluorogenic cyanine dyes and incorporation into RNA fluoromodules.</strong></font><br />
+Constantin, T. P., Silva, G. L., Robertson, K. L., Hamilton, T. P., Fague, K., Waggoner, A. S., & Armitage, B. A.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/18338898/" target="_blank" style="color:#520049">Organic letters, 10(8), 1561–1564. (2008)</a>
+<br />
+                
+<a id="ref2"></a><font><strong>[2] Fluoromodules consisting of a promiscuous RNA aptamer and red or blue fluorogenic cyanine dyes: Selection, characterization, and bioimaging.</strong></font><br />
 Tan, X., Constantin, T. P., Sloane, K. L., Waggoner, A. S., Bruchez, M. P., & Armitage, B. A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/28644615/" target="_blank" style="color:#520049">Journal of the American Chemical Society, 139(26), 9001–9009. (2017)</a>
 <br />
                 
-<a id="ref2"></a><font><strong>[2] .</strong></font><br />
+<a id="ref3"></a><font><strong>[3] Structural basis for activation of fluorogenic dyes by an RNA aptamer lacking a G-quadruplex motif.</strong></font><br />
 Shelke, S. A., Shao, Y., Laski, A., Koirala, D., Weissman, B. P., Fuller, J. R., Tan, X., Constantin, T. P., Waggoner, A. S., Bruchez, M. P., Armitage, B. A., & Piccirilli, J. A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30382099/" target="_blank" style="color:#520049">Nature communications, 9(1), 4542. (2018)</a>
 <br />
