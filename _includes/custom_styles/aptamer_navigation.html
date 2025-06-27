@@ -250,6 +250,7 @@
         if (fullSeq.length <= 40) return; // 短序列不用截断
 
         cell.dataset.fullSeq = fullSeq;
+        cell.dataset.fullSeqRaw = fullSeqRaw;
         const shortText = fullSeq.slice(0, 20) + '…';
         cell.textContent = shortText;
 
@@ -283,8 +284,9 @@
         const buildTooltip = () => {
           const coloredSeq = buildColored(fullSeqRaw);
           const seqLen = fullSeq.length;
+          const seqType = isNuc ? 'nt' : 'aa';
           return `
-            <div class='seq-info'>Length: ${seqLen} nt</div>
+            <div class='seq-info'>Length: ${seqLen} ${seqType}</div>
             <pre class='sequence-display'>${coloredSeq}</pre>
             <div class='seq-copy-tip'>Click tooltip to copy</div>`;
         };
@@ -293,21 +295,49 @@
 
         const showTip = (e) => {
           if (window.showAmirTooltip) {
-            window.showAmirTooltip(tooltipHtml, cell);
+            // 传递当前cell的序列数据
+            window.showAmirTooltip(tooltipHtml, cell, fullSeq);
           }
         };
         cell.addEventListener('click', showTip);
+      });
+    });
 
-        // 当鼠标离开tooltip自身且不回到cell时隐藏
+    // 提示：如需序列着色，可在此处重新启用相应代码。
+
+    /* --------- 自定义Tooltip函数（仅当不存在时注入）--------- */
+    if (typeof window.showAmirTooltip === 'undefined') {
+      let currentAnchor = null;
+      let currentSequence = null;
+
+      window.showAmirTooltip = function(content, anchorEl, sequenceData) {
         const tooltip = document.getElementById('amirTooltip');
-        if (tooltip) {
-          tooltip.addEventListener('mouseleave', (ev)=>{
-            if(ev && cell.contains(ev.relatedTarget)) return;
-            hideTip(ev);
-          });
-          // 点击tooltip复制
-          tooltip.addEventListener('click', ()=>{
-            navigator.clipboard.writeText(fullSeq).then(()=>{
+        if (!tooltip || !anchorEl) return;
+
+        // 若点击同一元素，则切换隐藏
+        if (currentAnchor === anchorEl) {
+          window.hideAmirTooltip();
+          return;
+        }
+
+        currentAnchor = anchorEl;
+        currentSequence = sequenceData || anchorEl.dataset.fullSeq;
+
+        const tooltipContent = tooltip.querySelector('.tooltip-content');
+        tooltipContent.innerHTML = content;
+
+        // 移除旧的事件监听器
+        const oldHandler = tooltip._copyHandler;
+        if (oldHandler) {
+          tooltip.removeEventListener('click', oldHandler);
+        }
+
+        // 添加新的复制事件监听器
+        const copyHandler = (e) => {
+          if (e.target.closest('.tooltip-close')) return; // 不处理关闭按钮的点击
+          
+          if (currentSequence) {
+            navigator.clipboard.writeText(currentSequence).then(() => {
               const toast = document.createElement('div');
               toast.textContent = 'Copied!';
               toast.style.position = 'fixed';
@@ -321,33 +351,13 @@
               toast.style.fontSize = '12px';
               toast.style.zIndex = 2000;
               document.body.appendChild(toast);
-              setTimeout(()=>toast.remove(), 1500);
-            }).catch(()=>{});
-          });
-        }
-      });
-    });
-
-    // 提示：如需序列着色，可在此处重新启用相应代码。
-
-    /* --------- 自定义Tooltip函数（仅当不存在时注入）--------- */
-    if (typeof window.showAmirTooltip === 'undefined') {
-      let currentAnchor = null;
-
-      window.showAmirTooltip = function(content, anchorEl) {
-        const tooltip = document.getElementById('amirTooltip');
-        if (!tooltip || !anchorEl) return;
-
-        // 若点击同一元素，则切换隐藏
-        if (currentAnchor === anchorEl) {
-          window.hideAmirTooltip();
-          return;
-        }
-
-        currentAnchor = anchorEl;
-
-        const tooltipContent = tooltip.querySelector('.tooltip-content');
-        tooltipContent.innerHTML = content;
+              setTimeout(() => toast.remove(), 1500);
+            }).catch(() => {});
+          }
+        };
+        
+        tooltip.addEventListener('click', copyHandler);
+        tooltip._copyHandler = copyHandler; // 保存引用以便后续移除
 
         // 添加关闭按钮（若尚未添加）
         let closeBtn = tooltip.querySelector('.tooltip-close');
@@ -355,7 +365,8 @@
           closeBtn = document.createElement('span');
           closeBtn.className = 'tooltip-close';
           closeBtn.innerHTML = '&times;';
-          closeBtn.addEventListener('click', () => {
+          closeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
             window.hideAmirTooltip();
           });
           tooltip.appendChild(closeBtn);
@@ -425,8 +436,16 @@
         if (tooltip) {
           tooltip.style.opacity = '0';
           tooltip.style.display = 'none';
+          
+          // 清理事件监听器
+          const oldHandler = tooltip._copyHandler;
+          if (oldHandler) {
+            tooltip.removeEventListener('click', oldHandler);
+            tooltip._copyHandler = null;
+          }
         }
         currentAnchor = null;
+        currentSequence = null;
       };
     }
 
