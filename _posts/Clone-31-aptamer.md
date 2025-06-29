@@ -1,84 +1,22 @@
 ---
-layout: post
-title:  "Clone 31 aptamer"
-date:   2024-05-06 00:00:00
+layout: theophylline_style
+title: Clone 31 aptamer
+date: 2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:50.0
+- Length:78
+- Named:HIV-1 Tat protein_clone 31
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
+
 
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-   .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -163,41 +101,35 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn<sup>2+</sup> to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2000, Junji Kawakami and colleagues isolated RNA aptamers that bind specifically to the HIV-1 Tat protein. It was worth mentioning that they used Zn<sup>2+</sup> to participate in in vitro selecting and obtained a series of zinc-dependent aptamers<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn<sup>2+</sup>. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn<sup>2+</sup> and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn<sup>2+</sup> existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2000, Junji Kawakam and colleagues prepared an RNA library having a 30 nucleotide random region and applied to an in vitro RNA aptamer selection with Zn<sup>2+</sup>. After 12 rounds of selecting, many unique sequences were revealed from a library selected with Zn<sup>2+</sup> and the RNA with most abundant sequence (clone 31) bound to Tat tightly only when Zn<sup>2+</sup> existed<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>Clone 31 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Tat protein. The 2D structure of the figures is based on the article by ribodraw tool to draw. These are two different prediction results in the article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<font><p>5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p></font>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>Clone 31 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Tat protein. The 2D structure of the figures is based on the article by ribodraw tool to draw. These are two different prediction results in the article<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
+<p>5'-GGGAGAAUUCCGACCAGAAGCUUUGGUUAUCAUGUUUAUGCGUACGGGCGCCCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/clone31_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/clone 31_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/clone31_aptamer_2D2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/clone31 _aptamer_2D2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
-<font><p class="header_box" id="ligand-information">Ligand information</p></font>  
+<p class="header_box" id="ligand-information">Ligand information</p>  
 <p class="blowheader_box">SELEX ligand</p>
 <font>The retroviral Tat protein binds to the TAR RNA. This activates transcriptional initiation and elongation from the LTR promoter. Binding is mediated by an arginine rich region.-----From Pfam</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -223,7 +155,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 <font>Some isolated sequences bind to the affinity of the protein.</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -249,8 +181,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD (Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -322,8 +254,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -373,7 +303,7 @@ Eladl, O., Yamaoki, Y., Kondo, K., Nagata, T., & Katahira, M.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -415,8 +345,7 @@ Eladl, O., Yamaoki, Y., Kondo, K., Nagata, T., & Katahira, M.<br />
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

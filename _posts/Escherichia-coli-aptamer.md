@@ -1,80 +1,19 @@
 ---
-layout: post
-title:  "Escherichia coli-aptamer"
-date:   2024-06-02 00:00:00
+layout: theophylline_style
+title: Escherichia coli aptamer
+date: 2024-06-02 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:38.379999999999995
+- Length:99
+- Named:Escherichia coli (E. coli) O157:H7_I-1
+- Type:Proteins
+- Year:2011
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -89,33 +28,27 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2012, Lee et al. identified a RNA aptamer-based ligand which can specifically distinguish the pathogen E. coli O157:H7 from others was developed by a subtractive cell-SELEX method. The isolated RNA aptamer that distinguishes between the virulent serotype and the nonpathogenic strain specifically bound to an O157:H7-specific lipopolysaccharide which includes the O antigen<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2012, Lee et al. identified a RNA aptamer-based ligand which can specifically distinguish the pathogen E. coli O157:H7 from others was developed by a subtractive cell-SELEX method. The isolated RNA aptamer that distinguishes between the virulent serotype and the nonpathogenic strain specifically bound to an O157:H7-specific lipopolysaccharide which includes the O antigen<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2012, Lee et al. identified a RNA aptamer-based ligand which can specifically distinguish the pathogen E. coli O157:H7 from others was developed by a subtractive cell-SELEX method. An RNA library was first incubated with the E. coli K12 strain, and the RNAs binding to the strain were discarded. The precluded RNAs were then used for the selection of O157:H7-specific aptamers. After 6 rounds of the subtractive cell-SELEX process, the selected aptamer was found to specifically bind to the O157:H7 serotype, but not to the K12 strain<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2012, Lee et al. identified a RNA aptamer-based ligand which can specifically distinguish the pathogen E. coli O157:H7 from others was developed by a subtractive cell-SELEX method. An RNA library was first incubated with the E. coli K12 strain, and the RNAs binding to the strain were discarded. The precluded RNAs were then used for the selection of O157:H7-specific aptamers. After 6 rounds of the subtractive cell-SELEX process, the selected aptamer was found to specifically bind to the O157:H7 serotype, but not to the K12 strain<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>I-1 was the aptamer sequence mainly studied in the article, which had a high affinity with Escherichia coli O157H7. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-UGAUUCCAUCUUCCUGGACUGUCGAAAAUUCAGUAUCGGGAGGUUACGUAUUUGGUUUAU-3'</p></font>
+<p>I-1 was the aptamer sequence mainly studied in the article, which had a high affinity with Escherichia coli O157H7. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>5'-UGAUUCCAUCUUCCUGGACUGUCGAAAAUUCAGUAUCGGGAGGUUACGUAUUUGGUUUAU-3'</p>
 <img src="/images/2D/Ecoli_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Escherichia coli O157:H7 is a serotype of the bacterial species Escherichia coli and is one of the Shiga-like toxin–producing types of E. coli. It is a cause of disease, typically foodborne illness, through consumption of contaminated and raw food, including raw milk and undercooked ground beef. Infection with this type of pathogenic bacteria may lead to hemorrhagic diarrhea, and to kidney failure; these have been reported to cause the deaths of children younger than five years of age, of elderly patients, and of patients whose immune systems are otherwise compromised.-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -135,7 +68,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
 <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -156,8 +89,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/Ecoil_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -175,7 +106,7 @@ Lee, YJ., Han, SR., Maeng, JS., Cho, YJ., & Lee, SW.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -217,8 +148,7 @@ Lee, YJ., Han, SR., Maeng, JS., Cho, YJ., & Lee, SW.<br />
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

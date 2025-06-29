@@ -1,80 +1,21 @@
 ---
-layout: post
-title:  "β55 aptamer"
-date:   2024-05-15 00:00:00
+layout: theophylline_style
+title: β55 aptamer
+date: 2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:51.519999999999996
+- Length:66
+- Named:Amyloid beta-peptide(βA4(1-40))_Beta 55
+- Type:Small molecules
+- Year:2002
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -147,33 +88,29 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>Starting in 2002, Jens Peter Fürste et al. screened high-affinity RNA aptamers against betaA4(1-40), providing a potential tool for applications in the analysis and diagnosis of Alzheimer's disease. Subsequently, in 2009, Hisakazu Mihara et al. screened RNA aptamers against Abeta1-40 using the systematic evolutionary ligand's exponential enrichment (SELEX) procedure, which were effective in inhibiting the aggregation of Abeta and preventing its fibrillization, demonstrating the potential to be used as therapeutic agents for Alzheimer's disease. In the same year, Gal Bitan et al. screened aptamers that, although unable to specifically recognize Abeta40 oligomers, were responsive to a wide range of amyloid fibrils and showed a high degree of sensitivity for the detection of amyloid β-fold structures, suggesting that they have the potential to be used as a highly efficient amyloid recognition tool. This series of research advances not only deepens our understanding of the application of aptamers in amyloid research, but also provides new ideas and approaches for the diagnosis and treatment of Alzheimer's disease<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>Starting in 2002, Jens Peter Fürste et al. screened high-affinity RNA aptamers against betaA4(1-40), providing a potential tool for applications in the analysis and diagnosis of Alzheimer's disease. Subsequently, in 2009, Hisakazu Mihara et al. screened RNA aptamers against Abeta1-40 using the systematic evolutionary ligand's exponential enrichment (SELEX) procedure, which were effective in inhibiting the aggregation of Abeta and preventing its fibrillization, demonstrating the potential to be used as therapeutic agents for Alzheimer's disease. In the same year, Gal Bitan et al. screened aptamers that, although unable to specifically recognize Abeta40 oligomers, were responsive to a wide range of amyloid fibrils and showed a high degree of sensitivity for the detection of amyloid β-fold structures, suggesting that they have the potential to be used as a highly efficient amyloid recognition tool. This series of research advances not only deepens our understanding of the application of aptamers in amyloid research, but also provides new ideas and approaches for the diagnosis and treatment of Alzheimer's disease<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jens Peter Fu¨rste et al. isolated a high-affinity RNA aptamer for β-amyloid peptide (βA4(1-40)) targeting Alzheimer's disease from a combinatorial library containing about 10^15 different molecules by an in vitro screening technique (SELEX). A DNA library containing 70 random nucleotide sequences was used, amplified by PCR and transcribed into an RNA library. β amyloid peptide was covalently coupled at the N-terminus via an additional cysteine residue to thiopropyl-activated Sepharose 6B, and the specifically bound RNA was eluted by DTT, reverse transcribed into cDNA and amplified by PCR for eight rounds of screening. The screened RNA aptamers were cloned, amplified, and sequenced, and four major conserved secondary structure modalities were found, of which the β55 aptamer had the lowest dissociation constant (Kd) of 29 nM. The dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Jens Peter Fu¨rste et al. isolated a high-affinity RNA aptamer for β-amyloid peptide (βA4(1-40)) targeting Alzheimer's disease from a combinatorial library containing about 10^15 different molecules by an in vitro screening technique (SELEX). A DNA library containing 70 random nucleotide sequences was used, amplified by PCR and transcribed into an RNA library. β amyloid peptide was covalently coupled at the N-terminus via an additional cysteine residue to thiopropyl-activated Sepharose 6B, and the specifically bound RNA was eluted by DTT, reverse transcribed into cDNA and amplified by PCR for eight rounds of screening. The screened RNA aptamers were cloned, amplified, and sequenced, and four major conserved secondary structure modalities were found, of which the β55 aptamer had the lowest dissociation constant (Kd) of 29 nM. The dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used the dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 29-48 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure.  β55 aptameraptamer binding to Amyloid beta-peptide(βA4(1-40))<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGAAUUCGAGCUCGGUACCUUUACCGUAAGGCCUGUCUUCGUUUGACAGCGGCUUGUUGACCCUCACACUUUGUACCUGCUGCCAACUGCAGGCAUGCAAGCUUGG-3'</p></font>
-<img src="/images/2D/β55_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used the dissociation constants of the aptamer with β-amyloid peptide were determined by analytical affinity chromatography and ranged from 29-48 nM. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 29-48 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure.  β55 aptameraptamer binding to Amyloid beta-peptide(βA4(1-40))<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>5'-GGGAAUUCGAGCUCGGUACCUUUACCGUAAGGCCUGUCUUCGUUUGACAGCGGCUUGUUGACCCUCACACUUUGUACCUGCUGCCAACUGCAGGCAUGCAAGCUUGG-3'</p>
+<img src="/images/2D/β55_aptamer_2D1.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Amyloid-beta polypeptide 40 is a beta-amyloid that is a 40 amino acid polypeptide of sequence Asp Ala Glu Phe Arg His Asp Ser Gly Tyr Glu Val His His Gln Lys Leu Val Phe Phe Ala Glu Asp Val Gly Ser Asn Lys Gly Ala Ile Ile Gly Leu Met Val Gly Gly Val Val.-----From ChEBI</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -204,8 +141,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Amyloid beta-peptide,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the PubChem database to screen compounds that were more similar to Amyloid beta-peptide,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>
@@ -253,8 +190,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -297,7 +232,7 @@ Murakami K, Obata Y, Sekikawa A, Ueda H, Izuo N, Awano T, Takabe K, Shimizu T, I
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -339,8 +274,7 @@ Murakami K, Obata Y, Sekikawa A, Ueda H, Izuo N, Awano T, Takabe K, Shimizu T, I
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

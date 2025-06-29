@@ -1,80 +1,21 @@
 ---
-layout: post
-title:  "Clone 5 aptamer"
-date:   2024-05-27 00:00:00
+layout: theophylline_style
+title: Clone 5 aptamer
+date: 2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:46.62
+- Length:130
+- Named:Sialyl Lewis X (sLeX)_Clone 5
+- Type:Small molecules
+- Year:2001
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -88,35 +29,29 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2001,Yu J et al. screened an RNA aptamer targeting Sialyl Lewis X (sLeX) and determined its affinity and specificity by surface plasmon resonance technique, and found that its affinity was about 1000-fold higher than that of the original RNA library, and verified the aptamer's application in inhibiting adhesion of sLeX-expressing HL60 cells to E- and P-selectin by static in vitro experiments<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2001,Yu J et al. screened an RNA aptamer targeting Sialyl Lewis X (sLeX) and determined its affinity and specificity by surface plasmon resonance technique, and found that its affinity was about 1000-fold higher than that of the original RNA library, and verified the aptamer's application in inhibiting adhesion of sLeX-expressing HL60 cells to E- and P-selectin by static in vitro experiments<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jaehoon Yu et al. screened RNA aptamers against Sialyl Lewis X (sLeX), mainly by screening Clone 5 RNA aptamers from a random RNA library containing 70 random nucleotides by an in vitro screening program, and after 17 rounds of screening, a final aptamer sequence was obtained that had a high affinity and high specificity. The affinity of the aptamer for sLeX was determined using surface plasmon resonance, and the KD value for Clone 5 was 0.085 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Jaehoon Yu et al. screened RNA aptamers against Sialyl Lewis X (sLeX), mainly by screening Clone 5 RNA aptamers from a random RNA library containing 70 random nucleotides by an in vitro screening program, and after 17 rounds of screening, a final aptamer sequence was obtained that had a high affinity and high specificity. The affinity of the aptamer for sLeX was determined using surface plasmon resonance, and the KD value for Clone 5 was 0.085 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Clone 5 aptamer binding to Sialyl Lewis X (sLeX).<br></font>
-<font><p>5'-CCGUAAUACGACUCACUAUAGGGGAGCUCGGUACCGAAUUCAAGGYACUCUGUGCUUGUCGAUGUGYAUUGAUGGCACUUUCGAGUCAACGAGUUGACAGRACAAGUAGUCAAGCUUUGCAGAGAGGAUCCUU-3'</p></font>
-<img src="/images/2D/Sialyl_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Clone 5 aptamer binding to Sialyl Lewis X (sLeX).<br></p>
+<p>5'-CCGUAAUACGACUCACUAUAGGGGAGCUCGGUACCGAAUUCAAGGYACUCUGUGCUUGUCGAUGUGYAUUGAUGGCACUUUCGAGUCAACGAGUUGACAGRACAAGUAGUCAAGCUUUGCAGAGAGGAUCCUU-3'</p>
+<img src="/images/2D/Clone 5_aptamer_2D1.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Sialyl-Lewis X (sLeX) is a salivarylated polytetrasaccharide, an endogenous antigen.Sialyl-Lewis X is a high-affinity ligand for the selectins E-, P-, and L-.Sialyl-Lewis X binds to ELAM-1 and CD62 and has the ability to inhibit CD62-mediated neutrophil recruitment at sites of inflammation. Sialyl-Lewis X binds to ELAM-1 and CD62 and has the ability to inhibit CD62-mediated neutrophil recruitment at sites of inflammation.-----From ChEBI</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -147,8 +82,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Sialyl Lewis X (sLeX),  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the PubChem database to screen compounds that were more similar to Sialyl Lewis X (sLeX),  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>
@@ -201,8 +136,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -222,7 +155,7 @@ Jeong S, Eom T, Kim S, Lee S, Yu J<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -264,8 +197,7 @@ Jeong S, Eom T, Kim S, Lee S, Yu J<br/>
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

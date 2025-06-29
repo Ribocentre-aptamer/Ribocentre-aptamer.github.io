@@ -1,0 +1,43 @@
+{
+  "name": "ribocentre-aptamer-site",
+  "version": "1.0.0",
+  "description": "Ribocentre aptamer database website",
+  "scripts": {
+    "build": "npm run clean && npm run minify:js && npm run minify:css && bundle exec jekyll build",
+    "build:prod": "npm run clean && npm run minify:js && npm run minify:css && JEKYLL_ENV=production bundle exec jekyll build",
+    "serve": "npm run clean && npm run minify:js && npm run minify:css && bundle exec jekyll serve",
+    "serve:prod": "npm run clean && npm run minify:js && npm run minify:css && JEKYLL_ENV=production bundle exec jekyll serve",
+    "clean": "rimraf js/dist css/dist",
+    "minify:js": "node scripts/minify-js.js",
+    "minify:css": "node scripts/minify-css.js",
+    "watch:js": "chokidar \"js/**/*.js\" -c \"npm run minify:js\" --ignore \"js/dist/**\" --ignore \"**/*.min.js\"",
+    "watch:css": "chokidar \"css/**/*.css\" -c \"npm run minify:css\" --ignore \"css/dist/**\" --ignore \"**/*.min.css\"",
+    "dev": "concurrently \"npm run watch:js\" \"npm run watch:css\" \"bundle exec jekyll serve --livereload\"",
+    "test:minify": "node scripts/test-minification.js"
+  },
+  "devDependencies": {
+    "terser": "^5.19.0",
+    "cssnano": "^5.1.15",
+    "postcss": "^8.4.31",
+    "glob": "^10.3.3",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^8.2.0",
+    "rimraf": "^5.0.1",
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ribocentre-aptamer/Ribocentre-aptamer.github.io.git"
+  },
+  "keywords": [
+    "aptamer",
+    "RNA",
+    "database",
+    "jekyll"
+  ],
+  "author": "Ribocentre Team",
+  "license": "MIT"
+} 

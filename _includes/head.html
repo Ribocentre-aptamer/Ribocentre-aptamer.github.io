@@ -10,8 +10,18 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico">
 
+  <!-- 全站统一加载 jQuery（3.5.1），避免重复加载导致插件失效 -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+{% include custom_styles/aptamer_styles.html %}
 {% if jekyll.environment == 'production' %}
 {% include analytics.html %}
 {% endif %}
+
+  <!-- Font Awesome for icons (if not already loaded) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Sequences Access Helper - 自动为aptamer页面添加访问按钮 -->
+  <script src="{{ site.baseurl }}/js/sequences-access-helper.js"></script>
 
 </head>

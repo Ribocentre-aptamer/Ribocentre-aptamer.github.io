@@ -149,9 +149,9 @@ const homepageSearchModule = {
         const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
         const searchModuleActive = typeof SearchModule !== 'undefined' && SearchModule.mainSearchInput;
         
-        // 在index页面，并且SearchModule已激活，则不初始化本模块的搜索功能
+        // Skip initialization if SearchModule already exists on index page
         if (isIndexPage && searchModuleActive) {
-            console.log('homepageSearchModule: 检测到SearchModule已存在，跳过搜索功能初始化');
+            console.log('homepageSearchModule: SearchModule already exists, skipping search functionality initialization');
             return;
         }
         
@@ -391,7 +391,7 @@ const homepageSearchModule = {
             return;
         }
 
-        this.mainSearchResults.innerHTML = '<div style="padding: 15px; text-align: center; color: #666;">正在搜索...</div>';
+        this.mainSearchResults.innerHTML = '<div style="padding: 15px; text-align: center; color: #666;">Searching...</div>';
         this.mainSearchResults.style.display = 'block';
 
         const searchPaths = ['./search.json', '/search.json', 'search.json'];
@@ -401,8 +401,8 @@ const homepageSearchModule = {
             const data = await SearchUtils.fetchData(searchPaths);
             this.processSearchResults(data, query);
         } catch (e) {
-            console.error('搜索数据加载失败', e);
-            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">无法加载搜索数据，请稍后再试。</div>';
+            console.error('Failed to load search data', e);
+            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">Unable to load search data, please try again later.</div>';
         }
     },
 
@@ -418,7 +418,7 @@ const homepageSearchModule = {
 
     renderResults(searchTime) {
         if (this.allSearchResults.length === 0) {
-            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">没有找到相关结果，请尝试其他关键词。</div>';
+            this.mainSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">No relevant results found, please try other keywords.</div>';
             return;
         }
 
@@ -427,21 +427,19 @@ const homepageSearchModule = {
         const currentResults = this.allSearchResults.slice(startIndex, endIndex);
 
         let html = `<div style="padding: 10px 15px; border-bottom: 1px solid #eee; color: #70757a; font-size: 14px;">
-            找到 ${this.allSearchResults.length} 个结果 (用时 ${searchTime} 毫秒)
+            Found ${this.allSearchResults.length} results (in ${searchTime} ms)
         </div>`;
 
-        currentResults.forEach(item => {
+        currentResults.forEach((item, i) => {
             const query = this.mainSearchInput.value.trim();
             const highlightedTitle = this.highlightKeywords(item.title, query);
             
-            html += `<div class="search-result-item" style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer;" data-url="${item.url}">
-                <h4 style="margin: 0 0 5px 0; color: #1a73e8; font-size: 18px; font-weight: 500;">${highlightedTitle}</h4>
-                ${item.category ? `<div style="color: #70757a; font-size: 12px; margin-bottom: 5px;">${this.highlightKeywords(item.category, query)}</div>` : ''}
-                <div style="margin: 5px 0; color: #4d5156; font-size: 14px; line-height: 1.58;">${this.getContentPreview(item.content, query)}</div>
-                <div style="display: flex; justify-content: space-between; margin-top: 5px; font-size: 12px; color: #70757a;">
-                    ${item.tags ? `<div style="color: #520049;">${this.highlightKeywords(item.tags, query)}</div>` : '<div></div>'}
-                    ${item.date ? `<div>${item.date}</div>` : '<div></div>'}
+            html += `<div class="result-item-list search-result-item result-page" data-url="${item.url}" style="cursor:pointer;">
+                <div class="result-header">
+                    <span class="result-index">${startIndex + i + 1}</span>
+                    <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
                 </div>
+                <div class="result-description">${this.getContentPreview(item.content, query)}</div>
             </div>`;
         });
 
@@ -477,12 +475,22 @@ const MolstarModule = {
         this.aptamerData = window.aptamerData || [];
         if (this.aptamerData.length > 0) {
             this.currentAptamerIndex = Math.floor(Math.random() * this.aptamerData.length);
+            
+            // 优化：立即显示基本信息，然后异步加载3D结构
+            const data = this.aptamerData[this.currentAptamerIndex];
+            this.updateInfoCards(data);
+            
+            // 首先显示加载状态
+            this.showLoadingState();
+            
+            // 异步加载Molstar，不阻塞页面其他内容
             this.loadMolstarLibrary()
                 .then(() => {
-                    setTimeout(() => this.loadAptamerStructure(this.currentAptamerIndex), 500);
+                    // 延迟加载3D结构，让页面首先展示重要内容
+                    setTimeout(() => this.loadAptamerStructure(this.currentAptamerIndex), 100);
                 })
                 .catch(error => {
-                    console.error('Molstar库加载失败:', error);
+                    console.error('Molstar library loading failed:', error);
                     this.showFallback();
                 });
         } else {
@@ -490,26 +498,40 @@ const MolstarModule = {
             this.updateInfoCards({
                 name: 'Ribocentre Aptamer',
                 url: '#',
-                target: '多种生物分子',
+                target: 'Various Biomolecules',
                 firstYear: '1990-2024',
                 pdbId: 'N/A',
-                description: 'Ribocentre-Aptamer是一个综合性的适配体数据库与研究平台，致力于为研究人员提供全面、准确的适配体信息资源。'
+                description: 'Ribocentre-Aptamer is a comprehensive aptamer database and research platform dedicated to providing researchers with comprehensive and accurate aptamer information resources.'
             });
         }
     },
 
     loadMolstarLibrary() {
         return new Promise((resolve, reject) => {
+            // 检查Molstar是否已经加载
             if (window.PDBeMolstarPlugin) {
                 resolve();
                 return;
             }
 
-            const script = document.createElement('script');
-            script.src = (window.DASHBOARD_CONFIG?.baseurl || '') + '/js/mol/pdbe-molstar-plugin.js';
-            script.onload = resolve;
-            script.onerror = () => reject(new Error('Failed to load Molstar library'));
-            document.head.appendChild(script);
+            // 等待CDN的异步加载完成
+            const checkMolstarLoaded = () => {
+                if (window.PDBeMolstarPlugin) {
+                    resolve();
+                } else {
+                    // 每50ms检查一次，最多等待10秒
+                    setTimeout(checkMolstarLoaded, 50);
+                }
+            };
+
+            // 设置超时机制，10秒后放弃等待
+            setTimeout(() => {
+                if (!window.PDBeMolstarPlugin) {
+                    reject(new Error('Molstar library loading timeout'));
+                }
+            }, 10000);
+
+            checkMolstarLoaded();
         });
     },
 
@@ -524,7 +546,7 @@ const MolstarModule = {
             aptamerName.href = data.url || '#';
         }
         if (aptamerTarget) aptamerTarget.textContent = `Target: ${data.target || 'Unknown'}`;
-        if (aptamerYear) aptamerYear.textContent = `Discovery Year: ${data.firstYear || data.date || 'Unknown'}`;
+        if (aptamerYear) aptamerYear.textContent = `Year: ${data.firstYear || data.date || 'Unknown'}`;
 
         // 结构信息卡片
         const pdbLink = document.getElementById('pdbLink');
@@ -574,7 +596,8 @@ const MolstarModule = {
                     const options = {
                         customData: {
                             url: data.molstarUrl,
-                            format: 'pdb'
+                            format: 'cif',
+                            binary: true,
                         },
                         moleculeId: data.pdbId || 'structure',
                         expanded: false,
@@ -592,11 +615,11 @@ const MolstarModule = {
                     this.molstarInstance = new PDBeMolstarPlugin();
                     this.molstarInstance.render(molstarViewer, options)
                         .then(() => {
-                            console.log('Molstar渲染成功');
+                            console.log('Molstar rendering successful');
                             this.enableRotation();
                         })
                         .catch(error => {
-                            console.error('Molstar渲染失败:', error);
+                            console.error('Molstar rendering failed:', error);
                             this.showFallback();
                         });
                 } else {
@@ -634,7 +657,7 @@ const MolstarModule = {
                 }
             }
         } catch (error) {
-            console.log('启用旋转时出错:', error);
+            console.log('Error enabling rotation:', error);
             const molstarViewer = document.getElementById('molstar-viewer');
             if (molstarViewer) {
                 molstarViewer.style.animation = 'molstarSpin 15s linear infinite';
@@ -649,10 +672,40 @@ const MolstarModule = {
                 <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #4a5568; text-align: center; padding: 20px;">
                     <div>
                         <div style="font-size: 3rem; margin-bottom: 10px;">🧬</div>
-                        <div style="font-size: 1.2rem; font-weight: bold;">3D 分子结构</div>
-                        <div style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;">真实适配体三维结构展示</div>
+                        <div style="font-size: 1.2rem; font-weight: bold;">3D Molecular Structure</div>
+                        <div style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;">Real Aptamer 3D Structure Display</div>
                     </div>
                 </div>
+            `;
+        }
+    },
+
+    showLoadingState() {
+        const molstarViewer = document.getElementById('molstar-viewer');
+        if (molstarViewer) {
+            molstarViewer.innerHTML = `
+                <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #4a5568; text-align: center; padding: 20px;">
+                    <div>
+                        <div style="font-size: 2.5rem; margin-bottom: 15px; animation: pulse 2s infinite;">⚛️</div>
+                        <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 8px;">Loading 3D Structure</div>
+                        <div style="font-size: 0.9rem; opacity: 0.8;">Loading Molecular Structure...</div>
+                        <div style="margin-top: 10px;">
+                            <div style="width: 40px; height: 4px; background: #e2e8f0; border-radius: 2px; margin: 0 auto; overflow: hidden;">
+                                <div style="width: 100%; height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); animation: loading 2s infinite;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    @keyframes pulse {
+                        0%, 100% { opacity: 1; }
+                        50% { opacity: 0.5; }
+                    }
+                    @keyframes loading {
+                        0% { transform: translateX(-100%); }
+                        100% { transform: translateX(100%); }
+                    }
+                </style>
             `;
         }
     }
@@ -674,10 +727,29 @@ document.addEventListener('DOMContentLoaded', function() {
     CarouselModule.init();
     homepageSearchModule.init();
     
-    // 延迟初始化Molstar以避免阻塞其他功能
-    setTimeout(() => {
-        MolstarModule.init();
-    }, 1000);
+    // 优化：使用IntersectionObserver在用户滚动到Hero区域时才初始化Molstar
+    const heroSection = document.querySelector('.hero-section');
+    if (heroSection) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // 当Hero区域进入视窗时才初始化Molstar
+                    setTimeout(() => {
+                        MolstarModule.init();
+                    }, 200);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { 
+            rootMargin: '100px' // 提前100px开始加载
+        });
+        observer.observe(heroSection);
+    } else {
+        // 如果找不到Hero区域，则延迟初始化
+        setTimeout(() => {
+            MolstarModule.init();
+        }, 1500);
+    }
     
     console.log('Homepage modules loaded successfully');
 }); 

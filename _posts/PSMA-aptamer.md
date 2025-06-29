@@ -1,125 +1,22 @@
 ---
-layout: post
-title:  "PSMA aptamer"
-date:   2024-04-16 00:00:00
+layout: theophylline_style
+title: PSMA aptamer
+date: 2024-04-16 00:00:00
 author: Jiaxin Zhao,Zhizhong Lu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:47.0
+- GC:56.99999999999999
+- Length:43
+- Length:65
+- Named:Prostate-specific membrane antigen (PSMA)_A9 RNA aptamer
+- Named:Prostate-specific membrane antigen (PSMA)_A9g aptamer
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -158,7 +55,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/20550178/" target="_blank" style="color:#520049">2010</a></h3>
     </div>
     <div class="body">
-      <p>A9 apatmer is used in A9-targeted gold nanoparticles for PCa imaging and delivery of doxorubicin payloads<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
+      <p>A9 aptamer is used in A9-targeted gold nanoparticles for PCa imaging and delivery of doxorubicin payloads<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -174,7 +71,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/25450401/" target="_blank" style="color:#520049">2014</a></h3>
     </div>
     <div class="body">
-      <p>A9 apatmer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
+      <p>A9 aptamer is used in generation of A9-bound drug-loaded liposomes<sup>[<a href="#ref6" style="color:#520049">6</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -190,13 +87,11 @@ categories: Aptamer
 
          
 <p class="header_box" id="description">Description</p>
-<p>In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 apatmer is used in generation of A9-bound drug-loaded liposomes. In 2020, Barinka C et al. published on the crystal structure of human prostate-specific membrane antigen (PSMA) in complex with A9g, a 43-bp PSMA-specific RNA aptamer. This structure was determined to a resolution limit of 2.2 Å<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
+<p>In 2002, Lupold et al. used the extracellular part of PSMA to select an aptamer, termed A9. In 2006, The A9 aptamer, stabilized by the incorporation of 2′-fluor-pyrimidines bases, has since been used in a variety of functional studies, including the A9-mediated delivery of therapeutic siRNA to PCa cells. In 2014, A9 aptamer is used in generation of A9-bound drug-loaded liposomes. In 2020, Barinka C et al. published on the crystal structure of human prostate-specific membrane antigen (PSMA) in complex with A9g, a 43-bp PSMA-specific RNA aptamer. This structure was determined to a resolution limit of 2.2 Å<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2002, Lupold et al. used the extracellular moiety of PSMA as a target to isolate for RNA aptamer A9 that can inhibit PSMA enzyme activity and bind to PSMA-positive cells by SELEX technology. The aptamer underwent multiple rounds of screening and amplification to obtain a binding molecule with high affinity and specificity. Two specific aptamers were selected from an initial 40-mer library of approximately 6 × 10¹⁴ random-sequence RNA molecules for their ability to bind to a recombinant protein representing the extracellular 706 amino acids of prostate-specific membrane antigen (PSMA), termed xPSM. Six rounds of in vitro selection were conducted, enriching for xPSM binding as monitored by the aptamers' inhibition of xPSM's N-acetyl-alpha-linked acid dipeptidase (NAALADase) enzymatic activity. By the sixth round, 95% of the aptamer pool consisted of just two sequences. These two aptamers, designated xPSM-A9 and xPSM-A10, were cloned and found to be unique, sharing no consensus sequences<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>    
 
@@ -212,7 +107,7 @@ categories: Aptamer
 <p>The complex is the crystal structure of human PSMA in complex with A9g, a 43-bp PSMA-specific RNA aptamer, that was determined to the 2.2 Å resolution limit. GCPII is a close homology of PSMA. A9g aptamer inhibits the enzyme activity of PSMA residing in the central/peripheral nervous system (also known as glutamate carboxypeptidase II, GCPII). The experimentally determined fold of the 43-nucleotide A9g aptamer in its PSMA-bound state is a relatively simple stem-loop structure that includes two stems termed S1 (7-base pairs) and S2 (4-base pairs), a 4 × 1 internal loop 1 (L1; 4 unpaired adenines A8–A11 on the 5′-side and an unpaired nucleotide A36 on the 3′-side) and a 16-nucleotide long hairpin loop 2 The PDB ID of this structure is 6RTI<sup>[<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GCP2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;">
   </td>
@@ -225,7 +120,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -374,8 +269,7 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/6RTI-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -395,7 +289,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6MSF. GCPII (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with GCPII.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GCP2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -411,10 +305,8 @@ categories: Aptamer
 <p class="header_box" id="ligand-recognition">Ligand information</p>  
 <p class="blowheader_box">SELEX ligand</p>
 <p>For surface plasmon resonance (SPR) measurements using the BIACore 3000 device, the KD value was calculated by global fitting of six concentrations of PSMA on a constant density A9g aptamer. The data were fitted 1:1 with the mass transfer model to calculate the kinetic parameters. The binding parameter KD of A9 aptamer was determined by filtration membrane binding assay<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
-<br>
-<br>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -449,7 +341,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -467,8 +359,7 @@ categories: Aptamer
         <td name="td2">84.33 KDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">MWNLLHETDSAVATARRPRWLCAGALVLAGGFFLLGFLFGWFIKSSNEATNITPKHNMKAFLDELKAENIKKFLYNFTQIPHLAGTEQNFQLAKQIQSQWKEFGLDSVELAHYDVLLSYPNKTHPNYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWRGSLKVPYNVGPGFTGNFSTQKVKMHIHSTNEVTRIYNVIGTLRGAVEPDRYVILGGHRDSWVFGGIDPQSGAAVVHEIVRSFGTLKKEGWRPRRTILFASWDAEEFGLLGSTEWAEENSRLLQERGVAYINADSSIEGNYTLRVDCTPLMYSLVHNLTKELKSPDEGFEGKSLYESWTKKSPSPEFSGMPRISKLGSGNDFEVFFQRLGIASGRARYTKNWETNKFSGYPLYHSVYETYELVEKFYDPMFKYHLTVAQVRGGMVFELANSIVLPFDCRDYAVVLRKYADKIYSISMKHPQEMKTYSVSFDSLFSAVKNFTEIASKFSERLQDFDKSNPIVLRMMNDQLMFLERAFIDPLGLPDRPFYRHVIYAPSSHNKYAGESFPGIYDALFDIESKVDPSKAWGEVKRQIYVAAFTVQAAAETLSEVA</span>
         </div>
       </td>
@@ -477,7 +368,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/GCP2_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px;height:300px;"  px="" /></td>
 </tr>
 </table>
@@ -492,7 +383,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -564,8 +455,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -625,7 +514,7 @@ Ptacek, J., Zhang, D., Qiu, L., Kruspe, S., Motlova, L., Kolenko, P., Novakova, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

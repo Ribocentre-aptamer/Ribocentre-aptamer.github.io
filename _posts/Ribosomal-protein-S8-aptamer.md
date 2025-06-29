@@ -1,125 +1,19 @@
 ---
-layout: post
-title:  "Ribosomal protein S8-aptamer"
-date:   2024-04-10 00:00:00
+layout: theophylline_style
+title: Ribosomal protein S8 aptamer
+date: 2024-04-10 00:00:00
 author: Qiaozhen Liu, Zhaoji Qiu
 categories: Aptamer
+tags:
+- Category:Bacteria
+- GC:57.99999999999999
+- Length:38
+- Named:Ribosomal protein S8_RNA-2 aptamer
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -167,13 +61,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1997, Moine Herve et al. conducted in vitro iterative selection of RNA aptamers capable of binding to S8. These aptamers revealed features in the S8 binding site that had been concealed during previous characterizations by the high base conservation throughout evolution. In 2014, Milya Davlieva et al. investigated the structural adaptation of an RNA aptamer binding to bacterial ribosomal protein S8<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2014, Milya Davlieva et al. identified RNA sequences that lacked the conserved features of helix 21 but could bind the S8 protein with high affinity and specificity. The starting library had molecules with 16 randomized nucleotides in an RNA hairpin stem. After 10 rounds of selection, the RNA pool was cloned and 40 inserts sequenced. Alignment showed native-like and non-natural binding sites<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>   
 
@@ -191,20 +83,15 @@ categories: Aptamer
 <p>Milya Davlieva et al. sovled the crystal structure, at 2.69 Å resolution, of an RNA aptamer bound to Bacillus ribosomal S8 protein has been determined. In the free state, the internal loop of the ribosomal protein S8 aptamer hairpin stem encompasses G-A, U-U and A-A mismatches, adopting an overall helical A-form geometry. For the purpose of binding Ribosomal protein S8, the internal loop undergoes a significant rearrangement of its secondary structure, giving rise to the formation of a base triple and a base quartet. The PDB ID of this structure is 4PDB<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/ribosomal_protein_S8_aptamer_3D1.svg" alt="drawing" style="width:500px;height:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -234,9 +121,17 @@ categories: Aptamer
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
     </head>
@@ -244,7 +139,7 @@ categories: Aptamer
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:27, 
   end_residue_number:155, 
@@ -279,24 +174,33 @@ categories: Aptamer
   start_residue_number:18, 
   end_residue_number:23, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'I', 
   start_residue_number:24, 
   end_residue_number:27, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
   struct_asym_id: 'I', 
   start_residue_number:28, 
   end_residue_number:29, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'I', 
-  start_residue_number:38, 
+  start_residue_number:30, 
+  end_residue_number:39, 
+  color:{r:184,g:51,b:50}
+},
+{
+  struct_asym_id: 'I', 
+  start_residue_number:1, 
   end_residue_number:9, 
   color:{r:184,g:51,b:50}
 }
-              ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+]
+viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection1">
@@ -309,13 +213,12 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/4pdb-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
-      var viewerContainer1 = document.getElementById('myViewer1');
+var viewerContainer1 = document.getElementById('myViewer1');
       viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
+window.addEventListener('load', function() {
     var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
     colorSelectionButton1.click();
   });
@@ -330,7 +233,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4PDB at 2.69 Å resolution. ribosomal S8 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with ribosomal S8 protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/ribosomal_protein_S8_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -348,7 +251,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Milya Davlieva et al. investigated the affinity of the RNA aptamer via EMSA (electrophoretic mobility shift assay) and ITC (isothermal titration calorimetry) experiments<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -377,7 +280,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -395,8 +298,7 @@ categories: Aptamer
         <td name="td2">29.24 kDa</td>
         <td name="td3">
          <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">VMTDPIADMLTAIRNANMVRHEKLEVPASKIKREIAEILKREGFIRDYEYIEDNKQGILRIFLKYGPNERVITGLKRISKPGLRVYVKAHEVPRVLNGLGIAILSTSQGVLTDKEARQKGTGGEIIAYVIVMTDPIADMLTAIRNANMVRHEKLEVPASKIKREIAEILKREGFIRDYEYIEDNKQGILRIFLKYGPNERVITGLKRISKPGLRVYVKAHEVPRVLNGLGIAILSTSQGVLTDKEARQKGTGGEIIAYVI</span>
         </div>
       </td>
@@ -405,7 +307,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/ribosomal_protein_S8_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -420,7 +322,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -492,8 +394,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -547,7 +447,7 @@ Pavan, M., Bassani, D., Sturlese, M., & Moro, S.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

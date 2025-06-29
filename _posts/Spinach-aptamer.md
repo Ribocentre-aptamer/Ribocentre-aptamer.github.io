@@ -1,94 +1,26 @@
 ---
-layout: post
-title:  "Spinach aptamer"
-date:   2024-04-23 00:00:00
+layout: theophylline_style
+title: Spinach aptamer
+date: 2024-04-23 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:54.790000000000006
+- GC:56.00000000000001
+- GC:63.33
+- Length:60
+- Length:73
+- Length:98
+- Named:DFHBI_Spinach aptamer
+- Named:DFHBIiSpinach
+- Named:DMHBI (3,5-Dimethyl-4-hydroxybenzylidene imidazolinone)13-2min
+- Type:Small molecules
+- Year:2011
+- Year:2016
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
-
 
 <div class="side-nav">
 <ul>
@@ -289,14 +221,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In a work published in 2011, Samie R. Jaffrey et al. isolated an RNA aptamer, named Spinach, which binds DFHBI and enhances its optical properties. Later, in a work published in 2014 by Adrian R Ferré-D’Amaré et al., the structure of the Spinach-DFHBI complex was analyzed by crystallization, diffraction data collection, structure determination and refinement<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>SELEX was performed with a library containing ~5×10<sup>13</sup> RNA molecules and selected RNAs for their ability to bind DMHBI-agarose. The selection process went through 10 rounds. After SELEX, researchers selected a number of sequences, including Spinach, to characterize their affinity for the dye and its spectral properties. Spinach is notably resistant to photobleaching, and Spinach fusion RNAs can be imaged in living cells<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -304,7 +234,7 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>Spinach folds into a single coaxial helical stack, composed of three canonical A-form duplexes (paired regions P1, P2, and P3), which are separated by two irregular junctions. Here we used Ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>5'-GACGCGACCGAAUGAAAUGGUGAAGGACGGGUCCAGCCGGCUGC-3'<br>5'-GCAGCCGGCUUGUUGAGUAGAGUGUGAGCUCCGUAACUGGUCGCGUC-3'</p>
+<p>5'-GACGCGACCGAAUGAAAUGGUGAAGGACGGGUCCAGCCGGCUGCUUCGGCAGCCGGCUUGUUGAGUAGAGUGUGAGCUCCGUAACUGGUCGCGUC-3'<br></p>
 <img src="/images/2D/DFHBI_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -314,7 +244,7 @@ categories: Aptamer
 <p>Adrian R Ferré-D'Amaré et al. present the solution structure, as determined by multidimensional NMR spectroscopy, molecular dynamics calculations, crystallization and diffraction data collection of Spinach-DFHBI complex. The Spinach chromophore, adopting a conformation with coplanar imidazolone and phenyl rings, was positioned between G26 and G65 of the top G-quartet and the Hoogsteen-paired U61 and A64 of the base triple in J2-3. DFHBI interacted extensively within the plane of its rings. The PDB ID of these structures are 4TS0 (2.8 Å) and 4TS2 (2.88 Å)<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFHBI_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -327,7 +257,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -477,10 +407,16 @@ categories: Aptamer
   end_residue_number:31, 
   color:{r:241,g:125,b:7}
 },{
-  struct_asym_id: 'X', 
+  struct_asym_id: 'Y', 
   start_residue_number:64, 
   end_residue_number:64, 
   color:{r:241,g:125,b:7}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:206, 
+  end_residue_number:206, 
+  color:{r:255,g:0,b:255}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -494,10 +430,9 @@ categories: Aptamer
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/4ts0.pdb',
+        url:'/pdbfiles/4ts0_no ions.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -518,7 +453,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 4TS0 by NMR and X-ray crystallography. DFHBI (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHBI or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DFHBI_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -549,7 +484,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://www.medchemexpress.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a>:</b> an entry number for the classification of chemicals by the well-known chemical manufacturing company MedChemExpress.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -573,7 +508,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHBI_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHBI_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -588,7 +523,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">ZINC ID</th>
@@ -664,8 +599,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

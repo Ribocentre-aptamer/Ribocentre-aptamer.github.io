@@ -1,125 +1,22 @@
 ---
-layout: post
-title:  "Thrombin aptamer"
-date:   2024-04-03 00:00:00
+layout: theophylline_style
+title: Thrombin aptamer
+date: 2024-04-03 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.0
+- GC:51.24999999999999
+- Length:25
+- Length:80
+- Named:Human thrombin_Toggle-25
+- Named:Human thrombin_Toggle-25t RNA aptamer
+- Type:Proteins
+- Year:2001
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -199,14 +96,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1994, Tasset, D. et al. used the Systematic Evolution of Ligands by Exponential Enrichment (SELEX) method to isolate two classes of high-affinity RNAs from a population of 10<sup>13</sup> RNA molecules. These RNAs specifically bound to human α-thrombin. In 2001, Sullenger, B. obtained human and porcine thrombin RNA aptamers through alternating rounds of selection. In 2008, Sullenger, B. A. et al. presented the crystal structure of an RNA aptamer bound to human thrombin, a protein that does not naturally bind nucleic acids. The X-rays of this complex were diffracted to a resolution of 1.9 Å<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref6" style="color:#520049">6</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2001, Sullenger, B. conducted a rigorous screening process on a library comprising approximately 10<sup>13</sup> distinct RNA sequences to identify molecules exhibiting binding affinity towards both human and porcine thrombin. The initial round of in vitro selection involved incubating the RNA library with both human and porcine thrombin (FIIa). Subsequently, in the second round of selection, the enriched RNA library was exposed solely to human FIIa, and RNA molecules bound to this protein were recovered. In the third round, the human-centric RNA library was subjected to incubation with porcine FIIa, and the subset of RNAs demonstrating binding affinity towards the porcine protein was isolated. This iterative process led to the development of a refined library enriched with RNA sequences exhibiting conserved binding motifs between the FIIa homologues. This "toggle" selection strategy was replicated in rounds 4–13 of SELEX, alternating between human and porcine proteins in even and odd rounds, respectively. Simultaneously, 13 rounds of standard SELEX were conducted individually against human and porcine proteins for comparative analysis<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -216,7 +111,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>Here we use ribodraw to complete the figure, through the 3D structure information. Toggle-25t aptamer was named by Sullenger, B. AF113-18 aptamer was named by Xianbin Yang. Toggle-25t aptamer and AF113-18 aptamer are the same sequences. fC/fU: 2′-F substituents. se: 2′-SeMe substituents. Fs2: 3′-phosphate replaced by a PS2 moiety<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <p>5'-GGGAACAAAGCUGAAGUACUUACCC-3'</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/thrombin_aptamer_2D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -232,7 +127,7 @@ categories: Aptamer
 <p>In 2008，Sullenger, B. A. et al. determined the crystal structure of Toggle-25t aptamer bound to α-thrombin at 1.9 Å resolution. The PDB ID of this structure is 3DD2. In 2016，Xianbin Yang et al. determined the crystal structure of AF113-18 aptamer (phosphorodithioate (PS2) substitution) bound to α-thrombin at 1.86 Å resolution. The PDB ID of this structure is 5DO4. Here only the structural diagram of 3DD2 is shown. There is no obvious difference between the structures of 5DO4 and 3DD2<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/thrombin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -243,9 +138,10 @@ categories: Aptamer
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -275,44 +171,53 @@ categories: Aptamer
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+         /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
-    </head>
+</head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
-              var selectSections1 = [
-                {
+var selectSections1 = [
+               {
   struct_asym_id: 'B', 
   start_residue_number:1, 
   end_residue_number:3, 
   color:{r:184,g:51,b:50}
-},
+},               
 {
   struct_asym_id: 'B', 
   start_residue_number:4, 
   end_residue_number:5, 
   color:{r:46,g:161,b:3}
-},
-{
+},{
   struct_asym_id: 'B', 
   start_residue_number:6, 
   end_residue_number:7, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:8, 
   end_residue_number:10, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:11, 
   end_residue_number:11, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:12, 
   end_residue_number:12, 
@@ -341,17 +246,20 @@ categories: Aptamer
   start_residue_number:18, 
   end_residue_number:18, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:19, 
   end_residue_number:21, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:22, 
   end_residue_number:22, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'B', 
   start_residue_number:23, 
   end_residue_number:25, 
@@ -362,11 +270,10 @@ categories: Aptamer
   start_residue_number:16, 
   end_residue_number:246, 
   color:{r:207,g:62, b:125}
-},
-{
+},{
   struct_asym_id: 'L', 
-  start_residue_number:1D, 
-  end_residue_number:1A, 
+  start_residue_number:'1D', 
+  end_residue_number:'1A', 
   color:{r:207,g:62, b:125}
 },{
   struct_asym_id: 'L', 
@@ -375,24 +282,22 @@ categories: Aptamer
   color:{r:207,g:62, b:125}
 },{
   struct_asym_id: 'L', 
-  start_residue_number:14A, 
-  end_residue_number:14L, 
+  start_residue_number:'14A', 
+  end_residue_number:'14L', 
   color:{r:207,g:62, b:125}
-},
-{
+},{
   struct_asym_id: 'B', 
   start_residue_number:1000, 
   end_residue_number:1000, 
   color:{r:0,g:128,b:0}
-},
-{
+},{
   struct_asym_id: 'H', 
   start_residue_number:1002, 
   end_residue_number:1002, 
   color:{r:0,g:128,b:0}
 }
               ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection1">
@@ -405,15 +310,20 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/3dd2-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        layoutIsExpanded: false,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
       viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
+  // 确保插件加载完成后再执行选择
+  viewerInstance1.events.loadComplete.subscribe(() => {
+    setTimeout(() => {
+      var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
+      if (colorSelectionButton1) {
+        colorSelectionButton1.click();
+      }
+    }, 1000);
   });
 </script>
 </body>
@@ -426,7 +336,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3DD2 at 1.90 Å resolution. Human thrombin protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with human thrombin protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/thrombin_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -444,7 +354,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Sullenger, B. A. et al. determined the equilibrium dissociation constants (Kd) of the Toggle-25t RNA aptamer-protein complex using the double-filter, nitrocellulose-filter binding method as previously described. Xianbin Yang et al. measured the binding affinities of the selected AF113-18 aptamer and its library variants via biolayer interferometry (BLI) on a fortéBIO Octet Red96 instrument (Pall fortéBIO) at 30 °C<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -479,7 +389,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -497,8 +407,7 @@ categories: Aptamer
         <td name="td2">70.03 kDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">MAHVRGLQLPGCLALAALCSLVHSQHVFLAPQQARSLLQRVRRANTFLEEVRKGNLERECVEETCSYEEAFEALESSTATDVFWAKYTACETARTPRDKLAACLEGNCAEGLGTNYRGHVNITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRRQECSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVTTHGLPCLAWASAQAKALSKHQDFNSAVQLVENFCRNPDGDEEGVWCYVAGKPGDFGYCDLNYCEEAVEEETGDGLDEDSDRAIEGRTATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYIDGRIVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTENDLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHPVCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDSTRIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDQFGE</span>
         </div>
       </td>
@@ -507,7 +416,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/thrombin_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -522,7 +431,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -657,8 +566,9 @@ Abeydeera, N. D., Egli, M., Cox, N., Mercier, K., Conde, J. N., Pallan, P. S., M
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });
   </script>
+

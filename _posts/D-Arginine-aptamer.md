@@ -1,80 +1,21 @@
 ---
-layout: post
-title:  "D-Arginine"
-date:   2024-05-27 00:00:00
+layout: theophylline_style
+title: D-Arginine
+date: 2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:55.26
+- Length:38
+- Named:D-arginine_D-R16c
+- Type:Small molecules
+- Year:1996
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -88,35 +29,36 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jens P. Fürste et al. used standard in vitro screening methods to isolate aptamers that bind D-arginine. Sequencing of 55 clones revealed 41 distinct sequences. (Computer sequence analysis showed that two highly conserved motifs appeared in almost 60% of the sequences, and RNAs containing these two conserved sequences could fold into similar secondary structures according to Zuker's energy minimization algorithm.) This truncated version of the aptamer is called D-Rl6c, and it contains the structural elements necessary for specific binding to arginine.The dissociation constant (K) of D-R16c from D-arginine was 135 + 25 μM.The L-enantiomer corresponding to D-Rl6c (termed L-Rl6c) was obtained by standard RNA solid-phase synthesis using modified nucleotides.Circular dichroism (CD) spectroscopic analysis of D-Rl6c and ,-Rl6c showed that the spectra of the two were mirror images of each other, thus providing physical evidence that the chemically synthesized L-RNA (L-Rl6c) is the corresponding D-RNA (D- R16c), providing physical evidence that L-Rl6c is capable of binding to L-arginine with a K value of 129 + 18 μM.Famulok M et al. used completely randomized RNA libraries as well as a degraded library consisting of RNA sequences capable of binding to citrulline to select RNA aptamers that bind tightly to arginine (arginine) by an in vitro screening protocol.After 20 rounds of screening, the majority of the libraries contained RNAs that could specifically, even in the presence of non-specific amino acids binding to arginine substrates. The screened RNA aptamers were cloned and sequenced, and the dissociation constant of one of the sequences (clone ag.06) was determined by equilibrium dialysis and found to bind to arginine with a binding constant of 330 nM. this is nearly a 200-fold improvement over the most tightly binding arginine RNA known. The RNA is highly enantioselective for L-arginine and has a 12,000-fold higher binding capacity compared to D-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Jens P. Fürste et al. used standard in vitro screening methods to isolate aptamers that bind D-arginine. Sequencing of 55 clones revealed 41 distinct sequences. (Computer sequence analysis showed that two highly conserved motifs appeared in almost 60% of the sequences, and RNAs containing these two conserved sequences could fold into similar secondary structures according to Zuker's energy minimization algorithm.) This truncated version of the aptamer is called D-Rl6c, and it contains the structural elements necessary for specific binding to arginine.The dissociation constant (K) of D-R16c from D-arginine was 135 + 25 μM.The L-enantiomer corresponding to D-Rl6c (termed L-Rl6c) was obtained by standard RNA solid-phase synthesis using modified nucleotides.Circular dichroism (CD) spectroscopic analysis of D-Rl6c and ,-Rl6c showed that the spectra of the two were mirror images of each other, thus providing physical evidence that the chemically synthesized L-RNA (L-Rl6c) is the corresponding D-RNA (D- R16c), providing physical evidence that L-Rl6c is capable of binding to L-arginine with a K value of 129 + 18 μM.Famulok M et al. used completely randomized RNA libraries as well as a degraded library consisting of RNA sequences capable of binding to citrulline to select RNA aptamers that bind tightly to arginine (arginine) by an in vitro screening protocol.After 20 rounds of screening, the majority of the libraries contained RNAs that could specifically, even in the presence of non-specific amino acids binding to arginine substrates. The screened RNA aptamers were cloned and sequenced, and the dissociation constant of one of the sequences (clone ag.06) was determined by equilibrium dialysis and found to bind to arginine with a binding constant of 330 nM. this is nearly a 200-fold improvement over the most tightly binding arginine RNA known. The RNA is highly enantioselective for L-arginine and has a 12,000-fold higher binding capacity compared to D-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw.  D-R16c aptamer binding to D-Arginine. L-R16c aptamer and ag.06 aptamer binding to L-Arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<font><p>D-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>L-R16c aptamer: 5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br>ag.06 aptamer: 5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw.  D-R16c aptamer binding to D-Arginine. L-R16c aptamer and ag.06 aptamer binding to L-Arginine<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
+<p>D-R16c aptamer: </p>
+<p>5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br></p>
+<p>L-R16c aptamer: </p>
+<p>5'-CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG-3'<br></p>
+<p>ag.06 aptamer: </p>
+<p>5'-GGAGCUCAGCCUUCACUGCAUGAUAAACCGAUGCUGGGCGAUUCUCCUGAAGUAGGGGAAGAGUUGUCAUGUAUGGGGGCACCACGGUCGGAUCCUG-3'</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <img src="/images/2D/dl-Arginine_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
+  <img src="/images/2D/D-R16c_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/dl-Arginine_aptamer_2D2.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>D-arginine is a D-alpha-amino acid that is the D-isomer of arginine. It has a role as an EC 4.1.1.19 (arginine decarboxylase) inhibitor and a mouse metabolite. It is a D-alpha-amino acid and an arginine. It is a conjugate base of a D-argininium(1+). It is a conjugate acid of a D-argininate. It is an enantiomer of a L-arginine.-----From ChEBI</p>
 <p>L-arginine is an L-alpha-amino acid that is the L-isomer of arginine. It has a role as a nutraceutical, a biomarker, a micronutrient, an Escherichia coli metabolite and a mouse metabolite. It is a glutamine family amino acid, a proteinogenic amino acid, an arginine and a L-alpha-amino acid. It is a conjugate base of a L-argininium(1+). It is a conjugate acid of a L-argininate. It is an enantiomer of a D-arginine.-----From ChEBI</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -156,8 +98,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(5)">Source ligand</th>
@@ -219,8 +161,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -245,7 +185,7 @@ Geiger A, Burgstaller P, von der Eltz H, Roeder A, Famulok M<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -287,8 +227,7 @@ Geiger A, Burgstaller P, von der Eltz H, Roeder A, Famulok M<br/>
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

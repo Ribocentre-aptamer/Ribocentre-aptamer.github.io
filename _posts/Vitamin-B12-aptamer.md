@@ -1,80 +1,27 @@
 ---
-layout: post
-title:  "Vitamin B12-aptamer"
-date:   2024-04-18 00:00:00
+layout: theophylline_style
+title: Vitamin B12 aptamer
+date: 2024-04-18 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:53.21
+- GC:53.33
+- GC:60.0
+- Length:109
+- Length:35
+- Length:75
+- Named:Cyanocobalamin (vitamin B12)_35-mer aptamer
+- Named:Cyanocobalamin (vitamin B12)_B12.9
+- Named:Cyanocobalamin (vitamin B12)_DOPE. 40
+- Type:Small molecules
+- Year:1994
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -144,33 +91,29 @@ categories: Aptamer
 
 
          
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B<sub>12</sub> RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p><p class="header_box" id="description">Description</p>
+<p>In 1994, Jack W. Szostak'J et al. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for Cyanocobalamin (vitamin B12). In 2000, Charles Wilson et al. have determined the structure of the vitamin B<sub>12</sub> RNA complex with its ligand by X-ray crystallography at 2.3 Å resolution.In 2012, M S Thakur et al. Pioneering nano RNA aptamer wires for analyzing vitamin B<sub>12</sub><sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Jack W. Szostak isolated RNA chimeras specific for cyanocobalamin (vitamin B<sub>12</sub>) by in vitro screening using affinity chromatography. They first created a random sequence RNA library consisting of approximately 5*10<sup>14</sup> molecules. After eight rounds of screening and enzyme amplification, the library contained two main RNA sequences, with the primary sequence comprising 60% of the library. To determine the binding affinity, the dissociation constants (Kd) for the interaction between cyanocobalamin and the RNA aptamers were measured using equilibrium dialysis. The primary aptamer sequence had a Kd of approximately 320 nM with cyanocobalamin, while a smaller synthesized aptamer showed a Kd of 88 nM. Several RNA aptamers were identified, noted for their strong specificity and affinity to cyanocobalamin<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Jack W. Szostak isolated RNA chimeras specific for cyanocobalamin (vitamin B<sub>12</sub>) by in vitro screening using affinity chromatography. They first created a random sequence RNA library consisting of approximately 5*10<sup>14</sup> molecules. After eight rounds of screening and enzyme amplification, the library contained two main RNA sequences, with the primary sequence comprising 60% of the library. To determine the binding affinity, the dissociation constants (Kd) for the interaction between cyanocobalamin and the RNA aptamers were measured using equilibrium dialysis. The primary aptamer sequence had a Kd of approximately 320 nM with cyanocobalamin, while a smaller synthesized aptamer showed a Kd of 88 nM. Several RNA aptamers were identified, noted for their strong specificity and affinity to cyanocobalamin<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p></font>
-<font><p>5'-GGAACCGGUGCGCAUAACCACCUCAGUGCGAGCAA-3'</p></font>
+<p>Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref4" style="color:#520049">4</a>]</sup>.</p>
+<p>5'-GGAACCGGUGCGCAUAACCACCUCAGUGCGAGCAA-3'</p>
 <img src="/images/2D/VB12_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 <br>
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<font >Charles Wilson et al. determined the structure of the vitamin B12 RNA aptamer using X-ray crystallography. The structure was resolved at a high resolution of 2.3 Å.The vitamin B<sub>12</sub> RNA aptamer is characterized by a unique tertiary structure that includes a water-filled channel through the core of an RNA triplex. This triplex structure is notably stabilized by water molecules which form bridging hydrogen bonds across planar base triples that lack significant direct base-base contacts. This structural arrangement is critical for the aptamer’s stability and specificity in binding vitamin B12. The PDB ID of this structure is 1ET4<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>Charles Wilson et al. determined the structure of the vitamin B12 RNA aptamer using X-ray crystallography. The structure was resolved at a high resolution of 2.3 Å.The vitamin B<sub>12</sub> RNA aptamer is characterized by a unique tertiary structure that includes a water-filled channel through the core of an RNA triplex. This triplex structure is notably stabilized by water molecules which form bridging hydrogen bonds across planar base triples that lack significant direct base-base contacts. This structural arrangement is critical for the aptamer’s stability and specificity in binding vitamin B12. The PDB ID of this structure is 1ET4<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
+<div ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/VB12_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -183,7 +126,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -217,68 +160,73 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
             height: 500px;
             position:relative;
           }
+
         </style>
     </head>
     <body onload="customize()">
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:201, 
   end_residue_number:210, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:184,g:51,b:50}
+},{
   struct_asym_id: 'A', 
   start_residue_number:211, 
   end_residue_number:211, 
-  color:{r:255,g:0,b:255}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:212, 
   end_residue_number:213, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'A', 
   start_residue_number:214, 
   end_residue_number:214, 
-  color:{r:255,g:0,b:255}
-},
-{
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'A', 
   start_residue_number:215, 
   end_residue_number:215, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:46,g:161,b:3}
+},{
   struct_asym_id: 'A', 
   start_residue_number:216, 
   end_residue_number:216, 
-  color:{r:255,g:0,b:255}
+  color:{r:241,g:125,b:7}
 },{
   struct_asym_id: 'A', 
   start_residue_number:217, 
+  end_residue_number:227, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:228, 
   end_residue_number:228, 
-  color:{r:128,g:219,b:158}
+  color:{r:46,g:161,b:3}
 },{
   struct_asym_id: 'A', 
   start_residue_number:229, 
   end_residue_number:230, 
-  color:{r:255,g:0,b:255}
-},
-{
+  color:{r:241,g:125,b:7}
+},{
   struct_asym_id: 'A', 
   start_residue_number:231, 
+  end_residue_number:231, 
+  color:{r:46,g:161,b:3}
+},{
+  struct_asym_id: 'A', 
+  start_residue_number:232, 
   end_residue_number:235, 
-  color:{r:128,g:219,b:158}
-},
-{
+  color:{r:8,g:69,b:149}
+},{
   struct_asym_id: 'A', 
   start_residue_number:701, 
   end_residue_number:701, 
-  color:{r:255,g:255,b:0}
+  color:{r:255,g:0,b:255}
 }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -294,8 +242,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         customData:{
         url:'/pdbfiles/1ET4-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -313,9 +260,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </div>
 
 <p class="blowheader_box">Binding pocket</p>             
-<font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ET4 by X-ray crystallography. Cyanocobalamin (vitamin B<sub>12</sub>) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with vitamin B<sub>12</sub>.</font>
+<p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ET4 by X-ray crystallography. Cyanocobalamin (vitamin B<sub>12</sub>) (shown in sticks) is labeled in yellow. Right: The hydrogen bonds of binding sites of the aptamer bound with vitamin B<sub>12</sub>.</p>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/VB12_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -329,13 +276,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<p><p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<font >Jack W. Szostak et al. used equilibrium dialysis to measure the dissociation constants (Kd) of the interaction between cyanocobalamin, cobinamide dicyanide, and a 35-nucleotide RNA aptamer. The dissociation constants were determined using a dialysis chamber setup, with the aptamer at a concentration of approximately 10 pM, and different concentrations of the ligands were tested to calculate the Kd values​<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</font >
+<p>Jack W. Szostak et al. used equilibrium dialysis to measure the dissociation constants (Kd) of the interaction between cyanocobalamin, cobinamide dicyanide, and a 35-nucleotide RNA aptamer. The dissociation constants were determined using a dialysis chamber setup, with the aptamer at a concentration of approximately 10 pM, and different concentrations of the ligands were tested to calculate the Kd values​<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <br><br>
 <div style="display: flex; justify-content: center;">
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -362,8 +309,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <br>
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>Cyanocobalamin (commonly known as Vitamin B<sub>12</sub>) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B<sub>12</sub> has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.-----From Drugbank</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<p>Cyanocobalamin (commonly known as Vitamin B<sub>12</sub>) is a highly complex, essential vitamin, owing its name to the fact that it contains the mineral, cobalt. This vitamin is produced naturally by bacteria, and is necessary for DNA synthesis and cellular energy production. Vitamin B<sub>12</sub> has many forms, including the cyano-, methyl-, deoxyadenosyl- and hydroxy-cobalamin forms. The cyano form, is the most widely used form in supplements and prescription drugs,. Several pharmaceutical forms of cyanocobalamin have been developed, including the tablet, injection, and nasal spray forms,,.-----From Drugbank</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
@@ -385,7 +332,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/VB12_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/VB12_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -394,8 +341,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
                     
 <p class="blowheader_box">Similar compound</p>
-<font><p>We used the PubChem database to screen compounds that were more similar to Cyanocobalamin (vitamin B<sub>12</sub>), and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<p>We used the PubChem database to screen compounds that were more similar to Cyanocobalamin (vitamin B<sub>12</sub>), and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(2)">Named</th>
@@ -455,39 +402,37 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] In vitro selection of RNA aptamers specific for cyanocobalamin.</strong></font><br />
+<a id="ref1"></a><p><strong>[1] In vitro selection of RNA aptamers specific for cyanocobalamin.</strong></p><br />
 Lorsch JR, Szostak JW<br />
 <a href="https://onlinelibrary.wiley.com/doi/10.1002/anie.199410841" target="_blank" style="color:#520049" >Biochemistry. 1994 Feb 1;33(4):973-82. (1994)</a>
 <br />
                 
-<a id="ref2"></a><font><strong>[2] Preliminary characterization of crystals of an in vitro evolved cyanocobalamin (vitamin B12) binding RNA.</strong></font><br />
+<a id="ref2"></a><p><strong>[2] Preliminary characterization of crystals of an in vitro evolved cyanocobalamin (vitamin B12) binding RNA.</strong></p><br />
 Sussman D, Greensides D, Reilly K, Wilson C<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10089440/" target="_blank" style="color:#520049">Acta crystallographica. Section D, Biological crystallography. 1999 Jan;55(Pt 1):326-8. (1999)</a>
 <br />
                 
-<a id="ref3"></a><font><strong>[3] The structural basis for molecular recognition by the vitamin B 12 RNA aptamer.</strong></font><br />
+<a id="ref3"></a><p><strong>[3] The structural basis for molecular recognition by the vitamin B 12 RNA aptamer.</strong></p><br />
 Sussman D, Nix JC, Wilson C<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10625428/" target="_blank" style="color:#520049">Nature structural biology. 2000 Jan;7(1):53-7. (2000)</a>
 <br />
                 
-<a id="ref4"></a><font><strong>[4] A water channel in the core of the vitamin B(12) RNA aptamer.</strong></font><br />
+<a id="ref4"></a><p><strong>[4] A water channel in the core of the vitamin B(12) RNA aptamer.</strong></p><br />
 Sussman D, Wilson C<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10903943/" target="_blank" style="color:#520049">Structure. 2000 Jul 15;8(7):719-27. (2000)</a>
 <br />
                 
-<a id="ref5"></a><font><strong>[5] Influence of nanometric holes on the sensitivity of a waveguide-mode sensor: label-free nanosensor for the analysis of RNA aptamer-ligand interactions.</strong></font><br />
+<a id="ref5"></a><p><strong>[5] Influence of nanometric holes on the sensitivity of a waveguide-mode sensor: label-free nanosensor for the analysis of RNA aptamer-ligand interactions.</strong></p><br />
 Gopinath SC, Awazu K, Fujimaki M, Sugimoto K, Ohki Y, Komatsubara T, Tominaga J, Gupta KC, Kumar PK<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/18672888/" target="_blank" style="color:#520049">Analytical chemistry. 2008 Sep 1;80(17):6602-9. (2008)</a>
 <br />
                 
-<a id="ref6"></a><font><strong>[6] Nano RNA aptamer wire for analysis of vitamin B₁₂.</strong></font><br />
+<a id="ref6"></a><p><strong>[6] Nano RNA aptamer wire for analysis of vitamin B₁₂.</strong></p><br />
 Selvakumar LS, Thakur MS<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/22658959/" target="_blank" style="color:#520049">Analytical biochemistry. 2012 Aug 15;427(2):151-7. (2012)</a>
 <br />

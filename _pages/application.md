@@ -32,30 +32,46 @@ p {
   margin-bottom: 18px;
   text-align: justify;
   text-justify: inter-word;
+  }
+  /* 统一首字母放大加粗 */
+.content-section p::first-letter,
+.post-content    p::first-letter,
+.fluor-body-section p::first-letter{
+  font-weight:700;
+  font-size:1.2em;
+  color:var(--primary-color);
+}
 .purple-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 .purple-list li {
-  background-color: #efefef;
-  margin-bottom: 10px;
-  border-radius: 1px;
-  padding: 15px;
+  background-color: #fafafa;
+  color: var(--text-color);
+  background-clip: text;
+  -webkit-background-clip: text; /* 兼容 WebKit */
+  animation: moveGradient 8s ease infinite;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  padding: 12px 15px 12px 18px;
   position: relative;
+  border-left: 6px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 .purple-list li::before {
   content: "";
-  position: absolute;
-  width: 10px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #996699;
-  border-radius: 1px 0 0 1px;
+  display: none; /* 用左侧彩色边替代原有色块 */
 }
 .purple-list li b {
-  color: #996699;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveGradient 8s ease infinite;
 }
 .purple-list li p {
   color: #333;
@@ -90,6 +106,16 @@ p {
   padding-bottom: 10px;
   border-bottom: 2px solid var(--primary-color);
 }
+
+/* 一级标题样式 */
+.post-title {
+  color: var(--primary-color);
+  font-size: 32px;
+  margin: 40px 0 25px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--primary-color);
+  font-weight: 700;
+}
 .blowheader_box {
   background: linear-gradient(135deg, var(--primary-color), rgba(82,0,73,0.8));
   color: white;
@@ -102,25 +128,8 @@ p {
   box-shadow: 0 4px 15px rgba(82,0,73,0.2);
 }
 .blowheader_box::before {
-  content: '▶';
   margin-right: 10px;
   font-size: 0.9em;
-}
-.table-style1 {
-  border: 2px solid #ffffff;
-  border-radius: 5px;
-  background-color: #fff;
-}
-.table-style1 th {
-  background-color: var(--primary-color);
-  color: rgba(255,255,255,0.9);
-  cursor: pointer;
-}
-.table-style1 td {
-  background-color: #f9f9f9;
-}
-.table-style1 th, .table-style1 td {
-  padding: 10px 10px;
 }
 table.dataTable.no-footer {
   border-bottom: 1px solid rgba(0,0,0,0);
@@ -140,6 +149,45 @@ div.content-section a[id^="ref"]:nth-of-type(odd) {
 div.content-section a[id^="ref"] {
   display: block !important;
   margin-top: 15px !important;
+}
+
+/* ===== 表格边框覆盖，去除黑色细线 ===== */
+.table,
+table,
+.table-bordered,
+table.dataTable,
+.table2 {
+  border: none !important;
+}
+
+/* ===== Purple list dynamic gradient ===== */
+@keyframes moveGradient {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.purple-list li {
+  background-color: #fafafa;
+  color: var(--text-color);
+  background-clip: text;
+  -webkit-background-clip: text; /* 兼容 WebKit */
+  animation: moveGradient 8s ease infinite;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  padding: 12px 15px 12px 18px;
+  position: relative;
+  border-left: 6px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.purple-list li b {
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveGradient 8s ease infinite;
 }
 </style>
 <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
@@ -180,6 +228,7 @@ div.content-section a[id^="ref"] {
 </style>
 </head>
 <body>
+<div class="content-section">
 <h1 class="post-title" itemprop="name headline">Applications</h1>
 <p>RNA aptamers are short, single-stranded RNA molecules that have the ability to fold into specific three-dimensional shapes, enabling them to bind to a wide range of target molecules with high affinity and specificity. The discovery of RNA aptamers can be traced back to the early 1990s when researchers began to explore the potential of RNA molecules to form complex structures and interact with various ligands. Derived from the in vitro selection process known as SELEX (Systematic Evolution of Ligands by Exponential Enrichment), RNA aptamers exhibit high affinity and specificity for a wide range of targets, including proteins, peptides, small molecules, and even entire cells. In the rapidly evolving landscape of modern biomedical research, RNA aptamers have emerged as a promising class of biomolecules with immense potential for diagnostic and therapeutic applications.  The unique properties of RNA aptamers have enabled their application in a diverse range of fields, including therapeutics, diagnostics, molecular imaging, targeted drug delivery, environmental monitoring, research, and synthetic biology<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <div style="display: flex; justify-content: center;"></div>
@@ -187,7 +236,6 @@ div.content-section a[id^="ref"] {
 <br>
 <p>RNA aptamers offer several advantages over traditional antibodies and other molecular recognition elements<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>:</p>
 
-<div class="content-section">
 <ul class="purple-list">
     <li><b>Versatility</b> &nbsp;&nbsp;&nbsp; Aptamers can be engineered to target a wide range of molecules, including proteins, small molecules, ions, and even whole cells.</li>
     <li><b>High Affinity and Specificity</b> &nbsp;&nbsp;&nbsp; They can exhibit binding affinities and specificities comparable to monoclonal antibodies.</li>
@@ -197,16 +245,11 @@ div.content-section a[id^="ref"] {
     <li><b>Ease of Modification</b> &nbsp;&nbsp;&nbsp; RNA aptamers can be chemically modified to improve their properties, such as stability, solubility, and resistance to nucleases.</li>
     <li><b>Multivalency</b> &nbsp;&nbsp;&nbsp; They can be designed to bind multiple targets or to carry multiple functionalities, such as drug delivery or imaging agents.</li>
 </ul>
-<br>
-<br>
 </div>
 
 
-
-
-
 <div class="content-section">
-<h2 class="section-title" id="Diagnosis-detection">Diagnosis and detection</h2>
+<h2 class="section-title" id="Diagnosis-detection" style="margin-top: 0px;">Diagnosis and detection</h2>
 <p>In the diagnostic arena, RNA aptamers have been employed as molecular probes for the detection of various biomarkers. Their high affinity and specificity for target molecules allow for the development of sensitive and selective assays. For example, aptamers have been used to detect cancer biomarkers in blood samples, enabling early diagnosis and treatment of malignancies. Additionally, aptamers have been utilized in the development of biosensors for the detection of pathogens, toxins, and other harmful substances, providing a rapid and reliable means of monitoring environmental and food safety. In addition, they can detect and image various biomolecules or cellular processes, enhancing the sensitivity and specificity of diagnostic assays<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.</p>
 <div class="blowheader_box">Diagnosis of infectious diseases and pathogens</div>      
 <p>In the evolving field of diagnostics for infectious diseases, RNA aptamers have emerged as a powerful tool for the detection of parasites, bacteria, prion protein, and viruses. In the context of viral detection, RNA aptamers have been developed to target conserved regions of viral genomes. These aptamers can be used in diagnostic assays such as reverse transcription-polymerase chain reaction (RT-PCR) or isothermal amplification techniques, enhancing the sensitivity and specificity of viral detection. The ability to rapidly detect viral infections, especially those caused by emerging or re-emerging viruses, is crucial for effective disease control and management. Another important application is in infectious disease diagnostics. RNA aptamers can be designed to recognize viral proteins, enabling the rapid and precise detection of viral pathogens such as HIV, hepatitis C virus (HCV), and influenza. These aptamer-based diagnostic tools can be particularly valuable in resource-limited settings where quick and accurate detection is crucial for disease management and control<sup>[<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.</p>
@@ -241,9 +284,6 @@ div.content-section a[id^="ref"] {
 <div id="section3-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
 
         
 </div>
@@ -253,7 +293,7 @@ div.content-section a[id^="ref"] {
 <p>RNA aptamers can be used as therapeutic agents to modulate the activity of proteins or other targets involved in disease pathways. RNA aptamers have shown great promise as therapeutic agents, primarily due to their high specificity and low immunogenicity compared to antibodies. The therapeutic potential of RNA aptamers is particularly promising. Their ability to bind tightly and specifically to target proteins has enabled the development of aptamer-based therapeutics that can inhibit the function of disease-causing proteins. Aptamers have been used to target a wide range of proteins, including growth factors, receptors, enzymes, and transcription factors, with the potential to treat a variety of diseases, including cancer, inflammatory disorders, and infectious diseases. Furthermore, aptamers can be conjugated to therapeutic payloads, such as cytotoxic drugs or radioactive isotopes, enabling targeted delivery of therapeutics to diseased cells while minimizing systemic toxicity<sup>[<a href="#ref7" style="color:#520049">7</a></sup><sup>,<a href="#ref13" style="color:#520049">13</a></sup><sup>,<a href="#ref14" style="color:#520049">14</a></sup><sup>,<a href="#ref15" style="color:#520049">15</a></sup><sup>]</sup>.</p>
 <p>The following table will give some examples of RNA aptamers cases.</p>
 <div style="display: flex; justify-content: center;"></div>
-<img src="/images/applications/ͼ4.svg" alt="drawing" style="width:500px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<img src="/images/applications/ͼ4.svg" alt="drawing" style="height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div id="section4-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
@@ -267,9 +307,7 @@ div.content-section a[id^="ref"] {
 <div id="section5-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
+
 
 
 </div>
@@ -282,10 +320,6 @@ div.content-section a[id^="ref"] {
 <div id="section6-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
-
 
 
 </div>
@@ -299,9 +333,7 @@ div.content-section a[id^="ref"] {
 <div id="section7-table">
     <!-- 表格将通过JavaScript动态加载 -->
 </div>
-<br>
-<br>
-<br>
+
 
 
 </div>
@@ -310,273 +342,120 @@ div.content-section a[id^="ref"] {
                 
 <a id="ref1"></a><font><strong>[1] In vitro selection of RNA molecules that bind specific ligands.</strong></font><br />
 Ellington, A. D., & Szostak, J. W.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/1697402/" target="_blank" style="color:#520049">Nature, 346(6287), 818–822. (1990)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/1697402/" target="_blank" style="color:#520049">Nature, 346(6287), 818–822. (1990)</a>
 <br/>
             
 <a id="ref2"></a><font><strong>[2] Systematic evolution of ligands by exponential enrichment: RNA ligands to bacteriophage T4 DNA polymerase.</strong></font><br />
 Tuerk, C., & Gold, L.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049">Science (New York, N.Y.), 249(4968), 505–510. (1990)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/2200121/" target="_blank" style="color:#520049">Science (New York, N.Y.), 249(4968), 505–510. (1990)</a>
 <br/>
             
 <a id="ref3"></a><font><strong>[3] Aptamers as targeted therapeutics: current potential and challenges.</strong></font><br />
 Zhou, J., & Rossi, J.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
 <br/>
             
 <a id="ref4"></a><font><strong>[4] Oligonucleotide aptamers for pathogen detection and infectious disease control.</strong></font><br />
 Wan, Q., Liu, X., & Zu, Y.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/34522231/" target="_blank" style="color:#520049">Theranostics, 11(18), 9133–9161. (2021)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/34522231/" target="_blank" style="color:#520049">Theranostics, 11(18), 9133–9161. (2021)</a>
 <br/>
             
 <a id="ref5"></a><font><strong>[5] Aptamers in diagnostics and treatment of viral infections.</strong></font><br />
 Wandtke, T., Woźniak, J., & Kopiński, P.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/25690797/" target="_blank" style="color:#520049">Viruses, 7(2), 751–780. (2015)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25690797/" target="_blank" style="color:#520049">Viruses, 7(2), 751–780. (2015)</a>
 <br/>
             
 <a id="ref6"></a><font><strong>[6] Translation of aptamers toward clinical diagnosis and commercialization.</strong></font><br />
 Liu, S., Xu, Y., Jiang, X., Tan, H., & Ying, B.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/35364525/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 208, 114168. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35364525/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 208, 114168. (2022)</a>
 <br/>
             
 <a id="ref7"></a><font><strong>[7] Aptamers in the Therapeutics and Diagnostics Pipelines.</strong></font><br />
 Kaur, H., Bruno, J. G., Kumar, A., & Sharma, T. K.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30128033/" target="_blank" style="color:#520049">Theranostics, 8(15), 4016–4032. (2018)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30128033/" target="_blank" style="color:#520049">Theranostics, 8(15), 4016–4032. (2018)</a>
 <br/>
             
 <a id="ref8"></a><font><strong>[8] Aptamers used for molecular imaging and theranostics - recent developments.</strong></font><br />
 Bohrmann, L., Burghardt, T., Haynes, C., Saatchi, K., & Häfeli, U. O.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/35673581/" target="_blank" style="color:#520049">Theranostics, 12(9), 4010–4050. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/35673581/" target="_blank" style="color:#520049">Theranostics, 12(9), 4010–4050. (2022)</a>
 <br/>
             
 <a id="ref9"></a><font><strong>[9] The chromatin accessibility landscape of primary human cancers.</strong></font><br />
 Corces, M. R., Granja, J. M., Shams, S., Louie, B. H., Seoane, J. A., Zhou, W., Silva, T. C., Groeneveld, C., Wong, C. K., Cho, S. W., Satpathy, A. T., Mumbach, M. R., Hoadley, K. A., Robertson, A. G., Sheffield, N. C., Felau, I., Castro, M. A. A., Berman, B. P., Staudt, L. M., Zenklusen, J. C., … Chang, H. Y.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30361341/" target="_blank" style="color:#520049">Science (New York, N.Y.), 362(6413), eaav1898. (2018)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30361341/" target="_blank" style="color:#520049">Science (New York, N.Y.), 362(6413), eaav1898. (2018)</a>
 <br/>
             
 <a id="ref10"></a><font><strong>[10] Engineered aptamers for molecular imaging.</strong></font><br />
 Lin, B., Xiao, F., Jiang, J., Zhao, Z., & Zhou, X.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/38098720/" target="_blank" style="color:#520049">Chemical science, 14(48), 14039–14061. (2023)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/38098720/" target="_blank" style="color:#520049">Chemical science, 14(48), 14039–14061. (2023)</a>
 <br/>
             
 <a id="ref11"></a><font><strong>[11] Aptamers: active targeting ligands for cancer diagnosis and therapy.</strong></font><br />
 Wu, X., Chen, J., Wu, M., & Zhao, J. X.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/25699094/" target="_blank" style="color:#520049">Theranostics, 5(4), 322–344. (2015)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/25699094/" target="_blank" style="color:#520049">Theranostics, 5(4), 322–344. (2015)</a>
 <br/>
             
 <a id="ref12"></a><font><strong>[12] Highly-efficient selection of aptamers for detecting various HPV subtypes in clinical samples.</strong></font><br />
 Yang, G., Li, W., Zhang, S., Hu, B., & Huang, Z.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/37604070/" target="_blank" style="color:#520049">Talanta, 266(Pt 2), 125039. (2024)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37604070/" target="_blank" style="color:#520049">Talanta, 266(Pt 2), 125039. (2024)</a>
 <br/>
             
 <a id="ref13"></a><font><strong>[13] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics.</strong></font><br />
 Gholikhani, T., Kumar, S., Valizadeh, H., Mahdinloo, S., Adibkia, K., Zakeri-Milani, P., Barzegar-Jalali, M., & Jimenez, B.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
 <br/>
             
 <a id="ref14"></a><font><strong>[14] Aptamers as Therapeutics.</strong></font><br />
 Nimjee, S. M., White, R. R., Becker, R. C., & Sullenger, B. A.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/28061688/" target="_blank" style="color:#520049">Annual review of pharmacology and toxicology, 57, 61–79. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/28061688/" target="_blank" style="color:#520049">Annual review of pharmacology and toxicology, 57, 61–79. (2017)</a>
 <br/>
             
 <a id="ref15"></a><font><strong>[15] Aptamers as targeted therapeutics: current potential and challenges.</strong></font><br />
 Zhou, J., & Rossi, J.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/27807347/" target="_blank" style="color:#520049">Nature reviews. Drug discovery, 16(3), 181–202. (2017)</a>
 <br/>
             
 <a id="ref16"></a><font><strong>[16] Advances in Aptamers-Based Applications in Breast Cancer: Drug Delivery, Therapeutics, and Diagnostics.</strong></font><br />
 Gholikhani, T., Kumar, S., Valizadeh, H., Mahdinloo, S., Adibkia, K., Zakeri-Milani, P., Barzegar-Jalali, M., & Jimenez, B.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36430951/" target="_blank" style="color:#520049">International journal of molecular sciences, 23(22), 14475. (2022)</a>
 <br/>
             
 <a id="ref17"></a><font><strong>[17] Molecular aptamers for drug delivery.</strong></font><br />
 Tan, W., Wang, H., Chen, Y., Zhang, X., Zhu, H., Yang, C., Yang, R., & Liu, C.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/21821299/" target="_blank" style="color:#520049">Trends in biotechnology, 29(12), 634–640. (2011)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/21821299/" target="_blank" style="color:#520049">Trends in biotechnology, 29(12), 634–640. (2011)</a>
 <br/>
             
 <a id="ref18"></a><font><strong>[18] Method for Confirming Cytoplasmic Delivery of RNA Aptamers.</strong></font><br />
 Dickey, D. D., Thomas, G. S., Dassie, J. P., & Giangrande, P. H.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/26472453/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 1364, 209–217. (2016)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/26472453/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 1364, 209–217. (2016)</a>
 <br/>
             
 <a id="ref19"></a><font><strong>[19] Genetically encoded RNA-based sensors with Pepper fluorogenic aptamer.</strong></font><br />
 Chen, Z., Chen, W., Reheman, Z., Jiang, H., Wu, J., & Li, X.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/37486780/" target="_blank" style="color:#520049">Nucleic acids research, 51(16), 8322–8336. (2023)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/37486780/" target="_blank" style="color:#520049">Nucleic acids research, 51(16), 8322–8336. (2023)</a>
 <br/>
             
 <a id="ref20"></a><font><strong>[20] Aptasensors for pesticide detection.</strong></font><br />
 Liu, M., Khan, A., Wang, Z., Liu, Y., Yang, G., Deng, Y., & He, N. <br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30738246/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 130, 174–184. (2019)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30738246/" target="_blank" style="color:#520049">Biosensors & bioelectronics, 130, 174–184. (2019)</a>
 <br/>
             
 <a id="ref21"></a><font><strong>[21] Nanomaterial based aptasensors for clinical and environmental diagnostic applications.</strong></font><br />
 Kaur, H., & Shorie, M.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/36131986/" target="_blank" style="color:#520049">Nanoscale advances, 1(6), 2123–2138. (2019)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/36131986/" target="_blank" style="color:#520049">Nanoscale advances, 1(6), 2123–2138. (2019)</a>
 <br/>
             
 <a id="ref22"></a><font><strong>[22] A tetracycline-dependent ribozyme switch allows conditional induction of gene expression in Caenorhabditis elegans.</strong></font><br />
 Wurmthaler, L. A., Sack, M., Gense, K., Hartig, J. S., & Gamerdinger, M. <br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/30700719/" target="_blank" style="color:#520049">Nature communications, 10(1), 491. (2019)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/30700719/" target="_blank" style="color:#520049">Nature communications, 10(1), 491. (2019)</a>
 <br/>
             
 <a id="ref23"></a><font><strong>[23] Ligand-dependent ribozymes.</strong></font><br />
 Felletti, M., & Hartig, J. S.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/27687155/" target="_blank" style="color:#520049">Wiley interdisciplinary reviews. RNA, 8(2), 10.1002/wrna.1395. (2017)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/27687155/" target="_blank" style="color:#520049">Wiley interdisciplinary reviews. RNA, 8(2), 10.1002/wrna.1395. (2017)</a>
 <br/>
             
 <a id="ref24"></a><font><strong>[24] Aptamers in RNA-based switches of gene expression.</strong></font><br />
 Spöring, M., Finke, M., & Hartig, J. S.<br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/31811992/" target="_blank" style="color:#520049">Current opinion in biotechnology, 63, 34–40. (2020)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/31811992/" target="_blank" style="color:#520049">Current opinion in biotechnology, 63, 34–40. (2020)</a>
 <br/>
-
-                    
-  
-</div>
-<script>
-var tables = [];
-    var currentSheet = 'sheet1';
-     $(document).ready(function() {
-    $.noConflict();
-    tables.push($('#reviewtable').DataTable({
-      dom: 'Bfrtip',
-      buttons: [
-        'copy', 'csv', 'excel', 'pdf', 'print'
-      ]
-    }));
-
-    tables.push($('#researchtable').DataTable({
-      dom: 'Bfrtip',
-      buttons: [
-        'copy', 'csv', 'excel', 'pdf', 'print'
-      ]
-    }));
-
-    tables.push($('#rnapretable').DataTable({
-      dom: 'Bfrtip',
-      buttons: [
-        'copy', 'csv', 'excel', 'pdf', 'print'
-      ]
-    }));
-    // Hide the search box for DataTables
-      $('#reviewtable_filter').css('display', 'none');
-      $('#researchtable_filter').css('display', 'none');
-      $('#rnapretable_filter').css('display', 'none');
-       
-
-      // Show the initial sheet (sheet1) and hide others
-    showSheet('sheet1');
-    hideAllSheetsExcept('sheet1');
-  });
-
-  function sortTable(columnIndex) {
-    // TODO: Add sorting logic based on the columnIndex
-  }
-
-  
-
-function downloadExcel() {
-  var selectElement = document.getElementById('downloadOptions');
-  var selectedValue = selectElement.value;
-
-  // Check if a valid option was selected
-  if (selectedValue !== '') {
-    // Create a temporary link element with the download URL
-    var link = document.createElement('a');
-    link.href = selectedValue;
-    link.download = selectedValue.split('/').pop(); // Set the filename to the last part of the URL
-    document.body.appendChild(link);
-
-    // Trigger a click event on the link to start the download
-    link.click();
-
-    // Remove the link from the DOM
-    document.body.removeChild(link);
-  }
-}
-  
-  
-  function showSheet(sheetId) {
-// add .button.clicked  style in the begining style
-    // Hide the current sheet
-    if (currentSheet) {
-        var currentSheetElement = document.getElementById(currentSheet);
-        currentSheetElement.style.display = 'none';
-    }
-
-    // Show the selected sheet
-    var sheet = document.getElementById(sheetId);
-    sheet.style.display = 'block';
-
-    // Update the current sheet
-    currentSheet = sheetId;
-
-    // Get all buttons
-    var buttons = document.querySelectorAll('.button');
-
-    // Remove clicked class from all buttons
-    buttons.forEach(function(btn) {
-        btn.classList.remove('clicked');
-    });
-
-    // Add clicked class to the clicked button using event.target
-    event.target.classList.add('clicked');
-}
-
-  function hideAllSheetsExcept(sheetId) {
-    var sheets = document.getElementsByClassName('sheet');
-    for (var i = 0; i < sheets.length; i++) {
-      var sheet = sheets[i];
-      if (sheet.id !== sheetId) {
-        sheet.style.display = 'none';
-      }
-    }
-    }
-
-    function showAllSheets() {
-      var sheets = document.getElementsByClassName('sheet');
-      for (var i = 0; i < sheets.length; i++) {
-        sheets[i].style.display = 'block';
-      }
-    }
-
-    function searchTables() {
-      var keyword = $('#searchBox').val().toLowerCase();
-
-      tables.forEach(function(table) {
-        table.search(keyword).draw();
-      });
-      // Filter the sheets based on search results
-    filterSheets();
-  }
-
-  function filterSheets() {
-    var keyword = $('#searchBox').val().toLowerCase();
-    var sheets = document.getElementsByClassName('sheet');
-
-    for (var i = 0; i < sheets.length; i++) {
-      var sheet = sheets[i];
-      var table = tables[i];
-
-      var displaySheet = false;
-
-      table.rows().eq(0).each(function(index) {
-        var row = table.row(index);
-        var rowData = row.data().join(' ').toLowerCase();
-        var display = rowData.includes(keyword) ? '' : 'none';
-        row.nodes().to$().css('display', display);
-
-        if (display !== 'none') {
-          displaySheet = true;
-        }
-      });
-
-      if (displaySheet) {
-        $('#' + sheet.id).show();
-      } else {
-        $('#' + sheet.id).hide();
-      }
-    }
-  }  
-</script>
-<script src="{{ site.baseurl }}/js/text-emphasis.js"></script>
-</body>
-</html>

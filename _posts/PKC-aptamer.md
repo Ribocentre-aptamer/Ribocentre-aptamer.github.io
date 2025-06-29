@@ -1,80 +1,22 @@
 ---
-layout: post
-title:  "PKC aptamer"
-date:   2024-05-14 00:00:00
+layout: theophylline_style
+title: PKC aptamer
+date: 2024-05-14 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:49.69
+- GC:51.849999999999994
+- Length:159
+- Length:162
+- Named:Protein kinase C beta II_PKC 10
+- Named:Protein kinase C beta II_PKC 6
+- Type:Proteins
+- Year:1994
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -88,23 +30,20 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1994, Conrad, R. et al. have used vitro selection technology to isolate RNA aptamers from a random sequence pool that can bind to, and specifically inhibit, protein kinase C beta II. Two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities and inhibit activation with unprecedented selectivity. In 1996, they used a simple filter binding assay, the aptamers have been used to detect protein kinase C (PKC) introduced into a cell extract<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 1994, Conrad, R. et al. have used vitro selection technology to isolate RNA aptamers from a random sequence pool that can bind to, and specifically inhibit, protein kinase C beta II. Two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities and inhibit activation with unprecedented selectivity. In 1996, they used a simple filter binding assay, the aptamers have been used to detect protein kinase C (PKC) introduced into a cell extract<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The RNA pool used in these selections contained a 120-nucleotide randomized region.  RNA was eluted from filters with 400 pl of 4 M guanidine thiocyanate, precipitated, and amplified by reverse transcription, polymerase chain reaction, and T7 transcription as described previously. After rounds 3,6,9,12, and 14 of selection, radiolabeled RNA pools were assayed for their ability to be co-retained with PKC PI1 on filters. A gel shift selection was carried out in cycles 10 and 13.  After 14 cycles of selection and amplification, two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>The RNA pool used in these selections contained a 120-nucleotide randomized region.  RNA was eluted from filters with 400 pl of 4 M guanidine thiocyanate, precipitated, and amplified by reverse transcription, polymerase chain reaction, and T7 transcription as described previously. After rounds 3,6,9,12, and 14 of selection, radiolabeled RNA pools were assayed for their ability to be co-retained with PKC PI1 on filters. A gel shift selection was carried out in cycles 10 and 13.  After 14 cycles of selection and amplification, two of the selected RNA aptamers bind to this isozyme of protein kinase C with nanomolar affinities<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>PKC-6: 5'-GGGAGAAUUCCGACCAGAGGCUUACAGAGUGUGCGUAAUGGCGUUCCCAAAUUCGGGCUGGGAACCGUUCGUUCGUGUUAUGCCCGUAGAUAUGGCAAGUCGCGGAUGCUCAGUACUACACUCUUGUGGUCAGUCACAUAUGUGCGUCUACAUGGAUCCUCA-3'<br>PKC-10: 5'-GGGAGAAUUCCGACCAGAGGUUGUUAAGUGCGAGUGUGUUUUACUCCGAUGAUACGGGGAGCGUUAGAGUCUUAUGACCUUGUUACUCCACGUCACUGUCCAAGUCACUCCGCGUCAUAGCAGUCGGAUCCUGUACAUAUGUGCGUCUACAUGGAUCCUCA-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>PKC-6: 5'-GGGAGAAUUCCGACCAGAGGCUUACAGAGUGUGCGUAAUGGCGUUCCCAAAUUCGGGCUGGGAACCGUUCGUUCGUGUUAUGCCCGUAGAUAUGGCAAGUCGCGGAUGCUCAGUACUACACUCUUGUGGUCAGUCACAUAUGUGCGUCUACAUGGAUCCUCA-3'<br></p>
+<p>PKC-10: 5'-GGGAGAAUUCCGACCAGAGGUUGUUAAGUGCGAGUGUGUUUUACUCCGAUGAUACGGGGAGCGUUAGAGUCUUAUGACCUUGUUACUCCACGUCACUGUCCAAGUCACUCCGCGUCAUAGCAGUCGGAUCCUGUACAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/PKC_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -113,16 +52,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>In cell biology, Protein kinase C, commonly abbreviated to PKC (EC 2.7.11.13), is a family of protein kinase enzymes that are involved in controlling the function of other proteins through the phosphorylation of hydroxyl groups of serine and threonine amino acid residues on these proteins, or a member of this family. PKC enzymes in turn are activated by signals such as increases in the concentration of diacylglycerol (DAG) or calcium ions (Ca2+). Hence PKC enzymes play important roles in several signal transduction cascades.-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -148,7 +85,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -178,8 +115,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -260,8 +197,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -286,7 +221,7 @@ Conrad, R., & Ellington, A. D.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -327,8 +262,7 @@ Conrad, R., & Ellington, A. D.<br />
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -339,37 +273,7 @@ Conrad, R., & Ellington, A. D.<br />
   });
     </script>
 
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+
 
 
     </html>

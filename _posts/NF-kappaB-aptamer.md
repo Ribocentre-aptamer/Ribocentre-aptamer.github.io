@@ -1,9 +1,20 @@
 ---
-layout: post
-title:  "NF-kappaB P50 aptamer"
-date:   2024-03-01 00:00:00
+layout: theophylline_style
+title: NF-kappaB P50 aptamer
+date: 2024-03-01 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:40.82
+- GC:41.0
+- Length:29
+- Length:98
+- Named:NF-kappaB P50_RNA aptamer 3
+- Named:NF-kappaB P50_α-p50 RNA aptamer
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
 <head>
@@ -20,8 +31,6 @@ categories: Aptamer
   /* 移除重复的样式定义，使用header.html中的统一样式 */
 </style>
 </head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -108,13 +117,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1999, L.J.Maher 3rd isolated an aptamer that binds to NF-kappaB p50, and its crystal structure was determined in 2003. The results of competition experiments demonstrated that the binding of the RNA aptamer blocked the ability of NF-kappa B to bind to duplex DNA. Expression of this aptamer structure within heterologous nuclear RNA transcripts may provide a novel strategy to inhibit NF-kappa B function in vivo. In 2008, He selected an RNA aptamer against NF-kappaB p65 and reported the characterisation of these aptamers with respect to NF-kappaB target specificity, affinity, minimal sequence requirements, secondary structure, and competition with DNA kappaB sites<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1999, L.J.Maher 3rd identified RNA aptamers capable of tightly binding p50<sub>2</sub> using cycles of in vitro affinity selection and amplification. The initial RNA pool comprised approximately 10<sup>14</sup> different sequences, consisting of a core of 60 random nucleotides flanked by conserved sequences. Fourteen cycles of selection and amplification were performed, and a dominant RNA was detected as 21 of 26 cloned and sequenced cDNAs<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>    
 
@@ -133,7 +140,7 @@ categories: Aptamer
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div>
 <p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/NF-kB_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -146,7 +153,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -242,8 +249,7 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/1OOA-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -263,7 +269,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1OOA at 2.45 Å resolution. NF-kB(p50)  protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with NF-kB(p50) protein.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/NF-kB_aptamer_bingding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -281,7 +287,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>Nitrocellulose filter binding experiments were employed to estimate the equilibrium dissociation constants of different RNA aptamer/NF-κB complexes. Binding reactions containing variable concentrations of NF-κB protein were assembled in binding buffer with a known concentration (typically 0.85 nM) of end-labeled RNA aptamer. Binding reactions were incubated for 10 min at room temperature and then filtered over 0.45 µm nitrocellulose filters ( Millipore catalog no. HAWP02500).  Filters were washed with binding buffer, and radioactivity was determined by scintillation counting. p50dd: p50 dimerization domain. p65dd: p65 dimerization domain<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -339,7 +345,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -369,7 +375,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/NF-kB_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -384,7 +390,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -456,8 +462,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -524,7 +528,7 @@ Wurster, S. E., Bida, J. P., Her, Y. F., & Maher, L. J., 3rd.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

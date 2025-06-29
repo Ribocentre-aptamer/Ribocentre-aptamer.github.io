@@ -3,161 +3,166 @@
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#CC00FF;}
+	.st0{fill:#CF3E7D;}
 	.st1{font-family:'ArialMT';}
-	.st2{font-size:21.7858px;}
-	.st3{fill:#FFCC99;}
-	.st4{fill:none;stroke:#000000;stroke-width:0.38;stroke-miterlimit:3.05;}
-	.st5{font-size:17.4286px;}
-	.st6{font-size:16.7024px;}
-	.st7{font-size:14.5239px;}
-	.st8{font-size:25px;}
-	.st9{fill:#80DB9E;}
-	.st10{fill:#FF9933;}
-	.st11{fill:#FF0000;}
-	.st12{font-size:15.9762px;}
-	.st13{fill:none;stroke:#000000;stroke-width:0.38;stroke-miterlimit:3.05;stroke-dasharray:11,3;}
+	.st2{font-size:19.3564px;}
+	.st3{fill:#084595;}
+	.st4{font-size:23.1089px;}
+	.st5{fill:none;stroke:#000000;stroke-miterlimit:3.05;}
+	.st6{font-size:15.4851px;}
+	.st7{font-size:14.8398px;}
+	.st8{font-size:12.9043px;}
+	.st9{font-size:20px;}
+	.st10{fill:#B83233;}
+	.st11{fill:#2EA103;}
+	.st12{fill:none;stroke:#000000;stroke-width:0.38;stroke-miterlimit:3.05;}
+	.st13{fill:#FF0000;}
+	.st14{font-size:14.1946px;}
+	.st15{fill:none;stroke:#000000;stroke-width:0.38;stroke-miterlimit:3.05;stroke-dasharray:11,3;}
+	.st16{font-size:19px;}
 </style>
 <g id="ID000010">
 	<g>
-		<text transform="matrix(1 0 0 1 187.5673 297.554)" class="st0 st1 st2">C</text>
+		<text transform="matrix(1 0 0 1 173.1406 299.6191)" class="st0 st1 st2">C</text>
 	</g>
 </g>
 <g id="ID000020">
-	<text transform="matrix(1 0 0 1 148.4183 256.1248)" class="st3 st1 st2">A</text>
+	<text transform="matrix(1 0 0 1 127.2959 264.7354)" class="st3 st1 st4">A</text>
 </g>
 <g id="ID000021">
-	<line class="st4" x1="240" y1="290.4" x2="203.2" y2="290.2"/>
+	<line class="st5" x1="219.7" y1="293.3" x2="187" y2="293.1"/>
 </g>
-<text transform="matrix(1 0 0 1 252.286 274.9554)" class="st1 st5">5</text>
-<text transform="matrix(1 0 0 1 261.9803 274.9554)" class="st1 st5">’</text>
-<text transform="matrix(1 0 0 1 285.6903 249.4803)" class="st1 st6">3</text>
-<text transform="matrix(1 0 0 1 294.9784 249.4803)" class="st1 st6">’</text>
+<text transform="matrix(1 0 0 1 230.6426 279.541)" class="st1 st6">5</text>
+<text transform="matrix(1 0 0 1 239.2559 279.541)" class="st1 st6">’</text>
+<text transform="matrix(1 0 0 1 260.3213 256.9072)" class="st1 st7">3</text>
+<text transform="matrix(1 0 0 1 268.5742 256.9072)" class="st1 st7">’</text>
 <g id="ID000011-2">
-	<text transform="matrix(1 0 0 1 241.4945 297.554)" class="st0 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 221.0537 299.6191)" class="st0 st1 st2">G</text>
 </g>
 <g id="ID000019-2">
-	<text transform="matrix(1 0 0 1 182.9491 277.722)" class="st3 st1 st2">A</text>
+	<text transform="matrix(1 0 0 1 169.0371 281.999)" class="st3 st1 st2">A</text>
 </g>
 <g id="ID000002-5">
-	<text transform="matrix(1 0 0 1 162.5721 270.0022)" class="st3 st1 st2">U</text>
+	<text transform="matrix(1 0 0 1 150.9326 275.1406)" class="st3 st1 st2">U</text>
 </g>
 <g id="ID000018">
-	<text transform="matrix(1 0 0 1 149.3733 288.0937)" class="st1 st7">10</text>
+	<text transform="matrix(1 0 0 1 139.2061 291.2139)" class="st1 st8">10</text>
 </g>
 <g id="ID000005-5">
-	<text transform="matrix(1 0 0 1 165.2587 211.0208)" class="st3 st1 st2">U</text>
+	<text transform="matrix(1 0 0 1 153.3193 222.7363)" class="st3 st1 st2">U</text>
 </g>
-<g id="ID000020-3">
-	<text transform="matrix(1 0 0 1 145.4843 221.4783)" class="st3 st1 st2">G</text>
-</g>
-<text transform="matrix(1 0 0 1 13.2549 32.4434)" class="st1 st8">488 aptamer</text>
+<text transform="matrix(1 0 0 1 153.8664 28.6172)" class="st1 st9">488 aptamer</text>
 <g id="ID000020-3-2">
-	<text transform="matrix(1 0 0 1 133.8436 238.7473)" class="st3 st1 st2">A</text>
+	<text transform="matrix(1 0 0 1 127.2537 246.3125)" class="st3 st1 st2">A</text>
 </g>
 <g id="ID000010-2">
-	<text transform="matrix(1 0 0 1 243.201 201.9656)" class="st9 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 222.5703 214.6914)" class="st10 st1 st2">G</text>
 </g>
 <g id="ID000020-2">
-	<text transform="matrix(1 0 0 1 183.0721 201.595)" class="st9 st1 st2">U</text>
+	<text transform="matrix(1 0 0 1 169.1465 214.3623)" class="st10 st1 st2">U</text>
 </g>
 <g id="ID000021-2">
-	<line class="st4" x1="240" y1="192.9" x2="203.2" y2="192.6"/>
+	<line class="st5" x1="219.7" y1="206.6" x2="187" y2="206.4"/>
 </g>
 <g id="ID000019-3">
-	<text transform="matrix(1 0 0 1 243.1649 178.8289)" class="st9 st1 st2">C</text>
+	<text transform="matrix(1 0 0 1 222.5381 194.1353)" class="st10 st1 st2">C</text>
 </g>
 <g id="ID000003-2">
-	<text transform="matrix(1 0 0 1 243.1649 121.2054)" class="st9 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 222.5381 142.937)" class="st10 st1 st2">G</text>
 </g>
 <g id="ID000005-5-2">
-	<text transform="matrix(1 0 0 1 181.8593 119.9563)" class="st9 st1 st2">C</text>
+	<text transform="matrix(1 0 0 1 168.0693 141.8276)" class="st10 st1 st2">C</text>
 </g>
 <g id="ID000010-2-2">
-	<text transform="matrix(1 0 0 1 243.1649 142.4251)" class="st9 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 222.5381 161.7905)" class="st10 st1 st2">G</text>
 </g>
 <g id="ID000020-3-3">
-	<text transform="matrix(1 0 0 1 183.0721 141.9021)" class="st9 st1 st2">C</text>
+	<text transform="matrix(1 0 0 1 169.1465 161.3257)" class="st10 st1 st2">C</text>
 </g>
 <g id="ID000020-3-4">
-	<text transform="matrix(1 0 0 1 181.8593 178.0081)" class="st9 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 168.0693 193.4058)" class="st10 st1 st2">G</text>
 </g>
-<line class="st4" x1="239.9" y1="134.3" x2="203.2" y2="134.1"/>
-<line class="st4" x1="239.9" y1="170.5" x2="203.2" y2="170.2"/>
-<line class="st4" x1="239.9" y1="112.8" x2="203.2" y2="112.6"/>
+<line class="st5" x1="219.6" y1="154.6" x2="187" y2="154.4"/>
+<line class="st5" x1="219.6" y1="186.7" x2="187" y2="186.5"/>
+<line class="st5" x1="219.6" y1="135.5" x2="187" y2="135.3"/>
 <g id="ID000002-5-2">
-	<text transform="matrix(1 0 0 1 163.538 158.9895)" class="st9 st1 st2">U</text>
+	<text transform="matrix(1 0 0 1 151.791 176.5073)" class="st10 st1 st2">U</text>
 </g>
 <g id="ID000003-2-2">
-	<text transform="matrix(1 0 0 1 243.1649 76.8133)" class="st9 st1 st2">U</text>
+	<text transform="matrix(1 0 0 1 222.5381 103.4956)" class="st10 st1 st2">U</text>
 </g>
 <g id="ID000005-5-3">
-	<text transform="matrix(1 0 0 1 184.2343 76.0657)" class="st9 st1 st2">A</text>
+	<text transform="matrix(1 0 0 1 170.1797 102.8315)" class="st10 st1 st2">A</text>
 </g>
 <g id="ID000010-2-3">
-	<text transform="matrix(1 0 0 1 243.1649 98.0325)" class="st9 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 222.5381 122.3481)" class="st10 st1 st2">G</text>
 </g>
 <g id="ID000020-3-5">
-	<text transform="matrix(1 0 0 1 183.0721 98.011)" class="st9 st1 st2">C</text>
+	<text transform="matrix(1 0 0 1 169.1465 122.3286)" class="st10 st1 st2">C</text>
 </g>
-<line class="st4" x1="239.9" y1="89.9" x2="203.2" y2="89.7"/>
-<line class="st4" x1="239.9" y1="68.4" x2="203.2" y2="68.2"/>
+<line class="st5" x1="219.6" y1="115.1" x2="187" y2="114.9"/>
+<line class="st5" x1="219.6" y1="96" x2="187" y2="95.8"/>
 <g id="ID000003-2-3">
-	<text transform="matrix(1 0 0 1 246.8116 56.3851)" class="st10 st1 st2">U</text>
+	<text transform="matrix(1 0 0 1 225.7783 85.3452)" class="st11 st1 st2">U</text>
 </g>
 <g id="ID000005-5-4">
-	<text transform="matrix(1 0 0 1 174.6194 57.6081)" class="st10 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 161.6367 86.4321)" class="st11 st1 st2">G</text>
 </g>
 <g id="ID000005-5-5">
-	<text transform="matrix(1 0 0 1 194.0167 34.3022)" class="st10 st1 st2">U</text>
+	<text transform="matrix(1 0 0 1 180.8711 65.7251)" class="st11 st1 st2">U</text>
 </g>
 <g id="ID000003-2-4">
-	<text transform="matrix(1 0 0 1 223.2561 32.1819)" class="st10 st1 st2">C</text>
+	<text transform="matrix(1 0 0 1 206.8496 65.8413)" class="st11 st1 st2">C</text>
 </g>
 <g id="ID000010-3">
 	<g>
-		<text transform="matrix(1 0 0 1 188.3514 320.6546)" class="st0 st1 st2">C</text>
+		<text transform="matrix(1 0 0 1 173.8379 320.1445)" class="st0 st1 st2">C</text>
 	</g>
 </g>
 <g id="ID000021-3">
-	<line class="st4" x1="239.7" y1="313.5" x2="202.9" y2="313.3"/>
+	<line class="st5" x1="219.5" y1="313.8" x2="186.8" y2="313.6"/>
 </g>
 <g id="ID000011-2-2">
-	<text transform="matrix(1 0 0 1 241.4945 322.3177)" class="st0 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 221.0537 321.6221)" class="st0 st1 st2">G</text>
 </g>
 <g id="ID000010-4">
 	<g>
-		<text transform="matrix(1 0 0 1 188.1268 340.7845)" class="st0 st1 st2">C</text>
+		<text transform="matrix(1 0 0 1 173.6377 338.0293)" class="st0 st1 st2">C</text>
 	</g>
 </g>
 <g id="ID000021-4">
-	<line class="st4" x1="239.5" y1="333.6" x2="202.7" y2="333.4"/>
+	<line class="st5" x1="219.3" y1="331.6" x2="186.6" y2="331.5"/>
 </g>
 <g id="ID000011-2-3">
-	<text transform="matrix(1 0 0 1 241.4945 342.4475)" class="st0 st1 st2">G</text>
+	<text transform="matrix(1 0 0 1 221.0537 339.5068)" class="st0 st1 st2">G</text>
 </g>
 <g id="ID000010-5">
 	<g>
-		<text transform="matrix(1 0 0 1 186.9794 360.6897)" class="st0 st1 st2">G</text>
+		<text transform="matrix(1 0 0 1 172.6182 355.7148)" class="st0 st1 st2">G</text>
 	</g>
 </g>
 <g id="ID000021-5">
-	<line class="st4" x1="240.9" y1="352" x2="204.1" y2="351.8"/>
+	<line class="st5" x1="220.5" y1="348" x2="187.8" y2="347.8"/>
 </g>
 <g id="ID000011-2-4">
-	<text transform="matrix(1 0 0 1 241.4945 362.3518)" class="st0 st1 st2">C</text>
+	<text transform="matrix(1 0 0 1 221.0537 357.1924)" class="st0 st1 st2">C</text>
 </g>
-<line class="st4" x1="268.6" y1="214.9" x2="259.2" y2="203.5"/>
+<line class="st12" x1="245.1" y1="226.2" x2="236.8" y2="216.1"/>
 <g id="ID000002-3">
-	<text transform="matrix(1 0 0 1 272.0887 230.8753)" class="st11 st1 st2">N</text>
-	<text transform="matrix(1 0 0 1 287.8251 230.8753)" class="st11 st1 st12">12</text>
+	<text transform="matrix(1 0 0 1 248.2373 240.377)" class="st13 st1 st2">N</text>
+	<text transform="matrix(1 0 0 1 262.2178 240.377)" class="st13 st1 st14">12</text>
 </g>
-<text transform="matrix(1 0 0 1 277.7005 138.6256)" class="st1 st7">30</text>
-<path class="st13" d="M192.9,365.9c4.8,14.6,18.8,23.8,33,22.5c12-1.1,22.4-9.6,26.6-21.6"/>
+<text transform="matrix(1 0 0 1 253.2227 158.4146)" class="st1 st8">30</text>
+<path class="st15" d="M177.9,360.3c4.3,13,16.7,21.1,29.3,20c10.7-1,19.9-8.5,23.6-19.2"/>
 <g id="ID000021-2_1_">
-	<line class="st4" x1="179.3" y1="275.6" x2="169" y2="279.9"/>
+	<line class="st12" x1="165.8" y1="280.1" x2="156.6" y2="283.9"/>
 </g>
 <g id="ID000021-2_2_">
-	<line class="st4" x1="273.9" y1="134.4" x2="263.3" y2="134.2"/>
+	<line class="st12" x1="249.8" y1="154.7" x2="240.4" y2="154.5"/>
+</g>
+<g id="ID000020-3-4_1_">
+	<g>
+		<text transform="matrix(1 0 0 1 135.7013 230.7509)" class="st3 st1 st16">G</text>
+	</g>
 </g>
 </svg>

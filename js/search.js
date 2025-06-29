@@ -81,7 +81,7 @@ const SearchModule = {
             this.searchResultsCount = document.createElement('span');
             this.searchResultsCount.id = 'searchResultsCount';
             this.searchResultsCount.className = 'search-results-count';
-            this.searchResultsCount.textContent = '找到 0 个结果';
+            this.searchResultsCount.textContent = 'Found 0 results';
             header.appendChild(this.searchResultsCount);
             
             const closeBtn = document.createElement('button');
@@ -279,7 +279,7 @@ const SearchModule = {
         }
 
         // 显示加载状态
-        this.searchResultsList.innerHTML = '<div style="padding: 15px; text-align: center; color: #666;">正在搜索...</div>';
+        this.searchResultsList.innerHTML = '<div style="padding: 15px; text-align: center; color: #666;">Searching...</div>';
         this.showSearchResults();
 
         const searchPaths = ['./search.json', '/search.json', 'search.json'];
@@ -289,8 +289,8 @@ const SearchModule = {
             const data = await SearchUtils.fetchData(searchPaths);
             this.processSearchResults(data, query);
         } catch (e) {
-            console.error('搜索数据加载失败', e);
-            this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">无法加载搜索数据，请稍后再试。</div>';
+            console.error('Failed to load search data', e);
+            this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156;">Unable to load search data, please try again later.</div>';
         }
     },
 
@@ -309,8 +309,8 @@ const SearchModule = {
     // 渲染搜索结果
     renderResults(searchTime) {
         if (this.allSearchResults.length === 0) {
-            this.searchResultsCount.textContent = '找到 0 个结果';
-            this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">没有找到相关结果，请尝试其他关键词。</div>';
+            this.searchResultsCount.textContent = 'Found 0 results';
+            this.searchResultsList.innerHTML = '<div style="padding: 20px; text-align: center; color: #4d5156; font-size: 16px;">No relevant results found, please try other keywords.</div>';
             return;
         }
 
@@ -319,24 +319,22 @@ const SearchModule = {
         const endIndex = Math.min(startIndex + this.resultsPerPage, this.allSearchResults.length);
         const currentResults = this.allSearchResults.slice(startIndex, endIndex);
 
-        // 更新结果计数
-        this.searchResultsCount.textContent = `找到 ${this.allSearchResults.length} 个结果 (用时 ${searchTime} 毫秒)`;
+        // Update result count 更新结果计数
+        this.searchResultsCount.textContent = `Found ${this.allSearchResults.length} results (in ${searchTime} ms)`;
 
         // 构建结果HTML
         let html = '';
         const query = this.mainSearchInput.value.trim();
 
-        currentResults.forEach(item => {
+        currentResults.forEach((item, idx) => {
             const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
             
-            html += `<div class="search-result-item" data-url="${item.url || '#'}">
-                <div class="search-result-title">${highlightedTitle}</div>
-                ${item.category ? `<div style="color: #70757a; font-size: 12px; margin-bottom: 5px;">${this.highlightKeywords(item.category, query)}</div>` : ''}
-                <div class="search-result-description">${this.getContentPreview(item.content || '', query)}</div>
-                <div style="display: flex; justify-content: space-between; margin-top: 5px; font-size: 12px; color: #70757a;">
-                    ${item.tags ? `<div style="color: #520049;">${this.highlightKeywords(item.tags, query)}</div>` : '<div></div>'}
-                    ${item.date ? `<div>${item.date}</div>` : '<div></div>'}
+            html += `<div class="result-item-list search-result-item result-page" data-url="${item.url || '#'}">
+                <div class="result-header">
+                    <span class="result-index">${startIndex + idx + 1}</span>
+                    <h3 class="result-title"><a href="${item.url || '#'}" target="_blank">${highlightedTitle}</a></h3>
                 </div>
+                <div class="result-description">${this.getContentPreview(item.content || '', query)}</div>
             </div>`;
         });
 
@@ -389,6 +387,6 @@ const SearchModule = {
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('页面加载完成，初始化搜索模块...');
+    console.log('Page loaded, initializing search module...');
     SearchModule.init();
 }); 

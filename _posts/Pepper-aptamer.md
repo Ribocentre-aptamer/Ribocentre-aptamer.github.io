@@ -1,92 +1,21 @@
 ---
-layout: post
-title:  "Pepper aptamer"
-date:   2024-03-26 00:00:00
+layout: theophylline_style
+title: Pepper aptamer
+date: 2024-03-26 00:00:00
 author: Jiali Wang, Bo Fu
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:76.0
+- Length:49
+- Named:HBC_Pepper aptamer
+- Type:Small molecules
+- Year:2019
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-.header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
+
 
 
 <div class="side-nav">
@@ -205,15 +134,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2019, Yang, Y et al. used the SELEX method to select aptamers that bind to HBC, identifying an RNA aptamer named 'Pepper' with its HBC complex dubbed 'Pepper530'. In 2021, Ren, A et al. determined the high-resolution X-ray crystal structures of Pepper-HBC and Pepper-HBC-like fluorophore complexes. In 2022, Piccirilli, J. A et al. employed antibody-assisted crystallography to reveal the structures of Pepper bound to HBC530 and HBC599 at 2.3 Å and 2.7 Å resolutions, respectively. Despite variations in space groups and lattice packing, the overall structures reported by both Piccirilli, J. A et al. and Yang, Y et al. show strong similarity. The analysed structures by Piccirilli, J. A et al. underscore the functional significance of the observed 3D architecture. HBC530 and HBC599 are analogues of the fluorescent molecule HBC<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In vitro selection experiments involve constructing a single-stranded (ssDNA) library that contains two 26-base random stretches, separated by a 12-base fixed sequence and flanked by constant regions at the 5' and 3' ends for PCR amplification and in vitro transcription. This ssDNA library was then used in a PCR reaction to gently amplify the library and create double-stranded DNA (dsDNA) templates for in vitro RNA synthesis. Phenol-chloroform extraction and ethanol precipitation were used to purify the RNA transcripts. RNA binding to HBC was achieved through affinity chromatography. After eight rounds, the complementary DNA was cloned into the pGEM-T Easy vector (Promega) and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+<p>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -229,7 +154,7 @@ categories: Aptamer
 <p>Ren, A. et al. determined the structures of complexes formed by the Pepper aptamer bound with its cognate HBC or HBC-like fluorophores at high resolution using X-ray crystallography. The structure of the Pepper-HBC complex was refined to a high resolution of 1.64 Å. The PDB ID for this structure is 7EOH<sup>[<a href="#ref2" style="color:#520049" >2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/HBC_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -242,7 +167,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -351,8 +276,7 @@ struct_asym_id: 'A',
         customData:{
         url:'/pdbfiles/HBC-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -374,7 +298,7 @@ struct_asym_id: 'A',
 <p>Piccirilli, J.A. et al. determined the structures of complexes formed by the Pepper aptamer bound with its cognate HBC530 or HBC599 at high resolution using X-ray crystallography. The structure of the Pepper aptamer binding to both HBC530 and HBC599 is identical, yet the binding ligands differ. BL3-6 Fab serves as a molecular chaperone protein for assisting in crystallization. The structure of the Pepper-HBC599 complex was refined to a high resolution of 2.7 Å. The PDB ID for this structure is 7U0Y<sup>[<a href="#ref3" style="color:#520049" >3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/HBC599_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -387,7 +311,7 @@ struct_asym_id: 'A',
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -548,8 +472,7 @@ struct_asym_id: 'R',
         customData:{
         url:'/pdbfiles/HBC599-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer2 = document.getElementById('myViewer2');
@@ -569,7 +492,7 @@ struct_asym_id: 'R',
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7EOH with 1.64 Å resolution, as determined by X-ray crystallography. (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenyl-acetonitrile (HBC) (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HBC_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -581,7 +504,7 @@ struct_asym_id: 'R',
   <br>
             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 7U0Y with 2.7 Å resolution, as determined by X-ray crystallography. HBC599 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with HBC599.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/HBC599_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -601,7 +524,7 @@ struct_asym_id: 'R',
 <p class="blowheader_box">SELEX ligand</p>
 <p>To determine the dissociation rate constant (Kd) of the Pepper-HBC complex, Pepper RNA was synthesised with biotin labelling at the 3' end and coupled to streptavidin-coated sepharose beads (GE Healthcare). Two-photon fluorescence images were captured immediately after the beads were transferred from a buffer containing HBC to a HBC-free buffer. The quantitative fluorescence data were fitted to the exponential decay formula (y = y0 + ae^(-bx)). (4-((2-hydroxyethyl)(methyl)amino)-benzylidene)-cyanophenylacetonitrile (HBC). All other compounds are analogues of HBC<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -632,7 +555,7 @@ struct_asym_id: 'R',
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://www.medchemexpress.cn/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a>:</b> a leading global compound supplier, offering over 200 compound libraries with approximately 26 million compounds for drug discovery and research.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -656,7 +579,7 @@ struct_asym_id: 'R',
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/HBC_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/HBC_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -668,7 +591,7 @@ struct_asym_id: 'R',
 <p class="dot-paragraph"><b>ZINC ID:</b> a compound identifier used by the <a href="https://zinc15.docking.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>ZINC database</b></a>, one of the largest repositories for virtual screening of drug-like molecules.</p>
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>
@@ -744,8 +667,6 @@ struct_asym_id: 'R',
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -800,7 +721,7 @@ Yin, P., Ge, M., Xie, S., Zhang, L., Kuang, S., Nie, Z.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/38098702/" target="_blank" style="color:#520049">Chemical Science, 14(48) , 14131-14139. (2023)</a>
 <br />
                 
-<a id="ref11"></a><font><strong>[11] An RNA Methylation-Sensitive AIEgen-Aptamer reporting system for quantitatively evaluating m6A methylase and demethylase activities.</strong></font><br />
+<a id="ref11"></a><font><strong>[11] An RNA Methylation-Sensitive AIEgen aptamer reporting system for quantitatively evaluating m6A methylase and demethylase activities.</strong></font><br />
 Ying, X., Huang, C., Li, T., Li, T., Gao, M., Wang, F., Cao, J., Liu, J.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/38105499/" target="_blank" style="color:#520049">ACS chemical biology, 19(1) , 162-172. (2024)</a>
 <br />

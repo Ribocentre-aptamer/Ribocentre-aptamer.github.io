@@ -19,6 +19,14 @@ let nodeFrozenState = {  // 每个节点的冻结状态
     scatterChart: false  // C节点是否冻结
 };
 
+// 指定不触发自定义tooltip的元素选择器
+const ignoreTooltipElements = [
+    '#ligandChart', 
+    '#ligandChart .plotly', 
+    '#ligandChart .plotly .pie',
+    '#ligandChart .plotly .hoverlayer'
+];
+
 // 筛选条件
 let activeFilters = {
     years: new Set(),
@@ -82,7 +90,27 @@ function getYearColor(year, yearRange) {
 }
 
 // AMIR风格提示框 - 智能定位版本
-function showAmirTooltip(content, clientX, clientY) {
+function showAmirTooltip(content, clientX, clientY, event) {
+    // 检查事件源是否应该被忽略
+    if (event && event.target) {
+        const target = event.target;
+        
+        // 检查目标元素或其任何祖先元素是否在忽略列表中
+        if (ignoreTooltipElements.some(selector => {
+            // 检查元素是否匹配选择器
+            if (target.matches && target.matches(selector)) {
+                return true;
+            }
+            
+            // 检查元素的祖先是否匹配选择器
+            const closestMatch = target.closest && target.closest(selector);
+            return closestMatch != null;
+        })) {
+            // 如果元素应该被忽略，直接返回
+            return;
+        }
+    }
+    
     const tooltip = document.getElementById('amirTooltip');
     if (!tooltip) return;
     
@@ -179,47 +207,96 @@ function createFilterTag(text, onRemove) {
     return tag;
 }
 
-// 导出数据
+// 导出数据 - 注意：导出比表格显示多一列PubMed Link
 function exportData() {
     // 检查是否有数据可导出
     if (!filteredData || filteredData.length === 0) {
-        alert("No data available to export.");
+        alert("暂无数据可导出。");
         return;
     }
     
-    // 从第一条数据获取所有字段名
-    const firstItem = filteredData[0];
-    const headers = Object.keys(firstItem);
+    // 创建CSV内容 - 导出8列（表格显示7列 + PubMed Link列）
+    const csvRows = [];
     
-    // 创建CSV标题行
-    const headerRow = headers.join(",");
+    // 标题行 - 导出专用（比表格显示多一列PubMed Link）
+    const headers = [
+        'No.',
+        'Sequence Name', 
+        'Aptamer Name',
+        'Discovery Year',
+        'PubMed Link',
+        'Category',
+        'Sequence (5\'-3\')',
+        'Description'
+    ];
+    csvRows.push(headers.map(h => `"${h}"`).join(','));
     
-    // 创建数据行
-    const dataRows = filteredData.map(item => {
-        return headers.map(header => {
-            // 处理可能包含逗号的字段，用引号包裹
-            let value = item[header] !== undefined ? item[header] : "";
-            // 如果值包含逗号、引号或换行符，则用引号包裹并处理内部引号
-            if (typeof value === 'string' && (value.includes(',') || value.includes('"') || value.includes('\n'))) {
-                value = '"' + value.replace(/"/g, '""') + '"';
+    // 数据行 - 严格按照TableModule.updateDataTable()的逻辑处理
+    // 注意：除了PubMed Link列（仅在导出中包含），其他所有列都与表格显示保持一致
+    filteredData.forEach((item, index) => {
+        // 1. No. - 行号
+        const no = index + 1;
+        
+        // 2. Sequence Name - 使用Named字段，去除HTML标签
+        const sequenceName = (item['Named'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 3. Aptamer Name - 处理合并的aptamer名称
+        let aptamerName = item['Linker name(page name)'] || 'N/A';
+        const seqName = item['Named'] || '';
+        if (seqName && aptamerName !== 'N/A' && aptamerName.includes(',')) {
+            if (seqName.includes('CB-42')) {
+                aptamerName = 'CB-42 aptamer';
+            } else if (seqName.includes('B4-25')) {
+                aptamerName = 'B4-25 aptamer';
+            } else if (seqName.includes('Ribostamycin')) {
+                aptamerName = 'Ribostamycin aptamer';
+            } else if (seqName.includes('Paromomycin')) {
+                aptamerName = 'Paromomycin aptamer';
             }
-            return value;
-        }).join(",");
-    }).join("\n");
+        }
+        aptamerName = aptamerName.toString().replace(/<[^>]*>/g, '');
+        
+        // 4. Discovery Year - 使用Year字段
+        const year = (item['Year'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 5. PubMed Link - 使用Link to PubMed Entry字段
+        // 注意：此列仅在导出中包含，网页表格中不显示（保持界面简洁）
+        const pubmedLink = (item['Link to PubMed Entry'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 6. Category - 使用Category字段
+        const category = (item['Category'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 7. Sequence (5'-3') - 使用完整序列
+        const sequence = (item['Sequence'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 8. Description - 使用完整描述
+        const description = (item['Ligand Description'] || 'N/A').toString().replace(/<[^>]*>/g, '');
+        
+        // 构建行数据
+        const rowData = [no, sequenceName, aptamerName, year, pubmedLink, category, sequence, description];
+        const csvRow = rowData.map(val => {
+            const strVal = String(val).replace(/"/g, '""'); // 转义双引号
+            return `"${strVal}"`;
+        }).join(',');
+        
+        csvRows.push(csvRow);
+    });
     
-    // 组合完整CSV内容
-    const csvContent = "data:text/csv;charset=utf-8," + headerRow + "\n" + dataRows;
+    // 创建CSV内容
+    const csvContent = csvRows.join('\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     
     // 创建下载链接
-    const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "aptamer_data_export.csv");
+    const url = URL.createObjectURL(blob);
+    link.setAttribute("href", url);
+    link.setAttribute("download", `dashboard_export_${filteredData.length}_rows.csv`);
+    link.style.visibility = 'hidden';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
     
-    console.log(`Exported ${filteredData.length} records with ${headers.length} fields.`);
+    console.log(`✅ 已导出主页数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段（表格显示7列，导出增加PubMed Link列）`);
 }
 
 // 重置所有筛选

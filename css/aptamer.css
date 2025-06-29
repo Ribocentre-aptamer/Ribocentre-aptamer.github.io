@@ -134,8 +134,37 @@ textarea {
   background-color: #999;
 }
 
-/* 主表格样式 */
-.table {
+/* ============================================ */
+/* 智能颜色系统 - 数据驱动 */
+/* ============================================ */
+
+/* 颜色变量定义 */
+:root {
+  --salmon: #FFA07A;
+  --blue: #385dbf;
+  --orange: #f0a570;
+  --pink: #d75369;
+  --dark-blue: #3c58a5;
+  --light-blue: #14a0ec;
+  --rose: #e97e8d;
+  --green: #ade48b;
+  --purple: #9841da;
+  --lime: #77c670;
+  --crimson: #ab233a;
+  --teal: #2a5c76;
+  --aqua: #6ed9cd;
+  --forest: #396120;
+  --lavender: #bf97d1;
+  --light-blue-250: rgb(75, 158, 250);
+  --rose-142: rgb(220, 131, 142);
+  --light-blue-230: rgb(75, 158, 230);
+}
+
+/* ============================================ */
+/* 通用表格基础样式 */
+/* ============================================ */
+.table,
+.table2 {
   width: 100%;
   max-width: 100%;
   margin: 5px auto;
@@ -145,7 +174,8 @@ textarea {
   table-layout: fixed;
 }
 
-.table td {
+.table td,
+.table2 td {
   padding: 10px;
   text-align: center;
   color: white;
@@ -154,65 +184,173 @@ textarea {
   white-space: normal;
 }
 
-/* 表格行1的背景颜色 */
-.row1 td:nth-child(1) { background-color: #FFA07A; }
-.row1 td:nth-child(2) { background-color: #FFA07A; }
-.row1 td:nth-child(3) { background-color: #385dbf; }
-.row1 td:nth-child(4) { background-color: #385dbf; }
-.row1 td:nth-child(5) { background-color: #385dbf; }
-.row1 td:nth-child(6) { background-color: #385dbf; }
-.row1 td:nth-child(7) { background-color: #385dbf; }
-.row1 td:nth-child(8) { background-color: #385dbf; }
-.row1 td:nth-child(9) { background-color: #385dbf; }
+.table td:hover,
+.table2 td:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
 
-/* 表格行2的背景颜色 */
-.row2 td:nth-child(1) { background-color: #385dbf; }
-.row2 td:nth-child(2) { background-color: #385dbf; }
-.row2 td:nth-child(3) { background-color: #385dbf; }
-.row2 td:nth-child(4) { background-color: #385dbf; }
-.row2 td:nth-child(5) { background-color: #385dbf; }
-.row2 td:nth-child(6) { background-color: #385dbf; }
-.row2 td:nth-child(7) { background-color: #385dbf; }
-.row2 td:nth-child(8) { background-color: #f0a570; }
-.row2 td:nth-child(9) { background-color: #f0a570; }
+.table a,
+.table2 a {
+  color: white !important;
+  text-decoration: none !important;
+}
 
-/* 表格行3的背景颜色 */
-.row3 td:nth-child(1) { background-color: #f0a570; }
-.row3 td:nth-child(2) { background-color: #f0a570; }
-.row3 td:nth-child(3) { background-color: #f0a570; }
-.row3 td:nth-child(4) { background-color: #d75369; }
-.row3 td:nth-child(5) { background-color: #d75369; }
-.row3 td:nth-child(6) { background-color: #d75369; }
-.row3 td:nth-child(7) { background-color: #d75369; }
-.row3 td:nth-child(8) { background-color: #d75369; }
-.row3 td:nth-child(9) { background-color: #d75369; }
+.table a:hover,
+.table2 a:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
 
-/* 表格行4的背景颜色 */
-.row4 td:nth-child(1) { background-color: #d75369; }
-.row4 td:nth-child(2) { background-color: #d75369; }
-.row4 td:nth-child(3) { background-color: #d75369; }
-.row4 td:nth-child(4) { background-color: #d75369; }
-.row4 td:nth-child(5) { background-color: #3c58a5; }
-.row4 td:nth-child(6) { background-color: #3c58a5; }
-.row4 td:nth-child(7) { background-color: #14a0ec; }
-.row4 td:nth-child(8) { background-color: #14a0ec; }
-.row4 td:nth-child(9) { background-color: #14a0ec; }
+/* ============================================ */
+/* 智能颜色映射系统 */
+/* ============================================ */
 
-/* 表格行5的背景颜色 */
-.row5 td:nth-child(1) { background-color: #14a0ec; }
-.row5 td:nth-child(2) { background-color: #14a0ec; }
-.row5 td:nth-child(3) { background-color: #e97e8d; }
-.row5 td:nth-child(4) { background-color: #e97e8d; }
-.row5 td:nth-child(5) { background-color: #e97e8d; }
-.row5 td:nth-child(6) { background-color: #e97e8d; }
-.row5 td:nth-child(7) { background-color: #ade48b; }
-.row5 td:nth-child(8) { background-color: #ade48b; }
-.row5 td:nth-child(9) { background-color: #ade48b; }
+/* 
+使用CSS自定义属性来定义颜色模式
+这样添加/删除元素时只需要修改JSON，CSS会自动适应
+*/
 
-/* 表格行6的背景颜色 */
-.row6 td:nth-child(1) { background-color: #ade48b; }
-.row6 td:nth-child(2) { background-color: #9841da; }
-.row6 td:nth-child(3) { background-color: #77c670; }
+/* 第一个表格的颜色模式定义 */
+.table[data-table="with3d"] {
+  /* Row 1: 鲑鱼色2个 + 蓝色7个 */
+  --row1-pattern: "salmon:2, blue:7";
+  /* Row 2: 蓝色9个 */
+  --row2-pattern: "blue:9";
+  /* Row 3: 橙色5个 + 粉色4个 */
+  --row3-pattern: "orange:5, pink:4";
+  /* Row 4: 粉色6个 + 深蓝色2个 + 浅蓝色1个 */
+  --row4-pattern: "pink:6, dark-blue:2, light-blue:1";
+  /* Row 5: 浅蓝色6个 + 玫瑰色3个 */
+  --row5-pattern: "light-blue:6, rose:3";
+  /* Row 6: 玫瑰色1个 + 绿色4个 + 紫色1个 + 青绿色1个 */
+  --row6-pattern: "rose:1, green:4, purple:1, lime:1";
+}
+
+/* 基于数据属性的动态颜色应用 */
+/* 使用更灵活的选择器来应用颜色 */
+
+/* 第一个表格颜色 */
+.table .row1 td:nth-child(-n+2) { background-color: var(--salmon); }
+.table .row1 td:nth-child(n+3) { background-color: var(--blue); }
+
+.table .row2 td { background-color: var(--blue); }
+
+.table .row3 td:nth-child(-n+5) { background-color: var(--orange); }
+.table .row3 td:nth-child(n+6) { background-color: var(--pink); }
+
+.table .row4 td:nth-child(-n+7) { background-color: var(--pink); }
+.table .row4 td:nth-child(8), .table .row4 td:nth-child(9) { background-color: var(--dark-blue); }
+
+.table .row5 td:nth-child(-n+7) { background-color: var(--light-blue); }
+.table .row5 td:nth-child(8), .table .row5 td:nth-child(9) { background-color: var(--rose); }
+
+.table .row6 td:nth-child(1), .table .row6 td:nth-child(2) { background-color: var(--rose); }
+.table .row6 td:nth-child(n+3):nth-child(-n+6) { background-color: var(--green); }
+.table .row6 td:nth-child(7) { background-color: var(--purple); }
+.table .row6 td:nth-child(8) { background-color: var(--lime); }
+
+/* 第二个表格颜色 */
+.table2 .row1 td:nth-child(-n+2) { background-color: var(--salmon); }
+.table2 .row1 td:nth-child(n+3) { background-color: var(--blue); }
+
+.table2 .row2 td { background-color: var(--blue); }
+
+.table2 .row3 td:nth-child(-n+3) { background-color: var(--salmon); }
+.table2 .row3 td:nth-child(n+4) { background-color: var(--pink); }
+
+.table2 .row4 td:nth-child(-n+7) { background-color: var(--pink); }
+.table2 .row4 td:nth-child(n+8) { background-color: var(--light-blue-230); }
+
+.table2 .row5 td:nth-child(-n+2) { background-color: var(--light-blue-250); }
+.table2 .row5 td:nth-child(n+3):nth-child(-n+6) { background-color: var(--rose-142); }
+.table2 .row5 td:nth-child(n+7) { background-color: var(--lime); }
+
+.table2 .row6 td:nth-child(1) { background-color: var(--green); }
+.table2 .row6 td:nth-child(2) { background-color: var(--purple); }
+.table2 .row6 td:nth-child(3) { background-color: var(--lime); }
+.table2 .row6 td:nth-child(n+4) { background-color: var(--pink); }
+
+.table2 .row7 td { background-color: var(--pink); }
+
+.table2 .row8 td:nth-child(1) { background-color: var(--pink); }
+.table2 .row8 td:nth-child(n+2):nth-child(-n+6) { background-color: var(--dark-blue); }
+.table2 .row8 td:nth-child(n+7) { background-color: var(--light-blue); }
+
+.table2 .row9 td:nth-child(-n+3) { background-color: var(--light-blue); }
+.table2 .row9 td:nth-child(n+4) { background-color: var(--rose); }
+
+.table2 .row10 td:nth-child(-n+3) { background-color: var(--rose); }
+.table2 .row10 td:nth-child(n+4) { background-color: var(--green); }
+
+.table2 .row11 td { background-color: var(--green); }
+
+.table2 .row12 td:nth-child(-n+8) { background-color: var(--green); }
+.table2 .row12 td:nth-child(9) { background-color: var(--purple); }
+
+.table2 .row13 td:nth-child(-n+2) { background-color: var(--purple); }
+.table2 .row13 td:nth-child(3) { background-color: var(--crimson); }
+.table2 .row13 td:nth-child(n+4):nth-child(-n+6) { background-color: var(--teal); }
+.table2 .row13 td:nth-child(n+7) { background-color: var(--aqua); }
+
+.table2 .row14 td:nth-child(-n+2) { background-color: var(--forest); }
+.table2 .row14 td:nth-child(3), .table2 .row14 td:nth-child(4) { background-color: var(--lime); }
+.table2 .row14 td:nth-child(n+5) { background-color: var(--lavender); }
+
+.table2 .row15 td:nth-child(1) { background-color: var(--lavender); }
+
+/* ============================================ */
+/* Descriptive text styling for table sections */
+/* ============================================ */
+
+.aptamer-table-description {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  background-image: linear-gradient(270deg, #520049, #772c78, #c050d0, #772c78, #520049) !important;
+  background-size: 400% 400% !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  animation: moveGradient 8s ease infinite !important;
+  padding: 15px 20px !important;
+  margin: 20px 0 15px 0 !important;
+  border-left: 5px solid #520049 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(82, 0, 73, 0.1) !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  letter-spacing: 0.3px !important;
+  line-height: 1.4 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  background-color: #fafafa !important;
+}
+
+.aptamer-table-description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  /* background: linear-gradient(180deg, #520049 0%, #c050d0 100%); */
+}
+
+.aptamer-table-description:hover {
+  transform: translateX(2px) !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 15px rgba(82, 0, 73, 0.2) !important;
+}
+
+/* Animation for purple gradient text */
+@keyframes moveGradient {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ============================================ */
+/* 其他组件样式 */
+/* ============================================ */
 
 /* 饼图样式 */
 #pie-chart {
@@ -241,194 +379,121 @@ textarea {
   line-height: 1.5;
 }
 
-/* 第二个表格样式 */
-.table2 {
-  width: 100%;
-  max-width: 100%;
-  margin: 5px auto;
-  border-collapse: collapse;
-  background-color: #ffffff;
-  border: 1px solid #fff;
-  table-layout: fixed;
-}
-
-.table2 td {
-  padding: 10px;
-  text-align: center;
-  color: white;
-  transition: transform 0.3s, background-color 0.3s, color 0.3s;
-  word-wrap: break-word;
-  white-space: normal;
-}
-
-/* table2的行样式 */
-.table2 .row1 td:nth-child(1) { background-color: #FFA07A; }
-.table2 .row1 td:nth-child(2) { background-color: #FFA07A; }
-.table2 .row1 td:nth-child(3) { background-color: #FFA07A; }
-.table2 .row1 td:nth-child(4) { background-color: #FFA07A; }
-.table2 .row1 td:nth-child(5) { background-color: #385dbf; }
-.table2 .row1 td:nth-child(6) { background-color: #385dbf; }
-.table2 .row1 td:nth-child(7) { background-color: #385dbf; }
-.table2 .row1 td:nth-child(8) { background-color: #f0a570; }
-.table2 .row1 td:nth-child(9) { background-color: #f0a570; }
-
-.table2 .row2 td:nth-child(1) { background-color: #f0a570; }
-.table2 .row2 td:nth-child(2) { background-color: #d75369; }
-.table2 .row2 td:nth-child(3) { background-color: #d75369; }
-.table2 .row2 td:nth-child(4) { background-color: #d75369; }
-.table2 .row2 td:nth-child(5) { background-color: #d75369; }
-.table2 .row2 td:nth-child(6) { background-color: #d75369; }
-.table2 .row2 td:nth-child(7) { background-color: #d75369; }
-.table2 .row2 td:nth-child(8) { background-color: #d75369; }
-
-.table2 .row3 td:nth-child(1) { background-color: #d75369; }
-.table2 .row3 td:nth-child(2) { background-color: #d75369; }
-.table2 .row3 td:nth-child(3) { background-color: #d75369; }
-.table2 .row3 td:nth-child(4) { background-color: #d75369; }
-.table2 .row3 td:nth-child(5) { background-color: #d75369; }
-.table2 .row3 td:nth-child(6) { background-color: #d75369; }
-.table2 .row3 td:nth-child(7) { background-color: #d75369; }
-.table2 .row3 td:nth-child(8) { background-color: #d75369; }
-
-/* 添加缺失的table2 row6样式 */
-.table2 .row6 td:nth-child(1) { background-color: #ade48b; }
-.table2 .row6 td:nth-child(2) { background-color: #9841da; }
-.table2 .row6 td:nth-child(3) { background-color: #77c670; }
-.table2 .row6 td:nth-child(4) { background-color: #d75369; }
-.table2 .row6 td:nth-child(5) { background-color: #d75369; }
-.table2 .row6 td:nth-child(6) { background-color: #d75369; }
-.table2 .row6 td:nth-child(7) { background-color: #d75369; }
-.table2 .row6 td:nth-child(8) { background-color: #d75369; }
-.table2 .row6 td:nth-child(9) { background-color: #d75369; }
-
-/* 添加缺失的table2 row7-row15样式 */
-.table2 .row7 td:nth-child(1) { background-color: #d75369; }
-.table2 .row7 td:nth-child(2) { background-color: #d75369; }
-.table2 .row7 td:nth-child(3) { background-color: #d75369; }
-.table2 .row7 td:nth-child(4) { background-color: #d75369; }
-.table2 .row7 td:nth-child(5) { background-color: #d75369; }
-.table2 .row7 td:nth-child(6) { background-color: #d75369; }
-.table2 .row7 td:nth-child(7) { background-color: #d75369; }
-.table2 .row7 td:nth-child(8) { background-color: #d75369; }
-.table2 .row7 td:nth-child(9) { background-color: #d75369; }
-
-.table2 .row8 td:nth-child(1) { background-color: #d75369; }
-.table2 .row8 td:nth-child(2) { background-color: #3c58a5; }
-.table2 .row8 td:nth-child(3) { background-color: #3c58a5; }
-.table2 .row8 td:nth-child(4) { background-color: #3c58a5; }
-.table2 .row8 td:nth-child(5) { background-color: #3c58a5; }
-.table2 .row8 td:nth-child(6) { background-color: #3c58a5; }
-.table2 .row8 td:nth-child(7) { background-color: #14a0ec; }
-.table2 .row8 td:nth-child(8) { background-color: #14a0ec; }
-.table2 .row8 td:nth-child(9) { background-color: #14a0ec; }
-
-.table2 .row9 td:nth-child(1) { background-color: #14a0ec; }
-.table2 .row9 td:nth-child(2) { background-color: #14a0ec; }
-.table2 .row9 td:nth-child(3) { background-color: #14a0ec; }
-.table2 .row9 td:nth-child(4) { background-color: #e97e8d; }
-.table2 .row9 td:nth-child(5) { background-color: #e97e8d; }
-.table2 .row9 td:nth-child(6) { background-color: #e97e8d; }
-.table2 .row9 td:nth-child(7) { background-color: #e97e8d; }
-.table2 .row9 td:nth-child(8) { background-color: #e97e8d; }
-.table2 .row9 td:nth-child(9) { background-color: #e97e8d; }
-
-.table2 .row10 td:nth-child(1) { background-color: #e97e8d; }
-.table2 .row10 td:nth-child(2) { background-color: #e97e8d; }
-.table2 .row10 td:nth-child(3) { background-color: #e97e8d; }
-.table2 .row10 td:nth-child(4) { background-color: #ade48b; }
-.table2 .row10 td:nth-child(5) { background-color: #ade48b; }
-.table2 .row10 td:nth-child(6) { background-color: #ade48b; }
-.table2 .row10 td:nth-child(7) { background-color: #ade48b; }
-.table2 .row10 td:nth-child(8) { background-color: #ade48b; }
-.table2 .row10 td:nth-child(9) { background-color: #ade48b; }
-
-.table2 .row11 td:nth-child(1) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(2) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(3) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(4) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(5) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(6) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(7) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(8) { background-color: #ade48b; }
-.table2 .row11 td:nth-child(9) { background-color: #ade48b; }
-
-.table2 .row12 td:nth-child(1) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(2) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(3) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(4) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(5) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(6) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(7) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(8) { background-color: #ade48b; }
-.table2 .row12 td:nth-child(9) { background-color: #9841da; }
-
-.table2 .row13 td:nth-child(1) { background-color: #9841da; }
-.table2 .row13 td:nth-child(2) { background-color: #9841da; }
-.table2 .row13 td:nth-child(3) { background-color: #ab233a; }
-.table2 .row13 td:nth-child(4) { background-color: #2a5c76; }
-.table2 .row13 td:nth-child(5) { background-color: #2a5c76; }
-.table2 .row13 td:nth-child(6) { background-color: #2a5c76; }
-.table2 .row13 td:nth-child(7) { background-color: #6ed9cd; }
-.table2 .row13 td:nth-child(8) { background-color: #6ed9cd; }
-.table2 .row13 td:nth-child(9) { background-color: #6ed9cd; }
-
-.table2 .row14 td:nth-child(1) { background-color: #396120; }
-.table2 .row14 td:nth-child(2) { background-color: #396120; }
-.table2 .row14 td:nth-child(3) { background-color: #77c670; }
-.table2 .row14 td:nth-child(4) { background-color: #77c670; }
-.table2 .row14 td:nth-child(5) { background-color: #bf97d1; }
-.table2 .row14 td:nth-child(6) { background-color: #bf97d1; }
-.table2 .row14 td:nth-child(7) { background-color: #bf97d1; }
-.table2 .row14 td:nth-child(8) { background-color: #bf97d1; }
-.table2 .row14 td:nth-child(9) { background-color: #bf97d1; }
-
-.table2 .row15 td:nth-child(1) { background-color: #bf97d1; }
-
-/* 统一表格悬停效果和链接样式 */
-.table td:hover,
-.table2 td:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-.table a,
-.table2 a {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.table a:hover,
-.table2 a:hover {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-/* 统计面板样式 */
+/* Aptamer Squared Table 面板样式 */
 .stat-panel {
   margin-bottom: 30px;
+  border: 2px solid #520049;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .stat-header {
   cursor: pointer;
-  padding: 10px;
-  background-color: #f2f2f2;
-  border-radius: 5px;
+  padding: 15px;
+  background: linear-gradient(135deg, #520049 0%, #6b1650 100%);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: background 0.3s ease;
+}
+
+.stat-header:hover {
+  background: linear-gradient(135deg, #6b1650 0%, #520049 100%);
 }
 
 .stat-header span {
   font-weight: bold;
-  color: #520049;
+  color: white;
+  font-size: 16px;
 }
 
 #statsContent {
   display: block;
-  padding-top: 15px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-top: 1px solid #e0e0e0;
+}
+
+#statsContent font {
+  font-weight: 600;
+  color: #520049;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: white;
+  border-left: 4px solid #520049;
+  border-radius: 4px;
 }
 
 /* 折叠容器样式 */
 .collapsible-container {
   margin: 20px 0;
+}
+
+/* 强制表格内上标、下标字体为白色 */
+.table sup,
+.table sub,
+.table2 sup,
+.table2 sub {
+  color: #ffffff !important;
+}
+
+/* ============================================ */
+/* 3D结构适配体表格字体颜色优化 */
+/* ============================================ */
+
+/* 为3D结构适配体表格中的浅色背景设置深色字体 */
+[data-table-type="3d"] .aptamer-cell {
+  /* 默认白色字体保持不变 */
+  color: white;
+}
+
+/* 浅黄色背景（抗生素） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#FFEAA7"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#FFEAA7"] a {
+  color: #2c3e50 !important;
+}
+
+/* 浅绿色背景（蛋白质） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#96CEB4"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#96CEB4"] a {
+  color: #2c3e50 !important;
+}
+
+/* 浅紫色背景（转录因子/病毒与核酸/朊病毒） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#DDA0DD"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#DDA0DD"] a {
+  color: #2c3e50 !important;
+}
+
+/* 中蓝色背景（小分子化合物） - 使用白色字体增强对比 */
+[data-table-type="3d"] .aptamer-cell[style*="#45B7D1"] {
+  color: white !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#45B7D1"] a {
+  color: white !important;
+}
+
+/* 青色背景（荧光适配体第二种颜色） - 使用深色字体 */
+[data-table-type="3d"] .aptamer-cell[style*="#4ECDC4"] {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+[data-table-type="3d"] .aptamer-cell[style*="#4ECDC4"] a {
+  color: #2c3e50 !important;
 } 

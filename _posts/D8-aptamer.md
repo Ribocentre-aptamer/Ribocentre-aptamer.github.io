@@ -1,80 +1,21 @@
 ---
-layout: post
-title:  "D8 aptamer"
-date:   2024-05-27 00:00:00
+layout: theophylline_style
+title: D8 aptamer
+date: 2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Synthetic
+- GC:47.620000000000005
+- Length:84
+- Named:Sephadex G-100_D8
+- Type:Small molecules
+- Year:2001
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -88,35 +29,29 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2001,D R Engelke et al. obtained RNA aptamers for binding Sephadex by an in vitro screen, which were divided into two groups based on consensus sequences, and both showed strong binding to Sephadex G-100. The high-affinity D8 aptamer specifically bound dextran B512, the base material of Sephadex, but not isomaltose and its derivatives, suggesting that its optimal binding site contains more than four glucose residues linked by α-1,6 glycosidic bonds.The D8 aptamer was highly specific for the Sephadex substrate, and did not significantly bind other substrates. Using Sephadex G-100, this aptamer can be purified from complex cellular RNA mixtures up to 60,000-fold enrichment. These RNA aptamers can be used as affinity tags for rapid purification from complex RNA mixtures<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2001,D R Engelke et al. obtained RNA aptamers for binding Sephadex by an in vitro screen, which were divided into two groups based on consensus sequences, and both showed strong binding to Sephadex G-100. The high-affinity D8 aptamer specifically bound dextran B512, the base material of Sephadex, but not isomaltose and its derivatives, suggesting that its optimal binding site contains more than four glucose residues linked by α-1,6 glycosidic bonds.The D8 aptamer was highly specific for the Sephadex substrate, and did not significantly bind other substrates. Using Sephadex G-100, this aptamer can be purified from complex cellular RNA mixtures up to 60,000-fold enrichment. These RNA aptamers can be used as affinity tags for rapid purification from complex RNA mixtures<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>D. R. Engelke et al. conducted in vitro screening of RNA aptamers for Sephadex. The D8 aptamer was obtained through 11 rounds of systematic evolution of ligands by exponential enrichment (SELEX) from an RNA library comprising approximately 7 x 10^16 distinct sequences. In the final screening phase, a total of 15 RNA aptamers were assessed for their ability to effectively bind to Sephadex, with D8 exhibiting the highest affinity. The aptamers were synthesized via PCR amplification and subsequent in vitro transcription, and their binding affinity was determined using a radiolabeled binding assay. The binding affinity of the D8 aptamer for Sephadex G-100 was measured at 9 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>D. R. Engelke et al. conducted in vitro screening of RNA aptamers for Sephadex. The D8 aptamer was obtained through 11 rounds of systematic evolution of ligands by exponential enrichment (SELEX) from an RNA library comprising approximately 7 x 10^16 distinct sequences. In the final screening phase, a total of 15 RNA aptamers were assessed for their ability to effectively bind to Sephadex, with D8 exhibiting the highest affinity. The aptamers were synthesized via PCR amplification and subsequent in vitro transcription, and their binding affinity was determined using a radiolabeled binding assay. The binding affinity of the D8 aptamer for Sephadex G-100 was measured at 9 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. D8 aptamer binding to Sephadex G-100.<br></font>
-<font><p>5'-GGGAGUCGACCGACCAGAAGUCCGAGUAAUUUACGUUUUGAUACGGUUGCGGAACUUGCUAUGUGCGUCUACAUCUAGACUCAU-3'</p></font>
-<img src="/images/2D/G-100_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. D8 aptamer binding to Sephadex G-100.<br></p>
+<p>5'-GGGAGUCGACCGACCAGAAGUCCGAGUAAUUUACGUUUUGAUACGGUUGCGGAACUUGCUAUGUGCGUCUACAUCUAGACUCAU-3'</p>
+<img src="/images/2D/D8_aptamer_2D1.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Streptavidin is an organochlorine compound.A 60-kDa extracellular protein of Streptomyces avidinii with four high-affinity biotin binding sites. Unlike AVIDIN, streptavidin has a near neutral isoelectric point and is free of carbohydrate side chains.-----From MeSH</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -147,8 +82,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Substance P,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the PubChem database to screen compounds that were more similar to Substance P,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>
@@ -194,8 +129,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -225,7 +158,7 @@ Lee T, Mohammadniaei M, Zhang H, Yoon J, Choi HK, Guo S, Guo P, Choi JW<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -267,8 +200,7 @@ Lee T, Mohammadniaei M, Zhang H, Yoon J, Choi HK, Guo S, Guo P, Choi JW<br/>
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

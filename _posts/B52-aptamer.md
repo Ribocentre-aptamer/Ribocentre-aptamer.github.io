@@ -1,84 +1,27 @@
 ---
-layout: post
-title:  "B52-aptamer"
-date:   2024-05-15 00:00:00
+layout: theophylline_style
+title: B52 aptamer
+date: 2024-05-15 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Other
+- GC:52.22
+- GC:52.81
+- GC:55.559999999999995
+- GC:58.43000000000001
+- Length:89
+- Length:90
+- 'Named:SR Protein B52 (SRp55)_BBS #11'
+- 'Named:SR Protein B52 (SRp55)_BBS #23'
+- 'Named:SR Protein B52 (SRp55)_BBS #4,14,15'
+- 'Named:SR Protein B52 (SRp55)_BBS #8'
+- Type:Proteins
+- Year:1997
+type: Proteins
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -133,34 +76,28 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1997, Shi, H. et al. isolated B52-binding RNAs through selection and amplification from a pool of random RNA sequences, using the full-length B52 protein as the target. These RNAs contained a conserved consensus motif forming the core of a secondary structural element predicted by energy minimization. Deletion and substitution mutations defined the B52-binding site on these RNAs as a hairpin loop structure encompassing approximately 20 nucleotides. Subsequently they demonstrated inhibitory aptamer RNA binds B52 avidly and inhibits B52-stimulated pre-mRNA splicing. In 1999, Xu, D. & Shi, H. demonstrated that the performance of this 'aptabody' rivals that of a monoclonal antibody against B52<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 1997, Shi, H. et al. isolated B52-binding RNAs through selection and amplification from a pool of random RNA sequences, using the full-length B52 protein as the target. These RNAs contained a conserved consensus motif forming the core of a secondary structural element predicted by energy minimization. Deletion and substitution mutations defined the B52-binding site on these RNAs as a hairpin loop structure encompassing approximately 20 nucleotides. Subsequently they demonstrated inhibitory aptamer RNA binds B52 avidly and inhibits B52-stimulated pre-mRNA splicing. In 1999, Xu, D. & Shi, H. demonstrated that the performance of this 'aptabody' rivals that of a monoclonal antibody against B52<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>They used, with some modification, an in vitro selection and amplification scheme (SELEX). And adapted the template-primer system to produce RNA molecules had a stretch of 40 random bases sandwiched between 59 and 39 constant regions for primer annealing. The 59 constant sequence included a promoter for T7 RNA polymerase. Synthetic oligodeoxynucleotide template (20 mg of a 108-mer) was amplified by PCR to make the original pool. This pool contained 3.4 * 10<sup>13</sup> different sequences. The pool of random RNA was carried through nine rounds of selection and amplification. RNA-protein complexes were selected by binding to nitrocellulose filters. Observed a significant increase of the pool’s affinity for B52 as the selection progressed. Fractions of two final pools were cloned and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>They used, with some modification, an in vitro selection and amplification scheme (SELEX). And adapted the template-primer system to produce RNA molecules had a stretch of 40 random bases sandwiched between 59 and 39 constant regions for primer annealing. The 59 constant sequence included a promoter for T7 RNA polymerase. Synthetic oligodeoxynucleotide template (20 mg of a 108-mer) was amplified by PCR to make the original pool. This pool contained 3.4 * 10<sup>13</sup> different sequences. The pool of random RNA was carried through nine rounds of selection and amplification. RNA-protein complexes were selected by binding to nitrocellulose filters. Observed a significant increase of the pool’s affinity for B52 as the selection progressed. Fractions of two final pools were cloned and sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-GGGAGAAUUCAACUGCCAUCUAGGCUGGUCAACCAGGCGACCGCCACCCGCGCGCGCAAUACCUAGUACUACAAGCUUCUGGACUCGGU-3'</p></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></p>
+<p>5'-GGGAGAAUUCAACUGCCAUCUAGGCUGGUCAACCAGGCGACCGCCACCCGCGCGCGCAAUACCUAGUACUACAAGCUUCUGGACUCGGU-3'</p>
 <img src="/images/2D/B52_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>SR proteins are a conserved family of proteins involved in RNA splicing. SR proteins are named because they contain a protein domain with long repeats of serine and arginine amino acid residues, whose standard abbreviations are "S" and "R" respectively. SR proteins are ~200-600 amino acids in length and composed of two domains, the RNA recognition motif (RRM) region and the RS domain. B52 is also called SRp55, splicing factor, arginine/serine-rich 6 is a protein that in humans is encoded by the SFRS6 gene.-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -186,7 +123,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -217,8 +154,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -299,8 +236,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -337,7 +272,7 @@ Xu, D., & Shi, H.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -378,8 +313,7 @@ Xu, D., & Shi, H.<br />
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -390,37 +324,7 @@ Xu, D., & Shi, H.<br />
   });
     </script>
 
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+
 
 
     </html>

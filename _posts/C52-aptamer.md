@@ -1,131 +1,44 @@
 ---
-layout: post
-title:  "C52 aptamer"
-date:   2024-05-06 00:00:00
+layout: theophylline_style
+title: C52 aptamer
+date: 2024-05-06 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:40.18
+- GC:43.120000000000005
+- GC:43.75
+- GC:44.04
+- GC:44.64
+- GC:45.45
+- GC:45.87
+- GC:46.85
+- GC:47.22
+- GC:50.470000000000006
+- Length:107
+- Length:108
+- Length:109
+- Length:110
+- Length:111
+- Length:112
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C1
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C15
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C17
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C18
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C24
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C33
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C34
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C37
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C5
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C52
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C8
+- Named:Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C9
+- Type:Proteins
+- Year:1996
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-    * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -201,15 +114,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 1996, Ellington, A. D. and colleagues used the SELEX method to isolate the anti-peptide aptamers with high affinity for the HIV-1 Rev protein. HIV-1 Rev protein were selected from a random sequence RNA pool. Several of the selected RNAs could bind the free peptide more tightly than a natural RNA ligand, the Rev-binding element. In accord with the hypothesis that protein and nucleic acid binding cusps are functionally similar, interactions between aptamers and the peptide target could be disrupted by sequence substitutions. Moreover, the aptamers appeared to be able to bind peptides with different solution conformations, implying an induced fit mechanism for binding. Just as anti-peptide antibodies can sometimes recognize the corresponding epitope when presented in a protein, the anti-peptide aptamers were found to specifically bind to Rev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1996, Ellington, A. D. and colleagues used existing research to design the method required for the SELEX process. The RNA recognition domain of HIV-1 Rev is an ARM that spans residues 34-50. A 17-mer peptide (sRev) corresponding to this domain was used as a target for in vitro selection experiments. A RNA pool containing 71 random sequence positions was incubated with an affinity resin containing sRev<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+<p>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -217,8 +126,6 @@ categories: Aptamer
 <p>5'-GGGAGAUACCAGCUUAUUCAAUUGCUUGGUACCGAGCUCGGAUCCACGUAGUAACGGGCCGCCAGUGUCUGGAAUUCGGGUCGUUCUUGAGAUAGUAAGUGCAAUCU-3'</p>
 <img src="/images/2D/C52_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -232,7 +139,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -264,7 +171,7 @@ categories: Aptamer
   </table>
 
 <p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -311,7 +218,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -383,8 +290,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -440,7 +345,7 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

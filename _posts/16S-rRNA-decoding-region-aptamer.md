@@ -1,131 +1,29 @@
 ---
-layout: post
-title:  "16S rRNA decoding region aptamer"
-date:   2024-06-19 00:00:00
+layout: theophylline_style
+title: 16S rRNA decoding region aptamer
+date: 2024-06-19 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:RNA
+- GC:50.94
+- GC:51.4
+- GC:53.73
+- GC:55.22
+- GC:57.010000000000005
+- Length:106
+- Length:107
+- Length:67
+- Named:16S ribosomal RNA (rRNA) decoding region_109.1-7
+- Named:16S ribosomal RNA (rRNA) decoding region_109.2-15
+- Named:16S ribosomal RNA (rRNA) decoding region_109.2-3
+- Named:16S ribosomal RNA (rRNA) decoding region_69.1-11
+- Named:16S ribosomal RNA (rRNA) decoding region_69.1-4
+- Type:Nucleic acids
+- Year:2000
+type: Nucleic acids
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-    * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -141,15 +39,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2000, Rando, R. R. and colleagues employed in vitro selection to identify RNA sequences that bind with high affinity to the A-site of the 16S rRNA decoding region. While the A and P sites of the decoding region constitute only a small fraction of 16S rRNA, mini constructs of the decoding region are biochemically active, suggesting that the structure of the decoding region is preserved in the absence of the remainder of the RNA molecule<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Rando, R. R. and colleagues chose to apply two pools of random RNA library to the target 27-nt A-site of the 16S rRNA decoding region. Each of the pools comprised a stretch of 20 and 60 random nucleotides, respectively, which were flanked by the appropriate primers with a promoter site for T7 polymerase<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -157,21 +51,17 @@ categories: Aptamer
 <p>5'-GGGAGAAUUCCGACCAGAAGCUUCUCCUGCCGCGCGAUUUUACGCCGACAAGGGUGGCAUGAUGAUGUGUCUNUAUAUAGGGGGGGCAUAUGUGCGUCUACAUGGAUCCUCA-3'</p>
 <img src="/images/2D/109.2-3_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p>
-
 <p class="blowheader_box">SELEX ligand</p>
 <p>Ribosomal ribonucleic acid (rRNA) is a type of non-coding RNA which is the primary component of ribosomes, essential to all cells. rRNA is a ribozyme which carries out protein synthesis in ribosomes. Ribosomal RNA is transcribed from ribosomal DNA (rDNA) and then bound to ribosomal proteins to form small and large ribosome subunits. rRNA is the physical and mechanical factor of the ribosome that forces transfer RNA (tRNA) and messenger RNA (mRNA) to process and translate the latter into proteins. Ribosomal RNA is the predominant form of RNA found in most cells; it makes up about 80% of cellular RNA despite never being translated into proteins itself.-----From <a href="https://rfam.org/family/RF00177" target="_blank" style="color:#520049; text-decoration: underline;"><b>Rfam</b></a></p>
-
 <p class="dot-paragraph"><b>SO ID:</b> <a href="http://www.sequenceontology.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Sequence Ontology</b></a> (SO) is a vocabulary used to control the content of genome sequences, aiming to unify the way genome annotation.</p>
 <p class="dot-paragraph"><b><a href="https://www.ebi.ac.uk/interpro/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Pfam</b></a>:</b> a widely recognised database of protein families and domains.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -195,7 +85,7 @@ categories: Aptamer
   </table>
 
   <p>Some isolated sequences bind to the affinity of the nucleic acid<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -250,7 +140,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PDB Residues:</b> a specific molecule or part of a molecule within a protein or nucleic acid whose three-dimensional structure is described in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
 <p class="dot-paragraph"><b>Bit score:</b> a relative score used to measure the similarity of a sequence alignment.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -311,8 +201,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  

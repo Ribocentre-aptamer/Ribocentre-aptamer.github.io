@@ -1,92 +1,20 @@
 ---
-layout: post
-title:  "Rex protein aptamer"
-date:   2024-04-17 00:00:00
+layout: theophylline_style
+title: Rex protein aptamer
+date: 2024-04-17 00:00:00
 author: Ziyu Guo, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:70.0
+- Length:33
+- Named:HTLV-1 Rex protein_39B aptamer
+- Type:Proteins
+- Year:1999
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -149,13 +77,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1999, Ellington, A. D. et al. employed RNA selection techniques to identify RNA molecules that bind tightly to REX-fusion proteins from a pool of randomly sequenced RNA with conformational constraints. These RNA molecules, termed anti-Rex aptamers, were suggested to function as RNA decoys for Rex proteins and hold potential for antiviral applications. In the same year, Patel, D. J. et al. determined the solution structure of the binding site of the Rex peptide RNA aptamer complex using a combination of nuclear magnetic resonance (NMR) and molecular dynamics methods<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1999, Ellington, A. D. et al. isolated high-affinity RNA aptamers targeting the Rex protein from a pool of conformationally constrained random sequence RNAs through multiple rounds of selection. The binding affinity of the selected aptamers was significantly enhanced compared to that of the initial pool. Before each selection round, the RNA pool was denatured at 90°C for 2 minutes and then cooled to ambient temperature over 10 minutes to facilitate proper structure formation. The selection process was conducted in a 30 μl reaction containing 50 mM Tris-HCl (pH 8.0) and 50 mM KCl, with the Rex fusion protein incubated with the RNA pool. In the initial rounds, the protein concentration was higher, but it was reduced in later rounds to increase selection stringency. Specifically, selections 1 to 4 were conducted at a protein concentration of 1.8 pmol, while selections 5 to 11 were performed at lower concentrations. The RNA concentration was maintained at around 1.3 μM in the early rounds and adjusted in later rounds. The initial selection involved approximately 10<sup>13</sup>different RNA molecules, ensuring a diverse sampling of sequences<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>   
 
@@ -173,7 +99,7 @@ categories: Aptamer
 <p>The solution structure of the Rex peptide–RNA aptamer complex was determined by Patel, D. J. et al. using multidimensional nuclear magnetic resonance (NMR) spectroscopy. The Rex peptide, in a predominantly extended conformation, threads through a channel formed by the shallow and widened RNA major groove and a looped-out guanine. The PDB ID for this structure is 1EXY<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Rex16_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -186,7 +112,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -285,8 +211,7 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/1exy.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -306,7 +231,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1EXY. HTLV-1 arginine-rich Rex peptide (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with HTLV-1 arginine-rich Rex peptide. The C7 and C23 bases in the RNA aptamer do indeed interact with amino acids in the HTLV-1 Rex peptide (primarily Arg5 and Arg7), though the text does not explicitly state whether these interactions involve hydrogen bonds. We used PYMOL predicted the hydrogen bond between C23 and Arg7.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Rex16_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -325,7 +250,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>A binding curve was generated by incubating increasing amounts of RNA with a constant amount of Rex protein and capturing aptamer-Rex complexes by filtration. In a complementary experiment, increasing amounts of protein were incubated with a constant amount of RNA and the formation of the aptamer-Rex complex was monitored by a gel mobility shift. The formation of the aptamer-Rex complex was again found to be concentration dependent, and the Kapp was similar. The binding ratios for pool to wild-type RNAs were determined following electrophoretic separation and quantitation with a PhosphorImager<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -360,7 +285,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -382,7 +307,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Rex16_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -393,11 +318,11 @@ categories: Aptamer
 <p>We used the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>RCSB PDB website</b></a>'s similar structure search to find the top 10 structures similar to HIV-1 REV PROTEIN (RESIDUES 34-50), and calculated TM-socre values and RMSD values using the TM-align website.</p>
 
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
-<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://zhanggroup.org/TM-align/" target="_blank" style="color:#520049; text-decoration: underline;"><b>TM-socre</b></a>:</b> a metric used to assess the similarity between two protein structures, providing a quantitative measure of their structural alignment, with higher scores indicating greater similarity.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -457,8 +382,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 

@@ -12,6 +12,17 @@
   </div>
 </div>
 
+<!-- 序列访问球 -->
+<div class="sequence-ball" id="sequenceBtn" title="View related sequences">
+  <div class="sequence-ball-icon">
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+  </div>
+</div>
+
 <!-- 遮罩层 -->
 <div class="overlay" id="overlay"></div>
 
@@ -20,6 +31,12 @@
   <ul id="navItems">
     <!-- 导航项将由JavaScript动态生成 -->
   </ul>
+</div>
+
+<!-- 悬浮提示框 -->
+<div class="amir-tooltip" id="amirTooltip">
+  <div class="tooltip-content"></div>
+  <div class="tooltip-arrow"></div>
 </div>
 
 <script>
@@ -50,6 +67,8 @@
 
   // 自动生成导航菜单
   document.addEventListener('DOMContentLoaded', function() {
+    console.time('aptamer_init');
+    console.log('aptamer_navigation init');
     // 查找页面中的所有一级标题
     const headers = document.querySelectorAll('.header_box[id], h2[id], .section-title[id]');
     const navItemsContainer = document.getElementById('navItems');
@@ -115,6 +134,367 @@
         }
       });
     });
+
+    /* 自动为每个一级标题生成卡片式 content-section
+       规则：
+       1. 只处理具有 id 的 h2 / .section-title 元素。
+       2. 若该标题已经被 .content-section 包含，则跳过。
+       3. 将标题开始直至下一个同级标题（或文档结束）的所有兄弟节点挪入新建的 div.content-section。
+    */
+    const sectionHeaders = Array.from(document.querySelectorAll('h2[id], .section-title[id], .header_box[id]'));
+    sectionHeaders.forEach((header, idx) => {
+      if (header.closest('.content-section')) return; // 已经包裹
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'content-section';
+
+      // 插入 wrapper 于 header 之前
+      header.parentNode.insertBefore(wrapper, header);
+
+      // 若 header 前连续存在 <br>，一起移入 wrapper，避免残留
+      let prevNode = wrapper.previousSibling;
+      while (prevNode && prevNode.nodeType === 1 && prevNode.tagName === 'BR') {
+        const move = prevNode;
+        prevNode = move.previousSibling;
+        wrapper.insertBefore(move, wrapper.firstChild);
+      }
+
+      // 将当前 header 及随后到下一个 header 之前的节点全部移动进 wrapper
+      const nextHeader = sectionHeaders[idx + 1];
+      let node = header;
+      while (node) {
+        const next = node.nextSibling;
+        if (!next) {
+          wrapper.appendChild(node);
+          break;
+        }
+
+        // 如果即将移动的 next 节点本身或其后代包含 nextHeader，则停止（保持 nextHeader 及其容器在外部）
+        const willContainNextHeader = nextHeader && next.contains(nextHeader);
+
+        if (willContainNextHeader) {
+          break;
+        }
+
+        wrapper.appendChild(node);
+        node = next;
+      }
+    });
+
+    /* ---------- 自动识别并包裹序列段落 ---------- */
+    // 修改选择器以适应content-section包装后的结构
+    document.querySelectorAll('.post-content p, .content-section p').forEach(p => {
+      if (p.classList.contains('sequence')) return;
+      const text = p.textContent.trim();
+      
+      // 使用简单高效的检测方法，避免长序列的正则回溯问题
+      const isSequence = (str) => {
+        // 检查长度范围
+        if (str.length < 10 || str.length > 500) return false;
+        
+        // 检查开头和结尾
+        if (!/^5[''']-/.test(str) || !/-3[''']$/.test(str)) return false;
+        
+        // 提取中间部分（去掉5'-和-3'）
+        const middle = str.replace(/^5[''']-/, '').replace(/-3[''']$/, '');
+        
+        // 检查中间部分是否只包含核苷酸字符和空格
+        return /^[AUCGTaucgt\s]+$/.test(middle);
+      };
+      
+      if (isSequence(text)) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'sequence';
+        p.parentNode.insertBefore(wrapper, p);
+        wrapper.appendChild(p);
+
+        // 彩色并分组显示
+        const raw = p.textContent.trim();
+        const colorMap = { 'A':'base-A', 'U':'base-U', 'T':'base-U', 'C':'base-C', 'G':'base-G' };
+        let html=''; let count=0;
+        for(const ch of raw){
+          if(/['-\d]/.test(ch)){
+            if(html.endsWith(' ')) html = html.slice(0,-1);
+            html+=ch;
+            continue;
+          }
+          const cls = colorMap[ch.toUpperCase()]||'';
+          html += cls?`<span class="${cls}">${ch}</span>`:ch;
+          count++;
+          if(count%5===0) html+=' ';
+        }
+        p.innerHTML = html;
+      }
+    });
+
+    /* ---------- 表格序列列启用 tooltip 与复制 ---------- */
+    const tables = document.querySelectorAll('table');
+    tables.forEach(tb => {
+      const headerCells = Array.from(tb.querySelectorAll('thead th'));
+      let seqCol = -1;
+      headerCells.forEach((th, idx) => {
+        const text = th.textContent.toLowerCase();
+        if (text.includes('sequence')) {
+          seqCol = idx;
+        }
+      });
+      if (seqCol === -1) return;
+
+      const rows = tb.querySelectorAll('tbody tr');
+      rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        if (cells.length <= seqCol) return;
+        const cell = cells[seqCol];
+        const fullSeqRaw = cell.textContent.trim();
+        const fullSeq = fullSeqRaw.replace(/\s+/g, '');
+        if (fullSeq.length <= 40) return; // 短序列不用截断
+
+        cell.dataset.fullSeq = fullSeq;
+        cell.dataset.fullSeqRaw = fullSeqRaw;
+        const shortText = fullSeq.slice(0, 20) + '…';
+        cell.textContent = shortText;
+
+        // 可点击提示
+        cell.classList.add('seq-clickable');
+        cell.setAttribute('data-hint', 'Click to view full sequence');
+
+        cell.style.cursor = 'pointer';
+
+        // 生成着色 HTML
+        const colorMapNuc = { 'A':'base-A', 'U':'base-U', 'T':'base-U', 'C':'base-C', 'G':'base-G' };
+        const colorMapAA = { 'A':'base-G', 'V':'base-G', 'I':'base-G', 'L':'base-G', 'M':'base-G', /* 非极性绿系 */
+                            'F':'base-U', 'Y':'base-U', 'W':'base-U', /* 芳香蓝系 */
+                            'S':'base-C', 'T':'base-C', 'N':'base-C', 'Q':'base-C', /* 极性黄系 */
+                            'K':'base-A', 'R':'base-A', 'H':'base-A', /* 正电红系 */
+                            'D':'base-U', 'E':'base-U', /* 负电蓝系 */
+                            'C':'base-C', 'P':'base-C' };
+
+        const isNuc = /^[AUCGTaucgt\s'-]+$/.test(fullSeqRaw);
+        const buildColored = (seq) => {
+          let html = '';
+          for (const ch of seq) {
+            if (ch === "'" || ch === '-' ) { html += ch; continue; }
+            const cls = (isNuc ? colorMapNuc[ch.toUpperCase()] : colorMapAA[ch.toUpperCase()]) || '';
+            html += cls ? `<span class="${cls}">${ch}</span>` : ch;
+          }
+          return html;
+        };
+
+        // 生成着色 HTML 并构建完整tooltip
+        const buildTooltip = () => {
+          const coloredSeq = buildColored(fullSeqRaw);
+          const seqLen = fullSeq.length;
+          const seqType = isNuc ? 'nt' : 'aa';
+          return `
+            <div class='seq-info'>Length: ${seqLen} ${seqType}</div>
+            <pre class='sequence-display'>${coloredSeq}</pre>
+            <div class='seq-copy-tip'>Click tooltip to copy</div>`;
+        };
+
+        const tooltipHtml = buildTooltip();
+
+        const showTip = (e) => {
+          if (window.showAmirTooltip) {
+            // 传递当前cell的序列数据
+            window.showAmirTooltip(tooltipHtml, cell, fullSeq);
+          }
+        };
+        cell.addEventListener('click', showTip);
+      });
+    });
+
+    // 提示：如需序列着色，可在此处重新启用相应代码。
+
+    /* --------- 自定义Tooltip函数（仅当不存在时注入）--------- */
+    if (typeof window.showAmirTooltip === 'undefined') {
+      let currentAnchor = null;
+      let currentSequence = null;
+
+      window.showAmirTooltip = function(content, anchorEl, sequenceData) {
+        const tooltip = document.getElementById('amirTooltip');
+        if (!tooltip || !anchorEl) return;
+
+        // 若点击同一元素，则切换隐藏
+        if (currentAnchor === anchorEl) {
+          window.hideAmirTooltip();
+          return;
+        }
+
+        currentAnchor = anchorEl;
+        currentSequence = sequenceData || anchorEl.dataset.fullSeq;
+
+        const tooltipContent = tooltip.querySelector('.tooltip-content');
+        tooltipContent.innerHTML = content;
+
+        // 移除旧的事件监听器
+        const oldHandler = tooltip._copyHandler;
+        if (oldHandler) {
+          tooltip.removeEventListener('click', oldHandler);
+        }
+
+        // 添加新的复制事件监听器
+        const copyHandler = (e) => {
+          if (e.target.closest('.tooltip-close')) return; // 不处理关闭按钮的点击
+          
+          if (currentSequence) {
+            navigator.clipboard.writeText(currentSequence).then(() => {
+              const toast = document.createElement('div');
+              toast.textContent = 'Copied!';
+              toast.style.position = 'fixed';
+              const rectT = tooltip.getBoundingClientRect();
+              toast.style.top = (rectT.top - 30) + 'px';
+              toast.style.left = (rectT.left + rectT.width/2 - 30) + 'px';
+              toast.style.padding = '4px 8px';
+              toast.style.background = 'rgba(0,0,0,0.8)';
+              toast.style.color = '#fff';
+              toast.style.borderRadius = '4px';
+              toast.style.fontSize = '12px';
+              toast.style.zIndex = 2000;
+              document.body.appendChild(toast);
+              setTimeout(() => toast.remove(), 1500);
+            }).catch(() => {});
+          }
+        };
+        
+        tooltip.addEventListener('click', copyHandler);
+        tooltip._copyHandler = copyHandler; // 保存引用以便后续移除
+
+        // 添加关闭按钮（若尚未添加）
+        let closeBtn = tooltip.querySelector('.tooltip-close');
+        if (!closeBtn) {
+          closeBtn = document.createElement('span');
+          closeBtn.className = 'tooltip-close';
+          closeBtn.innerHTML = '&times;';
+          closeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            window.hideAmirTooltip();
+          });
+          tooltip.appendChild(closeBtn);
+        }
+
+        tooltip.style.opacity = '0';
+        tooltip.style.display = 'block';
+
+        // 计算锚定位置
+        const rect = anchorEl.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+
+        // 确保先获取尺寸
+        const tRect = tooltip.getBoundingClientRect();
+        let left = rect.left + rect.width/2 - tRect.width/2;
+        let top = rect.top - tRect.height - 10;
+        let arrowDir = 'bottom';
+
+        if (left < 10) left = 10;
+        if (left + tRect.width > viewportWidth - 10) left = viewportWidth - tRect.width - 10;
+
+        if (top < 10) {
+          top = rect.bottom + 10;
+          arrowDir = 'top';
+        }
+        if (top + tRect.height > viewportHeight - 10) {
+          top = rect.top - tRect.height - 10;
+          arrowDir = 'bottom';
+        }
+
+        const arrow = tooltip.querySelector('.tooltip-arrow');
+        if (arrow) {
+          if (arrowDir === 'bottom') {
+            arrow.style.bottom = '-5px';
+            arrow.style.top = 'auto';
+            arrow.style.borderTop = '5px solid #ffffff';
+            arrow.style.borderBottom = 'none';
+          } else {
+            arrow.style.top = '-5px';
+            arrow.style.bottom = 'auto';
+            arrow.style.borderBottom = '5px solid #ffffff';
+            arrow.style.borderTop = 'none';
+          }
+          const arrowLeft = rect.left + rect.width/2 - left - 5;
+          const finalLeft = Math.max(5, Math.min(arrowLeft, tRect.width - 15));
+          arrow.style.left = finalLeft + 'px';
+        }
+
+        tooltip.style.left = left + 'px';
+        tooltip.style.top = top + 'px';
+        tooltip.style.opacity = '1';
+
+        // 点击页面其他地方关闭
+        const clickOutsideHandler = (ev) => {
+          if (!tooltip.contains(ev.target) && ev.target !== anchorEl) {
+            window.hideAmirTooltip();
+          }
+        };
+        setTimeout(() => {
+          document.addEventListener('click', clickOutsideHandler, { once: true });
+        }, 0);
+      };
+
+      window.hideAmirTooltip = function() {
+        const tooltip = document.getElementById('amirTooltip');
+        if (tooltip) {
+          tooltip.style.opacity = '0';
+          tooltip.style.display = 'none';
+          
+          // 清理事件监听器
+          const oldHandler = tooltip._copyHandler;
+          if (oldHandler) {
+            tooltip.removeEventListener('click', oldHandler);
+            tooltip._copyHandler = null;
+          }
+        }
+        currentAnchor = null;
+        currentSequence = null;
+      };
+    }
+
+    /* ============ Aptamer序列访问按钮事件处理 ============ */
+    // 处理序列访问按钮点击
+    const sequenceBtn = document.getElementById('sequenceBtn');
+    if (sequenceBtn) {
+      sequenceBtn.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        // 从页面标题生成搜索查询 - 使用document.title获取准确的页面标题
+        let titleText = document.title.trim();
+        
+        // 如果document.title包含站点名称，去除它
+        if (titleText.includes(' | ') || titleText.includes(' - ')) {
+          titleText = titleText.split(/\s+[\|\-]\s+/)[0].trim();
+        }
+        
+        // 如果还是没有获取到，尝试从h1获取
+        if (!titleText) {
+          const pageTitle = document.querySelector('h1');
+          titleText = pageTitle ? pageTitle.textContent.trim() : '';
+        }
+        
+        let searchQuery = '';
+        
+        if (titleText) {
+          console.log('Original title:', titleText);
+          
+          // 直接使用完整的页面标题进行搜索
+          // 因为同事们混用dash符号，完整标题搜索更准确
+          searchQuery = titleText.trim();
+          
+          console.log('Using full title as search query:', searchQuery);
+        }
+        
+        // 如果没有获取到标题，使用默认搜索词
+        if (!searchQuery) {
+          searchQuery = 'aptamer';
+        }
+        
+        // 跳转到sequences页面并执行搜索
+        const sequencesUrl = `/sequences/?search=${encodeURIComponent(searchQuery)}`;
+        console.log('Navigating to sequences page with query:', searchQuery);
+        window.open(sequencesUrl, '_blank');
+      });
+    }
+
+    console.timeEnd('aptamer_init');
   });
 
   // Timeline动画效果

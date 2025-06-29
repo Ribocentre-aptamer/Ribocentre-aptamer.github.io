@@ -1,0 +1,218 @@
+# add_linker_to_json.py 使用指南
+
+## 概述
+
+`add_linker_to_json.py` 是一个增强版的链接添加和验证脚本，用于为 `sequences_cleaned.json` 中的记录添加和验证 `Linker` 字段。该脚本具有完整的链接验证功能、详细的调试信息和统计报告。
+
+## 主要功能
+
+- ✅ **链接生成**: 根据页面名称自动生成标准化的链接
+- 🔍 **链接验证**: 检查生成的链接是否指向实际存在的文件
+- 📊 **统计报告**: 提供详细的处理统计信息
+- 🔧 **调试信息**: 支持详细的调试日志输出
+- 🧪 **测试模式**: 支持干运行模式，不实际修改文件
+- ⚠️ **重复检测**: 检测并报告重复的页面名称
+
+## 命令行选项
+
+```bash
+python scripts/add_linker_to_json.py [选项]
+```
+
+### 基本选项
+
+| 选项 | 说明 | 默认值 |
+|------|------|--------|
+| `--json-path` | JSON数据文件路径 | `apidata/sequences_cleaned.json` |
+| `--posts-dir` | Posts目录路径 | `_posts` |
+| `--verbose, -v` | 显示详细的调试信息 | `False` |
+| `--force` | 强制更新已存在的链接 | `False` |
+| `--dry-run` | 测试运行，不保存文件 | `False` |
+
+## 使用示例
+
+### 1. 基本使用
+```bash
+python scripts/add_linker_to_json.py
+```
+- 处理默认的 JSON 文件
+- 只为没有链接的记录添加链接
+- 只添加有效的链接
+
+### 2. 详细模式
+```bash
+python scripts/add_linker_to_json.py --verbose
+```
+- 显示每个记录的详细处理过程
+- 显示 slug 生成步骤
+- 显示文件查找过程
+
+### 3. 测试运行
+```bash
+python scripts/add_linker_to_json.py --dry-run --verbose
+```
+- 进行完整的处理但不保存文件
+- 适合在正式运行前测试
+- 查看会产生什么结果
+
+### 4. 强制更新
+```bash
+python scripts/add_linker_to_json.py --force
+```
+- 更新所有记录的链接，包括已存在的
+- 用于修复错误的链接
+
+### 5. 指定文件路径
+```bash
+python scripts/add_linker_to_json.py --json-path /path/to/data.json --posts-dir /path/to/posts
+```
+
+## 输出说明
+
+### 1. 运行信息
+```
+📂 JSON文件路径: apidata/sequences_cleaned.json
+📂 Posts目录: _posts
+🔧 强制更新模式: 否
+🧪 测试运行模式: 否
+📝 详细日志: 开启
+```
+
+### 2. 重复检测
+```
+⚠️  发现 3 个重复的页面名称:
+  - 'ATP aptamer' 被以下记录使用: ATP_Szostak_1, ATP_Szostak_2
+  - 'HIV-1 RT aptamer' 被以下记录使用: HIV-1-RT_Gold_1, HIV-1-RT_Gold_2
+```
+
+### 3. 统计信息
+```
+============================================================
+📊 处理统计信息
+============================================================
+总记录数:              1250
+已有链接的记录:        800
+缺少页面名称的记录:    50
+新添加的链接:          350
+有效链接数:            1100
+无效链接数:            100
+重复页面名称数:        15
+链接有效率:            88.0%
+```
+
+### 4. 无效链接详情
+```
+❌ 无效链接详情 (显示前 20 个):
+--------------------------------------------------------------------------------
+ 1. 记录ID: CB3GA_Szostak_1
+    链接: /_posts/B4-25-aptamer-CB-42-aptamer.html
+    原因: 找不到对应的源文件: _posts/B4-25-aptamer-CB-42-aptamer.md 或 _posts/B4-25-aptamer-CB-42-aptamer.html
+
+ 2. 记录ID: RB4_Szostak_1
+    链接: /_posts/Some-Invalid-Name.html
+    原因: 找不到对应的源文件: _posts/Some-Invalid-Name.md 或 _posts/Some-Invalid-Name.html
+```
+
+## 链接验证规则
+
+脚本会按照以下规则验证链接：
+
+1. **格式验证**: 链接必须以 `/_posts/` 开头
+2. **文件存在性**: 对应的 `.md` 或 `.html` 文件必须存在于 `_posts` 目录中
+3. **命名规范**: 链接名称通过 `slugify` 函数标准化生成
+
+## Slug 生成规则
+
+页面名称转换为文件名的规则：
+
+1. 去除前后空白字符
+2. 将空格和连续空白字符替换为单个短横线 `-`
+3. 将特殊分隔符（em dash, en dash, 斜杠, 下划线）替换为短横线
+4. 移除除字母数字、短横线、括号外的字符
+5. 压缩多个短横线
+6. 返回不以短横线开头或结尾的 slug
+
+### 示例
+```
+"ATP aptamer" → "ATP-aptamer"
+"HIV-1 RT aptamer" → "HIV-1-RT-aptamer"
+"B4-25 aptamer, CB-42 aptamer" → "B4-25-aptamer-CB-42-aptamer"
+```
+
+## 常见使用场景
+
+### 场景1: 首次添加链接
+```bash
+# 测试运行，查看结果
+python scripts/add_linker_to_json.py --dry-run --verbose
+
+# 确认无误后正式运行
+python scripts/add_linker_to_json.py
+```
+
+### 场景2: 验证现有链接
+```bash
+# 只验证不添加新链接
+python scripts/add_linker_to_json.py --dry-run
+```
+
+### 场景3: 修复所有链接
+```bash
+# 强制更新所有链接（谨慎使用）
+python scripts/add_linker_to_json.py --force --dry-run  # 先测试
+python scripts/add_linker_to_json.py --force           # 确认后执行
+```
+
+### 场景4: 调试特定问题
+```bash
+# 详细模式查看处理过程
+python scripts/add_linker_to_json.py --verbose --dry-run
+```
+
+## 注意事项
+
+1. **备份数据**: 在运行脚本前建议备份 `sequences_cleaned.json` 文件
+2. **测试先行**: 使用 `--dry-run` 选项先测试，确认结果无误后再正式运行
+3. **重复页面名称**: 注意处理重复的页面名称，可能需要手动调整
+4. **无效链接**: 对于无效链接，需要检查对应的文章文件是否存在
+5. **强制更新**: `--force` 选项会覆盖已存在的链接，使用时要谨慎
+
+## 故障排除
+
+### 问题1: 找不到 JSON 文件
+```
+❌ 错误: 找不到文件: apidata/sequences_cleaned.json
+```
+**解决方案**: 检查文件路径是否正确，或使用 `--json-path` 指定正确路径
+
+### 问题2: 找不到 Posts 目录
+```
+❌ 错误: 找不到目录: _posts
+```
+**解决方案**: 确保在正确的项目根目录运行脚本，或使用 `--posts-dir` 指定正确路径
+
+### 问题3: 大量无效链接
+**可能原因**:
+- 页面名称与实际文件名不匹配
+- 文章文件缺失
+- Slug 生成规则需要调整
+
+**解决方案**:
+1. 检查 `_posts` 目录中的文件名
+2. 调整页面名称使其与文件名匹配
+3. 创建缺失的文章文件
+
+## 扩展功能
+
+脚本基于面向对象设计，可以轻松扩展：
+
+- 自定义 slug 生成规则
+- 添加更多的链接验证规则
+- 支持其他格式的输出
+- 添加更多的统计信息
+
+## 性能考虑
+
+- 脚本会遍历所有记录，对于大量数据可能需要一些时间
+- 文件存在性检查会进行磁盘 I/O 操作
+- 使用 `--verbose` 选项会产生大量输出，影响性能 

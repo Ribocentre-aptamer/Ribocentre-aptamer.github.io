@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 800 400" style="enable-background:new 0 0 800 400;" xml:space="preserve">
 <style type="text/css">
@@ -19,9 +19,9 @@
 	.st13{font-size:16.5922px;}
 	.st14{fill:#FFFFFF;}
 	.st15{font-size:20.1682px;}
-	.st16{font-size:20px;}
+	.st16{font-size:23.9385px;}
 	.st17{font-size:15.959px;}
-	.st18{font-size:21px;}
+	.st18{font-size:20px;}
 	.st19{opacity:0.5;fill:#459119;enable-background:new    ;}
 	.st20{opacity:0.3;fill:#459119;enable-background:new    ;}
 </style>
@@ -58,12 +58,12 @@
 <text transform="matrix(1 0 0 1 104.2832 218.2386)" class="st5 st2 st3">C</text>
 <text transform="matrix(1 0 0 1 87.2393 210.7903)" class="st4 st2 st3">A</text>
 <text transform="matrix(1 0 0 1 75.5342 197.831)" class="st4 st2 st3">C</text>
-<text transform="matrix(1 0 0 1 83.9775 155.759)" class="st6 st3">30</text>
+<text transform="matrix(1 0 0 1 83.9775 155.7591)" class="st6 st3">30</text>
 <text transform="matrix(1 0 0 1 63.2021 185.574)" class="st4 st2 st3">U</text>
 <text transform="matrix(1 0 0 1 54.4932 173.3033)" class="st1 st2 st3">G</text>
-<text transform="matrix(1 0 0 1 54.915 156.9111)" class="st1 st2 st3">C</text>
+<text transform="matrix(1 0 0 1 54.915 156.9112)" class="st1 st2 st3">C</text>
 <text transform="matrix(1 0 0 1 54.3926 140.5142)" class="st1 st2 st3">G</text>
-<text transform="matrix(1 0 0 1 54.8154 124.123)" class="st1 st2 st3">C</text>
+<text transform="matrix(1 0 0 1 54.8154 124.1231)" class="st1 st2 st3">C</text>
 <text transform="matrix(1 0 0 1 54.7666 107.7318)" class="st1 st2 st3">C</text>
 <line class="st10" x1="34.4" y1="101.7" x2="54.1" y2="101.7"/>
 <line class="st10" x1="34.4" y1="118.1" x2="54.1" y2="118"/>
@@ -264,12 +264,12 @@
 <line class="st10" x1="82.4" y1="186.6" x2="92.3" y2="156.6"/>
 <line class="st11" x1="316.6" y1="310.2" x2="346.8" y2="289"/>
 <text transform="matrix(1 -6.074728e-03 6.074728e-03 1 766.962 72.97)" class="st1 st2 st13">G</text>
-<text transform="matrix(1 -6.074728e-03 6.074728e-03 1 767.8076 89.675)" class="st1 st2 st3">G</text>
+<text transform="matrix(1 -6.074728e-03 6.074728e-03 1 767.8077 89.675)" class="st1 st2 st3">G</text>
 <text transform="matrix(1 -6.074728e-03 6.074728e-03 1 768.4305 106.063)" class="st1 st2 st3">C</text>
 <text transform="matrix(1 -6.074728e-03 6.074728e-03 1 768.1046 122.4628)" class="st1 st2 st3">G</text>
-<text transform="matrix(1 -3.037378e-03 3.037378e-03 1 768.5907 138.8819)" class="st1 st2 st3">C</text>
+<text transform="matrix(1 -3.037378e-03 3.037378e-03 1 768.5908 138.8819)" class="st1 st2 st3">C</text>
 <text transform="matrix(1 -3.037378e-03 3.037378e-03 1 760.0444 159.4274)" class="st4 st2 st3">G</text>
-<text transform="matrix(1 0 0 1 748.1641 175.9084)" class="st4 st2 st3">A</text>
+<text transform="matrix(1 0 0 1 748.1641 175.9085)" class="st4 st2 st3">A</text>
 <text transform="matrix(1 0 0 1 735.4229 196.4038)" class="st4 st2 st3">G</text>
 <text transform="matrix(1 0 0 1 686.3428 229.3425)" class="st5 st2 st3">G</text>
 <text transform="matrix(1 0 0 1 617.1699 229.589)" class="st5 st2 st3">A</text>
@@ -282,13 +282,13 @@
 <text transform="matrix(1 0 0 1 516.2891 260.5457)" class="st8 st2 st3">G</text>
 <text transform="matrix(1 0 0 1 591.6299 258.3168)" class="st5 st2 st3">U</text>
 <text transform="matrix(1 0 0 1 661.3037 260.1046)" class="st5 st2 st3">C</text>
-<text transform="matrix(1 0 0 1 692.7959 159.6436)" class="st9 st2 st3">U</text>
+<text transform="matrix(1 0 0 1 692.7959 159.6435)" class="st9 st2 st3">U</text>
 <text transform="matrix(1 0 0 1 660.6963 215.0262)" class="st5 st2 st3">G</text>
 <text transform="matrix(1 0 0 1 628.7363 168.9363)" class="st6 st3">20</text>
 <text transform="matrix(1 0 0 1 591.5293 214.2747)" class="st5 st2 st3">A</text>
 <text transform="matrix(1 0 0 1 443.4824 214.6854)" class="st8 st2 st3">G</text>
 <text transform="matrix(1 0 0 1 513.1562 214.4732)" class="st8 st2 st3">G</text>
-<text transform="matrix(1 0 0 1 455.8418 147.8962)" class="st9 st2 st3">A</text>
+<text transform="matrix(1 0 0 1 455.8418 147.8963)" class="st9 st2 st3">A</text>
 <text transform="matrix(1 0 0 1 477.1768 184.894)" class="st8 st2 st3">G</text>
 <text transform="matrix(1 0 0 1 545.8584 184.6817)" class="st8 st2 st3">G</text>
 <text transform="matrix(1 0 0 1 615.998 186.4695)" class="st5 st2 st3">U</text>
@@ -298,9 +298,9 @@
 <text transform="matrix(1 0 0 1 700.3096 122.6746)" class="st6 st3">30</text>
 <text transform="matrix(1 -3.037378e-03 3.037378e-03 1 727.6762 151.4266)" class="st4 st2 st3">U</text>
 <text transform="matrix(1 -3.037378e-03 3.037378e-03 1 735.33 139.0827)" class="st1 st2 st3">G</text>
-<text transform="matrix(1 -6.074728e-03 6.074728e-03 1 735.7911 122.759)" class="st1 st2 st3">C</text>
+<text transform="matrix(1 -6.074728e-03 6.074728e-03 1 735.7911 122.7589)" class="st1 st2 st3">C</text>
 <text transform="matrix(1 -6.074728e-03 6.074728e-03 1 735.1678 106.3652)" class="st1 st2 st3">G</text>
-<text transform="matrix(1 -6.074728e-03 6.074728e-03 1 735.4912 89.9698)" class="st1 st2 st3">C</text>
+<text transform="matrix(1 -6.074728e-03 6.074728e-03 1 735.4913 89.9698)" class="st1 st2 st3">C</text>
 <text transform="matrix(1 -6.074728e-03 6.074728e-03 1 735.3422 73.2646)" class="st1 st2 st13">C</text>
 <line class="st10" x1="767.2" y1="68.3" x2="747.5" y2="68.3"/>
 <line class="st10" x1="767.2" y1="84.7" x2="747.6" y2="84.8"/>
@@ -503,8 +503,8 @@
 <line class="st10" x1="661" y1="201.9" x2="638.1" y2="168.9"/>
 <line class="st10" x1="719" y1="151.4" x2="709.5" y2="123.5"/>
 <line class="st11" x1="405.4" y1="277.8" x2="444.4" y2="257.5"/>
-<text transform="matrix(-3.037392e-03 -1 1 -3.037392e-03 406.96 253.2865)" class="st14 st6 st15">DFHO</text>
-<text transform="matrix(1 0 0 1 19.7231 87.9478)" class="st6 st16">5</text>
+<text transform="matrix(-3.037392e-03 -1 1 -3.037392e-03 407.887 253.0615)" class="st14 st6 st15">DFHO</text>
+<text transform="matrix(1 0 0 1 19.7231 87.9477)" class="st6 st16">5</text>
 <text transform="matrix(1 -3.037392e-03 3.037392e-03 1 33.0189 87.9638)" class="st6 st16">’</text>
 <text transform="matrix(1 0 0 1 56.9946 87.8369)" class="st6 st16">3</text>
 <text transform="matrix(1 -3.037392e-03 3.037392e-03 1 70.2913 87.8506)" class="st6 st16">’</text>
@@ -515,8 +515,8 @@
 <text transform="matrix(1 0 0 1 11.1328 107.9373)" class="st6 st17">1</text>
 <text transform="matrix(1 0 0 1 67.9736 106.1531)" class="st6 st17">36</text>
 <text transform="matrix(1 0 0 1 780.396 73.3751)" class="st6 st17">1</text>
-<text transform="matrix(1 0 0 1 716.9072 74.6187)" class="st6 st17">36</text>
-<text transform="matrix(1 0 0 1 329.7322 41.9525)" class="st6 st18">Corn aptamer</text>
+<text transform="matrix(1 0 0 1 716.9072 74.6186)" class="st6 st17">36</text>
+<text transform="matrix(1 0 0 1 338.2226 28.2697)" class="st6 st18">Corn aptamer</text>
 <path class="st19" d="M279.5,244.8l0.1,31.8c0,1.9-1.7,1.9-3.9-0.1l-16.6-15.3c-2.1-2-3.9-5.1-3.9-7l-0.1-31.8
 	c0-1.9,1.7-1.9,3.9,0.1l16.6,15.3C277.7,239.7,279.4,242.8,279.5,244.8z"/>
 <path class="st20" d="M134.8,248.5l0.1,30.6c0,1.9-1.5,1.6-3.3-0.5l-14.5-17c-1.9-2.2-3.3-5.4-3.3-7.3l-0.1-30.6

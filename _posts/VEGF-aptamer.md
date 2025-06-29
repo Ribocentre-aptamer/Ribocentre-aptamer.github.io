@@ -1,80 +1,51 @@
 ---
-layout: post
-title:  "VEGF-aptamer"
-date:   2024-05-14 00:00:00
+layout: theophylline_style
+title: VEGF aptamer
+date: 2024-05-14 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.0
+- GC:56.25
+- GC:57.14
+- GC:58.440000000000005
+- GC:58.620000000000005
+- GC:58.75
+- GC:59.040000000000006
+- GC:61.040000000000006
+- GC:61.11
+- GC:62.86000000000001
+- GC:64.47
+- GC:65.52
+- GC:77.42
+- Length:29
+- Length:31
+- Length:35
+- Length:36
+- Length:76
+- Length:77
+- Length:80
+- Length:83
+- Named:Vascular Endothelial Growth Factor (VEGF)_100
+- Named:Vascular Endothelial Growth Factor (VEGF)_100t
+- Named:Vascular Endothelial Growth Factor (VEGF)_12
+- Named:Vascular Endothelial Growth Factor (VEGF)_126
+- Named:Vascular Endothelial Growth Factor (VEGF)_126t
+- Named:Vascular Endothelial Growth Factor (VEGF)_12t
+- Named:Vascular Endothelial Growth Factor (VEGF)_40
+- Named:Vascular Endothelial Growth Factor (VEGF)_40t
+- Named:Vascular Endothelial Growth Factor (VEGF)_44
+- Named:Vascular Endothelial Growth Factor (VEGF)_44t
+- Named:Vascular Endothelial Growth Factor (VEGF)_84
+- Named:Vascular Endothelial Growth Factor (VEGF)_84t
+- Named:Vascular Endothelial Growth Factor (VEGF)_t44-OMe
+- Type:Proteins
+- Year:1994
+- Year:1998
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -123,7 +94,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/16357200/" target="_blank" style="color:#520049">2005</a></h3>
   </div>
   <div class="body">
-    <p>Comparison of NMR spectra revealed that structural features of the smaller HBD-aptamer complex are present in the full-length VEGF(164)-aptamer complex<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
+    <p>Comparison of NMR spectra revealed that structural features of the smaller HBD aptamer complex are present in the full-length VEGF(164) aptamer complex<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
   </div>
  </div>
             
@@ -202,34 +173,28 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1994, Jellinek, D. et al. used SELEX to identify RNA ligands that bind to VEGF in a specific manner with affinities in the low nanomolar range. In 1995, followed by the use of F-substituted nucleotides to further improve affinity. In 1998, three stable, high-affinity candidate anti-VEGF aptamers were characterized. In 1999, Pegaptanib was further characterized in experiments with cultured endothelial cells. In subsequent work, pegaptanib was found to be stable in human plasma at ambient temperatures for more than 18 hours, dthe pharmacokinetics of pegaptanib were evaluated following  in rhesus monkeys. In 2004, The safety and efficacy of pegaptanib in the treatment of choroidal neovascularization secondary to AMD were tested in two clinical trials.In December 2004, the US FDA approved pegaptanib sodium (Macugen), an anti-vascular endothelial growth factor (anti-VEGF) RNA aptamer, for the treatment of all types of neovascular age-related macular degeneration (AMD)<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>,<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>,<a href="#ref5" style="color:#520049">5</a>,<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 1994, Jellinek, D. et al. used SELEX to identify RNA ligands that bind to VEGF in a specific manner with affinities in the low nanomolar range. In 1995, followed by the use of F-substituted nucleotides to further improve affinity. In 1998, three stable, high-affinity candidate anti-VEGF aptamers were characterized. In 1999, Pegaptanib was further characterized in experiments with cultured endothelial cells. In subsequent work, pegaptanib was found to be stable in human plasma at ambient temperatures for more than 18 hours, dthe pharmacokinetics of pegaptanib were evaluated following  in rhesus monkeys. In 2004, The safety and efficacy of pegaptanib in the treatment of choroidal neovascularization secondary to AMD were tested in two clinical trials.In December 2004, the US FDA approved pegaptanib sodium (Macugen), an anti-vascular endothelial growth factor (anti-VEGF) RNA aptamer, for the treatment of all types of neovascular age-related macular degeneration (AMD)<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>,<a href="#ref3" style="color:#520049">3</a>,<a href="#ref4" style="color:#520049">4</a>,<a href="#ref5" style="color:#520049">5</a>,<a href="#ref6" style="color:#520049">6</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Random RNA used in the initial selection bound to VEGF with an affinity of approximately 0.2 pM. After 13 rounds of SELEX, the observed improvement in affinity of the evolved RNA pool was about 2 orders of magnitude. Cloned and sequenced 64 isolates from this evolved pool and found 37 unique sequences. In 1998, Janjić, N. et al isolated 2'-F-pyrimidine RNA oligonucleotide ligands (aptamers) to human VEGF165. Aptamers to VEGF165 were isolated in three separate SELEX experiments from 2′-F-pyrimidine RNA libraries containing 30 or 40 random nucleotides. After 10 cycles, the affinity between VEGF and each RNA pool had improved approximately 1000-fold relative to the starting pools (data not shown). individual members of the 12th round pools were cloned and sequences were determined for about 50 isolates from each selection<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Random RNA used in the initial selection bound to VEGF with an affinity of approximately 0.2 pM. After 13 rounds of SELEX, the observed improvement in affinity of the evolved RNA pool was about 2 orders of magnitude. Cloned and sequenced 64 isolates from this evolved pool and found 37 unique sequences. In 1998, Janjić, N. et al isolated 2'-F-pyrimidine RNA oligonucleotide ligands (aptamers) to human VEGF165. Aptamers to VEGF165 were isolated in three separate SELEX experiments from 2′-F-pyrimidine RNA libraries containing 30 or 40 random nucleotides. After 10 cycles, the affinity between VEGF and each RNA pool had improved approximately 1000-fold relative to the starting pools (data not shown). individual members of the 12th round pools were cloned and sequences were determined for about 50 isolates from each selection<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></font>
-<font><p>5'-GCGGAAUCAGUGAAUGCUUAUACAUCCGC-3'</p></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br></p>
+<p>5'-GCGGAAUCAGUGAAUGCUUAUACAUCCGC-3'</p>
 <img src="/images/2D/VEGF_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Vascular endothelial growth factor (VEGF), originally known as vascular permeability factor (VPF),is a signal protein produced by many cells that stimulates the formation of blood vessels. To be specific, VEGF is a sub-family of growth factors, the platelet-derived growth factor family of cystine-knot growth factors. They are important signaling proteins involved in both vasculogenesis (the de novo formation of the embryonic circulatory system) and angiogenesis (the growth of blood vessels from pre-existing vasculature).-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -255,7 +220,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -293,8 +258,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -340,8 +305,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -367,7 +330,7 @@ Bell, C., Lynam, E., Landfair, D. J., Janjic, N., & Wiles, M. E.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10548435/" target="_blank" style="color:#520049">In vitro cellular & developmental biology. Animal, 35(9), 533–542. (1999)</a>
 <br/>
             
-<a id="ref5"></a><font><strong>[5] Detection and plasma pharmacokinetics of an anti-vascular endothelial growth factor oligonucleotide-aptamer (NX1838) in rhesus monkeys.</strong></font><br />
+<a id="ref5"></a><font><strong>[5] Detection and plasma pharmacokinetics of an anti-vascular endothelial growth factor oligonucleotide aptamer (NX1838) in rhesus monkeys.</strong></font><br />
 Tucker, C. E., Chen, L. S., Judkins, M. B., Farmer, J. A., Gill, S. C., & Drolet, D. W.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10517237/" target="_blank" style="color:#520049">Journal of chromatography. B, Biomedical sciences and applications, 732(1), 203–212. (1999)</a>
 <br/>
@@ -392,7 +355,7 @@ Trujillo, C. A., Nery, A. A., Alves, J. M., Martins, A. H., & Ulrich, H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/19668516/" target="_blank" style="color:#520049">Clinical ophthalmology (Auckland, N.Z.), 1(4), 393–402. (2007)</a>
 <br/>
             
-<a id="ref10"></a><font><strong>[10] Wirkung von VEGF165 und dem VEGF-Aptamer Pegaptanib (Macugen) auf die Zusammensetzung der Tight Junctions mikrovaskulärer Endothelzellen aus der Retina [Effect of VEGF165 and the VEGF aptamer pegaptanib (Macugen) on the protein composition of tight junctions in microvascular endothelial cells of the retina].</strong></font><br />
+<a id="ref10"></a><font><strong>[10] Wirkung von VEGF165 und dem VEGF aptamer Pegaptanib (Macugen) auf die Zusammensetzung der Tight Junctions mikrovaskulärer Endothelzellen aus der Retina [Effect of VEGF165 and the VEGF aptamer pegaptanib (Macugen) on the protein composition of tight junctions in microvascular endothelial cells of the retina].</strong></font><br />
 Deissler, H. L., & Lang, G. E.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/18951306/" target="_blank" style="color:#520049">Klinische Monatsblatter fur Augenheilkunde, 225(10), 863–867. (2008)</a>
 <br/>
@@ -447,7 +410,7 @@ Kalathingal, M., & Rhee, Y. M.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -488,8 +451,7 @@ Kalathingal, M., & Rhee, Y. M.<br />
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -500,37 +462,7 @@ Kalathingal, M., & Rhee, Y. M.<br />
   });
     </script>
 
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+
 
 
     </html>

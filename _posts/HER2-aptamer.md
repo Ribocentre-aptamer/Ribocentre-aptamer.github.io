@@ -1,84 +1,25 @@
 ---
-layout: post
-title:  "HER2 aptamer"
-date:   2024-06-06 00:00:00
+layout: theophylline_style
+title: HER2 aptamer
+date: 2024-06-06 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:cell
+- GC:46.0
+- GC:48.0
+- Length:100
+- Length:33
+- Length:35
+- Named:HER2-positive breast cancer cells_TSA12 aptamer
+- Named:HER2-positive breast cancer cells_TSA14
+- Named:HER2-positive breast cancer cells_TSA14 aptamer(truncation)
+- Type:Cells
+- Year:2015
+type: Cells
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -92,23 +33,22 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2015, Moosavian, S. A. et al. isolate RNA aptamers that specifically bind to HER2 overexpressing TUBO cell line. Among them TSA14 aptamer had the most affinity for target cells. Different experiments showed that the interaction of TSA14 aptamer with TUBO cells is mediated by binding to the extracellular domain of HER2<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2015, Moosavian, S. A. et al. isolate RNA aptamers that specifically bind to HER2 overexpressing TUBO cell line. Among them TSA14 aptamer had the most affinity for target cells. Different experiments showed that the interaction of TSA14 aptamer with TUBO cells is mediated by binding to the extracellular domain of HER2<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The random library was synthesized by DNA synthesizer (PolyGen) and purified by gel purification. This library was amplified using forward primer and reverse primer. RNA library was transcribed from the PCR product using DuraScribe T7 transcription kit (Epicentre Technologies).  After purification, the RNA library was added to 300 µl binding buffer containing HEPES-NaOH (20 mM, pH 7.4), NaCl (150 mM), CaCl2 (1.5 mM), MgCl2 (0.5 mM), and 10% yeast tRNA (Sigma). To retain correct configurations, the RNA library was denatured at 90 °C for 1 min and snap-cooled on ice. Cell SELEX TUBO cells were dislodged from the flask after a short period of incubation with trypsin and then counted. The cells’ viability was assessed by Trypan blue assay. 5-10 million cells were centrifuged, washed 3 times with washing buffer (20 mM HEPES-NaOH, pH 7.4, 150 mM NaCl, 1.5 mM CaCl2, 0.5 mM MgCl2) and resuspended in the binding buffer washing buffer plus 10% yeast tRNA (Sigma)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>The random library was synthesized by DNA synthesizer (PolyGen) and purified by gel purification. This library was amplified using forward primer and reverse primer. RNA library was transcribed from the PCR product using DuraScribe T7 transcription kit (Epicentre Technologies).  After purification, the RNA library was added to 300 µl binding buffer containing HEPES-NaOH (20 mM, pH 7.4), NaCl (150 mM), CaCl2 (1.5 mM), MgCl2 (0.5 mM), and 10% yeast tRNA (Sigma). To retain correct configurations, the RNA library was denatured at 90 °C for 1 min and snap-cooled on ice. Cell SELEX TUBO cells were dislodged from the flask after a short period of incubation with trypsin and then counted. The cells’ viability was assessed by Trypan blue assay. 5-10 million cells were centrifuged, washed 3 times with washing buffer (20 mM HEPES-NaOH, pH 7.4, 150 mM NaCl, 1.5 mM CaCl2, 0.5 mM MgCl2) and resuspended in the binding buffer washing buffer plus 10% yeast tRNA (Sigma)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures are based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>TSA14 aptamer: 5'-GCUGGAGCAUUUAUGGAUGAACCUUGGACGGAA-3'<br>TSA12 aptamer: 5'-GAAAGUGAGAGUCGAUUUAGCAACAGAGAGUGAGG-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>The 2D structure of the figures are based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>TSA14 aptamer: </p>
+<p>5'-GCUGGAGCAUUUAUGGAUGAACCUUGGACGGAA-3'<br></p>
+<p>TSA12 aptamer: </p>
+<p>5'-GAAAGUGAGAGUCGAUUUAGCAACAGAGAGUGAGG-3'</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/her2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -117,16 +57,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Receptor tyrosine-protein kinase erbB-2 is a protein that normally resides in the membranes of cells and is encoded by the ERBB2 gene. ERBB is abbreviated from erythroblastic oncogene B, a gene originally isolated from the avian genome. The human protein is also frequently referred to as HER2 (human epidermal growth factor receptor 2) or CD340 (cluster of differentiation 340).-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -152,7 +90,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -182,8 +120,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -264,8 +202,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -289,7 +225,7 @@ Moosavian, S. A., Jaafari, M. R., Taghdisi, S. M., Mosaffa, F., Badiee, A., & Ab
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -330,8 +266,7 @@ Moosavian, S. A., Jaafari, M. R., Taghdisi, S. M., Mosaffa, F., Badiee, A., & Ab
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -342,37 +277,7 @@ Moosavian, S. A., Jaafari, M. R., Taghdisi, S. M., Mosaffa, F., Badiee, A., & Ab
   });
     </script>
 
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+
 
 
     </html>

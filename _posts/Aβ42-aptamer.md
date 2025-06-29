@@ -1,80 +1,25 @@
 ---
-layout: post
-title:  "Aβ42 aptamer"
-date:   2024-05-15 00:00:00
+layout: theophylline_style
+title: Aβ42 aptamer
+date: 2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:51.949999999999996
+- GC:52.0
+- GC:53.0
+- Length:77
+- Named:β-amyloid 42 (Aβ42)_E22P-AbD31
+- Named:β-amyloid 42 (Aβ42)_E22P-AbD4
+- Named:β-amyloid 42 (Aβ42)_E22P–AbD43
+- Type:Proteins
+- Year:2020
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -138,34 +83,28 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></font>
-<font><p>E22P-AbD43: GGGACGAAGACCAACUGAACUUUGUGGUGGCGGCUACUCGUGUUCUUUUGACUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD4: GGGACGAAGACCAACUGAACUUUAGGAGGGGGCAUUUGGACCAGUUUGUGUCUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD31: GGGACGAAGACCAACUGAACUUUUGGGUGGUAACAGGUAGCUCCGGUUGUCCUUUGUCCGUGCUGCCACCUUACUUC</p></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.<br></p>
+<p>E22P-AbD43: GGGACGAAGACCAACUGAACUUUGUGGUGGCGGCUACUCGUGUUCUUUUGACUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD4: GGGACGAAGACCAACUGAACUUUAGGAGGGGGCAUUUGGACCAGUUUGUGUCUUUGUCCGUGCUGCCACCUUACUUC<br>E22P-AbD31: GGGACGAAGACCAACUGAACUUUUGGGUGGUAACAGGUAGCUCCGGUUGUCCUUUGUCCGUGCUGCCACCUUACUUC</p>
 <img src="/images/2D/EP22_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Amyloid-beta peptides are lipophilic metal chelators with metal-reducing activity. Bind transient metals such as copper, zinc and iron. In vitro, can reduce Cu2+ and Fe3+ to Cu+ and Fe2+, respectively. Amyloid-beta protein 42 is a more effective reductant than amyloid-beta protein 40. Amyloid-beta peptides bind to lipoproteins and apolipoproteins E and J in the CSF and to HDL particles in plasma, inhibiting metal-catalyzed oxidation of lipoproteins.-----from Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -196,7 +135,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
   <font>Using the preincubated dimer model of E22P–Aβ42, which dimerized via a linker located at Val-40, as the target of in vitro selection, Murakami and his colleague obtained RNA aptamers with higher affinity toward PFs derived from a toxic Aβ42 dimer than toward fibrils produced from WT Aβ42 or from a toxic, conformationally constrained Aβ42 variant, E22P–Aβ42. Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref11" style="color:#520049">11</a>]</sup>.</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -229,13 +168,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/EP22_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>
@@ -316,8 +253,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -387,7 +322,7 @@ Murakami, K., Obata, Y., Sekikawa, A., Ueda, H., Izuo, N., Awano, T., Takabe, K.
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -429,8 +364,7 @@ Murakami, K., Obata, Y., Sekikawa, A., Ueda, H., Izuo, N., Awano, T., Takabe, K.
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -440,35 +374,5 @@ Murakami, K., Obata, Y., Sekikawa, A., Ueda, H., Izuo, N., Awano, T., Takabe, K.
     colorSelectionButton1.click();
   });
     </script>
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+
     </html>

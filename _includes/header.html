@@ -28,11 +28,11 @@
           <img src="{{ site.url }}{{ site.baseurl }}/images/header/aboutus.svg"
             style='height: 20px; width: auto; margin: 0;'>
           About us</a></li>
-      <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0"
+      <!-- <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0"
           href="javascript:void(0);" onclick="var searchInput = document.getElementById('search-box-header'); if(searchInput) { searchInput.focus(); searchInput.dispatchEvent(new Event('focus')); } var externalNav = document.querySelector('.external-nav'); if(externalNav && externalNav.classList.contains('show')) { externalNav.classList.remove('show'); }">
           <img src="{{ site.url }}{{ site.baseurl }}/images/header/search.svg"
             style='height: 20px; width: auto; margin: 0;'>
-          Search</a></li>
+          Search</a></li> -->
       <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0"
           href="https://gzlab.ac.cn/">
           GZNL-RDC
@@ -44,7 +44,7 @@
 </div>
 
 <!-- 首页搜索区域 -->
-{% unless page.url == '/advanced-search/' or page.permalink == '/advanced-search/' %}
+<!-- 原本设计高级搜索界面没有header，现在放出来。 -->
 <div class="full-width-image">
   <div class="search-box">
     <div class="search">
@@ -81,7 +81,6 @@
     </div>
   </div>
 </div>
-{% endunless %}
 
 <!-- 内部导航栏 (Aptamer) -->
 <div class="navbar navbar-expand-lg navbar-dark bg-primary" style='border-radius: 0; border: 0;' role="navigation">
@@ -257,7 +256,7 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
     z-index: 1020; /* 确保高于导航菜单 */
     margin-top: 5px;
-    max-height: 400px;
+    max-height: 80vh;
     overflow-y: auto;
   }
 
@@ -507,7 +506,10 @@
     color: #520049 !important;
     text-decoration: none;
   }
-  
+  /* 新增：如果按钮本身没被 hover，则保持白色 */
+  .dropdown.open > .nav-link-1:not(:hover) {
+    color: #ffffff !important;
+  }
   .dropdown:not(.open) > .nav-link-1:not(:hover) {
     color: #ffffff !important;
   }
@@ -563,7 +565,7 @@
     }
     
     .dropdown-menu > li > a:hover {
-      color: #520049;
+      color: #ffffff; 
       background-color: rgba(255, 255, 255, 0.1);
     }
     
@@ -678,6 +680,7 @@
 </style>
 
 <!-- JavaScript -->
+<script src="{{ site.baseurl }}/js/search-utils.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // 初始化Simple Jekyll Search
@@ -698,7 +701,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // 显示加载状态
-        resultsContainer.innerHTML = '<div class="no-results-message">正在搜索...</div>';
+        resultsContainer.innerHTML = '<div class="no-results-message">Searching...</div>';
         resultsContainer.style.display = 'block';
 
         // 尝试不同路径加载search.json
@@ -732,60 +735,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // 如果所有路径都失败
-        resultsContainer.innerHTML = '<div class="no-results-message">无法加载搜索数据，请尝试独立搜索页面</div>';
+        resultsContainer.innerHTML = '<div class="no-results-message">Unable to load search data, please try the standalone search page</div>';
       },
 
       processSearchResults(data, query) {
-        const results = [];
-        const queryLower = query.toLowerCase();
-        const queryTerms = queryLower.split(/\s+/).filter(term => term.length > 0);
-
-        // 遍历数据查找匹配项，处理null值
-        data.forEach(item => {
-          // 安全地获取字段值，处理null/undefined
-          const title = (item.title || '').toString();
-          const category = (item.category || '').toString(); 
-          const tags = (item.tags || '').toString();
-          const content = (item.content || '').toString();
-          
-          const titleLower = title.toLowerCase();
-          const categoryLower = category.toLowerCase();
-          const tagsLower = tags.toLowerCase();
-          const contentLower = content.toLowerCase();
-
-          let matched = false;
-
-          // 检查匹配
-          if (titleLower.includes(queryLower) || 
-              categoryLower.includes(queryLower) || 
-              tagsLower.includes(queryLower) || 
-              contentLower.includes(queryLower)) {
-            matched = true;
-          } else {
-            for (const term of queryTerms) {
-              if (titleLower.includes(term) || 
-                  categoryLower.includes(term) || 
-                  tagsLower.includes(term) || 
-                  contentLower.includes(term)) {
-                matched = true;
-                break;
-              }
-            }
-          }
-
-          if (matched) {
-            results.push({
-              title: title,
-              category: category, 
-              tags: tags,
-              content: content,
-              url: item.url || '#',
-              date: item.date || ''
-            });
-          }
-        });
-
+        
         // 限制结果数量
+        const results = SearchUtils.processResults(data, query);
         const limitedResults = results.slice(0, 1000);
         this.renderResults(limitedResults, query);
       },
@@ -799,7 +755,7 @@ document.addEventListener('DOMContentLoaded', function() {
          this.currentPage = 1;
          
          if (results.length === 0) {
-           resultsContainer.innerHTML = '<div class="no-results-message">没有找到相关结果，请尝试其他关键词</div>';
+           resultsContainer.innerHTML = '<div class="no-results-message">No relevant results found, please try other keywords.</div>';
            return;
          }
 
@@ -818,14 +774,12 @@ document.addEventListener('DOMContentLoaded', function() {
            const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
            const contentPreview = this.getContentPreview(item.content || '', query);
            
-           html += `<div class="search-result-item" onclick="window.open('${item.url}', '_blank')">
-             <h4>${highlightedTitle}</h4>
-             ${item.category ? `<div class="category">分类: ${this.highlightKeywords(item.category, query)}</div>` : ''}
-             <div class="content-preview">${contentPreview}</div>
-             <div class="search-result-meta">
-               ${item.tags ? `<div class="tags" style="color: #520049;">${this.highlightKeywords(item.tags, query)}</div>` : '<div></div>'}
-               ${item.date ? `<div class="date">${item.date}</div>` : '<div></div>'}
+           html += `<div class="result-item-list search-result-item result-page" onclick="window.open('${item.url}', '_blank')">
+             <div class="result-header">
+               <span class="result-index">${startIndex + index + 1}</span>
+               <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
              </div>
+             <div class="result-description">${contentPreview}</div>
            </div>`;
          });
 
@@ -835,7 +789,7 @@ document.addEventListener('DOMContentLoaded', function() {
            
            // 上一页按钮
            if (this.currentPage > 1) {
-             html += `<button class="page-btn" onclick="event.stopPropagation(); headerSearchHandler.goToPage(${this.currentPage - 1})">‹ 上一页</button>`;
+             html += `<button class="page-btn" onclick="event.stopPropagation(); headerSearchHandler.goToPage(${this.currentPage - 1})">‹ Previous Page</button>`;
            }
            
            // 页码
@@ -854,14 +808,14 @@ document.addEventListener('DOMContentLoaded', function() {
            
            // 下一页按钮
            if (this.currentPage < totalPages) {
-             html += `<button class="page-btn" onclick="event.stopPropagation(); headerSearchHandler.goToPage(${this.currentPage + 1})">下一页 ›</button>`;
+             html += `<button class="page-btn" onclick="event.stopPropagation(); headerSearchHandler.goToPage(${this.currentPage + 1})">Next Page ›</button>`;
            }
            
            html += '</div>';
            
            // 添加结果统计
            html += `<div class="search-stats">
-             显示第 ${startIndex + 1}-${endIndex} 项，共 ${this.allResults.length} 项结果
+             Showing items ${startIndex + 1}-${endIndex} , total ${this.allResults.length} results
            </div>`;
          }
 

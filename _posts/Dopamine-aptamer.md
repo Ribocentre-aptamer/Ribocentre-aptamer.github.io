@@ -1,80 +1,21 @@
 ---
-layout: post
-title:  "Dopamine aptamer"
-date:   2024-06-04 00:00:00
+layout: theophylline_style
+title: Dopamine aptamer
+date: 2024-06-04 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Biologics & Signaling Molecules
+- GC:58.56
+- Length:93
+- Named:Dopamine_dopa2
+- Type:Small molecules
+- Year:1997
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -141,7 +82,7 @@ categories: Aptamer
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30605601/" target="_blank" style="color:#520049">2019</a></h3>
   </div>
   <div class="body">
-    <p>Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA-Aptamer Electrode<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
+    <p>Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA aptamer Electrode<sup>[<a href="#ref7" style="color:#520049">7</a>]</sup></p>
   </div>
  </div>
             
@@ -156,35 +97,29 @@ categories: Aptamer
 </div>
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 1997, G P Tocchini-Valentini et al. screened dopa2/c.1 aptamer that specifically bind dopamine, revealed structural features of their binding sites, and found that ligand binding may cause RNA conformational changes. In 2011, Insook Rhee Paeng et al. development of a Direct Competitive Enzyme-Linked Aptamer Assay for the Determination of Dopamine Levels in Serum. In 2015, Elena E Ferapontova et al. investigated the specific analysis of dopamine by electrochemical aptasensor via electrostatic adsorption of RNA aptamers onto cystamine-modified electrodes, found that the aptamer surface density affects dopamine binding in a bell-shaped curve, and achieved robust monitoring in the range of 0.01-1 μM dopamine fluctuations through optimization of the conditions, which improved the sensitivity and specificity of dopamine detection in biological systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 1997, G P Tocchini-Valentini et al. screened dopa2/c.1 aptamer that specifically bind dopamine, revealed structural features of their binding sites, and found that ligand binding may cause RNA conformational changes. In 2011, Insook Rhee Paeng et al. development of a Direct Competitive Enzyme-Linked Aptamer Assay for the Determination of Dopamine Levels in Serum. In 2015, Elena E Ferapontova et al. investigated the specific analysis of dopamine by electrochemical aptasensor via electrostatic adsorption of RNA aptamers onto cystamine-modified electrodes, found that the aptamer surface density affects dopamine binding in a bell-shaped curve, and achieved robust monitoring in the range of 0.01-1 μM dopamine fluctuations through optimization of the conditions, which improved the sensitivity and specificity of dopamine detection in biological systems<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Tocchini-Valentini GP et al. successfully selected RNA aptamers specifically binding to dopamine using in vitro selection (SELEX) from an initial pool containing 3.4 × 10<sup>14</sup> different RNA molecules. After nine rounds of affinity chromatography, the most abundant sequence, dopa2, was selected for primary study. The binding affinity (Kd) of dopa2 for dopamine was determined to be 2.8 µM using equilibrium dialysis and iso-concentration elution methods. Further secondary screening and structural analysis revealed a consensus structural motif among the aptamers, consisting of two stem-loop structures that form a stable framework through tertiary interactions. Finally, through mutational analysis and the design of small functional aptamers, the minimal active sequence and key nucleotides for constructing the dopamine-binding pocket were identified. The refined aptamer, dopa2/c.1, exhibited an improved binding affinity of 1.6 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Tocchini-Valentini GP et al. successfully selected RNA aptamers specifically binding to dopamine using in vitro selection (SELEX) from an initial pool containing 3.4 × 10<sup>14</sup> different RNA molecules. After nine rounds of affinity chromatography, the most abundant sequence, dopa2, was selected for primary study. The binding affinity (Kd) of dopa2 for dopamine was determined to be 2.8 µM using equilibrium dialysis and iso-concentration elution methods. Further secondary screening and structural analysis revealed a consensus structural motif among the aptamers, consisting of two stem-loop structures that form a stable framework through tertiary interactions. Finally, through mutational analysis and the design of small functional aptamers, the minimal active sequence and key nucleotides for constructing the dopamine-binding pocket were identified. The refined aptamer, dopa2/c.1, exhibited an improved binding affinity of 1.6 µM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-GGGAAUUCCGCGUGUGCGCCGCGGAAGACGUUGGAAGGAUAGAUACCUACAACGGGGAAUAUAGAGGCCAGCACAUAGUGAGGCCCUCCUCCC-3'</p></font>
-<img src="/images/2D/Dopamine_aptamer_2D.svg" alt="drawing" style="width:800px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figure is based on the article by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>5'-GGGAAUUCCGCGUGUGCGCCGCGGAAGACGUUGGAAGGAUAGAUACCUACAACGGGGAAUAUAGAGGCCAGCACAUAGUGAGGCCCUCCUCCC-3'</p>
+<img src="/images/2D/dopa2c.1_aptamer_2D1.svg" alt="drawing" style="width:800px;height:500px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Dopamine is catechol in which the hydrogen at position 4 is substituted by a 2-aminoethyl group. It has a role as a cardiotonic drug, a beta-adrenergic agonist, a dopaminergic agent, a sympathomimetic agent, a human metabolite, an Escherichia coli metabolite and a mouse metabolite. It is a conjugate base of a dopaminium(1+).-----From ChEBI</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -215,8 +150,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Dopamine, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the PubChem database to screen compounds that were more similar to Dopamine, and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>
@@ -264,8 +199,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -299,7 +232,7 @@ Farjami E, Campos R, Nielsen JS, Gothelf KV, Kjems J, Ferapontova EE<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/26916821/" target="_blank" style="color:#520049">Analytical chemistry. 2016 Apr 5;88(7):3608-16. (2016)</a>
 <br/>
             
-<a id="ref7"></a><font><strong>[7] Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA-Aptamer Electrode.</strong></font><br />
+<a id="ref7"></a><font><strong>[7] Dopamine Binding and Analysis in Undiluted Human Serum and Blood by the RNA aptamer Electrode.</strong></font><br />
 Álvarez-Martos I, Møller A, Ferapontova EE<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30605601/" target="_blank" style="color:#520049">ACS chemical neuroscience. 2019 Mar 20;10(3):1706-1715. (2019)</a>
 <br/>
@@ -318,7 +251,7 @@ Harbaugh SV, Silverman AD, Chushak YG, Zimlich K, Wolfe M, Thavarajah W, Jewett 
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -360,8 +293,7 @@ Harbaugh SV, Silverman AD, Chushak YG, Zimlich K, Wolfe M, Thavarajah W, Jewett 
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

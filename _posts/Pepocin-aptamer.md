@@ -1,84 +1,28 @@
 ---
-layout: post
-title:  "Pepocin aptamer"
-date:   2024-05-16 00:00:00
+layout: theophylline_style
+title: Pepocin aptamer
+date: 2024-05-16 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Toxin
+- GC:43.0
+- GC:43.75
+- GC:45.0
+- GC:46.339999999999996
+- Length:41
+- Length:42
+- Length:80
+- Named:Pepocin_08-09
+- Named:Pepocin_8-09 aptamer
+- Named:Pepocin_8-14
+- Named:Pepocin_9-41U22
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -92,34 +36,28 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2000, Hirao, I. et al. had isolated aptamers that target pepocin from a degenerate RNA pool through in vitro selection. These aptamers selectively bind to pepocin with dissociation constants ranging from 20 to 30 nM. Furthermore, they are capable of inhibiting the N-glycosidase activity of pepocin on rat liver 28 S rRNA<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2000, Hirao, I. et al. had isolated aptamers that target pepocin from a degenerate RNA pool through in vitro selection. These aptamers selectively bind to pepocin with dissociation constants ranging from 20 to 30 nM. Furthermore, they are capable of inhibiting the N-glycosidase activity of pepocin on rat liver 28 S rRNA<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Selection experiments were initiated with an RNA pool containing 2 × 10<sup>13</sup> different sequences. The RNA pool that contained a region of 30 randomized nucleotides flanked by constant regions. After eight rounds of selection, the fraction of the pool which bound pepocin had increased from 0.03 to 24%. Twenty-six clones were isolated from the eighth round of selection. Twenty-three of these aptamers had a similar sequence and bound specifically to pepocin<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Selection experiments were initiated with an RNA pool containing 2 × 10<sup>13</sup> different sequences. The RNA pool that contained a region of 30 randomized nucleotides flanked by constant regions. After eight rounds of selection, the fraction of the pool which bound pepocin had increased from 0.03 to 24%. Twenty-six clones were isolated from the eighth round of selection. Twenty-three of these aptamers had a similar sequence and bound specifically to pepocin<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></font>
-<font><p>5'-CAAGUCUAAUGUCGGACUCGAUAUCAAUUCACUGCAGACUUG-3'</p></font>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw.<br></p>
+<p>5'-CAAGUCUAAUGUCGGACUCGAUAUCAAUUCACUGCAGACUUG-3'</p>
 <img src="/images/2D/pepocin_aptamer_2D.svg" alt="drawing" style="width:800px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Pepocin is a ribosome-inactivating protein (RIP). A ribosome-inactivating protein (RIP) is a protein synthesis inhibitor that acts at the eukaryotic ribosome. This protein family describes a large family of such proteins that work by acting as rRNA N-glycosylase (EC 3.2.2.22). They inactivate 60S ribosomal subunits by an N-glycosidic cleavage, which releases a specific adenine base from the sugar-phosphate backbone of 28S rRNA. RIPs exist in bacteria and plants.-----From WiKi</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -145,7 +83,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -183,8 +121,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the Dail server website to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). Z-score is a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -265,8 +203,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
     </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -293,7 +229,7 @@ Hirao, I., Madin, K., Endo, Y., Yokoyama, S., & Ellington, A. D.<br />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -334,8 +270,7 @@ Hirao, I., Madin, K., Endo, Y., Yokoyama, S., & Ellington, A. D.<br />
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -346,37 +281,7 @@ Hirao, I., Madin, K., Endo, Y., Yokoyama, S., & Ellington, A. D.<br />
   });
     </script>
 
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+
 
 
     </html>

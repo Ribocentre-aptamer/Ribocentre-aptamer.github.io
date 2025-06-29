@@ -1,125 +1,26 @@
 ---
-layout: post
-title:  "IgG aptamer"
-date:   2024-04-18 00:00:00
+layout: theophylline_style
+title: IgG aptamer
+date: 2024-04-18 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:40.0
+- GC:61.0
+- GC:70.0
+- Length:23
+- Length:30
+- Length:40
+- Named:Human immunoglobulin G_apt2 aptamer
+- Named:Human immunoglobulin G_apt7 aptamer
+- Named:Human immunoglobulin G_apt8 aptamer
+- Type:Proteins
+- Year:2008
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-.dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -182,14 +83,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In June 2008, Matsumura, H. et al selected RNA aptamers targeting the Fc portion of the human IgG1 subclass (hIgG1 - Fc) from an RNA sequence library. This selection process employed a modified Systematic Evolution of Ligands by EXponential enrichment (SELEX) method, incorporating 2′-fluoro pyrimidines. Subsequently, in October 2008, Nakamura, Y., and Matsumura, H. successfully resolved the crystal structure of an RNA aptamer bound to hIgG1-Fc. The X-rays diffracted to a resolution of 2.2 Å. Moreover, in 2010, they determined the 2.15 Å crystal structure of the Fc fragment of human IgG1 (hFc1) in complex with an anti-Fc RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2008, Matsumura, H. et al used a modified SELEX method and RNA aptamers against the Fc portion of human IgG1 subclass (hIgG1-Fc) were selected from a library of 5 × 10<sup>14</sup> different RNA molecules randomized over 40 nucleotides (40N RNA pool) with 2′-fluoro pyrimidines. After 10 rounds of selection, we obtained six sets of RNA sequences of 71–74 nucleotides (nt) long, Apt1 through Apt6<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>    
 
@@ -197,7 +96,7 @@ categories: Aptamer
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>Here we use ribodraw to complete the figure, through the 3D structure information. Apt8 aptamer was the aptamer sequence studied in SELEX article. And it was named by Matsumura, H<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
-<p>5'-GGGAACAAAGCUGAAGUACUUACCC-3'</p>
+<p>5'-GGAGGUGCUCCGAAAGGAACUCC'</p>
 <img src="/images/2D/IgG_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -206,7 +105,7 @@ categories: Aptamer
 <p>Nakamura, Y., and Matsumura, H. determined the crystal structure of the Apt8-2 aptamer bound to the Fc fragment of human IgG1 at a resolution of 2.15 Å. The Protein Data Bank (PDB) ID for this structure is 3AGV. The final model within an asymmetric unit consists of homodimeric hFc1 residues: for chain A, residues 241–262, 272–296, 302–321, and 334–443; for chain B, residues 237–444. Additionally, it includes two RNA aptamer molecules (with sequences G1-C11, G16-C23, and G1-A24), two carbohydrate chains, two Ca²⁺ ions, and 254 water molecules<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/IgG_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -219,7 +118,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -395,8 +294,7 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/3agv-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -416,7 +314,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3AGV at 2.15 Å resolution. the Fc fragment of human IgG1 (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with the Fc fragment of human IgG1.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/IgG_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -434,7 +332,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p> Yamazaki, S., & Nakamura, Y. used the BIAcore 2000 to conduct surface plasmon resonance (SPR) detection for the affinity of the selected aptamers to hIgG1-Fc. The direct affinity constant (KD) value was not recorded in this article. Therefore, we selected the association rate constant 1 (Ka1) and dissociation rate constant 1 (Kd1) from the article to calculate the affinity constant (KD)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>. This result is for reference only.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -487,7 +385,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -505,8 +403,7 @@ categories: Aptamer
         <td name="td2">23.89 KDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">GPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK</span>
         </div>
       </td>
@@ -515,7 +412,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/IgG_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -530,7 +427,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -602,8 +499,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -619,7 +514,7 @@ Sugiyama, S., Nomura, Y., Sakamoto, T., Kitatani, T., Kobayashi, A., Miyakawa, S
 <a href="https://pubmed.ncbi.nlm.nih.gov/18931441/" target="_blank" style="color:#520049">Acta crystallographica. Section F, Structural biology and crystallization communications, 64(Pt 10), 942–944. (2008)</a>
 <br />
                 
-<a id="ref3"></a><font><strong>[3] Conformational plasticity of RNA for target recognition as revealed by the 2.15 A crystal structure of a human IgG-aptamer complex.</strong></font><br />
+<a id="ref3"></a><font><strong>[3] Conformational plasticity of RNA for target recognition as revealed by the 2.15 A crystal structure of a human IgG aptamer complex.</strong></font><br />
 Nomura, Y., Sugiyama, S., Sakamoto, T., Miyakawa, S., Adachi, H., Takano, K., Murakami, S., Inoue, T., Mori, Y., Nakamura, Y., & Matsumura, H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/20675355/" target="_blank" style="color:#520049"> Nucleic acids research, 38(21), 7822–7829. (2010)</a>
 <br />
@@ -656,7 +551,7 @@ Ma, J., Wang, M. G., Mao, A. H., Zeng, J. Y., Liu, Y. Q., Wang, X. Q., Ma, J., T
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

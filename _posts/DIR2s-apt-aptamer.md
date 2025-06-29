@@ -1,93 +1,23 @@
 ---
-layout: post
-title:  "DIR2s-apt aptamer"
-date:   2024-04-10 00:00:00
+layout: theophylline_style
+title: DIR2s-apt aptamer
+date: 2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:49.5
+- GC:57.99999999999999
+- Length:101
+- Length:57
+- Named:DIRDIR-Apt1
+- Named:OTB-SO3, Fab_DIR2s-apt aptamer
+- Type:Small molecules
+- Year:2008
+- Year:2017
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -106,10 +36,18 @@ categories: Aptamer
 <div class="timeline">
   <div class="entry">
     <div class="title">
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/18338898/" target="_blank" style="color:#520049">2008</a></h3>
+    </div>
+    <div class="body">
+      <p>Synthesis of new fluorogenic cyanine dyes and incorporation into RNA fluoromodules<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/28644615/" target="_blank" style="color:#520049">2017</a></h3>
     </div>
     <div class="body">
-      <p>An RNA aptamer selected for binding to the fluorogenic cyanine dye dimethylindole red (DIR), also binds oxazole thiazole blue (OTB)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup></p>
+      <p>An RNA aptamer selected for binding to the fluorogenic cyanine dye dimethylindole red (DIR), also binds oxazole thiazole blue (OTB)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -117,7 +55,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30382099/" target="_blank" style="color:#520049">2018</a></h3>
     </div>
     <div class="body">
-      <p>The crystal structures of both the apo and OTB-SO3 bound forms of DIR2s at 2.0 Å and 1.8 Å resolution respectively was solved<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup></p>
+      <p>The crystal structures of both the apo and OTB-SO3 bound forms of DIR2s at 2.0 Å and 1.8 Å resolution respectively was solved<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup></p>
     </div>
   </div>
 </div>
@@ -125,22 +63,18 @@ categories: Aptamer
 
          
 <p class="header_box" id="description">Description</p>
-<p>In 2017, Bruce A. Armitage and Xiaohong Tan et al. screened out aptamer, which has affinity to both dimethylindole red and oxazole thiazole blue and could give two well-resolved emission colors. In 2018, Joseph A. Piccirilli and Sandip A. Shelke et al. solved the overall structure of OTB-SO3-bound DIR2s aptamer-Fab complex by collecting Small Angle X-ray Scattering data of crystals<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
+<p>In 2017, Bruce A. Armitage and Xiaohong Tan et al. screened out aptamer, which has affinity to both dimethylindole red and oxazole thiazole blue and could give two well-resolved emission colors. In 2018, Joseph A. Piccirilli and Sandip A. Shelke et al. solved the overall structure of OTB-SO3-bound DIR2s aptamer-Fab complex by collecting Small Angle X-ray Scattering data of crystals<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Biotinylated DIR was used as Positive target to facilitate the enrichment process. The RNA pool used for this selection contained ~10<sup>14</sup> unique sequences and universal, stem-loop forming sequence flanked by randomized region. RNA pool was asymmetric, with the putative stem-loop shifted toward the 5'-end of the sequence. The aptamer from the asymmetric pool was  abundantly represented after 14 rounds of selection. After sequence minimization  and optimization, a 57 nucleotide anti-DIR RNA aptamer (DIR2s-apt) which can bind and activate DIR fluorescence was obtained<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+<p>Biotinylated DIR was used as Positive target to facilitate the enrichment process. The RNA pool used for this selection contained ~10<sup>14</sup> unique sequences and universal, stem-loop forming sequence flanked by randomized region. RNA pool was asymmetric, with the putative stem-loop shifted toward the 5'-end of the sequence. The aptamer from the asymmetric pool was  abundantly represented after 14 rounds of selection. After sequence minimization  and optimization, a 57 nucleotide anti-DIR RNA aptamer (DIR2s-apt) which can bind and activate DIR fluorescence was obtained<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<p>The RNA aptamer construct adopts an elongated structure composed of four helices (P1, P2, P3, and P4) and three loops (L1, L3, and the Fab BL3-6 binding loop, L2). The stem-loop P4-L3 coaxially stacks on the helix P1 while loop L1 and its associated  short stem P2 orients parallel to and interacts with the loop L3 through base pairing and tertiary interactions. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>The RNA aptamer construct adopts an elongated structure composed of four helices (P1, P2, P3, and P4) and three loops (L1, L3, and the Fab BL3-6 binding loop, L2). The stem-loop P4-L3 coaxially stacks on the helix P1 while loop L1 and its associated  short stem P2 orients parallel to and interacts with the loop L3 through base pairing and tertiary interactions. Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>5'-GGAUGCGCCUUGAAAAGCCUGCGAAACACGCAGCUGGUGAAUGACAGCUAUGGCGCAUCC-3'</p>
 <img src="/images/2D/OTB-SO3_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
@@ -148,23 +82,18 @@ categories: Aptamer
 
 
 <p class="blowheader_box">3D visualisation</p>             
-<p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
+<p>In 2018, Joseph A. Piccirilli et al. solved the overall structure of OTB-SO3 fluorophore-bound DIR2s aptamer-Fab complex at 2.0 Å and DIR2s aptamer structures in the presence and absence of the OTB-SO3 fluorophore at 1.8 Å by collecting small angle X-ray scattering data of crystals. RNA Mango adopts a mixed parallel/antiparallel G-quadruplex architecture, stabilised by six loops that interconnect the 12 guanine residues of its three G-quartets. A22, located within a propeller loop bridging T3 and T1, contributes to the formation of a pentad by engaging the sugar edge of G18 via its Hoogsteen face. U15, A20, and A25-each forming one of three directional reversal loops positioned above T3-collectively establish the TO1-Biotin-binding site through direct structural coordination. This structural arrangement is stabilised by extensive interactions between loops L1 and L3. The PDB ID of the two structures are 6DB8 (1.87 Å) and 6DB9 (2.025 Å)<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/OTB-SO3_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
+<script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -192,19 +121,25 @@ categories: Aptamer
               padding: 0px;
               margin-bottom: 0px;
             }
-          #myViewer1{
+                    #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
-            <button onclick="
-              var selectSections1 = [
-                {
+            <button onclick="var selectSections1 = [
+{
   struct_asym_id: 'R', 
   start_residue_number:101, 
   end_residue_number:101, 
@@ -263,7 +198,7 @@ categories: Aptamer
   start_residue_number:37, 
   end_residue_number:38, 
   color:{r:46,g:161,b:3}
-}’
+},
 {
   struct_asym_id: 'R', 
   start_residue_number:40, 
@@ -282,21 +217,19 @@ categories: Aptamer
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/6db8.pdb',
+        url:'/pdbfiles/6db8_no ions.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
+viewerInstance1.render(viewerContainer1, options1);
+window.addEventListener('load', function() {
     var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
     colorSelectionButton1.click();
   });
     </script>
     </body>
-    </html>
     </td>
   </tr>
   </table>
@@ -306,7 +239,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 6DB8 by NMR and collecting small angle X-ray scattering data of crystals. OTB-SO3 (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with OTB-SO3 or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/OTB_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -324,7 +257,7 @@ categories: Aptamer
 <p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
-<p>Binding affinity was determined by fluorescence titration in the buffer and calculated by the concentration correlation function between aptamer concentration and fluorescence intensity<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
+<p>Binding affinity was determined by fluorescence titration in the buffer and calculated by the concentration correlation function between aptamer concentration and fluorescence intensity<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
   <div style="display: flex; justify-content: center;"></div>
   <img src="/images/SELEX_ligand/OTB_SELEX_ligand.svg" alt="drawing" style="width:1000px;display:block;margin:0 auto;border:solid 1px #efefef;border-radius:0;" class="img-responsive">
 <br>
@@ -337,7 +270,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -361,7 +294,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/OTB_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/OTB_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -376,7 +309,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>
@@ -452,18 +385,21 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Fluoromodules consisting of a promiscuous RNA aptamer and red or blue fluorogenic cyanine dyes: Selection, characterization, and bioimaging.</strong></font><br />
+<a id="ref1"></a><font><strong>[1] Synthesis of new fluorogenic cyanine dyes and incorporation into RNA fluoromodules.</strong></font><br />
+Constantin, T. P., Silva, G. L., Robertson, K. L., Hamilton, T. P., Fague, K., Waggoner, A. S., & Armitage, B. A.<br />
+<a href="https://pubmed.ncbi.nlm.nih.gov/18338898/" target="_blank" style="color:#520049">Organic letters, 10(8), 1561–1564. (2008)</a>
+<br />
+                
+<a id="ref2"></a><font><strong>[2] Fluoromodules consisting of a promiscuous RNA aptamer and red or blue fluorogenic cyanine dyes: Selection, characterization, and bioimaging.</strong></font><br />
 Tan, X., Constantin, T. P., Sloane, K. L., Waggoner, A. S., Bruchez, M. P., & Armitage, B. A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/28644615/" target="_blank" style="color:#520049">Journal of the American Chemical Society, 139(26), 9001–9009. (2017)</a>
 <br />
                 
-<a id="ref2"></a><font><strong>[2] Structural basis for activation of fluorogenic dyes by an RNA aptamer lacking a G-quadruplex motif.</strong></font><br />
+<a id="ref3"></a><font><strong>[3] Structural basis for activation of fluorogenic dyes by an RNA aptamer lacking a G-quadruplex motif.</strong></font><br />
 Shelke, S. A., Shao, Y., Laski, A., Koirala, D., Weissman, B. P., Fuller, J. R., Tan, X., Constantin, T. P., Waggoner, A. S., Bruchez, M. P., Armitage, B. A., & Piccirilli, J. A.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/30382099/" target="_blank" style="color:#520049">Nature communications, 9(1), 4542. (2018)</a>
 <br />

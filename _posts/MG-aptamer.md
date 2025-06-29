@@ -1,93 +1,22 @@
 ---
-layout: post
-title:  "MG aptamer"
-date:   2024-03-29 00:00:00
+layout: theophylline_style
+title: MG aptamer
+date: 2024-03-29 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:55.75
+- GC:61.0
+- Length:113
+- Length:38
+- Named:Malachite green (MG),Tetramethylrhodamine (TMR)_MG aptamer
+- Named:Malachite green (MG)MG4
+- Type:Small molecules
+- Year:1999
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -206,7 +135,7 @@ categories: Aptamer
       <h3><a href="https://pubmed.ncbi.nlm.nih.gov/27591602/" target="_blank" style="color:#520049">2016</a></h3>
     </div>
     <div class="body">
-      <p>A simple way was developed to stabilize the apparent of malachite green-aptamer binding over 24 h, which may be beneficial in stabilizing other triphenylmethane or carbocation ligand-aptamer interactions<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
+      <p>A simple way was developed to stabilize the apparent of malachite green aptamer binding over 24 h, which may be beneficial in stabilizing other triphenylmethane or carbocation ligand aptamer interactions<sup>[<a href="#ref13" style="color:#520049">13</a>]</sup></p>
     </div>
   </div>
   <div class="entry">
@@ -255,27 +184,25 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>Dilara Grate and Charles Wilson reported and characterized MG-binding RNA motifs obtained by SELEX in a work published in 1999. In 2000, Charles Wilson et al. determined the 2.8 A crystal structure of the aptamer bound to tetramethylrosamine, a high-affinity MG analog. Later, Jeremy Flinders et al. resolved the structure of the MG-RNA complex by NMR spectroscopy in a work they published in 2004<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>MG-specific RNA aptamers was selected and amplified from a pool containing approximately 5×10<sup>15</sup> different random sequence molecules. MG agarose affinity chromatography was used as a basis for enrichment. The fraction of MG agarose-binding RNAs appeared to plateau after eight cycles. Final pool was dominated by 30-40 major species and sequences for 14 unique clones were obtained and their ability to bind MG agarose determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+<p>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>The secondary structure of the aptamer, defined  by two Watson-Crick helices flanking an asymmetric loop. Here we used Ribodraw to complete the figures, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>MG aptamer (1F1T): 5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
+<p>MG aptamer (1F1T): </p>
+<p>5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
 <img src="/images/2D/MG_aptamer(1F1T)_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
 <p>Aptamer contains a binding pocket that binds the ligand, which interacts with the ligand and folds into specific secondary structure. Here we used Ribodraw to complete the figures, through the 3D structure information<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
-<p>MG aptamer (1Q8N): 5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
+<p>MG aptamer (1Q8N): </p>
+<p>5'-GGAUCCCGACUGGCGAGAGCCAGGUAACGAAUGGAUCC-3'</p>
 <img src="/images/2D/MG_aptamer(1Q8N)_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -284,7 +211,7 @@ categories: Aptamer
 <p>Folding of the asymmetric loop is stabilized by a variety of stacking and base-pairing interactions that together combine effectively to encapsulate the ligand. The PDB ID of this structure is 1F1T (2.8 Å)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MG_aptamer(1F1T)_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -297,7 +224,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -339,54 +266,69 @@ categories: Aptamer
               var selectSections1 = [
                 {
   struct_asym_id: 'A', 
-  start_residue_number:101, 
-  end_residue_number:101, 
-  color:{r:255,g:0,b:255}
-},{
-  struct_asym_id: 'A', 
   start_residue_number:1, 
   end_residue_number:6, 
   color:{r:184,g:51,b:50}
-},{
+},
+{
+  struct_asym_id: 'A', 
+  start_residue_number:101, 
+  end_residue_number:101, 
+  color:{r:255,g:0,b:255}
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:33, 
   end_residue_number:38, 
   color:{r:184,g:51,b:50}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:10, 
   end_residue_number:23, 
   color:{r:8,g:69,b:149}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:9, 
   end_residue_number:9, 
   color:{r:24,g:152,b:140}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:26, 
   end_residue_number:27, 
   color:{r:24,g:152,b:140}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:32, 
   end_residue_number:32, 
   color:{r:194,g:182,b:23}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:8, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:24, 
   end_residue_number:25, 
   color:{r:46,g:161,b:3}
-},{
+},
+{
   struct_asym_id: 'A', 
   start_residue_number:28, 
   end_residue_number:31, 
   color:{r:46,g:161,b:3}
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:101, 
+  end_residue_number:101, 
+  color:{r:255,g:0,b:255}
 }
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
@@ -400,10 +342,9 @@ categories: Aptamer
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/1f1t.pdb',
+        url:'/pdbfiles/1f1t_no ions.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle',],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -423,7 +364,7 @@ categories: Aptamer
 <p>Jeremy Flinders et al. resolved the structure of the MG-RNA complex to by NMR spectroscopy in a work they published in 2004. The PDB ID of this structure is 1Q8N<sup>[<a href="#ref5" style="color:#520049">5</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/MG_aptamer(1Q8N)_3D.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -436,7 +377,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -470,13 +411,14 @@ categories: Aptamer
             height: 500px;
             position:relative;
           }
+
         </style>
     </head>
-    <body onload="customize()">
+<body onload="customize()">
         <div class="controlsSection2">
             <button onclick="
               var selectSections2 = [
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:7, 
   end_residue_number:9, 
@@ -505,9 +447,15 @@ categories: Aptamer
   start_residue_number:10, 
   end_residue_number:25, 
   color:{r:8,g:69,b:149}
-}
-             ]
-            viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+},
+{
+  struct_asym_id: 'B', 
+  start_residue_number:39, 
+  end_residue_number:39, 
+  color:{r:255,g:0,b:255}
+}]
+
+viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection2">
@@ -515,21 +463,20 @@ categories: Aptamer
       <div id="myViewer2"></div>
     </div>
     <script>
-      var viewerInstance2 = new PDBeMolstarPlugin();
-      var options2 = {
+var viewerInstance2 = new PDBeMolstarPlugin();
+var options2 = {
         customData:{
-        url:'/pdbfiles/1q8n.pdb',
+        url:'/pdbfiles/1q8n_no ions.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle', ],
         bgColor: {r:255, g:255, b:255},
         }
-      var viewerContainer2 = document.getElementById('myViewer2');
-      viewerInstance2.render(viewerContainer2, options2);
-  window.addEventListener('load', function() {
-    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
+var viewerContainer2 = document.getElementById('myViewer2');
+viewerInstance2.render(viewerContainer2, options2);
+setTimeout(function() {
+var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
     colorSelectionButton2.click();
-  });
+  }, 800);
 </script>
 </body>
 </html>
@@ -542,7 +489,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1F1T by X-ray crystallography. MG (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with MG or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/MG_aptamer(1F1T)_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -553,7 +500,7 @@ categories: Aptamer
   </table>
 
   <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1Q8N by NMR. MG (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with MG or other nucleotides surround small molecules.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/MG_aptamer(1Q8N)_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -583,7 +530,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -607,7 +554,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/MG_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/MG_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -619,7 +566,7 @@ categories: Aptamer
 
 <p class="dot-paragraph"><b>ChEBI ID:</b> a unique identifier assigned to each molecular entity in the <a href="https://www.ebi.ac.uk/chebi/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Chemical Entities of Biological Interest database</b></a>.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -643,7 +590,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/TMR_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/TMR_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -658,7 +605,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>
@@ -734,8 +681,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -817,7 +762,7 @@ Yerramilli, V. S., & Kim, K. H.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/29513000/" target="_blank" style="color:#520049">ACS synthetic biology, 7(3), 758–766. (2018)</a>
 <br />
 
-<a id="ref16"></a><font><strong>[16] Exploiting the application of l-aptamer with excellent stability: an efficient sensing platform for malachite green in fish samples.</strong></font><br />
+<a id="ref16"></a><font><strong>[16] Exploiting the application of l aptamer with excellent stability: an efficient sensing platform for malachite green in fish samples.</strong></font><br />
 Luo, X., Chen, Z., Li, H., Li, W., Cui, L., & Huang, J.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/31187804/" target="_blank" style="color:#520049">The Analyst, 144(14), 4204–4209. (2019)</a>
 <br />

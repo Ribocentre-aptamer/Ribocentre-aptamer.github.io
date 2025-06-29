@@ -1,84 +1,87 @@
 ---
-layout: post
-title:  "59 aptamer"
-date:   2024-05-05 00:00:00
+layout: theophylline_style
+title: 59 aptamer
+date: 2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:38.89
+- GC:41.03
+- GC:41.46
+- GC:42.11
+- GC:42.42
+- GC:44.12
+- GC:44.440000000000005
+- GC:45.95
+- GC:47.06
+- GC:47.22
+- GC:47.370000000000005
+- GC:47.5
+- GC:48.480000000000004
+- GC:48.65
+- GC:48.72
+- GC:50.0
+- GC:51.349999999999994
+- GC:51.43
+- GC:52.629999999999995
+- GC:52.78
+- GC:53.33
+- GC:55.00000000000001
+- GC:55.26
+- GC:57.89
+- GC:60.529999999999994
+- GC:63.160000000000004
+- Length:30
+- Length:33
+- Length:34
+- Length:35
+- Length:36
+- Length:37
+- Length:38
+- Length:39
+- Length:40
+- Length:41
+- Named:HIV-1 Rev protein_1
+- Named:HIV-1 Rev protein_116
+- Named:HIV-1 Rev protein_126
+- Named:HIV-1 Rev protein_13
+- Named:HIV-1 Rev protein_14
+- Named:HIV-1 Rev protein_15
+- Named:HIV-1 Rev protein_17
+- Named:HIV-1 Rev protein_18
+- Named:HIV-1 Rev protein_19
+- Named:HIV-1 Rev protein_2
+- Named:HIV-1 Rev protein_20
+- Named:HIV-1 Rev protein_22
+- Named:HIV-1 Rev protein_23
+- Named:HIV-1 Rev protein_4
+- Named:HIV-1 Rev protein_50
+- Named:HIV-1 Rev protein_51
+- Named:HIV-1 Rev protein_53
+- Named:HIV-1 Rev protein_58
+- Named:HIV-1 Rev protein_59
+- Named:HIV-1 Rev protein_6
+- Named:HIV-1 Rev protein_61
+- Named:HIV-1 Rev protein_63
+- Named:HIV-1 Rev protein_72
+- Named:HIV-1 Rev protein_73
+- Named:HIV-1 Rev protein_74
+- Named:HIV-1 Rev protein_75
+- Named:HIV-1 Rev protein_76
+- Named:HIV-1 Rev protein_79
+- Named:HIV-1 Rev protein_83
+- Named:HIV-1 Rev protein_86
+- Named:HIV-1 Rev protein_87
+- Named:HIV-1 Rev protein_88
+- Named:HIV-1 Rev protein_9
+- Named:HIV-1 Rev protein_92
+- Type:Proteins
+- Year:1993
+type: Proteins
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -93,34 +96,30 @@ categories: Aptamer
 
 
 
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high affinity for the HIV-1 Rev protein. It can competitively bind Rev protein with RRE, thereby preventing RRE from interacting with Rev protein. Refer to the RBA-14 aptamer page for specific aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<font >In 1993, Lori Giver and colleagues used the SELEX method to isolate the aptamer with high affinity for the HIV-1 Rev protein. It can competitively bind Rev protein with RRE, thereby preventing RRE from interacting with Rev protein. Refer to the RBA-14 aptamer page for specific aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 1993, Lori Giver et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, polymerase chain reaction (PCR) amplification, in vitro T7 transcription, and allowed to again compete for binding to Rev. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 1993, Lori Giver et al. constructed a pool of random sequences. After in vitro selecting in the pool, selected RNAs were amplified via reverse transcription, polymerase chain reaction (PCR) amplification, in vitro T7 transcription, and allowed to again compete for binding to Rev. Some aptamers with high affinity were selected after three selection cycles<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>59 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Rev protein. The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>5'-AUUCUGGCUUCGUACGCAAGUAUGAUGAUACAG-3'</p></font>
-<img src="/images/2D/59_aptamer_2D.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>59 was the aptamer sequence mainly studied in the article, which had a high affinity with HIV-1 Rev protein. The 2D structure of the figure is based on the prediction results of the RNA fold website by ribodraw tool to draw<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>5'-AUUCUGGCUUCGUACGCAAGUAUGAUGAUACAG-3'</p>
+<img src="/images/2D/59_aptamer_2D1.svg" alt="drawing" style="width:800px;height:350px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;">   
 </div>
  <br>
  
 
 
-<font ><p class="header_box" id="ligand-information">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-information">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>REV is a viral anti-repression trans-activator protein, which appears to act post-transcriptionally to relieve negative repression of GAG and ENV production. It is a phosphoprotein whose state of phosphorylation is mediated by a specific serine kinase activity present in the nucleus. REV accumulates in the nucleoli.-----From Pfam</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -145,7 +144,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 	  </tbody>
   </table>
 <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -182,8 +181,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <div style="display: flex; justify-content: center;"></div>
 <img src="/images/SELEX_ligand/59_aptamer_SELEX_ligand.svg" alt="drawing" style="width:1000px;border:solid 1px #efefef;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -235,7 +232,7 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -277,8 +274,7 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -289,35 +285,5 @@ Dearborn, A. D., Eren, E., Watts, N. R., Palmer, I. W., Kaufman, J. D., Steven, 
   });
     </script>
 
-    <script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+    
     </html>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: theophylline_style
 title:  "E3 aptamer"
 date:   2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
@@ -100,9 +100,7 @@ categories: Aptamer
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Performed two Cell-Internalization SELEX using a 2′fluoro pyrimidine modified RNA library comprising a modified, nuclease-resistant RNA pool of ∼1014 different RNAs. Two different selection strategies were employed. In the first, positive selections targeting PC-3 prostate cancer cells were combined with a strong negative selection against normal prostate epithelial cells (PrEC) to deplete RNA molecules capable of internalizing into noncancerous cells. In the second, the cell target for the positive selection was varied and included toggling between the LNCaP, PC-3, DU 145, and 22Rv1 cell lines. Additionally, to exclude PSMA as a target, we chose to select against both PSMA-positive (LNCaP and 22Rv1) and PSMA-negative (PC-3 and DU 145) cell lines. Here again, positive rounds of selection targeting these cells were combined with a strong negative selection against PrECs. For both selections, after incubating cells with the library of RNA variants and washing away nonbinding aptamers, cell-surface-bound RNA was degraded via treatment with a harsh RNase mixture that degrades 2′fluoro modified RNA, leaving only RNAs that had internalized into cells. Subsequent reverse transcription, PCR amplification, and transcription of the internalized RNA completed a round of internalization selection. After nine rounds of selection against PC-3 cells, 12 unique RNAs were evaluated<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Performed two Cell-Internalization SELEX using a 2′fluoro pyrimidine modified RNA library comprising a modified, nuclease-resistant RNA pool of ∼1014 different RNAs. Two different selection strategies were employed. In the first, positive selections targeting PC-3 prostate cancer cells were combined with a strong negative selection against normal prostate epithelial cells (PrEC) to deplete RNA molecules capable of internalizing into noncancerous cells. In the second, the cell target for the positive selection was varied and included toggling between the LNCaP, PC-3, DU 145, and 22Rv1 cell lines. Additionally, to exclude PSMA as a target, we chose to select against both PSMA-positive (LNCaP and 22Rv1) and PSMA-negative (PC-3 and DU 145) cell lines. Here again, positive rounds of selection targeting these cells were combined with a strong negative selection against PrECs. For both selections, after incubating cells with the library of RNA variants and washing away nonbinding aptamers, cell-surface-bound RNA was degraded via treatment with a harsh RNase mixture that degrades 2′fluoro modified RNA, leaving only RNAs that had internalized into cells. Subsequent reverse transcription, PCR amplification, and transcription of the internalized RNA completed a round of internalization selection. After nine rounds of selection against PC-3 cells, 12 unique RNAs were evaluated<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.
 <br>
 
 
@@ -120,7 +118,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Prostate cancer is the uncontrolled growth of cells in the prostate, a gland in the male reproductive system below the bladder. Abnormal growth of prostate tissue is usually detected through screening tests, typically blood tests that check for prostate-specific antigen (PSA) levels. Those with high levels of PSA in their blood are at increased risk for developing prostate cancer. Diagnosis requires a biopsy of the prostate. If cancer is present, the pathologist assigns a Gleason score, and a higher score represents a more dangerous tumor. Medical imaging is performed to look for cancer that has spread outside the prostate. Based on the Gleason score, PSA levels, and imaging results, a cancer case is assigned a stage 1 to 4. A higher stage signifies a more advanced, more dangerous disease.-----from Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -140,7 +138,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <p>Some isolated sequences bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -180,7 +178,7 @@ Powell Gray, B., Kelly, L., Ahrens, D. P., Barry, A. P., Kratschmer, C., Levy, M
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -221,8 +219,7 @@ Powell Gray, B., Kelly, L., Ahrens, D. P., Barry, A. P., Kratschmer, C., Levy, M
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

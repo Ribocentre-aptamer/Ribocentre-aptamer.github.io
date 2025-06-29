@@ -51,16 +51,18 @@ const StatsModule = {
     },
 
     /**
-     * 在滚动时检查并初始化计数器
+     * 处理 IntersectionObserver 回调
+     * @param {IntersectionObserverEntry[]} entries - 观察到的条目
+     * @param {IntersectionObserver} observer - 当前的观察者实例
      */
-    handleScroll() {
-        const counters = document.querySelectorAll('.stat-number');
-        counters.forEach(counter => {
-            // 如果元素在视口中且尚未初始化
-            if (this.isInViewport(counter) && !counter.dataset.initialized) {
+    handleScroll(entries, observer) {
+        entries.forEach(entry => {
+            const counter = entry.target;
+            if (entry.isIntersecting && !counter.dataset.initialized) {                
                 const target = parseInt(counter.getAttribute('data-count'));
                 this.animateCounter(counter, target);
                 counter.dataset.initialized = 'true';
+                observer.unobserve(counter);
             }
         });
     },
@@ -80,12 +82,12 @@ const StatsModule = {
             counter.dataset.initialized = 'false';
         });
         
-        // 立即检查一次
-        this.handleScroll();
-        
-        // 添加滚动事件监听
-        window.addEventListener('scroll', () => this.handleScroll(), { passive: true });
-    }
+        // 创建 IntersectionObserver 实例并开始观察
+        const observer = new IntersectionObserver((entries, obs) => this.handleScroll(entries, obs));
+        counters.forEach(counter => observer.observe(counter));
+ 
+        // 保存观察者以备需要时使用
+        this.observer = observer;    }
 };
 
 // 当DOM加载完成后初始化模块

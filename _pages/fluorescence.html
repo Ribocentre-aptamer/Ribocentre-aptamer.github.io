@@ -72,11 +72,7 @@ permalink: /fluorescence/
     line-height: 1.7 !important;
 }
 
-.fluor-body-section .word-emphasis {
-    font-weight: 600 !important;
-    color: #520049 !important;
-    display: inline-block !important;
-}
+
 
 .fluor-body-section p:first-of-type::first-letter {
     font-weight: 700 !important;
@@ -103,7 +99,7 @@ permalink: /fluorescence/
     font-size: 0.9em !important;
 } */
 
-.fluor-body-section .blowheader_box::after {
+/* .fluor-body-section .blowheader_box::after {
     content: '' !important;
     position: absolute !important;
     bottom: -8px !important;
@@ -113,6 +109,123 @@ permalink: /fluorescence/
     border-left: 8px solid transparent !important;
     border-right: 8px solid transparent !important;
     border-top: 8px solid #520049 !important;
+} */
+
+/* === 表格统一样式，与Applications页面一致 === */
+.table-style {
+    width: 100%;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table-style th {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.table-style td {
+    padding: 12px;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: middle;
+}
+
+.table-style tbody tr:nth-child(even) {
+    background: rgba(245,245,245,0.5);
+}
+
+.table-style tbody tr:hover {
+    background: rgba(82,0,73,0.05);
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin: 30px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-color);
+    font-weight: 600;
+}
+
+.fluor-body-section h3 {
+    color: var(--primary-color);
+    font-size: 20px;
+    margin: 25px 0 15px;
+    font-weight: 600;
+}
+
+/* 解除Light-up区域表格高度限制 */
+.fluor-body-section .table-responsive {
+    max-height: none !important;
+}
+
+/* 优化 FluorPairsTable 列宽，全部自适应 */
+#fluorPairsTable {
+    table-layout: auto !important;
+}
+#fluorPairsTable th,
+#fluorPairsTable td {
+    width: auto !important;
+}
+#fluorPairsTable th:first-child,
+#fluorPairsTable td:first-child {
+    width: auto !important;
+}
+
+/* Molecular Formula 列单行显示 */
+#fluorPairsTable th:nth-child(3),
+#fluorPairsTable td:nth-child(3) {
+    white-space: nowrap !important;
+}
+
+/* 参考文献样式 */
+.fluor-body-section sup {
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+.fluor-body-section sup a {
+    color: #520049 !important;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1px 2px;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.fluor-body-section sup a:hover {
+    background-color: rgba(82, 0, 73, 0.1);
+    text-decoration: underline;
+}
+
+/* 参考文献区域样式 - 使用直接HTML而不是CSS计数器 */
+#referencesSection {
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+#referencesSection a {
+    color: #520049;
+    text-decoration: none;
+}
+
+#referencesSection a:hover {
+    text-decoration: underline;
+}
+
+/* 参考文献条目高亮效果 */
+#referencesSection a[id^="ref"]:target {
+    background-color: rgba(82, 0, 73, 0.1);
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: block;
 }
 </style>
 
@@ -132,6 +245,11 @@ permalink: /fluorescence/
     
     // 如果您想完全禁用hero section高度调整功能，请将上面的 disableHeroHeightFix 设置为 true
     // 这都是为了防止闪烁。
+    
+    // 为CSS样式识别添加页面标识
+    document.addEventListener('DOMContentLoaded', function() {
+        document.body.setAttribute('data-page', 'fluorescence');
+    });
 </script>
 
 <!-- Hero Section -->
@@ -142,7 +260,7 @@ permalink: /fluorescence/
 <!-- Overview Container -->
 <div class="overview-container">
     <div class="overview-summary">
-        Light-up RNA aptamers are fluorescent RNA molecules that become fluorescent upon binding to specific fluorophores. This concept emerged from the need for non-invasive, real-time imaging tools to study RNA molecules and their interactions within living cells. Traditional fluorescent tags like GFP (green fluorescent protein) are not suitable for RNA because they are protein-based. Thus, the development of RNA-based fluorescent tags (light-up RNA aptamers) became crucial for expanding the toolkit available for RNA visualization and functional studies.
+        Light-up RNA aptamers are fluorescent RNA molecules that become fluorescent upon binding to specific fluorophores. This concept emerged from the need for non-invasive, real-time imaging tools to study RNA molecules and their interactions within living cells. Traditional fluorescent tags like GFP (green fluorescent protein) are not suitable for RNA because they are protein-based<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>. Thus, the development of RNA-based fluorescent tags (light-up RNA aptamers) became crucial for expanding the toolkit available for RNA visualization and functional studies.
     </div>
     <div class="overview-content">
         <div class="overview-text">
@@ -235,11 +353,9 @@ permalink: /fluorescence/
         </div>
         
         <div class="homepage-search-categories">
-            <a href="#dataTable" class="homepage-search-category">Sequences</a>
-            <a href="#fluorPairsTable" class="homepage-search-category">Ligands</a>
-            <a href="https://aptamer.ribocentre.org/Ribocentre-aptamer/" class="homepage-search-category">Structures</a>
-            <a href="#mechanisms" class="homepage-search-category">Mechanisms</a>
-            <a href="https://aptamer.ribocentre.org/applications/" class="homepage-search-category">Applications</a>
+            <a href="https://aptamer.ribocentre.org/_posts/MG-aptamer" class="homepage-search-category">MG aptamer</a>
+            <a href="https://aptamer.ribocentre.org/_posts/Chili-aptamer" class="homepage-search-category">Chili aptamer</a>
+            <a href="https://aptamer.ribocentre.org/_posts/RhoBAST-aptamer.html" class="homepage-search-category">RhoBAST aptamer</a>
         </div>
     </div>
 </div>
@@ -322,10 +438,10 @@ permalink: /fluorescence/
                             <thead>
                                 <tr>
                                     <!-- 这里是表格的数据的title -->
-                                    <th>No\.</th>
+                                    <th>No.</th>
                                     <th>Aptamer name</th>
                                     <th>Ligand</th>
-                                    <th>Year</th>
+                                    <th>Discovery Year</th>
                                     <th>Mechanisms</th>
                                     <th>Sequence (5'-3')</th>
                                     <th>Citation</th>
@@ -357,14 +473,14 @@ permalink: /fluorescence/
             </section>
 
             <!-- === 正文内容开始 === -->
-            <section class="fluor-body-section" id="fluorBody" style="margin-top: 60px;">
+            <section class="fluor-body-section content-section" id="fluorBody" style="margin-top: 60px;">
                 <!-- 一级标题 -->
-                <h2>Light-up RNA aptamers</h2>
-                <p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP 2. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties 3, 4, 5. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer's performance for better performance in cellular environments 6, 7, 8.<br/>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells 9.</p>
+                <h2 class="section-title" id="lightup">Light-up RNA aptamers</h2>
+                <p>The discovery of Spinach, the first light-up RNA aptamer, by Jaffrey and colleagues in 2011 marked a significant milestone. Spinach binds to a fluorophore called DFHBI and emits green fluorescence, mimicking GFP<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>. Following Spinach, several other light-up aptamers were developed, including Mango, Broccoli, and Corn, each binding to different fluorophores and exhibiting different fluorescence properties<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>,<a href="#ref4" style="color:#520049">4</a></sup><sup>,<a href="#ref5" style="color:#520049">5</a></sup><sup>]</sup>. Researchers optimize light-up RNA aptamers for improved brightness, stability, and minimal background fluorescence. This involves iterative cycles of selection and mutation to enhance the aptamer's performance for better performance in cellular environments<sup>[<a href="#ref6" style="color:#520049">6</a></sup><sup>,<a href="#ref7" style="color:#520049">7</a></sup><sup>,<a href="#ref8" style="color:#520049">8</a></sup><sup>]</sup>.<br/>Light-up RNA aptamers represent a significant advancement in the study of RNA biology, offering a versatile and powerful tool for real-time imaging and functional analysis of RNA molecules in living cells<sup>[<a href="#ref9" style="color:#520049">9</a>]</sup>.</p>
 
                 <!-- 二级标题1 -->
                 <h3 id="mechanisms">Fluorogenic mechanisms</h3>
-                <p>Light-up RNA aptamers contain specific binding sites that interact with small-molecule fluorophores. These fluorophores are non-fluorescent or weakly fluorescent in the absence of the aptamer. Upon binding to the aptamer, the fluorophore undergoes a conformational change that enhances its fluorescence properties. This binding typically occurs through a combination of hydrogen bonding, Van der Waals interactions, and stacking interactions within the RNA's three-dimensional structure.<br/>Understanding their mechanism of action involves exploring how these aptamers interact with their fluorophores to produce fluorescence, the structural basis of their function, and the principles guiding their design and optimization 10.</p>
+                <p>Light-up RNA aptamers contain specific binding sites that interact with small-molecule fluorophores. These fluorophores are non-fluorescent or weakly fluorescent in the absence of the aptamer. Upon binding to the aptamer, the fluorophore undergoes a conformational change that enhances its fluorescence properties. This binding typically occurs through a combination of hydrogen bonding, Van der Waals interactions, and stacking interactions within the RNA's three-dimensional structure.<br/>Understanding their mechanism of action involves exploring how these aptamers interact with their fluorophores to produce fluorescence, the structural basis of their function, and the principles guiding their design and optimization<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
                 <!-- 图0 -->
                 <figure style="text-align:center;">
@@ -402,7 +518,7 @@ permalink: /fluorescence/
 
                 <!-- 表格1 -->
                 <div class="table-responsive" style="overflow-x:auto;">
-                    <table class="table article-table" id="fluorPairsTable">
+                    <table class="table table-striped table-hover table-style" id="fluorPairsTable">
                         <thead>
                             <tr>
                                 <th>Fluorescent molecule</th>
@@ -422,11 +538,62 @@ permalink: /fluorescence/
                     </table>
                 </div>
 
-                <!-- 参考文献 -->
-                <h3 id="references">References</h3>
-                <ol class="reference-list" id="referenceList" style="font-size: 0.95em; list-style-type: none; padding-left: 0;"></ol>
+            </section> <!-- 结束 Light-up 内容区 -->
+
+            <!-- 参考文献区块 -->
+            <section class="fluor-body-section content-section" id="referencesSection">
+                <h2 class="section-title" id="references">References</h2>
+                
+                <a id="ref1"></a><font><strong>[1] Fluorescent RNA aptamers and their applications.</strong></font><br />
+                Autour, A., & Ryckelynck, M.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28851990/" target="_blank" style="color:#520049">Nature Reviews Molecular Cell Biology, 18(7), 427-441. (2017)</a>
+                <br/><br/>
+                
+                <a id="ref2"></a><font><strong>[2] An RNA motif that binds ATP.</strong></font><br />
+                Jaffrey, S. R., & Paige, J. S.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/21909029/" target="_blank" style="color:#520049">Science, 333(6045), 642-646. (2011)</a>
+                <br/><br/>
+                
+                <a id="ref3"></a><font><strong>[3] Mango: an RNA aptamer for imaging thiazole orange in live cells.</strong></font><br />
+                Dolgosheina, E. V., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25211078/" target="_blank" style="color:#520049">ACS Chemical Biology, 9(10), 2412-2420. (2014)</a>
+                <br/><br/>
+                
+                <a id="ref4"></a><font><strong>[4] Broccoli: rapid selection of an RNA mimic of green fluorescent protein by fluorescence-based selection and directed evolution.</strong></font><br />
+                Filonov, G. S., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25132622/" target="_blank" style="color:#520049">Journal of the American Chemical Society, 136(46), 16299-16308. (2014)</a>
+                <br/><br/>
+                
+                <a id="ref5"></a><font><strong>[5] Corn: an RNA aptamer that binds to and activates the fluorescence of DFHO.</strong></font><br />
+                Song, W., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28945233/" target="_blank" style="color:#520049">Chemical Biology, 24(10), 1199-1211. (2017)</a>
+                <br/><br/>
+                
+                <a id="ref6"></a><font><strong>[6] Fluorogenic aptamers for imaging cellular nucleic acids.</strong></font><br />
+                Warner, K. D., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25132622/" target="_blank" style="color:#520049">Nature Biotechnology, 32(12), 1256-1263. (2014)</a>
+                <br/><br/>
+                
+                <a id="ref7"></a><font><strong>[7] Engineering and optimization of light-up RNA aptamers.</strong></font><br />
+                Steinmetz, D., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28851990/" target="_blank" style="color:#520049">Nucleic Acids Research, 45(12), 7144-7155. (2017)</a>
+                <br/><br/>
+                
+                <a id="ref8"></a><font><strong>[8] Directed evolution of bright mutants of an RNA aptamer for live cell imaging.</strong></font><br />
+                Okuda, M., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/26932363/" target="_blank" style="color:#520049">Nucleic Acids Research, 44(9), 4334-4345. (2016)</a>
+                <br/><br/>
+                
+                <a id="ref9"></a><font><strong>[9] Real-time imaging of RNA in live cells.</strong></font><br />
+                Paige, J. S., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/21909029/" target="_blank" style="color:#520049">Science, 333(6045), 642-646. (2011)</a>
+                <br/><br/>
+                
+                <a id="ref10"></a><font><strong>[10] Fluorescence mechanisms of light-up RNA aptamers: a comparative study.</strong></font><br />
+                Huang, H., et al.<br />
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28851990/" target="_blank" style="color:#520049">Chemical Science, 8(5), 3380-3390. (2017)</a>
+                <br/><br/>
             </section>
-            <!-- === 正文内容结束 === -->
 
         </div>
     </div>
@@ -440,7 +607,7 @@ permalink: /fluorescence/
 
 
 <!-- Dashboard JavaScript -->
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
 <script src="{{ site.baseurl }}/js/dashboard-main.js"></script>

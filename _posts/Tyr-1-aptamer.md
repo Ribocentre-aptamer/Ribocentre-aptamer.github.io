@@ -1,80 +1,21 @@
 ---
-layout: post
-title:  "Tyr 1 aptamer"
-date:   2024-05-29 00:00:00
+layout: theophylline_style
+title: Tyr 1 aptamer
+date: 2024-05-29 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:59.68
+- Length:124
+- Named:L-tyrosine_Tyr 1
+- Type:Small molecules
+- Year:2000
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -88,35 +29,29 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2000,G P Tocchini-Valentini et al. screened in vitro for RNA aptamers that specifically bind the free amino acid tyrosine from a degraded pool derived from dopamine aptamers and used these aptamers to study their highly L-stereoselective binding properties to tyrosine and its related ligands<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2000,G P Tocchini-Valentini et al. screened in vitro for RNA aptamers that specifically bind the free amino acid tyrosine from a degraded pool derived from dopamine aptamers and used these aptamers to study their highly L-stereoselective binding properties to tyrosine and its related ligands<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>G P Tocchini-Valentini et al. obtained Tyr 1 aptamer by in vitro selection and amplification from a partially randomized RNA pool of the dopamine aptamer dopa2/c+1. After 13 rounds of screening, six unique sequences were identified from 63 clones, among which Tyr 1 showed the highest L-tyrosine binding affinity, which was determined by isothermal ligand elution with a dissociation constant (Kd) of 35 μM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>G P Tocchini-Valentini et al. obtained Tyr 1 aptamer by in vitro selection and amplification from a partially randomized RNA pool of the dopamine aptamer dopa2/c+1. After 13 rounds of screening, six unique sequences were identified from 63 clones, among which Tyr 1 showed the highest L-tyrosine binding affinity, which was determined by isothermal ligand elution with a dissociation constant (Kd) of 35 μM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Try1 aptamer binding to L-tyrosine.<br></font>
-<font><p>5'-GGGAAGCUUGUACAGGGGGCAGUCAACUCGUGCGAUCGUGAAAACGGGGCAAGAUGGCCUUACAGCGGUCAAUACGGGGGUCAUCAGAUAGGGAGGCCCUCCUGGUGGUCCGUUCGGGAUCCUC-3'</p></font>
-<img src="/images/2D/Try1_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. Try1 aptamer binding to L-tyrosine.<br></p>
+<p>5'-GGGAAGCUUGUACAGGGGGCAGUCAACUCGUGCGAUCGUGAAAACGGGGCAAGAUGGCCUUACAGCGGUCAAUACGGGGGUCAUCAGAUAGGGAGGCCCUCCUGGUGGUCCGUUCGGGAUCCUC-3'</p>
+<img src="/images/2D/Try 1_aptamer_2D1.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>L-tyrosine is an optically active form of tyrosine having L-configuration. It has a role as an EC 1.3.1.43 (arogenate dehydrogenase) inhibitor, a nutraceutical, a micronutrient and a fundamental metabolite. It is an erythrose 4-phosphate/phosphoenolpyruvate family amino acid, a proteinogenic amino acid, a tyrosine and a L-alpha-amino acid. It is functionally related to a L-tyrosinal. It is a conjugate base of a L-tyrosinium. It is a conjugate acid of a L-tyrosinate(1-). It is an enantiomer of a D-tyrosine. It is a tautomer of a L-tyrosine zwitterion.-----From ChEBI</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -147,8 +82,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to L-tyrosine,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the PubChem database to screen compounds that were more similar to L-tyrosine,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>
@@ -201,8 +136,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -211,7 +144,7 @@ Mannironi C, Scerch C, Fruscoloni P, Tocchini-Valentini GP<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/10786843/" target="_blank" style="color:#520049">RNA. 2000 Apr;6(4):520-7. (2000)</a>
 <br/>
             
-<a id="ref2"></a><font><strong>[2] NA-aptamers-in-droplets (RAPID) high-throughput screening for secretory phenotypes.</strong></font><br />
+<a id="ref2"></a><font><strong>[2] NA aptamers-in-droplets (RAPID) high-throughput screening for secretory phenotypes.</strong></font><br />
 Abatemarco J, Sarhan MF, Wagner JM, Lin JL, Liu L, Hassouneh W, Yuan SF, Alper HS, Abate AR<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/28835641/" target="_blank" style="color:#520049">Nature communications. 2017 Aug 23;8(1):332. (2017)</a>
 <br/>
@@ -227,7 +160,7 @@ Abatemarco J, Sarhan MF, Wagner JM, Lin JL, Liu L, Hassouneh W, Yuan SF, Alper H
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -269,8 +202,7 @@ Abatemarco J, Sarhan MF, Wagner JM, Lin JL, Liu L, Hassouneh W, Yuan SF, Alper H
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

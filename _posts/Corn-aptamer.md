@@ -1,92 +1,19 @@
 ---
-layout: post
-title:  "Corn aptamer"
-date:   2024-03-29 00:00:00
+layout: theophylline_style
+title: Corn aptamer
+date: 2024-03-29 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:69.0
+- Length:36
+- Named:DFHO_Corn aptamer
+- Type:Small molecules
+- Year:2017
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -173,13 +100,9 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2017, Wenjiao Song et al. developed DFHO aptamer, named Corn, which enables monitoring of Pol III transcript levels by forming a light-stable RNA-fluorophore complex with fluorophores. In the same year, Katherine Deigan Warner et al, in collaboration with Wenjiao Song, analyzed the structure of the Corn-DFHO complex through crystallization and diffraction data collection<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref2" style="color:#520049">2</a>]</sup>.<br></p>
-<br>
-<br>
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 10<sup>14</sup> random RNA libraries that served as ligand systems. DFHO with aminohexyl linkers was synthesized for attachment to solid support. Boc-protected DFHO linker was synthesized followed by the removal of the Boc protecting group to generate DFHO linker. DFHO-binding aptamers were recovered on DFHO-derivatized agarose beads. After 8 rounds of SELEX, we identified a single 119 nt-long aptamer (Aptamer 6-1) that induced the fluorescence of DFHO, with an excitation maximum (ExMax) of 505 nm and an emission maximum (EmMax) of 545 nm. This aptamer was truncated to a 76 nt-long aptamer (T1) that retained the ability to induce DFHO fluorescence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>By exponential enrichment (SELEX) approach, aptamer bound to DFHO was evolved from approximately 10<sup>14</sup> random RNA libraries that served as ligand systems. DFHO with aminohexyl linkers was synthesized for attachment to solid support. Boc-protected DFHO linker was synthesized followed by the removal of the Boc protecting group to generate DFHO linker. DFHO-binding aptamers were recovered on DFHO-derivatized agarose beads. After 8 rounds of SELEX, we identified a single 119 nt-long aptamer (Aptamer 6-1) that induced the fluorescence of DFHO, with an excitation maximum (ExMax) of 505 nm and an emission maximum (EmMax) of 545 nm. This aptamer was truncated to a 76 nt-long aptamer (T1) that retained the ability to induce DFHO fluorescence<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>    
 
 <p class="header_box" id="Structure">Structure</p>
@@ -194,7 +117,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>In 2017, Warner, K. D. et al. determined the crystal structure of the Corn-DFHO complex at 2.51 Å resolution, discovering that the functional species is a quasisymmetric homodimer. The homodimer encapsulates one DFHO at its inter-protomer interface, sandwiching it with a G-quadruplex from each protomer. The PDB ID of this structure is 5BJP<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/DFHO_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -207,7 +130,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -429,7 +352,163 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:14, 
   end_residue_number:14, 
   color:{r:194,g:182,b:23}
-}
+},
+{
+  struct_asym_id: 'Y', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:0,b:255}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:1, 
+  end_residue_number:5, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:32, 
+  end_residue_number:36, 
+  color:{r:184,g:51,b:50}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:6, 
+  end_residue_number:8, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:29, 
+  end_residue_number:31, 
+  color:{r:8,g:69,b:149}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:9, 
+  end_residue_number:10, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:17, 
+  end_residue_number:19, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:17, 
+  end_residue_number:19, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:20, 
+  end_residue_number:21, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:27, 
+  end_residue_number:28, 
+  color:{r:207,g:62,b:125}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:12, 
+  end_residue_number:13, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:15, 
+  end_residue_number:16, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:22, 
+  end_residue_number:23, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:25, 
+  end_residue_number:26, 
+  color:{r:24,g:152,b:140}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:241,g:125,b:7}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:11, 
+  end_residue_number:11, 
+  color:{r:194,g:182,b:23}
+},{
+  struct_asym_id: 'E', 
+  start_residue_number:24, 
+  end_residue_number:24, 
+  color:{r:194,g:182,b:23}
+},{
+  struct_asym_id: 'Y', 
+  start_residue_number:14, 
+  end_residue_number:14, 
+  color:{r:194,g:182,b:23}
+  }
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
@@ -442,10 +521,9 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
-        url:'/pdbfiles/5bjp.pdb',
+        url:'/pdbfiles/5bjp_no ions.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -467,7 +545,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 5BJP by X-ray crystallography. DFHO(shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with DFHO or other nucleotides surround small molecules.</p>
 <br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/DFHO_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -486,7 +564,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <p>The K<sub>d</sub> was determined by both ITC and measuring the increase in fluorescence as a function of increasing fluorophore concentration in the presence of a fixed concentration (50 nM) of RNA aptamer<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Ligand</th>
@@ -519,7 +597,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://www.medchemexpress.cn/" target="_blank" style="color:#520049; text-decoration: underline;"><b>MedChemExpress</b></a>:</b> a leading global compound supplier, offering over 200 compound libraries with approximately 26 million compounds for drug discovery and research.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -543,7 +621,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHO_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/DFHO_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -557,7 +635,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances. </p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(5)">ZINC ID</th>
@@ -572,62 +650,60 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2-[(E)-hydroxyiminomethyl]-3-methylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">168266216</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/168266216" target="_blank" style="color:#520049"><b>168266216</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound1.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2-[(Z)-hydroxyiminomethyl]-3-methylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">168010756</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/168010756" target="_blank" style="color:#520049"><b>168010756</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound2.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-2-(aminomethyl)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-3-methylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">162396648</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/162396648" target="_blank" style="color:#520049"><b>162396648</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound3.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2-methyl-3-(2,2,2-trifluoroethyl)imidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">155920151</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/155920151" target="_blank" style="color:#520049"><b>155920151</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound4.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5"><a href="https://zinc15.docking.org/substances/ZINC218483872/" target="_blank" style="color:#520049"><b>ZINC218483872</b></a></td>
         <td name="td1">(z)-4-(3,5-Difluoro-4-hydroxybenzylidene)-1-methyl-5-oxo-1h-imidazole-2-carbaldehyde oxime</td>
         <td name="td2">NA</td>
-        <td name="td3">140649354</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/140649354" target="_blank" style="color:#520049"><b>140649354</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound5.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(3,5-difluoro-4-hydroxyphenyl)methylidene]-2,3-dimethylimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">134814233</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/134814233" target="_blank" style="color:#520049"><b>134814233</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound6.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(E)-1-(6-aminohexyl)-4-((Z)-3,5-difluoro-4-hydroxybenzylidene)-5-oxo-4,5-dihydro-1H-imidazole-2-carbaldehyde oxime</td>
         <td name="td2">NA</td>
-        <td name="td3">129627026</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/129627026" target="_blank" style="color:#520049"><b>129627026</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound7.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
       <tr>
         <td name="td5">NA</td>
         <td name="td1">(5Z)-5-[(2-difluoroboranyl-5-fluoro-4-hydroxyphenyl)methylidene]-3-methyl-2-methylideneimidazolidin-4-one</td>
         <td name="td2">NA</td>
-        <td name="td3">123805052</td>
+        <td name="td3"><a href="https://pubchem.ncbi.nlm.nih.gov/compound/123805052" target="_blank" style="color:#520049"><b>123805052</b></a></td>
         <td name="td4"><img src="/images/Similar_compound/DFHO_Simi_compound8.svg" alt="drawing" style="width:500px"  px="" /></td>
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  

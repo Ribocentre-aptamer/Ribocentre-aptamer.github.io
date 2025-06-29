@@ -1,84 +1,23 @@
 ---
-layout: post
-title:  "Codeine aptamer"
-date:   2024-06-10 00:00:00
+layout: theophylline_style
+title: Codeine aptamer
+date: 2024-06-10 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:57.63
+- GC:60.34
+- Length:58
+- Length:59
+- Named:Codeine_FC45
+- Named:Codeine_FC5
+- Type:Small molecules
+- Year:2006
+type: Small molecules
 ---
-<!--p style="font-size: 24px"><strong>Keywords: </strong> <br/></p>
-<font ><strong>small molecule, Synthetic, dyes, PubChem CID 25863</strong></font >
-<br /-->
-
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-    .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-	    height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 <div class="side-nav">
 <ul>
@@ -143,23 +82,22 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2006, RNA aptamers that bind the opium alkaloid codeine were generated using an iterative in vitro selection process. Two highest binding aptamer sequences, FC5 and FC45 with Kd values of 2.50 and 4.00 μM, respectively, were extensively studied. Corresponding mini-aptamers for FC5 and FC45 were subsequently identified through the described direct coupling Biacore assays<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2006, RNA aptamers that bind the opium alkaloid codeine were generated using an iterative in vitro selection process. Two highest binding aptamer sequences, FC5 and FC45 with Kd values of 2.50 and 4.00 μM, respectively, were extensively studied. Corresponding mini aptamers for FC5 and FC45 were subsequently identified through the described direct coupling Biacore assays<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>A slightly modified in vitro selection procedure was used to isolate codeine-binding RNA aptamers from a library of RNA molecules containing a 30 nt random region flanked by constant primer-binding sequences. Aptamers were selected on a codeine affinity column, which was made by immobilizing codeine to the epoxy-activated agarose through its hydroxyl group. To enhance the stringency of the selection process, the wash volume was increased incrementally from cycles 6 to 15. To increase the specificity of the selected pool, a counter-selection with a 5 mM morphine solution was performed at cycle 10 prior to elution with codeine. After cycle 15, the enriched pool was cloned and approximately 60 colonies were sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>A slightly modified in vitro selection procedure was used to isolate codeine-binding RNA aptamers from a library of RNA molecules containing a 30 nt random region flanked by constant primer-binding sequences. Aptamers were selected on a codeine affinity column, which was made by immobilizing codeine to the epoxy-activated agarose through its hydroxyl group. To enhance the stringency of the selection process, the wash volume was increased incrementally from cycles 6 to 15. To increase the specificity of the selected pool, a counter-selection with a 5 mM morphine solution was performed at cycle 10 prior to elution with codeine. After cycle 15, the enriched pool was cloned and approximately 60 colonies were sequenced<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The 2D structure of the figures is based on the article by ribodraw tool to draw. FC5L is the truncated sequence of full-length FC5. FC45L is the truncated sequence of full-length FC45<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<font><p>FC5L aptamer: 5'-GGGACAGGGCUAGCAGUAGGAUUGGGUGAGGGGAUGUGCUG-3'<br>FC45L aptamer: 5'-GGGACAGGGCUAGCUUAGUGCUAUGUGAGAAAAGGGUGUGGGGG-3'</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>The 2D structure of the figures is based on the article by ribodraw tool to draw. FC5L is the truncated sequence of full-length FC5. FC45L is the truncated sequence of full-length FC45<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
+<p>FC5L aptamer: </p>
+<p>5'-GGGACAGGGCUAGCAGUAGGAUUGGGUGAGGGGAUGUGCUG-3'<br></p>
+<p>FC45L aptamer: </p>
+<p>5'-GGGACAGGGCUAGCUUAGUGCUAUGUGAGAAAAGGGUGUGGGGG-3'</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/codeine_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -168,16 +106,14 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </td>
   </tr>
   </table>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <p>Codeine is an opiate and prodrug of morphine mainly used to treat pain, coughing, and diarrhea. It is also commonly used as a recreational drug. It is found naturally in the sap of the opium poppy, Papaver somniferum. It is typically used to treat mild to moderate degrees of pain.-----From Wiki</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -203,7 +139,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   </table>
 
   <!--p>The aptamer bind to the affinity of the protein.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -234,8 +170,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We screened the compounds with great similarity to  by using the ZINC database and showed some of the compounds' structure diagrams. For some CAS numbers not available, we will supplement them with Pubchem CID. For another compound, we used a similar compound query method from the PubChem database.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">Zinc_id</th>
@@ -295,8 +231,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -336,7 +270,7 @@ Bing, T., Zheng, W., Zhang, X., Shen, L., Liu, X., Wang, F., Cui, J., Cao, Z., &
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -377,8 +311,7 @@ Bing, T., Zheng, W., Zhang, X., Shen, L., Liu, X., Wang, F., Cui, J., Cao, Z., &
       var options1 = {
         customData:{
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -389,37 +322,7 @@ Bing, T., Zheng, W., Zhang, X., Shen, L., Liu, X., Wang, F., Cui, J., Cao, Z., &
   });
     </script>
 
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var td = document.getElementsByName('td4')[0];
-      var maxLength = 100; // 设置最大长度
-      var originalText = td.innerHTML;
-      var displayedText = originalText.substring(0, maxLength);
-      
-      if (originalText.length > maxLength) {
-        displayedText += '<span class="ellipsis-btn">......</span>'; // 在超出长度时添加省略号按钮
-        displayedText += '<span class="hidden-content">' + originalText.substring(maxLength) + '</span>'; // 隐藏的内容
-        td.innerHTML = displayedText;
-        
-        // 获取省略号按钮元素和隐藏的内容元素
-        var ellipsisBtn = td.querySelector('.ellipsis-btn');
-        var hiddenContent = td.querySelector('.hidden-content');
-        
-        // 添加点击事件监听器
-        ellipsisBtn.addEventListener('click', function() {
-          if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'inline'; // 展开内容
-            ellipsisBtn.innerHTML = '...'; // 更新按钮文字为“...”
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          } else {
-            hiddenContent.style.display = 'none'; // 收起内容
-            ellipsisBtn.innerHTML = '......'; // 更新按钮文字为省略号
-            td.appendChild(ellipsisBtn); // 将按钮移到内容后面
-          }
-        });
-      }
-    });
-  </script>
+
 
 
     </html>

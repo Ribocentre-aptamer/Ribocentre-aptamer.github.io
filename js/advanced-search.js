@@ -20,6 +20,10 @@ class AdvancedSearchModule {
         this.masonryPageSize = 30;
         this.masonryData = [];
         
+        // Performance optimizations
+        this.searchCache = new Map();
+        this.debounceDelay = 300;
+        
         this.init();
     }
 
@@ -84,6 +88,108 @@ class AdvancedSearchModule {
             }
             
             console.log(`Successfully loaded ${this.searchData.length} records from: ${successfulPath}`);
+            
+            // Enhance page-type data, parse tags field
+            this.searchData = this.searchData.map(item => {
+                // Mark as page type result
+                item.result_type = 'page';
+                
+                // Parse tags field, extract structured data
+                if (item.tags) {
+                    const tagMap = this.parseTagsToMap(item.tags);
+                    item.structured_tags = tagMap;
+                    
+                    // Extract common filter fields from tags
+                    item.target_type = tagMap['Type'] || '';
+                    item.sequence_length = tagMap['Length'] ? parseInt(tagMap['Length']) : undefined;
+                    
+                    // 为页面类型数据创建 basicTags，排除数字类标签避免搜索干扰
+                    const originalTags = item.tags;
+                    if (typeof originalTags === 'string') {
+                        const tagList = originalTags.split(/[\n,]+/).map(tag => tag.trim()).filter(Boolean);
+                        const basicTagList = tagList.filter(tag => {
+                            return !tag.match(/^(Length|GC|Year):/i);
+                        });
+                        item.tags = basicTagList.join(', ');
+                        item.meta_tags = originalTags;
+                    }
+                    // GC content handling (could be multiple values)
+                    if (item.meta_tags || originalTags) {
+                        const tagsToSearch = item.meta_tags || originalTags;
+                        const gcMatches = tagsToSearch.match(/GC\s*:\s*([\d\.]+)/gi);
+                        if (gcMatches && gcMatches.length) {
+                            const gcValues = gcMatches.map(m => parseFloat(m.split(':')[1])).filter(v => !isNaN(v));
+                            if (gcValues.length) {
+                                const minGc = Math.min(...gcValues);
+                                const maxGc = Math.max(...gcValues);
+                                const gcVal = Number(minGc.toFixed(2));
+                                item.gc_content = gcVal; // 用最小值做筛选参考
+                                item.gc_content_range = minGc === maxGc ? `${gcVal}` : `${minGc.toFixed(2)}-${maxGc.toFixed(2)}`;
+                            }
+                        }
+                    }
+                    // Length handling (could be multiple values)
+                    if (item.meta_tags || originalTags) {
+                        const tagsToSearch = item.meta_tags || originalTags;
+                        const lenMatches = tagsToSearch.match(/Length\s*:\s*(\d+)/gi);
+                        if (lenMatches && lenMatches.length) {
+                            const lenValues = lenMatches.map(m => parseInt(m.split(':')[1])).filter(v => !isNaN(v));
+                            if (lenValues.length) {
+                                const minLen = Math.min(...lenValues);
+                                const maxLen = Math.max(...lenValues);
+                                item.sequence_length = minLen; // 用最小值做筛选参考
+                                item.sequence_length_range = minLen === maxLen ? `${minLen}` : `${minLen}-${maxLen}`;
+                            }
+                        }
+                    }
+                    item.pub_year = tagMap['Year'] ? parseInt(tagMap['Year']) : undefined;
+                    item.category_value = tagMap['Category'] || '';
+
+                    // 记录页面是否包含多个 aptamer (根据 Named: 标签计数)
+                    const namedMatches = (item.meta_tags || originalTags).match(/Named\s*:/gi);
+                    if (namedMatches && namedMatches.length) {
+                        item.aptamer_count = namedMatches.length;
+                    }
+                }
+                
+                return item;
+            });
+            
+            // Also load sequences_cleaned.json data and merge into searchData
+            try {
+                const seqRes = await fetch('/apidata/sequences_cleaned.json');
+                if (seqRes.ok) {
+                    const seqJson = await seqRes.json();
+                    if (seqJson && Array.isArray(seqJson.Sheet1) && typeof SearchUtils.transformSequenceRecord === 'function') {
+                        const sequenceData = seqJson.Sheet1.map(r => {
+                            // Convert to search record format
+                            const record = SearchUtils.transformSequenceRecord(r);
+                            
+                            // Mark as sequence type result
+                            record.result_type = 'sequence';
+                            
+                            // Always ensure sequence results point to /sequences/ page
+                            if (record.id) {
+                                record.url = `/sequences/?id=${encodeURIComponent(record.id)}`;
+                            }
+                            
+                            // Parse tags field, extract structured data
+                            if (record.meta_tags) {
+                                record.structured_tags = this.parseTagsToMap(record.meta_tags);
+                            } else if (record.tags) {
+                                record.structured_tags = this.parseTagsToMap(record.tags);
+                            }
+                            
+                            return record;
+                        });
+                        
+                        this.searchData.push(...sequenceData);
+                        console.log(`Added ${sequenceData.length} sequence records to search data`);
+                    }
+                }
+            } catch (e) { 
+                console.warn('Failed to load sequences data for advanced search:', e); 
+            }
         } catch (error) {
             console.error('Error loading search data:', error);
             console.log('Using mock data as fallback');
@@ -151,13 +257,10 @@ class AdvancedSearchModule {
                 }, 300);
             });
 
-            searchInput.addEventListener('focus', () => {
+            searchInput.addEventListener('focus', (e) => {
                 this.showSuggestions();
             });
 
-            searchInput.addEventListener('blur', () => {
-                setTimeout(() => this.hideSuggestions(), 200);
-            });
         }
 
         if (clearBtn) {
@@ -219,10 +322,10 @@ class AdvancedSearchModule {
         let isSliding = false;
 
         function updateStickyState() {
-            const isSearchFocused = searchCard.classList.contains('focused');
             const isFilterOpen = !filtersContent.classList.contains('collapsed');
             
-            if (isSearchFocused) {
+            // Focus状态检查已移除，不再添加sticky类
+            if (false) {
                 searchCard.classList.add('sticky');
                 if (isFilterOpen) {
                     filterCard.classList.add('sticky');
@@ -243,21 +346,10 @@ class AdvancedSearchModule {
                     const searchCardRect = searchCard.getBoundingClientRect();
                     const filterCardRect = filterCard.getBoundingClientRect();
                     
-                    // 当搜索框和过滤器完全滚出视图时
-                    if (st > lastScrollTop && searchCardRect.bottom < 0 && !isSliding) {
-                        isSliding = true;
-                        searchCard.classList.add('slide-left');
-                        filterCard.classList.add('slide-left');
-                        
-                        // 动画结束后移除类
-                        setTimeout(() => {
-                            searchCard.classList.remove('slide-left');
-                            filterCard.classList.remove('slide-left');
-                            isSliding = false;
-                        }, 800);
-                    } 
+                    // 以前的 slide-left 动画已移除，避免刷新后上滑出现侧滑效果
+                    
                     // 当回到顶部时
-                    else if (st < lastScrollTop && st < 100) {
+                    if (st < lastScrollTop && st < 100) {
                         searchCard.classList.remove('sticky');
                         filterCard.classList.remove('sticky');
                         resultsCard.classList.remove('sticky');
@@ -310,8 +402,8 @@ class AdvancedSearchModule {
             });
         }
 
-        // 监听滚动事件
-        window.addEventListener('scroll', handleScroll);
+        // 监听滚动事件（passive，提高性能）
+        window.addEventListener('scroll', handleScroll, { passive: true });
 
         // 其他事件监听器保持不变
         if (resetBtn) {
@@ -353,6 +445,14 @@ class AdvancedSearchModule {
                 this.exportResults();
             });
         }
+
+        // Save JSON button
+        const saveBtn = document.getElementById('saveResults');
+        if (saveBtn) {
+            saveBtn.addEventListener('click', () => {
+                this.saveResultsJSON();
+            });
+        }
     }
 
     setupFloatingButtons() {
@@ -361,7 +461,9 @@ class AdvancedSearchModule {
         const shareSearch = document.getElementById('shareSearch');
 
         if (backToTop) {
-            backToTop.addEventListener('click', () => {
+            backToTop.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
 
@@ -392,8 +494,8 @@ class AdvancedSearchModule {
 
         this.showLoadingState();
 
-        // Simulated search delay
-        await new Promise(resolve => setTimeout(resolve, 500));
+        // Reduced simulated search delay for better UX
+        await new Promise(resolve => setTimeout(resolve, 100));
 
         const startTime = performance.now();
 
@@ -457,14 +559,21 @@ class AdvancedSearchModule {
     applyCurrentFilters(data) {
         let filtered = [...data];
 
-        // Year filter (extract from date field)
+        // Year filter - now uses both date field and Year tag
         const yearFrom = document.getElementById('yearFrom')?.value;
         const yearTo = document.getElementById('yearTo')?.value;
         if (yearFrom || yearTo) {
             filtered = filtered.filter(item => {
-                const year = item.date ? parseInt(item.date.split('-')[0]) : 0;
-                return (!yearFrom || year >= parseInt(yearFrom)) && 
-                       (!yearTo || year <= parseInt(yearTo));
+                // First check extracted pub_year field
+                let year = item.pub_year;
+                
+                // If not available, try to get from date field
+                if (!year && item.date) {
+                    year = parseInt(item.date.split('-')[0]);
+                }
+                
+                return (!yearFrom || (year && year >= parseInt(yearFrom))) && 
+                       (!yearTo || (year && year <= parseInt(yearTo)));
             });
         }
 
@@ -490,20 +599,23 @@ class AdvancedSearchModule {
             });
         }
 
-        // Target type filter
+        // Target type filter - uses Type tag
         const targetType = document.getElementById('targetType')?.value;
         if (targetType) {
-            filtered = filtered.filter(item => 
-                item.tags && item.tags.toLowerCase().includes(targetType.toLowerCase())
-            );
+            filtered = filtered.filter(item => {
+                // First check if there are structured tags with Type
+                if (item.structured_tags && item.structured_tags['Type']) {
+                    return item.structured_tags['Type'].toLowerCase().includes(targetType.toLowerCase());
         }
 
-        // Application field filter
-        const applicationField = document.getElementById('applicationField')?.value;
-        if (applicationField) {
-            filtered = filtered.filter(item => 
-                item.content && item.content.toLowerCase().includes(applicationField.toLowerCase())
-            );
+                // Then check target_type field
+                if (item.target_type) {
+                    return item.target_type.toLowerCase().includes(targetType.toLowerCase());
+                }
+                
+                // Compatible with old logic - check tags field
+                return (item.tags && item.tags.toLowerCase().includes(targetType.toLowerCase()));
+            });
         }
 
         // Affinity filter (using kd_value)
@@ -518,6 +630,19 @@ class AdvancedSearchModule {
                     case 'mM': return kd >= 1000000;
                     default: return true;
                 }
+            });
+        }
+
+        // Result type filter
+        const resultType = document.getElementById('resultType')?.value;
+        if (resultType) {
+            filtered = filtered.filter(item => {
+                if (resultType === 'sequence') {
+                    return item.result_type === 'sequence';
+                } else if (resultType === 'page') {
+                    return item.result_type === 'page';
+                }
+                return true; // 'all' or unknown type
             });
         }
 
@@ -582,26 +707,7 @@ class AdvancedSearchModule {
 
         let start, end, pageData;
         switch (this.currentView) {
-            case 'grid':
-                // 瀑布流无限加载，不渲染分页
-                if (!this.masonryLoaded) {
-                    this.masonryLoaded = true;
-                    this.masonryPage = 1;
-                    this.masonryPageSize = 30;
-                    this.masonryData = this.filteredData.slice(0, this.masonryPage * this.masonryPageSize);
-                    this.renderGridView(resultsList, this.masonryData);
-                    window.addEventListener('scroll', this.handleMasonryScroll.bind(this));
-                } else {
-                    this.renderGridView(resultsList, this.masonryData);
-                }
-                // 隐藏分页，显示进度条
-                const paginationContainer = document.getElementById('paginationContainer');
-                if (paginationContainer) paginationContainer.style.display = 'none';
-                this.showMasonryProgressBar();
-                break;
             case 'table':
-                window.removeEventListener('scroll', this.handleMasonryScroll);
-                this.hideMasonryProgressBar();
                 this.itemsPerPage = this.itemsPerPageTable;
                 start = (this.currentPage - 1) * this.itemsPerPage;
                 end = start + this.itemsPerPage;
@@ -611,8 +717,6 @@ class AdvancedSearchModule {
                 break;
             case 'list':
             default:
-                window.removeEventListener('scroll', this.handleMasonryScroll);
-                this.hideMasonryProgressBar();
                 this.itemsPerPage = this.itemsPerPageList;
                 start = (this.currentPage - 1) * this.itemsPerPage;
                 end = start + this.itemsPerPage;
@@ -623,194 +727,239 @@ class AdvancedSearchModule {
         }
     }
 
-    showMasonryProgressBar() {
-        const bar = document.getElementById('masonryProgressBar');
-        if (bar && this.filteredData.length > this.masonryPageSize) {
-            bar.style.display = 'flex';
-            this.updateMasonryProgressBar();
-        }
-    }
-
-    hideMasonryProgressBar() {
-        const bar = document.getElementById('masonryProgressBar');
-        if (bar) {
-            bar.style.display = 'none';
-        }
-    }
-
-    handleMasonryScroll() {
-        if (this.currentView !== 'grid') return;
-        
-        // 计算滚动进度 - 考虑页面总高度和视窗位置
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const windowHeight = window.innerHeight;
-        const documentHeight = document.documentElement.scrollHeight;
-        const scrollProgress = scrollTop / (documentHeight - windowHeight);
-        
-        // 基于滚动位置的智能加载
-        if ((windowHeight + scrollTop) >= (documentHeight - 200)) {
-            // 快到底部时加载更多
-            this.masonryPage++;
-            const moreData = this.filteredData.slice(0, this.masonryPage * this.masonryPageSize);
-            if (moreData.length > this.masonryData.length) {
-                this.masonryData = moreData;
-                const resultsList = document.getElementById('resultsList');
-                this.renderGridView(resultsList, this.masonryData);
-            }
-        }
-        
-        // 实时更新进度条 - 传递滚动进度用于更精确的计算
-        this.updateMasonryProgressBar(scrollProgress);
-    }
-
-    updateMasonryProgressBar(scrollProgress = 0) {
-        const bar = document.getElementById('masonryProgressBar');
-        const inner = document.getElementById('masonryProgressInner');
-        if (!bar || !inner) return;
-        
-        const total = this.filteredData.length;
-        const loaded = this.masonryData.length;
-        
-        // 如果数据量小于一页，不显示进度条
-        if (total <= this.masonryPageSize) {
-            bar.style.display = 'none';
-            return;
-        }
-        
-        // 多维度进度计算
-        const dataLoadProgress = total > 0 ? (loaded / total) : 0;
-        const scrollWeight = Math.min(scrollProgress * 1.2, 1); // 滚动权重，略微放大
-        
-        // 综合进度：70% 基于数据加载，30% 基于滚动位置
-        const combinedProgress = (dataLoadProgress * 0.7) + (scrollWeight * 0.3);
-        const finalProgress = Math.min(combinedProgress, 1);
-        
-        // 进度条高度计算 - 使用缓动函数
-        const barHeight = 320; // 进度条总高度
-        const minHeight = 8; // 最小高度
-        const maxHeight = barHeight - 4; // 最大高度，留出边距
-        
-        // 使用缓动函数让进度条动画更自然
-        const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
-        const easedProgress = easeOutCubic(finalProgress);
-        
-        // 计算最终高度
-        const progressHeight = Math.max(minHeight, Math.round(maxHeight * easedProgress));
-        
-        // 渐变动画更新
-        const currentHeight = parseInt(inner.style.height) || minHeight;
-        const heightDiff = progressHeight - currentHeight;
-        
-        if (Math.abs(heightDiff) > 2) {
-            // 使用CSS transition实现平滑动画
-            inner.style.transition = 'height 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
-            inner.style.height = progressHeight + 'px';
-        } else {
-            // 微小变化直接设置，避免不必要的动画
-            inner.style.transition = 'none';
-            inner.style.height = progressHeight + 'px';
-        }
-        
-        // 根据进度调整进度条颜色渐变
-        const hue = 240 + (finalProgress * 60); // 从紫色(300)到蓝色(240)
-        const saturation = 60 + (finalProgress * 30); // 饱和度递增
-        const lightness = 50 + (finalProgress * 20); // 亮度递增
-        
-        inner.style.background = `linear-gradient(180deg, 
-            hsl(${hue}, ${saturation}%, ${lightness}%) 0%, 
-            hsl(${hue - 20}, ${saturation + 10}%, ${lightness - 15}%) 100%)`;
-        
-        // 进度条阴影效果随进度增强
-        const shadowIntensity = 0.2 + (finalProgress * 0.3);
-        inner.style.boxShadow = `0 0 ${8 + finalProgress * 4}px hsla(${hue}, ${saturation}%, ${lightness}%, ${shadowIntensity})`;
-        
-        // 显示进度条
-        bar.style.display = 'flex';
-        
-        // 如果完全加载完毕，添加完成效果
-        if (loaded >= total && finalProgress >= 0.98) {
-            setTimeout(() => {
-                inner.style.background = 'linear-gradient(180deg, #10b981 0%, #059669 100%)';
-                inner.style.boxShadow = '0 0 12px rgba(16, 185, 129, 0.4)';
-                
-                // 2秒后恢复原色
-                setTimeout(() => {
-                    inner.style.background = `linear-gradient(180deg, 
-                        hsl(${hue}, ${saturation}%, ${lightness}%) 0%, 
-                        hsl(${hue - 20}, ${saturation + 10}%, ${lightness - 15}%) 100%)`;
-                    inner.style.boxShadow = `0 0 ${8 + finalProgress * 4}px hsla(${hue}, ${saturation}%, ${lightness}%, ${shadowIntensity})`;
-                }, 2000);
-            }, 300);
-        }
-    }
-
     renderListView(container, data) {
-        const html = data.map(item => `
-            <div class="result-item-list">
+        const currentQuery = document.getElementById('mainSearchInput')?.value || '';
+        
+        const html = data.map(item => {
+            // Determine result type icon
+            let typeIcon = 'fa-file-alt';
+            let typeLabel = 'Page';
+            
+            if (item.result_type === 'sequence') {
+                typeIcon = 'fa-dna';
+                typeLabel = 'Sequence';
+        }
+
+            // Display tags - show Target type and multi-aptamer flag
+            const tags = [];
+            if (item.structured_tags) {
+                // Only show Type tag, skip sequence-type category labels
+                if (item.structured_tags['Type']) {
+                    tags.push(`<span class="tag tag-type">Target: ${item.structured_tags['Type']}</span>`);
+                }
+            } else if (item.tags && item.tags.includes('Type:')) {
+                // Extract Type from tags string if it exists
+                const typeMatch = item.tags.match(/Type:([^,]+)/i);
+                if (typeMatch && typeMatch[1]) {
+                    tags.push(`<span class="tag tag-type">Target: ${typeMatch[1].trim()}</span>`);
+                }
+            }
+            
+            // If multiple aptamers in the page,添加可点击的序列访问按钮
+            if (item.result_type === 'page' && item.aptamer_count && item.aptamer_count > 1) {
+                const searchQuery = this.generateSequenceSearchQuery(item);
+                tags.push(`<button class="tag tag-sequences-btn" data-search-query="${searchQuery}" title="View all ${item.aptamer_count} sequences from this page">
+                    <i class="fas fa-dna"></i> ${item.aptamer_count} Sequences
+                </button>`);
+            }
+            
+            // Meta information
+            const metaItems = [];
+            
+            // Year information
+            let yearInfo = item.pub_year || (item.date ? item.date.split('-')[0] : 'Unknown');
+            metaItems.push(`<span class="meta-item"><i class="fas fa-calendar"></i> Year: ${yearInfo}</span>`);
+        
+            // Length info (support range)
+            if (item.sequence_length_range) {
+                metaItems.push(`<span class="meta-item"><i class="fas fa-ruler"></i> Length: ${item.sequence_length_range} bp</span>`);
+            } else if (item.sequence_length) {
+                metaItems.push(`<span class="meta-item"><i class="fas fa-ruler"></i> Length: ${item.sequence_length} bp</span>`);
+            }
+            
+            // GC content (support range)
+            if (item.gc_content_range) {
+                metaItems.push(`<span class="meta-item"><i class="fas fa-percentage"></i> GC: ${item.gc_content_range}%</span>`);
+            } else if (item.gc_content !== undefined) {
+                metaItems.push(`<span class="meta-item"><i class="fas fa-percentage"></i> GC: ${item.gc_content}%</span>`);
+        }
+        
+            // Result type indicator
+            metaItems.push(`<span class="meta-item result-type"><i class="fas ${typeIcon}"></i> ${typeLabel}</span>`);
+
+            // Generate content preview with highlighted search terms
+            let contentPreview = '';
+
+            if (item.content) {
+                // For sequence items, handle sequence content specially
+                if (item.result_type === 'sequence' && item.content.includes('Sequence:')) {
+                    const seqMatch = item.content.match(/Sequence:\s*([ACGTU\s]+)/i);
+                    if (seqMatch && seqMatch[1]) {
+                        const sequence = seqMatch[1].trim();
+                        const maxVisibleLength = 40;
+                        let displaySequence = '';
+        
+                        // Check if we're searching for a sequence pattern
+                        const isSearchingSequence = currentQuery && /[ACGTU]{2,}/i.test(currentQuery);
+                        
+                        // If searching for a specific sequence, highlight matches and show context
+                        if (isSearchingSequence) {
+                            // Create a case-insensitive regex for the query
+                            const queryRegex = new RegExp(currentQuery.replace(/[ACGTU]+/ig, match => 
+                                match.split('').join('[\\s]*')), 'ig');
+                            
+                            // Try to find matches in the sequence
+                            let match;
+                            const matches = [];
+                            while ((match = queryRegex.exec(sequence)) !== null) {
+                                matches.push({
+                                    index: match.index,
+                                    length: match[0].length,
+                                    text: match[0]
+                                });
+                            }
+                            
+                            if (matches.length > 0) {
+                                // Show context around first match
+                                const firstMatch = matches[0];
+                                const contextBefore = 10;
+                                const contextAfter = 10;
+                                
+                                const startIndex = Math.max(0, firstMatch.index - contextBefore);
+                                const endIndex = Math.min(sequence.length, firstMatch.index + firstMatch.length + contextAfter);
+        
+                                // Build display sequence with highlighted match
+                                let beforeMatch = sequence.substring(startIndex, firstMatch.index);
+                                let matchText = sequence.substring(firstMatch.index, firstMatch.index + firstMatch.length);
+                                let afterMatch = sequence.substring(firstMatch.index + firstMatch.length, endIndex);
+                                
+                                displaySequence = `${startIndex > 0 ? '...' : ''}${beforeMatch}<span class="sequence-match">${matchText}</span>${afterMatch}${endIndex < sequence.length ? '...' : ''}`;
+                                
+                                contentPreview = `
+                                    <div class="sequence-content">
+                                        <div class="sequence-info-row">
+                                            <strong>Sequence Match:</strong> 
+                                            <span class="sequence-text">${displaySequence}</span>
+                                            <button class="btn-toggle-sequence" data-full="${sequence}">Show full</button>
+                                        </div>
+                                    </div>
+                                `;
+                            } else {
+                                // No matches found, show truncated sequence
+                                if (sequence.length > maxVisibleLength) {
+                                    contentPreview = `
+                                        <div class="sequence-content">
+                                            <div class="sequence-info-row">
+                                                <strong>Sequence:</strong> 
+                                                <span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span>
+                                                <button class="btn-toggle-sequence" data-full="${sequence}">Show more</button>
+                                            </div>
+                                        </div>
+                                    `;
+                                } else {
+                                    contentPreview = `
+                                        <div class="sequence-content">
+                                            <div class="sequence-info-row">
+                                                <strong>Sequence:</strong> 
+                                                <span class="sequence-text">${sequence}</span>
+                                            </div>
+                                        </div>
+                                    `;
+                                }
+                            }
+                        } else {
+                            // Regular display pattern for non-sequence searches
+                            if (sequence.length > maxVisibleLength) {
+                                contentPreview = `
+                                    <div class="sequence-content">
+                                        <div class="sequence-info-row">
+                                            <strong>Sequence:</strong> 
+                                            <span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span>
+                                            <button class="btn-toggle-sequence" data-full="${sequence}">Show more</button>
+                                        </div>
+                                    </div>
+                                `;
+                            } else {
+                                contentPreview = `
+                                    <div class="sequence-content">
+                                        <div class="sequence-info-row">
+                                            <strong>Sequence:</strong> 
+                                            <span class="sequence-text">${sequence}</span>
+                                        </div>
+                                    </div>
+                                `;
+                            }
+                        }
+                        
+                        // Add other important content like Named, Ligand and Affinity
+                        const additionalInfo = [];
+                        
+                        // Add sequence name if available
+                        if (item.named && item.named.trim()) {
+                            additionalInfo.push(`<strong>Sequence Name:</strong> ${SearchUtils.highlightKeywords(item.named.trim(), currentQuery)}`);
+                        }
+                        
+                        // Add ligand info
+                        if (item.content.includes('Ligand:')) {
+                            const ligandMatch = item.content.match(/Ligand:\s*([^|]+)/i);
+                            if (ligandMatch && ligandMatch[1]) {
+                                additionalInfo.push(`<strong>Ligand:</strong> ${SearchUtils.highlightKeywords(ligandMatch[1].trim(), currentQuery)}`);
+                            }
+                        }
+                        
+                        // Display sequence name and ligand in the same row if both exist
+                        if (additionalInfo.length >= 2) {
+                            contentPreview += `<div class="sequence-info-row">${additionalInfo.slice(0, 2).join(' | ')}</div>`;
+                            // Add remaining info in separate rows
+                            for (let i = 2; i < additionalInfo.length; i++) {
+                                contentPreview += `<div class="sequence-info-row">${additionalInfo[i]}</div>`;
+                            }
+                        } else if (additionalInfo.length === 1) {
+                            contentPreview += `<div class="sequence-info-row">${additionalInfo[0]}</div>`;
+                        }
+                        
+                        // Add affinity in a separate row
+                        if (item.content.includes('Affinity:')) {
+                            const affinityMatch = item.content.match(/Affinity:\s*([^|]+)/i);
+                            if (affinityMatch && affinityMatch[1]) {
+                                contentPreview += `<div class="sequence-info-row"><strong>Affinity:</strong> ${SearchUtils.highlightKeywords(affinityMatch[1].trim(), currentQuery)}</div>`;
+                            }
+                        }
+        }
+                } else {
+                    // For regular page content, show a preview with highlighted search terms
+                    contentPreview = SearchUtils.getContentPreview(item.content, currentQuery, 150);
+                }
+            }
+
+            return `
+                <div class="result-item-list ${item.result_type === 'sequence' ? 'result-sequence' : 'result-page'}">
                 <div class="result-header">
                     <h3 class="result-title">
-                        <a href="${item.url}" target="_blank">${item.title || 'Unknown Title'}</a>
+                            <a href="${item.url}" target="_blank">${SearchUtils.highlightKeywords(item.title || 'Unknown Title', currentQuery)}</a>
                     </h3>
                     <div class="result-tags">
-                        ${item.category ? `<span class="tag tag-type">${item.category}</span>` : ''}
-                        ${item.tags ? `<span class="tag tag-tags">${item.tags.split(',')[0]}</span>` : ''}
+                            ${tags.join('')}
                     </div>
                 </div>
                 <div class="result-meta">
-                    <span class="meta-item"><i class="fas fa-bullseye"></i> Target: ${item.target || 'Unknown'}</span>
-                    <span class="meta-item"><i class="fas fa-calendar"></i> Date: ${item.date || 'Unknown'}</span>
-                    <span class="meta-item"><i class="fas fa-ruler"></i> Length: ${item.sequence_length || 'Unknown'} bp</span>
-                    <span class="meta-item"><i class="fas fa-percentage"></i> GC: ${item.gc_content || 'Unknown'}%</span>
+                        ${metaItems.join('')}
                 </div>
-                <p class="result-description">${this.truncateText(item.content || 'No description available', 200)}</p>
+                    <div class="result-description">${contentPreview || 'No description available'}</div>
             </div>
-        `).join('');
+            `;
+        }).join('');
 
         container.innerHTML = html;
-    }
-
-    renderGridView(container, data) {
-        // 使用瀑布流布局
-        const html = `
-            <div class="results-masonry">
-                ${data.map(item => `
-                    <div class="result-item-masonry">
-                        <div class="masonry-card">
-                            <div class="card-header-masonry">
-                                <h4 class="card-title-masonry">${this.truncateText(item.title || 'Unknown Title', 50)}</h4>
-                                <div class="card-year">${item.date ? item.date.split('-')[0] : 'Unknown'}</div>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-meta">
-                                    <div class="meta-row">
-                                        <span class="meta-label">Target:</span>
-                                        <span class="meta-value">${item.target || 'Unknown'}</span>
-                                    </div>
-                                    <div class="meta-row">
-                                        <span class="meta-label">Length:</span>
-                                        <span class="meta-value">${item.sequence_length || 'Unknown'} bp</span>
-                                    </div>
-                                    <div class="meta-row">
-                                        <span class="meta-label">GC Content:</span>
-                                        <span class="meta-value">${item.gc_content || 'Unknown'}%</span>
-                                    </div>
-                                    <div class="meta-row">
-                                        <span class="meta-label">Category:</span>
-                                        <span class="meta-value">${item.category || 'Unknown'}</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer">
-                                <a href="${item.url}" target="_blank" class="btn-view-details">
-                                    View Details
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                `).join('')}
-            </div>
-        `;
-        container.innerHTML = html;
+        
+        // Add event listeners for sequence toggle buttons using event delegation
+        this.setupSequenceToggleHandlers(container);
+        
+        // Add event listeners for sequences access buttons
+        this.setupSequencesAccessHandlers(container);
+        
+        // Add global click handler to prevent unwanted scrolling
+        this.setupGlobalClickHandler(container);
     }
 
     renderTableView(container, data) {
@@ -820,38 +969,80 @@ class AdvancedSearchModule {
                     <thead>
                         <tr>
                             <th>Title</th>
-                            <th>Target</th>
+                            <th>Type</th>
                             <th>Category</th>
-                            <th>Date</th>
-                            <th>Length (bp)</th>
-                            <th>GC Content (%)</th>
-                            <th>Actions</th>
+                            <th>Year</th>
+                            <th>Length</th>
+                            <th>GC%</th>
+                            <th>Result Type</th>
                         </tr>
                     </thead>
                     <tbody>
-                        ${data.map(item => `
-                            <tr>
-                                <td class="table-name">${this.truncateText(item.title || 'Unknown', 40)}</td>
-                                <td>${item.target || 'Unknown'}</td>
-                                <td>
-                                    ${item.category ? `<span class="table-tag">${item.category}</span>` : 'Unknown'}
-                                </td>
-                                <td>${item.date ? item.date.split('-')[0] : 'Unknown'}</td>
-                                <td>${item.sequence_length || 'Unknown'}</td>
-                                <td>${item.gc_content || 'Unknown'}</td>
-                                <td>
-                                    <a href="${item.url}" target="_blank" class="btn-small">
-                                        Details
+                        ${data.map(item => {
+                            // Result type style
+                            const typeClass = item.result_type === 'sequence' ? 'sequence-row' : 'page-row';
+                            const typeLabel = item.result_type === 'sequence' ? 'Sequence' : 'Page';
+                            
+                            // Extract type and category info
+                            let typeInfo = '';
+                            if (item.structured_tags && item.structured_tags['Type']) {
+                                typeInfo = item.structured_tags['Type'];
+                            } else if (item.target_type) {
+                                typeInfo = item.target_type;
+                            }
+                            
+                            let categoryInfo = '';
+                            if (item.structured_tags && item.structured_tags['Category']) {
+                                categoryInfo = item.structured_tags['Category'];
+                            } else if (item.category_value) {
+                                categoryInfo = item.category_value;
+                            } else if (item.category) {
+                                categoryInfo = item.category;
+                            }
+
+                            const lenDisplay = item.sequence_length_range || item.sequence_length || '-';
+                            const gcDisplay = item.gc_content_range || (item.gc_content !== undefined ? item.gc_content : '-');
+
+                            // Multi-aptamer badge - 改为可点击按钮
+                            let multiBadge = '';
+                            if (item.result_type === 'page' && item.aptamer_count && item.aptamer_count > 1) {
+                                const searchQuery = this.generateSequenceSearchQuery(item);
+                                multiBadge = `<button class="multi-aptamer-btn" data-search-query="${searchQuery}" title="View all ${item.aptamer_count} sequences from this page">
+                                    <i class="fas fa-dna"></i> ${item.aptamer_count}×
+                                </button>`;
+                            }
+
+                            return `
+                            <tr class="${typeClass}">
+                                <td class="table-name">
+                                    <a href="${item.url}" target="_blank" class="data-table-link">
+                                        ${this.truncateText(item.title || 'Unknown', 40)}
                                     </a>
+                                    ${multiBadge}
                                 </td>
+                                <td>${typeInfo || 'Unknown'}</td>
+                                <td>
+                                    ${categoryInfo ? `<span class="table-tag">${categoryInfo}</span>` : 'Unknown'}
+                                </td>
+                                <td>${item.pub_year || (item.date ? item.date.split('-')[0] : 'Unknown')}</td>
+                                <td>${lenDisplay}</td>
+                                <td>${gcDisplay}</td>
+                                <td><span class="result-type-badge ${item.result_type}">${typeLabel}</span></td>
                             </tr>
-                        `).join('')}
+                            `;
+                        }).join('')}
                     </tbody>
                 </table>
             </div>
         `;
 
         container.innerHTML = html;
+        
+        // Add event listeners for sequences access buttons in table view
+        this.setupSequencesAccessHandlers(container);
+        
+        // Add global click handler to prevent unwanted scrolling
+        this.setupGlobalClickHandler(container);
     }
 
     setupPagination() {
@@ -928,7 +1119,6 @@ class AdvancedSearchModule {
         this.currentPage = page;
         this.renderResults();
         this.setupPagination();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     showPlaceholder() {
@@ -966,8 +1156,8 @@ class AdvancedSearchModule {
         document.getElementById('gcFrom').value = '';
         document.getElementById('gcTo').value = '';
         document.getElementById('targetType').value = '';
-        document.getElementById('applicationField').value = '';
         document.getElementById('affinityRange').value = '';
+        document.getElementById('resultType').value = '';
 
         // Re-execute search
         const searchInput = document.getElementById('mainSearchInput');
@@ -1042,7 +1232,6 @@ class AdvancedSearchModule {
             gcFrom: document.getElementById('gcFrom')?.value,
             gcTo: document.getElementById('gcTo')?.value,
             targetType: document.getElementById('targetType')?.value,
-            applicationField: document.getElementById('applicationField')?.value,
             affinityRange: document.getElementById('affinityRange')?.value
         };
     }
@@ -1075,6 +1264,24 @@ class AdvancedSearchModule {
         const url = URL.createObjectURL(blob);
         link.setAttribute('href', url);
         link.setAttribute('download', `aptamer_search_results_${new Date().toISOString().split('T')[0]}.csv`);
+        link.style.visibility = 'hidden';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    saveResultsJSON() {
+        if (!this.filteredData.length) {
+            alert('No data to save');
+            return;
+        }
+
+        const jsonStr = JSON.stringify(this.filteredData, null, 2);
+        const blob = new Blob([jsonStr], { type: 'application/json;charset=utf-8;' });
+        const link = document.createElement('a');
+        const url = URL.createObjectURL(blob);
+        link.setAttribute('href', url);
+        link.setAttribute('download', `aptamer_search_results_${new Date().toISOString().split('T')[0]}.json`);
         link.style.visibility = 'hidden';
         document.body.appendChild(link);
         link.click();
@@ -1127,6 +1334,15 @@ class AdvancedSearchModule {
         }
     }
 
+    hideSuggestions() {
+        const suggestions = document.getElementById('searchSuggestions');
+        if (suggestions && suggestions.style.display !== 'none') {
+            suggestions.style.display = 'none';
+            // 防止任何可能的滚动行为
+            suggestions.scrollTop = 0;
+        }
+    }
+
     highlightKeywords(text, query) {
         return SearchUtils.highlightKeywords(text, query);
     }
@@ -1144,6 +1360,269 @@ class AdvancedSearchModule {
         if (!text) return '';
         if (text.length <= maxLength) return text;
         return text.substr(0, maxLength) + '...';
+    }
+
+    // Generate search query for accessing sequences from a page
+    generateSequenceSearchQuery(item) {
+        // 尝试从页面信息生成合适的搜索查询
+        // 优先使用更具体的标识符
+        
+        // 1. 如果页面有明确的配体信息，使用配体名称
+        if (item.structured_tags && item.structured_tags['Ligand']) {
+            return item.structured_tags['Ligand'];
+        }
+        
+        // 2. 从content中提取配体信息
+        if (item.content && item.content.includes('Ligand:')) {
+            const ligandMatch = item.content.match(/Ligand:\s*([^|,]+)/i);
+            if (ligandMatch && ligandMatch[1]) {
+                return ligandMatch[1].trim();
+            }
+        }
+        
+        // 3. 从标题中提取关键词（去除常见的aptamer、binding等词汇）
+        if (item.title) {
+            let titleQuery = item.title
+                .replace(/\s*aptamer\s*/gi, ' ')
+                .replace(/\s*binding\s*/gi, ' ')
+                .replace(/\s*RNA\s*/gi, ' ')
+                .replace(/\s*DNA\s*/gi, ' ')
+                .replace(/\s*sequence\s*/gi, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+            
+            // 取前1-2个重要词汇
+            const words = titleQuery.split(' ').filter(word => word.length > 2);
+            if (words.length > 0) {
+                return words.slice(0, 2).join(' ');
+            }
+        }
+        
+        // 4. fallback - 使用页面类别信息
+        if (item.structured_tags && item.structured_tags['Type']) {
+            return item.structured_tags['Type'];
+        }
+        
+        // 5. 最后fallback - 使用部分标题
+        return item.title ? item.title.split(' ').slice(0, 2).join(' ') : 'aptamer';
+    }
+
+    // Setup sequences access button handlers using event delegation
+    setupSequencesAccessHandlers(container) {
+        // Remove any existing listener first
+        if (this.sequencesAccessHandler) {
+            container.removeEventListener('click', this.sequencesAccessHandler);
+        }
+        
+        // Create bound handler
+        this.sequencesAccessHandler = (event) => {
+            // 检查是否点击了任一类型的序列访问按钮
+            const sequencesBtn = event.target.closest('.tag-sequences-btn');
+            const multiAptamerBtn = event.target.closest('.multi-aptamer-btn');
+            
+            if (!sequencesBtn && !multiAptamerBtn) {
+                return;
+            }
+
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const btn = sequencesBtn || multiAptamerBtn;
+            const searchQuery = btn.getAttribute('data-search-query');
+            
+            if (searchQuery) {
+                // 构建sequences页面的URL，带上搜索参数
+                const sequencesUrl = `/sequences/?search=${encodeURIComponent(searchQuery)}`;
+                
+                // 在新窗口中打开
+                window.open(sequencesUrl, '_blank');
+            }
+        };
+        
+        // Add event listener with delegation
+        container.addEventListener('click', this.sequencesAccessHandler);
+    }
+
+    // Setup sequence toggle handlers using event delegation
+    setupSequenceToggleHandlers(container) {
+        // Remove any existing listener first
+        container.removeEventListener('click', this.sequenceToggleHandler);
+        
+        // Create bound handler
+        this.sequenceToggleHandler = (event) => {
+            if (!event.target.classList.contains('btn-toggle-sequence')) {
+                return;
+            }
+
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const btn = event.target;
+            const sequenceContent = btn.closest('.sequence-content');
+            const isShowingMore = btn.textContent.includes('Show more') || btn.textContent.includes('Show full');
+            
+            if (isShowingMore) {
+                // Show full sequence
+                const fullSequence = btn.getAttribute('data-full');
+                if (!fullSequence) return;
+                
+                const isMatchView = btn.closest('.sequence-matched') !== null;
+                
+                sequenceContent.innerHTML = `
+                    <div class="sequence-info-row">
+                        <strong>Sequence:</strong> 
+                        <span class="sequence-text">${fullSequence}</span>
+                        <button class="btn-toggle-sequence" data-full="${fullSequence}" data-mode="${isMatchView ? 'match' : 'truncate'}">Show less</button>
+                    </div>
+                `;
+            } else {
+                // Show truncated sequence
+                const fullSequence = btn.getAttribute('data-full');
+                if (!fullSequence) return;
+                
+                const maxVisible = 40;
+                const truncatedSequence = fullSequence.substring(0, maxVisible);
+                
+                sequenceContent.innerHTML = `
+                    <div class="sequence-info-row">
+                        <strong>Sequence:</strong> 
+                        <span class="sequence-text">${truncatedSequence}...</span>
+                        <button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button>
+                    </div>
+                `;
+            }
+        };
+        
+        // Add event listener with delegation
+        container.addEventListener('click', this.sequenceToggleHandler);
+    }
+
+    // Setup global click handler to debug and prevent unwanted scrolling
+    setupGlobalClickHandler(container) {
+        // Remove any existing listener first
+        container.removeEventListener('click', this.globalClickHandler);
+        
+        // Create bound handler
+        this.globalClickHandler = (event) => {
+            console.log('Click detected on:', event.target, 'Tag:', event.target.tagName, 'Classes:', event.target.classList);
+            
+            // Check for problematic elements that might cause scrolling
+            const target = event.target;
+            
+            // If it's a link with href="#" or empty href, prevent default
+            if (target.tagName === 'A') {
+                const href = target.getAttribute('href');
+                if (!href || href === '#' || href === 'javascript:void(0)') {
+                    console.log('Preventing default for problematic link:', href);
+                    event.preventDefault();
+                    event.stopPropagation();
+                    return;
+                }
+            }
+            
+            // Check for buttons without proper type
+            if (target.tagName === 'BUTTON' && !target.getAttribute('type')) {
+                console.log('Button without type attribute detected');
+                // Don't prevent default for buttons, just log
+            }
+            
+            // Check for elements with onclick handlers
+            if (target.onclick || target.getAttribute('onclick')) {
+                console.log('Element with onclick detected:', target.onclick || target.getAttribute('onclick'));
+            }
+        };
+        
+        // Add event listener with delegation
+        container.addEventListener('click', this.globalClickHandler);
+    }
+
+    // 生成缓存键
+    generateCacheKey(query, filters, searchType) {
+        const filterString = JSON.stringify(filters);
+        return `${query}_${searchType}_${btoa(filterString)}`;
+    }
+
+    // 缓存搜索结果
+    cacheSearchResults(cacheKey, results, searchTime) {
+        // 限制缓存大小，只保留最近的20个搜索结果
+        if (this.searchCache.size >= 20) {
+            const firstKey = this.searchCache.keys().next().value;
+            this.searchCache.delete(firstKey);
+        }
+        
+        this.searchCache.set(cacheKey, {
+            results: [...results], // 创建副本避免引用问题
+            searchTime,
+            timestamp: Date.now()
+        });
+    }
+
+    // 更新结果信息
+    updateResultsInfo(resultCount, searchTime) {
+        const resultsCount = document.getElementById('resultsCount');
+        const searchTimeSpan = document.getElementById('searchTime');
+        
+        if (resultsCount) {
+            resultsCount.textContent = resultCount;
+        }
+        
+        if (searchTimeSpan) {
+            searchTimeSpan.textContent = `in ${searchTime} seconds`;
+        }
+    }
+
+    // 解析 tags 字符串为结构化的 Map
+    parseTagsToMap(tagsStr) {
+        if (!tagsStr) return {};
+        
+        const tagMap = {};
+        
+        // 1. 尝试解析 YAML 风格的数组标签 (例如 _posts/3Dpol-aptamer.md 中的格式)
+        // - Category:Mammalian
+        // - GC:41.25
+        if (tagsStr.includes('Category:') || tagsStr.includes('Type:')) {
+            const tagLines = tagsStr.split(/\n|,/).filter(line => line.trim());
+            
+            tagLines.forEach(line => {
+                // 移除前导的 "- " (如果存在)
+                const cleanLine = line.replace(/^\s*-\s*/, '').trim();
+                
+                // 处理形如 "Key:Value" 的标签
+                const colonMatch = cleanLine.match(/^([^:]+):\s*(.+)$/);
+                if (colonMatch) {
+                    const [, key, value] = colonMatch;
+                    const keyTrimmed = key.trim();
+                    
+                    if (tagMap[keyTrimmed] === undefined) {
+                        tagMap[keyTrimmed] = value.trim();
+                    }
+                    // 如果已经存在此键，保留现有值，不覆盖
+                } else if (cleanLine) {
+                    // 没有冒号的普通标签
+                    tagMap[cleanLine] = true;
+                }
+            });
+            
+            return tagMap;
+        }
+        
+        // 2. 处理常规的逗号分隔标签字符串
+        const tagItems = tagsStr.split(/,\s*/g);
+        
+        tagItems.forEach(tag => {
+            // 处理形如 "Category:Mammalian" 的标签
+            const colonMatch = tag.match(/^([^:]+):\s*(.+)$/);
+            if (colonMatch) {
+                const [, key, value] = colonMatch;
+                tagMap[key.trim()] = value.trim();
+                return;
+            }
+            
+            // 处理没有冒号的普通标签
+            tagMap[tag.trim()] = true;
+        });
+        
+        return tagMap;
     }
 }
 
@@ -1218,6 +1697,43 @@ const resultStyles = `
 
 .tag-app {
     background: #28a745;
+}
+
+/* 序列访问按钮样式 */
+.tag-sequences-btn {
+    background: #28a745 !important;
+    color: white !important;
+    border: none !important;
+    padding: 6px 12px !important;
+    border-radius: 15px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.2) !important;
+}
+
+.tag-sequences-btn:hover {
+    background: #218838 !important;
+    color: white !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3) !important;
+}
+
+.tag-sequences-btn:active {
+    background: #1e7e34 !important;
+    transform: translateY(0) !important;
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.4) !important;
+}
+
+.tag-sequences-btn i {
+    font-size: 11px !important;
+    margin-right: 2px !important;
 }
 
 .result-meta {
@@ -1355,7 +1871,6 @@ const resultStyles = `
 
 .results-table {
     width: 100%;
-    border-collapse: collapse;
     background: white;
     border-radius: 12px;
     overflow: hidden;
@@ -1455,6 +1970,204 @@ const resultStyles = `
     .results-table td {
         padding: 10px 8px;
     }
+}
+
+/* Dashboard数据表格链接样式 */
+.data-table-link {
+    color: #520049 !important;
+    text-decoration: none !important;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.data-table-link:hover {
+    color: #7a0070 !important;
+    text-decoration: underline !important;
+    background-color: rgba(82, 0, 73, 0.1);
+    border-radius: 3px;
+}
+
+.data-table-link:visited {
+    color: #520049 !important;
+}
+
+.data-table-link:active {
+    color: #520049 !important;
+    background-color: rgba(82, 0, 73, 0.2);
+}
+
+.table-name .data-table-link {
+    color: #520049 !important;
+    font-weight: 700 !important;
+}
+
+.table-name .data-table-link:hover {
+    color: #7a0070 !important;
+    text-shadow: 0 1px 2px rgba(82, 0, 73, 0.3);
+}
+
+/* Multi-aptamer badge */
+.multi-aptamer-badge {
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    margin-left: 4px;
+    vertical-align: middle;
+    cursor: default;
+    line-height: 1;
+}
+
+/* 表格中的多aptamer按钮样式 */
+.multi-aptamer-btn {
+    display: inline-block !important;
+    background: #28a745 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    padding: 3px 8px !important;
+    margin-left: 4px !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    line-height: 1 !important;
+    transition: all 0.3s ease !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: 0 1px 3px rgba(40, 167, 69, 0.2) !important;
+    white-space: nowrap !important;
+}
+
+.multi-aptamer-btn:hover {
+    background: #218838 !important;
+    color: #fff !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 2px 6px rgba(40, 167, 69, 0.3) !important;
+}
+
+.multi-aptamer-btn:active {
+    background: #1e7e34 !important;
+    transform: translateY(0) !important;
+    box-shadow: 0 1px 3px rgba(40, 167, 69, 0.4) !important;
+}
+
+.multi-aptamer-btn i {
+    font-size: 9px !important;
+    margin-right: 2px !important;
+}
+
+/* Multi-aptamer badge tooltip */
+.multi-aptamer-badge[data-tooltip] {
+    position: relative;
+}
+
+.multi-aptamer-badge[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.1s;
+    z-index: 9999;
+}
+
+.multi-aptamer-badge[data-tooltip]:hover::after {
+    opacity: 1;
+}
+
+/* Sequence info row styling - 蓝色主题，与sequence结果类型一致 */
+.sequence-info-row {
+    margin: 4px 0;
+    padding: 6px 12px;
+    background: rgba(0, 102, 204, 0.05);
+    border-radius: 6px;
+    border-left: 3px solid #0066cc;
+    font-size: 14px;
+    line-height: 1.4;
+    display: block; /* 改为block，避免flex布局导致的换行问题 */
+    min-height: 20px;
+}
+
+.sequence-info-row strong {
+    color: #0066cc;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/* 调整sequence-text样式，确保与sequence-info-row对齐，使用蓝色主题 */
+.sequence-text {
+    font-family: 'Courier New', monospace !important;
+    letter-spacing: 0.5px !important;
+    background-color: rgba(0, 102, 204, 0.1) !important;
+    padding: 4px 8px !important;
+    border-radius: 3px !important;
+    display: inline-block !important;
+    margin: 0 4px 0 0 !important;
+    max-width: calc(100% - 120px) !important;
+    overflow-x: auto !important;
+    white-space: normal !important;
+    word-break: break-all !important;
+    line-height: 1.4 !important;
+    vertical-align: middle !important;
+    border: 1px solid rgba(0, 102, 204, 0.2) !important;
+    color: #333 !important;
+}
+
+/* 序列内容容器，确保与其他元素对齐 */
+.sequence-content {
+    margin-top: 6px !important;
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    line-height: 1.4 !important;
+}
+
+/* 优化按钮样式，改为蓝色主题 */
+.btn-toggle-sequence {
+    background: #0066cc !important;
+    color: white !important;
+    border: none !important;
+    padding: 3px 8px !important;
+    border-radius: 3px !important;
+    font-size: 11px !important;
+    cursor: pointer !important;
+    margin-left: 8px !important;
+    transition: all 0.2s !important;
+    vertical-align: middle !important;
+    line-height: 1.2 !important;
+}
+
+.btn-toggle-sequence:hover {
+    background: #0052a3 !important;
+}
+
+/* 确保sequence name和ligand的行内显示不会因为flex导致问题 */
+.sequence-info-row .inline-info {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 序列匹配高亮样式，改为蓝色主题 */
+.sequence-match {
+    background-color: #cce7ff !important;
+    color: #0066cc !important;
+    font-weight: bold !important;
+    padding: 0 2px !important;
+    border-radius: 2px !important;
 }
 </style>
 `;

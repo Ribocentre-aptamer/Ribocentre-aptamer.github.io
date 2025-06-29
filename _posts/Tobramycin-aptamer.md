@@ -1,93 +1,32 @@
 ---
-layout: post
-title:  "Tobramycin aptamer"
-date:   2024-04-24 00:00:00
+layout: theophylline_style
+title: Tobramycin aptamer
+date: 2024-04-24 00:00:00
 author: Linfei Li, Ke Chen
 categories: Aptamer
+tags:
+- Category:Pharmaceuticals
+- GC:45.87
+- GC:47.0
+- GC:50.0
+- GC:50.46000000000001
+- GC:51.38
+- GC:59.0
+- Length:109
+- Length:23
+- Length:27
+- Length:30
+- Named:Tobramycin_J6
+- Named:Tobramycin_J6sl (Tobramycin aptamer I)
+- Named:Tobramycin_Tobramycin aptamer II
+- Named:Tobramycin_W13 (clone 8)
+- Named:Tobramycin_X1
+- Named:Tobramycin_X1sl
+- Type:Small molecules
+- Year:1995
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
-
 
 <div class="side-nav">
 <ul>
@@ -173,15 +112,13 @@ categories: Aptamer
 
          
 <p class="header_box" id="description">Description</p>
-<p>Tobramycin aptamers, a class of high-affinity RNA molecules obtained through in vitro selection, were found to exhibit specific recognition of the aminoglycoside antibiotic tobramycin. Research demonstrated that these aptamers formed binding pockets via distinctive stem-loop structures. These structures adopted a “zipper-like” fold, which broadened the RNA’s major groove geometry through the synergistic arrangement of mismatched base pairs (e.g., G•U, U•U) and Watson-Crick base pairs (e.g., U•A). Tobramycin was positioned within the RNA’s major groove, partially encapsulated between the groove’s base and protruding bases (e.g., G15 or C15), forming a semi-enclosed chamber. Its binding was stabilised by hydrogen bonding and electrostatic interactions. For instance, the amino groups (NH₃⁺) of tobramycin could form hydrogen-bond networks with RNA base edges (e.g., N7, O4) or the phosphate backbone, while its aminosugar ring III enhanced binding through hydrophobic interactions with non-polar pyrimidine rings. Selection experiments revealed that high-affinity aptamers (with Kd values in the nM range) possessed highly conserved sequences. Their core binding domains were concentrated within predicted stem-loop regions, with affinity directly correlated to stem-loop stability. Quantitative analyses using fluorescently labelled tobramycin analogues (e.g., PYT) indicated that aptamers exhibited cross-binding capability with structurally similar aminoglycosides (e.g., neomycin), but no significant interaction with non-aminoglycoside antibiotics (e.g., erythromycin), underscoring their specificity. These studies not only elucidated the molecular mechanisms underlying RNA-aminoglycoside interactions but also provided critical insights for antibiotic optimisation and the design of novel RNA-targeted therapeutics informed by structural data<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
+<p>Tobramycin aptamers, a class of high-affinity RNA molecules obtained through in vitro selection, were found to exhibit specific recognition of the aminoglycoside antibiotic tobramycin. Research demonstrated that these aptamers formed binding pockets via distinctive stem-loop structures. These structures adopted a "zipper-like" fold, which broadened the RNA's major groove geometry through the synergistic arrangement of mismatched base pairs (e.g., G•U, U•U) and Watson-Crick base pairs (e.g., U•A). Tobramycin was positioned within the RNA's major groove, partially encapsulated between the groove's base and protruding bases (e.g., G15 or C15), forming a semi-enclosed chamber. Its binding was stabilised by hydrogen bonding and electrostatic interactions. For instance, the amino groups (NH₃⁺) of tobramycin could form hydrogen-bond networks with RNA base edges (e.g., N7, O4) or the phosphate backbone, while its aminosugar ring III enhanced binding through hydrophobic interactions with non-polar pyrimidine rings. Selection experiments revealed that high-affinity aptamers (with Kd values in the nM range) possessed highly conserved sequences. Their core binding domains were concentrated within predicted stem-loop regions, with affinity directly correlated to stem-loop stability. Quantitative analyses using fluorescently labelled tobramycin analogues (e.g., PYT) indicated that aptamers exhibited cross-binding capability with structurally similar aminoglycosides (e.g., neomycin), but no significant interaction with non-aminoglycoside antibiotics (e.g., erythromycin), underscoring their specificity. These studies not only elucidated the molecular mechanisms underlying RNA-aminoglycoside interactions but also provided critical insights for antibiotic optimisation and the design of novel RNA-targeted therapeutics informed by structural data<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>An RNA diversity library was employed to select sequences capable of binding to the aminoglycoside antibiotic tobramycin. After six cycles of selection, 82% of the RNA bound specifically to tobramycin. The selected RNA was then reverse-transcribed into DNA and subsequently cloned. At low selection stringency, an extremely large number of clones, on the order of 10⁷, produced RNAs capable of binding tobramycin with dissociation constants (Kd) in the µM range. These values were similar to those observed for the binding of tobramycin to Escherichia coli ribosomes. Sequencing of 18 of these clones revealed no obvious consensus sequence. However, at higher selection stringencies (with Kd values in the nM range), only two consensus sequences for binding were observed<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -192,7 +129,7 @@ categories: Aptamer
 <p>Here we used ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>,<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>5'-GGCACGAGGUUUAGCUACACUCGUGCC-3'</p>
 <p>5'-ACUUGGUUUAGGUAAUGAGU-3'</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/Tobramycin_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -207,20 +144,16 @@ categories: Aptamer
 <p>Patel, D. J. et al. described a solution-structure determination of the tobramycin-RNA aptamer I complex, obtained using nuclear magnetic resonance (NMR) and molecular dynamics. The PDB ID of this structure is 1TOB<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Tobramycin_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
+
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -250,101 +183,102 @@ categories: Aptamer
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
-    </head>
     <body onload="customize()">
         <div class="controlsSection1">
-            <button onclick="
-              var selectSections1 = [
-{
-  struct_asym_id: 'A',    
-  start_residue_number:1, 
-  end_residue_number:5, 
-  color:{R:184,G:51,B:50}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:6, 
-  end_residue_number:6, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:7, 
-  end_residue_number:7, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:8, 
-  end_residue_number:8, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:9, 
-  end_residue_number:9, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:10, 
-  end_residue_number:11, 
-  color:{r:46,g:161,b:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:12, 
-  end_residue_number:12, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:13, 
-  end_residue_number:14, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:15, 
-  end_residue_number:15, 
-  color:{R:241,G:125,B:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:16, 
-  end_residue_number:18, 
-  color:{R:46,G:163,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:19, 
-  end_residue_number:27, 
-  color:{R:184,G:51,B:50}
-},{
-  struct_asym_id: 'C', 
-  start_residue_number:28, 
-  end_residue_number:30, 
-  color:{R:255,G:0,B:255}
-}
-              ]
-            viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
+            <button onclick="viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection1">
     <!-- Molstar container -->
       <div id="myViewer1"></div>
     </div>
     <script>
+      // 预定义选色数据
+      const selectSections1 = [
+        {
+          struct_asym_id: 'A',    
+          start_residue_number:1, 
+          end_residue_number:6, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:7, 
+          end_residue_number:7, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:8, 
+          end_residue_number:8, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:9, 
+          end_residue_number:9, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:10, 
+          end_residue_number:11, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:12, 
+          end_residue_number:12, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:13, 
+          end_residue_number:14, 
+          color:{r:46,g:161,b:3}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:15, 
+          end_residue_number:15, 
+          color:{r:241,g:125,b:7}
+        },{
+          struct_asym_id: 'A', 
+          start_residue_number:16, 
+          end_residue_number:27, 
+          color:{r:184,g:51,b:50}
+        },{
+          struct_asym_id: 'C', 
+          start_residue_number:28, 
+          end_residue_number:30, 
+          color:{r:255,g:0,b:255}
+        }
+      ];
+
       var viewerInstance1 = new PDBeMolstarPlugin();
       var options1 = {
         customData:{
         url:'/pdbfiles/1TOB.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
-      viewerInstance1.render(viewerContainer1, options1);
-  window.addEventListener('load', function() {
-    var colorSelectionButton1 = document.querySelector('.controlsSection1 button');
-    colorSelectionButton1.click();
-  });
+      viewerInstance1.render(viewerContainer1, options1).then(() => {
+        // 等待结构加载完成后自动应用颜色
+        setTimeout(() => {
+          viewerInstance1.visual.select({ 
+            data: selectSections1, 
+            nonSelectedColor: {r:255,g:255,b:255}
+          });
+        }, 1000);
+      });
 </script>
 </body>
 </html>
@@ -357,20 +291,15 @@ categories: Aptamer
 <p>Patel, D. J. et al. described the structure of the complex was calculated by NMR and the X-PLOR programme, and molecular dynamics constraints were performed to demonstrate the solution structure of the complex of the aminoglycoside antibiotic tobramycin in conjunction with stem-loop RNA aptamer II. The PDB ID of this structure is 2TOB<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Tobramycin_aptamer_3D2.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -405,81 +334,87 @@ categories: Aptamer
             position:relative;
           }
         </style>
-    </head>
+
     <body onload="customize()">
         <div class="controlsSection2">
-            <button onclick="
-              var selectSections2 = [
-{
-  struct_asym_id: 'A',    
-  start_residue_number:4, 
-  end_residue_number:6, 
-  color:{r:184,g:51,b:50},
-{
-  struct_asym_id: 'A', 
-  start_residue_number:7, 
-  end_residue_number:12, 
-  color:{r:241,g:125,b:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:13, 
-  end_residue_number:14, 
-  color:{r:46,g:161,b:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:15, 
-  end_residue_number:15, 
-  color:{r:241,g:125,b:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:16, 
-  end_residue_number:18, 
-  color:{R:46,G:161,B:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:19, 
-  end_residue_number:19, 
-  color:{r:241,g:125,b:7}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:20, 
-  end_residue_number:20, 
-  color:{r:46,g:161,b:3}
-},{
-  struct_asym_id: 'A', 
-  start_residue_number:21, 
-  end_residue_number:23, 
-  color:{r:184,g:51,b:50}
-},{
-  struct_asym_id: 'C', 
-  start_residue_number:100, 
-  end_residue_number:102, 
-  color:{r:255,g:0,b:255}
-}
-              ]
-            viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
-          <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
+            <button onclick="viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
+          <button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>
       </div>
     <div class="viewerSection2">
     <!-- Molstar container -->
       <div id="myViewer2"></div>
     </div>
     <script>
+      // 预定义选色数据
+      const selectSections2 = [
+        {
+          struct_asym_id: 'A',    
+          start_residue_number:4, 
+          end_residue_number:6, 
+          color:{r:184,g:51,b:50}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:7, 
+          end_residue_number:12, 
+          color:{r:241,g:125,b:7}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:13, 
+          end_residue_number:14, 
+          color:{r:46,g:161,b:3}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:15, 
+          end_residue_number:15, 
+          color:{r:241,g:125,b:7}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:16, 
+          end_residue_number:18, 
+          color:{r:184,g:51,b:50}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:19, 
+          end_residue_number:19, 
+          color:{r:241,g:125,b:7}
+        },
+        {
+          struct_asym_id: 'A', 
+          start_residue_number:20, 
+          end_residue_number:23, 
+          color:{r:184,g:51,b:50}
+        },
+        {
+          struct_asym_id: 'C', 
+          start_residue_number:100, 
+          end_residue_number:102, 
+          color:{r:255,g:0,b:255}
+        }
+      ];
+
       var viewerInstance2 = new PDBeMolstarPlugin();
       var options2 = {
         customData:{
         url:'/pdbfiles/2TOB.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer2 = document.getElementById('myViewer2');
-      viewerInstance2.render(viewerContainer2, options2);
-  window.addEventListener('load', function() {
-    var colorSelectionButton2 = document.querySelector('.controlsSection2 button');
-    colorSelectionButton2.click();
-  });
+      viewerInstance2.render(viewerContainer2, options2).then(() => {
+        // 等待结构加载完成后自动应用颜色
+        setTimeout(() => {
+          viewerInstance2.visual.select({ 
+            data: selectSections2, 
+            nonSelectedColor: {r:255,g:255,b:255}
+          });
+        }, 1000);
+      });
 </script>
 </body>
 </html>
@@ -493,7 +428,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1TOB by NMR. TOB (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TOB.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -505,7 +440,7 @@ categories: Aptamer
   <br>
             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2TOB by NMR. TOB (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with TOB.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Tobramycin_aptamer_binding_pocker3.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -529,13 +464,13 @@ categories: Aptamer
 
 
 <p class="blowheader_box">Structure ligand</p>
-<p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From <a href="https://go.drugbank.com/drugs/DB00684" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
+<p>Tobramycin is an aminoglycoside antibiotic used to treat cystic fibrosis-associated bacterial, lower respiratory tract, urinary tract, eye, skin, bone, and skin structure infections.-----From <a href="https://go.drugbank.com/drugs/DB00684" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a></p>
 
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -559,7 +494,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tobramycin_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tobramycin_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -574,7 +509,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>
@@ -650,8 +585,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -675,7 +608,7 @@ Jiang, L., & Patel, D. J. <br />
                 
 <a id="ref4"></a><font><strong>[4] Tobramycin affinity tag purification of spliceosomes.</strong></font><br />
 Hartmuth, K., Vornlocher, H. P., & Lührmann, R. <br />
-<a href="https://pubmed.ncbi.nlm.nih.gov/14769995/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 257, 47–64. (2004)</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/14769995/" target="_blank" style="color:#520049">Methods in molecular biology (Clifton, N.J.), 257, 47–64. (2004)</a>
 <br />
                 
 <a id="ref5"></a><font><strong>[5] Electrospray ionization of nucleic acid aptamer/small molecule complexes for screening aptamer selectivity.</strong></font><br />

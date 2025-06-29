@@ -1,80 +1,24 @@
 ---
-layout: post
-title:  "L-SUP-A-004 aptamer"
-date:   2024-05-15 00:00:00
+layout: theophylline_style
+title: L-SUP-A-004 aptamer
+date: 2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:60.24
+- GC:68.17999999999999
+- Length:44
+- Length:83
+- Named:Substance P_A11
+- Named:Substance P_SUP-A-004
+- Type:Small molecules
+- Year:2005
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
+
 
 <div class="side-nav">
 <ul>
@@ -88,35 +32,29 @@ categories: Aptamer
 
 
 
-<font><p class="header_box" id="description">Description</p></font>
-<font>In 2005, Sven Klussmann et al. screened RNA aptamers against mirror-image conformation (d-peptide) substance P and used this aptamer (SUP-A-004) to bind naturally-occurring l-substance P, showing a binding affinity (K(d)) of 40 nM and inhibiting l-substance P-mediated Ca2+ release in cell culture experiments with an inhibitory concentration (IC50) of 45 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 2005, Sven Klussmann et al. screened RNA aptamers against mirror-image conformation (d-peptide) substance P and used this aptamer (SUP-A-004) to bind naturally-occurring l-substance P, showing a binding affinity (K(d)) of 40 nM and inhibiting l-substance P-mediated Ca2+ release in cell culture experiments with an inhibitory concentration (IC50) of 45 nM<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>Sven Klussmann et al. use a single-stranded DNA library (ssDNA library) that contains about 10^15 different molecules. These molecules are enzymatically converted from the synthetic DNA library and transcribed into RNA for subsequent screening. The screening process uses the automated SELEEX (Systematic Evolution of Ligands by EXponential enrichment) technology. This technique allows the execution of in vitro screening cycles without direct human intervention. The initial three screening cycles were performed manually, and from the fourth cycle onwards, automated equipment was used. Throughout the screening process, RNA binds to the target molecule D-substance P. Unbound RNA is discarded, while bound RNA is amplified by PCR for the next round of screening. In total, about 14 rounds of screening were performed and 24 different sequences were obtained from the screening process. The final identified and frequent haptamer sequence was reduced to the 44 nucleotide long sequence SUP-A-004<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>Sven Klussmann et al. use a single-stranded DNA library (ssDNA library) that contains about 10^15 different molecules. These molecules are enzymatically converted from the synthetic DNA library and transcribed into RNA for subsequent screening. The screening process uses the automated SELEEX (Systematic Evolution of Ligands by EXponential enrichment) technology. This technique allows the execution of in vitro screening cycles without direct human intervention. The initial three screening cycles were performed manually, and from the fourth cycle onwards, automated equipment was used. Throughout the screening process, RNA binds to the target molecule D-substance P. Unbound RNA is discarded, while bound RNA is amplified by PCR for the next round of screening. In total, about 14 rounds of screening were performed and 24 different sequences were obtained from the screening process. The final identified and frequent haptamer sequence was reduced to the 44 nucleotide long sequence SUP-A-004<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
-<font>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used Isothermal Titration Calorimetry (ITC) to determine the affinity of L-SUP-A-004 aptamer and substance P. This method was used to determine the affinity of the two aptamers. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 40 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. L-SUP-A-004 aptamer binding to Substance P.<br></font>
-<font><p>5'-GGCGCAGGUGGGUAAAGGGGUGUGAUCGAGGGUCGAGAGGCGCC-3'</p></font>
-<img src="/images/2D/SubstanceP_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
+<p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition,The authors also used Isothermal Titration Calorimetry (ITC) to determine the affinity of L-SUP-A-004 aptamer and substance P. This method was used to determine the affinity of the two aptamers. By this method, the researchers were able to accurately determine the dissociation constant (Kd) between the two, which was determined to be 40 nM. The 2D structure of the figures is based on the prediction results of the RNA fold website by ribodraw tool to draw. We used the minimum free energy (MFE) structure. L-SUP-A-004 aptamer binding to Substance P.<br></p>
+<p>5'-GGCGCAGGUGGGUAAAGGGGUGUGAUCGAGGGUCGAGAGGCGCC-3'</p>
+<img src="/images/2D/L-SUP-A-004_aptamer_2D1.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
 
 <p class="blowheader_box">SELEX ligand</p>
 <font>Substance P is a neuropeptide consisting of 11-amino acids. It preferentially activates neurokinin-1 receptors, exterting excitatory effects on central and peripheral neurons and involved in pain transmission. It has a role as a neurotransmitter, a vasodilator agent and a neurokinin-1 receptor agonist. It is a conjugate base of a substance P(3+).-----From ChEBI.</font>
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -147,8 +85,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Similar compound</p>                    
-<font><p>We used the PubChem database to screen compounds that were more similar to Substance P,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<p>We used the PubChem database to screen compounds that were more similar to Substance P,  and selected the most similar compounds for display. For those without CAS numbers, we will supplement them with Pubchem CID.</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(1)">Named</th>
@@ -196,8 +134,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -217,7 +153,7 @@ Eulberg D, Buchner K, Maasch C, Klussmann S<br/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -259,8 +195,7 @@ Eulberg D, Buchner K, Maasch C, Klussmann S<br/>
         customData:{
         url:'/pdbfiles/1RAW-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');

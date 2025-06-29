@@ -108,20 +108,7 @@
     overflow-y: auto;
 }
 
-.search-result-item {
-    padding: 15px 20px;
-    border-bottom: 1px solid #f0f0f0;
-    cursor: pointer;
-    transition: background 0.2s ease;
-}
 
-.search-result-item:hover {
-    background: #f8f9fa;
-}
-
-.search-result-item:last-child {
-    border-bottom: none;
-}
 
 .search-result-title {
     font-size: 16px;
@@ -682,6 +669,16 @@ mark {
     height: 70px;
     margin-bottom: 25px;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.resource-icon:hover {
+    transform: scale(1.1);
 }
 
 .resource-title {

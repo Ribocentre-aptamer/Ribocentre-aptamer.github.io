@@ -21,11 +21,11 @@ const DataModule = {
             if (responseData.Sheet1 && Array.isArray(responseData.Sheet1)) {
                 // 如果数据在 Sheet1 键下
                 processedData = responseData.Sheet1;
-                console.log('从 Sheet1 字段读取数据');
+                console.log('Reading data from Sheet1 field');
             } else if (Array.isArray(responseData)) {
                 // 如果直接是数组
                 processedData = responseData;
-                console.log('直接从响应中读取数组数据');
+                console.log('Reading array data directly from response');
             } else {
                 // 尝试其他可能的数据格式
                 const possibleArrayField = Object.keys(responseData).find(
@@ -34,15 +34,15 @@ const DataModule = {
                 
                 if (possibleArrayField) {
                     processedData = responseData[possibleArrayField];
-                    console.log(`从 ${possibleArrayField} 字段读取数据`);
+                    console.log(`Reading data from ${possibleArrayField} field`);
                 } else {
-                    console.warn('未找到有效的数据数组，使用空数组');
+                    console.warn('No valid data array found, using empty array');
                     processedData = [];
                 }
             }
             
             // 确保数据中的字段兼容性，处理类型和大小写差异
-            processedData = processedData.map(item => {
+            processedData = processedData.map((item, index) => {
                 // 确保基本字段存在
                 const processedItem = { ...item };
                 
@@ -81,13 +81,36 @@ const DataModule = {
                     processedItem.affinity = processedItem.Affinity;
                 }
                 
+                // 处理 name 字段 - 尝试多种可能的字段名
+                if (!processedItem.name) {
+                    if (processedItem.Name) {
+                        processedItem.name = processedItem.Name;
+                    } else if (processedItem['Sequence Name']) {
+                        processedItem.name = processedItem['Sequence Name'];
+                    } else if (processedItem.sequence_name) {
+                        processedItem.name = processedItem.sequence_name;
+                    } else if (processedItem['序列名称']) {
+                        processedItem.name = processedItem['序列名称'];
+                    } else if (processedItem.aptamer_name) {
+                        processedItem.name = processedItem.aptamer_name;
+                    } else if (processedItem['Aptamer Name']) {
+                        processedItem.name = processedItem['Aptamer Name'];
+                    } else if (processedItem.ligand) {
+                        // 如果没有名称字段，使用配体名称作为后备
+                        processedItem.name = processedItem.ligand;
+                    } else {
+                        // 最后的后备：使用索引号
+                        processedItem.name = `Aptamer ${index + 1}`;
+                    }
+                }
+                
                 return processedItem;
             });
             
             originalData = processedData;
             filteredData = [...processedData];
             
-            console.log('数据加载成功，共', processedData.length, '条记录');
+            console.log('Data loaded successfully, total', processedData.length, 'records');
             
             this.updateStatistics();
             ChartModule.createAllCharts();
@@ -95,7 +118,7 @@ const DataModule = {
             FilterModule.updateFilterTags();
             TableModule.updateDataTable();
         } catch (error) {
-            console.error('数据加载失败:', error);
+            console.error('Data loading failed:', error);
             // 显示错误信息给用户
             this.showLoadingError(error.message);
         }
@@ -116,9 +139,9 @@ const DataModule = {
                 text-align: center;
             `;
             errorDiv.innerHTML = `
-                <h4>数据加载失败</h4>
-                <p>无法加载适配体数据。请检查网络连接或联系管理员。</p>
-                <small>错误详情: ${errorMessage}</small>
+                <h4>Data Loading Failed</h4>
+                <p>Unable to load aptamer data. Please check your network connection or contact the administrator.</p>
+                <small>Error details: ${errorMessage}</small>
             `;
             container.insertBefore(errorDiv, container.firstChild);
         }
@@ -128,12 +151,12 @@ const DataModule = {
     updateStatistics() {
         // 确保数据已加载
         if (!originalData || originalData.length === 0) {
-            console.warn('原始数据未加载或为空');
+            console.warn('Original data not loaded or empty');
             return;
         }
         
         if (!filteredData) {
-            console.warn('筛选数据未初始化');
+            console.warn('Filtered data not initialized');
             return;
         }
         
@@ -157,9 +180,9 @@ const DataModule = {
         if (yearSpanEl) {
             if (years.length > 0) {
                 const yearSpan = Math.max(...years) - Math.min(...years);
-                yearSpanEl.textContent = yearSpan + '年';
+                                    yearSpanEl.textContent = yearSpan + ' years';
             } else {
-                yearSpanEl.textContent = '0年';
+                yearSpanEl.textContent = '0 years';
             }
         }
         
@@ -267,7 +290,12 @@ const ChartModule = {
             hovertemplate: '<b>Year: %{x}</b><br>' + 
                           'Count: %{y}<br>' +
                           'Click for multi-select filter<extra></extra>',
-            hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight }
+            hoverlabel: { 
+                bgcolor: 'white', 
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' },
+                align: 'left'
+            }
         };
         
         const layout = {
@@ -362,12 +390,12 @@ const ChartModule = {
         
         // 如果可视化数据源为空，显示提示
         if (dataForVisualization.length === 0) {
-            console.warn('可视化数据源为空，显示空状态');
+                            console.warn('Visualization data source is empty, showing empty state');
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
                 margin: { l: 20, r: 20, t: 20, b: 20 },
                 annotations: [{
-                    text: '筛选中... 请尝试其他筛选条件',
+                    text: 'Filtering... Please try other filter criteria',
                     xref: 'paper',
                     yref: 'paper',
                     x: 0.5,
@@ -388,12 +416,12 @@ const ChartModule = {
         
         // 如果筛选后没有数据，显示错误
         if (displayCategories.length === 0) {
-            console.warn('筛选后没有类别数据，显示空状态');
+            console.warn('No category data after filtering, showing empty state');
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
                 margin: { l: 20, r: 20, t: 20, b: 20 },
                 annotations: [{
-                    text: '没有匹配的类别数据',
+                    text: 'No matching category data',
                     xref: 'paper',
                     yref: 'paper',
                     x: 0.5,
@@ -438,9 +466,14 @@ const ChartModule = {
             },
             textinfo: 'percent',
             textfont: { size: 11, color: 'white' },
-            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>' + 
-                          'Click for multi-select filter<extra></extra>',
-            hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight },
+            hoverinfo: 'label+value+percent',
+            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
+            hoverlabel: { 
+                bgcolor: 'white', 
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' },
+                align: 'left'
+            },
             opacity: displayCategories.map((category, i) => {
                 if (hasCategoryFilter && !isFiltered[i]) {
                     return 0.6; // 未选中的区间半透明
@@ -453,13 +486,28 @@ const ChartModule = {
             ...chartLayoutBase,
             margin: { l: 20, r: 20, t: 20, b: 20 },
             showlegend: false,
+            hovermode: 'closest',
             title: hasAnyFilter ? {
                 // text: nodeFrozenState.ligandChart ? '类别分布 (已冻结)' : '类别分布 (已筛选)',
                 font: { size: 14, color: '#520049' }
             } : null
         };
         
-        Plotly.newPlot('ligandChart', [trace], layout, chartConfig);
+        // 为饼图使用专用配置，确保使用Plotly原生tooltip
+        const pieChartConfig = {
+            ...chartConfig,
+            displayModeBar: false,
+            responsive: true,
+            // 禁用自定义tooltip
+            modeBarButtonsToRemove: ['toImage', 'sendDataToCloud'],
+            // 使用原生悬停
+            interaction: {
+                mode: 'hover',
+                intersect: true
+            }
+        };
+        
+        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
         
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;
@@ -602,12 +650,17 @@ const ChartModule = {
                 }
             },
             hovertemplate: '<b>%{text}</b><br>Length: %{x} bp<br>GC Content: %{y}%<br>Year: %{customdata[0]}<br>Category: %{customdata[1]}<extra></extra>',
-            text: dataForVisualization.map(d => d.name),
+            hoverlabel: {
+                bgcolor: 'white', 
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' },
+                align: 'left'
+            },
+            text: dataForVisualization.map((d, i) => d.name || d.ligand || `Entry ${i + 1}`),
             customdata: dataForVisualization.map(d => [
                 d.year,
                 d.category
-            ]),
-            hoverlabel: { bgcolor: 'white', bordercolor: morandiHighlight }
+            ])
         };
         
         const hasAnyFilter = nodeInteractionOrder.length > 0;
@@ -1160,10 +1213,24 @@ const TableModule = {
         tableInfo.textContent = `Showing ${filteredData.length} records (out of ${originalData.length} total)`;
         tableBody.innerHTML = '';
 
-        // 辅助函数：序列着色
+        // 辅助函数：处理空值，统一显示为 N/A（与导出逻辑保持一致）
+        const handleEmptyValue = (value) => {
+            if (value === null || value === undefined || value === '' || 
+                value === 'null' || value === 'NULL' || 
+                value === 'na' || value === 'NA' || value === 'N/A' ||
+                value === 'nan' || value === 'NaN' || value === 'NAN' ||
+                (typeof value === 'string' && value.trim() === '')) {
+                return 'N/A';
+            }
+            return value;
+        };
+
+        // 辅助函数：序列着色（与导出逻辑保持一致）
         const colorizeSequence = (seq) => {
+            const processedSeq = handleEmptyValue(seq);
+            if (processedSeq === 'N/A') return 'N/A';
             const colorMap = { 'A': '#d9534f', 'T': '#f0ad4e', 'U': '#f0ad4e', 'C': '#5bc0de', 'G': '#5cb85c' };
-            return (seq || '').split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
+            return processedSeq.split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
         };
 
         // 辅助函数：tooltip - 使用clientX/clientY坐标，支持智能定位
@@ -1172,11 +1239,11 @@ const TableModule = {
             cell.style.cursor = 'pointer';
             
             cell.addEventListener('mouseenter', (e) => {
-                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY);
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
             });
             cell.addEventListener('mousemove', (e) => {
                 // 实时跟随鼠标移动
-                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY);
+                if (typeof showAmirTooltip === 'function') showAmirTooltip(htmlContent, e.clientX, e.clientY, e);
             });
             cell.addEventListener('mouseleave', () => {
                 if (typeof hideAmirTooltip === 'function') hideAmirTooltip();
@@ -1187,76 +1254,94 @@ const TableModule = {
             const row = document.createElement('tr');
             row.style.whiteSpace = 'nowrap';
 
-            // 1. Aptamer name - 使用Article name字段
-            // 获取aptamer名称，优先使用Article name
-            let nameHTML = item['Article name'] || '';
-            // 如果有链接，创建超链接
-            if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
-                nameHTML = `<a href="${item.Linker}" target="_blank">${item['Article name'] || ''}</a>`;
+            // 1. Sequence Name - 使用 Named 字段，构造到sequence界面的链接
+            const processedSeqName = handleEmptyValue(item['Named']);
+            let seqNameHTML = processedSeqName;
+            if (processedSeqName !== 'N/A') {
+                // 构造到sequences页面的链接，使用Named作为搜索查询
+                const searchQuery = encodeURIComponent(processedSeqName);
+                seqNameHTML = `<a href="/sequences/?search=${searchQuery}" target="_blank">${processedSeqName}</a>`;
             }
 
-            // 2. Ligand - 使用Ligand字段，限制最多显示2个单词
-            const ligandFull = item.Ligand || '';
-            // 截取前两个单词作为简短显示
-            const ligandWords = ligandFull.split(' ');
-            const ligandShort = ligandWords.length > 2 
-                ? ligandWords.slice(0, 2).join(' ') + '...' 
-                : ligandFull;
+            // 2. Aptamer Name - 使用 Linker name(page name) 字段，使用Linker的链接（与导出逻辑保持一致）
+            let processedAptamerName = handleEmptyValue(item['Linker name(page name)']);
+            
+            // 特殊处理：根据sequence name确定正确的aptamer name（与导出逻辑保持一致）
+            const seqName = handleEmptyValue(item['Named']);
+            if (seqName !== 'N/A' && processedAptamerName !== 'N/A') {
+                // 检查是否是合并的aptamer（包含逗号）
+                if (processedAptamerName.includes(',')) {
+                    // 从sequence name中提取对应的aptamer部分
+                    if (seqName.includes('CB-42')) {
+                        processedAptamerName = 'CB-42 aptamer';
+                    } else if (seqName.includes('B4-25')) {
+                        processedAptamerName = 'B4-25 aptamer';
+                    } else if (seqName.includes('Ribostamycin')) {
+                        processedAptamerName = 'Ribostamycin aptamer';
+                    } else if (seqName.includes('Paromomycin')) {
+                        processedAptamerName = 'Paromomycin aptamer';
+                    }
+                    // 可以在这里添加更多特殊情况的处理
+                }
+            }
+            
+            let aptamerNameHTML = processedAptamerName;
+            const processedLinker = handleEmptyValue(item.Linker);
+            if (processedLinker !== 'N/A' && processedAptamerName !== 'N/A') {
+                // 确保链接以斜杠开头
+                let linkerUrl = processedLinker;
+                if (!linkerUrl.startsWith('/')) {
+                    linkerUrl = '/' + linkerUrl;
+                }
+                aptamerNameHTML = `<a href="${linkerUrl}" target="_blank">${processedAptamerName}</a>`;
+            }
 
-            // 3. Year - 使用Year字段
-            // 获取年份信息，如果有PubMed链接则创建超链接
-            let yearHTML = `${item.Year || ''}`;
-            if (item['Link to PubMed Entry'] && item['Link to PubMed Entry'].trim() !== '' && item['Link to PubMed Entry'] !== 'null') {
-                yearHTML = `<a href="${item['Link to PubMed Entry']}" target="_blank">${item.Year || ''}</a>`;
+            // 3. Discovery Year - 显示为PubMed链接
+            const processedYear = handleEmptyValue(item.Year);
+            const pubmedLink = handleEmptyValue(item['Link to PubMed Entry']);
+            let yearHTML = processedYear;
+            
+            if (processedYear !== 'N/A' && pubmedLink !== 'N/A') {
+                yearHTML = `<a href="${pubmedLink}" target="_blank" style="color: #520049; text-decoration: none;">${processedYear}</a>`;
             }
 
             // 4. Category - 使用Category字段
-            const categoryHTML = item.Category || '';
+            const categoryHTML = handleEmptyValue(item.Category);
 
-            // 5. CAS - 使用CAS字段，限制最多显示前20个字符
-            const casFullHTML = item['CAS'] || '';
-            // 截取前20个字符作为简短显示
-            const casHTML = casFullHTML.length > 20
-                ? casFullHTML.substring(0, 20) + '...'
-                : casFullHTML;
-
-            // 6. Affinity - 使用Affinity字段，只显示第一个逗号前的内容
-            const affinityFull = item.Affinity || '';
-            // 截取第一个逗号前的内容
-            const affinityHTML = affinityFull.split(',')[0].trim();
-
-            // 7. Sequence (5'-3') - 使用Sequence字段
+            // 5. Sequence (5'-3') - 使用Sequence字段（与导出逻辑保持一致）
             // 获取序列信息，只显示前10个字符，鼠标悬停时显示完整彩色序列
-            const sequence = item.Sequence || '';
-            const seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
+            const sequence = handleEmptyValue(item.Sequence);
+            let seqShort = sequence;
+            if (sequence !== 'N/A') {
+                seqShort = sequence.substring(0, 10) + (sequence.length > 10 ? '...' : '');
+            }
             const seqFullColored = colorizeSequence(sequence);
 
-            // 8. Description - 使用Ligand Description字段
+            // 6. Description - 使用Ligand Description字段（与导出逻辑保持一致）
             // 获取描述信息，截取前20个字符作为简短显示
-            const descFull = item['Ligand Description'] || '';
-            const descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;
+            const descFull = handleEmptyValue(item['Ligand Description']);
+            let descShort = descFull;
+            if (descFull !== 'N/A') {
+                descShort = descFull.length > 20 ? descFull.substring(0, 20) + '...' : descFull;
+            }
 
             // 构建表格行HTML
             row.innerHTML = `
                 <td>${index + 1}</td>
-                <td>${nameHTML}</td>
-                <td>${ligandShort}</td>
+                <td>${seqNameHTML}</td>
+                <td>${aptamerNameHTML}</td>
                 <td>${yearHTML}</td>
                 <td>${categoryHTML}</td>
-                <td>${casHTML}</td>
-                <td>${affinityHTML}</td>
                 <td>${seqShort}</td>
                 <td>${descShort}</td>
             `;
             tableBody.appendChild(row);
 
-            // 为各字段添加tooltip，鼠标悬停时显示完整内容
+            // 为各字段添加tooltip，鼠标悬停时显示完整内容（与导出逻辑保持一致）
             const cells = row.querySelectorAll('td');
-            addTooltip(cells[2], ligandFull); // ligand完整内容
-            addTooltip(cells[5], casFullHTML); // CAS完整内容
-            addTooltip(cells[6], affinityFull); // Affinity完整内容
-            addTooltip(cells[7], seqFullColored); // 序列完整彩色内容
-            addTooltip(cells[8], descFull); // 描述完整内容
+            // 只有当内容不是 'N/A' 时才添加 tooltip
+            if (sequence !== 'N/A') addTooltip(cells[5], seqFullColored); // 序列完整彩色内容
+            if (descFull !== 'N/A') addTooltip(cells[6], descFull); // 描述完整内容
         });
     }
 };

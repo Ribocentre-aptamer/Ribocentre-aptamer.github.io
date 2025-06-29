@@ -1,147 +1,38 @@
 ---
-layout: post
-title:  "eIF4A aptamer"
-date:   2024-04-9 00:00:00
+layout: theophylline_style
+title: eIF4A aptamer
+date: 2024-04-09 00:00:00
 author: Zhijie Tan, Qiaozhen Liu
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:46.150000000000006
+- GC:53.0
+- GC:53.410000000000004
+- GC:55.67999999999999
+- GC:56.82000000000001
+- Length:58
+- Length:78
+- Length:88
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#1
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#11
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#20
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_#30
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_APT58 aptamer
+- Named:Eukaryotic translation initiation factor 4A (eIF4A)_no.21
+- Type:Proteins
+- Year:2003
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-        .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
-
-<div class="side-nav">
-<ul>
-    <div class="side-nav-item"><li><a href="#description" style="color: #000000;">Description</a></li></div>
-    <div class="side-nav-item"><li><a href="#SELEX" style="color: #000000;">SELEX</a></li></div>
-    <div class="side-nav-item"><li><a href="#Structure" style="color: #000000;">Structure</a></li></div>
-    <div class="side-nav-item"><li><a href="#ligand-recognition" style="color: #000000;">Ligand information</a></li></div>
-    <div class="side-nav-item"><li><a href="#references" style="color: #000000;">References</a></li></div>
-    </ul>
-</div>
 
          
 <p class="header_box" id="description">Description</p>
 <p>In 2003, Nakamura, Y. et al. generated the RNA aptamers 4Apt with high affinity for human eIF4A by SELEX, then confirming the secondary structure. Afterwards, in 2005, Nakamura, Y. et al. determined the solution structure of two essential nucleotide loops (AUCGCA and ACAUAGA) within the aptamer 4Apt using nuclear magnetic resonance (NMR) spectroscopy, and proposed that the AUCGCA loop is directly involved in the interaction with eIF4A<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2003, high-affinity RNA aptamers for eIF4A were generated via in vitro RNA selection by Nakamura, Y. et al. These RNAs possess different binding affinities for eIF4A, with dissociation constants ranging from 10 nM to 10 μM.. Representative RNA sequences selected from randomized RNA libraries using different selection procedures. In selection I(+) and I(−), RNAs were selected from N40 pool in the presence and absence of ATP, respectively, via affinity precipitation with Ni-NTA agarose. Selection II and III used N40 and N30 pools, respectively, and RNAs were selected in the absence of ATP via nitrocellulose membrane trapping<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2003, high-affinity RNA aptamers for eIF4A were generated via in vitro RNA selection by Nakamura, Y. et al. These RNAs possess different binding affinities for eIF4A, with dissociation constants ranging from 10 nM to 10 μM.. Representative RNA sequences selected from randomized RNA libraries using different selection procedures. In selection I(+) and I(−), RNAs were selected from N40 pool in the presence and absence of ATP, respectively, via affinity precipitation with Ni-NTA agarose. Selection II and III used N40 and N30 pools, respectively, and RNAs were selected in the absence of ATP via nitrocellulose membrane trapping<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>   
 
 
@@ -160,7 +51,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>Nakamura, Y. et al. determined the solution structure of two essential nucleotide loops (AUCGCA and ACAUAGA) within the aptamer APT58 aptamer using NMR spectroscopy, suggesting that the C7 and C9 of the AUCGCA loop directly interact with eIF4A. Due to the lack of complex structure of 4Apt aptamer and eIF4A. In the AUCGCA loop, C7 and C9 are marked for the directly interacted bases, while ACCGCA loop forms a similar conformation to U-turn motif and that the U-turn like conformation could be important for eIF4A binding without directly interacted bases<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/eIF4A_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -173,7 +64,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -203,9 +94,17 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
             }
           #myViewer1{
             float:left;
-            width:500px;
-            height: 500px;
+            width:500px !important;
+            height: 500px !important;
             position:relative;
+            min-width: 500px;
+            min-height: 500px;
+          }
+          
+          /* 确保Molstar插件不受外部样式影响 */
+          .msp-plugin {
+            width: 500px !important;
+            height: 500px !important;
           }
         </style>
     </head>
@@ -230,11 +129,19 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
   start_residue_number:7, 
   end_residue_number:7, 
   color:{r:241,g:125,b:7}
-},{
+},
+{
+struct_asym_id: 'C',
+start_residue_number:8,
+end_residue_number:8,
+color:{r:133,g:39,b:181}
+},
+{
   struct_asym_id: 'C', 
   start_residue_number:5, 
   end_residue_number:6, 
   color:{r:133,g:39,b:181}
+},
 {
   struct_asym_id: 'C', 
   start_residue_number:9, 
@@ -282,8 +189,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         customData:{
         url:'/pdbfiles/elF4A-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -303,7 +209,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Due to the lack of complex structure of APT58 aptamer and eIF4A. Through experiments, it is proved that C7 and C9 are related to the binding of eIF4A. Left: The aptamer in the tertiary structure, it's labeled C7, C9 in orange. Right: eIF4A (shown in vacuumm electrostatics), blue is positive charge, red is negative charge.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/eIF4A_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -320,7 +226,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <p> The apparent dissociation constant of recombinant eIF4A for some selected RNAs was assessed by a nitrocellulose retention assay in the absence of ATP. The formation of RNA no.21 complexes on the surface-coupled eIF4A was also monitored in the absence of ATP in real time with a BIACORE 2000 instrument based on the surface plasmon resonance (SPR) technique<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -373,7 +279,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -391,8 +297,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td2">44.70kDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">SEGITDIEESQIQTNYDKVVYKFDDMELDENLLRGVFGYGFEEPSAIQQRAIMPIIEGHDVLAQAQSGTGKTGTFSIAALQRIDTSVKAPQALMLAPTRELALQIQKVVMALAFHMDIKVHACIGGTSFVEDAEGLRDAQIVVGTPGRVFDNIQRRRFRTDKIKMFILDEADEMLSSGFKEQIYQIFTLLPPTTQVVLLSATMPNDVLEVTTKFMRNPVRILVKKDELTLEGIKQFYVNVEEEEYKYECLTDLYDSISVTQAVIFCNTRRKVEELTTKLRNDKFTVSAIYSDLPQQERDTIMKEFRSGSSRILISTDLLARGIDVQQVSLVINYDLPANKENYIHRIGRGGRFGRKGVAINFVTNEDVGAMRELEKFYSTQIEELPSDIATLLN</span>
         </div>
         </td>
@@ -401,7 +306,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/eIF4A_stru_ligand.svg" alt="drawing" style="width:800px;height:300px;"  px="" /></td>
 </tr>
 </table>
@@ -419,7 +324,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -491,8 +396,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
@@ -506,7 +409,7 @@ Oguro, A., Ohtsu, T., Svitkin, YV., Sonenberg, N., & Nakamura, Y.<br />
 Sakamoto, T., Oguro, A., Kawai, G., Ohtsu, T., & Nakamura, Y.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/15687383/" target="_blank" style="color:#520049">Nucleic Acids Research, 33(2):745-54. (2005)</a>
 <br />
-</html>
+
 
 
 <script>
@@ -528,7 +431,7 @@ Sakamoto, T., Oguro, A., Kawai, G., Ohtsu, T., & Nakamura, Y.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

@@ -9,7 +9,7 @@
 	.st3{font-size:16px;}
 	.st4{font-size:16.8283px;}
 	.st5{font-size:10.3559px;}
-	.st6{fill:none;stroke:#000000;stroke-width:0.9089;stroke-miterlimit:3.8476;}
+	.st6{font-size:24px;}
 </style>
 <polygon points="64.3,66.8 89.7,52.3 90.1,52.9 90.5,53.6 65.1,68.1 64.7,67.4 "/>
 <g>
@@ -89,15 +89,11 @@
 <polygon points="571.9,134.7 571.9,172 571.2,172.4 570.4,172.9 570.4,134.7 571.2,134.3 "/>
 <polygon points="571.9,172 604.2,190.6 604.2,191.5 603.5,192 570.4,172.9 571.2,172.4 "/>
 <polygon points="604.2,190.6 629.3,176.2 629.7,176.8 630.1,177.5 605,192 604.2,191.5 "/>
-<text transform="matrix(1 0 0 1 631.2031 177.0684)" class="st0 st4">N</text>
-<text transform="matrix(1 0 0 1 643.3555 177.0684)" class="st0 st4">H</text>
-<text transform="matrix(1 0 0 1 655.5098 179.6572)" class="st0 st5">3</text>
+<text transform="matrix(1 0 0 1 631.2031 177.0684)" class="st0 st4">NH</text>
+<text transform="matrix(0.583 0 0 0.583 655.5088 182.6719)" class="st0 st4">3</text>
+<text transform="matrix(0.583 0 0 0.583 660.9653 169.0762)" class="st0 st6">+</text>
 <polygon points="605,192 605,221.2 604.2,221.2 603.5,221.2 603.5,192 604.2,191.5 "/>
-<text transform="matrix(1 0 0 1 598.1621 236.4902)" class="st0 st4">C</text>
-<text transform="matrix(1 0 0 1 610.3145 236.4902)" class="st0 st4">O</text>
-<text transform="matrix(1 0 0 1 623.4043 236.4902)" class="st0 st4">O</text>
-<line class="st6" x1="642.9" y1="163.6" x2="649.2" y2="163.6"/>
-<line class="st6" x1="646.1" y1="160.5" x2="646.1" y2="166.8"/>
-<line class="st6" x1="609.8" y1="218" x2="616.2" y2="218"/>
+<text transform="matrix(1 0 0 1 598.1621 236.4902)" class="st0 st4">COO</text>
+<text transform="matrix(0.583 0 0 0.583 636.4941 228.498)" class="st0 st6">-</text>
 <text transform="matrix(1 0 0 1 524.9551 275.7055)" class="st0 st3">pAF: 3600 nM</text>
 </svg>

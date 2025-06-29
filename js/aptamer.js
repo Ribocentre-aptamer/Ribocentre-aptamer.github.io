@@ -31,10 +31,18 @@ async function loadData() {
             console.log('Pie chart could not be rendered, but this will not affect other functionality');
         }
         
-        // 加载表格数据
-        const tablesResponse = await fetch('/apidata/aptamer-tables-data.json');
-        tablesData = await tablesResponse.json();
-        renderTables();
+        // // 加载表格数据（旧版功能，仅在文件存在时才加载）
+        // try {
+        //     const tablesResponse = await fetch('/apidata/aptamer-tables-data.json');
+        //     if (tablesResponse.ok) {
+        //         tablesData = await tablesResponse.json();
+        //         renderTables();
+        //     } else {
+        //         console.log('Legacy tables data file not found, skipping legacy table rendering');
+        //     }
+        // } catch (tableErr) {
+        //     console.log('Legacy tables data load skipped:', tableErr.message);
+        // }
         
         console.log('Aptamer data loaded successfully');
     } catch (error) {
@@ -68,15 +76,12 @@ function renderPieChart() {
     Plotly.newPlot('pie-chart', data, layout);
 }
 
-// 渲染表格列表
+// 渲染表格列表 - DEPRECATED: Now using dynamic table generator
 function renderTableLists() {
-    if (!tableListsData) return;
-    
-    // 渲染有3D结构的表格
-    renderTable('with3DStructure', 'table', tableListsData.with3DStructure);
-    
-    // 渲染无3D结构的表格
-    renderTable('without3DStructure', 'table2', tableListsData.without3DStructure);
+    // This function is deprecated as tables are now generated dynamically
+    // via aptamer-table-generator.js. Keeping for backward compatibility.
+    console.log('Legacy table rendering function called - now using dynamic generation');
+    return;
 }
 
 // 渲染单个表格

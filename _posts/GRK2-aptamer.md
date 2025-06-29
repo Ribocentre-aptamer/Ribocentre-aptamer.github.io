@@ -1,125 +1,31 @@
 ---
-layout: post
-title:  "GRK2 aptamer"
-date:   2024-04-19 00:00:00
+layout: theophylline_style
+title: GRK2 aptamer
+date: 2024-04-19 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:50.0
+- GC:57.89
+- GC:58.81999999999999
+- Length:18
+- Length:20
+- Length:28
+- Length:51
+- Length:57
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.18 aptamer
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.20 aptamer
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.28 aptamer
+- Named:G-protein-coupled receptor kinase 2 (GRK2)_C13.51
+- Type:Proteins
+- Year:2008
+- Year:2012
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-     h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -135,15 +41,11 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2008, Blind, M. et al. employed the SELEX (systematic evolution of ligands by exponential enrichment) strategy to develop RNA aptamers capable of potent and selective inhibition of GRK2. This endeavour resulted in the identification of an aptamer, designated C13, which demonstrated a high affinity for binding to GRK2. Subsequently, in 2012, Tesmer, J. J. elucidated the crystallographic structures of GRK2 in complex with an RNA aptamer that potently and selectively inhibits the kinase activity. These findings have significantly contributed to the understanding of the molecular interactions between GRK2 and its RNA-based inhibitors<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>In 2008, Blind, M. et al. used a structurally constrained RNA library in vitro selection. They followed a different approach and designed a RNA library that has a stable stem structure 13 nucleotides (nt) in length, flanked by two restriction sites (5′-Pst1 and a 3′-HindII) and additional primer binding sites that allow reverse transcription and PCR amplification. The region comprising 20 random nucleotides resides as loop structure on top of the stem motif. After 12 selection cycles the enriched RNA library was analyzed for GRK2 binding. The enriched RNA library was cloned and the sequences of 18 monoclones were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>In 2008, Blind, M. et al. used a structurally constrained RNA library in vitro selection. They followed a different approach and designed a RNA library that has a stable stem structure 13 nucleotides (nt) in length, flanked by two restriction sites (5′-Pst1 and a 3′-HindII) and additional primer binding sites that allow reverse transcription and PCR amplification. The region comprising 20 random nucleotides resides as loop structure on top of the stem motif. After 12 selection cycles the enriched RNA library was analyzed for GRK2 binding. The enriched RNA library was cloned and the sequences of 18 monoclones were determined<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<p>
 <br>    
 
 
@@ -151,8 +53,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
 <p>C13.18 and C13.28 are truncated sequences of the aptamer C13, which was originally enriched and isolated for its high affinity. The orange represents the bases that interact with the protein, while the grey indicates parts of the 3D structure that remain unresolved. Here we use ribodraw to complete the figure, through the 3D structure information<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
-<p>C13.18 aptamer: 5'-GGCAGACCAUACGGGAGAGAAACUUGCC-3'<br>C13.28 aptamer: 5'-CCAUACGGGAGAGAAACU-3'</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<p>C13.18 aptamer: </p>
+<p>5'-CCAUACGGGAGAGAAACU-3'</p>
+<p>C13.28 aptamer: </p>
+<p>5'-GGCAGACCAUACGGGAGAGAAACUUGCC-3'<br></p>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/2D/GRK2_aptamer_2D1.svg" alt="drawing" style="width:500px;height:400px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -167,7 +72,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p>Mayer, G., & Tesmer, J. J. determined the crystal structure of C13.18 aptamer bound to the GRK2 protein at 3.51 Å resolution and C13.28 aptamer bound to the GRK2 protein at 4.52 Å resolution. The PDB ID of the two aptamers are 3UZT and 3UZS<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>. Only the structure of 3ZUS is shown here.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/GRK2_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -180,7 +85,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -286,8 +191,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         customData:{
         url:'/pdbfiles/3uzs-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -307,7 +211,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 3UZS at 4.52 Å resolution. The GRK2 protein (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with the GRK2 protein. Hydrogen bonds was predicted by Pymol.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/GRK2_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -325,7 +229,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="blowheader_box">SELEX ligand</p>
 <p>Used a flow cytometry-based protein-RNA interaction assay. Biotinylated GRK2 (bGRK2) was first immobilized on streptavidin beads and incubated with increasing amounts of 5'Alexa Fluor-488-labeled C13.28 (F-C13.28) or C13.18 (F-C13.18). The beads were then passed through a flow cytometer and the amount of bead-bound fluorescence was quantitated to yield a dissociation constant (Kd)<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -366,7 +270,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -384,8 +288,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         <td name="td2">79.66 KDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">MADLEAVLADVSYLMAMEKSKATPAARASKKILLPEPSIRSVMQKYLEDRGEVTFEKIFSQKLGYLLFRDFCLKHLEEAKPLVEFYEEIKKYEKLETEEERLVCSREIFDTYIMKELLACSHPFSKSAIEHVQGHLVKKQVPPDLFQPYIEEICQNLRGDVFQKFIESDKFTRFCQWKNVELNIHLTMNDFSVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKMKQGETLALNERIMLSLVSTGDCPFIVCMSYAFHTPDKLSFILDLMNGGDLHYHLSQHGVFSEADMRFYAAEIILGLEHMHNRFVVYRDLKPANILLDEHGHVRISDLGLACDFSKKKPHASVGTHGYMAPEVLQKGVAYDSSADWFSLGCMLFKLLRGHSPFRQHKTKDKHEIDRMTLTMAVELPDSFSPELRSLLEGLLQRDVNRRLGCLGRGAQEVKESPFFRSLDWQMVFLQKYPPPLIPPRGEVNAADAFDIGSFDEEDTKGIKLLDSDQELYRNFPLTISERWQQEVAETVFDTINAETDRLEARKKTKNKQLGHEEDYALGKDCIMHGYMSKMGNPFLTQWQRRYFYLFPNRLEWRGEGEAPQSLLTMEEIQSVEETQIKERKCLLLKIRGGKQFVLQCDSDPELVQWKKELRDAYREAQQLVQRVPKMKNKPRSPVVELSKVPLIQRGSANGL</span>
         </div>
       </td>
@@ -394,7 +297,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/GRK2_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -409,7 +312,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -481,8 +384,6 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
                  
@@ -523,7 +424,7 @@ Tesmer J. J.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

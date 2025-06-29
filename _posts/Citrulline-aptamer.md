@@ -1,92 +1,22 @@
 ---
-layout: post
-title:  "Citrulline aptamer"
-date:   2024-04-09 00:00:00
+layout: theophylline_style
+title: Citrulline aptamer
+date: 2024-04-09 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer
+tags:
+- Category:Amino Acids & Peptides
+- GC:52.27
+- GC:54.0
+- Length:33
+- Length:44
+- Named:Citrulline_44.Cit11
+- Named:Citrulline_L-citrulline aptamer
+- Type:Small molecules
+- Year:1994
+type: Small molecules
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -157,16 +87,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1994, Famulok, M. employed in vitro selection techniques to isolate aptamers with high-affinity binding sites for L-Citrulline. Subsequently, following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The capability to shift binding specificity from L-citrulline to L-arginine was demonstrated. In 1996, Famulok, M. et al. elucidated the structure of the aptamer complexed with L-Citrulline and L-arginine using multidimensional nuclear magnetic resonance spectroscopy and molecular dynamics calculations<sup>[<a href="#ref1" style="color:#520049">1</a>,<a href="#ref4" style="color:#520049">4</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>The SELEX began with an initial RNA pool consisting of approximately 10<sup>15</sup> different RNA molecules.This pool was subjected to in vitro selection targeting specific binding to L-citrulline. RNA molecules that demonstrated affinity for L-citrulline were isolated using an epoxy-activated Sepharose 6B agarose column, to which L-citrulline was coupled. After seven cycles, the selected RNA pool was cloned and sequenced. Sequencing of 21 aptamers from this pool revealed 19 different sequences, with two sequences appearing twice, indicating a convergence towards certain sequence motifs that have higher affinity for L-citrulline. Following the selection for L-citrulline, one of the citrulline-binding sequences (Clone 16) was used to generate a mutated pool for further selection. The pool was mutated at a rate of 30% per base position to introduce diversity and potential for adaptation to new targets. This mutated pool was then used in subsequent selection cycles aimed at isolating RNA aptamers with binding specificity for L-arginine. After four cycles, 22 sequences derived from the L-arginine pool were analyzed. Of these, 11 sequences were found to potentially fold into a motif slightly different from the L-citrulline-binding motif but were highly specific to L-arginine<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+<p>
 
 
 
@@ -174,7 +100,7 @@ categories: Aptamer
 <p class="blowheader_box">2D representation</p>
 <p>Here we used ribodraw to complete the figure, through the 3D structure information. The L-citrulline aptamer aptamer was named by Famulok, M. in the article<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <p>5'-CAGUGAGGAAGAGAAAGCUCGCUGGAUUGGCUG-3'</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <img src="/images/2D/Citrulline_aptamer_2D.svg" alt="drawing" style="width:800px;height:400px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -184,7 +110,7 @@ categories: Aptamer
 <p>The solution structures of the L-citrulline and L-arginine RNA aptamers complexed with their respective ligands were determined by Famulok, M. et al. through multidimensional NMR spectroscopy. The PDB ID of this structure is 1KOD<sup>[<a href="#ref4" style="color:#520049" >4</a>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Citrulline_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -197,7 +123,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -237,7 +163,7 @@ categories: Aptamer
         <div class="controlsSection1">
             <button onclick="
               var selectSections1 = [
-                {
+{
   struct_asym_id: 'A', 
   start_residue_number:5, 
   end_residue_number:12, 
@@ -285,10 +211,11 @@ categories: Aptamer
   color:{r:8,g:69,b:149}
 },
 {
-  struct_asym_id: 'C', 
+  struct_asym_id: 'B', 
   start_residue_number:1, 
   end_residue_number:1, 
   color:{r:255,g:0,b:255}
+}
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
@@ -303,8 +230,7 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/1KOD-3D-CIR.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -326,7 +252,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1KOD by NMR. Citrulline (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with Citrulline.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Citrulline_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -343,7 +269,7 @@ categories: Aptamer
 <p class="header_box" id="ligand-recognition">Ligand information</p>
 <p class="blowheader_box">SELEX ligand</p>
 <p>Famulok, M. determined the dissociation constants Kd for L-citrulline RNA conjugates and L-arginine RNA conjugates in solution. The methods used for this purpose are isocratic elution chromatography and equilibrium gel filtration, which allow for a comprehensive assessment of the stability and affinity of the interactions under a variety of experimental conditions. These methods allow a robust assessment of the binding affinity dynamics of RNA with L-citrulline and L-arginine in different environments. The affinity of Citrulline RNA aptamer for L-Citrulline is 68 μM, and the rest demonstrates the affinity of Arginine RNA aptamer<sup>[<a href="#ref1" style="color:#520049" >1</a>]</sup>.</p>
-<!--table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<!--table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(2)">Aptamer</th>
@@ -401,7 +327,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 <p class="dot-paragraph"><b><a href="https://go.drugbank.com/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Drugbank</b></a>:</b> a comprehensive database with detailed information on drugs and drug targets.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">PubChem CID</th>
@@ -423,7 +349,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Citrulline_stru_ligand1.svg" alt="drawing" style="width:400px"  px="" /></td>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Citrulline_stru_ligand2.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
@@ -439,7 +365,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b>PubChem CID:</b> a unique identifier for substances in the <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>PubChem database</b></a>.</p>
 <p class="dot-paragraph"><b><a href="https://commonchemistry.cas.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>CAS</b></a> number:</b> a global registry number for chemical substances.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">ZINC ID</th>
@@ -480,13 +406,11 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>
                 
-<a id="ref1"></a><font><strong>[1] Molecular Recognition of Amino Acids by RNA-Aptamers: An L-Citrulline Binding RNA Motif and Its Evolution into an L-Arginine Binder.</strong></font><br />
+<a id="ref1"></a><font><strong>[1] Molecular Recognition of Amino Acids by RNA aptamers: An L-Citrulline Binding RNA Motif and Its Evolution into an L-Arginine Binder.</strong></font><br />
 Michael Famulok<br />
 <a href="https://pubs.acs.org/doi/10.1021/ja00084a010" target="_blank" style="color:#520049" >Journal of the American Chemical Society 1994 116 (5), 1698-1706 (1994)</a>
 <br />

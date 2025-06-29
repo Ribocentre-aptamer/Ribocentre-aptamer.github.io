@@ -1,80 +1,19 @@
 ---
-layout: post
-title:  "LR06(GA) aptamer"
-date:   2024-04-5 00:00:00
+layout: theophylline_style
+title: LR06(GA) aptamer
+date: 2024-04-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:RNA
+- GC:68.0
+- Length:16
+- Named:HIV-1 TAR RNA_LR06(GA) aptamer
+- Type:Nucleic acids
+- Year:2007
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 24px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:170px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -190,24 +129,19 @@ categories: Aptamer
 </div>
 
 
-         
-<font ><p class="header_box" id="description">Description</p></font>
-<font >In 1999, Ducongé F et al. used in vitro selecting techniques to isolate aptamers with high affinity binding TAR RNA sites. This 59-nt imperfect stem-loop is at the 5' end of HIV-1 transcriptIn. In 2007, Lebars I et al. used NMR systems and molecular dynamics methods to determine the structure of the complex formed by the LNA-modified aptamer and TAR RNA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a>]</sup>.<br></font>
-<br>
-<br>
+<p class="header_box" id="description">Description</p>
+<p>In 1999, Ducongé F et al. used in vitro selecting techniques to isolate aptamers with high affinity binding TAR RNA sites. This 59-nt imperfect stem-loop is at the 5' end of HIV-1 transcriptIn. In 2007, Lebars I et al. used NMR systems and molecular dynamics methods to determine the structure of the complex formed by the LNA-modified aptamer and TAR RNA<sup>[<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
-<p>The in vitro selection experiment designed by Ducongé F and colleagues in 1999 mainly consisted of RNA pool ampplification and subsequent selection processes. RNAs were obtained by in vitro transcription of the PCR-amplified library with T7 RNA polymerase. The aptamer with high affinity was selected by eight rounds and the washing times were increased in the sixth to eighth rounds<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<br>
-Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
+<p>The in vitro selection experiment designed by Ducongé F and colleagues in 1999 mainly consisted of RNA pool ampplification and subsequent selection processes. RNAs were obtained by in vitro transcription of the PCR-amplified library with T7 RNA polymerase. The aptamer with high affinity was selected by eight rounds and the washing times were increased in the sixth to eighth rounds<sup>[<a href="#ref2" style="color:#520049">2</a>]</sup>.<p>
 <br>
 
 
 <p class="header_box" id="Structure">Structure</p>
 <p class="blowheader_box">2D representation</p>
-<font><p>Here we used ribodraw to complete the figure, through the 3D structure information. LR06(GA) was the aptamer sequence mainly studied in the article where structural selecting is performed<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p></font>
-<font><p>5'-CACGGUCCCAGACGUG-3'</p></font>
+<p>Here we used ribodraw to complete the figure, through the 3D structure information. LR06(GA) was the aptamer sequence mainly studied in the article where structural selecting is performed<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
+<p>5'-CACGGUCCCAGACGUG-3'</p>
 <img src="/images/2D/LR06_aptamer_2D.svg" alt="drawing" style="width:800px;height:375px;display:block;margin:0 auto;border-radius:0;" class="img-responsive">
 <div style="display: flex; justify-content: center;"></div>
 
@@ -215,8 +149,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 <p class="blowheader_box">3D visualisation</p>             
 <font >Lebars I and colleagues present the solution structure of TAR/LR06(GA) complex, as determined by heteronuclear NMR spectroscopy and molecular dynamics calculations. Structures were calculated using CNS (cristallography and NMR system) torsion angle molecular dynamics (TAMD) protocol for nucleic acids using NOE and dihedral angle restraints. In the figure, the TAR RNA sequence is labeled in forest, the LR06(GA) sequence is labeled in cyan, and the interacting bases in the two sequences are labeled in magenta. The PDB ID of this structure is 2OOM<sup>[<a href="#ref10" style="color:#520049" >10</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</font>
-<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></font>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<div ><font ><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/LR06_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -229,7 +163,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -319,8 +253,7 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
         customData:{
         url:'/pdbfiles/2OOM-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -335,13 +268,13 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 </td>
 </tr>
 </table>
-</div>
+
 
 
 <p class="blowheader_box">Binding pocket</p>             
 <font >Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 2OOM by NMR. TAR RNA (shown in surface) is labeled in gray. Right: The hydrogen bonds of binding sites of the aptamer bound with TAR RNA.</font>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/LR06(GA)_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -357,12 +290,12 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 
-<font ><p class="header_box" id="ligand-recognition">Ligand information</p></font>  
+<font ><p class="header_box" id="ligand-recognition">Ligand information</p>  
   
 <p class="blowheader_box">SELEX ligand</p>
 <p>Lebars I and colleagues characterized the loop-loop complexes using thermal denaturation experiments monitored by UV spectroscopy. Subsequently, they determined the affinity between LR06(GA) and TAR RNA by SPR method. At the same time, the affinity between the LNA-modified aptamer and TAR RNA was also determined. These methods were employed to comprehensively assess the stability and affinity of different aptamers interaction under different experimental conditions, allowing for a robust evaluation of the binding affinity and dynamics between RNA aptamer and TAR RNA in varied environments<sup>[<a href="#ref10" style="color:#520049">10</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -396,8 +329,8 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
 
 
 <p class="blowheader_box">Structure ligand</p>
-<font><p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.-----From Rfam</p></font>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<p>The HIV trans-activation response (TAR) element is an RNA element which is known to be required for the trans-activation of the viral promoter and for virus replication. The TAR hairpin is a dynamic structure that acts as a binding site for the Tat protein, and this interaction stimulates the activity of the long terminal repeat promoter.-----From Rfam</p>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Mirbase ID</th>
@@ -417,13 +350,11 @@ Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}
       </tr>
 	  </tbody>
   </table>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/LR06_stru_ligand.svg" alt="drawing" style="width:400px"  px="" /></td>
 </tr>
 </table>
 <div style="display: flex; justify-content: center;"></div>
-<br>
-<br>
 
 
 
@@ -449,7 +380,7 @@ Darfeuille, F., Sekkai, D., Dausse, E., Kolb, G., Yurchenko, L., Boiziau, C., & 
 <a href="https://pubmed.ncbi.nlm.nih.gov/12052182/" target="_blank" style="color:#520049">Comb Chem High Throughput Screen, 5(4), 313-25. (2002)</a>
 <br />
                 
-<a id="ref5"></a><font><strong>[5] Molecular dynamics reveals the stabilizing role of loop closing residues in kissing interactions: comparison between TAR-TAR* and TAR-aptamer.</strong></font><br />
+<a id="ref5"></a><font><strong>[5] Molecular dynamics reveals the stabilizing role of loop closing residues in kissing interactions: comparison between TAR-TAR* and TAR aptamer.</strong></font><br />
 Beaurain, F., Di Primo, C., Toulmé, J. J., & Laguerre, M.<br />
 <a href="https://pubmed.ncbi.nlm.nih.gov/12853646/" target="_blank" style="color:#520049">Nucleic Acids Res, 31(14), 4275-84. (2003)</a>
 <br />

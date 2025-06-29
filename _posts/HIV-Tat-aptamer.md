@@ -1,125 +1,20 @@
 ---
-layout: post
-title:  "HIV Tat aptamer"
-date:   2024-04-20 00:00:00
+layout: theophylline_style
+title: HIV Tat aptamer
+date: 2024-04-20 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:64.0
+- Length:34
+- Named:HIV Tat peptides_RNA Tat aptamer
+- Type:Proteins
+- Year:2000
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
 
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -199,14 +94,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 2000, Kumar, P. K. et al. used an in vitro selection approach to isolate a novel aptamer, Tat RNA aptamer, consisting of a 37-mer RNA oligomer, exhibiting high-affinity binding to the Tat protein of HIV-1. In this study, they explored various characteristics of the RNA aptamer. The RNA aptamer maintained significant binding affinity to Tat even under conditions of a substantial excess of HIV TAR, indicating its potential utility as a molecular recognition element in biosensors. In 2003, Katahira, M. et al determined the structure of the aptamer complexed with argininamide, the simplest analog of Tat, has been determined by NMR. Unique structural features responsible for the high affinity have been found: the formation of two adjacent U:A:U base triples, the resultant widening of the major groove, the formation of hydrogen bonds between a G base and argininamide, and the stabilization of the binding through stacking interaction of a guanidinium group with bases<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2000, Kumar, P. K. et al. conducted a study involving a series of selection cycles. Initially, a binding buffer containing 5.0 mM RNA and 0.5 mM Tat protein was used to facilitate the first cycle of selection. Subsequent cycles involved varying the RNA pool concentrations and conducting competition assays with both nonspecific RNA (E. coli tRNA) and specific competitor RNA (TAR RNA). Additionally, from cycles 7 to 11, competition with another specific pool of competitor RNAs (the 12-18N pool) was introduced. The final two cycles featured a significant reduction in the concentration of Tat protein. The binding buffer consisted of 50 mM Tris-HCl (pH 7.8) and 50 mM KCl. Pre-filtering through a nitrocellulose acetate filter was performed to eliminate RNAs that selectively bound to the filter. After each cycle, the Tat-RNA complexes were collected on a filter and eluted using a solution of sodium acetate, EDTA, and urea. Reverse transcription and PCR amplification were then carried out following elution. Mutagenic PCR was employed during cycles 9 to 11. Following the 11th cycle, the PCR products were ligated into the pCRII vector. Individual clones were subsequently sequenced for analysis<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
+<p>
 <br>
 <br>  
 
@@ -225,7 +118,7 @@ categories: Aptamer
 <p>Kumar, P. K., & Katahira, M. et al. determined  the Aptamer-Argininamide Complex structure by NMR. Unique structural features responsible for the high affinity have been found: the formation of two adjacent U:A:U base triples, the resultant widening of the major groove, the formation of hydrogen bonds between a G base and argininamide, and the stabilization of the binding through stacking interaction of a guanidinium group with bases. Structural characterization of the aptamer complexed with the RG peptide has also been carried out. Simultaneous interactions of the aptamer with two arginine residues of the RG peptide at two binding sites are strongly suggested. A combination of structural studies on the aptamer-argininamide and aptamer-RG peptide complexes provides a comprehensive explanation of the extremely high affinity of the aptamer to Tat<sup>[<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.</p>
 <p>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Tat_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -238,7 +131,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -358,8 +251,7 @@ categories: Aptamer
         customData:{
         url:'/pdbfiles/1NBK-3D.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -379,7 +271,7 @@ categories: Aptamer
 
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1NBK. Argininamide (shown in sticks) is labeled in magenta. Right: The hydrogen bonds of binding sites of the aptamer bound with the argininamide. HIV-1 Tat peptides is a cell penetrating peptide rich in arginine.</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Tat_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -396,7 +288,7 @@ categories: Aptamer
 <p class="blowheader_box">SELEX ligand</p>
 <p>The affinity was determined by Gel-shift binding assay. Kumar, P. K. et al performed gel-shift assays at four concentrations of RNA with varying concentrations of CQ (0.1-64 nM).The TAR-1-CQ and aptamer-CQ complexes were resolved on nondenaturing gels and estimated the amount of each complexformed. The equilibrium  dissociation  constants  were calculated by nonlinear regression to fit the saturation radiolabelled  ligand-binding isotherm. CQ and Tat-1 protein have similar binding affinity for TAR RNA, used CQ instead of Tat-1 in binding kinetics experiments  mainly to avoidproblems with possible denaturation of Tat-1 protein during expression and purification. CQ: Tat-1-derived peptids (amino acid residues 37-72)<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
 <div style="display: flex; justify-content: center;">
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -431,7 +323,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(6)">Name</th>
@@ -451,8 +343,7 @@ categories: Aptamer
         <td name="td2">9.8 KDa</td>
         <td name="td3">
         <div class="sequence-container">
-          <span class="sequence-text">GGPYLQ</span>
-          <span class="show-more" onclick="toggleSequence(event)">......</span>
+
           <span class="full-sequence">MEPVDPRLEPWKHPGSQPKTACTNCYCKKCCFHCQVCFITKALGISYGRKKRRQRRRAHQNSQTHQASLSKQPTSQPRGDPTGPKE</span>
         </div>
       </td>
@@ -461,7 +352,7 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px"><img src="/images/Structure_ligand/Tat_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
 </table>
@@ -476,7 +367,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -542,8 +433,6 @@ categories: Aptamer
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
 
 
@@ -606,7 +495,7 @@ Eladl, O., Yamaoki, Y., Kondo, K., Nagata, T., & Katahira, M.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

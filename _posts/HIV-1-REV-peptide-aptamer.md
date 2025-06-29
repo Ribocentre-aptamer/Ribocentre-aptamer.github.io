@@ -1,98 +1,19 @@
 ---
-layout: post
-title:  "HIV-1 REV peptide apatmer"
-date:   2024-04-8 00:00:00
+layout: theophylline_style
+title: HIV-1 REV peptide aptamer
+date: 2024-04-08 00:00:00
 author: Zhizhong Lu, Ziyu Guo
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:56.99999999999999
+- Length:35
+- Named:HIV-1 REV peptide_35-mer HIV rev RNA aptamer
+- Type:Proteins
+- Year:1994
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
- .header_box {
-    display: block;
-    font-size: 20px;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -178,16 +99,12 @@ categories: Aptamer
          
 <p class="header_box" id="description">Description</p>
 <p>In 1993, A D Ellington. et al. RNA molecules that can bind to the Rev protein of HIV-1 have been isolated from random sequence nucleic acid pools based on a minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE). In 1994, Tuerk C. et al. produced small RNA ligands with high affinity for HIV-1 Rev protein by SELEX in vitro evolution method for a series of chemical modification studies. In 1996, Dinshaw J. Patel et al. combined NMR molecular dynamics method have been applied to determine the solution structure of the HIV-1 17-mer rev peptide binding to its 35-mer high affinity RNA aptamer binding site<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>,<a href="#ref3" style="color:#520049">3</a></sup><sup>]</sup>.<br></p>
-<br>
-<br>
 
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 1993, A D Ellington. et al. designed random sequence library to construct 76.6 pool. Sequencing selected clones PCR DNA (1 μg) was isolated following round 4 of the 76.6 pool selection and selected Rev aptamers (binding sequences; 29) from RBE pools containing limited (10-18 nt) random sequence tracts. In 1994, Tuerk C. et al. produced small RNA ligands with high affinity for HIV-1 Rev protein by SELEX in vitro evolution method for a series of chemical modification studies<sup>[<a href="#ref1" style="color:#520049">1</a></sup><sup>,<a href="#ref2" style="color:#520049">2</a></sup><sup>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+<p>
 
 
 
@@ -202,7 +119,7 @@ categories: Aptamer
 <p class="blowheader_box">3D visualisation</p>             
 <p>Dinshaw J. Patel et al. determined the solution structure of the 35-mer high-affinity RNA aptamer binding site of HIV-1 17-mer rev peptide by NMR molecular dynamics. Complex formation involves adaptive binding with the alpha-helical arginine-rich basic rev peptide targeting a widened RNA major groove centred about adjacent G.A and reversed A.A mismatches. The PDB ID of this structure is 1ULL<sup>[<a href="#ref3" style="color:#520049">3</a>]</sup>.<br>Additional available structures that have been solved and detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/structures" target="_blank" style="color:#520049"><b><i>Structures</i></b></a> page.</p>
 <div><p style="text-align:right;margin-bottom: 0px;">(Clicking the "Settings/Controls info" to turn Spin off)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/3D/Rev_RNA_aptamer_3D1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -215,7 +132,7 @@ categories: Aptamer
       <title>PDBe Molstar</title>
       <!-- Molstar CSS & JS -->
       <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/pdbe-molstar-plugin.js"></script>
+      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
         <style>
           * {
               margin: 0;
@@ -341,8 +258,7 @@ color:{r:133,g:39,b:181}
         customData:{
         url:'/pdbfiles/1ull.pdb',
         format: 'pdb'},
-        expanded: false,
-        hideControls: true,
+        hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
         bgColor: {r:255, g:255, b:255},
         }
       var viewerContainer1 = document.getElementById('myViewer1');
@@ -363,7 +279,7 @@ color:{r:133,g:39,b:181}
 <p class="blowheader_box">Binding pocket</p>             
 <p>Left: Surface representation of the binding pocket of the aptamer generated from PDB ID: 1ULL by NMR. HIV-1 REV peptide (shown in vacuumm electrostatics), blue is positive charge, red is negative charge. Right: The hydrogen bonds of binding sites of the aptamer bound with HIV-1 REV peptide.</p>
 <br><br>
-  <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+  <table class="table table-bordered" style="table-layout:fixed;width:1200px;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
   <img src="/images/Binding_pocket/Rev_RNA_aptamer_binding_pocket1.svg" alt="drawing" style="width:500px;margin-top: 0px;margin-bottom: 0px;" >
   </td>
@@ -385,7 +301,7 @@ color:{r:133,g:39,b:181}
 <br><br>
 <div style="display: flex; justify-content: center;">
 <br>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -401,6 +317,12 @@ color:{r:133,g:39,b:181}
         <td name="td3">HIV-1 REV peptide</td>
         <td name="td4">1 nM</td>
       </tr>
+      <tr>
+        <td name="td0">35-mer HIV-1 rev RNA aptamer</td>
+        <td name="td1">5'-GGCUGGACUCGUACUUCGGUACUGGAGAAACAGCC-3'</td>
+        <td name="td3">HIV-1 REV peptide</td>
+        <td name="td4">NA</td>
+      </tr>
 	  </tbody>
   </table>
   </div>
@@ -414,7 +336,7 @@ color:{r:133,g:39,b:181}
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Uniprot ID</th>
@@ -436,7 +358,7 @@ color:{r:133,g:39,b:181}
       </tr>
 	  </tbody>
   </table>
- <table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;"><tr>
+ <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
 <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">
 <img src="/images/Structure_ligand/Rev_aptamer_stru_ligand1.svg" alt="drawing" style="width:800px"  px="" /></td>
 </tr>
@@ -448,11 +370,11 @@ color:{r:133,g:39,b:181}
 <p>We used the <a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a> to compare the structural similarities of ligand proteins, and chose the top 10 in terms of similarity for presentation. The Dali server is a network service for comparing protein structures in 3D. Dali compares them against those in the Protein Data Bank (PDB). The TM-score is a metric used to assess the similarity between two protein structures, providing a quantitative measure of their structural alignment, with higher scores indicating greater similarity. RMSD(Root Mean Square Deviation) value is used to measure the degree to which atoms deviate from the alignment position.</p>
 
 <p class="dot-paragraph"><a href="http://ekhidna2.biocenter.helsinki.fi/dali/#:~:text=The%20Dali%20server%20is%20a%20network%20service%20for%20comparing%20protein" target="_blank" style="color:#520049; text-decoration: underline;"><b>Dail server website</b></a>: a network service for comparing protein structures in 3D. Dali compares them against those in the <a href="https://www.rcsb.org/" target="_blank" style="color:#520049; text-decoration: underline;"><b>Protein Data Bank</b></a> (PDB).</p>
-<p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Standard_score" target="_blank" style="color:#520049; text-decoration: underline;"><b>Z-score</b></a>:</b> a standard score that is converted from an original score. The list of neighbours is sorted by Z-score. Similarities with a Z-score lower than 2 are spurious.</p>
+<p class="dot-paragraph"><b><a href="https://zhanggroup.org/TM-align/" target="_blank" style="color:#520049; text-decoration: underline;"><b>TM-score</b></a>:</b> a metric used to assess the similarity between two protein structures, providing a quantitative measure of their structural alignment, with higher scores indicating greater similarity.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(1)">PDB</th>
@@ -464,7 +386,7 @@ color:{r:133,g:39,b:181}
     <tbody>
       <tr>
         <td name="td1">1O53</td>
-        <td name="td2">0.371</td>
+        <td name="td2">0.471</td>
         <td name="td3">0.49</td>
         <td name="td4">Solution structure of the N-terminal membrane anchor of E. coli enzyme IIA(Glucose)</td>
       </tr>
@@ -488,13 +410,13 @@ color:{r:133,g:39,b:181}
       </tr>
       <tr>
         <td name="td1">2LD2</td>
-        <td name="td2">0.358</td>
+        <td name="td2">0.338</td>
         <td name="td3">0.89</td>
         <td name="td4">Solution structure of the N-terminal domain of huntingtin (htt17) in presence of DPC micelles</td>
       </tr>
       <tr>
         <td name="td1">1OMQ</td>
-        <td name="td2">0.366</td>
+        <td name="td2">0.316</td>
         <td name="td3">1.1</td>
         <td name="td4">Structure of penetratin in bicellar solution</td>
       </tr>
@@ -506,13 +428,13 @@ color:{r:133,g:39,b:181}
       </tr>
       <tr>
         <td name="td1">3N93-E</td>
-        <td name="td2">0.03</td>
+        <td name="td2">0.25</td>
         <td name="td3">1.62</td>
         <td name="td4">Crystal structure of human CRFR2 alpha extracellular domain in complex with Urocortin 3</td>
       </tr>
       <tr>
         <td name="td1">1DNG</td>
-        <td name="td2">0.442</td>
+        <td name="td2">0.24</td>
         <td name="td3">1.68</td>
         <td name="td4">NMR structure of a model hydrophilic amphipathic helical acidic peptide</td>
       </tr>
@@ -524,8 +446,6 @@ color:{r:133,g:39,b:181}
       </tr>
 	  </tbody>
   </table>
-<br>
-<br>
 
                  
 <p class="header_box" id="references">References</p>

@@ -1,131 +1,30 @@
 ---
-layout: post
-title:  "HCV NS5BΔC55 aptamer"
-date:   2024-05-05 00:00:00
+layout: theophylline_style
+title: HCV NS5BΔC55 aptamer
+date: 2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer
+tags:
+- Category:Viral
+- GC:59.78
+- GC:65.22
+- GC:67.39
+- GC:70.59
+- Length:34
+- Length:92
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  A.2
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.2
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.2 SLII
+- Named:Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein_aptamer
+  B.3
+- Type:Proteins
+- Year:2002
+type: Proteins
 ---
 <html>
-<head>
-  <style>
-    /* 按钮容器样式 */
-    .button-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 50px;
-    }
-    /* 按钮样式 */
-    .button {
-      display: block;
-      padding: 10px;
-      font-size:24px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #ffffff;
-      color: #520049;
-      text-decoration: none;
-      border: 1px solid #520049;
-      border-radius: 5px;
-    }
-    /* 鼠标悬停样式 */
-    .button:hover {
-      background-color: #c9c5c5;
-      cursor: pointer;
-    }
-    h1, .h1 {
-    font-size: 30px;
-}
-  </style>
-</head>
-</html>
-
-<html lang="zh-cn">
-<head>
-<meta charset="utf-8"> 
-<style>
-  .header_box {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 1px;
-    width: 500px;
-    border-width: 1px 1px 2px 1px;
-    border-color: #ffffff #ffffff #ffffff #ffffff;
-}
-.blowheader_box{
-    display: block;
-      padding: 6px;
-      font-size:20px;
-      margin-right: 10px;
-      text-align: center;
-      background-color: #efefef;
-      color: #000000;
-      text-decoration: none;
-      border: 1px solid #ffffff;
-      border-radius: 1px;
-      width:190px;
-      height:40px;
-  }
-  .box_style{
-    background: #ffffff;
-  }
-  blockquote {
-  margin: 0 0 0px;
-  }
-  .dot-paragraph::before {
-            content: "• "; /* 点号和空格 */
-            color: black; /* 设置点号颜色 */
-            font-size: 20px; /* 调整点号大小 */
-        }
-  .dot-paragraph {
-            margin: 5px 0; /* 调整带有点的段落的上下外边距 */
-            line-height: 1.2; /* 调整带有点的段落的行高 */
-        }
-  .sequence-container {
-      position: relative;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    .sequence-text {
-      display: inline-block;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .show-more {
-      display: inline-block;
-      color: #520049;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .full-sequence {
-      display: none;
-    }
-    .sequence-container.expanded .sequence-text {
-      display: none;
-    }
-    .sequence-container.expanded .full-sequence {
-      display: inline;
-    }
-    .sequence-container.collapsed .sequence-text {
-      white-space: normal;
-      display: inline-block;
-      max-width: 100%;
-    }
-    * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
-</style>
-</head>
-<br>
-<br>
 
 
 <div class="side-nav">
@@ -196,15 +95,11 @@ categories: Aptamer
 
 <p class="header_box" id="description">Description</p>
 <p>In 2002, Tomei, L. and colleagues isolated RNA aptamers that bind specifically to the HCV NS5B polymerase (HCV NS5BΔC55 protein). It is worth mentioning that the full-length purified enzyme has a very poor catalytic activity. Deletions of the C-terminal membrane localization signal have allowed the production of proteins with enhanced solubility and activity. Therefore, the NS5B protein lacking of the C-terminal 55 amino acids was used in this study<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<br>
-<br>
 
 
 <p class="header_box" id="SELEX">SELEX</p>
 <p>In 2002, Tomei, L. and colleagues selected a structurally constrained combinatorial RNA library by using the SELEX procedure to isolate high affinity RNA ligands for the HCV NS5B polymerase (HCV NS5BΔC55 protein). The library contained 35-nt random sequences in two segments of 25 and 10 nt, divided by a constant core sequence of 10 nt. This was in turn flanked by 18-nt constant regions at the 5' and 3' ends, respectively. Initially, the randomized RNA pool was challenged with streptavidin beads coated with biotinylated NS5BΔC55 protein (NS5BΔC55bio), and the complexed RNA was eluted, amplified (reverse transcription and PCR), and in vitro transcribed by using T7 RNA polymerase in the presence of a labeled nucleotide tracer. The products of transcription were used as an RNA pool for the next cycle of selection. At the fourth selection cycle, the RNA pool was roughly 140-fold enriched in the molecules with high binding affinity for NS5BΔC55bio. As already noticed, in the case of structurally constrained RNA libraries additional selection cycles failed to increase the amount of the selected RNA. Therefore, the PCR DNA from the fourth cycle was cloned, the nucleotide sequences of 15 individual clones were determined, and their structural motifs were analyzed. Based on the presence of common sequence motifs, the clones were grouped in three families<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<p>Detailed information are accessible on <a href="{{ site.url }}{{ site.baseurl }}/SELEX" target="_blank" style="color:#520049"><b><i>SELEX</i></b></a> page.</p>
-<br>
-<br>
+<p>
 
 
 <p class="header_box" id="Structure">Structure</p>
@@ -227,7 +122,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" style="color:#520049; text-decoration: underline;"><b>GenBank</b></a>:</b> maintained by <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="color:#520049; text-decoration: underline;"><b>NCBI</b></a>(National Center for Biotechnology Information), is a database of nucleotide sequences from various organisms, vital for genetic and molecular biology research.</p>
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Mass" target="_blank" style="color:#520049; text-decoration: underline;"><b>Mass</b></a>:</b> an intrinsic property of a body.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -259,7 +154,7 @@ categories: Aptamer
   </table>
 
 <p>Some isolated sequences bind to the affinity of the protein<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.</p>
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;" >
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;" >
   <thead>
       <tr>
         <th onclick="sortTable(0)">Name</th>
@@ -308,7 +203,7 @@ categories: Aptamer
 <p class="dot-paragraph"><b><a href="https://en.wikipedia.org/wiki/Root_mean_square_deviation" target="_blank" style="color:#520049; text-decoration: underline;"><b>RMSD</b></a>:</b> (Root Mean Square Deviation) is used to measure the degree to which atoms deviate from the alignment position.</p>
 <p class="dot-paragraph"><b>PDB:</b> PDB ID+ chain name.</p>
 
-<table class="table table-bordered" style="table-layout:fixed;width:1000px;margin-left:auto;margin-right:auto;">
+<table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;">
       <thead>
       <tr>
         <th onclick="sortTable(0)">PDB</th>
@@ -380,8 +275,6 @@ categories: Aptamer
     </tr>
     </tbody>
   </table>
-<br>
-<br>
                  
 <p class="header_box" id="references">References</p>
                 
@@ -436,7 +329,7 @@ Kim, T. H., & Lee, S. W.<br />
       const sequenceContainers = document.querySelectorAll('.sequence-container');
       sequenceContainers.forEach(container => {
         const fullSeqText = container.querySelector('.full-sequence').textContent;
-        const truncatedText = fullSeqText.slice(0, 50);  // 只显示前50个字符
+        const truncatedText = fullSeqText.slice(0, 20);  // 只显示前50个字符
         container.querySelector('.sequence-text').textContent = truncatedText;
       });
     });

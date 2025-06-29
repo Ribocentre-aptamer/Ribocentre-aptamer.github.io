@@ -16,7 +16,7 @@
     DataModule.loadData = async function () {
         try {
             const dataPath = window.DASHBOARD_CONFIG?.dataPath || './apidata/riboaptamer_merged.json';
-            console.log('正在加载数据:', dataPath);
+            console.log('Loading data:', dataPath);
             
             const response = await fetch(dataPath);
             if (!response.ok) {
@@ -24,7 +24,7 @@
             }
 
             const data = await response.json();
-            console.log('数据加载成功，正在处理...');
+            console.log('Data loaded successfully, processing...');
 
             // 将 Category 字段映射到 category (小写)，复用原有类别(饼图)逻辑
             data.forEach(d => {
@@ -47,7 +47,7 @@
             originalData = data;
             filteredData = [...data];
 
-            console.log('riboaptamer数据加载成功，共', data.length, '条记录');
+            console.log('Riboaptamer data loaded successfully, total', data.length, 'records');
 
             // 初始化各模块
             this.updateStatistics();
@@ -56,7 +56,7 @@
             FilterModule.updateFilterTags();
             TableModule.updateDataTable();
         } catch (error) {
-            console.error('荧光数据加载失败:', error);
+            console.error('Fluorescence data loading failed:', error);
             this.showLoadingError(error.message);
         }
     };

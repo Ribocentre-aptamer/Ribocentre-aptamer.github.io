@@ -200,7 +200,7 @@
     "posts": [
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {
@@ -538,7 +538,7 @@
       },
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {
@@ -596,7 +596,13 @@
       "title": "In vitro selection of aptamers that act with Zn2+",
       "journal": "Journal of inorganic biochemistry"
     },
-    "posts": []
+    "posts": [
+      {
+        "source_file": "_posts/Clone-31-aptamer.md",
+        "post_title": "Clone 31 aptamer",
+        "post_link": "/_posts/Clone-31-aptamer"
+      }
+    ]
   },
   {
     "pmid": "12737819",
@@ -7014,7 +7020,7 @@
     "posts": [
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {
@@ -7036,7 +7042,7 @@
     "posts": [
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       }
     ]
@@ -7053,7 +7059,7 @@
     "posts": [
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {
@@ -7075,7 +7081,7 @@
     "posts": [
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {
@@ -7097,7 +7103,7 @@
     "posts": [
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {
@@ -7119,7 +7125,7 @@
     "posts": [
       {
         "source_file": "_posts/HIV-1-REV-peptide-aptamer.md",
-        "post_title": "HIV-1 REV peptide apatmer",
+        "post_title": "HIV-1 REV peptide aptamer",
         "post_link": "/_posts/HIV-1-REV-peptide-aptamer"
       },
       {

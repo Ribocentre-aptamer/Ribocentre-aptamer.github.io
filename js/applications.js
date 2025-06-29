@@ -74,6 +74,11 @@ class ApplicationTableManager {
             // 添加aptamer风格的tooltip样式
             const style = document.createElement('style');
             style.textContent = `
+                /* CSS变量定义 */
+                :root {
+                    --primary-color: #520049;
+                }
+                
                 /* Aptamer风格tooltip样式 - 完全迁移 */
                 .amir-tooltip {
                     position: fixed;
@@ -145,6 +150,37 @@ class ApplicationTableManager {
                 .data-table-section .table a:active {
                     color: #520049 !important;
                     background-color: rgba(82, 0, 73, 0.2);
+                }
+
+                /* Publication页面表格样式 */
+                .table-style {
+                    width: 100%;
+                    margin: 20px 0;
+                    background: #fff;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                }
+                
+                .table-style th {
+                    background: var(--primary-color);
+                    color: #fff;
+                    padding: 12px;
+                    text-align: left;
+                    font-weight: 600;
+                }
+                
+                .table-style td {
+                    padding: 12px;
+                    border-bottom: 1px solid #e8e8e8;
+                }
+                
+                .table-style tbody tr:nth-child(even) {
+                    background: rgba(245,245,245,0.5);
+                }
+                
+                .table-style tbody tr:hover {
+                    background: rgba(82,0,73,0.05);
                 }
             `;
             document.head.appendChild(style);
@@ -240,7 +276,7 @@ class ApplicationTableManager {
             const data = await response.json();
             this.renderTable(config, data);
         } catch (error) {
-            console.error(`加载${config.jsonFile}失败:`, error);
+            console.error(`Failed to load ${config.jsonFile}:`, error);
         }
     }
 
@@ -255,11 +291,11 @@ class ApplicationTableManager {
         const excludeFields = ['Linker'];
         const allFields = data.length > 0 ? Object.keys(data[0]).filter(key => !excludeFields.includes(key)) : [];
 
-        // 创建表格HTML
+        // 创建表格HTML - 使用与publication页面相同的table-style类
         const html = `
             <div class="data-table-section">
                 <div style="display: flex; overflow: auto;">
-                    <table style="flex: 1;" class="table table-striped table-hover table-style1">
+                    <table style="flex: 1;" class="table table-striped table-hover table-style">
                         <thead>
                             <tr>
                                 ${allFields.map(field => `<th>${this.formatHeaderName(field)}</th>`).join('')}
@@ -289,7 +325,7 @@ class ApplicationTableManager {
             'Length': 'Length',
             'GC content': 'GC Content',
             'Affinity': 'Affinity',
-            'References': 'References',
+            'References': 'PMID',
             'Biomarkers': 'Biomarkers',
             'Cancer Type': 'Cancer Type',
             'Clinical sample': 'Clinical Sample',
@@ -312,50 +348,102 @@ class ApplicationTableManager {
 
     // 序列染色函数 - 完全迁移自aptamer dashboard
     colorizeSequence(seq) {
-        const colorMap = { 'A': '#d9534f', 'T': '#f0ad4e', 'U': '#f0ad4e', 'C': '#5bc0de', 'G': '#5cb85c' };
-        return (seq || '').split('').map(ch => `<span style="color:${colorMap[ch.toUpperCase()] || '#333'}">${ch}</span>`).join('');
+        if (!seq) return '';
+
+        // HTML 转义，避免注入
+        const escapeHtml = (text) => {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        };
+
+        // 核苷酸颜色映射
+        const colorMap = {
+            'A': '#d9534f', // 红色
+            'T': '#f0ad4e', // 橙色
+            'U': '#f0ad4e',
+            'C': '#5bc0de', // 蓝色
+            'G': '#5cb85c'  // 绿色
+        };
+
+        // 对单一序列进行颜色包裹
+        const wrapSequence = (sequence) => {
+            return sequence.split('').map(ch => {
+                const color = colorMap[ch.toUpperCase()] || '#ffffff';
+                return `<span style="color:${color}">${ch}</span>`;
+            }).join('');
+        };
+
+        // 处理文本，染色 5'-xxx-3' 之间的碱基序列
+        let escaped = escapeHtml(seq);
+
+        const regex = /(5[\'′]-)([A-Za-z]+)(-3[\'′])/g;
+        escaped = escaped.replace(regex, (match, prefix, sequence, suffix) => {
+            return `${prefix}${wrapSequence(sequence)}${suffix}`;
+        });
+
+        // 保留换行
+        escaped = escaped.replace(/\n/g, '<br/>');
+
+        return escaped;
     }
 
     formatCellData(item, field) {
         let value = item[field];
-        
+
+        // 若值为空、null、undefined 或字符串 'null'，统一显示为 "NA"
+        const isValueEmpty = (
+            value === null ||
+            value === undefined ||
+            (typeof value === 'string' && value.trim() === '') ||
+            value === 'null'
+        );
+
+        if (isValueEmpty) {
+            return 'NA';
+        }
+
         // 处理特殊字段
         switch (field) {
             case 'new Linker name':
             case 'New Linker name':
                 // 将linker链接赋值给name
                 if (item.Linker && item.Linker.trim() !== '' && item.Linker !== 'null') {
-                    return `<a href="${item.Linker}" target="_blank">${value || ''}</a>`;
+                    return `<a href="${item.Linker}" target="_blank">${value}</a>`;
                 }
-                return value || '';
+                return value;
                 
             case 'References':
-                if (value && value.trim() !== '') {
+                if (!isValueEmpty) {
                     const pubmedId = this.extractPubMedIdFromUrl(value);
-                    return `<a href="${value}" target="_blank">${pubmedId || 'Link'}</a>`;
+                    if (pubmedId) {
+                        const pubmedUrl = `https://pubmed.ncbi.nlm.nih.gov/${pubmedId}/`;
+                        return `<a href="${pubmedUrl}" target="_blank">${pubmedId}</a>`;
+                    }
+                    return value;
                 }
-                return '';
+                return 'NA';
                 
             case 'Sequence':
-                if (value && value.length > 20) {
-                    const shortValue = value.substring(0, 20) + '...';
+                if (value.length > 10) {
+                    const shortValue = value.substring(0, 10) + '...';
                     return `<span class="truncated-text" data-full-text="${this.escapeHtml(value)}" data-is-sequence="true">${shortValue}</span>`;
                 }
-                return value || '';
+                return value;
                 
             case 'GC content':
                 if (typeof value === 'number') {
                     return (value * 100).toFixed(1) + '%';
                 }
-                return value || '';
+                return value;
                 
             default:
                 // 处理长文本
-                if (typeof value === 'string' && value.length > 30) {
-                    const shortValue = value.substring(0, 30) + '...';
+                if (typeof value === 'string' && value.length > 10) {
+                    const shortValue = value.substring(0, 10) + '...';
                     return `<span class="truncated-text" data-full-text="${this.escapeHtml(value)}">${shortValue}</span>`;
                 }
-                return value || '';
+                return value;
         }
     }
 
@@ -419,7 +507,7 @@ class ApplicationTableManager {
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Applications页面加载完成，初始化表格...');
+    console.log('Applications page loaded, initializing table...');
     const tableManager = new ApplicationTableManager();
     tableManager.init();
 }); 
