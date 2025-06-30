@@ -1,199 +1,199 @@
-# Ribocentre-Aptamer 适配体数据库
+# Ribocentre-Aptamer Database
 
-> 专业的RNA适配体数据库和管理系统
+> Professional RNA Aptamer Database and Management System
 
-## 🌐 在线访问
-- **项目主页**: https://aptamer.ribocentre.org/
-- **GitHub仓库**: https://github.com/Ribocentre-aptamer/Ribocentre-aptamer.github.io
+## 🌐 Online Access
+- **Project Homepage**: https://aptamer.ribocentre.org/
+- **GitHub Repository**: https://github.com/Ribocentre-aptamer/Ribocentre-aptamer.github.io
 
-## 📋 项目概述
+## 📋 Project Overview
 
-Ribocentre-Aptamer 是一个综合性的RNA适配体数据库，提供：
-- **180个适配体**的详细信息（53个有3D结构 + 127个无3D结构）
-- **统一的数据管理系统**
-- **强大的搜索功能**
-- **可视化展示工具**
-- **完整的维护工具链**
+Ribocentre-Aptamer is a comprehensive RNA aptamer database that provides:
+- **Detailed information for 180 aptamers** (53 with 3D structures + 127 without 3D structures)
+- **Unified data management system**
+- **Powerful search functionality**
+- **Visualization tools**
+- **Complete maintenance toolkit**
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 维护人员
+### For Maintainers
 ```bash
-# 查看系统状态
+# Check system status
 python scripts/manage_aptamers.py stats
 
-# 添加新适配体
-python scripts/manage_aptamers.py add-3d "适配体名称" "链接" "分类"
+# Add new aptamer
+python scripts/manage_aptamers.py add-3d "Aptamer Name" "Link" "Category"
 
-# 验证数据
+# Validate data
 python scripts/manage_aptamers.py validate
 ```
 
-### 开发者
+### For Developers
 ```bash
-# 安装依赖
+# Install dependencies
 bundle install
 npm install
 
-# 本地运行
+# Run locally
 bundle exec jekyll serve
 ```
 
-## 📁 项目结构
+## 📁 Project Structure
 
 ```
-├── 📄 PROJECT_DOCUMENTATION.md    # 📖 项目完整文档
-├── 📁 doc/                        # 📚 技术文档目录
-│   ├── 📄 README.md               # 📋 文档导航
-│   └── 📄 *.txt                   # 📝 所有技术文档（避免Jekyll渲染）
-├── 📁 scripts/                    # 🔧 管理脚本目录
-│   ├── 📄 README.md               # 📋 脚本使用指南
-│   ├── 🐍 manage_aptamers.py      # 🎯 统一适配体管理
-│   └── 🔧 其他工具脚本...         # ⚡ 各种处理工具
-├── 📁 apidata/                    # 💾 数据文件
-├── 📁 _posts/                     # 📖 适配体详情页面
-└── 📁 其他Jekyll文件...           # 🌐 网站结构
+├── 📄 PROJECT_DOCUMENTATION.md    # 📖 Complete project documentation
+├── 📁 doc/                        # 📚 Technical documentation directory
+│   ├── 📄 README.md               # 📋 Documentation navigation
+│   └── 📄 *.txt                   # 📝 All technical docs (avoid Jekyll rendering)
+├── 📁 scripts/                    # 🔧 Management scripts directory
+│   ├── 📄 README.md               # 📋 Script usage guide
+│   ├── 🐍 manage_aptamers.py      # 🎯 Unified aptamer management
+│   └── 🔧 Other utility scripts...# ⚡ Various processing tools
+├── 📁 apidata/                    # 💾 Data files
+├── 📁 _posts/                     # 📖 Aptamer detail pages
+└── 📁 Other Jekyll files...       # 🌐 Website structure
 ```
 
-## 📖 文档系统
+## 📖 Documentation System
 
-### 📚 统一文档入口
-- **[📄 项目完整文档](PROJECT_DOCUMENTATION.md)** - 包含所有重要信息的综合文档
+### 📚 Unified Documentation Entry
+- **[📄 Complete Project Documentation](PROJECT_DOCUMENTATION.md)** - Comprehensive document with all important information
 
-### 📁 分类文档
-- **[🔧 技术文档目录](doc/README.md)** - 所有技术文档和开发指南  
-- **[⚡ 脚本使用指南](scripts/README.md)** - 完整的脚本工具说明
+### 📁 Categorized Documentation
+- **[🔧 Technical Documentation Directory](doc/README.md)** - All technical docs and development guides  
+- **[⚡ Script Usage Guide](scripts/README.md)** - Complete script tool documentation
 
-### 🔍 文档特色
-- ✅ **避免Jekyll渲染冲突** - 技术文档使用.txt格式
-- ✅ **完整保留内容** - 所有原始信息都已整理保存
-- ✅ **便于搜索维护** - 统一的README格式便于查找
-- ✅ **分类清晰** - 按功能和用途详细分类
+### 🔍 Documentation Features
+- ✅ **Avoid Jekyll rendering conflicts** - Technical docs use .txt format
+- ✅ **Complete content preservation** - All original information organized and preserved
+- ✅ **Easy search and maintenance** - Unified README format for easy navigation
+- ✅ **Clear categorization** - Detailed classification by function and purpose
 
-## 🛠️ 核心功能
+## 🛠️ Core Features
 
-### 🎯 统一数据管理
-- 支持有3D和无3D结构两种适配体类型
-- 15个分类系统自动管理
-- 命令行工具简化操作
-- 自动数据验证和备份
+### 🎯 Unified Data Management
+- Support for both 3D and non-3D structure aptamer types
+- Automatic management of 15 classification systems
+- Command-line tools for simplified operations
+- Automatic data validation and backup
 
-### 🔍 强大搜索系统
-- 模块化搜索架构
-- 多种搜索方式（基础、高级、主页）
-- 实时搜索建议
-- 关键词高亮
+### 🔍 Powerful Search System
+- Modular search architecture
+- Multiple search modes (basic, advanced, homepage)
+- Real-time search suggestions
+- Keyword highlighting
 
-### 📊 数据可视化
-- 交互式数据表格
-- 分子结构3D展示
-- 统计图表展示
-- 响应式设计
+### 📊 Data Visualization
+- Interactive data tables
+- 3D molecular structure display
+- Statistical chart visualization
+- Responsive design
 
-### ⚡ 性能优化
-- 资源压缩和缓存
-- 模块化加载
-- 移动端优化
+### ⚡ Performance Optimization
+- Resource compression and caching
+- Modular loading
+- Mobile optimization
 
-## 📈 系统架构
+## 📈 System Architecture
 
-### 🏗️ 技术栈
-- **前端**: Jekyll + SCSS + JavaScript (ES6+)
-- **可视化**: D3.js + Plotly.js + Molstar
-- **数据**: JSON + 静态文件
-- **部署**: GitHub Pages
+### 🏗️ Technology Stack
+- **Frontend**: Jekyll + SCSS + JavaScript (ES6+)
+- **Visualization**: D3.js + Plotly.js + Molstar
+- **Data**: JSON + Static files
+- **Deployment**: GitHub Pages
 
-### 🔄 数据流程
+### 🔄 Data Flow
 ```
-原始数据 → Python脚本处理 → JSON数据文件 → JavaScript渲染 → 用户界面
+Raw Data → Python Script Processing → JSON Data Files → JavaScript Rendering → User Interface
 ```
 
-### 🔧 管理工具链
-- **数据管理**: 统一的Python脚本
-- **质量控制**: 自动验证和测试
-- **性能优化**: 资源压缩工具
-- **文档系统**: 完整的使用指南
+### 🔧 Management Toolkit
+- **Data Management**: Unified Python scripts
+- **Quality Control**: Automatic validation and testing
+- **Performance Optimization**: Resource compression tools
+- **Documentation System**: Complete usage guides
 
-## 📊 数据统计
+## 📊 Data Statistics
 
-- **适配体总数**: 180个
-  - 有3D结构: 53个（8个分类）
-  - 无3D结构: 127个（7个分类）
-- **技术文档**: 30+个专业文档
-- **管理脚本**: 22个工具脚本
-- **代码文件**: 1000+个文件
+- **Total Aptamers**: 180
+  - With 3D structures: 53 (8 categories)
+  - Without 3D structures: 127 (7 categories)
+- **Technical Documents**: 30+ professional documents
+- **Management Scripts**: 22 utility scripts
+- **Code Files**: 1000+ files
 
-## 🎯 重构成果
+## 🎯 Refactoring Achievements
 
-### ✨ 维护效率提升
-- **操作时间**: 30分钟 → 30秒
-- **出错概率**: 高风险 → 几乎为零
-- **学习门槛**: 需要前端知识 → 零门槛
-- **系统统一**: 两套独立系统 → 统一架构
+### ✨ Maintenance Efficiency Improvements
+- **Operation Time**: 30 minutes → 30 seconds
+- **Error Probability**: High risk → Nearly zero
+- **Learning Curve**: Frontend knowledge required → Zero barrier
+- **System Unity**: Two independent systems → Unified architecture
 
-### 🔧 工具现代化
-- **手动修改HTML/CSS** → **一条命令操作**
-- **硬编码位置映射** → **自动分类配色**
-- **无数据验证** → **自动验证脚本**
-- **分离的维护流程** → **统一的管理工具**
+### 🔧 Tool Modernization
+- **Manual HTML/CSS editing** → **Single command operation**
+- **Hard-coded position mapping** → **Automatic classification coloring**
+- **No data validation** → **Automatic validation scripts**
+- **Separate maintenance processes** → **Unified management tools**
 
-## 🐳 Docker部署
+## 🐳 Docker Deployment
 
-### 构建镜像
+### Build Image
 ```bash
 docker build -t ribocentre-aptamer .
 ```
 
-### 本地运行
+### Local Run
 ```bash
 docker run -p 4000:4000 -v $(pwd):/app ribocentre-aptamer
 ```
 
-### 生产环境部署
+### Production Deployment
 ```bash
 docker run -d -p 4000:4000 -e JEKYLL_ENV=production ribocentre-aptamer
 ```
 
-## 🤝 贡献指南
+## 🤝 Contributing Guide
 
-### 维护工作流程
-1. 查看 `PROJECT_DOCUMENTATION.md` 了解系统
-2. 使用 `scripts/` 目录下的工具进行操作
-3. 参考 `doc/` 目录下的技术文档
-4. 运行验证命令确保数据完整性
+### Maintenance Workflow
+1. Review `PROJECT_DOCUMENTATION.md` to understand the system
+2. Use tools in the `scripts/` directory for operations
+3. Refer to technical documentation in the `doc/` directory
+4. Run validation commands to ensure data integrity
 
-### 开发指南
-1. 阅读相关技术文档
-2. 遵循现有的代码规范
-3. 提交前运行测试和验证
-4. 更新相关文档
+### Development Guide
+1. Read relevant technical documentation
+2. Follow existing code standards
+3. Run tests and validation before submitting
+4. Update relevant documentation
 
-## 📞 技术支持
+## 📞 Technical Support
 
-### 🔍 快速查找
+### 🔍 Quick Search
 ```bash
-# 搜索维护相关文档
-grep -r "管理" doc/
+# Search maintenance-related documentation
+grep -r "manage" doc/
 
-# 查找脚本使用方法
-grep -r "使用方法" scripts/
+# Find script usage methods
+grep -r "usage" scripts/
 
-# 搜索特定功能实现
-grep -r "搜索功能" doc/
+# Search specific feature implementations
+grep -r "search" doc/
 ```
 
-### 📧 联系方式
-- 查看项目Wiki
-- 创建GitHub Issue
-- 联系维护团队
+### 📧 Contact Information
+- Check project Wiki
+- Create GitHub Issues
+- Contact maintenance team
 
 ---
 
-> 🎉 **新的文档系统已完成整理！**
+> 🎉 **New documentation system organization complete!**
 > 
-> 所有技术文档和脚本说明都已重新组织，避免Jekyll渲染干扰，便于维护和搜索。
+> All technical documentation and script instructions have been reorganized to avoid Jekyll rendering interference and facilitate maintenance and search.
 > 
-> 请查看 `PROJECT_DOCUMENTATION.md` 获取完整信息。
+> Please check `PROJECT_DOCUMENTATION.md` for complete information.
 
-*最后更新: 2024年12月*
+*Last Updated: December 2024*
 
