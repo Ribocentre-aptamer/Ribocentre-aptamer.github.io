@@ -195,5 +195,5 @@ grep -r "search" doc/
 > 
 > Please check `PROJECT_DOCUMENTATION.md` for complete information.
 
-*Last Updated: December 2024*
+*Last Updated: July 2025*
 

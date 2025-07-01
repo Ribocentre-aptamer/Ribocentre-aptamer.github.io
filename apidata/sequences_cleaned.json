@@ -6646,7 +6646,7 @@
     {
       "ID": "SPC_Waga_1",
       "Linker name(page name)": "SPC aptamer",
-      "Type": "Proteins",
+      "Type": "Small molecules",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_C1",
       "Article name": "C1",
@@ -6664,7 +6664,7 @@
     {
       "ID": "SPC_Waga_2",
       "Linker name(page name)": "SPC aptamer",
-      "Type": "Proteins",
+      "Type": "Small molecules",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_C2",
       "Article name": "C2",
@@ -6682,7 +6682,7 @@
     {
       "ID": "SPC_Waga_3",
       "Linker name(page name)": "SPC aptamer",
-      "Type": "Proteins",
+      "Type": "Small molecules",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_C8",
       "Article name": "C8",
@@ -6700,7 +6700,7 @@
     {
       "ID": "SPC_Waga_4",
       "Linker name(page name)": "SPC aptamer",
-      "Type": "Proteins",
+      "Type": "Small molecules",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m009",
       "Article name": "m009",
@@ -6718,7 +6718,7 @@
     {
       "ID": "SPC_Waga_5",
       "Linker name(page name)": "SPC aptamer",
-      "Type": "Proteins",
+      "Type": "Small molecules",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m010",
       "Article name": "m010",
@@ -6736,7 +6736,7 @@
     {
       "ID": "SPC_Waga_6",
       "Linker name(page name)": "SPC aptamer",
-      "Type": "Proteins",
+      "Type": "Small molecules",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m011",
       "Article name": "m011",
@@ -6754,7 +6754,7 @@
     {
       "ID": "SPC_Waga_7",
       "Linker name(page name)": "SPC aptamer",
-      "Type": "Proteins",
+      "Type": "Small molecules",
       "Category": "Mammalian",
       "Named": "Sphingosylphosphorylcholine (SPC)_m012",
       "Article name": "m012",
