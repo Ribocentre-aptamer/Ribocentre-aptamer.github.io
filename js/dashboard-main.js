@@ -768,6 +768,12 @@ const FilterModule = {
                 activeFilters.categories.has(d.category)
             );
             console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
+        } else if (nodeId === 'typeChart' && activeFilters.types && activeFilters.types.size > 0) {
+            // 类型筛选 - 直接从原始数据筛选
+            nodeFilteredData[nodeId] = originalData.filter(d => 
+                activeFilters.types.has(d.type || d.Type || 'Unknown')
+            );
+            console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
         } else if (nodeId === 'scatterChart' && activeFilters.scatterSelection) {
             // 散点图区域筛选 - 直接从原始数据筛选
             const sel = activeFilters.scatterSelection;
@@ -854,6 +860,11 @@ const FilterModule = {
                 nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => 
                     activeFilters.categories.has(d.category)
                 );
+            } else if (interactedNodeId === 'typeChart' && activeFilters.types && activeFilters.types.size > 0) {
+                // 基于上级节点数据进行类型筛选
+                nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => 
+                    activeFilters.types.has(d.type || d.Type || 'Unknown')
+                );
             } else if (interactedNodeId === 'scatterChart' && activeFilters.scatterSelection) {
                 // 基于上级节点数据进行散点图区域筛选
                 const sel = activeFilters.scatterSelection;
@@ -911,6 +922,25 @@ const FilterModule = {
         
         // 注册节点交互
         this.registerNodeInteraction('ligandChart');
+    },
+    
+    // 切换类型筛选
+    toggleTypeFilter(type) {
+        console.log('切换类型筛选:', type);
+        
+        // 确保types集合存在
+        if (!activeFilters.types) {
+            activeFilters.types = new Set();
+        }
+        
+        if (activeFilters.types.has(type)) {
+            activeFilters.types.delete(type);
+        } else {
+            activeFilters.types.add(type);
+        }
+        
+        // 注册节点交互
+        this.registerNodeInteraction('typeChart');
     },
     
     // 设置散点图区域筛选
@@ -973,6 +1003,14 @@ const FilterModule = {
             tagsContainer.appendChild(tag);
         });
         
+        // Type tags
+        if (activeFilters.types) {
+            activeFilters.types.forEach(type => {
+                const tag = createFilterTag(`Type: ${type}`, () => this.toggleTypeFilter(type));
+                tagsContainer.appendChild(tag);
+            });
+        }
+        
         // Scatter plot filter tag
         if (activeFilters.scatterSelection) {
             const sel = activeFilters.scatterSelection;
@@ -984,14 +1022,18 @@ const FilterModule = {
         // 显示/隐藏筛选控制区域
         const hasActiveFilters = activeFilters.years.size > 0 || 
                                activeFilters.categories.size > 0 || 
+                               (activeFilters.types && activeFilters.types.size > 0) ||
                                activeFilters.scatterSelection;
         
         const filterSection = document.querySelector('.filter-controls');
-        filterSection.style.display = hasActiveFilters ? 'block' : 'none';
+        if (filterSection) {
+            filterSection.style.display = hasActiveFilters ? 'block' : 'none';
+        }
         
         // 设置当前筛选条件计数和节点状态
         const activeFilterCount = (activeFilters.years.size > 0 ? 1 : 0) + 
                                  (activeFilters.categories.size > 0 ? 1 : 0) + 
+                                 ((activeFilters.types && activeFilters.types.size > 0) ? 1 : 0) +
                                  (activeFilters.scatterSelection ? 1 : 0);
         
         const resetBtn = document.getElementById('resetAllFilters');
@@ -1008,24 +1050,42 @@ const FilterModule = {
     // 更新节点状态指示器，显示交互顺序和冻结状态
     updateNodeStateIndicators() {
         // 年份图状态
-        const yearChartHeader = document.querySelector('#yearChart').closest('.chart-wrapper').querySelector('.chart-header');
-        const yearStateIndicator = yearChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
-        yearStateIndicator.className = 'node-state-indicator';
+        const yearChartHeader = document.querySelector('#yearChart')?.closest('.chart-wrapper')?.querySelector('.chart-header');
+        let yearStateIndicator = null;
+        if (yearChartHeader) {
+            yearStateIndicator = yearChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
+            yearStateIndicator.className = 'node-state-indicator';
+        }
         
-        // 饼图状态
-        const ligandChartHeader = document.querySelector('#ligandChart').closest('.chart-wrapper').querySelector('.chart-header');
-        const ligandStateIndicator = ligandChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
-        ligandStateIndicator.className = 'node-state-indicator';
+        // 类别饼图状态
+        const ligandChartHeader = document.querySelector('#ligandChart')?.closest('.chart-wrapper')?.querySelector('.chart-header');
+        let ligandStateIndicator = null;
+        if (ligandChartHeader) {
+            ligandStateIndicator = ligandChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
+            ligandStateIndicator.className = 'node-state-indicator';
+        }
+        
+        // 类型饼图状态
+        const typeChartHeader = document.querySelector('#typeChart')?.closest('.chart-wrapper')?.querySelector('.chart-header');
+        let typeStateIndicator = null;
+        if (typeChartHeader) {
+            typeStateIndicator = typeChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
+            typeStateIndicator.className = 'node-state-indicator';
+        }
         
         // 散点图状态
-        const scatterChartHeader = document.querySelector('#scatterChart').closest('.analysis-wrapper').querySelector('.chart-header');
-        const scatterStateIndicator = scatterChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
-        scatterStateIndicator.className = 'node-state-indicator';
+        const scatterChartHeader = document.querySelector('#scatterChart')?.closest('.analysis-wrapper')?.querySelector('.chart-header');
+        let scatterStateIndicator = null;
+        if (scatterChartHeader) {
+            scatterStateIndicator = scatterChartHeader.querySelector('.node-state-indicator') || document.createElement('div');
+            scatterStateIndicator.className = 'node-state-indicator';
+        }
         
         // 清除所有状态
-        yearStateIndicator.textContent = '';
-        ligandStateIndicator.textContent = '';
-        scatterStateIndicator.textContent = '';
+        if (yearStateIndicator) yearStateIndicator.textContent = '';
+        if (ligandStateIndicator) ligandStateIndicator.textContent = '';
+        if (typeStateIndicator) typeStateIndicator.textContent = '';
+        if (scatterStateIndicator) scatterStateIndicator.textContent = '';
         
         // 根据交互顺序设置节点状态 - 这里采用正向顺序
         nodeInteractionOrder.forEach((nodeId, index) => {
@@ -1033,26 +1093,32 @@ const FilterModule = {
             // 第一个交互的是A节点，第二个是B节点，第三个是C节点
             const stateText = index === 0 ? 'Node A' : (index === 1 ? 'Node B' : 'Node C');
             
-            if (nodeId === 'yearChart') {
+            if (nodeId === 'yearChart' && yearStateIndicator) {
                 yearStateIndicator.textContent = stateText;
                 yearStateIndicator.style.backgroundColor = '#520049';
-            } else if (nodeId === 'ligandChart') {
+            } else if (nodeId === 'ligandChart' && ligandStateIndicator) {
                 ligandStateIndicator.textContent = stateText;
                 ligandStateIndicator.style.backgroundColor = '#520049';
-            } else if (nodeId === 'scatterChart') {
+            } else if (nodeId === 'typeChart' && typeStateIndicator) {
+                typeStateIndicator.textContent = stateText;
+                typeStateIndicator.style.backgroundColor = '#520049';
+            } else if (nodeId === 'scatterChart' && scatterStateIndicator) {
                 scatterStateIndicator.textContent = stateText;
                 scatterStateIndicator.style.backgroundColor = '#520049';
             }
         });
         
         // 添加状态指示器到图表标题
-        if (!yearChartHeader.querySelector('.node-state-indicator')) {
+        if (yearChartHeader && yearStateIndicator && !yearChartHeader.querySelector('.node-state-indicator')) {
             yearChartHeader.appendChild(yearStateIndicator);
         }
-        if (!ligandChartHeader.querySelector('.node-state-indicator')) {
+        if (ligandChartHeader && ligandStateIndicator && !ligandChartHeader.querySelector('.node-state-indicator')) {
             ligandChartHeader.appendChild(ligandStateIndicator);
         }
-        if (!scatterChartHeader.querySelector('.node-state-indicator')) {
+        if (typeChartHeader && typeStateIndicator && !typeChartHeader.querySelector('.node-state-indicator')) {
+            typeChartHeader.appendChild(typeStateIndicator);
+        }
+        if (scatterChartHeader && scatterStateIndicator && !scatterChartHeader.querySelector('.node-state-indicator')) {
             scatterChartHeader.appendChild(scatterStateIndicator);
         }
         
@@ -1133,6 +1199,11 @@ const FilterModule = {
                 return false;
             }
             
+            // 类型筛选
+            if (activeFilters.types && activeFilters.types.size > 0 && !activeFilters.types.has(d.type || d.Type || 'Unknown')) {
+                return false;
+            }
+            
             // 散点图区域筛选
             if (activeFilters.scatterSelection) {
                 const sel = activeFilters.scatterSelection;
@@ -1147,7 +1218,8 @@ const FilterModule = {
         
         // 如果筛选后数据为空，但有筛选条件，给出警告
         if (dataWithAllFilters.length === 0 && 
-            (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || activeFilters.scatterSelection)) {
+            (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || 
+             (activeFilters.types && activeFilters.types.size > 0) || activeFilters.scatterSelection)) {
             console.warn('应用所有筛选条件后没有匹配数据');
             
             // 如果散点图筛选导致没有数据，尝试重置散点图筛选
@@ -1169,7 +1241,8 @@ const FilterModule = {
         console.log(`筛选后数据: ${filteredData.length}/${originalData.length} 条`);
         
         // 检查筛选后是否有数据
-        if (filteredData.length === 0 && (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || activeFilters.scatterSelection)) {
+        if (filteredData.length === 0 && (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || 
+            (activeFilters.types && activeFilters.types.size > 0) || activeFilters.scatterSelection)) {
             console.warn('筛选后没有数据！');
             this.showNoDataWarning();
         } else {
