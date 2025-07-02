@@ -590,7 +590,7 @@ body[data-page="aptamer"] .amir-tooltip {
     width: 100px !important;
     max-width: 100px !important;
     text-align: center !important;
-    vertical-align: middle !important;
+    /* vertical-align: middle !important; */
     padding: 8px 4px !important;
 }
 
