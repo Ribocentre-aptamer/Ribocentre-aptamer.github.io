@@ -182,15 +182,5 @@ find doc/ -name "*style*" -type f
 - **项目主文档**: 参考 `../PROJECT_DOCUMENTATION.md`
 - **在线版本**: [Ribocentre-Aptamer](https://aptamer.ribocentre.org)
 
-## 📞 技术支持
 
-如有文档相关问题：
-1. 查找相关的 `.txt` 文件
-2. 使用 `grep` 搜索关键词
-3. 联系开发团队获取帮助
 
----
-
-*本文档目录包含项目的完整技术资料，所有内容都经过精心整理和分类，便于查找和维护。*
-
-*最后更新: 2024年12月* 
