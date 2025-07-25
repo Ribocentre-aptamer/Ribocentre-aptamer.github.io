@@ -197,5 +197,15 @@ curl "https://aptamer.ribocentre.org/sequences/?search=thrombin"
         <temli>Postdoctoral research assistant at <a href="https://www.dundee.ac.uk/">University of Dundee, UK</a></temli><br>
         <temli>Senior research associate at <a href="https://www.dundee.ac.uk/">University of Dundee, UK</a></temli><br>
       </ul>
-    </div>             
+    </div>           
+    <div class="col-sm-6 clearfix">
+      <p><img src="/images/groupmember/Shuang_Zhu.png" class="img-responsive" width="25%" style="float: left;margin-right:10px;box-shadow: 2px 2px 5px #888;"></p>
+      <h4><a href="mailto:15683727@qq.com">Shuang Zhu</a></h4>
+      <p><i>Director of the Department of Biotechnology, Guangdong Pharmaceutical University</i></p>
+      <ul style="overflow: hidden; margin-top: 10px;padding-left: 20px;">
+        <temli>PhD <a href="https://www.sysu.edu.cn/">Sun Yet-sen University, China</a></temli><br>
+        <temli>MS <a href="https://www.sysu.edu.cn/">Sun Yet-sen University, China</a></temli><br>
+        <temli>BS <a href="https://www.sysu.edu.cn/">Sun Yet-sen University, China</a></temli><br>
+      </ul>
+    </div>    
 <br>
