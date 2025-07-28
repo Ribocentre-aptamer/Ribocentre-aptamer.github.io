@@ -704,46 +704,98 @@ document.addEventListener('DOMContentLoaded', function() {
         resultsContainer.innerHTML = '<div class="no-results-message">Searching...</div>';
         resultsContainer.style.display = 'block';
 
-        // 尝试不同路径加载search.json
         const searchPaths = ['{{ site.baseurl }}/search.json', './search.json', '/search.json', 'search.json'];
-
-        for (let i = 0; i < searchPaths.length; i++) {
-          try {
-            const response = await fetch(searchPaths[i]);
-            if (response.ok) {
-              const text = await response.text();
-              let data;
-              try {
-                data = JSON.parse(text);
-              } catch (parseError) {
-                console.warn('JSON解析错误，尝试清理数据:', parseError);
-                // 尝试清理数据
-                const jsonStart = text.indexOf('[');
-                if (jsonStart !== -1) {
-                  const cleanedText = text.substring(jsonStart);
-                  data = JSON.parse(cleanedText);
-                } else {
-                  throw parseError;
-                }
-              }
-              this.processSearchResults(data, query);
-              return;
-            }
-          } catch (error) {
-            console.error('搜索路径错误:', searchPaths[i], error);
-          }
+        try {
+          let data = await SearchUtils.fetchData(searchPaths);
+          data = this.enhanceRecords(data);
+          this.processSearchResults(data, query);
+        } catch (err) {
+          console.error('搜索数据加载失败:', err);
+          resultsContainer.innerHTML = '<div class="no-results-message">Unable to load search data, please try the standalone search page</div>';
         }
-
-        // 如果所有路径都失败
-        resultsContainer.innerHTML = '<div class="no-results-message">Unable to load search data, please try the standalone search page</div>';
       },
 
       processSearchResults(data, query) {
-        
+
         // 限制结果数量
         const results = SearchUtils.processResults(data, query);
         const limitedResults = results.slice(0, 1000);
         this.renderResults(limitedResults, query);
+      },
+
+      enhanceRecords(records) {
+        return records.map(item => {
+          if (!item.result_type) {
+            item.result_type = item.is_sequence ? 'sequence' : 'page';
+          }
+          const rawTags = item.meta_tags || item.tags;
+          if (rawTags) {
+            const tagMap = this.parseTagsToMap(rawTags);
+            item.structured_tags = tagMap;
+            if (!item.target_type && tagMap['Type']) item.target_type = tagMap['Type'];
+            if (!item.pub_year && tagMap['Year']) item.pub_year = parseInt(tagMap['Year']);
+
+            const lenMatches = rawTags.match(/Length\s*:\s*(\d+)/gi);
+            if (lenMatches && lenMatches.length) {
+              const vals = lenMatches.map(m => parseInt(m.split(':')[1])).filter(v => !isNaN(v));
+              if (vals.length) {
+                const min = Math.min(...vals);
+                const max = Math.max(...vals);
+                if (!item.sequence_length) item.sequence_length = min;
+                item.sequence_length_range = min === max ? `${min}` : `${min}-${max}`;
+              }
+            }
+
+            const gcMatches = rawTags.match(/GC\s*:\s*([\d\.]+)/gi);
+            if (gcMatches && gcMatches.length) {
+              const vals = gcMatches.map(m => parseFloat(m.split(':')[1])).filter(v => !isNaN(v));
+              if (vals.length) {
+                const min = Math.min(...vals);
+                const max = Math.max(...vals);
+                const gcVal = Number(min.toFixed(2));
+                if (item.gc_content === undefined) item.gc_content = gcVal;
+                item.gc_content_range = min === max ? `${gcVal}` : `${min.toFixed(2)}-${max.toFixed(2)}`;
+              }
+            }
+
+            if (tagMap['Category'] && !item.category_value) item.category_value = tagMap['Category'];
+          }
+          return item;
+        });
+      },
+
+      parseTagsToMap(tagsStr) {
+        if (!tagsStr) return {};
+        const tagMap = {};
+        if (tagsStr.includes('Category:') || tagsStr.includes('Type:')) {
+          const tagLines = tagsStr.split(/\n|,/).filter(line => line.trim());
+          tagLines.forEach(line => {
+            const cleanLine = line.replace(/^\s*-\s*/, '').trim();
+            const colonMatch = cleanLine.match(/^([^:]+):\s*(.+)$/);
+            if (colonMatch) {
+              const [, key, value] = colonMatch;
+              const keyTrimmed = key.trim();
+              if (tagMap[keyTrimmed] === undefined) {
+                tagMap[keyTrimmed] = value.trim();
+              }
+            } else if (cleanLine) {
+              tagMap[cleanLine] = true;
+            }
+          });
+          return tagMap;
+        }
+
+        const tagItems = tagsStr.split(/,\s*/g);
+        tagItems.forEach(tag => {
+          const colonMatch = tag.match(/^([^:]+):\s*(.+)$/);
+          if (colonMatch) {
+            const [, key, value] = colonMatch;
+            tagMap[key.trim()] = value.trim();
+            return;
+          }
+          tagMap[tag.trim()] = true;
+        });
+        return tagMap;
       },
 
              currentPage: 1,
