@@ -769,19 +769,57 @@ document.addEventListener('DOMContentLoaded', function() {
          const endIndex = Math.min(startIndex + this.resultsPerPage, this.allResults.length);
          const currentResults = this.allResults.slice(startIndex, endIndex);
 
-         let html = '';
-         currentResults.forEach((item, index) => {
-           const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
-           const contentPreview = this.getContentPreview(item.content || '', query);
-           
-           html += `<div class="result-item-list search-result-item result-page" onclick="window.open('${item.url}', '_blank')">
-             <div class="result-header">
-               <span class="result-index">${startIndex + index + 1}</span>
-               <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
-             </div>
-             <div class="result-description">${contentPreview}</div>
-           </div>`;
-         });
+        let html = '';
+        currentResults.forEach((item, index) => {
+          const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
+          const contentPreview = this.getContentPreview(item.content || '', query);
+
+          // ===== Tags (show Target type and multi-aptamer flag) =====
+          const tags = [];
+          if (item.structured_tags && item.structured_tags['Type']) {
+            tags.push(`<span class="tag tag-type">Target: ${item.structured_tags['Type']}</span>`);
+          } else if (item.tags && item.tags.includes('Type:')) {
+            const typeMatch = item.tags.match(/Type:([^,]+)/i);
+            if (typeMatch && typeMatch[1]) {
+              tags.push(`<span class="tag tag-type">Target: ${typeMatch[1].trim()}</span>`);
+            }
+          }
+
+          // ===== Meta information =====
+          const metaItems = [];
+          const yearInfo = item.pub_year || (item.date ? item.date.split('-')[0] : 'Unknown');
+          metaItems.push(`<span class="meta-item"><i class="fas fa-calendar"></i> Year: ${yearInfo}</span>`);
+
+          if (item.sequence_length_range) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-ruler"></i> Length: ${item.sequence_length_range} bp</span>`);
+          } else if (item.sequence_length) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-ruler"></i> Length: ${item.sequence_length} bp</span>`);
+          }
+
+          if (item.gc_content_range) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-percentage"></i> GC: ${item.gc_content_range}%</span>`);
+          } else if (item.gc_content !== undefined) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-percentage"></i> GC: ${item.gc_content}%</span>`);
+          }
+
+          let typeIcon = 'fa-file-alt';
+          let typeLabel = 'Page';
+          if (item.result_type === 'sequence') {
+            typeIcon = 'fa-dna';
+            typeLabel = 'Sequence';
+          }
+          metaItems.push(`<span class="meta-item result-type"><i class="fas ${typeIcon}"></i> ${typeLabel}</span>`);
+
+          html += `<div class="result-item-list ${item.result_type === 'sequence' ? 'result-sequence' : 'result-page'}" onclick="window.open('${item.url}', '_blank')">
+            <div class="result-header">
+              <span class="result-index">${startIndex + index + 1}</span>
+              <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
+              <div class="result-tags">${tags.join('')}</div>
+            </div>
+            <div class="result-meta">${metaItems.join('')}</div>
+            <div class="result-description">${contentPreview}</div>
+          </div>`;
+        });
 
          // 添加分页控件
          if (totalPages > 1) {
