@@ -704,46 +704,98 @@ document.addEventListener('DOMContentLoaded', function() {
         resultsContainer.innerHTML = '<div class="no-results-message">Searching...</div>';
         resultsContainer.style.display = 'block';
 
-        // 尝试不同路径加载search.json
         const searchPaths = ['{{ site.baseurl }}/search.json', './search.json', '/search.json', 'search.json'];
-
-        for (let i = 0; i < searchPaths.length; i++) {
-          try {
-            const response = await fetch(searchPaths[i]);
-            if (response.ok) {
-              const text = await response.text();
-              let data;
-              try {
-                data = JSON.parse(text);
-              } catch (parseError) {
-                console.warn('JSON解析错误，尝试清理数据:', parseError);
-                // 尝试清理数据
-                const jsonStart = text.indexOf('[');
-                if (jsonStart !== -1) {
-                  const cleanedText = text.substring(jsonStart);
-                  data = JSON.parse(cleanedText);
-                } else {
-                  throw parseError;
-                }
-              }
-              this.processSearchResults(data, query);
-              return;
-            }
-          } catch (error) {
-            console.error('搜索路径错误:', searchPaths[i], error);
-          }
+        try {
+          let data = await SearchUtils.fetchData(searchPaths);
+          data = this.enhanceRecords(data);
+          this.processSearchResults(data, query);
+        } catch (err) {
+          console.error('搜索数据加载失败:', err);
+          resultsContainer.innerHTML = '<div class="no-results-message">Unable to load search data, please try the standalone search page</div>';
         }
-
-        // 如果所有路径都失败
-        resultsContainer.innerHTML = '<div class="no-results-message">Unable to load search data, please try the standalone search page</div>';
       },
 
       processSearchResults(data, query) {
-        
+
         // 限制结果数量
         const results = SearchUtils.processResults(data, query);
         const limitedResults = results.slice(0, 1000);
         this.renderResults(limitedResults, query);
+      },
+
+      enhanceRecords(records) {
+        return records.map(item => {
+          if (!item.result_type) {
+            item.result_type = item.is_sequence ? 'sequence' : 'page';
+          }
+          const rawTags = item.meta_tags || item.tags;
+          if (rawTags) {
+            const tagMap = this.parseTagsToMap(rawTags);
+            item.structured_tags = tagMap;
+            if (!item.target_type && tagMap['Type']) item.target_type = tagMap['Type'];
+            if (!item.pub_year && tagMap['Year']) item.pub_year = parseInt(tagMap['Year']);
+
+            const lenMatches = rawTags.match(/Length\s*:\s*(\d+)/gi);
+            if (lenMatches && lenMatches.length) {
+              const vals = lenMatches.map(m => parseInt(m.split(':')[1])).filter(v => !isNaN(v));
+              if (vals.length) {
+                const min = Math.min(...vals);
+                const max = Math.max(...vals);
+                if (!item.sequence_length) item.sequence_length = min;
+                item.sequence_length_range = min === max ? `${min}` : `${min}-${max}`;
+              }
+            }
+
+            const gcMatches = rawTags.match(/GC\s*:\s*([\d\.]+)/gi);
+            if (gcMatches && gcMatches.length) {
+              const vals = gcMatches.map(m => parseFloat(m.split(':')[1])).filter(v => !isNaN(v));
+              if (vals.length) {
+                const min = Math.min(...vals);
+                const max = Math.max(...vals);
+                const gcVal = Number(min.toFixed(2));
+                if (item.gc_content === undefined) item.gc_content = gcVal;
+                item.gc_content_range = min === max ? `${gcVal}` : `${min.toFixed(2)}-${max.toFixed(2)}`;
+              }
+            }
+
+            if (tagMap['Category'] && !item.category_value) item.category_value = tagMap['Category'];
+          }
+          return item;
+        });
+      },
+
+      parseTagsToMap(tagsStr) {
+        if (!tagsStr) return {};
+        const tagMap = {};
+        if (tagsStr.includes('Category:') || tagsStr.includes('Type:')) {
+          const tagLines = tagsStr.split(/\n|,/).filter(line => line.trim());
+          tagLines.forEach(line => {
+            const cleanLine = line.replace(/^\s*-\s*/, '').trim();
+            const colonMatch = cleanLine.match(/^([^:]+):\s*(.+)$/);
+            if (colonMatch) {
+              const [, key, value] = colonMatch;
+              const keyTrimmed = key.trim();
+              if (tagMap[keyTrimmed] === undefined) {
+                tagMap[keyTrimmed] = value.trim();
+              }
+            } else if (cleanLine) {
+              tagMap[cleanLine] = true;
+            }
+          });
+          return tagMap;
+        }
+
+        const tagItems = tagsStr.split(/,\s*/g);
+        tagItems.forEach(tag => {
+          const colonMatch = tag.match(/^([^:]+):\s*(.+)$/);
+          if (colonMatch) {
+            const [, key, value] = colonMatch;
+            tagMap[key.trim()] = value.trim();
+            return;
+          }
+          tagMap[tag.trim()] = true;
+        });
+        return tagMap;
       },
 
              currentPage: 1,
@@ -769,19 +821,57 @@ document.addEventListener('DOMContentLoaded', function() {
          const endIndex = Math.min(startIndex + this.resultsPerPage, this.allResults.length);
          const currentResults = this.allResults.slice(startIndex, endIndex);
 
-         let html = '';
-         currentResults.forEach((item, index) => {
-           const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
-           const contentPreview = this.getContentPreview(item.content || '', query);
-           
-           html += `<div class="result-item-list search-result-item result-page" onclick="window.open('${item.url}', '_blank')">
-             <div class="result-header">
-               <span class="result-index">${startIndex + index + 1}</span>
-               <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
-             </div>
-             <div class="result-description">${contentPreview}</div>
-           </div>`;
-         });
+        let html = '';
+        currentResults.forEach((item, index) => {
+          const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
+          const contentPreview = this.getContentPreview(item.content || '', query);
+
+          // ===== Tags (show Target type and multi-aptamer flag) =====
+          const tags = [];
+          if (item.structured_tags && item.structured_tags['Type']) {
+            tags.push(`<span class="tag tag-type">Target: ${item.structured_tags['Type']}</span>`);
+          } else if (item.tags && item.tags.includes('Type:')) {
+            const typeMatch = item.tags.match(/Type:([^,]+)/i);
+            if (typeMatch && typeMatch[1]) {
+              tags.push(`<span class="tag tag-type">Target: ${typeMatch[1].trim()}</span>`);
+            }
+          }
+
+          // ===== Meta information =====
+          const metaItems = [];
+          const yearInfo = item.pub_year || (item.date ? item.date.split('-')[0] : 'Unknown');
+          metaItems.push(`<span class="meta-item"><i class="fas fa-calendar"></i> Year: ${yearInfo}</span>`);
+
+          if (item.sequence_length_range) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-ruler"></i> Length: ${item.sequence_length_range} bp</span>`);
+          } else if (item.sequence_length) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-ruler"></i> Length: ${item.sequence_length} bp</span>`);
+          }
+
+          if (item.gc_content_range) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-percentage"></i> GC: ${item.gc_content_range}%</span>`);
+          } else if (item.gc_content !== undefined) {
+            metaItems.push(`<span class="meta-item"><i class="fas fa-percentage"></i> GC: ${item.gc_content}%</span>`);
+          }
+
+          let typeIcon = 'fa-file-alt';
+          let typeLabel = 'Page';
+          if (item.result_type === 'sequence') {
+            typeIcon = 'fa-dna';
+            typeLabel = 'Sequence';
+          }
+          metaItems.push(`<span class="meta-item result-type"><i class="fas ${typeIcon}"></i> ${typeLabel}</span>`);
+
+          html += `<div class="result-item-list ${item.result_type === 'sequence' ? 'result-sequence' : 'result-page'}" onclick="window.open('${item.url}', '_blank')">
+            <div class="result-header">
+              <span class="result-index">${startIndex + index + 1}</span>
+              <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
+              <div class="result-tags">${tags.join('')}</div>
+            </div>
+            <div class="result-meta">${metaItems.join('')}</div>
+            <div class="result-description">${contentPreview}</div>
+          </div>`;
+        });
 
          // 添加分页控件
          if (totalPages > 1) {
