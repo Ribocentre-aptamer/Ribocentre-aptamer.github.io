@@ -188,3 +188,68 @@
 .tag-sequences-btn:hover {
   background: #005bb5;
 }
+
+.sequence-info-row {
+  margin: 4px 0;
+  padding: 6px 12px;
+  background: rgba(0, 102, 204, 0.05);
+  border-radius: 6px;
+  border-left: 3px solid #0066cc;
+  font-size: 14px;
+  line-height: 1.4;
+  display: block;
+  min-height: 20px;
+}
+.sequence-info-row strong {
+  color: #0066cc;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.sequence-text {
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.5px;
+  background-color: rgba(0, 102, 204, 0.1);
+  padding: 4px 8px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 4px 0 0;
+  max-width: calc(100% - 120px);
+  overflow-x: auto;
+  white-space: normal;
+  word-break: break-all;
+  line-height: 1.4;
+  vertical-align: middle;
+  border: 1px solid rgba(0, 102, 204, 0.2);
+  color: #333;
+}
+.sequence-content {
+  margin-top: 6px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.4;
+}
+.btn-toggle-sequence {
+  background: #0066cc;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: all 0.2s;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+.btn-toggle-sequence:hover {
+  background: #0052a3;
+}
+.sequence-match {
+  background-color: #cce7ff;
+  color: #0066cc;
+  font-weight: bold;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
