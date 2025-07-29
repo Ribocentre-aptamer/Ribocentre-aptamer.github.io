@@ -2115,7 +2115,7 @@ const resultStyles = `
     border-radius: 3px !important;
     display: inline-block !important;
     margin: 0 4px 0 0 !important;
-    max-width: calc(100% - 120px) !important;
+    max-width: calc(100% - 0px) !important;
     overflow-x: auto !important;
     white-space: normal !important;
     word-break: break-all !important;
