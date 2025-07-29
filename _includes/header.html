@@ -737,23 +737,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const lenMatches = rawTags.match(/Length\s*:\s*(\d+)/gi);
             if (lenMatches && lenMatches.length) {
-              const vals = lenMatches
-                .map(m => {
-                  const parts = m.split(':');
-                  return parts.length > 1 ? parseInt(parts[1]) : NaN;
-                })
-                .filter(v => !isNaN(v));
+              const vals = lenMatches.map(m => parseInt(m.split(':')[1])).filter(v => !isNaN(v));
               if (vals.length) {
                 const min = Math.min(...vals);
                 const max = Math.max(...vals);
                 if (!item.sequence_length) item.sequence_length = min;
                 item.sequence_length_range = min === max ? `${min}` : `${min}-${max}`;
-              const vals = gcMatches
-                .map(m => {
-                  const parts = m.split(':');
-                  return parts.length > 1 ? parseFloat(parts[1]) : NaN;
-                })
-                .filter(v => !isNaN(v));
+              }
             }
 
             const gcMatches = rawTags.match(/GC\s*:\s*([\d\.]+)/gi);
@@ -872,7 +862,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const isMatchView = btn.closest('.sequence-matched') !== null;
             seqContainer.innerHTML = `<div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${fullSequence}</span><button class="btn-toggle-sequence" data-full="${fullSequence}" data-mode="${isMatchView ? 'match' : 'truncate'}">Show less</button></div>`;
           } else {
-            const truncated = fullSequence.substring(0, 40);
+            const truncated = fullSequence.substring(0, 42);
             seqContainer.innerHTML = `<div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${truncated}...</span><button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button></div>`;
           }
         };
@@ -880,7 +870,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
 
              currentPage: 1,
-       resultsPerPage: 5,
+       resultsPerPage: 2,
        allResults: [],
 
        renderResults(results, query) {
@@ -892,28 +882,26 @@ document.addEventListener('DOMContentLoaded', function() {
            return;
          }
 
+         this.renderPage();
+       },
+
+       renderPage() {
+         const query = searchInput.value.trim();
+         const totalPages = Math.ceil(this.allResults.length / this.resultsPerPage);
+         const startIndex = (this.currentPage - 1) * this.resultsPerPage;
+         const endIndex = Math.min(startIndex + this.resultsPerPage, this.allResults.length);
+         const currentResults = this.allResults.slice(startIndex, endIndex);
+
         let html = '';
         currentResults.forEach((item, index) => {
           const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
           let contentPreview = '';
-          // Define minimum sequence length for search
-          const MIN_SEQUENCE_SEARCH_LENGTH = 2;
           if (item.content) {
             if (item.result_type === 'sequence' && item.content.includes('Sequence:')) {
               const seqMatch = item.content.match(/Sequence:\s*([ACGTU\s]+)/i);
               if (seqMatch && seqMatch[1]) {
                 const sequence = seqMatch[1].trim();
-                const maxVisibleLength = 40;
-                const isSearchingSequence = query && new RegExp(`[ACGTU]{${MIN_SEQUENCE_SEARCH_LENGTH},}`, 'i').test(query);
-                if (isSearchingSequence) {
-                  const queryRegex = new RegExp(query.replace(/[ACGTU]+/ig, m => m.split('').join('[\\s]*')), 'ig');
-                  let match; const matches = [];
-                  while ((match = queryRegex.exec(sequence)) !== null) {
-                    matches.push({ index: match.index, length: match[0].length, text: match[0] });
-                  }
-              if (seqMatch && seqMatch[1]) {
-                const sequence = seqMatch[1].trim();
-                const maxVisibleLength = 40;
+                const maxVisibleLength =42;
                 const isSearchingSequence = query && /[ACGTU]{2,}/i.test(query);
                 if (isSearchingSequence) {
                   const queryRegex = new RegExp(query.replace(/[ACGTU]+/ig, m => m.split('').join('[\\s]*')), 'ig');
@@ -930,7 +918,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     const matchText = sequence.substring(firstMatch.index, firstMatch.index + firstMatch.length);
                     const after = sequence.substring(firstMatch.index + firstMatch.length, endIdx);
                     const displaySeq = `${startIdx > 0 ? '...' : ''}${before}<span class="sequence-match">${matchText}</span>${after}${endIdx < sequence.length ? '...' : ''}`;
-
                     contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence Match:</strong><span class="sequence-text">${displaySeq}</span><button class="btn-toggle-sequence" data-full="${sequence}">Show full</button></div></div>`;
                   } else if (sequence.length > maxVisibleLength) {
                     contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span><button class="btn-toggle-sequence" data-full="${sequence}">Show more</button></div></div>`;
@@ -962,7 +949,6 @@ document.addEventListener('DOMContentLoaded', function() {
                   const am = item.content.match(/Affinity:\s*([^|]+)/i); if (am && am[1]) infoHtml += `<div class="sequence-info-row"><strong>Affinity:</strong> ${this.highlightKeywords(am[1].trim(), query)}</div>`;
                 }
                 contentPreview += infoHtml;
-
               } else {
                 contentPreview = this.getContentPreview(item.content, query);
               }
