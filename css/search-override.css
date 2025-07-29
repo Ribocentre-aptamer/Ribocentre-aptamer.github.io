@@ -90,6 +90,12 @@
   word-wrap: break-word;
   word-break: break-word;
 }
+.result-item-list.result-sequence {
+  border-left-color: #0066cc;
+}
+.result-item-list.result-page {
+  border-left-color: #520049;
+}
 .result-item-list:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
@@ -97,7 +103,7 @@
 .result-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 10px;
   flex-wrap: wrap;
   gap: 8px;
@@ -151,8 +157,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 4px;
-}
+  /* margin-top: 4px; */
+} 
+
 .result-tags .tag {
   background: #f0f0f0;
   border-radius: 12px;

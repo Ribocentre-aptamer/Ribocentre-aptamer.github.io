@@ -1654,7 +1654,7 @@ const resultStyles = `
 .result-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 15px;
     flex-wrap: wrap;
     gap: 10px;
