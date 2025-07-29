@@ -149,7 +149,7 @@
     background: white;
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-    max-height: 500px;
+    max-height: 1500px;
     overflow: hidden;
     margin-top: 20px;
     animation: slideDown 0.3s ease;
