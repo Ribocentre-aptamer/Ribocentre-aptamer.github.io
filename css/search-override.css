@@ -158,7 +158,8 @@
   flex-wrap: wrap;
   gap: 6px;
   /* margin-top: 4px; */
-}
+} 
+
 .result-tags .tag {
   background: #f0f0f0;
   border-radius: 12px;

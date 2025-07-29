@@ -918,6 +918,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const matchText = sequence.substring(firstMatch.index, firstMatch.index + firstMatch.length);
                     const after = sequence.substring(firstMatch.index + firstMatch.length, endIdx);
                     const displaySeq = `${startIdx > 0 ? '...' : ''}${before}<span class="sequence-match">${matchText}</span>${after}${endIdx < sequence.length ? '...' : ''}`;
+
                     contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence Match:</strong><span class="sequence-text">${displaySeq}</span><button class="btn-toggle-sequence" data-full="${sequence}">Show full</button></div></div>`;
                   } else if (sequence.length > maxVisibleLength) {
                     contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span><button class="btn-toggle-sequence" data-full="${sequence}">Show more</button></div></div>`;
@@ -949,6 +950,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   const am = item.content.match(/Affinity:\s*([^|]+)/i); if (am && am[1]) infoHtml += `<div class="sequence-info-row"><strong>Affinity:</strong> ${this.highlightKeywords(am[1].trim(), query)}</div>`;
                 }
                 contentPreview += infoHtml;
+
               } else {
                 contentPreview = this.getContentPreview(item.content, query);
               }
