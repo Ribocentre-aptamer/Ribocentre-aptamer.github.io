@@ -758,10 +758,16 @@ document.addEventListener('DOMContentLoaded', function() {
               }
             }
 
-            if (tagMap['Category'] && !item.category_value) item.category_value = tagMap['Category'];
+          if (tagMap['Category'] && !item.category_value) item.category_value = tagMap['Category'];
+
+          const namedMatches = (item.meta_tags || rawTags).match(/Named\s*:/gi);
+          if (namedMatches && namedMatches.length) {
+            item.aptamer_count = namedMatches.length;
           }
-          return item;
-        });
+        }
+        return item;
+      });
+
       },
 
       parseTagsToMap(tagsStr) {
@@ -798,6 +804,73 @@ document.addEventListener('DOMContentLoaded', function() {
         return tagMap;
       },
 
+
+      generateSequenceSearchQuery(item) {
+        if (item.structured_tags && item.structured_tags['Ligand']) {
+          return item.structured_tags['Ligand'];
+        }
+        if (item.content && item.content.includes('Ligand:')) {
+          const m = item.content.match(/Ligand:\s*([^|,]+)/i);
+          if (m && m[1]) return m[1].trim();
+        }
+        if (item.title) {
+          let titleQuery = item.title
+            .replace(/\s*aptamer\s*/gi, ' ')
+            .replace(/\s*binding\s*/gi, ' ')
+            .replace(/\s*RNA\s*/gi, ' ')
+            .replace(/\s*DNA\s*/gi, ' ')
+            .replace(/\s*sequence\s*/gi, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+          const words = titleQuery.split(' ').filter(w => w.length > 2);
+          if (words.length) return words.slice(0, 2).join(' ');
+        }
+        if (item.structured_tags && item.structured_tags['Type']) {
+          return item.structured_tags['Type'];
+        }
+        return item.title ? item.title.split(' ').slice(0, 2).join(' ') : 'aptamer';
+      },
+
+      setupSequencesAccessHandlers(container) {
+        if (this.sequencesAccessHandler) {
+          container.removeEventListener('click', this.sequencesAccessHandler);
+        }
+        this.sequencesAccessHandler = (event) => {
+          const btn = event.target.closest('.tag-sequences-btn');
+          if (!btn) return;
+          event.preventDefault();
+          event.stopPropagation();
+          const searchQuery = btn.getAttribute('data-search-query');
+          if (searchQuery) {
+            const url = `/sequences/?search=${encodeURIComponent(searchQuery)}`;
+            window.open(url, '_blank');
+          }
+        };
+        container.addEventListener('click', this.sequencesAccessHandler);
+      },
+
+      setupSequenceToggleHandlers(container) {
+        container.removeEventListener('click', this.sequenceToggleHandler);
+        this.sequenceToggleHandler = (e) => {
+          if (!e.target.classList.contains('btn-toggle-sequence')) return;
+          e.preventDefault();
+          e.stopPropagation();
+          const btn = e.target;
+          const seqContainer = btn.closest('.sequence-content');
+          const fullSequence = btn.getAttribute('data-full');
+          if (!fullSequence) return;
+          const isMore = btn.textContent.includes('Show more') || btn.textContent.includes('Show full');
+          if (isMore) {
+            const isMatchView = btn.closest('.sequence-matched') !== null;
+            seqContainer.innerHTML = `<div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${fullSequence}</span><button class="btn-toggle-sequence" data-full="${fullSequence}" data-mode="${isMatchView ? 'match' : 'truncate'}">Show less</button></div>`;
+          } else {
+            const truncated = fullSequence.substring(0, 40);
+            seqContainer.innerHTML = `<div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${truncated}...</span><button class="btn-toggle-sequence" data-full="${fullSequence}">Show more</button></div>`;
+          }
+        };
+        container.addEventListener('click', this.sequenceToggleHandler);
+      },
+
              currentPage: 1,
        resultsPerPage: 5,
        allResults: [],
@@ -824,8 +897,65 @@ document.addEventListener('DOMContentLoaded', function() {
         let html = '';
         currentResults.forEach((item, index) => {
           const highlightedTitle = this.highlightKeywords(item.title || 'Untitled', query);
-          const contentPreview = this.getContentPreview(item.content || '', query);
+          let contentPreview = '';
+          if (item.content) {
+            if (item.result_type === 'sequence' && item.content.includes('Sequence:')) {
+              const seqMatch = item.content.match(/Sequence:\s*([ACGTU\s]+)/i);
+              if (seqMatch && seqMatch[1]) {
+                const sequence = seqMatch[1].trim();
+                const maxVisibleLength = 40;
+                const isSearchingSequence = query && /[ACGTU]{2,}/i.test(query);
+                if (isSearchingSequence) {
+                  const queryRegex = new RegExp(query.replace(/[ACGTU]+/ig, m => m.split('').join('[\\s]*')), 'ig');
+                  let match; const matches = [];
+                  while ((match = queryRegex.exec(sequence)) !== null) {
+                    matches.push({ index: match.index, length: match[0].length, text: match[0] });
+                  }
+                  if (matches.length > 0) {
+                    const firstMatch = matches[0];
+                    const contextBefore = 10, contextAfter = 10;
+                    const startIdx = Math.max(0, firstMatch.index - contextBefore);
+                    const endIdx = Math.min(sequence.length, firstMatch.index + firstMatch.length + contextAfter);
+                    const before = sequence.substring(startIdx, firstMatch.index);
+                    const matchText = sequence.substring(firstMatch.index, firstMatch.index + firstMatch.length);
+                    const after = sequence.substring(firstMatch.index + firstMatch.length, endIdx);
+                    const displaySeq = `${startIdx > 0 ? '...' : ''}${before}<span class="sequence-match">${matchText}</span>${after}${endIdx < sequence.length ? '...' : ''}`;
+                    contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence Match:</strong><span class="sequence-text">${displaySeq}</span><button class="btn-toggle-sequence" data-full="${sequence}">Show full</button></div>`;
+                  } else if (sequence.length > maxVisibleLength) {
+                    contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span><button class="btn-toggle-sequence" data-full="${sequence}">Show more</button></div>`;
+                  } else {
+                    contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${sequence}</span></div>`;
+                  }
 
+                  const info = [];
+                  if (item.named && item.named.trim()) {
+                    info.push(`<strong>Sequence Name:</strong> ${this.highlightKeywords(item.named.trim(), query)}`);
+                  }
+                  if (item.content.includes('Ligand:')) {
+                    const lm = item.content.match(/Ligand:\s*([^|]+)/i); if (lm && lm[1]) info.push(`<strong>Ligand:</strong> ${this.highlightKeywords(lm[1].trim(), query)}`);
+                  }
+                  if (info.length >= 2) {
+                    contentPreview += `<div class="sequence-info-row">${info.slice(0,2).join(' | ')}</div>`;
+                    for (let i=2;i<info.length;i++) contentPreview += `<div class="sequence-info-row">${info[i]}</div>`;
+                  } else if (info.length === 1) {
+                    contentPreview += `<div class="sequence-info-row">${info[0]}</div>`;
+                  }
+                  if (item.content.includes('Affinity:')) {
+                    const am = item.content.match(/Affinity:\s*([^|]+)/i); if (am && am[1]) contentPreview += `<div class="sequence-info-row"><strong>Affinity:</strong> ${this.highlightKeywords(am[1].trim(), query)}</div>`;
+                  }
+                  contentPreview += `</div>`;
+                } else if (sequence.length > maxVisibleLength) {
+                  contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${sequence.substring(0, maxVisibleLength)}...</span><button class="btn-toggle-sequence" data-full="${sequence}">Show more</button></div></div>`;
+                } else {
+                  contentPreview = `<div class="sequence-content"><div class="sequence-info-row"><strong>Sequence:</strong><span class="sequence-text">${sequence}</span></div></div>`;
+                }
+              } else {
+                contentPreview = this.getContentPreview(item.content, query);
+              }
+            } else {
+              contentPreview = this.getContentPreview(item.content, query);
+            }
+          }
           // ===== Tags (show Target type and multi-aptamer flag) =====
           const tags = [];
           if (item.structured_tags && item.structured_tags['Type']) {
@@ -835,6 +965,11 @@ document.addEventListener('DOMContentLoaded', function() {
             if (typeMatch && typeMatch[1]) {
               tags.push(`<span class="tag tag-type">Target: ${typeMatch[1].trim()}</span>`);
             }
+          }
+          if (item.result_type === 'page' && item.aptamer_count) {
+            const searchQuery = this.generateSequenceSearchQuery(item);
+            const label = item.aptamer_count > 1 ? `${item.aptamer_count} Sequences` : '1 Sequence';
+            tags.push(`<button class="tag tag-sequences-btn" data-search-query="${searchQuery}" title="View all ${item.aptamer_count} sequences from this page"><i class="fas fa-dna"></i> ${label}</button>`);
           }
 
           // ===== Meta information =====
@@ -862,7 +997,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
           metaItems.push(`<span class="meta-item result-type"><i class="fas ${typeIcon}"></i> ${typeLabel}</span>`);
 
-          html += `<div class="result-item-list ${item.result_type === 'sequence' ? 'result-sequence' : 'result-page'}" onclick="window.open('${item.url}', '_blank')">
+          html += `<div class="result-item-list ${item.result_type === 'sequence' ? 'result-sequence' : 'result-page'}">
             <div class="result-header">
               <span class="result-index">${startIndex + index + 1}</span>
               <h3 class="result-title"><a href="${item.url}" target="_blank">${highlightedTitle}</a></h3>
@@ -910,7 +1045,9 @@ document.addEventListener('DOMContentLoaded', function() {
          }
 
          resultsContainer.innerHTML = html;
-       },
+         this.setupSequenceToggleHandlers(resultsContainer);
+         this.setupSequencesAccessHandlers(resultsContainer);
+      },
 
        goToPage(page) {
          this.currentPage = page;
