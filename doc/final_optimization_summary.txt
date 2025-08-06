@@ -46,7 +46,7 @@ Successfully integrated the requested descriptive texts:
 **For Non-3D Structure Aptamers:**
 ```html
 <p style="font-size: 16px; font-weight: 500; color: #2c3e50; margin-bottom: 15px;">
-  This table lists the ligands of aptamers with unknown 3D structures:
+  This table lists the ligands of aptamers without known 3D structures
 </p>
 ```
 

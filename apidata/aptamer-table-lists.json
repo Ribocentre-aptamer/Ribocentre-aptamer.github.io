@@ -88,7 +88,7 @@
     ]
   },
   "without3DStructure": {
-    "title": "This table lists the ligands of aptamers with unknown 3D structures:",
+    "title": "This table lists the ligands of aptamers without known 3D structures",
     "rows": [
       {
         "class": "row1",

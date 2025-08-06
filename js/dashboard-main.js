@@ -202,6 +202,12 @@ const DataModule = {
     }
 };
 
+// ====== 分类配色映射（自动加载） ======
+let categoryPaletteMap = {};
+fetch('/apidata/palette_map_20250806_231255.json')
+  .then(res => res.json())
+  .then(data => { categoryPaletteMap = data; });
+
 // ====== 图表渲染模块 ======
 const ChartModule = {
     // 创建年份分布图表
@@ -446,7 +452,11 @@ const ChartModule = {
                     if (isFiltered[i]) {
                         return morandiHighlight;
                     }
-                    // 正常颜色
+                    // palette_map优先
+                    if (categoryPaletteMap && categoryPaletteMap[category]) {
+                        return categoryPaletteMap[category];
+                    }
+                    // fallback
                     return morandiColors[i % morandiColors.length];
                 }),
                 line: {
@@ -1119,7 +1129,7 @@ const FilterModule = {
     // 应用筛选器，基于节点层级逻辑
     applyFilters() {
         console.log('应用筛选器 - 当前交互顺序:', nodeInteractionOrder.join(" > "));
-        console.log('筛选条件 - 年份:', Array.from(activeFilters.years), '类别:', Array.from(activeFilters.categories));
+        console.log('筛选条件 - 年份:', Array.from(activeFilters.years), '类别:', Array.from(activeFilters.categories), '类型:', Array.from(activeFilters.types || []));
         
         // 首先，基于所有筛选条件过滤原始数据
         const dataWithAllFilters = originalData.filter(d => {
@@ -1131,6 +1141,14 @@ const FilterModule = {
             // 类别筛选
             if (activeFilters.categories.size > 0 && !activeFilters.categories.has(d.category)) {
                 return false;
+            }
+            
+            // 类型筛选
+            if (activeFilters.types && activeFilters.types.size > 0) {
+                const itemType = d.type || d.Type || 'Unknown';
+                if (!activeFilters.types.has(itemType)) {
+                    return false;
+                }
             }
             
             // 散点图区域筛选
@@ -1147,7 +1165,8 @@ const FilterModule = {
         
         // 如果筛选后数据为空，但有筛选条件，给出警告
         if (dataWithAllFilters.length === 0 && 
-            (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || activeFilters.scatterSelection)) {
+            (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || 
+             (activeFilters.types && activeFilters.types.size > 0) || activeFilters.scatterSelection)) {
             console.warn('应用所有筛选条件后没有匹配数据');
             
             // 如果散点图筛选导致没有数据，尝试重置散点图筛选
@@ -1169,7 +1188,8 @@ const FilterModule = {
         console.log(`筛选后数据: ${filteredData.length}/${originalData.length} 条`);
         
         // 检查筛选后是否有数据
-        if (filteredData.length === 0 && (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || activeFilters.scatterSelection)) {
+        if (filteredData.length === 0 && (activeFilters.years.size > 0 || activeFilters.categories.size > 0 || 
+            (activeFilters.types && activeFilters.types.size > 0) || activeFilters.scatterSelection)) {
             console.warn('筛选后没有数据！');
             this.showNoDataWarning();
         } else {

@@ -99,6 +99,11 @@ DataModule.loadData = async function() {
                 processedItem.affinity = processedItem.Affinity;
             }
             
+            // 处理 type 字段
+            if (!processedItem.type && processedItem.Type) {
+                processedItem.type = processedItem.Type;
+            }
+            
             // 处理 description 字段
             if (!processedItem.description && processedItem['Ligand Description']) {
                 processedItem.description = processedItem['Ligand Description'];
@@ -257,7 +262,7 @@ ChartModule.createTypeChart = function() {
     // 获取所有可能的类型（基于原始数据）
     const allTypeCounts = {};
     originalData.forEach(d => {
-        // 使用type或Type字段
+        // 使用type或Type字段，优先使用小写的type字段
         const type = d.type || d.Type || 'Unknown';
         allTypeCounts[type] = (allTypeCounts[type] || 0) + 1;
     });
@@ -402,12 +407,7 @@ ChartModule.createTypeChart = function() {
         },
         textinfo: 'percent',
         textfont: { size: 11, color: 'white' },
-        hovertemplate: displayTypes.map(type => {
-            const description = typeDescriptions[type] || '';
-            return '<b>' + type + '</b><br>Count: %{value}<br>Percentage: %{percent}<br>' + 
-                   (description ? '<i>' + description + '</i><br>' : '') +
-                   'Click for multi-select filter<extra></extra>';
-        }),
+        hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click for multi-select filter</i><extra></extra>',
         hoverlabel: { 
             bgcolor: 'white', 
             bordercolor: morandiHighlight,
@@ -483,9 +483,10 @@ FilterModule.calculateSpecificNodeData = function(nodeId) {
         console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
     } else if (nodeId === 'typeChart' && activeFilters.types && activeFilters.types.size > 0) {
         // 类型筛选 - 直接从原始数据筛选
-        nodeFilteredData[nodeId] = originalData.filter(d => 
-            activeFilters.types.has(d.type || d.Type || 'Unknown')
-        );
+        nodeFilteredData[nodeId] = originalData.filter(d => {
+            const itemType = d.type || d.Type || 'Unknown';
+            return activeFilters.types.has(itemType);
+        });
         console.log(`更新 ${nodeId} 节点数据: ${nodeFilteredData[nodeId].length} 条记录`);
     } else if (nodeId === 'scatterChart' && activeFilters.scatterSelection) {
         // 散点图区域筛选 - 直接从原始数据筛选
@@ -506,6 +507,83 @@ FilterModule.calculateSpecificNodeData = function(nodeId) {
         // 如果该节点没有应用筛选条件，使用原始数据
         nodeFilteredData[nodeId] = [...originalData];
     }
+};
+
+// ====== 修复：覆写calculateNodeData，补全typeChart分支 ======
+const originalCalculateNodeData = FilterModule.calculateNodeData;
+FilterModule.calculateNodeData = function() {
+    // 首先保存当前冻结节点的数据
+    const frozenNodesData = {};
+    for (const nodeId in nodeFrozenState) {
+        if (nodeFrozenState[nodeId]) {
+            frozenNodesData[nodeId] = [...nodeFilteredData[nodeId]];
+        }
+    }
+    // 重置未冻结节点的数据
+    for (const nodeId in nodeFilteredData) {
+        if (!nodeFrozenState[nodeId]) {
+            nodeFilteredData[nodeId] = [];
+        }
+    }
+    // 如果没有交互，所有节点使用原始数据
+    if (nodeInteractionOrder.length === 0) {
+        for (const nodeId in nodeFilteredData) {
+            nodeFilteredData[nodeId] = [...originalData];
+        }
+        return;
+    }
+    // 恢复冻结节点的数据
+    for (const nodeId in frozenNodesData) {
+        nodeFilteredData[nodeId] = [...frozenNodesData[nodeId]];
+    }
+    // 只有一个节点(A节点)
+    if (nodeInteractionOrder.length === 1) {
+        const firstNodeId = nodeInteractionOrder[0];
+        const firstNodeData = nodeFilteredData[firstNodeId];
+        // 非交互节点使用A节点的筛选结果
+        for (const nodeId in nodeFilteredData) {
+            if (nodeId !== firstNodeId && !nodeFrozenState[nodeId]) {
+                nodeFilteredData[nodeId] = [...firstNodeData];
+            }
+        }
+        return;
+    }
+    // 多节点交互情况
+    nodeInteractionOrder.forEach((interactedNodeId, index) => {
+        if (index === 0) return; // 跳过A节点
+        const parentNodeId = nodeInteractionOrder[index - 1];
+        const parentNodeData = nodeFilteredData[parentNodeId];
+        if (interactedNodeId === 'yearChart' && activeFilters.years.size > 0) {
+            nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => (d.year || d.Year) && activeFilters.years.has(d.year || d.Year));
+        } else if (interactedNodeId === 'ligandChart' && activeFilters.categories.size > 0) {
+            nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => (d.category || d.Category) && activeFilters.categories.has(d.category || d.Category));
+        } else if (interactedNodeId === 'typeChart' && activeFilters.types && activeFilters.types.size > 0) {
+            nodeFilteredData[interactedNodeId] = parentNodeData.filter(d => {
+                const itemType = d.type || d.Type || 'Unknown';
+                return activeFilters.types.has(itemType);
+            });
+        } else if (interactedNodeId === 'scatterChart' && activeFilters.scatterSelection) {
+            const sel = activeFilters.scatterSelection;
+            nodeFilteredData[interactedNodeId] = parentNodeData.filter(d =>
+                d.length >= sel.xrange[0] && d.length <= sel.xrange[1] &&
+                d.gc_content >= sel.yrange[0] && d.gc_content <= sel.yrange[1]
+            );
+        } else {
+            nodeFilteredData[interactedNodeId] = [...parentNodeData];
+        }
+    });
+    // 剩余未交互节点使用最后一个交互节点的数据
+    if (nodeInteractionOrder.length > 0) {
+        const lastNodeId = nodeInteractionOrder[nodeInteractionOrder.length - 1];
+        const lastNodeData = nodeFilteredData[lastNodeId];
+        for (const nodeId in nodeFilteredData) {
+            if (!nodeInteractionOrder.includes(nodeId) && !nodeFrozenState[nodeId]) {
+                nodeFilteredData[nodeId] = [...lastNodeData];
+            }
+        }
+    }
+    // 控制台输出
+    console.log("节点数据计算完成，交互顺序:", nodeInteractionOrder.join(" > "));
 };
 
 // 覆写FilterModule.updateNodeStateIndicators方法，解决可能缺失DOM节点的问题并支持类型图

@@ -1,437 +1,871 @@
 ---
-title: "Page Not Found - RNA Explorer"
+title: "Page Not Found - RNA Match-3 Paradise"
 layout: default
-excerpt: "Page not found, but you can explore the mysteries of RNA here!"
+excerpt: "Page not found, but relax with our soothing RNA Match-3 game!"
 sitemap: false
 permalink: /404.html
 ---
 
 <style>
+/* Modern UI Design */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 .game-container {
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
     text-align: center;
-    font-family: 'Courier New', monospace;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    min-height: 80vh;
 }
 
 .game-title {
-    color: #2c3e50;
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    color: white;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    letter-spacing: -0.5px;
 }
 
 .game-subtitle {
-    color: #7f8c8d;
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-#gameCanvas {
-    border: 3px solid #34495e;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.game-info {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    padding: 15px;
-    background: #ecf0f1;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-.sequence-display {
-    background: #2c3e50;
-    color: #ecf0f1;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: 'Courier New', monospace;
+    color: rgba(255,255,255,0.9);
     font-size: 1.1em;
-    margin: 10px 0;
-    min-height: 30px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.game-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.stat-item {
+    text-align: center;
+    color: white;
+}
+
+.stat-label {
+    font-size: 0.8em;
+    font-weight: 500;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-value {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+#gameBoard {
+    background: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin: 20px auto;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+
+.combo-display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff6b6b;
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    pointer-events: none;
+    opacity: 0;
+    animation: comboFade 1s ease-out;
+}
+
+@keyframes comboFade {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+    50% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+    100% { opacity: 0; transform: translate(-50%, -50%) scale(1); }
 }
 
 .controls {
     margin: 20px 0;
-    padding: 15px;
-    background: #f8f9fa;
-    border-radius: 8px;
-}
-
-.nucleotide {
-    display: inline-block;
-    padding: 2px 6px;
-    margin: 0 2px;
-    border-radius: 3px;
-    font-weight: bold;
-}
-
-.nucleotide.A { background: #e74c3c; color: white; }
-.nucleotide.U { background: #3498db; color: white; }
-.nucleotide.C { background: #f39c12; color: white; }
-.nucleotide.G { background: #27ae60; color: white; }
-
-.function-sequence {
-    background: #9b59b6;
-    color: white;
-    padding: 5px 10px;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
     border-radius: 15px;
-    margin: 5px;
-    display: inline-block;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.control-title {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.control-text {
+    color: rgba(255,255,255,0.9);
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.nucleotide-legend {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.nucleotide-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.nucleotide-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .back-home {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .back-home a {
-    background: #3498db;
+    background: rgba(255,255,255,0.2);
     color: white;
-    padding: 12px 25px;
+    padding: 12px 30px;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 30px;
+    font-weight: 600;
     transition: all 0.3s ease;
     display: inline-block;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.3);
 }
 
 .back-home a:hover {
-    background: #2980b9;
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.level-complete {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.level-complete.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.level-complete-content {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 90%;
+}
+
+.next-level-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.next-level-btn:hover {
+    background: #5a6fd8;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.particle {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    animation: particle-float 1s ease-out forwards;
+}
+
+@keyframes particle-float {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px) scale(0.5);
+    }
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .game-title {
+        font-size: 1.8em;
+    }
+    
+    .nucleotide-legend {
+        gap: 10px;
+    }
+    
+    .nucleotide-item {
+        padding: 6px 10px;
+        font-size: 0.8em;
+    }
 }
 </style>
 
 <div class="game-container">
-    <h1 class="game-title">🧬 RNA Explorer 🧬</h1>
-    <p class="game-subtitle">The page got lost, but you discovered the mysterious world of RNA! Collect bases and build functional sequences!</p>
+    <h1 class="game-title">🧬 RNA Match-3 Paradise 🧬</h1>
+    <p class="game-subtitle">页面走丢了，但你发现了一个放松的RNA消除乐园！匹配相同的核苷酸来构建美妙的序列。</p>
     
-    <div class="game-info">
-        <div>Score: <span id="score">0</span></div>
-        <div>Lives: <span id="lives">3</span></div>
-        <div>Level: <span id="level">1</span></div>
+    <div class="game-stats">
+        <div class="stat-item">
+            <div class="stat-label">Score</div>
+            <div class="stat-value" id="score">0</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-label">Level</div>
+            <div class="stat-value" id="level">1</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-label">Moves</div>
+            <div class="stat-value" id="moves">30</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-label">Target</div>
+            <div class="stat-value" id="target">1000</div>
+        </div>
     </div>
     
-    <div class="sequence-display">
-        Current Sequence: <span id="currentSequence"></span>
-    </div>
-    
-    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <canvas id="gameBoard" width="480" height="480"></canvas>
     
     <div class="controls">
-        <strong>Game Instructions:</strong><br>
-        ⬅️➡️ Arrow keys to move | ⬆️ Jump | Collect <span class="nucleotide A">A</span><span class="nucleotide U">U</span><span class="nucleotide C">C</span><span class="nucleotide G">G</span> nucleotides<br>
-        <div style="margin-top: 10px;">
-            <span class="function-sequence">AUG</span> Start codon (speed boost) |
-            <span class="function-sequence">UAA/UAG/UGA</span> Stop codon (level complete) |
-            <span class="function-sequence">GC palindrome</span> Teleporter
+        <div class="control-title">🎮 游戏玩法</div>
+        <div class="control-text">
+            点击并拖拽相邻的RNA核苷酸来交换位置，匹配3个或更多相同的核苷酸来消除它们。创造更长的匹配链来获得更高分数！
+        </div>
+        
+        <div class="nucleotide-legend">
+            <div class="nucleotide-item">
+                <div class="nucleotide-color" style="background: #ff6b6b;"></div>
+                <span>腺苷酸 (A)</span>
+            </div>
+            <div class="nucleotide-item">
+                <div class="nucleotide-color" style="background: #4ecdc4;"></div>
+                <span>尿苷酸 (U)</span>
+            </div>
+            <div class="nucleotide-item">
+                <div class="nucleotide-color" style="background: #45b7d1;"></div>
+                <span>胞苷酸 (C)</span>
+            </div>
+            <div class="nucleotide-item">
+                <div class="nucleotide-color" style="background: #96ceb4;"></div>
+                <span>鸟苷酸 (G)</span>
+            </div>
         </div>
     </div>
     
     <div class="back-home">
-        <a href="{{ site.url }}{{ site.baseurl }}/">🏠 Back to Home & Continue Exploring</a>
+        <a href="{{ site.url }}{{ site.baseurl }}/">🏠 返回首页继续探索</a>
+    </div>
+</div>
+
+<div class="level-complete" id="levelComplete">
+    <div class="level-complete-content">
+        <h2>🎉 关卡完成！</h2>
+        <p>恭喜你完成了这个关卡！</p>
+        <div>得分: <span id="finalScore">0</span></div>
+        <button class="next-level-btn" onclick="game.nextLevel()">下一关</button>
     </div>
 </div>
 
 <script>
-class RNAGame {
+class RNAMatch3Game {
     constructor() {
-        this.canvas = document.getElementById('gameCanvas');
+        this.canvas = document.getElementById('gameBoard');
         this.ctx = this.canvas.getContext('2d');
+        this.gridSize = 8;
+        this.cellSize = 60;
+        this.board = [];
         this.score = 0;
-        this.lives = 3;
         this.level = 1;
-        this.sequence = [];
-        this.player = { x: 50, y: 300, width: 30, height: 30, velY: 0, jumping: false, speed: 3 };
-        this.nucleotides = [];
-        this.platforms = [];
-        this.keys = {};
-        this.gameSpeed = 1;
-        this.lastNucleotideTime = 0;
+        this.moves = 30;
+        this.target = 1000;
+        this.selectedCell = null;
+        this.animating = false;
+        this.comboCount = 0;
+        this.particles = [];
         
-        this.initPlatforms();
+        // RNA nucleotide types and colors
+        this.nucleotides = ['A', 'U', 'C', 'G'];
+        this.colors = {
+            'A': '#ff6b6b',  // 红色 - 腺苷酸
+            'U': '#4ecdc4',  // 青色 - 尿苷酸
+            'C': '#45b7d1',  // 蓝色 - 胞苷酸
+            'G': '#96ceb4'   // 绿色 - 鸟苷酸
+        };
+        
+        this.initGame();
         this.bindEvents();
         this.gameLoop();
     }
     
-    initPlatforms() {
-        this.platforms = [
-            { x: 0, y: 350, width: 800, height: 50 }, // Ground
-            { x: 200, y: 280, width: 100, height: 20 },
-            { x: 400, y: 220, width: 100, height: 20 },
-            { x: 600, y: 160, width: 100, height: 20 }
-        ];
+    initGame() {
+        this.generateBoard();
+        this.updateUI();
+    }
+    
+    generateBoard() {
+        this.board = [];
+        for (let row = 0; row < this.gridSize; row++) {
+            this.board[row] = [];
+            for (let col = 0; col < this.gridSize; col++) {
+                let nucleotide;
+                do {
+                    nucleotide = this.nucleotides[Math.floor(Math.random() * this.nucleotides.length)];
+                } while (this.wouldCreateMatch(row, col, nucleotide));
+                
+                this.board[row][col] = {
+                    type: nucleotide,
+                    x: col * this.cellSize,
+                    y: row * this.cellSize,
+                    targetX: col * this.cellSize,
+                    targetY: row * this.cellSize,
+                    animating: false,
+                    scale: 1,
+                    rotation: 0
+                };
+            }
+        }
+    }
+    
+    wouldCreateMatch(row, col, type) {
+        // Check horizontal
+        let hCount = 1;
+        if (col >= 2 && this.board[row][col-1] && this.board[row][col-1].type === type &&
+            this.board[row][col-2] && this.board[row][col-2].type === type) {
+            return true;
+        }
+        
+        // Check vertical
+        if (row >= 2 && this.board[row-1] && this.board[row-1][col] && this.board[row-1][col].type === type &&
+            this.board[row-2] && this.board[row-2][col] && this.board[row-2][col].type === type) {
+            return true;
+        }
+        
+        return false;
     }
     
     bindEvents() {
-        document.addEventListener('keydown', (e) => {
-            // Prevent default behavior for arrow keys to avoid page scrolling
-            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
-                e.preventDefault();
-            }
-            this.keys[e.code] = true;
-        });
-        
-        document.addEventListener('keyup', (e) => {
-            // Prevent default behavior for arrow keys
-            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
-                e.preventDefault();
-            }
-            this.keys[e.code] = false;
-        });
+        this.canvas.addEventListener('click', (e) => this.handleClick(e));
+        this.canvas.addEventListener('mousemove', (e) => this.handleMouseMove(e));
     }
     
-    spawnNucleotide() {
-        const nucleotides = ['A', 'U', 'C', 'G'];
-        const colors = { A: '#e74c3c', U: '#3498db', C: '#f39c12', G: '#27ae60' };
-        const type = nucleotides[Math.floor(Math.random() * nucleotides.length)];
+    handleClick(e) {
+        if (this.animating || this.moves <= 0) return;
         
-        this.nucleotides.push({
-            x: this.canvas.width + Math.random() * 200,
-            y: Math.random() * 200 + 50,
-            type: type,
-            color: colors[type],
-            collected: false
-        });
+        const rect = this.canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        
+        const col = Math.floor(x / this.cellSize);
+        const row = Math.floor(y / this.cellSize);
+        
+        if (row < 0 || row >= this.gridSize || col < 0 || col >= this.gridSize) return;
+        
+        if (!this.selectedCell) {
+            this.selectedCell = { row, col };
+            this.board[row][col].scale = 1.1;
+        } else {
+            if (this.selectedCell.row === row && this.selectedCell.col === col) {
+                // Deselect
+                this.board[row][col].scale = 1;
+                this.selectedCell = null;
+            } else if (this.areAdjacent(this.selectedCell, { row, col })) {
+                // Swap cells
+                this.swapCells(this.selectedCell, { row, col });
+                this.board[this.selectedCell.row][this.selectedCell.col].scale = 1;
+                this.selectedCell = null;
+            } else {
+                // Select new cell
+                this.board[this.selectedCell.row][this.selectedCell.col].scale = 1;
+                this.selectedCell = { row, col };
+                this.board[row][col].scale = 1.1;
+            }
+        }
     }
     
-    updatePlayer() {
-        // Gravity
-        this.player.velY += 0.8;
-        this.player.y += this.player.velY;
+    handleMouseMove(e) {
+        if (!this.selectedCell) return;
         
-        // Movement
-        if (this.keys['ArrowLeft'] && this.player.x > 0) {
-            this.player.x -= this.player.speed;
+        const rect = this.canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        
+        const col = Math.floor(x / this.cellSize);
+        const row = Math.floor(y / this.cellSize);
+        
+        if (row >= 0 && row < this.gridSize && col >= 0 && col < this.gridSize) {
+            this.canvas.style.cursor = this.areAdjacent(this.selectedCell, { row, col }) ? 'pointer' : 'default';
         }
-        if (this.keys['ArrowRight'] && this.player.x < this.canvas.width - this.player.width) {
-            this.player.x += this.player.speed;
+    }
+    
+    areAdjacent(cell1, cell2) {
+        const dx = Math.abs(cell1.col - cell2.col);
+        const dy = Math.abs(cell1.row - cell2.row);
+        return (dx === 1 && dy === 0) || (dx === 0 && dy === 1);
+    }
+    
+    async swapCells(cell1, cell2) {
+        this.animating = true;
+        
+        // Swap the cells
+        const temp = this.board[cell1.row][cell1.col];
+        this.board[cell1.row][cell1.col] = this.board[cell2.row][cell2.col];
+        this.board[cell2.row][cell2.col] = temp;
+        
+        // Update positions
+        this.board[cell1.row][cell1.col].targetX = cell1.col * this.cellSize;
+        this.board[cell1.row][cell1.col].targetY = cell1.row * this.cellSize;
+        this.board[cell2.row][cell2.col].targetX = cell2.col * this.cellSize;
+        this.board[cell2.row][cell2.col].targetY = cell2.row * this.cellSize;
+        
+        // Check for matches
+        const matches = this.findMatches();
+        
+        if (matches.length === 0) {
+            // No matches, swap back
+            const temp2 = this.board[cell1.row][cell1.col];
+            this.board[cell1.row][cell1.col] = this.board[cell2.row][cell2.col];
+            this.board[cell2.row][cell2.col] = temp2;
+            
+            this.board[cell1.row][cell1.col].targetX = cell1.col * this.cellSize;
+            this.board[cell1.row][cell1.col].targetY = cell1.row * this.cellSize;
+            this.board[cell2.row][cell2.col].targetX = cell2.col * this.cellSize;
+            this.board[cell2.row][cell2.col].targetY = cell2.row * this.cellSize;
+        } else {
+            this.moves--;
+            this.comboCount = 0;
+            await this.processMatches();
         }
         
-        // Jumping
-        if (this.keys['ArrowUp'] && !this.player.jumping) {
-            this.player.velY = -15;
-            this.player.jumping = true;
-        }
+        this.animating = false;
+        this.updateUI();
+        this.checkGameState();
+    }
+    
+    findMatches() {
+        const matches = [];
+        const visited = new Set();
         
-        // Platform collision detection
-        for (let platform of this.platforms) {
-            if (this.player.x < platform.x + platform.width &&
-                this.player.x + this.player.width > platform.x &&
-                this.player.y < platform.y + platform.height &&
-                this.player.y + this.player.height > platform.y) {
+        for (let row = 0; row < this.gridSize; row++) {
+            for (let col = 0; col < this.gridSize; col++) {
+                if (visited.has(`${row},${col}`)) continue;
                 
-                if (this.player.velY > 0) {
-                    this.player.y = platform.y - this.player.height;
-                    this.player.velY = 0;
-                    this.player.jumping = false;
+                const horizontalMatch = this.findHorizontalMatch(row, col);
+                const verticalMatch = this.findVerticalMatch(row, col);
+                
+                if (horizontalMatch.length >= 3) {
+                    matches.push(...horizontalMatch);
+                    horizontalMatch.forEach(cell => visited.add(`${cell.row},${cell.col}`));
+                }
+                
+                if (verticalMatch.length >= 3) {
+                    matches.push(...verticalMatch);
+                    verticalMatch.forEach(cell => visited.add(`${cell.row},${cell.col}`));
                 }
             }
         }
         
-        // Boundary detection
-        if (this.player.y > this.canvas.height) {
-            this.resetPlayer();
-        }
+        return matches;
     }
     
-    updateNucleotides() {
-        for (let i = this.nucleotides.length - 1; i >= 0; i--) {
-            let nucleotide = this.nucleotides[i];
-            nucleotide.x -= 2 * this.gameSpeed;
-            
-            // Collision detection
-            if (!nucleotide.collected &&
-                this.player.x < nucleotide.x + 20 &&
-                this.player.x + this.player.width > nucleotide.x &&
-                this.player.y < nucleotide.y + 20 &&
-                this.player.y + this.player.height > nucleotide.y) {
-                
-                nucleotide.collected = true;
-                this.collectNucleotide(nucleotide.type);
-            }
-            
-            // Remove off-screen nucleotides
-            if (nucleotide.x < -20) {
-                this.nucleotides.splice(i, 1);
+    findHorizontalMatch(row, col) {
+        const type = this.board[row][col].type;
+        const match = [{ row, col }];
+        
+        // Check right
+        for (let c = col + 1; c < this.gridSize; c++) {
+            if (this.board[row][c].type === type) {
+                match.push({ row, col: c });
+            } else {
+                break;
             }
         }
-    }
-    
-    collectNucleotide(type) {
-        this.sequence.push(type);
-        this.score += 10;
-        this.updateSequenceDisplay();
-        this.checkFunctionalSequences();
-    }
-    
-    checkFunctionalSequences() {
-        const seqStr = this.sequence.join('');
         
-        // Start codon AUG
-        if (seqStr.includes('AUG')) {
-            this.gameSpeed += 0.5;
-            this.showMessage('Start codon activated! Speed boost!');
-            this.clearSequencePattern('AUG');
+        // Check left
+        for (let c = col - 1; c >= 0; c--) {
+            if (this.board[row][c].type === type) {
+                match.unshift({ row, col: c });
+            } else {
+                break;
+            }
         }
         
-        // Stop codons
-        if (seqStr.includes('UAA') || seqStr.includes('UAG') || seqStr.includes('UGA')) {
-            this.levelUp();
-            return;
+        return match;
+    }
+    
+    findVerticalMatch(row, col) {
+        const type = this.board[row][col].type;
+        const match = [{ row, col }];
+        
+        // Check down
+        for (let r = row + 1; r < this.gridSize; r++) {
+            if (this.board[r][col].type === type) {
+                match.push({ row: r, col });
+            } else {
+                break;
+            }
         }
         
-        // GC palindrome sequences (simplified)
-        if (seqStr.includes('GCGC') || seqStr.includes('CGCG')) {
-            this.teleportPlayer();
-            this.clearSequencePattern('GCGC') || this.clearSequencePattern('CGCG');
+        // Check up
+        for (let r = row - 1; r >= 0; r--) {
+            if (this.board[r][col].type === type) {
+                match.unshift({ row: r, col });
+            } else {
+                break;
+            }
         }
         
-        // Keep sequence length reasonable
-        if (this.sequence.length > 12) {
-            this.sequence = this.sequence.slice(-8);
-        }
+        return match;
     }
     
-    clearSequencePattern(pattern) {
-        const seqStr = this.sequence.join('');
-        const index = seqStr.indexOf(pattern);
-        if (index !== -1) {
-            this.sequence.splice(index, pattern.length);
-            this.score += 50;
-            return true;
-        }
-        return false;
-    }
-    
-    teleportPlayer() {
-        this.player.x = Math.random() * (this.canvas.width - this.player.width);
-        this.player.y = 100;
-        this.showMessage('Teleport successful!');
-    }
-    
-    levelUp() {
-        this.level++;
-        this.score += 100;
-        this.sequence = [];
-        this.gameSpeed = 1;
-        this.showMessage(`Level ${this.level} reached!`);
-        this.updateSequenceDisplay();
-    }
-    
-    resetPlayer() {
-        this.lives--;
-        this.player = { x: 50, y: 300, width: 30, height: 30, velY: 0, jumping: false, speed: 3 };
-        this.sequence = [];
-        this.updateSequenceDisplay();
+    async processMatches() {
+        let totalMatches = 0;
         
-        if (this.lives <= 0) {
-            this.gameOver();
+        while (true) {
+            const matches = this.findMatches();
+            if (matches.length === 0) break;
+            
+            totalMatches += matches.length;
+            this.comboCount++;
+            
+            // Remove matched cells and create particles
+            matches.forEach(match => {
+                const cell = this.board[match.row][match.col];
+                this.createParticles(match.col * this.cellSize + this.cellSize/2,
+                                   match.row * this.cellSize + this.cellSize/2,
+                                   this.colors[cell.type]);
+                this.board[match.row][match.col] = null;
+            });
+            
+            // Calculate score
+            let matchScore = matches.length * 100;
+            if (matches.length > 3) matchScore *= (matches.length - 2);
+            if (this.comboCount > 1) matchScore *= this.comboCount;
+            
+            this.score += matchScore;
+            
+            if (this.comboCount > 1) {
+                this.showCombo(this.comboCount);
+            }
+            
+            // Drop cells
+            this.dropCells();
+            
+            // Fill empty spaces
+            this.fillBoard();
+            
+            // Wait for animations
+            await this.wait(300);
         }
     }
     
-    gameOver() {
-        this.showMessage('Game Over! Your RNA exploration score: ' + this.score);
-        // Reset game
+    dropCells() {
+        for (let col = 0; col < this.gridSize; col++) {
+            let writeRow = this.gridSize - 1;
+            
+            for (let row = this.gridSize - 1; row >= 0; row--) {
+                if (this.board[row][col] !== null) {
+                    if (row !== writeRow) {
+                        this.board[writeRow][col] = this.board[row][col];
+                        this.board[row][col] = null;
+                        
+                        this.board[writeRow][col].targetY = writeRow * this.cellSize;
+                    }
+                    writeRow--;
+                }
+            }
+        }
+    }
+    
+    fillBoard() {
+        for (let col = 0; col < this.gridSize; col++) {
+            for (let row = 0; row < this.gridSize; row++) {
+                if (this.board[row][col] === null) {
+                    const nucleotide = this.nucleotides[Math.floor(Math.random() * this.nucleotides.length)];
+                    this.board[row][col] = {
+                        type: nucleotide,
+                        x: col * this.cellSize,
+                        y: -this.cellSize,
+                        targetX: col * this.cellSize,
+                        targetY: row * this.cellSize,
+                        animating: true,
+                        scale: 1,
+                        rotation: 0
+                    };
+                }
+            }
+        }
+    }
+    
+    createParticles(x, y, color) {
+        for (let i = 0; i < 8; i++) {
+            this.particles.push({
+                x: x,
+                y: y,
+                vx: (Math.random() - 0.5) * 4,
+                vy: (Math.random() - 0.5) * 4,
+                color: color,
+                life: 1,
+                decay: 0.02
+            });
+        }
+    }
+    
+    showCombo(combo) {
+        const comboDiv = document.createElement('div');
+        comboDiv.className = 'combo-display';
+        comboDiv.textContent = `${combo}x Combo!`;
+        comboDiv.style.position = 'absolute';
+        comboDiv.style.left = '50%';
+        comboDiv.style.top = '50%';
+        comboDiv.style.transform = 'translate(-50%, -50%)';
+        comboDiv.style.zIndex = '1000';
+        comboDiv.style.pointerEvents = 'none';
+        
+        this.canvas.parentElement.appendChild(comboDiv);
+        
         setTimeout(() => {
-            this.score = 0;
-            this.lives = 3;
-            this.level = 1;
-            this.sequence = [];
-            this.gameSpeed = 1;
-            this.nucleotides = [];
-            this.updateUI();
-        }, 3000);
+            if (comboDiv.parentElement) {
+                comboDiv.parentElement.removeChild(comboDiv);
+            }
+        }, 1000);
     }
     
-    showMessage(text) {
-        // Display message on canvas
-        this.ctx.fillStyle = 'rgba(0,0,0,0.8)';
-        this.ctx.fillRect(0, 150, this.canvas.width, 100);
-        this.ctx.fillStyle = 'white';
-        this.ctx.font = '20px Courier New';
-        this.ctx.textAlign = 'center';
-        this.ctx.fillText(text, this.canvas.width/2, 200);
-        this.ctx.textAlign = 'left';
-    }
-    
-    updateSequenceDisplay() {
-        const sequenceHtml = this.sequence.map(n => 
-            `<span class="nucleotide ${n}">${n}</span>`
-        ).join('');
-        document.getElementById('currentSequence').innerHTML = sequenceHtml;
+    wait(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
     }
     
     updateUI() {
         document.getElementById('score').textContent = this.score;
-        document.getElementById('lives').textContent = this.lives;
         document.getElementById('level').textContent = this.level;
+        document.getElementById('moves').textContent = this.moves;
+        document.getElementById('target').textContent = this.target;
+    }
+    
+    checkGameState() {
+        if (this.score >= this.target) {
+            this.levelComplete();
+        } else if (this.moves <= 0) {
+            this.gameOver();
+        }
+    }
+    
+    levelComplete() {
+        document.getElementById('finalScore').textContent = this.score;
+        document.getElementById('levelComplete').classList.add('show');
+    }
+    
+    nextLevel() {
+        this.level++;
+        this.target = Math.floor(this.target * 1.5);
+        this.moves = 30;
+        this.comboCount = 0;
+        this.generateBoard();
+        this.updateUI();
+        document.getElementById('levelComplete').classList.remove('show');
+    }
+    
+    gameOver() {
+        setTimeout(() => {
+            if (confirm(`游戏结束！你的最终得分是 ${this.score}。要重新开始吗？`)) {
+                this.restartGame();
+            }
+        }, 500);
+    }
+    
+    restartGame() {
+        this.score = 0;
+        this.level = 1;
+        this.moves = 30;
+        this.target = 1000;
+        this.comboCount = 0;
+        this.selectedCell = null;
+        this.particles = [];
+        this.generateBoard();
+        this.updateUI();
     }
     
     draw() {
-        // Clear canvas
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         
-        // Draw background gradient
-        const gradient = this.ctx.createLinearGradient(0, 0, 0, this.canvas.height);
-        gradient.addColorStop(0, '#667eea');
-        gradient.addColorStop(1, '#764ba2');
-        this.ctx.fillStyle = gradient;
-        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-        
-        // Draw platforms
-        this.ctx.fillStyle = '#2c3e50';
-        for (let platform of this.platforms) {
-            this.ctx.fillRect(platform.x, platform.y, platform.width, platform.height);
+        // Draw background grid
+        this.ctx.strokeStyle = '#e0e0e0';
+        this.ctx.lineWidth = 1;
+        for (let i = 0; i <= this.gridSize; i++) {
+            this.ctx.beginPath();
+            this.ctx.moveTo(i * this.cellSize, 0);
+            this.ctx.lineTo(i * this.cellSize, this.canvas.height);
+            this.ctx.stroke();
+            
+            this.ctx.beginPath();
+            this.ctx.moveTo(0, i * this.cellSize);
+            this.ctx.lineTo(this.canvas.width, i * this.cellSize);
+            this.ctx.stroke();
         }
         
-        // Draw player
-        this.ctx.fillStyle = '#e74c3c';
-        this.ctx.fillRect(this.player.x, this.player.y, this.player.width, this.player.height);
-        
-        // Draw eyes
-        this.ctx.fillStyle = 'white';
-        this.ctx.fillRect(this.player.x + 5, this.player.y + 5, 6, 6);
-        this.ctx.fillRect(this.player.x + 19, this.player.y + 5, 6, 6);
-        this.ctx.fillStyle = 'black';
-        this.ctx.fillRect(this.player.x + 7, this.player.y + 7, 2, 2);
-        this.ctx.fillRect(this.player.x + 21, this.player.y + 7, 2, 2);
-        
-        // Draw nucleotides
-        for (let nucleotide of this.nucleotides) {
-            if (!nucleotide.collected) {
-                this.ctx.fillStyle = nucleotide.color;
-                this.ctx.fillRect(nucleotide.x, nucleotide.y, 20, 20);
+        // Draw cells
+        for (let row = 0; row < this.gridSize; row++) {
+            for (let col = 0; col < this.gridSize; col++) {
+                const cell = this.board[row][col];
+                if (!cell) continue;
+                
+                // Animate position
+                const dx = cell.targetX - cell.x;
+                const dy = cell.targetY - cell.y;
+                if (Math.abs(dx) > 1 || Math.abs(dy) > 1) {
+                    cell.x += dx * 0.2;
+                    cell.y += dy * 0.2;
+                } else {
+                    cell.x = cell.targetX;
+                    cell.y = cell.targetY;
+                }
+                
+                this.ctx.save();
+                this.ctx.translate(cell.x + this.cellSize/2, cell.y + this.cellSize/2);
+                this.ctx.scale(cell.scale, cell.scale);
+                this.ctx.rotate(cell.rotation);
+                
+                // Draw nucleotide
+                const gradient = this.ctx.createRadialGradient(0, 0, 0, 0, 0, this.cellSize/2 - 5);
+                gradient.addColorStop(0, this.colors[cell.type]);
+                gradient.addColorStop(1, this.adjustColor(this.colors[cell.type], -20));
+                
+                this.ctx.fillStyle = gradient;
+                this.ctx.beginPath();
+                this.ctx.arc(0, 0, this.cellSize/2 - 5, 0, Math.PI * 2);
+                this.ctx.fill();
+                
+                // Draw shadow
+                this.ctx.fillStyle = 'rgba(0,0,0,0.1)';
+                this.ctx.beginPath();
+                this.ctx.arc(2, 2, this.cellSize/2 - 5, 0, Math.PI * 2);
+                this.ctx.fill();
+                
+                // Draw letter
                 this.ctx.fillStyle = 'white';
-                this.ctx.font = '14px Courier New';
-                this.ctx.fillText(nucleotide.type, nucleotide.x + 6, nucleotide.y + 14);
+                this.ctx.font = 'bold 18px Inter';
+                this.ctx.textAlign = 'center';
+                this.ctx.textBaseline = 'middle';
+                this.ctx.fillText(cell.type, 0, 0);
+                
+                this.ctx.restore();
             }
+        }
+        
+        // Draw selection highlight
+        if (this.selectedCell) {
+            const cell = this.selectedCell;
+            this.ctx.strokeStyle = '#fff';
+            this.ctx.lineWidth = 3;
+            this.ctx.setLineDash([5, 5]);
+            this.ctx.strokeRect(cell.col * this.cellSize + 3, cell.row * this.cellSize + 3,
+                              this.cellSize - 6, this.cellSize - 6);
+            this.ctx.setLineDash([]);
+        }
+        
+        // Draw particles
+        for (let i = this.particles.length - 1; i >= 0; i--) {
+            const particle = this.particles[i];
+            particle.x += particle.vx;
+            particle.y += particle.vy;
+            particle.life -= particle.decay;
+            
+            if (particle.life <= 0) {
+                this.particles.splice(i, 1);
+                continue;
+            }
+            
+            this.ctx.fillStyle = `${particle.color}${Math.floor(particle.life * 255).toString(16).padStart(2, '0')}`;
+            this.ctx.beginPath();
+            this.ctx.arc(particle.x, particle.y, 3, 0, Math.PI * 2);
+            this.ctx.fill();
         }
     }
     
+    adjustColor(color, amount) {
+        const num = parseInt(color.replace("#", ""), 16);
+        const amt = Math.round(2.55 * amount);
+        const R = (num >> 16) + amt;
+        const G = (num >> 8 & 0x00FF) + amt;
+        const B = (num & 0x0000FF) + amt;
+        return "#" + (0x1000000 + (R < 255 ? R < 1 ? 0 : R : 255) * 0x10000 +
+            (G < 255 ? G < 1 ? 0 : G : 255) * 0x100 +
+            (B < 255 ? B < 1 ? 0 : B : 255)).toString(16).slice(1);
+    }
+    
     gameLoop() {
-        this.updatePlayer();
-        this.updateNucleotides();
-        
-        // Periodically spawn nucleotides
-        if (Date.now() - this.lastNucleotideTime > 1500 / this.gameSpeed) {
-            this.spawnNucleotide();
-            this.lastNucleotideTime = Date.now();
-        }
-        
         this.draw();
-        this.updateUI();
-        
         requestAnimationFrame(() => this.gameLoop());
     }
 }
 
 // Start the game
+let game;
 window.addEventListener('load', () => {
-    new RNAGame();
+    game = new RNAMatch3Game();
 });
 </script>
 

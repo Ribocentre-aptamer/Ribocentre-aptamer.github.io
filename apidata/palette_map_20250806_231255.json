@@ -1,0 +1,20 @@
+{
+  "Fluorophores": "#AEE1D6",
+  "Biologics & Signaling Molecules": "#7CCCCC",
+  "Nucleosides & Nucleotides": "#9AC8C9",
+  "Amino Acids & Peptides": "#B5C7ED",
+  "Viral": "#90A7E6",
+  "Pharmaceuticals": "#C4B1E0",
+  "Mammalian": "#D0B5E8",
+  "Bacteria": "#F6B5CB",
+  "Other": "#F5A6A6",
+  "RNA": "#FFB4B4",
+  "Prion": "#F6D6AD",
+  "Proteins": "#E8D7B7",
+  "cell": "#D9E89D",
+  "Parasite": "#AEE392",
+  "Nucleic Acids": "#8EC46C",
+  "Toxin": "#B7E7E1",
+  "Synthetic": "#C0E6BA",
+  "Others": "#C1C8E4"
+}
