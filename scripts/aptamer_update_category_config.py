@@ -12,6 +12,7 @@
 * **描述复用**：沿用旧 `description`；若旧文件里不存在，则用分类名本身。
 * **统计自动更新**：`metadata["categories"]` 会被刷新为实际分类总数。
 * **原文件安全**：在同目录生成 `.bak.json` 备份后再覆盖原文件。
+每次增加数据时，需要手动更新 category_config。然后使用 aptamer_color_update_categoryConfig.py 同步配色。
 
 用法
 ------

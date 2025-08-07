@@ -150,8 +150,8 @@ class AptamerTableGenerator {
                         transition: ${this.config.styling.transition};
                         font-size: 12px;
                         font-weight: 500;
-                        color: white;
-                        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+                        color: #882464;
+                        // text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
                         position: relative;
                         min-height: 40px;
                         vertical-align: middle;

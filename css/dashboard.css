@@ -710,3 +710,43 @@ body[data-page="structure"] .data-table-section .table td:nth-child(8) a:hover {
 .data-table-section .table td:hover {
     transform: none !important; /* 取消缩放 */
 } 
+
+.aptamer-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 4px 10px 4px 4px;
+  background: #f8f9fa;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.legend-item:hover {
+  box-shadow: 0 2px 8px rgba(80,0,73,0.10);
+  transform: scale(1.05);
+}
+.legend-color {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 7px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px #ccc;
+}
+.legend-label {
+  font-size: 13px;
+  color: #333;
+  font-weight: 500;
+}
+tr.highlighted, td.highlighted {
+  background: #fffbe6 !important;
+  box-shadow: 0 0 0 2px #52004933;
+  transition: background 0.2s, box-shadow 0.2s;
+} 

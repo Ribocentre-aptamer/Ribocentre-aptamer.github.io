@@ -5,6 +5,7 @@ sync_palette_morandi.py  ——  为任意数量的 aptamer JSON
   • 统一 Morandi 30 色调色板
   • 同步 category_config
   • 修复 data[*].background_color & category_info.primary_color
+  • 输出 palette_map.json 映射文件
 """
 
 import json, sys, datetime

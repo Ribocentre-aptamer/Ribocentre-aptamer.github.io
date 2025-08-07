@@ -169,12 +169,14 @@ permalink: /Ribocentre-aptamer/
       
       <div id="sheet1" class="sheet">
         <!-- Aptamer Squared Table Area -->
+        
         <div class="stat-panel">
           <div class="stat-header" onclick="toggleStats()">
             <span>▶ Aptamer Squared Table (click to toggle)</span>
             <span id="toggleIcon">-</span>
           </div>
           <div id="statsContent">
+          <div class="aptamer-legend" id="aptamerLegend"></div>
             <!-- 3D structure aptamer table with descriptive text -->
             <div class="aptamer-table-description">
               This table lists the ligands of aptamers with identified 3D structures:
@@ -213,6 +215,7 @@ permalink: /Ribocentre-aptamer/
   <script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
   <script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
   <script src="{{ site.baseurl }}/js/dashboard-aptamer.js"></script>
+  <script src="{{ site.baseurl }}/js/aptamer-legend.js"></script>
 
 
   <script>
@@ -296,6 +299,10 @@ permalink: /Ribocentre-aptamer/
       
       if (resetBtn && typeof resetAllFilters === 'function') {
         resetBtn.addEventListener('click', resetAllFilters);
+      }
+
+      if (typeof initAptamerLegend === 'function') {
+        initAptamerLegend();
       }
     });
   </script>
