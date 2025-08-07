@@ -4,7 +4,7 @@
     "version": "2.0",
     "last_updated": "2024-06-26",
     "total_items": 53,
-    "categories": 18
+    "categories": 17
   },
   "category_config": {
     "Fluorophores": {
@@ -22,9 +22,9 @@
       "description": "Biologics & Signaling Molecules"
     },
     "Nucleosides & Nucleotides": {
-      "primary_color": "#9AC8C9",
+      "primary_color": "#A6D1F2",
       "colors": [
-        "#9AC8C9"
+        "#A6D1F2"
       ],
       "description": "Nucleosides & Nucleotides"
     },
@@ -50,16 +50,16 @@
       "description": "Pharmaceuticals"
     },
     "Mammalian": {
-      "primary_color": "#D0B5E8",
+      "primary_color": "#E7B7E8",
       "colors": [
-        "#D0B5E8"
+        "#E7B7E8"
       ],
       "description": "Mammalian"
     },
     "Bacteria": {
-      "primary_color": "#F6B5CB",
+      "primary_color": "#F7B7A3",
       "colors": [
-        "#F6B5CB"
+        "#F7B7A3"
       ],
       "description": "Bacteria"
     },
@@ -71,67 +71,60 @@
       "description": "Other"
     },
     "RNA": {
-      "primary_color": "#FFB4B4",
+      "primary_color": "#FFD3B4",
       "colors": [
-        "#FFB4B4"
+        "#FFD3B4"
       ],
       "description": "RNA"
     },
     "Prion": {
-      "primary_color": "#F6D6AD",
+      "primary_color": "#F7E6AD",
       "colors": [
-        "#F6D6AD"
+        "#F7E6AD"
       ],
       "description": "Prion"
     },
     "Proteins": {
-      "primary_color": "#E8D7B7",
-      "colors": [
-        "#E8D7B7"
-      ],
-      "description": "Proteins"
-    },
-    "cell": {
       "primary_color": "#D9E89D",
       "colors": [
         "#D9E89D"
       ],
-      "description": "cell"
+      "description": "Proteins"
     },
-    "Parasite": {
+    "cell": {
       "primary_color": "#AEE392",
       "colors": [
         "#AEE392"
       ],
-      "description": "Parasite"
+      "description": "cell"
     },
-    "Nucleic Acids": {
+    "Parasite": {
       "primary_color": "#8EC46C",
       "colors": [
         "#8EC46C"
       ],
+      "description": "Parasite"
+    },
+    "Nucleic Acids": {
+      "primary_color": "#B8D0C5",
+      "colors": [
+        "#B8D0C5"
+      ],
       "description": "Nucleic Acids"
     },
     "Toxin": {
-      "primary_color": "#B7E7E1",
-      "colors": [
-        "#B7E7E1"
-      ],
-      "description": "Toxin"
-    },
-    "Synthetic": {
       "primary_color": "#C0E6BA",
       "colors": [
         "#C0E6BA"
       ],
-      "description": "Synthetic"
+      "description": "Toxin"
     },
-    "Others": {
+    "Synthetic": {
       "primary_color": "#C1C8E4",
       "colors": [
         "#C1C8E4"
       ],
-      "description": "Others"
+      "description": "Synthetic"
     }
   },
   "data": [
@@ -334,7 +327,7 @@
     {
       "name": "ATP",
       "link": "https://aptamer.ribocentre.org/_posts/ATP-aptamer",
-      "background_color": "#9AC8C9",
+      "background_color": "#A6D1F2",
       "position": {
         "row": 2,
         "column": 6
@@ -342,7 +335,7 @@
       "category": "Nucleosides & Nucleotides",
       "category_info": {
         "name": "Nucleosides & Nucleotides",
-        "primary_color": "#9AC8C9"
+        "primary_color": "#A6D1F2"
       }
     },
     {
@@ -418,7 +411,7 @@
     {
       "name": "GTP",
       "link": "https://aptamer.ribocentre.org/_posts/GTP-aptamer",
-      "background_color": "#9AC8C9",
+      "background_color": "#A6D1F2",
       "position": {
         "row": 3,
         "column": 3
@@ -426,7 +419,7 @@
       "category": "Nucleosides & Nucleotides",
       "category_info": {
         "name": "Nucleosides & Nucleotides",
-        "primary_color": "#9AC8C9"
+        "primary_color": "#A6D1F2"
       }
     },
     {
@@ -572,7 +565,7 @@
     {
       "name": "AML1",
       "link": "https://aptamer.ribocentre.org/_posts/AML1(RUNX1)-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 4,
         "column": 5
@@ -580,13 +573,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "Factor Xa",
       "link": "https://aptamer.ribocentre.org/_posts/Factor-Xa-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 4,
         "column": 6
@@ -594,13 +587,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "GRK2",
       "link": "https://aptamer.ribocentre.org/_posts/GRK2-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 4,
         "column": 7
@@ -608,13 +601,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "GlnRs",
       "link": "https://aptamer.ribocentre.org/_posts/GlnRs-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 4,
         "column": 8
@@ -622,13 +615,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "Hfq",
       "link": "https://aptamer.ribocentre.org/_posts/Hfq-aptamer",
-      "background_color": "#F6B5CB",
+      "background_color": "#F7B7A3",
       "position": {
         "row": 4,
         "column": 9
@@ -636,13 +629,13 @@
       "category": "Bacteria",
       "category_info": {
         "name": "Bacteria",
-        "primary_color": "#F6B5CB"
+        "primary_color": "#F7B7A3"
       }
     },
     {
       "name": "Human IgG",
       "link": "https://aptamer.ribocentre.org/_posts/IgG-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 5,
         "column": 1
@@ -650,13 +643,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "L-CCL2",
       "link": "https://aptamer.ribocentre.org/_posts/L-CCL2-aptamer.html",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 5,
         "column": 2
@@ -664,13 +657,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "PSMA",
       "link": "https://aptamer.ribocentre.org/_posts/PSMA-aptamer.html",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 5,
         "column": 3
@@ -678,13 +671,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "TetR",
       "link": "https://aptamer.ribocentre.org/_posts/TetR-aptamer",
-      "background_color": "#F6B5CB",
+      "background_color": "#F7B7A3",
       "position": {
         "row": 5,
         "column": 4
@@ -692,13 +685,13 @@
       "category": "Bacteria",
       "category_info": {
         "name": "Bacteria",
-        "primary_color": "#F6B5CB"
+        "primary_color": "#F7B7A3"
       }
     },
     {
       "name": "Thrombin",
       "link": "https://aptamer.ribocentre.org/_posts/Thrombin-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 5,
         "column": 5
@@ -706,13 +699,13 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
       "name": "eIF4A",
       "link": "https://aptamer.ribocentre.org/_posts/eIF4A-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 5,
         "column": 6
@@ -720,7 +713,7 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
@@ -740,7 +733,7 @@
     {
       "name": "ribosomal protein S8",
       "link": "https://aptamer.ribocentre.org/_posts/Ribosomal-protein-S8-aptamer",
-      "background_color": "#F6B5CB",
+      "background_color": "#F7B7A3",
       "position": {
         "row": 5,
         "column": 8
@@ -748,13 +741,13 @@
       "category": "Bacteria",
       "category_info": {
         "name": "Bacteria",
-        "primary_color": "#F6B5CB"
+        "primary_color": "#F7B7A3"
       }
     },
     {
       "name": "NF-kappaB",
       "link": "https://aptamer.ribocentre.org/_posts/NF-kappaB-aptamer",
-      "background_color": "#D0B5E8",
+      "background_color": "#E7B7E8",
       "position": {
         "row": 5,
         "column": 9
@@ -762,7 +755,7 @@
       "category": "Mammalian",
       "category_info": {
         "name": "Mammalian",
-        "primary_color": "#D0B5E8"
+        "primary_color": "#E7B7E8"
       }
     },
     {
@@ -796,7 +789,7 @@
     {
       "name": "HIV-1 TAR RNA",
       "link": "https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer.html",
-      "background_color": "#FFB4B4",
+      "background_color": "#FFD3B4",
       "position": {
         "row": 6,
         "column": 3
@@ -804,7 +797,7 @@
       "category": "RNA",
       "category_info": {
         "name": "RNA",
-        "primary_color": "#FFB4B4"
+        "primary_color": "#FFD3B4"
       }
     },
     {
@@ -838,7 +831,7 @@
     {
       "name": "Bovine prion",
       "link": "https://aptamer.ribocentre.org/_posts/Bovine-prion-protein-aptamer.html",
-      "background_color": "#F6D6AD",
+      "background_color": "#F7E6AD",
       "position": {
         "row": 6,
         "column": 6
@@ -846,7 +839,7 @@
       "category": "Prion",
       "category_info": {
         "name": "Prion",
-        "primary_color": "#F6D6AD"
+        "primary_color": "#F7E6AD"
       }
     },
     {

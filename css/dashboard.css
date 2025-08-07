@@ -730,6 +730,11 @@ body[data-page="structure"] .data-table-section .table td:nth-child(8) a:hover {
 .legend-item:hover {
   box-shadow: 0 2px 8px rgba(80,0,73,0.10);
   transform: scale(1.05);
+  background: #fff;
+}
+.legend-item.active {
+  box-shadow: 0 0 0 2px var(--legend-border, rgba(82,0,73,0.2));
+  background: #fff;
 }
 .legend-color {
   display: inline-block;
@@ -746,7 +751,7 @@ body[data-page="structure"] .data-table-section .table td:nth-child(8) a:hover {
   font-weight: 500;
 }
 tr.highlighted, td.highlighted {
-  background: #fffbe6 !important;
-  box-shadow: 0 0 0 2px #52004933;
+  background: var(--highlight-bg, #fff) !important;
+  box-shadow: inset 0 0 0 3px var(--highlight-border, #52004933);
   transition: background 0.2s, box-shadow 0.2s;
 } 
