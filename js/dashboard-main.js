@@ -459,9 +459,7 @@ const ChartModule = {
             values: displayValues,
             type: 'pie',
             hole: 0.4,
-            pull: displayCategories.map((category, i) =>
-                isFiltered[i] ? highlightConfig.pie.selectedOffset : 0
-            ),
+            pull: displayCategories.map(() => 0),
             marker: {
                 colors: displayCategories.map((category, i) => {
                     // 如果该类别被选中，使用高亮效果（白色填充 + 原色边框）
@@ -531,8 +529,10 @@ const ChartModule = {
             }
         };
         
-        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
-        
+        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig).then(() => {
+            applyPieHighlight('ligandChart', isFiltered);
+        });
+
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;
             FilterModule.toggleCategoryFilter(category);
