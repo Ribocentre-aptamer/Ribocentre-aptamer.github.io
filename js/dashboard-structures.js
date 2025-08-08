@@ -356,6 +356,11 @@
             x: allMethods,
             y: allMethods.map(method => visualizationMethodCounts[method] || 0),
             type: 'bar',
+            width: allMethods.map(method =>
+                hasMethodFilter && activeFilters.years.has(method)
+                    ? highlightConfig.bar.selectedWidth
+                    : highlightConfig.bar.defaultWidth
+            ),
             marker: {
                 color: allMethods.map((method, i) => {
                     if (hasMethodFilter && activeFilters.years.has(method)) {
@@ -370,7 +375,7 @@
                 line: {
                     width: allMethods.map(method => {
                         if (hasMethodFilter && activeFilters.years.has(method)) {
-                            return 3;
+                            return highlightConfig.bar.borderWidth;
                         }
                         return 1;
                     }),
@@ -497,6 +502,9 @@
             values: displayValues,
             type: 'pie',
             hole: 0.4,
+            pull: displayPhases.map((phase, i) =>
+                isFiltered[i] ? highlightConfig.pie.selectedOffset : 0
+            ),
             marker: {
                 colors: displayPhases.map((phase, i) => {
                     if (isFiltered[i]) {
@@ -513,7 +521,7 @@
                     }),
                     width: displayPhases.map((phase, i) => {
                         if (isFiltered[i]) {
-                            return 3;
+                            return highlightConfig.pie.borderWidth;
                         }
                         return 1;
                     })

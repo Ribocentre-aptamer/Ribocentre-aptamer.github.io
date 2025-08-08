@@ -390,6 +390,9 @@ ChartModule.createTypeChart = function() {
         values: displayValues,
         type: 'pie',
         hole: 0.4,
+        pull: displayTypes.map((type, i) =>
+            isFiltered[i] ? highlightConfig.pie.selectedOffset : 0
+        ),
         marker: {
             colors: displayTypes.map((type, i) => {
                 // 如果该类型被选中，使用高亮效果（白色填充 + 原色边框）
@@ -408,7 +411,7 @@ ChartModule.createTypeChart = function() {
                 }),
                 width: displayTypes.map((type, i) => {
                     if (isFiltered[i]) {
-                        return 3;
+                        return highlightConfig.pie.borderWidth;
                     }
                     return 1;
                 })
