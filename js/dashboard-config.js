@@ -104,19 +104,21 @@ function applyPieHighlight(chartId, selectedFlags) {
         frame: { duration: highlightConfig.pie.animationDuration, redraw: false }
     });
 
-    // 应用阴影和缩放效果
-    const slices = gd.querySelectorAll('.slice path');
-    slices.forEach((slice, idx) => {
-        slice.style.transition = `transform ${highlightConfig.pie.animationDuration}ms ease, filter ${highlightConfig.pie.animationDuration}ms ease`;
-        if (selectedFlags[idx]) {
-            slice.style.transform = `scale(${highlightConfig.pie.scale})`;
-            slice.style.transformOrigin = 'center';
-            slice.style.filter = `drop-shadow(${highlightConfig.pie.shadow})`;
-        } else {
-            slice.style.transform = '';
-            slice.style.filter = '';
-        }
-    });
+    // 应用阴影和缩放效果，需在动画完成后执行以避免DOM重绘导致的样式丢失
+    setTimeout(() => {
+        const sliceSelection = Plotly.d3.select(gd).selectAll('.slice path');
+        sliceSelection.each(function(d, i) {
+            this.style.transition = `transform ${highlightConfig.pie.animationDuration}ms ease, filter ${highlightConfig.pie.animationDuration}ms ease`;
+            if (selectedFlags[i]) {
+                this.style.transform = `scale(${highlightConfig.pie.scale})`;
+                this.style.transformOrigin = 'center';
+                this.style.filter = `drop-shadow(${highlightConfig.pie.shadow})`;
+            } else {
+                this.style.transform = '';
+                this.style.filter = '';
+            }
+        });
+    }, highlightConfig.pie.animationDuration);
 }
 
 // 导出以便其他脚本调用
@@ -266,17 +268,6 @@ function hideAmirTooltip() {
 }
 
 
-// 根据背景色计算对比文字颜色
-function getContrastColor(color) {
-    if (!color) return '#333';
-    const hex = color.replace('#', '');
-    const r = parseInt(hex.substring(0, 2), 16);
-    const g = parseInt(hex.substring(2, 4), 16);
-    const b = parseInt(hex.substring(4, 6), 16);
-    const yiq = (r * 299 + g * 587 + b * 114) / 1000;
-    return yiq >= 128 ? '#333' : '#fff';
-}
-
 // 获取节点层级标签（A/B/C...）
 function getNodeLevel(nodeId) {
     const index = nodeInteractionOrder.indexOf(nodeId);
@@ -287,13 +278,9 @@ function getNodeLevel(nodeId) {
 // 创建筛选标签，使用图例风格展示颜色
 function createFilterTag(text, onRemove, color, nodeId) {
     const tag = document.createElement('div');
-    tag.className = 'filter-tag active';
-    let textColor = '#333';
+    tag.className = 'filter-tag';
     if (color) {
         tag.style.setProperty('--legend-border', color);
-        tag.style.backgroundColor = color;
-        textColor = getContrastColor(color);
-        tag.style.color = textColor;
     }
     const levelLabel = getNodeLevel(nodeId);
     tag.innerHTML = `
