@@ -212,15 +212,19 @@ function hideAmirTooltip() {
     tooltip.style.opacity = '0';
 }
 
-// 创建筛选标签
-function createFilterTag(text, onRemove) {
+// 创建筛选标签，使用图例风格展示颜色
+function createFilterTag(text, onRemove, color) {
     const tag = document.createElement('div');
-    tag.className = 'filter-tag';
+    tag.className = 'filter-tag active';
+    if (color) {
+        tag.style.setProperty('--legend-border', color);
+    }
     tag.innerHTML = `
+        <span class="legend-color" style="background:${color || '#e0e0e0'}"></span>
         <span class="filter-tag-text">${text}</span>
         <button class="filter-tag-remove" type="button">×</button>
     `;
-    
+
     tag.querySelector('.filter-tag-remove').addEventListener('click', onRemove);
     return tag;
 }
