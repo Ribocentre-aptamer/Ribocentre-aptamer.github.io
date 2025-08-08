@@ -225,15 +225,30 @@ function hideAmirTooltip() {
     tooltip.style.opacity = '0';
 }
 
-// 创建筛选标签
-function createFilterTag(text, onRemove) {
+// 计算给定背景色的对比文本色
+function getContrastColor(hex) {
+    if (!hex) return '#333';
+    const c = hex.replace('#', '');
+    const r = parseInt(c.substr(0, 2), 16);
+    const g = parseInt(c.substr(2, 2), 16);
+    const b = parseInt(c.substr(4, 2), 16);
+    const yiq = (r * 299 + g * 587 + b * 114) / 1000;
+    return yiq >= 150 ? '#333' : '#fff';
+}
+
+// 创建筛选标签，支持自定义颜色
+function createFilterTag(text, onRemove, color) {
     const tag = document.createElement('div');
     tag.className = 'filter-tag';
+    if (color) {
+        tag.style.background = color;
+        tag.style.color = getContrastColor(color);
+    }
     tag.innerHTML = `
         <span class="filter-tag-text">${text}</span>
         <button class="filter-tag-remove" type="button">×</button>
     `;
-    
+
     tag.querySelector('.filter-tag-remove').addEventListener('click', onRemove);
     return tag;
 }

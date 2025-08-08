@@ -698,34 +698,58 @@ const originalUpdateFilterTags = FilterModule.updateFilterTags;
 FilterModule.updateFilterTags = function() {
     const tagsContainer = document.getElementById('filterTags');
     if (!tagsContainer) return;
-    
+
     tagsContainer.innerHTML = '';
-    
+
+    // 颜色映射
+    const allYears = [...new Set(originalData.map(d => d.year))].sort();
+    const yearColorMap = {};
+    allYears.forEach((year, i) => {
+        yearColorMap[year] = morandiColors[i % morandiColors.length];
+    });
+
+    const allCategories = [...new Set(originalData.map(d => d.category))];
+    const categoryColorMap = {};
+    allCategories.forEach((cat, i) => {
+        if (categoryPaletteMap && categoryPaletteMap[cat]) {
+            categoryColorMap[cat] = categoryPaletteMap[cat];
+        } else {
+            categoryColorMap[cat] = morandiColors[i % morandiColors.length];
+        }
+    });
+
+    const typeColorMap = {};
+    if (typeof displayTypes !== 'undefined') {
+        displayTypes.forEach((type, i) => {
+            typeColorMap[type] = morandiColors[i % morandiColors.length];
+        });
+    }
+
     // Year tags
     activeFilters.years.forEach(year => {
-        const tag = createFilterTag(`Year: ${year}`, () => this.toggleYearFilter(year));
+        const tag = createFilterTag(`Year: ${year}`, () => this.toggleYearFilter(year), yearColorMap[year]);
         tagsContainer.appendChild(tag);
     });
-    
+
     // Category tags
     activeFilters.categories.forEach(category => {
-        const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category));
+        const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category), categoryColorMap[category]);
         tagsContainer.appendChild(tag);
     });
-    
+
     // Type tags
     if (activeFilters.types) {
         activeFilters.types.forEach(type => {
-            const tag = createFilterTag(`Type: ${type}`, () => this.toggleTypeFilter(type));
+            const tag = createFilterTag(`Type: ${type}`, () => this.toggleTypeFilter(type), typeColorMap[type]);
             tagsContainer.appendChild(tag);
         });
     }
-    
+
     // Scatter plot filter tag
     if (activeFilters.scatterSelection) {
         const sel = activeFilters.scatterSelection;
         const text = `Range: ${sel.xrange[0].toFixed(0)}-${sel.xrange[1].toFixed(0)}bp, ${sel.yrange[0].toFixed(1)}-${sel.yrange[1].toFixed(1)}%`;
-        const tag = createFilterTag(text, () => this.clearScatterSelection());
+        const tag = createFilterTag(text, () => this.clearScatterSelection(), morandiHighlight);
         tagsContainer.appendChild(tag);
     }
     
