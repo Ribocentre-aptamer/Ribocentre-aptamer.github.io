@@ -60,7 +60,10 @@ const highlightConfig = {
     },
     pie: {
         selectedOffset: 0.05,
-        borderWidth: 3
+        borderWidth: 3,
+        scale: 1.05,
+        shadow: '0px 0px 8px rgba(0,0,0,0.4)',
+        animationDuration: 300
     }
 };
 
@@ -81,6 +84,43 @@ function removeHighlightStyle(elements) {
         el.style.removeProperty('--highlight-bg');
     });
 }
+
+// 对饼图扇形应用动画和阴影高亮效果
+function applyPieHighlight(chartId, selectedFlags) {
+    const gd = document.getElementById(chartId);
+    if (!gd) return;
+
+    // 根据选中状态构建最终的pull数组
+    const pullFinal = selectedFlags.map(flag =>
+        flag ? highlightConfig.pie.selectedOffset : 0
+    );
+
+    // 执行动画，使扇形向外移动
+    Plotly.animate(gd, { data: [{ pull: pullFinal }] }, {
+        transition: {
+            duration: highlightConfig.pie.animationDuration,
+            easing: 'cubic-in-out'
+        },
+        frame: { duration: highlightConfig.pie.animationDuration, redraw: false }
+    });
+
+    // 应用阴影和缩放效果
+    const slices = gd.querySelectorAll('.slice path');
+    slices.forEach((slice, idx) => {
+        slice.style.transition = `transform ${highlightConfig.pie.animationDuration}ms ease, filter ${highlightConfig.pie.animationDuration}ms ease`;
+        if (selectedFlags[idx]) {
+            slice.style.transform = `scale(${highlightConfig.pie.scale})`;
+            slice.style.transformOrigin = 'center';
+            slice.style.filter = `drop-shadow(${highlightConfig.pie.shadow})`;
+        } else {
+            slice.style.transform = '';
+            slice.style.filter = '';
+        }
+    });
+}
+
+// 导出以便其他脚本调用
+window.applyPieHighlight = applyPieHighlight;
 
 // ====== 图表配置 ======
 const chartConfig = {
