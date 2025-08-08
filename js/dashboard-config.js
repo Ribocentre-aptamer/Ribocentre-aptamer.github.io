@@ -51,6 +51,19 @@ const morandiColors = [
 const morandiHighlight = '#7D807F'; // 柔和深灰，作为高亮边框
 const morandiDim = 'rgba(180,180,180,0.3)'; // 非高亮部分叠加的半透明灰
 
+// 选中状态样式配置
+const highlightConfig = {
+    bar: {
+        defaultWidth: 0.8,
+        selectedWidth: 0.72,
+        borderWidth: 3
+    },
+    pie: {
+        selectedOffset: 0.05,
+        borderWidth: 3
+    }
+};
+
 // 参考aptamer-legend.js的高亮效果：
 // 选中元素背景变为白色，并以内置的原始颜色作为内边框
 function applyHighlightStyle(elements, baseColor) {
@@ -218,6 +231,7 @@ function createFilterTag(text, onRemove, color) {
     tag.className = 'filter-tag active';
     if (color) {
         tag.style.setProperty('--legend-border', color);
+
     }
     tag.innerHTML = `
         <span class="legend-color" style="background:${color || '#e0e0e0'}"></span>
