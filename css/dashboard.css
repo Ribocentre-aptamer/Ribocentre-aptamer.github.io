@@ -120,28 +120,23 @@
 }
 
 .filter-tag {
-    background: #e0e0e0;
-    color: #333;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
     display: flex;
     align-items: center;
     cursor: default;
     border-radius: 16px;
     padding: 4px 10px 4px 4px;
     background: #f8f9fa;
-    transition: box-shadow 0.2s, transform 0.2s;
+    transition: box-shadow 0.2s, transform 0.2s, filter 0.2s;
 }
 
 .filter-tag:hover {
     box-shadow: 0 2px 8px rgba(80,0,73,0.10);
-    background: #fff;
+    filter: brightness(1.1);
+
 }
 
 .filter-tag.active {
     box-shadow: 0 0 0 2px var(--legend-border, rgba(82,0,73,0.2));
-    background: #fff;
 }
 
 .filter-tag .legend-color {
@@ -156,8 +151,17 @@
 
 .filter-tag-text {
     font-size: 13px;
-    color: #333;
+    color: inherit;
     font-weight: 500;
+}
+
+.filter-tag-level {
+    margin-left: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 0 4px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.3);
 }
 
 .filter-tag-remove {

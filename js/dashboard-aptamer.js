@@ -727,20 +727,20 @@ FilterModule.updateFilterTags = function() {
 
     // Year tags
     activeFilters.years.forEach(year => {
-        const tag = createFilterTag(`Year: ${year}`, () => this.toggleYearFilter(year), yearColorMap[year]);
+        const tag = createFilterTag(`Year: ${year}`, () => this.toggleYearFilter(year), yearColorMap[year], 'yearChart');
         tagsContainer.appendChild(tag);
     });
 
     // Category tags
     activeFilters.categories.forEach(category => {
-        const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category), categoryColorMap[category]);
+        const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category), categoryColorMap[category], 'ligandChart');
         tagsContainer.appendChild(tag);
     });
 
     // Type tags
     if (activeFilters.types) {
         activeFilters.types.forEach(type => {
-            const tag = createFilterTag(`Type: ${type}`, () => this.toggleTypeFilter(type), typeColorMap[type]);
+            const tag = createFilterTag(`Type: ${type}`, () => this.toggleTypeFilter(type), typeColorMap[type], 'typeChart');
             tagsContainer.appendChild(tag);
         });
     }
@@ -749,7 +749,7 @@ FilterModule.updateFilterTags = function() {
     if (activeFilters.scatterSelection) {
         const sel = activeFilters.scatterSelection;
         const text = `Range: ${sel.xrange[0].toFixed(0)}-${sel.xrange[1].toFixed(0)}bp, ${sel.yrange[0].toFixed(1)}-${sel.yrange[1].toFixed(1)}%`;
-        const tag = createFilterTag(text, () => this.clearScatterSelection(), morandiHighlight);
+        const tag = createFilterTag(text, () => this.clearScatterSelection(), morandiHighlight, 'scatterChart');
         tagsContainer.appendChild(tag);
     }
     
