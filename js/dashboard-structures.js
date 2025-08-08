@@ -805,20 +805,22 @@
             tagsContainer.innerHTML = '';
 
             // 颜色映射
-            const allMethods = [...new Set(originalData.map(d => d.method))].sort();
+            // 使用结构确定方法和相位确定策略字段计算颜色映射，
+            // 与图表中使用的颜色保持一致
+            const allMethods = [...new Set(
+                originalData.map(d => d['Structure Determination'] || 'Unknown')
+            )].sort();
             const methodColorMap = {};
             allMethods.forEach((m, i) => {
                 methodColorMap[m] = morandiColors[i % morandiColors.length];
             });
 
-            const allCategories = [...new Set(originalData.map(d => d.category))];
+            const allCategories = [...new Set(
+                filteredData.map(d => d['Phase Determination'] || 'Unknown')
+            )].sort();
             const categoryColorMap = {};
             allCategories.forEach((cat, i) => {
-                if (categoryPaletteMap && categoryPaletteMap[cat]) {
-                    categoryColorMap[cat] = categoryPaletteMap[cat];
-                } else {
-                    categoryColorMap[cat] = morandiColors[i % morandiColors.length];
-                }
+                categoryColorMap[cat] = morandiColors[i % morandiColors.length];
             });
 
             // 将年份筛选标签前缀改为 Methods
