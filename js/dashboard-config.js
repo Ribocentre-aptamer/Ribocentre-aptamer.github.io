@@ -212,15 +212,43 @@ function hideAmirTooltip() {
     tooltip.style.opacity = '0';
 }
 
-// 创建筛选标签
-function createFilterTag(text, onRemove) {
+// 根据背景色计算对比文字颜色
+function getContrastColor(color) {
+    if (!color) return '#333';
+    const hex = color.replace('#', '');
+    const r = parseInt(hex.substring(0, 2), 16);
+    const g = parseInt(hex.substring(2, 4), 16);
+    const b = parseInt(hex.substring(4, 6), 16);
+    const yiq = (r * 299 + g * 587 + b * 114) / 1000;
+    return yiq >= 128 ? '#333' : '#fff';
+}
+
+// 获取节点层级标签（A/B/C...）
+function getNodeLevel(nodeId) {
+    const index = nodeInteractionOrder.indexOf(nodeId);
+    const labels = ['A', 'B', 'C', 'D'];
+    return index >= 0 ? labels[index] : '';
+}
+
+// 创建筛选标签，使用图例风格展示颜色
+function createFilterTag(text, onRemove, color, nodeId) {
     const tag = document.createElement('div');
-    tag.className = 'filter-tag';
+    tag.className = 'filter-tag active';
+    let textColor = '#333';
+    if (color) {
+        tag.style.setProperty('--legend-border', color);
+        tag.style.backgroundColor = color;
+        textColor = getContrastColor(color);
+        tag.style.color = textColor;
+    }
+    const levelLabel = getNodeLevel(nodeId);
     tag.innerHTML = `
+        <span class="legend-color" style="background:${color || '#e0e0e0'}"></span>
         <span class="filter-tag-text">${text}</span>
+        ${levelLabel ? `<span class="filter-tag-level">${levelLabel}</span>` : ''}
         <button class="filter-tag-remove" type="button">×</button>
     `;
-    
+
     tag.querySelector('.filter-tag-remove').addEventListener('click', onRemove);
     return tag;
 }
