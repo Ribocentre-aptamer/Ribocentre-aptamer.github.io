@@ -823,6 +823,13 @@
                 methodColorMap[m] = morandiColors[i % morandiColors.length];
             });
 
+            const allCategories = [...new Set(
+                filteredData.map(d => d['Phase Determination'] || 'Unknown')
+            )].sort();
+            const categoryColorMap = {};
+            allCategories.forEach((cat, i) => {
+                categoryColorMap[cat] = morandiColors[i % morandiColors.length];
+            });
             // 将年份筛选标签前缀改为 Methods
             activeFilters.years.forEach(year => {
                 const tag = createFilterTag(`Methods: ${year}`, () => this.toggleYearFilter(year), methodColorMap[year], 'yearChart');
