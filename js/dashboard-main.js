@@ -265,6 +265,11 @@ const ChartModule = {
             x: allYears,
             y: allYears.map(year => visualizationYearCounts[year] || 0), // 使用可视化数据源的计数
             type: 'bar',
+            width: allYears.map(year =>
+                hasYearFilter && activeFilters.years.has(year)
+                    ? highlightConfig.bar.selectedWidth
+                    : highlightConfig.bar.defaultWidth
+            ),
             marker: {
                 color: allYears.map((year, i) => {
                     // 如果该年份被选中，使用高亮效果（白色填充 + 原色边框）
@@ -282,7 +287,7 @@ const ChartModule = {
                 line: {
                     width: allYears.map(year => {
                         if (hasYearFilter && activeFilters.years.has(year)) {
-                            return 3;
+                            return highlightConfig.bar.borderWidth;
                         }
                         return 1;
                     }),
@@ -294,10 +299,10 @@ const ChartModule = {
                     })
                 }
             },
-            hovertemplate: '<b>Year: %{x}</b><br>' + 
+            hovertemplate: '<b>Year: %{x}</b><br>' +
                           'Count: %{y}<br>' +
                           'Click for multi-select filter<extra></extra>',
-            hoverlabel: { 
+            hoverlabel: {
                 bgcolor: 'white', 
                 bordercolor: morandiHighlight,
                 font: { size: 12, color: '#333' },
@@ -454,6 +459,7 @@ const ChartModule = {
             values: displayValues,
             type: 'pie',
             hole: 0.4,
+            pull: displayCategories.map(() => 0),
             marker: {
                 colors: displayCategories.map((category, i) => {
                     // 如果该类别被选中，使用高亮效果（白色填充 + 原色边框）
@@ -471,7 +477,7 @@ const ChartModule = {
                     }),
                     width: displayCategories.map((category, i) => {
                         if (isFiltered[i]) {
-                            return 3;
+                            return highlightConfig.pie.borderWidth;
                         }
                         return 1;
                     })
@@ -523,8 +529,10 @@ const ChartModule = {
             }
         };
         
-        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
-        
+        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig).then(() => {
+            applyPieHighlight('ligandChart', isFiltered);
+        });
+
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;
             FilterModule.toggleCategoryFilter(category);

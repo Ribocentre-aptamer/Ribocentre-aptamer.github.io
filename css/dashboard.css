@@ -132,6 +132,7 @@
 .filter-tag:hover {
     box-shadow: 0 2px 8px rgba(80,0,73,0.10);
     filter: brightness(1.1);
+
 }
 
 .filter-tag.active {
