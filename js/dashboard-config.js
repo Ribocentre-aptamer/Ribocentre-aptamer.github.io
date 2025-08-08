@@ -225,26 +225,16 @@ function hideAmirTooltip() {
     tooltip.style.opacity = '0';
 }
 
-// 计算给定背景色的对比文本色
-function getContrastColor(hex) {
-    if (!hex) return '#333';
-    const c = hex.replace('#', '');
-    const r = parseInt(c.substr(0, 2), 16);
-    const g = parseInt(c.substr(2, 2), 16);
-    const b = parseInt(c.substr(4, 2), 16);
-    const yiq = (r * 299 + g * 587 + b * 114) / 1000;
-    return yiq >= 150 ? '#333' : '#fff';
-}
-
-// 创建筛选标签，支持自定义颜色
+// 创建筛选标签，使用图例风格展示颜色
 function createFilterTag(text, onRemove, color) {
     const tag = document.createElement('div');
-    tag.className = 'filter-tag';
+    tag.className = 'filter-tag active';
     if (color) {
-        tag.style.background = color;
-        tag.style.color = getContrastColor(color);
+        tag.style.setProperty('--legend-border', color);
+
     }
     tag.innerHTML = `
+        <span class="legend-color" style="background:${color || '#e0e0e0'}"></span>
         <span class="filter-tag-text">${text}</span>
         <button class="filter-tag-remove" type="button">×</button>
     `;

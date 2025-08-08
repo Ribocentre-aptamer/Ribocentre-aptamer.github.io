@@ -127,17 +127,43 @@
     font-size: 12px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    cursor: default;
+    border-radius: 16px;
+    padding: 4px 10px 4px 4px;
+    background: #f8f9fa;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.filter-tag:hover {
+    box-shadow: 0 2px 8px rgba(80,0,73,0.10);
+    background: #fff;
+}
+
+.filter-tag.active {
+    box-shadow: 0 0 0 2px var(--legend-border, rgba(82,0,73,0.2));
+    background: #fff;
+}
+
+.filter-tag .legend-color {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 7px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px #ccc;
 }
 
 .filter-tag-text {
+    font-size: 13px;
+    color: #333;
     font-weight: 500;
 }
 
 .filter-tag-remove {
     background: none;
     border: none;
-    color: inherit;
+    color: #666;
     font-size: 16px;
     line-height: 1;
     cursor: pointer;
