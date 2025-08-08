@@ -11,6 +11,12 @@ if (window.location.pathname.includes('Ribocentre-aptamer')) {
 
 // ====== 原有代码继续 ======
 
+// 在全局范围内保存当前饼图的类型标签，供其他模块或调试使用
+// 之前此变量只在 createTypeChart 内部声明，若其他地方意外引用会导致
+// "displayTypes is not defined" 的报错。这里提升为模块级变量，并在
+// createTypeChart 中更新它。
+let displayTypes = [];
+
 // 扩展DataModule.loadData方法，处理aptamer特有的数据字段
 const originalLoadData = DataModule.loadData;
 DataModule.loadData = async function() {
@@ -341,7 +347,8 @@ ChartModule.createTypeChart = function() {
     }
     
     // 只显示有数据的类型
-    const displayTypes = pieData.filter(d => d.count > 0).map(d => d.type);
+    // 更新全局 displayTypes 以避免外部引用时报错
+    displayTypes = pieData.filter(d => d.count > 0).map(d => d.type);
     const displayValues = pieData.filter(d => d.count > 0).map(d => d.count);
     const isFiltered = pieData.filter(d => d.count > 0).map(d => d.isFiltered);
     
@@ -376,6 +383,8 @@ ChartModule.createTypeChart = function() {
         'Unknown': 'Aptamers with unspecified target type'
     };
     
+    const baseColors = displayTypes.map((type, i) => morandiColors[i % morandiColors.length]);
+
     const trace = {
         labels: displayTypes,
         values: displayValues,
@@ -383,17 +392,17 @@ ChartModule.createTypeChart = function() {
         hole: 0.4,
         marker: {
             colors: displayTypes.map((type, i) => {
-                // 如果该类型被选中，使用高亮颜色
+                // 如果该类型被选中，使用高亮效果（白色填充 + 原色边框）
                 if (isFiltered[i]) {
-                    return morandiHighlight;
+                    return '#fff';
                 }
                 // 正常颜色
-                return morandiColors[i % morandiColors.length];
+                return baseColors[i];
             }),
             line: {
                 color: displayTypes.map((type, i) => {
                     if (isFiltered[i]) {
-                        return '#333';
+                        return baseColors[i];
                     }
                     return 'white';
                 }),
@@ -406,7 +415,10 @@ ChartModule.createTypeChart = function() {
             }
         },
         textinfo: 'percent',
-        textfont: { size: 11, color: 'white' },
+        textfont: {
+            size: 11,
+            color: displayTypes.map((type, i) => isFiltered[i] ? baseColors[i] : 'white')
+        },
         hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click for multi-select filter</i><extra></extra>',
         hoverlabel: { 
             bgcolor: 'white', 
