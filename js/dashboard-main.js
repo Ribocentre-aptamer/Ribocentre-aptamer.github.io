@@ -260,22 +260,23 @@ const ChartModule = {
         const hasAnyFilter = nodeInteractionOrder.length > 0;
         
         // 柱状图始终显示所有年份，但基于可视化数据源
+        const baseColors = allYears.map((year, i) => morandiColors[i % morandiColors.length]);
         const trace = {
             x: allYears,
             y: allYears.map(year => visualizationYearCounts[year] || 0), // 使用可视化数据源的计数
             type: 'bar',
             marker: {
                 color: allYears.map((year, i) => {
-                    // 如果该年份被选中，使用高亮颜色
+                    // 如果该年份被选中，使用高亮效果（白色填充 + 原色边框）
                     if (hasYearFilter && activeFilters.years.has(year)) {
-                        return morandiHighlight;
+                        return '#fff';
                     }
                     // 如果有筛选但该年份没有数据，使用暗淡颜色
                     if (hasAnyFilter && (!visualizationYearCounts[year] || visualizationYearCounts[year] === 0)) {
                         return morandiDim;
                     }
                     // 正常颜色
-                    return morandiColors[i % morandiColors.length];
+                    return baseColors[i];
                 }),
                 opacity: 1.0,
                 line: {
@@ -285,9 +286,9 @@ const ChartModule = {
                         }
                         return 1;
                     }),
-                    color: allYears.map(year => {
+                    color: allYears.map((year, i) => {
                         if (hasYearFilter && activeFilters.years.has(year)) {
-                            return '#333';
+                            return baseColors[i];
                         }
                         return 'white';
                     })
@@ -441,6 +442,13 @@ const ChartModule = {
             return;
         }
         
+        const baseColors = displayCategories.map((category, i) => {
+            if (categoryPaletteMap && categoryPaletteMap[category]) {
+                return categoryPaletteMap[category];
+            }
+            return morandiColors[i % morandiColors.length];
+        });
+
         const trace = {
             labels: displayCategories,
             values: displayValues,
@@ -448,21 +456,16 @@ const ChartModule = {
             hole: 0.4,
             marker: {
                 colors: displayCategories.map((category, i) => {
-                    // 如果该类别被选中，使用高亮颜色
+                    // 如果该类别被选中，使用高亮效果（白色填充 + 原色边框）
                     if (isFiltered[i]) {
-                        return morandiHighlight;
+                        return '#fff';
                     }
-                    // palette_map优先
-                    if (categoryPaletteMap && categoryPaletteMap[category]) {
-                        return categoryPaletteMap[category];
-                    }
-                    // fallback
-                    return morandiColors[i % morandiColors.length];
+                    return baseColors[i];
                 }),
                 line: {
                     color: displayCategories.map((category, i) => {
                         if (isFiltered[i]) {
-                            return '#333';
+                            return baseColors[i];
                         }
                         return 'white';
                     }),
@@ -475,7 +478,10 @@ const ChartModule = {
                 }
             },
             textinfo: 'percent',
-            textfont: { size: 11, color: 'white' },
+            textfont: {
+                size: 11,
+                color: displayCategories.map((category, i) => isFiltered[i] ? baseColors[i] : 'white')
+            },
             hoverinfo: 'label+value+percent',
             hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
             hoverlabel: { 
@@ -617,8 +623,8 @@ const ChartModule = {
         // 确定每个点的颜色和大小
         const colors = dataForVisualization.map((d, i) => {
             if (hasScatterSelection && nodeFrozenState.scatterChart && scatterSelected.includes(i)) {
-                // 被选中的点使用高亮颜色
-                return morandiHighlight;
+                // 被选中的点使用高亮效果（白色填充 + 原色边框）
+                return '#fff';
             }
             // 正常颜色
             return yearColorMap[d.year];
@@ -649,14 +655,19 @@ const ChartModule = {
                     }
                     return 0.8;
                 }),
-                line: { 
+                line: {
                     width: dataForVisualization.map((d, i) => {
                         if (hasScatterSelection && nodeFrozenState.scatterChart && scatterSelected.includes(i)) {
                             return 2;
                         }
                         return 1;
-                    }), 
-                    color: 'white' 
+                    }),
+                    color: dataForVisualization.map((d, i) => {
+                        if (hasScatterSelection && nodeFrozenState.scatterChart && scatterSelected.includes(i)) {
+                            return yearColorMap[d.year];
+                        }
+                        return 'white';
+                    })
                 }
             },
             hovertemplate: '<b>%{text}</b><br>Length: %{x} bp<br>GC Content: %{y}%<br>Year: %{customdata[0]}<br>Category: %{customdata[1]}<extra></extra>',

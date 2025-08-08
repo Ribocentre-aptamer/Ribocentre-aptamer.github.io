@@ -351,6 +351,7 @@
         const hasAnyFilter = nodeInteractionOrder.length > 0;
         
         // 创建柱状图
+        const baseColors = allMethods.map((method, i) => morandiColors[i % morandiColors.length]);
         const trace = {
             x: allMethods,
             y: allMethods.map(method => visualizationMethodCounts[method] || 0),
@@ -358,12 +359,12 @@
             marker: {
                 color: allMethods.map((method, i) => {
                     if (hasMethodFilter && activeFilters.years.has(method)) {
-                        return morandiHighlight;
+                        return '#fff';
                     }
                     if (hasAnyFilter && (!visualizationMethodCounts[method] || visualizationMethodCounts[method] === 0)) {
                         return morandiDim;
                     }
-                    return morandiColors[i % morandiColors.length];
+                    return baseColors[i];
                 }),
                 opacity: 1.0,
                 line: {
@@ -373,9 +374,9 @@
                         }
                         return 1;
                     }),
-                    color: allMethods.map(method => {
+                    color: allMethods.map((method, i) => {
                         if (hasMethodFilter && activeFilters.years.has(method)) {
-                            return '#333';
+                            return baseColors[i];
                         }
                         return 'white';
                     })
@@ -489,6 +490,8 @@
             return;
         }
         
+        const baseColors = displayPhases.map((phase, i) => morandiColors[i % morandiColors.length]);
+
         const trace = {
             labels: displayPhases,
             values: displayValues,
@@ -497,14 +500,14 @@
             marker: {
                 colors: displayPhases.map((phase, i) => {
                     if (isFiltered[i]) {
-                        return morandiHighlight;
+                        return '#fff';
                     }
-                    return morandiColors[i % morandiColors.length];
+                    return baseColors[i];
                 }),
                 line: {
                     color: displayPhases.map((phase, i) => {
                         if (isFiltered[i]) {
-                            return '#333';
+                            return baseColors[i];
                         }
                         return 'white';
                     }),
@@ -517,7 +520,10 @@
                 }
             },
             textinfo: 'percent',
-            textfont: { size: 11, color: 'white' },
+            textfont: {
+                size: 11,
+                color: displayPhases.map((phase, i) => isFiltered[i] ? baseColors[i] : 'white')
+            },
             hoverinfo: 'label+value+percent',
             hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
             hoverlabel: { 

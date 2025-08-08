@@ -51,6 +51,24 @@ const morandiColors = [
 const morandiHighlight = '#7D807F'; // 柔和深灰，作为高亮边框
 const morandiDim = 'rgba(180,180,180,0.3)'; // 非高亮部分叠加的半透明灰
 
+// 参考aptamer-legend.js的高亮效果：
+// 选中元素背景变为白色，并以内置的原始颜色作为内边框
+function applyHighlightStyle(elements, baseColor) {
+    elements.forEach(el => {
+        el.classList.add('highlighted');
+        el.style.setProperty('--highlight-border', baseColor);
+        el.style.setProperty('--highlight-bg', '#fff');
+    });
+}
+
+function removeHighlightStyle(elements) {
+    elements.forEach(el => {
+        el.classList.remove('highlighted');
+        el.style.removeProperty('--highlight-border');
+        el.style.removeProperty('--highlight-bg');
+    });
+}
+
 // ====== 图表配置 ======
 const chartConfig = {
     responsive: true,
