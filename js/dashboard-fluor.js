@@ -11,6 +11,9 @@
         return;
     }
 
+    // 预先声明机制颜色映射，保持图表与筛选标签颜色一致
+    let mechanismColorMap = {};
+
     // --- 重写 DataModule.loadData ---
     const originalLoadData = DataModule.loadData;
     DataModule.loadData = async function () {
@@ -29,6 +32,19 @@
                     d.category = d.mechanisms;
                 }
             });
+
+            // 基于完整数据生成机制颜色映射，保持颜色稳定
+            const allMechanisms = [...new Set(data.map(d => d.category || 'Unknown'))].sort();
+            mechanismColorMap = {};
+            allMechanisms.forEach((mech, i) => {
+                mechanismColorMap[mech] = morandiColors[i % morandiColors.length];
+            });
+            // 将映射应用于全局类别配色表，供图表和筛选标签使用
+            if (typeof categoryPaletteMap !== 'undefined') {
+                categoryPaletteMap = { ...categoryPaletteMap, ...mechanismColorMap };
+            } else {
+                categoryPaletteMap = { ...mechanismColorMap };
+            }
 
             // 保存到全局数据
             originalData = data;

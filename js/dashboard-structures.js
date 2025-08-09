@@ -12,6 +12,9 @@
         return;
     }
 
+    // 全局存储相位确定策略的颜色映射，确保标签与饼图颜色一致
+    let phaseColorMap = {};
+
     // --- 重写 DataModule.loadData ---
     const originalLoadData = DataModule.loadData;
     DataModule.loadData = async function () {
@@ -93,6 +96,13 @@
             // 保存到全局数据
             originalData = data;
             filteredData = [...data];
+
+            // 预生成相位确定策略的颜色映射，保持标签与图表颜色一致
+            const allPhases = [...new Set(data.map(d => d['Phase Determination'] || 'Unknown'))].sort();
+            phaseColorMap = {};
+            allPhases.forEach((phase, i) => {
+                phaseColorMap[phase] = morandiColors[i % morandiColors.length];
+            });
 
             console.log('Structure data loaded successfully, total', data.length, 'records');
 
@@ -495,8 +505,6 @@
             return;
         }
         
-        const baseColors = displayPhases.map((phase, i) => morandiColors[i % morandiColors.length]);
-
         const trace = {
             labels: displayPhases,
             values: displayValues,
@@ -510,12 +518,12 @@
                     if (isFiltered[i]) {
                         return '#fff';
                     }
-                    return baseColors[i];
+                    return phaseColorMap[phase];
                 }),
                 line: {
                     color: displayPhases.map((phase, i) => {
                         if (isFiltered[i]) {
-                            return baseColors[i];
+                            return phaseColorMap[phase];
                         }
                         return 'white';
                     }),
@@ -530,7 +538,7 @@
             textinfo: 'percent',
             textfont: {
                 size: 11,
-                color: displayPhases.map((phase, i) => isFiltered[i] ? baseColors[i] : 'white')
+                color: displayPhases.map((phase, i) => isFiltered[i] ? phaseColorMap[phase] : 'white')
             },
             hoverinfo: 'label+value+percent',
             hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
@@ -805,20 +813,14 @@
             tagsContainer.innerHTML = '';
 
             // 颜色映射
-            const allMethods = [...new Set(originalData.map(d => d.method))].sort();
+            // 使用结构确定方法和相位确定策略字段计算颜色映射，
+            // 与图表中使用的颜色保持一致
+            const allMethods = [...new Set(
+                originalData.map(d => d['Structure Determination'] || 'Unknown')
+            )].sort();
             const methodColorMap = {};
             allMethods.forEach((m, i) => {
                 methodColorMap[m] = morandiColors[i % morandiColors.length];
-            });
-
-            const allCategories = [...new Set(originalData.map(d => d.category))];
-            const categoryColorMap = {};
-            allCategories.forEach((cat, i) => {
-                if (categoryPaletteMap && categoryPaletteMap[cat]) {
-                    categoryColorMap[cat] = categoryPaletteMap[cat];
-                } else {
-                    categoryColorMap[cat] = morandiColors[i % morandiColors.length];
-                }
             });
 
             // 将年份筛选标签前缀改为 Methods
@@ -827,9 +829,9 @@
                 tagsContainer.appendChild(tag);
             });
 
-            // 类别筛选标签保持不变
+            // 类别筛选标签使用预生成的相位颜色映射
             activeFilters.categories.forEach(category => {
-                const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category), categoryColorMap[category], 'ligandChart');
+                const tag = createFilterTag(`Category: ${category}`, () => this.toggleCategoryFilter(category), phaseColorMap[category], 'ligandChart');
                 tagsContainer.appendChild(tag);
             });
 
