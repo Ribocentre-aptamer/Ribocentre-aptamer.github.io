@@ -11,6 +11,9 @@
         return;
     }
 
+    // 预先声明机制颜色映射，保持图表与筛选标签颜色一致
+    let mechanismColorMap = {};
+
     // --- 重写 DataModule.loadData ---
     const originalLoadData = DataModule.loadData;
     DataModule.loadData = async function () {
@@ -29,6 +32,19 @@
                     d.category = d.mechanisms;
                 }
             });
+
+            // 基于完整数据生成机制颜色映射，保持颜色稳定
+            const allMechanisms = [...new Set(data.map(d => d.category || 'Unknown'))].sort();
+            mechanismColorMap = {};
+            allMechanisms.forEach((mech, i) => {
+                mechanismColorMap[mech] = morandiColors[i % morandiColors.length];
+            });
+            // 将映射应用于全局类别配色表，供图表和筛选标签使用
+            if (typeof categoryPaletteMap !== 'undefined') {
+                categoryPaletteMap = { ...categoryPaletteMap, ...mechanismColorMap };
+            } else {
+                categoryPaletteMap = { ...mechanismColorMap };
+            }
 
             // 保存到全局数据
             originalData = data;
@@ -264,6 +280,56 @@
             if (!ligandChartHeader.querySelector('.node-state-indicator')) {
                 ligandChartHeader.appendChild(ligandStateIndicator);
             }
+        };
+
+        // 覆写筛选标签更新逻辑以显示节点等级
+        const originalUpdateFilterTags = FilterModule.updateFilterTags;
+        FilterModule.updateFilterTags = function () {
+            const tagsContainer = document.getElementById('filterTags');
+            if (!tagsContainer) return;
+            tagsContainer.innerHTML = '';
+
+            // 年份颜色映射
+            const allYears = [...new Set(originalData.map(d => d.year))].sort();
+            const yearColorMap = {};
+            allYears.forEach((year, i) => {
+                yearColorMap[year] = morandiColors[i % morandiColors.length];
+            });
+
+            // 机制颜色映射
+            const categoryColorMap = { ...mechanismColorMap };
+            const allCategories = [...new Set(originalData.map(d => d.category))];
+            allCategories.forEach((cat, i) => {
+                if (!categoryColorMap[cat]) {
+                    categoryColorMap[cat] = morandiColors[i % morandiColors.length];
+                }
+            });
+
+            // 年份标签
+            activeFilters.years.forEach(year => {
+                const tag = createFilterTag(`Year: ${year}`, () => this.toggleYearFilter(year), yearColorMap[year], 'yearChart');
+                tagsContainer.appendChild(tag);
+            });
+
+            // 机制标签
+            activeFilters.categories.forEach(category => {
+                const tag = createFilterTag(`Mechanism: ${category}`, () => this.toggleCategoryFilter(category), categoryColorMap[category], 'ligandChart');
+                tagsContainer.appendChild(tag);
+            });
+
+            const hasActiveFilters = activeFilters.years.size > 0 || activeFilters.categories.size > 0;
+            const filterSection = document.querySelector('.filter-controls');
+            if (filterSection) filterSection.style.display = hasActiveFilters ? 'block' : 'none';
+
+            const resetBtn = document.getElementById('resetAllFilters');
+            if (resetBtn) {
+                const count = (activeFilters.years.size > 0 ? 1 : 0) + (activeFilters.categories.size > 0 ? 1 : 0);
+                resetBtn.textContent = `Reset All (${count})`;
+                resetBtn.disabled = !hasActiveFilters;
+                resetBtn.style.opacity = hasActiveFilters ? '1' : '0.5';
+            }
+
+            this.updateNodeStateIndicators();
         };
     }
 
