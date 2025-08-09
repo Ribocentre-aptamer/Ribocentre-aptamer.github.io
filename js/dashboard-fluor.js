@@ -281,6 +281,56 @@
                 ligandChartHeader.appendChild(ligandStateIndicator);
             }
         };
+
+        // 覆写筛选标签更新逻辑以显示节点等级
+        const originalUpdateFilterTags = FilterModule.updateFilterTags;
+        FilterModule.updateFilterTags = function () {
+            const tagsContainer = document.getElementById('filterTags');
+            if (!tagsContainer) return;
+            tagsContainer.innerHTML = '';
+
+            // 年份颜色映射
+            const allYears = [...new Set(originalData.map(d => d.year))].sort();
+            const yearColorMap = {};
+            allYears.forEach((year, i) => {
+                yearColorMap[year] = morandiColors[i % morandiColors.length];
+            });
+
+            // 机制颜色映射
+            const categoryColorMap = { ...mechanismColorMap };
+            const allCategories = [...new Set(originalData.map(d => d.category))];
+            allCategories.forEach((cat, i) => {
+                if (!categoryColorMap[cat]) {
+                    categoryColorMap[cat] = morandiColors[i % morandiColors.length];
+                }
+            });
+
+            // 年份标签
+            activeFilters.years.forEach(year => {
+                const tag = createFilterTag(`Year: ${year}`, () => this.toggleYearFilter(year), yearColorMap[year], 'yearChart');
+                tagsContainer.appendChild(tag);
+            });
+
+            // 机制标签
+            activeFilters.categories.forEach(category => {
+                const tag = createFilterTag(`Mechanism: ${category}`, () => this.toggleCategoryFilter(category), categoryColorMap[category], 'ligandChart');
+                tagsContainer.appendChild(tag);
+            });
+
+            const hasActiveFilters = activeFilters.years.size > 0 || activeFilters.categories.size > 0;
+            const filterSection = document.querySelector('.filter-controls');
+            if (filterSection) filterSection.style.display = hasActiveFilters ? 'block' : 'none';
+
+            const resetBtn = document.getElementById('resetAllFilters');
+            if (resetBtn) {
+                const count = (activeFilters.years.size > 0 ? 1 : 0) + (activeFilters.categories.size > 0 ? 1 : 0);
+                resetBtn.textContent = `Reset All (${count})`;
+                resetBtn.disabled = !hasActiveFilters;
+                resetBtn.style.opacity = hasActiveFilters ? '1' : '0.5';
+            }
+
+            this.updateNodeStateIndicators();
+        };
     }
 
     // --- 覆写导出功能：确保fluorescence页面导出与表格显示一致 ---
