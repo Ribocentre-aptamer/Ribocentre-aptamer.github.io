@@ -529,9 +529,12 @@ const ChartModule = {
             }
         };
         
-        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig).then(() => {
+        const plotResult = Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
+        if (plotResult && typeof plotResult.then === 'function') {
+            plotResult.then(() => applyPieHighlight('ligandChart', isFiltered));
+        } else {
             applyPieHighlight('ligandChart', isFiltered);
-        });
+        }
 
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;

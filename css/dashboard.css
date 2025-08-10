@@ -199,11 +199,15 @@
     background: white;
     border-radius: 12px;
     border: 1px solid #e9ecef;
-    overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
+.chart-wrapper {
+    overflow: visible;
+}
+
 .analysis-wrapper {
+    overflow: hidden;
     grid-column: 1 / -1;
 }
 
@@ -499,8 +503,9 @@ body[data-page="aptamer"] .amir-tooltip {
     cursor: pointer !important;
 }
 
-/* 散点图特定优化 */
-#scatterChart .plotly .main-svg {
+/* 允许图表元素溢出以展示高亮效果 */
+#scatterChart .plotly .main-svg,
+#ligandChart .plotly .main-svg {
     overflow: visible;
 }
 

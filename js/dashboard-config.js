@@ -106,16 +106,18 @@ function applyPieHighlight(chartId, selectedFlags) {
 
     // 应用阴影和缩放效果，需在动画完成后执行以避免DOM重绘导致的样式丢失
     setTimeout(() => {
-        const sliceSelection = Plotly.d3.select(gd).selectAll('.slice path');
-        sliceSelection.each(function(d, i) {
-            this.style.transition = `transform ${highlightConfig.pie.animationDuration}ms ease, filter ${highlightConfig.pie.animationDuration}ms ease`;
+        // Plotly v3.x no longer exposes d3 via Plotly.d3, so fall back to
+        // standard DOM APIs to find and style the pie slice paths.
+        const sliceSelection = gd.querySelectorAll('.slice path');
+        sliceSelection.forEach((slice, i) => {
+            slice.style.transition = `transform ${highlightConfig.pie.animationDuration}ms ease, filter ${highlightConfig.pie.animationDuration}ms ease`;
             if (selectedFlags[i]) {
-                this.style.transform = `scale(${highlightConfig.pie.scale})`;
-                this.style.transformOrigin = 'center';
-                this.style.filter = `drop-shadow(${highlightConfig.pie.shadow})`;
+                slice.style.transform = `scale(${highlightConfig.pie.scale})`;
+                slice.style.transformOrigin = 'center';
+                slice.style.filter = `drop-shadow(${highlightConfig.pie.shadow})`;
             } else {
-                this.style.transform = '';
-                this.style.filter = '';
+                slice.style.transform = '';
+                slice.style.filter = '';
             }
         });
     }, highlightConfig.pie.animationDuration);
