@@ -330,7 +330,7 @@ ChartModule.createTypeChart = function() {
         console.warn('可视化数据源为空，显示空状态');
         Plotly.newPlot('typeChart', [], {
             ...chartLayoutBase,
-            margin: { l: 20, r: 20, t: 20, b: 20 },
+            margin: { l: 40, r: 40, t: 40, b: 40 },
             annotations: [{
                 text: '筛选中... 请尝试其他筛选条件',
                 xref: 'paper',
@@ -357,7 +357,7 @@ ChartModule.createTypeChart = function() {
         console.warn('筛选后没有类型数据，显示空状态');
         Plotly.newPlot('typeChart', [], {
             ...chartLayoutBase,
-            margin: { l: 20, r: 20, t: 20, b: 20 },
+            margin: { l: 40, r: 40, t: 40, b: 40 },
             annotations: [{
                 text: '没有匹配的类型数据',
                 xref: 'paper',

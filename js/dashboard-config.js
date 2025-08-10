@@ -61,8 +61,6 @@ const highlightConfig = {
     pie: {
         selectedOffset: 0.05,
         borderWidth: 3,
-        scale: 1.05,
-        shadow: '0px 0px 8px rgba(0,0,0,0.4)',
         animationDuration: 300
     }
 };
@@ -95,7 +93,7 @@ function applyPieHighlight(chartId, selectedFlags) {
         flag ? highlightConfig.pie.selectedOffset : 0
     );
 
-    // 执行动画，使扇形向外移动
+    // 使用Plotly动画更新pull属性，避免依赖Plotly.d3或直接操作DOM
     Plotly.animate(gd, { data: [{ pull: pullFinal }] }, {
         transition: {
             duration: highlightConfig.pie.animationDuration,
@@ -103,22 +101,6 @@ function applyPieHighlight(chartId, selectedFlags) {
         },
         frame: { duration: highlightConfig.pie.animationDuration, redraw: false }
     });
-
-    // 应用阴影和缩放效果，需在动画完成后执行以避免DOM重绘导致的样式丢失
-    setTimeout(() => {
-        const sliceSelection = Plotly.d3.select(gd).selectAll('.slice path');
-        sliceSelection.each(function(d, i) {
-            this.style.transition = `transform ${highlightConfig.pie.animationDuration}ms ease, filter ${highlightConfig.pie.animationDuration}ms ease`;
-            if (selectedFlags[i]) {
-                this.style.transform = `scale(${highlightConfig.pie.scale})`;
-                this.style.transformOrigin = 'center';
-                this.style.filter = `drop-shadow(${highlightConfig.pie.shadow})`;
-            } else {
-                this.style.transform = '';
-                this.style.filter = '';
-            }
-        });
-    }, highlightConfig.pie.animationDuration);
 }
 
 // 导出以便其他脚本调用

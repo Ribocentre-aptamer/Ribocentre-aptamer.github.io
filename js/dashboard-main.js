@@ -405,7 +405,7 @@ const ChartModule = {
                             console.warn('Visualization data source is empty, showing empty state');
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
-                margin: { l: 20, r: 20, t: 20, b: 20 },
+                margin: { l: 40, r: 40, t: 40, b: 40 },
                 annotations: [{
                     text: 'Filtering... Please try other filter criteria',
                     xref: 'paper',
@@ -431,7 +431,7 @@ const ChartModule = {
             console.warn('No category data after filtering, showing empty state');
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
-                margin: { l: 20, r: 20, t: 20, b: 20 },
+                margin: { l: 40, r: 40, t: 40, b: 40 },
                 annotations: [{
                     text: 'No matching category data',
                     xref: 'paper',
@@ -506,7 +506,7 @@ const ChartModule = {
         
         const layout = {
             ...chartLayoutBase,
-            margin: { l: 20, r: 20, t: 20, b: 20 },
+            margin: { l: 40, r: 40, t: 40, b: 40 },
             showlegend: false,
             hovermode: 'closest',
             title: hasAnyFilter ? {
@@ -529,9 +529,12 @@ const ChartModule = {
             }
         };
         
-        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig).then(() => {
+        const plotResult = Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
+        if (plotResult && typeof plotResult.then === 'function') {
+            plotResult.then(() => applyPieHighlight('ligandChart', isFiltered));
+        } else {
             applyPieHighlight('ligandChart', isFiltered);
-        });
+        }
 
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;

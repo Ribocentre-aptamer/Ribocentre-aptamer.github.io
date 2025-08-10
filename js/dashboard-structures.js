@@ -489,7 +489,7 @@
         if (displayPhases.length === 0) {
             Plotly.newPlot('ligandChart', [], {
                 ...chartLayoutBase,
-                margin: { l: 20, r: 20, t: 20, b: 20 },
+                margin: { l: 40, r: 40, t: 40, b: 40 },
                 annotations: [{
                     text: 'No phase determination data',
                     xref: 'paper',
@@ -552,7 +552,7 @@
         
         const layout = {
             ...chartLayoutBase,
-            margin: { l: 20, r: 20, t: 20, b: 20 },
+            margin: { l: 40, r: 40, t: 40, b: 40 },
             showlegend: false,
             // 使用原生Plotly悬停模式
             hovermode: 'closest'
