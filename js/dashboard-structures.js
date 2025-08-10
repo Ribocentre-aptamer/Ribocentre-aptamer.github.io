@@ -535,11 +535,7 @@
                     })
                 }
             },
-            textinfo: 'percent',
-            textfont: {
-                size: 11,
-                color: displayPhases.map((phase, i) => isFiltered[i] ? phaseColorMap[phase] : 'white')
-            },
+            textinfo: 'none',
             hoverinfo: 'label+value+percent',
             hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
             hoverlabel: { 
@@ -552,8 +548,22 @@
         
         const layout = {
             ...chartLayoutBase,
-            margin: { l: 20, r: 20, t: 20, b: 20 },
-            showlegend: false,
+            margin: { l: 20, r: 120, t: 20, b: 20 },
+            showlegend: true,
+            legend: {
+                orientation: 'v',
+                x: 1.02,
+                y: 0.5,
+                xanchor: 'left',
+                yanchor: 'middle',
+                bgcolor: 'rgba(255,255,255,0.8)',
+                bordercolor: 'rgba(0,0,0,0.1)',
+                borderwidth: 1,
+                font: {
+                    size: 10,
+                    color: '#333'
+                }
+            },
             // 使用原生Plotly悬停模式
             hovermode: 'closest'
         };

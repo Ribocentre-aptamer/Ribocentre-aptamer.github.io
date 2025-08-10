@@ -85,40 +85,43 @@ function removeHighlightStyle(elements) {
     });
 }
 
-// 对饼图扇形应用动画和阴影高亮效果
+// 对饼图扇形应用动画和阴影高亮效果 - 使用Plotly 3.x兼容的方法
 function applyPieHighlight(chartId, selectedFlags) {
     const gd = document.getElementById(chartId);
-    if (!gd) return;
+    if (!gd || !selectedFlags) return;
 
-    // 根据选中状态构建最终的pull数组
-    const pullFinal = selectedFlags.map(flag =>
-        flag ? highlightConfig.pie.selectedOffset : 0
-    );
+    try {
+        // 获取当前图表数据
+        const currentData = gd.data && gd.data[0];
+        if (!currentData) {
+            console.warn('饼图数据未找到');
+            return;
+        }
 
-    // 执行动画，使扇形向外移动
-    Plotly.animate(gd, { data: [{ pull: pullFinal }] }, {
-        transition: {
-            duration: highlightConfig.pie.animationDuration,
-            easing: 'cubic-in-out'
-        },
-        frame: { duration: highlightConfig.pie.animationDuration, redraw: false }
-    });
+        // 构建高亮样式的更新数据
+        const updateData = {
+            // 根据选中状态构建pull数组，使选中的扇形向外移动
+            pull: selectedFlags.map(flag =>
+                flag ? highlightConfig.pie.selectedOffset : 0
+            ),
+            // 构建边框宽度数组
+            'marker.line.width': selectedFlags.map(flag =>
+                flag ? highlightConfig.pie.borderWidth : 1
+            ),
+            // 构建透明度数组，非选中的扇形稍微暗一点
+            opacity: selectedFlags.map(flag => flag ? 1.0 : 0.8)
+        };
 
-    // 应用阴影和缩放效果，需在动画完成后执行以避免DOM重绘导致的样式丢失
-    setTimeout(() => {
-        const sliceSelection = Plotly.d3.select(gd).selectAll('.slice path');
-        sliceSelection.each(function(d, i) {
-            this.style.transition = `transform ${highlightConfig.pie.animationDuration}ms ease, filter ${highlightConfig.pie.animationDuration}ms ease`;
-            if (selectedFlags[i]) {
-                this.style.transform = `scale(${highlightConfig.pie.scale})`;
-                this.style.transformOrigin = 'center';
-                this.style.filter = `drop-shadow(${highlightConfig.pie.shadow})`;
-            } else {
-                this.style.transform = '';
-                this.style.filter = '';
-            }
+        // 使用Plotly.restyle来更新图表样式，这是Plotly 3.x推荐的方法
+        Plotly.restyle(gd, updateData, 0).then(() => {
+            console.log('饼图高亮效果已应用');
+        }).catch(error => {
+            console.warn('饼图高亮效果应用失败:', error);
         });
-    }, highlightConfig.pie.animationDuration);
+
+    } catch (error) {
+        console.error('饼图高亮效果处理出错:', error);
+    }
 }
 
 // 导出以便其他脚本调用

@@ -459,7 +459,9 @@ const ChartModule = {
             values: displayValues,
             type: 'pie',
             hole: 0.4,
-            pull: displayCategories.map(() => 0),
+            pull: displayCategories.map((category, i) =>
+                isFiltered[i] ? highlightConfig.pie.selectedOffset : 0
+            ),
             marker: {
                 colors: displayCategories.map((category, i) => {
                     // 如果该类别被选中，使用高亮效果（白色填充 + 原色边框）
@@ -483,11 +485,7 @@ const ChartModule = {
                     })
                 }
             },
-            textinfo: 'percent',
-            textfont: {
-                size: 11,
-                color: displayCategories.map((category, i) => isFiltered[i] ? baseColors[i] : 'white')
-            },
+            textinfo: 'none',
             hoverinfo: 'label+value+percent',
             hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
             hoverlabel: { 
@@ -506,8 +504,22 @@ const ChartModule = {
         
         const layout = {
             ...chartLayoutBase,
-            margin: { l: 20, r: 20, t: 20, b: 20 },
-            showlegend: false,
+            margin: { l: 20, r: 120, t: 20, b: 20 },
+            showlegend: true,
+            legend: {
+                orientation: 'v',
+                x: 1.02,
+                y: 0.5,
+                xanchor: 'left',
+                yanchor: 'middle',
+                bgcolor: 'rgba(255,255,255,0.8)',
+                bordercolor: 'rgba(0,0,0,0.1)',
+                borderwidth: 1,
+                font: {
+                    size: 10,
+                    color: '#333'
+                }
+            },
             hovermode: 'closest',
             title: hasAnyFilter ? {
                 // text: nodeFrozenState.ligandChart ? '类别分布 (已冻结)' : '类别分布 (已筛选)',
@@ -529,12 +541,7 @@ const ChartModule = {
             }
         };
         
-        const plotResult = Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
-        if (plotResult && typeof plotResult.then === 'function') {
-            plotResult.then(() => applyPieHighlight('ligandChart', isFiltered));
-        } else {
-            applyPieHighlight('ligandChart', isFiltered);
-        }
+        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
 
         document.getElementById('ligandChart').on('plotly_click', function(data) {
             const category = data.points[0].label;

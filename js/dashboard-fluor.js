@@ -227,6 +227,213 @@
         }
     };
 
+    // --- 重写 createCategoryChart：使用图例替代饼图文字 ---
+    ChartModule.createCategoryChart = function () {
+        console.log("[Fluor] 创建机制分布图表...");
+        
+        // 获取所有可能的机制类别（基于原始数据）
+        const allCategoryCounts = {};
+        originalData.forEach(d => {
+            allCategoryCounts[d.category] = (allCategoryCounts[d.category] || 0) + 1;
+        });
+        const allCategories = Object.keys(allCategoryCounts).sort();
+        
+        // 确定数据源 - A节点使用原始数据，B/C节点使用上级节点数据
+        let dataForVisualization = [];
+        
+        if (nodeInteractionOrder.length === 0) {
+            // 没有任何交互，使用原始数据
+            dataForVisualization = [...originalData];
+            console.log("机制图表无交互，使用原始数据:", dataForVisualization.length);
+        } else {
+            // 根据当前节点在交互序列中的位置确定数据来源
+            const myIndex = nodeInteractionOrder.indexOf('ligandChart');
+            
+            if (myIndex === -1) {
+                // 如果不在交互序列中，使用最后一个交互节点的数据
+                const lastNodeId = nodeInteractionOrder[nodeInteractionOrder.length - 1];
+                dataForVisualization = [...nodeFilteredData[lastNodeId]];
+                console.log(`机制图表不在交互序列中，使用最后节点${lastNodeId}数据:`, dataForVisualization.length);
+            } else if (myIndex === 0) {
+                // 如果是A节点，必须使用原始数据，严禁下探
+                dataForVisualization = [...originalData];
+                console.log("机制图表是A节点，使用原始数据(禁止下探):", dataForVisualization.length);
+            } else {
+                // 如果是B节点或C节点，使用上级节点的数据进行可视化
+                const parentNodeId = nodeInteractionOrder[myIndex - 1];
+                dataForVisualization = [...nodeFilteredData[parentNodeId]];
+                console.log(`机制图表是${myIndex === 1 ? 'B' : 'C'}节点，使用上级节点${parentNodeId}数据:`, dataForVisualization.length);
+            }
+        }
+        
+        // 计算可视化数据的机制分布
+        const visualizationCategoryCounts = {};
+        dataForVisualization.forEach(d => {
+            visualizationCategoryCounts[d.category] = (visualizationCategoryCounts[d.category] || 0) + 1;
+        });
+        
+        // 检查是否有机制筛选
+        const hasCategoryFilter = activeFilters.categories.size > 0;
+        const hasAnyFilter = nodeInteractionOrder.length > 0;
+        
+        // 创建饼图数据 - 基于可视化数据源的机制分布
+        const pieData = allCategories.map(category => {
+            const value = visualizationCategoryCounts[category] || 0;
+            return {
+                category: category,
+                count: value,
+                isFiltered: hasCategoryFilter && activeFilters.categories.has(category)
+            };
+        });
+        
+        // 如果可视化数据源为空，显示提示
+        if (dataForVisualization.length === 0) {
+            console.warn('Visualization data source is empty, showing empty state');
+            Plotly.newPlot('ligandChart', [], {
+                ...chartLayoutBase,
+                margin: { l: 20, r: 20, t: 20, b: 20 },
+                annotations: [{
+                    text: 'Filtering... Please try other filter criteria',
+                    xref: 'paper',
+                    yref: 'paper',
+                    x: 0.5,
+                    y: 0.5,
+                    xanchor: 'center',
+                    yanchor: 'middle',
+                    showarrow: false,
+                    font: { size: 16, color: '#520049' }
+                }]
+            }, chartConfig);
+            return;
+        }
+        
+        // 只显示有数据的机制
+        const displayCategories = pieData.filter(d => d.count > 0).map(d => d.category);
+        const displayValues = pieData.filter(d => d.count > 0).map(d => d.count);
+        const isFiltered = pieData.filter(d => d.count > 0).map(d => d.isFiltered);
+        
+        // 如果筛选后没有数据，显示错误
+        if (displayCategories.length === 0) {
+            console.warn('No mechanism data after filtering, showing empty state');
+            Plotly.newPlot('ligandChart', [], {
+                ...chartLayoutBase,
+                margin: { l: 20, r: 20, t: 20, b: 20 },
+                annotations: [{
+                    text: 'No matching mechanism data',
+                    xref: 'paper',
+                    yref: 'paper',
+                    x: 0.5,
+                    y: 0.5,
+                    xanchor: 'center',
+                    yanchor: 'middle',
+                    showarrow: false,
+                    font: { size: 16, color: '#520049' }
+                }]
+            }, chartConfig);
+            return;
+        }
+        
+        const baseColors = displayCategories.map((category, i) => {
+            if (mechanismColorMap && mechanismColorMap[category]) {
+                return mechanismColorMap[category];
+            }
+            return morandiColors[i % morandiColors.length];
+        });
+
+        const trace = {
+            labels: displayCategories,
+            values: displayValues,
+            type: 'pie',
+            hole: 0.4,
+            pull: displayCategories.map((category, i) =>
+                isFiltered[i] ? highlightConfig.pie.selectedOffset : 0
+            ),
+            marker: {
+                colors: displayCategories.map((category, i) => {
+                    // 如果该机制被选中，使用高亮效果（白色填充 + 原色边框）
+                    if (isFiltered[i]) {
+                        return '#fff';
+                    }
+                    return baseColors[i];
+                }),
+                line: {
+                    color: displayCategories.map((category, i) => {
+                        if (isFiltered[i]) {
+                            return baseColors[i];
+                        }
+                        return 'white';
+                    }),
+                    width: displayCategories.map((category, i) => {
+                        if (isFiltered[i]) {
+                            return highlightConfig.pie.borderWidth;
+                        }
+                        return 1;
+                    })
+                }
+            },
+            textinfo: 'none',
+            hoverinfo: 'label+value+percent',
+            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<br><i>Click to filter</i><extra></extra>',
+            hoverlabel: {
+                bgcolor: 'white',
+                bordercolor: morandiHighlight,
+                font: { size: 12, color: '#333' },
+                align: 'left'
+            },
+            opacity: displayCategories.map((category, i) => {
+                if (hasCategoryFilter && !isFiltered[i]) {
+                    return 0.6; // 未选中的区间半透明
+                }
+                return 1.0; // 选中的区间完全不透明
+            })
+        };
+        
+        const layout = {
+            ...chartLayoutBase,
+            margin: { l: 20, r: 120, t: 20, b: 20 },
+            showlegend: true,
+            legend: {
+                orientation: 'v',
+                x: 1.02,
+                y: 0.5,
+                xanchor: 'left',
+                yanchor: 'middle',
+                bgcolor: 'rgba(255,255,255,0.8)',
+                bordercolor: 'rgba(0,0,0,0.1)',
+                borderwidth: 1,
+                font: {
+                    size: 10,
+                    color: '#333'
+                }
+            },
+            hovermode: 'closest',
+            title: hasAnyFilter ? {
+                font: { size: 14, color: '#520049' }
+            } : null
+        };
+        
+        // 为饼图使用专用配置，确保使用Plotly原生tooltip
+        const pieChartConfig = {
+            ...chartConfig,
+            displayModeBar: false,
+            responsive: true,
+            // 禁用自定义tooltip
+            modeBarButtonsToRemove: ['toImage', 'sendDataToCloud'],
+            // 使用原生悬停
+            interaction: {
+                mode: 'hover',
+                intersect: true
+            }
+        };
+        
+        Plotly.newPlot('ligandChart', [trace], layout, pieChartConfig);
+
+        document.getElementById('ligandChart').on('plotly_click', function(data) {
+            const category = data.points[0].label;
+            FilterModule.toggleCategoryFilter(category);
+        });
+    };
+
     // --- 覆写 ChartModule.createAllCharts：仅生成年份和类别图 ---
     ChartModule.createAllCharts = function () {
         try {
