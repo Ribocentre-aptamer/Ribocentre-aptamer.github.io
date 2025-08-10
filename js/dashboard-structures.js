@@ -811,8 +811,51 @@
         TableModule.updateDataTable();
     };
 
-    // --- 仅限结构页面：重写 FilterModule.updateFilterTags，使年份标签显示为 "Methods:" ---
+    // --- 仅限结构页面：覆写筛选条件切换方法，增加自动重置检测 ---
     if (typeof FilterModule !== 'undefined') {
+        const originalToggleYearFilter = FilterModule.toggleYearFilter;
+        FilterModule.toggleYearFilter = function(method) {
+            console.log('[Structure] 切换结构确定方法筛选:', method);
+            
+            if (activeFilters.years.has(method)) {
+                activeFilters.years.delete(method);
+            } else {
+                activeFilters.years.add(method);
+            }
+            
+            // 检查是否所有筛选条件都为空，如果是则自动重置
+            if (this.shouldAutoReset()) {
+                console.log('[Structure] 检测到所有筛选条件已清空，自动重置节点状态');
+                resetAllFilters();
+                return;
+            }
+            
+            // 注册节点交互
+            this.registerNodeInteraction('yearChart');
+        };
+        
+        const originalToggleCategoryFilter = FilterModule.toggleCategoryFilter;
+        FilterModule.toggleCategoryFilter = function(phase) {
+            console.log('[Structure] 切换相位确定策略筛选:', phase);
+            
+            if (activeFilters.categories.has(phase)) {
+                activeFilters.categories.delete(phase);
+            } else {
+                activeFilters.categories.add(phase);
+            }
+            
+            // 检查是否所有筛选条件都为空，如果是则自动重置
+            if (this.shouldAutoReset()) {
+                console.log('[Structure] 检测到所有筛选条件已清空，自动重置节点状态');
+                resetAllFilters();
+                return;
+            }
+            
+            // 注册节点交互
+            this.registerNodeInteraction('ligandChart');
+        };
+        
+        // 重写 FilterModule.updateFilterTags，使年份标签显示为 "Methods:"
         const originalUpdateFilterTags = FilterModule.updateFilterTags;
         FilterModule.updateFilterTags = function() {
             const tagsContainer = document.getElementById('filterTags');

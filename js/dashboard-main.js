@@ -934,6 +934,13 @@ const FilterModule = {
             activeFilters.years.add(year);
         }
         
+        // 检查是否所有筛选条件都为空，如果是则自动重置
+        if (this.shouldAutoReset()) {
+            console.log('检测到所有筛选条件已清空，自动重置节点状态');
+            resetAllFilters();
+            return;
+        }
+        
         // 注册节点交互
         this.registerNodeInteraction('yearChart');
     },
@@ -946,6 +953,13 @@ const FilterModule = {
             activeFilters.categories.delete(category);
         } else {
             activeFilters.categories.add(category);
+        }
+        
+        // 检查是否所有筛选条件都为空，如果是则自动重置
+        if (this.shouldAutoReset()) {
+            console.log('检测到所有筛选条件已清空，自动重置节点状态');
+            resetAllFilters();
+            return;
         }
         
         // 注册节点交互
@@ -992,7 +1006,25 @@ const FilterModule = {
             nodeFrozenState.scatterChart = false;
         }
         
+        // 检查是否所有筛选条件都为空，如果是则自动重置
+        if (this.shouldAutoReset()) {
+            console.log('检测到所有筛选条件已清空，自动重置节点状态');
+            resetAllFilters();
+            return;
+        }
+        
         this.applyFilters();
+    },
+    
+    // 检查是否应该自动重置（所有筛选条件都为空）
+    shouldAutoReset() {
+        const hasActiveFilters = activeFilters.years.size > 0 ||
+                               activeFilters.categories.size > 0 ||
+                               (activeFilters.types && activeFilters.types.size > 0) ||
+                               activeFilters.scatterSelection !== null;
+        
+        // 如果没有任何激活的筛选条件，且有节点交互历史，则应该重置
+        return !hasActiveFilters && nodeInteractionOrder.length > 0;
     },
 
     // 更新筛选标签

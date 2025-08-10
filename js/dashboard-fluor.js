@@ -489,6 +489,49 @@
             }
         };
 
+        // 覆写筛选条件切换方法，增加自动重置检测
+        const originalToggleYearFilter = FilterModule.toggleYearFilter;
+        FilterModule.toggleYearFilter = function(year) {
+            console.log('[Fluorescence] 切换年份筛选:', year);
+            
+            if (activeFilters.years.has(year)) {
+                activeFilters.years.delete(year);
+            } else {
+                activeFilters.years.add(year);
+            }
+            
+            // 检查是否所有筛选条件都为空，如果是则自动重置
+            if (this.shouldAutoReset()) {
+                console.log('[Fluorescence] 检测到所有筛选条件已清空，自动重置节点状态');
+                resetAllFilters();
+                return;
+            }
+            
+            // 注册节点交互
+            this.registerNodeInteraction('yearChart');
+        };
+        
+        const originalToggleCategoryFilter = FilterModule.toggleCategoryFilter;
+        FilterModule.toggleCategoryFilter = function(category) {
+            console.log('[Fluorescence] 切换机制筛选:', category);
+            
+            if (activeFilters.categories.has(category)) {
+                activeFilters.categories.delete(category);
+            } else {
+                activeFilters.categories.add(category);
+            }
+            
+            // 检查是否所有筛选条件都为空，如果是则自动重置
+            if (this.shouldAutoReset()) {
+                console.log('[Fluorescence] 检测到所有筛选条件已清空，自动重置节点状态');
+                resetAllFilters();
+                return;
+            }
+            
+            // 注册节点交互
+            this.registerNodeInteraction('ligandChart');
+        };
+        
         // 覆写筛选标签更新逻辑以显示节点等级
         const originalUpdateFilterTags = FilterModule.updateFilterTags;
         FilterModule.updateFilterTags = function () {
