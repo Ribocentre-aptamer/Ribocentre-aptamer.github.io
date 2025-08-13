@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title:  "Mixed lineage leukemia proteins (MLL) aptermer"
+title:  "Mixed lineage leukemia proteins aptermer"
 date:   2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
 categories: Aptamer

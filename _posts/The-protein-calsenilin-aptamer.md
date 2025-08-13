@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: The protein calsenilin aptamer
+title: Ca2+ binding protein aptamer
 date: 2024-05-20 00:00:00
 author: Jiaxin Zhao, Bichun Wu
 categories: Aptamer

@@ -1371,9 +1371,9 @@ const TableModule = {
                 if (processedAptamerName.includes(',')) {
                     // 从sequence name中提取对应的aptamer部分
                     if (seqName.includes('CB-42')) {
-                        processedAptamerName = 'CB-42 aptamer';
+                        processedAptamerName = 'Cibacron Blue 3GA_CB-42 aptamer';
                     } else if (seqName.includes('B4-25')) {
-                        processedAptamerName = 'B4-25 aptamer';
+                        processedAptamerName = 'Reactive Blue 4_B4-25 aptamer';
                     } else if (seqName.includes('Ribostamycin')) {
                         processedAptamerName = 'Ribostamycin aptamer';
                     } else if (seqName.includes('Paromomycin')) {

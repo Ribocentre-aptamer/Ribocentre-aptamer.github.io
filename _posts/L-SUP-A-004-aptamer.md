@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: L-SUP-A-004 aptamer
+title: Substance P aptamer
 date: 2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer

@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: B4-25 aptamer, CB-42 aptamer
+title: Reactive Blue 4_B4-25 aptamer, Cibacron Blue 3GA_CB-42 aptamer
 date: 2024-03-02 00:00:00
 author: Zhizhong Lu
 categories: Aptamer
@@ -46,9 +46,9 @@ type: Small molecules
 
 <p class="header_box" id="Structure">Structure</p>
 <p>The sequence and secondary prediction structure of the aptamer will be shown here, here we used ribodraw to complete the figure. In addition, an analytical affinity column was run under isocratic conditions to determine an approximate dissociation constant (Kd) for the RNA-ligand interaction. The 2D structure of the left figure is based on the literature, and the right figure is based on the prediction results of the RNA fold website. We used the minimum free energy (MFE) structure<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></p>
-<p>B4-25 aptamer: </p>
+<p>Reactive Blue 4_B4-25 aptamer: </p>
 <p>5'-GGGAGAAUUCCCGCGGCGUUGGCCCAGGAUAAUAGGACGAAAUCCGAAAAAUCCGUACCCAACAUAGAACCCCCCCAGCGCUCACACGGACGCCCCAUUACGGCUAACCGAACGCCUGCAGCCCGGGAAGCUU-3'<br></p>
-<p>CB-42 aptamer: </p>
+<p>Cibacron Blue 3GA_CB-42 aptamer: </p>
 <p>5'-GGGAGAAUUCCCGCGGCAGAAGCCCACCUGGCUUUGAACUCUAUGUUAUUGGGUGGGGGAAACUUAAGAAAACUACCACCCUUCAACAUUACCGCCCUUCAGCCUGCCAGCGCCCUGCAGCCCGGGAAGCUU-3'</p>
 <table class="table table-bordered" style="table-layout:fixed;width:auto;margin-left:auto;margin-right:auto;"><tr>
   <td style="text-align:center;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px">

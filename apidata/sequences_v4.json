@@ -2,7 +2,7 @@
   "Sheet1": [
     {
       "ID": "CB3GA_Szostak_1",
-      "Linker name (page name)": "CB-42 aptamer",
+      "Linker name (page name)": "Cibacron Blue 3GA_CB-42 aptamer",
       "Type": "Small molecules",
       "Category": "Synthetic",
       "Named": "Cibacron Blue 3GA_CB-42",
@@ -20,7 +20,7 @@
     },
     {
       "ID": "RB4_Szostak_1",
-      "Linker name (page name)": "B4-25 aptamer",
+      "Linker name (page name)": "Reactive Blue 4_B4-25 aptamer",
       "Type": "Small molecules",
       "Category": "Synthetic",
       "Named": "Reactive Blue 4_B4-25",
@@ -434,7 +434,7 @@
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_1",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_9",
@@ -448,11 +448,11 @@
       "Affinity": "Kd: 1.9±0.21 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_2",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_18",
@@ -466,11 +466,11 @@
       "Affinity": "Kd: 3.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_3",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_19",
@@ -484,11 +484,11 @@
       "Affinity": "Kd: 5.4±0.05 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_4",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_6",
@@ -502,11 +502,11 @@
       "Affinity": "Kd: 3.1 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_5",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_116",
@@ -520,11 +520,11 @@
       "Affinity": "Kd: 0.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_6",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_126",
@@ -538,11 +538,11 @@
       "Affinity": "Kd: 7.7/9.5/9.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_7",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_15",
@@ -556,11 +556,11 @@
       "Affinity": "Kd: 4.2 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_8",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_1",
@@ -574,11 +574,11 @@
       "Affinity": "Kd: 1.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_9",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_2",
@@ -592,11 +592,11 @@
       "Affinity": "Kd: 3.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_10",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_13",
@@ -610,11 +610,11 @@
       "Affinity": "Kd: 1.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_11",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_14",
@@ -628,11 +628,11 @@
       "Affinity": "Kd: 4.1 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_12",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_23",
@@ -646,11 +646,11 @@
       "Affinity": "Kd: 2.0 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_13",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_50",
@@ -664,11 +664,11 @@
       "Affinity": "Kd: 3.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_14",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_63",
@@ -682,11 +682,11 @@
       "Affinity": "Kd: 1.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_15",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_74",
@@ -700,11 +700,11 @@
       "Affinity": "Kd: 2.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_16",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_75",
@@ -718,11 +718,11 @@
       "Affinity": "Kd: 1.0 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_17",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_83",
@@ -736,11 +736,11 @@
       "Affinity": "Kd: 2.0 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_18",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_88",
@@ -754,11 +754,11 @@
       "Affinity": "Kd: 3.2 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_19",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_15",
@@ -772,11 +772,11 @@
       "Affinity": "Kd: 0.3 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_20",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_17",
@@ -790,11 +790,11 @@
       "Affinity": "Kd: 1.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_21",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_4",
@@ -808,11 +808,11 @@
       "Affinity": "Kd: 6.4/6.5/7.4/9.7 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_22",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_20",
@@ -826,11 +826,11 @@
       "Affinity": "Kd: 2.3 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_23",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_51",
@@ -844,11 +844,11 @@
       "Affinity": "Kd: 1.2±0.08 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_24",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_53",
@@ -862,11 +862,11 @@
       "Affinity": "Kd: 7.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_25",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_58",
@@ -880,11 +880,11 @@
       "Affinity": "Kd: 0.7 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_26",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_72",
@@ -898,11 +898,11 @@
       "Affinity": "Kd: 0.2 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_27",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_73",
@@ -916,11 +916,11 @@
       "Affinity": "Kd: 4.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_28",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_86",
@@ -934,11 +934,11 @@
       "Affinity": "Kd: 2.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_29",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_87",
@@ -952,11 +952,11 @@
       "Affinity": "Kd: 3.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_30",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_92",
@@ -970,11 +970,11 @@
       "Affinity": "Kd: 0.5 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_31",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_22",
@@ -988,11 +988,11 @@
       "Affinity": "Kd: 3.1±0.26 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_32",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_59",
@@ -1006,11 +1006,11 @@
       "Affinity": "Kd: 2.1 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_33",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_61",
@@ -1024,11 +1024,11 @@
       "Affinity": "Kd: 2.7±0.29 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_34",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_76",
@@ -1042,11 +1042,11 @@
       "Affinity": "Kd: 1.7 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_35",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_79",
@@ -1060,11 +1060,11 @@
       "Affinity": "Kd: 4.3 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_36",
-      "Linker name (page name)": "59 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_59 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Rev protein_18",
@@ -1078,7 +1078,7 @@
       "Affinity": "Kd: 2.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/59-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "Arginine_Tocchini-Valentini_1",
@@ -1838,7 +1838,7 @@
     },
     {
       "ID": "HIV-1 Rev_Ellington_1",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C8",
@@ -1852,11 +1852,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_10",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C18",
@@ -1870,11 +1870,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_11",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C17",
@@ -1888,11 +1888,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_12",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C5",
@@ -1906,11 +1906,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_2",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C1",
@@ -1924,11 +1924,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_3",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C9",
@@ -1942,11 +1942,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_4",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C15",
@@ -1960,11 +1960,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_5",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C24",
@@ -1978,11 +1978,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_6",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C33",
@@ -1996,11 +1996,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_7",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C34",
@@ -2014,11 +2014,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_8",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C37",
@@ -2032,11 +2032,11 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_9",
-      "Linker name (page name)": "C52 aptamer",
+      "Linker name (page name)": "HIV-1 Rev protein_C52 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "Human immunodeficiency virus type 1 Rev (HIV-1 Rev) protein_C52",
@@ -2050,7 +2050,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/C52-aptamer.html"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "Lividomycin_Ellington_1",
@@ -2324,7 +2324,7 @@
     },
     {
       "ID": "HCV_Nishikawa_1",
-      "Linker name (page name)": "10G-1 aptamer",
+      "Linker name (page name)": "HCV NS3 protease_10G-1 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "NS3 protease of hepatitis C virus (HCV)_10G-1",
@@ -3602,7 +3602,7 @@
     },
     {
       "ID": "HCV NS3_Nishikawa_1",
-      "Linker name (page name)": "G9-II aptamer",
+      "Linker name (page name)": "HCV NS3 protease_G9-II aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HCV NS3 protease (ΔNS3)_G9-I",
@@ -3616,11 +3616,11 @@
       "Affinity": "Kd: 11.6 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10848986/",
-      "Linker": "/_posts/G9-II-aptamer.html"
+      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer.html"
     },
     {
       "ID": "HCV NS3_Nishikawa_2",
-      "Linker name (page name)": "G9-II aptamer",
+      "Linker name (page name)": "HCV NS3 protease_G9-II aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HCV NS3 protease (ΔNS3)_G9-II",
@@ -3634,11 +3634,11 @@
       "Affinity": "Kd: 6.3 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10848986/",
-      "Linker": "/_posts/G9-II-aptamer.html"
+      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer.html"
     },
     {
       "ID": "HCV NS3_Nishikawa_3",
-      "Linker name (page name)": "G9-II aptamer",
+      "Linker name (page name)": "HCV NS3 protease_G9-II aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HCV NS3 protease (ΔNS3)_G9-III",
@@ -3652,7 +3652,7 @@
       "Affinity": "Kd: 8.9 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10848986/",
-      "Linker": "/_posts/G9-II-aptamer.html"
+      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer.html"
     },
     {
       "ID": "HIV Tat_Kumar_1",
@@ -3674,7 +3674,7 @@
     },
     {
       "ID": "HIV-1 Tat protein_Sugimoto_1",
-      "Linker name (page name)": "Clone 31 aptamer",
+      "Linker name (page name)": "HIV-1 Tat protein_Clone 31 aptamer",
       "Type": "Proteins",
       "Category": "Viral",
       "Named": "HIV-1 Tat protein_clone 31",
@@ -3688,7 +3688,7 @@
       "Affinity": "Kd: 0.31 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11132628/",
-      "Linker": "/_posts/Clone-31-aptamer.html"
+      "Linker": "/_posts/HIV-1-Tat-protein_Clone-31-aptamer.html"
     },
     {
       "ID": "L-tyrosine_Tocchini-Valentini_1",
@@ -4808,7 +4808,7 @@
     },
     {
       "ID": "Colicin E3_Yokoyama_1",
-      "Linker name (page name)": "Colicin E3 aptamer",
+      "Linker name (page name)": "Colicin Prostate cancer cells_E3 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Colicin E3_F1-1",
@@ -4822,11 +4822,11 @@
       "Affinity": "Kd: 2±11 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-E3-aptamer.html"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_2",
-      "Linker name (page name)": "Colicin E3 aptamer",
+      "Linker name (page name)": "Colicin Prostate cancer cells_E3 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Colicin E3_F2-1",
@@ -4840,11 +4840,11 @@
       "Affinity": "Kd: 14±2 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-E3-aptamer.html"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_3",
-      "Linker name (page name)": "Colicin E3 aptamer",
+      "Linker name (page name)": "Colicin Prostate cancer cells_E3 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Colicin E3_F3-1",
@@ -4858,11 +4858,11 @@
       "Affinity": "Kd: 4±15 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-E3-aptamer.html"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_4",
-      "Linker name (page name)": "Colicin E3 aptamer",
+      "Linker name (page name)": "Colicin Prostate cancer cells_E3 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Colicin E3_F4-1",
@@ -4876,11 +4876,11 @@
       "Affinity": "Kd: 7±1 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-E3-aptamer.html"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_5",
-      "Linker name (page name)": "Colicin E3 aptamer",
+      "Linker name (page name)": "Colicin Prostate cancer cells_E3 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Colicin E3_F4-2",
@@ -4894,11 +4894,11 @@
       "Affinity": "Kd: 294±170 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-E3-aptamer.html"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_6",
-      "Linker name (page name)": "Colicin E3 aptamer",
+      "Linker name (page name)": "Colicin Prostate cancer cells_E3 aptamer",
       "Type": "Proteins",
       "Category": "Bacteria",
       "Named": "Colicin E3_F5-1",
@@ -4912,7 +4912,7 @@
       "Affinity": "Kd: 10±1 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-E3-aptamer.html"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_7",
@@ -6374,7 +6374,7 @@
     },
     {
       "ID": "Mbl_Berglund_1",
-      "Linker name (page name)": "Mbl aptamer",
+      "Linker name (page name)": "Drosophila muscleblind protein Mbl aptamer",
       "Type": "Proteins",
       "Category": "Other",
       "Named": "Drosophila muscleblind protein (Mbl)_RNA 20",
@@ -6388,7 +6388,7 @@
       "Affinity": "Kd: 0.23±0.09 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18557632/",
-      "Linker": "/_posts/Mbl-aptamer.html"
+      "Linker": "/_posts/Drosophila-muscleblind-protein-Mbl-aptamer.html"
     },
     {
       "ID": "TfR-ECD_Neufeld_1",
@@ -7274,7 +7274,7 @@
     },
     {
       "ID": "CD133_Duan_1",
-      "Linker name (page name)": "CD133 aptamer",
+      "Linker name (page name)": "Cell line Hep3B CD133 aptamer",
       "Type": "Cells",
       "Category": "cell",
       "Named": "CD133-positive on cell line HT-29_CD133-A15",
@@ -7288,11 +7288,11 @@
       "Affinity": "Kd: 83.2±82.9 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/CD133-aptamer.html"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "CD133_Duan_2",
-      "Linker name (page name)": "CD133 aptamer",
+      "Linker name (page name)": "Cell line Hep3B CD133 aptamer",
       "Type": "Cells",
       "Category": "cell",
       "Named": "CD133-positive on cell line Hep3B_CD133-A15",
@@ -7306,11 +7306,11 @@
       "Affinity": "Kd: 33.9±12.5 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/CD133-aptamer.html"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "CD133_Duan_3",
-      "Linker name (page name)": "CD133 aptamer",
+      "Linker name (page name)": "Cell line Hep3B CD133 aptamer",
       "Type": "Cells",
       "Category": "cell",
       "Named": "CD133-positive on cell line HT-29_CD133-B19",
@@ -7324,11 +7324,11 @@
       "Affinity": "Kd: 145.1±75.4 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/CD133-aptamer.html"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "CD133_Duan_4",
-      "Linker name (page name)": "CD133 aptamer",
+      "Linker name (page name)": "Cell line Hep3B CD133 aptamer",
       "Type": "Cells",
       "Category": "cell",
       "Named": "CD133-positive on cell line Hep3B_CD133-B19",
@@ -7342,7 +7342,7 @@
       "Affinity": "Kd: 52.3±15.8 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/CD133-aptamer.html"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "Lysozyme_Girvin_1",
@@ -7688,7 +7688,7 @@
     },
     {
       "ID": "HER2 overexpressing cell line_Abnous_2",
-      "Linker name (page name)": "HER2 aptamer",
+      "Linker name (page name)": "Breast cancer cells_HER2 aptamer",
       "Type": "Cells",
       "Category": "cell",
       "Named": "HER2-positive breast cancer cells_TSA14 aptamer(truncation)",
@@ -7702,11 +7702,11 @@
       "Affinity": "Kd:  133.9±12.78 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26221481/",
-      "Linker": "/_posts/HER2-aptamer.html"
+      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer.html"
     },
     {
       "ID": "HER2 overexpressing cell line_Abnous_3",
-      "Linker name (page name)": "HER2 aptamer",
+      "Linker name (page name)": "Breast cancer cells_HER2 aptamer",
       "Type": "Cells",
       "Category": "cell",
       "Named": "HER2-positive breast cancer cells_TSA12 aptamer",
@@ -7720,7 +7720,7 @@
       "Affinity": "Kd: 191.9±21.77 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26221481/",
-      "Linker": "/_posts/HER2-aptamer.html"
+      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer.html"
     },
     {
       "ID": "HIV-1 PR_Prasad_1",
@@ -7940,7 +7940,7 @@
     },
     {
       "ID": "HER2 overexpressing cell line_Abnous_1",
-      "Linker name (page name)": "HER2 aptamer",
+      "Linker name (page name)": "Breast cancer cells_HER2 aptamer",
       "Type": "Cells",
       "Category": "cell",
       "Named": "HER2-positive breast cancer cells_TSA14",
@@ -7954,7 +7954,7 @@
       "Affinity": "Kd: 133.9±12.78 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26221481/",
-      "Linker": "/_posts/HER2-aptamer.html"
+      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer.html"
     },
     {
       "ID": "IR_Esposito_1",
@@ -8012,7 +8012,7 @@
     },
     {
       "ID": "AMPA receptor_Niu_1",
-      "Linker name (page name)": "AB9 aptamer",
+      "Linker name (page name)": "AMPA and kainate receptors_AB9 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "AMPA and kainate receptors_AB9",
@@ -8026,11 +8026,11 @@
       "Affinity": "Kd: 4.5 μM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28325839/",
-      "Linker": "/_posts/AB9-aptamer.html"
+      "Linker": "/_posts/AMPA-and-kainate-receptors_AB9-aptamer.html"
     },
     {
       "ID": "AMPA receptor_Niu_2",
-      "Linker name (page name)": "AB9 aptamer",
+      "Linker name (page name)": "AMPA and kainate receptors_AB9 aptamer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "AMPA and kainate receptors_AB9s",
@@ -8044,7 +8044,7 @@
       "Affinity": "Kd: 4.7 μM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28325839/",
-      "Linker": "/_posts/AB9-aptamer.html"
+      "Linker": "/_posts/AMPA-and-kainate-receptors_AB9-aptamer.html"
     },
     {
       "ID": "Corn_Jaffrey_1",
@@ -8303,8 +8303,8 @@
       "Linker name (page name)": "Prostate cancer cell aptamer",
       "Type": "Cells",
       "Category": "cell",
-      "Named": "Prostate cancer cell_E3 aptamer",
-      "Article name": "E3 aptamer",
+      "Named": "Prostate cancer cell_Prostate cancer cells_E3 aptamer",
+      "Article name": "Prostate cancer cells_E3 aptamer",
       "Ligand": "Prostate cancer cell",
       "Ligand Description": "Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men. Common human prostate cancer cell lines include DU145, LNCaP clone FGC, PC3, NCI-H660, 22RV1, etc. E3 aptamr was obtained by selected different prostate cancer cell lines(LNCaP, PC-3, DU 145, and 22Rv1 cell lines).",
       "CAS": null,
@@ -8321,8 +8321,8 @@
       "Linker name (page name)": "Prostate cancer cell aptamer",
       "Type": "Cells",
       "Category": "cell",
-      "Named": "Prostate cancer cell_E3 aptamer (truncation)",
-      "Article name": "E3 aptamer (truncation)",
+      "Named": "Prostate cancer cell_Prostate cancer cells_E3 aptamer (truncation)",
+      "Article name": "Prostate cancer cells_E3 aptamer (truncation)",
       "Ligand": "Prostate cancer cell",
       "Ligand Description": "Prostate cancer is both the most commonly diagnosed malignancy and the second most common cause of cancer-related mortality for men.",
       "CAS": null,
@@ -8444,7 +8444,7 @@
     },
     {
       "ID": "MLL1_Chun_1",
-      "Linker name (page name)": "Mixed lineage leukemia proteins (MLL) aptermer",
+      "Linker name (page name)": "Mixed lineage leukemia proteins aptermer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Mixed lineage leukemia proteins (MLL)_APT 1",
@@ -8458,11 +8458,11 @@
       "Affinity": null,
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30419633/",
-      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.html"
+      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-aptermer.html"
     },
     {
       "ID": "MLL1_Chun_2",
-      "Linker name (page name)": "Mixed lineage leukemia proteins (MLL) aptermer",
+      "Linker name (page name)": "Mixed lineage leukemia proteins aptermer",
       "Type": "Proteins",
       "Category": "Mammalian",
       "Named": "Mixed lineage leukemia proteins (MLL)_APT 2",
@@ -8476,7 +8476,7 @@
       "Affinity": null,
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30419633/",
-      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer.html"
+      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-aptermer.html"
     },
     {
       "ID": "Pepper_Yang_1",

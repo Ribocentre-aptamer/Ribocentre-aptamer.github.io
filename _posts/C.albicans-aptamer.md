@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: C.albicans aptamer
+title: Candida albicans(C.albicans)
 date: 2024-05-17 00:00:00
 author: Zhizhong Lu, Ao Ying
 categories: Aptamer

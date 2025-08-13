@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Vascular endothelial growth factor aptamer
+title: Vascular Endothelial Growth Factor(VEGF)
 date: 2024-05-19 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer

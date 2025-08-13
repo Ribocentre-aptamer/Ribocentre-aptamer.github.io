@@ -106,7 +106,7 @@
    - 问题: 版本标识与文件名不匹配
    - 建议: 文件名应包含版本信息
 
-2. **HTLV-1 arginine-rich Rex peptide** → **Rex-protein-aptamer**
+2. **HTLV-1 arginine-rich Rex peptide** → **HTLV-1-Rex-peptide-aptamer**
    - 问题: 详细描述与简化文件名
    - 建议: 建立统一的命名标准
 

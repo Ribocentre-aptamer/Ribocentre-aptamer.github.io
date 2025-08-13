@@ -205,9 +205,9 @@ TableModule.updateDataTable = function() {
             if (aptamerNameHTML.includes(',')) {
                 // 从sequence name中提取对应的aptamer部分
                 if (seqName.includes('CB-42')) {
-                    aptamerNameHTML = 'CB-42 aptamer';
+                    aptamerNameHTML = 'Cibacron Blue 3GA_CB-42 aptamer';
                 } else if (seqName.includes('B4-25')) {
-                    aptamerNameHTML = 'B4-25 aptamer';
+                    aptamerNameHTML = 'Reactive Blue 4_B4-25 aptamer';
                 } else if (seqName.includes('Ribostamycin')) {
                     aptamerNameHTML = 'Ribostamycin aptamer';
                 } else if (seqName.includes('Paromomycin')) {

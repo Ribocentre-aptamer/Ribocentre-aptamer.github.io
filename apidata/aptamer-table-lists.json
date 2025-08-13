@@ -79,7 +79,7 @@
           {"name": "RNA polymerase (Pol) II", "url": "https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer"},
           {"name": "HIV-1 REV peptide", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-REV-peptide-aptamer"},
           {"name": "HIV-1 Tat protein", "url": "https://aptamer.ribocentre.org/_posts/HIV-Tat-aptamer.html"},
-          {"name": "HTLV-1 arginine-rich Rex peptide", "url": "https://aptamer.ribocentre.org/_posts/Rex-protein-aptamer.html"},
+          {"name": "HTLV-1 arginine-rich Rex peptide", "url": "https://aptamer.ribocentre.org/_posts/HTLV-1-Rex-peptide-aptamer.html"},
           {"name": "HIV-1 TAR RNA", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer.html"},
           {"name": "Bacteriophage MS2 coat protein", "url": "https://aptamer.ribocentre.org/_posts/bacteriophage-MS2-coat-protein-aptamer"},
           {"name": "Bovine prion", "url": "https://aptamer.ribocentre.org/_posts/Bovine-prion-protein-aptamer.html"}
@@ -141,7 +141,7 @@
           {"name": "hTNF α", "url": "https://aptamer.ribocentre.org/_posts/hTNF-α-aptamer"},
           {"name": "Engineered FKBP protein", "url": "https://aptamer.ribocentre.org/_posts/tFKBP*3R-2G-aptamer"},
           {"name": "eIF4E", "url": "https://aptamer.ribocentre.org/_posts/eIF4E-aptamer"},
-          {"name": "RNA-dependent RNA polymerase", "url": "https://aptamer.ribocentre.org/_posts/3Dpol-aptamer"},
+          {"name": "RNA-dependent RNA polymerase", "url": "https://aptamer.ribocentre.org/_posts/RNA-dependent-RNA-polymerase-aptamer"},
           {"name": "BACE1", "url": "https://aptamer.ribocentre.org/_posts/B1-CT-aptamer"},
           {"name": "Bovine factor IX", "url": "https://aptamer.ribocentre.org/_posts/Bovine-factor-IX-aptamer"}
         ]
@@ -152,9 +152,9 @@
           {"name": "DNA polymerase β", "url": "https://aptamer.ribocentre.org/_posts/polβ-aptamer"},
           {"name": "Transforming growth factor-β type III", "url": "https://aptamer.ribocentre.org/_posts/TbRIII-aptamer"},
           {"name": "AMPA receptors", "url": "https://aptamer.ribocentre.org/_posts/AMPA-receptors-Aptamer"},
-          {"name": "Ca<sup>2+</sup>-binding protein", "url": "https://aptamer.ribocentre.org/_posts/The-protein-calsenilin-aptamer"},
-          {"name": "β2-microglobulin fibrils", "url": "https://aptamer.ribocentre.org/_posts/WL-2-aptamer"},
-          {"name": "GluR2 AMPA receptors", "url": "https://aptamer.ribocentre.org/_posts/AN58-aptamer"},
+          {"name": "Ca<sup>2+</sup>-binding protein", "url": "https://aptamer.ribocentre.org/_posts/Ca2+-binding-protein-aptamer"},
+          {"name": "β2-microglobulin fibrils", "url": "https://aptamer.ribocentre.org/_posts/β2-microglobulin-fibrils_WL-2-aptamer"},
+          {"name": "GluR2 AMPA receptors", "url": "https://aptamer.ribocentre.org/_posts/GluR2-AMPA-receptors_AN58-aptamer"},
           {"name": "Transferrin receptor protein 1", "url": "https://aptamer.ribocentre.org/_posts/TfR-ECD-aptamer"},
           {"name": "Amyloid beta-peptide", "url": "https://aptamer.ribocentre.org/_posts/E2-aptamer"},
           {"name": "Plasminogen activator inhibitor-1", "url": "https://aptamer.ribocentre.org/_posts/PAI-1-aptamer"}
@@ -163,29 +163,29 @@
       {
         "class": "row6",
         "cells": [
-          {"name": "Epithelial Growth Factor Receptor", "url": "https://aptamer.ribocentre.org/_posts/J18-aptamer"},
+          {"name": "Epithelial Growth Factor Receptor", "url": "https://aptamer.ribocentre.org/_posts/Epithelial-growth-factor-receptor_J18-aptamer"},
           {"name": "Zinc-finger antiviral protein", "url": "https://aptamer.ribocentre.org/_posts/ZAP-aptamer"},
           {"name": "Protein tyrosine phosphatase 1B", "url": "https://aptamer.ribocentre.org/_posts/PTP1B-aptamer"},
           {"name": "IL-17A", "url": "https://aptamer.ribocentre.org/_posts/IL-17A-aptamer"},
           {"name": "Cyclophilin B", "url": "https://aptamer.ribocentre.org/_posts/CypB-aptamer"},
           {"name": "OX40", "url": "https://aptamer.ribocentre.org/_posts/OX40-aptamer"},
-          {"name": "Glycoprotein 2", "url": "https://aptamer.ribocentre.org/_posts/Glycoprotein-2-(GP2)-protein-aptamer"},
+          {"name": "Glycoprotein 2", "url": "https://aptamer.ribocentre.org/_posts/GP2-aptamer"},
           {"name": "Estrogen receptor α", "url": "https://aptamer.ribocentre.org/_posts/ERα-aptamer"},
-          {"name": "Carcinoembryonic antigen", "url": "https://aptamer.ribocentre.org/_posts/Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer"}
+          {"name": "Carcinoembryonic antigen", "url": "https://aptamer.ribocentre.org/_posts/CEA-aptamer"}
         ]
       },
       {
         "class": "row7",
         "cells": [
           {"name": "IL-6R", "url": "https://aptamer.ribocentre.org/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer"},
-          {"name": "REases KpnI", "url": "https://aptamer.ribocentre.org/_posts/Restriction-endonucleases-(REases)-KpnI-aptamer"},
-          {"name": "Ubiquitin carboxyl-terminal hydrolase37", "url": "https://aptamer.ribocentre.org/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-(UCH37)-aptamer"},
-          {"name": "AMPA and kainate receptors", "url": "https://aptamer.ribocentre.org/_posts/AB9-aptamer"},
+          {"name": "REases KpnI", "url": "https://aptamer.ribocentre.org/_posts/REases-KpnI-aptamer"},
+          {"name": "Ubiquitin carboxyl-terminal hydrolase37", "url": "https://aptamer.ribocentre.org/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-aptamer"},
+          {"name": "AMPA and kainate receptors", "url": "https://aptamer.ribocentre.org/_posts/AMPA-and-kainate-receptors_AB9-aptamer"},
           {"name": "Gastrointestinal cancer antigen 50", "url": "https://aptamer.ribocentre.org/_posts/Gastrointestinal-cancer-antigen-50-aptamer"},
           {"name": "Cancer antigen 72–4", "url": "https://aptamer.ribocentre.org/_posts/Cancer-antigen-72-4(CA72-4)-aptamer"},
           {"name": "Chemokine CCL17", "url": "https://aptamer.ribocentre.org/_posts/Chemokine-CCL17-aptamer"},
           {"name": "IL2–CD25", "url": "https://aptamer.ribocentre.org/_posts/IL2-CD25-aptermer"},
-          {"name": "Mixed lineage leukemia proteins", "url": "https://aptamer.ribocentre.org/_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer"}
+          {"name": "Mixed lineage leukemia proteins", "url": "https://aptamer.ribocentre.org/_posts/Mixed-lineage-leukemia-proteins-aptermer"}
         ]
       },
       {
@@ -212,7 +212,7 @@
           {"name": "Protein tyrosine phosphatases", "url": "https://aptamer.ribocentre.org/_posts/Protein-tyrosine-phosphatases-aptamer"},
           {"name": "Subtilisin", "url": "https://aptamer.ribocentre.org/_posts/Subtilisin-aptamer"},
           {"name": "Peptide release factor 1", "url": "https://aptamer.ribocentre.org/_posts/Peptide-release-factor-1-aptamer"},
-          {"name": "Colicin E3", "url": "https://aptamer.ribocentre.org/_posts/Colicin-E3-aptamer"},
+          {"name": "Colicin E3", "url": "https://aptamer.ribocentre.org/_posts/Colicin-Prostate-cancer-cells_E3-aptamer"},
           {"name": "Type IVB Pili", "url": "https://aptamer.ribocentre.org/_posts/Type-IVB-Pili-aptamer"}
         ]
       },
@@ -223,18 +223,18 @@
           {"name": "Escherichia coli release factor 1", "url": "https://aptamer.ribocentre.org/_posts/RF-1-aptamer"},
           {"name": "Elongation factor SelB", "url": "https://aptamer.ribocentre.org/_posts/Elongation-factor-SelB-aptamer"},
           {"name": "HIV-1 RT", "url": "https://aptamer.ribocentre.org/_posts/ligand-1.1-aptamer"},
-          {"name": "HIV-1 Rev protein (1)", "url": "https://aptamer.ribocentre.org/_posts/59-aptamer"},
-          {"name": "HIV-1 Rev protein (2)", "url": "https://aptamer.ribocentre.org/_posts/C52-aptamer"},
+          {"name": "HIV-1 Rev protein (1)", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-Rev-protein_59-aptamer"},
+          {"name": "HIV-1 Rev protein (2)", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-Rev-protein_C52-aptamer"},
           {"name": "HIV-1 integrase", "url": "https://aptamer.ribocentre.org/_posts/P5-aptamer"},
-          {"name": "HTLV-1 Tax protein", "url": "https://aptamer.ribocentre.org/_posts/YT1-aptamer"},
-          {"name": "HIV-1 Tat protein", "url": "https://aptamer.ribocentre.org/_posts/Clone-31-aptamer"}
+          {"name": "HTLV-1 Tax protein", "url": "https://aptamer.ribocentre.org/_posts/HTLV-1-Tax-protein_YT1-aptamer"},
+          {"name": "HIV-1 Tat protein", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-Tat-protein_Clone-31-aptamer"}
         ]
       },
       {
         "class": "row11",
         "cells": [
           {"name": "HCV NS3 protease (1)", "url": "https://aptamer.ribocentre.org/_posts/10G-1-aptamer"},
-          {"name": "HCV NS3 protease (2)", "url": "https://aptamer.ribocentre.org/_posts/G9-II-aptamer"},
+          {"name": "HCV NS3 protease (2)", "url": "https://aptamer.ribocentre.org/_posts/HCV-NS3-protease_G9-II-aptamer"},
           {"name": "R5 helix peptide", "url": "https://aptamer.ribocentre.org/_posts/R5-helix-peptide-aptamer"},
           {"name": "Wilms tumor protein", "url": "https://aptamer.ribocentre.org/_posts/RNA22-aptamer"},
           {"name": "HCV NS5B (1)", "url": "https://aptamer.ribocentre.org/_posts/B.2-aptamer"},
@@ -251,25 +251,25 @@
           {"name": "HPV-16 E7 protein", "url": "https://aptamer.ribocentre.org/_posts/HPV-16-E7-oncoprotein-aptamer"},
           {"name": "HBV P protein", "url": "https://aptamer.ribocentre.org/_posts/HBV-aptamer"},
           {"name": "Hirame rhabdovirus", "url": "https://aptamer.ribocentre.org/_posts/HIRRV-aptamer"},
-          {"name": "H5N1/H7N7 Hemagglutinin (HA)", "url": "https://aptamer.ribocentre.org/_posts/HPAI-H5N1-aptamer"},
+          {"name": "H5N1/H7N7 Hemagglutinin (HA)", "url": "https://aptamer.ribocentre.org/_posts/H5N1_H7N7-Hemagglutinin-aptamer"},
           {"name": "gHA1", "url": "https://aptamer.ribocentre.org/_posts/Hemagglutinin-(HA)-protein-aptamer"},
           {"name": "HIV-1 protease", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-PR-aptamer"},
           {"name": "HIV-1 capsid", "url": "https://aptamer.ribocentre.org/_posts/HIV-1-CA-aptamer"},
-          {"name": "Serine/arginine-rich (SR) proteins", "url": "https://aptamer.ribocentre.org/_posts/B52-aptamer"}
+          {"name": "Serine/arginine-rich (SR) proteins", "url": "https://aptamer.ribocentre.org/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer"}
         ]
       },
       {
         "class": "row13",
         "cells": [
           {"name": "Mitochondrion", "url": "https://aptamer.ribocentre.org/_posts/Mitochondrion-aptamer"},
-          {"name": "Drosophila muscleblind protein Mbl", "url": "https://aptamer.ribocentre.org/_posts/Mbl-aptamer"},
+          {"name": "Drosophila muscleblind protein Mbl", "url": "https://aptamer.ribocentre.org/_posts/Drosophila-muscleblind-protein-Mbl-aptamer"},
           {"name": "Pepocin", "url": "https://aptamer.ribocentre.org/_posts/Pepocin-aptamer"},
           {"name": "Reactive Blue 4", "url": "https://aptamer.ribocentre.org/_posts/B4-25-aptamer"},
           {"name": "Cibacron Blue 3GA", "url": "https://aptamer.ribocentre.org/_posts/B4-25-aptamer"},
           {"name": "Sephadex G-100", "url": "https://aptamer.ribocentre.org/_posts/D8-aptamer"},
           {"name": "16S rRNA decoding region", "url": "https://aptamer.ribocentre.org/_posts/109.2-3-aptamer"},
           {"name": "Yeast tRNA", "url": "https://aptamer.ribocentre.org/_posts/tRNA-aptamer"},
-          {"name": "RNA stem-loop", "url": "https://aptamer.ribocentre.org/_posts/RNA-loop-aptamer"}
+          {"name": "RNA stem-loop", "url": "https://aptamer.ribocentre.org/_posts/RNA-stem-loop-aptamer"}
         ]
       },
       {
@@ -277,19 +277,19 @@
         "cells": [
           {"name": "Cell death abnormality gene 9", "url": "https://aptamer.ribocentre.org/_posts/CED-9-aptamer"},
           {"name": "Variant surface glycoprotein", "url": "https://aptamer.ribocentre.org/_posts/Trypanosome-VSG-aptamer"},
-          {"name": "Hamster prion protein", "url": "https://aptamer.ribocentre.org/_posts/Prion-protein1-aptamer"},
-          {"name": "Sheep prion protein", "url": "https://aptamer.ribocentre.org/_posts/Prion-protein2-aptamer"},
-          {"name": "β-catenin", "url": "https://aptamer.ribocentre.org/_posts/pUC19-aptamer"},
-          {"name": "Breast cancer cells", "url": "https://aptamer.ribocentre.org/_posts/HER2-aptamer"},
-          {"name": "Prostate cancer cell", "url": "https://aptamer.ribocentre.org/_posts/E3-aptamer"},
+          {"name": "Hamster prion protein", "url": "https://aptamer.ribocentre.org/_posts/Hamster-prion-protein-aptamer"},
+          {"name": "Sheep prion protein", "url": "https://aptamer.ribocentre.org/_posts/Sheep-prion-protein-aptamer"},
+          {"name": "β-catenin", "url": "https://aptamer.ribocentre.org/_posts/β-catenin_pUC19-aptamer"},
+          {"name": "Breast cancer cells", "url": "https://aptamer.ribocentre.org/_posts/Breast-cancer-cells_HER2-aptamer"},
+          {"name": "Prostate cancer cell", "url": "https://aptamer.ribocentre.org/_posts/Prostate-cancer-cells_E3-aptamer"},
           {"name": "Triple-negative breast cancer", "url": "https://aptamer.ribocentre.org/_posts/TNBC-aptamer"},
-          {"name": "Cell line Hep3B CD133", "url": "https://aptamer.ribocentre.org/_posts/CD133-aptamer"}
+          {"name": "Cell line Hep3B CD133", "url": "https://aptamer.ribocentre.org/_posts/Cell-line-Hep3B-CD133-aptamer"}
         ]
       },
       {
         "class": "row15",
         "cells": [
-          {"name": "Glioma cells", "url": "https://aptamer.ribocentre.org/_posts/GL56-aptamer"}
+          {"name": "Glioma cells", "url": "https://aptamer.ribocentre.org/_posts/Glioma-cells_GL56-aptamer"}
         ]
       }
     ]

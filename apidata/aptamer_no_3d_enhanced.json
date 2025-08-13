@@ -129,7 +129,7 @@
   },
   "data": [
     {
-      "name": "Fluorescein",
+      "name": "Fluorescein_FB-1 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/FB-1-aptamer",
       "background_color": "#AEE1D6",
       "position": {
@@ -143,7 +143,7 @@
       }
     },
     {
-      "name": "Hoechst",
+      "name": "Hoechst_II-min 3-4 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/II-mini3-4-aptamer",
       "background_color": "#AEE1D6",
       "position": {
@@ -185,7 +185,7 @@
       }
     },
     {
-      "name": "Sialyl Lewis X",
+      "name": "Sialyl Lewis X_Clone 5 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/Clone-5-aptamer",
       "background_color": "#7CCCCC",
       "position": {
@@ -199,7 +199,7 @@
       }
     },
     {
-      "name": "Sphingosylphosphorylcholine",
+      "name": "Sphingosylphosphorylcholine aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/SPC-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -213,7 +213,7 @@
       }
     },
     {
-      "name": "Xanthine",
+      "name": "Xanthine_XBA RNA aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/XBA-RNA-aptamer",
       "background_color": "#A6D1F2",
       "position": {
@@ -241,7 +241,7 @@
       }
     },
     {
-      "name": "ATP(2)",
+      "name": "ATP_rafl7s aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/rafl7s-aptamer",
       "background_color": "#A6D1F2",
       "position": {
@@ -255,7 +255,7 @@
       }
     },
     {
-      "name": "ATP(3)",
+      "name": "ATP_bG40min aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/bG40min-aptamer",
       "background_color": "#A6D1F2",
       "position": {
@@ -325,7 +325,7 @@
       }
     },
     {
-      "name": "Tobramycin",
+      "name": "Tobramycin—J6f1 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/J6f1-aptamer",
       "background_color": "#C4B1E0",
       "position": {
@@ -381,7 +381,7 @@
       }
     },
     {
-      "name": "Basic fibroblast growth factor",
+      "name": "Basic fibroblast growth factor (bFGF)",
       "link": "https://aptamer.ribocentre.org/_posts/bFGF-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -395,7 +395,7 @@
       }
     },
     {
-      "name": "Protein kinase C",
+      "name": "Protein kinase C (PKC)",
       "link": "https://aptamer.ribocentre.org/_posts/PKC-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -465,7 +465,7 @@
       }
     },
     {
-      "name": "RAF1",
+      "name": "Raf-1",
       "link": "https://aptamer.ribocentre.org/_posts/Raf-1-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -507,7 +507,7 @@
       }
     },
     {
-      "name": "CD18",
+      "name": "CD18 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/Integrin-beta-chain-2-(CD18)-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -549,7 +549,7 @@
       }
     },
     {
-      "name": "HER3",
+      "name": "HER3_A30 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/A30-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -563,8 +563,8 @@
       }
     },
     {
-      "name": "Eukaryotic initiation factor 4A",
-      "link": "https://aptamer.ribocentre.org/_posts/No.21-aptamer",
+      "name": "Eukaryotic initiation factor 4A(eIF4A)",
+      "link": "https://aptamer.ribocentre.org/_posts/eIF4A-aptamer",
       "background_color": "#D9E89D",
       "position": {
         "row": 3,
@@ -605,7 +605,7 @@
       }
     },
     {
-      "name": "T cytokine 1",
+      "name": "T-cell factor 1 (TCF-1)",
       "link": "https://aptamer.ribocentre.org/_posts/TCF-1-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -647,7 +647,7 @@
       }
     },
     {
-      "name": "Nuclear factor of activated T-cells",
+      "name": "Nuclear factor of activated T-cells (NFAT)",
       "link": "https://aptamer.ribocentre.org/_posts/NFAT-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -704,7 +704,7 @@
     },
     {
       "name": "RNA-dependent RNA polymerase",
-      "link": "https://aptamer.ribocentre.org/_posts/3Dpol-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/RNA-dependent-RNA-polymerase-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 4,
@@ -717,7 +717,7 @@
       }
     },
     {
-      "name": "BACE1",
+      "name": "BACE1 (B1-CT)",
       "link": "https://aptamer.ribocentre.org/_posts/B1-CT-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -745,7 +745,7 @@
       }
     },
     {
-      "name": "DNA polymerase β",
+      "name": "DNA polymerase β(polβ)",
       "link": "https://aptamer.ribocentre.org/_posts/polβ-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -759,7 +759,7 @@
       }
     },
     {
-      "name": "Transforming growth factor-β type III",
+      "name": "Transforming growth factor-β type III(TbRIII)",
       "link": "https://aptamer.ribocentre.org/_posts/TbRIII-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -788,7 +788,7 @@
     },
     {
       "name": "Ca2+-binding protein",
-      "link": "https://aptamer.ribocentre.org/_posts/The-protein-calsenilin-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Ca2+-binding-protein-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 5,
@@ -802,7 +802,7 @@
     },
     {
       "name": "β2-microglobulin fibrils",
-      "link": "https://aptamer.ribocentre.org/_posts/WL-2-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/β2-microglobulin-fibrils_WL-2-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 5,
@@ -816,7 +816,7 @@
     },
     {
       "name": "GluR2 AMPA receptors",
-      "link": "https://aptamer.ribocentre.org/_posts/AN58-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/GluR2-AMPA-receptors_AN58-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 5,
@@ -872,7 +872,7 @@
     },
     {
       "name": "Epithelial Growth Factor Receptor",
-      "link": "https://aptamer.ribocentre.org/_posts/J18-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Epithelial-growth-factor-receptor_Epithelial-growth-factor-receptor_J18-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 6,
@@ -885,7 +885,7 @@
       }
     },
     {
-      "name": "Zinc-finger antiviral protein",
+      "name": "Zinc-finger antiviral protein (ZAP)",
       "link": "https://aptamer.ribocentre.org/_posts/ZAP-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -899,7 +899,7 @@
       }
     },
     {
-      "name": "Protein tyrosine phosphatase 1B",
+      "name": "Protein tyrosine phosphatase 1B (PTP1B)",
       "link": "https://aptamer.ribocentre.org/_posts/PTP1B-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -927,7 +927,7 @@
       }
     },
     {
-      "name": "Cyclophilin B",
+      "name": "Cyclophilin B (CypB)",
       "link": "https://aptamer.ribocentre.org/_posts/CypB-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -956,7 +956,7 @@
     },
     {
       "name": "Glycoprotein 2",
-      "link": "https://aptamer.ribocentre.org/_posts/Glycoprotein-2-(GP2)-protein-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/GP2-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 6,
@@ -969,7 +969,7 @@
       }
     },
     {
-      "name": "Estrogen receptor α",
+      "name": "Estrogen receptor α (ERα)",
       "link": "https://aptamer.ribocentre.org/_posts/ERα-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -984,7 +984,7 @@
     },
     {
       "name": "Carcinoembryonic antigen",
-      "link": "https://aptamer.ribocentre.org/_posts/Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/CEA-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 6,
@@ -997,7 +997,7 @@
       }
     },
     {
-      "name": "IL-6R",
+      "name": "Interleukin-6 receptor domain 3(IL-6R-D3)",
       "link": "https://aptamer.ribocentre.org/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -1012,7 +1012,7 @@
     },
     {
       "name": "REases KpnI",
-      "link": "https://aptamer.ribocentre.org/_posts/Restriction-endonucleases-(REases)-KpnI-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/REases-KpnI-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 7,
@@ -1026,7 +1026,7 @@
     },
     {
       "name": "Ubiquitin carboxyl-terminal hydrolase37",
-      "link": "https://aptamer.ribocentre.org/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-(UCH37)-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 7,
@@ -1040,7 +1040,7 @@
     },
     {
       "name": "AMPA and kainate receptors",
-      "link": "https://aptamer.ribocentre.org/_posts/AB9-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/AMPA-and-kainate-receptors_AB9-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 7,
@@ -1068,7 +1068,7 @@
     },
     {
       "name": "Cancer antigen 72–4",
-      "link": "https://aptamer.ribocentre.org/_posts/Cancer-antigen-72–4(CA72-4)-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Cancer-antigen-72–4-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 7,
@@ -1110,7 +1110,7 @@
     },
     {
       "name": "Mixed lineage leukemia proteins",
-      "link": "https://aptamer.ribocentre.org/_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer",
+      "link": "https://aptamer.ribocentre.org/_posts/Mixed-lineage-leukemia-proteins-aptermer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 7,
@@ -1137,7 +1137,7 @@
       }
     },
     {
-      "name": "E.Coil",
+      "name": "Escherichia coli(E.Coil)",
       "link": "https://aptamer.ribocentre.org/_posts/Escherichia-coli-aptamer",
       "background_color": "#F7B7A3",
       "position": {
@@ -1194,7 +1194,7 @@
     },
     {
       "name": "Colicin E3",
-      "link": "https://aptamer.ribocentre.org/_posts/Colicin-E3-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Colicin-Prostate-cancer-cells_E3-aptamer",
       "background_color": "#F7B7A3",
       "position": {
         "row": 9,
@@ -1264,7 +1264,7 @@
     },
     {
       "name": "Serine/arginine-rich (SR) proteins",
-      "link": "https://aptamer.ribocentre.org/_posts/B52-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer",
       "background_color": "#F5A6A6",
       "position": {
         "row": 12,
@@ -1292,7 +1292,7 @@
     },
     {
       "name": "Drosophila muscleblind protein Mbl",
-      "link": "https://aptamer.ribocentre.org/_posts/Mbl-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Drosophila-muscleblind-protein-Mbl-aptamer",
       "background_color": "#F5A6A6",
       "position": {
         "row": 13,
@@ -1305,7 +1305,7 @@
       }
     },
     {
-      "name": "Cell death abnormality gene 9",
+      "name": "Cell death abnormality gene 9 (CED-9)",
       "link": "https://aptamer.ribocentre.org/_posts/CED-9-aptamer",
       "background_color": "#E7B7E8",
       "position": {
@@ -1319,7 +1319,7 @@
       }
     },
     {
-      "name": "Variant surface glycoprotein",
+      "name": "Trypanosome variant surface glycoprotein (Trypanosome VSG)",
       "link": "https://aptamer.ribocentre.org/_posts/Trypanosome-VSG-aptamer",
       "background_color": "#8EC46C",
       "position": {
@@ -1334,7 +1334,7 @@
     },
     {
       "name": "Hamster prion protein",
-      "link": "https://aptamer.ribocentre.org/_posts/Prion-protein1-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Hamster-prion-protein-aptamer",
       "background_color": "#F7E6AD",
       "position": {
         "row": 14,
@@ -1348,7 +1348,7 @@
     },
     {
       "name": "Sheep prion protein",
-      "link": "https://aptamer.ribocentre.org/_posts/Prion-protein2-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Sheep-prion-protein-aptamer",
       "background_color": "#F7E6AD",
       "position": {
         "row": 14,
@@ -1376,7 +1376,7 @@
     },
     {
       "name": "HIV-1 Rev protein (1)",
-      "link": "https://aptamer.ribocentre.org/_posts/59-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-Rev-protein_59-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 10,
@@ -1390,7 +1390,7 @@
     },
     {
       "name": "HIV-1 Rev protein (2)",
-      "link": "https://aptamer.ribocentre.org/_posts/C52-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-Rev-protein_C52-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 10,
@@ -1418,7 +1418,7 @@
     },
     {
       "name": "HTLV-1 Tax protein",
-      "link": "https://aptamer.ribocentre.org/_posts/YT1-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HTLV-1-Tax-protein_YT1-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 10,
@@ -1432,7 +1432,7 @@
     },
     {
       "name": "HIV-1 Tat protein",
-      "link": "https://aptamer.ribocentre.org/_posts/Clone-31-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-Tat-protein_Clone-31-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 10,
@@ -1460,7 +1460,7 @@
     },
     {
       "name": "HCV NS3 protease (2)",
-      "link": "https://aptamer.ribocentre.org/_posts/G9-II-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/HCV-NS3-protease_G9-II-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 11,
@@ -1501,7 +1501,7 @@
       }
     },
     {
-      "name": "HCV NS5B (1)",
+      "name": "HCV NS5B protein",
       "link": "https://aptamer.ribocentre.org/_posts/HCV-NS5B-protein-aptamer",
       "background_color": "#90A7E6",
       "position": {
@@ -1515,7 +1515,7 @@
       }
     },
     {
-      "name": "HCV NS5B (2)",
+      "name": "HCV NS5B ΔC55",
       "link": "https://aptamer.ribocentre.org/_posts/HCV-NS5BΔC55-aptamer",
       "background_color": "#90A7E6",
       "position": {
@@ -1613,7 +1613,7 @@
       }
     },
     {
-      "name": "Hirame rhabdovirus",
+      "name": "Hirame rhabdovirus(HIRRV)",
       "link": "https://aptamer.ribocentre.org/_posts/HIRRV-aptamer",
       "background_color": "#90A7E6",
       "position": {
@@ -1628,7 +1628,7 @@
     },
     {
       "name": "H5N1/H7N7 Hemagglutinin (HA)",
-      "link": "https://aptamer.ribocentre.org/_posts/HPAI-H5N1-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/H5N1_H7N7-Hemagglutinin-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 12,
@@ -1697,8 +1697,8 @@
       }
     },
     {
-      "name": "Yeast tRNA",
-      "link": "https://aptamer.ribocentre.org/_posts/tRNA-aptamer",
+      "name": "Yeast phenylalanine tRNA",
+      "link": "https://aptamer.ribocentre.org/_posts/Yeast-phenylalanine-tRNA-aptamer",
       "background_color": "#B8D0C5",
       "position": {
         "row": 13,
@@ -1712,7 +1712,7 @@
     },
     {
       "name": "RNA stem-loop",
-      "link": "https://aptamer.ribocentre.org/_posts/RNA-loop-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/RNA-stem-loop-aptamer",
       "background_color": "#FFD3B4",
       "position": {
         "row": 13,
@@ -1726,7 +1726,7 @@
     },
     {
       "name": "β-catenin",
-      "link": "https://aptamer.ribocentre.org/_posts/pUC19-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/β-catenin_pUC19-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 14,
@@ -1740,7 +1740,7 @@
     },
     {
       "name": "Breast cancer cells",
-      "link": "https://aptamer.ribocentre.org/_posts/HER2-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Breast-cancer-cells_HER2-aptamer",
       "background_color": "#AEE392",
       "position": {
         "row": 14,
@@ -1753,8 +1753,8 @@
       }
     },
     {
-      "name": "Prostate cancer cell",
-      "link": "https://aptamer.ribocentre.org/_posts/E3-aptamer",
+      "name": "Prostate cancer cells",
+      "link": "https://aptamer.ribocentre.org/_posts/Prostate-cancer-cells_E3-aptamer",
       "background_color": "#AEE392",
       "position": {
         "row": 14,
@@ -1767,7 +1767,7 @@
       }
     },
     {
-      "name": "Triple-negative breast cancer",
+      "name": "Triple-negative breast cancer(TNBC)",
       "link": "https://aptamer.ribocentre.org/_posts/TNBC-aptamer",
       "background_color": "#AEE392",
       "position": {
@@ -1782,7 +1782,7 @@
     },
     {
       "name": "Cell line Hep3B CD133",
-      "link": "https://aptamer.ribocentre.org/_posts/CD133-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Cell-line-Hep3B-CD133-aptamer",
       "background_color": "#AEE392",
       "position": {
         "row": 14,
@@ -1796,7 +1796,7 @@
     },
     {
       "name": "Glioma cells",
-      "link": "https://aptamer.ribocentre.org/_posts/GL56-aptamer",
+      "link": "https://aptamer.ribocentre.org/_posts/Glioma-cells_GL56-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 15,
@@ -1823,7 +1823,7 @@
       }
     },
     {
-      "name": "Reactive Blue 4",
+      "name": "Reactive Blue 4_B4-25 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/B4-25-aptamer",
       "background_color": "#C1C8E4",
       "position": {
@@ -1837,7 +1837,7 @@
       }
     },
     {
-      "name": "Cibacron Blue 3GA",
+      "name": "Cibacron Blue 3GA_CB-42 aptamer",
       "link": "https://aptamer.ribocentre.org/_posts/B4-25-aptamer",
       "background_color": "#C1C8E4",
       "position": {

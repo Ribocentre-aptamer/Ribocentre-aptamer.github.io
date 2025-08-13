@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: HIV-1 Rev aptamer
+title: HIV-1 Rev protein (3)
 date: 2024-05-05 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer

@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Tyr 1 aptamer
+title: L-tyrosine aptamer
 date: 2024-05-29 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer

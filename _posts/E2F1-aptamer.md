@@ -44,7 +44,6 @@ type: Proteins
 
 
 <p class="header_box" id="ligand-recognition">Ligand information</p> 
-
 <p class="blowheader_box">SELEX ligand</p>
 <p>E2F is transcription activator that binds DNA cooperatively with docking proteins through the E2 recognition site, 5'-TTTC[CG]CGC-3' found in the promoter region of a number of genes whose products are involved in cell cycle regulation or in DNA replication. The DRTF1/E2F complex functions in the control of cell-cycle progression from G1 to S phase. E2F2 binds specifically to RB1 in a cell-cycle dependent manner.-----From <a href="https://www.uniprot.org/uniprotkb/Q14209/entry" target="_blank" style="color:#520049; text-decoration: underline;"><b>Uniprot</b></a></p>
 

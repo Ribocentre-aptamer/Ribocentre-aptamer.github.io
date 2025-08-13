@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: β55 aptamer
+title: Amyloid beta-peptide_β55 aptamer
 date: 2024-05-15 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer

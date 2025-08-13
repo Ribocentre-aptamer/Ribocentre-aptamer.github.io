@@ -1,6 +1,6 @@
 [
   {
-    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/J18-aptamer.html",
+    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/Epithelial-growth-factor-receptor_J18-aptamer.html",
     "new Linker name":"EGFR aptamer",
     "Biomarkers":"EGFR",
     "Cancer Type":"Lung cancer",
@@ -44,7 +44,7 @@
     "References":"https:\/\/pubmed.ncbi.nlm.nih.gov\/12124337\/"
   },
   {
-    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer.html",
+    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/CEA-aptamer.html",
     "new Linker name":"CEA aptamer",
     "Biomarkers":"CEA",
     "Cancer Type":"Gastrointestinal cancer",

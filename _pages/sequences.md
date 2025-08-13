@@ -507,9 +507,9 @@ function buildRows(data){
       if (aptamerName.includes(',')) {
         // 从sequence name中提取对应的aptamer部分
         if (seqName.includes('CB-42')) {
-          aptamerName = 'CB-42 aptamer';
+          aptamerName = 'Cibacron Blue 3GA_CB-42 aptamer';
         } else if (seqName.includes('B4-25')) {
-          aptamerName = 'B4-25 aptamer';
+          aptamerName = 'Reactive Blue 4_B4-25 aptamer';
         } else if (seqName.includes('Ribostamycin')) {
           aptamerName = 'Ribostamycin aptamer';
         } else if (seqName.includes('Paromomycin')) {
@@ -773,9 +773,9 @@ function exportOriginalDataToCSV(dataRows, filename) {
         if (aptamerName.includes(',')) {
           // 从sequence name中提取对应的aptamer部分
           if (seqName.includes('CB-42')) {
-            aptamerName = 'CB-42 aptamer';
+            aptamerName = 'Cibacron Blue 3GA_CB-42 aptamer';
           } else if (seqName.includes('B4-25')) {
-            aptamerName = 'B4-25 aptamer';
+            aptamerName = 'Reactive Blue 4_B4-25 aptamer';
           } else if (seqName.includes('Ribostamycin')) {
             aptamerName = 'Ribostamycin aptamer';
           } else if (seqName.includes('Paromomycin')) {

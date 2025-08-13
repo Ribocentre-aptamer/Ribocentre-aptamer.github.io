@@ -24,8 +24,8 @@
 - **总文件数**: 193个markdown文件
 - **Title覆盖率**: 100% (所有文件都有title)
 - **平均Title长度**: 19.0字符
-- **最长Title**: 55字符 (Gastrointestinal carcinoembryonic antigen (CEA) aptamer)
-- **最短Title**: 10字符 (59 aptamer)
+- **最长Title**: 55字符 (CEA aptamer)
+- **最短Title**: 10字符 (HIV-1 Rev protein_59 aptamer)
 
 ### 分类统计
 
@@ -52,7 +52,7 @@
 
 #### 2. 命名模式
 - **标准模式**: `[化合物名]-aptamer` (如: ATP-aptamer)
-- **编号模式**: `[编号]-aptamer` (如: 59-aptamer)
+- **编号模式**: `[编号]-aptamer` (如: HIV-1-Rev-protein_59-aptamer)
 - **缩写模式**: `[缩写]-aptamer` (如: FB-1-aptamer)
 - **复合名称**: `[复杂名称]-aptamer` (如: HIV-1-RT-aptamer)
 

@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: G6-16 aptamer
+title: GHCV NS3 protease (3)
 date: 2024-05-07 00:00:00
 author: Ke Chen, Yangyi Ren
 categories: Aptamer

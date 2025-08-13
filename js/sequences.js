@@ -505,9 +505,9 @@ class SequenceTableManager {
                 if (seqName && aptamerName !== 'N/A' && aptamerName.includes(',')) {
                     // 检查是否是合并的aptamer（包含逗号）
                     if (seqName.includes('CB-42')) {
-                        aptamerName = 'CB-42 aptamer';
+                        aptamerName = 'Cibacron Blue 3GA_CB-42 aptamer';
                     } else if (seqName.includes('B4-25')) {
-                        aptamerName = 'B4-25 aptamer';
+                        aptamerName = 'Reactive Blue 4_B4-25 aptamer';
                     } else if (seqName.includes('Ribostamycin')) {
                         aptamerName = 'Ribostamycin aptamer';
                     } else if (seqName.includes('Paromomycin')) {

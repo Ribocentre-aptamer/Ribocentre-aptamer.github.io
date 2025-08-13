@@ -208,7 +208,7 @@ class AdvancedSearchModule {
             'Lysozyme aptamer',
             'Cocaine aptamer',
             'Immunoglobulin E aptamer',
-            'Vascular endothelial growth factor aptamer',
+            'Vascular Endothelial Growth Factor(VEGF)',
             'Protein kinase C aptamer',
             'Human α-thrombin aptamer',
             'Adenosine aptamer'
@@ -1577,7 +1577,7 @@ class AdvancedSearchModule {
         
         const tagMap = {};
         
-        // 1. 尝试解析 YAML 风格的数组标签 (例如 _posts/3Dpol-aptamer.md 中的格式)
+        // 1. 尝试解析 YAML 风格的数组标签 (例如 _posts/RNA-dependent-RNA-polymerase-aptamer.md 中的格式)
         // - Category:Mammalian
         // - GC:41.25
         if (tagsStr.includes('Category:') || tagsStr.includes('Type:')) {

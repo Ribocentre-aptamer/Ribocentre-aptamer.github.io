@@ -424,7 +424,7 @@
     },
     {
       "name": "HTLV-1 arginine-rich Rex peptide",
-      "link": "https://aptamer.ribocentre.org/_posts/Rex-protein-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/HTLV-1-Rex-peptide-aptamer.html",
       "background_color": "#90A7E6",
       "position": {
         "row": 3,
@@ -802,7 +802,7 @@
     },
     {
       "name": "HIV-1 Tat protein",
-      "link": "https://aptamer.ribocentre.org/_posts/HIV-Tat-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-Tat-protein-aptamer.html",
       "background_color": "#90A7E6",
       "position": {
         "row": 6,

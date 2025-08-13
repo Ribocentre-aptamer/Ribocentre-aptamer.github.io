@@ -12,7 +12,7 @@
   },
   {
     "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/10G-1-aptamer",
-    "new Linker name":"10G-1 aptamer",
+    "new Linker name":"HCV NS3 protease_10G-1 aptamer",
     "Section":"Viral",
     "Target":"HCV",
     "Sequence":"5'-GGGAACUCGAUGAAGCGAAUUCUGUUGGCGAACUGUACGCAAGUACACUGGAUGACAGCCUAUCUAUCGGAUCCACG-3'",

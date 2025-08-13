@@ -37,7 +37,7 @@
 - 例如: `ATP-aptamer`, `Dopamine-aptamer`
 
 #### 2. 特殊命名模式
-- **编号模式**: `59-aptamer`, `A30-aptamer`
+- **编号模式**: `HIV-1-Rev-protein_59-aptamer`, `A30-aptamer`
 - **缩写模式**: `FB-1-aptamer`, `II-mini3-4-aptamer`
 - **复合名称**: `HIV-1-RT-aptamer`, `HCV-NS5B-protein-aptamer`
 - **特殊字符**: `ERα-aptamer`, `Aβ42-aptamer`
@@ -66,7 +66,7 @@
    - 文件名: `Gp43-aptamer` → Title: `T4 gp43 aptamer`
 
 3. **多个名称**
-   - 文件名: `B4-25-aptamer` → Title: `B4-25 aptamer, CB-42 aptamer`
+   - 文件名: `B4-25-aptamer` → Title: `Reactive Blue 4_B4-25 aptamer, Cibacron Blue 3GA_CB-42 aptamer`
 
 ### 分类统计
 

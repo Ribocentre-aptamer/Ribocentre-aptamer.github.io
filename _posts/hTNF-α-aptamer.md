@@ -6,7 +6,6 @@ author: Yuxuan Sun, Baowei Huang
 categories: Aptamer
 tags:
 - Category:Mammalian
-- GC:40.849999999999994
 - GC:45.07
 - GC:46.77
 - GC:47.89
@@ -21,7 +20,6 @@ tags:
 - Length:60
 - Length:62
 - Length:71
-- Named:E2F transcription factor (E2F1)_E2F-E1
 - Named:Tumor necrosis factor alpha (hTNFα)_1
 - Named:Tumor necrosis factor alpha (hTNFα)_10
 - Named:Tumor necrosis factor alpha (hTNFα)_11.7

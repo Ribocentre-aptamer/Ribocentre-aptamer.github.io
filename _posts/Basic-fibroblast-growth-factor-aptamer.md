@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Basic fibroblast growth factor aptamer
+title: Basic fibroblast growth factor(bFGF)
 date: 2024-05-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer

@@ -136,7 +136,7 @@ python scripts/add_linker_to_json.py --json-path /path/to/data.json --posts-dir 
 ```
 "ATP aptamer" → "ATP-aptamer"
 "HIV-1 RT aptamer" → "HIV-1-RT-aptamer"
-"B4-25 aptamer, CB-42 aptamer" → "B4-25-aptamer-CB-42-aptamer"
+"Reactive Blue 4_B4-25 aptamer, Cibacron Blue 3GA_CB-42 aptamer" → "B4-25-aptamer-CB-42-aptamer"
 ```
 
 ## 常见使用场景

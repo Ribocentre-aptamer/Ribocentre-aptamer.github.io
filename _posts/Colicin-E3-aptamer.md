@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: Colicin E3 aptamer
+title: Colicin Prostate cancer cells_E3 aptamer
 date: 2024-05-27 00:00:00
 author: Qiaozhen Liu, Zhijie Tan
 categories: Aptamer

@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: D8 aptamer
+title: DSephadex G-100_D8 aptamer
 date: 2024-05-27 00:00:00
 author: Yuhang Luo, Linfei Li
 categories: Aptamer

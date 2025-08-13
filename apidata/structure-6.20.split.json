@@ -763,7 +763,7 @@
   },
   {
     "No.": 45,
-    "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Rex-protein-aptamer.html",
+    "AptamerLinker": "https://aptamer.ribocentre.org/_posts/HTLV-1-Rex-peptide-aptamer.html",
     "Name": "Rex protein aptamer",
     "Ligand": "HTLV-1 arginine-rich Rex peptide",
     "Structure Determination": "NMR",
@@ -832,7 +832,7 @@
   {
     "No.": 49,
     "AptamerLinker": "https://aptamer.ribocentre.org/_posts/HIV-1-Rev-aptamer.html",
-    "Name": "HIV-1 Rev aptamer",
+    "Name": "HIV-1 Rev protein (3)",
     "Ligand": "REV93 peptide",
     "Structure Determination": "X-ray",
     "NDB_text": "6CF2",

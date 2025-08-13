@@ -47,8 +47,8 @@
 46,Transforming growth factor-β type III,https://aptamer.ribocentre.org/_posts/TbRIII-aptamer,TbRIII-aptamer,False,不匹配,transforming growth factor-β type iii,tbriii-aptamer
 47,AMPA receptors,https://aptamer.ribocentre.org/_posts/AMPA-receptors-Aptamer,AMPA-receptors-Aptamer,False,部分匹配,ampa receptors,ampa-receptors-aptamer
 48,Ca2+-binding protein,https://aptamer.ribocentre.org/_posts/The-protein-calsenilin-aptamer,The-protein-calsenilin-aptamer,False,部分匹配,ca2-binding protein,the-protein-calsenilin-aptamer
-49,β2-microglobulin fibrils,https://aptamer.ribocentre.org/_posts/WL-2-aptamer,WL-2-aptamer,False,不匹配,β2-microglobulin fibrils,wl-2-aptamer
-50,GluR2 AMPA receptors,https://aptamer.ribocentre.org/_posts/AN58-aptamer,AN58-aptamer,False,不匹配,glur2 ampa receptors,an58-aptamer
+49,β2-microglobulin fibrils,https://aptamer.ribocentre.org/_posts/β2-microglobulin-fibrils_WL-2-aptamer,β2-microglobulin-fibrils_WL-2-aptamer,False,不匹配,β2-microglobulin fibrils,β2-microglobulin-fibrils_WL-2-aptamer
+50,GluR2 AMPA receptors,https://aptamer.ribocentre.org/_posts/GluR2-AMPA-receptors_AN58-aptamer,GluR2-AMPA-receptors_AN58-aptamer,False,不匹配,glur2 ampa receptors,GluR2-AMPA-receptors_AN58-aptamer
 51,Transferrin receptor protein 1,https://aptamer.ribocentre.org/_posts/TfR-ECD-aptamer,TfR-ECD-aptamer,False,部分匹配,transferrin receptor protein 1,tfr-ecd-aptamer
 52,Amyloid beta-peptide,https://aptamer.ribocentre.org/_posts/E2-aptamer,E2-aptamer,False,不匹配,amyloid beta-peptide,e2-aptamer
 53,Plasminogen activator inhibitor-1,https://aptamer.ribocentre.org/_posts/PAI-1-aptamer,PAI-1-aptamer,False,不匹配,plasminogen activator inhibitor-1,pai-1-aptamer
@@ -66,35 +66,35 @@
 65,Ubiquitin carboxyl-terminal hydrolase37,https://aptamer.ribocentre.org/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-(UCH37)-aptamer,Ubiquitin-carboxyl-terminal-hydrolase37-(UCH37)-aptamer,False,部分匹配,ubiquitin carboxyl-terminal hydrolase37,ubiquitin-carboxyl-terminal-hydrolase37-uch37-aptamer
 66,AMPA and kainate receptors,https://aptamer.ribocentre.org/_posts/AB9-aptamer,AB9-aptamer,False,不匹配,ampa and kainate receptors,ab9-aptamer
 67,Gastrointestinal cancer antigen 50,https://aptamer.ribocentre.org/_posts/Gastrointestinal-cancer-antigen-50-aptamer,Gastrointestinal-cancer-antigen-50-aptamer,False,部分匹配,gastrointestinal cancer antigen 50,gastrointestinal-cancer-antigen-50-aptamer
-68,Cancer antigen 72–4,https://aptamer.ribocentre.org/_posts/Cancer-antigen-72–4(CA72-4)-aptamer,Cancer-antigen-72–4(CA72-4)-aptamer,False,部分匹配,cancer antigen 724,cancer-antigen-724ca72-4-aptamer
+68,Cancer antigen 72–4,https://aptamer.ribocentre.org/_posts/Cancer-antigen-72–4-aptamer,Cancer-antigen-72–4-aptamer,False,部分匹配,cancer antigen 724,cancer-antigen-724ca72-4-aptamer
 69,Chemokine CCL17,https://aptamer.ribocentre.org/_posts/Chemokine-CCL17-aptamer,Chemokine-CCL17-aptamer,False,部分匹配,chemokine ccl17,chemokine-ccl17-aptamer
 70,IL2–CD25,https://aptamer.ribocentre.org/_posts/IL2-CD25-aptermer,IL2-CD25-aptermer,False,不匹配,il2cd25,il2-cd25-aptermer
-71,Mixed lineage leukemia proteins,https://aptamer.ribocentre.org/_posts/Mixed-lineage-leukemia-proteins-(MLL)-aptermer,Mixed-lineage-leukemia-proteins-(MLL)-aptermer,False,部分匹配,mixed lineage leukemia proteins,mixed-lineage-leukemia-proteins-mll-aptermer
+71,Mixed lineage leukemia proteins,https://aptamer.ribocentre.org/_posts/Mixed-lineage-leukemia-proteins-aptermer,Mixed-lineage-leukemia-proteins-aptermer,False,部分匹配,mixed lineage leukemia proteins,mixed-lineage-leukemia-proteins-mll-aptermer
 72,Aβ42,https://aptamer.ribocentre.org/_posts/Aβ42-aptamer,Aβ42-aptamer,True,名称包含在文件名中,aβ42,aβ42-aptamer
 73,E.Coil,https://aptamer.ribocentre.org/_posts/Escherichia-coli-aptamer,Escherichia-coli-aptamer,False,不匹配,ecoil,escherichia-coli-aptamer
 74,Protein tyrosine phosphatases,https://aptamer.ribocentre.org/_posts/Protein-tyrosine-phosphatases-aptamer,Protein-tyrosine-phosphatases-aptamer,False,部分匹配,protein tyrosine phosphatases,protein-tyrosine-phosphatases-aptamer
 75,Subtilisin,https://aptamer.ribocentre.org/_posts/Subtilisin-aptamer,Subtilisin-aptamer,True,名称包含在文件名中,subtilisin,subtilisin-aptamer
 76,Peptide release factor 1,https://aptamer.ribocentre.org/_posts/Peptide-release-factor-1-aptamer,Peptide-release-factor-1-aptamer,False,部分匹配,peptide release factor 1,peptide-release-factor-1-aptamer
-77,Colicin E3,https://aptamer.ribocentre.org/_posts/Colicin-E3-aptamer,Colicin-E3-aptamer,False,部分匹配,colicin e3,colicin-e3-aptamer
+77,Colicin E3,https://aptamer.ribocentre.org/_posts/Colicin-Prostate-cancer-cells_E3-aptamer,Colicin-Prostate-cancer-cells_E3-aptamer,False,部分匹配,colicin e3,colicin-Prostate-cancer-cells_E3-aptamer
 78,Type IVB Pili,https://aptamer.ribocentre.org/_posts/Type-IVB-Pili-aptamer,Type-IVB-Pili-aptamer,False,部分匹配,type ivb pili,type-ivb-pili-aptamer
 79,CsrA,https://aptamer.ribocentre.org/_posts/CsrA-aptamer,CsrA-aptamer,True,名称包含在文件名中,csra,csra-aptamer
 80,Escherichia coli release factor 1,https://aptamer.ribocentre.org/_posts/RF-1-aptamer,RF-1-aptamer,False,不匹配,escherichia coli release factor 1,rf-1-aptamer
 81,Elongation factor SelB,https://aptamer.ribocentre.org/_posts/Elongation-factor-SelB-aptamer,Elongation-factor-SelB-aptamer,False,部分匹配,elongation factor selb,elongation-factor-selb-aptamer
-82,Serine/arginine-rich (SR) proteins,https://aptamer.ribocentre.org/_posts/B52-aptamer,B52-aptamer,False,不匹配,serinearginine-rich sr proteins,b52-aptamer
+82,Serine/arginine-rich (SR) proteins,https://aptamer.ribocentre.org/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer,Serine_arginine-rich-(SR)-proteins_B52-aptamer,False,不匹配,serinearginine-rich sr proteins,Serine_arginine-rich-(SR)-proteins_B52-aptamer
 83,Mitochondrion,https://aptamer.ribocentre.org/_posts/Mitochondrion-aptamer,Mitochondrion-aptamer,True,名称包含在文件名中,mitochondrion,mitochondrion-aptamer
-84,Drosophila muscleblind protein Mbl,https://aptamer.ribocentre.org/_posts/Mbl-aptamer,Mbl-aptamer,False,不匹配,drosophila muscleblind protein mbl,mbl-aptamer
+84,Drosophila muscleblind protein Mbl,https://aptamer.ribocentre.org/_posts/Drosophila-muscleblind-protein-Mbl-aptamer,Drosophila-muscleblind-protein-Mbl-aptamer,False,不匹配,drosophila muscleblind protein mbl,Drosophila-muscleblind-protein-Mbl-aptamer
 85,Cell death abnormality gene 9,https://aptamer.ribocentre.org/_posts/CED-9-aptamer,CED-9-aptamer,False,不匹配,cell death abnormality gene 9,ced-9-aptamer
 86,Variant surface glycoprotein,https://aptamer.ribocentre.org/_posts/Trypanosome-VSG-aptamer,Trypanosome-VSG-aptamer,False,部分匹配,variant surface glycoprotein,trypanosome-vsg-aptamer
-87,Hamster prion protein,https://aptamer.ribocentre.org/_posts/Prion-protein1-aptamer,Prion-protein1-aptamer,False,部分匹配,hamster prion protein,prion-protein1-aptamer
-88,Sheep prion protein,https://aptamer.ribocentre.org/_posts/Prion-protein2-aptamer,Prion-protein2-aptamer,False,部分匹配,sheep prion protein,prion-protein2-aptamer
+87,Hamster prion protein,https://aptamer.ribocentre.org/_posts/Hamster-prion-protein-aptamer,Hamster-prion-protein-aptamer,False,部分匹配,hamster prion protein,Hamster-prion-protein-aptamer
+88,Sheep prion protein,https://aptamer.ribocentre.org/_posts/Sheep-prion-protein-aptamer,Sheep-prion-protein-aptamer,False,部分匹配,sheep prion protein,Sheep-prion-protein-aptamer
 89,HIV-1 RT,https://aptamer.ribocentre.org/_posts/HIV-1-RT-aptamer,HIV-1-RT-aptamer,False,部分匹配,hiv-1 rt,hiv-1-rt-aptamer
-90,HIV-1 Rev protein (1),https://aptamer.ribocentre.org/_posts/59-aptamer,59-aptamer,False,不匹配,hiv-1 rev protein 1,59-aptamer
-91,HIV-1 Rev protein (2),https://aptamer.ribocentre.org/_posts/C52-aptamer,C52-aptamer,False,不匹配,hiv-1 rev protein 2,c52-aptamer
+90,HIV-1 Rev protein (1),https://aptamer.ribocentre.org/_posts/HIV-1-Rev-protein_59-aptamer,HIV-1-Rev-protein_59-aptamer,False,不匹配,hiv-1 rev protein 1,HIV-1-Rev-protein_59-aptamer
+91,HIV-1 Rev protein (2),https://aptamer.ribocentre.org/_posts/HIV-1-Rev-protein_C52-aptamer,HIV-1-Rev-protein_C52-aptamer,False,不匹配,hiv-1 rev protein 2,HIV-1-Rev-protein_C52-aptamer
 92,HIV-1 integrase,https://aptamer.ribocentre.org/_posts/HIV-1-integrase-aptamer,HIV-1-integrase-aptamer,False,部分匹配,hiv-1 integrase,hiv-1-integrase-aptamer
-93,HTLV-1 Tax protein,https://aptamer.ribocentre.org/_posts/YT1-aptamer,YT1-aptamer,False,不匹配,htlv-1 tax protein,yt1-aptamer
-94,HIV-1 Tat protein,https://aptamer.ribocentre.org/_posts/Clone-31-aptamer,Clone-31-aptamer,False,部分匹配,hiv-1 tat protein,clone-31-aptamer
+93,HTLV-1 Tax protein,https://aptamer.ribocentre.org/_posts/HTLV-1-Tax-protein_YT1-aptamer,HTLV-1-Tax-protein_YT1-aptamer,False,不匹配,htlv-1 tax protein,HTLV-1-Tax-protein_YT1-aptamer
+94,HIV-1 Tat protein,https://aptamer.ribocentre.org/_posts/HIV-1-Tat-protein_Clone-31-aptamer,HIV-1-Tat-protein_Clone-31-aptamer,False,部分匹配,hiv-1 tat protein,HIV-1-Tat-protein_Clone-31-aptamer
 95,HCV NS3 protease (1),https://aptamer.ribocentre.org/_posts/10G-1-aptamer,10G-1-aptamer,False,不匹配,hcv ns3 protease 1,10g-1-aptamer
-96,HCV NS3 protease (2),https://aptamer.ribocentre.org/_posts/G9-II-aptamer,G9-II-aptamer,False,不匹配,hcv ns3 protease 2,g9-ii-aptamer
+96,HCV NS3 protease (2),https://aptamer.ribocentre.org/_posts/HCV-NS3-protease_G9-II-aptamer,HCV-NS3-protease_G9-II-aptamer,False,不匹配,hcv ns3 protease 2,HCV-NS3-protease_G9-II-aptamer
 97,R5 helix peptide,https://aptamer.ribocentre.org/_posts/R5-helix-peptide-aptamer,R5-helix-peptide-aptamer,False,部分匹配,r5 helix peptide,r5-helix-peptide-aptamer
 98,Wilms tumor protein,https://aptamer.ribocentre.org/_posts/Wilms-tumor-protein-aptamer,Wilms-tumor-protein-aptamer,False,部分匹配,wilms tumor protein,wilms-tumor-protein-aptamer
 99,HCV NS5B (1),https://aptamer.ribocentre.org/_posts/HCV-NS5B-protein-aptamer,HCV-NS5B-protein-aptamer,False,不匹配,hcv ns5b 1,hcv-ns5b-protein-aptamer
@@ -106,19 +106,19 @@
 105,HPV-16 E7 protein,https://aptamer.ribocentre.org/_posts/HPV-16-E7-oncoprotein-aptamer,HPV-16-E7-oncoprotein-aptamer,False,部分匹配,hpv-16 e7 protein,hpv-16-e7-oncoprotein-aptamer
 106,HBV P protein,https://aptamer.ribocentre.org/_posts/HBV-P-protein-aptamer,HBV-P-protein-aptamer,False,部分匹配,hbv p protein,hbv-p-protein-aptamer
 107,Hirame rhabdovirus,https://aptamer.ribocentre.org/_posts/HIRRV-aptamer,HIRRV-aptamer,False,部分匹配,hirame rhabdovirus,hirrv-aptamer
-108,H5N1/H7N7 Hemagglutinin (HA),https://aptamer.ribocentre.org/_posts/HPAI-H5N1-aptamer,HPAI-H5N1-aptamer,False,部分匹配,h5n1h7n7 hemagglutinin ha,hpai-h5n1-aptamer
+108,H5N1/H7N7 Hemagglutinin (HA),https://aptamer.ribocentre.org/_posts/H5N1_H7N7-Hemagglutinin-aptamer,H5N1_H7N7-Hemagglutinin-aptamer,False,部分匹配,h5n1h7n7 hemagglutinin ha,H5N1_H7N7-Hemagglutinin-aptamer
 109,gHA1,https://aptamer.ribocentre.org/_posts/Hemagglutinin-(HA)-protein-aptamer,Hemagglutinin-(HA)-protein-aptamer,False,不匹配,gha1,hemagglutinin-ha-protein-aptamer
 110,HIV-1 protease,https://aptamer.ribocentre.org/_posts/HIV-1-PR-aptamer,HIV-1-PR-aptamer,False,部分匹配,hiv-1 protease,hiv-1-pr-aptamer
 111,HIV-1 capsid,https://aptamer.ribocentre.org/_posts/HIV-1-CA-aptamer,HIV-1-CA-aptamer,False,部分匹配,hiv-1 capsid,hiv-1-ca-aptamer
 112,16S rRNA decoding region,https://aptamer.ribocentre.org/_posts/16S-rRNA-decoding-region-aptamer,16S-rRNA-decoding-region-aptamer,False,部分匹配,16s rrna decoding region,16s-rrna-decoding-region-aptamer
 113,Yeast tRNA,https://aptamer.ribocentre.org/_posts/tRNA-aptamer,tRNA-aptamer,False,部分匹配,yeast trna,trna-aptamer
-114,RNA stem-loop,https://aptamer.ribocentre.org/_posts/RNA-loop-aptamer,RNA-loop-aptamer,False,部分匹配,rna stem-loop,rna-loop-aptamer
-115,β-catenin,https://aptamer.ribocentre.org/_posts/pUC19-aptamer,pUC19-aptamer,False,不匹配,β-catenin,puc19-aptamer
-116,Breast cancer cells,https://aptamer.ribocentre.org/_posts/HER2-aptamer,HER2-aptamer,False,不匹配,breast cancer cells,her2-aptamer
-117,Prostate cancer cell,https://aptamer.ribocentre.org/_posts/E3-aptamer,E3-aptamer,False,不匹配,prostate cancer cell,e3-aptamer
+114,RNA stem-loop,https://aptamer.ribocentre.org/_posts/RNA-stem-loop-aptamer,RNA-stem-loop-aptamer,False,部分匹配,rna stem-loop,RNA-stem-loop-aptamer
+115,β-catenin,https://aptamer.ribocentre.org/_posts/β-catenin_pUC19-aptamer,β-catenin_pUC19-aptamer,False,不匹配,β-catenin,β-catenin_pUC19-aptamer
+116,Breast cancer cells,https://aptamer.ribocentre.org/_posts/Breast-cancer-cells_HER2-aptamer,Breast-cancer-cells_HER2-aptamer,False,不匹配,breast cancer cells,Breast-cancer-cells_HER2-aptamer
+117,Prostate cancer cell,https://aptamer.ribocentre.org/_posts/Prostate-cancer-cells_E3-aptamer,Prostate-cancer-cells_E3-aptamer,False,不匹配,prostate cancer cell,Prostate-cancer-cells_E3-aptamer
 118,Triple-negative breast cancer,https://aptamer.ribocentre.org/_posts/TNBC-aptamer,TNBC-aptamer,False,部分匹配,triple-negative breast cancer,tnbc-aptamer
-119,Cell line Hep3B CD133,https://aptamer.ribocentre.org/_posts/CD133-aptamer,CD133-aptamer,False,部分匹配,cell line hep3b cd133,cd133-aptamer
-120,Glioma cells,https://aptamer.ribocentre.org/_posts/GL56-aptamer,GL56-aptamer,False,不匹配,glioma cells,gl56-aptamer
+119,Cell line Hep3B CD133,https://aptamer.ribocentre.org/_posts/Cell-line-Hep3B-CD133-aptamer,Cell-line-Hep3B-CD133-aptamer,False,部分匹配,cell line hep3b cd133,Cell-line-Hep3B-CD133-aptamer
+120,Glioma cells,https://aptamer.ribocentre.org/_posts/Glioma-cells_GL56-aptamer,Glioma-cells_GL56-aptamer,False,不匹配,glioma cells,Glioma-cells_GL56-aptamer
 121,Pepocin,https://aptamer.ribocentre.org/_posts/Pepocin-aptamer,Pepocin-aptamer,True,名称包含在文件名中,pepocin,pepocin-aptamer
 122,Reactive Blue 4,https://aptamer.ribocentre.org/_posts/B4-25-aptamer,B4-25-aptamer,False,部分匹配,reactive blue 4,b4-25-aptamer
 123,Cibacron Blue 3GA,https://aptamer.ribocentre.org/_posts/B4-25-aptamer,B4-25-aptamer,False,不匹配,cibacron blue 3ga,b4-25-aptamer

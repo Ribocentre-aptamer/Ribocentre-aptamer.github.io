@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title:  "E3 aptamer"
+title:  "Prostate cancer cells_E3 aptamer"
 date:   2024-06-07 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
@@ -94,7 +94,7 @@ categories: Aptamer
 
 
 <font><p class="header_box" id="description">Description</p></font>
-<font>In 2018, Powell Gray, B. et al. Cell selection for aptamers with prostate cancer specificity yielded the E3 aptamer, which internalizes into prostate cancer cells without targeting normal prostate cells. Chemical conjugation of E3 to the drugs monomethyl auristatin E (MMAE) and monomethyl auristatin F (MMAF) yields a potent cytotoxic agent that efficiently kills prostate cancer cells in vitro but does not affect normal prostate epithelial cells. Importantly, the E3 aptamer targets tumors in vivo and treatment with the MMAF-E3 conjugate significantly inhibits prostate cancer growth in mice, demonstrating the in vivo utility of aptamer–drug conjugates<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
+<font>In 2018, Powell Gray, B. et al. Cell selection for aptamers with prostate cancer specificity yielded the Prostate cancer cells_E3 aptamer, which internalizes into prostate cancer cells without targeting normal prostate cells. Chemical conjugation of E3 to the drugs monomethyl auristatin E (MMAE) and monomethyl auristatin F (MMAF) yields a potent cytotoxic agent that efficiently kills prostate cancer cells in vitro but does not affect normal prostate epithelial cells. Importantly, the Prostate cancer cells_E3 aptamer targets tumors in vivo and treatment with the MMAF-E3 conjugate significantly inhibits prostate cancer growth in mice, demonstrating the in vivo utility of aptamer–drug conjugates<sup>[<a href="#ref1" style="color:#520049">1</a>]</sup>.<br></font>
 <br>
 <br>
 
@@ -149,7 +149,7 @@ categories: Aptamer
   </thead>
     <tbody>
       <tr>
-        <td name="td0">E3 aptamer</td>
+        <td name="td0">Prostate cancer cells_E3 aptamer</td>
         <td name="td1">5'-GGCUUUCGGGCUUUCGGCAACAUCAGCCCCUCAGCC-3'</td>
         <td name="td2">Prostate Cancer Cells</td>
         <td name="td3">146-410 nM</td>

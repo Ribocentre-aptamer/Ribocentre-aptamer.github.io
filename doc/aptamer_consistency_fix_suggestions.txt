@@ -55,7 +55,7 @@ def fix_url_encoding(url):
 **具体案例**:
 - `ATP(2)` → `rafl7s-aptamer`
 - `ATP(3)` → `bG40min-aptamer`
-- `HIV-1 Rev protein (1)` → `59-aptamer`
+- `HIV-1 Rev protein (1)` → `HIV-1-Rev-protein_59-aptamer`
 
 **修复建议**:
 - 建立统一的编号规则

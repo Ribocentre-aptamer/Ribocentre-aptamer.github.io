@@ -48,7 +48,7 @@
     "References":"https:\/\/pubmed.ncbi.nlm.nih.gov\/19668864\/"
   },
   {
-    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/Gastrointestinal-carcinoembryonic-antigen-(CEA)-aptamer.html",
+    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/CEA-aptamer.html",
     "New Linker name":"CEA aptamer",
     "Clinical sample":"Excrement，Serum ect.",
     "Target":"CEA",
@@ -108,8 +108,8 @@
     "References":"https:\/\/pubmed.ncbi.nlm.nih.gov\/11756401\/"
   },
   {
-    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/CD133-aptamer",
-    "New Linker name":"CD133 aptamer",
+    "Linker":"https:\/\/aptamer.ribocentre.org\/_posts\/Cell-line-Hep3B-CD133-aptamer",
+    "New Linker name":"Cell line Hep3B CD133 aptamer",
     "Clinical sample":"Cellular tissue",
     "Target":"CD133",
     "Disease indication":"Cancer",

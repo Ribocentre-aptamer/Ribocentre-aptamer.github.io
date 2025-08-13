@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title: DP3 aptamer
+title: Neuropeptide Y aptamer
 date: 2024-05-14 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
