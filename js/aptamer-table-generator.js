@@ -125,6 +125,8 @@ class AptamerTableGenerator {
                         padding: 20px;
                         border-radius: 8px;
                         margin: 20px 0;
+                        overflow-x: auto;
+                        max-width: 100%;
                     }
                     
                     .aptamer-table-title {
@@ -137,9 +139,12 @@ class AptamerTableGenerator {
                     
                     .aptamer-table {
                         width: 100%;
+                        max-width: 100%;
                         border-collapse: separate;
                         border-spacing: 2px;
                         margin: 20px 0;
+                        table-layout: auto;
+                        box-sizing: border-box;
                     }
                     
                     .aptamer-cell {
@@ -155,6 +160,13 @@ class AptamerTableGenerator {
                         position: relative;
                         min-height: 40px;
                         vertical-align: middle;
+                        word-wrap: break-word;
+                        word-break: break-word;
+                        white-space: normal;
+                        line-height: 1.3;
+                        max-width: 150px;
+                        overflow-wrap: break-word;
+                        hyphens: auto;
                     }
                     
                     .aptamer-cell:hover {
@@ -210,9 +222,21 @@ class AptamerTableGenerator {
                         .aptamer-cell {
                             font-size: 10px;
                             padding: 4px;
+                            max-width: 120px;
                         }
                         .aptamer-table-container {
                             padding: 10px;
+                            overflow-x: auto;
+                        }
+                        .aptamer-table {
+                            min-width: 800px;
+                        }
+                    }
+                    
+                    @media (max-width: 1024px) {
+                        .aptamer-cell {
+                            font-size: 11px;
+                            max-width: 140px;
                         }
                     }
                 </style>
