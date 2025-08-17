@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Plugin Test Page</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #520049;
+            margin: 0 0 10px 0;
+        }
+        
+        .header p {
+            color: #666;
+            margin: 0;
+        }
+        
+        .test-controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .test-btn {
+            background: #520049;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .test-btn:hover {
+            background: #6a0059;
+        }
+        
+        .test-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .dashboard-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            min-height: 200px;
+        }
+        
+        .status {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .status.show {
+            opacity: 1;
+        }
+        
+        .status.error {
+            background: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Dashboard Plugin Test Page</h1>
+        <p>Verify plugin functionality and configuration options</p>
+        <div style="margin-top: 15px; padding: 15px; background: #f8f9fa; border-radius: 8px; text-align: left; max-width: 90%; margin-left: auto; margin-right: auto; overflow-wrap: break-word;">
+            <h4 style="margin: 0 0 10px 0; color: #520049;">🔍 Usage Instructions:</h4>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.6; word-wrap: break-word;">
+                <li><strong>Node Interaction:</strong> Click on chart elements to create filters. Each filter will show node labels (Node A, Node B, etc.) indicating interaction sequence.</li>
+                <li><strong>Sequence Display:</strong> Long sequences are automatically truncated. Hover over truncated sequences to see full colorized sequence in tooltip.</li>
+                <li><strong>Customizable Truncation:</strong> Configure <code style="word-break: break-all; background: #e9ecef; padding: 2px 4px; border-radius: 3px; font-size: 12px;">sequenceTruncateLength</code> and <code style="word-break: break-all; background: #e9ecef; padding: 2px 4px; border-radius: 3px; font-size: 12px;">descriptionTruncateLength</code> in table settings.</li>
+                <li><strong>Filter Colors:</strong> Filter tags use the same colors as their corresponding chart elements for consistency.</li>
+                <li><strong>Smart Tooltips:</strong> Tooltip size adjusts dynamically based on content length and type.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="test-controls">
+        <button class="test-btn" onclick="loadDashboard()">Load Dashboard</button>
+        <button class="test-btn" onclick="resetDashboard()">Reset</button>
+        <button class="test-btn" onclick="testExport()">Test Export</button>
+    </div>
+    
+    <div id="dashboard-container" class="dashboard-container"></div>
+    
+    <div id="status" class="status"></div>
+    
+    <!-- 依赖库 -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    <!-- 插件 -->
+    <script src="../dashboard-plugin-bundle.js"></script>
+    
+    <!-- 测试脚本 -->
+    <script>
+        let currentDashboard = null;
+        
+        // 示例数据
+        const sampleData = [
+            {
+                "year": 2020,
+                "category": "Protein",
+                "sequence": "ATCGATCGATCG",
+                "length": 12,
+                "gc_content": 0.5,
+                "name": "Aptamer-001",
+                "description": "High-affinity protein binding aptamer"
+            },
+            {
+                "year": 2021,
+                "category": "Cell",
+                "sequence": "GGCCTTAAGGCC",
+                "length": 12,
+                "gc_content": 0.75,
+                "name": "Aptamer-002", 
+                "description": "Cell-specific targeting aptamer"
+            },
+            {
+                "year": 2019,
+                "category": "Protein",
+                "sequence": "AAAAGGGGCCCC",
+                "length": 12,
+                "gc_content": 0.67,
+                "name": "Aptamer-003",
+                "description": "Therapeutic protein aptamer"
+            },
+            {
+                "year": 2022,
+                "category": "Small molecule",
+                "sequence": "TTTCCCAAAGGG",
+                "length": 12,
+                "gc_content": 0.42,
+                "name": "Aptamer-004",
+                "description": "Small molecule detection aptamer"
+            },
+            {
+                "year": 2021,
+                "category": "Cell",
+                "sequence": "ATGCATGCATGC",
+                "length": 12,
+                "gc_content": 0.5,
+                "name": "Aptamer-005",
+                "description": "Cancer cell binding aptamer"
+            },
+            {
+                "year": 2020,
+                "category": "Protein",
+                "sequence": "CGTACGTACGTA",
+                "length": 12,
+                "gc_content": 0.58,
+                "name": "Aptamer-006",
+                "description": "Enzyme inhibition aptamer"
+            }
+        ];
+        
+        // 显示状态消息
+        function showStatus(message, isError = false) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = `status show ${isError ? 'error' : ''}`;
+            setTimeout(() => {
+                status.classList.remove('show');
+            }, 3000);
+        }
+        
+        // 创建模拟数据URL
+        function createDataURL(data) {
+            const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+            return URL.createObjectURL(blob);
+        }
+        
+        // 加载仪表盘
+        async function loadDashboard() {
+            try {
+                resetDashboard();
+                
+                const dataURL = createDataURL(sampleData);
+                
+                const config = {
+                    container: '#dashboard-container',
+                    dataSource: {
+                        url: dataURL
+                    },
+                    fieldMapping: {
+                        year: 'year',
+                        category: 'category',
+                        sequence: 'sequence',
+                        length: 'length',
+                        gc_content: 'gc_content',
+                        name: 'name',
+                        extended: {
+                            description: 'description'
+                        }
+                    },
+                    charts: {
+                        year: {
+                            enabled: true,
+                            title: 'Year Distribution',
+                            type: 'bar'
+                        },
+                        category: {
+                            enabled: true,
+                            title: 'Category Distribution',
+                            type: 'pie'
+                        },
+                        scatter: {
+                            enabled: true,
+                            title: 'Sequence Length vs GC Content',
+                            type: 'scatter',
+                            xField: 'length',
+                            yField: 'gc_content',
+                            xLabel: 'Sequence Length (bp)',
+                            yLabel: 'GC Content (%)'
+                        }
+                    },
+                    table: {
+                        enabled: true,
+                        columns: [
+                            { key: 'name', label: 'Name' },
+                            { key: 'category', label: 'Category' },
+                            { key: 'year', label: 'Year' },
+                            { key: 'sequence', label: 'Sequence', truncate: 6, colorize: true },
+                            { key: 'description', label: 'Description', truncate: 12 }
+                        ],
+                        sequenceTruncateLength: 6,  // Custom sequence truncation length
+                        descriptionTruncateLength: 12  // Custom description truncation length
+                    },
+                    theme: {
+                        colors: [
+                            '#AEE1D6', '#F6D6AD', '#F7B7A3', '#B5C7ED',
+                            '#E7B7E8', '#B7E7E1', '#E8D7B7', '#F7E6AD'
+                        ]
+                    },
+                    i18n: {
+                        title: 'Dashboard Plugin Demo',
+                        totalRecords: 'Total Records',
+                        exportButton: 'Export Data',
+                        resetButton: 'Reset Filters'
+                    }
+                };
+                
+                currentDashboard = new DashboardPlugin(config);
+                
+                // 添加事件监听
+                currentDashboard.on('initialized', () => {
+                    console.log('Dashboard initialized successfully');
+                });
+                
+                currentDashboard.on('filtersApplied', (data) => {
+                    console.log(`Filters applied: ${data.filtered}/${data.total} records`);
+                });
+                
+                await currentDashboard.init();
+                
+                showStatus('Dashboard loaded successfully!');
+            } catch (error) {
+                console.error('Dashboard loading failed:', error);
+                showStatus('Dashboard loading failed: ' + error.message, true);
+            }
+        }
+        
+        // Reset仪表板
+        function resetDashboard() {
+            if (currentDashboard) {
+                currentDashboard.destroy();
+                currentDashboard = null;
+            }
+            document.getElementById('dashboard-container').innerHTML = '';
+            showStatus('仪表板已Reset');
+        }
+        
+        // Test Export功能
+        function testExport() {
+            if (currentDashboard) {
+                currentDashboard.exportData();
+                showStatus('数据导出已触发');
+            } else {
+                showStatus('请先加载一个示例', true);
+            }
+        }
+        
+        // 页面加载完成后自动加载Dashboard
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                loadDashboard();
+            }, 500);
+        });
+        
+        // 检查依赖
+        if (typeof Plotly === 'undefined') {
+            showStatus('Plotly.js 加载失败，请检查网络连接', true);
+        }
+        
+        if (typeof DashboardPlugin === 'undefined') {
+            showStatus('Dashboard Plugin 加载失败', true);
+        }
+    </script>
+</body>
+</html>
