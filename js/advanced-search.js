@@ -180,6 +180,12 @@ class AdvancedSearchModule {
                                 record.structured_tags = this.parseTagsToMap(record.tags);
                             }
                             
+                            // Extract and convert Affinity data to standardized kd_value in nM
+                            if (r.Affinity) {
+                                record.kd_value = this.parseAffinityToNanomolar(r.Affinity);
+                                record.affinity_raw = r.Affinity; // Keep original for display
+                            }
+                            
                             return record;
                         });
                         
@@ -618,16 +624,21 @@ class AdvancedSearchModule {
             });
         }
 
-        // Affinity filter (using kd_value)
+        // Affinity filter (using kd_value in nM)
         const affinityRange = document.getElementById('affinityRange')?.value;
         if (affinityRange) {
             filtered = filtered.filter(item => {
-                const kd = parseFloat(item.kd_value) || 0;
+                // Get kd value in nM (already converted during data loading)
+                const kd = item.kd_value;
+                if (kd === null || kd === undefined || isNaN(kd)) {
+                    return false; // Filter out items without valid affinity data
+                }
+                
                 switch (affinityRange) {
-                    case 'pM': return kd < 1;
-                    case 'nM': return kd >= 1 && kd < 1000;
-                    case 'μM': return kd >= 1000 && kd < 1000000;
-                    case 'mM': return kd >= 1000000;
+                    case 'pM': return kd < 1;           // pM range: < 1 nM
+                    case 'nM': return kd >= 1 && kd < 1000;  // nM range: 1-999 nM
+                    case 'μM': return kd >= 1000 && kd < 1000000; // μM range: 1000-999999 nM (1-999 μM)
+                    case 'mM': return kd >= 1000000;    // mM range: >= 1000000 nM (>= 1 mM)
                     default: return true;
                 }
             });
@@ -1623,6 +1634,95 @@ class AdvancedSearchModule {
         });
         
         return tagMap;
+    }
+    
+    /**
+     * Parse affinity string and convert to nanomolar (nM) for standardized comparison
+     * @param {string} affinityStr - Raw affinity string from data
+     * @returns {number|null} - Affinity value in nM, or null if cannot be parsed
+     */
+    parseAffinityToNanomolar(affinityStr) {
+        if (!affinityStr || typeof affinityStr !== 'string') {
+            return null;
+        }
+        
+        // Clean up the string and extract numeric values with units
+        const cleanStr = affinityStr.replace(/[~≤≥<>]/g, '').trim();
+        
+        // Handle biphasic binding - use the lower (stronger) affinity value
+        if (cleanStr.includes('biphasic') || cleanStr.includes('exhibits')) {
+            // Extract all Kd values from biphasic binding descriptions
+            const kdMatches = cleanStr.match(/(\d+\.?\d*)\s*±?\s*\d*\.?\d*\s*(pM|nM|μM|µM|mM)/gi);
+            if (kdMatches && kdMatches.length > 0) {
+                // Use the first (typically lower/stronger) value
+                const firstMatch = kdMatches[0];
+                return this.convertToNanomolar(firstMatch);
+            }
+        }
+        
+        // Handle ranges like "62-68 µM" - use the lower value
+        const rangeMatch = cleanStr.match(/(\d+\.?\d*)\s*[-–]\s*(\d+\.?\d*)\s*(pM|nM|μM|µM|mM)/i);
+        if (rangeMatch) {
+            const [, lowerValue, , unit] = rangeMatch;
+            return this.convertValueWithUnit(parseFloat(lowerValue), unit);
+        }
+        
+        // Handle single values with error margins like "4.8 nM" or "49±6 pM"
+        const singleMatch = cleanStr.match(/(\d+\.?\d*)\s*±?\s*\d*\.?\d*\s*(pM|nM|μM|µM|mM)/i);
+        if (singleMatch) {
+            const [, value, unit] = singleMatch;
+            return this.convertValueWithUnit(parseFloat(value), unit);
+        }
+        
+        // Handle Kd: prefix patterns
+        const kdMatch = cleanStr.match(/Kd\s*[:=]\s*[~≤≥<>]*\s*(\d+\.?\d*)\s*±?\s*\d*\.?\d*\s*(pM|nM|μM|µM|mM)/i);
+        if (kdMatch) {
+            const [, value, unit] = kdMatch;
+            return this.convertValueWithUnit(parseFloat(value), unit);
+        }
+        
+        return null;
+    }
+    
+    /**
+     * Convert a value with unit to nanomolar (nM)
+     * @param {number} value - Numeric value
+     * @param {string} unit - Unit (pM, nM, μM, µM, mM)
+     * @returns {number} - Value converted to nM
+     */
+    convertValueWithUnit(value, unit) {
+        if (isNaN(value)) return null;
+        
+        const unitLower = unit.toLowerCase().replace('µ', 'μ'); // Normalize micro symbol
+        
+        switch (unitLower) {
+            case 'pm':
+                return value / 1000; // pM to nM: divide by 1000
+            case 'nm':
+                return value; // nM stays nM
+            case 'μm':
+            case 'um':
+                return value * 1000; // μM to nM: multiply by 1000
+            case 'mm':
+                return value * 1000000; // mM to nM: multiply by 1,000,000
+            default:
+                console.warn(`Unknown affinity unit: ${unit}`);
+                return value; // Default to assuming nM
+        }
+    }
+    
+    /**
+     * Helper method to convert affinity string directly to nM
+     * @param {string} affinityStr - Affinity string like "4.8 nM"
+     * @returns {number|null} - Value in nM or null
+     */
+    convertToNanomolar(affinityStr) {
+        const match = affinityStr.match(/(\d+\.?\d*)\s*±?\s*\d*\.?\d*\s*(pM|nM|μM|µM|mM)/i);
+        if (match) {
+            const [, value, unit] = match;
+            return this.convertValueWithUnit(parseFloat(value), unit);
+        }
+        return null;
     }
 }
 
