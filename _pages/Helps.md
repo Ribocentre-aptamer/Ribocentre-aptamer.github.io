@@ -4,6 +4,8 @@ layout: theophylline_style
 excerpt: "Riboaptamer: A riboaptamer database"
 sitemap: True
 permalink: /helps/
+hide_sequence_btn: true
+hide_nav_ball: true
 ---
 <html lang="en">
 <head>

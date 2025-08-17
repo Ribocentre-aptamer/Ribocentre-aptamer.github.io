@@ -3,7 +3,8 @@
   <div class="progress-bar" id="progressBar"></div>
 </div>
 
-<!-- 导航球 -->
+{% unless page.hide_nav_ball %}
+<!-- 导航球, 可以在适当的页面屏蔽 -->
 <div class="nav-ball" id="navBall">
   <div class="nav-ball-icon">
     <span></span>
@@ -11,18 +12,6 @@
     <span></span>
   </div>
 </div>
-
-<!-- 序列访问球 -->
-<div class="sequence-ball" id="sequenceBtn" title="View related sequences">
-  <div class="sequence-ball-icon">
-    <span class="seq-bar"></span>
-    <span class="seq-bar"></span>
-    <span class="seq-bar"></span>
-    <span class="seq-bar"></span>
-    <span class="seq-bar"></span>
-  </div>
-</div>
-
 <!-- 遮罩层 -->
 <div class="overlay" id="overlay"></div>
 
@@ -32,6 +21,20 @@
     <!-- 导航项将由JavaScript动态生成 -->
   </ul>
 </div>
+{% endunless %}
+
+{% unless page.hide_sequence_btn %}
+<!-- 序列访问球, 可以在适当的页面屏蔽-->
+<div class="sequence-ball" id="sequenceBtn" title="View related sequences">
+  <div class="sequence-ball-icon">
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+    <span class="seq-bar"></span>
+  </div>
+</div>
+{% endunless %}
 
 <!-- 悬浮提示框 -->
 <div class="amir-tooltip" id="amirTooltip">
@@ -45,17 +48,19 @@
   const sideNav = document.getElementById('sideNav');
   const overlay = document.getElementById('overlay');
 
-  navBall.addEventListener('click', () => {
-    navBall.classList.toggle('active');
-    sideNav.classList.toggle('active');
-    overlay.classList.toggle('active');
-  });
+  if (navBall && sideNav && overlay) {
+    navBall.addEventListener('click', () => {
+      navBall.classList.toggle('active');
+      sideNav.classList.toggle('active');
+      overlay.classList.toggle('active');
+    });
 
-  overlay.addEventListener('click', () => {
-    navBall.classList.remove('active');
-    sideNav.classList.remove('active');
-    overlay.classList.remove('active');
-  });
+    overlay.addEventListener('click', () => {
+      navBall.classList.remove('active');
+      sideNav.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  }
 
   // 阅读进度条
   window.addEventListener('scroll', () => {
@@ -117,23 +122,25 @@
       });
     });
 
-    navItems.forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: 'smooth'
-          });
-          // 关闭导航菜单
-          navBall.classList.remove('active');
-          sideNav.classList.remove('active');
-          overlay.classList.remove('active');
-        }
+    if (navBall && sideNav && overlay) {
+      navItems.forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth'
+            });
+            // 关闭导航菜单
+            navBall.classList.remove('active');
+            sideNav.classList.remove('active');
+            overlay.classList.remove('active');
+          }
+        });
       });
-    });
+    }
 
     /* 自动为每个一级标题生成卡片式 content-section
        规则：
