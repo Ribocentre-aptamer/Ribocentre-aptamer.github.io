@@ -8,7 +8,7 @@
       "id": "1FMN",
       "url": "https://www.rcsb.org/structure/1FMN"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1996",
     "internal_url": "/_posts/fmn-aptamer"
@@ -22,7 +22,7 @@
       "id": "1KOC",
       "url": "https://www.rcsb.org/structure/1KOC"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1996",
     "internal_url": "/_posts/arginine-aptamer"
@@ -36,7 +36,7 @@
       "id": "1KOD",
       "url": "https://www.rcsb.org/structure/1KOD"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1996",
     "internal_url": "/_posts/citrulline-aptamer"
@@ -92,7 +92,7 @@
       "id": "7RWR",
       "url": "https://www.rcsb.org/structure/7RWR"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2022",
     "internal_url": "/_posts/riboflavin-aptamer"
@@ -148,7 +148,7 @@
       "id": "5LWJ 2AU4",
       "url": "https://www.rcsb.org/structure/5LWJ"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2006 2017",
     "internal_url": "/_posts/gtp-aptamer"
@@ -218,7 +218,7 @@
       "id": "6GZR 6GZK",
       "url": "https://www.rcsb.org/structure/6GZR"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2020",
     "internal_url": "/_posts/tmr-aptamer"
@@ -288,7 +288,7 @@
       "id": "1AM0 1RAW",
       "url": "https://www.rcsb.org/structure/1AM0"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1996a 1996b",
     "internal_url": "/_posts/amp-aptamer"
@@ -302,7 +302,7 @@
       "id": "6WLJ 6WLK",
       "url": "https://www.rcsb.org/structure/6WLJ"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "9.6",
     "Year": "2020",
     "internal_url": "/_posts/atp-aptamer"
@@ -316,7 +316,7 @@
       "id": "1TOB 2TOB",
       "url": "https://www.rcsb.org/structure/1TOB"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1997 1998",
     "internal_url": "/_posts/tobramycin-rna-aptamer"
@@ -330,7 +330,7 @@
       "id": "1EHT 1O15",
       "url": "https://www.rcsb.org/structure/1EHT"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1997 2003",
     "internal_url": "/_posts/theophylline-aptamer-nmr"
@@ -344,7 +344,7 @@
       "id": "1NEM",
       "url": "https://www.rcsb.org/structure/1NEM"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1999",
     "internal_url": "/_posts/neomycinb-rna-aptamer"
@@ -358,7 +358,7 @@
       "id": "1NTA 1NTB",
       "url": "https://www.rcsb.org/structure/1NTA"
     },
-    "Phase Determination": "Ba (MAD)",
+    "Phase Determination": "Ba (SAD), molecular replacement(MR)",
     "Resolution(Å)": "2.9",
     "Year": "2003",
     "internal_url": "/_posts/streptomycin-rna-aptamer"
@@ -456,7 +456,7 @@
       "id": "1XWP 1XWU",
       "url": "https://www.rcsb.org/structure/1XWP"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2005",
     "internal_url": "/_posts/eif4a-aptamer"
@@ -624,7 +624,7 @@
       "id": "2RQJ 2RSK 2RU7 6K84",
       "url": "https://www.rcsb.org/structure/2RQJ"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2009 2013 2014 2020",
     "internal_url": "/_posts/bovine-prion-protein-aptamer"
@@ -638,7 +638,7 @@
       "id": "1ULL 484D",
       "url": "https://www.rcsb.org/structure/1ULL"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "1996 1999",
     "internal_url": "/_posts/hiv-1-rev-peptide-aptamer"
@@ -652,7 +652,7 @@
       "id": "1EXY",
       "url": "https://www.rcsb.org/structure/1EXY"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2000",
     "internal_url": "/_posts/rex16-aptamer"
@@ -666,7 +666,7 @@
       "id": "1NBK",
       "url": "https://www.rcsb.org/structure/1NBK"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2003",
     "internal_url": "/_posts/tat-aptamer"
@@ -694,7 +694,7 @@
       "id": "2RRC",
       "url": "https://www.rcsb.org/structure/2RRC"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2011",
     "internal_url": "/_posts/aml1-runx1-aptamer"
@@ -708,7 +708,7 @@
       "id": "2OOM 2PN9",
       "url": "https://www.rcsb.org/structure/2OOM"
     },
-    "Phase Determination": "NA",
+    "Phase Determination": "NMR",
     "Resolution(Å)": "NA",
     "Year": "2007",
     "internal_url": "/_posts/lr06-ga-aptamer"
