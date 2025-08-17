@@ -405,10 +405,11 @@ class AptamerTableGenerator {
      * 初始化交互功能
      */
     initializeInteractions() {
-        // 点击单元格打开链接
+        // 点击单元格打开链接。避免与单元格内的<a>标签重复触发
         this.container.addEventListener('click', (e) => {
             const cell = e.target.closest('.aptamer-cell');
-            if (cell) {
+            // 如果点击发生在<a>标签内，则交由默认行为处理
+            if (cell && !e.target.closest('a')) {
                 const link = cell.getAttribute('data-link');
                 if (link) {
                     window.open(link, '_blank');
