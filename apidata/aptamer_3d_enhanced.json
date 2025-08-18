@@ -382,7 +382,7 @@
     },
     {
       "name": "FAD",
-      "link": "https://aptamer.ribocentre.org/_posts/FAD-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/FAD-aptamer",
       "background_color": "#7CCCCC",
       "position": {
         "row": 3,
@@ -424,7 +424,7 @@
     },
     {
       "name": "HTLV-1 arginine-rich Rex peptide",
-      "link": "https://aptamer.ribocentre.org/_posts/HTLV-1-Rex-peptide-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/HTLV-1-Rex-peptide-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 3,
@@ -466,7 +466,7 @@
     },
     {
       "name": "Neomycin B",
-      "link": "https://aptamer.ribocentre.org/_posts/NeomycinB-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/NeomycinB-aptamer",
       "background_color": "#C4B1E0",
       "position": {
         "row": 3,
@@ -494,7 +494,7 @@
     },
     {
       "name": "Ribostamycin aptamer",
-      "link": "https://aptamer.ribocentre.org/_posts/Ribostamycin-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/Ribostamycin-aptamer",
       "background_color": "#C4B1E0",
       "position": {
         "row": 3,
@@ -508,7 +508,7 @@
     },
     {
       "name": "Streptomycin",
-      "link": "https://aptamer.ribocentre.org/_posts/Streptomycin-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/Streptomycin-aptamer",
       "background_color": "#C4B1E0",
       "position": {
         "row": 4,
@@ -550,7 +550,7 @@
     },
     {
       "name": "Tobramycin",
-      "link": "https://aptamer.ribocentre.org/_posts/Tobramycin-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/Tobramycin-aptamer",
       "background_color": "#C4B1E0",
       "position": {
         "row": 4,
@@ -648,7 +648,7 @@
     },
     {
       "name": "L-CCL2",
-      "link": "https://aptamer.ribocentre.org/_posts/L-CCL2-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/L-CCL2-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 5,
@@ -662,7 +662,7 @@
     },
     {
       "name": "PSMA",
-      "link": "https://aptamer.ribocentre.org/_posts/PSMA-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/PSMA-aptamer",
       "background_color": "#E7B7E8",
       "position": {
         "row": 5,
@@ -788,7 +788,7 @@
     },
     {
       "name": "HIV-1 TAR RNA",
-      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer",
       "background_color": "#FFD3B4",
       "position": {
         "row": 6,
@@ -802,7 +802,7 @@
     },
     {
       "name": "HIV-1 Tat protein",
-      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-Tat-protein-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/HIV-1-Tat-protein-aptamer",
       "background_color": "#90A7E6",
       "position": {
         "row": 6,
@@ -830,7 +830,7 @@
     },
     {
       "name": "Bovine prion",
-      "link": "https://aptamer.ribocentre.org/_posts/Bovine-prion-protein-aptamer.html",
+      "link": "https://aptamer.ribocentre.org/_posts/Bovine-prion-protein-aptamer",
       "background_color": "#F7E6AD",
       "position": {
         "row": 6,

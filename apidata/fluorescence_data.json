@@ -136,7 +136,7 @@
     "citation": "Carothers, J. M., Goler, J. A., Kapoor, Y., Lara, L., & Keasling, J. D. (2010). Selecting RNA aptamers for synthetic biology: investigating magnesium dependence and predicting binding affinity. Nucleic acids research, 38(8), 2736–2747.",
     "structures": "",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-    "more_info": "https://aptamer.ribocentre.org/_posts/TMR-aptamer.html",
+    "more_info": "https://aptamer.ribocentre.org/_posts/TMR-aptamer",
     "remarks": ""
   },
   {
@@ -150,7 +150,7 @@
     "citation": "Carothers, J. M., Goler, J. A., Kapoor, Y., Lara, L., & Keasling, J. D. (2010). Selecting RNA aptamers for synthetic biology: investigating magnesium dependence and predicting binding affinity. Nucleic acids research, 38(8), 2736–2747.",
     "structures": "",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-    "more_info": "https://aptamer.ribocentre.org/_posts/TMR-aptamer.html",
+    "more_info": "https://aptamer.ribocentre.org/_posts/TMR-aptamer",
     "remarks": ""
   },
   {
@@ -234,7 +234,7 @@
     "citation": "Filonov, G. S., Moon, J. D., Svensen, N., & Jaffrey, S. R. (2014). Broccoli: rapid selection of an RNA mimic of green fluorescent protein by fluorescence-based selection and directed evolution. Journal of the American Chemical Society, 136(46), 16299–16308.",
     "structures": "8K7W",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/25337688/",
-    "more_info": "https://aptamer.ribocentre.org/_posts/Broccoli-aptamer.html",
+    "more_info": "https://aptamer.ribocentre.org/_posts/Broccoli-aptamer",
     "remarks": ""
   },
   {
@@ -388,7 +388,7 @@
     "citation": "Sunbul, M., & Jäschke, A. (2018). SRB-2: a promiscuous rainbow aptamer for live-cell RNA imaging. Nucleic acids research, 46(18), e110.",
     "structures": "",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/29931157/",
-    "more_info": "https://aptamer.ribocentre.org/_posts/SRB-2-aptamer.html",
+    "more_info": "https://aptamer.ribocentre.org/_posts/SRB-2-aptamer",
     "remarks": ""
   },
   {
@@ -402,7 +402,7 @@
     "citation": "Sunbul, M., & Jäschke, A. (2018). SRB-2: a promiscuous rainbow aptamer for live-cell RNA imaging. Nucleic acids research, 46(18), e110.",
     "structures": "",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/29931157/",
-    "more_info": "https://aptamer.ribocentre.org/_posts/SRB-2-aptamer.html",
+    "more_info": "https://aptamer.ribocentre.org/_posts/SRB-2-aptamer",
     "remarks": ""
   },
   {
@@ -542,7 +542,7 @@
     "citation": "Sunbul, M., Lackner, J., Martin, A., Englert, D., Hacene, B., Grün, F., Nienhaus, K., Nienhaus, G. U., & Jäschke, A. (2021). Super-resolution RNA imaging using a rhodamine-binding aptamer with fast exchange kinetics. Nature biotechnology, 39(6), 686–690.",
     "structures": "8JY0",
     "pubmed_link": "https://pubmed.ncbi.nlm.nih.gov/33574610/",
-    "more_info": "https://aptamer.ribocentre.org/_posts/RhoBAST-aptamer.html",
+    "more_info": "https://aptamer.ribocentre.org/_posts/RhoBAST-aptamer",
     "remarks": ""
   },
   {

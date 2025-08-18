@@ -16,7 +16,7 @@
       "Affinity": "Kd: ~600µM",
       "Year": 1990,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/1697402/",
-      "Linker": "/_posts/B4-25-aptamer"
+      "Linker": "/_posts/B4-25-aptamer.html"
     },
     {
       "ID": "RB4_Szostak_1",
@@ -34,7 +34,7 @@
       "Affinity": "Kd: <100µM",
       "Year": 1990,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/1697402/",
-      "Linker": "/_posts/B4-25-aptamer"
+      "Linker": "/_posts/B4-25-aptamer.html"
     },
     {
       "ID": "T4 DNA pol_Gold_1",
@@ -52,7 +52,7 @@
       "Affinity": "Kd: 4.8 nM",
       "Year": 1990,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/2200121/",
-      "Linker": "/_posts/Gp43-aptamer"
+      "Linker": "/_posts/Gp43-aptamer.html"
     },
     {
       "ID": "T4 DNA pol_Gold_2",
@@ -70,7 +70,7 @@
       "Affinity": "Kd: 4.8 nM",
       "Year": 1990,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/2200121/",
-      "Linker": "_posts/Gp43-aptamer"
+      "Linker": "_posts/Gp43-aptamer.html"
     },
     {
       "ID": "T4 DNA pol_Gold_3",
@@ -88,7 +88,7 @@
       "Affinity": "Kd: 4.8 nM",
       "Year": 1990,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/2200121/",
-      "Linker": "/_posts/Gp43-aptamer"
+      "Linker": "/_posts/Gp43-aptamer.html"
     },
     {
       "ID": "T4 DNA pol_Gold_4",
@@ -106,7 +106,7 @@
       "Affinity": "Kd: 4.8 nM",
       "Year": 1990,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/2200121/",
-      "Linker": "/_posts/Gp43-aptamer"
+      "Linker": "/_posts/Gp43-aptamer.html"
     },
     {
       "ID": "HIV-1-RT_Gold_1",
@@ -124,7 +124,7 @@
       "Affinity": "Kd: 5 nM",
       "Year": 1992,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/1379730/",
-      "Linker": "/_posts/HIV-1-RT-aptamer"
+      "Linker": "/_posts/HIV-1-RT-aptamer.html"
     },
     {
       "ID": "HIV-1-RT_Gold_2",
@@ -142,7 +142,7 @@
       "Affinity": "Kd: 5 nM",
       "Year": 1992,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/1379730/",
-      "Linker": "/_posts/HIV-1-RT-aptamer"
+      "Linker": "/_posts/HIV-1-RT-aptamer.html"
     },
     {
       "ID": "MS2 coat protein_Gold_1",
@@ -160,7 +160,7 @@
       "Affinity": "Kd: NA",
       "Year": 1992,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/1469719/",
-      "Linker": "/_posts/bacteriophage-MS2-coat-protein-aptamer"
+      "Linker": "/_posts/bacteriophage-MS2-coat-protein-aptamer.html"
     },
     {
       "ID": "MS2 coat protein_Gold_2",
@@ -178,7 +178,7 @@
       "Affinity": "Kd: 5 nM",
       "Year": 1992,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/1469719/",
-      "Linker": "/_posts/bacteriophage-MS2-coat-protein-aptamer"
+      "Linker": "/_posts/bacteriophage-MS2-coat-protein-aptamer.html"
     },
     {
       "ID": "ATP_Szostak_1",
@@ -196,7 +196,7 @@
       "Affinity": "Kd: 14 μM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7687750/",
-      "Linker": "/_posts/ATP-aptamer"
+      "Linker": "/_posts/ATP-aptamer.html"
     },
     {
       "ID": "ATP_Szostak_2",
@@ -214,7 +214,7 @@
       "Affinity": "Kd: 14 μM",
       "Year": 1993,
       "Link to PubMed Entry": null,
-      "Linker": "/_posts/ATP-aptamer"
+      "Linker": "/_posts/ATP-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_1",
@@ -232,7 +232,7 @@
       "Affinity": "Kd: 23±3 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_10",
@@ -250,7 +250,7 @@
       "Affinity": "Kd: exhibits biphasic binding, 0.32±0.07 nM, 140±80 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_11",
@@ -268,7 +268,7 @@
       "Affinity": "Kd: 5±0.5 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_12",
@@ -286,7 +286,7 @@
       "Affinity": "Kd1: 0.19±0.02 nM\nKd2: 49±26 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_2",
@@ -304,7 +304,7 @@
       "Affinity": "Kd: 5.0±0.5 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_3",
@@ -322,7 +322,7 @@
       "Affinity": "Kd: 3.2±0.5 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_4",
@@ -340,7 +340,7 @@
       "Affinity": "Kd: 3.0±0.5 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_5",
@@ -358,7 +358,7 @@
       "Affinity": "Kd: 8.1±0.8 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_6",
@@ -376,7 +376,7 @@
       "Affinity": "Kd: exhibits biphasic binding, 0.51±0.13 nM, 60±52 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_7",
@@ -394,7 +394,7 @@
       "Affinity": "Kd: ~0.19±0.02 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_8",
@@ -412,7 +412,7 @@
       "Affinity": "Kd: exhibits biphasic binding, 0.19±0.02 nM, 49±26 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "bFGF_Janjić_9",
@@ -430,7 +430,7 @@
       "Affinity": "Kd: exhibits biphasic binding, 0.13±0.03 nM, 510±30 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7504300/",
-      "Linker": "/_posts/bFGF-aptamer"
+      "Linker": "/_posts/bFGF-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_1",
@@ -448,7 +448,7 @@
       "Affinity": "Kd: 1.9±0.21 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_2",
@@ -466,7 +466,7 @@
       "Affinity": "Kd: 3.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_3",
@@ -484,7 +484,7 @@
       "Affinity": "Kd: 5.4±0.05 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_4",
@@ -502,7 +502,7 @@
       "Affinity": "Kd: 3.1 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_5",
@@ -520,7 +520,7 @@
       "Affinity": "Kd: 0.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_6",
@@ -538,7 +538,7 @@
       "Affinity": "Kd: 7.7/9.5/9.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_7",
@@ -556,7 +556,7 @@
       "Affinity": "Kd: 4.2 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_8",
@@ -574,7 +574,7 @@
       "Affinity": "Kd: 1.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_9",
@@ -592,7 +592,7 @@
       "Affinity": "Kd: 3.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_10",
@@ -610,7 +610,7 @@
       "Affinity": "Kd: 1.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_11",
@@ -628,7 +628,7 @@
       "Affinity": "Kd: 4.1 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_12",
@@ -646,7 +646,7 @@
       "Affinity": "Kd: 2.0 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_13",
@@ -664,7 +664,7 @@
       "Affinity": "Kd: 3.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_14",
@@ -682,7 +682,7 @@
       "Affinity": "Kd: 1.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_15",
@@ -700,7 +700,7 @@
       "Affinity": "Kd: 2.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_16",
@@ -718,7 +718,7 @@
       "Affinity": "Kd: 1.0 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_17",
@@ -736,7 +736,7 @@
       "Affinity": "Kd: 2.0 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_18",
@@ -754,7 +754,7 @@
       "Affinity": "Kd: 3.2 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_19",
@@ -772,7 +772,7 @@
       "Affinity": "Kd: 0.3 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_20",
@@ -790,7 +790,7 @@
       "Affinity": "Kd: 1.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_21",
@@ -808,7 +808,7 @@
       "Affinity": "Kd: 6.4/6.5/7.4/9.7 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_22",
@@ -826,7 +826,7 @@
       "Affinity": "Kd: 2.3 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_23",
@@ -844,7 +844,7 @@
       "Affinity": "Kd: 1.2±0.08 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_24",
@@ -862,7 +862,7 @@
       "Affinity": "Kd: 7.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_25",
@@ -880,7 +880,7 @@
       "Affinity": "Kd: 0.7 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_26",
@@ -898,7 +898,7 @@
       "Affinity": "Kd: 0.2 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_27",
@@ -916,7 +916,7 @@
       "Affinity": "Kd: 4.6 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_28",
@@ -934,7 +934,7 @@
       "Affinity": "Kd: 2.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_29",
@@ -952,7 +952,7 @@
       "Affinity": "Kd: 3.9 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_30",
@@ -970,7 +970,7 @@
       "Affinity": "Kd: 0.5 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_31",
@@ -988,7 +988,7 @@
       "Affinity": "Kd: 3.1±0.26 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_32",
@@ -1006,7 +1006,7 @@
       "Affinity": "Kd: 2.1 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_33",
@@ -1024,7 +1024,7 @@
       "Affinity": "Kd: 2.7±0.29 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_34",
@@ -1042,7 +1042,7 @@
       "Affinity": "Kd: 1.7 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_35",
@@ -1060,7 +1060,7 @@
       "Affinity": "Kd: 4.3 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev protein_Ellington_36",
@@ -1078,7 +1078,7 @@
       "Affinity": "Kd: 2.4 nM",
       "Year": 1993,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7505429/",
-      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_59-aptamer.html"
     },
     {
       "ID": "Arginine_Tocchini-Valentini_1",
@@ -1096,7 +1096,7 @@
       "Affinity": "Kd: 56-76 µM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10786843/",
-      "Linker": "/_posts/Arginine-aptamer"
+      "Linker": "/_posts/Arginine-aptamer.html"
     },
     {
       "ID": "Citrulline_Famulok_1",
@@ -1114,7 +1114,7 @@
       "Affinity": "Kd: 7190 μM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubs.acs.org/doi/10.1021/ja00084a010",
-      "Linker": "/_posts/Citrulline-aptamer"
+      "Linker": "/_posts/Citrulline-aptamer.html"
     },
     {
       "ID": "Citrulline_Tocchini-Valentini_1",
@@ -1132,7 +1132,7 @@
       "Affinity": "Kd: 62-68 µM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubs.acs.org/doi/10.1021/ja00084a010",
-      "Linker": "/_posts/Citrulline-aptamer"
+      "Linker": "/_posts/Citrulline-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Tuerk _1",
@@ -1150,7 +1150,7 @@
       "Affinity": "Kd: NA",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8289245/",
-      "Linker": "_posts/HIV-1-REV-peptide-aptamer"
+      "Linker": "_posts/HIV-1-REV-peptide-aptamer.html"
     },
     {
       "ID": "PKC βII_Newton_1",
@@ -1168,7 +1168,7 @@
       "Affinity": "Kd: 7 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7528207/",
-      "Linker": "/_posts/PKC-aptamer"
+      "Linker": "/_posts/PKC-aptamer.html"
     },
     {
       "ID": "PKC βII_Newton_2",
@@ -1186,7 +1186,7 @@
       "Affinity": "Kd: 7 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7528207/",
-      "Linker": "/_posts/PKC-aptamer"
+      "Linker": "/_posts/PKC-aptamer.html"
     },
     {
       "ID": "Theophylline_Polisky_1",
@@ -1204,7 +1204,7 @@
       "Affinity": "Kd: 0.1 μM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7510417/",
-      "Linker": "/_posts/Theophylline-aptamer"
+      "Linker": "/_posts/Theophylline-aptamer.html"
     },
     {
       "ID": "Theophylline_Polisky_2",
@@ -1222,7 +1222,7 @@
       "Affinity": "Kd: 0.6 μM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7510417/",
-      "Linker": "/_posts/Theophylline-aptamer"
+      "Linker": "/_posts/Theophylline-aptamer.html"
     },
     {
       "ID": "Theophylline_Polisky_3",
@@ -1240,7 +1240,7 @@
       "Affinity": "Kd: 0.67 μM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7510417/",
-      "Linker": "/_posts/Theophylline-aptamer"
+      "Linker": "/_posts/Theophylline-aptamer.html"
     },
     {
       "ID": "VB12_Szostak_1",
@@ -1258,7 +1258,7 @@
       "Affinity": "Kd: 88±19 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7508262/",
-      "Linker": "/_posts/Vitamin-B12-aptamer"
+      "Linker": "/_posts/Vitamin-B12-aptamer.html"
     },
     {
       "ID": "VB12_Szostak_2",
@@ -1276,7 +1276,7 @@
       "Affinity": "Kd: 320±90 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7508262/",
-      "Linker": "/_posts/Vitamin-B12-aptamer"
+      "Linker": "/_posts/Vitamin-B12-aptamer.html"
     },
     {
       "ID": "VB12_Szostak_3",
@@ -1294,7 +1294,7 @@
       "Affinity": "Kd: 88±19 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7508262/",
-      "Linker": "/_posts/Vitamin-B12-aptamer"
+      "Linker": "/_posts/Vitamin-B12-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_1",
@@ -1312,7 +1312,7 @@
       "Affinity": "Kd1: 0.20±0.02 nM \nKd2: 42±30 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_10",
@@ -1330,7 +1330,7 @@
       "Affinity": "Kd1: 0.19 ±0.09 nM \nKd2: 10±1 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_11",
@@ -1348,7 +1348,7 @@
       "Affinity": "Kd1: 0.82 ±0.2 nM \nKd2: 21±5 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_12",
@@ -1366,7 +1366,7 @@
       "Affinity": "Kd1: 0.14 ±0.04 nM \nKd2: 11±3 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_2",
@@ -1384,7 +1384,7 @@
       "Affinity": "Kd1: 0.42±0.04 nM \nKd2: 182 ±94 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_3",
@@ -1402,7 +1402,7 @@
       "Affinity": "Kd1: 0.48±0.04 nM \nKd2: 82±23 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_4",
@@ -1420,7 +1420,7 @@
       "Affinity": "Kd1: 1.1 ±0.2 nM \nKd2: 180±160 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_5",
@@ -1438,7 +1438,7 @@
       "Affinity": "Kd1: 20±1 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_6",
@@ -1456,7 +1456,7 @@
       "Affinity": "Kd1:1.8 ±0.4 nM \nKd2: 31±10 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_7",
@@ -1474,7 +1474,7 @@
       "Affinity": "Kd1: 1.4 ±0.2 nM \nKd2: 181±57 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_8",
@@ -1492,7 +1492,7 @@
       "Affinity": "Kd1: 1.7 ±0.5 nM \nKd2: 38 ±32 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_9",
@@ -1510,7 +1510,7 @@
       "Affinity": "Kd1: 0.48±0.07 nM \nKd2: 21 ±5 nM",
       "Year": 1994,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7520755/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "HIV-1 integrase_Gold_1",
@@ -1528,7 +1528,7 @@
       "Affinity": "Kd: 12 nM or 2 nM",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7778267/",
-      "Linker": "/_posts/HIV-1-integrase-aptamer"
+      "Linker": "/_posts/HIV-1-integrase-aptamer.html"
     },
     {
       "ID": "HTLV-1_Ellington_1",
@@ -1546,7 +1546,7 @@
       "Affinity": "Kd: 70 nM",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/7489503/",
-      "Linker": "/_posts/HTLV-1-Tax-protein_YT1-aptamer"
+      "Linker": "/_posts/HTLV-1-Tax-protein_YT1-aptamer.html"
     },
     {
       "ID": "Neomycin_Famulok_1",
@@ -1564,7 +1564,7 @@
       "Affinity": "Kd: 100 nM",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383458/",
-      "Linker": "/_posts/NeomycinB-aptamer"
+      "Linker": "/_posts/NeomycinB-aptamer.html"
     },
     {
       "ID": "Tobramycin_Rando_1",
@@ -1582,7 +1582,7 @@
       "Affinity": "Kd: 4.3±0.7 µM",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383430/",
-      "Linker": "/_posts/Tobramycin-aptamer"
+      "Linker": "/_posts/Tobramycin-aptamer.html"
     },
     {
       "ID": "Tobramycin_Rando_2",
@@ -1600,7 +1600,7 @@
       "Affinity": "Kd: 3±1 nM (high affinity component); 15.9±0.7 µM (low affinity component)",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383430/",
-      "Linker": "/_posts/Tobramycin-aptamer"
+      "Linker": "/_posts/Tobramycin-aptamer.html"
     },
     {
       "ID": "Tobramycin_Rando_3",
@@ -1618,7 +1618,7 @@
       "Affinity": "Kd: 2±1 nM (high affinity component); 6.0±0.4 µM (low affinity component)",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383430/",
-      "Linker": "/_posts/Tobramycin-aptamer"
+      "Linker": "/_posts/Tobramycin-aptamer.html"
     },
     {
       "ID": "Tobramycin_Rando_5",
@@ -1636,7 +1636,7 @@
       "Affinity": "Kd: 9±3 nM(Kd1), 2.7±0.3 μM(Kd2)",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383430/",
-      "Linker": "/_posts/Tobramycin-aptamer"
+      "Linker": "/_posts/Tobramycin-aptamer.html"
     },
     {
       "ID": "Tobramycin_Patel_1",
@@ -1654,7 +1654,7 @@
       "Affinity": null,
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383430/",
-      "Linker": "/_posts/Tobramycin-aptamer"
+      "Linker": "/_posts/Tobramycin-aptamer.html"
     },
     {
       "ID": "Tobramycin_Rando_6",
@@ -1672,7 +1672,7 @@
       "Affinity": "Kd: 12±5 nM(Kd1), 13.2±0.5 μM(Kd2)",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383430/",
-      "Linker": "/_posts/Tobramycin-aptamer"
+      "Linker": "/_posts/Tobramycin-aptamer.html"
     },
     {
       "ID": "VPF/VEGF_Janjić_1",
@@ -1690,7 +1690,7 @@
       "Affinity": null,
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383475/",
-      "Linker": "/_posts/Vascular-endothelial-growth-factor-aptamer"
+      "Linker": "/_posts/Vascular-endothelial-growth-factor-aptamer.html"
     },
     {
       "ID": "VPF/VEGF_Janjić_2",
@@ -1708,7 +1708,7 @@
       "Affinity": "Kd: 0.14±0.01 nM",
       "Year": 1995,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9383475/",
-      "Linker": "/_posts/Vascular-endothelial-growth-factor-aptamer"
+      "Linker": "/_posts/Vascular-endothelial-growth-factor-aptamer.html"
     },
     {
       "ID": "Arginine_Ellington_1",
@@ -1726,7 +1726,7 @@
       "Affinity": "Kd:  129±18 µM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8523524/",
-      "Linker": "/_posts/Arginine-aptamer"
+      "Linker": "/_posts/Arginine-aptamer.html"
     },
     {
       "ID": "Arginine_Famulok_1",
@@ -1744,7 +1744,7 @@
       "Affinity": "Kd: 330 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8604334/",
-      "Linker": "/_posts/Arginine-aptamer"
+      "Linker": "/_posts/Arginine-aptamer.html"
     },
     {
       "ID": "Arginine_Famulok_2",
@@ -1762,7 +1762,7 @@
       "Affinity": "Kd: 60 μM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8650546/",
-      "Linker": "/_posts/Arginine-aptamer"
+      "Linker": "/_posts/Arginine-aptamer.html"
     },
     {
       "ID": "D-arginine_Ellington_1",
@@ -1780,7 +1780,7 @@
       "Affinity": "Kd: 135±25 µM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8523524/",
-      "Linker": "_posts/D-Arginine-aptamer"
+      "Linker": "_posts/D-Arginine-aptamer.html"
     },
     {
       "ID": "E2F_Sullenger_2",
@@ -1798,7 +1798,7 @@
       "Affinity": "Kd: 4 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8946842/",
-      "Linker": "/_posts/E2F1-aptamer"
+      "Linker": "/_posts/E2F1-aptamer.html"
     },
     {
       "ID": "FMN_Patel_1",
@@ -1816,7 +1816,7 @@
       "Affinity": "Kd: 0.5 μM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8642604/",
-      "Linker": "/_posts/FMN-aptamer"
+      "Linker": "/_posts/FMN-aptamer.html"
     },
     {
       "ID": "GlnRs_Stubenrauch_1",
@@ -1834,7 +1834,7 @@
       "Affinity": "Kd: 0.27 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://www.proquest.com/openview/6857e35043f04e11f53714d80cdc4dcf/1?pq-origsite=gscholar&cbl=18750&diss=y",
-      "Linker": "/_posts/GlnRs-aptamer"
+      "Linker": "/_posts/GlnRs-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_1",
@@ -1852,7 +1852,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_10",
@@ -1870,7 +1870,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_11",
@@ -1888,7 +1888,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_12",
@@ -1906,7 +1906,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_2",
@@ -1924,7 +1924,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_3",
@@ -1942,7 +1942,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_4",
@@ -1960,7 +1960,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_5",
@@ -1978,7 +1978,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_6",
@@ -1996,7 +1996,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_7",
@@ -2014,7 +2014,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_8",
@@ -2032,7 +2032,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev_Ellington_9",
@@ -2050,7 +2050,7 @@
       "Affinity": "Kd: 19-36 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8755498/",
-      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-protein_C52-aptamer.html"
     },
     {
       "ID": "Lividomycin_Ellington_1",
@@ -2068,7 +2068,7 @@
       "Affinity": null,
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9238640/",
-      "Linker": "/_posts/Lividomycin-aptamer"
+      "Linker": "/_posts/Lividomycin-aptamer.html"
     },
     {
       "ID": "Lividomycin_Ellington_2",
@@ -2086,7 +2086,7 @@
       "Affinity": null,
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9238640/",
-      "Linker": "/_posts/Lividomycin-aptamer"
+      "Linker": "/_posts/Lividomycin-aptamer.html"
     },
     {
       "ID": "LS-Rg_Varki_1",
@@ -2104,7 +2104,7 @@
       "Affinity": "Kd: 0.2 nM-3 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8650187/",
-      "Linker": "/_posts/L-selectin-aptamer"
+      "Linker": "/_posts/L-selectin-aptamer.html"
     },
     {
       "ID": "LS-Rg_Varki_2",
@@ -2122,7 +2122,7 @@
       "Affinity": "Kd: 3 nM-4 nM",
       "Year": 1996,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8650187/",
-      "Linker": "/_posts/L-selectin-aptamer"
+      "Linker": "/_posts/L-selectin-aptamer.html"
     },
     {
       "ID": "ATP_Breaker_1",
@@ -2140,7 +2140,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9257650/",
-      "Linker": "/_posts/ATP-aptamer"
+      "Linker": "/_posts/ATP-aptamer.html"
     },
     {
       "ID": "ATP_Breaker_2",
@@ -2158,7 +2158,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9257650/",
-      "Linker": "/_posts/ATP-aptamer"
+      "Linker": "/_posts/ATP-aptamer.html"
     },
     {
       "ID": "B52_Lis_1",
@@ -2176,7 +2176,7 @@
       "Affinity": "Kd: 50nM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9111335/",
-      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer"
+      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer.html"
     },
     {
       "ID": "B52_Lis_2",
@@ -2194,7 +2194,7 @@
       "Affinity": "Kd: 20nM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9111335/",
-      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer"
+      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer.html"
     },
     {
       "ID": "B52_Lis_3",
@@ -2212,7 +2212,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9111335/",
-      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer"
+      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer.html"
     },
     {
       "ID": "B52_Lis_4",
@@ -2230,7 +2230,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9111335/",
-      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer"
+      "Linker": "/_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer.html"
     },
     {
       "ID": "Cam_Gold_1",
@@ -2248,7 +2248,7 @@
       "Affinity": "Kd: 2.1± 0.3 µM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9384530/",
-      "Linker": "/_posts/Chloramphenicol-aptamer"
+      "Linker": "/_posts/Chloramphenicol-aptamer.html"
     },
     {
       "ID": "Cam_Gold_2",
@@ -2266,7 +2266,7 @@
       "Affinity": "Kd: 8± 4 µM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9384530/",
-      "Linker": "/_posts/Chloramphenicol-aptamer"
+      "Linker": "/_posts/Chloramphenicol-aptamer.html"
     },
     {
       "ID": "Cam_Gold_3",
@@ -2284,7 +2284,7 @@
       "Affinity": "Kd: 7± 2 µM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9384530/",
-      "Linker": "/_posts/Chloramphenicol-aptamer"
+      "Linker": "/_posts/Chloramphenicol-aptamer.html"
     },
     {
       "ID": "Cam_Gold_4",
@@ -2302,7 +2302,7 @@
       "Affinity": "Kd: 25± 3 µM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9384530/",
-      "Linker": "/_posts/Chloramphenicol-aptamer"
+      "Linker": "/_posts/Chloramphenicol-aptamer.html"
     },
     {
       "ID": "Dopamine_Tocchini-Valentini_1",
@@ -2320,7 +2320,7 @@
       "Affinity": "Kd: 2.8 µM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9245404/",
-      "Linker": "/_posts/Dopamine-aptamer"
+      "Linker": "/_posts/Dopamine-aptamer.html"
     },
     {
       "ID": "HCV_Nishikawa_1",
@@ -2338,7 +2338,7 @@
       "Affinity": "Kd: 650 nM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9310370/",
-      "Linker": "/_posts/10G-1-aptamer"
+      "Linker": "/_posts/10G-1-aptamer.html"
     },
     {
       "ID": "HCV_Nishikawa_2",
@@ -2356,7 +2356,7 @@
       "Affinity": "Kd: 120 ± 18 nM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9356339/",
-      "Linker": "/_posts/G6-16-aptamer"
+      "Linker": "/_posts/G6-16-aptamer.html"
     },
     {
       "ID": "HCV_Nishikawa_3",
@@ -2374,7 +2374,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9356339/",
-      "Linker": "/_posts/G6-16-aptamer"
+      "Linker": "/_posts/G6-16-aptamer.html"
     },
     {
       "ID": "PNA pol II_Sentenac_1",
@@ -2392,7 +2392,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9346949/",
-      "Linker": "/_posts/RNA-polymerase-(Pol)-II_FC-RNA-aptamer"
+      "Linker": "/_posts/RNA-polymerase-(Pol)-II_FC-RNA-aptamer.html"
     },
     {
       "ID": "Prion protein_Winnacker_1",
@@ -2410,7 +2410,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9343239/",
-      "Linker": "/_posts/Hamster-prion-protein-aptamer"
+      "Linker": "/_posts/Hamster-prion-protein-aptamer.html"
     },
     {
       "ID": "Prion protein_Winnacker_2",
@@ -2428,7 +2428,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9343239/",
-      "Linker": "/_posts/Hamster-prion-protein-aptamer"
+      "Linker": "/_posts/Hamster-prion-protein-aptamer.html"
     },
     {
       "ID": "Prion protein_Winnacker_3",
@@ -2446,7 +2446,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9343239/",
-      "Linker": "/_posts/Hamster-prion-protein-aptamer"
+      "Linker": "/_posts/Hamster-prion-protein-aptamer.html"
     },
     {
       "ID": "Prion protein_Winnacker_5",
@@ -2464,7 +2464,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9343239/",
-      "Linker": "/_posts/Hamster-prion-protein-aptamer"
+      "Linker": "/_posts/Hamster-prion-protein-aptamer.html"
     },
     {
       "ID": "Ribosomal protein S8_Ehresmann_1",
@@ -2482,7 +2482,7 @@
       "Affinity": "Kd: 110±30 nM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9056763/",
-      "Linker": "/_posts/Ribosomal-protein-S8-aptamer"
+      "Linker": "/_posts/Ribosomal-protein-S8-aptamer.html"
     },
     {
       "ID": "RNA loop_Schmidt_1",
@@ -2500,7 +2500,7 @@
       "Affinity": "Kd: 70±15 nM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9222504/",
-      "Linker": "/_posts/RNA-stem-loop-aptamer"
+      "Linker": "/_posts/RNA-stem-loop-aptamer.html"
     },
     {
       "ID": "SelB_Famulok_1",
@@ -2518,7 +2518,7 @@
       "Affinity": "Kd: 120 nM",
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9192624/",
-      "Linker": "/_posts/Elongation-factor-SelB-aptamer"
+      "Linker": "/_posts/Elongation-factor-SelB-aptamer.html"
     },
     {
       "ID": "SelB_Famulok_2",
@@ -2536,7 +2536,7 @@
       "Affinity": null,
       "Year": 1997,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9192624/",
-      "Linker": "/_posts/Elongation-factor-SelB-aptamer"
+      "Linker": "/_posts/Elongation-factor-SelB-aptamer.html"
     },
     {
       "ID": "APC_Nishikawa_1",
@@ -2554,7 +2554,7 @@
       "Affinity": "Ki: 83±17 nM; Kd: 110 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9546673/",
-      "Linker": "/_posts/Human-activated-protein-C-aptamer"
+      "Linker": "/_posts/Human-activated-protein-C-aptamer.html"
     },
     {
       "ID": "APC_Nishikawa_2",
@@ -2572,7 +2572,7 @@
       "Affinity": "Ki: 137±14 nM; Kd: 120 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9546673/",
-      "Linker": "/_posts/Human-activated-protein-C-aptamer"
+      "Linker": "/_posts/Human-activated-protein-C-aptamer.html"
     },
     {
       "ID": "bFGF_Ellington_1",
@@ -2590,7 +2590,7 @@
       "Affinity": "Kd: 1.8±0.8 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9873529/",
-      "Linker": "/_posts/Basic-fibroblast-growth-factor-aptamer"
+      "Linker": "/_posts/Basic-fibroblast-growth-factor-aptamer.html"
     },
     {
       "ID": "Biotin_Szostak_1",
@@ -2608,7 +2608,7 @@
       "Affinity": "Kd: 6 μM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9772167/",
-      "Linker": "/_posts/Biotin-aptamer"
+      "Linker": "/_posts/Biotin-aptamer.html"
     },
     {
       "ID": "Fluorescein_Wilson_1",
@@ -2626,7 +2626,7 @@
       "Affinity": null,
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9889155/",
-      "Linker": "/_posts/FB-1-aptamer"
+      "Linker": "/_posts/FB-1-aptamer.html"
     },
     {
       "ID": "XBA RNA_Yokoyama_1",
@@ -2644,7 +2644,7 @@
       "Affinity": "Kd: 1.3 µM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9512549/",
-      "Linker": "/_posts/XBA-RNA-aptamer"
+      "Linker": "/_posts/XBA-RNA-aptamer.html"
     },
     {
       "ID": "PTPase_Ellington_1",
@@ -2662,7 +2662,7 @@
       "Affinity": "Kd: 28±12 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9603938/",
-      "Linker": "/_posts/Protein-tyrosine-phosphatases-aptamer"
+      "Linker": "/_posts/Protein-tyrosine-phosphatases-aptamer.html"
     },
     {
       "ID": "PTPase_Ellington_2",
@@ -2680,7 +2680,7 @@
       "Affinity": "Kd: 18±2.9 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9603938/",
-      "Linker": "/_posts/Protein-tyrosine-phosphatases-aptamer"
+      "Linker": "/_posts/Protein-tyrosine-phosphatases-aptamer.html"
     },
     {
       "ID": "Raf-1 RBD_Yokoyama_1",
@@ -2698,7 +2698,7 @@
       "Affinity": "Kd: 332±93 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9883908/",
-      "Linker": "/_posts/Raf-1-aptamer"
+      "Linker": "/_posts/Raf-1-aptamer.html"
     },
     {
       "ID": "Raf-1 RBD_Yokoyama_2",
@@ -2716,7 +2716,7 @@
       "Affinity": "Kd: 332±93 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9883908/",
-      "Linker": "/_posts/Raf-1-aptamer"
+      "Linker": "/_posts/Raf-1-aptamer.html"
     },
     {
       "ID": "Streptomycin_Schroeder_1",
@@ -2734,7 +2734,7 @@
       "Affinity": null,
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9436913/",
-      "Linker": "/_posts/Streptomycin-aptamer"
+      "Linker": "/_posts/Streptomycin-aptamer.html"
     },
     {
       "ID": "Streptomycin_Schroeder_2",
@@ -2752,7 +2752,7 @@
       "Affinity": "Kd: 1 μM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9436913/",
-      "Linker": "/_posts/Streptomycin-aptamer"
+      "Linker": "/_posts/Streptomycin-aptamer.html"
     },
     {
       "ID": "Streptomycin_Schroeder_3",
@@ -2770,7 +2770,7 @@
       "Affinity": null,
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9436913/",
-      "Linker": "/_posts/Streptomycin-aptamer"
+      "Linker": "/_posts/Streptomycin-aptamer.html"
     },
     {
       "ID": "Streptomycin_Schroeder_4",
@@ -2788,7 +2788,7 @@
       "Affinity": null,
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9436913/",
-      "Linker": "/_posts/Streptomycin-aptamer"
+      "Linker": "/_posts/Streptomycin-aptamer.html"
     },
     {
       "ID": "Sulforhodamine B_Wilson_1",
@@ -2806,7 +2806,7 @@
       "Affinity": "Kd: 70±10 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9889155/",
-      "Linker": "/_posts/SRB-2-aptamer"
+      "Linker": "/_posts/SRB-2-aptamer.html"
     },
     {
       "ID": "Tobramycin_Rando_4",
@@ -2824,7 +2824,7 @@
       "Affinity": "Kd: 5.15±1.52 nM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9425088/",
-      "Linker": "/_posts/J6f1-aptamer"
+      "Linker": "/_posts/J6f1-aptamer.html"
     },
     {
       "ID": "VEGF_Janjić_13",
@@ -2842,7 +2842,7 @@
       "Affinity": "Kd: 49±6 pM",
       "Year": 1998,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/9685413/",
-      "Linker": "/_posts/VEGF-aptamer"
+      "Linker": "/_posts/VEGF-aptamer.html"
     },
     {
       "ID": "CD18_Famulok_1",
@@ -2860,7 +2860,7 @@
       "Affinity": "Kd: between 500 and 1,000 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10097084/",
-      "Linker": "/_posts/Integrin-beta-chain-2-(CD18)-aptamer"
+      "Linker": "/_posts/Integrin-beta-chain-2-(CD18)-aptamer.html"
     },
     {
       "ID": "CD18_Famulok_2",
@@ -2878,7 +2878,7 @@
       "Affinity": "Kd: between 500 and 1,000 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10097084/",
-      "Linker": "/_posts/Integrin-beta-chain-2-(CD18)-aptamer"
+      "Linker": "/_posts/Integrin-beta-chain-2-(CD18)-aptamer.html"
     },
     {
       "ID": "CD18_Famulok_3",
@@ -2896,7 +2896,7 @@
       "Affinity": "Kd: between 500 and 1,000 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10097084/",
-      "Linker": "/_posts/Integrin-beta-chain-2-(CD18)-aptamer"
+      "Linker": "/_posts/Integrin-beta-chain-2-(CD18)-aptamer.html"
     },
     {
       "ID": "HIV-1 TAR_Toulmé_1",
@@ -2914,7 +2914,7 @@
       "Affinity": "Kd: 30 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10606271/",
-      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer"
+      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer.html"
     },
     {
       "ID": "HIV-1 TAR_Toulmé_2",
@@ -2932,7 +2932,7 @@
       "Affinity": null,
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10606271/",
-      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer"
+      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer.html"
     },
     {
       "ID": "HIV-1 TAR_Toulmé_3",
@@ -2950,7 +2950,7 @@
       "Affinity": null,
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10606271/",
-      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer"
+      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer.html"
     },
     {
       "ID": "HIV-1 TAR_Toulmé_4",
@@ -2968,7 +2968,7 @@
       "Affinity": "Kd: 32±8 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10606271/",
-      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer"
+      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer.html"
     },
     {
       "ID": "MG_Wilson_1",
@@ -2986,7 +2986,7 @@
       "Affinity": "Kd: ≤ 1 mM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10339553/",
-      "Linker": "/_posts/MG-aptamer"
+      "Linker": "/_posts/MG-aptamer.html"
     },
     {
       "ID": "NF-kB_Maher_1",
@@ -3004,7 +3004,7 @@
       "Affinity": "Kd: 1.34±0.2 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15359119/",
-      "Linker": "/_posts/NF-kappaB-aptamer"
+      "Linker": "/_posts/NF-kappaB-aptamer.html"
     },
     {
       "ID": "NF-kB_Maher_2",
@@ -3022,7 +3022,7 @@
       "Affinity": "Kd: 5.4±2.2 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10074372/",
-      "Linker": "/_posts/NF-kappaB-aptamer"
+      "Linker": "/_posts/NF-kappaB-aptamer.html"
     },
     {
       "ID": "HTLV-1 Rex_Ellington_1",
@@ -3040,7 +3040,7 @@
       "Affinity": "Kd:  9.3±1.8 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10233958/",
-      "Linker": "/_posts/HTLV-1-Rex-peptide-aptamer"
+      "Linker": "/_posts/HTLV-1-Rex-peptide-aptamer.html"
     },
     {
       "ID": "SelB_Famulok_3",
@@ -3058,7 +3058,7 @@
       "Affinity": "Kd: 300 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10496219/",
-      "Linker": "/_posts/Elongation-factor-SelB-aptamer"
+      "Linker": "/_posts/Elongation-factor-SelB-aptamer.html"
     },
     {
       "ID": "Subtilisin_Kikuchi_1",
@@ -3076,7 +3076,7 @@
       "Affinity": "Ki: 2.5 µM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10348914/",
-      "Linker": "/_posts/Subtilisin-aptamer"
+      "Linker": "/_posts/Subtilisin-aptamer.html"
     },
     {
       "ID": "tRNA_Tocchini-Valentini_1",
@@ -3094,7 +3094,7 @@
       "Affinity": "Kd: 12±1.2 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10449422/",
-      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer"
+      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer.html"
     },
     {
       "ID": "tRNA_Tocchini-Valentini_2",
@@ -3112,7 +3112,7 @@
       "Affinity": "Kd: 26±1.4 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10449422/",
-      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer"
+      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer.html"
     },
     {
       "ID": "tRNA_Tocchini-Valentini_3",
@@ -3130,7 +3130,7 @@
       "Affinity": "Binding efficiency: 40%",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10449422/",
-      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer"
+      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer.html"
     },
     {
       "ID": "tRNA_Tocchini-Valentini_4",
@@ -3148,7 +3148,7 @@
       "Affinity": "Binding efficiency: 37%",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10449422/",
-      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer"
+      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer.html"
     },
     {
       "ID": "tRNA_Tocchini-Valentini_5",
@@ -3166,7 +3166,7 @@
       "Affinity": "Binding efficiency: 41%",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10449422/",
-      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer"
+      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer.html"
     },
     {
       "ID": "tRNA_Tocchini-Valentini_6",
@@ -3184,7 +3184,7 @@
       "Affinity": "Binding efficiency: 16%",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10449422/",
-      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer"
+      "Linker": "_posts/Yeast-phenylalanine-tRNA-aptamer.html"
     },
     {
       "ID": "Upstream of N-Ras_Jacquemin-Sablon_1",
@@ -3202,7 +3202,7 @@
       "Affinity": "Kd: 11 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10101203/",
-      "Linker": "/_posts/Upstream-of-N-Ras-aptamer"
+      "Linker": "/_posts/Upstream-of-N-Ras-aptamer.html"
     },
     {
       "ID": "Upstream of N-Ras_Jacquemin-Sablon_2",
@@ -3220,7 +3220,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10101203/",
-      "Linker": "/_posts/Upstream-of-N-Ras-aptamer"
+      "Linker": "/_posts/Upstream-of-N-Ras-aptamer.html"
     },
     {
       "ID": "Upstream of N-Ras_Jacquemin-Sablon_3",
@@ -3238,7 +3238,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10101203/",
-      "Linker": "/_posts/Upstream-of-N-Ras-aptamer"
+      "Linker": "/_posts/Upstream-of-N-Ras-aptamer.html"
     },
     {
       "ID": "Upstream of N-Ras_Jacquemin-Sablon_4",
@@ -3256,7 +3256,7 @@
       "Affinity": "Kd: 21 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10101203/",
-      "Linker": "/_posts/Upstream-of-N-Ras-aptamer"
+      "Linker": "/_posts/Upstream-of-N-Ras-aptamer.html"
     },
     {
       "ID": "Upstream of N-Ras_Jacquemin-Sablon_5",
@@ -3274,7 +3274,7 @@
       "Affinity": "Kd: 13 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10101203/",
-      "Linker": "/_posts/Upstream-of-N-Ras-aptamer"
+      "Linker": "/_posts/Upstream-of-N-Ras-aptamer.html"
     },
     {
       "ID": "Upstream of N-Ras_Jacquemin-Sablon_6",
@@ -3292,7 +3292,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10101203/",
-      "Linker": "/_posts/Upstream-of-N-Ras-aptamer"
+      "Linker": "/_posts/Upstream-of-N-Ras-aptamer.html"
     },
     {
       "ID": "Upstream of N-Ras_Jacquemin-Sablon_7",
@@ -3310,7 +3310,7 @@
       "Affinity": "Kd: 8 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10101203/",
-      "Linker": "/_posts/Upstream-of-N-Ras-aptamer"
+      "Linker": "/_posts/Upstream-of-N-Ras-aptamer.html"
     },
     {
       "ID": "VSG_Göringer_1",
@@ -3328,7 +3328,7 @@
       "Affinity": "Kd: 60±17 nM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10198434/",
-      "Linker": "/_posts/Trypanosome-VSG-aptamer"
+      "Linker": "/_posts/Trypanosome-VSG-aptamer.html"
     },
     {
       "ID": "16s-rRNA region_Rando_1",
@@ -3346,7 +3346,7 @@
       "Affinity": "Kd: 1.236±0.051 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10908352/",
-      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer"
+      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer.html"
     },
     {
       "ID": "16s-rRNA region_Rando_2",
@@ -3364,7 +3364,7 @@
       "Affinity": "Kd: 1.446±0.088 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10908352/",
-      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer"
+      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer.html"
     },
     {
       "ID": "16s-rRNA region_Rando_3",
@@ -3382,7 +3382,7 @@
       "Affinity": "Kd: 1.665±0.101 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10908352/",
-      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer"
+      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer.html"
     },
     {
       "ID": "16s-rRNA region_Rando_4",
@@ -3400,7 +3400,7 @@
       "Affinity": "Kd: 2.946±0.149 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10908352/",
-      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer"
+      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer.html"
     },
     {
       "ID": "16s-rRNA region_Rando_5",
@@ -3418,7 +3418,7 @@
       "Affinity": "Kd: 2.786±0.188 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10908352/",
-      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer"
+      "Linker": "/_posts/16S-rRNA-decoding-region-aptamer.html"
     },
     {
       "ID": "ATP_Ellington_1",
@@ -3436,7 +3436,7 @@
       "Affinity": "Kd: 223±20 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11101810/",
-      "Linker": "/_posts/rafl7s-aptamer"
+      "Linker": "/_posts/rafl7s-aptamer.html"
     },
     {
       "ID": "ATP_Ellington_2",
@@ -3454,7 +3454,7 @@
       "Affinity": "Kd: 165±10 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11101810/",
-      "Linker": "/_posts/rafl7s-aptamer"
+      "Linker": "/_posts/rafl7s-aptamer.html"
     },
     {
       "ID": "ATP_Ellington_3",
@@ -3472,7 +3472,7 @@
       "Affinity": "Kd: 175±5 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11101810/",
-      "Linker": "/_posts/rafl7s-aptamer"
+      "Linker": "/_posts/rafl7s-aptamer.html"
     },
     {
       "ID": "ATP_Ellington_4",
@@ -3490,7 +3490,7 @@
       "Affinity": null,
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11101810/",
-      "Linker": "/_posts/rafl7s-aptamer"
+      "Linker": "/_posts/rafl7s-aptamer.html"
     },
     {
       "ID": "cAMP_Breaker_1",
@@ -3508,7 +3508,7 @@
       "Affinity": null,
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10913311/",
-      "Linker": "/_posts/cAMP-aptamer"
+      "Linker": "/_posts/cAMP-aptamer.html"
     },
     {
       "ID": "cAMP_Breaker_2",
@@ -3526,7 +3526,7 @@
       "Affinity": "Kd: 10 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10913311/",
-      "Linker": "/_posts/cAMP-aptamer"
+      "Linker": "/_posts/cAMP-aptamer.html"
     },
     {
       "ID": "Doxycyline_Famulok_1",
@@ -3544,7 +3544,7 @@
       "Affinity": "Ki: 70±20 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29711918/",
-      "Linker": "/_posts/Doxycyline-aptamer"
+      "Linker": "/_posts/Doxycyline-aptamer.html"
     },
     {
       "ID": "Doxycyline_Famulok_2",
@@ -3562,7 +3562,7 @@
       "Affinity": "Ki: 20±5 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29711918/",
-      "Linker": "/_posts/Doxycyline-aptamer"
+      "Linker": "/_posts/Doxycyline-aptamer.html"
     },
     {
       "ID": "Doxycyline_Famulok_3",
@@ -3580,7 +3580,7 @@
       "Affinity": "Ki: 25±3 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29711918/",
-      "Linker": "/_posts/Doxycyline-aptamer"
+      "Linker": "/_posts/Doxycyline-aptamer.html"
     },
     {
       "ID": "Doxycyline_Famulok_4",
@@ -3598,7 +3598,7 @@
       "Affinity": "Ki: 50±30 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29711918/",
-      "Linker": "/_posts/Doxycyline-aptamer"
+      "Linker": "/_posts/Doxycyline-aptamer.html"
     },
     {
       "ID": "HCV NS3_Nishikawa_1",
@@ -3616,7 +3616,7 @@
       "Affinity": "Kd: 11.6 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10848986/",
-      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer"
+      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer.html"
     },
     {
       "ID": "HCV NS3_Nishikawa_2",
@@ -3634,7 +3634,7 @@
       "Affinity": "Kd: 6.3 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10848986/",
-      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer"
+      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer.html"
     },
     {
       "ID": "HCV NS3_Nishikawa_3",
@@ -3652,7 +3652,7 @@
       "Affinity": "Kd: 8.9 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10848986/",
-      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer"
+      "Linker": "/_posts/HCV-NS3-protease_G9-II-aptamer.html"
     },
     {
       "ID": "HIV Tat_Kumar_1",
@@ -3670,7 +3670,7 @@
       "Affinity": "Kd: 120±13 pM",
       "Year": 2000,
       "Link to PubMed Entry": "https://onlinelibrary.wiley.com/doi/10.1046/j.1365-2443.2000.00330.x",
-      "Linker": "/_posts/HIV-1-Tat-protein-aptamer"
+      "Linker": "/_posts/HIV-1-Tat-protein-aptamer.html"
     },
     {
       "ID": "HIV-1 Tat protein_Sugimoto_1",
@@ -3688,7 +3688,7 @@
       "Affinity": "Kd: 0.31 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11132628/",
-      "Linker": "/_posts/HIV-1-Tat-protein_Clone-31-aptamer"
+      "Linker": "/_posts/HIV-1-Tat-protein_Clone-31-aptamer.html"
     },
     {
       "ID": "L-tyrosine_Tocchini-Valentini_1",
@@ -3706,7 +3706,7 @@
       "Affinity": "Kd: 35 μM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10786843/",
-      "Linker": "/_posts/Tyr-1-aptamer"
+      "Linker": "/_posts/Tyr-1-aptamer.html"
     },
     {
       "ID": "Pepocin_Ellington_1",
@@ -3724,7 +3724,7 @@
       "Affinity": "Kd: 17.9±2.2 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10671532/",
-      "Linker": "/_posts/Pepocin-aptamer"
+      "Linker": "/_posts/Pepocin-aptamer.html"
     },
     {
       "ID": "Pepocin_Ellington_2",
@@ -3742,7 +3742,7 @@
       "Affinity": "Kd: 21.0±2.0 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10671532/",
-      "Linker": "/_posts/Pepocin-aptamer"
+      "Linker": "/_posts/Pepocin-aptamer.html"
     },
     {
       "ID": "Pepocin_Ellington_3",
@@ -3760,7 +3760,7 @@
       "Affinity": "Kd: 23.4±2.3 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10671532/",
-      "Linker": "/_posts/Pepocin-aptamer"
+      "Linker": "/_posts/Pepocin-aptamer.html"
     },
     {
       "ID": "Pepocin_Ellington_4",
@@ -3778,7 +3778,7 @@
       "Affinity": "Kd: 21±2 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10671532/",
-      "Linker": "/_posts/Pepocin-aptamer"
+      "Linker": "/_posts/Pepocin-aptamer.html"
     },
     {
       "ID": "R5 helix peptide_Okahata_1",
@@ -3796,7 +3796,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12903331/",
-      "Linker": "/_posts/R5-helix-peptide-aptamer"
+      "Linker": "/_posts/R5-helix-peptide-aptamer.html"
     },
     {
       "ID": "R5 helix peptide_Okahata_2",
@@ -3814,7 +3814,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 2000,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12903331/",
-      "Linker": "/_posts/R5-helix-peptide-aptamer"
+      "Linker": "/_posts/R5-helix-peptide-aptamer.html"
     },
     {
       "ID": "Adenine_Maurel_1",
@@ -3832,7 +3832,7 @@
       "Affinity": "Kd: 10 μM",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11705996/",
-      "Linker": "/_posts/Adenine-aptamer"
+      "Linker": "/_posts/Adenine-aptamer.html"
     },
     {
       "ID": "Sephadex G-100_Engelke_1",
@@ -3850,7 +3850,7 @@
       "Affinity": null,
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11139634/",
-      "Linker": "/_posts/D8-aptamer"
+      "Linker": "/_posts/D8-aptamer.html"
     },
     {
       "ID": "sLeX_Yu_1",
@@ -3868,7 +3868,7 @@
       "Affinity": "Kd: 0.085 nM and 3.3 nM via SPR",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11178986/",
-      "Linker": "/_posts/Clone-5-aptamer"
+      "Linker": "/_posts/Clone-5-aptamer.html"
     },
     {
       "ID": "Tetracyclins_Schroeder_1",
@@ -3886,7 +3886,7 @@
       "Affinity": "Kd: ~1 μM",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11557342/",
-      "Linker": "/_posts/Tetracycline-aptamer"
+      "Linker": "/_posts/Tetracycline-aptamer.html"
     },
     {
       "ID": "Tetracyclins_Schroeder_2",
@@ -3904,7 +3904,7 @@
       "Affinity": null,
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11557342/",
-      "Linker": "/_posts/Tetracycline-aptamer"
+      "Linker": "/_posts/Tetracycline-aptamer.html"
     },
     {
       "ID": "Thrombin_Sullenger_1",
@@ -3922,7 +3922,7 @@
       "Affinity": "Kd: (Human: 2.8±0.7 nM, Porcine: 83±3 pM)",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11735341/",
-      "Linker": "/_posts/Thrombin-aptamer"
+      "Linker": "/_posts/Thrombin-aptamer.html"
     },
     {
       "ID": "Thrombin_Sullenger_2",
@@ -3940,7 +3940,7 @@
       "Affinity": "Kd:  0.54±0.1 nM",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11735341/",
-      "Linker": "/_posts/Thrombin-aptamer"
+      "Linker": "/_posts/Thrombin-aptamer.html"
     },
     {
       "ID": "WT1-ZFP_Romaniuk_1",
@@ -3958,7 +3958,7 @@
       "Affinity": "Kd: 87.4 ± 10.4 nM (WT1-ZFP) & 69.8 ± 8.4 nM (WT1[+KTS]-ZFP)",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11329270/",
-      "Linker": "/_posts/Wilms-tumor-protein-aptamer"
+      "Linker": "/_posts/Wilms-tumor-protein-aptamer.html"
     },
     {
       "ID": "WT1-ZFP_Romaniuk_2",
@@ -3976,7 +3976,7 @@
       "Affinity": "Kd: 13.8 ± 1.1 nM (WT1-ZFP) & 22.8 ± 2.3 nM (WT1[+KTS]-ZFP)",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11329270/",
-      "Linker": "/_posts/Wilms-tumor-protein-aptamer"
+      "Linker": "/_posts/Wilms-tumor-protein-aptamer.html"
     },
     {
       "ID": "WT1-ZFP_Romaniuk_3",
@@ -3994,7 +3994,7 @@
       "Affinity": "Kd: 17.8 ± 1.4 nM (WT1-ZFP) & 33.7 ± 4.4 nM (WT1[+KTS]-ZFP)",
       "Year": 2001,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11329270/",
-      "Linker": "/_posts/Wilms-tumor-protein-aptamer"
+      "Linker": "/_posts/Wilms-tumor-protein-aptamer.html"
     },
     {
       "ID": "ATP_Burke_1",
@@ -4012,7 +4012,7 @@
       "Affinity": null,
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11884639/",
-      "Linker": "/_posts/bG40min-aptamer"
+      "Linker": "/_posts/bG40min-aptamer.html"
     },
     {
       "ID": "ATP_Burke_2",
@@ -4030,7 +4030,7 @@
       "Affinity": null,
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11884639/",
-      "Linker": "/_posts/bG40min-aptamer"
+      "Linker": "/_posts/bG40min-aptamer.html"
     },
     {
       "ID": "ATP_Burke_3",
@@ -4048,7 +4048,7 @@
       "Affinity": null,
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11884639/",
-      "Linker": "/_posts/bG40min-aptamer"
+      "Linker": "/_posts/bG40min-aptamer.html"
     },
     {
       "ID": "ATP_Burke_4",
@@ -4066,7 +4066,7 @@
       "Affinity": null,
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11884639/",
-      "Linker": "/_posts/bG40min-aptamer"
+      "Linker": "/_posts/bG40min-aptamer.html"
     },
     {
       "ID": "Beta amyloid peptide_Fürste_1",
@@ -4084,7 +4084,7 @@
       "Affinity": "Kd: 29–48 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11820803/",
-      "Linker": "/_posts/β55-aptamer"
+      "Linker": "/_posts/β55-aptamer.html"
     },
     {
       "ID": "C5 protein_Lee_1",
@@ -4102,7 +4102,7 @@
       "Affinity": "Kd: 3.6 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12490703/",
-      "Linker": "/_posts/Complement-component-5-aptamer"
+      "Linker": "/_posts/Complement-component-5-aptamer.html"
     },
     {
       "ID": "E2F_Sullenger_1",
@@ -4120,7 +4120,7 @@
       "Affinity": "Kd: 2–4 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12095300/",
-      "Linker": "_posts/E2F-E1-aptamer"
+      "Linker": "_posts/E2F-E1-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_1",
@@ -4138,7 +4138,7 @@
       "Affinity": "Kd: 28 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12185247/",
-      "Linker": "/_posts/GTP-aptamer"
+      "Linker": "/_posts/GTP-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_2",
@@ -4156,7 +4156,7 @@
       "Affinity": "Kd: 60–300 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12185247/",
-      "Linker": "/_posts/GTP-aptamer"
+      "Linker": "/_posts/GTP-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_3",
@@ -4174,7 +4174,7 @@
       "Affinity": "Kd: 200 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12185247/",
-      "Linker": "/_posts/GTP-aptamer"
+      "Linker": "/_posts/GTP-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_4",
@@ -4192,7 +4192,7 @@
       "Affinity": "Kd:  250 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12185247/",
-      "Linker": "/_posts/GTP-aptamer"
+      "Linker": "/_posts/GTP-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_5",
@@ -4210,7 +4210,7 @@
       "Affinity": "Kd:  250 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12185247/",
-      "Linker": "/_posts/GTP-aptamer"
+      "Linker": "/_posts/GTP-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_6",
@@ -4228,7 +4228,7 @@
       "Affinity": "Kd: 500 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12185247/",
-      "Linker": "/_posts/GTP-aptamer"
+      "Linker": "/_posts/GTP-aptamer.html"
     },
     {
       "ID": "HCV NS5B_Tomei_1",
@@ -4246,7 +4246,7 @@
       "Affinity": "Kd: 16±1.6 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11907208/",
-      "Linker": "_posts/HCV-NS5BΔC55-aptamer"
+      "Linker": "_posts/HCV-NS5BΔC55-aptamer.html"
     },
     {
       "ID": "HCV NS5B_Tomei_2",
@@ -4264,7 +4264,7 @@
       "Affinity": "Kd: 1.5±0.2 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11907208/",
-      "Linker": "_posts/HCV-NS5BΔC55-aptamer"
+      "Linker": "_posts/HCV-NS5BΔC55-aptamer.html"
     },
     {
       "ID": "HCV NS5B_Tomei_3",
@@ -4282,7 +4282,7 @@
       "Affinity": "Kd: 10±1.6 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11907208/",
-      "Linker": "_posts/HCV-NS5BΔC55-aptamer"
+      "Linker": "_posts/HCV-NS5BΔC55-aptamer.html"
     },
     {
       "ID": "HCV NS5B_Tomei_4",
@@ -4300,7 +4300,7 @@
       "Affinity": "Kd: >>200 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11907208/",
-      "Linker": "_posts/HCV-NS5BΔC55-aptamer"
+      "Linker": "_posts/HCV-NS5BΔC55-aptamer.html"
     },
     {
       "ID": "Mitochondria_Adhya_1",
@@ -4318,7 +4318,7 @@
       "Affinity": "Kd: 1 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12024047/",
-      "Linker": "/_posts/Mitochondrion-aptamer"
+      "Linker": "/_posts/Mitochondrion-aptamer.html"
     },
     {
       "ID": "Mitochondria_Adhya_2",
@@ -4336,7 +4336,7 @@
       "Affinity": "Kd: 0.46 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12024047/",
-      "Linker": "/_posts/Mitochondrion-aptamer"
+      "Linker": "/_posts/Mitochondrion-aptamer.html"
     },
     {
       "ID": "Mitochondria_Adhya_3",
@@ -4354,7 +4354,7 @@
       "Affinity": "Kd: 1.19 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12024047/",
-      "Linker": "/_posts/Mitochondrion-aptamer"
+      "Linker": "/_posts/Mitochondrion-aptamer.html"
     },
     {
       "ID": "Mitochondria_Adhya_4",
@@ -4372,7 +4372,7 @@
       "Affinity": "Kd: 0.1 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12024047/",
-      "Linker": "/_posts/Mitochondrion-aptamer"
+      "Linker": "/_posts/Mitochondrion-aptamer.html"
     },
     {
       "ID": "Neuropeptide Y_Famulok_1",
@@ -4390,7 +4390,7 @@
       "Affinity": "Kd: 0.37 μM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11756401/",
-      "Linker": "/_posts/DP3-aptamer"
+      "Linker": "/_posts/DP3-aptamer.html"
     },
     {
       "ID": "NTS-1_Grisshammer_1",
@@ -4408,7 +4408,7 @@
       "Affinity": "Kd: 0.37 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12054450/",
-      "Linker": "/_posts/Neurotensin-receptor-NTS-1-aptamer"
+      "Linker": "/_posts/Neurotensin-receptor-NTS-1-aptamer.html"
     },
     {
       "ID": "PSMA_Coffey_1",
@@ -4426,7 +4426,7 @@
       "Affinity": "Kd: 5-30 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12124337/",
-      "Linker": "/_posts/PSMA-aptamer"
+      "Linker": "/_posts/PSMA-aptamer.html"
     },
     {
       "ID": "PSMA_Coffey_2",
@@ -4444,7 +4444,7 @@
       "Affinity": "Kd: 110 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12124337/",
-      "Linker": "/_posts/PSMA-aptamer"
+      "Linker": "/_posts/PSMA-aptamer.html"
     },
     {
       "ID": "T. thermophilus RF1_Sprinzl_1",
@@ -4462,7 +4462,7 @@
       "Affinity": "Kd: 2 x 10^-5 M",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11904188/",
-      "Linker": "/_posts/Peptide-release-factor-1-aptamer"
+      "Linker": "/_posts/Peptide-release-factor-1-aptamer.html"
     },
     {
       "ID": "T. thermophilus RF1_Sprinzl_2",
@@ -4480,7 +4480,7 @@
       "Affinity": "Kd: 2 x 10^-5 M",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/11904188/",
-      "Linker": "/_posts/Peptide-release-factor-1-aptamer"
+      "Linker": "/_posts/Peptide-release-factor-1-aptamer.html"
     },
     {
       "ID": "Angiopoietin-2_Sullenger_1",
@@ -4498,7 +4498,7 @@
       "Affinity": "Kd: 3.1 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12692304/",
-      "Linker": "/_posts/Angiopoietin-2-aptamer"
+      "Linker": "/_posts/Angiopoietin-2-aptamer.html"
     },
     {
       "ID": "Angiopoietin-2_Sullenger_2",
@@ -4516,7 +4516,7 @@
       "Affinity": "Kd: 2.2 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12692304/",
-      "Linker": "/_posts/Angiopoietin-2-aptamer"
+      "Linker": "/_posts/Angiopoietin-2-aptamer.html"
     },
     {
       "ID": "ATP_Guo_1",
@@ -4534,7 +4534,7 @@
       "Affinity": "Kd: 1.3±0.8 mM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12444088/",
-      "Linker": "/_posts/ATP-aptamer"
+      "Linker": "/_posts/ATP-aptamer.html"
     },
     {
       "ID": "ATP_Guo_2",
@@ -4552,7 +4552,7 @@
       "Affinity": "Kd: 0.1±0.06 mM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12444088/",
-      "Linker": "/_posts/ATP-aptamer"
+      "Linker": "/_posts/ATP-aptamer.html"
     },
     {
       "ID": "eIF4A_Nakamura_1",
@@ -4570,7 +4570,7 @@
       "Affinity": "Kd: 8 μM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12649492/",
-      "Linker": "/_posts/eIF4A-aptamer"
+      "Linker": "/_posts/eIF4A-aptamer.html"
     },
     {
       "ID": "eIF4A_Nakamura_2",
@@ -4588,7 +4588,7 @@
       "Affinity": "Kd: 3 μM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12649492/",
-      "Linker": "/_posts/eIF4A-aptamer"
+      "Linker": "/_posts/eIF4A-aptamer.html"
     },
     {
       "ID": "eIF4A_Nakamura_3",
@@ -4606,7 +4606,7 @@
       "Affinity": "Kd: 44 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12649492/",
-      "Linker": "/_posts/eIF4A-aptamer"
+      "Linker": "/_posts/eIF4A-aptamer.html"
     },
     {
       "ID": "eIF4A_Nakamura_4",
@@ -4624,7 +4624,7 @@
       "Affinity": "Kd: 1 μM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12649492/",
-      "Linker": "/_posts/eIF4A-aptamer"
+      "Linker": "/_posts/eIF4A-aptamer.html"
     },
     {
       "ID": "eIF4A_Nakamura_5",
@@ -4642,7 +4642,7 @@
       "Affinity": "Kd: 27 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12649492/",
-      "Linker": "/_posts/eIF4A-aptamer"
+      "Linker": "/_posts/eIF4A-aptamer.html"
     },
     {
       "ID": "eIF4A_Nakamura_6",
@@ -4660,7 +4660,7 @@
       "Affinity": "Kd: 27 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12649492/",
-      "Linker": "/_posts/eIF4A-aptamer"
+      "Linker": "/_posts/eIF4A-aptamer.html"
     },
     {
       "ID": "HCV NS5B_Lai_1",
@@ -4678,7 +4678,7 @@
       "Affinity": "Kd: 100±6 (1/s)",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12667800/",
-      "Linker": "/_posts/HCV-NS5B-protein-aptamer"
+      "Linker": "/_posts/HCV-NS5B-protein-aptamer.html"
     },
     {
       "ID": "HCV NS5B_Lai_2",
@@ -4696,7 +4696,7 @@
       "Affinity": "Kd × 10e4: 1.0±0.1 (1/s)",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12667800/",
-      "Linker": "/_posts/HCV-NS5B-protein-aptamer"
+      "Linker": "/_posts/HCV-NS5B-protein-aptamer.html"
     },
     {
       "ID": "HCV NS5B_Lai_3",
@@ -4714,7 +4714,7 @@
       "Affinity": "Kd × 10e4: 100±6 (1/s)",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12667800/",
-      "Linker": "/_posts/HCV-NS5B-protein-aptamer"
+      "Linker": "/_posts/HCV-NS5B-protein-aptamer.html"
     },
     {
       "ID": "HER3ECD_Landgraf_1",
@@ -4732,7 +4732,7 @@
       "Affinity": "Kd: 45 nM in hrg-unbound; 400 nM in hrg-bound",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12874383/",
-      "Linker": "/_posts/A30-aptamer"
+      "Linker": "/_posts/A30-aptamer.html"
     },
     {
       "ID": "MAb198 antibody_Lee_1",
@@ -4750,7 +4750,7 @@
       "Affinity": "Kd: 30 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12885412/",
-      "Linker": "/_posts/tMG-RNA-aptamer"
+      "Linker": "/_posts/tMG-RNA-aptamer.html"
     },
     {
       "ID": "Thrombin_Shao_1",
@@ -4768,7 +4768,7 @@
       "Affinity": "Kd: 164 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12557236/",
-      "Linker": "/_posts/Bovine-thrombin-aptamer"
+      "Linker": "/_posts/Bovine-thrombin-aptamer.html"
     },
     {
       "ID": "Thrombin_Shao_2",
@@ -4786,7 +4786,7 @@
       "Affinity": "Kd: 240 nM",
       "Year": 2003,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12557236/",
-      "Linker": "/_posts/Bovine-thrombin-aptamer"
+      "Linker": "/_posts/Bovine-thrombin-aptamer.html"
     },
     {
       "ID": "ARNO/cytohesin-2_Famulok_1",
@@ -4804,7 +4804,7 @@
       "Affinity": "Kd: 115±3 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15277685/",
-      "Linker": "/_posts/Cytohesin-2-aptamer"
+      "Linker": "/_posts/Cytohesin-2-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_1",
@@ -4822,7 +4822,7 @@
       "Affinity": "Kd: 2±11 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_2",
@@ -4840,7 +4840,7 @@
       "Affinity": "Kd: 14±2 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_3",
@@ -4858,7 +4858,7 @@
       "Affinity": "Kd: 4±15 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_4",
@@ -4876,7 +4876,7 @@
       "Affinity": "Kd: 7±1 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_5",
@@ -4894,7 +4894,7 @@
       "Affinity": "Kd: 294±170 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Colicin E3_Yokoyama_6",
@@ -4912,7 +4912,7 @@
       "Affinity": "Kd: 10±1 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15023071/",
-      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Colicin-Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "GTP_Szostak_7",
@@ -4930,7 +4930,7 @@
       "Affinity": "Kd: ~75 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15099096/",
-      "Linker": "/_posts/GTP-aptamer"
+      "Linker": "/_posts/GTP-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_1",
@@ -4948,7 +4948,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_10",
@@ -4966,7 +4966,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_11",
@@ -4984,7 +4984,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_12",
@@ -5002,7 +5002,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_13",
@@ -5020,7 +5020,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_14",
@@ -5038,7 +5038,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_15",
@@ -5056,7 +5056,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_16",
@@ -5074,7 +5074,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_17",
@@ -5092,7 +5092,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_18",
@@ -5110,7 +5110,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_19",
@@ -5128,7 +5128,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_2",
@@ -5146,7 +5146,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_20",
@@ -5164,7 +5164,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_3",
@@ -5182,7 +5182,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_4",
@@ -5200,7 +5200,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_5",
@@ -5218,7 +5218,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_6",
@@ -5236,7 +5236,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_7",
@@ -5254,7 +5254,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_8",
@@ -5272,7 +5272,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "hTNFα_Zhang_9",
@@ -5290,7 +5290,7 @@
       "Affinity": null,
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15629041/",
-      "Linker": "_posts/hTNF-α-aptamer"
+      "Linker": "_posts/hTNF-α-aptamer.html"
     },
     {
       "ID": "NFAT DBD_Lee_1",
@@ -5308,7 +5308,7 @@
       "Affinity": "Kd: 11.1 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15359119/",
-      "Linker": "/_posts/NFAT-aptamer"
+      "Linker": "/_posts/NFAT-aptamer.html"
     },
     {
       "ID": "NFAT DBD_Lee_2",
@@ -5326,7 +5326,7 @@
       "Affinity": "Kd: 120 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/12408978/",
-      "Linker": "/_posts/NFAT-aptamer"
+      "Linker": "/_posts/NFAT-aptamer.html"
     },
     {
       "ID": "RANK_Nakamura_1",
@@ -5344,7 +5344,7 @@
       "Affinity": "Kd: 0.33 μM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15562003/",
-      "Linker": "/_posts/RANK-aptamer"
+      "Linker": "/_posts/RANK-aptamer.html"
     },
     {
       "ID": "RANK_Nakamura_2",
@@ -5362,7 +5362,7 @@
       "Affinity": "Kd: 1.8 μM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15562003/",
-      "Linker": "/_posts/RANK-aptamer"
+      "Linker": "/_posts/RANK-aptamer.html"
     },
     {
       "ID": "RANK_Nakamura_3",
@@ -5380,7 +5380,7 @@
       "Affinity": "Kd: 5.8 μM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15562003/",
-      "Linker": "/_posts/RANK-aptamer"
+      "Linker": "/_posts/RANK-aptamer.html"
     },
     {
       "ID": "TCF-1_Jeong_1",
@@ -5398,7 +5398,7 @@
       "Affinity": "Kd: 100~500 nM",
       "Year": 2004,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15055546/",
-      "Linker": "/_posts/TCF-1-aptamer"
+      "Linker": "/_posts/TCF-1-aptamer.html"
     },
     {
       "ID": "CsrA_Babitzke_1",
@@ -5416,7 +5416,7 @@
       "Affinity": "Kd: 7.1±0.8 nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16131593/",
-      "Linker": "/_posts/CsrA-aptamer"
+      "Linker": "/_posts/CsrA-aptamer.html"
     },
     {
       "ID": "eIF4E_Nakamura_1",
@@ -5434,7 +5434,7 @@
       "Affinity": "Kd: 11.2 nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15611299/",
-      "Linker": "/_posts/eIF4E-aptamer"
+      "Linker": "/_posts/eIF4E-aptamer.html"
     },
     {
       "ID": "eIF4E_Nakamura_2",
@@ -5452,7 +5452,7 @@
       "Affinity": null,
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15611299/",
-      "Linker": "/_posts/eIF4E-aptamer"
+      "Linker": "/_posts/eIF4E-aptamer.html"
     },
     {
       "ID": "H3N2 HA_Kumar_1",
@@ -5470,7 +5470,7 @@
       "Affinity": "Kd: 188±36 pM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15913532/",
-      "Linker": "/_posts/Hemagglutinin-aptamer"
+      "Linker": "/_posts/Hemagglutinin-aptamer.html"
     },
     {
       "ID": "H3N2 HA_Kumar_2",
@@ -5488,7 +5488,7 @@
       "Affinity": "Kd: 115±23 pM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15913532/",
-      "Linker": "/_posts/Hemagglutinin-aptamer"
+      "Linker": "/_posts/Hemagglutinin-aptamer.html"
     },
     {
       "ID": "HSV-1 US11_Coen_1",
@@ -5506,7 +5506,7 @@
       "Affinity": "Kd: 70 nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16246910/",
-      "Linker": "/_posts/HSV-1-US11-aptamer"
+      "Linker": "/_posts/HSV-1-US11-aptamer.html"
     },
     {
       "ID": "pre-PilS_Wu_1",
@@ -5524,7 +5524,7 @@
       "Affinity": "Kd: 8.56 nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16189080/",
-      "Linker": "/_posts/Type-IVB-Pili-aptamer"
+      "Linker": "/_posts/Type-IVB-Pili-aptamer.html"
     },
     {
       "ID": "Substance P_Klussmann_1",
@@ -5542,7 +5542,7 @@
       "Affinity": null,
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15745995/",
-      "Linker": "/_posts/L-SUP-A-004-aptamer"
+      "Linker": "/_posts/L-SUP-A-004-aptamer.html"
     },
     {
       "ID": "Substance P_Klussmann_2",
@@ -5560,7 +5560,7 @@
       "Affinity": "Kd: 40 nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/15745995/",
-      "Linker": "/_posts/L-SUP-A-004-aptamer"
+      "Linker": "/_posts/L-SUP-A-004-aptamer.html"
     },
     {
       "ID": "TFKBP*3R-2G_Verdine_1",
@@ -5578,7 +5578,7 @@
       "Affinity": "Kd: 4.3±0.5 nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16199752/",
-      "Linker": "_posts/Engineered-FKBP-protein_s23-aptamer"
+      "Linker": "_posts/Engineered-FKBP-protein_s23-aptamer.html"
     },
     {
       "ID": "TFKBP*3R-2G_Verdine_2",
@@ -5596,7 +5596,7 @@
       "Affinity": "Kd: 2.8±0.2  nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16199752/",
-      "Linker": "_posts/Engineered-FKBP-protein_s23-aptamer"
+      "Linker": "_posts/Engineered-FKBP-protein_s23-aptamer.html"
     },
     {
       "ID": "TFKBP*3R-2G_Verdine_3",
@@ -5614,7 +5614,7 @@
       "Affinity": "Kd: 16.1±3.6 nM",
       "Year": 2005,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16199752/",
-      "Linker": "_posts/Engineered-FKBP-protein_s23-aptamer"
+      "Linker": "_posts/Engineered-FKBP-protein_s23-aptamer.html"
     },
     {
       "ID": "3Dpol_Stonehouse_1",
@@ -5632,7 +5632,7 @@
       "Affinity": "Kd: 460 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17018573/",
-      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer"
+      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer.html"
     },
     {
       "ID": "3Dpol_Stonehouse_2",
@@ -5650,7 +5650,7 @@
       "Affinity": "Kd: 375±46 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17018573/",
-      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer"
+      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer.html"
     },
     {
       "ID": "3Dpol_Stonehouse_3",
@@ -5668,7 +5668,7 @@
       "Affinity": "Kd: 625 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17018573/",
-      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer"
+      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer.html"
     },
     {
       "ID": "3Dpol_Stonehouse_4",
@@ -5686,7 +5686,7 @@
       "Affinity": "Kd: 325",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17018573/",
-      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer"
+      "Linker": "/_posts/RNA-dependent-RNA-polymerase-aptamer.html"
     },
     {
       "ID": "B1-CT_Famulok_1",
@@ -5704,7 +5704,7 @@
       "Affinity": "Kd: 280 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16888322/",
-      "Linker": "/_posts/B1-CT-aptamer"
+      "Linker": "/_posts/B1-CT-aptamer.html"
     },
     {
       "ID": "B1-CT_Famulok_2",
@@ -5722,7 +5722,7 @@
       "Affinity": "Kd: 360 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16888322/",
-      "Linker": "/_posts/B1-CT-aptamer"
+      "Linker": "/_posts/B1-CT-aptamer.html"
     },
     {
       "ID": "Bovine factor IX_Mizuno_1",
@@ -5740,7 +5740,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17030508/",
-      "Linker": "/_posts/Bovine-factor-IX-aptamer"
+      "Linker": "/_posts/Bovine-factor-IX-aptamer.html"
     },
     {
       "ID": "CED-9_Xue_1",
@@ -5758,7 +5758,7 @@
       "Affinity": "Kd: ~4nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16467303/",
-      "Linker": "/_posts/CED-9-aptamer"
+      "Linker": "/_posts/CED-9-aptamer.html"
     },
     {
       "ID": "CED-9_Xue_2",
@@ -5776,7 +5776,7 @@
       "Affinity": "Kd: ~16 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16467303/",
-      "Linker": "/_posts/CED-9-aptamer"
+      "Linker": "/_posts/CED-9-aptamer.html"
     },
     {
       "ID": "Coedine_Smolke_1",
@@ -5794,7 +5794,7 @@
       "Affinity": "Kd: 4.00±0.13 μM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17038331/",
-      "Linker": "/_posts/Codeine-aptamer"
+      "Linker": "/_posts/Codeine-aptamer.html"
     },
     {
       "ID": "Coedine_Smolke_2",
@@ -5812,7 +5812,7 @@
       "Affinity": "Kd: 2.50±0.06 μM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17038331/",
-      "Linker": "/_posts/Codeine-aptamer"
+      "Linker": "/_posts/Codeine-aptamer.html"
     },
     {
       "ID": "H3N2 HA_Kumar_3",
@@ -5830,7 +5830,7 @@
       "Affinity": "Kd: 188 pM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16476969/",
-      "Linker": "/_posts/H3N2-aptamer"
+      "Linker": "/_posts/H3N2-aptamer.html"
     },
     {
       "ID": "polβ_Miller_1",
@@ -5848,8 +5848,8 @@
       "Affinity": "Kd: 290±80 nM",
       "Year": 2006,
             "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html",
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "polβ_Miller_3",
@@ -5867,7 +5867,7 @@
       "Affinity": "Kd: 430±130 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "polβ_Miller_5",
@@ -5885,7 +5885,7 @@
       "Affinity": null,
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "polβ_Miller_6",
@@ -5903,7 +5903,7 @@
       "Affinity": "Kd: 490±70 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "polβ_Miller_8",
@@ -5921,7 +5921,7 @@
       "Affinity": null,
       "Year": 2006,
        "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "polκ_Miller_2",
@@ -5939,7 +5939,7 @@
       "Affinity": "Kd: 410±50 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "polκ_Miller_4",
@@ -5957,7 +5957,7 @@
       "Affinity": "Kd: 500±100 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "polκ_Miller_7",
@@ -5975,7 +5975,7 @@
       "Affinity": "Kd: 750 ±160 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16707660/",
-      "Linker": "/_posts/polβ-aptamer"
+      "Linker": "/_posts/polβ-aptamer.html"
     },
     {
       "ID": "Prion protein_Marc_1",
@@ -5993,7 +5993,7 @@
       "Affinity": "Kd: 20 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16799875/",
-      "Linker": "/_posts/Sheep-prion-protein-aptamer"
+      "Linker": "/_posts/Sheep-prion-protein-aptamer.html"
     },
     {
       "ID": "TbRIII_Nakamura_1",
@@ -6011,7 +6011,7 @@
       "Affinity": "Kd: 2.47 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/16540230/",
-      "Linker": "/_posts/TbRIII-aptamer"
+      "Linker": "/_posts/TbRIII-aptamer.html"
     },
     {
       "ID": "S37A-β-catenin_Jeong_1",
@@ -6029,7 +6029,7 @@
       "Affinity": "Kd: ~5.0 nM",
       "Year": 2006,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17079480/",
-      "Linker": "/_posts/β-catenin_pUC19-aptamer"
+      "Linker": "/_posts/β-catenin_pUC19-aptamer.html"
     },
     {
       "ID": "AMPA receptor_Jayaraman_1",
@@ -6047,7 +6047,7 @@
       "Affinity": "Kd: 37±5 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17588619/",
-      "Linker": "/_posts/AMPA-receptors-aptamer"
+      "Linker": "/_posts/AMPA-receptors-aptamer.html"
     },
     {
       "ID": "beta(2)m fibrils_Stockley_1",
@@ -6065,7 +6065,7 @@
       "Affinity": "Kd: 11.5 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17878167/",
-      "Linker": "/_posts/β2-microglobulin-fibrils_WL-2-aptamer"
+      "Linker": "/_posts/β2-microglobulin-fibrils_WL-2-aptamer.html"
     },
     {
       "ID": "beta(2)m fibrils_Stockley_2",
@@ -6083,7 +6083,7 @@
       "Affinity": "Kd: 7.48 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17878167/",
-      "Linker": "/_posts/β2-microglobulin-fibrils_WL-2-aptamer"
+      "Linker": "/_posts/β2-microglobulin-fibrils_WL-2-aptamer.html"
     },
     {
       "ID": "beta(2)m fibrils_Stockley_3",
@@ -6101,7 +6101,7 @@
       "Affinity": "Kd: 22.1 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17878167/",
-      "Linker": "/_posts/β2-microglobulin-fibrils_WL-2-aptamer"
+      "Linker": "/_posts/β2-microglobulin-fibrils_WL-2-aptamer.html"
     },
     {
       "ID": "Calsenilin_Yu_1",
@@ -6119,7 +6119,7 @@
       "Affinity": "Kd: 43 nM for Ca2+ bound, 79 nM for Ca2+ unbound",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17904852/",
-      "Linker": "/_posts/Ca2+-binding-protein-aptamer"
+      "Linker": "/_posts/Ca2+-binding-protein-aptamer.html"
     },
     {
       "ID": "Calsenilin_Yu_2",
@@ -6137,7 +6137,7 @@
       "Affinity": "Kd: 190 nM for Ca2+ bound",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17904852/",
-      "Linker": "/_posts/Ca2+-binding-protein-aptamer"
+      "Linker": "/_posts/Ca2+-binding-protein-aptamer.html"
     },
     {
       "ID": "GluR2 glutamate receptor_Niu_1",
@@ -6155,7 +6155,7 @@
       "Affinity": "Kd: 0.419±0.221 nM & IC50: 121±7 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17929944/",
-      "Linker": "/_posts/GluR2-AMPA-receptors_AN58-aptamer"
+      "Linker": "/_posts/GluR2-AMPA-receptors_AN58-aptamer.html"
     },
     {
       "ID": "HIV-1 TAR_Toulmé_5",
@@ -6173,7 +6173,7 @@
       "Affinity": "Kd: 27.8±3.4 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17768146/",
-      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer"
+      "Linker": "/_posts/HIV-1-TAR-RNA-aptamer.html"
     },
     {
       "ID": "L-CCL2_Anders_1",
@@ -6191,7 +6191,7 @@
       "Affinity": "Kd: 1.40±0.16 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17625118/",
-      "Linker": "/_posts/L-CCL2-aptamer"
+      "Linker": "/_posts/L-CCL2-aptamer.html"
     },
     {
       "ID": "Prion protein_Winnacker_4",
@@ -6209,7 +6209,7 @@
       "Affinity": null,
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18029754/",
-      "Linker": "/_posts/Bovine-prion-protein-aptamer"
+      "Linker": "/_posts/Bovine-prion-protein-aptamer.html"
     },
     {
       "ID": "RF-1_Aoyama_1",
@@ -6227,7 +6227,7 @@
       "Affinity": "Kd: 30±6 nM",
       "Year": 2007,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/17188871/",
-      "Linker": "/_posts/RF-1-aptamer"
+      "Linker": "/_posts/RF-1-aptamer.html"
     },
     {
       "ID": "bPrP_Nishikawa_1",
@@ -6245,7 +6245,7 @@
       "Affinity": "Kd: 82±21 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19098441/",
-      "Linker": "/_posts/Bovine-prion-protein-aptamer"
+      "Linker": "/_posts/Bovine-prion-protein-aptamer.html"
     },
     {
       "ID": "GRK2_Blind_1",
@@ -6263,7 +6263,7 @@
       "Affinity": "Kd: 78.2 nM±2.6 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18230760/",
-      "Linker": "/_posts/GRK2-aptamer"
+      "Linker": "/_posts/GRK2-aptamer.html"
     },
     {
       "ID": "GRK2_Blind_2",
@@ -6281,7 +6281,7 @@
       "Affinity": "Kd: 101.2 nM±7.2 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18230760/",
-      "Linker": "/_posts/GRK2-aptamer"
+      "Linker": "/_posts/GRK2-aptamer.html"
     },
     {
       "ID": "Tetracycline_Ferré-D'Amaré, A. R._1",
@@ -6299,7 +6299,7 @@
       "Affinity": "Kd: 0.8 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18940672/",
-      "Linker": "/_posts/Tetracycline-aptamer"
+      "Linker": "/_posts/Tetracycline-aptamer.html"
     },
     {
       "ID": "Hoechst_Aoyama_1",
@@ -6317,7 +6317,7 @@
       "Affinity": "Kd: 35 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18726014/",
-      "Linker": "/_posts/II-mini3-4-aptamer"
+      "Linker": "/_posts/II-mini3-4-aptamer.html"
     },
     {
       "ID": "IgG_Nakamura_1",
@@ -6335,7 +6335,7 @@
       "Affinity": "Kd: 5.6 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18441054/",
-      "Linker": "/_posts/IgG-aptamer"
+      "Linker": "/_posts/IgG-aptamer.html"
     },
     {
       "ID": "IgG_Nakamura_2",
@@ -6353,7 +6353,7 @@
       "Affinity": "Kd: 7.5 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18441054/",
-      "Linker": "/_posts/IgG-aptamer"
+      "Linker": "/_posts/IgG-aptamer.html"
     },
     {
       "ID": "IgG_Nakamura_3",
@@ -6371,7 +6371,7 @@
       "Affinity": "Kd: 75 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18441054/",
-      "Linker": "/_posts/IgG-aptamer"
+      "Linker": "/_posts/IgG-aptamer.html"
     },
     {
       "ID": "Mbl_Berglund_1",
@@ -6389,7 +6389,7 @@
       "Affinity": "Kd: 0.23±0.09 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18557632/",
-      "Linker": "/_posts/Drosophila-muscleblind-protein-Mbl-aptamer"
+      "Linker": "/_posts/Drosophila-muscleblind-protein-Mbl-aptamer.html"
     },
     {
       "ID": "TfR-ECD_Neufeld_1",
@@ -6407,7 +6407,7 @@
       "Affinity": null,
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18838694/",
-      "Linker": "/_posts/TfR-ECD-aptamer"
+      "Linker": "/_posts/TfR-ECD-aptamer.html"
     },
     {
       "ID": "TfR-ECD_Neufeld_2",
@@ -6425,7 +6425,7 @@
       "Affinity": null,
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18838694/",
-      "Linker": "/_posts/TfR-ECD-aptamer"
+      "Linker": "/_posts/TfR-ECD-aptamer.html"
     },
     {
       "ID": "Abeta_Mihara_1",
@@ -6443,7 +6443,7 @@
       "Affinity": "Kd: 21.6 μM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19668864/",
-      "Linker": "/_posts/E2-aptamer"
+      "Linker": "/_posts/E2-aptamer.html"
     },
     {
       "ID": "Abeta_Mihara_2",
@@ -6461,7 +6461,7 @@
       "Affinity": "Kd: 10.9 μM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19668864/",
-      "Linker": "/_posts/E2-aptamer"
+      "Linker": "/_posts/E2-aptamer.html"
     },
     {
       "ID": "EGFR_Ellington_1",
@@ -6479,7 +6479,7 @@
       "Affinity": "kd: 7 nM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19271740/",
-      "Linker": "/_posts/Epithelial-growth-factor-receptor_J18-aptamer"
+      "Linker": "/_posts/Epithelial-growth-factor-receptor_J18-aptamer.html"
     },
     {
       "ID": "Factor Xa_Krishnaswamy_1",
@@ -6497,7 +6497,7 @@
       "Affinity": "Kd:  1.1±0.2 nM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20022942/",
-      "Linker": "/_posts/Factor-Xa-aptamer"
+      "Linker": "/_posts/Factor-Xa-aptamer.html"
     },
     {
       "ID": "PAI-1_Fortenberry_1",
@@ -6515,7 +6515,7 @@
       "Affinity": "Kd: 177 pM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19284310/",
-      "Linker": "/_posts/PAI-1-aptamer"
+      "Linker": "/_posts/PAI-1-aptamer.html"
     },
     {
       "ID": "PAI-1_Fortenberry_2",
@@ -6533,7 +6533,7 @@
       "Affinity": "Kd: 920 pM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19284310/",
-      "Linker": "/_posts/PAI-1-aptamer"
+      "Linker": "/_posts/PAI-1-aptamer.html"
     },
     {
       "ID": "SARS-CoV N protein_Oh_1",
@@ -6551,7 +6551,7 @@
       "Affinity": "Kd: 1.65±0.41 nM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19684916/",
-      "Linker": "/_posts/SARS-CoV-N-protein-aptamer"
+      "Linker": "/_posts/SARS-CoV-N-protein-aptamer.html"
     },
     {
       "ID": "SARS-CoV N protein_Oh_2",
@@ -6569,7 +6569,7 @@
       "Affinity": "Kd: 3.35 nM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19684916/",
-      "Linker": "/_posts/SARS-CoV-N-protein-aptamer"
+      "Linker": "/_posts/SARS-CoV-N-protein-aptamer.html"
     },
     {
       "ID": "TetR_Suess_1",
@@ -6587,7 +6587,7 @@
       "Affinity": "Kd: 80 nM",
       "Year": 2009,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/19246008/",
-      "Linker": "/_posts/TetR-aptamer"
+      "Linker": "/_posts/TetR-aptamer.html"
     },
     {
       "ID": "PTP1B_Tremblay_1",
@@ -6605,7 +6605,7 @@
       "Affinity": "Ki: 200 pM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20572251/",
-      "Linker": "/_posts/PTP1B-aptamer"
+      "Linker": "/_posts/PTP1B-aptamer.html"
     },
     {
       "ID": "PTP1B_Tremblay_2",
@@ -6623,7 +6623,7 @@
       "Affinity": "Ki: 166 nM and 168 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20572251/",
-      "Linker": "/_posts/PTP1B-aptamer"
+      "Linker": "/_posts/PTP1B-aptamer.html"
     },
     {
       "ID": "PTP1B_Tremblay_3",
@@ -6641,7 +6641,7 @@
       "Affinity": "Ki: 250 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20572251/",
-      "Linker": "/_posts/PTP1B-aptamer"
+      "Linker": "/_posts/PTP1B-aptamer.html"
     },
     {
       "ID": "SPC_Waga_1",
@@ -6659,7 +6659,7 @@
       "Affinity": "Kd: 20.9±0.19 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20729797/",
-      "Linker": "/_posts/SPC-aptamer"
+      "Linker": "/_posts/SPC-aptamer.html"
     },
     {
       "ID": "SPC_Waga_2",
@@ -6677,7 +6677,7 @@
       "Affinity": "Kd: 33.2±0.19 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20729797/",
-      "Linker": "/_posts/SPC-aptamer"
+      "Linker": "/_posts/SPC-aptamer.html"
     },
     {
       "ID": "SPC_Waga_3",
@@ -6695,7 +6695,7 @@
       "Affinity": "Kd: 90.4±2.35 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20729797/",
-      "Linker": "/_posts/SPC-aptamer"
+      "Linker": "/_posts/SPC-aptamer.html"
     },
     {
       "ID": "SPC_Waga_4",
@@ -6713,7 +6713,7 @@
       "Affinity": "Kd: 186±5.05 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20729797/",
-      "Linker": "/_posts/SPC-aptamer"
+      "Linker": "/_posts/SPC-aptamer.html"
     },
     {
       "ID": "SPC_Waga_5",
@@ -6731,7 +6731,7 @@
       "Affinity": "Kd: 252±7.04 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20729797/",
-      "Linker": "/_posts/SPC-aptamer"
+      "Linker": "/_posts/SPC-aptamer.html"
     },
     {
       "ID": "SPC_Waga_6",
@@ -6749,7 +6749,7 @@
       "Affinity": "Kd: 221±4.84 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20729797/",
-      "Linker": "/_posts/SPC-aptamer"
+      "Linker": "/_posts/SPC-aptamer.html"
     },
     {
       "ID": "SPC_Waga_7",
@@ -6767,7 +6767,7 @@
       "Affinity": "Kd: 196±2.98 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20729797/",
-      "Linker": "/_posts/SPC-aptamer"
+      "Linker": "/_posts/SPC-aptamer.html"
     },
     {
       "ID": "ZAP_Gao_1",
@@ -6785,7 +6785,7 @@
       "Affinity": null,
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21203916/",
-      "Linker": "/_posts/ZAP-aptamer"
+      "Linker": "/_posts/ZAP-aptamer.html"
     },
     {
       "ID": "ZAP_Gao_2",
@@ -6803,7 +6803,7 @@
       "Affinity": null,
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21203916/",
-      "Linker": "/_posts/ZAP-aptamer"
+      "Linker": "/_posts/ZAP-aptamer.html"
     },
     {
       "ID": "E.coli_O157:H7_Lee_1",
@@ -6821,7 +6821,7 @@
       "Affinity": "Kd: 110 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22166202/",
-      "Linker": "/_posts/Escherichia-coli-aptamer"
+      "Linker": "/_posts/Escherichia-coli-aptamer.html"
     },
     {
       "ID": "HBV P protein_Hu_1",
@@ -6839,7 +6839,7 @@
       "Affinity": null,
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22125633/",
-      "Linker": "/_posts/HBV-P-protein-aptamer"
+      "Linker": "/_posts/HBV-P-protein-aptamer.html"
     },
     {
       "ID": "HBV P protein_Hu_2",
@@ -6857,7 +6857,7 @@
       "Affinity": null,
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22125633/",
-      "Linker": "/_posts/HBV-P-protein-aptamer"
+      "Linker": "/_posts/HBV-P-protein-aptamer.html"
     },
     {
       "ID": "HPV-16 E7_Salas_1",
@@ -6875,7 +6875,7 @@
       "Affinity": "Kd: 1.9 µM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21565620/",
-      "Linker": "/_posts/HPV-16-E7-oncoprotein-aptamer"
+      "Linker": "/_posts/HPV-16-E7-oncoprotein-aptamer.html"
     },
     {
       "ID": "IL-17A_Nakamura_1",
@@ -6893,7 +6893,7 @@
       "Affinity": "Kd: 48.5 pM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20967861/",
-      "Linker": "/_posts/IL-17A-aptamer"
+      "Linker": "/_posts/IL-17A-aptamer.html"
     },
     {
       "ID": "IL-17A_Nakamura_2",
@@ -6911,7 +6911,7 @@
       "Affinity": "Kd: 48.5 pM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20967861/",
-      "Linker": "/_posts/IL-17A-aptamer"
+      "Linker": "/_posts/IL-17A-aptamer.html"
     },
     {
       "ID": "Spinach_Jaffrey_1",
@@ -6929,7 +6929,7 @@
       "Affinity": "Kd: 537 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer"
+      "Linker": "/_posts/Spinach-RNA-aptamer.html"
     },
     {
       "ID": "Spinach_Jaffrey_2",
@@ -6947,7 +6947,7 @@
       "Affinity": "Kd: 464 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer"
+      "Linker": "/_posts/Spinach-RNA-aptamer.html"
     },
     {
       "ID": "Spinach_Jaffrey_3",
@@ -6965,7 +6965,7 @@
       "Affinity": "Kd: 406 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer"
+      "Linker": "/_posts/Spinach-RNA-aptamer.html"
     },
     {
       "ID": "Spinach_Jaffrey_1",
@@ -6983,7 +6983,7 @@
       "Affinity": "Kd: 562 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-aptamer"
+      "Linker": "/_posts/Spinach-aptamer.html"
     },
     {
       "ID": "CypB_White_1",
@@ -7001,7 +7001,7 @@
       "Affinity": "Kd: 1.5±0.02 nM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22484812/",
-      "Linker": "/_posts/CypB-aptamer"
+      "Linker": "/_posts/CypB-aptamer.html"
     },
     {
       "ID": "GRK2_Tesmer_1",
@@ -7019,7 +7019,7 @@
       "Affinity": "Kd:  35±5 nM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22727813/",
-      "Linker": "/_posts/GRK2-aptamer"
+      "Linker": "/_posts/GRK2-aptamer.html"
     },
     {
       "ID": "GRK2_Tesmer_2",
@@ -7037,7 +7037,7 @@
       "Affinity": "Kd: 48±7 nM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22727813/",
-      "Linker": "/_posts/GRK2-aptamer"
+      "Linker": "/_posts/GRK2-aptamer.html"
     },
     {
       "ID": "GRK2_Tesmer_3",
@@ -7055,7 +7055,7 @@
       "Affinity": "Kd: 1.2±0.6 nM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22727813/",
-      "Linker": "/_posts/GRK2-aptamer"
+      "Linker": "/_posts/GRK2-aptamer.html"
     },
     {
       "ID": "Hfq_Nakamura_1",
@@ -7073,7 +7073,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22053080/",
-      "Linker": "/_posts/Hfq-aptamer"
+      "Linker": "/_posts/Hfq-aptamer.html"
     },
     {
       "ID": "Hfq_Nakamura_2",
@@ -7091,7 +7091,7 @@
       "Affinity": "Kd: 1 μM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22053080/",
-      "Linker": "/_posts/Hfq-aptamer"
+      "Linker": "/_posts/Hfq-aptamer.html"
     },
     {
       "ID": "HIRRV-Aoki_1",
@@ -7109,7 +7109,7 @@
       "Affinity": null,
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22943666/",
-      "Linker": "/_posts/HIRRV-aptamer"
+      "Linker": "/_posts/HIRRV-aptamer.html"
     },
     {
       "ID": "HIRRV-Aoki_2",
@@ -7127,7 +7127,7 @@
       "Affinity": null,
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22943666/",
-      "Linker": "/_posts/HIRRV-aptamer"
+      "Linker": "/_posts/HIRRV-aptamer.html"
     },
     {
       "ID": "HIRRV-Aoki_3",
@@ -7145,7 +7145,7 @@
       "Affinity": null,
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22943666/",
-      "Linker": "/_posts/HIRRV-aptamer"
+      "Linker": "/_posts/HIRRV-aptamer.html"
     },
     {
       "ID": "HIRRV-Aoki_4",
@@ -7163,7 +7163,7 @@
       "Affinity": null,
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22943666/",
-      "Linker": "/_posts/HIRRV-aptamer"
+      "Linker": "/_posts/HIRRV-aptamer.html"
     },
     {
       "ID": "HIRRV-Aoki_5",
@@ -7181,7 +7181,7 @@
       "Affinity": null,
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22943666/",
-      "Linker": "/_posts/HIRRV-aptamer"
+      "Linker": "/_posts/HIRRV-aptamer.html"
     },
     {
       "ID": "HIRRV-Aoki_6",
@@ -7199,7 +7199,7 @@
       "Affinity": null,
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/22943666/",
-      "Linker": "/_posts/HIRRV-aptamer"
+      "Linker": "/_posts/HIRRV-aptamer.html"
     },
     {
       "ID": "OX40_Nair_1",
@@ -7217,7 +7217,7 @@
       "Affinity": "Kd: 1.7 nM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23113766/",
-      "Linker": "/_posts/OX40-aptamer"
+      "Linker": "/_posts/OX40-aptamer.html"
     },
     {
       "ID": "OX40_Nair_2",
@@ -7235,7 +7235,7 @@
       "Affinity": "Kd: 10 nM",
       "Year": 2012,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23113766/",
-      "Linker": "/_posts/OX40-aptamer"
+      "Linker": "/_posts/OX40-aptamer.html"
     },
     {
       "ID": "AML1_Kozu_1",
@@ -7253,7 +7253,7 @@
       "Affinity": "Kd: NA",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23709277/",
-      "Linker": "/_posts/AML1(RUNX1)-aptamer"
+      "Linker": "/_posts/AML1(RUNX1)-aptamer.html"
     },
     {
       "ID": "AML1_Kozu_2",
@@ -7271,7 +7271,7 @@
       "Affinity": "Kd: 0.99 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23709277/",
-      "Linker": "/_posts/AML1(RUNX1)-aptamer"
+      "Linker": "/_posts/AML1(RUNX1)-aptamer.html"
     },
     {
       "ID": "CD133_Duan_1",
@@ -7289,7 +7289,7 @@
       "Affinity": "Kd: 83.2±82.9 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "CD133_Duan_2",
@@ -7307,7 +7307,7 @@
       "Affinity": "Kd: 33.9±12.5 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "CD133_Duan_3",
@@ -7325,7 +7325,7 @@
       "Affinity": "Kd: 145.1±75.4 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "CD133_Duan_4",
@@ -7343,7 +7343,7 @@
       "Affinity": "Kd: 52.3±15.8 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23196060/",
-      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer"
+      "Linker": "/_posts/Cell-line-Hep3B-CD133-aptamer.html"
     },
     {
       "ID": "Lysozyme_Girvin_1",
@@ -7361,7 +7361,7 @@
       "Affinity": "Kd: 19±2 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24570482/",
-      "Linker": "/_posts/Lysozyme-aptamer"
+      "Linker": "/_posts/Lysozyme-aptamer.html"
     },
     {
       "ID": "Lysozyme_Girvin_2",
@@ -7379,7 +7379,7 @@
       "Affinity": "Kd: 57±3 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24570482/",
-      "Linker": "/_posts/Lysozyme-aptamer"
+      "Linker": "/_posts/Lysozyme-aptamer.html"
     },
     {
       "ID": "OX40_Nair_3",
@@ -7397,7 +7397,7 @@
       "Affinity": "Kd: 1.7 nM",
       "Year": 2013,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/23113766/",
-      "Linker": "/_posts/OX40-aptamer"
+      "Linker": "/_posts/OX40-aptamer.html"
     },
     {
       "ID": "Broccoli_Jaffrey_1",
@@ -7415,7 +7415,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25337688/",
-      "Linker": "_posts/Broccoli-aptamer"
+      "Linker": "_posts/Broccoli-aptamer.html"
     },
     {
       "ID": "Broccoli_Jaffrey_2",
@@ -7433,7 +7433,7 @@
       "Affinity": "Kd: 360 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25337688/",
-      "Linker": "_posts/Broccoli-aptamer"
+      "Linker": "_posts/Broccoli-aptamer.html"
     },
     {
       "ID": "Broccoli_Jaffrey_3",
@@ -7451,7 +7451,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25337688/",
-      "Linker": "_posts/Broccoli-aptamer"
+      "Linker": "_posts/Broccoli-aptamer.html"
     },
     {
       "ID": "Broccoli_Jaffrey_4",
@@ -7469,7 +7469,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25337688/",
-      "Linker": "_posts/Broccoli-aptamer"
+      "Linker": "_posts/Broccoli-aptamer.html"
     },
     {
       "ID": "Broccoli_Jaffrey_5",
@@ -7487,7 +7487,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25337688/",
-      "Linker": "_posts/Broccoli-aptamer"
+      "Linker": "_posts/Broccoli-aptamer.html"
     },
     {
       "ID": "ERα_Shi_1",
@@ -7505,7 +7505,7 @@
       "Affinity": "Kd:16 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24588102/",
-      "Linker": "_posts/ERα-aptamer"
+      "Linker": "_posts/ERα-aptamer.html"
     },
     {
       "ID": "ERα_Shi_2",
@@ -7523,7 +7523,7 @@
       "Affinity": "Kd: 21 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24588102/",
-      "Linker": "_posts/ERα-aptamer"
+      "Linker": "_posts/ERα-aptamer.html"
     },
     {
       "ID": "ERα_Shi_3",
@@ -7541,7 +7541,7 @@
       "Affinity": "Kd: 30 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24588102/",
-      "Linker": "_posts/ERα-aptamer"
+      "Linker": "_posts/ERα-aptamer.html"
     },
     {
       "ID": "HA_Kim_1",
@@ -7559,7 +7559,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24835440/",
-      "Linker": "/_posts/Hemagglutinin-(HA)-protein-aptamer"
+      "Linker": "/_posts/Hemagglutinin-(HA)-protein-aptamer.html"
     },
     {
       "ID": "HA_Kim_2",
@@ -7577,7 +7577,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24835440/",
-      "Linker": "/_posts/Hemagglutinin-(HA)-protein-aptamer"
+      "Linker": "/_posts/Hemagglutinin-(HA)-protein-aptamer.html"
     },
     {
       "ID": "GP2_Ohno_1",
@@ -7595,7 +7595,7 @@
       "Affinity": "Kd: 110±2.6 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24334484/",
-      "Linker": "/_posts/GP2-aptamer"
+      "Linker": "/_posts/GP2-aptamer.html"
     },
     {
       "ID": "H5N1_Kumar_1",
@@ -7613,7 +7613,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24374323/",
-      "Linker": "/_posts/H5N1_H7N7-Hemagglutinin-aptamer"
+      "Linker": "/_posts/H5N1_H7N7-Hemagglutinin-aptamer.html"
     },
     {
       "ID": "H5N1_Kumar_2",
@@ -7631,7 +7631,7 @@
       "Affinity": "Kd: 170 pM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24374323/",
-      "Linker": "/_posts/H5N1_H7N7-Hemagglutinin-aptamer"
+      "Linker": "/_posts/H5N1_H7N7-Hemagglutinin-aptamer.html"
     },
     {
       "ID": "H5N1_Kumar_3",
@@ -7649,7 +7649,7 @@
       "Affinity": null,
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/24374323/",
-      "Linker": "/_posts/H5N1_H7N7-Hemagglutinin-aptamer"
+      "Linker": "/_posts/H5N1_H7N7-Hemagglutinin-aptamer.html"
     },
     {
       "ID": "Mango III_Unrau_1",
@@ -7667,7 +7667,7 @@
       "Affinity": "Kd: 25.6 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25101481/",
-      "Linker": "_posts/Mango-III-aptamer(YO3)"
+      "Linker": "_posts/Mango-III-aptamer(YO3).html"
     },
     {
       "ID": "Mango_Unrau_1",
@@ -7685,7 +7685,7 @@
       "Affinity": "Kd: 3.2 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25101481/",
-      "Linker": "/_posts/Mango-aptamer(TO1-Biotin)"
+      "Linker": "/_posts/Mango-aptamer(TO1-Biotin).html"
     },
     {
       "ID": "HER2 overexpressing cell line_Abnous_2",
@@ -7703,7 +7703,7 @@
       "Affinity": "Kd:  133.9±12.78 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26221481/",
-      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer"
+      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer.html"
     },
     {
       "ID": "HER2 overexpressing cell line_Abnous_3",
@@ -7721,7 +7721,7 @@
       "Affinity": "Kd: 191.9±21.77 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26221481/",
-      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer"
+      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer.html"
     },
     {
       "ID": "HIV-1 PR_Prasad_1",
@@ -7739,7 +7739,7 @@
       "Affinity": "Kd: 115±22 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25689224/",
-      "Linker": "/_posts/HIV-1-PR-aptamer"
+      "Linker": "/_posts/HIV-1-PR-aptamer.html"
     },
     {
       "ID": "HIV-1 PR_Prasad_2",
@@ -7757,7 +7757,7 @@
       "Affinity": "Kd: 93 ±19 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25689224/",
-      "Linker": "/_posts/HIV-1-PR-aptamer"
+      "Linker": "/_posts/HIV-1-PR-aptamer.html"
     },
     {
       "ID": "HIV-1 PR_Prasad_3",
@@ -7775,7 +7775,7 @@
       "Affinity": "Kd: 17±3 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25689224/",
-      "Linker": "/_posts/HIV-1-PR-aptamer"
+      "Linker": "/_posts/HIV-1-PR-aptamer.html"
     },
     {
       "ID": "HIV-1 PR_Prasad_4",
@@ -7793,7 +7793,7 @@
       "Affinity": "Kd: 2.2±0.2 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25689224/",
-      "Linker": "/_posts/HIV-1-PR-aptamer"
+      "Linker": "/_posts/HIV-1-PR-aptamer.html"
     },
     {
       "ID": "HIV-1 PR_Prasad_5",
@@ -7811,7 +7811,7 @@
       "Affinity": "Kd: 4.3±0.2 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25689224/",
-      "Linker": "/_posts/HIV-1-PR-aptamer"
+      "Linker": "/_posts/HIV-1-PR-aptamer.html"
     },
     {
       "ID": "IL-6R D3_Hahn_1",
@@ -7829,7 +7829,7 @@
       "Affinity": "Kd: 97.7±18.3 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26383776/",
-      "Linker": "/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer"
+      "Linker": "/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer.html"
     },
     {
       "ID": "IL-6R D3_Hahn_2",
@@ -7847,7 +7847,7 @@
       "Affinity": "Kd: 179±117 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26383776/",
-      "Linker": "/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer"
+      "Linker": "/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer.html"
     },
     {
       "ID": "IL-6R D3_Hahn_3",
@@ -7865,7 +7865,7 @@
       "Affinity": "Kd: 34.8±5.8 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26383776/",
-      "Linker": "/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer"
+      "Linker": "/_posts/Interleukin-6-receptor-domain-3-(IL-6R-D3)-aptamer.html"
     },
     {
       "ID": "REase_Maher_1",
@@ -7883,7 +7883,7 @@
       "Affinity": "Kd: 11.6±2.3 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26184872/",
-      "Linker": "/_posts/REases-KpnI-aptamer"
+      "Linker": "/_posts/REases-KpnI-aptamer.html"
     },
     {
       "ID": "REase_Maher_2",
@@ -7901,7 +7901,7 @@
       "Affinity": "Kd: 28.7±5.2 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26184872/",
-      "Linker": "/_posts/REases-KpnI-aptamer"
+      "Linker": "/_posts/REases-KpnI-aptamer.html"
     },
     {
       "ID": "REase_Maher_3",
@@ -7919,7 +7919,7 @@
       "Affinity": "Kd: 419±46.6 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26184872/",
-      "Linker": "/_posts/REases-KpnI-aptamer"
+      "Linker": "/_posts/REases-KpnI-aptamer.html"
     },
     {
       "ID": "REase_Maher_4",
@@ -7937,7 +7937,7 @@
       "Affinity": "Kd: 18.6±4.5 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26184872/",
-      "Linker": "/_posts/REases-KpnI-aptamer"
+      "Linker": "/_posts/REases-KpnI-aptamer.html"
     },
     {
       "ID": "HER2 overexpressing cell line_Abnous_1",
@@ -7955,7 +7955,7 @@
       "Affinity": "Kd: 133.9±12.78 nM",
       "Year": 2015,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26221481/",
-      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer"
+      "Linker": "/_posts/Breast-cancer-cells_HER2-aptamer.html"
     },
     {
       "ID": "IR_Esposito_1",
@@ -7973,7 +7973,7 @@
       "Affinity": "Kd: 6 nM",
       "Year": 2016,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/27648925/",
-      "Linker": "/_posts/Glioma-cells_GL56-aptamer"
+      "Linker": "/_posts/Glioma-cells_GL56-aptamer.html"
     },
     {
       "ID": "UCH37_Lee_1",
@@ -7991,7 +7991,7 @@
       "Affinity": null,
       "Year": 2016,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/27930845/",
-      "Linker": "/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-aptamer"
+      "Linker": "/_posts/Ubiquitin-carboxyl-terminal-hydrolase37-aptamer.html"
     },
     {
       "ID": "5HTP_Batey_1",
@@ -8009,7 +8009,7 @@
       "Affinity": "Kd: 3.9 μM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28092358/",
-      "Linker": "/_posts/5HTP-aptamer"
+      "Linker": "/_posts/5HTP-aptamer.html"
     },
     {
       "ID": "AMPA receptor_Niu_1",
@@ -8027,7 +8027,7 @@
       "Affinity": "Kd: 4.5 μM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28325839/",
-      "Linker": "/_posts/AMPA-and-kainate-receptors_AB9-aptamer"
+      "Linker": "/_posts/AMPA-and-kainate-receptors_AB9-aptamer.html"
     },
     {
       "ID": "AMPA receptor_Niu_2",
@@ -8045,7 +8045,7 @@
       "Affinity": "Kd: 4.7 μM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28325839/",
-      "Linker": "/_posts/AMPA-and-kainate-receptors_AB9-aptamer"
+      "Linker": "/_posts/AMPA-and-kainate-receptors_AB9-aptamer.html"
     },
     {
       "ID": "Corn_Jaffrey_1",
@@ -8063,7 +8063,7 @@
       "Affinity": "Kd: 70 nM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28945233/",
-      "Linker": "/_posts/Corn-aptamer"
+      "Linker": "/_posts/Corn-aptamer.html"
     },
     {
       "ID": "DIR_Armitage_1",
@@ -8081,7 +8081,7 @@
       "Affinity": "Kd: 708±74 nM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28644615/",
-      "Linker": "/_posts/DIR2s-apt-aptamer"
+      "Linker": "/_posts/DIR2s-apt-aptamer.html"
     },
     {
       "ID": "TMR_Wöhnert_1",
@@ -8099,7 +8099,7 @@
       "Affinity": "Kd: 370±150 nM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/27730489/",
-      "Linker": "/_posts/TMR-aptamer"
+      "Linker": "/_posts/TMR-aptamer.html"
     },
     {
       "ID": "CA50_Lau_1",
@@ -8117,7 +8117,7 @@
       "Affinity": "Kd: 38 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30303958/",
-      "Linker": "/_posts/Gastrointestinal-cancer-antigen-50-aptamer"
+      "Linker": "/_posts/Gastrointestinal-cancer-antigen-50-aptamer.html"
     },
     {
       "ID": "CA50_Lau_2",
@@ -8135,7 +8135,7 @@
       "Affinity": "Kd: 30.7 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30303958/",
-      "Linker": "/_posts/Gastrointestinal-cancer-antigen-50-aptamer"
+      "Linker": "/_posts/Gastrointestinal-cancer-antigen-50-aptamer.html"
     },
     {
       "ID": "CA72-4_Lau_1",
@@ -8153,7 +8153,7 @@
       "Affinity": "Kd: 52.7nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30303958/",
-      "Linker": "_posts/Cancer-antigen-72–4-aptamer"
+      "Linker": "_posts/Cancer-antigen-72–4-aptamer.html"
     },
     {
       "ID": "CA72-4_Lau_2",
@@ -8171,7 +8171,7 @@
       "Affinity": "Kd: 71.2 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30303958/",
-      "Linker": "_posts/Cancer-antigen-72–4-aptamer"
+      "Linker": "_posts/Cancer-antigen-72–4-aptamer.html"
     },
     {
       "ID": "CCL17_Förster_1",
@@ -8189,7 +8189,7 @@
       "Affinity": null,
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29103909/",
-      "Linker": "/_posts/Chemokine-CCL17-aptamer"
+      "Linker": "/_posts/Chemokine-CCL17-aptamer.html"
     },
     {
       "ID": "CCL17_Förster_2",
@@ -8207,7 +8207,7 @@
       "Affinity": null,
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29103909/",
-      "Linker": "/_posts/Chemokine-CCL17-aptamer"
+      "Linker": "/_posts/Chemokine-CCL17-aptamer.html"
     },
     {
       "ID": "CCL17_Förster_3",
@@ -8225,7 +8225,7 @@
       "Affinity": "Kd: 0.9±0.1 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29103909/",
-      "Linker": "/_posts/Chemokine-CCL17-aptamer"
+      "Linker": "/_posts/Chemokine-CCL17-aptamer.html"
     },
     {
       "ID": "CCL17_Förster_4",
@@ -8243,7 +8243,7 @@
       "Affinity": "Kd: 7.5±1.5 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29103909/",
-      "Linker": "/_posts/Chemokine-CCL17-aptamer"
+      "Linker": "/_posts/Chemokine-CCL17-aptamer.html"
     },
     {
       "ID": "CEA_Lau_1",
@@ -8261,7 +8261,7 @@
       "Affinity": "Kd: 16.5 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30303958/",
-      "Linker": "/_posts/CEA-aptamer"
+      "Linker": "/_posts/CEA-aptamer.html"
     },
     {
       "ID": "CEA_Lau_2",
@@ -8279,7 +8279,7 @@
       "Affinity": "Kd: 156.0 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30303958/",
-      "Linker": "/_posts/CEA-aptamer"
+      "Linker": "/_posts/CEA-aptamer.html"
     },
     {
       "ID": "HIV-1 Rev93_Wingfield_1",
@@ -8297,7 +8297,7 @@
       "Affinity": "Kd: 5.9 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30017564/",
-      "Linker": "/_posts/HIV-1-Rev-aptamer"
+      "Linker": "/_posts/HIV-1-Rev-aptamer.html"
     },
     {
       "ID": "Prostate cancer_Sullenger_1",
@@ -8315,7 +8315,7 @@
       "Affinity": "Kd: 146-410 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29666232/",
-      "Linker": "/_posts/Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "Prostate cancer_Sullenger_2",
@@ -8333,7 +8333,7 @@
       "Affinity": "Kd: 146-410 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29666232/",
-      "Linker": "/_posts/Prostate-cancer-cells_E3-aptamer"
+      "Linker": "/_posts/Prostate-cancer-cells_E3-aptamer.html"
     },
     {
       "ID": "CD25_Weiner_1",
@@ -8351,7 +8351,7 @@
       "Affinity": "Kd: 122.0±5.23 nM",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/31383650/",
-      "Linker": "/_posts/IL2-CD25-aptermer"
+      "Linker": "/_posts/IL2-CD25-aptermer.html"
     },
     {
       "ID": "CD25_Weiner_2",
@@ -8369,7 +8369,7 @@
       "Affinity": "Kd: 96.9±5.77 nM",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/31383650/",
-      "Linker": "/_posts/IL2-CD25-aptermer"
+      "Linker": "/_posts/IL2-CD25-aptermer.html"
     },
     {
       "ID": "CD25_Weiner_3",
@@ -8387,7 +8387,7 @@
       "Affinity": "Kd: 68.2±2.73 nM",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/31383650/",
-      "Linker": "/_posts/IL2-CD25-aptermer"
+      "Linker": "/_posts/IL2-CD25-aptermer.html"
     },
     {
       "ID": "CD25_Weiner_4",
@@ -8405,7 +8405,7 @@
       "Affinity": "Kd: 35.7±1.56 nM",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/31383650/",
-      "Linker": "/_posts/IL2-CD25-aptermer"
+      "Linker": "/_posts/IL2-CD25-aptermer.html"
     },
     {
       "ID": "CD25_Weiner_5",
@@ -8423,7 +8423,7 @@
       "Affinity": "Kd: 46.1±1.76 nM",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/31383650/",
-      "Linker": "/_posts/IL2-CD25-aptermer"
+      "Linker": "/_posts/IL2-CD25-aptermer.html"
     },
     {
       "ID": "Chili_Höbartner_1",
@@ -8441,7 +8441,7 @@
       "Affinity": "Kd: 0.012 μM",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30485561/",
-      "Linker": "/_posts/Chili-aptamer"
+      "Linker": "/_posts/Chili-aptamer.html"
     },
     {
       "ID": "MLL1_Chun_1",
@@ -8459,7 +8459,7 @@
       "Affinity": null,
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30419633/",
-      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-aptermer"
+      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-aptermer.html"
     },
     {
       "ID": "MLL1_Chun_2",
@@ -8477,7 +8477,7 @@
       "Affinity": null,
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30419633/",
-      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-aptermer"
+      "Linker": "/_posts/Mixed-lineage-leukemia-proteins-aptermer.html"
     },
     {
       "ID": "Pepper_Yang_1",
@@ -8495,7 +8495,7 @@
       "Affinity": "Kd: 18 nM(HBC599), 3.8 nM(HBC525)",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/31548726/",
-      "Linker": "/_posts/Pepper-aptamer"
+      "Linker": "/_posts/Pepper-aptamer.html"
     },
     {
       "ID": "MDA-MB-231_Cerchia_1",
@@ -8513,7 +8513,7 @@
       "Affinity": "Kd: 59.12±12.93 or 73.02±12",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32222697/",
-      "Linker": "/_posts/TNBC-aptamer"
+      "Linker": "/_posts/TNBC-aptamer.html"
     },
     {
       "ID": "MDA-MB-231_Cerchia_2",
@@ -8531,7 +8531,7 @@
       "Affinity": "Kd: 21.91±3.08 or 28.93±9.72",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32222697/",
-      "Linker": "/_posts/TNBC-aptamer"
+      "Linker": "/_posts/TNBC-aptamer.html"
     },
     {
       "ID": "MDA-MB-231_Cerchia_3",
@@ -8549,7 +8549,7 @@
       "Affinity": "Kd: 24.30±4.99 or 23.92±3.59",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32222697/",
-      "Linker": "/_posts/TNBC-aptamer"
+      "Linker": "/_posts/TNBC-aptamer.html"
     },
     {
       "ID": "MDA-MB-231_Cerchia_4",
@@ -8567,7 +8567,7 @@
       "Affinity": "Kd: 9.84±1.63 or 10.77±2.41",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32222697/",
-      "Linker": "/_posts/TNBC-aptamer"
+      "Linker": "/_posts/TNBC-aptamer.html"
     },
     {
       "ID": "MDA-MB-231_Cerchia_5",
@@ -8585,7 +8585,7 @@
       "Affinity": "Kd: 17.17±2.87 or 26.09±3.20",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32222697/",
-      "Linker": "/_posts/TNBC-aptamer"
+      "Linker": "/_posts/TNBC-aptamer.html"
     },
     {
       "ID": "MDA-MB-231_Cerchia_6",
@@ -8603,7 +8603,7 @@
       "Affinity": "Kd: 26.88±3.68 or 37.36±3.50",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32222697/",
-      "Linker": "/_posts/TNBC-aptamer"
+      "Linker": "/_posts/TNBC-aptamer.html"
     },
     {
       "ID": "Oligomers of Aβ42_Irie_1",
@@ -8621,7 +8621,7 @@
       "Affinity": "Kd: 20±6.0 nM",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32127399/",
-      "Linker": "_posts/Aβ42-aptamer"
+      "Linker": "_posts/Aβ42-aptamer.html"
     },
     {
       "ID": "Oligomers of Aβ42_Irie_2",
@@ -8639,7 +8639,7 @@
       "Affinity": null,
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32127399/",
-      "Linker": "_posts/Aβ42-aptamer"
+      "Linker": "_posts/Aβ42-aptamer.html"
     },
     {
       "ID": "Oligomers of Aβ42_Irie_3",
@@ -8657,7 +8657,7 @@
       "Affinity": null,
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/32127399/",
-      "Linker": "_posts/Aβ42-aptamer"
+      "Linker": "_posts/Aβ42-aptamer.html"
     },
     {
       "ID": "Beetroot_Jaffrey_1",
@@ -8675,7 +8675,7 @@
       "Affinity": "Kd: 460 nM(DFAME), 70 nM(DFHO)",
       "Year": 2022,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/35294188/",
-      "Linker": "/_posts/Beetroot-aptamer"
+      "Linker": "/_posts/Beetroot-aptamer.html"
     },
     {
       "ID": "FAD_Baum_1",
@@ -8693,7 +8693,7 @@
       "Affinity": "Kd: 794 nM",
       "Year": 2022,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/36097297/",
-      "Linker": "/_posts/FAD-aptamer"
+      "Linker": "/_posts/FAD-aptamer.html"
     },
     {
       "ID": "HIV-1 CA lattice_Lange_1",
@@ -8711,7 +8711,7 @@
       "Affinity": "Kd: 350±50 nM or Kd: 502±57 nM",
       "Year": 2022,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/35018437/",
-      "Linker": "/_posts/HIV-1-CA-aptamer"
+      "Linker": "/_posts/HIV-1-CA-aptamer.html"
     },
     {
       "ID": "Squash_Jaffrey_1",
@@ -8729,7 +8729,7 @@
       "Affinity": "Kd: 45 nM",
       "Year": 2022,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/34937909/",
-      "Linker": "/_posts/Squash-aptamer"
+      "Linker": "/_posts/Squash-aptamer.html"
     },
     {
       "ID": "Clivias_Yang_1",
@@ -8747,7 +8747,7 @@
       "Affinity": "Kd: 55±4 nM",
       "Year": 2024,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/38816645/",
-      "Linker": "/_posts/Clivias-aptamer"
+      "Linker": "/_posts/Clivias-aptamer.html"
     },
     {
       "ID": "Okra_Yang_1",
@@ -8765,7 +8765,7 @@
       "Affinity": "Kd: 1.2 nM",
       "Year": 2024,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/38783134/",
-      "Linker": "/_posts/Okra-aptamer"
+      "Linker": "/_posts/Okra-aptamer.html"
     },
     {
       "ID": "C. albicans_Bachtiar_1",
@@ -8783,7 +8783,7 @@
       "Affinity": "Binding percentage: ≈8%",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30779315/",
-      "Linker": "_posts/C.albicans-aptamer"
+      "Linker": "_posts/C.albicans-aptamer.html"
     },
     {
       "ID": "C. albicans_Bachtiar_2",
@@ -8801,7 +8801,7 @@
       "Affinity": "Binding percentage: ≈10%",
       "Year": 2019,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/30779315/",
-      "Linker": "_posts/C.albicans-aptamer"
+      "Linker": "_posts/C.albicans-aptamer.html"
     },
     {
       "ID": "MG_Wilson_2",
@@ -8819,7 +8819,7 @@
       "Affinity": "Kd: ≤1 µM",
       "Year": 1999,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10339553/",
-      "Linker": "/_posts/MG-aptamer"
+      "Linker": "/_posts/MG-aptamer.html"
     },
     {
       "ID": "aptamer II_Aoyama_2",
@@ -8837,7 +8837,7 @@
       "Affinity": "Kd: 35 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18726014/",
-      "Linker": "/_posts/II-mini3-4-aptamer"
+      "Linker": "/_posts/II-mini3-4-aptamer.html"
     },
     {
       "ID": "DIR_Armitage_2",
@@ -8855,7 +8855,7 @@
       "Affinity": "Kd: 86±17 nM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18338898/",
-      "Linker": "/_posts/DIR2s-apt-aptamer"
+      "Linker": "/_posts/DIR2s-apt-aptamer.html"
     },
     {
       "ID": "TMR1_Keasling_1",
@@ -8873,7 +8873,7 @@
       "Affinity": "Kd: 70±15 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-      "Linker": "/_posts/TMR-aptamer"
+      "Linker": "/_posts/TMR-aptamer.html"
     },
     {
       "ID": "TMR2_Keasling_1",
@@ -8891,7 +8891,7 @@
       "Affinity": "Kd: 65±20 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-      "Linker": "/_posts/TMR-aptamer"
+      "Linker": "/_posts/TMR-aptamer.html"
     },
     {
       "ID": "TMR3_Keasling_1",
@@ -8909,7 +8909,7 @@
       "Affinity": "Kd: 400±230 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-      "Linker": "/_posts/TMR-aptamer"
+      "Linker": "/_posts/TMR-aptamer.html"
     },
     {
       "ID": "TMR4_Keasling_1",
@@ -8927,7 +8927,7 @@
       "Affinity": "Kd: 10900±200 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-      "Linker": "/_posts/TMR-aptamer"
+      "Linker": "/_posts/TMR-aptamer.html"
     },
     {
       "ID": "pAF-4Z1_Keasling_1",
@@ -8945,7 +8945,7 @@
       "Affinity": "Kd: 5400±2600 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-      "Linker": "/_posts/TMR-aptamer"
+      "Linker": "/_posts/TMR-aptamer.html"
     },
     {
       "ID": "pAF-R1-1_Keasling_1",
@@ -8963,7 +8963,7 @@
       "Affinity": "Kd: 103000±5800 nM",
       "Year": 2010,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/20159999/",
-      "Linker": "/_posts/TMR-aptamer"
+      "Linker": "/_posts/TMR-aptamer.html"
     },
     {
       "ID": "13-2min_Jaffrey_1",
@@ -8981,7 +8981,7 @@
       "Affinity": "Kd: 514 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-aptamer"
+      "Linker": "/_posts/Spinach-aptamer.html"
     },
     {
       "ID": "iSpinach_Ryckelynck_1",
@@ -8999,7 +8999,7 @@
       "Affinity": "Kd: 4.46±0.2 µM",
       "Year": 2016,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/26932363/",
-      "Linker": "/_posts/Spinach-aptamer"
+      "Linker": "/_posts/Spinach-aptamer.html"
     },
     {
       "ID": "Orange Broccoli_Jaffrey_1",
@@ -9017,7 +9017,7 @@
       "Affinity": "Kd: 230 nM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28945233/",
-      "Linker": "_posts/Broccoli-aptamer"
+      "Linker": "_posts/Broccoli-aptamer.html"
     },
     {
       "ID": "Red Broccoli_Jaffrey_1",
@@ -9035,7 +9035,7 @@
       "Affinity": "Kd: 206 nM",
       "Year": 2017,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/28945233/",
-      "Linker": "_posts/Broccoli-aptamer"
+      "Linker": "_posts/Broccoli-aptamer.html"
     },
     {
       "ID": "Mango IV_Unrau_1",
@@ -9053,7 +9053,7 @@
       "Affinity": "Kd: 11.1±0.8 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29440634/",
-      "Linker": "/_posts/Mango-aptamer(TO1-biotin)"
+      "Linker": "/_posts/Mango-aptamer(TO1-biotin).html"
     },
     {
       "ID": "Mango II_Unrau_1",
@@ -9071,7 +9071,7 @@
       "Affinity": "Kd: 0.7±0.3 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/29440634/",
-      "Linker": "/_posts/Mango-aptamer(TO1-biotin)"
+      "Linker": "/_posts/Mango-aptamer(TO1-biotin).html"
     },
     {
       "ID": "SRB-3_Jäschke_1",
@@ -9089,7 +9089,7 @@
       "Affinity": "Kd: 21±1 nM",
       "Year": 2018,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/33574610/",
-      "Linker": "/_posts/SRB-2-aptamer"
+      "Linker": "/_posts/SRB-2-aptamer.html"
     },
     {
       "ID": "o-Coral_Ryckelynck_1",
@@ -9107,7 +9107,7 @@
       "Affinity": "Kd: 25 nM",
       "Year": 2020,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/31636432/",
-      "Linker": "/_posts/Okra-aptamer"
+      "Linker": "/_posts/Okra-aptamer.html"
     },
     {
       "ID": "RhoBAST_Jäschke_1",
@@ -9125,7 +9125,7 @@
       "Affinity": "Kd: 15±1 nM",
       "Year": 2021,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/33574610/",
-      "Linker": "_posts/RhoBAST-aptamer"
+      "Linker": "_posts/RhoBAST-aptamer.html"
     },
     {
       "ID": "Ribostamycin_Suess_1",
@@ -9143,7 +9143,7 @@
       "Affinity": "Kd: 0.33±0.03 µM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18000033/",
-      "Linker": "_posts/Ribostamycin-aptamer"
+      "Linker": "_posts/Ribostamycin-aptamer.html"
     },
     {
       "ID": "Paromomycin_Suess_1",
@@ -9161,7 +9161,7 @@
       "Affinity": "Kd: 5.13±0.26 µM",
       "Year": 2008,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/18000033/",
-      "Linker": "_posts/Ribostamycin-aptamer"
+      "Linker": "_posts/Ribostamycin-aptamer.html"
     },
     {
       "ID": "NFATc DBD_Lee_1",
@@ -9179,7 +9179,7 @@
       "Affinity": "Kd: 30 nM",
       "Year": 2002,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/10074372/",
-      "Linker": "/_posts/Activated-T-Cells-Nuclear-Factor-aptamer"
+      "Linker": "/_posts/Activated-T-Cells-Nuclear-Factor-aptamer.html"
     }
   ]
 }
