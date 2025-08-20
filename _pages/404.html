@@ -267,7 +267,7 @@ permalink: /404.html
 
 <div class="game-container">
     <h1 class="game-title">🧬 RNA Match-3 Paradise 🧬</h1>
-    <p class="game-subtitle">页面走丢了，但你发现了一个放松的RNA消除乐园！匹配相同的核苷酸来构建美妙的序列。</p>
+    <p class="game-subtitle">The page got lost, but you found a relaxing RNA elimination paradise! Match identical nucleotides to build fabulous sequences.</p>
     
     <div class="game-stats">
         <div class="stat-item">
@@ -291,42 +291,42 @@ permalink: /404.html
     <canvas id="gameBoard" width="480" height="480"></canvas>
     
     <div class="controls">
-        <div class="control-title">🎮 游戏玩法</div>
+        <div class="control-title">🎮 Gameplay</div>
         <div class="control-text">
-            点击并拖拽相邻的RNA核苷酸来交换位置，匹配3个或更多相同的核苷酸来消除它们。创造更长的匹配链来获得更高分数！
+            Click and drag neighbouring RNA nucleotides to swap positions and match 3 or more identical nucleotides to eliminate them. Create longer matching chains to get higher scores!
         </div>
         
         <div class="nucleotide-legend">
             <div class="nucleotide-item">
                 <div class="nucleotide-color" style="background: #ff6b6b;"></div>
-                <span>腺苷酸 (A)</span>
+                <span>adenosine (A)</span>
             </div>
             <div class="nucleotide-item">
                 <div class="nucleotide-color" style="background: #4ecdc4;"></div>
-                <span>尿苷酸 (U)</span>
+                <span>uridine (U)</span>
             </div>
             <div class="nucleotide-item">
                 <div class="nucleotide-color" style="background: #45b7d1;"></div>
-                <span>胞苷酸 (C)</span>
+                <span>cytidylic (C)</span>
             </div>
             <div class="nucleotide-item">
                 <div class="nucleotide-color" style="background: #96ceb4;"></div>
-                <span>鸟苷酸 (G)</span>
+                <span>guanylic (G)</span>
             </div>
         </div>
     </div>
     
     <div class="back-home">
-        <a href="{{ site.url }}{{ site.baseurl }}/">🏠 返回首页继续探索</a>
+        <a href="{{ site.url }}{{ site.baseurl }}/">🏠 Back to home pageContinue exploring</a>
     </div>
 </div>
 
 <div class="level-complete" id="levelComplete">
     <div class="level-complete-content">
-        <h2>🎉 关卡完成！</h2>
-        <p>恭喜你完成了这个关卡！</p>
-        <div>得分: <span id="finalScore">0</span></div>
-        <button class="next-level-btn" onclick="game.nextLevel()">下一关</button>
+        <h2>🎉 Level complete! </h2>
+        <p>Congratulations on completing the level!</p>
+        <div>Score: <span id="finalScore">0</span></div>
+        <button class="next-level-btn" onclick="game.nextLevel()">Next</button>
     </div>
 </div>
 
@@ -730,7 +730,7 @@ class RNAMatch3Game {
     
     gameOver() {
         setTimeout(() => {
-            if (confirm(`游戏结束！你的最终得分是 ${this.score}。要重新开始吗？`)) {
+            if (confirm(`Game over! Your score: ${this.score}. Would you like to restart?`)) {
                 this.restartGame();
             }
         }, 500);
