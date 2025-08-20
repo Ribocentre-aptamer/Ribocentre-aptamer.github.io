@@ -7671,11 +7671,11 @@
     },
     {
       "ID": "Mango_Unrau_1",
-      "Linker name(page name)": "Mango aptamer(TO1-Biotin)",
+      "Linker name(page name)": "Mango aptamer(TO1-biotin)",
       "Type": "Small molecules",
       "Category": "Fluorophores",
-      "Named": "Thiazole Orange-biotin (TO1-biotin)_Mango aptamer(TO1-Biotin)",
-      "Article name": "Mango aptamer(TO1-Biotin)",
+      "Named": "Thiazole Orange-biotin (TO1-biotin)_Mango aptamer(TO1-biotin)",
+      "Article name": "Mango aptamer(TO1-biotin)",
       "Ligand": "Thiazole Orange-biotin (TO1-biotin)",
       "Ligand Description": "TO1 (Thiazole Orange) is an asymmetric cyanine fluorophore, which contains a benzothiazole ring covalently linked to a quinoline ring via a monomethine bridge.",
       "Ligand Information \n(CAS/sequence)": "107091-89-4",
@@ -7685,7 +7685,7 @@
       "Affinity": "Kd: 3.2 nM",
       "Year": 2014,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/25101481/",
-      "Linker": "/_posts/Mango-aptamer(TO1-Biotin)"
+      "Linker": "/_posts/Mango-aptamer(TO1-biotin)"
     },
     {
       "ID": "HER2 overexpressing cell line_Abnous_2",
