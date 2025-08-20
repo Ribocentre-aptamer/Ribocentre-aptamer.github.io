@@ -639,6 +639,7 @@ const MolstarModule = {
         try {
             if (this.molstarInstance?.plugin?.canvas3d) {
                 const canvas3d = this.molstarInstance.plugin.canvas3d;
+                console.log('Enabling rotation for Molstar canvas3d');
                 canvas3d.setProps({
                     trackball: {
                         ...canvas3d.props.trackball,
@@ -650,6 +651,7 @@ const MolstarModule = {
                 });
             } else if (this.molstarInstance?.toggleSpin) {
                 this.molstarInstance.toggleSpin(true, false);
+                console.log('Molstar rotation enabled(instance.visual.toggleSpin(true);)');
             } else {
                 const molstarViewer = document.getElementById('molstar-viewer');
                 if (molstarViewer) {

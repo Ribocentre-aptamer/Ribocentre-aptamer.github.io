@@ -727,10 +727,18 @@ permalink: /
     color: #666;
     font-size: 14px;
     line-height: 1.4;
+    /* WebKit浏览器支持 */
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    /* 标准语法 */
+    display: box;
+    line-clamp: 2;
+    box-orient: vertical;
+    /* 确保溢出文本被隐藏 */
     overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2.8em; /* 2行文本的高度 = line-height * 2 */
 }
 
 .search-no-results {

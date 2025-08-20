@@ -280,8 +280,8 @@ Yun Y, Zhang Y, Zhang C, Huang L, Tan S, Wang P, Vilariño-Gúell C, Song W, Sun
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- Molstar CSS & JS -->
-      <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
-      <script src="/js/mol/ro_pdbe-molstar-plugin-1.2.1.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar.css">
+      <script src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
         <style>
           * {
               margin: 0;
