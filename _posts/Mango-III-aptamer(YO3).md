@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title:  "Mango-III aptamer & Mango-IV aptamer"
+title:  "Mango-III-aptamer(YO3)"
 date:   2024-04-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
