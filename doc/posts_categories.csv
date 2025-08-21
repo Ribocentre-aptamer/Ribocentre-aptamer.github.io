@@ -63,7 +63,7 @@
 62,L-CCL2-aptamer,L-CCL2 aptamer,其他蛋白质
 63,L-SUP-A-004-aptamer,L-SUP-A-004 aptamer,其他蛋白质
 64,L-selectin-aptamer,L-selectin aptamer,其他蛋白质
-65,LR06-aptamer,LR06(GA) aptamer,其他蛋白质
+65,HIV-1-TAR-RNA-aptamer,HIV-1 TAR RNA aptamer,其他蛋白质
 66,Lysozyme-aptamer,Lysozyme aptamer,其他蛋白质
 67,MG-aptamer,MG aptamer,其他蛋白质
 68,Drosophila-muscleblind-protein-Mbl-aptamer,Drosophila muscleblind protein Mbl aptamer,其他蛋白质
@@ -147,8 +147,8 @@
 146,Vitamin-B12-aptamer,Vitamin B12 aptamer,小分子化合物
 147,cAMP-aptamer,cAMP aptamer,小分子化合物
 148,Beetroot-aptamer,Beetroot aptamer,荧光适配体
-149,Beetroot-aptamer(DFAME),Beetroot aptamer(DFAME),荧光适配体
-150,Beetroot-aptamer(ThT),Beetroot aptamer(ThT),荧光适配体
+149,Beetroot-aptamer,Beetroot aptamer,荧光适配体
+150,Beetroot-aptamer,Beetroot aptamer,荧光适配体
 151,Broccoli-aptamer,Broccoli aptamer,荧光适配体
 152,Chili-aptamer,Chili aptamer,荧光适配体
 153,Clivias-aptamer,Clivias aptamer,荧光适配体
@@ -156,7 +156,7 @@
 155,Mango-III-aptamer(YO3),Mango-III aptamer & Mango-IV aptamer,荧光适配体
 156,Pepper-aptamer,Pepper aptamer,荧光适配体
 157,RhoBAST-aptamer,RhoBAST aptamer,荧光适配体
-158,Spinach-RNA-aptamer,"Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",荧光适配体
+158,Spinach-aptamer,"Spinach aptamer, Aptamer 24-2-min(Spinach)",荧光适配体
 159,Spinach-aptamer,Spinach aptamer,荧光适配体
 160,Squash-aptamer,Squash aptamer,荧光适配体
 161,Bovine-prion-protein-aptamer,Bovine prion protein aptamer,朊病毒

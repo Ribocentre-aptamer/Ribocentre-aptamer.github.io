@@ -133,11 +133,11 @@
     <changefreq>daily</changefreq>
 </url>
 <url>
-    <loc>https://aptamer.ribocentre.org/_posts/Beetroot-aptamer(ThT)</loc>
+    <loc>https://aptamer.ribocentre.org/_posts/Beetroot-aptamer</loc>
     <changefreq>daily</changefreq>
 </url>
 <url>
-    <loc>https://aptamer.ribocentre.org/_posts/Beetroot-aptamer(DFAME)</loc>
+    <loc>https://aptamer.ribocentre.org/_posts/Beetroot-aptamer</loc>
     <changefreq>daily</changefreq>
 </url>
 <url>
@@ -169,7 +169,7 @@
     <changefreq>daily</changefreq>
 </url>
 <url>
-    <loc>https://aptamer.ribocentre.org/_posts/Spinach-RNA-aptamer</loc>
+    <loc>https://aptamer.ribocentre.org/_posts/Spinach-aptamer</loc>
     <changefreq>daily</changefreq>
 </url>
 <url>
@@ -349,7 +349,7 @@
     <changefreq>daily</changefreq>
 </url>
 <url>
-    <loc>https://aptamer.ribocentre.org/_posts/Spinach-RNA-aptamer</loc>
+    <loc>https://aptamer.ribocentre.org/_posts/Spinach-aptamer</loc>
     <changefreq>daily</changefreq>
 </url>
 <url>
@@ -753,7 +753,7 @@
     <changefreq>daily</changefreq>
 </url>
 <url>
-    <loc>https://aptamer.ribocentre.org/_posts/LR06-aptamer</loc>
+    <loc>https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer</loc>
     <changefreq>daily</changefreq>
 </url>
 </urlset>

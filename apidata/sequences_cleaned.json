@@ -1765,24 +1765,6 @@
       "Linker": "/_posts/Arginine-aptamer"
     },
     {
-      "ID": "D-arginine_Ellington_1",
-      "Linker name(page name)": "D-Arginine",
-      "Type": "Small molecules",
-      "Category": "Amino Acids & Peptides",
-      "Named": "D-arginine_D-R16c",
-      "Article name": "D-R16c",
-      "Ligand": "D-arginine",
-      "Ligand Description": "D-arginine is an enantiomer of the amino acid arginine, which has a different spatial configuration from the naturally occurring L-arginine and is involved in certain biochemical processes and can potentially be used in pharmaceutical and biomedical applications.",
-      "Ligand Information \n(CAS/sequence)": "157-06-2",
-      "Sequence": "CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG",
-      "Length": 38,
-      "GC Content": 0.5526,
-      "Affinity": "Kd: 135±25 µM",
-      "Year": 1996,
-      "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/8523524/",
-      "Linker": "_posts/D-Arginine-aptamer"
-    },
-    {
       "ID": "E2F_Sullenger_2",
       "Linker name(page name)": "E2F1 aptamer",
       "Type": "Proteins",
@@ -6915,7 +6897,7 @@
     },
     {
       "ID": "Spinach_Jaffrey_1",
-      "Linker name(page name)": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
+      "Linker name(page name)": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
       "Type": "Small molecules",
       "Category": "Fluorophores",
       "Named": "DFHBI and Fab_24-2 (Spinach)",
@@ -6929,11 +6911,11 @@
       "Affinity": "Kd: 537 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer"
+      "Linker": "/_posts/Spinach-aptamer"
     },
     {
       "ID": "Spinach_Jaffrey_2",
-      "Linker name(page name)": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
+      "Linker name(page name)": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
       "Type": "Small molecules",
       "Category": "Fluorophores",
       "Named": "DFHBI and Fab_13-2",
@@ -6947,11 +6929,11 @@
       "Affinity": "Kd: 464 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer"
+      "Linker": "/_posts/Spinach-aptamer"
     },
     {
       "ID": "Spinach_Jaffrey_3",
-      "Linker name(page name)": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
+      "Linker name(page name)": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
       "Type": "Small molecules",
       "Category": "Fluorophores",
       "Named": "DFHBI and Fab_44626",
@@ -6965,7 +6947,7 @@
       "Affinity": "Kd: 406 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer"
+      "Linker": "/_posts/Spinach-aptamer"
     },
     {
       "ID": "Spinach_Jaffrey_1",

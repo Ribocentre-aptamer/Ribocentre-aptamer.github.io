@@ -31,8 +31,8 @@ https://aptamer.ribocentre.org/_posts/Citrulline-aptamer
 https://aptamer.ribocentre.org/_posts/Citrulline-aptamer
 https://aptamer.ribocentre.org/_posts/Vitamin-B12-aptamer
 https://aptamer.ribocentre.org/_posts/DIR2s-apt-aptamer
-https://aptamer.ribocentre.org/_posts/Beetroot-aptamer(ThT)
-https://aptamer.ribocentre.org/_posts/Beetroot-aptamer(DFAME)
+https://aptamer.ribocentre.org/_posts/Beetroot-aptamer
+https://aptamer.ribocentre.org/_posts/Beetroot-aptamer
 https://aptamer.ribocentre.org/_posts/Chili-aptamer
 https://aptamer.ribocentre.org/_posts/TMR-aptamer
 https://aptamer.ribocentre.org/_posts/Mango-aptamer(TO1-biotin)
@@ -40,7 +40,7 @@ https://aptamer.ribocentre.org/_posts/Mango-III-aptamer(YO3)
 https://aptamer.ribocentre.org/_posts/Spinach-aptamer
 https://aptamer.ribocentre.org/_posts/MG-aptamer
 https://aptamer.ribocentre.org/_posts/Biotin-aptamer
-https://aptamer.ribocentre.org/_posts/Spinach-RNA-aptamer
+https://aptamer.ribocentre.org/_posts/Spinach-aptamer
 https://aptamer.ribocentre.org/_posts/SRB-2-aptamer
 https://aptamer.ribocentre.org/_posts/FB-1-aptamer
 https://aptamer.ribocentre.org/_posts/DFHBI-1T-aptamer
@@ -85,7 +85,7 @@ https://aptamer.ribocentre.org/_posts/TetR-aptamer
 https://aptamer.ribocentre.org/_posts/REX16-aptamer
 https://aptamer.ribocentre.org/_posts/AML1(RUNX1)-aptamer
 https://aptamer.ribocentre.org/_posts/A9g-RNA-aptamer
-https://aptamer.ribocentre.org/_posts/Spinach-RNA-aptamer
+https://aptamer.ribocentre.org/_posts/Spinach-aptamer
 https://aptamer.ribocentre.org/_posts/Factor-Xa-aptamer
 https://aptamer.ribocentre.org/_posts/NOX-E36-L-aptamer
 https://aptamer.ribocentre.org/_posts/FC-RNA-aptamer
@@ -186,4 +186,4 @@ https://aptamer.ribocentre.org/_posts/Gp43-aptamer
 https://aptamer.ribocentre.org/_posts/TNBC-aptamer
 https://aptamer.ribocentre.org/_posts/Trypanosome-VSG-aptamer
 https://aptamer.ribocentre.org/_posts/VEGF-aptamer
-https://aptamer.ribocentre.org/_posts/LR06-aptamer
+https://aptamer.ribocentre.org/_posts/HIV-1-TAR-RNA-aptamer

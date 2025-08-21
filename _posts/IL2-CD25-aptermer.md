@@ -1,9 +1,22 @@
 ---
 layout: theophylline_style
-title:  "IL2-CD25 aptermer"
-date:   2024-05-15 00:00:00
+title: IL2-CD25 aptermer
+date: 2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
 categories: Aptamer
+tags:
+- Category:Cell
+- GC:66.67
+- GC:70.59
+- Length:51
+- Named:IL2–CD25 complexes_Tr-1
+- Named:IL2–CD25 complexes_Tr-11
+- Named:IL2–CD25 complexes_Tr-6
+- Named:IL2–CD25 complexes_Tr-7
+- Named:IL2–CD25 complexes_Tr-8
+- Type:Cells
+- Year:2019
+type: Cells
 ---
 <html>
 

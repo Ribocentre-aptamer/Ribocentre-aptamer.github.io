@@ -8,6 +8,7 @@
 2. 将 json 中对应记录的 Type / Category / Length / GC / Year 追加到 tags。
 3. 写入统一的 type 字段（取第一条记录的 Type）。
 4. 报告无法在 JSON 中找到匹配的页面。
+5. 修复了匹配策略，避免匹配不到，同时删除了多余的SELEX文件。
 
 使用方法：
     python scripts/update_post_tags_from_sequence_json_fixed.py
@@ -238,7 +239,16 @@ def main():
     high_match_warnings = []
     
     print("处理aptamer文件...")
-    for md_path in glob.glob(os.path.join(POSTS_DIR, "*aptamer.md")):
+    # 匹配所有aptamer相关的文件，包括不同的拼写变体
+    aptamer_files = []
+    aptamer_files.extend(glob.glob(os.path.join(POSTS_DIR, "*aptamer*.md")))  # 小写aptamer
+    aptamer_files.extend(glob.glob(os.path.join(POSTS_DIR, "*Aptamer*.md")))  # 大写Aptamer
+    aptamer_files.extend(glob.glob(os.path.join(POSTS_DIR, "*aptermer*.md"))) # 拼写错误aptermer
+    
+    # 去重（防止文件被重复处理）
+    aptamer_files = list(set(aptamer_files))
+    
+    for md_path in aptamer_files:
         try:
             with open(md_path, "r", encoding="utf-8") as f:
                 content = f.read()

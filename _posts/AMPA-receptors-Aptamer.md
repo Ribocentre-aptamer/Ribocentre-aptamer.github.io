@@ -1,9 +1,18 @@
 ---
 layout: theophylline_style
-title:  "AMPA receptors aptamer"
-date:   2024-05-20 00:00:00
+title: AMPA receptors aptamer
+date: 2024-05-20 00:00:00
 author: Bichun Wu, Jiaxin Zhao
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:48.6
+- Length:107
+- 'Named:Alpha-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptors_Aptamer
+  #25'
+- Type:Proteins
+- Year:2007
+type: Proteins
 ---
 <html>
 

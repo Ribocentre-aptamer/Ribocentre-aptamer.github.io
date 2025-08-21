@@ -736,7 +736,7 @@
   },
   {
     " ": 50,
-    "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Spinach-RNA-aptamer",
+    "AptamerLinker": "https://aptamer.ribocentre.org/_posts/Spinach-aptamer",
     "Name": "24-2-min aptamer",
     "Ligand": "DFHBI, Fab BL3-6S97N",
     "Structure Determination": "X-ray",

@@ -1708,9 +1708,9 @@
         "post_link": "/_posts/Chili-aptamer"
       },
       {
-        "source_file": "_posts/Spinach-RNA-aptamer.md",
-        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
-        "post_link": "/_posts/Spinach-RNA-aptamer"
+        "source_file": "_posts/Spinach-aptamer.md",
+        "post_title": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
+        "post_link": "/_posts/Spinach-aptamer"
       },
       {
         "source_file": "_posts/Spinach-aptamer.md",
@@ -1741,9 +1741,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Spinach-RNA-aptamer.md",
-        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
-        "post_link": "/_posts/Spinach-RNA-aptamer"
+        "source_file": "_posts/Spinach-aptamer.md",
+        "post_title": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
+        "post_link": "/_posts/Spinach-aptamer"
       }
     ]
   },
@@ -1753,7 +1753,7 @@
       "pmid": "25940073",
       "year": "2015",
       "authors": "DasGupta, S., Shelke, S. A., Li, N. S., & Piccirilli, J. A.",
-      "title": "Spinach RNA aptamer detects lead(II) with high selectivity",
+      "title": "Spinach aptamer detects lead(II) with high selectivity",
       "journal": "Chemical communications"
     },
     "posts": []
@@ -1786,9 +1786,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Spinach-RNA-aptamer.md",
-        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
-        "post_link": "/_posts/Spinach-RNA-aptamer"
+        "source_file": "_posts/Spinach-aptamer.md",
+        "post_title": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
+        "post_link": "/_posts/Spinach-aptamer"
       }
     ]
   },
@@ -4806,9 +4806,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Beetroot-aptamer(ThT).md",
-        "post_title": "Beetroot aptamer(ThT)",
-        "post_link": "/_posts/Beetroot-aptamer(ThT)"
+        "source_file": "_posts/Beetroot-aptamer.md",
+        "post_title": "Beetroot aptamer",
+        "post_link": "/_posts/Beetroot-aptamer"
       },
       {
         "source_file": "_posts/Beetroot-aptamer.md",
@@ -4833,9 +4833,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Beetroot-aptamer(ThT).md",
-        "post_title": "Beetroot aptamer(ThT)",
-        "post_link": "/_posts/Beetroot-aptamer(ThT)"
+        "source_file": "_posts/Beetroot-aptamer.md",
+        "post_title": "Beetroot aptamer",
+        "post_link": "/_posts/Beetroot-aptamer"
       },
       {
         "source_file": "_posts/Beetroot-aptamer.md",
@@ -4860,9 +4860,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Beetroot-aptamer(ThT).md",
-        "post_title": "Beetroot aptamer(ThT)",
-        "post_link": "/_posts/Beetroot-aptamer(ThT)"
+        "source_file": "_posts/Beetroot-aptamer.md",
+        "post_title": "Beetroot aptamer",
+        "post_link": "/_posts/Beetroot-aptamer"
       },
       {
         "source_file": "_posts/Beetroot-aptamer.md",
@@ -4875,9 +4875,9 @@
         "post_link": "/_posts/Corn-aptamer"
       },
       {
-        "source_file": "_posts/Beetroot-aptamer(DFAME).md",
-        "post_title": "Beetroot aptamer(DFAME)",
-        "post_link": "/_posts/Beetroot-aptamer(DFAME)"
+        "source_file": "_posts/Beetroot-aptamer.md",
+        "post_title": "Beetroot aptamer",
+        "post_link": "/_posts/Beetroot-aptamer"
       }
     ]
   },
@@ -5019,9 +5019,9 @@
         "post_link": "/_posts/Corn-aptamer"
       },
       {
-        "source_file": "_posts/Beetroot-aptamer(DFAME).md",
-        "post_title": "Beetroot aptamer(DFAME)",
-        "post_link": "/_posts/Beetroot-aptamer(DFAME)"
+        "source_file": "_posts/Beetroot-aptamer.md",
+        "post_title": "Beetroot aptamer",
+        "post_link": "/_posts/Beetroot-aptamer"
       }
     ]
   },
@@ -5155,7 +5155,7 @@
       "pmid": "23991760",
       "year": "2014",
       "authors": "Pothoulakis, G., Ceroni, F., Reeve, B., & Ellis, T.",
-      "title": "The spinach RNA aptamer as a characterization tool for synthetic biology",
+      "title": "The Spinach aptamer as a characterization tool for synthetic biology",
       "journal": "ACS synthetic biology"
     },
     "posts": [
@@ -5228,14 +5228,14 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Spinach-RNA-aptamer.md",
-        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
-        "post_link": "/_posts/Spinach-RNA-aptamer"
+        "source_file": "_posts/Spinach-aptamer.md",
+        "post_title": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
+        "post_link": "/_posts/Spinach-aptamer"
       },
       {
-        "source_file": "_posts/Spinach-RNA-aptamer.md",
-        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
-        "post_link": "/_posts/Spinach-RNA-aptamer"
+        "source_file": "_posts/Spinach-aptamer.md",
+        "post_title": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
+        "post_link": "/_posts/Spinach-aptamer"
       },
       {
         "source_file": "_posts/Spinach-aptamer.md",
@@ -5301,7 +5301,7 @@
       "pmid": "30807171",
       "year": "2019",
       "authors": "Santra, K., Geraskin, I., Nilsen-Hamilton, M., Kraus, G. A., & Petrich, J. W.",
-      "title": "Characterization of the photophysical behavior of DFHBI derivatives: Fluorogenic molecules that illuminate the Spinach RNA aptamer",
+      "title": "Characterization of the photophysical behavior of DFHBI derivatives: Fluorogenic molecules that illuminate the Spinach aptamer",
       "journal": "The journal of physical chemistry"
     },
     "posts": [
@@ -9604,9 +9604,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9626,9 +9626,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9648,9 +9648,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9670,9 +9670,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9692,9 +9692,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9714,9 +9714,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9736,9 +9736,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9758,9 +9758,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9780,9 +9780,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9802,9 +9802,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9824,9 +9824,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -9846,9 +9846,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/LR06-aptamer.md",
-        "post_title": "LR06(GA) aptamer",
-        "post_link": "/_posts/LR06-aptamer"
+        "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
+        "post_title": "HIV-1 TAR RNA aptamer",
+        "post_link": "/_posts/HIV-1-TAR-RNA-aptamer"
       },
       {
         "source_file": "_posts/HIV-1-TAR-RNA-aptamer.md",
@@ -11336,9 +11336,9 @@
     },
     "posts": [
       {
-        "source_file": "_posts/Spinach-RNA-aptamer.md",
-        "post_title": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
-        "post_link": "/_posts/Spinach-RNA-aptamer"
+        "source_file": "_posts/Spinach-aptamer.md",
+        "post_title": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
+        "post_link": "/_posts/Spinach-aptamer"
       }
     ]
   },
