@@ -1,6 +1,6 @@
 ---
 layout: theophylline_style
-title:  "Mango aptamer & Mango-II aptamer"
+title:  "Mango aptamer(TO1-biotin)"
 date:   2024-04-10 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
