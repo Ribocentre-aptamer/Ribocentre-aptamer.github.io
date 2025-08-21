@@ -935,7 +935,7 @@ function loadData(){
       
       // 初始化选择状态显示
       updateSelectedCount();
-      
+
       // 如果有搜索参数，显示搜索结果提示
       if (searchQuery) {
         const originalCount = json.Sheet1 ? json.Sheet1.length : json.length;
@@ -944,6 +944,12 @@ function loadData(){
         searchResultsInfo.style.cssText = 'background: #e8f4fd; border: 1px solid #bee5eb; color: #0c5460; padding: 10px; margin-bottom: 15px; border-radius: 5px; font-size: 14px;';
         searchResultsInfo.innerHTML = `<strong>Search Results for "${decodedQuery}":</strong> Found ${data.length} result(s) out of ${originalCount} total entries. <a href="/sequences/" style="color: #520049; text-decoration: underline;">Clear search</a>`;
         document.querySelector('h1.post-title').insertAdjacentElement('afterend', searchResultsInfo);
+      } else if (targetId) {
+        // 如果有ID参数，显示ID过滤提示并提供清除链接
+        const idInfo = document.createElement('div');
+        idInfo.style.cssText = 'background: #e8f4fd; border: 1px solid #bee5eb; color: #0c5460; padding: 10px; margin-bottom: 15px; border-radius: 5px; font-size: 14px;';
+        idInfo.innerHTML = `<strong>Showing result for ID "${targetId}".</strong> <a href="/sequences/" style="color: #520049; text-decoration: underline;">Clear selection</a>`;
+        document.querySelector('h1.post-title').insertAdjacentElement('afterend', idInfo);
       }
       
       // 确保 DataTable 函数存在
