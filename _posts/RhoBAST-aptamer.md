@@ -154,10 +154,19 @@ type: Small molecules
             <button onclick="
               var selectSections1 = [
                 {
-  struct_asym_id: 'B', 
-  start_residue_number:204, 
-  end_residue_number:206, 
-  color:{r:255,g:0,b:255}
+  auth_asym_id: 'B',
+  auth_seq_id: 204,
+  color: { r:255, g:0, b:255 },
+},
+{
+  auth_asym_id: 'B',
+  auth_seq_id: 205,
+  color: { r:255, g:0, b:255 },
+},
+{
+  auth_asym_id: 'B',
+  auth_seq_id: 206,
+  color: { r:255, g:0, b:255 },
 },
 {
   struct_asym_id: 'B', 

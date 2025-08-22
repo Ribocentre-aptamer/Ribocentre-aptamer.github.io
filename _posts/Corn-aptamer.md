@@ -171,11 +171,10 @@ type: Small molecules
             <button onclick="
               var selectSections1 = [
                 {
-  struct_asym_id: 'Y', 
-  start_residue_number:104, 
-  end_residue_number:104, 
-  color:{r:255,g:0,b:255}
-},
+  auth_asym_id: 'Y',
+  auth_seq_id: 104,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'},
 {
   struct_asym_id: 'E', 
   start_residue_number:1, 
@@ -354,11 +353,10 @@ type: Small molecules
   color:{r:194,g:182,b:23}
 },
 {
-  struct_asym_id: 'Y', 
-  start_residue_number:104, 
-  end_residue_number:104, 
-  color:{r:255,g:0,b:255}
-},{
+  auth_asym_id: 'Y',
+  auth_seq_id: 104,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'},{
   struct_asym_id: 'E', 
   start_residue_number:1, 
   end_residue_number:5, 

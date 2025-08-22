@@ -235,21 +235,22 @@ type: Small molecules
   end_residue_number:26, 
   color:{r:184,g:51,b:50}
 },{
-  struct_asym_id: 'B',    
-  start_residue_number:1, 
-  end_residue_number:1, 
-  color:{r:255,g:0,b:255}
-},{
-  struct_asym_id: 'B',    
-  start_residue_number:2, 
-  end_residue_number:2, 
-  color:{r:255,g:0,b:255}
-},{
-  struct_asym_id: 'A',    
-  start_residue_number:27, 
-  end_residue_number:28, 
-  color:{r:255,g:0,b:255}
-}
+  auth_asym_id: 'B',
+  auth_seq_id: 1,
+  color: { r:255, g:0, b:255 },
+  },{
+  auth_asym_id: 'B',
+  auth_seq_id: 2,
+  color: { r:255, g:0, b:255 },
+  },{
+  auth_asym_id: 'B',
+  auth_seq_id: 27,
+  color: { r:255, g:0, b:255 },
+  },{
+  auth_asym_id: 'B',
+  auth_seq_id: 28,
+  color: { r:255, g:0, b:255 },
+  },
        ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>

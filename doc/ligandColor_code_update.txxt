@@ -1,0 +1,29 @@
+(base) joseperezmartinez@JosedeMacBook-Pro Ribocentre-aptamer.github.io % python3 ./scripts/bulk_replace_molstar_md.py _posts --dry-run
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Spinach-aptamer.md -> 2 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Biotin-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/NeomycinB-aptamer.md -> 2 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/5HTP-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/TMR-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Squash-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Corn-aptamer.md -> 2 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/FMN-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Clivias-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/MG-aptamer.md -> 3 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/GTP-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Chili-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Broccoli-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Beetroot-aptamer.md -> 2 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Theophylline-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Ribostamycin-aptamer.md -> 2 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/DIR2s-apt-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Mango-aptamer(TO1-biotin).md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Arginine-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/ATP-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/FAD-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Citrulline-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Mango-III-aptamer(YO3).md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Vitamin-B12-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Pepper-aptamer.md -> 2 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Streptomycin-aptamer.md -> 1 block(s) replaced
+DRY-RUN: /Users/joseperezmartinez/docs/Ribocentre-aptamer.github.io/_posts/Tetracycline-aptamer.md -> 1 block(s) replaced
+Done. Files changed: 27, blocks replaced: 35

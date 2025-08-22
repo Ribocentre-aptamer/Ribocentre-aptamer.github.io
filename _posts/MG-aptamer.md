@@ -271,11 +271,10 @@ type: Small molecules
   color:{r:184,g:51,b:50}
 },
 {
-  struct_asym_id: 'A', 
-  start_residue_number:101, 
-  end_residue_number:101, 
-  color:{r:255,g:0,b:255}
-},
+  auth_asym_id: 'A',
+  auth_seq_id: 101,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'},
 {
   struct_asym_id: 'A', 
   start_residue_number:33, 
@@ -325,11 +324,10 @@ type: Small molecules
   color:{r:46,g:161,b:3}
 },
 {
-  struct_asym_id: 'B', 
-  start_residue_number:101, 
-  end_residue_number:101, 
-  color:{r:255,g:0,b:255}
-}
+  auth_asym_id: 'B',
+  auth_seq_id: 101,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'}
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
@@ -449,11 +447,10 @@ type: Small molecules
   color:{r:8,g:69,b:149}
 },
 {
-  struct_asym_id: 'B', 
-  start_residue_number:39, 
-  end_residue_number:39, 
-  color:{r:255,g:0,b:255}
-}]
+  auth_asym_id: 'B',
+  auth_seq_id: 39,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'}]
 
 viewerInstance2.visual.select({ data: selectSections2, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance2.visual.clearSelection()">Clear Selection</button><br><br>

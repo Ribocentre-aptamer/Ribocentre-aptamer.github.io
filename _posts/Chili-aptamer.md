@@ -153,11 +153,10 @@ type: Small molecules
             <button onclick="
               var selectSections1 = [
                 {
-  struct_asym_id: 'D', 
-  start_residue_number:104, 
-  end_residue_number:104, 
-  color:{r:255,g:0,b:255}
-},
+  auth_asym_id: 'D',
+  auth_seq_id: 104,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'},
 {
   struct_asym_id: 'D', 
   start_residue_number:1, 

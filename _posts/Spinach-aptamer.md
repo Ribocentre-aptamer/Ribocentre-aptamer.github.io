@@ -298,11 +298,10 @@ type: Small molecules
             <button onclick="
               var selectSections1 = [
                 {
-  struct_asym_id: 'Y', 
-  start_residue_number:206, 
-  end_residue_number:206, 
-  color:{r:255,g:0,b:255}
-},
+  auth_asym_id: 'Y',
+  auth_seq_id: 206,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'},
 {
   struct_asym_id: 'X', 
   start_residue_number:1, 
@@ -413,11 +412,10 @@ type: Small molecules
   color:{r:241,g:125,b:7}
 },
 {
-  struct_asym_id: 'Y', 
-  start_residue_number:206, 
-  end_residue_number:206, 
-  color:{r:255,g:0,b:255}
-}
+  auth_asym_id: 'Y',
+  auth_seq_id: 206,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'}
              ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>

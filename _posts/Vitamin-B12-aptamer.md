@@ -223,11 +223,10 @@ type: Small molecules
   end_residue_number:235, 
   color:{r:8,g:69,b:149}
 },{
-  struct_asym_id: 'A', 
-  start_residue_number:701, 
-  end_residue_number:701, 
-  color:{r:255,g:0,b:255}
-}
+  auth_asym_id: 'A',
+  auth_seq_id: 701,
+  color: { r:255, g:0, b:255 },
+  representation: 'ball-and-stick'}
               ]
             viewerInstance1.visual.select({ data: selectSections1, nonSelectedColor: {r:255,g:255,b:255}})" style="float:right;height:25px;width: 120px;">Color Selection</button><br><br>
           <button button style="float: left;height:25px;width: 120px;" onclick="viewerInstance1.visual.clearSelection()">Clear Selection</button><br><br>
