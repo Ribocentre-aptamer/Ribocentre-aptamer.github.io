@@ -141,18 +141,23 @@ bundle exec jekyll serve
 
 ### 构建镜像
 ```bash
-docker build -t ribocentre-aptamer .
+ocker build --platform linux/arm64 -t aptamer-jekyll:dev .
 ```
 
 ### 本地运行
 ```bash
-docker run -p 4000:4000 -v $(pwd):/app ribocentre-aptamer
-```
+docker run --rm -it \
+  -p 4000:4000 \
+  -v "$PWD":/srv/jekyll \
+  aptamer-jekyll:dev
 
-### 生产环境部署
-```bash
-docker run -d -p 4000:4000 -e JEKYLL_ENV=production ribocentre-aptamer
 ```
+or 
+### 第一次/依赖变化：构建
+docker compose up --build
+
+### 下次：直接
+docker compose up
 
 ## 🤝 贡献指南
 

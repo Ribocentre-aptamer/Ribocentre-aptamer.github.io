@@ -1,0 +1,10 @@
+services:
+  site:
+    image: aptamer-jekyll:dev
+    build:
+      context: .
+      platforms: ["linux/arm64"]   # Intel Mac 可删掉这一行
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll

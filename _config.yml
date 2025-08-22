@@ -25,6 +25,7 @@ sass:
 plugins:
   # - jekyll-archives
   - liquid
+  - jekyll-sitemap
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 # jekyll-archives:
