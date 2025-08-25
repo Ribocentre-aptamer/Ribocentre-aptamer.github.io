@@ -6915,7 +6915,7 @@
     },
     {
       "ID": "Spinach_Jaffrey_1",
-      "Linker name(page name)": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
+      "Linker name(page name)": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
       "Type": "Small molecules",
       "Category": "Fluorophores",
       "Named": "DFHBI and Fab_24-2 (Spinach)",
@@ -6929,11 +6929,11 @@
       "Affinity": "Kd: 537 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer.html"
+      "Linker": "/_posts/Spinach-aptamer.html"
     },
     {
       "ID": "Spinach_Jaffrey_2",
-      "Linker name(page name)": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
+      "Linker name(page name)": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
       "Type": "Small molecules",
       "Category": "Fluorophores",
       "Named": "DFHBI and Fab_13-2",
@@ -6947,11 +6947,11 @@
       "Affinity": "Kd: 464 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer.html"
+      "Linker": "/_posts/Spinach-aptamer.html"
     },
     {
       "ID": "Spinach_Jaffrey_3",
-      "Linker name(page name)": "Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",
+      "Linker name(page name)": "Spinach aptamer, Aptamer 24-2-min(Spinach)",
       "Type": "Small molecules",
       "Category": "Fluorophores",
       "Named": "DFHBI and Fab_44626",
@@ -6965,7 +6965,7 @@
       "Affinity": "Kd: 406 nM",
       "Year": 2011,
       "Link to PubMed Entry": "https://pubmed.ncbi.nlm.nih.gov/21798953/",
-      "Linker": "/_posts/Spinach-RNA-aptamer.html"
+      "Linker": "/_posts/Spinach-aptamer.html"
     },
     {
       "ID": "Spinach_Jaffrey_1",

@@ -1,9 +1,17 @@
 ---
 layout: theophylline_style
-title:  "Mango-III-aptamer(YO3)"
-date:   2024-04-22 00:00:00
+title: Mango-III-aptamer(YO3)
+date: 2024-04-22 00:00:00
 author: Bo Fu, Jiali Wang
 categories: Aptamer
+tags:
+- Category:Fluorophores
+- GC:45.0
+- Length:38
+- Named:Oxazole yellow 3 (YO3)_Mango III aptamer(YO3)
+- Type:Small molecules
+- Year:2014
+type: Small molecules
 ---
 <html>
 
@@ -146,10 +154,11 @@ categories: Aptamer
             <button onclick="
               var selectSections1 = [
                 {
-  auth_asym_id: 'C',
-  auth_seq_id: 104,
-  color: { r:255, g:0, b:255 },
-  representation: 'ball-and-stick'},
+  struct_asym_id: 'C', 
+  start_residue_number:104, 
+  end_residue_number:104, 
+  color:{r:255,g:0,b:255}
+},
 {
   struct_asym_id: 'C', 
   start_residue_number:1, 

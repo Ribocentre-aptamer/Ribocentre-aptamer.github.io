@@ -20,8 +20,8 @@
 19,Serine_arginine-rich-(SR)-proteins_B52-aptamer,Serine/arginine-rich (SR) proteins_B52 aptamer,_posts/Serine_arginine-rich-(SR)-proteins_B52-aptamer.md,是
 20,Basic-fibroblast-growth-factor-aptamer,Basic fibroblast growth factor aptamer,_posts/Basic-fibroblast-growth-factor-aptamer.md,是
 21,Beetroot-aptamer,Beetroot aptamer,_posts/Beetroot-aptamer.md,是
-22,Beetroot-aptamer(DFAME),Beetroot aptamer(DFAME),_posts/Beetroot-aptamer(DFAME).md,是
-23,Beetroot-aptamer(ThT),Beetroot aptamer(ThT),_posts/Beetroot-aptamer(ThT).md,是
+22,Beetroot-aptamer,Beetroot aptamer,_posts/Beetroot-aptamer.md,是
+23,Beetroot-aptamer,Beetroot aptamer,_posts/Beetroot-aptamer.md,是
 24,Biotin-aptamer,Biotin aptamer,_posts/Biotin-aptamer.md,是
 25,Bovine-factor-IX-aptamer,Bovine factor IX aptamer,_posts/Bovine-factor-IX-aptamer.md,是
 26,Bovine-prion-protein-aptamer,Bovine prion protein aptamer,_posts/Bovine-prion-protein-aptamer.md,是
@@ -109,7 +109,7 @@
 108,L-CCL2-aptamer,L-CCL2 aptamer,_posts/L-CCL2-aptamer.md,是
 109,L-SUP-A-004-aptamer,L-SUP-A-004 aptamer,_posts/L-SUP-A-004-aptamer.md,是
 110,L-selectin-aptamer,L-selectin aptamer,_posts/L-selectin-aptamer.md,是
-111,LR06-aptamer,LR06(GA) aptamer,_posts/LR06-aptamer.md,是
+111,HIV-1-TAR-RNA-aptamer,HIV-1 TAR RNA aptamer,_posts/HIV-1-TAR-RNA-aptamer.md,是
 112,Lividomycin-aptamer,Lividomycin aptamer,_posts/Lividomycin-aptamer.md,是
 113,Lysozyme-aptamer,Lysozyme aptamer,_posts/Lysozyme-aptamer.md,是
 114,MB-SELEX,Magnetic-based SELEX(MB-SELEX),_posts/MB-SELEX.md,是
@@ -149,7 +149,7 @@
 148,SARS-CoV-N-protein-aptamer,SARS-CoV N protein aptamer,_posts/SARS-CoV-N-protein-aptamer.md,是
 149,SPC-aptamer,SPC aptamer,_posts/SPC-aptamer.md,是
 150,SRB-2-aptamer,SRB-2 aptamer,_posts/SRB-2-aptamer.md,是
-151,Spinach-RNA-aptamer,"Spinach RNA aptamer, Aptamer 24-2-min(Spinach)",_posts/Spinach-RNA-aptamer.md,是
+151,Spinach-aptamer,"Spinach aptamer, Aptamer 24-2-min(Spinach)",_posts/Spinach-aptamer.md,是
 152,Spinach-aptamer,Spinach aptamer,_posts/Spinach-aptamer.md,是
 153,Squash-aptamer,Squash aptamer,_posts/Squash-aptamer.md,是
 154,Streptomycin-aptamer,Streptomycin aptamer,_posts/Streptomycin-aptamer.md,是

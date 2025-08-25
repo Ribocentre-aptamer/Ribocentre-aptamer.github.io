@@ -575,7 +575,7 @@
   },
   {
     "Category": "Mammalian",
-    "Name": "Spinach RNA aptamer",
+    "Name": "Spinach aptamer",
     "Ligand": "Fab BL3-6S97N",
     "Structure Determination": "X-ray",
     "NDB": {
@@ -585,7 +585,7 @@
     "Phase Determination": "molecular replacement(MR)",
     "Resolution(Å)": "1.64 2.09",
     "Year": "2018",
-    "internal_url": "/_posts/spinach-rna-aptamer"
+    "internal_url": "/_posts/Spinach-aptamer"
   },
   {
     "Category": "Mammalian",
@@ -701,7 +701,7 @@
   },
   {
     "Category": "Viral",
-    "Name": "LR06(GA) aptamer",
+    "Name": "HIV-1 TAR RNA aptamer",
     "Ligand": "TAR RNA",
     "Structure Determination": "NMR",
     "NDB": {

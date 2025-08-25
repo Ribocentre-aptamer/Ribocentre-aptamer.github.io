@@ -5,7 +5,7 @@ date: 2024-06-06 00:00:00
 author: Zhizhong Lu, Ying Ao
 categories: Aptamer
 tags:
-- Category:cell
+- Category:Cell
 - GC:36.84
 - GC:60.0
 - Length:15

@@ -1,9 +1,19 @@
 ---
 layout: theophylline_style
-title:  "Mixed lineage leukemia proteins aptermer"
-date:   2024-05-15 00:00:00
+title: Mixed lineage leukemia proteins aptermer
+date: 2024-05-15 00:00:00
 author: Baowei Huang, Yuxuan Sun
 categories: Aptamer
+tags:
+- Category:Mammalian
+- GC:59.260000000000005
+- GC:61.11
+- Length:54
+- Named:Mixed lineage leukemia proteins (MLL)_APT 1
+- Named:Mixed lineage leukemia proteins (MLL)_APT 2
+- Type:Proteins
+- Year:2019
+type: Proteins
 ---
 <html>
 

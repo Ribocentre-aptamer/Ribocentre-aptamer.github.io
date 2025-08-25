@@ -58,3 +58,6 @@ temp/
 *.tar.gz
 *.rar 
 .DS_Store
+
+# macOS
+.DS_Store
