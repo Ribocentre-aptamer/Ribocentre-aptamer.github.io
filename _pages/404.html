@@ -913,6 +913,7 @@ fetch('{{ site.baseurl }}/search.json')
     .then(response => response.json())
     .then(data => {
         const path = window.location.pathname.toLowerCase();
+
         const slug = decodeURIComponent(
             path
                 .split('/')
