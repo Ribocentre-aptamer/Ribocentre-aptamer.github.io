@@ -913,11 +913,19 @@ fetch('{{ site.baseurl }}/search.json')
     .then(response => response.json())
     .then(data => {
         const path = window.location.pathname.toLowerCase();
-        const slug = path.split('/').pop().replace(/\.html$/, '').replace(/-/g, ' ');
+
+        const slug = decodeURIComponent(
+            path
+                .split('/')
+                .pop()
+                .replace(/\.html$/, '')
+                .replace(/[-_]+/g, ' ')
+        );
         const tokens = slug.split(/\s+/).filter(Boolean);
         if (!tokens.length) return;
 
         const matches = data
+            .filter(item => !/404\.html$/.test(item.url))
             .map(item => {
                 const haystack = (item.title + ' ' + item.url).toLowerCase();
                 const count = tokens.filter(t => haystack.includes(t)).length;
