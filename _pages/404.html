@@ -43,6 +43,40 @@ permalink: /404.html
     line-height: 1.4;
 }
 
+.suggestions {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 15px;
+    color: white;
+    display: none;
+}
+
+.suggestions-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.suggestions-list li {
+    margin: 5px 0;
+}
+
+.suggestions-list a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.suggestions-list a:hover {
+    color: #e2e8f0;
+}
+
 .game-stats {
     display: flex;
     justify-content: space-around;
@@ -268,7 +302,12 @@ permalink: /404.html
 <div class="game-container">
     <h1 class="game-title">🧬 RNA Match-3 Paradise 🧬</h1>
     <p class="game-subtitle">The page got lost, but you found a relaxing RNA elimination paradise! Match identical nucleotides to build fabulous sequences.</p>
-    
+
+    <div id="suggestions" class="suggestions">
+        <div class="suggestions-title">Maybe you were looking for:</div>
+        <ul class="suggestions-list"></ul>
+    </div>
+
     <div class="game-stats">
         <div class="stat-item">
             <div class="stat-label">Score</div>
@@ -867,6 +906,49 @@ let game;
 window.addEventListener('load', () => {
     game = new RNAMatch3Game();
 });
+</script>
+
+<script>
+fetch('{{ site.baseurl }}/search.json')
+    .then(response => response.json())
+    .then(data => {
+        const path = window.location.pathname.toLowerCase();
+        const slug = decodeURIComponent(
+            path
+                .split('/')
+                .pop()
+                .replace(/\.html$/, '')
+                .replace(/[-_]+/g, ' ')
+        );
+        const tokens = slug.split(/\s+/).filter(Boolean);
+        if (!tokens.length) return;
+
+        const matches = data
+            .filter(item => !/404\.html$/.test(item.url))
+            .map(item => {
+                const haystack = (item.title + ' ' + item.url).toLowerCase();
+                const count = tokens.filter(t => haystack.includes(t)).length;
+                return Object.assign({}, item, { count });
+            })
+            .filter(item => item.count > 0)
+            .sort((a, b) => b.count - a.count)
+            .slice(0, 3);
+
+        if (matches.length) {
+            const container = document.getElementById('suggestions');
+            const list = container.querySelector('.suggestions-list');
+            matches.forEach(m => {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = m.url;
+                a.textContent = m.title;
+                li.appendChild(a);
+                list.appendChild(li);
+            });
+            container.style.display = 'block';
+        }
+    })
+    .catch(err => console.error('Failed to load suggestions', err));
 </script>
 
 
