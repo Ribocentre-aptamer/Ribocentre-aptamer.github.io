@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+用户可以合并数据
 Merge posts_data.json, sequences_cleaned.json and structure-6.20.split.json
 into a normalized dataset keyed by aptamer page slug (e.g. "Hfq-aptamer").
 

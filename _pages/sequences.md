@@ -210,6 +210,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 
 <script>
 
+// 站点配置，便于在 GitHub Pages 上生成绝对下载链接
+window.SITE_CFG = {
+  baseurl: '{{ site.baseurl }}',
+  siteUrl: '{{ site.url }}' || window.location.origin
+};
+
 let table;
 let tableData=[];
 
@@ -609,14 +615,15 @@ function buildRows(data){
     })();
     let mmcifCell = '—';
     if (slug && window.MMCIF_INDEX && window.MMCIF_INDEX[slug]) {
-      const baseUrl = '{{ site.baseurl }}';
+      const baseUrl = (window.SITE_CFG && window.SITE_CFG.baseurl) || '';
+      const siteOrigin = (window.SITE_CFG && window.SITE_CFG.siteUrl) || window.location.origin;
       const info = window.MMCIF_INDEX[slug];
       if (info.zip) {
-        const zipUrl = baseUrl + '/apidata/colored_structures/' + info.zip;
-        mmcifCell = '<a class="button" href="' + zipUrl + '" download>mmCIF (zip)</a>';
+        const zipUrl = siteOrigin + baseUrl + '/apidata/colored_structures/' + info.zip;
+        mmcifCell = '<a class="button" href="' + zipUrl + '" download>mmCIF (zip)</a>'; 
       } else if (info.annotated && info.annotated.length) {
         const first = info.annotated[0];
-        const url = baseUrl + '/apidata/colored_structures/' + first;
+        const url = siteOrigin + baseUrl + '/apidata/colored_structures/' + first;
         mmcifCell = '<a class="button" href="' + url + '" download>mmCIF</a>';
         if (info.annotated.length > 1) {
           mmcifCell += ' <span style="color:#666;font-size:12px">(+' + (info.annotated.length - 1) + ' more)</span>';

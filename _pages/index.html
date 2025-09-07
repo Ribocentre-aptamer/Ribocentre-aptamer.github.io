@@ -26,6 +26,7 @@ permalink: /
 <script>
     window.DASHBOARD_CONFIG = {
         baseurl: '{{ site.baseurl }}',
+        siteUrl: '{{ site.url }}',
         dataPath: '{{ site.baseurl }}/apidata/sequences_cleaned.json'
     };
     
@@ -573,8 +574,8 @@ permalink: /
 <!-- Dashboard JavaScript -->
 <script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="{{ site.baseurl }}/js/dashboard-config.js"></script>
-<script src="{{ site.baseurl }}/js/dashboard-main.js"></script>
+<script src="{{ site.baseurl }}/js/dashboard-config.js?v={{ site.time | date: '%s' }}"></script>
+<script src="{{ site.baseurl }}/js/dashboard-main.js?v={{ site.time | date: '%s' }}"></script>
 
 
 <!-- Footer styles are now in css/footer.css -->

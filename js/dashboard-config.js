@@ -298,17 +298,17 @@ function createFilterTag(text, onRemove, color, nodeId) {
 }
 
 // 导出数据 - 注意：导出比表格显示多一列PubMed Link
-function exportData() {
+async function exportData() {
     // 检查是否有数据可导出
     if (!filteredData || filteredData.length === 0) {
         alert("暂无数据可导出。");
         return;
     }
     
-    // 创建CSV内容 - 导出8列（表格显示7列 + PubMed Link列）
+    // 创建CSV内容 - 在原有基础上追加“Affinity (Kd)”与“mmCIF”两列（不在表格展示，仅导出）
     const csvRows = [];
     
-    // 标题行 - 导出专用（比表格显示多一列PubMed Link）
+    // 标题行 - 增加 Affinity 与 mmCIF
     const headers = [
         'No.',
         'Sequence Name', 
@@ -317,9 +317,32 @@ function exportData() {
         'PubMed Link',
         'Category',
         'Sequence (5\'-3\')',
-        'Description'
+        'Description',
+        'Affinity (Kd)',
+        'mmCIF'
     ];
     csvRows.push(headers.map(h => `"${h}"`).join(','));
+    
+    // 预取 mmCIF 索引（slug -> { annotated[], zip })
+    let mmcifMap = {};
+    try {
+        const baseUrl = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.baseurl) || '';
+        const siteOrigin = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.siteUrl) || window.location.origin;
+        const idxRes = await fetch(`${siteOrigin}${baseUrl}/apidata/colored_structures/index.json`);
+        if (idxRes.ok) {
+            const idx = await idxRes.json();
+            (idx.items || []).forEach(it => {
+                if (it && it.slug) {
+                    mmcifMap[it.slug] = {
+                        annotated: it.annotated_cif_list || (it.annotated_cif ? [it.annotated_cif] : []),
+                        zip: it.zip || null
+                    };
+                }
+            });
+        }
+    } catch (e) {
+        console.warn('mmCIF index not available, skipping mmCIF column', e);
+    }
     
     // 数据行 - 严格按照TableModule.updateDataTable()的逻辑处理
     // 注意：除了PubMed Link列（仅在导出中包含），其他所有列都与表格显示保持一致
@@ -362,8 +385,32 @@ function exportData() {
         // 8. Description - 使用完整描述
         const description = (item['Ligand Description'] || 'N/A').toString().replace(/<[^>]*>/g, '');
         
-        // 构建行数据
-        const rowData = [no, sequenceName, aptamerName, year, pubmedLink, category, sequence, description];
+        // 9. Affinity (Kd)
+        const affinity = (item['Affinity'] || item.Affinity || 'N/A').toString().replace(/<[^>]*>/g, '');
+
+        // 10. mmCIF（优先 zip，其次首个 annotated）
+        let mmcif = 'N/A';
+        try {
+            const linker = (item['Linker'] || '').toString();
+            if (linker) {
+                const parts = linker.split('/');
+                const last = parts[parts.length - 1] || '';
+                const slug = last.replace(/\.html?$/i, '');
+                const info = mmcifMap[slug];
+                if (info) {
+                    const baseUrl = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.baseurl) || '';
+                    const siteOrigin = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.siteUrl) || window.location.origin;
+                    if (info.zip) {
+                        mmcif = `${siteOrigin}${baseUrl}/apidata/colored_structures/${info.zip}`;
+                    } else if (info.annotated && info.annotated.length) {
+                        mmcif = `${siteOrigin}${baseUrl}/apidata/colored_structures/${info.annotated[0]}`;
+                    }
+                }
+            }
+        } catch {}
+
+        // 构建行数据（追加两列）
+        const rowData = [no, sequenceName, aptamerName, year, pubmedLink, category, sequence, description, affinity, mmcif];
         const csvRow = rowData.map(val => {
             const strVal = String(val).replace(/"/g, '""'); // 转义双引号
             return `"${strVal}"`;
@@ -386,7 +433,7 @@ function exportData() {
     link.click();
     document.body.removeChild(link);
     
-    console.log(`✅ 已导出主页数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段（表格显示7列，导出增加PubMed Link列）`);
+    console.log(`✅ 已导出主页数据 ${filteredData.length} 条记录，包含 ${headers.length} 个字段（导出专用列：PubMed Link / Affinity (Kd) / mmCIF）`);
 }
 
 // 重置所有筛选
