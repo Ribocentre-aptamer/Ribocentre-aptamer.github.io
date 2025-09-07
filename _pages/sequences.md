@@ -417,14 +417,18 @@ function maybeDownloadMmcifForRows(rows, scopeLabel) {
   if (slugs.size === 0) return;
 
   const baseUrl = '{{ site.baseurl }}';
+  const siteOrigin = (window.SITE_CFG && window.SITE_CFG.siteUrl) || window.location.origin;
   const downloads = [];
   slugs.forEach(slug => {
     const info = window.MMCIF_INDEX[slug];
     if (!info) return;
-    if (info.zip) {
-      downloads.push(baseUrl + '/apidata/colored_structures/' + info.zip);
+    // 优先 Releases 资产，其次站点 zip，最后 annotated
+    if (info.releaseZip) {
+      downloads.push(info.releaseZip);
+    } else if (info.siteZip) {
+      downloads.push(info.siteZip);
     } else if (info.annotated && info.annotated.length) {
-      info.annotated.forEach(rel => downloads.push(baseUrl + '/apidata/colored_structures/' + rel));
+      info.annotated.forEach(rel => downloads.push(siteOrigin + baseUrl + '/apidata/colored_structures/' + rel));
     }
   });
 
