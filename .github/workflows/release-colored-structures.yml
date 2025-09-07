@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       tag_name:
-        description: 'download'
+        description: 'release tag'
         required: true
       release_name:
-        description: 'download'
+        description: 'releasee name'
         required: false
       prerelease:
         description: 'Mark as prerelease'
@@ -28,6 +28,15 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Export colored mmCIF and zips
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/export_mmcif_with_annotations.py \
+            --merged apidata/merged_data_0907.json \
+            --output apidata/colored_structures \
+            --net-timeout 120 --net-retries 6 --retry-delay 3 || true
+
       - name: Generate release manifest
         run: |
           python scripts/generate_release_manifest.py \
@@ -47,4 +56,3 @@ jobs:
             apidata/colored_structures/index.json
             apidata/colored_structures/manifest.json
             apidata/colored_structures/**/*.mmcif.zip
-
