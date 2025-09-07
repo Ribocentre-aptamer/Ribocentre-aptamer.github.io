@@ -188,7 +188,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
           <th>Discovery Year</th>
           <th>Affinity (Kd)</th>
           <th>Description</th>
-          <th>3D mmCIF</th>
+          <th>mmCIF</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -420,7 +420,10 @@ function maybeDownloadMmcifForRows(rows, scopeLabel) {
   });
 
   if (downloads.length === 0) return;
-  const ok = confirm(`Detected ${downloads.length} mmCIF file(s) for ${slugs.size} aptamer(s). Download now?\n(Your browser may prompt to allow multiple downloads.)`);
+  const msg = downloads.length === 1
+    ? `Detected 1 mmCIF file. Download now?\n(Your browser may prompt to allow the download.)`
+    : `Detected ${downloads.length} mmCIF file(s). Download now?\n(Your browser may prompt to allow multiple downloads.)`;
+  const ok = confirm(msg);
   if (!ok) return;
 
   // 逐个触发下载，避免被拦截
@@ -1090,7 +1093,7 @@ function loadData(){
             {title:'Year'},
             {title:'Affinity (Kd)'},
             {title:'Description'},
-            {title:'3D mmCIF'}
+            {title:'mmCIF'}
           ],
           responsive:true,
           pageLength:25,
