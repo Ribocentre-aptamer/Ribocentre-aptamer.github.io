@@ -13,9 +13,11 @@
     "watch:js": "chokidar \"js/**/*.js\" -c \"npm run minify:js\" --ignore \"js/dist/**\" --ignore \"**/*.min.js\"",
     "watch:css": "chokidar \"css/**/*.css\" -c \"npm run minify:css\" --ignore \"css/dist/**\" --ignore \"**/*.min.css\"",
     "dev": "concurrently \"npm run watch:js\" \"npm run watch:css\" \"bundle exec jekyll serve --livereload\"",
-    "test:minify": "node scripts/test-minification.js"
+    "test:minify": "node scripts/test-minification.js",
+    "export:3d": "node scripts/export_colored_structures.js --input apidata/merged_data_0907.json --output apidata/colored_structures"
   },
   "devDependencies": {
+    "puppeteer": "^22.10.0",
     "terser": "^5.19.0",
     "cssnano": "^5.1.15",
     "postcss": "^8.4.31",

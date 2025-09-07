@@ -39,6 +39,46 @@ npm install
 bundle exec jekyll serve
 ```
 
+### 3D 结构导出（带注释 mmCIF）
+本项目支持从合并后的数据中，依据 Mol* 染色规则批量生成“带颜色注释”的 mmCIF 文件，并在 Sequences 页面提供下载。
+
+1) 可选：生成颜色配置与索引（便于排查）
+```bash
+python scripts/prepare_colored_structure_configs.py \
+  --merged apidata/merged_data_0907.json \
+  --output apidata/colored_structures
+```
+
+2) 导出注释 mmCIF（主链路）
+```bash
+python scripts/export_mmcif_with_annotations.py \
+  --merged apidata/merged_data_0907.json \
+  --output apidata/colored_structures
+```
+
+- 离线模式（仅注释本地已有 cif，不访问网络）
+```bash
+python scripts/export_mmcif_with_annotations.py --offline \
+  --merged apidata/merged_data_0907.json \
+  --output apidata/colored_structures
+```
+
+- 网络容错（可调超时/重试/回退）
+```bash
+python scripts/export_mmcif_with_annotations.py \
+  --merged apidata/merged_data_0907.json \
+  --output apidata/colored_structures \
+  --net-timeout 120 --net-retries 6 --retry-delay 3
+```
+
+3) 前端下载集成
+- 页面：`/sequences/` 新增列“3D mmCIF”。
+- 有 zip（`<slug>.mmcif.zip`）则优先展示打包下载；否则展示首个 `*.annotated.cif`。
+- “Export Selected / Export All Results” 导出 CSV 后，会提示并批量下载涉及 aptamer 的 mmCIF（需浏览器允许多个下载）。
+
+注：mmCIF 注释以“矩阵”形式写入文件头部注释，清晰列出链号、残基范围与 RGB 颜色。
+详见：`doc/20250907rebuttle.md`。
+
 ## 📁 项目结构
 
 ```
@@ -141,7 +181,7 @@ bundle exec jekyll serve
 
 ### 构建镜像
 ```bash
-ocker build --platform linux/arm64 -t aptamer-jekyll:dev .
+docker build --platform linux/arm64 -t aptamer-jekyll:dev .
 ```
 
 ### 本地运行
@@ -186,5 +226,4 @@ grep -r "使用方法" scripts/
 # 搜索特定功能实现
 grep -r "搜索功能" doc/
 ```
-
 

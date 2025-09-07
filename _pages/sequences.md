@@ -186,7 +186,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
           <th>Length</th>
           <th>GC Content</th>
           <th>Discovery Year</th>
+          <th>Affinity (Kd)</th>
           <th>Description</th>
+          <th>3D mmCIF</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -216,6 +218,8 @@ let rowsPerPage = 10;
 let filteredRows = [];
 let allRows = [];
 let selectedRowIds = new Set(); // 存储选中行的唯一标识符
+// mmCIF 索引（来自 apidata/colored_structures/index.json）
+window.MMCIF_INDEX = {};
 
 function initSimpleTable(rows) {
   allRows = rows;
@@ -386,6 +390,55 @@ function updateSelectedCount() {
   }
 }
 
+// 批量下载所选/结果集对应的 mmCIF 文件（尽量使用预生成zip）
+function maybeDownloadMmcifForRows(rows, scopeLabel) {
+  if (!rows || !rows.length) return;
+  // 收集 slug 集合
+  const slugs = new Set();
+  rows.forEach(d => {
+    const linker = d.Linker || d['Linker'] || '';
+    if (!linker) return;
+    try {
+      const parts = linker.split('/');
+      const last = parts[parts.length - 1] || '';
+      const slug = last.replace(/\.html?$/i, '');
+      if (slug) slugs.add(slug);
+    } catch {}
+  });
+  if (slugs.size === 0) return;
+
+  const baseUrl = '{{ site.baseurl }}';
+  const downloads = [];
+  slugs.forEach(slug => {
+    const info = window.MMCIF_INDEX[slug];
+    if (!info) return;
+    if (info.zip) {
+      downloads.push(baseUrl + '/apidata/colored_structures/' + info.zip);
+    } else if (info.annotated && info.annotated.length) {
+      info.annotated.forEach(rel => downloads.push(baseUrl + '/apidata/colored_structures/' + rel));
+    }
+  });
+
+  if (downloads.length === 0) return;
+  const ok = confirm(`Detected ${downloads.length} mmCIF file(s) for ${slugs.size} aptamer(s). Download now?\n(Your browser may prompt to allow multiple downloads.)`);
+  if (!ok) return;
+
+  // 逐个触发下载，避免被拦截
+  let i = 0;
+  const tick = () => {
+    if (i >= downloads.length) return;
+    const url = downloads[i++];
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = '';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(tick, 250);
+  };
+  tick();
+}
+
 // 辅助函数：截断文本
 function truncateText(text, maxLength) {
   if (!text) return '';
@@ -536,8 +589,37 @@ function buildRows(data){
     // 处理配体描述字段 - 使用tooltip显示完整内容
     const ligandDesc = d['Ligand Description'] ? `<span class="truncated-text" data-full-text="${escapeHtml(d['Ligand Description'])}" data-is-sequence="false">${truncateText(d['Ligand Description'], 20)}</span>` : 'N/A';
     
+    // 处理亲和力（Kd）
+    const affinityField = d['Affinity'] ? `${d['Affinity']}` : 'N/A';
+    
     // 处理Named字段
     const namedField = d.Named || 'N/A';
+
+    // 计算 mmCIF 下载链接（若可用）
+    const slug = (() => {
+      const linker = d.Linker || '';
+      try {
+        const parts = linker.split('/');
+        const last = parts[parts.length - 1] || '';
+        return last.replace(/\.html?$/i, '');
+      } catch (e) { return null; }
+    })();
+    let mmcifCell = '—';
+    if (slug && window.MMCIF_INDEX && window.MMCIF_INDEX[slug]) {
+      const baseUrl = '{{ site.baseurl }}';
+      const info = window.MMCIF_INDEX[slug];
+      if (info.zip) {
+        const zipUrl = baseUrl + '/apidata/colored_structures/' + info.zip;
+        mmcifCell = '<a class="button" href="' + zipUrl + '" download>mmCIF (zip)</a>';
+      } else if (info.annotated && info.annotated.length) {
+        const first = info.annotated[0];
+        const url = baseUrl + '/apidata/colored_structures/' + first;
+        mmcifCell = '<a class="button" href="' + url + '" download>mmCIF</a>';
+        if (info.annotated.length > 1) {
+          mmcifCell += ' <span style="color:#666;font-size:12px">(+' + (info.annotated.length - 1) + ' more)</span>';
+        }
+      }
+    }
     
     return [
       '<input type="checkbox" class="row-select">',
@@ -550,7 +632,9 @@ function buildRows(data){
       d.Length || 'N/A',
       d['GC Content'] && !isNaN(parseFloat(d['GC Content'])) ? (parseFloat(d['GC Content']) * 100).toFixed(1) + '%' : 'N/A',
       yearLink,
-      ligandDesc
+      affinityField,
+      ligandDesc,
+      mmcifCell
     ];
   });
 }
@@ -701,6 +785,10 @@ function exportSelected(){
   
   console.log(`导出选中行：选中 ${selectedRowIds.size} 行，找到 ${selected.length} 行原始数据`);
   exportOriginalDataToCSV(selected, `selected_sequences_${selected.length}_rows.csv`);
+  // 额外：下载所选条目的 mmCIF（打包zip优先）
+  try {
+    maybeDownloadMmcifForRows(selected, 'selected');
+  } catch (e) { console.warn('mmCIF bulk download skipped:', e); }
 }
 
 // 导出所有结果
@@ -751,13 +839,17 @@ function exportAllResults() {
   
   console.log(`导出所有结果：找到 ${originalRows.length} 行原始数据`);
   exportOriginalDataToCSV(originalRows, `all_sequences_${originalRows.length}_rows.csv`);
+  // 额外：下载当前结果涉及的所有 mmCIF（打包zip优先）
+  try {
+    maybeDownloadMmcifForRows(originalRows, 'all');
+  } catch (e) { console.warn('mmCIF bulk download skipped:', e); }
 }
 
 // 导出原始数据的CSV函数
 function exportOriginalDataToCSV(dataRows, filename) {
   console.log(`开始导出CSV文件: ${filename}，包含 ${dataRows.length} 行数据`);
   
-  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Discovery Year','Description','PubMed Link'];
+  const headers=['Sequence Name','Aptamer Name','Category','Type','Article name','Sequence','Length','GC Content','Discovery Year','Affinity (Kd)','Description','PubMed Link'];
   const csv=[headers.join(',')];
   
   let processedCount = 0;
@@ -806,6 +898,7 @@ function exportOriginalDataToCSV(dataRows, filename) {
         `"${safeString(data.Length || 'N/A').replace(/"/g, '""')}"`,
         `"${safeString(gcContent).replace(/"/g, '""')}"`,
         `"${safeString(data.Year || 'N/A').replace(/"/g, '""')}"`,
+        `"${safeString(data['Affinity'] || 'N/A').replace(/"/g, '""')}"`,
         `"${safeString(data['Ligand Description'] || 'N/A').replace(/"/g, '""')}"`,
         `"${safeString(pubmedLink).replace(/"/g, '""')}"`,
       ].join(','));
@@ -842,9 +935,23 @@ function exportOriginalDataToCSV(dataRows, filename) {
 }
 
 function loadData(){
-  fetch('{{ site.baseurl }}/apidata/sequences_cleaned.json')
-    .then(r=>r.json())
-    .then(json=>{
+  // 同时加载 sequences 和 mmCIF 索引
+  const seqPromise = fetch('{{ site.baseurl }}/apidata/sequences_cleaned.json').then(r=>r.json());
+  const mmcifPromise = fetch('{{ site.baseurl }}/apidata/colored_structures/index.json')
+    .then(r => r.ok ? r.json() : { items: [] })
+    .catch(() => ({ items: [] }));
+
+  Promise.all([seqPromise, mmcifPromise])
+    .then(([json, mmcifIndex])=>{
+      // 构建 mmCIF 映射：slug -> { annotated: [paths], zip: path }
+      const map = {};
+      (mmcifIndex.items || []).forEach(it => {
+        if (!it || !it.slug) return;
+        const ann = it.annotated_cif_list || (it.annotated_cif ? [it.annotated_cif] : []);
+        const z = it.zip || null;
+        map[it.slug] = { annotated: ann, zip: z };
+      });
+      window.MMCIF_INDEX = map;
       // 处理数据结构，如果数据在Sheet1中
       let data = json.Sheet1 || json;
       
@@ -981,7 +1088,9 @@ function loadData(){
             {title:'Length'},
             {title:'GC Content'},
             {title:'Year'},
-            {title:'Description'}
+            {title:'Affinity (Kd)'},
+            {title:'Description'},
+            {title:'3D mmCIF'}
           ],
           responsive:true,
           pageLength:25,

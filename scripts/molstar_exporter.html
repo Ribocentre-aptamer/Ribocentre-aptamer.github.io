@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mol* Colored Exporter</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar.css" />
+    <script src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <style>
+      body { margin: 0; font-family: sans-serif; }
+      #viewer { width: 800px; height: 600px; margin: 0 auto; }
+    </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+    <script>
+      // Helpers
+      function qs() {
+        const p = new URLSearchParams(window.location.search);
+        const obj = {};
+        for (const [k, v] of p.entries()) obj[k] = v;
+        return obj;
+      }
+      function getPlugin(inst) {
+        return inst && (inst.plugin || inst._plugin || inst.__plugin || inst.pdbeMolstarPlugin || null);
+      }
+
+      // Global viewer instance
+      window.viewerInstance = new PDBeMolstarPlugin();
+
+      async function initFromQuery() {
+        const params = qs();
+        const pdb = params.pdb || '';
+        const bg = params.bg || '255,255,255';
+        const [r,g,b] = bg.split(',').map(x => parseInt(x,10));
+
+        const container = document.getElementById('viewer');
+        const options = {
+          customData: { url: pdb, format: 'pdb' },
+          hideCanvasControls: ['expand', 'selection', 'animation', 'controlToggle'],
+          bgColor: { r: isNaN(r)?255:r, g: isNaN(g)?255:g, b: isNaN(b)?255:b }
+        };
+        await window.viewerInstance.render(container, options);
+        window.viewerReady = true;
+      }
+
+      window.applyColors = async function(colorData, nonSelectedColor) {
+        if (!window.viewerReady) return false;
+        try {
+          window.viewerInstance.visual.select({ data: colorData || [], nonSelectedColor: nonSelectedColor || {r:255,g:255,b:255} });
+          return true;
+        } catch (e) {
+          console.error('applyColors error', e);
+          return false;
+        }
+      }
+
+      window.exportState = async function() {
+        try {
+          const p = getPlugin(window.viewerInstance);
+          if (!p) return null;
+          // Try snapshot manager
+          const mgr = p.managers && p.managers.snapshot;
+          if (mgr && typeof mgr.getState === 'function') {
+            const snap = mgr.getState();
+            return JSON.stringify(snap);
+          }
+          // Fallback to method used in Mol* core
+          if (typeof p.getStateSnapshot === 'function') {
+            const snap = p.getStateSnapshot();
+            return JSON.stringify(snap);
+          }
+          return null;
+        } catch (e) {
+          console.error('exportState error', e);
+          return null;
+        }
+      }
+
+      // Initialize
+      window.addEventListener('load', initFromQuery);
+    </script>
+  </body>
+  </html>
+
