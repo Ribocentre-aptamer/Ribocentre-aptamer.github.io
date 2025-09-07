@@ -213,7 +213,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
 // 站点配置，便于在 GitHub Pages 上生成绝对下载链接
 window.SITE_CFG = {
   baseurl: '{{ site.baseurl }}',
-  siteUrl: '{{ site.url }}' || window.location.origin
+  siteUrl: '{{ site.url }}' || window.location.origin,
+  repoOwner: '{{ site.repo_owner }}',
+  repoName: '{{ site.repo_name }}',
+  releaseTag: '{{ site.colored_structures_release_tag }}'
 };
 
 let table;
@@ -618,9 +621,10 @@ function buildRows(data){
       const baseUrl = (window.SITE_CFG && window.SITE_CFG.baseurl) || '';
       const siteOrigin = (window.SITE_CFG && window.SITE_CFG.siteUrl) || window.location.origin;
       const info = window.MMCIF_INDEX[slug];
-      if (info.zip) {
-        const zipUrl = siteOrigin + baseUrl + '/apidata/colored_structures/' + info.zip;
-        mmcifCell = '<a class="button" href="' + zipUrl + '" download>mmCIF (zip)</a>'; 
+      if (info.releaseZip) {
+        mmcifCell = '<a class="button" href="' + info.releaseZip + '" download>mmCIF (zip)</a>';
+      } else if (info.siteZip) {
+        mmcifCell = '<a class="button" href="' + info.siteZip + '" download>mmCIF (zip)</a>';
       } else if (info.annotated && info.annotated.length) {
         const first = info.annotated[0];
         const url = siteOrigin + baseUrl + '/apidata/colored_structures/' + first;
@@ -961,18 +965,32 @@ function loadData(){
         const z = it.zip || null;
         map[it.slug] = { annotated: ann, zip: z };
       });
-      // 预检 zip 是否可用（GitHub Pages 上如文件未发布则回退为 annotated）
+      // 预检 zip 是否可用：优先 GitHub Releases 资产，其次站点路径
       const baseUrl = (window.SITE_CFG && window.SITE_CFG.baseurl) || '';
       const siteOrigin = (window.SITE_CFG && window.SITE_CFG.siteUrl) || window.location.origin;
+      const owner = (window.SITE_CFG && window.SITE_CFG.repoOwner) || '';
+      const repo = (window.SITE_CFG && window.SITE_CFG.repoName) || '';
+      const tag = (window.SITE_CFG && window.SITE_CFG.releaseTag) || '';
       const preflights = [];
       Object.keys(map).forEach(slug => {
         const info = map[slug];
         if (info && info.zip) {
-          const url = siteOrigin + baseUrl + '/apidata/colored_structures/' + info.zip;
+          // Releases 资产 URL
+          const assetName = slug + '.mmcif.zip';
+          const relUrl = owner && repo && tag ? `https://github.com/${owner}/${repo}/releases/download/${tag}/${assetName}` : null;
+          if (relUrl) {
+            preflights.push(
+              fetch(relUrl, { method: 'HEAD', cache: 'no-store' })
+                .then(resp => { info.releaseZip = resp.ok ? relUrl : null; })
+                .catch(() => { info.releaseZip = null; })
+            );
+          }
+          // 站点 zip 作为后备
+          const siteZip = siteOrigin + baseUrl + '/apidata/colored_structures/' + info.zip;
           preflights.push(
-            fetch(url, { method: 'HEAD', cache: 'no-store' })
-              .then(resp => { if (!resp.ok) info.zip = null; })
-              .catch(() => { info.zip = null; })
+            fetch(siteZip, { method: 'HEAD', cache: 'no-store' })
+              .then(resp => { info.siteZip = resp.ok ? siteZip : null; })
+              .catch(() => { info.siteZip = null; })
           );
         }
       });

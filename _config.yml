@@ -13,6 +13,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: ""
 
+# Release download configuration for colored structures
+repo_owner: RNA-Aptamer-Database
+repo_name: Ribocentre-aptamer.github.io
+colored_structures_release_tag: 20250907-1
+
 include:
   - .htaccess
   - _pages
@@ -63,5 +68,4 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
-
 

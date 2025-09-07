@@ -398,12 +398,15 @@ async function exportData() {
                 const slug = last.replace(/\.html?$/i, '');
                 const info = mmcifMap[slug];
                 if (info) {
-                    const baseUrl = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.baseurl) || '';
-                    const siteOrigin = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.siteUrl) || window.location.origin;
-                    if (info.zip) {
-                        mmcif = `${siteOrigin}${baseUrl}/apidata/colored_structures/${info.zip}`;
+                    const owner = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.repoOwner) || '';
+                    const repo = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.repoName) || '';
+                    const tag = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.releaseTag) || '';
+                    if (info.zip && owner && repo && tag) {
+                        mmcif = `https://github.com/${owner}/${repo}/releases/download/${tag}/${slug}.mmcif.zip`;
                     } else if (info.annotated && info.annotated.length) {
-                        mmcif = `${siteOrigin}${baseUrl}/apidata/colored_structures/${info.annotated[0]}`;
+                        const siteUrl = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.siteUrl) || window.location.origin;
+                        const baseUrl = (window.DASHBOARD_CONFIG && window.DASHBOARD_CONFIG.baseurl) || '';
+                        mmcif = `${siteUrl}${baseUrl}/apidata/colored_structures/${info.annotated[0]}`;
                     }
                 }
             }
