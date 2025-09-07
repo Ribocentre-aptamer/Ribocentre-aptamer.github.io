@@ -1,0 +1,50 @@
+name: Release Colored Structures
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'download'
+        required: true
+      release_name:
+        description: 'download'
+        required: false
+      prerelease:
+        description: 'Mark as prerelease'
+        required: false
+        default: 'false'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to create releases
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate release manifest
+        run: |
+          python scripts/generate_release_manifest.py \
+            --root apidata/colored_structures \
+            --manifest apidata/colored_structures/manifest.json \
+            --notes apidata/colored_structures/release_notes.md
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag_name }}
+          name: ${{ github.event.inputs.release_name || github.event.inputs.tag_name }}
+          body_path: apidata/colored_structures/release_notes.md
+          draft: false
+          prerelease: ${{ github.event.inputs.prerelease == 'true' }}
+          files: |
+            apidata/colored_structures/index.json
+            apidata/colored_structures/manifest.json
+            apidata/colored_structures/**/*.mmcif.zip
+
