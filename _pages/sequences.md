@@ -961,7 +961,27 @@ function loadData(){
         const z = it.zip || null;
         map[it.slug] = { annotated: ann, zip: z };
       });
-      window.MMCIF_INDEX = map;
+      // 预检 zip 是否可用（GitHub Pages 上如文件未发布则回退为 annotated）
+      const baseUrl = (window.SITE_CFG && window.SITE_CFG.baseurl) || '';
+      const siteOrigin = (window.SITE_CFG && window.SITE_CFG.siteUrl) || window.location.origin;
+      const preflights = [];
+      Object.keys(map).forEach(slug => {
+        const info = map[slug];
+        if (info && info.zip) {
+          const url = siteOrigin + baseUrl + '/apidata/colored_structures/' + info.zip;
+          preflights.push(
+            fetch(url, { method: 'HEAD', cache: 'no-store' })
+              .then(resp => { if (!resp.ok) info.zip = null; })
+              .catch(() => { info.zip = null; })
+          );
+        }
+      });
+      return Promise.all(preflights).then(() => {
+        window.MMCIF_INDEX = map;
+        return json;
+      });
+    })
+    .then((json)=>{
       // 处理数据结构，如果数据在Sheet1中
       let data = json.Sheet1 || json;
       
